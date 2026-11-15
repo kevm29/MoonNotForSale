@@ -34,6 +34,9 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:400;text-wrap:balance;letter-spa
 /* ---------- écran titre ---------- */
 [hidden]{display:none !important}
 #title{display:grid;gap:16px;padding-top:0}
+/* le bloc du titre se cale près du bord gauche, dans le ciel sombre */
+.marquee,.panel{margin-left:calc(-1 * max(0px, (100vw - 1180px) / 2 - 4vw))}
+.tabs{flex-wrap:nowrap;width:max-content}
 .marquee{position:relative;z-index:1;max-width:min(560px,46vw);padding-top:clamp(16px,4vh,44px)}
 
 .marquee h1,.marquee p{text-shadow:0 2px 14px rgba(5,10,24,.9)}
@@ -152,6 +155,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   #side{padding-top:0}
 }
 @media (max-aspect-ratio:1/1){
+  .marquee,.panel{margin-left:0}
+  .tabs{flex-wrap:wrap;width:auto}
   .bg{position:absolute;top:0;left:calc(-1 * max(16px, env(safe-area-inset-left, 0px)));right:calc(-1 * max(16px, env(safe-area-inset-right, 0px)));bottom:auto;height:min(112.5vw,62vh);margin-top:-14px}
   .stage{top:0;transform:none;height:100%;width:calc(min(112.5vw,62vh) * 1.7768)}
   .stage::after{background:linear-gradient(180deg,rgba(10,24,40,0) 55%,#0a1828)}
