@@ -1,0 +1,286 @@
+# ================================================================
+# PROLOGUE 4 — COLONELLE AGATHE BRISEFER, Gravitaire, retraitée de l'Axe
+# ================================================================
+
+@bri_01
+!title: Les Magmas Paisibles
+Maison de retraite « Les Magmas Paisibles », manteau terrestre, quatre cents kilomètres sous la surface. Toi, Colonelle Agathe Brisefer, Gravitaire, granit et basalte, onze tonnes de mauvais caractère, tu as tenu l'Axe de la Terre pendant trois mille ans. Assise dessus. Droite. Sans broncher.
+On t'a mise à la retraite il y a cent ans. Depuis, tu manges de la soupe de lave tiède et tu presses des fleurs séchées que tu reçois par la poste. Personne ne sait pour les fleurs.
+Ce soir, ta soupe glisse toute seule vers le bord de l'assiette.
+* bri_02 rus10 | Observer la soupe | Elle glisse vers l'est. Toujours vers l'est. Tu connais ce mouvement. Tu l'as empêché pendant trois mille ans. | Tu observes la soupe si fort qu'elle refroidit. | rus+1 |
+* bri_03 pan11 | Taper du poing sur la table | La table se fend. La soupe s'arrête, par respect. Les autres pensionnaires lèvent la tête. | Tu tapes. La table résiste. Ton poing, moins. | pan+1 | mor-1
+
+@bri_02
+La soupe glisse. La salle entière glisse : les chaises, les dentiers de quartz, les tricots de magma. Toute la maison de retraite penche d'un demi-degré.
+L'Axe bouge. Quelqu'un, là-haut, tire sur la Terre par le mauvais bout.
+* bri_04 pan12 | Te lever et aller vers l'Axe | Tu te lèves. Onze tonnes debout. Ça fait trembler le plafond. L'infirmière lâche son plateau. | Tu te lèves, ton genou craque comme une faille. Tu restes debout quand même. Par principe. | pan+1 | mor-1
+* bri_05 coe10 | Rassurer les autres pensionnaires | « Restez assis. Je m'en occupe. » Ta voix de colonelle les fait asseoir. Même ceux qui étaient déjà assis s'assoient davantage. | « Ne paniquez pas ! » hurles-tu. Tout le monde panique, parce que tu as hurlé. | equ+2 |
+
+@bri_03
+Le vieux Gravitaire Moraine, ton voisin de table, ancien artilleur de séismes, lève son menton de gravier. « T'as senti, Brisefer ? Ça penche. » Il essuie sa soupe sur son plastron. « De mon temps, quand ça penchait, on s'asseyait dessus. »
+« De ton temps, Moraine, tu dormais dessus. »
+* bri_02 rus10 | Regarder ce qui penche exactement | Tu regardes. Tout penche, vers l'est. Toujours vers l'est. |  |
+* bri_05 coe11 | Lui demander s'il a peur | Il hausse ses épaules de roche. « J'ai deux mille ans. La peur, c'est pour les jeunes. » Sa main tremble. Tu la prends. Tu ne le dis à personne. | Il ne répond pas. Il mange. Tu le laisses manger. | coe+1 |
+
+@bri_04
+L'infirmière en chef, une Gravitaire très ronde au tablier de mica, te barre le chemin. « Colonelle, vous êtes à la retraite. L'Axe n'est plus votre affaire. Il y a une nouvelle génération. »
+« La nouvelle génération ne sait pas s'asseoir. »
+« Ils ont des diplômes. »
+« Les diplômes, ça ne pèse rien. »
+* bri_06 pan11 | La pousser gentiment du chemin | Tu la déplaces comme une commode. Elle proteste, puis elle te tend ton vieux casque de service. « Faites attention à votre genou. » | Elle ne bouge pas. Elle est ronde mais dense. Tu passes par la fenêtre. | +flag:casque |
+* bri_07 rus12 | La convaincre avec un argument | « Si l'Axe tombe, votre maison de retraite glisse dans le noyau. Et la soupe avec. » Elle réfléchit. Elle te laisse passer. | Elle te répond par un règlement intérieur en sept points. Tu passes quand même. | rus+1 |
+
+@bri_05
+Les pensionnaires se calment, mais pas toi. Tu sens dans tes os de basalte un mouvement familier, un tiraillement lent et profond : la Terre est en train de basculer. Comme une toupie fatiguée. Pendant trois mille ans, tu étais le poids qui la tenait droite.
+Dans ta chambre, sur la commode, il y a ton vieux casque. Et une boîte de fleurs séchées.
+* bri_06 pan10 | Prendre ton casque | Tu le mets. Il est un peu serré. Tu as pris du volume en cent ans de soupe. Ça n'a pas d'importance. | Le casque ne passe plus. Tu le portes sous le bras. Ça a de l'allure aussi. | pan+1 +flag:casque | +flag:casque
+* bri_08 coe12 | Prendre aussi la boîte de fleurs | Tu prends la boîte. Une marguerite séchée tombe. Tu la ramasses. Tu n'as jamais vu de marguerite vivante. Tu en verras peut-être une, là-haut. | Tu la prends, mais tu la caches si vite que tu écrases un coquelicot. Tu as un peu honte. | coe+1 +flag:fleurs |
+
+@bri_06
+Tu marches dans les couloirs de lave. Les jeunes infirmiers s'écartent. Un vieux pensionnaire te fait le salut militaire depuis son fauteuil de basalte. Tu le lui rends. Ça fait un bruit d'éboulement respectueux.
+La sortie de la maison donne sur la Grande Descente : un tunnel de cinquante kilomètres, droit vers l'Axe.
+* bri_09 pan12 | Descendre au pas de charge | Tu charges. Les murs du tunnel tremblent sur ton passage. Tu es une colonelle, et les colonelles descendent vite. | Tu charges, ton genou cède, tu descends les dix derniers kilomètres en roulant. C'est plus rapide. | pan+1 equ+2 | mor-1
+* bri_10 rus11 | Prendre le monte-charge de service | Le monte-charge grince : « Poids maximum : neuf tonnes. » Tu montes quand même. Il proteste mais il descend. | Le monte-charge se bloque à mi-chemin. Tu sautes. Onze tonnes qui sautent, ça s'entend jusqu'au noyau. | rus+1 |
+
+@bri_07
+Tu sors. L'infirmière te regarde partir, les mains sur son tablier. Elle crie, au dernier moment : « Colonelle ! Mon fils est de garde à l'Axe ce soir ! Il s'appelle Galène ! Il est jeune ! »
+Tu ne réponds pas. Mais tu retiens le nom.
+* bri_09 coe11 | Lui promettre de veiller sur lui | Tu lèves la main sans te retourner. Elle sait ce que ça veut dire. | Tu lèves la main mais elle est déjà rentrée. Tu promets quand même, pour toi. | coe+1 +flag:galene |
+* bri_10 pan10 | Partir sans te retourner | Tu ne te retournes pas. Les colonelles ne se retournent pas. Elles s'en souviennent. | | +flag:galene |
+
+@bri_08
+Tu ouvres la boîte une seconde. Des fleurs séchées, de toutes les couleurs, que quelqu'un, là-haut, t'envoie par la poste depuis cinquante ans. Une carte, toujours la même : « Pour la gardienne du dessous. » Jamais de signature.
+Tu n'as jamais su qui. Tu n'as jamais osé chercher.
+* bri_06 coe11 | Refermer la boîte et partir | Tu la fermes. Tu la glisses dans ta cuirasse, contre ton cœur de granit. Elle pèse trois grammes. Tu la sens comme trois tonnes. | Tu la fermes trop fort. Une pétale de lavande s'échappe. Elle tombe au ralenti. | mor+1 |
+
+@bri_09
+L'Axe de la Terre. Une colonne de fer et de nickel, si large qu'on ne voit pas son autre bord, si haute qu'elle traverse la planète de part en part. Autour, une salle immense. Et sur l'Axe, des dizaines de jeunes Gravitaires assis, en uniforme, qui pèsent de tout leur poids. Ils transpirent du sable.
+L'Axe gémit. Il penche. Tout penche.
+* bri_11 pan12 | T'asseoir sur l'Axe sans attendre | Tu t'assois. Onze tonnes d'expérience. L'Axe se redresse d'un dixième de degré. Les jeunes te regardent comme une légende. | Tu t'assois, et ton genou te lâche. Tu tombes à côté. Tu remontes. Tu t'assois. Ça compte. | pan+1 equ+3 | equ+1
+* bri_12 rus11 | Inspecter d'abord la situation | Les jeunes sont mal placés. Ils sont tous du même côté. Personne ne leur a appris à s'asseoir en contrepoids. | Tu inspectes trop longtemps. L'Axe penche d'un degré de plus pendant que tu réfléchis. | rus+1 | equ-2
+
+@bri_10
+!fx: +flag:galene
+Tu arrives à l'Axe par la porte de service. Un jeune Gravitaire, à peine trois cents ans, galets de lait encore sur les joues, t'accueille en tremblant. Son badge dit : « Galène — Garde de l'Axe, stagiaire ».
+« Madame ! Madame, on n'y arrive pas ! Ça tire ! Ça tire par en haut ! »
+* bri_11 coe11 | Lui poser la main sur l'épaule | Il se calme. Tu lui dis que la peur, c'est normal, et que l'Axe s'en moque tant qu'on reste assis. Il rougit. Les Gravitaires rougissent en rouille. | Il sursaute. Ta main pèse deux tonnes. Il s'assoit par terre. | coe+1 |
+* bri_12 pan11 | Lui ordonner de se ressaisir | « Garde-à-vous ! » Il se redresse. Ses jambes tremblent, mais il se redresse. C'est ça, un soldat. | Il se met au garde-à-vous si vite qu'il tombe. | pan+1 |
+
+@bri_11
+?from:bri_10 Tu emmènes Galène jusqu'à l'Axe et tu t'assois à côté de lui, de tout ton poids.
+Assise sur l'Axe, tu le sens. Tout. La Terre qui veut basculer, attirée par la Lune qu'on emporte. Le tiraillement des marées, là-haut, très loin. Et le cœur de la planète, en bas, qui bat plus vite que d'habitude. Comme un cœur qui a peur.
+Tu n'as jamais senti la Terre avoir peur.
+* bri_13 coe12 | Parler à la Terre, en dessous de toi | « Calme-toi. Je suis là. » Tu le dis tout bas. Tu as l'impression que le cœur ralentit un peu. Juste un peu. | Tu parles, mais le grondement couvre ta voix. Tu parles plus fort. Ça ne change rien, mais ça te fait du bien. | coe+1 equ+2 |
+* bri_14 pan11 | Peser plus fort, de toute ta masse | Tu pèses. Tu deviens plus lourde que tu n'as jamais été. L'Axe se redresse encore. Tes os crient. | Tu pèses et quelque chose craque dans ton dos. Pas l'Axe. Toi. | equ+3 | mor-1
+
+@bri_12
+Tu observes, et tu donnes tes ordres. « Toi, à gauche. Toi, au fond. Toi, arrête de pleurer, ça mouille l'Axe. Répartissez-vous en étoile. Une étoile, bande de cailloux, pas un tas ! »
+Les jeunes Gravitaires se déplacent. L'Axe se stabilise. Pour l'instant.
+* bri_13 pan11 | Prendre ta place au centre | Tu t'assois au centre de l'étoile. Tu es le poids principal. Le pivot. Tu retrouves une sensation que tu croyais morte. | Tu prends ta place, mais tu es la seule au centre et les autres pèsent mal. Il faudra recommencer. | equ+2 +flag:etoile |
+* bri_15 coe10 | Féliciter les jeunes | « Bien. Très bien. » Ils te regardent comme si tu avais dit un poème. Personne ne les avait jamais félicités. | Tu dis « Pas mal » et ils le prennent mal. | mor+1 +flag:etoile |
+
+@bri_13
+!fx: +flag:commandant
+L'Axe tient. Pour l'instant. Mais ça ne suffit pas. Tu le sais, les jeunes le savent. Le tiraillement vient d'en haut, de très loin. Tant que la Lune s'éloigne, l'Axe penchera.
+Un vieux Gravitaire, le Commandant de la Garde, un monolithe de quatre mille ans qui ne parle qu'en grognements, s'approche de toi.
+« Grrm. Brisefer. Toujours vivante. »
+* bri_16 rus11 | Lui demander les nouvelles d'en haut | « Grrm. La Lune est vendue. Un promoteur. Il l'emporte. Grrm. » Il crache un petit caillou. « Ça va mal finir. » | « Grrm. » C'est tout. Tu traduis : ça va mal. | +flag:sait_vente |
+* bri_17 pan12 | Lui reprocher de t'avoir mise à la retraite | « Grrm. Tu étais vieille. » « Je suis toujours vieille, et je suis toujours là. » Il grogne. Ça ressemble à un rire. | Il ne répond pas. Il grogne. Ce n'est pas une excuse. | pan+1 |
+
+@bri_14
+Tu pèses de toutes tes forces. L'Axe se redresse. Mais quelque chose en toi s'est fissuré. Une petite fissure, dans ton dos, entre deux strates. Tu la sens qui s'élargit quand tu respires.
+Tu as trois mille cent ans. Ton corps te le rappelle.
+* bri_16 coe11 | Le cacher aux jeunes | Tu ne dis rien. Une colonelle ne se fissure pas en public. Elle se fissure seule, le soir. | Un jeune garde voit la fissure. Il ne dit rien. Il s'assoit plus près de toi, pour peser à ta place. | coe+1 +flag:fissure | +flag:fissure
+* bri_15 pan10 | Ignorer la douleur | Tu l'ignores. La douleur, c'est une information. Tu as déjà assez d'informations. | | +flag:fissure |
+
+@bri_15
+!fx: +flag:galene
+?!from:bri_12 Un jeune garde s'assoit à côté de toi sur l'Axe. Son badge dit : « Galène, stagiaire ».
+?from:bri_12 Parmi les jeunes de l'étoile, l'un d'eux vient s'asseoir à côté de toi. Son badge dit : « Galène, stagiaire ».
+Il est jeune, il est petit pour un Gravitaire : à peine quatre tonnes. Il pèse de tout son petit poids. « Madame, est-ce qu'on va y arriver ? »
+Tu regardes ses joues de galet, son badge de stagiaire, ses mains qui tremblent.
+* bri_16 coe12 | Lui dire la vérité | « Je ne sais pas. » Il hoche la tête. « Merci. Les autres disent tous oui. » Il pèse un peu plus fort. | Tu lui dis la vérité trop brutalement. Il pleure du sable. Tu lui tapotes la tête. Il pleure moins. | coe+1 |
+* bri_17 pan11 | Lui dire que oui, évidemment | « Évidemment. » Il te croit. Il sourit. Tu as menti. Tu as bien fait. | Tu le dis sans conviction. Il le sent. | mor+1 |
+
+@bri_16
+?!flag:commandant Un vieux Gravitaire s'approche de toi : le Commandant de la Garde, un monolithe de quatre mille ans qui ne parle qu'en grognements. « Grrm. Brisefer. Toujours vivante. »
+Le Commandant grogne. « Grrm. Tenir l'Axe, ça ne suffira pas. Il faut quelqu'un en haut. Quelqu'un qui parle. Grrm. Tu sais parler, toi. Mal. Mais tu parles. »
+Il désigne un tunnel, au fond de la salle. « Va voir la Faille. Elle sait des choses. Grrm. Elle dit des choses. Grrm. Trop de choses. »
+* bri_18 pan11 | Accepter la mission | Tu salues. Il salue. Deux montagnes qui se saluent, ça fait trembler le Pacifique. | Tu salues avec la mauvaise main. Il fait semblant de ne pas voir. | equ+2 |
+* bri_18 rus12 | Exiger d'abord qu'il te réintègre officiellement | « Grrm. Réintégrée. Colonelle Brisefer, en service actif. Grrm. » Il te tend un nouveau badge. Tu le mets à côté de l'ancien. | « Grrm. Plus tard. » Tu pars quand même. Tu exigeras plus tard. | +flag:reintegree |
+
+@bri_17
+Les heures passent. Tu restes assise. Tu donnes des ordres. Tu manges un caillou sec, parce qu'il n'y a plus de soupe. Tu penses aux fleurs séchées qu'on t'envoie depuis cinquante ans. Tu penses à la surface, que tu n'as jamais vue. Trois mille ans à garder un monde que tu n'as jamais regardé.
+* bri_16 coe11 | Te demander pourquoi tu n'es jamais montée | Parce qu'il fallait que quelqu'un reste en bas. Parce que tu avais peur de la lumière. Parce que personne ne t'avait invitée. | Tu ne sais pas. Ça te met en colère de ne pas savoir. | coe+1 |
+* bri_18 pan10 | Décider que cette fois, tu monteras | Tu le décides. Une décision de granit. Elle ne bougera plus. | | pan+1 |
+
+@bri_18
+Tu laisses le commandement de l'Axe aux jeunes, avec ta voix la plus dure : « Si vous vous levez, je le saurai. Si vous pleurez, je le saurai. Si vous vous asseyez de travers, je le saurai et je reviendrai. »
+?flag:galene Galène te salue. « Madame. Je tiendrai. » Tu le crois. C'est la première fois depuis longtemps que tu crois quelqu'un.
+* bri_19 pan10 | Partir vers la Faille | Tu pars dans le tunnel. Derrière toi, l'Axe tient. Devant toi, la nuit. | Tu pars, et ton genou te rappelle qu'il existe. |  |
+* bri_20 coe11 ?flag:casque ?flag:galene | Laisser ton vieux casque à Galène | Tu le poses sur sa tête. Il est trop grand pour lui. Il le portera jusqu'à ce qu'il soit à sa taille. | Il ne veut pas le prendre. Tu insistes. Il le prend. Il pleure. Tu fais semblant de ne pas voir. | coe+1 mor+1 +flag:casque_galene |
+
+@bri_19
+Le tunnel vers la Faille descend encore. Il fait chaud, puis froid, puis chaud. Les parois sont couvertes de dessins anciens : des Gravitaires assis sur l'Axe, des siècles et des siècles de Gravitaires assis. Tu te reconnais sur un dessin, jeune, mince : à peine six tonnes. Tu étais jolie.
+* bri_21 coe11 | T'arrêter devant ton portrait | Tu le regardes. Tu étais sérieuse déjà. Mais il y avait une fleur derrière ton oreille, sur le dessin. Tu ne te souvenais pas de ça. | Tu le regardes et ça t'agace d'avoir été jeune. | coe+1 |
+* bri_22 pan10 | Avancer sans regarder | Le passé, c'est du gravier. On marche dessus. |  |
+
+@bri_20
+Galène te regarde avec ton casque trop grand sur la tête. « Madame, il y a quelque chose qu'on raconte, entre gardes. On dit que la Faille connaît l'avenir. On dit qu'elle a prédit que la Lune partirait un jour. On dit qu'elle a prédit aussi comment elle reviendrait. »
+* bri_21 rus11 | Lui demander comment | « Je ne sais pas. On dit qu'il faudrait que la Terre la suive. Ça ne veut rien dire. Une planète ne suit personne. » | « Je ne sais pas. On dit beaucoup de choses entre gardes. On s'ennuie. » | +flag:rumeur_suivre |
+* bri_22 coe10 | Le remercier | Il rougit. En rouille. Il est mignon. Tu ne le diras jamais. | |
+
+@bri_21
+?from:bri_20 Tu prends le tunnel du fond de la salle. Il descend longtemps, puis il s'ouvre sur le vide.
+La Faille. Une immense fissure dans la roche, si profonde qu'on ne voit pas le fond, si ancienne qu'elle a des rides. Elle parle d'une voix de vent dans un canyon, en faisant des échos qui reviennent un peu changés.
+« Brisefer. Petite Brisefer. Tu as grossi. »
+C'est Grand-Mère Faille. La plus vieille chose vivante de la Terre. Elle est un trou, et elle a un caractère épouvantable.
+* bri_23 pan11 | « Bonsoir, Grand-Mère. » | « Bonsoir, petite. Toujours aussi aimable qu'un tremblement de terre. J'aime ça. » | « Ne m'appelle pas Grand-Mère, je suis un gouffre. » Elle t'en veut déjà. | |
+* bri_24 rus11 | Lui demander directement ce qui va se passer | « Directement ? Personne ne me demande jamais rien directement. Tout le monde tourne autour du trou. » Elle rit. Un éboulement. | « Patience, petite. Les gouffres ne se pressent pas. » | rus+1 |
+
+@bri_22
+Tu arrives au bord de la Faille. Un gouffre sans fond, qui respire. Une voix en monte, vieille comme les plaques tectoniques : « Brisefer. Tu viens enfin me voir. Trois mille ans que tu passes à côté de moi sans me dire bonjour. »
+« Je travaillais, Grand-Mère. »
+« Tu t'asseyais. Ce n'est pas un travail. C'est une posture. »
+* bri_23 coe11 | T'excuser | « Pardon, Grand-Mère. » La Faille se tait, surprise. « Tu as changé, petite. Tu t'excuses maintenant. » | Tu t'excuses en grognant. Elle trouve que ça ne compte pas. | coe+1 |
+* bri_24 pan12 | La remettre à sa place | « Une posture qui t'a empêchée de te refermer, vieille crevasse. » Elle rit, un rire de séisme. « Bien répondu. » | Elle ne rit pas. Le sol tremble un peu sous tes pieds. Avertissement. | pan+1 | mor-1
+
+@bri_23
+« Écoute-moi, petite. La Lune s'en va. Elle a été vendue par un lichen distrait à un promoteur doré. Il l'emmène loin, dans un système où les satellites se louent à la semaine. Si elle part, les mers s'arrêteront, les rêves s'effaceront, les Horlogers perdront le temps, et l'Axe basculera. Toi, tu tomberas avec. »
+Elle souffle. « Il y a plusieurs façons d'empêcher ça. Toutes mauvaises. Certaines moins. »
+* bri_25 rus12 | Lui demander les façons | « La plus folle : la Terre suit la Lune. Vous déménagez tous. La plus triste : quelqu'un devient la Lune à sa place. La plus bête : vous la rachetez. La plus vraie : vous lui demandez son avis. » | « Plusieurs. Je ne les dis pas toutes. Ce serait trop facile. » | +flag:prophetie |
+* bri_26 coe11 | Lui demander ce qu'elle ferait, elle | « Moi ? Je suis un trou. Je resterais là. » Elle se tait. « Mais si j'avais des jambes, je monterais lui dire qu'on l'aime. Personne ne lui dit jamais. » | « Je ne fais rien, petite. Je suis un trou. C'est ma force. » | coe+1 |
+
+@bri_24
+La Faille respire. L'air chaud monte de ses profondeurs. « Tu veux savoir l'avenir, petite ? L'avenir est une couche de roche qu'on n'a pas encore posée. Il n'existe pas. Mais je vois des lignes. Je vois une Lune rendue, une Lune achetée, une Lune remplacée. Je vois une Terre qui marche. Je vois des gens qui dorment très longtemps. Je vois quelqu'un qui devient blanc et rond. »
+* bri_25 rus11 | Lui demander qui devient blanc et rond | « Peut-être toi. Peut-être un autre. Les lignes sont floues quand on parle de quelqu'un qu'on aime. » | « Je ne sais pas, petite. J'ai la vue qui baisse. » | +flag:prophetie |
+* bri_26 coe12 | Lui demander s'il y a une ligne heureuse | « Il y en a. Elles sont étroites. Il faut marcher dessus de profil. » | « Heureuse ? Je ne connais pas ce mot. Je suis un gouffre. » | coe+1 +flag:prophetie |
+
+@bri_25
+« La Terre qui marche », reprend la Faille. « C'est votre ligne à vous, les Gravitaires. Si tous les Gravitaires du monde poussaient en même temps, au bon endroit, la Terre pourrait bouger. Un peu. Assez pour suivre la Lune. Assez pour ne pas la perdre. »
+Elle rit doucement. « C'est complètement fou. J'adore. »
+* bri_27 pan12 | Jurer que tu rassembleras les Gravitaires | Tu jures. La Faille se tait. Elle a entendu beaucoup de serments. Celui-là pèse plus lourd. | Tu jures, mais ta voix se fissure en même temps que ton dos. | +flag:idee_pousser pan+1 | +flag:idee_pousser
+* bri_28 rus11 | Demander où est le bon endroit pour pousser | « Au pôle. Mais il faut que quelqu'un en haut ouvre la voie. Une planète qui bouge, ça fait des vagues. Il faut prévenir les mers. » | « Tu le sauras quand tu le verras, petite. » | +flag:idee_pousser |
+
+@bri_26
+?flag:fleurs Grand-Mère Faille se tait longtemps. Puis : « Tu as des fleurs dans ta cuirasse. »
+?!flag:fleurs Grand-Mère Faille se tait longtemps. Puis : « Tu as laissé une boîte de fleurs dans ta chambre, aux Magmas Paisibles. »
+Tu te figes. Personne ne sait pour les fleurs.
+« Je sais tout ce qui tombe dans les trous, petite. C'est moi qui te les envoie. Depuis cinquante ans. Les fleurs tombent dans mes fissures depuis la surface. Je les sèche. Je te les envoie. Pour que tu saches qu'il y a quelque chose là-haut. »
+* bri_27 coe12 | La remercier, enfin | Tu ne dis rien pendant longtemps. Puis : « Merci, Grand-Mère. » Un séisme minuscule. C'est la Faille qui pleure. | Tu essaies de dire merci, mais ça sort comme un grognement. Elle comprend quand même. | coe+2 mor+2 +flag:fleurs_faille | coe+1 +flag:fleurs_faille
+* bri_28 pan11 | Lui demander pourquoi | « Parce que tu restais assise. Et que quelqu'un qui reste assis toute sa vie mérite de savoir pourquoi. » | « Parce que je m'ennuie. » Elle ment. Tu le sais. | |
+
+@bri_27
+La Faille souffle un long courant d'air. « Va, petite. Monte. Mais pas seule. Tu ne parles pas assez bien pour convaincre le monde. Il te faut quelqu'un qui répète. » Elle rit. « Va voir dans les Grottes des Échos. Il y a quelqu'un là-bas qui ne dit que ce qu'on lui dit. C'est exactement ce qu'il te faut. »
+* bri_29 rus10 | Prendre la route des Grottes | Tu prends la route. Elle descend, puis remonte, puis résonne. |  |
+* bri_30 coe11 | Dire au revoir à la Faille | « Au revoir, Grand-Mère. » « Au revoir, petite. Envoie-moi une fleur vivante, si tu en vois une. » | Elle ne répond pas. Elle dort déjà, ou elle fait semblant. | mor+1 +flag:promesse_fleur |
+
+@bri_28
+La Faille ne répond plus. Elle a dit ce qu'elle avait à dire. Un gouffre, ça ne fait pas de conversation, ça fait des révélations, puis ça se tait. Tu restes un moment au bord, à écouter son souffle.
+Puis tu entends, très loin, un écho. Quelqu'un répète un mot. Le même. Encore et encore.
+* bri_29 rus11 | Suivre l'écho | Tu suis le son. Il te mène à des grottes. |  |
+* bri_30 coe10 | Écouter le mot | Le mot, c'est « seul ». Seul. Seul. Seul. Quelqu'un répète « seul » dans les grottes. | Tu n'entends pas bien. Ça pourrait être « sol ». Ou « seul ». | coe+1 |
+
+@bri_29
+Les Grottes des Échos. Des milliers de cavités qui résonnent. Chaque bruit y revient dix fois, cent fois, déformé, rapetissé. Tes pas font un vacarme d'armée. Ta respiration fait une tempête.
+Et au milieu, une créature faite de son. Elle n'a pas de corps, seulement une vibration dans l'air, une sorte de silhouette tremblante comme un reflet sur une vitre.
+* bri_31 pan10 | « Qui va là ? » | « ... va là ? va là ? » répond la créature. Elle ne fait que répéter. | « ... là ? » Elle répète mal. Tu as parlé trop fort. | |
+* bri_32 coe11 | Te taire et attendre | Tu attends. La créature s'approche, curieuse. Le silence, c'est rare ici. Elle ne sait pas quoi répéter. | Tu attends, mais ton estomac gargouille. La créature répète le gargouillis. | coe+1 |
+
+@bri_30
+Tu suis le mot jusqu'aux Grottes des Échos. Au centre d'une grande caverne, une silhouette de son, tremblante, à peine visible, répète doucement : « Seul. Seul. » Quelqu'un a dû dire ce mot ici, il y a longtemps, et elle ne l'a jamais oublié.
+* bri_32 coe12 | Lui dire « Pas seul » | « Pas seul », dis-tu. La créature s'arrête. « ... pas seul ? ... pas seul. » Elle répète. Elle répète autre chose. Pour la première fois depuis longtemps. | « ... pas... seul. Seul. » Elle n'y arrive pas tout à fait. | coe+1 mor+1 +flag:echo_pas_seul |
+* bri_31 rus10 | Lui demander son nom | « ... ton nom ? ton nom ? » Elle n'a pas de nom. Elle n'a que les tiens. | |
+
+@bri_31
+C'est un Échotier. Une créature de son, qui ne peut dire que ce qu'on vient de lui dire. Les Gravitaires l'appellent Écho, faute de mieux. Elle vit seule dans ces grottes depuis... personne ne sait. Elle répète les éboulements, les gouttes, les pas des rares visiteurs.
+« ... visiteurs. Visiteurs. »
+* bri_32 rus11 | Essayer de communiquer avec elle | Tu réfléchis. Si elle répète, tu peux lui faire dire ce que tu veux. « Tu veux venir avec moi ? » « ... venir avec moi ? Avec moi. » C'est oui. Peut-être. | Tu lui dis des choses compliquées. Elle répète en mélangeant. Ça donne « avec moi grotte venir non ». | rus+1 |
+* bri_33 pan11 | Lui ordonner de te suivre | « Suis-moi ! » « ... suis-moi ! » Elle répète, mais elle ne bouge pas. Les ordres, ça ne marche pas avec l'écho. | Elle répète ton ordre si fort que tu t'en bouches les oreilles. | |
+
+@bri_32
+Écho flotte autour de toi. Elle est curieuse. Elle répète ta respiration, puis ton cœur, puis le craquement de ton genou. Elle a l'air d'aimer ce son-là.
+Tu te dis : la Faille a raison. Tu ne parles pas assez bien pour convaincre le monde. Mais quelqu'un qui répète, là-haut, devant tout le monde, ça pourrait faire du bruit.
+* bri_34 coe11 | L'inviter à monter avec toi | « Viens avec moi, là-haut. » « ... là-haut. Là-haut ! » Elle répète avec une joie qui fait vibrer la grotte entière. Elle vient. | Elle répète « là-haut » mais reste en bas. Puis elle te suit, timide, à trois pas. | +comp:echo mor+1 | +comp:echo
+* bri_35 rus12 | Lui apprendre d'abord quelques phrases utiles | « La Lune est à nous. » « ... est à nous. » « Ne touchez pas à la Lune. » « ... à la Lune. » Elle apprend vite. Elle n'a pas le choix. | Elle apprend « Lune », « nous » et un juron militaire que tu as laissé échapper. | +comp:echo +flag:echo_phrases | +comp:echo
+
+@bri_33
+Écho ne bouge pas. Tu t'assois sur un rocher, fatiguée. Ton genou craque. Elle répète le craquement, puis ton soupir. Puis, très bas, le mot qu'elle répétait quand tu es arrivée : « seul ».
+Tu comprends. Elle n'a pas besoin d'ordres. Elle a besoin de compagnie.
+* bri_34 coe12 | Lui dire : « Moi aussi. » | « ... moi aussi. » Elle s'approche. Elle se pose sur ton épaule, comme un oiseau de son. Elle viendra. | Tu le dis si bas qu'elle ne l'entend pas. Tu le redis. Elle l'entend. Elle vient. | +comp:echo coe+1 | +comp:echo
+
+@bri_34
+Il faut remonter. La surface est à quatre cents kilomètres au-dessus de vous. Il y a les tunnels réguliers, longs et sûrs. Il y a la cheminée du Grand Volcan Dormant, directe, brûlante, interdite. Il y a l'Ascenseur des Taupes, qui marche une fois sur deux.
+?comp:echo « ... une fois sur deux ? » répète Écho avec inquiétude.
+* bri_36 pan12 | Prendre la cheminée du volcan | Tu grimpes dans la lave. Ça brûle, ça glisse, ça monte. Tu es une Gravitaire, la chaleur te connaît. | Tu glisses, tu remontes, tu glisses. Tu arrives en haut fumante, de mauvaise humeur, avec une fissure de plus. | pan+1 equ+2 | mor-1
+* bri_37 rus11 | Prendre l'Ascenseur des Taupes | L'Ascenseur fonctionne, cette fois. Les taupes qui le tirent te saluent poliment. Elles ne voient rien, mais elles sentent les colonelles. | L'Ascenseur s'arrête trois fois. À chaque fois, une taupe te demande si tu es sûre de vouloir monter. | rus+1 |
+* bri_38 coe10 | Prendre les tunnels réguliers, en aidant les autres en route | Les tunnels sont pleins de Gravitaires qui fuient vers le haut. Tu les guides. Tu montes avec eux, lentement, comme une procession. | Les tunnels sont bouchés. Tu montes lentement. Très lentement. | equ+2 +flag:gravitaires_suivent |
+
+@bri_35
+Écho a appris quelques phrases. Elle les répète en boucle dans la grotte, tout doucement, pour ne pas les oublier : « La Lune est à nous. La Lune est à nous. Ne touchez pas. » Ça fait un bruit de prière.
+Tu te rends compte que tu as appris à parler à quelqu'un qui ne fait que répéter. C'est peut-être ce que tu as fait toute ta vie avec les jeunes soldats.
+* bri_34 coe11 | Lui dire que c'est très bien | « Très bien. » « ... très bien ! » Elle est ravie. Elle répétera ça longtemps. | |
+
+@bri_36
+La cheminée du Grand Volcan Dormant. Tu grimpes. Le volcan dort, mais il ronfle. À chaque ronflement, une bouffée de lave te passe au-dessus de la tête. Les parois sont couvertes de cristaux qui brillent comme des étoiles prisonnières.
+?comp:echo Écho répète les ronflements du volcan. Le volcan se retourne dans son sommeil, vexé d'être imité.
+* bri_39 pan11 | Grimper plus vite que les ronflements | Tu grimpes. Tu évites deux bouffées. La troisième te roussit le casque. Tu continues. | Tu te fais rattraper par une bouffée. Tu es noircie, mais vivante. Et furieuse. | pan+1 | mor-1
+* bri_40 rus12 | Attendre entre deux ronflements | Tu comptes. Ronflement, pause, ronflement. Tu grimpes dans les pauses. C'est stratégique. | Le volcan ronfle de façon irrégulière. Il a des apnées. | rus+1 |
+
+@bri_37
+L'Ascenseur des Taupes. Une cabine en racines tressées, tirée par une centaine de taupes aveugles qui chantent pour se donner du courage. Elles chantent faux. Elles chantent en chœur. Ça monte.
+La taupe en chef te dit : « On monte tout le monde, ce soir. Tous les peuples du dessous. Tout le monde veut voir la Lune avant qu'elle parte. »
+* bri_39 coe11 | Chanter avec les taupes | Tu chantes. Ta voix de colonelle fait trembler l'Ascenseur, mais les taupes adorent. Elles chantent plus fort. Ça monte plus vite. | Tu chantes si faux que les taupes s'arrêtent. Puis reprennent, poliment. | mor+1 |
+* bri_40 rus10 | Demander aux taupes ce qu'elles savent | « On dit qu'en haut, il y a un grand Carrefour. Tout le monde s'y retrouve. On dit qu'il y a même des Gravitaires qui y vont pour la première fois. » | Elles ne savent rien. Elles creusent. C'est leur métier. | |
+
+@bri_38
+Tu montes par les tunnels réguliers, et tu n'es pas seule. Derrière toi, des dizaines, puis des centaines de Gravitaires, qui ont quitté leurs maisons du dessous. Des vieux, des jeunes, des familles entières qui portent leurs maisons sur le dos. Ils te suivent parce que tu as une voix de colonelle.
+« Où on va, Colonelle ? »
+* bri_39 pan11 | « En haut. Voir la Lune. Et lui parler. » | Un murmure. Puis un grondement. Ils te suivent. Tu as une armée. Une armée de maisons sur pattes. | Ils hésitent. Mais ils te suivent quand même. Ils n'ont pas d'autre direction. | equ+2 +flag:gravitaires_suivent | +flag:gravitaires_suivent
+* bri_40 coe12 | « Je ne sais pas. Mais restez ensemble. » | Ils restent ensemble. Ils montent ensemble. Un peuple qui monte. C'est la première fois depuis la création de la Terre. | Ils restent ensemble, mais ils ont peur. Tu as peur aussi. Ça vous rapproche. | coe+1 +flag:gravitaires_suivent |
+
+@bri_39
+Tu approches de la surface. Tu sens la différence : l'air devient plus léger, plus froid, plus étrange. La pression baisse. Tes os de basalte se dilatent un peu. Tu as l'impression de peser moins. C'est désagréable. C'est comme perdre une partie de toi.
+?comp:echo Écho répète le souffle du vent qui descend du dehors. Un son que ni elle ni toi n'avez jamais entendu.
+* bri_41 coe11 | Avancer malgré l'étrangeté | Tu avances. Ta poitrine se serre. Ce n'est pas la pression. C'est l'émotion. Tu ne l'admettras jamais. | Tu avances, mais tu as le vertige. Les Gravitaires n'ont jamais le vertige. Tu es la première. | coe+1 |
+* bri_42 pan10 | Foncer vers la lumière | Tu fonces. Une colonelle ne ralentit pas devant l'inconnu. Elle le charge. | | pan+1 |
+
+@bri_40
+Plus haut. Encore plus haut. Tu entends des bruits nouveaux : des oiseaux, peut-être. Le vent. Le froissement de quelque chose de vivant et de vert. Tu ne sais pas les nommer. Tu as passé ta vie sous terre à tenir un monde dont tu ne connais pas les sons.
+* bri_41 coe12 | Écouter longuement | Tu écoutes. Le monde chante. Il chante mal, en désordre, mais il chante. Tu as tenu tout ça. Tu ne savais pas. | Tu écoutes, mais les sons t'agressent. Trop de choses, trop vite. | coe+1 mor+1 |
+* bri_42 rus11 ?comp:echo | Demander à Écho de répéter ces sons | Écho répète le vent, les oiseaux, le froissement vert. Elle les apprend tous, ravie. Tu les entends deux fois : une fois pour comprendre, une fois pour aimer. | Écho répète tout en même temps. Ça fait une forêt qui hurle. | mor+1 +flag:echo_sons |
+
+@bri_41
+La surface. Tu sors d'une crevasse au milieu d'un champ. Il fait nuit. Il fait froid. Le ciel. Le ciel ! Il est immense, noir, plein de petits points brillants. Tu n'avais jamais vu le ciel. Personne ne t'avait dit qu'il n'avait pas de plafond.
+Et au milieu, la Lune. Énorme, blanche, penchée. Avec un crochet de grue planté dedans.
+* bri_43 coe12 | La regarder, simplement | Tu la regardes. Longtemps. Tu as tenu l'Axe pendant trois mille ans pour qu'elle reste à sa place. Tu ne l'avais jamais vue. Elle est belle. Ça te met en colère qu'elle soit si belle et qu'on la vende. | Tu la regardes et tu dois t'asseoir. Onze tonnes qui s'assoient d'émotion. | coe+1 mor+1 +flag:vu_lune |
+* bri_44 pan11 | Lui crier quelque chose | « TIENS BON ! » Ta voix monte. Elle n'arrivera jamais jusqu'à elle. Mais ça te soulage. | Tu cries, mais ta voix se casse. C'est la première fois que ta voix se casse. | pan+1 |
+
+@bri_42
+Tu sors à la surface, au milieu d'un champ. Il fait nuit. Il y a de l'herbe. De l'herbe ! Tu t'accroupis. Tu la touches. C'est doux, fragile, et ça plie sous tes doigts sans casser. Tu n'avais jamais touché quelque chose qui plie sans casser.
+Et là, au milieu de l'herbe, une marguerite. Vivante.
+* bri_43 coe12 ?flag:promesse_fleur,flag:fleurs_faille | La cueillir pour la Faille | Tu la cueilles avec une délicatesse dont tu ne te savais pas capable. Tu la ranges contre ta cuirasse. Tu l'enverras à la Faille. | Tu la cueilles, mais tes doigts sont trop gros. Elle s'abîme. Tu en cueilles une autre, plus doucement. | coe+1 +flag:marguerite | +flag:marguerite
+* bri_44 rus10 | La laisser vivre | Tu la laisses. Une fleur vivante, ça se regarde, ça ne se garde pas. Tu le comprends maintenant. | | coe+1 |
+
+@bri_43
+Tu restes dans le champ jusqu'à l'aube. L'aube ! Tu n'en avais jamais vu. Le ciel change de couleur. Il passe du noir au gris, au rose, à l'or. Tu crois que le monde prend feu. Tu te prépares au combat. Puis tu comprends que c'est juste le jour.
+?flag:gravitaires_suivent Derrière toi, les Gravitaires sortent de terre un par un, et regardent l'aube avec toi, en silence, comme des enfants.
+* bri_45 coe10 | Regarder le jour se lever | Tu regardes. Tu pleures. Les Gravitaires pleurent du sable. Ça fait une petite dune à tes pieds. | Tu regardes et tu ne pleures pas. Tu en es fière. Ou déçue. Tu ne sais pas. | mor+2 | mor+1
+* bri_46 pan11 | Te remettre en marche vers le Carrefour | Tu te remets en marche. Les panneaux indiquent « GRANDE PANIQUE ». Tu n'aimes pas la panique. Tu vas la commander. | | pan+1 |
+
+@bri_44
+Tu cherches la route. Au loin, des lumières, des feux, des voix. Une plaine immense. Des panneaux : « GRANDE PANIQUE → ». Tu ricanes. Une panique, ça se commande comme une armée. On la met en rangs, on lui donne des ordres, et elle devient un plan.
+?comp:echo « ... devient un plan », répète Écho, avec un enthousiasme que tu n'as pas.
+* bri_45 pan11 | Marcher au pas jusqu'au Carrefour | Tu marches au pas. Un, deux. Un, deux. Le sol tremble à chacun de tes pas. Les oiseaux se taisent par respect. | Ton genou proteste au troisième pas. Tu marches au pas boiteux. Ça reste un pas. | equ+2 |
+* bri_46 coe10 | Prendre ton temps, regarder le monde en chemin | Tu regardes tout : les arbres, les rivières, les maisons. Tu as tenu tout ça. Tu as le droit de regarder. | | mor+1 |
+
+@bri_45
+Le Carrefour des Espèces. Une immense plaine couverte de tentes, de feux, de banderoles. Des milliers de créatures : des Marégraves qui débordent, des Lichenautes qui rampent, des Horlogers qui tic-taquent de travers, des Somnambules à demi transparents. Tu n'as jamais vu autant de vies différentes. Tu n'avais jamais vu autant de vies, tout court.
+Au-dessus, la Lune penche avec son crochet.
+* hub_01 pan11 | Entrer dans la foule comme on entre dans une bataille | Tu entres. La foule s'écarte devant tes onze tonnes. On te regarde. Une colonelle du dessous. On n'en avait jamais vu. | Tu entres, et tu écrases une tente. Tu t'excuses. Tu n'avais jamais eu à t'excuser auprès d'une tente. | pan+1 |
+
+@bri_46
+Tu t'arrêtes au bord de la plaine.
+?flag:fleurs Tu ouvres la boîte de fleurs. Tu les regardes, toutes, les sèches et la vivante, s'il y en a une.
+Tu penses à la Faille, aux jeunes gardes, à l'Axe qui tient. Tu penses que tu as passé ta vie assise, et qu'aujourd'hui, tu es debout.
+* hub_01 coe11 | Descendre vers la foule | Tu descends. Une colonelle debout, au milieu d'un monde qu'elle découvre. | Tu descends trop vite. Ton genou proteste. Tu descends quand même. | coe+1 mor+1 |

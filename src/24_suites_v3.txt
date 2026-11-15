@@ -1,0 +1,206 @@
+# ================================================================
+# ACTE III — ce que les nouveaux compagnons et les objets ouvrent
+# (montée, chantier, négociation, trente secondes)
+# ================================================================
+
+# ---------------------------------------------------------------- montée
+
+@asc_23
+!title: Sur la queue d'une comète
+?flag:coquille_reste Madame Coquille ne monte pas. « La vitesse. Quelle vulgarité. Et avec un nouveau-né. » Elle s'installe au bord du Carrefour, le petit Croissant sous le cou. « Nous vous attendrons ici. Nous sommes douées pour ça. » Tu la regardes rapetisser, puis disparaître.
+Tu t'agrippes à la queue de Zouzou. Elle est brûlante et chatouille. « Tiens-toi. Et si tu vomis, vise l'Atlantique. » Elle décolle. Le Carrefour devient un point, la Terre une bille, et la Lune un mur blanc qui fonce vers vous.
+Zouzou hurle de joie. Tu hurles d'autre chose. Vous passez entre deux drones de politesse qui n'ont pas le temps de s'excuser.
+* asc_22 pan12 | Lui crier de freiner avant la Lune | « Freiner ? C'est quoi, freiner ? » Elle freine quand même, au dernier moment, dans une gerbe de poussière lunaire. Tu roules sur le sol. Tu es vivant·e, et sur la Lune. | Elle ne freine pas. Vous labourez un cratère sur deux cents mètres. Tu te relèves couvert·e de poussière, un genou en sang. Zouzou : « Atterrissage parfait. » | pan+1 | equ-1 mor-1
+* asc_22 coe11 | Fermer les yeux et lui faire confiance | Tu fermes les yeux. Tu sens le vent, puis plus rien, puis le froid, puis la poussière. Zouzou s'est posée tout doucement, pour toi, ce qu'elle ne fait jamais. Elle ne t'en parlera pas. | Tu fermes les yeux. Tu les rouvres au mauvais moment, la tête en bas. Tu les refermes. Vous arrivez. | coe+1 |
+
+@asc_24
+!title: Dans le ventre d'un nuage
+Dame Ondée se fait grande, très grande, et t'avale doucement. À l'intérieur, il fait gris, tiède, humide, comme dans une buanderie un dimanche. Elle monte. Elle monte comme montent les orages d'été, d'un seul souffle.
+?flag:amour_fernand_ondee Au cœur du nuage, une petite lumière clignote : Fernand. Il fait l'éclairage. Il a l'air de n'avoir jamais été aussi bien employé.
+* asc_22 coe11 | Te laisser bercer | Tu te laisses bercer. Tu t'endors presque. Quand Ondée s'ouvre, tu es sur la Lune, et tes cheveux frisent. | Tu te laisses bercer et tu as le mal de l'air. Ondée s'excuse avec un petit tonnerre gêné. Vous arrivez. | mor+1 |
+* asc_22 rus11 | Lui demander de te déposer près du crochet | Ondée vise le crochet. Elle te dépose dans un nuage de bruine, à cent mètres. Personne ne t'a vu·e arriver : on ne se méfie pas d'un nuage. | Elle vise le crochet et rate de deux kilomètres. Tu marches. Au moins, il ne pleut pas sur la Lune. | rus+1 +flag:sait_crochet |
+
+# ---------------------------------------------------------------- chantier
+
+@cha_40
+!title: La première pluie de la Lune
+Dame Ondée s'élève au-dessus du chantier. Elle a gardé ses plus belles gouttes. « Il n'a jamais plu ici », dit-elle. « Jamais. En quatre milliards d'années. » Elle s'ouvre.
+Il pleut sur la Lune. Une pluie fine, tiède, qui fait des petits cratères dans la poussière et qui sent la terre mouillée, sur un astre qui n'a pas de terre. Les ouvriers sortent des baraques, la bouche ouverte. Le ciment des fondations ne prend plus. Les piscines débordent. La Lune, sous tes pieds, frissonne de plaisir.
+* cha_27 coe11 | Lever la tête sous la pluie | Tu lèves la tête. Tu es mouillé·e sur la Lune. Personne ne te croira. Toi-même, tu n'y crois pas. | Tu lèves la tête et tu reçois une goutte dans l'œil. Une goutte lunaire, la première. Tu la gardes. | equ+4 mor+2 +flag:ciment_mouille | equ+2 +flag:ciment_mouille
+
+@cha_41
+!title: Deux cents ans de retard
+Gaspard se pose sur le sol lunaire. Ses pieds transparents ne laissent aucune trace. Il s'agenouille. Il pose la main sur la poussière.
+« Je l'avais touchée du bout des doigts, en 1803. Juste avant. » La poussière se soulève autour de sa main, doucement. Elle se souvient. La Lune se souvient de lui. Elle se souvient de tout le monde.
+?flag:gaspard_lettre Gaspard sort de sa redingote la lettre de la dame de Lyon. Il la lit à la Lune, à voix haute. La Lune écoute. Elle n'avait jamais entendu de lettre d'amour pour quelqu'un d'autre. Elle trouve ça très beau.
+* cha_27 coe12 | Demander à la Lune, à travers lui, ce qu'elle veut | Gaspard ferme les yeux. « Elle dit... qu'elle veut qu'on lui demande. Juste ça. Qu'on lui demande. » Il te regarde. « Tu sais ce qu'il te reste à faire, là-haut. » | Gaspard écoute, longtemps. « Elle parle trop doucement. Elle a perdu l'habitude. Mais elle t'a entendu·e. » | +flag:parle_lune coe+1 | +flag:parle_lune
+
+@cha_42
+!title: L'horloge de la Lune
+Remontoir pose son oreille contre le sol. Il écoute longtemps, avec ses mille ans d'oreille. « Elle bat », dit-il. « Comme nous. La Lune est une horloge. C'est elle qui donne l'heure aux marées, aux rêves, à nous autres, les Horlogers. Le crochet l'a déréglée. Elle retarde. »
+Il sort ses petits outils. « Je peux la régler. Un peu. Ça ne la décrochera pas. Mais ça l'aidera à tenir. »
+?flag:remontoir_remonte Son tic-tac neuf résonne contre le sol, et la Lune, sous lui, semble se caler sur son rythme.
+* cha_27 rus12 | L'aider à régler la Lune | Tu tiens la loupe. Il règle. Un rouage invisible, quelque part sous la poussière, reprend sa place. Sur Terre, toutes les horloges se remettent à l'heure en même temps, et les marées respirent mieux. | Tu tiens la loupe de travers. Il règle quand même, à tâtons. Ça marche à moitié. Les horloges de la Terre ont dix minutes d'avance. Personne ne s'en plaint. | equ+4 +flag:lune_reglee | equ+2 +flag:lune_reglee
+
+@cha_43
+!title: Croissant
+?comp:coquille Madame Coquille pose le petit Croissant sur le sol de la Lune. Il est né la nuit dernière, et le voilà sur la Lune. Ça fait beaucoup pour un premier jour.
+?!comp:coquille Tu poses le petit Croissant sur le sol de la Lune. Sa mère n'est plus là pour voir ça. Tu le regardes pour deux.
+Croissant avance d'un pas, très lent. Il goûte la poussière. Il éternue. Puis il lève les yeux vers la Terre, ronde et bleue au-dessus de lui, et il sourit. La Lune, sous lui, devient tiède. Tous les ouvriers qui passent s'arrêtent. Une tortue née de la marée, qui marche sur la Lune qui fait les marées : c'est trop. Un vigile pleure. Puis un autre.
+* cha_27 coe11 | Le laisser marcher autant qu'il veut | Il marche trois mètres en une heure. Personne ne bouge. Personne n'ose. Le chantier s'est arrêté pour regarder une tortue marcher. | Il fait deux pas et s'endort. Le chantier s'arrête quand même, pour ne pas le réveiller. | mor+3 +flag:croissant_lune +flag:greve | mor+2 +flag:croissant_lune
+
+@cha_44
+!title: L'aube sur la Lune
+Le Colonel Plumard grimpe au sommet de la plus haute grue. Il bombe le torse. Il regarde la Terre se lever, bleue, au-dessus du chantier. « Soixante ans que j'attends ça. »
+Il chante. Il chante l'aube, depuis la Lune, de toutes ses forces. Le son ne devrait pas porter, dans le vide. Il porte. Sur Terre, on l'entend. Sur la Lune, tous les ouvriers se réveillent en sursaut, et pour la première fois depuis des mois, ils se demandent ce qu'ils font là.
+?flag:mariage Tout en bas, Tante Mélusine hurle de fierté en majuscules. « C'EST MON MARI ! »
+* cha_27 pan11 | Applaudir, et crier aux ouvriers de rentrer chez eux | Les ouvriers posent leurs outils. L'un d'eux dit : « J'ai une maison, moi, sur Terre. » Tous les autres disent : « Moi aussi. » Le chantier se vide comme une basse-cour au lever du jour. | Les ouvriers hésitent, se regardent, et retournent au travail en traînant les pieds. Mais ils ont entendu. | +flag:greve +flag:aube_lune mor+2 | +flag:aube_lune
+
+@cha_45
+!title: La valse sur la Lune
+La Comtesse Vespérine retire ses gants. Elle fait trois pas sur la poussière lunaire. Puis elle danse. Seule, au milieu des grues, une valse d'il y a neuf cents ans. La poussière se soulève sous ses pas et retombe en lumière.
+?flag:amour_barnabe Elle te tend la main. Tu la prends. Vous dansez, un loup et une vampire, sur la Lune. Ton poil se dresse. Elle rit.
+Petit à petit, la Lune s'éclaire sous elle, comme une lampe qu'on rallume.
+* cha_27 coe11 | Danser avec elle | Vous dansez jusqu'à ce que la Lune brille de nouveau, un peu, par endroits. En bas, sur Terre, les nuits sont un peu moins noires. | Tu danses mal. Elle ne dit rien. Elle a connu pire : la peste. La Lune s'éclaire quand même, un peu. | equ+3 mor+2 +flag:lampe_rallumee | equ+1 +flag:lampe_rallumee
+
+@cha_46
+!title: Interview sur le chantier
+Taupinel creuse une galerie sous une baraque d'ouvriers, en ressort au milieu de la cantine, et commence à poser des questions. « Combien êtes-vous payés ? Combien d'heures ? Qui vous a dit que la Lune avait signé ? »
+Les ouvriers se regardent. Personne ne leur avait jamais demandé. Ils répondent. Tous en même temps.
+* cha_27 rus11 | L'aider à prendre les témoignages | Tu notes. Il note. Vous avez quarante témoignages en une heure. « Personne n'a jamais vu de signature de la Lune. Personne. » Taupinel tremble d'excitation. | Les vigiles arrivent avant la fin. Vous ressortez par la galerie, avec la moitié des témoignages. C'est déjà beaucoup. | +flag:article +flag:ouvriers_mecontents rus+1 | +flag:article
+
+@cha_47
+!title: Le syndicat lunaire
+Ysaline monte sur une caisse de marbre au milieu du chantier. Elle déplie ses pattes avant. Elle tient un mégaphone. « Ouvrières ! Ouvriers ! Je ne vous demande pas de quitter votre travail. Je vous demande à qui il profite. »
+Les ouvrières sortent les premières. Puis les ouvriers. Puis Bobinot, le contremaître, qui ne sait pas de quel côté il est.
+* cha_27 pan12 | Monter sur la caisse avec elle | Tu montes. Tu cries quelque chose, tu ne sais plus quoi. Ça marche. Les grues s'arrêtent une à une. Grève générale sur la Lune. Ysaline te serre la patte, fort. | Tu montes, la caisse bascule. Tu tombes. Ysaline continue sans toi, et ça marche quand même, à moitié. | +flag:greve +flag:syndicat_lunaire mor+2 | +flag:greve
+
+@cha_48
+!title: Le troisième boulon
+Pardon te guide jusqu'au pied du crochet, par des passages de service qu'il connaît par cœur. Il tape ses codes d'accès sur un boîtier doré. Pardon. Pardon. Pardon. Le boîtier s'ouvre.
+« Le troisième boulon. Celui que j'ai mal serré. Si quelqu'un le desserre au bon moment, quand les moteurs tirent, le crochet lâche. Pas avant. Sinon ils le resserrent. » Il te regarde. « Pardon. Je n'ose pas le faire moi-même. Je suis fabriqué pour serrer. »
+?flag:codes_voles Le boîtier clignote rouge une seconde : quelqu'un a changé un des codes cette nuit. Pardon tape plus vite. Le boîtier hésite, puis s'ouvre quand même.
+* cha_27 rus12 | Mémoriser l'emplacement exact du boulon | Tu mémorises. Troisième boulon, côté Terre, sous la plaque gravée « Merci de votre compréhension ». Tu le retiendras toute ta vie. | Tu mémorises mal. Pardon te le répète trois fois, en s'excusant à chaque fois. Tu finis par retenir. | +flag:boulon_fele +flag:acces_crochet rus+1 | +flag:boulon_fele +flag:acces_crochet
+
+@cha_49
+!title: Le contremaître numéro deux
+Fulgence regarde Bobinot passer, avec son casque trop grand. Il sourit. Il devient Bobinot. Exactement Bobinot, avec le casque trop grand, le badge, la petite toux nerveuse. « J'ai toujours voulu être petit et autoritaire. »
+Le faux Bobinot entre dans le bureau de la direction. Il en ressort avec les plans, l'horaire des moteurs, et un sandwich.
+* cha_27 rus11 | Lui demander ce qu'il a vu dans le bureau | « Le planning. Les moteurs s'allument au jour sept. Et une photo, sur le bureau : un enfant dans un coffre. Il la regarde tous les jours, la Compagnie le sait. » | Il a surtout vu le sandwich. Il le partage avec toi. Il a quand même retenu l'heure des moteurs. | +flag:platine_faille +flag:fulgence_bureau rus+1 | +flag:fulgence_bureau
+
+@cha_50
+!title: Une négociation de chantier
+Monsieur Pli s'avance vers les vigiles, déplié de toute sa hauteur, c'est-à-dire trente centimètres. « Messieurs. Je représente l'ambassade de Tamponville. Je propose un accord : vous ne nous voyez pas, et nous ne vous voyons pas. Clause de réciprocité. »
+Les vigiles se consultent. Personne ne leur a jamais proposé de clause.
+* cha_27 coe12 | Appuyer Monsieur Pli d'un hochement de tête très diplomatique | Les vigiles signent. Sur Pli lui-même, au dos. Ils s'éloignent en sifflotant. Pli se replie de fierté. « Mon premier traité lunaire. » | Les vigiles hésitent, puis signent au mauvais endroit. Le traité est nul, mais ils ne le savent pas. Ils s'éloignent. | +flag:traite_vigiles coe+1 equ+1 | +flag:traite_vigiles
+
+@cha_51
+!title: La comète et les grues
+Zouzou regarde les grues dorées plantées dans la Lune comme des aiguilles dans une pelote. « Je peux ? » Tu n'as pas le temps de répondre. Elle part.
+Elle fait le tour de la Lune en trois secondes. Elle passe sous les grues, entre les câbles, à travers les échafaudages. Derrière elle, tout fond. Elle revient, la queue fumante, très fière d'elle.
+* cha_27 pan11 | La féliciter | « Je sais », dit-elle. Le chantier a perdu douze grues. Il faudra des semaines pour les remplacer. La Lune, sous tes pieds, respire mieux. | Elle a brûlé onze grues et une piscine, et le pied d'un vigile. Tu la grondes. Elle boude. Mais la Lune respire mieux. | +flag:grues_brulees equ+3 mor+1 | +flag:grues_brulees equ+2
+* cha_27 coe10 | La gronder, pour la forme | « T'es pas ma mère. » Puis, plus bas : « C'était bien, non ? » Oui. C'était bien. | | +flag:grues_brulees equ+2 |
+
+@cha_52
+!title: Une graine dans la Tranquillité
+La graine du Grand Chêne Noué est tiède dans ta main. Elle pousse déjà un peu, à l'intérieur ; tu sens qu'elle s'impatiente. Tu t'agenouilles dans la mer de la Tranquillité, au milieu des piquets du chantier. Tu creuses avec tes doigts. La poussière est fine, froide, sans rien dedans.
+Tu poses la graine. Tu la recouvres.
+?comp:ondee Dame Ondée laisse tomber trois gouttes dessus, très précisément.
+* cha_27 coe12 | Attendre qu'elle pousse | Tu attends. Une minute. Deux. Puis une petite pousse verte sort de la poussière, la première chose vivante sur la Lune. Elle se tourne vers la Terre. Les racines s'enfoncent, et tu sens la Lune se raffermir sous tes genoux, comme quelqu'un qui reprend pied. | Tu attends. Rien. Tu t'en vas. Derrière toi, quand tu ne regardes plus, une pousse sort de la poussière. Tu ne la verras qu'au retour. | -flag:obj_graine_lune +flag:graine_plantee equ+5 mor+2 | -flag:obj_graine_lune +flag:graine_plantee equ+3
+
+@cha_53
+!title: Le courrier
+Tu ouvres ta sacoche au milieu du chantier. Des milliers d'enveloppes, triées par ordre d'arrivée. Tu les poses sur le sol de la Lune, une par une. Ça prend des heures. Les ouvriers t'aident, sans savoir pourquoi.
+« À la Lune. » « Pour la Lune. » « Chère Lune. » « Madame la Lune, excusez-moi de vous déranger. » Des dessins d'enfants. Des déclarations. Des listes de courses avec « merci » en bas.
+La poussière, autour des lettres, se soulève, et retombe, et se soulève encore. La Lune lit.
+* cha_27 coe11 | Attendre qu'elle ait fini | Elle ne finira jamais : il y en a trop. Mais au bout d'une heure, la poussière dessine sur le sol un seul mot, en lettres immenses, que seuls les astronautes pourront lire : « OH. » Elle ne savait pas qu'on l'aimait autant. Maintenant, elle sait. | Le vent solaire emporte une partie des lettres. La Lune court après, avec sa poussière. Elle en rattrape la plupart. Elle en relira certaines mille fois. | +flag:lettres_livrees +flag:parle_lune mor+3 | +flag:lettres_livrees +flag:parle_lune mor+1
+
+# ---------------------------------------------------------------- négociation
+
+@neg_40
+!title: Un fantôme dans le bureau
+Gaspard traverse le mur du bureau. Lentement. Avec dignité. Il ôte son chapeau transparent. Platine recule jusqu'à la baie vitrée, ses feuilles d'or dressées comme un chat.
+« N'ayez pas peur, monsieur. Je suis seulement mort. » Gaspard s'assoit sur le bureau, à travers les dossiers. « J'ai passé deux cents ans attaché à un poteau, tout seul, au milieu du ciel. Je sais ce que c'est, d'être enfermé quelque part en attendant que quelqu'un vienne. » Il regarde Platine. « Vous aussi, n'est-ce pas ? »
+Platine ne répond pas. Ses feuilles d'or retombent, une à une.
+* neg_21 coe11 | Laisser le silence faire son travail | Platine s'assoit. « Dans un coffre », dit-il enfin. « Pendant trente ans. On venait me polir le dimanche. » Il n'avait jamais dit ça à personne. | Platine se reprend. « Je ne vois pas de quoi vous parlez. » Mais sa voix tremble. | +flag:platine_faille +flag:platine_emu | +flag:platine_faille
+
+@neg_41
+!title: Édition spéciale
+Tu poses sur le bureau de marbre un journal mal imprimé, tiré sur une presse en pierre. « LE COURRIER DES GALERIES. ELLE N'A JAMAIS DIT OUI. » En dessous : quarante témoignages, la page du registre des pompes, des photos floues prises par une taupe.
+Platine lit. Ses feuilles d'or pâlissent. Sur son bureau, le téléphone se met à sonner. Puis un autre. Puis tous. Les actionnaires de la Compagnie Foncière d'Aldébaran ont lu, eux aussi. Mille exemplaires, c'est peu. Mais les Gravitaires les ont distribués à toute la galaxie, en les lançant.
+?comp:taupinel Taupinel, à côté de toi, renifle l'air du bureau : « Ça sent le scandale. Ça sent bon. »
+* neg_21 rus11 | « Votre conseil d'administration va vous appeler. Répondez. » | Platine décroche. Il écoute. Il raccroche. « Ils veulent "suspendre l'opération le temps d'une enquête". » Il te regarde. « Vous m'avez fait suspendre. C'est la première fois. » | Platine ne décroche pas. Les téléphones sonnent dans le vide. Mais le monde entier sait. | +flag:scandale | +flag:scandale
+
+@neg_42
+!title: Le traité de Monsieur Pli
+Monsieur Pli se déplie sur le bureau de marbre. C'est un traité : il est écrit sur lui. « Traité de Non-Déménagement. Article premier : la Lune reste. Article deux : personne ne perd la face. Article trois... » Il se tourne vers Platine. « L'article trois vous concerne, monsieur. »
+?flag:obj_miroir_platine « Article trois : quelqu'un viendra vous voir, de temps en temps, sans rien vous vendre. »
+Platine lit, se penche, relit. Il n'a jamais lu un contrat qui lui donnait quelque chose sans rien lui prendre.
+* neg_21 coe12 | « Signez. Ça ne vous coûtera rien. » | « Rien ? » Il prend son stylo d'or. Il hésite. « C'est la première fois qu'on me propose quelque chose qui ne coûte rien. Je ne sais pas si j'ai le droit. » Il ne signe pas encore. Mais il garde le stylo à la main. | Platine repose le traité. « C'est très joli. Mais je ne signe que ce que je comprends. » Pli se froisse un peu. | +flag:platine_faille +flag:platine_emu +flag:traite_lu | +flag:traite_lu
+
+@neg_43
+!title: Le miroir
+Tu sors le petit miroir d'or, rayé, et tu le poses sur le bureau, devant lui. Platine le regarde. Il ne bouge plus du tout.
+« Où avez-vous trouvé ça ? » Sa voix est minuscule. « Ma mère l'a vendu. Avec le coffre. Avec l'ours. Elle a dit que je n'en avais plus besoin, que j'étais grand. » Il prend le miroir. Il regarde dedans. Il y voit un enfant en feuilles d'or, assis dans un coffre, qui attend qu'on vienne le chercher. Il y voit aussi, derrière, ton reflet à toi.
+* neg_21 coe11 | « Quelqu'un est venu, cette fois. » | Platine pleure. Des feuilles d'or tombent sur le marbre. Il ne les ramasse pas. « J'ai acheté la Lune parce qu'elle avait quelqu'un. » Il regarde le miroir. « Moi aussi, j'ai quelqu'un, peut-être. » | Il serre le miroir contre lui sans rien dire. Il ne te regarde pas. Mais il ne te demande pas de partir. | -flag:obj_miroir_platine +flag:platine_emu +flag:platine_faille mor+2 | -flag:obj_miroir_platine +flag:platine_emu +flag:platine_faille
+
+@neg_44
+!title: Une visite de famille
+La porte s'ouvre. Une vieille dame en feuilles d'or entre, gantée, la tête haute. Platine se lève d'un bond, comme un enfant. « Mère ? »
+C'est Fulgence. Exactement elle. Il s'approche de Platine. Il hésite.
+?flag:fulgence_sincere Puis il redevient lui-même, flou, jeune, fatigué. « Pardon. Je ne suis pas elle. Je voulais te dire ce qu'elle aurait dû te dire. Mais avec ma vraie tête, c'est mieux. Tu méritais qu'on vienne te chercher. Elle ne l'a pas fait. Je suis désolé. » Platine le regarde longtemps. Puis il s'assoit, et il dit : « Merci. »
+?!flag:fulgence_sincere Il pose sa main gantée sur la joue de Platine. « Gédéon. Mon petit. Je n'aurais pas dû te laisser dans le coffre. » Platine s'effondre en sanglots dans les bras de sa fausse mère. Tu as honte, et tu as l'impression que ça marche. Les deux à la fois.
+?comp:ysaline Ysaline, dans un coin, croise les pattes. Elle ne dit rien. Elle a vu des choses pires. Elle a vu des choses meilleures.
+* neg_21 coe12 | Le laisser pleurer | Platine pleure longtemps. Puis il se redresse, s'essuie avec sa cravate. « Je crois que j'ai besoin de réfléchir. Je ne réfléchis jamais. » | Platine comprend, à un détail, que ce n'est pas sa mère. Il le repousse doucement. « C'était presque. C'était trop. » Mais quelque chose s'est fendu. | +flag:platine_emu +flag:platine_faille | +flag:platine_faille
+
+@neg_45
+!title: La motion
+Ysaline pose sur le bureau de marbre une feuille pliée en quatre. « Motion de l'assemblée des femelles de toutes espèces, votée cette nuit au Carrefour. Unanimité moins une montagne. » Elle la déplie. Elle lit.
+« On ne vend pas celle qui n'a pas dit oui. »
+Platine lit à son tour. Il fronce les sourcils. « Mais la Lune n'est pas... elle ne peut pas... » Il s'arrête. Il ne sait plus ce qu'il allait dire. Il ne s'était jamais demandé si elle pouvait dire oui. Ni non.
+* neg_21 coe11 | « Vous lui avez demandé ? » | « Demandé ? » Platine regarde la Lune par la baie vitrée. « Non. On ne demande pas aux biens. » Ysaline : « Elle n'est pas un bien. » Silence. Long. | Platine écarte la motion. « Sans valeur juridique. » Ysaline sourit, de toutes ses mandibules. « Pas encore. » | +flag:parle_lune +flag:platine_faille | +flag:parle_lune
+
+# ---------------------------------------------------------------- trente secondes
+
+@fin_23
+!title: Le croc d'argent
+Tu sors de ta poche le croc d'argent. Le dernier croc de Lord Barnabé, tombé un soir où il ne s'est pas transformé. « Les crocs de loup-garou coupent ce qui retient la Lune », dit la légende. La légende n'a jamais été vérifiée.
+?pc:barnabe C'est ton croc. Tu le sens vibrer dans ta main, comme s'il se souvenait de ta gueule.
+Tu sors par le sas. Tu flottes jusqu'au câble, tendu comme une corde de violon. Tu poses le croc dessus.
+* fin_11 pan12 ?equ>=30 | Couper | Le câble chante, puis se rompt. Le crochet lâche. La Lune frémit, libre, et ne bouge pas encore. Elle attend de savoir ce qu'elle veut. Platine, derrière la vitre, la regarde, et tu entends enfin sa voix à elle. | Le croc glisse, ripe, mord. Tu recommences. À la troisième fois, le câble lâche, dans un grand soupir d'acier. La Lune est libre. Elle hésite. | +flag:cable_coupe | +flag:cable_coupe
+* fin_01 coe10 ?equ<30 | Hésiter, en voyant la Terre pencher | Tu regardes la Terre, en bas. Elle penche trop. Si tu coupes maintenant, la Lune pourrait tomber au lieu de rester. Tu ranges le croc. Pas encore. | | +flag:essai_croc |
+
+@fin_24
+!title: La lettre du Vent
+Tu sors l'enveloppe bleue. « À la Lune, en mains propres. » Tu l'as portée depuis le début. Tu ne savais pas pourquoi. Maintenant, tu sais.
+?flag:lettre_intacte Elle est fermée. Tu ne l'as jamais ouverte. Elle est intacte, comme une promesse tenue.
+?flag:lettre_lue Le coin est un peu déchiré. Tu l'as ouverte. Tu espères qu'elle ne t'en voudra pas.
+Tu sors par le sas, tu flottes jusqu'à la Lune, et tu poses l'enveloppe sur la poussière. Elle s'ouvre toute seule. La poussière se soulève autour de la feuille. La Lune lit.
+* fin_11 coe11 | Attendre sa réponse | Elle lit une seule phrase, et elle frissonne de partout. « Merci de tourner autour de nous depuis si longtemps. » Personne ne lui avait jamais dit merci. Elle lève la tête vers Platine, derrière sa vitre. Pour la première fois, elle a quelque chose à dire. | Elle lit, relit. Elle ne dit rien pendant un long moment. Puis la poussière se soulève, doucement, en direction de la Terre. Elle a compris quelque chose. | -flag:obj_lettre_vent +flag:lune_consent +flag:parle_lune mor+2 | -flag:obj_lettre_vent +flag:lune_consent +flag:parle_lune
+
+@fin_25
+!title: L'aube, encore
+Le Colonel Plumard bondit sur le bureau de marbre, renverse l'encrier d'or, gonfle sa poitrine jusqu'à éclater ses boutons. Et il chante.
+Il chante l'aube, en plein bureau, à plein poumons, comme il l'a chantée vingt-deux mille fois. Platine sursaute, recule, se bouche les oreilles. Puis il les débouche. Il écoute.
+« Personne ne m'a jamais réveillé », murmure-t-il. « On me laissait dormir dans le coffre. On ne voulait pas me déranger. »
+* end_07 coe12 ?equ>=30 ?flag:platine_faille | « Bonjour, Gédéon. Il est l'heure. » | Platine se lève. Il regarde la Lune, la Terre, le coq, toi. Il s'étire comme quelqu'un qui a dormi cinquante ans. Puis il appuie sur le bouton. Les moteurs s'arrêtent. | Platine se lève, hésite, se rassoit, se relève. Puis il appuie sur le bouton. | |
+* fin_01 coe10 ?!flag:platine_faille | Comprendre qu'il n'est pas encore assez réveillé | Platine se rendort à moitié, les yeux ouverts. « Encore cinq minutes », dit-il. Il n'en reste pas cinq. | | +flag:essai_aube |
+* end_10 coe10 ?equ<30 | Regarder la Terre | L'aube est belle. Mais en bas, la Terre a trop basculé pour se lever. | |
+
+@fin_26
+!title: Le monde entier sait
+Tu montres l'écran du bureau. Partout dans la galaxie, on lit le Courrier des Galeries. Les actionnaires de la Compagnie Foncière d'Aldébaran tiennent une réunion d'urgence. Les assureurs se retirent. Le Tribunal Intersidéral annonce l'ouverture d'une enquête.
+Platine regarde son bouton rouge. « Si j'appuie, je suis un voleur devant tout l'univers. Si je n'appuie pas, je suis ruiné. » Il soupire. « Je déteste les journalistes. Ils racontent ce qui s'est passé. »
+* end_09 rus11 ?equ>=30 | « Laissez le tribunal décider. » | Platine retire sa main du bouton. « Très bien. Un procès. Ça prendra quatre cents ans. J'ai le temps. Elle aussi. » | Platine hésite. Puis il coupe les moteurs, mais pas le câble. « Ce sera aux juges. » | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Le monde entier sait. Mais en bas, la Terre a trop basculé pour attendre un jugement. | |
+
+@fin_27
+!title: Le troisième boulon
+?!flag:boussole_boulon Pardon t'a montré l'endroit : troisième boulon, côté Terre, sous la plaque gravée « Merci de votre compréhension ».
+?flag:boussole_boulon La boussole des choses perdues t'a montré l'endroit : troisième boulon, côté Terre, sous la plaque gravée « Merci de votre compréhension ».
+Tu sors par le sas. Les moteurs tirent. Le câble est tendu à se rompre. C'est maintenant ou jamais : quand les moteurs tirent.
+?comp:pardon Pardon flotte à côté de toi. Il tend la clé. Il tremble. « Pardon. Je ne peux pas. Je suis fait pour serrer. » Tu prends la clé.
+?!comp:pardon ?!flag:boussole_boulon Tu es seul·e devant le boulon. Tu entends encore la petite voix : « Pardon. »
+?!comp:pardon ?flag:boussole_boulon Tu es seul·e devant le boulon, avec une clé de chantier prise sur le chemin. Dans ta poche, l'aiguille de la boussole tremble.
+* fin_11 rus12 ?equ>=30 | Desserrer le boulon | Un tour. Deux. Le boulon grince, comme un vieil homme qui se lève. Trois. Le crochet lâche d'un coup. La Lune est libre. Elle hésite, toute nue dans son orbite. Elle attend de savoir ce qu'elle veut. | La clé glisse. Tu recommences, en jurant. Le boulon cède, au dernier moment. La Lune est libre. Elle hésite. | +flag:cable_coupe | +flag:cable_coupe
+* fin_01 coe10 ?equ<30 | Hésiter, en voyant la Terre pencher | Tu regardes la Terre, en bas. Elle penche trop. Si le crochet lâche maintenant, la Lune pourrait tomber au lieu de rester. Tu remontes. Pas encore. | | +flag:essai_boulon |

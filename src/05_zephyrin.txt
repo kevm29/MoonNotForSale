@@ -1,0 +1,292 @@
+# ================================================================
+# PROLOGUE 5 — ZÉPHYRIN CLOPIN, Horloger, intermédiaire de la vente
+# ================================================================
+
+@zep_01
+!title: Cocktail à bord du Promontoire
+Orbite haute. À bord du Promontoire, le vaisseau-bureau de la Compagnie Foncière d'Aldébaran, on fête la vente de la Lune. Champagne de comète, petits-fours d'astéroïdes, quatuor à cordes de satellites.
+Toi, Zéphyrin Clopin, Horloger, insecte mécanique en laiton poli, élytres vernis, moustaches à ressort, tu es l'intermédiaire. C'est toi qui as trouvé la Lune, toi qui as présenté le petit lichen du guichet zéro. Ta commission : deux pour cent de la Lune. Tu es riche. Tu es brillant. Tu fais tic-tac un peu plus lentement que d'habitude.
+* zep_02 rus10 | Circuler parmi les invités | Tu circules. Tu serres des mains, des pinces, des tentacules. Tu fais rire tout le monde. C'est ton métier, faire rire avant de faire signer. | Tu circules mais tu marches sur la traîne d'une duchesse d'Aldébaran. Elle te pardonne. Tu lui dois une faveur. | rus+1 |
+* zep_03 coe11 | Regarder la Terre par le hublot | Elle est là, en bas, bleue et bancale. Ta planète. Tu ne l'avais jamais vue d'en haut. Elle a l'air plus petite que dans tes souvenirs. Plus fragile. | Tu la regardes et tu vois ton reflet dans le hublot. Tu as l'air content de toi. Ça te gêne. | coe+1 |
+
+@zep_02
+Les invités sont des Aldébaraniens : des êtres faits de feuilles d'or empilées, qui bruissent quand ils parlent et qui brillent quand ils mentent. Ils brillent beaucoup. « Monsieur Clopin ! Notre héros ! Deux pour cent d'une Lune ! Que ferez-vous de votre fortune ? »
+* zep_04 rus11 | « J'achèterai un autre satellite, et je le revendrai. » | Ils rient. Ils brillent. Tu brilles aussi, à ta manière : tes engrenages accrochent la lumière. | Ils rient poliment. Personne ne trouve ça drôle, sauf toi. | |
+* zep_05 coe12 | « Je ne sais pas encore. » | Silence. Puis une petite Aldébaranienne te répond : « C'est la réponse la plus honnête de la soirée. » Elle ne brille pas. | Ils te regardent comme un crétin. Tu te rattrapes avec une blague. | coe+1 |
+
+@zep_03
+La Terre, vue d'en haut. Les océans sont tirés vers l'est comme une nappe qu'on aurait mal mise. Les nuages font des spirales bizarres. Sur la face nocturne, des milliers de petites lumières s'allument : des feux. Partout. Des gens qui regardent le ciel.
+Ton ressort principal, celui qui bat dans ta poitrine, saute un tic.
+* zep_04 rus10 | Te détourner et reprendre une coupe | Tu reprends une coupe. Le champagne de comète pétille. Tu te sens mieux. Pas beaucoup. | Tu renverses la coupe. Elle flotte en gouttelettes dorées dans la gravité artificielle mal réglée. | |
+* zep_05 coe11 | Écouter ton ressort | Tic. Tac. Tic... Tac. Il ralentit. Tu ne sais pas pourquoi. Tu as un peu peur. | Tu écoutes, mais le quatuor joue trop fort. | coe+1 |
+
+@zep_04
+Un tintement de cristal. Tout le monde se tait. Il entre.
+Gédéon Platine, président de la Compagnie Foncière d'Aldébaran. Grand, mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière. Il porte un costume trois-pièces et un sourire qui a l'air sincère, ce qui est le plus inquiétant. Il ouvre les bras.
+« Mes amis. Mes très chers amis. Ce soir, nous avons sauvé un satellite. »
+* zep_06 rus11 | Applaudir le premier | Tu applaudis. Tout le monde t'imite. Platine te sourit et lève sa coupe vers toi. Tu es le chouchou. | Tu applaudis trop tôt. Il n'avait pas fini sa phrase. Il te regarde avec une tendresse terrible. | +flag:chouchou |
+* zep_07 coe11 | Te demander ce qu'il veut dire par « sauvé » | Tu te le demandes. Il va l'expliquer. Il explique toujours tout. | |
+
+@zep_05
+La petite Aldébaranienne qui ne brille pas s'approche de toi. Elle est stagiaire, elle s'appelle Feuille-Neuve. Elle chuchote : « Vous savez ce qui arrive aux Horlogers quand la Lune part ? »
+« Non. »
+« Vous vous arrêtez. Vous mesurez le temps par les mois lunaires. Sans Lune, plus de mois. Plus de mois, plus de tic-tac. » Elle s'éloigne. Elle a l'air désolée.
+* zep_07 coe12 | La rattraper pour en savoir plus | Elle ne veut rien dire de plus. Mais elle te glisse une carte : « Pénélope Tampon, assistante. Elle sait tout. » | Elle se perd dans la foule. Tu restes avec ta peur. | +flag:sait_arret coe+1 | +flag:sait_arret
+* zep_06 rus10 | Rire, c'est sûrement une blague | Tu ris. Ton rire grince un peu. Ton ressort fait tic... tac. | | +flag:sait_arret |
+
+@zep_06
+?from:zep_05 Un tintement de cristal. Tout le monde se tait. Gédéon Platine entre, président de la Compagnie Foncière d'Aldébaran : grand, mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière, avec un sourire qui a l'air sincère, ce qui est le plus inquiétant.
+Platine monte sur une petite estrade. « La Lune, mes amis, était à l'abandon. Elle tournait autour d'une planète qui ne la payait pas. Personne ne l'entretenait. Pas de chauffage, pas d'éclairage, pas même un jardin. Elle était seule. » Il pose la main sur son cœur, qui est une petite pièce d'or. « Nous allons lui donner une vie. Des résidents. Des piscines. Un sens. »
+Applaudissements. Tu applaudis aussi. Mais ton ressort saute un tic.
+* zep_08 rus11 | L'interrompre avec une blague | « Et un parking ? » Tout le monde rit. Platine rit aussi, aimablement. « Évidemment, Zéphyrin. Trois niveaux. » | Personne ne rit. Platine te regarde avec patience. Tu te sens comme un enfant à un enterrement. | rus+1 |
+* zep_09 coe11 | Écouter attentivement | Tu écoutes. Il est sincère. C'est ça le pire : il croit vraiment qu'il fait le bien. | Tu écoutes mais tu n'entends que ton ressort. Tic... tac... | coe+1 |
+
+@zep_07
+?from:zep_05 Un tintement de cristal. Tout le monde se tait. Gédéon Platine entre, président de la Compagnie Foncière d'Aldébaran : grand, mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière, avec un sourire qui a l'air sincère, ce qui est le plus inquiétant.
+Platine traverse la foule et vient vers toi. Il te serre la main. Sa main est froide et douce, comme une pièce de monnaie.
+« Zéphyrin. Mon cher Zéphyrin. Sans vous, rien de tout cela. Vous avez l'œil. Vous avez trouvé une Lune à l'abandon et un fonctionnaire distrait. Vous êtes un poète du foncier. »
+* zep_08 rus10 | Le remercier avec emphase | « C'est vous le poète, cher Président. Moi, je ne suis que le stylo. » Il est ravi. Il adore les métaphores. | Tu fais une métaphore ratée sur les crayons. Il fait semblant de l'apprécier. | +flag:chouchou |
+* zep_09 coe12 | Lui demander ce que deviendront les Terriens | Il penche la tête. « Les Terriens ? Ils s'adapteront. Ils ont une si belle planète. Ils n'ont pas besoin d'un satellite en plus. C'est un luxe, un satellite. » | Il ne comprend pas la question. « Les quoi ? » | coe+1 |
+
+@zep_08
+Le quatuor reprend. Platine s'éloigne pour saluer d'autres invités. Tu restes avec ta coupe. Autour de toi, on parle de la Lune comme d'un terrain : « Le cratère Copernic, vue sur la Terre, c'est le lot le plus cher. » « Moi, j'ai réservé la face cachée. Pour la tranquillité. »
+* zep_10 rus11 | Te mêler aux conversations pour vendre tes lots | Tu vends trois lots en cinq minutes. Tu es un génie. Tu te détestes un peu. C'est nouveau. | Tu essaies de vendre un lot, mais tu bafouilles. C'est la première fois que tu bafouilles. | rus+1 | mor-1
+* zep_11 coe10 | T'isoler sur le balcon | Tu sors. Le balcon donne sur l'espace. Tu es seul avec la Lune, qui pend au bout de son crochet comme un ballon qu'on emporte. | | mor+1 |
+
+@zep_09
+Platine revient, un verre à la main. « Zéphyrin, venez. Je veux vous montrer quelque chose. Vous êtes un artiste, vous allez comprendre. » Il te prend par le bras. Il t'emmène vers une porte dorée, au fond de la salle.
+« La maquette. Personne ne l'a encore vue. »
+* zep_10 rus10 | Le suivre | Tu le suis. Il marche d'un pas léger, comme un enfant qui va montrer son train électrique. | |
+* zep_10 coe11 | Le suivre en l'observant | Tu l'observes. Il est heureux. Sincèrement. Ses feuilles d'or frémissent. C'est désarmant. | | coe+1 |
+
+@zep_10
+?from:zep_08 Platine revient te chercher. « Zéphyrin, venez. Je veux vous montrer quelque chose. » Il t'emmène derrière une porte dorée.
+La maquette de Lune-sur-Mer. Une Lune en miniature, couverte de résidences en verre, de piscines suspendues, de golfs en apesanteur, de boutiques de luxe. Au centre, une grande tour : « Tour Platine. 400 étages. Vue imprenable sur l'ancienne Terre. »
+Platine la regarde avec des yeux mouillés de dorure. « N'est-ce pas magnifique ? »
+* zep_12 rus11 | « C'est magnifique, Président. » | Il te serre l'épaule. « Je savais que vous comprendriez. » Tu as menti. Ou pas. Tu ne sais plus. | Ta voix grince sur « magnifique ». Il ne remarque rien. Il est trop heureux. | +flag:chouchou |
+* zep_13 coe12 | « Où sont les marées ? » | Il réfléchit. « Les marées ? Nous les mettrons dans les piscines. Des piscines à marées. Une exclusivité. » Ton ressort saute deux tics. | Il ne comprend pas la question. Personne à Aldébaran n'a jamais vu de marée. | coe+1 |
+* zep_14 pan11 | Toucher la maquette | Tu touches la tour. Elle est en or massif. Platine te tape sur la main, gentiment, comme on gronde un chiot. Quand il se retourne, un petit morceau du golf s'est détaché sous tes doigts. Tu le gardes. | Tu la touches et un petit morceau de golf tombe. Personne ne voit. Tu le gardes. | |
+
+@zep_11
+Le balcon du Promontoire. L'espace, froid et noir. La Lune pend au bout de son crochet, si près que tu vois les grues, les ouvriers, les échafaudages. Elle tourne lentement sur elle-même, comme si elle essayait de voir d'où elle vient.
+Tu penses : j'ai fait ça. Tic. Tac.
+* zep_12 coe11 | Lui parler, comme un idiot | « Pardon. » Tu le dis à voix haute, à une Lune. Personne ne t'entend. Ça te fait du bien, et ça te fait honte. | Tu ouvres la bouche, mais rien ne sort. Les Horlogers ne sont pas faits pour les excuses. | coe+1 mor+1 |
+* zep_13 rus10 | Calculer combien tu vas gagner | Deux pour cent de quarante-deux milliards. Huit cent quarante millions. Tu fais le calcul trois fois. Ça ne te rend pas plus heureux. | Tu te trompes dans le calcul. C'est la première fois. Ton ressort ralentit. | |
+
+@zep_12
+?from:zep_11 Platine te rejoint sur le balcon, une coupe dans chaque main.
+Platine te prend par l'épaule et t'emmène vers la baie vitrée. « Vous savez pourquoi je fais ça, Zéphyrin ? Parce que j'aime les belles choses. Et une belle chose doit être vue. La Lune était belle, mais personne ne la regardait vraiment. Moi, je vais la faire regarder par des milliers de gens riches et cultivés. Je vais lui donner un public. »
+Il soupire. « C'est un cadeau que je lui fais. »
+* zep_15 coe12 | Lui demander s'il a demandé son avis à la Lune | Il te regarde. Long silence. « Son avis ? C'est un satellite, Zéphyrin. Un satellite n'a pas d'avis. » Il sourit, mais un coin de son sourire se plisse. | « Son avis ? » Il rit. « Vous êtes drôle, Zéphyrin. » | coe+1 +flag:platine_question |
+* zep_16 rus11 | Le flatter pour gagner sa confiance | « Un mécène, Président. Vous êtes un mécène de l'espace. » Il est ravi. Il te confie un badge d'accès à son bureau. « Pour mon ami. » | Il apprécie, mais te connaît trop bien. Il sourit sans rien donner. | +flag:badge_bureau |
+
+@zep_13
+Ton ressort fait des sauts. Tic... tac... tic. Tu te touches la poitrine. Tu sens le métal froid, l'engrenage qui accroche. Tu n'as jamais eu de problème mécanique. Tu as toujours été réglé comme une horloge, évidemment.
+Tu comprends. C'est la Lune. Les Horlogers comptent le temps par les mois lunaires. Tu t'arrêtes avec elle.
+* zep_15 coe11 | Avoir peur, vraiment | Tu as peur. Une peur de métal qui grince. Tu n'as jamais eu peur. Tu étais trop occupé à vendre. | Tu as peur, et tu caches ta peur derrière un sourire. Ton sourire grince aussi. | coe+1 |
+* zep_17 rus12 | Chercher un moyen de te réparer | Il n'y a pas de pièce de rechange pour un mois lunaire. Mais il y a peut-être un moyen de ralentir la vente. | Tu ouvres ta poitrine et tu regardes. C'est très compliqué. Tu refermes. | +flag:veut_reparer |
+
+@zep_14
+Le petit morceau de golf est dans ta poche. Un minigolf en or massif, avec un trou numéro 7. Ça vaut une petite fortune. Tu es un voleur. Tu l'as toujours été. Mais c'est la première fois que tu voles quelque chose à quelqu'un qui te fait confiance.
+* zep_16 rus11 | Le garder, ça peut servir | Tu le gardes. Un Horloger prévoyant ne jette jamais rien. | | +flag:golf_or |
+* zep_15 coe10 | Le remettre discrètement | Tu le remets. Platine ne voit rien. Tu te sens bizarrement honnête. Ça te démange. | Tu le remets à l'envers. Le trou numéro 7 est maintenant au plafond. | coe+1 |
+
+@zep_15
+Une voix derrière toi : « Monsieur Clopin ? » C'est une petite robote élégante, avec deux tampons à la place des mains et un chignon en ressort. Pénélope Tampon, l'assistante de Platine. Elle a des cernes, si un robot peut avoir des cernes.
+« Monsieur Platine m'a demandé de vous remettre votre contrat de commission. Il faut le signer. Ici. Et ici. Et en bas, là, à côté de la mention "accessoires". »
+* zep_18 rus12 | Lire le contrat avant de signer | Tu lis. Article 15 : « Les habitants composés majoritairement de calendrier lunaire sont considérés comme des accessoires. » Les Horlogers sont des accessoires. Tu es un accessoire. Tu vas toucher une commission sur ta propre vente. | Tu lis mais les lettres dansent. Ton ressort ralentit encore. Tu relis. Article 15. Tu aurais préféré qu'elles dansent encore. | rus+1 +flag:accessoire_zeph | +flag:accessoire_zeph
+* zep_19 coe11 | Demander à Pénélope si elle va bien | Elle s'arrête. Ses tampons tremblent. « Personne ne me demande jamais ça. » « Moi, je te le demande. » « Je... non. Je ne vais pas bien. » | Elle ne répond pas. Elle te tend le stylo. | coe+1 +flag:penelope_doute |
+
+@zep_16
+Le bureau de Platine, au sommet du Promontoire.
+?flag:badge_bureau Avec ton badge, tu y entres sans problème.
+?!flag:badge_bureau La porte n'est pas fermée. Chez Platine, rien n'est fermé : il n'imagine pas qu'on puisse le trahir. C'est une pièce ronde, dorée, pleine de maquettes de planètes vendues : des anneaux de Saturne-Bis transformés en bracelets, un soleil d'Epsilon reconverti en radiateur, des comètes-dortoirs.
+Sur le bureau, un livre ouvert : « Recueil de poèmes, par G. Platine ». Il écrit des poèmes.
+* zep_17 rus11 | Fouiller le bureau | Tu trouves les plans du chantier lunaire, le calendrier de la manœuvre, et une liste de « problèmes à régler » : « 1. Le lichen. 2. Les marées. 3. Le consentement (sans objet). » | Tu fouilles et tu déclenches une alarme. Une petite alarme polie qui dit « Excusez-moi ». | +flag:plans_chantier +flag:plan_chantier rus+1 |
+* zep_18 coe11 | Lire les poèmes | Ils sont mauvais. Très mauvais. Mais ils sont sincères. « Ô Lune, toi qui brilles pour rien, je te donnerai un prix, et le prix sera ta beauté. » Il est amoureux de ce qu'il vend. | Tu lis une ligne et tu dois t'arrêter. C'est trop mauvais. Trop triste. | coe+1 +flag:platine_faille |
+
+@zep_17
+Le calendrier de la manœuvre. Jour 1 : accrochage. Jour 3 : premières cloisons. Jour 7 : sortie d'orbite. Jour 8 : départ définitif vers Aldébaran.
+Il reste six jours. Six jours avant que la Lune parte. Six jours avant que ton ressort s'arrête.
+* zep_18 rus12 | Mémoriser tout le calendrier | Tu le mémorises. Ton cerveau d'horloger est fait pour ça. Six jours. Tu sais exactement quand le monde finit. C'est un avantage. | Tu en mémorises la moitié. L'autre moitié, tu l'inventeras. | rus+1 +flag:calendrier |
+* zep_19 coe10 | Penser à ce que tu pourrais faire en six jours | Tu pourrais t'enfuir avec ta commission. Ou tu pourrais faire quelque chose de bien, une fois. Juste une. | Tu ne penses à rien. Tu as la tête vide. Ton ressort fait tic... tac. | coe+1 |
+
+@zep_18
+!fx: +flag:accessoire_zeph
+?!from:zep_15 Une petite robote élégante te rattrape dans la coursive, deux tampons à la place des mains : Pénélope Tampon, l'assistante de Platine. « Votre contrat de commission, Monsieur Clopin. » Tu le lis, cette fois. Article 15 : « Les habitants composés majoritairement de calendrier lunaire sont considérés comme des accessoires. »
+Le contrat de commission te dit que tu es un accessoire. La plaisanterie est bonne. Tu ris. Pénélope te regarde rire. Elle ne comprend pas. Puis elle comprend. Elle pose sa main-tampon sur ton bras.
+« Je suis désolée. Je tamponne ces contrats depuis deux cents ans. Je n'avais jamais lu l'article 15. »
+* zep_20 coe11 | Lui demander de t'aider | « M'aider à quoi ? » « À ne pas devenir un accessoire. » Elle réfléchit longtemps. Ses engrenages bourdonnent. « Je vais vous montrer la cale. Il y a quelqu'un qui veut aussi sortir d'ici. » | Elle hésite. « Je ne peux pas. Je suis assistante. » Mais elle ne s'en va pas. | +flag:penelope_aide coe+1 |
+* zep_21 rus11 | Signer quand même, mais avec un faux nom | Tu signes « Zéphyrin Clocher ». Le contrat ne vaut plus rien. Pénélope le voit. Elle ne dit rien. Elle tamponne. Elle sourit. | Tu signes ton vrai nom, par réflexe. Tu le regrettes aussitôt. | +flag:faux_nom |
+
+@zep_19
+?from:zep_17 Une petite robote élégante, deux tampons à la place des mains, s'arrête devant toi dans la coursive : Pénélope Tampon, l'assistante de Platine.
+Pénélope Tampon te regarde. Elle a une tache d'encre sur le cœur. « Monsieur Clopin. Vous êtes la seule personne à bord qui ait l'air triste. Ça me fait du bien. Pas que vous soyez triste. Que quelqu'un le soit. »
+* zep_20 coe12 | « On pourrait être tristes ensemble. » | Elle rit, le bruit d'une photocopieuse. « Ensemble ? C'est un mot que je n'ai jamais tamponné. » Vous restez là, un moment, deux employés modèles en pleine crise de conscience. | Elle ne comprend pas la proposition. Elle la note pour plus tard. | coe+1 mor+1 |
+* zep_21 rus11 | Lui demander des informations sur la vente | Elle hésite, puis elle te parle : « Le lichen qui a signé n'a pas fini sa signature. Monsieur Platine attend qu'elle soit finie pour officialiser. Il reste quelques jours. » | Elle ne dit rien. Elle a peur. | +flag:signature_lente |
+
+@zep_20
+Pénélope te guide dans les coursives de service du Promontoire. Des tuyaux dorés, des voyants polis, des petits robots de ménage qui s'inclinent sur votre passage. Elle s'arrête devant une porte marquée « CALE — Objets confisqués ».
+« Il y a un prisonnier là-dedans. Il a essayé de voler la Lune avant nous. Il dit qu'il s'appelle Capitaine. »
+* zep_22 rus11 | Entrer dans la cale | La porte s'ouvre. Il fait noir. Ça sent la comète et le tabac. | |
+* zep_23 coe10 | Remercier Pénélope avant | « Merci, Pénélope. » Elle te regarde. « Je crois que je viens de trahir mon patron. » « Comment tu te sens ? » « Vivante. » | | +flag:penelope_aide mor+1 |
+
+@zep_21
+Tu as maintenant des informations. Tu es un Horloger, tu sais ce que vaut une information : tout. Ou rien, si on la garde trop longtemps. Le problème, c'est que tu ne sais pas à qui la vendre. Ni si tu veux la vendre.
+C'est la première fois que tu ne veux pas vendre quelque chose.
+* zep_22 coe11 | Chercher quelqu'un à qui la donner | Donner. Le mot te brûle la bouche. Tu te diriges vers la cale. On t'a dit qu'il y avait un prisonnier. | | coe+1 |
+* zep_24 rus12 | Calculer comment en tirer profit quand même | Tu calcules. Tu pourrais te servir de tes deux pour cent comme d'un levier. Deux pour cent d'une Lune, ça donne une voix au conseil de copropriété. | Tu calcules et tu te perds dans tes propres engrenages. | +flag:zep_actions rus+1 | +flag:zep_actions
+
+@zep_22
+La cale. Au milieu, une cage dorée. Dans la cage, un être grand, bleu, à quatre bras, avec une moustache faite d'une petite nébuleuse qui tourne lentement. Il porte un chapeau de pirate plein de trous de météorites. Il fume une pipe sans tabac, par principe.
+« Ah ! Enfin de la visite ! Capitaine Rocambole, contrebandier de comètes, voleur de satellites, briseur de cœurs ! Enfin, j'ai essayé. Pour le satellite. Les cœurs, ça marche mieux. »
+* zep_25 rus11 | Lui demander pourquoi il voulait voler la Lune | « Pour la revendre, bien sûr ! Une Lune pareille, en parfait état, avec des marées, des rêves, des poètes qui lui écrivent... Ça vaut une fortune ! » Il rit. « Mais ce gros malin de Platine l'a achetée avant moi. Légalement ! Quelle honte ! » | « Pour l'aventure, mon ami ! » Il ment. Ou pas. Il ne sait pas lui-même. | rus+1 |
+* zep_26 coe11 | Lui demander s'il va bien | « Bien ? Je suis enfermé dans une cage en or par un promoteur qui me récite des poèmes le soir. Je vais horriblement mal. Merci de demander. » | « Évidemment ! Un Capitaine va toujours bien ! » Il éternue de la poussière d'étoile. | coe+1 |
+
+@zep_23
+Pénélope reste à la porte de la cale. « Je fais le guet. Si quelqu'un vient, je tamponne très fort. » Elle tamponne l'air, deux fois, pour s'entraîner. « Comme ça. »
+Tu lui fais un clin d'œil. Les Horlogers ont des clins d'œil mécaniques, ça fait « tchic ». Elle te répond par un petit « clac ».
+* zep_22 coe10 | Entrer dans la cale | Tu entres. Tu entends Pénélope tamponner doucement derrière toi, pour se donner du courage. | |
+
+@zep_24
+Deux pour cent d'une Lune. Une copropriété. Au conseil des copropriétaires de Lune-sur-Mer, tu auras une voix. Une seule, minuscule. Mais une voix, dans un conseil, ça peut bloquer des choses. Ça peut retarder des travaux. Ça peut proposer des motions absurdes.
+Tu es un Horloger. Retarder, c'est ton art.
+* zep_22 rus11 | Aller voir le prisonnier de la cale, il pourrait servir | Tu y vas. Un prisonnier, c'est un allié qui n'a pas encore signé. | |
+* zep_27 coe12 | Te demander si c'est vraiment ça que tu veux | Tu ne sais pas. Tu veux que ton ressort continue de battre. Tu veux que la Lune reste. Tu veux être quelqu'un de bien. C'est trop de choses à la fois pour un intermédiaire. | | coe+1 |
+
+@zep_25
+Rocambole s'approche des barreaux. « Écoute, petit insecte en laiton. Tu as l'air de quelqu'un qui veut faire une bêtise. Je suis un spécialiste des bêtises. Ouvre cette cage, et je t'aide. »
+« M'aider à quoi ? »
+« À la bêtise, évidemment. »
+* zep_28 rus12 | Négocier les termes de l'alliance | « Moitié-moitié sur tout ce qu'on volera. » « Tu ne voles rien, petit. » « Alors moitié-moitié sur rien. » Il éclate de rire. « Marché conclu ! » | Il négocie mieux que toi. Tu finis par lui promettre tes moustaches. | +flag:pacte_rocambole |
+* zep_29 pan11 | Forcer la serrure | Tu sors un petit outil de ta poche. Les Horlogers ont toujours un tournevis sur eux. La serrure craque. | La serrure est en or. L'or ne craque pas. Il plie. Ça prend du temps. | pan+1 |
+
+@zep_26
+« Tu sais ce qui est drôle ? » dit Rocambole en tirant sur sa pipe vide. « Moi, je voulais la voler pour la revendre. Mais quand je me suis approché, quand j'ai vu sa face de près, la poussière, les cratères, la lumière... Je l'ai trouvée belle. J'ai hésité. C'est pour ça qu'ils m'ont attrapé. J'ai hésité à voler quelque chose de beau. »
+Il te regarde. « C'est la première fois de ma vie que j'hésite. »
+* zep_28 coe12 | Lui dire que toi aussi, tu hésites | « Alors on est deux. » Il te tend une main à travers les barreaux. Une main bleue, immense, chaude. « Deux hésitants. C'est une équipe. » | Il te regarde avec pitié. « Un Horloger qui hésite ? Ça doit faire mal. » | coe+1 +flag:pacte_rocambole |
+* zep_29 rus10 | Lui demander s'il a un vaisseau | « Un vaisseau ? J'ai LE vaisseau. Le Pied-de-Nez. Ils l'ont mis à la fourrière, en bas. » | |
+
+@zep_27
+Tu restes un moment dans la coursive. Tic. Tac. Tic... Tu penses à ta vie. Tu as toujours vendu des choses. Des montres à des gens qui avaient le temps. Du temps à des gens qui avaient des montres. Et puis une Lune. Une Lune entière. À quelqu'un qui écrit des poèmes ratés.
+Tu as toujours su que tu finirais par vendre quelque chose qui ne t'appartenait pas. Mais tu n'avais pas prévu que ce serait toi.
+* zep_22 coe11 | Aller voir le prisonnier, au moins pour parler | Tu y vas. Parler à quelqu'un qui est enfermé, ça aide parfois à se sentir moins enfermé soi-même. | |
+
+@zep_28
+?from:zep_25,from:zep_26 Tu cherches la clé. Elle est accrochée au mur, juste à côté de la cage. Personne n'avait pensé à regarder.
+La cage s'ouvre. Rocambole sort, s'étire de ses quatre bras, fait craquer ses huit coudes. Il est encore plus grand dehors. « Ah ! La liberté ! Elle sent la cale, mais elle est à moi ! »
+Il te soulève du sol et t'embrasse sur les deux élytres. « Petit insecte, tu viens de faire la chose la plus stupide de ta carrière. Je t'adore. »
+* zep_30 rus11 | « On va à la fourrière chercher ton vaisseau. » | « Évidemment ! On ne s'évade pas à pied, c'est vulgaire. » | |
+* zep_31 coe10 | « Tu viens avec moi sur Terre ? » | « Sur Terre ? Avec des Marégraves, des lichens et des gens qui écrivent à la Lune ? » Il réfléchit. « J'adore les causes perdues. Elles paient mal, mais elles finissent bien. Parfois. » | « Sur Terre ? C'est un trou ! Un trou merveilleux, mais un trou. » Il vient quand même. | +comp:rocambole mor+1 | +comp:rocambole
+
+@zep_29
+?from:zep_26 « Ouvre-moi d'abord, petit. On parlera navigation après. »
+Tu travailles sur la serrure. Ton tournevis glisse. L'or plie. Rocambole fredonne une chanson de pirate pour te donner du courage. C'est une chanson sur un pirate qui vole une étoile et se brûle les doigts. Elle a dix-sept couplets. Elle finit mal.
+* zep_28 pan12 | Forcer de toutes tes forces | La serrure cède. Ton tournevis aussi. Rocambole est libre. Tu n'as plus de tournevis. C'est un échange équitable. | Tu forces, tu glisses, tu forces. Au dix-septième couplet, elle cède. | pan+1 |
+* zep_28 rus11 | Chercher la clé | La clé est accrochée au mur, juste à côté de la cage. Personne n'avait pensé à regarder. Rocambole est vexé de ne pas l'avoir vue. | Tu cherches la clé. Tu la trouves au dix-septième couplet. | rus+1 |
+
+@zep_30
+La fourrière du Promontoire. Des dizaines de vaisseaux confisqués : des chaloupes de comètes, des yachts de nébuleuses, une soucoupe à deux places avec un siège bébé. Et au fond, le Pied-de-Nez : un vieux cargo cabossé, peint en rouge et vert, avec une figure de proue qui tire la langue.
+« Mon bébé ! » crie Rocambole.
+?flag:penelope_aide Pénélope arrive en courant. « Ils savent ! Ils savent que la cage est vide ! »
+* zep_32 pan11 | Monter à bord immédiatement | Tu montes. Le Pied-de-Nez sent le vieux cuir, le café de comète et la mauvaise idée. C'est parfait. | Tu montes, mais l'échelle est cassée. Tu grimpes par la figure de proue. Elle te tire la langue. | |
+* zep_33 rus12 | Saboter les autres vaisseaux pour qu'ils ne vous suivent pas | Tu arraches des engrenages ici, tu tords des ressorts là. Les vaisseaux de poursuite ne décolleront pas avant demain. | Tu sabotes la soucoupe au siège bébé. Ça ne sert à rien. Tu te sens mal. | rus+1 +flag:sabotage_poursuite |
+
+@zep_31
+Rocambole te regarde. « Tu sais ce que je pense, petit ? Je pense que tu as vendu la Lune et que tu veux la racheter avec ta conscience. Mauvaise affaire. La conscience, ça ne vaut rien sur le marché. »
+Il tire sur sa pipe vide. « Mais c'est la seule monnaie qui compte. »
+* zep_30 coe11 | « Tu es philosophe, pour un pirate. » | « Tous les pirates sont philosophes, petit. On passe nos nuits à regarder les étoiles en se demandant ce qu'on pourrait leur voler. » | |
+* zep_30 rus10 | « On y va. » | « On y va ! » | |
+
+@zep_32
+Le Pied-de-Nez démarre en toussant. Une alarme retentit dans tout le Promontoire : « Évasion en cours. Merci de rester calmes. Monsieur Platine est très déçu. » La voix de Platine, douce, triste : « Zéphyrin ? Zéphyrin, mon ami ? Pourquoi ? »
+* zep_34 coe12 | Lui répondre par la radio | « Parce que j'ai lu l'article 15, Président. » Silence. Puis : « Ah. L'article 15. Oui. C'est un article un peu... sec. » Il a l'air sincèrement gêné. | Tu ouvres la radio mais tu ne sais pas quoi dire. Tu la refermes. | coe+1 +flag:platine_emu |
+* zep_35 pan11 | Couper la radio et foncer | Tu coupes. Rocambole pousse les gaz. Le Pied-de-Nez bondit hors de la fourrière. | Tu coupes la radio, puis tu la rallumes par erreur. Platine entend Rocambole chanter. | pan+1 |
+
+@zep_33
+Tu sabotes. Tu es un Horloger : tu sais exactement quel petit engrenage, quel petit ressort, quelle petite vis arrête tout. C'est ton savoir le plus ancien. Celui que ta grand-mère t'a appris : « Zéphyrin, si tu sais réparer une horloge, tu sais l'arrêter. »
+* zep_32 rus11 | Finir et rejoindre le vaisseau | Tu finis. Tu cours. Tu sautes dans le Pied-de-Nez au moment où il décolle. | |
+
+@zep_34
+Le Pied-de-Nez s'arrache du Promontoire. Derrière vous, le vaisseau-bureau rapetisse. Devant vous, la Terre grossit. La Lune passe à côté, énorme, avec ses grues et son crochet.
+Rocambole la regarde. « Elle est belle, hein ? » Pour une fois, il ne fait pas de blague.
+* zep_36 coe11 | « Oui. » | Tu le dis simplement. C'est la première fois que tu dis quelque chose simplement. | |
+* zep_37 rus10 | « Elle vaut quarante-deux milliards. » | Rocambole te regarde. « Non, petit. Elle ne vaut rien. Elle est au-dessus du prix. C'est pour ça qu'on va la sauver. » | | +flag:au_dessus_prix |
+
+@zep_35
+Le Pied-de-Nez fonce. Des petits drones dorés vous poursuivent en disant « Pardon », « Excusez-moi », « Veuillez vous arrêter, s'il vous plaît ». Ils sont très polis. Ils tirent des rayons de politesse qui font rougir la coque.
+* zep_36 pan12 | Prendre les commandes et faire une manœuvre folle | Tu prends le manche. Tu fais un looping autour d'une grue lunaire. Les drones s'emmêlent dans les câbles en s'excusant mutuellement. | Tu fais un looping raté. Le Pied-de-Nez tourne trois fois sur lui-même. Rocambole vomit de la poussière d'étoile. | pan+1 equ+2 | mor-1
+* zep_37 rus11 | Leur répondre poliment pour les embrouiller | « Après vous, je vous en prie. » Les drones s'arrêtent, confus. « Non, après vous. » Ils se font des politesses pendant que vous vous éloignez. | Ils répondent « Non, vraiment, après vous ». Vous êtes coincés dans une boucle de politesse. Rocambole finit par les insulter. | rus+1 |
+
+@zep_36
+L'atmosphère de la Terre. Le Pied-de-Nez entre en grinçant, rouge comme une braise, en secouant toutes ses vis. Rocambole hurle une chanson de pirate pour couvrir le bruit. Tu t'accroches à ton siège.
+Ton ressort fait tic... tac... tic... tac. Plus lentement que jamais.
+* zep_38 pan11 | Tenir bon | Tu tiens. Le vaisseau tient. L'univers tient, pour l'instant. | Tu tiens, mais ton ressort saute un tac complet. Tu as une seconde d'absence. | | mor-1
+* zep_39 coe12 | Penser à ta grand-mère | Ta grand-mère, la vieille Horlogère, qui sonnait l'heure dans le clocher de ton village. Elle doit s'arrêter, elle aussi. En ce moment. Tu dois faire vite. | Tu penses à elle et ça te fait plus mal que la rentrée atmosphérique. | coe+1 |
+
+@zep_37
+« Tu sais, petit », dit Rocambole pendant que le vaisseau traverse les nuages, « dans ma vie, j'ai volé des comètes, des anneaux, une nébuleuse entière une fois. Je l'ai rendue. Elle était trop collante. Mais je n'ai jamais rien rendu de beau. Les choses belles, je les gardais. »
+Il regarde la Lune. « Celle-là, je crois qu'il faudra la rendre. »
+* zep_38 coe11 | « À qui ? » | « À elle-même, petit. Les belles choses s'appartiennent. C'est ce qui les rend belles. » | |
+* zep_39 rus10 | « On pourrait la garder pour nous. » | Il rit. Longtemps. Puis il ne rit plus. « On pourrait. » Il te regarde. « Mais on ne le fera pas, hein ? » Tu ne réponds pas. | | +flag:tentation_vol |
+
+@zep_38
+Le Pied-de-Nez atterrit. Mal. Très mal. Il rebondit trois fois sur une plaine, laboure un champ de choux, traverse une haie, et s'arrête dans un étang, la figure de proue tirant la langue à une famille de canards scandalisés.
+« Atterrissage parfait ! » crie Rocambole.
+?!comp:rocambole Il te pousse dehors avec tendresse. « Moi, je reste avec mon bébé. Il a besoin de soins. Si tu as besoin d'un pirate, siffle. Fort. »
+* zep_40 pan11 | Sortir du vaisseau | Tu sors. Tu es sur Terre. Ta Terre. Ça sent la boue et le chou. Tu n'as jamais été aussi heureux de sentir le chou. | Tu sors et tu tombes dans l'étang. Les canards rient. | |
+* zep_41 rus10 | Vérifier les dégâts | Le vaisseau est cabossé, mais il revolera. Ton ressort est cabossé aussi, mais il bat. | Le vaisseau a perdu une aile. Rocambole dit que c'était une aile décorative. | +flag:pied_de_nez |
+
+@zep_39
+Le vaisseau traverse les nuages. En dessous, la Terre. Tu la vois de près pour la première fois depuis des mois : les forêts qui ne savent plus de quel côté pousser, les mers qui débordent d'un côté et reculent de l'autre, les villes où des milliers de petites lumières s'agitent. Des feux de panique.
+* zep_40 coe12 | Pleurer, enfin | Les Horlogers pleurent de l'huile. Ça fait des petites taches sur tes élytres. Rocambole te tend un mouchoir. Il est plein de trous de météorites. | Tu n'arrives pas à pleurer. Ton mécanisme ne le prévoit pas. Ça te désespère. | coe+1 mor+1 |
+* zep_41 rus11 | Repérer où tout le monde se rassemble | Il y a un endroit où les feux convergent : une grande plaine. Le Carrefour des Espèces. Tout le monde y va. | | +flag:vu_carrefour |
+
+@zep_40
+?from:zep_39 Le Pied-de-Nez finit par se poser, de travers, dans un champ de choux.
+Tu marches dans la campagne.
+?comp:rocambole Rocambole te suit, en sifflotant, en saluant les vaches, qui le regardent avec méfiance. Il les trouve charmantes. Il n'en avait jamais vu.
+?comp:rocambole « Petit, sur Terre, vous avez des vaches qui ne volent pas ! C'est révolutionnaire ! »
+Sur la route, des panneaux : « GRANDE PANIQUE → ».
+* zep_42 rus11 | Suivre les panneaux | Tu suis. Tu as une raison d'y aller : tu sais des choses que personne d'autre ne sait. | |
+* zep_43 coe10 | T'arrêter dans un village d'Horlogers | Un petit village d'Horlogers. Tout est arrêté. Les gens sont figés, à mi-geste, comme des horloges en panne. Une vieille Horlogère, sur un banc, a la main levée vers le ciel. | | coe+1 |
+
+@zep_41
+?from:zep_39 Le Pied-de-Nez finit par se poser, de travers, dans un champ de choux.
+Tu fais l'inventaire. Ce que tu as : une commission de deux pour cent d'une Lune, un contrat qui fait de toi un accessoire, des informations sur la manœuvre, un ressort qui ralentit.
+?comp:rocambole Et un pirate à quatre bras qui chante.
+?flag:plans_chantier Et les plans du chantier lunaire, pliés dans ton élytre gauche.
+Ce que tu n'as pas : la moindre idée de ce que tu vas faire.
+* zep_42 rus11 | C'est déjà beaucoup | Tu te dis que c'est déjà beaucoup. Tu as fait des affaires avec bien moins que ça. | |
+* zep_43 coe11 | Ce n'est rien, sans les autres | Tu as besoin des autres. Des Terriens. De ceux que tu as vendus. Il va falloir les regarder en face. | | coe+1 |
+
+@zep_42
+Sur la route, des Terriens de toutes les espèces. Ils marchent vers le Carrefour. Un Lichenaute te reconnaît. Il s'arrête. « Vous êtes Clopin. Vous étiez au guichet zéro avec le promoteur. Je vous ai vu. »
+Les gens autour s'arrêtent aussi. Ils te regardent.
+* zep_44 coe12 | Avouer | « Oui. C'est moi. J'ai aidé à vendre la Lune. Et je viens vous aider à la récupérer. » Silence. Puis un vieux Gravitaire crache par terre. Puis une jeune Marégrave dit : « Alors aide-nous. » | Tu avoues, mais tu bafouilles. Ils ne t'écoutent pas. Ils te tournent le dos. | coe+1 equ+2 | mor-2
+* zep_45 rus11 | Mentir, prétendre être quelqu'un d'autre | « Vous me confondez. Je suis Zéphyrin Clocher. Un cousin. » Ils hésitent, puis repartent. Tu as menti. Ton ressort saute un tic. | Ils ne te croient pas. Ils te suivent du regard jusqu'au Carrefour. | | mor-1
+
+@zep_43
+Le village des Horlogers. Tout est arrêté. Les gens figés, les horloges figées, le temps figé. Une vieille Horlogère sur un banc, la main tendue vers la Lune. Sa poitrine ne fait plus tic-tac.
+Tu t'approches. C'est ta grand-mère. Ce n'est pas ton village, mais c'est ta grand-mère. Elle était venue voir sa sœur.
+* zep_44 coe12 | Lui remonter le ressort | Tu remontes son ressort avec tes doigts. Ça ne marche pas, la Lune manque. Mais elle cligne une fois des yeux. Elle te voit. Elle sourit. Puis elle se refige. Tu as eu une seconde. | Tu essaies, mais ton propre ressort est trop faible. Tu t'assois à côté d'elle. Tu restes longtemps. | coe+2 mor+1 +flag:grand_mere | coe+1 +flag:grand_mere
+* zep_45 rus10 | Noter l'endroit et promettre de revenir | Tu notes. Tu promets. Tu as déjà fait beaucoup de promesses. Celle-là, tu la tiendras. | | +flag:grand_mere |
+
+@zep_44
+Tu reprends la route. Tu as les mains qui tremblent, un peu. Les Horlogers n'ont pas de mains qui tremblent, normalement. Ils ont des mains précises. Tu n'es plus précis. Tu es humain, ou quelque chose qui y ressemble, sans en être.
+?comp:rocambole Rocambole marche à côté de toi en silence. Il ne chante plus. Il pose une de ses quatre mains sur ton épaule.
+* zep_46 coe10 ?!comp:rocambole | Marcher | Tu marches. Seul, mais tu as l'habitude. | |
+* zep_46 coe11 ?comp:rocambole | Marcher avec lui | Vous marchez ensemble. Un pirate et un traître. C'est une belle équipe pour sauver le monde. | |
+* hub_01 pan10 | Accélérer vers le Carrefour | Tu accélères. Six jours. Il reste six jours. Tu n'as plus de temps à perdre. Littéralement. | | pan+1 |
+
+@zep_45
+Tu arrives au bord d'une grande plaine. Le Carrefour des Espèces. Des milliers de créatures, des tentes, des banderoles, des tribunes. Au-dessus, la Lune, penchée, avec son crochet. Tu sais exactement combien de jours il lui reste. Personne d'autre ici ne le sait.
+Ton ressort fait tic... tac...
+* hub_01 rus11 | Descendre et te fondre dans la foule | Tu descends. Un Horloger parmi les autres. Personne ne te remarque. C'est ton talent, et ta malédiction. | |
+* zep_46 coe10 | Rester un moment à regarder | Tu regardes. Ils sont si nombreux. Ils sont si différents. Ils ont tous perdu la même chose. Toi aussi. | | coe+1 |
+
+@zep_46
+Tu restes au bord de la plaine. Le vent apporte des voix, des cris, des chansons. Quelque part, quelqu'un joue de l'accordéon. Mal. Avec cœur.
+Tu penses à Platine, à ses poèmes ratés, à sa maquette dorée. Tu penses à ta grand-mère, la main levée vers le ciel. Tu penses que tu as été du mauvais côté toute ta vie, et que tu as six jours pour changer de côté.
+C'est un délai serré. Mais tu as toujours aimé les délais serrés.
+* hub_01 coe11 | Descendre vers la Grande Panique | Tu descends. Ton ressort fait tic-tac. Pas plus vite. Mais avec plus de conviction. | Tu descends en trébuchant. Un ressort qui doute, ça trébuche. | mor+1 |

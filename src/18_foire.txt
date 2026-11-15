@@ -1,0 +1,117 @@
+# ================================================================
+# LA FOIRE AUX RENCONTRES — boucle explicite : trois stands au plus,
+# chaque stand visité disparaît de la liste, la sortie est toujours là.
+# ================================================================
+
+@foi_01
+!title: La Foire aux Rencontres
+!fx: +flag:vis_foi
+Derrière les tentes du Conseil, quelqu'un a monté une foire. Une vraie, avec des lampions, une buvette et un orchestre de grillons qui joue la même valse depuis le début de la crise. Sur l'arche d'entrée : « FOIRE AUX RENCONTRES. Trouvez votre équipe pour sauver la Lune. Fermeture à minuit. »
+Chaque stand est tenu par quelqu'un qui veut partir. Ils ont tous fait une pancarte. Certaines sont très belles. D'autres sont écrites avec les pieds, parfois littéralement.
+Une vieille poule en tablier, à l'entrée, te prévient : « Minuit, c'est dans pas longtemps, mon poussin. Tu auras le temps de t'arrêter à trois stands, pas plus. Choisis avec ton cœur, ou avec tes pieds, mais choisis. »
+* foi_02 coe10 | Entrer dans l'allée des stands | Tu entres. Les lampions s'allument sur ton passage, un par un, comme s'ils t'attendaient. | Tu entres en même temps qu'une famille de Gravitaires. Tu passes l'arche avec trois minutes de retard et un pied écrasé. | mor+1 |
+
+@foi_02
+!title: L'allée des stands
+?foire<1 L'allée des stands s'étend devant toi, éclairée de lampions de toutes les couleurs. Ça sent la barbe à papa et la poussière d'étoile.
+?foire>=1 ?foire<3 Tu reviens dans l'allée. Les lampions ont baissé d'un ton. À la buvette, l'orchestre de grillons recommence sa valse depuis le début.
+?foire>=3 Minuit sonne. Les lampions s'éteignent un par un. Les stands baissent leurs rideaux. La vieille poule ferme l'arche derrière toi : « C'est fini pour ce soir, mon poussin. Ceux que tu as trouvés, garde-les bien. »
+?foire>=1 ?foire<3 La vieille poule lève les doigts de sa patte : « Tu peux encore t'arrêter à un ou deux stands. Après, minuit. »
+* foi_03 ?foire<3 ?!flag:stand_ysa ?!flag:ysaline_renvoyee | Le stand du Syndicat des Femelles de Toutes Espèces | Tu t'approches d'un stand tapissé de tracts. Une grande mante verte t'observe en tenant un mégaphone comme un sceptre. |  |
+* foi_05 ?foire<3 ?!flag:stand_plu | Le stand du Régiment des Basses-Cours | Tu t'approches d'un stand bariolé de drapeaux. Un coq au garde-à-vous fait semblant de ne pas te voir venir, puis t'accueille comme un général. |  |
+* foi_07 ?foire<3 ?!flag:stand_tau | Le kiosque du Courrier des Galeries | Un kiosque à journaux posé de travers sur une taupinière. Une petite taupe en lunettes épaisses tape à la machine sans regarder, ce qui ne change rien pour elle. |  |
+* foi_09 ?foire<3 ?!flag:stand_rem | L'établi du plus vieil Horloger du monde | Un établi couvert de rouages. Derrière, un très vieil Horloger cligne des yeux, lentement, très lentement. |  |
+* foi_11 ?foire<3 ?!flag:stand_coq ?!comp:coquille | La maternité de campagne, où se repose une tortue | Sous une tente blanche, une tortue énorme se repose sur un tas de coussins, en mangeant des fraises avec une lenteur royale. |  |
+* foi_13 ?foire<3 ?!flag:stand_ves ?!comp:vesperine ?!flag:vesperine_renvoyee | La tente noire du Bal des Créatures de la Nuit | Une tente de velours noir, tendue de dentelle. On y entend un violon. Une odeur de mûre écrasée flotte à l'entrée. |  |
+* hub_06 ?regions<2 | Quitter la Foire et partir vers une région du monde | Tu passes sous l'arche. Derrière toi, la valse continue sans toi. Devant, le Conseil a déplié sa carte. |  |
+* hub_07 ?regions>=2 | Quitter la Foire : il est l'heure de regarder vers le haut | Tu passes sous l'arche. La valse s'arrête net. Tout le monde, dans la foire, s'est retourné vers la Lune. |  |
+
+@foi_03
+!title: Ysaline Mante
+!fx: +flag:stand_ysa foire+1
+« Ysaline Mante. Présidente du Syndicat des Femelles de Toutes Espèces. » Elle te serre la main. Elle serre fort. « En trente ans, j'ai obtenu l'abolition du dévorage obligatoire du conjoint chez les mantes, le droit de vote des reines-abeilles et des vestiaires séparés chez les Gravitaires. La Lune, c'est une femelle. On l'a vendue sans lui demander son avis. Ça ne se passera pas comme ça. »
+?pc:pelagie « Des abeilles ! Mes sœurs ! » Elle nous serre la patte, une par une, les trois cents. Ça prend vingt minutes. Personne ne s'en plaint. Sœur Gertrude prend sa carte du Syndicat.
+?pc:barnabe Elle te regarde de haut en bas. « Un Lord. Un loup. Un mâle. Vous cochez toutes les cases, mon cher. » Puis, plus doucement : « Mais vous avez enterré un ami, ça se voit. Je ne dévore pas les veufs. »
+?comp:fulgence Ysaline voit Fulgence. Elle se fige. Ses pattes avant se déplient, lentement, comme deux lames. « Toi. Tu as pris mon visage pour entrer au Congrès. Tu as voté trois motions et embrassé une déléguée. » Fulgence devient une petite vieille, puis une plante verte. « Je ne pars pas avec lui. Jamais. Si tu le gardes, tu pars sans moi. »
+* foi_04 pan11 ?!comp:fulgence | « Venez avec nous. La Lune a besoin de quelqu'un qui crie. » | Ysaline lève son mégaphone. « Mesdames, je pars. Le Syndicat est à vous. Ne cédez rien. » Elle descend de son stand. Elle te suit d'un pas de mante, précis, inexorable. | « Je ne suis pas quelqu'un qui crie, je suis quelqu'un qu'on écoute. » Elle te suit quand même, pour corriger ton vocabulaire. | +comp:ysaline mor+1 | +comp:ysaline
+* foi_04 coe11 ?comp:fulgence | Demander à Fulgence de partir, pour emmener Ysaline | Fulgence te regarde, blessé sous toutes ses formes. Puis il s'incline. « C'est juste. Je l'ai mérité. » Il devient un chat noir et disparaît entre les stands. Ysaline te serre la main, fort. « Merci. On dit rarement merci à celles qui ont raison. » | Fulgence part, mais il prend ton visage en partant, une seconde, pour te montrer ce que ça fait. Ysaline te suit, satisfaite et un peu gênée. | -comp:fulgence +comp:ysaline +flag:fulgence_renvoye | -comp:fulgence +comp:ysaline +flag:fulgence_renvoye mor-1
+* foi_04 rus10 | Prendre un tract, et la remercier | Elle te donne trois tracts, une carte d'adhérente et un badge. « Pour quand tu seras prêt·e. » | Elle te donne un tract. Tu le lis de travers. Elle te le reprend et le retourne. | +flag:tract_syndicat |
+
+@foi_04
+?comp:ysaline Ysaline marche à côté de toi en annotant le programme de la Foire. Elle a déjà corrigé quatre fautes d'accord et un sexisme involontaire.
+?!comp:ysaline Ysaline retourne à son mégaphone. Derrière toi, sa voix reprend : « ... et la Lune n'est pas une marchandise ! »
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. La foule est plus dense. Minuit approche. | |
+
+@foi_05
+!title: Le Colonel Plumard
+!fx: +flag:stand_plu foire+1
+« Colonel Plumard ! Régiment des Basses-Cours ! Soixante ans de service ! J'ai réveillé la Terre tous les matins de ma vie, mon garçon, ma fille, mon soldat ! » Le coq bombe le torse. Une plume tombe. Il fait semblant qu'elle était en trop. « Et maintenant, plus de Lune, plus de nuit, plus d'aube ! On me prend mon métier ! Je veux monter là-haut et sonner le réveil sous le nez de ce Platine ! »
+?pc:barnabe Plumard te salue avec méfiance. « Un loup. Dans une basse-cour, on n'aime pas trop les loups. » Il réfléchit. « Mais un loup qui a peur de la Lune qui part, c'est un loup qui a du cœur. Repos. »
+?comp:vesperine La Comtesse Vespérine pousse un soupir excédé. « Ce volatile chante à l'aube. Tous les jours. À l'heure exacte où je m'endors. » Plumard se hérisse : « La nuit est une négligence, madame ! » Vespérine sort un éventail noir et se cache derrière. « Ou lui, ou moi. Je ne dormirai pas dans un poulailler. »
+* foi_06 pan11 ?!comp:vesperine | « Garde-à-vous, Colonel. On part en campagne. » | « À vos ordres ! » Il chante. Il n'est pas l'heure. Toute la Foire sursaute. Il ne s'excuse pas : c'est un militaire. | Il chante si fort qu'il s'étouffe. Il se reprend. « À vos ordres. » Il te suit au pas, en levant trop haut les pattes. | +comp:plumard mor+1 | +comp:plumard
+* foi_06 coe11 ?comp:vesperine | Prier la Comtesse de s'en aller, pour emmener Plumard | Vespérine referme son éventail d'un coup sec. « Je vois. On préfère les gens du matin, maintenant. » Elle s'en va dans un tourbillon de dentelle. Plumard la salue militairement. Il a l'air presque triste. | Vespérine te regarde longtemps, puis s'en va sans un mot. Plumard chante pour fêter ça. Personne ne trouve ça de bon goût. | -comp:vesperine +comp:plumard +flag:vesperine_renvoyee | -comp:vesperine +comp:plumard +flag:vesperine_renvoyee mor-1
+* foi_06 rus10 | Lui demander de chanter une dernière aube pour la Foire | Il chante. Pour la première fois depuis des semaines, quelqu'un fait lever le jour. C'est faux, il est onze heures du soir, mais tout le monde applaudit. | Il chante. Un Gravitaire se réveille en sursaut et s'excuse auprès de la Lune. | mor+1 |
+
+@foi_06
+?comp:plumard Le Colonel Plumard marche derrière toi en comptant le pas. Il a déjà nommé trois Gravitaires caporaux. Ils ne savent pas ce que ça veut dire, mais ils sont fiers.
+?!comp:plumard Le Colonel Plumard remonte sur son stand et reprend sa garde. Tu l'entends marmonner : « Une aube. Une seule. C'est tout ce que je demande. »
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Les lampions grésillent. | |
+
+@foi_07
+!title: Archibald Taupinel
+!fx: +flag:stand_tau foire+1
+« Archibald Taupinel, rédacteur en chef du Courrier des Galeries. Seul rédacteur. Seul lecteur, aussi, mais ça va changer. » Il te serre la main en visant ton coude. « J'enquête sur la vente de la Lune. J'ai des preuves. J'ai des sources. J'ai même un titre : "LE SCANDALE DU SIÈCLE, ET DU SUIVANT". Il me manque juste quelqu'un pour m'emmener là où ça se passe. »
+?comp:penelope Pénélope Tampon se raidit. « Un journaliste. » Taupinel renifle dans sa direction. « Une ancienne de la Compagnie ? Vous avez des choses à me dire, madame. » Elle tamponne nerveusement l'air. Elle n'a pas envie que ses anciens collègues lisent son nom dans un journal souterrain.
+?pc:griselidis « Une factrice ! Ma corporation sœur ! Le papier, les nouvelles, les adresses ! » Il te serre la main deux fois, pour être sûr d'avoir trouvé la bonne.
+* foi_08 rus11 | « Montez avec moi. Vous aurez votre scoop. » | Il range sa machine à écrire dans sa veste, ce qui est impossible, mais il le fait. « Pas de scoop sans témoin. Vous serez mon témoin. » | Il cherche sa machine à écrire. Elle est sur sa tête. Il vient quand même. | +comp:taupinel mor+1 | +comp:taupinel
+* foi_08 coe10 | Lui donner une interview, et repartir | Tu racontes. Il note tout, de travers, au crayon. Demain, le Courrier des Galeries aura un deuxième lecteur : toi. | Tu racontes. Il s'endort au milieu. C'est une taupe : il est très tard pour elle. | equ+1 +flag:interview |
+
+@foi_08
+?comp:taupinel Taupinel trottine à côté de toi en dictant à voix haute : « Le témoin, visiblement épuisé·e, traverse la Foire... » Tu lui demandes d'arrêter. Il note : « Le témoin demande d'arrêter. »
+?!comp:taupinel Derrière toi, la machine à écrire de Taupinel crépite à nouveau. Tu entends ton nom, mal orthographié.
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Quelqu'un t'a reconnu·e grâce à l'interview qui n'est pas encore parue. | |
+
+@foi_09
+!title: Grand-Père Remontoir
+!fx: +flag:stand_rem foire+1
+« Approche, approche. Je suis lent, mais j'ai le temps. Enfin, j'avais. » Le vieil Horloger cligne des yeux. Entre deux clignements, il se passe une bonne seconde. « Grand-Père Remontoir. Mille ans. Mon ressort n'a été remonté qu'une fois, à ma naissance. Il ralentit. Je le sens. Je voudrais passer mes derniers tours de clé à quelque chose d'utile. Et j'adore les devinettes. Qu'est-ce qui tourne autour de la Terre sans jamais avoir de contrat ? »
+?flag:pour_remontoir Tu reconnais le nom. L'Horloger du Marché des Comètes voulait vendre une clé pour lui. Tu ne dis rien, pour l'instant. La clé fait tic-tac dans ta poche.
+?flag:obj_cle_remontage ?!flag:pour_remontoir La clé de laiton, dans ta poche, se met à faire tic-tac plus fort, comme un chien qui reconnaît quelqu'un.
+?pc:basile Il te regarde avec tendresse. « Un lichen. Toi aussi, tu sais ce que c'est, le temps long. »
+* foi_10 coe11 | « La Lune. Et vous venez avec moi. » | Il rit, très lentement. « Bonne réponse. Mauvaise idée. J'accepte. » Il prend sa canne, trois pots de confiture et un sac de rouages. Il te suit, à son rythme. Tu ralentis pour lui. | « Presque. » Il te donne la vraie réponse : « Une amie. » Puis il vient quand même, parce que tu as essayé. | +comp:remontoir mor+1 | +comp:remontoir
+* foi_10 rus10 | Répondre à la devinette, et le laisser se reposer | « La Lune. » « Bravo. » Il te donne un pot de confiture de coings. « Pour la route. Moi, je reste ici. Je regarderai la fin depuis mon établi. » | Tu ne trouves pas. Il te donne la réponse, et un pot de confiture quand même. | mor+1 |
+
+@foi_10
+?comp:remontoir Remontoir marche à côté de toi. Il est lent. Tu t'aperçois que tu ne t'étais jamais promené·e aussi lentement. C'est agréable.
+?!comp:remontoir Remontoir reprend sa loupe. Il remonte une montre de poche qui n'est pas la sienne. Il a l'air serein.
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Une demi-heure a passé. Avec Remontoir, une demi-heure passe toujours plus doucement. | |
+
+@foi_11
+!title: Madame Coquille
+!fx: +flag:stand_coq foire+1
+« Madame Coquille. Trois cent douze ans. Enceinte depuis trois cents. » La tortue avale une fraise. Ça prend une minute. « Mon enfant refuse de naître tant que la Lune n'est pas revenue à sa place. Chez nous, les tortues des sables, on naît à marée haute. Plus de Lune, plus de marée, plus de naissance. Il attend. Moi aussi. Je suis très patiente, mais je commence à avoir mal au dos. »
+?pc:pelagie Elle nous reconnaît. « Les petites abeilles de la Maternité ! Vous m'aviez dit de rester tranquille. Je suis restée tranquille, mais je suis venue quand même. On ne peut pas accoucher tranquille quand la Lune s'en va. »
+?comp:quartz Le Docteur Quartz se penche : « Trois cents ans de gestation ! C'est passionnant. Je peux... » « Non », dit Madame Coquille, avec une lenteur définitive.
+* foi_12 coe11 | « Venez avec nous. Votre enfant naîtra là-haut, sous la Lune. » | Elle te regarde longtemps. Très longtemps. « D'accord. Mais pas vite. » Elle se met en route. Tu as gagné une compagne d'une lenteur absolue, et l'impression que le temps te prend la main. | Elle réfléchit. Pendant qu'elle réfléchit, tu as le temps de manger une crêpe. Puis : « D'accord. » | +comp:coquille mor+1 | +comp:coquille
+* foi_12 coe10 | Lui masser le dos, et lui souhaiter bonne chance | Tu lui masses la carapace. Elle soupire de bonheur, comme un vieux bateau. « Merci, mon petit. Quand la marée remontera, je penserai à toi. » | Tu masses la mauvaise partie de la carapace. Elle te le dit gentiment. | mor+2 | mor+1
+
+@foi_12
+?comp:coquille Madame Coquille avance derrière toi. Elle est à vingt mètres. Elle sera à vingt mètres pendant tout le voyage, et elle arrivera toujours à temps. Personne ne comprend comment.
+?!comp:coquille Madame Coquille se rendort sur ses coussins, une fraise à moitié mangée dans le bec.
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Tu marches un peu plus lentement qu'avant. | |
+
+@foi_13
+!title: La Comtesse Vespérine
+!fx: +flag:stand_ves foire+1
+Sous la tente noire, une femme pâle en robe de dentelle danse seule une valse lente. Elle s'arrête en te voyant. « Comtesse Vespérine. Vampire. Neuf cents ans. Ne vous inquiétez pas : je ne bois plus que du jus de mûre. Par conviction. » Elle sourit. On voit ses canines. Elle les cache, par politesse.
+« La nuit sans Lune, c'est une maison sans lampe. Je n'ai plus envie de danser dans le noir complet. Je voudrais aller là-haut, et rallumer la lampe. »
+?pc:barnabe Elle te reconnaît. « Frissepoil. Je vous l'avais dit, sur la lande : la nuit, tout finit par se rejoindre. » Il y a un silence étrange, plein de lune absente. Elle se recoiffe sans miroir, n'importe comment. Tu trouves ça très beau.
+?comp:plumard Le Colonel Plumard bombe le torse. « Une créature de la nuit ! La nuit est une négligence, madame ! » Vespérine le regarde comme on regarde un œuf mollet. « Et vous, une aube qui parle. Je ne dormirai pas à côté de ça. Choisissez. »
+* foi_14 coe11 ?!comp:plumard | Lui offrir ton bras pour la sortie | Elle prend ton bras. « Enfin quelqu'un qui sait raccompagner une dame. » Elle laisse sa valse en plan. Le violon continue tout seul, un peu vexé. | Elle hésite, puis prend ton bras du bout des doigts. « Vous êtes chaud. C'est désagréable. Je viens quand même. » | +comp:vesperine mor+1 | +comp:vesperine
+* foi_14 coe11 ?comp:plumard | Demander au Colonel de rentrer à sa caserne, pour emmener la Comtesse | Plumard se met au garde-à-vous, la crête basse. « Compris. On ne mélange pas l'aube et la nuit. » Il s'en va au pas, en chantant tout bas pour ne pas déranger. Vespérine le regarde partir. « Il a de la tenue, ce volatile. » | Plumard s'en va, vexé, en chantant très fort. Vespérine se bouche les oreilles. Puis elle prend ton bras. | -comp:plumard +comp:vesperine +flag:plumard_renvoye | -comp:plumard +comp:vesperine +flag:plumard_renvoye mor-1
+* foi_14 pan10 | L'inviter à danser, une seule valse | Vous dansez. Elle danse comme on dansait il y a neuf cents ans, avec des pas que personne ne connaît plus. Tu les apprends en trois mesures. À la fin, elle te baise la main. « Merci. Je n'avais pas dansé à deux depuis l'invention de la fourchette. » | Tu lui marches sur les pieds. Elle ne dit rien. Elle a connu pire : la peste. | mor+2 | mor+1
+
+@foi_14
+?comp:vesperine La Comtesse marche à côté de toi, une ombrelle noire à la main. Il fait nuit. Elle l'a ouverte quand même, par habitude.
+?!comp:vesperine Derrière toi, sous la tente noire, la valse reprend. On entend un seul pas de danse.
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Tu as une odeur de mûre sur la manche. | |

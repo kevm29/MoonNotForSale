@@ -1,0 +1,230 @@
+# ================================================================
+# RÉGION — LE PAYS DES SONGES (Brume-Lucie, le Marchand de Sommeil, le rêve de Platine)
+# ================================================================
+
+@son_01
+!title: Le Pays des Songes
+!fx: +flag:vis_son regions+1
+Pour aller au Pays des Songes, il faut s'endormir. Au Carrefour, on a monté un Dortoir des Voyageurs : une tente immense, remplie de lits, où une vieille Somnambule distribue des tisanes et des bonnets de nuit.
+« Allongez-vous. Fermez les yeux. Pensez à la Lune. Si vous ne vous réveillez pas, on vous enverra une carte postale. »
+?pc:pistil Tu n'as pas besoin de lit. Tu rentres chez toi. Mais chez toi a changé : les murs de rêve sont plus minces qu'avant, presque transparents.
+* son_02 coe10 | T'endormir en pensant à la Lune | Tu penses à elle. Tu tombes. Doucement. Vers le haut. | Tu penses à la Lune, puis à tes impôts, puis à la Lune. Tu t'endors quand même, de travers. | mor+1 |
+* son_03 rus11 | T'endormir en comptant les moutons | Les moutons sautent la barrière. Le quatorzième est défait, à moitié détricoté. Il te fait signe de le suivre. | Les moutons refusent de sauter. Ils font grève. Seul le quatorzième, à moitié détricoté, saute quand même, par solidarité. Il te fait signe de le suivre, et tu t'endors en le regardant. | rus+1 |
+
+@son_02
+Le Pays des Songes. Une ville immense, faite de tous les rêves de la Terre, posée sur des nuages de coton. Des tours de souvenirs, des ponts d'idées vagues, des places publiques où les gens se promènent en pyjama. Mais la ville s'effrite. Des pans entiers de rêves tombent dans le vide. Des quartiers s'éteignent.
+La Lune du rêve, qui éclairait tout depuis toujours, n'est plus qu'une virgule pâle.
+* son_04 pan11 | Aider à retenir un rêve qui tombe | Tu attrapes un rêve d'enfant qui glisse vers le vide : un château de sable sur une plage de chocolat. Tu le remets en place. L'enfant, quelque part sur Terre, sourit en dormant. | Tu attrapes le rêve, mais il te glisse des doigts. Quelque part, un enfant se réveille en pleurant. | equ+2 | mor-1
+* son_05 rus10 | Chercher quelqu'un qui connaisse la ville | Tu cherches. Un réverbère te répond : « Demande au brouillard. Il connaît tous les chemins flous. » | |
+
+@son_03
+Le mouton défait te guide à travers le Pays des Songes. Il perd des mailles à chaque pas. Il te mène vers une ruelle sombre, où flotte un brouillard doux, argenté, qui fredonne.
+?!comp:brume « Elle est là », bêle le mouton. « Elle aide les rêves perdus. Elle est timide. » Puis il se défait complètement, et il ne reste qu'une pelote qui roule.
+?comp:brume « C'est ici que les rêves perdus se réfugient », bêle le mouton. Brume-Lucie, à côté de toi, reconnaît la ruelle : c'est chez elle. Puis le mouton se défait complètement, et il ne reste qu'une pelote qui roule.
+* son_06 coe11 | Ramasser la pelote | Tu la ramasses. Elle est tiède. Tu la gardes. Peut-être qu'un jour quelqu'un la retricotera. | | coe+1 +flag:pelote_mouton |
+* son_06 rus10 | Entrer dans le brouillard | Tu entres. Le brouillard s'écarte poliment. | |
+
+@son_04
+La ville s'effondre par morceaux. Des rêves de Marégraves, où la mer refuse de monter. Des rêves d'Horlogers, où toutes les horloges fondent. Des rêves de Gravitaires, où le sol se dérobe. Tous les rêves de la Terre ont le même cauchemar en commun : quelque chose s'en va et on ne peut pas le retenir.
+* son_05 coe10 | Continuer à aider les rêves | Tu aides. Un rêve, puis un autre. Tu deviens une sorte de pompier du sommeil. | | equ+2 |
+* son_07 rus11 | Chercher la cause de l'effondrement | Tu suis les fissures. Elles mènent toutes vers le même endroit : un grand magasin illuminé de néons violets, au centre de la ville. | | rus+1 |
+
+@son_05
+?comp:brume Brume-Lucie, qui flotte à côté de toi depuis le début, se densifie un peu. « La ville, je la connais. Enfin. Ses chemins flous. Suis-moi. » Elle ajoute, très bas : « Je suis contente que tu m'aies emmenée. »
+?!comp:brume Un brouillard argenté, qui fredonne, s'approche de toi. Il prend une forme vague : une jeune femme, floue, avec des cheveux de vapeur et des yeux de rosée.
+?!comp:brume « Oh. Pardon. Je ne voulais pas... enfin. Je passais. Je suis Brume-Lucie. Je suis une Brumeuse. Je vis entre le rêve et l'éveil, là où les choses sont... » Elle n'ose pas finir. Elle disparaît. Puis réapparaît. « Floues. »
+?pc:pistil ?!comp:brume « Pistil ! Tu es revenu ! Je croyais que l'éveil t'avait... enfin. »
+* son_06 coe11 ?comp:brume | La suivre | Elle te guide entre les tours de souvenirs. Elle ne se perd qu'une fois, exprès, pour te montrer un joli rêve. | Elle te guide, se trompe de rêve, s'excuse auprès du rêveur. | coe+1 |
+* son_06 coe11 ?!comp:brume | La saluer doucement | Elle reste visible. C'est bon signe. « Tu es gentille. Gentil. Gentille ? » Elle disparaît de gêne. | Tu la salues trop fort. Elle disparaît. Elle revient au bout d'un moment, prudente. | coe+1 |
+
+@son_06
+?comp:brume Brume-Lucie flotte autour de toi. « La ville s'éteint plus vite que la dernière fois. Avant, j'enveloppais seule les rêves qui tombent. Maintenant on est deux. » Elle n'ose pas dire que ça lui fait plaisir. Elle le dit quand même, en rosée.
+?!comp:brume Brume-Lucie flotte autour de toi. Elle parle en demi-vers, comme si elle avait peur d'aller au bout des phrases. « La ville s'éteint. Les rêves tombent. La Lune s'en... » Elle n'aime pas les fins. « Je fais ce que je peux. J'enveloppe les rêves qui tombent. Mais je suis seule. Et je suis du brouillard. Je n'ai pas de mains. »
+* son_08 coe12 ?comp:brume | Envelopper les rêves avec elle | Vous vous y mettez à deux. Elle enveloppe, tu remets en place. Elle chantonne. | Tu en fais tomber un. Elle le rattrape, de justesse, et fait semblant de rien. | coe+1 |
+* son_08 coe12 ?!comp:brume | Lui proposer de l'aider | « Toi ? » Elle s'illumine. Un brouillard qui s'illumine, c'est un lever de soleil dans une salle de bains. « D'accord. Enfin. Oui. D'accord. » | Elle hésite, disparaît, revient. « Oui. Peut-être. Oui. » | coe+1 |
+* son_07 rus11 | Lui demander pourquoi la ville s'effondre | « Le Marchand. Le Marchand de Sommeil. Il récolte les rêves de la Lune. Il les met en bocaux. Sans ses rêves, elle ne peut plus éclairer les nôtres. Et sans... » Elle s'arrête. « Tu as compris. » | | +flag:marchand_coupable |
+
+@son_07
+?pc:pistil Tu connais cette boutique. Elle a grandi depuis la dernière fois : les boutiques de rêve grandissent quand elles font des affaires.
+« AU BON SOMMEIL — Grammes, kilos, nuits complètes. Prix en hausse. » Un grand magasin de rêve, au centre de la ville, illuminé de néons violets. Dans la vitrine, des bocaux : « Sommeil profond, 30 g », « Sieste, épuisé », « Rêve de vol, sur commande ». Et une affiche dorée : « Partenaire officiel de Lune-sur-Mer — Rêves de standing pour clientèle exigeante. »
+* son_09 pan11 | Entrer dans le magasin | La clochette fait un bruit de bâillement. | |
+* son_10 rus12 | Faire le tour par l'arrière | Une petite porte de service, mal fermée. Derrière, des étagères pleines de bocaux. Des milliers. | Tu fais le tour et tu tombes sur un chien de garde en peluche. Il te mordille gentiment, puis s'endort sur ton pied. Tu entres en boitant. | rus+1 | mor-1
+
+@son_08
+Brume-Lucie et toi, vous travaillez ensemble. Elle enveloppe les rêves qui tombent, tu les remets en place. Un rêve de vieille dame, un rêve de chat, un rêve de lichen qui dure depuis trois siècles. Elle chantonne en travaillant, des demi-vers qui ne finissent jamais.
+~brume: « Tu vois, à deux, c'est moins... enfin. C'est plus... Tu vois. »
+* son_11 coe11 ?comp:brume | Lui dire qu'elle a bien fait de venir | Elle s'enroule autour de toi, gênée et ravie. « Enfin. Oui. Moi aussi, je trouve. » | Tu le dis trop vite. Elle croit que tu te moques, puis comprend que non, et rougit en gris clair. | mor+1 |
+* son_11 coe11 ?!comp:brume | Lui demander de venir avec toi au-delà des Songes | Elle s'arrête. « Avec toi ? Dans l'éveil ? Là-haut ? Vers la... » Elle tremble. « J'ai peur. Mais j'ai encore plus peur de rester seule pendant que tout s'éteint. Oui. Je viens. » | Elle disparaît de peur. Puis revient. « Oui. Si tu me tiens la main. Enfin. Le brouillard. » | +comp:brume mor+1 | +comp:brume
+* son_07 rus10 | Lui demander où trouver le responsable | Elle pointe un néon violet, au centre de la ville. « Le Marchand. » | |
+
+@son_09
+Le Marchand de Sommeil. Grand, maigre, en robe de chambre de velours rouge, avec des yeux comme des boutons de pyjama. Il pèse des grammes de sommeil sur une balance dorée.
+?!pc:pistil « Un client ! Vous venez acheter une nuit ? J'ai des promotions. Trois heures de sommeil pour le prix de quatre. »
+?pc:pistil Il te reconnaît. « Le petit pyjama. Revenu. » Il ne sait pas s'il doit sourire ou cacher ses bocaux. Il fait les deux.
+?flag:marchand_gentil ?!pc:pistil Il te regarde mieux. « Vous êtes un ami du petit pyjama. Il m'a dit des choses. Des choses qui m'empêchent de dormir. Ce qui, pour moi, est un comble. »
+* son_12 coe11 | Lui demander pourquoi il vole les rêves de la Lune | « Voler ? Je les récolte. Elle les fait, elle ne les garde pas. Ça se perdrait. » Il bâille. « Et Monsieur Platine les achète très cher. Ses résidents rêveront les rêves de la Lune. Le luxe ultime. » | Il fait semblant de ne pas entendre. Il pèse plus fort. Puis il ne résiste pas au plaisir de se vanter. | coe+1 |
+* son_13 rus12 | Lui proposer un marché | Il se frotte les mains. « J'adore les marchés. Qu'est-ce que vous avez ? » | Il te regarde de haut. « Vous n'avez rien. Personne n'a rien, en ce moment. » Puis il se ravise, par habitude : « Enfin. Tout le monde a au moins un souvenir. » | |
+
+@son_10
+L'arrière-boutique. Des milliers de bocaux. Les rêves volés de la Terre entière, étiquetés, rangés. Et au fond, une étagère spéciale, éclairée d'une lumière d'argent : « Rêves de la Lune — Collection complète. » Des milliers de petits bocaux où brille une lumière qui tourne en rond, comme quelqu'un qui marche dans une maison vide.
+?flag:reves_liberes Les étagères où dormaient les rêves de la Terre sont vides : on les a ouvertes, la dernière fois. Mais celle de la Lune s'est déjà remplie de nouveau. Elle rêve beaucoup, ces nuits-ci.
+* son_14 coe12 | Ouvrir les bocaux de la Lune pour lui rendre ses rêves | Tu les ouvres. Un par un. Les rêves s'envolent, montent, remontent vers le ciel. Là-haut, la Lune du rêve s'illumine un peu. La ville cesse de s'effondrer. | Tu en ouvres une centaine avant que le Marchand n'arrive. C'est déjà beaucoup. | equ+5 +flag:reves_liberes | equ+2
+* son_15 rus11 | En garder un pour entrer dans le rêve de la Lune | Tu en glisses un dans ta poche. Il est froid et doux. Avec ça, tu pourrais lui rendre visite. | | +flag:sommeil_lune |
+
+@son_11
+Brume-Lucie s'enroule autour de toi comme une écharpe. Elle est fraîche, douce, et elle fredonne. Tu as l'impression d'avoir emporté un petit morceau de matin avec toi.
+« Maintenant, il faut voir le Marchand », dit-elle. « Il a ce qu'il faut pour entrer dans le rêve de la Lune. Ou il sait. Il sait toujours. C'est son... » Elle ne finit pas.
+* son_07 coe10 | Aller voir le Marchand | Vous y allez. Ensemble. |  |
+
+@son_12
+« Et puis, vous savez, » dit le Marchand en se penchant vers toi, « quand la Lune sera partie, plus personne ne dormira gratuitement. Le sommeil sera rare. Je serai le seul à en avoir. Je serai riche. Enfin, reposé. C'est pareil. »
+Il bâille. Il a l'air épuisé. Ses yeux-boutons sont cernés.
+* son_16 coe12 | Lui demander quand il a dormi pour la dernière fois | Il s'arrête. Il réfléchit. « Je... ne sais pas. Je vends le sommeil. Je n'en garde jamais pour moi. » Il regarde ses bocaux. « C'est absurde, non ? » | « Je ne dors pas. Je travaille. » Il bâille. | coe+1 +flag:marchand_doute |
+* son_13 rus10 | Lui proposer un marché, alors | « Un marché ! » Il se redresse. Il redevient marchand. | |
+
+@son_13
+« Voilà ce que je vous propose », dit le Marchand. « Vous me donnez quelque chose de précieux, et je vous donne un gramme de sommeil de Lune. Avec ça, vous pourrez entrer dans son rêve. »
+Il réfléchit. « Ou bien. Ou bien vous me donnez quelque chose de plus précieux, et je vous donne autre chose. Une porte. Une porte entre les rêves et l'éveil. Une porte qu'on peut laisser ouverte. Je ne l'ai jamais vendue. Personne n'a jamais rien eu d'assez précieux. »
+* son_17 coe12 | Lui offrir un souvenir heureux | Tu lui donnes un souvenir : le plus beau. Il le prend. Il le regarde. Il pleure. « C'est... c'est ça qu'on vend, en fait ? » Il te donne le gramme de sommeil de Lune. | Tu lui donnes un souvenir, mais un moyen. Il te donne un demi-gramme. | +flag:sommeil_lune mor-1 | +flag:sommeil_lune mor-1
+* son_18 rus12 | Lui offrir ta promesse de lui rendre visite | « Une visite ? » Il te regarde, interloqué. « Personne ne me rend jamais visite. Les gens viennent acheter. » Il réfléchit longtemps. « D'accord. La porte contre une visite. Tous les ans. » | Il rit. « Une visite ? Je n'ai pas besoin de compagnie. » Mais il te donne quand même le gramme de sommeil. | +flag:porte_marchand | +flag:sommeil_lune
+
+@son_14
+?last:ko Une centaine de rêves de la Lune s'envolent, comme des lanternes. Ce n'est pas tout, loin de là. Mais là-haut, la Lune du rêve se rallume un peu, et un quartier de la ville cesse de s'effondrer.
+?last:ok Les rêves de la Lune s'envolent. Ils montent, lumineux, comme des lanternes, vers le ciel des Songes. Et la Lune du rêve, là-haut, se met à briller davantage. La ville cesse de s'effondrer. Des quartiers éteints se rallument. Des enfants qui dormaient mal, sur la Terre, se retournent et sourient.
+?comp:brume Brume-Lucie pleure de la rosée. « C'est... c'est la plus belle... enfin. Oui. »
+Une voix derrière toi : « Qu'avez-vous fait ? »
+* son_19 coe11 | Te retourner vers le Marchand | Il est là, dans l'encadrement de la porte. Il regarde les rêves s'envoler. Il ne crie pas. Il a l'air soulagé. | |
+* son_19 pan11 | Lui faire face sans peur | Tu lui fais face. Il te regarde. Il soupire. | | pan+1 |
+
+@son_15
+Le bocal de rêve de la Lune brille dans ta poche. Tu entends des pas : le Marchand arrive.
+« Petit voleur », dit-il doucement. « Vous savez ce que vous tenez ? Le rêve d'un astre. Personne ne devrait pouvoir entrer dans le rêve d'un astre. C'est indécent. C'est magnifique. » Il te regarde. « Allez-y. Je ne vous arrêterai pas. Je suis trop fatigué. »
+* son_20 coe10 | L'avaler | Tu l'avales. Tu tombes vers le haut. | |
+* son_19 rus11 | Lui demander pourquoi il te laisse faire | « Parce que je suis un rêve, moi aussi. Et que les rêves, au fond, veulent toujours que quelqu'un les rêve en mieux. » | |
+
+@son_16
+Le Marchand s'assoit sur son tabouret. « Vous savez ce que je suis, en vrai ? Un rêve. Un vieux rêve d'enfant qui avait peur du noir. Un enfant m'a rêvé gentil : un vieux monsieur qui apporte le sommeil. Puis l'enfant a grandi, et on m'a rêvé utile. Puis rentable. Et maintenant je suis ça. » Il regarde sa balance dorée. « Je ne sais plus quel genre de rêve je suis. »
+* son_21 coe12 | Lui dire qu'il peut redevenir le premier | Il te regarde longtemps. Puis il prend un bocal sur une étagère. Il l'ouvre. Il en sort une petite lumière tiède : le rêve de l'enfant qui l'avait inventé. Il la respire. Il sourit. « Merci. » | Il secoue la tête. « Trop tard. » Puis il regarde le bocal longtemps, l'ouvre quand même, et respire la petite lumière tiède. « Enfin. Peut-être pas si tard. » | +flag:marchand_gentil coe+1 | +flag:marchand_gentil
+* son_13 rus10 | Profiter de sa faiblesse pour négocier | Il comprend. Il redevient marchand. Un peu triste, mais marchand. | |
+
+@son_17
+Tu as donné un souvenir. Tu ne te souviens plus lequel. C'est le principe. Il y a un petit trou dans ta mémoire, là où il était, comme une pièce vide dans une maison. Ça fait un courant d'air.
+Le Marchand te tend un bocal brillant. « Le sommeil de la Lune. Bon voyage. Elle est... elle est très triste, vous savez. Soyez gentil·le. »
+* son_20 coe11 | L'avaler | Tu l'avales. Ça a le goût d'une berceuse en hiver. Tu tombes. | |
+
+@son_18
+?last:ko Le Marchand te tend le bocal de sommeil, sans la clé. « La porte, ce sera pour quelqu'un qui me rend vraiment visite. » Il te montre pourtant la petite clé dorée, de loin, et t'explique ce qu'elle ouvre, parce qu'il adore expliquer ce qu'il ne vend pas.
+?last:ok Le Marchand sort une petite clé dorée d'une poche de sa robe de chambre. « La porte. Elle est dans le rêve de la Lune. Si vous l'ouvrez, et que vous la laissez ouverte, la Lune pourra parler à tous ceux qui dorment. Tous les rêveurs de la Terre entendront sa voix. »
+Il hésite. « Mais une porte ouverte, ça laisse passer les courants d'air. Et les cauchemars. Et peut-être... peut-être que les gens ne voudront plus se réveiller. »
+* son_20 coe10 ?last:ko | Prendre le bocal et partir | Tu prends le bocal. La clé retourne dans la poche de velours. | |
+* son_20 coe11 ?last:ok | Prendre la clé | Tu la prends. Elle est tiède. Le Marchand te donne aussi un gramme de sommeil de Lune. « Pour y aller. » | | +flag:cle_porte +flag:sommeil_lune |
+
+@son_19
+?from:son_14 Le Marchand regarde ce que tu as fait. Il s'appuie contre le chambranle. « Vous savez, ça faisait longtemps que j'attendais que quelqu'un fasse ça. Moi, je ne pouvais pas. Un marchand ne peut pas ouvrir ses propres bocaux. C'est contre sa nature. »
+?from:son_15 Le Marchand regarde le bocal dans ta main. « Vous savez, ça faisait longtemps que j'attendais qu'on me vole. Un marchand ne peut pas donner ses propres bocaux. C'est contre sa nature. »
+?from:son_21 Le Marchand ouvre son dernier bocal, essoufflé, en pyjama. « Voilà. Un marchand qui ouvre ses propres bocaux. C'est contre nature. C'est merveilleux. »
+Il te tend un petit bocal. « Tenez. Le dernier. Le plus récent. Elle l'a fait cette nuit. Si vous le prenez, vous entrerez dans son rêve. Allez lui dire qu'elle n'est pas seule. »
+* son_20 coe12 | Prendre le bocal et l'avaler | Tu l'avales. Tu tombes. Vers le haut. Vers elle. | | +flag:sommeil_lune +flag:marchand_gentil |
+* son_22 rus11 | Lui demander s'il sait des choses sur Platine | « Platine ? Il dort très mal. Je lui vends du sommeil, il en achète beaucoup. Il fait toujours le même cauchemar. » Il baisse la voix. « Je pourrais vous faire entrer dans son rêve, si vous voulez. » | | +flag:sommeil_lune |
+
+@son_20
+Le rêve de la Lune. Une grande maison blanche, vide, avec des milliers de fenêtres. Toutes donnent sur la Terre. Pas de meubles. Seulement de la poussière, et une petite silhouette ronde, assise par terre, les genoux contre elle, qui regarde dehors.
+?pc:pistil Elle tourne la tête vers toi. « Pistil. Tu es revenu. » Elle sourit. Tu as tenu ta promesse.
+?!pc:pistil Elle ne te voit pas tout de suite. Elle regarde la Terre.
+?comp:brume Brume-Lucie s'approche d'elle et l'enveloppe. La Lune ferme les yeux. « Ma cousine. »
+* son_23 coe12 | T'asseoir à côté d'elle | Tu t'assois. Elle ne dit rien. Puis elle pose sa tête sur ton épaule. Elle est légère. Elle est si légère. | Tu t'assois, mais elle se recule un peu. Elle a peur des visiteurs. Puis elle se rapproche. | coe+1 |
+* son_24 rus11 | Lui demander si elle veut partir | Elle te regarde. « Personne ne me l'a jamais demandé. » Elle réfléchit. « Non. Je tourne autour d'eux parce que je les aime. Personne ne tourne autour de quelqu'un par contrat. » | Elle ne répond pas. Elle regarde la Terre. C'est une réponse. | +flag:reve_lune +flag:lune_veut_rester | +flag:reve_lune
+
+@son_21
+Le Marchand de Sommeil se lève. Il retire sa robe de chambre rouge. Dessous, il porte un vieux pyjama à rayures, usé, doux. Il a l'air plus petit. Plus gentil.
+« Je vais ouvrir les bocaux. Tous. Rendre les rêves à ceux qui les ont faits. Et le sommeil à ceux qui en manquent. Gratuitement. » Il rit. « Je vais être pauvre. C'est reposant, la pauvreté ? »
+* son_19 coe11 | « Je ne sais pas. On verra. » | Il rit encore. Il commence à ouvrir les bocaux. Partout sur la Terre, cette nuit, les gens dorment mieux. | | equ+5 +flag:reves_liberes |
+
+@son_22
+Le Marchand t'emmène vers une petite porte dorée, au fond de l'arrière-boutique. « Le rêve de Monsieur Platine. Il dort en ce moment, là-haut, sur son vaisseau. Il fait toujours le même cauchemar. Je ne vous dirai pas lequel. Ce serait indiscret. »
+Il ouvre la porte. Une lumière dorée en sort, froide.
+* son_25 pan11 | Entrer dans le rêve de Platine | Tu entres. Il fait froid. Tout est en or. | |
+* son_20 coe10 | Préférer d'abord le rêve de la Lune | Le Marchand hoche la tête. « Bon choix. Les rêves des promoteurs sont toujours décevants. » | |
+
+@son_23
+Vous restez longtemps assis·es, la Lune et toi, à regarder la Terre par la fenêtre. Elle te raconte. Les premiers poissons. Les premières mousses. Les premières marées, qui montaient vers elle comme des enfants vers une mère.
+?flag:lettres_ondine,pc:ondine Elle te montre une boîte à chaussures. « Les lettres. Une Marégrave m'écrit tous les soirs. Je les garde. Je n'ai jamais su lui répondre. »
+« Je ne veux pas partir », dit-elle enfin. « Mais je ne sais pas comment le dire à ceux qui ne rêvent pas. »
+* son_26 coe11 | Lui promettre de le dire pour elle | Elle te prend la main. Sa main est froide et douce. « Merci. » Le mot fait un petit clair de lune dans la pièce. | | +flag:reve_lune +flag:promesse_lune coe+1 |
+* son_27 rus12 ?flag:cle_porte,flag:porte_marchand | Lui proposer d'ouvrir une porte pour qu'elle parle elle-même | Tu sors la clé du Marchand et tu la lui montres. Elle la regarde comme on regarde une fenêtre ouverte en hiver. 
+
+@son_24
+« À qui j'appartiens ? » demande la Lune. « Ils disent que je suis à vendre. Mais je n'ai jamais été à quelqu'un. La Terre ne m'a jamais possédée. Elle m'a juste gardée près d'elle, comme on garde une amie près du feu. » Elle regarde par la fenêtre. « Ils ont l'air perdus sans moi. »
+* son_26 coe12 | « Ils le sont. Nous le sommes. » | Elle pose la main sur la vitre. Dehors, la Terre, bleue, bancale. « Alors je reste. Si je peux. Si on me laisse. » | Elle ne répond pas, mais sa main reste sur la vitre. | +flag:lune_veut_rester coe+1 |
+* son_27 rus11 ?flag:cle_porte,flag:porte_marchand | Lui proposer d'ouvrir une porte pour qu'elle parle elle-même | Tu sors la clé du Marchand et tu la lui montres. Elle la regarde comme on regarde une fenêtre ouverte en hiver. 
+
+@son_25
+Le rêve de Gédéon Platine. Une salle immense, toute en or. Des coffres, des lingots, des contrats encadrés aux murs. Au centre, sur une table de marbre, une petite pièce de monnaie en or. Elle est seule. Elle tremble.
+Tu t'approches. La pièce a un visage : c'est Platine, enfant, minuscule. Il pleure.
+« Personne ne veut me dépenser », dit-il. « Je suis trop précieux. Alors on me garde dans un coffre. Personne ne me touche jamais. »
+* son_28 coe12 | Prendre la pièce dans ta main | Tu la prends. Elle est froide. Puis elle se réchauffe. Le petit Platine te regarde, stupéfait. « Tu... tu me touches ? Personne ne me touche. » Il sourit. | Tu la prends, mais elle te glisse des doigts. Elle roule sous la table. Elle pleure plus fort. | coe+1 +flag:platine_reve | +flag:platine_reve
+* son_29 rus11 | Comprendre le cauchemar | Platine achète des choses qui n'ont pas de prix pour leur en donner un. Parce que lui, on lui a donné un prix, et ça l'a rendu seul. | | +flag:platine_reve +flag:platine_faille |
+
+@son_26
+?!flag:lune_merci La Lune serre ta main. « Tu sais ce qui est drôle ? Je brille pour eux depuis toujours. Et personne ne m'a jamais dit merci. Pas une fois. On me regarde, on m'écrit des poèmes, on m'envoie des lettres. Mais personne ne m'a jamais dit simplement : merci. »
+?flag:lune_merci La Lune serre ta main. « Tu sais, on m'a dit merci, une fois. Depuis, je n'arrive plus à m'en passer. C'est terrible. C'est comme le sucre. »
+* son_30 coe11 | « Merci. » | Elle te regarde. Une larme roule sur sa joue. Une larme de Lune, ça brille comme une perle. « Merci à toi. » | Ta voix se casse sur le mot. Elle l'entend quand même. | +flag:lune_merci mor+2 | +flag:lune_merci mor+1
+
+@son_27
+Tu sors la clé du Marchand. Dans un coin de la maison de la Lune, il y a une porte que tu n'avais pas vue. Petite, ronde, en bois de nuit. Tu tournes la clé. La porte s'ouvre sur un couloir sombre, qui mène vers tous les rêves de la Terre.
+« Si je la laisse ouverte, » dit la Lune, « tous ceux qui dorment m'entendront. » Elle hésite. « Mais ils voudront peut-être rester dans le rêve. Avec moi. Pour toujours. »
+* son_30 coe12 | Laisser la porte ouverte | Tu la laisses ouverte. Un courant d'air doux, lunaire, se répand dans tous les rêves du monde. Cette nuit, toute la Terre rêve de la Lune, et l'entend dire : « Je ne veux pas partir. » | Tu la laisses entrouverte. Juste assez. | +flag:reve_ouvert +flag:terre_sait equ+3 | +flag:reve_ouvert
+* son_30 rus11 | La refermer, c'est trop dangereux | Tu refermes. La Lune hoche la tête. « Tu as raison. Les rêves, c'est fait pour se réveiller. » Mais elle a l'air triste. | | |
+
+@son_28
+?last:ko Tu rampes sous la table et tu récupères la pièce. Cette fois, tu la tiens bien.
+Tu tiens le petit Platine dans ta main. La pièce se réchauffe, se ramollit presque. « Personne ne m'a jamais tenu », dit-il. « On m'a admiré. On m'a pesé. On m'a évalué. On m'a mis en vitrine. Mais personne ne m'a jamais tenu dans la main comme ça. »
+Il regarde autour de lui : les coffres, les lingots. « C'est pour ça que j'achète les belles choses. Pour qu'elles ne soient pas seules comme moi. Je les mets dans des vitrines. Je crois que je les sauve. »
+* son_31 coe12 | « Tu ne les sauves pas. Tu les enfermes. Comme toi. » | Le petit Platine se tait. Il te regarde, et quelque chose change dans ses yeux d'or. Une fissure. Une lumière. « Oh. » | Il ne comprend pas. Il pleure. Tu le reposes doucement. | coe+1 +flag:platine_emu |
+* son_32 rus11 | Lui demander ce qui pourrait le rendre heureux | « Heureux ? » Il réfléchit. « Que quelqu'un m'aime sans me compter. » Il rit, minuscule. « C'est ridicule, pour un promoteur. » | | +flag:platine_faille |
+
+@son_29
+Tu comprends Platine. Ce n'est pas un monstre. C'est un enfant précieux qu'on a mis dans un coffre. Il a grandi en croyant que la valeur, c'est la solitude. Et maintenant, il veut mettre la Lune dans un coffre, pour la protéger de ne pas être assez regardée.
+C'est absurde. C'est terriblement triste. C'est peut-être une faille.
+* son_32 coe10 | Sortir du rêve doucement | Tu sors. La pièce, derrière toi, brille un peu moins froid. | |
+
+@son_30
+La maison de la Lune tremble. Le crochet tire. Elle se réveille, et quand elle se réveillera, son rêve s'effacera.
+« Il faut que tu partes », dit-elle. « Mais reviens. Là-haut. Dans le vrai. Je t'attendrai. Je suis très forte pour attendre. C'est ce que je fais depuis quatre milliards d'années. »
+* son_33 coe11 | Lui dire « À bientôt » | « À bientôt. » Elle sourit. Tu tombes hors du rêve. | | mor+1 |
+* son_33 pan10 | Partir vite | Tu cours. La maison s'efface derrière toi. Tu tombes. | |
+
+@son_31
+?last:ok Le petit Platine, dans ta main, se met à briller. Pas de l'éclat froid de l'or. D'une lumière tiède, comme une bougie. « Je ne savais pas », dit-il. « Je ne savais pas que je les enfermais. Personne ne me l'avait dit. »
+?last:ko Le petit Platine pleure encore un peu sur la table, puis s'arrête. Il réfléchit. Une pièce réfléchit lentement. « Je les enfermais ? » dit-il enfin. « Personne ne me l'avait dit. »
+Il te regarde. « Quand je me réveillerai, je ne m'en souviendrai pas. Les rêves, on les oublie. Mais peut-être qu'un petit bout restera. Un petit bout de doute. »
+* son_32 coe11 | Le reposer sur la table, doucement | Tu le reposes. Il ne pleure plus. Il te fait un petit signe. Tu sors du rêve. | | mor+1 |
+
+@son_32
+Tu sors du rêve de Platine. Le Marchand t'attend dans l'arrière-boutique. « Alors ? » « Il fait un cauchemar où personne ne le dépense. » Le Marchand hoche la tête. « Je sais. Je le lui vends depuis des années. C'est mon best-seller. Les riches aiment les cauchemars qui leur ressemblent. »
+* son_20 coe10 ?!flag:reve_lune | Demander à entrer dans le rêve de la Lune | Le Marchand te tend un bocal. « Allez-y. Elle, au moins, elle fait de beaux rêves tristes. » | | +flag:sommeil_lune |
+* son_33 rus10 | Lui demander de te réveiller | Il claque des doigts. Tu tombes vers le bas, vers l'éveil. | |
+
+@son_33
+?!pc:pistil Tu te réveilles dans le Dortoir des Voyageurs, au Carrefour des Espèces. Tu as les joues mouillées et le cœur plein.
+?pc:pistil Tu ressors du rêve par la porte de service des Somnambules et tu te retrouves au Dortoir des Voyageurs, entre deux lits. Toi, tu n'as pas dormi : tu es rentré. Tu as quand même le cœur plein. Autour de toi, d'autres rêveurs se réveillent aussi.
+?flag:reve_ouvert Ils se regardent. Ils ont tous fait le même rêve : une Lune assise par terre, dans une maison pleine de fenêtres, qui disait « Je ne veux pas partir ».
+?comp:brume Brume-Lucie flotte au-dessus de ton lit, un peu pâle. L'éveil lui fait mal. Elle reste quand même.
+* son_34 coe11 | Raconter ton rêve aux autres | Tu racontes. On t'écoute. Une Marégrave pleure. Un Gravitaire fait semblant de ne pas pleurer. | Tu racontes mal. Les rêves se racontent toujours mal. Mais ils comprennent. | equ+2 +flag:terre_sait |
+* son_35 rus11 | Noter tout ce que tu as vu avant d'oublier | Tu notes. Les rêves s'effacent vite. Tu en sauves l'essentiel. | Tu notes, mais ton écriture du matin est illisible. | rus+1 |
+
+@son_34
+La vieille Somnambule qui tient le Dortoir s'approche de toi. Elle a l'air très vieille, très fatiguée, à moitié transparente. « Vous êtes allé·e la voir ? Elle va bien ? »
+Tu ne sais pas quoi répondre. La Lune ne va pas bien. Mais elle n'est plus tout à fait seule.
+* son_35 coe12 | « Elle va mieux. » | La vieille Somnambule sourit. Elle reprend un peu de couleur. « Bien. Alors nous aussi, on va aller mieux. » | Elle te regarde, devine que tu mens un peu, et te tapote la main. | mor+1 |
+
+@son_35
+Tu sors du Dortoir. Le jour se lève sur le Carrefour. La Lune est encore visible dans le ciel pâle, énorme, penchée, avec son crochet. Tu la regardes. Tu sais maintenant qu'elle a une maison pleine de fenêtres, qu'elle garde des lettres, et qu'elle n'a jamais voulu partir.
+Toi, tu ne pourras plus jamais la regarder comme avant.
+* hub_ret coe10 | Retourner au Conseil | Tu marches. Tes jambes sont encore un peu endormies. | |
+* son_36 rus11 | Rester un instant à la regarder | Tu restes. Elle te regarde aussi. Tu en es sûr·e. | |
+
+@son_36
+La Lune, dans le ciel du matin. Elle pâlit à mesure que le soleil monte. Elle va disparaître dans le bleu du jour, comme tous les matins. Mais ce matin, avant de disparaître, elle clignote. Une fois. Juste une fois.
+Personne d'autre ne l'a vu. Toi, si.
+* hub_ret coe11 | Lui faire signe, et partir | Tu fais signe. Tu pars. Tu souris. | | mor+2 |

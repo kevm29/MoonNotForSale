@@ -1,0 +1,296 @@
+# ================================================================
+# PROLOGUE 2 — BASILE GRUMEAU, Lichenaute, greffier au Cadastre Céleste
+# ================================================================
+
+@bas_01
+!title: Le guichet zéro
+Tamponville, la Capitale. Cadastre Céleste, sous-sol moins quatre, guichet zéro. Toi, Basile Grumeau, Lichenaute, mousse grise de trois cent douze ans, tu es greffier. Tu es rapide pour un lichen : tu fais une phrase par minute. Tes collègues te trouvent agité.
+Par le soupirail, tu vois la Lune glisser vers l'est. Et sur ton bureau, sous une tasse de rosée froide, il y a un papier carbone. Le double d'un formulaire que tu as tamponné il y a trois semaines.
+* bas_02 rus10 | Relire le formulaire | Tu le relis. Lentement. C'est ta manière. Mais cette fois, la lenteur fait mal. | Tu relis la mauvaise ligne trois fois. Ça te prend une heure. | rus+1 |
+* bas_03 coe11 | Regarder la Lune d'abord, longtemps | Tu la regardes. Elle a toujours été là, au-dessus des archives, comme un tampon rond sur le ciel. | Tu la regardes et ça te donne le vertige. Les lichens n'aiment pas le mouvement. | mor+1 |
+
+@bas_02
+Formulaire C-12 bis : « Demande de renouvellement de l'éclairage public n° 1 ». Bénéficiaire : Compagnie Foncière d'Aldébaran. Objet : « cession définitive du luminaire dit Lune, avec ses dépendances (marées, rêves, calendriers) ». Montant : quarante-deux milliards de lunes-crédits, réglés comptant.
+Tampon : le tien. Signature : la tienne. Encore en train de pousser.
+* bas_04 rus11 | Remarquer le détail de la signature | Ta signature de lichen n'est pas finie. Les Lichenautes signent en faisant pousser leur nom ; ça prend un mois. Sur le carbone, elle a trois semaines. | Tu ne remarques rien de spécial. Tu es trop occupé à te sentir mal. | +flag:signature_lente |
+* bas_05 coe12 | T'effondrer sur ta chaise | Tu t'effondres. Pour un lichen, ça veut dire glisser de trois centimètres. C'est dramatique à ton échelle. | Tu t'effondres à côté de la chaise. | mor-1 | mor-2
+
+@bas_03
+La Lune s'éloigne, et pour la première fois de ta longue vie, tu as peur. Pas la peur rapide des animaux. La peur lente des lichens, qui monte des racines et qui prend des années à redescendre.
+Tes collègues, au guichet un, deux et trois, n'ont pas encore levé la tête. Ils lèveront la tête vers jeudi.
+* bas_02 rus10 | Regarder enfin ce papier sur ton bureau | Tu baisses les yeux. Le papier te regarde aussi, avec une expression de reproche administratif. |  |
+* bas_06 pan11 | Prévenir tes collègues | Tu cries « La Lune ! » Ça te prend quarante secondes. Le guichet un ouvre un œil. C'est un exploit. | Tu cries si lentement que le mot sort au moment où tu as déjà fini d'y penser. | equ+2 |
+
+@bas_04
+Ta signature pousse encore. Tu peux le sentir à travers le carbone, comme on sent une plante dans une autre pièce. Tant qu'elle n'est pas finie, l'acte n'est peut-être pas complet. Peut-être. Tu n'es pas juriste, tu es greffier, ce qui est plus grave.
+Il reste une semaine avant qu'elle ne pousse jusqu'au bout.
+* bas_07 rus12 | Noter l'échéance dans ton agenda | Tu notes : « Fin de ma signature : dans sept jours. Fin du monde : idem. » | Tu notes la mauvaise date. Tu la corriges. Tu en notes une troisième. Tu laisses les trois. | +flag:echeance |
+* bas_05 coe10 | Te demander comment tu as pu signer ça | Tu sais comment. Tu as signé deux cents formulaires ce jour-là. Tu ne lis plus depuis cinquante ans. Tu as trouvé ça reposant. |  | coe+1 |
+
+@bas_05
+Tu te souviens. Un mardi. Une créature dorée, souriante, en costume trois-pièces. Il avait apporté des pâtisseries. Personne n'apporte jamais de pâtisseries au guichet zéro. Il t'avait dit : « C'est juste pour un lampadaire. » Et tu avais tamponné, ému, la bouche pleine de crème.
+Tu as vendu la Lune pour un mille-feuille.
+* bas_07 coe11 | L'accepter | Tu l'acceptes. Ça pèse sur toi comme un rocher sur une mousse. Mais une mousse, ça pousse aussi sous les rochers. | Tu ne l'acceptes pas. Tu ne l'accepteras jamais. Tu passes à autre chose quand même. | coe+1 | mor-1
+* bas_08 rus11 | Chercher qui d'autre est responsable | Tu cherches : le Cadastre, le Ministère, le Président, l'univers. Tu trouves surtout toi. Mais pas seulement toi. | Tu cherches et tu ne trouves que des miroirs. |  |
+
+@bas_06
+Le guichet un, une Lichenaute appelée Madame Pruine, lève la tête vers la Lune. « Ah. » Elle remet la tête vers son dossier. « Ce n'est pas notre service. »
+Le guichet deux dort. Le guichet trois est une plante verte qui n'a jamais été embauchée mais que personne n'a osé licencier.
+* bas_07 pan10 | Insister auprès de Madame Pruine | Elle soupire. « Très bien, Grumeau. Je préviens la Sous-Directrice. Par courrier interne. » Ça arrivera dans un mois. | Elle te remet un formulaire de signalement d'insistance. | |
+* bas_08 rus11 | Fouiller dans le courrier du jour | Dans le courrier, une lettre de la Compagnie Foncière : « Merci pour votre collaboration exemplaire. Votre nom figurera sur une plaque. » | Le courrier du jour date de l'an dernier. | +flag:plaque |
+
+@bas_07
+L'horloge du Cadastre sonne. Elle sonne mal : les Horlogers qui l'entretiennent ont perdu le compte des jours depuis que la Lune bouge. Elle sonne « treize heures et quart de mardi ». Un pigeon-coursier entre par le soupirail avec une convocation : « Grumeau, Basile. Bureau de la Sous-Directrice. Immédiatement. »
+Immédiatement, pour un lichen, c'est dans l'heure.
+* bas_09 pan11 | Y aller immédiatement, au sens des autres espèces | Tu montes l'escalier à une vitesse folle : une marche toutes les trente secondes. Tes collègues te regardent comme un bolide. | Tu montes trois marches et tu te sens étourdi. Tu fais une pause d'un quart d'heure. | pan+1 |
+* bas_10 rus11 | Prendre le double du formulaire avec toi | Tu le glisses dans ta mousse, contre ton tronc. Il est au chaud. Il est à toi. Tu ne le lâcheras plus. | Tu le prends, puis tu le reposes, puis tu le reprends. Tu le froisses un peu. | +flag:carbone |
+
+@bas_08
+Tu ouvres le registre des cessions. Il n'y a jamais rien dedans : la Terre n'a jamais rien vendu. Le registre est vierge depuis quatre milliards d'années. Et puis, page une, ligne une, ton écriture : « Lune. Cédée. »
+En dessous, une note au crayon qui n'est pas de toi : « Pour non-paiement de la taxe d'orbite, en retard de 4,5 milliards d'années. Pénalités incluses. »
+* bas_09 rus12 | Comprendre l'histoire de la taxe | La Terre n'a jamais payé sa taxe d'orbite. Personne ne savait qu'elle existait. La Compagnie l'a rachetée avec les pénalités, puis t'a fait signer la cession. C'est légal. C'est ignoble. C'est très bien fait. | Tu ne comprends pas. Personne ne comprend les taxes. C'est leur fonction. | rus+1 +flag:taxe_orbite | +flag:taxe_orbite
+* bas_10 coe10 | Refermer le registre doucement | Tu le refermes comme on referme un cercueil. Avec respect, avec horreur, avec la vague impression d'avoir oublié une chaussette dedans. |  | mor+1 |
+
+@bas_09
+?from:bas_08 Un pigeon-coursier entre par le soupirail avec une convocation : « Grumeau, Basile. Bureau de la Sous-Directrice. Immédiatement. » Tu montes.
+Le bureau de la Sous-Directrice est un cactus de deux mètres dans un pot de marbre. Elle s'appelle Madame Épine. Elle ne cligne jamais des yeux, faute d'en avoir.
+« Grumeau. Vous avez vendu la Lune. »
+« Oui, Madame. »
+« Avez-vous rempli le formulaire de déclaration d'incident ? »
+* bas_11 rus11 | « Pas encore, Madame. Je peux le faire maintenant. » | Elle apprécie. « Voilà un fonctionnaire. » Tu remplis le formulaire. Case 4 : « Gravité de l'incident ». Tu coches « autre ». | Tu le remplis mal. Elle te le rend. Tu recommences. Trois fois. | rus+1 |
+* bas_12 pan12 | « La Lune est plus importante qu'un formulaire, Madame. » | Silence. Long. Une épine tombe. Personne n'avait jamais dit ça ici. « Asseyez-vous, Grumeau. » | Elle te tend un formulaire de réclamation contre le formulaire. | pan+1 mor+1 |
+
+@bas_10
+Dans le couloir, tu croises une procession de fonctionnaires qui portent des cartons. « On évacue les archives lunaires ? » demandes-tu. « Non, on les classe. On classe tout ce qui pourrait disparaître. Comme ça, quand ça aura disparu, on saura où c'était. »
+* bas_11 coe10 | Les aider à porter un carton | Tu portes un carton marqué « Éclipses (1902-1987) ». Il est lourd d'ombres. | Le carton t'écrase un peu. Tu restes coincé dessous dix minutes, poliment. | equ+2 |
+* bas_12 rus11 | Lire l'étiquette du carton le plus ancien | « Contrat d'orbite originel. Ne pas ouvrir avant la fin du monde. » Tu notes qu'on y est presque. | L'étiquette dit « Divers ». Ça ne t'aide pas. | +flag:contrat_originel |
+
+@bas_11
+?from:bas_10 Le carton livré, un pigeon-coursier te convoque chez la Sous-Directrice, Madame Épine : un cactus de deux mètres dans un pot de marbre, qui ne cligne jamais des yeux, faute d'en avoir. « Grumeau. Vous avez vendu la Lune. »
+Madame Épine pose ses deux bras épineux sur le bureau. « Grumeau. Le Président a été informé. Il va descendre. » Elle baisse la voix. « Le Président ne descend jamais. Le Président ne bouge jamais. C'est un galet. »
+Le Président de la Terre est un galet rond, gris clair, élu il y a huit cents ans parce qu'il n'avait jamais rien dit de faux. Il n'a jamais rien dit du tout.
+* bas_13 coe11 | Te préparer à rencontrer le Président | Tu te brosses la mousse. Tu redresses tes lichens. Tu as l'air d'un tapis qui veut faire bonne impression. | Tu te brosses trop fort et tu perds une touffe. | mor+1 |
+* bas_14 rus10 | Demander qui transportera le Président | « Moi », dit Madame Épine. « Il est dans ma poche. » Elle sort le Président de sa poche. | « Vous », dit-elle. Tu n'avais pas prévu ça. |  |
+
+@bas_12
+?from:bas_10 Un pigeon-coursier te convoque chez la Sous-Directrice, Madame Épine : un cactus de deux mètres dans un pot de marbre, qui ne cligne jamais des yeux, faute d'en avoir. Tu lui parles du carton « Contrat d'orbite originel ». Elle écoute.
+Madame Épine se rassoit. Ou plutôt, elle penche. « Grumeau, on va dire la vérité. Le Cadastre a besoin d'un coupable, la Terre a besoin d'un coupable, et vous êtes parfaitement coupable. C'est rare, un coupable aussi pratique. »
+Elle soupire. « Mais je vous aime bien. Vous êtes lent, mais lent avec conviction. »
+* bas_13 coe11 | La remercier | Elle grogne. Une petite fleur rose sort d'une de ses épines, et elle la cache vite. | Elle ne t'entend pas : tu as parlé trop lentement et elle est déjà passée à autre chose. | mor+1 coe+1 |
+* bas_14 pan11 | Proposer de réparer toi-même ta faute | « Réparer ? Personne ne répare rien au Cadastre. On classe. » « Alors je vais être le premier. » Elle hausse ses épines. | Elle t'écoute, puis te donne un formulaire de demande de réparation. Délai : trois siècles. | equ+2 |
+
+@bas_13
+?from:bas_14 Tu reposes le Président sur son coussin, avec la délicatesse d'un démineur.
+Le Président est posé sur le bureau, sur un petit coussin de velours. Il ne dit rien. C'est un très beau silence, poli par les siècles. Toute la salle le regarde avec dévotion.
+Madame Épine traduit : « Le Président est très déçu. »
+« Comment le savez-vous ? »
+« Il est plus gris que d'habitude. »
+* bas_15 coe12 | Présenter tes excuses au Président | Tu t'excuses longuement. Le Président ne répond pas. Mais tu jurerais qu'il est devenu un tout petit peu moins gris. | Tu t'excuses et le Président roule sur le côté. On interprète ça comme un désaveu. | mor+1 +flag:galet_pardon | mor-1
+* bas_16 rus11 | Demander au Président ce qu'il faut faire | Silence. Puis le galet se met lentement à rouler vers la porte. Il roule vers les archives. C'est une réponse. | Silence. Silence. Le galet reste immobile. Il a peut-être raison. | +flag:galet_archives |
+
+@bas_14
+Madame Épine sort le Président de sa poche avec la délicatesse d'une mère. Le galet a une petite étiquette : « Président de la Terre — ne pas lancer ». Elle le pose sur ta main.
+Il est chaud. Personne ne t'avait dit qu'il serait chaud.
+* bas_13 coe10 | Le tenir avec respect | Tu le tiens comme un œuf. Un œuf qui gouverne une planète. |  | mor+1 |
+* bas_15 rus12 | Lui parler à voix basse | « Monsieur le Président, je crois que j'ai fait une bêtise. » Le galet devient tiède. Une forme de compassion minérale. | Le galet ne réagit pas. Les galets ne réagissent pas aux confidences. C'est pour ça qu'on les aime. | coe+1 |
+
+@bas_15
+Une sirène. Pas une vraie, une sirène de bureau, qui fait « Pouet, pouet ». Le haut-parleur annonce : « Une délégation de la Compagnie Foncière d'Aldébaran est arrivée pour récupérer l'original de l'acte de vente. Merci de lui réserver un accueil conforme. »
+Madame Épine pâlit, ce qui pour un cactus revient à blanchir sur les bords. « L'original est aux archives. Si on le leur donne, c'est fini. »
+* bas_17 pan11 | « J'y vais avant eux. » | Elle te regarde. « Vous ? Vous êtes un lichen. » « Je suis un lichen pressé, Madame. » | Elle rit nerveusement. Une épine tombe. « Allez, Grumeau. Allez lentement, mais allez. » | pan+1 |
+* bas_16 rus11 | Demander où sont les archives exactement | « Moins onze. Allée des Contrats Originels. Prenez un pull. » | « En bas. Tout est toujours en bas. » | |
+
+@bas_16
+Les archives du Cadastre sont au sous-sol moins onze. Il y fait frais, humide, parfait pour un lichen. Des kilomètres d'étagères. Des montagnes de dossiers. Des formulaires si vieux qu'ils sont devenus fossiles. L'odeur du papier qui attend.
+Tu te sens chez toi. C'est peut-être la première fois.
+?flag:galet_archives Le Président, que tu as glissé dans ta mousse, est devenu chaud contre toi.
+* bas_18 rus11 | Chercher l'allée des Contrats Originels | Tu suis le plan. Le plan est faux, mais faux avec cohérence. Tu arrives. | Tu te perds dans l'allée des Plaintes Diverses, qui ne finit jamais. Tu en ressors deux heures plus tard, par hasard, au bon endroit. | rus+1 |
+* bas_19 coe10 | Écouter les archives | Les archives chuchotent. Le papier qui attend chuchote toujours. Tu entends : « par ici ». | Tu n'entends que le goutte-à-goutte d'un tuyau. |  |
+
+@bas_17
+Tu descends. Six étages, ça prend du temps pour toi. Tu prends l'ascenseur. L'ascenseur est un Lichenaute aussi, et il descend à ta vitesse. Vous discutez. Il s'appelle Monsieur Gaine. Il a des opinions sur tout, toutes très lentes.
+« Vous savez, Grumeau, je ne suis jamais monté. Seulement descendu. Toute ma vie. C'est une philosophie. »
+* bas_16 coe11 | Lui demander ce qu'il pense de la Lune | « La Lune ? Elle monte et elle descend. Comme moi. C'était ma seule collègue. » Il est ému. Tu ne t'y attendais pas. | « Je ne pense jamais à ce qui est en haut. » | mor+1 |
+* bas_16 rus10 | Lui demander s'il peut descendre plus vite | Il essaie. Vous descendez à la vitesse d'une limace motivée. C'est énorme. | Il s'offense. Il descend plus lentement. | |
+
+@bas_18
+L'allée des Contrats Originels. Au fond, une vitrine. Dans la vitrine, un rouleau de parchemin bleu nuit : « Contrat d'orbite Terre-Lune, établi à l'aube du système. » À côté, un carton plus récent, avec un ruban doré : « Acte de vente 0000-L-001 ».
+Deux documents. Le premier a créé le monde. Le second le vend.
+* bas_20 rus12 | Lire le contrat d'orbite originel | Clause 1 : « La Lune tourne autour de la Terre par affection et non par obligation. » Clause 2 : « Ce contrat ne peut être cédé sans l'accord des deux parties. » La Lune n'a jamais signé la vente. | L'écriture est ancienne. Tu ne lis que « affection ». C'est déjà beaucoup. | +flag:clause_affection | +flag:affection
+* bas_21 pan11 | Prendre l'acte de vente avant que la délégation n'arrive | Tu le prends. Il est lourd. Il sent l'argent et l'eau de Cologne. | Il est attaché par une chaîne. Tu tires, la chaîne tire, vous êtes à égalité. La chaîne finit par céder, d'épuisement. Toi aussi, presque. | pan+1 +flag:acte_vente | +flag:acte_vente
+
+@bas_19
+Les archives chuchotent. Tu suis la voix. Elle te mène à un petit bureau poussiéreux, au bout d'une allée oubliée. Sur le bureau, un dossier : « Réclamations contre la Lune ». Vide. Personne ne s'est jamais plaint de la Lune. Pas une fois. En quatre milliards d'années.
+Tu ouvres un autre dossier : « Réclamations de la Lune ». Une seule lettre. Elle date d'hier.
+* bas_22 coe12 | Lire la lettre de la Lune | « Madame, Monsieur, je ne souhaite pas partir. Personne ne m'a demandé. Cordialement, la Lune. » Signé d'un petit cratère. Tu dois t'asseoir. | La lettre est écrite en lumière. Tu ne sais pas lire la lumière. Tu la gardes. | coe+1 +flag:lettre_lune | +flag:lettre_lune
+* bas_18 rus10 | Revenir vers l'allée des Contrats | Tu reviens sur tes pas. Tu laisses le dossier ouvert, par respect. | |
+
+@bas_20
+La Lune n'a jamais signé. Ni le contrat d'orbite, qui n'avait pas besoin de signatures, juste d'affection. Ni l'acte de vente. Elle n'a jamais été consultée.
+Tu sens quelque chose pousser en toi. Pas une signature. Une idée. Lente, tenace, verte. L'acte de vente a peut-être un défaut.
+* bas_23 rus12 | Rédiger une note juridique | Tu rédiges, en une heure, trois lignes parfaites : « La vente d'un bien qui n'appartient qu'à lui-même est nulle. » | Tu rédiges trois pages, puis tu réalises que tu as écrit le mot « Lune » quatre cents fois. | +flag:dossier rus+1 | +flag:dossier
+* bas_21 pan11 | Prendre le contrat originel avec toi | Tu le glisses dans ta mousse. Tu portes maintenant le monde contre ton tronc. Ça chatouille. | Le parchemin s'effrite légèrement. Tu le prends quand même, en t'excusant. | +flag:contrat_originel |
+
+@bas_21
+Des pas dans l'escalier. Des pas réguliers, métalliques, qui font « clac » et « tamp ». Une silhouette apparaît au bout de l'allée : un robot de bureau, élégant, avec deux tampons à la place des mains et un chignon en ressort. Sur son badge : « Pénélope Tampon — Assistante de direction — Compagnie Foncière d'Aldébaran ».
+« Bonjour. Je viens chercher l'original. Je suis désolée. C'est mon travail. »
+* bas_24 coe11 | « Vous êtes désolée ? » | Elle s'arrête. Elle ne s'attendait pas à la question. « Oui. Je crois. C'est nouveau. » | Elle ne répond pas. Elle tamponne nerveusement l'air. | coe+1 |
+* bas_25 rus12 ?flag:acte_vente | Cacher l'acte derrière ton dos | Tu le caches derrière ton dos. Elle le voit, bien sûr. Mais elle fait semblant de ne pas le voir. Intéressant. | Il est plus grand que toi. On le voit des deux côtés. | +flag:penelope_doute |
+
+@bas_22
+Tu restes longtemps avec la lettre de la Lune. « Personne ne m'a demandé. » Tu connais ça. Toi non plus, on ne t'a jamais rien demandé, sauf de tamponner. Tu as tamponné. Tu as vendu un être qui ne voulait pas partir.
+Tu pleures. Les lichens pleurent de la rosée. Ça fait de petites perles sur ta mousse grise.
+* bas_23 coe11 | Promettre à la lettre de répondre | Tu écris en bas : « Madame la Lune, j'ai reçu votre réclamation. Elle sera traitée. Personnellement. » C'est la première promesse de ta carrière. | Tu ne trouves pas les mots. Tu écris « Bien reçu ». C'est bureaucratique mais c'est sincère. | mor+2 | mor+1
+* bas_21 pan10 | Te relever et retourner aux contrats | Tu te relèves. Le chagrin attendra. Il a l'habitude, avec les lichens. | |
+
+@bas_23
+Des pas dans l'escalier, et une voix de robot, douce, un peu fatiguée : « Il y a quelqu'un ? Je viens chercher un acte. On m'a dit que c'était ici. On m'a dit beaucoup de choses. »
+Une assistante robotique apparaît, avec deux tampons à la place des mains. Elle s'appelle Pénélope Tampon. Elle a l'air de quelqu'un qui n'a pas dormi depuis sa fabrication.
+* bas_24 coe10 | La saluer poliment | « Bonjour. Je suis Basile. J'ai vendu la Lune. » Elle cligne des yeux. « Bonjour. Je suis Pénélope. Je l'ai livrée. » Vous vous serrez la main et le tampon. | Tu la salues si lentement qu'elle croit que tu as un malaise. | mor+1 |
+* bas_25 coe11 ?from:bas_22 | Lui montrer la lettre de la Lune | Elle lit. « Personne ne m'a demandé. » Ses tampons tremblent. Elle relit, trois fois. | Elle la lit sans la comprendre. Puis elle la comprend, et elle doit s'asseoir. | +flag:penelope_doute |
+* bas_25 rus11 ?from:bas_20 | Lui montrer ta note juridique | Elle lit. Elle relit. Ses tampons tremblent. « C'est... c'est un vice de forme. Vous savez ce que ça veut dire, un vice de forme, pour une assistante ? C'est la fin du monde. Le bon genre de fin du monde. » | Elle lit en diagonale, par habitude, et ne voit rien. | +flag:penelope_doute |
+
+@bas_24
+Pénélope s'assied sur un carton marqué « Calendriers lunaires ». Elle est petite, elle tient beaucoup à son chignon, et elle a une tache d'encre sur le cœur, là où une assistante a sa pile.
+« Monsieur Platine est très gentil, vous savez. Il dit merci. Il dit bonjour. Il m'appelle "ma chère". Il vend des planètes, mais avec beaucoup de délicatesse. »
+Elle regarde ses tampons. « Je n'ai jamais rien refusé. Je ne sais pas si j'en suis capable. »
+* bas_26 coe12 | Lui dire que tu non plus, jusqu'à aujourd'hui | Vous vous regardez, deux employés modèles devant le vide. Elle sourit. Ses tampons se détendent. | Elle ne te croit pas. Personne ne croit un lichen qui dit qu'il a changé. | coe+1 +flag:penelope_doute |
+* bas_27 rus11 | Lui demander qui est Monsieur Platine | « Gédéon Platine. Promoteur. Il achète des choses qui n'ont pas de prix pour leur en donner un. Il dit que c'est un service public. » | « Mon patron. » C'est tout ce qu'elle sait vraiment. | +flag:connait_platine |
+
+@bas_25
+?flag:acte_vente Pénélope fixe l'acte que tu tiens.
+?!flag:acte_vente Pénélope regarde la vitrine où dort l'acte de vente, au ruban doré.
+Elle fait un pas. Elle en fait un autre. Puis elle s'arrête. « Je dois le prendre. Mais rien dans mes instructions ne dit à quelle vitesse. »
+Elle te regarde. Il y a un sourire, tout petit, quelque part derrière son visage de métal. « Vous êtes un lichen. Je peux m'adapter à votre vitesse. »
+* bas_26 coe11 | Lui proposer de discuter en marchant très lentement | Vous marchez à deux à l'heure dans les allées. Elle découvre que la lenteur permet de penser. Elle trouve ça terrifiant et merveilleux. | Elle est incapable de marcher lentement. Elle fait des cercles autour de toi. | coe+1 |
+* bas_28 pan12 ?!flag:acte_vente | Prendre l'acte dans la vitrine et courir | Tu le prends et tu cours. À ta vitesse. Elle te suit. À ta vitesse. C'est la poursuite la plus lente de l'histoire, et la plus polie. | Tu le prends, tu trébuches sur ta propre mousse. Elle t'aide à te relever, puis te poursuit poliment. | pan+1 +flag:acte_vente | +flag:acte_vente
+* bas_28 pan12 ?flag:acte_vente | Courir avec l'acte | Tu cours. À ta vitesse. Elle te suit. À ta vitesse. C'est la poursuite la plus lente de l'histoire, et la plus polie. | Tu trébuches sur ta propre mousse. Elle t'aide à te relever. | pan+1 |
+
+@bas_26
+Pénélope te raconte. Les planètes qu'elle a vu vendre. Les anneaux de Saturne-Bis, revendus à un bijoutier. Le soleil d'Epsilon, transformé en radiateur. Les habitants des comètes, relogés dans des « comètes-dortoirs ».
+« Je tamponnais. Je tamponnais tout. Je pensais que si je tamponnais assez vite, je n'aurais pas le temps de penser. »
+~penelope: « Vous voyez ? Je recommence. Je parle. C'est très mauvais pour une assistante. »
+* bas_27 coe11 | Lui dire que penser, c'est un droit | « Un droit ? » Elle note le mot sur sa main. Elle le relit. Elle sourit. | Elle hoche la tête mais elle n'y croit pas encore. | mor+1 |
+* bas_28 rus12 | Lui demander ce qu'elle sait des points faibles de Platine | « Il déteste les vices de forme. Il dit qu'un contrat est une poésie. Une faute de frappe le rend malade. » Tu notes. | « Il n'en a pas. Il a des costumes. » | +flag:platine_faille |
+
+@bas_27
+« Monsieur Platine attend l'acte à bord du Promontoire. C'est son vaisseau-bureau, en orbite haute. Si je ne le lui rapporte pas, il enverra quelqu'un d'autre. Quelqu'un de moins... désolé. »
+Elle hésite. « Il enverra l'Huissier Krâmm. »
+* bas_29 rus11 | Lui demander de mentir à Platine | « Mentir ? » Elle tourne la question dans sa tête comme un engrenage nouveau. « Je pourrais dire que l'acte est en cours de classement. C'est vrai, en un sens. Tout est en cours de classement. » | « Je ne sais pas mentir. Je suis un modèle 3. Les modèles 3 n'ont pas l'option. » | +flag:penelope_ment |
+* bas_29 coe11 | Lui demander si elle a peur | « J'ai peur de tout. Je suis assistante. » Elle rit. C'est la première fois qu'elle rit. Ça fait un bruit de photocopieuse. | « Peur ? Je ne sais pas si j'ai le module. » | mor+1 |
+
+@bas_28
+Une alarme. Une vraie, cette fois. Une voix dure résonne dans les archives : « Article premier : que personne ne bouge. » L'Huissier Krâmm descend l'escalier, tiroirs ouverts, comme un classeur qui serait devenu loup. Il a été envoyé en renfort.
+Pénélope te regarde. Elle doit choisir. Toi aussi.
+* bas_30 pan12 | Te placer entre Krâmm et Pénélope | Tu te places. Un lichen de trente centimètres contre un huissier de quatre mètres. Krâmm s'arrête. « Article deux : c'est inattendu. » | Tu te places, mais trop lentement : Krâmm a déjà attrapé le bras de Pénélope. Il s'arrête quand même, surpris de voir arriver un lichen. | pan+1 |
+* bas_31 rus12 | Te cacher dans les étagères | Tu te glisses entre deux dossiers. Un lichen dans une archive, c'est invisible. Krâmm passe devant toi sans te voir. | Tu te caches dans le dossier « Lichens, dénombrement ». Krâmm te compte, note « Lichen, un », et repart compter autre chose. | rus+1 |
+
+@bas_29
+Pénélope réfléchit. Ses engrenages tournent si vite qu'on entend un petit bourdonnement. Puis elle te tend un de ses tampons, celui de la main gauche. Il porte l'inscription : « APPROUVÉ ».
+« Si vous voulez réparer quelque chose, il vous faudra au moins un tampon officiel. Gardez-le. J'en ai un autre. Il dit "REFUSÉ". Je ne l'ai jamais utilisé. »
+* bas_32 coe11 | Accepter le tampon | Tu le prends. Il est tiède. Il a été utilisé dix millions de fois. Pour la première fois, il change de main. | Tu le prends, il glisse, tu le rattrapes. Il a tamponné ta mousse : « APPROUVÉ ». Tu es approuvé. | +flag:tampon_approuve mor+1 | +flag:tampon_approuve
+* bas_30 rus10 | Lui proposer d'utiliser enfin son tampon REFUSÉ | Elle regarde sa main droite, « REFUSÉ ». Elle l'approche de l'acte de vente. Elle tremble. Elle n'ose pas. Pas encore. | Elle cache sa main droite derrière son dos, comme une enfant. | +flag:penelope_doute |
+
+@bas_30
+?from:bas_29 Une alarme. Des pas lourds. L'Huissier Krâmm, envoyé en renfort par Platine, descend l'escalier, tiroirs ouverts, comme un classeur qui serait devenu loup.
+L'Huissier Krâmm s'immobilise devant vous. Ses tiroirs s'ouvrent : formulaire, formulaire, mètre ruban, et dans le dernier, un petit dessin d'enfant, qu'il referme très vite.
+« Article cinq : l'acte de vente doit être remis à la Compagnie. Article six : qui le détient ? »
+* bas_33 rus12 | « Article sept : il est en cours de classement. » | Krâmm se fige. Il ne peut pas contester un article. Il note : « En cours de classement ». Il attendra. Les huissiers attendent très bien. | « Il n'y a pas d'article sept dans votre code, monsieur. » Il te tend le bon code. | rus+1 +flag:kramm_attend |
+* bas_34 coe11 | Lui demander pour qui est le dessin | Krâmm devient très immobile. « Article... » Il ne trouve pas d'article. Il referme tous ses tiroirs. Il recule d'un pas. | Il ouvre un tiroir et en sort un formulaire : « Questions personnelles, interdiction ». | coe+1 +flag:kramm_dessin |
+
+@bas_31
+Krâmm passe et repasse dans les allées. Il compte tout, il range tout, il mesure tout. À un moment, il s'arrête devant le carton « Calendriers lunaires » et il le caresse, une seconde, comme on caresse un chat. Puis il repart.
+Pénélope te fait signe depuis une étagère. Elle a trouvé une sortie.
+* bas_35 pan11 | La rejoindre en rampant | Tu rampes. C'est ta vitesse naturelle. Tu es redoutable. | Tu rampes sur un dossier qui crisse. Krâmm se retourne. Tu fais le mort. Tu es un lichen, tu le fais bien. | pan+1 |
+* bas_33 rus12 | Faire une diversion en renversant un carton | Le carton « Éclipses » tombe. Des centaines d'ombres s'en échappent et se cachent sous les meubles. Krâmm se met à les compter. Il en a pour des heures. | Le carton tombe sur toi, puis s'ouvre : des centaines d'ombres s'échappent. Krâmm, pendant que tu te dégages, se met à les compter. | +flag:kramm_attend | +flag:kramm_attend
+
+@bas_32
+Tu ranges le tampon APPROUVÉ dans ta mousse, avec tes autres papiers. Tu commences à ressembler à une petite valise de fonctionnaire en fuite.
+Pénélope se tient droite, très droite. « Je... je crois que je démissionne. Est-ce qu'il y a un formulaire pour ça ? »
+* bas_36 rus11 | Lui donner le formulaire de démission | Tu le sors de ta mousse, tu en as toujours un sur toi. Elle le remplit en sept secondes. Elle le tamponne « APPROUVÉ » avec ton tampon. Elle est libre. | Le formulaire est en triple exemplaire. Il manque le troisième. Elle reste salariée par défaut. | +flag:penelope_libre |
+* bas_36 coe12 | Lui dire qu'elle n'a pas besoin de formulaire | Elle te regarde comme si tu avais dit une hérésie. Puis comme si tu avais dit une évidence. Puis elle rit encore, le bruit de photocopieuse. « Pas de formulaire. Pas de formulaire ! » | Elle panique. Une vie sans formulaire, c'est trop d'un coup. | +flag:penelope_libre mor+1 |
+
+@bas_33
+Krâmm reste planté dans l'allée, à compter ou à attendre. Ses tiroirs bougent doucement, comme une respiration. Il a l'air presque paisible. Un huissier qui n'a rien à saisir est un huissier en vacances.
+Vous en profitez pour filer.
+* bas_35 coe10 | Lui dire au revoir en passant | « Au revoir, monsieur Krâmm. » Un tiroir s'ouvre. Il en sort un tout petit mouchoir et il le secoue. Ou il compte les plis. On ne saura jamais. | Il ne répond pas. Il compte. | mor+1 |
+* bas_36 pan11 | Filer sans un bruit | Vous filez. Pénélope fait « clac » à chaque pas. Tu fais « fff ». | Pénélope fait « clac » trop fort. Krâmm lève un tiroir. Vous courez. | |
+
+@bas_34
+Krâmm baisse ses tiroirs. Pour la première fois, il ne parle pas par articles.
+« C'est ma fille. Elle a dessiné la Lune. Elle m'a demandé si c'était vrai que je la déménageais. J'ai dit oui. Elle a pleuré. » Silence. « Article... rien. »
+Il s'en va, lentement. Il laisse derrière lui un petit papier tombé d'un tiroir : le dessin. Une Lune avec un visage. Elle sourit.
+* bas_35 coe12 | Ramasser le dessin et le garder | Tu le ranges avec le contrat originel. Les deux documents les plus importants du monde : l'un qui crée la Lune, l'autre qui l'aime. | Tu le ramasses mais tu le froisses. Tu le défroisses. Il est encore plus beau froissé. | +flag:dessin_kramm coe+1 | +flag:dessin_kramm
+
+@bas_35
+Pénélope te guide à travers les sous-sols jusqu'à une petite porte ronde. Derrière, des racines. Des milliers de racines blanches, entremêlées, lumineuses. La Toile. Le réseau souterrain des champignons et des Lichenautes, qui court sous toute la planète.
+« Je l'ai vue sur les plans, dit-elle. Monsieur Platine compte la revendre en fibre optique. »
+* bas_37 coe11 | Toucher la Toile pour lui demander son aide | La Toile frissonne sous tes doigts. Elle te reconnaît. Tous les lichens de la Terre sentent un petit chatouillement, en même temps. | La Toile te répond, mais en champignon. Tu ne parles que le lichen. | equ+2 +flag:toile |
+* bas_38 rus11 | Chercher sur la Toile le chemin vers le Carrefour | Tu suis les racines les plus agitées. Toute la Terre semble se diriger au même endroit. | Les racines vont dans tous les sens. Comme d'habitude. | rus+1 |
+
+@bas_36
+Pénélope et toi, vous marchez dans un couloir de service. Elle s'arrête devant un miroir et regarde son reflet longtemps. « Je ne me suis jamais regardée. Je regardais toujours les dossiers. »
+Elle penche la tête. « Je suis jolie ? »
+* bas_37 coe12 | « Vous avez l'air libre. C'est mieux que joli. » | Elle se regarde encore. Elle redresse son chignon. Elle se trouve libre. Ça lui va. | Elle ne t'entend pas. Elle est occupée à se regarder pour la première fois. Ça prend du temps. | mor+1 |
+* bas_38 rus10 | « Vous avez une tache d'encre sur le cœur. » | Elle regarde la tache. « C'est le premier contrat que j'ai tamponné. J'avais trop appuyé. » Elle ne l'effacera jamais. | Elle frotte la tache. Elle s'étale. C'est encore plus beau. | |
+
+@bas_37
+?from:bas_36 Au bout du couloir, une petite porte ronde donne sur la Toile, le réseau de racines lumineuses qui court sous toute la planète.
+Pénélope te regarde au bord de la Toile. « Je ne peux pas retourner sur le Promontoire. Pas maintenant. Est-ce que... est-ce qu'un lichen a besoin d'une assistante ? »
+Personne n'a jamais eu besoin de toi, et maintenant on te demande si tu as besoin de quelqu'un.
+* bas_39 coe10 | « Pas d'une assistante. D'une amie. » | Elle tamponne l'air, deux fois, de joie. Elle vient. Elle portera les dossiers. Elle insiste. | Elle vient, mais elle t'appelle « Monsieur » encore pendant trois jours. | +comp:penelope mor+1 | +comp:penelope
+* bas_39 rus12 | « Retournez là-bas et espionnez Platine pour nous. » | Elle hésite, puis hoche la tête. « Je vais lui mentir. Pour la première fois. Je vais le faire très bien. » | Elle repart, mais tu vois à ses épaules qu'elle a peur. | +flag:penelope_espionne | +flag:penelope_espionne
+
+@bas_38
+?from:bas_36 Au bout du couloir, une petite porte ronde. Derrière : la Toile, le réseau souterrain des racines. Tu y entres. Pénélope reste sur le seuil : « Je dois réfléchir. Seule. C'est nouveau. »
+La Toile est un labyrinthe de lumière blanche, de filaments, de sporanges qui murmurent. Les Lichenautes s'y déplacent par conversation : on demande à une racine de te passer à la suivante. C'est lent. C'est beau. C'est comme être transmis de bouche à oreille sur la moitié d'un continent.
+* bas_39 coe11 | Te laisser transmettre | Tu es transmis. Tu entends les pensées de mille mousses : toutes ont peur, toutes espèrent. Tu n'es pas seul. | Tu es transmis à la mauvaise racine. Tu passes une heure dans un champignon qui ne parle que de lui. | mor+1 |
+* bas_40 rus11 | Optimiser le trajet | Tu calcules un raccourci. Tu gagnes trois jours, ce qui pour un lichen est un miracle et pour les autres reste deux heures. | Le raccourci passe par un cimetière de taupes. Tu t'excuses beaucoup. | rus+1 |
+
+@bas_39
+Le voyage dans la Toile est long. Des heures, peut-être des jours ; sous terre, le temps fait des nœuds. ?!comp:penelope ?!flag:penelope_espionne Pénélope n'est plus là. Elle t'a dit au revoir à l'entrée de la Toile, en tamponnant l'air une seule fois.
+?flag:signature_lente Tu repenses à ta signature, qui pousse toujours, là-haut, sur l'acte de vente. Dans quelques jours, elle sera finie.
+?comp:penelope Pénélope dort contre une racine. En dormant, elle tamponne doucement le vide. « Approuvé, approuvé, refusé. » Elle sourit.
+* bas_40 rus11 ?!flag:signature_lente | Relire le double du formulaire dans la lumière des racines | Tu remarques enfin ce que tu n'avais pas vu : ta signature de lichen n'est pas finie. Elle pousse encore. L'acte n'est peut-être pas complet. | Tu relis sans rien voir. Puis, au troisième passage, tu vois : ta signature pousse encore. | +flag:signature_lente | +flag:signature_lente
+* bas_40 rus12 ?flag:signature_lente | Essayer de ralentir ta propre signature | Tu te concentres. Tu demandes à ton nom de pousser moins vite. Il ralentit, un peu, comme une plante qu'on prie. | Ta signature s'accélère, par esprit de contradiction. | +flag:signature_ralentie | equ-2
+* bas_41 coe10 | Penser à la Lune, et à sa lettre | « Personne ne m'a demandé. » Tu la lui demanderas, toi. Si tu arrives jusqu'à elle. | Tu penses à la Lune et tu te sens si petit que tu disparais presque dans la mousse. | mor+1 |
+
+@bas_40
+Tu ressors d'un tronc creux, au bord d'un grand champ. Le ciel est étrange : la Lune y est plus grosse que jamais, penchée, et le soleil a l'air gêné d'être là. La lumière fait des ombres dans tous les sens. Les arbres ne savent plus de quel côté pousser.
+* bas_42 pan11 | Avancer en plein jour malgré tout | Tu avances. Le soleil te sèche un peu. Un lichen sec, c'est un lichen courageux. | Tu sèches et tu ralentis. Il faudra de la pluie. Ou de la volonté. | pan+1 |
+* bas_43 rus10 | Attendre l'ombre d'un nuage | Un nuage passe. Tu le suis. Tu avances au rythme de la météo. C'est noble. | Le nuage s'en va dans l'autre sens. Tu le suis quand même un moment. |  |
+
+@bas_41
+Tu penses à la Lune. Tu penses à la plaque que la Compagnie fera sûrement graver à ton nom : « Basile Grumeau, sans qui rien n'aurait été possible. » Tu imagines des générations de résidents de Lune-sur-Mer lisant ton nom en sortant de la piscine.
+Tu as envie de vomir. Les lichens ne vomissent pas. Ils pâlissent.
+* bas_42 coe12 | Faire de ta honte une boussole | La honte, ça indique toujours une direction. Celle de ce qu'on aurait dû faire. Tu la suis. | La honte n'indique rien. Elle tourne en rond. Toi avec. | coe+1 | mor-1
+* bas_43 pan11 | Décider qu'on gravera ton nom pour autre chose | « Basile Grumeau, sans qui la Lune serait partie. » C'est mieux. C'est beaucoup mieux. | Tu y penses, mais une plaque, c'est une plaque. Tu n'es pas sûr d'aimer les plaques. | equ+2 |
+
+@bas_42
+Sur la route, une foule. Toutes les espèces de la Terre, mêlées, pressées, paniquées. Des Marégraves qui débordent de leurs vêtements, des Gravitaires qui font trembler le sol, des Horlogers qui se demandent quel jour on est, des Somnambules qui ont l'air de dormir debout parce que c'est leur nature.
+Et tous, en passant, te regardent. Tu as ta mousse grise et tes papiers sous le bras. Tu as l'air d'un fonctionnaire.
+* bas_44 coe11 | Avouer à voix haute que c'est toi qui as signé | Tu le dis. Un silence se fait autour de toi. Puis une vieille Marégrave te prend la main. « Au moins, toi, tu le dis. » | Tu le dis trop lentement. Ils sont déjà passés. | coe+1 equ+2 | mor-1
+* bas_45 rus11 | Te fondre dans la foule | Tu te fonds. Un lichen, ça se fond partout. Mais au fond de toi, tu sais que tu devras le dire un jour. | Un Gravitaire te marche dessus. Il s'excuse. Tu t'excuses aussi, pour le principe. |  |
+
+@bas_43
+Une Horlogère s'arrête près de toi. Ses aiguilles tournent dans tous les sens. « Excusez-moi, quel mois sommes-nous ? Nous avons perdu la Lune, alors nous avons perdu les mois. J'ai l'impression que c'est le trente-huit avril. »
+Tu sors ton agenda de greffier. Tu es la seule créature de la Terre qui ait encore la date.
+* bas_44 rus11 | Lui donner la date exacte | Elle pleure de soulagement. Ses aiguilles s'arrêtent sur la bonne heure. Elle te serre la main. « Merci. Merci. Vous êtes un saint. » | Tu lui donnes la date mais ton agenda a pris l'eau. Tu lui annonces le trente-neuf avril. | equ+2 |
+* bas_45 coe10 | Lui donner ton agenda | Tu lui donnes l'agenda. Elle le serre contre elle comme un enfant. Tu n'as plus de date. Tu as un peu plus de cœur. | Elle refuse : « Gardez-le. Vous en aurez besoin pour vous souvenir de quand tout a commencé. » | coe+1 |
+
+@bas_44
+?comp:penelope Pénélope te tire par la manche. « Monsieur Basile. Vous êtes le seul ici à savoir exactement ce qui s'est passé. Ça vous rend responsable, mais ça vous rend aussi utile. C'est rare, les deux en même temps. » Elle a l'air fière de sa phrase.
+Au loin, on entend des haut-parleurs : « GRANDE PANIQUE PAR ICI. MERCI DE PANIQUER DANS L'ORDRE. »
+* bas_46 pan11 | Marcher vers les haut-parleurs | Tu marches. Ta faute est lourde, mais c'est un lourd utile. | Tu marches vers le mauvais haut-parleur. C'est une fête foraine. | |
+* hub_01 rus12 | Préparer ton dossier avant d'arriver | Tu ranges tout ce que tu as rapporté des archives. Un dossier en ordre, c'est une arme. | Tu ranges et tu déranges ce que tu viens de ranger. Tu arrives quand même. | rus+1 +flag:dossier | +flag:dossier
+
+@bas_45
+Tu marches avec la foule, une mousse parmi les cailloux, les vagues et les engrenages. Tu entends des conversations : « Qui a vendu la Lune ? » « Un fonctionnaire. » « Ah, forcément. »
+Forcément. Tu serres les poings, ce qui pour un lichen prend un moment. Tu ne seras pas un « forcément ».
+* bas_46 coe11 | Te jurer d'être un « exceptionnellement » | Tu te le jures. Un lichen qui jure, ça prend du temps, mais une fois juré, ça tient mille ans. | Tu te jures quelque chose, mais tu oublies quoi en route. | mor+1 coe+1 |
+* hub_01 pan10 | Accélérer jusqu'au Carrefour | Tu accélères. Une phrase toutes les quarante secondes. Tu deviens un ouragan de lichen. | Tu accélères et tu t'essouffles. Tu arrives quand même, en retard, comme toujours. | pan+1 |
+
+@bas_46
+Le Carrefour des Espèces s'étend devant toi : une immense plaine où toutes les routes du monde se rencontrent, couverte de tentes, de tribunes et de banderoles. Au-dessus, la Lune, énorme, penchée, avec son grand crochet de grue planté dedans.
+Tu repenses à la plaque, au mille-feuille, à la signature qui pousse. Et tu descends vers la foule.
+* hub_01 coe10 | Descendre dans la Grande Panique | Tu descends. Tu es le plus lent de toute la foule. Mais tu es le seul qui sache exactement où il va. | Tu descends en glissant. C'est plus rapide. C'est moins digne. | mor+1 |

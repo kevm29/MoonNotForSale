@@ -1,0 +1,159 @@
+# ================================================================
+# RÉGION — LES HAUTS-NUAGES (la pluie pompée, Dame Ondée, Gaspard, Zouzou)
+# ================================================================
+
+@nua_01
+!title: Les Hauts-Nuages
+!fx: +flag:vis_nua regions+1
+Une échelle de corde pend du ciel jusqu'au Carrefour. Tu montes. À mi-hauteur, tes oreilles se bouchent ; aux trois quarts, ton cœur aussi. Tout en haut, tu poses le pied sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
+Les Hauts-Nuages sont dégonflés. Partout, des nuages plats, gris, affaissés comme des draps sur une corde. Il ne pleut plus sur la Terre depuis que la Lune est à vendre. Personne n'avait fait le lien. Toi non plus.
+?pc:griselidis Tu connais ce ciel par cœur : tu y as distribué le courrier pendant trente ans. Tu ne l'as jamais vu aussi silencieux. Même les Vents de service ont l'air de chuchoter.
+?pc:pelagie Nous n'aimons pas l'altitude. Trois d'entre nous ont le vertige, deux le mal de l'air, et Sœur Gertrude refuse de regarder en bas. Nous avançons en essaim serré, en récitant la liste des fleurs.
+?pc:barnabe Ici, la Lune est si proche que ton poil se dresse. Tu as envie de hurler. Tu te retiens, par politesse envers les nuages, qui ont l'air de dormir.
+* nua_02 pan10 | Marcher vers le cœur des nuages | Tu marches. Chaque pas fait un petit soupir sous tes pieds. Tu t'excuses à chaque fois. | Tu passes à travers un nuage trop mince et tu te rattrapes de justesse à un cumulus. Il te regarde de haut. | pan+1 |
+* nua_03 rus10 | Suivre les gros tuyaux qui serpentent entre les nuages | Les tuyaux sont neufs, dorés, gravés d'un petit logo en forme de feuille d'or. Ils aspirent quelque chose. Tu suis le bruit de succion. | Tu suis un tuyau, puis un autre, puis tu reviens au premier. Tu finis par trouver la station en suivant l'odeur de graisse. | rus+1 |
+
+@nua_02
+Au cœur des Hauts-Nuages, des petits nuages pleurent. Ils pleurent à sec : plus une goutte ne sort. Ils hoquettent de la vapeur. Une mère-nuage berce un nuageon qui n'arrive pas à faire sa première averse.
+Au centre, immense, une nuée sombre est restée gonflée. Elle est la seule. Elle est énorme, violette, ronde comme un ventre. Elle tremble. On dirait qu'elle retient sa respiration depuis des semaines.
+~ondee: « Ne me regardez pas comme ça. Je tiens. Je tiens. »
+* nua_04 coe11 | Aller parler à la grande nuée violette | Tu t'approches. Elle frissonne, mais elle ne te chasse pas. Il faut du courage pour parler à un orage qui se retient. | Tu t'approches trop vite. Elle gronde. Tu attends. Elle finit par te faire signe d'avancer, d'un petit éclair. | coe+1 |
+* nua_03 rus10 | Chercher où part la pluie des autres | Tu suis les traînées de vapeur. Elles mènent toutes au même endroit : une station de pompage, au bord du ciel. | Tu te perds dans un brouillard très collant. Il te dépose, poliment, devant la station de pompage. | |
+
+@nua_03
+!title: La station de pompage
+Au bord du ciel, une station de pompage ronronne. Des pompes dorées plantent leurs trompes dans les nuages et les sucent jusqu'à la dernière goutte. La pluie part dans des barils. Sur chaque baril : « COMPAGNIE FONCIÈRE D'ALDÉBARAN. Pluie fine, qualité Lune-sur-Mer. Pour piscines. »
+On vend la Lune, et on remplit les piscines de la Lune avec la pluie de la Terre. C'est tellement logique que tu en as mal au ventre.
+?flag:prospectus_detournes Sur un baril, quelqu'un a collé un de tes prospectus corrigés. « Vivez la Lune AUTREMENT QU'EN LA VENDANT. » Un ouvrier l'a lu. Il n'a pas osé l'enlever.
+* nua_05 pan11 | Saboter les pompes | Tu arraches un tuyau. La pompe hoquette, crache un arc-en-ciel et s'arrête. Une sirène se met à sonner, très poliment. | Tu tires sur un tuyau. Il te tire aussi. Tu passes une minute aspiré·e à moitié, avant qu'il te recrache, mouillé·e et vexé·e. | pan+1 +flag:pompes_sabotees | equ-1
+* nua_06 rus11 | Te glisser dans le bureau pour lire le registre | Le bureau est vide. Le registre est ouvert. Il y a même une loupe, posée dessus, comme une invitation. | Tu entres, mais un pigeon de bureau te surveille. Tu lis le registre en faisant semblant d'être un pigeon. Il n'est pas dupe, mais il ne dit rien. | rus+1 |
+
+@nua_04
+!fx: +flag:ondee_vue
+La grande nuée s'appelle Dame Ondée. Elle a plu sur la première mer du monde, quand la Terre était encore tiède et qu'il n'y avait personne pour ouvrir un parapluie. Elle a plu sur tout : sur les déserts, sur les dinosaures, sur des mariages ratés.
+« Les pompes ont pris mes filles », dit-elle d'une voix de tonnerre lointain. « Alors je garde ma pluie. Toute ma pluie. Ils ne l'auront pas. Mais je gonfle. Je gonfle, et un jour je vais éclater. Et ce jour-là, je noierai tout le monde. »
+?pc:pelagie Elle remarque nos ailes. « Des abeilles ? Si haut ? » « Nous sommes sages-femmes, Madame. Nous connaissons les ventres qui retiennent. » Elle rit, un petit roulement. « Vous ne m'accoucherez pas, mes chéries. »
+?pc:griselidis « Toi, je te connais. Tu portais les lettres des Vents. Tu passais à travers moi sans t'excuser. » Tu t'excuses. Trente ans de retard. Elle accepte.
+* nua_07 coe11 | Lui proposer de pleuvoir, doucement, là où on a besoin d'elle | « Doucement ? » Elle n'y avait pas pensé. Elle a toujours plu d'un seul coup, en grand, comme une tragédienne. | « Doucement ? Je ne sais pas faire doucement. » Elle essaie quand même. Elle rate. Puis elle réussit à moitié. | coe+1 |
+* nua_05 pan11 | « Allons plutôt casser leurs pompes. » | Ondée gronde de joie. « Enfin quelqu'un qui parle comme un orage. » Vous partez ensemble, toi devant, elle derrière, en éclairs. | Ondée hésite. « Si je bouge, je déborde. » Tu y vas seul·e. Elle te suit des yeux, en clignant des éclairs. | pan+1 +flag:pompes_sabotees |
+
+@nua_05
+La station est en panique. Les pompes s'étouffent, les barils roulent, une sirène très polie répète : « Veuillez nous excuser pour ce sabotage. » Des ouvriers en combinaison dorée courent dans tous les sens.
+Dans la fumée, une silhouette pâle te fait signe. Un homme en redingote, transparent comme un verre d'eau. Il a l'air de te connaître. Il a l'air de connaître tout le monde : il est mort depuis longtemps.
+* nua_08 coe10 | Suivre la silhouette transparente | Tu la suis à travers la fumée. Elle passe à travers une pompe. Toi, tu fais le tour. | Tu la suis, tu la perds, tu la retrouves en train de t'attendre, assise sur rien. | |
+* nua_09 pan11 | Aller droit au contremaître | Tu fonces vers la cabine du contremaître. Les ouvriers s'écartent. Ils n'ont pas reçu de formulaire pour ce cas-là. | Deux ouvriers t'attrapent par les bras. Ils s'excusent. Ils te portent jusqu'au contremaître, puisque c'est là que tu allais. | pan+1 | equ-1
+
+@nua_06
+Le registre, à la loupe : « Pluie achetée aux Hauts-Nuages : 0,02 lune-crédit le litre. Vendeur : personne (les nuages n'ont pas d'adresse). Destination : piscines de Lune-sur-Mer, après déménagement de la Lune. » Personne n'a vendu cette pluie. On l'a juste prise, en signant à la place du ciel.
+En bas de la page, une note au crayon : « Fantôme signalé à la nacelle 3. Ne pas le nourrir. »
+* nua_08 rus10 | Aller voir la nacelle 3 | Tu y vas. Un fantôme, c'est au moins quelqu'un qui n'a rien signé. | Tu te trompes de nacelle deux fois. La troisième fois, c'est la bonne : il fait plus froid. | +flag:registre_pluie |
+* nua_09 pan11 | Arracher la page et aller la mettre sous le nez du contremaître | Tu arraches la page. Le registre pousse un petit cri de papier. Tu marches vers le contremaître avec la preuve à la main. | Tu arraches la page, mais la loupe tombe et allume un feu minuscule. Tu l'éteins avec ta manche. Tu y vas quand même. | +flag:registre_pluie |
+
+@nua_07
+Dame Ondée s'incline au-dessus des Hauts-Nuages. Elle s'ouvre un tout petit peu. Une pluie fine, tiède, tombe vers la Terre. En bas, quelque part, un champ desséché lève la tête.
+?last:ok Elle pleut doucement pour la première fois de sa vie. Elle en pleure de joie, ce qui, pour un nuage, est un peu redondant.
+?last:ko Elle pleut trop fort sur un village, puis trop peu sur un autre. Elle apprend. Ça prend du temps, d'apprendre la douceur à quatre milliards d'années.
+Elle dégonfle. Elle respire enfin. « Les pompes, maintenant », dit-elle. « Je ne veux plus qu'on prenne la pluie de mes filles. »
+* nua_10 coe11 | Lui promettre qu'on va s'en occuper | Tu promets. Elle te croit. Les nuages croient tout le monde : c'est pour ça qu'on les vole. | Tu promets, mais ta voix tremble. Elle te prend au mot quand même. | equ+2 +flag:ondee_soulagee | +flag:ondee_soulagee
+* nua_10 pan11 | Lui demander de gronder très fort au-dessus de la station | Ondée gronde. La station entière tremble. Les ouvriers lâchent leurs outils et regardent le ciel avec la tête de gens qui ont oublié un parapluie. | Ondée gronde, et un éclair part tout seul. Il touche une pompe, puis une autre. Ça marche, d'une certaine façon. | equ+2 +flag:ondee_soulagee +flag:pompes_sabotees | +flag:ondee_soulagee +flag:pompes_sabotees equ-1
+
+@nua_08
+!title: Le fantôme de la nacelle 3
+Attachée à un mât de pompe, une vieille nacelle d'osier flotte au bout d'une corde. Pas de ballon au-dessus : le ballon est parti depuis deux siècles. Dans la nacelle, un homme en redingote, transparent, lisse sa moustache transparente.
+« Sire Gaspard Ombrelune, aéronaute. Parti de Lyon en 1803 pour atteindre la Lune. Arrivé jusqu'ici. Pas plus loin. » Il soupire, et son soupir fait de la buée. « Je suis mort en chemin. Mais je n'ai pas renoncé. C'est une question de principe. »
+!fx: +flag:gaspard_vu
+~gaspard: « Ne vous inquiétez pas. Je suis très bien conservé, pour un mort. »
+* nua_11 coe11 | Lui demander comment il est mort | Il te regarde, surpris. Personne ne lui a jamais posé la question. Les gens lui demandent seulement s'il va hanter leur maison. | Il hausse les épaules. « Bêtement. Comme tout le monde. » Puis il te le raconte quand même. | coe+1 |
+* nua_09 pan10 | Lui demander de t'aider contre la station | « Hanter une station de pompage ? » Ses yeux transparents brillent. « Je n'ai rien hanté depuis 1904. Avec plaisir. » | Il hésite. « Je suis un aéronaute, pas un épouvantail. » Il te suit quand même, en flottant à deux mètres derrière. | +flag:gaspard_hante |
+
+@nua_09
+Le contremaître est un dirigeable en cravate, gonflé d'importance. Il flotte dans sa cabine en regardant des graphiques qui montent. « Vous êtes du syndicat ? Des nuages ? De la Terre ? Je ne prends pas les réclamations sans rendez-vous. »
+?flag:registre_pluie Tu poses la page du registre sur son bureau. Il la lit, se dégonfle d'un tiers, et se regonfle aussitôt par habitude.
+?flag:gaspard_hante Derrière toi, Gaspard traverse le mur en hululant comme un hibou de 1803. Le contremaître se dégonfle d'un tiers.
+* nua_10 rus12 | « La Lune est vendue. Il n'y aura plus de pluie là-haut. Vos piscines resteront vides de toute façon. » | Le contremaître calcule. Il n'aime pas ce qu'il trouve. « Bon. Bon, bon, bon. On arrête les pompes. Provisoirement. Jusqu'à la fin de la phrase. » | Il te regarde comme on regarde un nuage qui parle d'économie. Il te raccompagne. Tu as perdu, mais il a pris des notes. | rus+1 +flag:pompes_arretees | equ-1
+* nua_10 pan12 | Lui dégonfler la cravate d'un coup de poing | Il se dégonfle complètement et va se coller au plafond en sifflant. Les ouvriers arrêtent les pompes d'eux-mêmes, pour qu'on ne les confonde pas avec lui. | Ton poing rebondit sur lui comme sur un ballon de plage. Il appelle la sécurité. La sécurité est en pause. Tu ressors comme tu es entré·e. | pan+1 +flag:pompes_arretees comp:pli=>+flag:pli_part_nua comp:pli=>-comp:pli | mor-1 comp:pli=>+flag:pli_part_nua comp:pli=>-comp:pli
+
+@nua_10
+?flag:pli_part_nua ?from:nua_09 Monsieur Pli sort de ta poche, très droit, très pâle. « Je ne voyage pas avec la violence. C'est la première clause de tous mes traités. » Il se plie en avion et s'envole vers Tamponville sans se retourner. Tu as gagné contre un dirigeable. Tu as perdu un diplomate.
+?flag:pompes_arretees,flag:pompes_sabotees Les pompes se taisent, une à une. Le silence qui suit est si doux qu'un nuageon, quelque part, fait sa première averse.
+?!flag:pompes_arretees ?!flag:pompes_sabotees Les pompes tournent toujours, mais moins vite. Le ciel a compris qu'on le volait. Ça ne s'oublie pas, ces choses-là.
+?flag:ondee_vue,flag:ondee_soulagee Les nuages, autour de toi, se regonflent un peu. Dame Ondée se rapproche. Elle a l'air d'avoir pris une décision, et les décisions d'un orage, ça s'entend de loin.
+?!flag:ondee_vue ?!flag:ondee_soulagee Les nuages, autour de toi, se regonflent un peu. Du cœur des Hauts-Nuages, une nuée immense s'approche : violette, ronde comme un ventre, la seule qui soit restée gonflée. Les petits nuages s'écartent en chuchotant son nom : Dame Ondée. Elle a tout vu. Elle a l'air d'avoir pris une décision, et les décisions d'un orage, ça s'entend de loin.
+* nua_12 coe10 | Aller voir ce que veut Dame Ondée | Tu t'approches. Elle pose une petite averse sur ta tête, en guise de bonjour. | Tu t'approches. Elle éternue un grêlon. Elle s'excuse. | |
+* nua_12 rus10 | Attendre qu'elle vienne d'elle-même | Elle vient. Les orages aiment qu'on les attende. | Elle vient, mais elle fait semblant de passer par hasard. | |
+
+@nua_12
+!title: Dame Ondée
+« J'ai réfléchi », dit Dame Ondée. « Toute ma vie, j'ai plu sur les autres. Je n'ai jamais rien vu de près. Je veux voir la Lune. Je veux voir ce qu'ils lui font. Et s'il faut, je pleuvrai sur leur chantier jusqu'à ce que leur ciment ne prenne plus. »
+?flag:ondee_renvoyee Puis elle te reconnaît, et gronde, très bas. « Toi. Tu m'as préféré un bout de papier, au Marché. Je pleuvrai sur la Terre. Pas avec toi. » Elle n'est pas fâchée. Elle est triste, ce qui chez un orage est plus long.
+?comp:pli Monsieur Pli pâlit, ce qui pour du papier est très visible. Ses coins se recroquevillent. « Madame est délicieuse », murmure-t-il, « mais je suis en papier. Une averse et je deviens de la pâte. Ce n'est rien de personnel. C'est de la chimie. » Il est clair que vous ne pourrez pas voyager à trois.
+?comp:fernand Fernand regarde Ondée sans rien dire. Il a oublié de déposer une réclamation. C'est la première fois.
+* nua_13 coe10 ?!comp:pli ?!flag:ondee_renvoyee | « Venez avec nous, Dame Ondée. » | Ondée se resserre, se fait petite comme un nuage de fumée de pipe, et se pose au-dessus de ton épaule. Elle te suivra comme une ombre mouillée. | Elle essaie de se faire petite et reste énorme. Puis elle y arrive. Elle te suit en dégoulinant un peu. | +comp:ondee mor+1 | +comp:ondee
+* nua_13 coe11 ?comp:pli ?!flag:ondee_renvoyee | Demander à Monsieur Pli de rentrer au Carrefour, pour emmener Ondée | Pli s'incline, très droit. « Je comprends. Une diplomatie sans pluie est une diplomatie sèche. » Il redescend l'échelle, plié en quatre de dignité. Ondée prend sa place. | Pli s'incline, un peu froissé. « Évidemment. » Il redescend sans se retourner. Ondée se pose au-dessus de toi, gênée d'avoir gagné. | -comp:pli +comp:ondee +flag:pli_renvoye | -comp:pli +comp:ondee +flag:pli_renvoye mor-1
+* nua_13 coe10 | Lui demander de rester pleuvoir sur la Terre, qui en a besoin | Ondée réfléchit, et dit oui. « Tu as raison. Il y a des champs qui m'attendent depuis des semaines. » Elle part vers l'ouest en grondant doucement. | Elle se vexe, puis elle part quand même pleuvoir. Elle pleut un peu fort, pour marquer le coup. | +flag:ondee_pleut equ+3 | +flag:ondee_pleut equ+1
+
+@nua_13
+!title: Le berceau
+La mère-nuage du début s'approche. Son nuageon a fait sa première averse, enfin. Elle te tend quelque chose : un petit berceau tressé de vapeur, si léger qu'il faut le tenir pour qu'il ne parte pas.
+« C'est un berceau de nuage. On y pose ce qui va naître, pour que ça tombe dans le monde en douceur. Le mien n'en a plus besoin. » Elle hésite. « Quelqu'un, en bas, en aura besoin. Je le sens. »
+Un peu plus loin, un nuageon orphelin pleure à sec, tout seul. Il n'a pas de berceau, lui.
+~ondee: « Prends-le. Ou donne-le. Mais ne le laisse pas s'envoler, un berceau perdu, c'est la pire chose du ciel. »
+* nua_14 ?!flag:gaspard_vu coe10 | Prendre le berceau, et le garder précieusement | Tu le prends. Il ne pèse rien, et pourtant il pèse. Tu le ranges contre toi. | Tu le prends, et il manque de s'envoler. Tu le rattrapes par une maille. | +flag:obj_berceau_nuage |
+* nua_15 ?flag:gaspard_vu coe10 | Prendre le berceau, et le garder précieusement | Tu le prends. Il ne pèse rien, et pourtant il pèse. Tu le ranges contre toi. | Tu le prends, et il manque de s'envoler. Tu le rattrapes par une maille. | +flag:obj_berceau_nuage |
+* nua_14 ?!flag:gaspard_vu coe11 | Le donner au nuageon orphelin | Tu poses le berceau près du nuageon. Il s'y couche. Il s'arrête de pleurer. Il fait une toute petite averse de soulagement, sur tes chaussures. | Le nuageon a peur du berceau, puis il s'y couche. Il ne te remercie pas. Il dort. | mor+2 +flag:nuageon_berce | mor+1 +flag:nuageon_berce
+* nua_15 ?flag:gaspard_vu coe11 | Le donner au nuageon orphelin | Tu poses le berceau près du nuageon. Il s'y couche. Il s'arrête de pleurer. Il fait une toute petite averse de soulagement, sur tes chaussures. | Le nuageon a peur du berceau, puis il s'y couche. Il ne te remercie pas. Il dort. | mor+2 +flag:nuageon_berce | mor+1 +flag:nuageon_berce
+
+@nua_14
+En repartant, tu passes devant une nacelle d'osier attachée à un mât. Dedans, un homme transparent en redingote lit un journal de 1803. Il lève les yeux.
+« Ah. Enfin quelqu'un qui ne court pas. Sire Gaspard Ombrelune, aéronaute. Parti pour la Lune en 1803. Mort en route, mais pas découragé. » Il replie son journal. « Vous allez là-haut, vous aussi. Ça se voit. Vous avez le regard des gens qui ont un rendez-vous. »
+!fx: +flag:gaspard_vu
+* nua_15 coe11 | T'asseoir au bord de la nacelle et l'écouter | Il te raconte. Le ballon, le vent, le froid. Et la Lune, si proche qu'il l'avait touchée du bout des doigts, juste avant que le froid le prenne. | Il raconte mal, avec des digressions sur la météo de 1803. Mais à la fin, sa voix se casse. | coe+1 |
+* nua_15 rus10 | Lui demander pourquoi il est toujours attaché ici | « Parce que personne ne m'a jamais détaché. Un fantôme, ça reste où on l'a laissé. C'est comme un parapluie. » | « Je ne sais pas. Je n'ai jamais demandé. » | |
+
+@nua_11
+« J'avais trente ans. Un ballon de soie, une malle de biscuits, une lettre d'amour pour une dame de Lyon qui ne m'a jamais répondu. Je suis monté, monté. À cette hauteur-ci, il faisait si froid que mon cœur s'est arrêté, tout doucement, comme une montre qu'on oublie de remonter. »
+Il regarde la Lune, juste au-dessus. « Je l'ai touchée du bout des doigts, je vous le jure. Juste avant. Elle était tiède. »
+* nua_10 coe11 | Lui proposer de t'aider à arrêter les pompes, ensemble | « Ensemble ? » Personne ne lui a dit « ensemble » depuis 1803. Il traverse la station en hululant. Les ouvriers fuient. Les pompes se taisent. | Il essaie de hululer, mais il a oublié comment on fait. Il fait « bouh ». Un ouvrier rit. Puis un autre a peur. Ça suffit à moitié. | equ+2 +flag:gaspard_hante +flag:pompes_arretees | +flag:gaspard_hante
+* nua_09 rus10 | Lui demander de te guider jusqu'au contremaître | « Par ici. Je traverse les murs, vous prendrez les portes. » | « Par là. Ou par là. J'ai perdu le sens de l'orientation en mourant. » Vous finissez par trouver. | +flag:gaspard_hante |
+
+@nua_15
+!title: Gaspard
+Gaspard se lève dans sa nacelle. « Je vais vous demander quelque chose d'indécent. Emmenez-moi. Je ne pèse rien. Je ne mange rien. Je fais un peu froid aux épaules, c'est tout. Je voudrais finir le voyage. Deux cents ans que j'ai un rendez-vous avec la Lune, et je n'aime pas être en retard. »
+?comp:ondee Dame Ondée enveloppe la nacelle d'une brume tendre. « Celui-là, je l'ai mouillé en 1803. Il ne m'en a jamais voulu. »
+Il ajoute, plus bas : « Ou alors, détachez-moi simplement. On dit que les fantômes qu'on détache peuvent enfin se reposer. Je ne sais pas si c'est vrai. J'ai un peu peur de le savoir. »
+* nua_16 coe10 | « Venez, Sire Gaspard. On a le même rendez-vous. » | Il ôte son chapeau transparent. « Madame, monsieur, chose : vous êtes la première personne à me dire "venez" depuis ma mort. » Il détache sa nacelle et flotte derrière toi. | Il hésite, puis il vient, en flottant un peu trop haut, par peur de gêner. | +comp:gaspard mor+1 | +comp:gaspard
+* nua_16 coe12 | Le détacher, pour qu'il se repose enfin | Tu dénoues la corde. Gaspard flotte, s'élève, sourit. « Oh. C'était donc ça. » Il devient de plus en plus transparent, puis il n'est plus là. Il reste une odeur de soie et de biscuit. Tu pleures un peu. C'était une belle mort, la deuxième. | Tu dénoues la corde. Il hésite, s'accroche à la nacelle, a peur. Puis il lâche. « Dites à la Lune que je suis venu. » Il n'est plus là. | mor+1 +flag:gaspard_repose | +flag:gaspard_repose
+
+@nua_16
+!title: Une comète dans le brouillard
+Un grand fracas : quelque chose de brillant vient de s'écraser dans un nuage, qui proteste. Une comète, petite, échevelée, la queue en bataille, se dégage en jurant.
+?pc:griselidis ?!comp:zouzou ?!flag:zouzou_partie C'est Zouzou. Elle te voit, détourne la tête, fait semblant de ne pas te voir, puis te voit quand même. « Ah. La factrice. Tu as fini seule, alors ? »
+?comp:zouzou Zouzou se fige. Elle regarde la petite comète comme on regarde un miroir. « C'est ma cousine Zézette. Elle fugue aussi. C'est de famille. » Les deux comètes se disputent en lumière pendant dix minutes, puis Zézette repart vers sa famille, l'air rassuré.
+?flag:zouzou_partie ?!comp:zouzou C'est Zouzou. Elle te reconnaît tout de suite, et elle se détourne. « Toi. Tu m'as échangée contre une règle à calcul. Je ne te parle pas. » Elle te parle quand même : « Je fugue toujours. Mais plus avec toi. »
+?!pc:griselidis ?!comp:zouzou ?!flag:zouzou_partie « Zouzou. Le premier qui rit, je le brûle. Je fugue. Ma famille passe tous les soixante-seize ans, à heure fixe, comme des employés. Moi je veux aller VITE et AILLEURS. » Elle te regarde. « Tu vas où, toi ? »
+?comp:quartz ?!comp:zouzou ?!flag:zouzou_partie Le Docteur Quartz sort un compas et un carnet. « Une comète juvénile ! Je dois absolument mesurer sa période, sa masse, son albédo... » Zouzou recule. « Elle me mesure, je pars. Je ne voyage pas avec une règle. » Elle ne plaisante pas.
+* nua_17 pan11 ?!comp:zouzou ?!comp:quartz ?!flag:zouzou_partie | « Je vais sur la Lune. Tu viens ? » | « Sur la LUNE ? » Zouzou fait un looping. « C'est le truc le plus débile que j'aie entendu. Je viens. » | Zouzou ricane. « Avec toi ? Lent comme t'es ? » Puis elle vient quand même, en tournant autour de toi pour montrer qu'elle s'ennuie. | +comp:zouzou mor+1 | +comp:zouzou
+* nua_17 coe11 ?!comp:zouzou ?comp:quartz ?!flag:zouzou_partie | Demander au Docteur Quartz de redescendre au Carrefour, pour emmener Zouzou | Quartz range son compas avec une dignité blessée. « Je comprends. La science attendra. Elle attend toujours. » Elle redescend l'échelle en prenant des notes sur la vitesse de sa propre déception. Zouzou te suit. | Quartz proteste, argumente, cite trois théorèmes, puis s'en va. Zouzou vient, mais elle a vu la tristesse de Quartz, et elle est un peu moins insolente. | -comp:quartz +comp:zouzou +flag:quartz_renvoyee | -comp:quartz +comp:zouzou +flag:quartz_renvoyee mor-1
+* nua_17 coe10 ?!comp:zouzou | Lui conseiller de rentrer voir ses parents, qui s'inquiètent sûrement | Zouzou te regarde longtemps. « T'es nul. » Puis : « Bon. Juste une fois. Pour voir leur tête. » Elle file vers le fond du ciel, vers une famille qui repasse tous les soixante-seize ans. | « T'es pas ma mère. » Elle file quand même, mais pas vers ses parents. Tu ne sauras pas où. | mor+1 +flag:zouzou_rentree | +flag:zouzou_partie
+* nua_17 pan10 ?comp:zouzou | Laisser Zouzou dire au revoir à sa cousine, et repartir | Zouzou revient se poser sur ton épaule. Elle ne dit rien pendant une minute entière. C'est un record. | Zouzou revient en boudant. Elle ne veut pas en parler. Elle en parle pendant une heure. | mor+1 |
+
+@nua_17
+!title: Le Phare des Nuages
+Au bout des Hauts-Nuages se dresse un phare. Pas pour les bateaux : pour les oiseaux, les ballons, les rêves qui volent bas. Son gardien est mort la semaine dernière, un vieux héron. Il n'y avait personne pour le remplacer.
+Sur la rambarde est accrochée une énorme corne de brume taillée dans un nuage durci, grise et cabossée. Une étiquette dit : « À souffler quand une grande vague arrive. Toutes les mers du monde l'entendront. »
+?comp:gaspard Gaspard ôte son chapeau devant la tombe du héron. « Nous nous sommes croisés souvent. Il me prêtait son journal. »
+* nua_18 rus11 | Décrocher la corne et l'emporter | Tu la décroches. Elle est lourde, froide, et elle vibre un peu, comme si elle se souvenait de toutes les tempêtes. | Tu la décroches, et elle te tombe sur le pied. Tu l'emportes en boitant. Elle a l'air contente de partir. | +flag:obj_corne_brume | +flag:obj_corne_brume mor-1
+* nua_18 pan11 | La souffler tout de suite, pour saluer le héron | Tu souffles. Un son immense traverse le ciel. Tous les nuages se tournent. Les oiseaux se posent. En bas, une mer lève la tête. Puis la corne se fend, d'avoir trop bien parlé. | Tu souffles. Il sort un petit pet de vapeur. Un nuage pouffe. Tu raccroches la corne, digne. | mor+2 equ+2 |
+* nua_18 coe10 | La laisser là, pour le prochain gardien | Tu la laisses. Un phare sans corne, c'est un phare qui ne pourrait plus prévenir personne. | |
+
+@nua_18
+!title: Redescendre
+Le soir tombe sur les Hauts-Nuages, et pour une fois il pleut un peu : une petite pluie de fin de journée, comme une phrase qu'on n'ose pas finir. La Lune est juste au-dessus, énorme, si proche que tu vois le crochet planté dans sa joue.
+?flag:ondee_pleut Au loin, vers l'ouest, Dame Ondée pleut sur des champs qui l'attendaient. Tu l'entends chanter. Un orage qui chante, ça ressemble à une grand-mère qui fait la vaisselle.
+?flag:gaspard_repose À l'endroit où était la nacelle, il reste une corde qui pend dans le vide. Tu ne sais pas pourquoi, mais tu as envie de lui dire bonne nuit.
+?pc:barnabe Tu hurles, enfin. Un hurlement court, pour la Lune, si près. Elle frémit. Tu n'oses pas croire qu'elle t'a entendu.
+~gaspard: « Je reviendrai par ici, quand tout sera fini. Si on finit. »
+~ondee: « On descend par l'échelle ? Je préfère tomber. C'est plus naturel. »
+~zouzou: « Je peux te descendre en trois secondes. Tu arriveras en vie à quatre-vingts pour cent. »
+* hub_ret coe10 | Redescendre par l'échelle de corde | Tu descends. Chaque barreau te rend un peu de poids. En bas, le Carrefour t'attend, avec sa poussière et ses beignets. | | mor+1 |
+* hub_ret pan11 | Sauter, et faire confiance aux nuages pour amortir | Tu sautes. Les nuages se mettent en file pour te rattraper, un par un, de plus en plus bas. Le dernier te dépose au Carrefour comme un colis fragile. | Tu sautes. Le premier nuage te rate. Le deuxième aussi. Le troisième, un cumulus en retard, te rattrape à dix mètres du sol. Tu as eu très peur. | pan+1 | mor-1

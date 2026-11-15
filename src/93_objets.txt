@@ -1,0 +1,512 @@
+# ================================================================
+# TRENTE OBJETS : où on les trouve, et à quoi ils servent.
+# Chaque objet est un flag obj_* décrit dans meta.json (items).
+# On le trouve dans un détour (nouveau nœud) ou par un choix ; on s'en sert plus tard,
+# dans une scène qui a un sens pour lui. Un objet utilisé est retiré de l'inventaire.
+# ================================================================
+
+# ---------------------------------------------------------------- CARREFOUR
+
+@+hub_03
+* hub_10 ?!flag:obj_beignet | Acheter le dernier beignet de la fournée, celui qui fume encore | Tu tends une pièce. Le vendeur te regarde comme si tu venais de gagner à la loterie. | | |
+
+@hub_10
+!title: Le beignet perpétuel
+Le vendeur, un vieil Horloger à moustache, emballe le beignet dans un papier gras avec des gestes de joaillier. « Le dernier. Il est perpétuel : il ne refroidit pas, et il ne diminue pas quand on le mange. Je le vends depuis 1904. Personne n'en voulait. Les gens préfèrent les beignets qui finissent. »
+Tu mords dedans. C'est chaud. Tu regardes : il est entier.
+* hub_05 | Le ranger soigneusement dans ta poche | Il est chaud contre ta hanche. Tu as l'impression d'avoir emporté un petit bout de cuisine. | | +flag:obj_beignet |
+* hub_05 coe10 | En donner un morceau à l'enfant qui te regarde | L'enfant mord. Le beignet repousse. L'enfant te regarde comme si tu étais magicien·ne. Tu ne le détrompes pas. | L'enfant mord, le beignet repousse, et l'enfant hurle de terreur et s'enfuit. Le beignet, lui, a l'air vexé. | +flag:obj_beignet mor+1 | +flag:obj_beignet
+
+@+hub_04
+* hub_11 ?!flag:obj_couverture ?!flag:hub_11_vu | Aider la vieille Gravitaire à replier sa couverture | Tu prends un coin. Il pèse le poids d'une enclume. | | |
+
+@hub_11
+!title: La couverture de pierre
+!fx: +flag:hub_11_vu
+La couverture est tissée en granit, maille par maille, si serrée qu'elle a l'air souple. La vieille Gravitaire la plie en quatre avec toi, lentement, comme on plie un drapeau. « Je l'ai tricotée pour mon petit-fils. Il est en bas, il tient l'Axe. Il n'a plus froid : là où il est, il fait cinq mille degrés. »
+Elle te la pose dans les bras. « Prends-la. Elle tient chaud à tout ce qui naît. Moi, je suis trop vieille pour naître encore. »
+* hub_05 pan10 | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | Tu la hisses et tu tombes assis·e dessus. La vieille Gravitaire rit pendant dix minutes, ce qui chez elle est un compliment. Tu repars avec, quand même. | +flag:obj_couverture pan+1 | +flag:obj_couverture
+* hub_05 | La remercier, et la lui laisser pour les nuits froides | Elle hoche la tête. « Tu as raison. Il va faire froid, quand elle sera partie. » | | mor+1 |
+
+@+hub_ret
+* hub_12 ?!flag:obj_carte ?!flag:hub_12_vu | Regarder les cartes postales de la vieille colporteuse | Une vieille Marégrave te fait signe, son plateau d'osier sur le ventre. | | |
+
+@hub_12
+!title: Une carte postale d'avant
+!fx: +flag:hub_12_vu
+La colporteuse vend des cartes postales. Toutes représentent la Lune : pleine, en croissant, au-dessus des mers, au-dessus des montagnes. Elle n'en a pas vendu une seule depuis la vente. « Les gens ne veulent pas de souvenirs de ce qui part. »
+Tu en choisis une : la Lune, au-dessus d'une mer calme. Au dos, d'une écriture penchée, quelqu'un a écrit il y a longtemps : « Tout va bien ici. Il fait beau. On pense à toi. » Pas de nom. Pas d'adresse.
+* foi_01 ?!flag:vis_foi | La glisser dans ta poche, et passer par la Foire | La colporteuse te rend la monnaie en coquillages. « Elle trouvera bien à qui elle est adressée. » | | +flag:obj_carte |
+* hub_06 ?regions<2 | La glisser dans ta poche, et repartir | La colporteuse te rend la monnaie en coquillages. « Elle trouvera bien à qui elle est adressée. » | | +flag:obj_carte |
+* hub_07 ?regions>=2 | La glisser dans ta poche, et regarder la Lune | La colporteuse te rend la monnaie en coquillages. « Elle trouvera bien à qui elle est adressée. » | | +flag:obj_carte |
+
+# ---------------------------------------------------------------- CÔTES HAGARDES
+
+@+cot_02
+* cot_40 ?!flag:obj_coquillage ?!flag:cot_40_vu | Ramasser le grand coquillage qui marmonne tout seul | Tu te penches. Le coquillage s'arrête de parler, gêné. | | |
+
+@cot_40
+!title: Le coquillage à l'envers
+!fx: +flag:cot_40_vu
+Un grand coquillage rose, échoué sur le fond découvert. Tu le portes à ton oreille : rien. Tu le portes à ta bouche, par curiosité, et tu dis « allô ». Très loin, derrière l'horizon, la mer répond : « allô ? »
+Un vieux crabe, sur un rocher, hausse les pinces. « C'est un coquillage à l'envers. On ne l'écoute pas, on lui parle. La mer entend tout ce qu'on dit dedans, où qu'elle soit. Ça ne sert à rien : personne n'a jamais rien à dire à la mer. »
+* cot_04 | L'emporter | Tu le glisses dans ton sac. Il marmonne encore un peu, puis il s'endort. | | +flag:obj_coquillage |
+* cot_04 pan10 | Dire à la mer, dedans, de revenir vers les poissons | Tu cries dans le coquillage. Au loin, la mer s'arrête, hésite, et fait trois pas vers vous. Les poissons applaudissent avec leurs nageoires. | Tu cries trop fort. La mer prend peur et recule encore. Les poissons te regardent avec un reproche infini. Tu ranges le coquillage, honteux·se. | +flag:obj_coquillage equ+2 | +flag:obj_coquillage
+
+@+cot_09
+* cot_41 ?!flag:obj_lanterne | T'occuper de la petite méduse qui s'éteint dans une flaque | Une méduse minuscule s'est détachée du Chœur. Elle clignote, de plus en plus faiblement. | | |
+
+@cot_41
+!title: La lanterne-méduse
+Elle est grosse comme un dé à coudre, et elle a trop chanté. Tu la prends dans tes mains en coupe, avec un peu d'eau de mer. À sa lumière, tu vois des choses que tu ne voyais pas : un visage triste dans le rocher, le sourire du vieux crabe, une ride sur la vague immobile.
+« ELLE NE PEUT PLUS TENIR LA VAGUE », chante le Chœur. « GARDE-LA. ELLE ÉCLAIRE LES VISAGES QUI SE CACHENT. C'EST TOUT CE QU'ELLE SAIT FAIRE, MAINTENANT. ET C'EST BEAUCOUP. »
+* cot_10 | La mettre dans un bocal d'eau de mer, et promettre au Chœur de revenir avant trois jours | Elle tourne trois fois dans son bocal, puis elle s'installe et brille, contente. Le Chœur chante un accord grave, qui veut dire « nous t'attendrons ». | | +flag:obj_lanterne coe+1 |
+
+@+cot_36
+* cot_42 ?!flag:obj_sablier | Regarder ce qui brille dans la craie, au bord de la falaise | Tu t'accroupis. Quelque chose de verre est pris dans la roche. | | |
+
+@cot_42
+!title: Le sablier qui remonte
+C'est un sablier. Très vieux, cerclé de cuivre vert, enfoncé dans la falaise comme si la mer l'avait oublié là en partant, il y a mille ans. Dedans, du sable de mer. Il coule vers le haut.
+Tu le retournes. Il coule vers le haut quand même, mais plus lentement. Le vent s'arrête une seconde. Une mouette reste suspendue au-dessus de toi, l'air surpris. Puis tout repart.
+* hub_ret pan10 | L'arracher à la falaise | Tu tires, la craie cède, tu tombes en arrière avec le sablier contre ta poitrine. Il n'a pas une égratignure. Toi, si. | La craie résiste. Tu tires plus fort, et un pan de falaise tombe à la mer avec toi dessus. Tu remontes la plage trempé·e, le sablier intact dans les mains. | +flag:obj_sablier | +flag:obj_sablier mor-1
+* hub_ret | Le laisser à la falaise, qui a l'air d'y tenir | Tu le laisses. La falaise, il te semble, se tient un peu plus droite. | | mor+1 |
+
+# ---------------------------------------------------------------- FORÊT-RÉSEAU
+
+@+for_17
+* for_40 ?!flag:obj_aiguille ?!flag:for_40_vu | Ramasser l'aiguille qui luit sous le banc | Tu te glisses sous le banc de pierre, entre deux pelotes géantes. | | |
+
+@for_40
+!title: L'aiguille de Mélusine
+!fx: +flag:for_40_vu
+Une aiguille à tricoter, longue comme ton bras, qui luit faiblement. Elle a dû tomber il y a longtemps : une araignée a tissé sa toile entre elle et le pied du banc, et elle y a brodé, avec la lumière de l'aiguille, un tout petit croissant.
+Tu la tends à Tante Mélusine. Elle la regarde par-dessus ses trois paires de lunettes. « MA VIEILLE AIGUILLE ! JE L'AI CHERCHÉE CENT ANS ! » Elle la fait tourner entre ses doigts. Puis elle te la rend. « GARDE-LA. ELLE REPRISE TOUT. LES CHAUSSETTES, LES ÉCHARPES, ET LE CIEL, SI ON LE LUI DEMANDE GENTIMENT. »
+* for_21 | La remercier, et la glisser dans ta manche | Elle luit doucement contre ton bras, comme une veine de lumière. | | +flag:obj_aiguille |
+
+@+for_22
+* for_41 ?!flag:obj_brin_toile | Demander à la Toile si tu peux emporter un brin | Tu poses les deux mains à plat sur les racines, et tu demandes, poliment. | | |
+
+@for_41
+!title: Un brin de la Toile
+La Toile réfléchit. Sous tes mains, des milliers de racines se consultent, de chêne en hêtre, de hêtre en champignon, de champignon en vieux lichen qui ne répond jamais. Ça prend un moment. La forêt n'a jamais rien prêté à personne.
+Puis une racine fine comme un cheveu se détache d'elle-même et s'enroule autour de ton doigt. Elle est tiède. Elle bat. Si tu tends l'oreille, tu entends toute la Terre qui pousse.
+* for_13 | Le nouer autour de ton poignet, et monter vers le temple | Le brin se noue tout seul, d'un nœud de racine si serré que personne ne pourra le défaire, à part la Toile. | | +flag:obj_brin_toile |
+
+@+for_33
+* for_35 ?!flag:obj_metre | Lui dire que tu ne sais pas, et accepter le mètre ruban qu'il te tend | Le petit robot détache son mètre ruban de sa ceinture et te le donne. « Moi non plus, je ne sais pas. Mais vous, vous mesurez peut-être mieux que nous. Il mesure juste. Même ce qu'on ne nous demande pas de mesurer. Excusez-moi. » | | +flag:obj_metre +flag:robot_voix |
+
+# ---------------------------------------------------------------- PAYS DES SONGES
+
+@+son_21
+* son_19 | « Commencez par moi : j'aurai besoin de dormir, là-haut. » | Le Marchand rit, pour la première fois depuis des siècles. Il te tend son propre oreiller, un oreiller de plumes de rêve, aplati par mille nuits blanches. « Celui qui pose la tête dessus s'endort tout de suite, et rêve de ce qu'il a perdu. Moi, je n'ose plus. » Puis il ouvre ses bocaux, un par un. | | equ+5 +flag:reves_liberes +flag:obj_oreiller |
+
+@+son_32
+* son_42 ?!flag:obj_cauchemar | Ramasser le bocal froid qui a roulé dans le couloir | Tu te penches. Le bocal est froid comme une pièce de monnaie. | | |
+
+@son_42
+!title: Un cauchemar en bocal
+Dans le bocal, une brume dorée tourne lentement. Au milieu de la brume, un enfant en feuilles d'or compte des pièces dans une salle vide. Il arrive à la fin. Il recommence.
+Le Marchand fait la grimace. « Le cauchemar de Monsieur Platine. Il le fait toutes les nuits depuis cinquante ans. Je l'ai mis en bocal pour qu'il dorme un peu. Il n'a pas dormi mieux. Il n'en veut plus, et moi non plus. »
+* son_33 | Le prendre, bien fermé, et demander à te réveiller | Tu le ranges au fond de ton sac, sous des chaussettes, pour ne pas l'entendre compter. Le Marchand claque des doigts. | | +flag:obj_cauchemar |
+
+@+son_35
+* son_41 ?!flag:obj_mouton | Repasser la tête par la porte du Dortoir | Avant de partir, tu jettes un dernier coup d'œil aux lits vides. | | |
+
+@son_41
+!title: Le mouton numéro un
+Sur un lit défait, il reste un mouton. Un tout petit, en laine qui s'effiloche, avec un numéro brodé sur le flanc : 1. Les autres se sont envolés avec les rêves qui tombaient.
+« C'est le premier », dit la vieille Somnambule en bâillant. « Celui qu'on compte avant tous les autres. Sans lui, personne ne peut commencer à s'endormir. Emmenez-le. Ici, plus personne ne dort assez pour compter jusqu'à un. »
+* hub_ret | Le prendre sous ton bras | Il bêle une fois, très bas. Puis il s'endort contre toi. | | +flag:obj_mouton |
+* hub_ret coe10 | Le compter, pour voir | « Un. » Tu bâilles. Tu te réveilles une heure plus tard, la tête sur le mouton, reposé·e comme jamais. Il te suit quand tu pars. | « Un. » Rien ne se passe : tu es trop inquiet·e pour dormir. Le mouton te regarde avec pitié, et te suit quand même. | +flag:obj_mouton mor+2 | +flag:obj_mouton
+
+# ---------------------------------------------------------------- PROFONDEURS
+
+@+pro_04
+* pro_40 ?!flag:obj_bille | Lui demander ce qu'elle serre si fort dans sa main | Elle ouvre la main, très lentement, comme on montre un trésor. | | |
+
+@pro_40
+!title: La bille qui tombe vers le haut
+Une bille de pierre ronde, veinée de bleu. La petite Gravitaire la lâche. La bille tombe vers le haut, rebondit contre la voûte de la caverne, et redescend dans sa main.
+« Elle tombe à l'envers. Papa dit qu'elle n'a pas encore choisi son côté. Moi non plus, j'ai pas choisi. Plus tard, je tiendrai l'Axe ou je tiendrai le ciel. » Elle te la tend. « Tu vas en haut, toi. Montre-lui le ciel, à ma bille. Et dis à papa que je l'aime. »
+* pro_05 | La prendre, et lui promettre de faire les deux | Elle te serre la jambe, très fort, ce qui chez une Gravitaire de cent ans fait un bleu. | | +flag:obj_bille +flag:caillou_enfant coe+1 |
+
+@+pro_20
+* pro_21 ?!flag:obj_facette | Lui dire que tu reviendras, et accepter ce qu'elle se retire du coude | Le Docteur Quartz détache une facette de son coude, avec un petit « tic » de verre. Elle te la tend, violette et tiède. « Pour que vous reveniez. Elle vibre comme ce qu'elle touche : posez-la sur n'importe quoi, elle vous chantera sa fréquence. Statistiquement, c'est le plus beau cadeau que j'aie jamais fait. C'est aussi le seul. » Puis elle reprend, très vite : « Bon. La Lune. » | | +flag:obj_facette mor+1 |
+
+@+pro_33
+* pro_41 ?!flag:obj_echo | Remplir une bouteille au bord du couloir des Grottes | Tu débouches une vieille bouteille de limonade, vide depuis longtemps. | | |
+
+@pro_41
+!title: Un écho en bouteille
+Le couloir des Grottes des Échos débouche juste là, au fond du Puits. Tu tends la bouteille vers le noir. Les échos s'y précipitent, contents d'avoir enfin un endroit à eux. Tu entends, dedans, tes propres pas, le gémissement de l'Axe, et mille voix qui répètent : « ... tout ... tout ... tout ... »
+Tu rebouches. La bouteille est lourde de tout ce qu'elle a entendu. Quand on la débouchera, elle répétera en mille exemplaires ce qu'on vient de dire.
+?comp:echo Écho regarde la bouteille avec un peu de jalousie. « ... bouteille ... » Puis, plus bas, avec tendresse : « ... cousins ... »
+* pro_36 | La glisser dans ton sac, et remonter | Pendant toute la montée, la bouteille murmure contre ton dos. | | +flag:obj_echo |
+
+@+pro_18
+* pro_26 ?flag:obj_neveu_galet | Poser le neveu du Président au milieu de la Salle des Plaques | Les douze géants se penchent sur le tout petit galet. Il ne dit rien. Les Gravitaires reconnaissent ce silence : c'est celui du Président, en plus jeune. L'Assemblée-Nord gronde, très lentement : « La famille... du Président... est descendue... jusqu'ici. Alors... on vote. » | | +flag:vote_assemblee coe+1 |
+
+@+pro_19
+* pro_26 ?flag:obj_neveu_galet | Poser le neveu du Président au milieu de la Salle des Plaques | Les douze géants se penchent sur le tout petit galet. Il ne dit rien. Les Gravitaires reconnaissent ce silence : c'est celui du Président, en plus jeune. L'Assemblée-Nord gronde, très lentement : « La famille... du Président... est descendue... jusqu'ici. Alors... on vote. » | | +flag:vote_assemblee coe+1 |
+
+# ---------------------------------------------------------------- TAMPONVILLE
+
+@+cap_02
+* cap_41 ?!flag:obj_ticket_zero | Ramasser le petit ticket froissé que tout le monde piétine | Tu te baisses entre les pieds de la file. Personne ne te laisse passer, par principe. | | |
+
+@cap_41
+!title: Le ticket numéro zéro
+Un petit ticket, froissé, piétiné. Numéro 0. Le distributeur commence à 1 depuis toujours. Personne ne sait d'où vient ce zéro.
+La file entière se tait. Un vieil Horloger enlève son chapeau. Une Lichenaute murmure : « Le zéro... On disait qu'il existait. On disait que celui qui l'aurait passerait avant tout le monde. Même avant ceux qui n'attendent pas. »
+* cap_05 | Le ranger dans ton portefeuille, et chercher quand même une autre entrée | Par politesse, tu ne t'en sers pas ici. La file te regarde partir avec respect, et un peu de soulagement. | | +flag:obj_ticket_zero |
+
+@+cap_03
+* cap_40 ?!flag:obj_tampon_vu ?!flag:cap_40_vu | Regarder de plus près le vieux tampon posé à côté d'elle | Sur le guichet, il y a un tampon de bois noirci, au manche usé par des siècles de paumes. | | |
+
+@cap_40
+!title: Le tampon « VU »
+!fx: +flag:cap_40_vu
+Sur la semelle du tampon, deux lettres à l'envers : UV. Ou plutôt VU.
+« Le premier tampon du Cadastre », dit Madame Pruine sans lever les yeux, ce qui pour une Lichenaute prend vingt minutes. « Ce qu'il marque a été vu. Officiellement. Et ce qui a été vu ne peut plus être ignoré. Personne ne s'en sert plus. Les gens préfèrent les tampons qui ne voient rien. »
+* cap_04 rus10 | Lui demander si tu peux l'emprunter, pour une affaire urgente | Elle réfléchit longtemps. Puis elle pousse le tampon vers toi, d'un millimètre par minute. Tu attends. Tu l'as. « Rapportez-le. Ou ne le rapportez pas. Je l'aurai vu partir. » | Elle refuse, très lentement. Mais pendant qu'elle refuse, elle s'endort. Tu prends le tampon et tu laisses un mot. Tu te sens un peu voleur·se, officiellement. | +flag:obj_tampon_vu rus+1 | +flag:obj_tampon_vu
+
+@+cap_12
+* cap_14 ?!flag:obj_fleur_epine | Lui dire que sa fleur est jolie | Madame Épine rougit, ce qui chez un cactus se voit aux épines. Elle détache la petite fleur rose et te la tend. « Elle sort une fois par siècle, et seulement de surprise. Vous m'avez surprise. Prenez-la. Et trouvez-moi cette erreur. » | | +flag:obj_fleur_epine +flag:epine_alliee |
+
+@+cap_17
+* cap_42 ?!flag:obj_neveu_galet | Remarquer le petit galet posé à côté du coussin | Sur le rebord de la fenêtre, il y a un autre galet. Plus petit. | | |
+
+@cap_42
+!title: Le neveu du Président
+Gris clair, lui aussi, mais avec une rayure blanche, comme une mèche. Il regarde la Lune avec le Président.
+Un huissier de la présidence chuchote : « Son neveu. Il ne dit rien non plus, mais avec moins d'autorité. Le Président aimerait qu'il voie du pays. » Le Président ne dit rien. C'est un accord.
+* cap_21 | Glisser le neveu dans ta poche, et promettre au Président que la Lune restera | Le petit galet est tiède. Le Président, sur son coussin, a l'air un peu plus rond. | | +flag:obj_neveu_galet +flag:galet_promesse coe+1 |
+
+# ---------------------------------------------------------------- HAUTS-NUAGES
+
+@+nua_07
+* nua_40 ?!flag:obj_goutte | Tendre un dé à coudre sous la goutte qui tombe d'elle | Une seule goutte se détache de Dame Ondée, et tombe lentement, comme si elle choisissait où atterrir. | | |
+
+@nua_40
+!title: La dernière goutte
+La goutte entre dans le dé à coudre, tourne trois fois, et s'arrête, ronde et grise.
+« Celle-là, je la gardais », gronde Ondée, très doucement. « Elle a plu sur la première mer du monde, quand il n'y avait encore personne pour la regarder. Emporte-la là où il ne pleut jamais. »
+* nua_10 | Refermer le dé avec ton pouce, et promettre | Tu promets. Ondée se détend un peu. Il tombe sur les Hauts-Nuages une petite bruine de soulagement. | | +flag:obj_goutte +flag:ondee_soulagee equ+2 |
+
+@+nua_15
+* nua_41 ?!comp:gaspard | Lui demander ce qu'il reste de son ballon | Gaspard fouille au fond de la nacelle. | | |
+
+@nua_41
+!title: Le ballon de 1803
+Gaspard sort un paquet de soie pliée, grise de poussière, rapiécée de partout avec des bouts de nuages. « Mon ballon. Ce qu'il en reste. Je l'ai recousu tous les jours pendant deux cents ans. Il ne m'a jamais remonté. Je crois qu'il attendait quelqu'un de plus lourd que moi. »
+Il te le tend, cérémonieusement. « Il reste assez de soie pour monter très haut. Une fois. »
+* nua_16 coe10 | « Venez avec moi, Sire Gaspard. Nous le gonflerons ensemble. » | Gaspard remet son chapeau transparent. « Ensemble. Je n'avais pas entendu ce mot depuis 1803. » | Gaspard hésite si longtemps que tu crois l'avoir vexé. Puis il se glisse quand même dans ta poche de manteau, ce qui est peu digne pour un fantôme, mais pratique. | +flag:obj_ballon +comp:gaspard mor+1 | +flag:obj_ballon +comp:gaspard
+* nua_16 coe11 | Prendre le ballon, et détacher la nacelle pour qu'il se repose | Tu dénoues la corde. Gaspard s'élève doucement, sans ballon, sans poids, en souriant. « Gonflez-le pour moi. » Il disparaît dans un nuage. | La corde est nouée depuis deux cents ans. Tu y passes une heure. Gaspard attend en sifflotant. Quand elle cède, il s'envole sans un mot, la main levée. | +flag:obj_ballon +flag:gaspard_repose mor+1 | +flag:obj_ballon +flag:gaspard_repose
+
+@+nua_18
+* nua_42 ?!flag:obj_plume | Suivre le héron jusqu'à son nid, en haut du phare | Tu montes les cent marches du phare. Le héron te regarde arriver sans surprise. | | |
+
+@nua_42
+!title: Le nid du héron
+Le héron a fait son nid dans la lanterne éteinte, avec des brindilles, de la ficelle et de vieilles cartes du ciel. Quand la nuit tombe, il prend une plume de son aile, la trempe dans le noir, et il écrit dans le ciel, en lettres d'étoiles, pour les oiseaux qui se perdent : « PAR ICI ».
+Puis il te tend la plume. Il en a d'autres. Il a toute une aile.
+* hub_ret | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends l'échelle de corde, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
+
+# ---------------------------------------------------------------- MARCHÉ DES COMÈTES
+
+@+com_03
+* com_41 ?!flag:obj_aurore | Aller voir le stand des aurores, là où le hibou a montré | Tu traverses l'allée des ciels d'occasion. | | |
+
+@com_41
+!title: Le stand des aurores
+Des aurores boréales pendent à des cintres, comme des robes. Vertes, roses, violettes. Certaines ont servi au-dessus du pôle, d'autres au-dessus d'un seul mariage. Un vieux renard des neiges les repasse au fer froid.
+« De seconde main, toutes. Les cieux n'en veulent plus : ils veulent du bleu, rien que du bleu, c'est plus vendeur. » Il en plie une en huit, très serrée. « Celle-là a fait pleurer un village entier, en 1612. Elle a encore de la ressource. »
+* com_06 coe10 | L'échanger contre ta plus belle histoire | Tu racontes. Le renard s'assoit. Il écoute jusqu'au bout, puis il te tend l'aurore pliée sans un mot. Elle est tiède, et elle sent le froid. | Ton histoire ne lui plaît pas. Il te donne l'aurore quand même, « parce que vous avez essayé, et que plus personne n'essaie ». | +flag:obj_aurore | +flag:obj_aurore
+
+@+com_13
+* com_40 ?!flag:obj_eclipse ?!flag:com_40_vu | Passer devant l'étal d'éclipses, en sortant de la tente | Un étal tendu de velours noir attire ton regard. | | |
+
+@+com_14
+* com_40 ?!flag:obj_eclipse ?!flag:com_40_vu | Te cacher derrière l'étal d'éclipses le temps de souffler | Tu plonges derrière un étal tendu de velours noir. | | |
+
+@com_40
+!title: L'étal d'éclipses
+!fx: +flag:com_40_vu
+Sur le velours noir, rangées par taille, des éclipses. Des grandes, pour les continents. Des moyennes, pour les villages. Et des toutes petites, comme des boutons de nuit, pour une seule personne. La marchande est une chouette en lunettes de soleil.
+« Une éclipse de poche ? Ça s'accroche au col. Ça fait de l'ombre autour de vous, partout où vous allez, même à midi. Très pratique pour les siestes. Indispensable pour les vampires. »
+?comp:vesperine Du fond de ton ombre, une main gantée se tend vers l'étal. « Celle-là. La petite, avec la dentelle. Je vous en prie. »
+* com_15 rus10 | La marchander contre ton ombre de midi | La chouette accepte. À partir d'aujourd'hui, ton ombre de midi sera un peu plus courte. Tu repars avec un petit morceau de nuit au creux de la main. | La chouette refuse ton ombre de midi : elle en a déjà trop. Tu lui laisses ton ombre du soir, plus longue. Elle accepte. Le soir, tu auras l'air un peu plus petit·e. | +flag:obj_eclipse rus+1 | +flag:obj_eclipse
+* com_15 | Passer ton chemin | La chouette hausse les épaules. « Les gens n'achètent plus d'éclipses. Ils préfèrent le plein jour. Ça finira mal. » | | |
+
+@+com_15
+?comp:vesperine ?flag:obj_eclipse ?from:com_40 « Accrochez-la à mon col. Voilà. » Pour la première fois depuis neuf cents ans, la Comtesse sort de ton ombre en plein jour, dans un petit cercle de nuit, avec trois étoiles. Elle ne dit rien. Elle a les yeux humides.
+
+@+com_19
+* hub_ret ?!flag:obj_etoile | Échanger un souvenir contre une étoile filante d'occasion, et la garder pour plus tard | Tu donnes un souvenir sans importance, un mardi d'il y a longtemps. Le marchand t'emballe une étoile filante un peu cabossée. « Elle a déjà servi. Il lui reste un vœu. Je ne garantis pas lequel. » | | +flag:obj_etoile |
+
+# ---------------------------------------------------------------- FOIRE
+
+@+foi_02
+* foi_15 ?foire<3 ?!flag:stand_obj | Le stand des objets trouvés | Une petite tente grise, sans lampion, au bout de l'allée. | | |
+
+@foi_15
+!title: Les objets trouvés
+!fx: +flag:stand_obj foire+1
+Derrière le comptoir, un vieil escargot en blouse classe des choses que personne n'est venu réclamer : des parapluies, des dents de lait, un gant gauche, la moitié d'un serment, un dimanche entier.
+« Tout ce qui se perd finit ici », dit l'escargot. « Sauf ce qui se perd ici. Ça, je ne sais pas où ça va. » Il pose sur le comptoir une boussole en laiton. Son aiguille tourne, hésite, et pointe vers le ciel. « Elle n'indique pas le nord. Elle indique ce qui est sur le point de se perdre. Depuis trois jours, elle montre la Lune. »
+* foi_02 | La prendre | « Ramenez-la quand elle indiquera autre chose », dit l'escargot. « Ou ne la ramenez pas. Elle se retrouvera ici de toute façon. » | | +flag:obj_boussole |
+* foi_02 coe10 | Demander s'il y a quelque chose à rendre à quelqu'un du camp | L'escargot fouille longtemps. Il sort un dimanche entier, plié, perdu en 1950 par une vieille dame du camp. Tu le lui rapportes. Elle pleure de joie. L'escargot te donne la boussole, pour la peine. | L'escargot ne retrouve rien. Mais il te donne la boussole, « parce que vous avez demandé pour les autres, et ça, ça ne se perd pas ». | +flag:obj_boussole mor+2 | +flag:obj_boussole
+
+# ---------------------------------------------------------------- LA DERNIÈRE NUIT
+
+@+nui_02
+* nui_70 ?nuit<3 ?flag:obj_beignet ?!flag:n_bei | Sortir le beignet perpétuel, et le faire tourner autour du feu | Tu déplies le papier gras. Le beignet fume encore. | | |
+* nui_71 ?nuit<3 ?flag:obj_coquillage ?!flag:n_coq | Aller parler à la mer dans le coquillage à l'envers | Tu t'éloignes du feu jusqu'au bord de la marée géante. | | |
+* nui_72 ?nuit<3 ?flag:obj_brin_toile ?!flag:n_toi | T'allonger loin du feu, le brin de la Toile contre le sol | Tu poses ton poignet par terre, à plat. | | |
+* nui_73 ?nuit<3 ?flag:obj_mouton ?!flag:n_mou | Lâcher le mouton numéro un dans le camp qui ne dort pas | Tu poses le petit mouton par terre. Il secoue sa laine. | | |
+* nui_74 ?nuit<3 ?flag:obj_plume ?!flag:n_plm | Monter sur une charrette avec la plume du héron | Tu montes sur la plus haute charrette du camp. Il fait nuit noire. | | |
+
+@nui_70
+!title: Le beignet de la dernière nuit
+!fx: +flag:n_bei nuit+1
+Tu romps le beignet perpétuel et tu en tends un morceau à ton voisin. Il repousse. Tu en tends un autre. Il repousse encore. Bientôt, tout le camp fait la queue en silence devant toi : des Marégraves, des Gravitaires, une famille de Lichenautes qui mettra trois heures à mâcher.
+Personne ne parle de demain. On parle de la pâte, du sucre, de la grand-mère de chacun.
+~bartho: « Ma Perline en faisait des comme ça. Enfin, des qui finissaient. »
+~coquille: « Croissant n'a pas encore de dents, mon petit. Je mange pour lui. » Elle en reprend trois fois.
+~zouzou: Zouzou passe trois fois dans la queue. Personne n'ose le lui faire remarquer : elle brûle un peu.
+* nui_02 | Garder le dernier morceau pour la route | Le dernier morceau repousse dans le papier. Le beignet n'a jamais eu de dernier morceau. | | mor+3 |
+
+@nui_71
+!title: Un mot à la mer
+!fx: +flag:n_coq nuit+1
+La marée gronde, tirée vers le ciel par une Lune qui s'en va. Tu sors le coquillage à l'envers. Tu ne sais pas quoi dire. Personne n'a jamais rien eu à dire à la mer.
+* nui_02 coe11 | « Demain, quand on la décrochera, ne panique pas. Reviens doucement. » | Un long silence. Puis, dans le coquillage, une toute petite voix salée : « D'accord. » La marée cesse de gronder. Elle attend. | La mer ne comprend pas « décrocher ». Elle comprend « panique ». Elle gronde plus fort, puis elle se calme d'elle-même, lentement, comme une bête qui a eu peur pour rien. | +flag:marees_prevenues equ+3 | equ+1
+* nui_02 | Lui dire simplement bonne nuit | « BONNE NUIT », répond la mer, beaucoup trop fort. Tout le camp se réveille. Puis tout le monde se rendort en souriant. | | mor+2 |
+
+@nui_72
+!title: Ce que la Terre dit la nuit
+!fx: +flag:n_toi nuit+1
+Le brin de la Toile se réveille contre le sol. Et tu entends : les forêts qui ne dorment pas, les Gravitaires qui serrent les dents, les poissons qui font la queue dans le noir. Toute la Terre est inquiète. Toute la Terre écoute.
+* nui_02 coe11 | Lui dire, par le brin, que quelqu'un monte demain | Le message part, de racine en racine. Tu le sens courir sous le monde entier. Quelque part, un vieux chêne répond par un craquement qui veut dire « enfin ». | Le message se perd dans les racines d'un champignon bavard, qui le répète de travers. La moitié de la Terre comprend « quelqu'un tombe demain ». On rectifiera. | +flag:terre_sait equ+3 mor+1 | equ+1
+* nui_02 | Seulement écouter, sans rien dire | Tu écoutes jusqu'à t'endormir à moitié. La Terre a un battement, très lent. Tu ne l'avais jamais entendu. | | mor+2 |
+
+@nui_73
+!title: Un mouton dans le camp
+!fx: +flag:n_mou nuit+1
+Le camp ne dort pas. Personne n'y arrive, avec la Lune qui crie et la marée qui gronde. Le mouton numéro un trottine entre les tentes. Partout où il passe, quelqu'un murmure : « un... »
+~vesperine: « Un mouton qui fait dormir les gens la nuit. Quelle idée bourgeoise. » Elle le regarde passer. « Un... » Elle se reprend, furieuse.
+* nui_02 | Le regarder faire le tour du camp | Au matin, tout le monde aura dormi deux heures. Deux vraies heures. C'est peu. C'est énorme. Le mouton revient se coucher contre toi, satisfait. | | mor+3 equ+1 |
+
+@nui_74
+!title: Écrit dans le ciel
+!fx: +flag:n_plm nuit+1
+C'est la nuit sans Lune, celle qui va peut-être durer toujours. Tu trempes la plume du héron dans le noir, comme il le faisait. Elle s'allume au bout.
+* nui_02 rus11 | Écrire, en lettres d'étoiles : « LA LUNE N'A JAMAIS SIGNÉ » | Les lettres s'allument une à une au-dessus du camp, immenses. On doit les voir depuis toutes les planètes de la galaxie. Au matin, elles y seront encore. | Tu fais une faute d'orthographe à « SIGNÉ ». On la voit depuis toute la galaxie. Mais tout le monde a compris, et quelques-uns trouvent ça touchant. | +flag:scandale equ+1 | +flag:scandale
+* nui_02 | Écrire seulement : « PAR ICI » | Les deux mots brillent au-dessus du camp, pour tous ceux qui sont perdus cette nuit. Il y en a beaucoup. Ils lèvent la tête, et ils se sentent un peu moins seuls. | | mor+3 |
+
+@+nui_10
+?flag:obj_couverture La couverture de pierre, sur ton dos, devient tiède tout à coup.
+* nui_11 coe12 ?flag:obj_couverture ?!flag:obj_berceau_nuage | Glisser la couverture de pierre sous sa carapace | Le granit se réchauffe d'un coup, comme s'il attendait ça depuis toujours. Madame Coquille ferme les yeux : « On dirait le sable de ma jeunesse. » | Tu glisses la couverture de travers, elle pèse sur sa patte. Tu la remets en place. Il faut du temps, mais la chaleur finit par venir, et avec elle, la force. | -flag:obj_couverture +flag:croissant +flag:coquille_sauvee mor+2 | -flag:obj_couverture +flag:croissant +flag:coquille_sauvee
+
+@+nui_11
+!fx: flag:croissant=>+flag:obj_coquille
+?flag:coquille_sauvee Dans le sable, il reste un éclat de coquille, encore tiède. Madame Coquille le pousse vers toi du bout du nez. « Garde-le, mon petit. Pour te souvenir qu'il est né cette nuit. »
+?flag:mort_coquille Dans le sable, il reste un éclat de coquille, encore tiède. Le petit Croissant le pousse vers toi du bout du nez, maladroitement. Tu le ramasses.
+
+@+nui_60
+* nui_02 ?!flag:obj_braise | Garder une braise du feu dans une boîte de fer | Tu glisses une braise dans une vieille boîte de bonbons en fer. Un vieux Gravitaire hoche la tête : « Elle ne s'éteindra pas tant que tu te souviendras de la chanson. » Tu fredonnes. Elle rougeoie. | | +flag:obj_braise mor+1 |
+
+# ---------------------------------------------------------------- MONTER
+
+@+asc_01
+* asc_30 ?flag:obj_bille | Lâcher la bille qui tombe vers le haut, sans la lâcher | Tu serres la bille de la petite Gravitaire à deux mains. Elle tire vers le ciel. | | |
+* asc_32 ?flag:obj_ballon | Gonfler le ballon de soie de Gaspard | Tu déplies le ballon au milieu du Carrefour. La soie est fine comme de la peau. | | |
+
+@asc_30
+!title: Tomber vers le haut
+Tes pieds quittent le sol du Carrefour. Les gens lèvent la tête, la bouche ouverte. Tu montes de plus en plus vite, accroché·e à une bille qui n'a pas encore choisi son côté.
+Plus haut, l'air devient fin, puis froid, puis absent. La bille tombe toujours vers le haut. Elle a choisi.
+* asc_22 coe11 | Lui dire merci, à voix haute, dans le vide | Il n'y a pas d'air pour porter le son, mais la bille a compris. Elle ralentit juste avant la Lune et te pose sur la poussière comme on pose une tasse. Puis elle roule un peu, et s'arrête, contente : elle a trouvé son côté. | La bille ne t'entend pas. Elle tombe vers le haut jusqu'au dernier moment, puis elle change d'avis d'un coup. Tu atterris à plat ventre dans un petit nuage gris. La bille roule à côté de toi, l'air de rien. | -flag:obj_bille +flag:bille_lune mor+2 | -flag:obj_bille +flag:bille_lune
+
+@asc_32
+!title: Le ballon de 1803, encore
+On le gonfle à l'air chaud de toutes les cheminées du camp, de tous les soupirs, de tous les beignets. Il se lève, rapiécé, gris et blanc, magnifique. Une nacelle d'osier ? Tu prends un panier à linge.
+?comp:gaspard Gaspard flotte au-dessus du panier, le chapeau à la main. Il ne dit rien. Deux cents ans qu'il attend de repartir.
+* asc_22 coe11 | Lâcher les amarres | Le ballon monte. Il traverse les nuages, puis le bleu, puis le noir, sans un bruit. Il te pose sur la Lune avec une douceur de 1803, et il se dégonfle là, comme quelqu'un qui a fini son travail. | Une rafale prend le ballon de travers. Tu montes en tournant comme une toupie. Tu arrives sur la Lune vert·e, le panier à linge sur la tête, mais tu arrives. | -flag:obj_ballon +flag:ballon_arrive mor+2 | -flag:obj_ballon +flag:ballon_arrive
+
+@+asc_04
+* asc_05 ?flag:obj_eclipse | Accrocher l'éclat d'éclipse à la proue | Le Pied-de-Nez disparaît dans un petit morceau de nuit. Les drones cherchent, tournent, s'excusent auprès du vide, et repartent. Vous passez sans un bruit, sans une bosse, sans un mensonge. Tu décroches l'éclipse une fois passé·e. | | equ+1 |
+
+@+asc_22
+?flag:bille_lune ?from:asc_30 Au milieu de la poussière, la bille de la petite Gravitaire. Elle ne tombe plus ni vers le haut ni vers le bas. Elle est restée.
+?flag:ballon_arrive ?from:asc_32 Derrière toi, le ballon de 1803 se couche doucement sur la poussière, comme un grand animal fatigué.
+~gaspard ?flag:ballon_arrive: « Deux cents ans de retard, et je suis arrivé en ballon quand même. Comme prévu. » Il touche la soie du bout des doigts. « Merci, vieux frère. »
+* cha_70 ?flag:obj_braise | Poser la braise du dernier feu sur la poussière | Tu ouvres la boîte de fer. La braise rougeoie encore, parce que tu te souviens de la chanson. | | |
+
+# ---------------------------------------------------------------- LE CHANTIER
+
+@cha_70
+!title: Une braise sur la Lune
+Tu poses la braise sur la poussière grise. La Lune n'a jamais eu chaud. Autour de la braise, la poussière devient tiède, puis douce, et un très léger frisson court sous tes pieds, jusqu'à l'horizon. Tu fredonnes la chanson de la dernière nuit. La braise rougeoie plus fort.
+* cha_03 coe11 | Chanter la chanson jusqu'au bout | Tu chantes jusqu'au bout, même les couplets dans des langues que personne ne parle. Sous la roche, une voix minuscule fredonne avec toi. Faux. Mais elle fredonne. | Tu as oublié le deuxième couplet. La braise pâlit. Tu reprends le refrain trois fois, et elle tient. La Lune, il te semble, a souri. | -flag:obj_braise +flag:voix_lune mor+2 equ+2 | -flag:obj_braise mor+1
+
+@+cha_03
+* cha_65 ?flag:obj_casque | Enfoncer ton casque doré et te mêler aux ouvriers, comme un·e collègue | Tu prends une truelle qui traîne, et tu te glisses dans l'équipe. | | |
+
+@cha_65
+!title: Entre collègues
+Tu poses des cloisons de verre avec eux, mal. Personne ne te regarde. Sous ce casque, tu es un ouvrier d'Aldébaran comme un autre.
+À la pause, on te tend un café. On te parle comme à un collègue. On râle. On a mal au dos. On n'a pas vu sa famille depuis trois ans. Et le contremaître, Bobinot, ne dort jamais, et il pleure dans la cantine.
+* cha_06 coe11 | Râler avec eux, puis enlever ton casque et leur dire qui tu es | Silence. Puis un vieil ouvrier rit : « Tu poses très mal les cloisons, collègue. Mais tu as raison sur tout. » | Tu enlèves ton casque trop tôt. Ils se méfient, d'abord. Mais tu as bu leur café et râlé avec eux. Ils t'écoutent quand même. | coe+1 +flag:ouvriers_entendent | +flag:ouvriers_entendent
+
+@+cha_04
+* cha_62 ?flag:obj_metre | Mesurer toi-même le lot numéro un avec le mètre du petit robot | Tu déroules le mètre ruban sur la poussière. | | |
+
+@cha_62
+!title: Le mètre ne ment pas
+« Lot 1 : 400 m², vue sur la Terre. » Le mètre dit 400 mètres carrés, et puis il continue. Il dit : « et une vallée où quelqu'un a pleuré il y a quatre milliards d'années ». Il dit : « et un souvenir de marée ». Il dit : « non cessible ».
+Le mètre ne sait pas mentir. C'est un mètre de géomètre. Il mesure tout, même ce que la Compagnie a oublié de mettre dans les plans.
+* cha_07 rus11 | Noter chaque mesure, chiffre par chiffre | Tu remplis trois pages. À la fin, c'est clair : la Compagnie a vendu une surface. La Lune, c'est beaucoup plus que ça. Ce qui n'a pas été mesuré n'a pas été vendu. | Tu notes trop vite, tu mélanges les colonnes. Il te reste une seule page lisible, et une seule ligne qui compte : « non cessible ». | +flag:dossier +flag:mesures_lune rus+1 | +flag:dossier
+
+@+cha_11
+* cha_63 ?flag:obj_facette ?!comp:quartz | Poser la facette du Docteur Quartz contre le crochet | Tu poses la facette violette contre la roche, au pied du crochet. | | |
+
+@cha_63
+!title: La fréquence de la Lune
+La facette se met à vibrer, puis à chanter : une note grave et tremblante. C'est la fréquence de la Lune. « Elle vibre comme ce qu'elle touche », avait dit le Docteur Quartz.
+Dans la note, il y a tout : son poids, son âge, et son cœur, qui bat de travers depuis qu'on l'a accrochée.
+* cha_27 rus11 | Noter la note, et toutes ses harmoniques | Tu notes tout, sur le dos de ta main, puis sur ta manche, puis sur l'autre manche. Tu as les mesures exactes de la Lune. Le Docteur Quartz serait fière de toi. | La facette chante trop vite. Tu ne retiens que la note principale. C'est déjà beaucoup : personne d'autre ne l'a jamais entendue. | +flag:plans_lune +flag:frequence_lune rus+1 | +flag:frequence_lune
+
+@+cha_12
+* cha_15 ?!flag:obj_cle_grue | Prendre doucement la clé qui pend à sa ceinture | Bobinot ne se réveille pas. Sur la clé, une étiquette : « Grue 14 ». | | +flag:obj_cle_grue |
+
+@+cha_15
+* cha_60 ?flag:obj_lanterne | Allumer la lanterne-méduse au milieu du chantier | Tu sors le bocal. La petite méduse se réveille et regarde autour d'elle. | | |
+* cha_61 ?flag:obj_aiguille | Repriser le ciel autour du crochet avec l'aiguille de Mélusine | Tu sors l'aiguille de ta manche. Elle s'allume toute seule. | | |
+* cha_66 ?flag:obj_goutte ?!comp:ondee | Laisser tomber la dernière goutte de Dame Ondée sur la Lune | Tu ouvres le dé à coudre. | | |
+* cha_67 ?flag:obj_aurore | Déplier l'aurore au-dessus du chantier | Un pli, deux plis, huit plis. | | |
+* cha_68 ?flag:obj_boussole | Suivre l'aiguille de la boussole des choses perdues | Sur la Lune, l'aiguille de la boussole s'affole. | | |
+* cha_69 ?flag:obj_cle_grue | Monter à la grue numéro 14 avec la clé de Bobinot | Tu commences à grimper l'échelle. Cent mètres. Deux cents. | | |
+
+@cha_60
+!title: Le visage de la Lune
+Ici, tout est à éclairer : la petite méduse brille comme jamais. Sur la poussière grise, à sa lumière, un visage apparaît. Immense. Des cratères pour les yeux, une faille pour la bouche. Il a l'air épuisé.
+Les ouvriers d'Aldébaran s'arrêtent de travailler. Ils ne savaient pas qu'ils construisaient sur une figure.
+* cha_27 coe11 | Tenir la lanterne bien haut, pour que tout le monde voie | Les ouvriers posent leurs truelles, un par un. Le visage cligne, très lentement. Une voix, dans la roche : « Merci. On ne m'avait jamais regardée de si près. » | Ta main tremble, la lumière danse, et le visage avec. Certains ouvriers l'ont vu. D'autres croient à un reflet. Mais le doute est là. | +flag:parle_lune +flag:ouvriers_entendent mor+2 | +flag:ouvriers_entendent
+
+@cha_61
+!title: Une reprise dans le ciel
+Autour du crochet, le ciel lunaire est déchiré. Tu ne l'avais pas remarqué : de petites fentes, des accrocs, là où le câble frotte depuis des jours. Par les trous, on voit un noir plus noir que le noir.
+Tu ne sais pas tricoter. L'aiguille, si.
+?comp:melusine Tante Mélusine tient l'autre bout du fil en criant les points : « UNE ENDROIT ! UNE ENVERS ! UNE ÉTOILE ! »
+* cha_27 coe11 | Suivre l'aiguille, point par point | Point par point, tu reprises le ciel. Les accrocs se referment. Le câble frotte moins. Quand tu as fini, il y a une petite cicatrice de lumière autour du crochet, et la Lune soupire de soulagement. | L'aiguille va trop vite pour toi. Tu laisses des mailles. La reprise est grossière, mais elle tient, à peu près. | equ+4 mor+1 +flag:ciel_reprise | equ+2
+
+@cha_66
+!title: Une goutte sur la Lune
+La goutte de Dame Ondée tremble au bord du dé, regarde la poussière grise en dessous, et se laisse tomber.
+Il ne s'est jamais rien passé de tel ici. La poussière boit la goutte, lentement. Une petite tache sombre s'étend, et une odeur monte : l'odeur de la terre après la pluie. Sur la Lune. Les ouvriers d'Aldébaran reniflent, déroutés. Certains ont les larmes aux yeux sans savoir pourquoi.
+* cha_27 coe11 | Respirer l'odeur, longtemps | Tu respires. La Lune aussi, il te semble. Le sol vibre doucement, comme un soupir. Très loin, Dame Ondée doit sentir que sa goutte est arrivée. | La goutte s'évapore trop vite. Il reste une petite tache, et une odeur qui s'en va. Mais il a plu sur la Lune. Ça, personne ne pourra l'enlever. | -flag:obj_goutte equ+3 mor+2 | -flag:obj_goutte equ+1 mor+1
+
+@cha_67
+!title: Une aurore sur la Lune
+L'aurore t'échappe des mains, monte, et s'étale au-dessus du chantier, verte et rose, ondulante, immense. Il n'y a jamais eu d'aurore sur la Lune. Il n'y a pas de ciel pour ça. Elle s'en fiche : elle a fait pleurer un village en 1612.
+Les grues s'arrêtent. Les ouvriers d'Aldébaran lèvent la tête. Sur leur planète, il n'y a pas d'aurore non plus.
+* cha_27 coe11 | Laisser le silence durer aussi longtemps qu'elle | Personne ne reprend le travail. Un ouvrier pose son casque. Puis un autre. Quand l'aurore s'éteint, le chantier est à l'arrêt, et personne n'a décidé de faire grève. C'est arrivé tout seul. | L'aurore se déchire sur une grue et retombe en lambeaux colorés. Les ouvriers ramassent les morceaux pour leurs enfants. Ils reprennent le travail, mais plus lentement, en rêvant. | -flag:obj_aurore +flag:greve mor+2 | -flag:obj_aurore +flag:ouvriers_entendent mor+1
+
+@cha_68
+!title: Ce qui va lâcher
+L'aiguille tourne, tourne, puis se fige, et pointe très précisément vers le pied du crochet. Pas le crochet entier : un point, sur le côté qui regarde la Terre.
+Tu suis l'aiguille entre les grues, les cloisons de verre, les piles de marbre. Elle te mène à une plaque gravée « Merci de votre compréhension ». Dessous, trois boulons. Le troisième est fêlé. C'est lui, ce qui va se perdre.
+* cha_27 rus11 | Retenir l'endroit exact, et le chemin pour y revenir | Tu comptes tes pas jusqu'à la plaque, deux fois. Tu sauras revenir. L'aiguille se remet à tourner, rassurée. | Un vigile passe. Tu te caches derrière une pile de marbre et tu perds le compte. Mais tu as vu le boulon. Ça, tu ne l'oublieras pas. | +flag:acces_crochet +flag:boulon_fele +flag:boussole_boulon rus+1 | +flag:boulon_fele
+
+@cha_69
+!title: La grue numéro 14
+La grue 14 est la plus haute du chantier. Tu ouvres la cabine avec la clé de Bobinot. Sur le tableau de bord, quelqu'un a collé une photo jaunie : une petite planète grise, et une famille de grues miniatures qui font coucou.
+La grue grince. Elle pleure. Elle aussi est loin de chez elle.
+?comp:penelope Pénélope a grimpé derrière toi. Elle pose la main sur la vitre. « La 14. Je t'avais entendue, tu sais. »
+* cha_27 rus11 | Couper le moteur, et lui laisser la nuit | La grue 14 soupire, et s'arrête. Autour d'elle, une à une, les autres grues s'arrêtent aussi, par solidarité. Le chantier entier se tait. | Tu tires la mauvaise manette. La grue fait un tour complet sur elle-même, renverse une pile de marbre, puis s'arrête, épuisée. Le chantier, lui, continue. | -flag:obj_cle_grue +flag:greve equ+3 | -flag:obj_cle_grue equ+1
+
+@+cha_27
+* cha_64 ?flag:obj_echo | Déboucher la bouteille d'écho face aux vigiles | Les vigiles avancent. Tu débouches la bouteille, et tu dis, pas très fort : « Non. » | | |
+
+@cha_64
+!title: Mille fois « non »
+La bouteille répète. « Non. NON. Non... non... NON. » Mille fois, de mille voix : des voix de Gravitaires, de taupes, de gouttes d'eau, d'enfants. Le chantier entier résonne. Les ouvriers d'Aldébaran lèvent la tête. Certains, sans réfléchir, répètent aussi.
+* cha_28 pan11 | Ne pas reculer d'un pas | Les vigiles s'arrêtent. Ils ne savent pas à combien de gens ils ont affaire. Bobinot décroche sa radio, en tremblant un peu. | Un vigile t'arrache la bouteille et la rebouche. Trop tard : sur tout le chantier, les ouvriers continuent à dire « non » à voix basse, pour voir l'effet que ça fait. | -flag:obj_echo +flag:ouvriers_entendent +flag:greve | -flag:obj_echo +flag:ouvriers_entendent
+
+# ---------------------------------------------------------------- LE PROMONTOIRE
+
+@+neg_01
+* neg_55 ?flag:obj_ticket_zero | Glisser le ticket numéro zéro dans la borne, à côté de la porte | Il y a une borne dorée à côté de la porte. Tu ne l'avais pas vue. | | |
+
+@neg_55
+!title: Le numéro zéro
+La borne distribue des tickets d'attente : « Votre rendez-vous avec Monsieur Platine : dans 4 112 ans. » Tu glisses le ticket numéro zéro dans la fente.
+La borne hoquette. Elle clignote. Elle n'a jamais vu de zéro. Puis, dans un grand bruit de carillon, la porte s'ouvre en grand, et une voix synthétique annonce : « NUMÉRO ZÉRO. PRIORITÉ ABSOLUE. MONSIEUR PLATINE, VEUILLEZ VOUS LEVER. »
+Derrière son bureau, Platine se lève, par réflexe. Il n'a jamais eu à se lever pour personne.
+* neg_04 | Entrer, pendant qu'il est encore debout | Platine reste debout une seconde de trop. Il se rassoit, gêné, comme un enfant pris en faute. | | -flag:obj_ticket_zero +flag:platine_inquiet mor+1 |
+
+@+neg_06
+* neg_58 ?flag:obj_carte | Lui tendre la carte postale d'avant | Tu poses la carte sur le marbre, côté image. | | |
+
+@neg_58
+!title: Il fait beau
+La Lune, au-dessus d'une mer calme. Platine prend la carte. Il la retourne. « Tout va bien ici. Il fait beau. On pense à toi. »
+« C'est adressé à qui ? » « À personne. À celui qui la lit. » Platine relit. Il relit encore. « Personne ne m'a jamais écrit qu'il pensait à moi. Même pour rire. Même sur une carte postale. »
+* neg_16 coe11 | « Elle aussi, elle pense à vous. Elle vous voit tous les soirs. » | Platine regarde la Lune par la baie vitrée, puis la carte, puis la Lune. Il glisse la carte dans la poche de son gilet, contre son cœur d'or. | Platine repose la carte, vexé d'avoir été ému. « De la sentimentalité de colporteuse. » Mais il ne te la rend pas. | -flag:obj_carte +flag:platine_emu +flag:platine_faille | -flag:obj_carte +flag:platine_question
+
+@+neg_16
+* neg_50 ?flag:obj_sablier | Poser le sablier qui remonte sur le bureau, et le retourner | Tu poses le sablier sur le marbre. Le sable de mer se met à couler vers le haut. | | |
+* neg_52 ?flag:obj_cauchemar | Poser sur le bureau le bocal où Platine compte ses pièces | Tu sors le bocal de ton sac, de sous les chaussettes. Il compte toujours. | | |
+* neg_54 ?flag:obj_tampon_vu ?!flag:acte_vente ?!flag:acte_cache | Décrocher l'acte de vente, et le tamponner « VU » | Tu te lèves. Tu décroches le cadre du mur, derrière Platine. | | |
+* neg_56 ?flag:obj_fleur_epine | Poser la fleur de Madame Épine sur le marbre | Tu poses la petite fleur rose sur le bureau. Elle a un peu fané pendant le voyage. | | |
+* neg_57 ?flag:obj_coquille | Poser sur le bureau l'éclat de coquille de Croissant | Tu poses sur le marbre un petit éclat de coquille, encore un peu tiède. | | |
+
+@neg_50
+!title: Une minute plus longue
+Dans le bureau, tout ralentit : l'horloge murale, le voyant rouge des moteurs, la main de Platine qui se tendait vers son stylo.
+Platine regarde le sablier. « Qu'est-ce que c'est ? » « Une minute de plus. » Il n'a jamais eu une minute de plus. Il ne sait pas quoi en faire. Alors, pour la première fois depuis très longtemps, il ne fait rien. Il réfléchit.
+* neg_21 coe11 | Le laisser réfléchir jusqu'au dernier grain | Le dernier grain monte. Platine lève les yeux vers toi, et il a l'air de quelqu'un qui se réveille dans une pièce inconnue. « J'ai pensé à ma mère. Pourquoi est-ce que j'ai pensé à ma mère ? » | Platine tapote le bureau, mal à l'aise. Une minute de plus, c'est long, quand on n'a pas l'habitude. Mais il a pensé à quelque chose. Tu l'as vu. | -flag:obj_sablier +flag:platine_faille +flag:platine_question | -flag:obj_sablier +flag:platine_question
+
+@neg_52
+!title: Le cauchemar de Platine
+La brume dorée tourne. Platine se penche, et il se voit : un enfant en feuilles d'or qui compte des pièces dans une salle vide, et qui recommence.
+Il recule. « Où avez-vous eu ça ? » Ce n'est plus une voix de promoteur. « C'est à moi. C'est la seule chose qui soit vraiment à moi. »
+* neg_21 coe11 | Ouvrir le bocal, pour que l'enfant puisse sortir | La brume s'échappe, et avec elle le compte : « quarante et un... quarante-deux... » s'éteint dans l'air. Platine pleure sans bruit. « Il a arrêté de compter. » | Le couvercle résiste. Platine te prend le bocal des mains et l'ouvre lui-même, avec des doigts qui tremblent. La brume sort. Il la regarde partir longtemps. | -flag:obj_cauchemar +flag:platine_emu +flag:platine_faille | -flag:obj_cauchemar +flag:platine_faille
+
+@neg_54
+!title: Vu
+Avant qu'il ait pu dire un mot, tu abats le vieux tampon de Madame Pruine au milieu du parchemin. VU.
+Platine pâlit. Il connaît les tampons. Ce qui a été vu par le Cadastre ne peut plus être ignoré par le Cadastre. Et le Cadastre, maintenant, a vu qu'il n'y a pas de signature de la Lune en bas de la page.
+* neg_21 rus11 | « Il faudra l'expliquer au Cadastre. » | Platine se rassoit lentement. « Le Cadastre va rouvrir le dossier. » Il a l'air d'un homme qui entend une file d'attente se former derrière sa porte. | Platine essaie de gratter le tampon avec l'ongle. L'encre a mille ans : elle ne part pas. Mais tant qu'il essaie, il a peur. | -flag:obj_tampon_vu +flag:suspension +flag:platine_inquiet | -flag:obj_tampon_vu +flag:platine_inquiet
+
+@neg_56
+!title: Une fleur de cactus
+Elle est toute petite, au milieu de l'or. Platine la regarde comme on regarde un animal inconnu. « Qu'est-ce que c'est ? » « Une fleur. » « Je sais ce qu'est une fleur. Je veux dire : pourquoi ? » « Pour rien. On vous l'offre. »
+Il n'a jamais rien reçu pour rien.
+* neg_21 coe11 | « Elle a fleuri par surprise. Une fois par siècle. » | Platine prend la fleur entre deux doigts d'or, avec une précaution infinie. Il la met dans son verre d'eau. Il ne dit rien pendant très longtemps. | Platine ne la touche pas. Mais il ne la jette pas non plus. Il la regarde du coin de l'œil pendant tout le reste de la conversation. | -flag:obj_fleur_epine +flag:platine_emu | -flag:obj_fleur_epine +flag:platine_question
+
+@neg_57
+!title: Né cette nuit
+Platine regarde l'éclat sans comprendre.
+« Cette nuit, sur la Terre, une tortue a eu un enfant. Elle l'attendait depuis trois cents ans. Il s'appelle Croissant. Comme la Lune quand elle commence. » Tu laisses passer un temps. « Si la Lune part, il ne saura jamais pourquoi il s'appelle comme ça. »
+* neg_21 coe11 | Ne rien ajouter | Platine prend l'éclat entre deux doigts. Il le tourne vers la lumière. « Croissant », répète-t-il, très bas, comme on essaie un mot dans une langue étrangère. | Platine repousse l'éclat du bout de son stylo. « Charmant. » Mais il le regarde encore, quand il croit que tu ne le vois pas. | -flag:obj_coquille +flag:platine_emu mor+1 | -flag:obj_coquille +flag:platine_question
+
+# ---------------------------------------------------------------- TRENTE SECONDES
+
+@+fin_01
+* fin_30 ?flag:obj_oreiller | Poser l'oreiller du Marchand de Sommeil sur le bureau | Tu poses l'oreiller entre le bouton rouge et la main de Platine. | | |
+* fin_32 ?flag:obj_etoile | Faire un vœu sur l'étoile filante d'occasion | Tu sors l'étoile filante. Elle est un peu cabossée. Elle clignote, comme une ampoule qui hésite. | | |
+
+@fin_30
+!title: L'oreiller du Marchand
+« Vous n'avez pas dormi depuis quand ? » Platine regarde l'oreiller. Il ne sait plus. Ses paupières d'or se mettent à peser. « Celui qui pose la tête dessus rêve de ce qu'il a perdu », dis-tu.
+* end_08 ?equ>=30 | Le regarder poser la tête | Platine pose la tête sur l'oreiller, juste une seconde. Il s'endort aussitôt. Sa main glisse du bouton rouge. | | -flag:obj_oreiller |
+* end_10 ?equ<30 | Regarder la Terre | Par la baie vitrée, la Terre penche beaucoup trop. Il n'y a plus le temps de rêver. | | |
+
+@fin_32
+!title: Un vœu de seconde main
+Il lui reste un vœu. Le marchand n'a pas garanti lequel. Par la baie vitrée, la Terre penche.
+* fin_01 coe11 | Souhaiter que la Terre tienne encore un peu | L'étoile file une dernière fois à travers la vitre, vers la Terre. En bas, les mers se calment d'un cran. L'Axe grince moins fort. Un vœu d'occasion, mais un bon. | L'étoile file, mais pas tout à fait où tu voulais. Elle exauce un vœu au hasard : quelque part en bas, un Lichenaute retrouve ses clés. La Terre, elle, se redresse à peine. | -flag:obj_etoile equ+12 | -flag:obj_etoile equ+4
+* fin_01 | Souhaiter que Platine ait quelqu'un | L'étoile file vers Platine et se pose sur son épaule. Il ne la voit pas. Mais il se met à regarder la Lune comme on regarde quelqu'un, et plus comme on regarde un terrain. | | -flag:obj_etoile +flag:platine_faille |

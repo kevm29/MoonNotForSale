@@ -1,0 +1,245 @@
+# ================================================================
+# RÉGION — LES PROFONDEURS (l'Axe, la Faille, Dr Ysolde Quartz, Écho, l'Assemblée des Gravitaires)
+# ================================================================
+
+@pro_01
+!title: Les Profondeurs
+!fx: +flag:vis_pro regions+1
+On descend aux Profondeurs par le Grand Puits, un trou rond qui s'enfonce sous le Carrefour. Une Gravitaire de garde te tend un casque, une lampe et un sandwich de basalte. « Pour le voyage. Il est dur, mais il tient au corps. »
+?pc:brisefer La garde se met au garde-à-vous en te voyant. « Colonelle ! On vous croyait remontée pour de bon ! » « Je redescends. On ne tient pas l'Axe à distance. »
+* pro_02 pan11 | Descendre par l'échelle de fer | Tu descends. Mille échelons, puis mille autres. Tes bras brûlent. Tu continues. | L'échelle grince, tu glisses de dix échelons, tu te rattrapes. Ton cœur remonte tout seul. | pan+1 |
+* pro_03 rus10 | Prendre l'Ascenseur des Taupes | Les taupes te saluent en chantant faux. L'Ascenseur descend, une fois sur deux. Cette fois, c'est la bonne. | L'Ascenseur s'arrête à mi-chemin. Une taupe te propose un jeu de cartes en attendant. Vous jouez trois heures. | rus+1 |
+
+@pro_02
+Au fond du Puits, il fait chaud et sombre. Le sol vibre. Pas un tremblement : un gémissement lent, continu, comme une porte qui grince depuis trois jours. Les parois sont fissurées de frais. De petits Gravitaires, des enfants, ramassent des cailloux tombés et les remettent en place, un par un.
+* pro_04 coe11 | Aider les enfants | Tu ramasses des cailloux avec eux. Ils te racontent que leurs parents sont « en bas, à l'Axe, en train de s'asseoir ». Ils ont l'air fiers et inquiets. | Tu ramasses le mauvais caillou. C'était un enfant Gravitaire très petit. Il rit. | equ+2 mor+1 |
+* pro_05 rus11 | Suivre le gémissement | Il vient d'en bas. De plus bas encore. De l'Axe. | | |
+
+@pro_03
+L'Ascenseur des Taupes te dépose dans une grande caverne. Partout, des Gravitaires qui descendent vers le bas, en file, en silence, portant leurs maisons sur le dos. Ils vont à l'Axe. Tous. Les vieux, les jeunes, les malades. Ils vont s'asseoir pour retenir le monde.
+* pro_05 coe10 | Marcher avec eux | Tu marches avec la file. Personne ne parle. Les Gravitaires ne parlent pas quand ils sont graves. Ils sont toujours graves, en ce moment. | | coe+1 |
+* pro_04 rus11 | Demander à un vieux ce qui se passe | « L'Axe penche. On s'assoit dessus. Si on est assez nombreux, il tient. Si on n'est pas assez nombreux... » Il hausse ses épaules de granit. « On s'assoit quand même. » | | |
+
+@pro_04
+Une petite Gravitaire, à peine cent ans, te tire par la manche. Elle a des joues de galet et un bonnet de laine trop grand. « Tu vas à l'Axe ? Mon papa y est. Il est assis depuis trois jours. Il ne peut pas se lever. Si tu le vois, tu peux lui dire que je l'aime ? Il oublie, quand il est assis trop longtemps. »
+* pro_05 coe12 | Promettre | Tu promets. Elle te donne un caillou rond et doux. « C'est pour lui. C'est mon préféré. » | Tu promets, mais tu ne sais pas qui est son papa. Elle te le décrit : « Gros. Gris. Il ronfle. » Ça ne t'aide pas. | coe+1 +flag:caillou_enfant |
+* pro_05 rus10 | Lui demander le nom de son papa | « Gneiss. Il a une fissure sur le front en forme d'étoile. » | | +flag:caillou_enfant |
+
+@pro_05
+L'Axe de la Terre. Une colonne de fer et de nickel si immense qu'on ne voit ni son haut ni son bas. Autour, une salle grande comme une mer. Et sur l'Axe, assis, des milliers de Gravitaires, serrés les uns contre les autres, qui pèsent de tout leur poids. Ils transpirent du sable. Ils gémissent en chœur avec l'Axe.
+?!flag:etoile L'Axe penche quand même. D'un degré. Puis d'un autre.
+?flag:etoile Mais il y a une étoile dans la foule. Tes jeunes Gravitaires sont exactement là où tu les as placés, en étoile autour de l'Axe. Ils n'ont pas bougé d'un caillou depuis ton ordre. Les nouveaux arrivés se sont rangés sur les branches de l'étoile, sans qu'on le leur dise. L'Axe penche encore, mais beaucoup moins.
+?pc:brisefer ?flag:galene ?flag:etoile Galène court vers toi. « Colonelle ! Personne n'a bougé ! Comme vous avez dit ! » Il a l'air de ne pas avoir dormi depuis ton départ. Il est très fier.
+?pc:brisefer ?flag:galene ?!flag:etoile Galène, le jeune stagiaire, court vers toi. « Colonelle ! On tient ! Enfin, on tient mal ! »
+* pro_06 pan12 | T'asseoir avec eux | Tu t'assois. Tu pèses. L'Axe se redresse d'un dixième de degré. Les Gravitaires autour de toi te regardent avec gratitude. | Tu t'assois, mais tu ne pèses pas assez. L'Axe s'en fiche. Il penche. | equ+3 pan+1 | equ-1
+* pro_09 coe10 ?flag:etoile | Passer en revue ton étoile | Tu fais le tour de l'étoile, branche par branche. Personne n'a bougé. Tu ne dis rien. Ils savent que c'est ton plus beau compliment. | Tu fais le tour, ton genou craque à chaque branche. Ils font semblant de ne pas l'entendre. | equ+2 |
+* pro_07 rus11 ?!flag:etoile | Observer comment ils sont placés | Ils sont tous du même côté. Le côté opposé à la Lune. C'est logique, et c'est une erreur : il faudrait se répartir en étoile. | | rus+1 |
+
+@pro_06
+Tu es assis·e sur l'Axe de la Terre. Tu sens tout : le monde qui veut basculer, la Lune qui tire, le cœur de la planète qui bat vite. Comme un cœur qui a peur.
+À côté de toi, un gros Gravitaire gris, avec une fissure en forme d'étoile sur le front, ronfle à moitié en pesant.
+?flag:caillou_enfant C'est Gneiss. Le papa de la petite.
+* pro_08 coe12 ?flag:caillou_enfant | Lui transmettre le message de sa fille | Tu lui donnes le caillou. Il se réveille. Il le regarde. Il pleure du sable. « Ma petite... » Il pèse plus fort. Beaucoup plus fort. L'Axe se redresse. | Il ne se réveille pas. Tu poses le caillou dans sa main. Il le serre en dormant. | equ+3 coe+1 mor+1 | equ+1
+* pro_09 rus10 | Lui demander depuis combien de temps il est là | Il ouvre un œil. « Trois jours. Ou trois ans. Je ne sais plus. » Il referme l'œil. | |
+
+@pro_07
+Tu te lèves et tu cries : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, se tourne vers toi. « Grrm. Qui parle ? »
+?pc:brisefer « Moi, Commandant. Brisefer. » « Grrm. Brisefer. Répartissez-vous, tout le monde. En étoile. Grrm. » Ils obéissent.
+* pro_09 pan10 ?pc:brisefer | Vérifier que l'ordre est suivi jusqu'au bout | Tu passes entre les rangs. Les Gravitaires se répartissent sous tes yeux, en étoile. L'Axe se stabilise. | Les vieux traînent. Tu dois répéter l'ordre trois fois, et la troisième fois tu l'aboies. Ils finissent par obéir. | equ+3 +flag:etoile | equ+2 +flag:etoile
+* pro_09 pan12 ?!pc:brisefer | Insister | « Si vous restez d'un seul côté, l'Axe tombe de l'autre ! » Le Commandant te regarde. « Grrm. Logique. » Il donne l'ordre. Les Gravitaires se répartissent. L'Axe se stabilise. | Le Commandant grogne. Il ne donne pas l'ordre. Alors tu vas t'asseoir de l'autre côté, seul·e, et tu attends. Au bout d'une heure, des jeunes te rejoignent, puis des vieux, en grognant. Le Commandant finit par grogner l'ordre, pour avoir l'air de l'avoir donné. | equ+3 +flag:etoile | equ+2 +flag:etoile
+* pro_08 coe11 ?!pc:brisefer | T'asseoir et montrer l'exemple | Tu t'assois de l'autre côté. Seul·e. Puis un autre te rejoint. Puis dix. Puis cent. | | equ+2 +flag:etoile |
+
+@pro_08
+L'Axe tient un peu mieux. Mais tout le monde sait que ça ne suffira pas. Tant que la Lune s'éloigne, l'Axe penchera. On peut gagner des jours. Pas des années.
+?!pc:brisefer Le Commandant de la Garde s'approche de toi. « Grrm. Il faut parler à la Faille. Elle sait des choses. Grrm. Elle sait trop de choses. »
+?pc:brisefer Le Commandant de la Garde s'approche de toi. « Grrm. Retourne voir la Faille, Colonelle. Elle a peut-être changé d'avis. Elle change d'avis tous les dix mille ans. Grrm. C'est peut-être le moment. »
+* pro_10 rus11 | Aller voir la Faille | Le Commandant t'indique un tunnel. « Grrm. Prends un pull. Elle souffle froid. » | |
+* pro_11 coe10 | Rester encore un peu à peser | Tu restes. Le temps passe autrement sur l'Axe. Tu as l'impression d'être le poids d'une planète. | | equ+2 |
+
+@pro_09
+?from:pro_06 « Trois jours », répond le gros Gravitaire sans ouvrir les yeux. « Ou trois siècles. On ne compte pas, quand on pèse. » Il se rendort à moitié.
+?flag:etoile Les Gravitaires sont répartis en étoile autour de l'Axe. Ça tient. Ça tient mieux. Le gémissement s'apaise un peu.
+?!flag:etoile D'autres Gravitaires viennent s'asseoir autour de vous, sans un mot. Ça tient. Ça tient un peu mieux. Le gémissement s'apaise un peu.
+?!pc:brisefer ?!from:pro_06 Le Commandant te regarde. « Grrm. Pas mal, pour quelqu'un d'en haut. »
+?!pc:brisefer ?from:pro_06 Un vieux Commandant de la Garde, un monolithe de quatre mille ans, t'a regardé·e peser. « Grrm. Pas mal, pour quelqu'un d'en haut. »
+?pc:brisefer ?flag:etoile Le Commandant te regarde. « Grrm. Ils t'écoutent, Colonelle. Ils n'écoutent personne. Grrm. Même pas moi. »
+?pc:brisefer ?!flag:etoile Le Commandant te regarde. « Grrm. Tu pèses bien, Colonelle. Tu as toujours bien pesé. Grrm. »
+Il te tend une petite plaque de granit gravée : « Médaille de l'Axe, troisième classe ». « Grrm. Je n'en ai pas d'autres. »
+* pro_10 coe11 | L'accepter avec émotion | Tu l'acceptes. Elle pèse trois kilos. Tu la porteras quand même. | | mor+1 +flag:medaille_axe |
+* pro_11 rus10 | Lui demander ce qu'il faudrait de plus | « Grrm. Que la Lune revienne. Ou que la Terre parte avec elle. » Il grogne. « Les deux sont impossibles. » | | |
+
+@pro_10
+Le tunnel de la Faille. Il descend, encore, toujours. Les parois sont couvertes de dessins anciens : des Gravitaires assis sur l'Axe, depuis l'aube des temps.
+?pc:brisefer Tu repasses devant ton portrait, jeune, avec une fleur derrière l'oreille. Cette fois, tu ne détournes pas les yeux.
+?!pc:brisefer Au bout du tunnel, un souffle froid. Une voix. « Encore quelqu'un. Tout le monde vient me voir, en ce moment. Je n'ai jamais été aussi populaire. »
+?pc:brisefer Au bout du tunnel, un souffle froid. Une voix. « Brisefer. Deux fois en une semaine. Après trois mille ans de silence. Tu vas finir par m'aimer, petite. »
+* pro_12 coe10 | Saluer la Faille | « Bonjour, Grand-Mère. » « Grand-Mère ? Je suis un trou. Mais j'aime qu'on m'appelle Grand-Mère. » | |
+* pro_12 rus11 | Lui demander directement l'avenir | « Directement ? Quelle impolitesse. J'adore. » | |
+
+@pro_11
+Tu restes sur l'Axe. Le Commandant s'assoit à côté de toi. Il ne dit rien pendant une heure. Puis : « Grrm. J'ai quatre mille ans. J'ai tenu l'Axe toute ma vie. Je n'ai jamais vu la Lune. » Il se tait. « On m'a dit qu'elle était blanche. Grrm. C'est vrai ? »
+* pro_13 coe12 | Lui décrire la Lune | Tu la lui décris. Blanche, ronde, avec des taches comme des souvenirs. Il écoute, les yeux fermés. « Grrm. Belle. » Une larme de sable tombe sur l'Axe. | Tu la décris mal. Il dit « Grrm » et tu ne sais pas s'il est déçu. | coe+1 mor+1 +flag:commandant_lune |
+* pro_10 rus10 | Aller voir la Faille | Tu te lèves. Il grogne : « Grrm. Elle mord. » | |
+
+@pro_12
+?pc:brisefer « Je t'ai déjà dit les lignes, petite. Je te les redis, parce qu'à mon âge on radote, et parce que tu n'écoutes jamais la première fois. »
+Grand-Mère Faille. Un gouffre immense, sans fond, qui respire. Elle parle d'une voix de vent dans un canyon. « Écoute bien. Je vais te dire les lignes. Il y en a plusieurs. Une Lune rendue, si quelqu'un prouve qu'elle n'a jamais dit oui. Une Lune rachetée, si la Terre paie. Une Lune remplacée, si quelqu'un en fabrique une autre. Une Terre qui marche, si les Gravitaires poussent tous ensemble. Une Lune libre, si on lui demande son avis. Et quelqu'un, je ne vois pas qui, qui devient blanc et rond. »
+Elle souffle. « Et des lignes noires. Beaucoup de lignes noires. »
+* pro_14 rus12 | Lui demander comment faire marcher la Terre | « Tous les Gravitaires du monde, au pôle, qui poussent en même temps. Il faut que l'Assemblée le décide. Et il faut que les mers soient prévenues, sinon elles débordent. » | « C'est votre affaire, les Gravitaires. Moi, je ne pousse rien. Je suis un trou. » Puis, comme tu ne pars pas, elle soupire et explique quand même. | +flag:idee_pousser +flag:prophetie | +flag:idee_pousser +flag:prophetie
+* pro_15 coe11 | Lui demander qui pourrait fabriquer une autre Lune | « Une folle. Une savante. Une Cristalline qui vit dans une géode, plus bas. Elle s'appelle Quartz. Elle fabrique tout. Rien ne marche. Elle est formidable. » | « Personne. Ou quelqu'un. » Elle se tait, longtemps, puis cède : « Bon. Quelqu'un. Plus bas. Une Cristalline. » | +flag:sait_quartz | +flag:sait_quartz
+
+@pro_13
+Le Commandant reste assis sur l'Axe, les yeux fermés, à imaginer la Lune. « Grrm. Si je la voyais un jour, je crois que je me lèverais. Pour la première fois en quatre mille ans. » Il ouvre un œil. « Mais je ne peux pas me lever. Si je me lève, tout tombe. »
+* pro_10 coe11 | Lui promettre qu'un jour il la verra | Il grogne. Ça ressemble à un merci. | | |
+
+@pro_14
+« Une Terre qui marche », répète Grand-Mère Faille. « C'est fou. J'adore. Il faudrait réunir l'Assemblée des Gravitaires. Elle ne s'est pas réunie depuis la formation des continents. Elle est plus bas, dans la Salle des Plaques. Ils sont très lents à décider. Plus lents que les lichens. Il faudra les secouer. »
+* pro_16 pan11 | Aller secouer l'Assemblée | Tu y vas. La Faille rit derrière toi, un éboulement joyeux. | |
+* pro_15 rus10 | Demander d'abord s'il y a d'autres lignes | « Il y en a une autre. Une folle, avec une Cristalline. Plus bas. Dans la géode. » | | +flag:sait_quartz |
+
+@pro_15
+La Faille t'indique un passage étroit, où la roche brille. « La géode de Quartz. Fais attention, elle explique tout. Tout. Même ce qu'on ne lui demande pas. Surtout ce qu'on ne lui demande pas. »
+?pc:brisefer ?flag:promesse_fleur,flag:fleurs_faille « Et toi, petite, tu as trouvé une fleur vivante ? »
+?pc:brisefer ?flag:marguerite Tu sors de ta cuirasse la marguerite cueillie à la surface et tu la poses au bord du gouffre. La Faille soupire de bonheur, un long courant d'air tiède qui fait trembler les pétales sans les arracher.
+?pc:brisefer ?flag:promesse_fleur,flag:fleurs_faille ?!flag:marguerite Tu n'as pas de fleur. Tu le dis. Elle soupire quand même. « La prochaine fois. J'ai le temps. »
+* pro_17 rus11 | Descendre dans la géode | Tu te glisses dans le passage. Il brille de plus en plus. | |
+* pro_16 coe10 | Aller plutôt à l'Assemblée | Tu préfères les Gravitaires. Tu y vas. | |
+
+@pro_16
+La Salle des Plaques. Une caverne gigantesque, où les plaques tectoniques se rejoignent. Sur chaque plaque, un Gravitaire immense, ancien, assis, qui représente un continent. L'Assemblée des Gravitaires. Ils sont douze. Ils ne bougent pas depuis des millénaires. Ils se parlent par vibrations, si lentement qu'une phrase prend un siècle.
+?flag:reintegree « Grrrrm. Brisefer. La Colonelle. Réintégrée. » Ils te reconnaissent. C'est rare.
+* pro_18 pan12 | Les interpeller fort | Tu cries. Ta voix résonne dans toute la Salle. Les douze Gravitaires ouvrent un œil. Puis deux. C'est un séisme d'attention. | Ils ne t'entendent pas. Tu cries une deuxième fois, plus fort, et tu fais tomber une stalactite. Ça, ils l'entendent. | pan+1 equ+2 |
+* pro_19 rus11 | Attendre qu'ils te donnent la parole | Tu attends. Une heure. Deux. Puis le doyen, l'Assemblée-Nord, vibre : « Parle. » | Tu attends trop. Ils se rendorment. Il faut tousser trois fois avant que l'Assemblée-Nord se réveille et vibre, agacée : « Parle. » | |
+
+@pro_17
+La géode. Une immense cavité tapissée de cristaux violets, qui brillent comme un ciel de nuit inversé. Partout, des machines étranges : des balances à étoiles, des télescopes enterrés, une boîte à chaussures marquée « Prototype de soleil n° 7 (raté) ».
+Au centre, une créature de cristal, transparente, à facettes, avec des lunettes en mica. Elle parle très vite, très précisément, et presque toujours à tort.
+« Ah ! Un visiteur ! Je suis le Docteur Ysolde Quartz, Cristalline, physicienne, géologue, astronome, cuisinière amateur. La Lune pèse soixante-treize virgule quatre millions de milliards de tonnes. Probablement. Vous voulez du thé ? Il est à quatre cents degrés. »
+* pro_20 coe11 | Accepter le thé | Tu le prends. Il te brûle la langue. Elle est ravie. Personne n'accepte jamais son thé. | Tu le prends, il fond la tasse. Elle note : « Tasse inadaptée. » | mor+1 |
+* pro_21 rus12 | Lui demander si elle peut fabriquer une Lune | Elle s'arrête. Elle te regarde. « Fabriquer une Lune ? » Ses facettes s'illuminent. « Je n'y avais jamais pensé. C'est pour ça que je ne l'ai jamais ratée. » | « Évidemment ! Tout se fabrique ! Rien ne marche, mais tout se fabrique ! » | rus+1 |
+
+@pro_18
+Les douze Gravitaires de l'Assemblée te regardent. Leurs yeux sont des cavernes. Le doyen, l'Assemblée-Nord, vibre : « Qui... es... tu... »
+Ça a pris dix minutes. Ils sont rapides, aujourd'hui. L'urgence les a accélérés.
+* pro_22 pan11 | Leur dire que la Terre doit suivre la Lune | Ils vibrent. Un frisson parcourt les plaques. « Suivre... la... Lune ? » L'Assemblée-Sud ricane : « La Terre... ne suit... personne. » | Ils ne comprennent pas. Ils pensent que tu parles d'une promenade. | |
+* pro_23 coe12 | Leur parler de ceux d'en haut qui ont besoin d'eux | Tu parles des Marégraves, des rêves, des Horlogers. De tout ce que la Lune touche. Ils écoutent. Ils n'avaient jamais pensé à ceux d'en haut. Ils les tenaient sans les connaître. | Tu parles, mais ils ne voient pas ce qu'est un rêve. Ils n'en font jamais. | coe+1 |
+
+@pro_19
+« Parle », a dit l'Assemblée-Nord. Tu parles. Tu racontes : la vente, le crochet, la Lune qui part, la mer qui s'arrête, les rêves qui s'éteignent. Ils écoutent sans bouger. Une heure. Deux. Tu finis.
+Silence. Puis l'Assemblée-Est vibre : « Et... nous... ? »
+* pro_22 rus11 | « Vous pourriez faire marcher la Terre. » | Silence de pierre. Puis un grondement. Ils rient. Ou ils sont en colère. Avec les Gravitaires, c'est la même vibration. | | |
+* pro_23 coe11 | « Vous pourriez vous lever. » | Silence. Puis un frémissement dans toute la Salle. Personne n'a jamais demandé à l'Assemblée de se lever. | | coe+1 |
+
+@pro_20
+Le Docteur Quartz te sert une deuxième tasse. Elle parle sans arrêt. « Je vis seule dans cette géode depuis neuf cents ans. J'ai fabriqué trois soleils, deux comètes et un trou noir de poche, qui s'est échappé. Rien n'a marché. Mais j'ai appris beaucoup. Surtout ce qui ne marche pas. » Elle te regarde. « Vous êtes la première personne qui reste plus de cinq minutes. »
+Elle a l'air sincèrement émue. Ses facettes se troublent.
+* pro_24 coe12 | Lui dire que tu restes | Elle te sourit. Un sourire de cristal, qui fait des arcs-en-ciel. « Alors je vais vous montrer mon projet le plus fou. » | Elle hoche la tête, mais ne te croit pas tout à fait. Les gens partent toujours. | coe+1 |
+* pro_21 rus10 | Lui demander pour la Lune | « La Lune ! Oui ! J'y pense depuis trois secondes ! » | |
+
+@pro_21
+?from:pro_24 Elle repose la petite sphère sur son coussin, avec précaution.
+?flag:quartz_affection Elle s'essuie une facette. « Quelqu'un qui reste. Voilà ce qu'il faudrait à une Lune. Je le note. » Elle le note. « Bon. Les plans. À cinquante-trois virgule deux pour cent, je vous le rappelle. »
+?!flag:quartz_affection Le Docteur Quartz court dans sa géode, ouvre des tiroirs, sort des plans. « Une Lune. Une nouvelle Lune. Il faudrait du cristal, beaucoup de cristal, des millions de tonnes. Une forme ronde. Une lumière. Et quelque chose pour qu'elle ait envie de tourner autour de nous. Ça, c'est le plus difficile. Les Lunes ne tournent pas par obligation. »
+?!flag:quartz_affection Elle s'arrête. « Je pourrais. Je crois. À cinquante-trois virgule deux pour cent. Peut-être. »
+* pro_25 rus12 | L'aider à dessiner les plans | Vous dessinez. Elle corrige tout. Tu corriges ses corrections. À la fin, il y a un plan. Fou, imprécis, magnifique. | Vous dessinez, mais elle efface tout. Elle recommence. Il y a un plan, à la fin. Approximatif. | +flag:plans_lune rus+1 | +flag:plans_lune
+* pro_24 coe11 ?!flag:lune_poche | Lui demander ce qu'il faudrait pour qu'une Lune ait envie de tourner | Elle s'arrête. Pour la première fois, elle n'a pas de réponse. « Je ne sais pas. De l'affection ? Ce n'est pas une unité de mesure. » | | +flag:quartz_affection |
+
+@pro_22
+L'Assemblée gronde. « La Terre... ne bouge pas. La Terre... est... la Terre. » Mais l'Assemblée-Ouest, la plus jeune (onze millions d'années), vibre plus vite que les autres : « Et... si... on... essayait ? »
+Toute la Salle tremble. Un débat s'ouvre. Il durera, normalement, trois cents ans.
+* pro_26 pan12 | Exiger un vote immédiat | « Immédiat ? » Ils sont scandalisés. Puis ils votent. Ça prend une heure. C'est le vote le plus rapide de l'histoire géologique. | Ils refusent. Le débat commence. Tu les interromps toutes les deux minutes, ce qui, à leur échelle, fait un bruit insupportable. Ils votent pour que tu te taises. Et tant qu'à voter, ils votent le reste. | +flag:vote_assemblee pan+1 | +flag:vote_assemblee mor-1
+* pro_27 coe11 | Leur parler de ceux qu'ils tiennent depuis toujours | Tu leur parles de la petite Gravitaire et de son caillou, des enfants qui ramassent les pierres, des familles qui s'assoient sur l'Axe. Ils écoutent. Ils comprennent qu'ils ne tiennent pas seulement un monde. Ils tiennent des gens. | | coe+1 |
+
+@pro_23
+Les Gravitaires de l'Assemblée se regardent. Ils ne se sont jamais levés. Pas depuis la formation des continents. Se lever, pour eux, c'est un séisme. Un vrai.
+L'Assemblée-Nord vibre : « Si... nous... nous levons... les continents... bougent. »
+* pro_26 rus12 | « Alors levez-vous doucement. » | Silence. Puis un rire, un grondement. « Doucement... Personne... ne nous a jamais... dit ça. » | | +flag:vote_assemblee |
+* pro_27 coe12 | « Alors levez-vous ensemble. » | Silence. Puis le doyen tend une main de granit vers l'Assemblée-Sud. Qui la prend. Puis une autre main. Puis toutes. | | +flag:vote_assemblee coe+1 |
+
+@pro_24
+!fx: +flag:lune_poche
+Le Docteur Quartz te montre son projet le plus fou : une petite sphère de cristal, grosse comme un poing, posée sur un coussin. « Une Lune de poche. Prototype. Elle ne brille pas. Elle ne tourne pas. Elle ne sert à rien. Mais elle est jolie, non ? »
+Elle la tient dans ses mains de cristal, comme un enfant. « Je l'ai faite pour avoir quelqu'un qui tourne autour de moi. Ça n'a pas marché. »
+* pro_21 coe12 | Lui dire que tu veux bien tourner autour d'elle | Elle te regarde. Elle rit, un rire qui fait vibrer tous les cristaux de la géode. « Vous êtes ridicule. » Elle pleure. « Merci. » Puis elle s'essuie les facettes : « Bon. Vous n'êtes pas venu·e pour tourner autour de moi. Vous êtes venu·e pour la vraie. » | Elle ne comprend pas la blague. Puis elle la comprend. Elle rit en retard, et se souvient d'un coup pourquoi tu es là. | coe+1 mor+1 |
+* pro_21 rus11 | Lui proposer d'en faire une grande | « Une grande ? » Elle repose la sphère. « Je n'ai jamais osé. J'avais peur de la rater en grand. » | |
+
+@pro_25
+?last:ko Le plan est fini, à peu près. Il y a des ratures partout et une tache de thé à quatre cents degrés au milieu. Mais on y voit une nouvelle Lune, en cristal.
+?last:ok Le plan est fini. Une nouvelle Lune, en cristal, fabriquée à partir des géodes de la Terre. Il faudrait que tous les Cristallins du monde donnent un peu d'eux-mêmes. Il faudrait que les Gravitaires la portent jusqu'à l'orbite. Il faudrait un miracle, ou deux.
+Le Docteur Quartz regarde le plan. « C'est la chose la plus folle que j'aie jamais imaginée. Et j'ai fabriqué un trou noir de poche. »
+?flag:quartz_renvoyee Puis elle te reconnaît, et son visage de cristal se ferme. « Vous. Vous m'avez renvoyée des Hauts-Nuages pour une comète. Je reste ici, avec mes plans. Eux, au moins, ne me renvoient pas. »
+?comp:zouzou ?!flag:quartz_renvoyee Zouzou se colle à ton dos. « Elle a un compas. Elle va me mesurer. Si elle vient, je pars. » Le Docteur Quartz, de son côté, regarde déjà la comète avec une gourmandise scientifique inquiétante.
+* pro_28 coe11 ?comp:zouzou ?!flag:quartz_renvoyee | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file par le tunnel en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | Zouzou part sans un mot, ce qui est pire que tout ce qu'elle aurait pu dire. Quartz te suit. | -comp:zouzou +comp:quartz +flag:zouzou_partie | -comp:zouzou +comp:quartz +flag:zouzou_partie mor-1
+* pro_28 coe11 ?!comp:zouzou ?!flag:quartz_renvoyee | Lui demander de venir avec toi | Elle range ses plans, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | Elle hésite. « Sortir ? De ma géode ? » Elle sort quand même. Elle prend un parapluie, au cas où. | +comp:quartz mor+1 | +comp:quartz
+* pro_29 rus10 | Lui laisser les plans pour qu'elle y travaille | « Oui ! Je vais tout recalculer ! Trois fois ! » Elle te donne une copie. | | +flag:plans_lune |
+
+@pro_26
+L'Assemblée des Gravitaires vote. Un par un, les douze géants vibrent leur choix. Ça prend une heure. Le résultat : sept pour, quatre contre, une abstention (l'Assemblée-Australe, qui dort).
+« La Terre... marchera. Si... les mers... sont prévenues. Si... quelqu'un... en haut... donne le signal. »
+* pro_30 pan11 | Promettre de donner le signal | Ils te regardent. Douze paires d'yeux de caverne. « Toi ? » « Moi. » « Bien. » | Ils te regardent, sceptiques. « Toi ? » Tu dis oui. Ils ne te croient qu'à moitié. | +flag:gravitaires_allies equ+3 | +flag:gravitaires_allies
+* pro_31 coe10 | Les remercier | « Merci. » L'Assemblée-Ouest vibre un petit rire. Les autres font semblant de ne pas avoir entendu. | | +flag:gravitaires_allies |
+
+@pro_27
+Les Gravitaires de l'Assemblée se prennent la main, un par un, de plaque en plaque. Une chaîne de géants, sous la Terre. Et tu sens, sous tes pieds, toute la planète frémir. Comme un être qui se rend compte qu'il a des muscles.
+« Nous... pousserons. Quand... le signal... viendra. »
+* pro_30 coe12 | Leur dire que tu donneras le signal | Ils hochent la tête. Douze montagnes qui hochent la tête, c'est un tremblement de terre poli. | | +flag:gravitaires_allies equ+3 |
+
+@pro_28
+Le Docteur Quartz est prête. Elle porte un sac à dos plein de plans, une sphère de cristal dans sa poche, des lunettes de rechange et un parapluie. « Statistiquement, nous avons une chance sur onze de survivre. Peut-être une sur douze. J'adore les petites chances. Elles sont plus intéressantes. »
+~quartz: « Vous savez que j'ai tort à soixante pour cent ? Ça laisse quarante pour cent de génie. C'est beaucoup. »
+* pro_29 coe10 | Partir avec elle | Vous sortez de la géode. Elle regarde le tunnel comme si c'était le monde entier. | |
+
+@pro_29
+En remontant des Profondeurs, tu entends un écho. Quelqu'un répète un mot, au fond d'une grotte. Le même mot, encore et encore. « Seul. Seul. Seul. »
+?comp:echo Écho, sur ton épaule, frissonne. C'est exactement le mot qu'elle répétait avant toi. Mais ce n'est pas sa voix.
+* pro_32 coe11 | Suivre l'écho | Tu suis le son. Il te mène dans les Grottes des Échos. | |
+* pro_31 rus10 | Ignorer et remonter | Tu remontes. L'écho te suit un moment, puis s'éteint. | |
+
+@pro_30
+Tu as promis de donner le signal. Les Gravitaires pousseront. Mais seulement si les mers sont prévenues. Sinon, en déplaçant la Terre, toute la mer débordera d'un coup.
+?flag:marees_prevenues Tu penses à la mer, aux Côtes Hagardes. Elle attend ton signal. Elle est prête.
+?!flag:marees_prevenues Il faudra trouver quelqu'un pour prévenir la mer. Quelqu'un qui lui parle. Ou alors prier pour qu'elle comprenne toute seule.
+* pro_29 coe10 | Remonter | Tu remontes. Sous tes pieds, la Terre se prépare à marcher. | |
+
+@pro_31
+Tu remontes des Profondeurs. L'Axe tient, pour l'instant. Derrière toi, le gémissement de la Terre s'est un peu apaisé.
+?flag:gravitaires_allies Sous tes pieds, douze géants attendent ton signal.
+?comp:quartz Le Docteur Quartz te suit, en calculant à voix haute la probabilité de tout.
+* pro_33 pan10 | Continuer vers la surface | Tu montes. L'air devient plus frais. | |
+* pro_32 coe11 | Faire un détour par les Grottes des Échos | Il y a un mot qui résonne là-bas. Tu veux savoir lequel. | |
+
+@pro_32
+Les Grottes des Échos. Des milliers de cavités qui résonnent. Au milieu, une silhouette de son, tremblante, à peine visible, répète doucement : « Seul. Seul. »
+?!comp:echo ?!pc:brisefer C'est un Échotier. Une créature faite de son, qui ne peut dire que ce qu'on vient de lui dire. Les Gravitaires l'appellent Écho.
+?!comp:echo ?pc:brisefer Tu la reconnais : c'est Écho, que tu avais laissée ici. Depuis ton départ, elle est revenue à son vieux mot. Elle te reconnaît aussi, et répète ton pas, celui avec le genou qui craque.
+?comp:echo C'est un autre Échotier, plus petit, plus pâle que ton Écho. Écho, à côté de toi, s'arrête. Elle regarde la silhouette. Elle répète : « Seul. » Puis elle te regarde. Elle ne savait pas qu'il y en avait d'autres.
+* pro_34 coe12 ?!comp:echo | Lui dire « Pas seul » | « ... pas seul ? ... pas seul. » Elle répète. Elle répète autre chose que « seul ». Ça lui avait manqué. | « ... pas... seul. Seul. » Elle n'y arrive pas tout à fait du premier coup. Au cinquième, si. | coe+1 +flag:echo_pas_seul | +flag:echo_pas_seul
+* pro_35 rus11 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | Elle répète tout dans le désordre. « Moi Lune avec seul. » Puis elle te suit quand même, en répétant ton pas. | rus+1 +comp:echo | +comp:echo
+* pro_37 coe11 ?comp:echo | Laisser Écho lui parler | Écho s'approche du petit Échotier. Elle ne peut dire que ce qu'elle vient d'entendre. Alors tu dis « pas seul », pour elle, et elle le répète pour lui. | Tu dis « pas seul » trop bas. Écho le répète trop fort. Le petit Échotier sursaute, puis répète aussi. | coe+1 |
+
+@pro_33
+Tu arrives au fond du Grand Puits. Il ne reste plus qu'à remonter les échelles. Au-dessus, très loin, un petit cercle de lumière : la surface.
+La garde Gravitaire t'attend. « Alors ? »
+* pro_36 coe11 | « L'Axe tient. Pour l'instant. » | Elle hoche la tête. « Pour l'instant, c'est déjà beaucoup. » | | mor+1 |
+* pro_36 pan10 | « On va s'en sortir. » | Elle te regarde. Elle ne te croit pas. Mais elle veut te croire. C'est presque pareil. | |
+
+@pro_34
+« Pas seul », répète Écho. Elle le répète encore et encore, d'une voix qui change, qui se réchauffe. Elle flotte vers toi. Elle se pose sur ton épaule, comme un oiseau de son. Elle ne pèse rien. Elle vibre doucement.
+« ... pas seul. Pas seul. » Elle a l'air heureuse.
+* pro_35 coe11 | L'inviter à venir avec toi | « Viens avec moi. » « ... avec moi. Avec moi ! » Elle vient. | | +comp:echo mor+1 |
+* pro_33 rus10 | La laisser ici, où elle est chez elle | Tu la laisses. Elle répète « pas seul » en te regardant partir. Tu espères que c'est vrai. | | |
+
+@pro_35
+Écho flotte autour de toi. Elle répète tout ce qu'elle entend : tes pas, ta respiration, le petit bruit de ton cœur.
+?comp:quartz Elle répète aussi le Docteur Quartz, qui ne s'arrête jamais de parler. Le Docteur Quartz est enchantée : « Enfin quelqu'un qui écoute tout ce que je dis ! »
+* pro_33 coe10 | Remonter avec elle | Vous remontez. Écho répète le bruit de la surface qui approche. C'est un bruit qu'elle n'a jamais entendu. | |
+
+@pro_37
+Le petit Échotier répète : « ... pas seul. » Puis encore, plus fort. Les grottes le reprennent, de cavité en cavité, jusqu'à ce que toute la montagne dise « pas seul ». Écho répète la montagne. Elle a l'air de quelqu'un qui retrouve une langue qu'elle croyait seule à parler.
+Le petit Échotier ne vous suivra pas : les grottes sont chez lui. Mais il ne dit plus « seul ».
+* pro_33 coe10 | Remonter avec Écho | Écho se retourne une dernière fois et répète, pour le petit : « Pas seul. » Puis elle te suit. | | +flag:echo_pas_seul mor+1 |
+
+@pro_36
+Tu sors du Grand Puits. Le Carrefour est là, avec ses tentes, ses feux, sa foule. La Lune est plus grosse dans le ciel, plus penchée. Elle s'éloigne.
+Sous tes pieds, très loin, l'Axe tient. Pour l'instant.
+* hub_ret coe10 | Retourner au Conseil | Tu marches. Tu as les genoux qui tremblent. Ce n'est pas la fatigue. C'est le souvenir de l'Axe. | |

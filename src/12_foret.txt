@@ -1,0 +1,235 @@
+# ================================================================
+# RÉGION — LA FORÊT-RÉSEAU (Lichenautes, Fernand la Luciole, Tante Mélusine, la Toile)
+# ================================================================
+
+@for_01
+!title: La Forêt-Réseau
+!fx: +flag:vis_for regions+1
+La Forêt-Réseau. Une forêt si vieille qu'elle a une administration. Les arbres y poussent depuis toujours vers la Lune, la nuit, et vers le soleil, le jour, en un compromis lent et digne. Mais cette semaine, la Lune part de travers, et les arbres ne savent plus de quel côté pousser. Ils se tordent en spirale. Certains se sont noués entre eux, d'autres poussent à l'horizontale, l'un d'eux pousse vers le bas et s'en excuse.
+?pc:basile Tu sens la Toile sous tes pieds, la grande toile de racines et de champignons. Elle frissonne comme un tapis qu'on secoue.
+* for_02 rus11 | Chercher les Lichenautes de la forêt | Tu les trouves : une clairière couverte de mousses grises qui délibèrent. Elles délibèrent depuis trois jours sur l'ordre du jour. | Tu cherches, tu tournes, tu te retrouves trois fois devant le même arbre noué. Il te salue. | rus+1 |
+* for_03 coe10 | Écouter la forêt | La forêt craque, gémit, chuchote. Elle a mal. Une forêt qui a mal, ça fait le bruit d'une maison qui pleure par toutes ses poutres. | Tu écoutes et tu n'entends qu'un pivert qui tape au hasard, désorienté. | coe+1 |
+
+@for_02
+!fx: +flag:usnee
+Le Grand Conseil des Lichenautes. Deux cents mousses grises, rondes, réparties en cercle sur une souche. Elles parlent l'une après l'autre, à la vitesse d'une phrase par heure. Le doyen, une Lichenaute de mille ans nommée Mère Usnée, en est à la moitié du mot « Bienvenue ».
+« Bienve... »
+* for_04 coe11 | Attendre poliment qu'elle finisse | Tu attends. Une heure. « ...nue. » Toute la clairière applaudit lentement. Tu as gagné le respect du Conseil. Tu as perdu une heure. | Tu attends, mais tu t'endors. Personne ne s'en offusque. C'est un signe de respect, chez eux. | coe+1 equ+2 |
+* for_05 pan12 | Prendre la parole sans attendre | Tu parles vite. Très vite, pour eux. Ils ne comprennent rien, mais ils sont impressionnés. « Quelle... énergie », dit quelqu'un, trois heures plus tard. | Tu parles. Ils te regardent comme un orage. Ils se referment. | pan+1 | mor-1
+
+@for_03
+La forêt chuchote. Ce sont les arbres, qui se parlent par leurs racines. Tu poses la main sur un tronc. Tu sens le message, lent, profond : « Où est-elle ? Où est la lumière froide ? On poussait vers elle. On ne sait plus vers quoi pousser. »
+Un arbre se penche vers toi. Il te demande, à toi : « Vers quoi doit-on pousser ? »
+* for_04 coe12 | Lui dire « Vers ce que vous aimez » | L'arbre réfléchit. Pendant longtemps. Puis il se redresse un peu, d'un centimètre, vers les autres arbres. Ils poussent les uns vers les autres. | L'arbre ne comprend pas. Il continue de se tordre. | coe+1 equ+2 |
+* for_06 rus11 | Lui dire que tu vas chercher quelqu'un qui sait | L'arbre te montre la direction d'une lumière, au loin, entre les branches. Une petite lumière, faible, qui clignote. | | |
+
+@for_04
+Mère Usnée t'adresse enfin la parole. Ça prend la matinée. Voici ce qu'elle dit, résumé : « La Toile qui court sous la Terre relie toutes les racines du monde. Si quelqu'un y envoyait un message assez fort, toute la Terre l'entendrait en même temps. Tous les peuples. Mais il faudrait que ce message soit vrai. La Toile ne transmet pas les mensonges. Elle les mange. »
+* for_07 rus12 | Lui demander où se trouve le cœur de la Toile | « Sous le Grand Chêne Noué. Là où toutes les racines se croisent. » Elle met une heure à le dire, mais c'est clair. | Elle répond par une parabole de trois heures sur la patience. À la fin de la troisième heure, tu comprends que la parabole parle d'un chêne noué, et tu y vas, un peu courbaturé·e. | rus+1 +flag:coeur_toile | +flag:coeur_toile
+* for_06 coe10 | La remercier et chercher d'autres alliés | Elle hoche la tête. Ça prend dix minutes. Tu en profites pour regarder la forêt. | | |
+
+@for_05
+Ton discours a fait un effet étrange. Les Lichenautes se sont mis à pousser plus vite, comme si tu les avais réveillés. Une jeune mousse, à peine cent ans, s'approche de toi en roulant. « C'était... magnifique. Je n'avais jamais entendu... quelqu'un parler... si vite... de quelque chose... d'aussi important. »
+* for_07 coe11 | La remercier | Elle rougit, en orange. Les jeunes lichens sont très émotifs. Elle te souffle : « Le cœur de la Toile est sous le Grand Chêne Noué. Ne le dis pas aux vieux. Ils voudront en débattre. » | | +flag:coeur_toile |
+* for_06 rus10 | Lui demander ce que tu as dit, exactement | « Je ne sais pas. C'était trop vite. Mais c'était beau. » | |
+
+@for_06
+Une petite lumière entre les branches. Elle clignote faiblement, comme une ampoule fatiguée. Tu t'approches. C'est une luciole. Une seule. Elle est assise sur une branche, devant un minuscule bureau en écorce, avec une minuscule machine à écrire. Elle tape une lettre de réclamation.
+« Bonsoir. Fernand. Dernière luciole de la Forêt-Réseau. Ancien agent du Bureau des Éclairages Nocturnes. Licencié la semaine dernière. Vous êtes là pour une réclamation ? Il y a une file d'attente. Elle est vide. Je suis toute la file. »
+* for_08 coe11 | Lui demander pourquoi il a été licencié | « L'éclairage public numéro un, la Lune, a été privatisé. Le service n'a plus de raison d'exister. Nous étions trois mille lucioles. Les autres ont émigré vers des lampadaires. Moi, je reste. Par principe. Et par manque de lumière. » | « Restructuration. » Il tape plus fort. | coe+1 |
+* for_09 rus11 | Lui proposer de rédiger la réclamation avec lui | Il te tend une feuille. « Très bien. Article premier : la Lune n'est pas à vendre. Article deux : moi non plus. » Il est ironique, amer, et tape à une vitesse folle. | Il te regarde de haut. « Vous savez écrire une réclamation ? Personne ne sait. C'est un art. » | rus+1 |
+
+@for_07
+!fx: +flag:chene_vu
+Le Grand Chêne Noué. Un arbre immense, dont les branches se sont tordues en un nœud gigantesque, comme un poing serré. Sous lui, la terre est chaude. Tu sens la Toile qui pulse, comme un cœur.
+Mais il y a un problème : le Chêne est entouré de petits robots dorés, polis, qui mesurent les racines. Des géomètres de la Compagnie Foncière. Ils comptent la Toile pour la revendre en fibre optique.
+* for_10 rus12 | Les distraire | Tu leur demandes de mesurer un autre arbre, « beaucoup plus précieux ». Ils y vont, ravis. Ils mesurent un buisson pendant une heure. | Ils ne te croient pas. Ils te mesurent toi. Tu fais un mètre vingt d'obstination. | rus+1 |
+* for_11 pan11 | Les chasser | Tu cries. Ils s'excusent et s'en vont. Ils s'excusent tout le temps. C'est leur programmation. | Ils s'excusent, mais restent. Ils sont programmés pour rester aussi. | pan+1 |
+
+@for_08
+Fernand pose ses pattes sur la machine à écrire. Sa lumière clignote plus faiblement. « Vous savez ce qui est absurde ? Je suis une luciole. Je produis de la lumière. Mais seulement quand il y a de la Lune. C'est elle qui me rappelle de briller. Sans elle, j'oublie. »
+Il te regarde. « Je suis une luciole qui a oublié de briller. C'est ridicule. Rions. »
+Il ne rit pas.
+* for_10 coe12 | Lui dire que tu le vois briller, un peu | Il te regarde. Sa lumière clignote une fois, plus forte. « Vous mentez. » « Un peu. » « Merci. » | Il hausse ses élytres. « Gentil. Inutile, mais gentil. » | coe+1 +flag:fernand_brille |
+* for_09 rus10 | Lui demander s'il veut se rendre utile | « Utile ? » Il s'arrête de taper. « Personne ne m'a demandé ça depuis le licenciement. » | |
+
+@for_09
+Fernand tape sa réclamation avec toi. Elle fait trois pages. Elle est brillante, cynique, juridiquement inattaquable. « Article sept : la nuit est un bien commun. Article huit : on ne vend pas un bien commun. Article neuf : si vous lisez ceci, vous êtes déjà en tort. »
+Il signe d'une petite tache de lumière. Puis il te regarde. « Vous allez quelque part ? Je pourrais venir. Je ne sers à rien, mais je râle bien et je tape vite. »
+* for_12 coe10 | « Viens, Fernand. » | Il range sa machine dans son élytre. « Je viens. Mais je garde mon droit de démissionner toutes les heures. » | Il vient en se plaignant du voyage, du froid, de toi. Il est ravi. | +comp:fernand +flag:reclamation_fernand | +comp:fernand +flag:reclamation_fernand
+* for_12 rus11 | « Envoie plutôt ta réclamation à la Compagnie. » | Il l'envoie par pigeon. « Ils ne la liront pas. Mais elle existera. C'est déjà une forme de victoire. » | | +flag:reclamation_fernand |
+
+@for_10
+?from:for_07 ?last:ok Les géomètres mesurent leur buisson, très concentrés, en s'excusant auprès de chaque feuille. Tu as gagné un peu de temps.
+?from:for_07 ?last:ko Les géomètres ont fini de te mesurer. Ils notent « un mètre vingt d'obstination » dans leur carnet et retournent à leurs racines. Tu t'éloignes du Chêne, pour l'instant.
+?from:for_08 Fernand se remet à taper, mais sa lumière clignote un peu mieux. Tu as gagné un peu de lumière.
+?from:for_12 Le chemin monte entre les arbres tordus.
+La forêt craque autour de toi. Un sentier s'ouvre vers le nord, vers une colline où brille une lueur blanche. Un temple.
+?comp:fernand ?!from:for_07 Fernand clignote. « Le Temple de la Pleine Lune. Les Lunatiques. Une secte. Des gens charmants. Complètement fous. Vous allez adorer. »
+* for_13 coe10 | Monter vers le temple | Tu montes. La lueur grandit. On entend des chants, des sanglots et un bruit de tricot. | |
+* for_11 rus11 ?flag:chene_vu | Retourner au Grand Chêne Noué | Tu reviens au Chêne. Les géomètres sont partis mesurer plus loin : le cœur de la Toile est libre. | Tu reviens au Chêne par le mauvais côté, à travers les ronces. Tu arrives griffé·e, mais tu arrives. | | mor-1
+* for_07 rus11 ?!flag:chene_vu | Chercher plutôt le cœur de la forêt | Un vieil arbre te montre la direction de ses racines : vers un chêne immense, noué comme un poing. | Tu te perds deux fois. La troisième, les racines elles-mêmes te mènent au Chêne. | |
+
+@for_11
+?from:for_07 ?last:ok Les géomètres partis en s'excusant, le Grand Chêne Noué est à toi.
+?from:for_07 ?last:ko Les géomètres restent, mais ils s'excusent si fort et si souvent qu'ils n'ont plus le temps de mesurer quoi que ce soit. Tu passes entre eux jusqu'au Chêne.
+?from:for_10 Le Grand Chêne Noué est à toi.
+Tu poses les deux mains sur ses racines. La Toile pulse sous tes doigts : des milliards de connexions, des milliards de racines, des milliards de petites voix de champignons qui parlent en même temps. Toute la Terre, en dessous.
+Tu pourrais envoyer un message. Un seul. Il faut qu'il soit vrai.
+* for_14 coe12 ?flag:reve_lune,flag:lettre_lune,flag:clause_affection,flag:lune_veut_rester | Envoyer : « La Lune ne veut pas partir. » | Tu le sais. Tu l'as vu, lu ou entendu. Tu poses ce savoir dans la Toile comme on pose un œuf dans un nid. | Ta voix tremble, mais la vérité n'a pas besoin d'une voix ferme. |
+* for_15 rus11 | Envoyer : « Rassemblez-vous. On monte. » | Le message part. Il court sous la Terre, de racine en racine. Partout, des arbres frissonnent. Des peuples lèvent la tête. | Le message part, mais la Toile le trouve trop vague. Elle le transmet à moitié. | +flag:toile_message equ+3 | equ+1
+* for_16 pan11 | Envoyer : « Rendez-nous la Lune ! » | Le message part comme un cri. Toute la Terre crie en même temps, d'un coup. Là-haut, sur le Promontoire, quelqu'un sursaute. | La Toile ne transmet pas les cris. Elle les transforme en soupirs. Toute la Terre soupire. | +flag:toile_message +flag:cri_terre | mor-1
+
+@for_12
+?comp:fernand Tu reprends ta route. Derrière toi, le bureau d'écorce de Fernand est vide.
+?!comp:fernand Tu reprends ta route. Derrière toi, Fernand s'est remis à taper, seul dans sa file d'attente vide.
+?comp:fernand Fernand vole à côté de toi, clignotant à peine. « Je vous préviens, je ne suis pas un compagnon de voyage agréable. Je suis cynique, je suis aigri, et je suis la dernière luciole de mon espèce. Je vais être pénible. » Il clignote. « Mais je suis là. »
+* for_10 coe10 | Continuer vers le nord | Le chemin monte. La forêt devient plus claire, plus étrange. | |
+* for_07 rus11 | Aller vers le cœur de la forêt | Un chemin descend vers un chêne immense, noué comme un poing. Le Chêne Noué, là où tout se croise. | |
+
+@for_13
+Le Temple de la Pleine Lune. Un grand cercle de pierres blanches, polies, au sommet d'une colline. Au centre, des centaines de Lunatiques, des créatures pâles et rondes comme des bougies, qui tricotent des écharpes avec des fils de lumière lunaire. Ils pleurent en tricotant. Ils tricotent en pleurant.
+Au milieu, une vieille dame gigantesque, enveloppée de châles, avec trois paires de lunettes et une aiguille à tricoter de deux mètres.
+« ENTREZ, ENFANT ! ENTREZ DANS LE DEUIL ! »
+* for_17 coe11 | Entrer dans le cercle | Tu entres. On te met une aiguille dans la main. Tu tricotes. Tu ne sais pas tricoter. Personne ne remarque. | Tu entres et tu marches sur une écharpe. Toute l'assemblée pousse un cri de douleur théâtrale. | coe+1 |
+* for_18 rus11 | Demander qui est la vieille dame | « C'est Tante Mélusine », chuchote un Lunatique. « Grande prêtresse. Elle tricote la lumière de Lune depuis mille ans. Elle a très mauvais caractère. Elle est formidable. » | | |
+
+@for_14
+Le message part : « La Lune ne veut pas partir. » La Toile le reçoit. Elle hésite. Elle vérifie. Elle le goûte. Et elle le trouve vrai.
+Alors elle le transmet. Sous la Terre, de racine en racine, de champignon en champignon, d'arbre en arbre. En quelques heures, toutes les forêts, tous les jardins, tous les pots de fleurs de la Terre le savent. Et tout ce qui a des racines le chuchote à tout ce qui a des oreilles.
+* for_19 coe11 | Écouter la Terre entière apprendre la nouvelle | Tu entends, très loin, un murmure. Puis un grondement. Toute la Terre sait. La Lune ne veut pas partir. Et ça change tout. | | +flag:toile_message +flag:terre_sait equ+5 |
+
+@for_15
+Le message a été envoyé. La Toile pulse encore sous tes mains, chaude, vivante. Tu sens que quelque chose a changé : la Terre n'est plus une collection de peuples. C'est une seule chose, connectée, qui retient sa respiration.
+?comp:fernand « Pas mal », dit Fernand. « Pour un premier message à l'humanité entière. Moi, j'aurais ajouté des articles. »
+* for_19 rus10 | Te relever | Tu te relèves. Tu as les mains pleines de terre et de champignons. | |
+* for_13 coe10 | Aller au temple, maintenant | Il y a une lueur blanche au nord. Tu y vas. | |
+
+@for_16
+Le cri de la Terre résonne jusqu'au ciel. Les oiseaux s'envolent tous en même temps. Les nuages s'écartent. Et, là-haut, très loin, la Lune frémit, comme si elle avait entendu.
+?comp:fernand « Bon. Vous avez réveillé la planète entière. Pas mal. Un peu bruyant. »
+* for_19 coe10 | Attendre que ça retombe | Ça retombe. Le silence revient, plus lourd qu'avant. | |
+* for_13 rus10 | Aller au temple, maintenant | Tu y vas. La lueur blanche t'attend. | |
+
+@for_17
+Tante Mélusine te regarde tricoter. Elle a des yeux énormes derrière ses trois paires de lunettes. « TU TRICOTES COMME UNE ANGUILLE AVEC DES MOUFLES ! » Elle te prend les aiguilles. « REGARDE. On ne tricote pas la lumière, on la CONVAINC. »
+Elle tricote. La lumière de Lune se tord, se noue, forme une maille parfaite. Puis elle éclate en sanglots.
+« ON LA VEND ! ON VEND MA LUNE ! »
+* for_20 coe12 | La consoler | Tu la prends dans tes bras. Elle est énorme, elle sent la lavande et la poussière. Elle sanglote pendant dix minutes, puis elle se mouche dans une écharpe de lumière. « MERCI, ENFANT. » | Elle te repousse. « NE ME TOUCHE PAS, JE SUIS EN DEUIL ! » Puis elle te serre dans ses bras. | coe+1 mor+1 |
+* for_21 rus11 | Lui demander à quoi servent les écharpes | Elle s'arrête de pleurer net. « À quoi ? » Elle se redresse. « À L'ATTACHER, ENFANT ! » | | |
+
+@for_18
+Tante Mélusine se tourne vers toi. Elle se lève. Elle est immense, deux fois plus grande que les autres, enveloppée de châles, couverte de pelotes. « QUI ES-TU ? QUE VIENS-TU FAIRE DANS MON DEUIL ? »
+?pc:ondine « TU ES LA PETITE QUI ÉCRIT DES LETTRES ! LA LUNE ME LES MONTRAIT ! ELLE LES TROUVAIT TOUCHANTES ! »
+?pc:basile Elle plisse les yeux. « TOI. TU SENS LE TAMPON. » Tu ne réponds pas. Elle sait.
+* for_17 coe11 | « Je viens aider la Lune. » | « AIDER ? » Elle te regarde de haut en bas. « Tout le monde dit ça. Assieds-toi et tricote. On verra. » | |
+* for_21 pan11 | « Je viens vous demander votre aide. » | « MON AIDE ? » Elle éclate de rire, puis en sanglots, puis en rire. « Personne ne m'a demandé mon aide depuis le Moyen Âge ! » | |
+
+@for_19
+Le Grand Chêne Noué craque. Pour la première fois depuis des jours, ses branches se desserrent un peu, comme un poing qui se détend. La Toile pulse plus calmement.
+?comp:fernand Fernand clignote un peu plus fort. « Tiens. Je brille. Un peu. C'est sûrement une erreur. »
+Au nord, une lumière blanche brille au sommet d'une colline. On y entend des chants et des sanglots.
+* for_13 coe10 | Monter vers la lumière | Tu montes. Ça sent la lavande. | |
+* for_22 rus11 | Rester un peu au cœur de la Toile | Tu restes. Tu écoutes. La Toile te raconte des choses : des rumeurs, des secrets, des racines qui savent tout. | | rus+1 |
+
+@for_20
+Tante Mélusine se mouche. « Tu sais, enfant, je tricote la lumière de la Lune depuis mille ans. Chaque nuit, elle m'en donne un peu. Je tricote des écharpes pour les gens qui ont froid. Pour les veuves, les marins, les insomniaques. Elle donne, je tricote, ils ont chaud. » Elle renifle. « C'est la seule chose utile que j'aie jamais faite. Et on va me la prendre. »
+* for_21 coe11 | Lui dire que c'est beaucoup | « BEAUCOUP ? » Elle te regarde. Puis, plus bas : « Tu le penses ? » « Oui. » « Alors tu es aussi folle que moi. Bienvenue. » | | coe+1 |
+* for_21 rus10 | Lui demander si on pourrait tricoter autre chose | Elle te regarde. « Autre chose ? » Une étincelle s'allume derrière ses lunettes. | |
+
+@for_21
+« ÉCOUTE, ENFANT », dit Tante Mélusine en se levant. « Si on tricote toute la lumière de Lune qu'il nous reste, une écharpe immense, longue comme la distance entre la Terre et elle, on pourrait l'attacher. La nouer à nous. Une écharpe ne retient personne de force. Mais elle rappelle à quelqu'un qu'on l'aime. »
+Elle ajoute, plus bas : « C'est complètement stupide. C'est pour ça que je l'ai pensé. »
+* for_23 coe12 | « Tricotons-la. » | Elle hurle de joie. Tout le temple se met à tricoter. Des milliers d'aiguilles cliquettent dans la nuit. | Elle hurle de joie, puis te reprend tes aiguilles. « PAS COMME ÇA ! » | +flag:echarpe mor+1 | +flag:echarpe
+* for_24 rus11 | « Combien de temps faut-il ? » | « Mille ans. Ou une nuit, si on est assez nombreux. » Elle regarde l'assemblée. « On est assez nombreux. » | |
+
+@for_22
+La Toile te raconte. Elle te dit que sous Tamponville, la Capitale, il y a des archives où dort un contrat très ancien, un contrat d'orbite, qui parle d'affection. Elle te dit que dans les profondeurs, une vieille Faille connaît l'avenir. Elle te dit que sous la mer, les huîtres préparent quelque chose. Elle te dit qu'un Marchand vend les rêves de la Lune.
+Elle te dit qu'il y a des gens, partout, qui font la même chose que toi.
+* for_13 coe11 | Te sentir moins seul·e | Tu n'es pas seul·e. Personne n'est seul sur la Toile. C'est ce qu'elle a de plus beau. | | mor+2 |
+* for_13 rus12 | Mémoriser toutes ces pistes | Tu mémorises. La Toile est une bibliothèque qui parle. | | rus+1 +flag:pistes_toile |
+
+@for_23
+Toute la nuit, le Temple de la Pleine Lune tricote. Des centaines de Lunatiques, des Lichenautes venus de la clairière, des oiseaux qui apportent des fils de lumière dans leurs becs. Tante Mélusine dirige, hurle, pleure, encourage. L'écharpe grandit. Elle fait déjà un kilomètre. Elle brille comme une rivière de lait.
+?comp:fernand Fernand clignote au bout de l'écharpe pour éclairer les mailles. « Je suis une luciole utile. C'est humiliant. J'adore. »
+* for_25 coe11 | Tricoter avec eux jusqu'à l'aube | Tu tricotes. Tes mailles sont moches. Mélusine les garde quand même. « Une maille moche, c'est une maille sincère. » | Tu fais des nœuds. Mélusine les défait en soupirant. | mor+1 coe+1 |
+* for_26 rus11 | Calculer si ce sera assez long | Tu calcules. Trois cent quatre-vingt-quatre mille kilomètres. Il en manque beaucoup. Mais Mélusine dit qu'une écharpe, ça s'étire quand on y croit. | | |
+
+@for_24
+« Une nuit », répète Tante Mélusine. « Si tout le monde tricote. » Elle se tourne vers l'assemblée des Lunatiques. « ENFANTS ! NOUS ALLONS TRICOTER LA PLUS GRANDE ÉCHARPE DE L'HISTOIRE ! POUR NOUER LA LUNE À NOUS ! QUI EST AVEC MOI ? »
+Silence. Puis une centaine d'aiguilles se lèvent.
+* for_23 pan11 | Lever ton aiguille | Tu lèves ton aiguille. Mélusine pleure de joie. Elle pleure tout le temps, mais là, c'est de joie. | | +flag:echarpe |
+
+@for_25
+À l'aube, l'écharpe est finie. Elle est roulée en une pelote gigantesque, haute comme une maison, qui brille d'une lumière blanche et douce. Tante Mélusine s'assoit dessus, épuisée, ses trois paires de lunettes de travers.
+« Voilà. Maintenant, il faut la monter là-haut. Et la nouer autour d'elle. » Elle te regarde. « Je suis trop vieille pour grimper. Mais je suis trop têtue pour rester. »
+* for_27 coe11 | « Venez avec moi, Tante Mélusine. » | Elle se lève d'un bond, renverse deux Lunatiques. « ENFIN ! Quelqu'un qui me demande de venir quelque part ! Mille ans que j'attends ! » Elle emporte la pelote, des aiguilles et un thermos de tisane. | Elle hésite. « Moi ? Je vais vous ralentir. » « Oui. » « Alors je viens. » | +comp:melusine mor+1 | +comp:melusine
+* for_28 rus11 | « Restez ici, Tante Mélusine. Gardez-la au chaud. » | Elle hoche la tête. « Je la garderai. Si un jour la Lune redescend, elle trouvera une écharpe qui l'attend. » | | +flag:pelote_temple |
+
+@for_26
+L'écharpe ne sera pas assez longue. Tu le sais. Mais Tante Mélusine a raison sur une chose : ce n'est pas la longueur qui compte. Une écharpe ne retient pas par la force. Elle retient parce que celui qui la porte se souvient de qui l'a tricotée.
+* for_25 coe10 | Continuer à tricoter | Tu continues. Maille après maille. Toute la nuit. | |
+
+@for_27
+Tante Mélusine se met en route avec toi. Elle marche lentement, en traînant la pelote de lumière derrière elle comme une mariée sa traîne. Elle chante des cantiques à la Lune, faux, fort, en pleurant. Les Lunatiques la saluent sur le bord du chemin, comme une reine qui part en exil.
+~melusine: « NE ME REGARDEZ PAS COMME ÇA ! Je pleure parce que je suis heureuse ! Et triste ! Et en colère ! C'est le même liquide ! »
+* for_29 coe11 | Lui prendre le bras | Elle accepte ton bras. Elle pèse lourd. Elle ne le dira jamais, mais elle te remercie en te pinçant l'oreille. | | mor+1 |
+* for_29 rus10 | Porter une partie de la pelote | Tu portes un bout. C'est léger comme de la lumière, et lourd comme une promesse. | |
+
+@for_28
+Tu laisses la pelote au temple. Tante Mélusine la garde, assise dessus comme une poule sur un œuf de lumière. « VA, ENFANT. ET REVIENS AVEC DE BONNES NOUVELLES. OU DE MAUVAISES. MAIS REVIENS. »
+* for_29 coe10 | Partir | Tu pars. Derrière toi, Mélusine chante un cantique en sanglotant. C'est un bel au revoir. | |
+
+@for_29
+Tu redescends la colline. La Forêt-Réseau a changé : les arbres poussent moins de travers, comme s'ils avaient retrouvé une direction. Ils poussent les uns vers les autres. Un arbre en a même pris un autre par la branche.
+Mais au fond de la forêt, une fumée. Quelque chose brûle.
+* for_30 pan11 | Courir vers la fumée | Tu cours. La fumée grossit. Ça sent le bois et le papier. | |
+* for_31 rus11 | T'approcher prudemment | Tu t'approches en restant à couvert. Tu vois des robots dorés. Ils ont allumé un feu. | | rus+1 |
+
+@for_30
+Un feu. Des géomètres de la Compagnie Foncière ont allumé un feu au pied d'un vieil arbre. Ils brûlent des racines, pour « dégager le terrain » et faire passer un câble. La Toile hurle sous la terre. Les Lichenautes de la clairière arrivent, lentement, trop lentement.
+?comp:fernand Fernand clignote de rage. « Ils brûlent la Toile ! C'est contraire à au moins quarante articles ! »
+* for_32 pan12 | Éteindre le feu | Tu jettes de la terre, de l'eau, ta veste. Le feu s'éteint. Tu as les mains brûlées. La Toile soupire. | Tu éteins une partie du feu. L'autre partie, ce sont les Lichenautes qui l'étouffent en se couchant dessus. C'est héroïque et lent. | pan+1 equ+3 | equ+1 mor-1
+* for_33 coe11 | Parler aux robots | Tu leur demandes s'ils savent ce qu'ils brûlent. « Des racines. » « Non. Des voix. » Ils s'arrêtent. Ils s'excusent. Ils éteignent le feu eux-mêmes. | Ils s'excusent mais continuent. Tu répètes « des voix », dix fois, vingt fois. Au vingtième « excusez-moi », ils éteignent le feu, à contrecœur. | equ+2 coe+1 | equ+1
+
+@for_31
+Des robots dorés, des géomètres, autour d'un feu. Ils brûlent des racines. À côté d'eux, un panneau planté : « Futur câble de fibre optique Lune-sur-Mer — Terre (à usage touristique). »
+Ils veulent relier la Lune à la Terre par un câble. Pour que les riches résidents puissent regarder la Terre en haute définition.
+* for_32 pan11 | Les chasser | Tu cours vers eux en criant. Ils s'enfuient en s'excusant. Tu éteins le feu. | | equ+2 |
+* for_34 rus12 | Saboter le câble | Tu trouves le rouleau de câble. Tu le noues. Des nœuds de marin, de lichen, de pirate. Il faudra une semaine pour le dénouer. | Tu fais un nœud simple. Ils le défont en une seconde. | rus+1 +flag:cable_sabote |
+
+@for_32
+Le feu est éteint. La Toile tremble encore sous la terre, blessée mais vivante. Les Lichenautes arrivent enfin, avec des heures de retard, et se couchent sur les racines brûlées pour les soigner. Ils mettront des années. Ils ont des années.
+?flag:usnee Mère Usnée arrive la dernière. Elle te regarde.
+?!flag:usnee La dernière arrivée est une Lichenaute très vieille. Elle se présente : Mère Usnée, doyenne du Conseil. La présentation prend un quart d'heure. Puis elle te regarde.
+« Merci. » Le mot lui a pris trois minutes. C'est le plus beau merci de ta vie.
+* for_35 coe11 | Lui répondre « De rien » | Tu dis « De rien », lentement, à sa vitesse. Elle sourit. Ça prend dix minutes. Tu attends. | | mor+2 |
+* for_35 rus10 | Lui demander de protéger la Toile | « Nous la protégerons. Lentement. Mais pour toujours. » | | +flag:toile_protegee |
+
+@for_33
+Les robots éteignent le feu. L'un d'eux, le plus petit, reste. Il te regarde. « Excusez-moi. Excusez-moi de demander. Qu'est-ce qu'une voix ? »
+Tu ne sais pas quoi répondre à un robot qui veut savoir ce qu'est une voix.
+* for_35 coe12 | « C'est ce qui reste quand on a fini de compter. » | Le robot réfléchit. Il note. « Merci. Excusez-moi. Merci. » Il s'en va. Il ne mesurera plus jamais une racine de la même façon. | Il ne comprend pas. Il note quand même. | coe+1 +flag:robot_voix |
+
+@for_34
+?last:ok Le câble est noué. Les géomètres le regardent, consternés. « Excusez-moi. Qui a fait ça ? » Personne ne répond. Ils s'assoient et commencent à dénouer, avec patience, en s'excusant à chaque nœud. Ils en ont pour une semaine.
+?last:ko Ton nœud simple ne les retient qu'une seconde. Mais pendant cette seconde, tu as poussé le rouleau dans le ruisseau. Ils s'assoient au bord pour le repêcher, en s'excusant auprès du ruisseau. Ils en ont pour la journée.
+Le feu, abandonné par ses allumeurs, s'éteint sous les Lichenautes qui se couchent dessus.
+?comp:fernand ?last:ok Fernand rit. Pour la première fois. Une petite lumière jaune qui éclate. « Des nœuds ! Vous les avez eus avec des nœuds ! »
+?comp:fernand ?last:ko Fernand rit. Pour la première fois. « Le ruisseau ! Vous les avez eus avec un ruisseau ! »
+* for_35 coe10 | Repartir | Tu repars, satisfait·e. Le sabotage le plus poli de l'histoire. | | mor+1 |
+
+@for_35
+Tu quittes la Forêt-Réseau. Les arbres te regardent partir, penchés les uns vers les autres. La Toile pulse sous tes pieds, plus calme.
+?comp:melusine Derrière toi, Tante Mélusine traîne la pelote de lumière en reniflant.
+?flag:pelote_temple Quelque part derrière toi, au temple, une pelote de lumière attend la Lune.
+?flag:toile_message Partout, sous la Terre, ton message court encore de racine en racine.
+?comp:fernand Fernand clignote un peu plus fort qu'au début. Il ne le remarque pas. Tu ne le lui dis pas.
+* hub_ret coe10 | Retourner au Carrefour | Tu pars. La forêt chuchote dans ton dos. | |
+* for_36 rus11 | Passer une dernière fois par le Chêne Noué | Tu y passes. Le Chêne s'est un peu dénoué. Une branche te fait signe. | |
+
+@for_36
+Le Grand Chêne Noué. Ses branches se sont desserrées. Au milieu, il y a maintenant un espace, comme une main ouverte. Dans cet espace, une petite pousse verte. Elle pousse vers le haut. Vers la Lune.
+Elle n'a pas encore compris que la Lune s'en va. Ou elle a compris, et elle pousse quand même.
+* hub_ret coe10 | Ramasser la graine qui vient de tomber de la pousse, et partir | Une graine tombe de la petite pousse, juste à tes pieds, comme si elle l'avait lâchée exprès. Tu la ramasses. Elle est tiède. Tu la ranges contre toi, et tu pars. |  | +flag:obj_graine_lune |
+* hub_ret coe11 | La saluer et partir | Tu la salues. Elle ne répond pas. Elle pousse. C'est sa réponse. | | mor+1 |

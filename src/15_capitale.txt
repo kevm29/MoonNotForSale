@@ -1,0 +1,241 @@
+# ================================================================
+# RÉGION — TAMPONVILLE, LA CAPITALE (Cadastre, Madame Épine, le Président Galet, Pénélope, les archives)
+# ================================================================
+
+@cap_01
+!title: Tamponville
+!fx: +flag:vis_cap regions+1
+Tamponville, la Capitale de la Terre. Une ville entière construite en dossiers empilés : les immeubles sont des classeurs, les rues sont des tiroirs, les ponts sont des trombones géants. Au centre, le Cadastre Céleste, une tour de papier de deux cents étages, qui penche légèrement depuis que la Lune part.
+À l'entrée de la ville, un panneau : « Bienvenue à Tamponville. Veuillez prendre un ticket. »
+?pc:basile Tu es chez toi. Tu as honte d'être chez toi. Sur les murs, des affiches : « Qui a signé ? » Il n'y a pas de portrait. Personne ne sait reconnaître un lichen en particulier.
+* cap_02 rus11 | Prendre un ticket | Ton ticket porte le numéro 7 812 004. On en est au 12. Un vieux Horloger à côté de toi dit : « Ne vous inquiétez pas. Le délai moyen est de trois siècles. » | Le distributeur te donne un ticket négatif. Personne ne sait ce que ça veut dire. | rus+1 |
+* cap_03 pan11 | Doubler tout le monde | Tu doubles. Les gens protestent. Puis ils se taisent, parce que tu as l'air de savoir où tu vas. | Tu doubles et un fonctionnaire te renvoie à la fin de la file. La fin de la file est à l'autre bout du continent. Tu refais tout le chemin en doublant, plus discrètement cette fois, et ça passe. | pan+1 | mor-1
+
+@cap_02
+La file d'attente du Cadastre. Elle fait le tour de la ville, trois fois. Des gens de toutes les espèces, qui attendent pour réclamer : « Je voudrais contester la vente de la Lune. » « Moi aussi. » « Moi, je voudrais un formulaire pour contester. » « Il n'y en a pas. » « Alors je voudrais un formulaire pour demander qu'on en crée un. »
+* cap_04 coe10 | Discuter avec les gens de la file | Tu discutes. Tout le monde a une histoire. Une Marégrave dont la maison flotte, un Horloger bloqué à mardi, un Somnambule qui ne trouve plus de rêve où dormir. | | coe+1 |
+* cap_05 rus12 | Chercher une autre entrée | Il y a une porte de service, derrière. Elle est marquée « Personnel uniquement ». Le personnel ne vient jamais. | | rus+1 |
+
+@cap_03
+Tu doubles toute la file et tu arrives devant le guichet un. Une vieille Lichenaute, Madame Pruine, lève un œil vers toi. Ça prend une minute. « Ticket ? »
+?pc:basile Elle te reconnaît. Son œil s'agrandit. « Grumeau ? » Elle chuchote. « Tout le monde te cherche. Monte au bureau de la Sous-Directrice. Vite. Enfin, vite pour nous. »
+* cap_06 pan11 | « Je n'ai pas de ticket. J'ai une urgence. » | « Une urgence ? » Elle te regarde comme si tu avais dit un gros mot. « Il y a un guichet pour les urgences. Le guichet zéro. Au sous-sol. » | « Il n'y a pas d'urgence au Cadastre. Il n'y a que des délais. » Elle tamponne quand même ton ticket, distraitement : « Guichet zéro. Sous-sol. Pour les délais urgents. » | |
+* cap_04 coe10 | Lui demander comment elle va | Elle s'arrête. « Mal. On a vendu la Lune, et c'est un des nôtres qui a signé. Tout le monde nous regarde de travers. » | |
+
+@cap_04
+Dans la file, une vieille Horlogère te tend un tract tapé à la machine : « SOUSCRIPTION NATIONALE POUR LE RACHAT DE LA LUNE. Chaque Terrien donne ce qu'il peut. Même un bouton. Même une heure. Même un souvenir. »
+« C'est moi qui l'ai lancée », dit-elle fièrement. « J'ai déjà quatre boutons et une dent de Gravitaire. »
+* cap_07 coe12 | Donner quelque chose | Tu donnes ce que tu as de plus précieux. Elle le range dans une boîte à biscuits. « Merci. Ça fera cinq boutons, une dent, et ça. » Elle te regarde. « C'est beaucoup, ça. » | Tu donnes un bouton. Elle est ravie quand même. | +flag:souscription mor+1 | +flag:souscription
+* cap_08 rus11 | L'aider à organiser la souscription | Tu lui proposes d'aller voir la Sous-Directrice pour l'officialiser. Un tampon, et sa boîte à biscuits deviendra une institution. | | +flag:souscription |
+
+@cap_05
+La porte de service. Derrière, un couloir de papier, des escaliers, des ascenseurs qui descendent à la vitesse d'un lichen. Partout, des panneaux : « Archives → », « Sous-Direction → », « Guichet zéro ↓ », « Président (ne pas déranger) ↑ ».
+* cap_09 rus11 | Monter vers la Sous-Direction | Tu montes. Cinquante étages. Des fonctionnaires lents te regardent passer comme une comète. | |
+* cap_10 pan10 | Descendre vers les archives | Tu descends. Il fait frais et humide. Ça sent le papier qui attend. | |
+
+@cap_06
+Le guichet zéro. Sous-sol moins quatre. Un bureau vide, une chaise vide, une tasse de rosée froide.
+?pc:basile Ton bureau. Ta chaise. Ta tasse. Rien n'a bougé. Sur le bureau, quelqu'un a laissé un mot : « On ne t'en veut pas. Enfin, un peu. Madame Pruine. »
+?!pc:basile Une plaque sur le bureau : « Basile Grumeau, greffier. » Une autre, plus récente, gravée en or : « Sans qui rien n'aurait été possible. — Compagnie Foncière d'Aldébaran. »
+* cap_10 rus11 | Fouiller le bureau | Tu trouves le registre des cessions. Page une, ligne une : « Lune. Cédée. » Et une note : « Pour non-paiement de la taxe d'orbite. » | | +flag:taxe_orbite |
+* cap_09 coe10 | T'asseoir un instant sur la chaise | Tu t'assois. Tu imagines le greffier qui a signé. Un mardi, avec un mille-feuille. Tu as presque de la peine pour lui. | | coe+1 |
+
+@cap_07
+La vieille Horlogère range ton don dans sa boîte à biscuits. Elle ferme le couvercle. « Vous savez, on n'arrivera jamais à quarante-deux milliards. Mais ce n'est pas ça qui compte. Ce qui compte, c'est qu'à la fin, quand on lui montrera la boîte, à la Lune, elle verra que tout le monde a donné. »
+Elle te sourit. Son ressort fait tic... tac... très lentement.
+* cap_08 coe11 | Lui proposer de porter la boîte jusqu'à la Sous-Directrice | Elle te la donne. Elle est légère. Elle est lourde. | | +flag:boite_biscuits |
+
+@cap_08
+!fx: +flag:epine_vue
+Le bureau de la Sous-Directrice, Madame Épine : un cactus de deux mètres, dans un pot de marbre, qui ne cligne jamais des yeux faute d'en avoir. Elle te regarde poser la boîte à biscuits sur son bureau.
+« Une souscription ? C'est absurde. Ce n'est pas réglementaire. Il n'y a pas de formulaire. » Elle réfléchit. « Il faudrait en créer un. »
+* cap_11 rus12 | Lui proposer de rédiger le formulaire avec elle | Vous rédigez. Formulaire S-1 : « Souscription nationale pour le rachat d'un satellite. » Elle le tamponne. La boîte à biscuits devient une institution. | Vous rédigez, mais vous vous disputez sur la police de caractères. Ça prend deux heures. | +flag:cagnotte rus+1 | +flag:cagnotte
+* cap_12 coe11 | Lui demander si elle veut donner quelque chose | Elle se fige. Puis elle détache une de ses épines, la plus belle, et la pose dans la boîte. « Pour la Lune. Ne le dites à personne. » | Elle refuse. Puis elle accepte. Puis elle refuse. Elle donne finalement un trombone. | +flag:cagnotte coe+1 | +flag:cagnotte
+
+@cap_09
+!fx: +flag:epine_vue
+Le bureau de la Sous-Directrice. Madame Épine, cactus de deux mètres, ne cligne jamais des yeux. « Qui êtes-vous ? Avez-vous rendez-vous ? Non. Personne n'a rendez-vous. Asseyez-vous. »
+?pc:basile « Grumeau. Vous revoilà. Asseyez-vous. Le Président a encore roulé vers la porte ce matin. Je crois qu'il vous attendait. Il est très gris. »
+* cap_12 coe11 | Lui demander de l'aide pour la Lune | « De l'aide ? Je suis Sous-Directrice. Je ne peux qu'administrer. » Elle soupire. « Mais je peux administrer très fort. » | « De l'aide ? Remplissez le formulaire de demande d'aide. » Il n'existe pas. Elle le sait. Elle soupire, et se rassoit. | |
+* cap_13 rus11 | Demander à voir le Président | « Le Président ? Il ne reçoit personne. Il ne parle à personne. C'est un galet. » Elle hésite. « Mais il roule vers la porte depuis ce matin. Il veut peut-être sortir. » | | |
+
+@cap_10
+Les archives du Cadastre. Sous-sol moins onze. Des kilomètres d'étagères, des montagnes de dossiers, l'odeur du papier qui attend. Une allée s'appelle « Contrats Originels ». Une autre, « Réclamations Diverses ». Une troisième, « Lune ».
+* cap_14 rus12 | Suivre l'allée « Lune » | Elle est longue. Des milliers de dossiers : les éclipses, les marées, les poèmes déposés, les plaintes de loups-garous. Au bout, une vitrine. | | |
+* cap_15 coe11 | Suivre l'allée « Réclamations Diverses » | Au fond, un petit dossier rose : « Réclamations de la Lune ». Une seule lettre dedans. Elle date de la semaine dernière. | | |
+
+@cap_11
+Le formulaire S-1 est tamponné. La souscription est officielle. Madame Épine fait sonner une cloche. Dans toute la ville, des haut-parleurs annoncent : « Souscription nationale ouverte pour le rachat de la Lune. Donnez ce que vous pouvez. Les boutons sont acceptés. »
+En une heure, la file d'attente du Cadastre change de sens : au lieu de venir réclamer, les gens viennent donner.
+* cap_13 coe11 | Regarder la file d'attente donner | Des boutons, des pièces, des dents, des souvenirs, des heures. Une vieille Lichenaute donne cent ans de sa vie. Tu dois t'asseoir. | | mor+2 equ+3 |
+* cap_14 rus10 | Descendre aux archives pendant ce temps | Tu descends. Une souscription, c'est bien. Une preuve juridique, c'est mieux. | |
+
+@cap_12
+?from:cap_20 Le bureau de la Sous-Directrice. Madame Épine, un cactus de deux mètres dans un pot de marbre, lit la lettre de la Lune, debout. Elle la relit. Aucune de ses épines ne bouge.
+Madame Épine se rassoit. Une petite fleur rose est sortie d'une de ses épines. Elle la cache. « Écoutez. Le Cadastre a vendu la Lune. Nous, les fonctionnaires, nous avons tamponné. Nous sommes coupables. Tous. » Elle pose ses bras épineux sur le bureau. « Je n'ai jamais rien fait d'autre qu'administrer. Mais si vous trouvez une erreur dans ce dossier, une seule, je la tamponnerai. »
+* cap_14 rus11 | Promettre de trouver l'erreur | Elle hoche la tête. « Les archives sont au moins onze. Prenez un pull. » | | +flag:epine_alliee |
+* cap_13 coe10 | Lui demander de voir le Président | « Le Président ? » Elle sort un galet de sa poche. « Il est là. Il est toujours là. » | | +flag:epine_alliee |
+
+@cap_13
+?from:cap_11 Madame Épine te regarde regarder. « Il faut que le Président voie ça. Venez. » Elle t'emmène tout en haut du Cadastre, là où il n'y a plus de guichets.
+Le Président de la Terre. Un galet rond, gris clair, posé sur un coussin de velours. Il ne dit rien. Il n'a jamais rien dit. Il a été élu il y a huit cents ans parce qu'il n'avait jamais rien dit de faux.
+?pc:basile Il devient un peu tiède quand tu t'approches. Il te reconnaît, peut-être. Les galets ont de la mémoire : c'est tout ce qu'ils ont.
+Mais aujourd'hui, il bouge. Il roule, très lentement, vers le bord du coussin. Vers la fenêtre. Vers la Lune.
+* cap_16 coe12 | T'agenouiller et l'écouter | Tu t'agenouilles. Tu poses l'oreille contre le galet. Tu entends quelque chose. Très loin, très bas, comme un souffle. Le Président respire. | Tu t'agenouilles, mais tu n'entends rien. Juste le silence. Tu restes. Longtemps. Au bout d'une heure, le silence se met à respirer. | coe+1 +flag:ecoute_galet | +flag:ecoute_galet
+* cap_17 rus11 | Le porter jusqu'à la fenêtre | Tu le prends dans ta main. Il est chaud. Tu le poses sur le rebord de la fenêtre. Il regarde la Lune. Il devient un peu moins gris. | | +flag:galet_fenetre |
+
+@cap_14
+Au bout de l'allée, une vitrine. Deux documents. Le premier, un rouleau de parchemin bleu nuit : « Contrat d'orbite Terre-Lune, établi à l'aube du système. » Le second, un carton doré : « Acte de vente 0000-L-001 ».
+?!flag:acte_vente Le premier a créé le monde. Le second le vend.
+?flag:acte_vente Le présentoir du second est vide, avec une petite étiquette : « Retiré pour consultation ». C'est toi qui l'as consulté. Il est dans ton sac.
+* cap_18 rus12 | Lire le contrat d'orbite | Clause 1 : « La Lune tourne autour de la Terre par affection et non par obligation. » Clause 2 : « Ce contrat ne peut être cédé sans l'accord des deux parties. » La Lune n'a jamais signé la vente. | L'écriture est trop ancienne. Tu ne lis que « affection ». | +flag:clause_affection rus+1 | +flag:affection
+* cap_19 coe11 ?flag:acte_vente | Relire l'acte que tu portes | Tu le sors de ton sac. Tu relis. Tout est en règle. Sauf un détail : la signature du greffier. Elle n'est pas finie. C'est une signature de lichen. Elle pousse encore. | | +flag:signature_lente |
+* cap_19 coe11 ?!flag:acte_vente | Lire l'acte de vente | Tu lis. Tout est en règle. Sauf un détail : la signature du greffier. Elle n'est pas finie. C'est une signature de lichen. Elle pousse encore. | | +flag:signature_lente |
+
+@cap_15
+La lettre de la Lune. Écrite en lumière, sur un papier si fin qu'il est presque de l'air. « Madame, Monsieur, je ne souhaite pas partir. Personne ne m'a demandé. Je tourne autour de vous depuis toujours. Je ne demande rien d'autre que de continuer. Cordialement, la Lune. »
+Signée d'un petit cratère.
+?flag:lettre_lune C'est la même lettre que celle que tu portes contre toi. La Lune en a envoyé deux exemplaires. Elle connaît l'administration.
+* cap_20 rus11 ?flag:lettre_lune ?!flag:lettre_tamponnee | Faire enregistrer la lettre officiellement | Tu remontes la faire tamponner : « Reçu. » Pour la première fois, la réclamation de la Lune existe officiellement. | | +flag:lettre_tamponnee |
+* cap_14 rus10 ?flag:lettre_lune | Laisser le double où il est et retourner vers l'allée « Lune » | Tu la laisses dans son dossier rose. Il faut bien que les archives gardent une trace. | |
+* cap_14 coe12 ?!flag:lettre_lune | Garder la lettre précieusement | Tu la plies avec soin. Tu la ranges contre toi. C'est la preuve que la Lune a dit non. Personne ne l'a lue. | | coe+1 +flag:lettre_lune |
+* cap_20 rus11 ?!flag:lettre_lune | La faire enregistrer officiellement | Tu remontes la faire tamponner : « Reçu. » Pour la première fois, la réclamation de la Lune existe officiellement. | | +flag:lettre_lune +flag:lettre_tamponnee |
+
+@cap_16
+Le Président respire. Tu l'entends. Un souffle très lent, très ancien, comme celui de la Terre elle-même. Et dans ce souffle, très bas, un mot qui se forme. Un seul mot. Il met huit cents ans à le dire, et tu ne l'entends qu'à moitié.
+« ...reste... »
+Le Président galet a parlé. Pour la première fois de son mandat.
+* cap_21 coe11 | Répéter le mot à toute la salle | Tu te lèves et tu dis : « Le Président a dit : reste. » Silence. Puis Madame Épine s'évanouit. Elle tombe de son pot. On la ramasse. | Tu le dis, mais personne ne te croit. Le Président ne parle pas. C'est connu. Puis un huissier stagiaire colle son oreille au galet, entend « ...reste... », et s'évanouit à son tour. Là, on te croit. | +flag:galet_parle equ+3 | equ+1
+* cap_17 rus10 | Garder le mot pour toi | Tu le gardes. Un mot de Président, ça se garde pour le bon moment. | | +flag:galet_parle |
+
+@cap_17
+Le Président, sur le rebord de la fenêtre, regarde la Lune. Il ne dit rien. Mais il change de couleur : il devient blanc, un peu, sur un côté. Le côté tourné vers elle. Comme s'il prenait un peu de sa lumière.
+Madame Épine murmure : « Il ne fait jamais ça. Il l'aime. Il l'a toujours aimée. Il n'a jamais rien dit parce qu'il n'y avait rien à dire, tant qu'elle était là. »
+* cap_21 coe12 | Lui promettre qu'elle restera | Tu le dis au galet. Il ne répond pas. Mais tu jurerais qu'il a roulé d'un millimètre vers toi. | | coe+1 +flag:galet_promesse |
+* cap_22 rus11 | Emporter le Président avec toi | Madame Épine hésite. Puis elle te le confie. « Il veut la voir de près. Prenez soin de lui. Il est le seul. » | | +flag:galet_emporte |
+
+@cap_18
+La Lune n'a jamais signé. Ni le contrat d'orbite, qui reposait sur l'affection. Ni l'acte de vente. Elle n'a jamais été consultée. Le Cadastre a vendu une chose qui ne lui appartenait pas : une amitié.
+Tu sens une idée pousser en toi, lente et tenace. L'acte de vente a un défaut. Un vice de forme. Le plus grand vice de forme de l'histoire.
+* cap_23 rus12 | Rédiger une note juridique | Tu rédiges : « La vente d'un bien qui n'appartient qu'à lui-même est nulle. Le contrat d'orbite prévoit le consentement des deux parties. La Lune n'a pas consenti. » Trois lignes. Parfaites. | Tu rédiges trois pages confuses. L'idée est là quand même. | +flag:dossier rus+1 | +flag:dossier
+* cap_19 coe10 | Lire aussi l'acte de vente | Tu ouvres le carton doré. | |
+
+@cap_19
+La signature du greffier sur l'acte de vente. Une signature de lichen : elle pousse, lentement, en faisant grandir le nom de son auteur. « Basile Gru... » Le reste n'a pas encore poussé. Il manque quelques jours.
+Si la signature n'est pas finie, l'acte n'est peut-être pas complet.
+?pc:basile C'est ta signature. Tu la sens pousser, d'ici, comme une plante dans une autre pièce.
+* cap_23 rus11 | Noter ce détail capital | Tu notes : « Signature incomplète. Acte non parfait. » Ça ne suffira peut-être pas. Mais c'est une brèche. | | +flag:signature_lente +flag:dossier |
+* cap_24 pan12 ?!flag:acte_vente | Emporter l'acte de vente | Tu le prends. Il est lourd, il sent l'eau de Cologne et l'argent. Une alarme sonne. | Tu tires, la chaîne tient. Une alarme sonne quand même. | +flag:acte_vente |
+* cap_24 pan10 ?flag:acte_vente | Ranger l'acte et repartir | Tu le ranges dans ton sac. Une alarme sonne : quelqu'un vient de remarquer le présentoir vide. | |
+
+@cap_20
+Tu fais tamponner la lettre de la Lune au guichet un. Madame Pruine lit la lettre. Elle la relit. Elle met une heure. Puis elle tamponne : « REÇU ». Elle te regarde. « C'est la première réclamation de la Lune en quatre milliards d'années. Il faut la transmettre à la Sous-Directrice. »
+* cap_12 coe10 | Monter voir la Sous-Directrice | Tu montes. La lettre tamponnée est chaude dans ta main. | | +flag:epine_vue |
+* cap_14 rus10 | Retourner aux archives | Tu redescends. Il y a d'autres preuves là-dessous. | |
+
+@cap_21
+?from:cap_16 La nouvelle se répand dans Tamponville : le Président a parlé. Un mot : « reste ». Les fonctionnaires sortent de leurs bureaux. Les files d'attente se dissolvent. Les gens se répètent le mot dans les rues : « reste », « reste ». Des banderoles apparaissent : « LE PRÉSIDENT A DIT RESTE ».
+?!from:cap_16 La nouvelle se répand dans Tamponville : le Président s'est tourné vers la Lune, et il a blanchi d'un côté. Les fonctionnaires sortent de leurs bureaux. Les files d'attente se dissolvent. Les gens lèvent la tête dans les rues. Des banderoles apparaissent : « LE PRÉSIDENT REGARDE LA LUNE ». Quelqu'un ajoute, au crayon : « NOUS AUSSI ».
+?comp:echo ?from:cap_16 Écho, ravie, répète le mot à tout le monde. « Reste ! Reste ! » Toute la ville résonne.
+?comp:echo ?!from:cap_16 Écho, ravie, répète la nouvelle à tout le monde. « Il la regarde ! Il la regarde ! » Toute la ville résonne.
+* cap_24 coe11 | Regarder la ville se réveiller | Tu regardes. Une ville de papier qui se met à espérer. C'est beau. C'est fragile. Ça peut brûler. | | mor+2 equ+3 |
+* cap_22 rus10 | Saluer le Président, et redescendre | Il ne dit rien. Tu le salues quand même. Il a fait l'essentiel. | |
+
+@cap_22
+?!from:cap_23 Tu redescends le grand escalier du Cadastre.
+?from:cap_23 Tu remontes le grand escalier du Cadastre.
+?!comp:penelope ?pc:basile,pc:zephyrin Sur un palier, une silhouette que tu connais : Pénélope Tampon, deux tampons à la place des mains, un porte-documents doré sous le bras. Elle arrive en sens inverse. Elle s'arrête. « Oh. Vous. On m'envoie chercher l'original de l'acte de vente. Je suis désolée. C'est encore mon travail. »
+?!comp:penelope ?!pc:basile ?!pc:zephyrin Sur un palier, une silhouette inattendue : une petite robote élégante, avec deux tampons à la place des mains et un chignon en ressort. Elle arrive en sens inverse, un porte-documents doré sous le bras. Elle s'arrête. « Bonjour. Je suis Pénélope Tampon. Assistante de Monsieur Platine. Je viens chercher l'original de l'acte de vente. Je suis désolée. C'est mon travail. »
+?comp:penelope Pénélope, à côté de toi, se fige devant une note de service punaisée au mur : « P. Tampon, assistante, est priée de rapporter l'acte original. » Elle la relit. « Ils me croient encore à leur service. Je suis désolée. Enfin, je ne sais plus de quoi je suis désolée. »
+* cap_25 coe11 | « Vous êtes désolée ? » | Elle s'arrête. « Oui. Je crois. C'est nouveau. » Ses tampons tremblent. | | coe+1 +flag:penelope_doute |
+* cap_26 rus12 ?flag:dossier | « L'acte a un vice de forme. » | Pénélope s'arrête net, une marche au-dessus de toi. « Un quoi ? » Elle descend la marche. |
+
+@cap_23
+Ta note juridique est prête. Trois lignes, un tampon, une preuve. Tu la relis. Pour la première fois, tu sens qu'il existe un chemin légal pour ramener la Lune. Étroit, administratif, absurde. Mais un chemin.
+?!comp:penelope Une alarme sonne au loin. Des pas dans l'escalier : clac, tamp, clac, tamp.
+?comp:penelope Une alarme sonne au loin. Pénélope se raidit : « Ils ont remarqué quelque chose. On ferait mieux de remonter. »
+* cap_22 pan10 | Remonter l'escalier | Tu remontes l'escalier. | |
+* cap_27 rus11 ?!comp:penelope | Te cacher dans les archives | Tu te glisses entre deux étagères. Les pas approchent. | | rus+1 |
+
+@cap_24
+?from:cap_19 Une alarme sonne dans tout le Cadastre. Des pas descendent : lourds, réguliers, accompagnés d'un claquement de tiroirs. L'Huissier Krâmm. Il apparaît au bout de l'allée, grand comme un phare couché, fait de classeurs gris qui s'ouvrent quand il respire.
+?!from:cap_19 Une alarme sonne dans tout le Cadastre. Des pas approchent : lourds, réguliers, accompagnés d'un claquement de tiroirs. L'Huissier Krâmm. Il apparaît au bout du couloir, grand comme un phare couché, fait de classeurs gris qui s'ouvrent quand il respire.
+« Article premier : que personne ne bouge. Article deux : je viens saisir l'acte de vente original pour le compte de la Compagnie. »
+?pc:basile,pc:ondine ?!flag:kramm_doute Tu le reconnais. Lui aussi, à en juger par le tiroir qui grince.
+?flag:kramm_doute Il te reconnaît. Un tiroir s'ouvre, hésite, se referme.
+* cap_28 rus12 | « Article sept : il est en cours de classement. » | Krâmm se fige. Il ne peut pas contester un article. Il note : « En cours de classement. » Il attendra. Les huissiers attendent très bien. | « Il n'y a pas d'article sept dans votre code. » Il te tend le bon code. Tu le lis à voix haute, très lentement, en cherchant un article sept. Il attend que tu aies fini. Les huissiers attendent très bien. | +flag:kramm_attend rus+1 | +flag:kramm_attend
+* cap_29 coe11 | Lui demander s'il croit vraiment à ce qu'il fait | Ses tiroirs s'arrêtent. « Article... » Il cherche. Il ne trouve pas. « Je ne sais plus. » | « Article neuf : ce n'est pas la question. » Puis il se tait. La question reste coincée dans un de ses tiroirs. Il l'entend cogner. | coe+1 +flag:kramm_doute |
+
+@cap_25
+Pénélope s'assied sur une marche. « Monsieur Platine est très gentil, vous savez. Il dit merci. Il m'appelle "ma chère". Il vend des planètes, mais avec beaucoup de délicatesse. » Elle regarde ses tampons : « APPROUVÉ » à gauche, « REFUSÉ » à droite. « Je n'ai jamais utilisé celui de droite. Pas une fois. En deux cents ans. »
+* cap_30 coe12 | « Vous voulez essayer ? » | Elle regarde sa main droite. Elle tremble. Elle la lève. Elle tamponne l'air, doucement : « REFUSÉ. » Elle éclate de rire, le bruit d'une photocopieuse. « C'est merveilleux ! » | Elle cache sa main droite derrière son dos. « Pas encore. » | +flag:penelope_refuse coe+1 | +flag:penelope_doute
+* cap_26 rus11 ?flag:dossier | « Vous savez qu'il y a un vice de forme ? » | Elle s'arrête. « Un vice de forme ? » Ses yeux s'agrandissent. « Montrez-moi. » | |
+
+@cap_26
+Tu montres à Pénélope ta note juridique, la clause d'affection, la signature qui pousse encore. Elle lit. Elle relit. Ses tampons tremblent.
+« C'est... c'est un vice de forme. Vous savez ce que c'est, un vice de forme, pour une assistante ? C'est la fin du monde. Le bon genre de fin du monde. » Elle te regarde. « Monsieur Platine déteste les vices de forme. Il dit qu'un contrat est un poème. Une faute le rend malade. »
+?comp:taupinel Taupinel renifle l'air dans la direction de Pénélope. « Une assistante de Platine ? Qui doute ? Je publie tout demain. » Pénélope pâlit. Avec un journaliste dans les parages, elle ne pourra plus jouer double jeu : tout le monde saurait.
+* cap_30 rus11 ?comp:taupinel | Lui proposer de tout raconter à Taupinel, à visage découvert | Pénélope regarde la taupe. Elle respire un grand coup. « D'accord. Mais vous écrivez mon nom correctement. Avec un seul L. » Taupinel note avec deux L. | Pénélope hésite, puis donne seulement le numéro de dossier. Taupinel s'en contente, ravi. | +flag:platine_faille +flag:penelope_temoigne | +flag:penelope_temoigne
+* cap_30 coe11 | Lui demander de vous aider | Elle hésite longtemps. Puis : « Je ne peux pas retourner là-haut avec l'acte. Pas maintenant. » | | +flag:platine_faille +flag:penelope_doute |
+* cap_31 rus12 ?!comp:taupinel | Lui demander de retourner espionner Platine | Elle réfléchit. « Je vais lui mentir. Pour la première fois. Je vais le faire très bien. » | | +flag:penelope_espionne +flag:platine_faille |
+
+@cap_27
+Caché·e entre les étagères, tu vois passer Pénélope Tampon, l'assistante de Platine. Elle cherche l'acte de vente. Elle le trouve. Elle le prend. Puis elle s'arrête. Elle le regarde. Elle le repose. Elle le reprend. Elle le repose.
+Elle murmure : « Je ne veux pas. Je ne veux pas. Je ne veux pas. »
+* cap_25 coe11 | Sortir de ta cachette et lui parler | Tu sors. Elle sursaute. Puis elle te regarde comme on regarde quelqu'un qui arrive au bon moment. | |
+
+@cap_28
+Krâmm reste planté dans l'allée, à attendre la fin du classement. Il a l'air presque paisible. Ses tiroirs bougent doucement, comme une respiration. Un huissier qui n'a rien à saisir, c'est un huissier en vacances.
+?flag:dessin_kramm,flag:vu_dessin Tu penses au dessin de sa fille. Une Lune avec un visage, qui sourit.
+* cap_29 coe11 ?flag:dessin_kramm,flag:vu_dessin,flag:kramm_dessin | Lui parler de sa fille | Ses tiroirs s'immobilisent. « Comment... comment savez-vous ? » Il s'assoit. Pour la première fois. « Elle m'a demandé si je déménageais la Lune. J'ai dit oui. Elle a pleuré. » | | coe+1 +flag:kramm_doute |
+* cap_29 coe11 ?!flag:dessin_kramm ?!flag:vu_dessin ?!flag:kramm_dessin | Lui demander pourquoi il attend si patiemment | « Parce que... » Un tiroir s'ouvre tout seul : dedans, un dessin d'enfant, une Lune qui sourit. Il le referme trop tard. Il s'assoit. « Ma fille m'a demandé si je déménageais la Lune. J'ai dit oui. Elle a pleuré. » | Il ne répond pas. Mais un tiroir s'ouvre tout seul, et tu vois dedans un dessin d'enfant : une Lune qui sourit. | coe+1 +flag:kramm_doute +flag:vu_dessin | +flag:vu_dessin
+* cap_32 rus10 | Filer pendant qu'il attend | Tu files. Il ne te voit pas. Il attend. | |
+
+@cap_29
+Krâmm baisse ses tiroirs. Il ne parle plus par articles. « Je fais ce métier depuis mille ans. Je compte les choses qui partent. Je n'ai jamais rien empêché de partir. Je ne savais pas que c'était possible. »
+Il te regarde. « Est-ce que c'est possible ? »
+* cap_32 coe12 | « Oui. » | Il reste longtemps silencieux. Puis il range son mètre ruban, ses formulaires, ses registres. « Article... dernier. Je démissionne. Je crois. » Il s'en va. Il marche plus léger. | Il ne te croit pas. Mais il ne saisit pas l'acte. Il s'en va. | +flag:kramm_demission coe+1 | +flag:kramm_doute
+
+@cap_30
+?!comp:penelope Pénélope te regarde. « Je ne peux pas retourner sur le Promontoire. Pas maintenant. Est-ce que... est-ce que vous avez besoin de quelqu'un qui tamponne ? »
+?comp:penelope Pénélope te regarde. « Je ne retournerai pas sur le Promontoire. Je reste avec vous. Je le savais déjà, mais je voulais le dire à voix haute, devant une archive. »
+* cap_31 coe10 ?!comp:penelope | « Venez avec moi. » | Elle tamponne l'air deux fois, de joie. Elle vient. Elle porte tes dossiers. Elle insiste. | Elle vient, mais elle t'appelle « Monsieur » ou « Madame » pendant trois jours. | +comp:penelope mor+1 | +comp:penelope
+* cap_32 coe10 ?comp:penelope | Repartir avec elle | Elle range ses tampons et te suit, d'un pas plus décidé qu'avant. | | mor+1 |
+* cap_32 rus11 ?!comp:penelope ?!flag:acte_vente | « Gardez l'acte en lieu sûr ici. » | Elle le cache dans le dossier « Divers ». Personne ne cherche jamais dans « Divers ». | | +flag:acte_cache |
+
+@cap_31
+?comp:penelope Pénélope range ses tampons dans sa poche. Elle a l'air d'une assistante qui vient de démissionner sans formulaire. « C'est la première fois que je choisis quelque chose. C'est terrifiant. J'adore. »
+?!comp:penelope Pénélope repart vers le Promontoire, l'acte sous le bras, faux et vrai à la fois. « Je vous tiendrai au courant. Par pigeon. Ou par fax. Je ne sais pas comment on espionne. J'apprendrai. »
+~penelope: « Vous savez ce que je viens de faire ? J'ai dit non. Sans formulaire. Je crois que je vais vomir. Est-ce que les robots vomissent ? »
+* cap_32 coe10 | Repartir | Tu repars. Tu as un allié, ou une espionne, ou les deux. | |
+
+@cap_32
+Tu remontes à la surface du Cadastre. Tamponville a changé : les files d'attente se sont transformées en assemblées, les fonctionnaires discutent dans les rues, quelqu'un a peint sur le mur du Cadastre, en lettres immenses : « LA LUNE N'A JAMAIS DIT OUI ».
+?flag:galet_parle Et en dessous, plus petit : « Le Président a dit : reste. »
+* cap_33 coe11 | Lire les graffitis | Tu les lis tous. Il y en a des centaines. Certains sont des poèmes. Certains sont des insultes. Certains sont des formulaires. | | mor+1 |
+* cap_34 rus10 | Passer saluer la Sous-Directrice | Tu montes à son bureau. Elle t'attend. | |
+
+@cap_33
+Un graffiti, en particulier, attire ton regard. Il est écrit à la craie, en lettres maladroites, très bas sur le mur, comme par un enfant : « Papa, ne déménage pas la Lune. »
+?flag:kramm_demission Quelqu'un a écrit en dessous, d'une écriture administrative, très droite : « D'accord. »
+* cap_35 coe12 | Rester un moment devant | Tu restes. Tu penses à tous les gens qui ont quelqu'un dans la Lune. Tout le monde, en fait. | | coe+1 mor+1 |
+* cap_34 rus10 | Continuer | Tu continues. | |
+
+@cap_34
+?flag:epine_vue,pc:basile Madame Épine t'attend dans son bureau. Elle a une petite fleur rose sur une épine, et elle ne la cache plus.
+?!flag:epine_vue ?!pc:basile La Sous-Directrice t'attend dans son bureau : Madame Épine, un cactus de deux mètres dans un pot de marbre, avec une petite fleur rose sur une épine. Tout le Cadastre lui a parlé de toi.
+« Vous avez semé un désordre épouvantable dans mon administration. » Elle sourit, si un cactus sourit. « Merci. »
+Elle tamponne un document et te le tend : « Laissez-passer universel. Valable partout. Même au ciel. Il n'a aucune valeur juridique. Mais il est très joli. »
+* cap_35 coe11 | L'accepter | Tu le prends. Il est rose, avec une petite épine dessinée dans le coin. | | +flag:laissez_passer mor+1 |
+* cap_36 rus11 ?flag:acte_vente | Lui confier l'acte que tu portes | Elle le prend du bout de deux épines. « Je le classe dans "Divers". Personne ne cherche jamais dans "Divers". » | | +flag:acte_cache |
+* cap_36 rus11 ?!flag:acte_vente | Lui demander de garder l'acte en sécurité | « L'acte ? » Elle sourit. « Je l'ai classé dans "Divers". Personne ne cherche jamais dans "Divers". » | | +flag:acte_cache |
+
+@cap_35
+Tu quittes Tamponville. Derrière toi, la tour du Cadastre penche un peu moins. Ou c'est toi qui penches un peu plus, vers l'espoir.
+?flag:dossier Dans ta poche, ta note juridique. Trois lignes. Un vice de forme.
+?flag:cagnotte La souscription nationale continue. Les gens donnent des boutons, des dents, des heures.
+* hub_ret coe10 | Retourner au Carrefour | Tu marches. La ville de papier bruisse dans ton dos. | |
+
+@cap_36
+Madame Épine te raccompagne jusqu'à la porte du Cadastre. Elle ne sort jamais. Elle sort pour toi. Elle regarde le ciel, la Lune, le crochet. « Vous savez, je n'avais jamais regardé le ciel. On ne regarde pas le ciel, au Cadastre. On regarde les dossiers. » Elle se tait. « C'est grand. »
+* hub_ret coe11 | Lui dire au revoir | « Au revoir, Madame. » « Au revoir. Revenez avec une bonne nouvelle. Ou au moins avec un formulaire rempli. » | | mor+1 |

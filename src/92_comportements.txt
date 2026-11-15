@@ -1,0 +1,15 @@
+# Conséquences des décisions sur les compagnons : départs, retours, changements d'humeur.
+
+@+asc_14
+?flag:zouzou_devant Zouzou regarde la cabine, puis le câble, puis toi. « Une heure pour monter ? Une heure ? Je serai arrivée avant que tu aies fini de t'asseoir. » Elle file vers le ciel en laissant une traînée qui sent le caramel brûlé. Tu montes seul·e avec les caisses.
+
+@+asc_22
+!fx: flag:zouzou_devant=>+comp:zouzou
+?flag:remontoir_cabine ?from:asc_17 Remontoir ne t'a pas suivi. Tu le vois, par la porte de la cabine qui se referme, qui lève une aiguille pour te saluer. « Je ne cours pas. Je n'ai jamais couru. Je descendrai avec les caisses, et je remonterai à l'heure. » La cabine repart vers la Terre, et son tic-tac avec.
+~zouzou ?flag:zouzou_devant: Zouzou t'attend sur un rocher, la queue enroulée autour des genoux. « Enfin ! Deux heures. J'ai compté les cratères. Deux fois. Il y en a trois cent douze, et un qui triche. »
+
+@+fin_19
+?flag:pli_part_fin Monsieur Pli sort de ta poche au premier coup. Il te regarde casser le bureau, très pâle. « Je ne voyage pas avec la violence. Même ici. Surtout ici. » Il se plie en avion et sort par la baie vitrée, vers la Terre. Il ne se retourne pas.
+
+@+com_18
+?flag:pli_part_nua Il te reconnaît, et recule d'un pli. « Vous. Le coup de poing des Hauts-Nuages. Non. Je ne voyage pas avec la violence. » Il reste poliment à distance, et ne te propose plus rien.

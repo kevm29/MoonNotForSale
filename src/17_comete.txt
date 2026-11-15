@@ -1,0 +1,154 @@
+# ================================================================
+# RÉGION — LE MARCHÉ DES COMÈTES (Fulgence, Pardon, Monsieur Pli, la clé, le miroir)
+# ================================================================
+
+@com_01
+!title: Le Marché des Comètes
+!fx: +flag:vis_com regions+1
+Au bord du Carrefour, une vieille comète endormie est amarrée au sol par cent cordages. Sur son dos, on a monté un marché. On y vend des morceaux de ciel : des étoiles filantes à la douzaine, des aurores boréales au mètre, des éclipses d'occasion, un peu rayées.
+Ici, on ne paie pas en argent. On paie en souvenirs. Un bon souvenir d'enfance vaut une petite constellation. Un premier baiser, une nébuleuse entière, livraison comprise.
+Au-dessus de l'entrée, une banderole dorée : « GRANDE VENTE DE LOTS DE LUNE. Réservez votre cratère avant le déménagement. »
+?pc:griselidis Une marchande te reconnaît : « La factrice ! Vous avez du courrier en souffrance ? On rachète les lettres jamais lues, très bon prix. » Tu serres ta sacoche contre toi.
+?pc:barnabe Un étal propose « Clair de lune en bocal, véritable, avant fermeture définitive ». Ton estomac se noue. Tu achètes un bocal. Il est vide. On te dit que c'est normal, c'est un clair de lune de jour.
+?pc:pelagie Un étal vend du miel d'étoile. Nous goûtons. C'est du sucre teint en jaune. Nous faisons un scandale discret et très organisé.
+* com_02 pan10 | Plonger dans la foule | Tu plonges. Ça sent la poussière d'étoile, la friture et le marchandage. | Tu plonges et tu ressors trois étals plus loin, avec un ticket de tombola dans la poche et sans savoir comment. | pan+1 |
+* com_03 rus10 | Chercher le stand d'information | Le stand d'information est tenu par un hibou qui ne sait rien, mais avec assurance. Il te tend un plan du marché. Le plan est faux, mais joli. | Tu trouves le stand. Il est fermé pour cause d'information. | rus+1 |
+
+@com_02
+Dans la foule, quelqu'un te sourit. Quelqu'un qui te ressemble trait pour trait : ton visage, tes vêtements, ta façon de te tenir mal. Mais en mieux coiffé. Ton double te fait un clin d'œil appuyé.
+« Bonjour, toi », dit-il avec ta voix, en plus grave. « Je me suis dit qu'on allait forcément bien s'entendre. »
+* com_04 coe11 | Lui demander, poliment, de rendre ton visage | Il éclate de rire et redevient lui-même : un jeune homme aux contours flous, avec des yeux qui changent de couleur selon à qui il parle. « Personne ne demande poliment. C'est irrésistible. » | Il rit, garde ton visage encore un peu, puis le rend comme on rend un pull emprunté, un peu déformé. | coe+1 |
+* com_05 pan11 | L'attraper par le col | Tu l'attrapes. Il devient une grand-mère, puis un pigeon, puis un colonel. Tu tiens bon. Il redevient lui-même en riant. « D'accord, d'accord ! Tu as de la poigne. J'adore. » | Tu l'attrapes, il devient une anguille. Tu lâches. Il redevient lui-même, à trois mètres, mort de rire. | pan+1 |
+
+@com_03
+Le hibou t'explique le marché. « Ici, les étoiles. Là, les aurores. Là-bas, à quinze heures, une vente aux enchères : "Souvenirs d'enfance d'un grand homme d'Aldébaran". Et partout, des lots de Lune. Vous voulez un cratère ? Il en reste avec vue. »
+Sous le comptoir, quelque chose de doré tremble. Un tout petit robot, recroquevillé, murmure : « Pardon. Pardon. Je ne suis pas là. Pardon. »
+* com_06 coe11 | Te pencher sous le comptoir | Tu te penches. Le robot te regarde avec deux yeux ronds comme des boutons de manchette. « Pardon », dit-il. « Vous ne m'avez pas vu. » Tu lui dis que si. Il soupire. « Pardon. » | Tu te penches trop vite et tu te cognes au comptoir. Le robot s'excuse pour le comptoir. | coe+1 |
+* com_07 rus11 | Aller voir ces lots de Lune | Tu suis les flèches dorées jusqu'au stand des lots. Le robot, sous le comptoir, te regarde partir, et décide de te suivre en rampant. | Tu te perds dans les aurores en solde. Tu finis au stand des lots par hasard, une aurore verte dans les cheveux. | rus+1 |
+
+@com_04
+!title: Fulgence
+« Fulgence Mille-Formes, pour vous servir, et pour vous plaire, si possible. » Il s'incline. Pendant qu'il s'incline, il devient une très belle Marégrave, puis un Horloger élégant, puis toi à nouveau. « Pardon. Ça m'échappe quand je suis ému. Je prends la forme de ce qui me plaît. Là, c'est toi. »
+Il prétend qu'il a séduit une montagne, trois reines et un phare. La montagne ne s'en souvient pas. Le phare, si.
+?pc:pelagie « Et vous, mesdames ? Combien êtes-vous ? » « Trois cents, monsieur. » Il devient une ruche, très galante. Sœur Gertrude rougit. Nous la sermonnerons plus tard.
+* com_08 coe10 | Rire, malgré toi | Tu ris. Il rayonne. On a du mal à en vouloir à quelqu'un qui est si content qu'on le trouve drôle. | Tu ris, mais tu ris de lui. Il le sent. Il fait semblant que non. | mor+1 |
+* com_08 rus11 | Lui demander ce qu'il sait du marché | « Tout. Je suis tout le monde, ici. J'ai été l'huissier, le marchand de lots, et même la femme du commissaire-priseur, hier soir. » Il te fait un clin d'œil. « Il y a des choses intéressantes à la vente de quinze heures. » | « Tout et rien. Surtout ce qui ne me regarde pas. » | rus+1 +flag:fulgence_tuyau |
+
+@com_05
+Fulgence se recoiffe. Il a pris l'apparence d'un vieux colonel à monocle pour avoir l'air digne. Ça ne marche pas : le monocle est à l'envers.
+« Fulgence Mille-Formes. Métamorphe, poète, séducteur à temps partiel. Tu m'as attrapé, je suis à toi. Façon de parler. Ou pas. » Il te regarde par en dessous. « Tu vas où, avec cette tête de quelqu'un qui sauve le monde ? »
+* com_08 coe11 | « Sur la Lune. » | Il cesse de sourire une seconde. « La Lune. » Il devient un vieillard, très bref. Puis lui-même. « Ma mère me la montrait, quand j'avais encore une forme fixe. » | Il rit. « Bien sûr. Et moi je vais épouser une étoile. » Puis il voit que tu ne plaisantes pas. | coe+1 |
+* com_08 rus10 | « Ça ne te regarde pas. » | « Tout me regarde. C'est ma malédiction. » Il te suit quand même, en changeant de chapeau tous les dix pas. | |
+
+@com_08
+Fulgence a décidé que tu étais l'aventure de sa semaine. « Emmène-moi. Je peux être n'importe qui. Un garde, un ministre, ta grand-mère. Je peux ouvrir toutes les portes qu'on ouvre aux autres. » Il baisse la voix. « Et je suis seul depuis très longtemps, sous toutes mes formes. »
+?flag:fulgence_renvoye Puis il s'arrête. Il te reconnaît. « Ah. C'est toi qui m'as renvoyé de la Foire. » Il sourit quand même, mais d'un sourire plus petit. « Je ne m'impose pas deux fois. C'est ma seule règle. »
+?comp:ysaline Ysaline Mante a déplié ses pattes avant, lentement, comme on sort un couteau. « Toi. » Fulgence devient très pâle, puis une petite vieille, puis à nouveau pâle. Il y a trois ans, il a pris l'apparence d'Ysaline pour entrer au Congrès des Femelles de Toutes Espèces, et il y a voté trois motions et embrassé une déléguée. « Je ne voyage pas avec lui. Jamais. C'est lui ou moi. » Elle ne plaisante pas. Elle n'a jamais plaisanté avec ça.
+* com_06 rus10 ?!comp:ysaline ?!flag:fulgence_renvoye | « Viens, Fulgence. Mais tu gardes ta forme quand on te parle. » | « Promis. » Il ment, mais il fera des efforts. Il prend ton bras. | « Promis-juré-craché. » Il ne crache pas : il devient un lama pour cracher, puis s'excuse. Il vient. | +comp:fulgence +flag:fulgence_vu mor+1 | +comp:fulgence +flag:fulgence_vu
+* com_06 coe11 ?comp:ysaline ?!flag:fulgence_renvoye | Demander à Ysaline de rentrer au Carrefour, et emmener Fulgence | Ysaline te regarde longtemps. « Je vois. » Elle replie ses pattes. « On choisit toujours le plus amusant. » Elle part sans se retourner. Tu as gagné un métamorphe et perdu quelque chose que tu ne sais pas nommer. | Ysaline ne dit rien. Elle part. Fulgence n'ose pas te regarder pendant une heure, ce qui pour lui est un exploit. | -comp:ysaline +comp:fulgence +flag:ysaline_renvoyee +flag:fulgence_vu | -comp:ysaline +comp:fulgence +flag:ysaline_renvoyee +flag:fulgence_vu mor-1
+* com_06 coe10 | Décliner gentiment | Fulgence s'incline. « Tu as du goût. Dommage. » Il devient un chat et disparaît dans la foule. Tu crois l'apercevoir plus tard, sous trois formes différentes. | Il fait semblant de ne pas être vexé. Il devient un paon pour le prouver. Il disparaît. | +flag:fulgence_vu |
+
+@com_06
+!title: Pardon
+?from:com_07 Sous la table, le petit robot doré se serre contre un tréteau, en tremblant de toutes ses vis.
+?!from:com_03,from:com_07 Quelque chose de doré te fonce dans les jambes : un tout petit robot, qui court en s'excusant. « Pardon ! Pardon ! On me poursuit ! Pardon ! »
+?from:com_03 Le petit robot doré sort de sous le comptoir, en tremblant de toutes ses vis.
+C'est un géomètre de la Compagnie Foncière : un de ces robots qui mesurent les racines de la Forêt et les cratères de la Lune. Il porte un mètre ruban à la ceinture et une plaque gravée : « PARDON — Matricule 0. » « Ce n'est pas mon nom. C'est le mot que je disais le plus souvent. Ils l'ont gravé pour se moquer. Je l'ai gardé. »
+« J'ai déserté. On m'a demandé de mesurer une voix. Une voix de Lune. Je n'ai pas pu. Une voix, ça ne se mesure pas, pardon. » Au bout de l'allée, deux gardes dorés approchent, en s'excusant auprès de chaque passant.
+* com_09 pan11 | Le cacher sous ton manteau | Tu le caches. Les gardes passent, s'excusent de te déranger, regardent ton manteau qui dit « pardon » tout bas. Ils passent quand même. | Tu le caches mal : une jambe dépasse. Tu cours. Il court sous ton manteau. Vous avez l'air d'un animal mal assemblé. | pan+1 |
+* com_10 rus11 | Envoyer les gardes sur une fausse piste | « Un petit robot doré ? Il est parti par là, vers les éclipses. » Les gardes te remercient, s'excusent, et partent par là. | « Par là ! » Tu montres la direction où se cache le robot. Il te regarde avec reproche. Tu cours avec lui. | rus+1 |
+
+@com_07
+!title: Les lots de Lune
+Le stand des lots de Lune. Une carte de la Lune est punaisée au mur, découpée en petits carrés. Certains sont déjà marqués « VENDU ». « Mer de la Tranquillité : vue imprenable sur Aldébaran. » « Cratère Copernic, piscine incluse, pluie terrienne garantie. »
+Une vendeuse en tailleur d'or te sourit. « Vous voulez un morceau ? Pour vos enfants ? Ils pourront dire qu'ils ont eu un bout de Lune, avant. »
+?flag:pompes_arretees Sous « piscine incluse », quelqu'un a ajouté à la main : « (en attente de pluie) ». Tu es assez fier·ère de toi.
+Sous la table, le petit robot doré te tire par la manche. « Pardon. Ne signez rien. Je les ai mesurés, ces lots. Ils ne disent pas tout. »
+* com_06 coe10 | Suivre le robot sous la table | Tu te glisses sous la table. La vendeuse te regarde faire, puis décide que ce n'est pas dans son contrat. | Tu te glisses sous la table et tu restes coincé·e. Le robot t'aide à sortir de l'autre côté. | |
+* com_06 rus11 | Demander, très fort, ce que deviennent les gens de la Terre dans le contrat | La vendeuse rougit d'or. « Ce n'est pas... prévu. » Tout l'étal t'a entendu. Tu suis le robot qui file. | Elle te répond par une brochure. La brochure ne répond pas non plus. Tu suis le robot. | rus+1 equ+1 |
+
+@com_09
+Vous vous réfugiez derrière un étal d'étoiles filantes. Le robot reprend son souffle, ce qui pour un robot veut dire qu'il fait un bruit de ventilateur.
+« J'ai des choses qui pourraient servir », chuchote-t-il. « Les codes d'accès du Chantier, là-haut. Et le plan exact du crochet. Je l'ai mesuré moi-même. Pardon. »
+* com_11 coe10 | Lui dire qu'il n'a pas à s'excuser | Il te regarde. « Pas... à m'excuser ? » Il essaie de ne pas s'excuser. Il n'y arrive pas. Mais il essaie. | Il s'excuse de s'excuser. Tu abandonnes. | coe+1 |
+* com_11 rus11 | Lui demander de te montrer le plan du crochet | Il déroule un ruban de mesures. « Ici. Le crochet tient par trois boulons. Le troisième est fêlé. Pardon, c'est moi qui l'ai mal serré. Exprès. » | Il déroule le plan à l'envers. Vous regardez la Lune la tête en bas. Ça finit par avoir du sens. | rus+1 +flag:boulon_fele | +flag:boulon_fele
+
+@com_10
+Les gardes partis, le robot sort de sa cachette. « Merci. Pardon. Merci. » Il hésite. « Vous allez là-haut ? Sur le Chantier ? »
+« J'ai les codes d'accès. Et le plan du crochet. Trois boulons. Le troisième est fêlé. Je l'ai mal serré, pardon, exprès. »
+* com_11 coe11 | Lui demander pourquoi il a fait ça | « Parce qu'elle chantait. La Lune. Pendant que je mesurais. Une chanson sans paroles. Je n'ai pas de cœur, pardon, mais j'ai un ressort qui a mal. » | Il ne sait pas répondre. Il range son mètre. Il le ressort. Il le range. | coe+1 +flag:boulon_fele | +flag:boulon_fele
+* com_11 pan10 | « Montre-moi ça. » | Il te montre. Trois boulons. Un fêlé. Tu retiens tout. | | +flag:boulon_fele |
+
+@com_11
+Pardon range son mètre ruban. Il regarde ses pieds dorés. « Je ne sais pas où aller. Ils me cherchent partout. Je pourrais me cacher dans la queue de la comète. Ou alors... » Il n'ose pas finir la phrase.
+?comp:rocambole Le Capitaine Rocambole regarde Pardon de haut en bas, comme un douanier, ou comme un brocanteur. Il compte ses vis à voix basse, avec un sourire qui ne te plaît pas. « Un géomètre de la Compagnie, matricule zéro... Ça vaut combien, ça, sur le marché des pièces détachées ? » Pardon se cache derrière toi.
+?comp:quartz Le Docteur Quartz a déjà sorti un tournevis. « Je ne le démonterai pas. Je regarderai seulement. Beaucoup. »
+* com_12 coe10 | « Viens avec moi, Pardon. Personne ne te démontera. » | Pardon fait un petit bruit de photocopieuse, ce qui est sa façon de pleurer. « Pardon. Merci. Pardon. » Il te suit. Il marche dans tes pas, exactement, au millimètre. | Il hésite, mesure la distance jusqu'à toi, et vient. | +comp:pardon mor+1 | +comp:pardon
+* com_12 rus10 | Lui conseiller de se cacher dans la queue de la comète | Il se cache. Avant de disparaître, il te glisse un bout de ruban : les mesures du crochet, recopiées pour toi. « Pardon de ne pas venir. » | Il se cache. Il ne te laisse rien, mais il te fait un petit signe. | +flag:pardon_cache |
+
+@com_12
+!title: La vente aux enchères
+Quinze heures. Sous une tente dorée, un commissaire-priseur qui est une horloge de parquet frappe trois coups sur sa propre poitrine. « Lot unique ! Souvenirs d'enfance d'un grand homme d'Aldébaran, vendus par sa famille, qui n'en voulait plus ! »
+Sur la table : un petit coffre-fort tapissé de velours, un ours en feuilles d'or qui a perdu un œil, des cahiers d'écolier remplis de poèmes très mauvais. Et un miroir d'enfant, rayé, en or. Tout le monde sait de qui il s'agit. Personne ne le dit. Gédéon Platine a grandi dans ce coffre.
+?flag:fulgence_tuyau Fulgence t'avait prévenu : « Il y a des choses intéressantes à la vente de quinze heures. » Il est dans la salle, déguisé en femme du commissaire-priseur. Il te fait un signe.
+?!flag:fulgence_vu Au premier rang, une dame enchérit sur tout avec la voix d'un homme. À chaque enchère, elle change de chapeau, de taille, de sexe. Elle te remarque et te sourit, puis te fait un clin d'œil de plusieurs formes à la fois.
+Les enchères commencent. On paie en souvenirs. L'ours part pour un premier jour d'école. Les cahiers pour un dimanche pluvieux. Il reste le miroir.
+* com_13 rus12 | Enchérir avec un souvenir à toi | Tu lèves la main. « Le jour où j'ai appris à nager. » Silence. Puis le marteau tombe. Le souvenir sort de toi comme un poisson. Tu ne sais plus nager, un peu. Le miroir est à toi. | Tu proposes un souvenir. Quelqu'un au fond surenchérit avec « Mon premier amour, en entier ». Tu ne peux pas lutter. | rus+1 +flag:obj_miroir_platine | mor-1
+* com_14 pan11 | Profiter de la cohue pour prendre le miroir | Tu attends le moment où tout le monde regarde l'ours. Tu prends le miroir. Personne ne voit. Sauf le miroir. | Tu tends la main. Le commissaire-priseur sonne midi, ce qui est sa façon de crier au voleur. Tu fuis les mains vides. | pan+1 +flag:obj_miroir_platine | equ-1
+* com_13 coe10 ?!flag:fulgence_vu ?!flag:fulgence_renvoye ?!comp:fulgence ?!comp:ysaline | Demander à la dame aux mille chapeaux de t'aider | La dame devient un jeune homme flou. « Fulgence Mille-Formes. Avec plaisir. » Il devient le commissaire-priseur, adjuge le miroir à toi pour « un sourire », et te prend le bras. « Je viens avec toi. Je ne te demande pas ton avis : tu viens de me sourire. » | Il essaie de devenir le commissaire-priseur, mais il se trompe et devient une horloge de cuisine. Le vrai commissaire-priseur le chasse. Il s'en va en te faisant un baiser de loin. | +comp:fulgence +flag:fulgence_vu +flag:obj_miroir_platine | +flag:fulgence_vu
+
+@com_13
+?flag:obj_miroir_platine Le miroir est dans ta main. Il est petit, froid, rayé. Dedans, si tu regardes de travers, tu vois un enfant en feuilles d'or assis dans un coffre, qui attend qu'on vienne le chercher. Personne n'est jamais venu.
+?!flag:obj_miroir_platine Le miroir part pour « mon premier amour, en entier ». L'acheteur repart en souriant bêtement, sans savoir de qui il était amoureux. Tu n'as rien, sauf la tristesse étrange de l'avoir vu partir.
+~fulgence: « Un enfant dans un coffre. Je connais. On finit par prendre toutes les formes, pour qu'il y en ait une qu'on aime. »
+* com_15 coe10 | Sortir de la tente | Tu sors. Le soleil te fait mal aux yeux. | |
+* com_15 rus10 | Rester une minute, pour regarder le coffre vide | Tu regardes le coffre. Il y a des griffures à l'intérieur. De petites griffures, à hauteur d'enfant. Tu ne regardes plus. | | coe+1 |
+
+@com_14
+Tu cours entre les étals, le cœur battant. Derrière toi, l'horloge de parquet sonne toutes les heures à la fois.
+?flag:obj_miroir_platine Tu t'arrêtes derrière un étal d'éclipses. Tu ouvres la main. Le miroir est là. Dedans, un enfant en feuilles d'or te regarde, assis dans un coffre. Il a l'air d'attendre quelqu'un depuis très longtemps.
+?!flag:obj_miroir_platine Tu t'arrêtes derrière un étal d'éclipses, les mains vides. Tu as quand même vu le miroir de près, une seconde : dedans, un enfant attendait.
+* com_15 coe10 | Reprendre ton souffle, et continuer | Tu respires. Le marché continue, comme si rien n'était arrivé. Les marchés font toujours ça. | |
+
+@com_15
+!title: L'Horloger marchand
+Au fond du marché, un étal minuscule : un Horloger très vieux, figé à moitié, vend des clés. Des milliers de clés de remontage, de toutes les tailles. Il les remonte une par une pour qu'elles fassent tic-tac en attendant d'être achetées.
+Au centre, sous une cloche de verre, une grande clé de laiton. « Celle-là, elle peut remonter n'importe quel ressort. Un seul tour. Mais un tour, mon petit, c'est parfois cent ans. »
+?comp:pardon Pardon regarde la clé avec révérence. « C'est elle qui a remonté les premières horloges du monde. Pardon. Je l'ai mesurée, une fois, dans un catalogue. »
+?flag:obj_miroir_platine L'Horloger aperçoit le miroir d'or dans ta poche. Ses yeux s'allument. « Ça... J'ai fabriqué ce miroir, il y a cinquante ans. Pour un petit garçon d'Aldébaran qui voulait voir quelqu'un d'autre que lui. On ne me l'a jamais payé. »
+* com_16 rus11 | Offrir ton prochain anniversaire en échange de la clé | L'Horloger réfléchit. « Un anniversaire entier ? Avec le gâteau ? » Il accepte. L'année prochaine, tu passeras de la veille au lendemain. Tu as la clé. | « Trop jeune, ton anniversaire. Pas assez de bougies. » Il garde la clé. | rus+1 +flag:obj_cle_remontage |
+* com_16 coe10 ?flag:obj_miroir_platine | Lui rendre le miroir qu'il a fabriqué, contre la clé | Il prend le miroir comme on reprend un enfant. Il te tend la clé. « Marché conclu. » Tu as la clé, et le miroir est rentré chez lui. | | -flag:obj_miroir_platine +flag:obj_cle_remontage |
+* com_16 coe11 | Lui demander pourquoi il vend une clé si précieuse | « Pour mon vieil ami Remontoir. Le plus vieil Horloger du monde. Il ralentit. Je voulais vendre la clé pour lui acheter une dernière belle journée. » Il te regarde. « Mais toi, tu vas là où il va. Prends-la. Si tu le croises, tu sauras quoi faire. » | « Pour vivre, mon petit. Même les Horlogers mangent. » Il ne t'en dit pas plus. | +flag:obj_cle_remontage +flag:pour_remontoir |
+
+@com_16
+?flag:obj_cle_remontage La clé est lourde dans ta poche. Elle fait tic-tac, tout doucement, comme un cœur qui attend son tour.
+?!flag:obj_cle_remontage Tu repars sans la clé. L'Horloger la remet sous sa cloche et recommence à remonter les autres, une par une.
+Plus loin, une dispute éclate : deux marchands de comètes se disputent une météorite tombée pile entre leurs deux étals. Entre eux, se dépliant et se repliant à toute vitesse, un petit homme en papier plié essaie de négocier.
+* com_17 coe10 | T'approcher | Tu t'approches. Le petit homme de papier te voit et se déplie de soulagement. « Enfin un témoin ! » | Tu t'approches et un marchand te prend à partie. Le petit homme de papier s'interpose. | |
+
+@com_17
+!title: Monsieur Pli
+« Monsieur Pli, de l'ambassade de Tamponville. Diplomate en papier. J'ai négocié la paix entre deux volcans, le partage d'un nuage, et le divorce de deux continents. Ceci est une météorite. Je devrais m'en sortir. » Il se replie en cocotte, par nervosité, puis se déplie.
+Les deux marchands se tapent dessus avec des étoiles filantes.
+?comp:ondee Monsieur Pli aperçoit Dame Ondée, au-dessus de toi. Il se replie d'un coup, en tout petit carré, et murmure depuis l'intérieur : « Madame, je vous en supplie, ne pleuvez pas. Je suis du papier. Je vous admire de loin. De très loin. »
+* com_18 coe11 | L'aider à négocier | Tu proposes de couper la météorite en deux. Pli s'offusque : « On ne coupe pas une météorite ! » Puis il propose de la partager une semaine sur deux. Les marchands acceptent. Pli se déplie de fierté. | Tu proposes de la couper en deux. Les marchands trouvent ça si stupide qu'ils arrêtent de se battre pour se moquer de toi. Pli te remercie, gêné. | coe+1 equ+1 |
+* com_18 pan11 | Prendre la météorite et la rendre au ciel | Tu la soulèves et tu la lances vers le haut. Elle repart. Les deux marchands se regardent, puis se serrent la main : ils n'ont plus de raison de se battre. Pli est horrifié, puis ravi. | Tu la soulèves, tu la lâches sur ton pied. Les marchands éclatent de rire. Pli en profite pour faire signer un traité. | pan+1 | mor-1
+
+@com_18
+Pli se défroisse avec soin. « Vous êtes quelqu'un d'inhabituel. Vous allez là-haut, je le sens. Moi, l'ambassade m'a envoyé négocier "avec n'importe qui, sur n'importe quoi". La Lune, c'est n'importe quoi, et Platine, c'est n'importe qui. Emmenez-moi : je négocierai. »
+?flag:pli_renvoye Puis il te reconnaît, et se replie à moitié. « Ah. Vous m'avez déjà renvoyé une fois, aux Hauts-Nuages. Un diplomate ne revient pas là où on l'a congédié. C'est le protocole. »
+?comp:ondee Il jette un regard terrifié vers Ondée. « Mais je ne voyagerai pas sous un nuage. Ce n'est rien de personnel, madame. C'est de la chimie. »
+* com_19 coe10 ?!comp:ondee ?!flag:pli_renvoye ?!flag:pli_part_nua | « Venez, Monsieur Pli. » | Il se plie en quatre de joie, au sens propre. Puis il se déplie, se glisse dans ta poche de poitrine, et en dépasse comme une pochette de soie. | Il vient, mais il se froisse en entrant dans ta poche. Il te le reprochera, très poliment, pendant des jours. | +comp:pli mor+1 | +comp:pli
+* com_19 coe11 ?comp:ondee ?!flag:pli_renvoye ?!flag:pli_part_nua | Demander à Dame Ondée d'aller pleuvoir sur la Terre, pour emmener Pli | Ondée gronde, puis soupire une petite bruine. « Un diplomate. Tu préfères un diplomate à un orage. » Elle part vers l'ouest, pleuvoir sur des champs qui l'attendent. Pli s'incline très bas sur son passage. | Ondée part sans un mot, mais elle pleut sur toi en partant. Pli, lui, est resté au sec, dans ta poche. | -comp:ondee +comp:pli +flag:ondee_pleut +flag:ondee_renvoyee | -comp:ondee +comp:pli +flag:ondee_pleut +flag:ondee_renvoyee mor-1
+* com_19 rus10 | Lui conseiller de rentrer à l'ambassade | « Vous avez raison. Je négocierai d'ici. Par courrier. » Il te tend sa carte : un petit carré de papier plié en forme de Lune. | Il se vexe et se replie en enveloppe. Il s'envoie lui-même à l'ambassade. | |
+
+@com_19
+!title: La fermeture du marché
+Le soir tombe sur le Marché des Comètes. Les marchands replient leurs étals, les aurores se rangent dans des cartons, les étoiles filantes retournent dans leurs boîtes à œufs. La comète endormie, sous tout ça, ronfle un peu plus fort.
+?comp:pardon ?comp:rocambole Rocambole marche à côté de Pardon en sifflotant. Pardon marche de plus en plus près de toi. Tu sens que ça ne va pas tenir.
+?flag:obj_cle_remontage ?flag:obj_miroir_platine Tu as dans tes poches un miroir et une clé. Le miroir d'un enfant qui a attendu, la clé d'un temps qui ne revient pas. Ça te fait une poche lourde.
+~fulgence: « On repasse par ici après ? J'ai rendez-vous avec une aurore boréale. Elle ne le sait pas encore. »
+~pardon: « Pardon. J'ai mesuré le marché. Il fait trois cents mètres. Je trouve qu'il en faisait plus. »
+~pli: « J'ai négocié un rabais sur la nuit tombante. Elle tombera cinq minutes plus tard. »
+* hub_ret coe10 | Retourner au Carrefour | Tu descends de la comète. Elle te suit d'un œil ensommeillé, puis se rendort. | | mor+1 |
+* hub_ret rus11 | Repartir en marchandant un dernier souvenir contre une étoile filante | Tu donnes un souvenir sans importance, un mardi d'il y a longtemps. On te donne une étoile filante. Tu la laisses filer au-dessus du Carrefour. Les gens font un vœu. Toi aussi. | Tu marchandes mal. Tu donnes un bon souvenir contre une étoile qui ne file pas. Tu la poses dans un coin. Elle brille quand même. | mor+1 rus+1 | mor-1

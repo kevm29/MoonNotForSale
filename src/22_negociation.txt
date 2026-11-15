@@ -1,0 +1,248 @@
+# ================================================================
+# ACTE III-c — LE PROMONTOIRE (Gédéon Platine, la négociation)
+# ================================================================
+
+@neg_01
+!title: Le Promontoire
+Le Promontoire. Des couloirs dorés, des tapis épais, des tableaux de planètes vendues aux murs. Des petits robots de ménage s'inclinent sur ton passage. Tout est propre, poli, parfait, et tout sent un peu la solitude, comme un hôtel de luxe hors saison.
+Au bout du couloir, une porte immense : « Gédéon Platine — Président. Entrez sans frapper, je vous en prie. »
+* neg_02 coe10 | Entrer sans frapper | Tu entres. Il t'attend. | |
+* neg_03 rus11 | Frapper quand même, par principe | Tu frappes. Une voix douce, de l'autre côté : « Oh ! Quelqu'un qui frappe ! Comme c'est délicat ! Entrez, entrez. » | | rus+1 |
+
+@neg_02
+Le bureau de Platine. Une pièce ronde, dorée, avec une baie vitrée sur la Lune. Partout, des maquettes de mondes vendus. Et au centre, derrière un bureau de marbre, Gédéon Platine lui-même : grand, mince, en feuilles d'or si fines qu'elles laissent passer la lumière. Il se lève. Il sourit. Un sourire sincère, ce qui est le plus inquiétant.
+« Bienvenue. Bienvenue ! Vous êtes Terrien·ne ? Comme c'est émouvant. Asseyez-vous. Un thé ? Un poème ? »
+?pc:zephyrin Il te voit. Son sourire tremble. « Zéphyrin. Mon cher Zéphyrin. Vous êtes revenu. Je savais que vous reviendriez. » Il a l'air sincèrement heureux de te voir. C'est horrible.
+* neg_04 coe11 | Accepter le thé | Il te sert lui-même, avec une délicatesse infinie. Le thé est parfait. Tout est parfait. Tu as envie de crier. | | coe+1 |
+* neg_04 pan11 | Rester debout | Tu restes debout. Il hoche la tête, compréhensif. « Vous êtes en colère. C'est normal. Tout le monde est en colère contre moi. Je ne sais pas pourquoi. » | | pan+1 |
+
+@neg_03
+La porte s'ouvre sur un bureau doré. Gédéon Platine se lève derrière son bureau de marbre. Il a l'air ravi. « Vous avez frappé ! Personne ne frappe jamais. Les gens entrent pour vendre, ou pour acheter. Vous, vous avez frappé. » Il s'incline. « Gédéon Platine. Promoteur. Poète, à mes heures. Que puis-je pour vous ? »
+* neg_04 coe10 | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
+
+@neg_04
+Platine joint ses mains d'or. « Alors. Vous êtes venu·e jusqu'ici. Vous avez traversé le ciel, mon chantier, mes vigiles. Vous avez mis mes ouvriers en émoi. » Il sourit. « Vous voulez la Lune. Tout le monde veut la Lune. Mais c'est moi qui l'ai achetée. Légalement. Proprement. Avec des pâtisseries. »
+Il te regarde avec une bienveillance terrible. « Dites-moi. Pourquoi devrais-je vous la rendre ? »
+* neg_05 rus11 | Parler droit et contrat | Platine se penche en avant, intéressé. « Le droit ! J'adore le droit. C'est de la poésie avec des articles. » | |
+* neg_06 coe11 | Parler de ce que la Lune représente | Platine s'adosse. « Ah. Les sentiments. » Il soupire. « J'en ai beaucoup, vous savez. » | |
+* neg_07 rus12 | Parler argent et propriété | Platine s'illumine. « Enfin ! Une langue que je comprends parfaitement ! » | |
+* neg_08 pan12 | Le menacer | Platine ne bouge pas. Il te regarde avec une tristesse polie. « Me menacer ? Personne ne m'a jamais menacé. C'est presque flatteur. » | |
+
+@neg_05
+?!flag:acte_vente ?!flag:acte_cache « Le droit », dit Platine en ouvrant un tiroir. Il en sort l'acte de vente, encadré, sous verre.
+?flag:acte_vente,flag:acte_cache « Le droit », dit Platine en ouvrant un tiroir. Il en sort une copie de l'acte de vente, encadrée, sous verre. « L'original s'est égaré dans vos archives. Peu importe : chez nous, une copie certifiée vaut l'original. »
+?pc:basile Il ne te reconnaît pas. Personne ne sait reconnaître un lichen en particulier.
+« Acte 0000-L-001. Signé par le greffier compétent, tamponné, enregistré. Taxe d'orbite rachetée avec les pénalités. Tout est parfait. » Il caresse le cadre. « C'est mon plus beau contrat. »
+* neg_09 rus12 ?flag:dossier | Lui montrer ton dossier | Tu poses ton dossier sur le bureau de marbre. Platine le regarde. Son sourire se fige. | Tu poses ton dossier. Une feuille tombe. Tu la ramasses. Le moment est un peu gâché, mais le dossier est là. | |
+* neg_10 pan11 | Bluffer : prétendre qu'il y a un vice de forme | « Votre contrat a un défaut. » Platine pâlit. « Lequel ? » Tu n'en sais rien. Mais il a pâli. | « Lequel ? » Tu bafouilles. Il sourit, rassuré. | +flag:platine_inquiet |
+
+@neg_06
+« La Lune », dit Platine en regardant par la baie vitrée. « Elle est belle, n'est-ce pas ? Mais personne ne la regardait vraiment. Vous la laissiez tourner, toute seule, sans chauffage, sans éclairage, sans jardin. Moi, je vais lui donner un public. Des milliers de résidents. Qui la regarderont tous les jours. » Il a les yeux brillants. « Je l'aime, vous savez. »
+* neg_11 coe12 ?flag:platine_faille,flag:platine_reve,flag:platine_jamais_vu | Lui parler de ce que tu sais de lui | Tu lui parles. De la marée qu'il n'a jamais vue. De la pièce d'or qu'on n'a jamais dépensée. Des poèmes ratés. Il se tait. Il t'écoute. | Tu lui parles, mais tu cherches tes mots. Il t'écoute quand même, intrigué. | |
+* neg_12 coe11 | Lui dire qu'aimer, ce n'est pas posséder | Platine te regarde. « Mais comment aime-t-on, alors, si on ne possède pas ? » Il a l'air sincèrement perdu. | Il sourit. « Une jolie phrase. Je la mettrai dans un poème. » | coe+1 |
+
+@neg_07
+« L'argent », dit Platine, rayonnant. « Quarante-deux milliards de lunes-crédits. Plus les frais de chantier, plus les intérêts. Si vous voulez la racheter, il faudrait... » Il calcule. « Cinquante-huit milliards. Environ. Vous les avez ? » Il rit gentiment. « Personne ne les a. »
+* neg_13 coe12 ?flag:cagnotte,flag:souscription,flag:perles_chargees | Poser sur son bureau ce que la Terre a donné | Tu poses tout ce que la Terre t'a confié. Platine regarde. Il ne dit rien. | Tu poses tout, maladroitement. Des boutons roulent sous le bureau. Il les regarde rouler. | |
+* neg_14 rus12 ?flag:zep_actions,flag:reglement_copro,flag:golf_or | Parler de la copropriété | Platine se raidit. « La copropriété ? » Il sait de quoi tu parles. Il a écrit le règlement lui-même. Il le regrette déjà. | |
+* neg_15 pan11 | Lui dire que vous n'avez pas l'argent, mais que vous avez autre chose | « Autre chose ? » Il penche la tête. « Quoi donc ? » | |
+
+@neg_08
+« Me menacer ? » Platine joint les mains. « Avec quoi ? Vous êtes un·e, je suis une Compagnie. Vous êtes sur mon vaisseau. Vous n'avez pas d'armes. Vous n'avez pas d'armée. »
+?flag:gravitaires_allies « J'ai douze géants sous la Terre qui attendent mon signal. » Il cesse de sourire.
+?flag:greve « J'ai vos ouvriers en grève. » Il pâlit.
+* neg_15 pan12 | Lui décrire ce qui l'attend | Tu décris : la grève, les Gravitaires, la mer qui se lève, les rêves qui chantent. Il écoute. Ses feuilles d'or frémissent. | Tu décris, mais sans conviction. Il hoche la tête poliment. | +flag:platine_inquiet |
+* neg_06 coe10 | Renoncer à la menace et parler franchement | Tu baisses les bras. Il te regarde avec soulagement. « Merci. Je n'aime pas les menaces. Ça abîme les tapis. » | |
+
+@neg_09
+Ton dossier, sur le bureau de marbre. Platine lit. Il lit lentement, avec la concentration d'un poète devant une rime ratée.
+?flag:clause_affection « Clause d'affection... Ce contrat ne peut être cédé sans l'accord des deux parties... » Il pâlit.
+?flag:signature_lente « La signature n'est pas finie ? Elle pousse encore ? » Ses mains tremblent.
+?flag:contrat_livraison « Défaut de conformité... les fonctions habituelles... » Il se lève.
+?flag:lettre_lune,flag:lettre_tamponnee « Une réclamation de la Lune ? Tamponnée ? » Il se rassoit.
+« C'est... c'est un vice de forme. » Il le dit comme on annonce un décès.
+* neg_16 rus12 | Lui expliquer calmement que la vente est nulle | Tu expliques. Article par article. Il écoute. Il hoche la tête. Il souffre. « Un vice de forme. Dans mon plus beau contrat. » | Tu expliques mal. Il comprend quand même. C'est un spécialiste. | +flag:contrat_vice rus+1 | +flag:contrat_vice
+* neg_16 coe11 | Lui dire que ce n'est pas une faute, c'est une vérité | Il te regarde. « Une vérité ? » « La Lune n'a jamais dit oui. » Il se tait très longtemps. | | +flag:contrat_vice coe+1 |
+
+@neg_10
+?last:ok Platine a pâli. « Un vice de forme ? » Il saisit l'acte de vente, le relit, ligne par ligne. Il ne trouve rien. Mais il continue de chercher. Il a peur. Un poète a toujours peur de la faute qu'il n'a pas vue.
+?last:ko Platine sourit, rassuré. Puis, par acquit de conscience, il relit quand même l'acte, ligne par ligne. Il ne trouve rien. Mais il continue de chercher. Un poète a toujours peur de la faute qu'il n'a pas vue.
+« Vous mentez, n'est-ce pas ? » Il te regarde. « Mais vous avez raison d'avoir l'air sûr·e de vous. Il y a peut-être quelque chose. Il y a toujours quelque chose. »
+* neg_16 rus11 | Ne rien confirmer | Tu ne confirmes rien. Il continue de chercher. Le doute est planté. | | +flag:platine_inquiet |
+
+@neg_11
+Platine s'est assis. Ses mains d'or sont posées sur le marbre. Il regarde par la baie vitrée.
+« Personne ne m'a jamais dépensé. C'est vrai. Mes parents me gardaient dans un coffre. J'étais trop précieux pour être utilisé. » Il rit, doucement. « Alors j'ai décidé de tout acheter. Pour que les choses précieuses ne restent pas seules. » Il se tait. « Mais je les mets dans des vitrines. Comme on m'a mis dans un coffre. »
+Une feuille d'or se détache de sa joue. Elle tombe. C'est une larme.
+* neg_16 coe12 | Lui tendre la main | Il la regarde. Il hésite. Il la prend. Sa main est froide, puis tiède. « Personne ne me tient jamais la main. » | Il regarde ta main. Il n'ose pas. Mais il ne la repousse pas. | +flag:platine_emu coe+1 mor+1 | +flag:platine_emu
+
+@neg_12
+?last:ok « Comment aime-t-on, si on ne possède pas ? » répète Platine.
+?last:ko Platine note ta phrase dans un carnet doré. Puis il s'arrête, le stylo en l'air. « Mais comment aime-t-on, alors, si on ne possède pas ? »
+Il se lève, va à la baie vitrée. « Je ne sais pas. Je n'ai jamais appris. J'ai toujours acheté ce que j'aimais. C'est plus simple. On sait où c'est. »
+Il pose son front contre la vitre. « Vous croyez qu'elle m'aime, elle ? »
+* neg_16 coe12 | « Elle ne te connaît pas. Tu ne lui as jamais parlé. » | Il se retourne. « Lui parler ? » Il n'y avait jamais pensé. « On peut parler à la Lune ? » | | +flag:platine_question coe+1 |
+* neg_16 rus10 | « Non. » | Il ferme les yeux. « Non. Évidemment. » | | |
+
+@neg_13
+Sur le bureau de marbre, ce que la Terre a donné.
+?flag:perles_chargees Des perles par millions, que les huîtres des Côtes ont lâchées une à une.
+?flag:souscription,flag:cagnotte Des boutons, des dents de Gravitaire, des heures, des souvenirs.
+?flag:boite_biscuits La boîte à biscuits de la vieille Horlogère, avec ses cinq boutons et sa dent.
+?flag:cagnotte Le formulaire S-1, tamponné, qui fait de tout ça une institution, et cent ans de vie d'une vieille Lichenaute.
+Ça ne fait pas cinquante-huit milliards. Ça ne fait pas le dixième.
+Platine regarde. Longtemps. Il prend un bouton. Il le tourne entre ses doigts. « Qui a donné ça ? »
+* neg_16 coe12 | « Tout le monde. Tout le monde a donné quelque chose. » | Platine repose le bouton. Il a l'air bouleversé. « Tout le monde ? Pour elle ? » Il compte. Pas les perles : les donateurs. « Personne n'a jamais rien donné pour moi. » | Il ne dit rien. Il garde le bouton dans sa main. | +flag:offre_rachat +flag:platine_emu | +flag:offre_rachat
+* neg_16 rus11 | « C'est notre offre. À prendre ou à laisser. » | Platine sourit. « Une offre ridicule. » Il hésite. « Une offre... émouvante. Je la note. » | | +flag:offre_rachat |
+
+@neg_14
+« La copropriété », répète Platine. « Article 3 : l'unanimité. Article 4 : un seul copropriétaire peut bloquer toute décision. » Il soupire. « J'ai écrit ça pour me protéger des autres copropriétaires. Je n'ai jamais pensé qu'un Terrien en deviendrait un. »
+?flag:zep_actions « Zéphyrin a deux pour cent. Il les a encore. »
+?!flag:zep_actions ?!flag:golf_or Il se reprend. « Mais vous n'êtes pas copropriétaire. » Tu ouvres le règlement à l'article 12 : « Tout habitant de la Terre visible depuis les lots est réputé copropriétaire de la vue. » Il l'a écrit lui-même, pour vendre la vue plus cher. Il blêmit.
+?flag:golf_or « Un minigolf en or massif, trou numéro 7 ? C'est... c'est un lot. Celui qui le détient est copropriétaire. » Il te regarde. « Vous l'avez volé. Ingénieux. »
+* neg_16 rus12 | Annoncer que tu bloqueras tout | « Vous bloquerez tout ? » « Tout. Les piscines, les golfs, les tours. Rien ne se fera sans mon accord. Et je ne donnerai jamais mon accord. » Platine se prend la tête dans les mains. « Un conseil syndical. Vous allez me faire un conseil syndical. » | | +flag:copro rus+1 |
+
+@neg_15
+« Autre chose », dit Platine. Il s'assoit. Il attend.
+Tu lui parles de ce que tu as vu.
+?flag:vis_cot Les Marégraves qui écopent leurs maisons en chantant.
+?flag:vis_for Les arbres de la Forêt-Réseau qui ne savent plus vers quoi pousser.
+?flag:vis_pro Les Gravitaires assis sur l'Axe depuis trois jours, et leurs enfants qui ramassent les cailloux tombés.
+?flag:vis_son Les rêves qui tombent en morceaux, au Pays des Songes.
+?flag:vis_cap Les files d'attente de Tamponville, qui réclament un formulaire pour réclamer.
+?flag:vis_nua Les nuages à sec des Hauts-Nuages, et le nuageon qui n'arrive pas à faire sa première averse.
+?flag:vis_com Le Marché des Comètes, où l'on vend déjà ses cratères au détail, avec vue.
+Et le Carrefour, où tous les peuples de la Terre campent en regardant le ciel. Il écoute. Il ne sourit plus.
+* neg_16 coe11 | Lui demander s'il sait tout ça | « Non. » Il le dit très bas. « Personne ne me l'a dit. Mes rapports disaient : "Population locale : accessoires." » | | +flag:platine_inquiet coe+1 |
+
+@neg_16
+!title: Le silence de Platine
+Platine se tait. Longtemps. Il regarde par la baie vitrée, la Lune enchaînée à son crochet, la Terre au loin. Ses feuilles d'or frémissent.
+« Je dois réfléchir », dit-il enfin. « Je ne réfléchis jamais. Je décide. C'est plus rapide. Mais là, je dois réfléchir. »
+Et c'est à ce moment-là que la porte s'ouvre.
+* neg_17 rus11 ?comp:penelope | Pénélope s'avance | Pénélope entre, ses tampons levés. Platine se retourne. « Pénélope ? Ma chère Pénélope ? » | |
+* neg_18 coe11 ?flag:kramm_refuse,flag:kramm_demission | L'Huissier Krâmm entre | Krâmm entre, tiroirs fermés. Platine le regarde. « Krâmm ? L'inventaire est terminé ? » | |
+* neg_19 coe12 ?flag:galet_emporte | Sortir le Président de ta poche | Tu poses le galet sur le bureau de marbre. Platine le regarde, intrigué. « Qu'est-ce que c'est ? » « Le Président de la Terre. » | |
+* neg_20 coe12 ?flag:message_lune,flag:lune_consent,flag:reve_lune | Lui transmettre le message de la Lune | « Elle m'a parlé. La Lune. Elle m'a dit de te dire quelque chose. » Platine se fige. | |
+* neg_40 coe11 ?comp:gaspard | Gaspard traverse le mur | Le mur du bureau devient un peu plus froid. Puis Gaspard passe à travers, chapeau à la main. |  |
+* neg_41 rus11 ?flag:article | Poser l'édition spéciale du Courrier des Galeries sur le bureau | Tu déplies le journal sur le marbre. L'encre n'est pas tout à fait sèche. |  |
+* neg_42 coe11 ?comp:pli ?flag:traite | Laisser Monsieur Pli présenter son traité | Monsieur Pli sort de ta poche, se déplie et s'allonge sur le bureau, face écrite vers le haut. |  |
+* neg_43 coe11 ?flag:obj_miroir_platine | Poser le petit miroir d'or devant lui | Tu poses le miroir sur le marbre, sans un mot. |  |
+* neg_44 rus12 ?comp:fulgence ?flag:deguisement_fulgence | Laisser entrer la visiteuse que Fulgence a préparée | La porte s'ouvre sur une silhouette gantée, en feuilles d'or. |  |
+* neg_45 coe11 ?comp:ysaline ?flag:assemblee_femmes | Laisser Ysaline lire la motion de cette nuit | Ysaline s'avance, une feuille pliée en quatre entre deux pattes. |  |
+* neg_21 pan10 | Attendre ce qui arrive | Ce n'est personne. C'est une alarme. | |
+
+@neg_17
+Pénélope s'arrête au milieu du bureau. Elle regarde Platine. Elle lève sa main droite, celle qu'elle n'a jamais utilisée sur un vrai document. Le tampon « REFUSÉ ».
+« Monsieur. Je vous respecte. Vous avez toujours été poli. Vous m'avez toujours dit merci. Mais je... » Elle tremble. Elle tamponne l'acte de vente, encadré, sur le verre. « REFUSÉ. »
+Le tampon laisse une marque rouge sur la vitre du cadre. Platine regarde la marque. Puis Pénélope.
+* neg_21 coe12 | Laisser Platine répondre | Platine se lève. Il s'approche de Pénélope. Il la regarde longtemps. Puis : « Ma chère. Vous avez dit non. » Il sourit. Un vrai sourire. « Vous êtes devenue quelqu'un. » | Platine ne dit rien. Il regarde le tampon rouge. Il a l'air d'un homme qui vient de recevoir sa première lettre. | +flag:penelope_refuse +flag:platine_emu | +flag:penelope_refuse
+* neg_21 rus11 | Ajouter que le refus de son assistante a valeur administrative | « Un refus tamponné par l'assistante de direction ? » Platine réfléchit. « Techniquement... techniquement, ça suspend l'exécution. » | | +flag:penelope_refuse +flag:suspension |
+
+@neg_18
+L'Huissier Krâmm se tient au milieu du bureau. Il ouvre son dernier tiroir. Il en sort un papier : son rapport d'inventaire final. Il le pose sur le bureau.
+« Marées : nombre impossible, valeur inestimable, non cessibles. Rêves : non dénombrables. Lettres d'amour : dix mille neuf cent cinquante et une, non classées comme déchets. Lune : en état de détresse. Article premier, et dernier : je refuse de signer cet inventaire. »
+Platine lit. Il lève les yeux. « Krâmm. Vous refusez ? Vous n'avez jamais rien refusé. »
+* neg_21 coe12 | Laisser Krâmm parler | Krâmm ouvre un tiroir. Il en sort le dessin de sa fille, ou son souvenir. « Ma fille m'a demandé si je déménageais la Lune. J'ai dit oui. Je vais lui dire non. » | | +flag:kramm_refuse +flag:platine_inquiet |
+
+@neg_19
+Platine regarde le galet sur son bureau. Le Président de la Terre. Gris clair, rond, immobile. Il ne dit rien. Il n'a jamais rien dit, ou presque.
+Platine le prend dans sa main, par curiosité. Il est chaud. Platine sursaute. « Il est chaud. »
+Et dans le silence du bureau, très bas, très lent, le galet dit un mot. Un seul.
+« ...reste. »
+* neg_21 coe12 | Laisser le silence suivre le mot | Platine tient le galet longtemps. Il ne le lâche pas. « Il a parlé. À moi. » Il a l'air de quelqu'un qui vient d'être reconnu par un roi. | | +flag:galet_parle +flag:platine_emu |
+
+@neg_20
+« Elle ne veut pas partir. Elle tourne autour de la Terre par affection, pas par contrat. »
+?flag:message_lune « Elle m'a dit que tu n'étais pas méchant. Que tu étais seul. Qu'elle te voyait, la nuit, écrire des poèmes pour elle. Qu'ils sont mauvais. Mais que tu les écris. »
+Platine ne bouge plus du tout. Ses feuilles d'or cessent de frémir.
+?flag:message_lune « Elle les a lus ? Mes poèmes ? »
+?!flag:message_lune « Elle vous a parlé ? À vous ? » Il regarde la Lune comme s'il la voyait pour la première fois. « Et de moi... elle a dit quelque chose ? »
+* neg_21 coe12 ?!flag:message_lune | « Elle sait que tu existes. Elle voit tout, d'en haut. » | Platine s'assoit lentement. « Elle me voit. » Il le répète deux fois, comme un vers. Ses mains tremblent. | Il ne dit rien. Mais il ne quitte plus la Lune des yeux. | +flag:platine_emu |
+* neg_21 coe12 ?flag:message_lune | « Elle les lit tous. Elle garde tout. » | Platine s'assoit. Il cache son visage dans ses mains d'or. Il pleure. Ça fait un bruit de pièces de monnaie qu'on laisse tomber une à une. | Il ne dit rien. Mais ses mains tremblent. | +flag:platine_emu +flag:message_lune mor+1 | +flag:platine_emu
+
+@neg_21
+Une alarme. Rouge, stridente, impolie pour une fois. Une voix synthétique : « Jour sept. Sortie d'orbite programmée. Les moteurs du Promontoire s'allument dans dix minutes. Merci de vous attacher. Merci de votre compréhension. »
+Par la baie vitrée, tu vois le câble se tendre. La Lune frémit. Elle va quitter son orbite. Dans dix minutes.
+Platine regarde l'horloge. Puis toi.
+* neg_22 coe11 | Lui demander d'arrêter les moteurs | « Arrêter ? » Il regarde le bouton rouge sur son bureau. « Je n'ai jamais arrêté quoi que ce soit. Je ne sais pas si je peux. » | |
+* neg_23 rus11 | Lui demander ce qu'il va faire | Il te regarde. « Je ne sais pas. C'est la première fois que je ne sais pas. » | |
+
+@neg_22
+Platine pose la main sur le bouton rouge. Il ne le presse pas. « Si j'arrête, je perds tout. La Compagnie me licenciera. Les copropriétaires me poursuivront. Je serai ruiné. Je serai... » Il cherche le mot. « Dépensé. »
+Il te regarde. « Que feriez-vous à ma place ? »
+* neg_24 coe12 | « Je me laisserais dépenser. Pour quelque chose qui en vaut la peine. » | Il te regarde. Il sourit, lentement. « Dépensé pour quelque chose. » Il répète la phrase comme un vers. « C'est joli. » | Il ne comprend pas tout de suite. Il note la phrase. | coe+1 +flag:platine_question |
+* neg_25 rus11 | « Je regarderais ce que ça vaut vraiment. » | Il regarde la Lune par la baie vitrée. « Ce qu'elle vaut ? » « Non. Ce qu'elle est. » Il se tait. | | |
+
+@neg_23
+Platine ouvre un tiroir. Il en sort un carnet relié de cuir doré. « Mes poèmes. Pour elle. Je ne les ai jamais lus à personne. » Il l'ouvre. Il lit, d'une voix qui tremble :
+« Ô Lune, toi qui brilles pour rien,
+Je te donnerai un prix, et le prix sera ta beauté,
+Et ta beauté sera dans une vitrine,
+Et je viendrai te voir le dimanche. »
+Il referme le carnet. « C'est mauvais, n'est-ce pas ? »
+* neg_24 coe12 | « C'est mauvais. Mais c'est la phrase la plus triste que j'aie jamais entendue. » | Il rit. Un rire qui casse. « Merci. Personne ne m'avait jamais dit la vérité sur mes poèmes. » | | coe+1 +flag:platine_emu |
+* neg_24 rus10 | « La dernière ligne. Tu viendrais la voir le dimanche. Pourquoi seulement le dimanche ? » | Il réfléchit. « Parce que je travaille les autres jours. » Il se tait. « C'est absurde, non ? » | | +flag:platine_faille |
+
+@neg_24
+!fx: +flag:offre_concierge
+Platine se redresse. Il redevient promoteur, un instant. « Je vais vous faire une proposition. Signez ici. Vous serez concierge en chef de Lune-sur-Mer. Logé·e, nourri·e, avec vue sur votre planète. Vous pourrez la regarder tous les jours. Vous serez avec la Lune. Pour toujours. » Il te tend un stylo en or. « C'est une offre généreuse. »
+* neg_26 pan12 | Refuser net | « Non. » Il range le stylo. Il a l'air presque soulagé. « Bien. Je savais que vous diriez non. Je voulais l'entendre. » | Tu hésites une seconde de trop. Il le voit. Puis tu dis non. | pan+1 |
+* neg_27 rus11 | Prendre le stylo, sans signer | Tu prends le stylo. Tu le regardes. Il est lourd, beau, glacé. Tu le gardes à la main. Tu ne signes pas. Pas encore. | | +flag:stylo_or |
+
+@neg_25
+Platine regarde la Lune. Longtemps. Puis : « Vous savez ce qu'elle est, vous ? »
+Tu réfléchis. Tu penses à tout ce que tu as vu : la maison pleine de fenêtres, les lettres gardées, la marée qui se lève pour la saluer, les Marégraves partis devenus poussière, la petite voix dans la roche qui demandait si elle avait le droit de vouloir.
+* neg_26 coe12 | « Elle est quelqu'un. » | Platine ferme les yeux. « Quelqu'un. » Il répète. « J'ai acheté quelqu'un. » | | coe+1 +flag:platine_emu |
+
+@neg_26
+Platine se rassoit. Il a l'air épuisé, vieux, presque transparent. « Il reste cinq minutes avant les moteurs. » Il regarde par la baie vitrée. « Et je ne sais toujours pas quoi faire. »
+Dehors, quelque chose se passe.
+?flag:gravitaires_allies Sur la Terre, les douze géants de l'Assemblée attendent ton signal.
+?flag:echarpe_nouee Une écharpe de lumière relie la Lune à la Terre, et elle brille de plus en plus fort.
+?!flag:gravitaires_allies ?!flag:echarpe_nouee ?!flag:greve Sur la face nocturne de la Terre, des feux s'allument. Un, puis cent, puis des milliers. Tous ceux qui regardent le ciel ont allumé quelque chose.
+?flag:greve Sur la Lune, les ouvriers ont posé leurs casques et forment, sur la poussière, des lettres immenses : « NON ».
+* neg_28 coe11 | Regarder avec lui | Vous regardez ensemble. Le promoteur et toi, côte à côte, devant la baie vitrée. Comme deux personnes devant un coucher de soleil. | | |
+* neg_28 rus10 | Lui montrer ce qui se passe | Tu pointes du doigt. Il regarde. Il voit. | |
+
+@neg_27
+Tu tiens le stylo en or. Platine attend. Il ne te presse pas. Il n'a jamais pressé personne. Il attend que les gens signent d'eux-mêmes. C'est son talent.
+Tu penses à la Lune. Concierge. Pour toujours. Avec elle. Mais avec elle prisonnière. Toi aussi.
+* neg_26 coe11 | Poser le stylo | Tu poses le stylo sur le marbre. Platine le regarde. Il ne le reprend pas. | | |
+* neg_28 rus11 | Garder le stylo dans ta poche, au cas où | Tu le gardes. On ne sait jamais. Un stylo, ça sert à signer, mais aussi à rayer. | | +flag:stylo_or |
+
+@neg_28
+Le Promontoire tremble. Les moteurs se préparent. Une voix : « Trois minutes. »
+Platine se lève. Il te regarde. « Je vais vous dire quelque chose. Je ne l'ai jamais dit à personne. Je crois que j'ai acheté la Lune parce que j'étais jaloux. Jaloux de la Terre. Elle avait quelqu'un qui tournait autour d'elle depuis toujours. Moi, je n'ai jamais eu personne qui tourne autour de moi. »
+Il baisse les yeux. « C'est ridicule. »
+* neg_29 coe12 | « Ce n'est pas ridicule. C'est triste. » | Il te regarde. « Triste ? » « Oui. Et ça se répare. » | | coe+1 +flag:platine_emu |
+* neg_30 pan11 | « Alors laisse-la partir. Je veux dire : rester. » | Il rit, malgré lui. « Rester. Oui. » Il pose la main sur le bouton. Il hésite encore. | | |
+
+@neg_29
+« Ça se répare ? » Platine s'assoit. « Comment ? »
+Tu ne sais pas exactement. Mais tu sais qu'il y a plusieurs chemins. Tu les as vus, tu les as préparés, tu les as portés jusqu'ici. Maintenant, il faut choisir.
+* neg_31 coe10 | Lui dire que c'est à toi de choisir, maintenant | Il hoche la tête. « Alors choisissez. Je vous écoute. Je n'ai jamais écouté personne. Je commence. » | |
+
+@neg_30
+Platine a la main sur le bouton rouge. Il tremble. « Deux minutes », dit la voix synthétique. Dehors, le câble se tend. La Lune frémit. La Terre, au loin, attend.
+Il te regarde. « Dites-moi quoi faire. Je ferai ce que vous direz. Je crois. »
+* neg_31 coe11 | Prendre une grande respiration | Tu respires. Tu as tout ce qu'il te faut. Ou pas. Il est temps de décider. | |
+
+@neg_31
+Une minute. Le Promontoire tremble de tous ses rivets dorés. Par la baie vitrée, tu vois la Lune, la Terre, le câble. Tu vois aussi, dans le reflet de la vitre, ton propre visage. Tu as changé. Tu ne sais pas en quoi.
+?comp:bartho Bartholomé, derrière toi : « Allez. Décide. Moi, je râlerai après. »
+?comp:melusine Tante Mélusine : « QUOI QUE TU FASSES, ENFANT, JE PLEURERAI ! »
+?comp:echo Écho, très bas : « ... reste. »
+?comp:quartz Dr Quartz : « Toutes les options ont une probabilité non nulle. C'est merveilleux. »
+?comp:brume Brume-Lucie : « Je suis là. Jusqu'au bout. »
+?comp:rocambole Rocambole : « Fais quelque chose de stupide, mon ami. Ça marche toujours. Parfois. »
+?comp:penelope Pénélope : « Je tamponnerai ce que vous déciderez. »
+?comp:fernand Fernand, brillant : « Article premier : décidez. Article deux : vite. »
+?comp:meduses Le Chœur : « NOUS SOMMES D'ACCORD. AVEC QUOI ? DÉCIDE. »
+* neg_32 coe10 | Te tourner vers Platine | Tu te tournes vers lui. Il attend. Il n'a jamais attendu quelqu'un. | |
+
+@neg_32
+!title: Une minute
+Platine, la main sur le bouton. Toi, face à lui. La Lune derrière la vitre. La Terre au loin. Quelque part, des peuples entiers qui retiennent leur souffle. Des Marégraves sur les plages, des Lichenautes sur la Toile, des Gravitaires sur l'Axe, des Horlogers figés, des Somnambules qui rêvent.
+« Trente secondes », dit la voix.
+* fin_01 coe11 | Parler | Tu ouvres la bouche. | |

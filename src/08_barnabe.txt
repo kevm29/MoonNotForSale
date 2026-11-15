@@ -1,0 +1,138 @@
+# ================================================================
+# PROLOGUE — LORD BARNABÉ FRISSEPOIL, lycanthrope distingué (Loup-garou)
+# ================================================================
+
+@lyc_01
+!title: Le Club des Lycanthropes Distingués
+Le Club des Lycanthropes Distingués occupe un manoir de pierre noire au milieu de la lande, depuis 1611. Fauteuils de cuir griffés, portraits de membres à deux visages, et un règlement intérieur qui interdit de manger les domestiques « sauf accord écrit ». Ce soir, c'est la pleine lune. Tous les membres sont là, en smoking, prêts à se transformer à vingt-deux heures précises, comme chaque mois depuis quatre siècles.
+Tu es Lord Barnabé Frissepoil. Loup trois nuits par mois, gentilhomme le reste du temps. Tu as toujours préféré le loup. Le gentilhomme, tu le portes comme un costume trop serré.
+* lyc_02 pan10 | Monter sur la terrasse pour voir la Lune se lever | Tu montes les escaliers quatre à quatre. Tu as toujours un peu de loup dans les jambes, les soirs de pleine lune. | Tu montes les escaliers quatre à quatre et tu t'essouffles à la troisième volée. Le loup ne répond pas. | pan+1 |
+* lyc_03 coe10 | Saluer les anciens à la bibliothèque | Tu entres dans la bibliothèque, où les vieux membres attendent l'heure au coin du feu. | | coe+1 |
+
+@lyc_02
+La Lune se lève sur la lande. Elle est pleine, mais elle est petite. Plus petite que le mois dernier. Et elle penche, avec un éclat doré planté dans le flanc, comme une broche mal mise.
+Tu sens le loup en toi. Il se réveille. Mais faiblement, comme un chien qu'on appelle de trop loin. Tu lèves la tête pour hurler, par habitude, et il sort de ta gorge un petit cri aigu, en fausset, ridicule.
+En bas, dans le parc, quelqu'un rit. Puis quelqu'un d'autre hurle aussi, en fausset. Puis tout le monde se tait.
+* lyc_04 pan10 | Redescendre pour l'heure de la transformation | Tu redescends. Il est vingt-deux heures moins cinq. | |
+
+@lyc_03
+La bibliothèque. La Duchesse Grisemuffle, présidente du Club, une louve-garou de trois cents ans aux cheveux d'argent, lit le journal au coin du feu. Elle hoche la tête en te voyant : « Frissepoil. »
+Dans le grand fauteuil, devant les braises, Sir Hector dort. Sir Hector a quatre cents ans. Il est le doyen. Avec l'âge, il est devenu loup à quatre-vingt-dix pour cent : il ne redevient presque plus jamais humain. Il a des moustaches, des griffes, une queue qui dépasse de son smoking, et il ronfle comme une meute.
+* lyc_04 coe10 | Remettre la couverture de Sir Hector sur ses genoux | Tu remets la couverture. Il grogne dans son sommeil, content. La Duchesse te regarde faire sans rien dire. | | |
+
+@lyc_04
+!title: Vingt-deux heures
+?from:lyc_02 Par la porte entrouverte de la bibliothèque, tu aperçois la Duchesse Grisemuffle, présidente du Club, qui lit au coin du feu, et dans le grand fauteuil, Sir Hector, le doyen : quatre cents ans, loup à quatre-vingt-dix pour cent. Il dort.
+La cloche sonne vingt-deux heures. Dans le grand salon, quarante gentlemen et ladies posent leur verre, ferment les yeux et appellent leur loup.
+Il ne se passe presque rien.
+Lady Pétunia obtient des oreilles pointues, et c'est tout. Le Major Harcourt obtient une queue, qui fait tomber trois verres. Le jeune Fitzwilliam se transforme entièrement, mais en caniche. Il ne s'en remettra pas.
+* lyc_05 pan11 | Appeler ton loup de toutes tes forces | Tu fermes les yeux. Tu serres les poings. Tu appelles. Quelque chose répond, tout au fond, très loin. | Tu appelles. Rien ne répond. Puis, à force d'insister, une douleur dans la mâchoire. | pan+1 |
+* lyc_06 rus11 | Observer ce qui arrive aux autres | Tu regardes autour de toi. Tu ne te transformes pas, mais tu vois tout. | Tu regardes autour de toi, et tu oublies d'appeler ton loup. Ta mâchoire, elle, s'en souvient : une douleur brutale. | rus+1 |
+
+@lyc_05
+?last:ok Ton loup répond. Tu sens tes épaules s'élargir, ton nez s'allonger, tes oreilles... Puis tout s'arrête. Il recule. Il retourne au fond. Il n'a pas la force.
+?last:ko La douleur grandit dans ta mâchoire, comme si quelque chose voulait sortir de ta bouche plutôt que de ton corps.
+* lyc_07 pan10 | Serrer les dents | Tu serres les dents. C'est une erreur. | |
+
+@lyc_06
+Tout le monde échoue, plus ou moins. Mais personne ne regarde le grand fauteuil de la bibliothèque, par la porte entrouverte. Sir Hector ne s'est pas réveillé pour la cloche. Sir Hector se réveille toujours pour la cloche.
+Tu fais un pas vers la bibliothèque. Et ta mâchoire se met à te faire mal, brutalement.
+* lyc_07 rus10 | Porter la main à ta bouche | Quelque chose se détache. | |
+
+@lyc_07
+!fx: +flag:obj_croc_argent
+Un croc tombe dans ta main. Ton dernier croc de loup : la grande canine d'argent qui te poussait les nuits de pleine lune. Elle brille, froide, dans ta paume. Elle ne repoussera pas. Tu le sais comme on sait qu'une porte vient de se fermer.
+Dans la bibliothèque, la Duchesse crie ton nom. Pas « Frissepoil ». Barnabé. Elle ne t'a jamais appelé Barnabé.
+* lyc_08 pan10 | Courir à la bibliothèque | Tu cours. Tu ranges le croc dans ta poche de poitrine, sans réfléchir, comme une lettre. | |
+
+@lyc_08
+Sir Hector est réveillé. Il est tout petit dans son grand fauteuil. Sa fourrure tombe par plaques. Ses griffes sont redevenues des ongles. Ses yeux jaunes pâlissent. Il te regarde, et il sourit avec une bouche qui n'a plus de crocs.
+« Ah. Barnabé. Tu vois ce qui se passe ? J'étais loup à quatre-vingt-dix pour cent. Sans la Lune, il ne reste que les dix pour cent. » Il tousse. « Un vieux monsieur très fatigué. Ce n'est pas assez pour vivre, dix pour cent. »
+* lyc_09 coe12 | Rester avec lui | Tu t'agenouilles. Tu prends sa main. Elle est humaine, maintenant, ridée, toute petite. | Tu t'agenouilles. Tu ne sais pas quoi dire. Tu prends sa main quand même. | coe+1 |
+* lyc_10 pan11 | Courir chercher le médecin du Club | Tu fonces dans les couloirs en hurlant « Docteur ! », en fausset. | Tu fonces, tu te trompes de couloir deux fois. | |
+
+@lyc_09
+Sir Hector serre ta main. « Écoute-moi, petit. Quand j'étais jeune, en 1640, j'ai couru toute une nuit derrière elle, sur la lande. Je croyais que je pourrais la rattraper. » Il rit, doucement. « On ne la rattrape pas. Mais on peut l'empêcher de partir. Ça, c'est autre chose. »
+Il ferme les yeux. « Va la chercher, Barnabé. Et hurle juste, pour une fois. »
+Il ne les rouvre pas.
+* lyc_11 coe10 | Rester encore un moment | Tu restes. Tu gardes sa main jusqu'à ce qu'elle soit froide. La Duchesse pose une main sur ton épaule. | | +flag:mort_hector mor-2 |
+
+@lyc_10
+Le médecin du Club est un vétérinaire, par tradition. Il court avec toi, sa sacoche à la main. Mais quand vous arrivez à la bibliothèque, la Duchesse Grisemuffle est agenouillée devant le grand fauteuil, et elle ne se retourne pas.
+« Il a demandé où tu étais », dit-elle. « Il a dit : "Dites à Barnabé d'aller la chercher. Et de hurler juste, pour une fois." Puis il est parti. »
+Sir Hector est tout petit dans son fauteuil. Il a l'air de dormir. Il a l'air d'un vieux monsieur.
+* lyc_11 coe10 | T'asseoir à côté de la Duchesse | Tu t'assois. Vous restez là, tous les deux, sans rien dire, jusqu'à ce que le feu s'éteigne. | | +flag:mort_hector mor-2 |
+
+@lyc_11
+!title: L'enterrement de Sir Hector
+On enterre Sir Hector au milieu de la lande, à minuit, sous la Lune trop petite. Tous les membres du Club sont là, avec leurs oreilles de travers, leurs queues à moitié, et le pauvre Fitzwilliam en caniche, qui pleure dans le pli du pantalon du Major.
+La Duchesse Grisemuffle prend la parole. « Mes amis. Le Club des Lycanthropes Distingués n'a plus de raison d'exister. Nous ne sommes plus des loups. Nous sommes des gens en smoking dans une lande. Je propose la dissolution. »
+Personne ne dit rien. Le vent souffle sur la lande.
+* lyc_12 pan12 | Protester | « Non ! On ne dissout pas un club. On le venge. » Ta voix porte, cette fois. Pas de fausset. Tout le monde se retourne. | « Non ! » Ça sort en fausset. Quelqu'un rit. Puis personne ne rit plus, parce que tu as raison quand même. | pan+1 |
+* lyc_13 coe11 | Prononcer l'éloge funèbre | Tu t'avances au bord de la tombe. | |
+
+@lyc_12
+La Duchesse Grisemuffle te regarde longtemps. « Le venger contre qui, Frissepoil ? Contre la Lune ? »
+« Contre celui qui l'a achetée. »
+Un murmure parcourt l'assemblée. Ils ont lu les journaux, comme tout le monde. Ils savent : un promoteur, un crochet, un chantier.
+La Duchesse hoche la tête. « Alors venge-le. » Elle décroche de son cou la médaille du Club, une tête de loup en argent noirci, et te la passe autour du cou. « Le Club n'est pas dissous. Il est en mission. Et tu es la mission. »
+* lyc_14 pan10 | Accepter, la gorge serrée | Tu acceptes. La médaille est lourde. Elle sent la fourrure et le vieux cognac. | | +flag:medaille_club mor+1 |
+
+@lyc_13
+Tu t'avances au bord de la tombe. Tu ne sais pas faire les discours. Tu sais hurler. Alors tu hurles. Pour Sir Hector.
+Ça sort en fausset, aigu, ridicule. Et puis, au milieu du hurlement, ta voix se casse, et redescend, et quelque chose de grave et de vrai sort de ta poitrine : pas un hurlement de loup, mais un cri d'homme qui a perdu quelqu'un.
+Un par un, les membres du Club hurlent avec toi. En fausset, en grave, en caniche. Toute la lande hurle. C'est le plus beau hurlement de l'histoire du Club, et pas un seul d'entre vous n'est un loup.
+* lyc_14 coe10 | Laisser le silence revenir | Le silence revient. La Duchesse s'essuie les yeux avec un gant. « Bien hurlé, Barnabé. Il aurait aimé. Juste, pour une fois. » | | mor+2 +flag:hurlement_juste |
+
+@lyc_14
+Un bruit de sabots sur la lande. Un carrosse noir, tiré par quatre chevaux noirs, avec des lanternes rouges, s'arrête au bord du cimetière improvisé. La portière s'ouvre. Une femme en descend, pâle, magnifique, dans une robe de deuil qui a l'air d'avoir déjà servi plusieurs siècles.
+La Comtesse Vespérine. La vampire du château d'en face. Trois cents ans de voisinage, deux cents ans de procès pour un mur mitoyen, et une valse, une seule, en 1702, dont tu te souviens chaque nuit.
+* lyc_15 coe11 | Aller l'accueillir | Tu vas vers elle. Tu as l'impression d'avoir dix-huit ans, et un smoking trop petit. | Tu vas vers elle, et tu trébuches sur une racine. Elle te regarde trébucher avec intérêt. | |
+* lyc_15 pan10 | La laisser venir à toi | Tu restes immobile, digne, les mains derrière le dos. Elle vient. Elle vient toujours, à la fin. | |
+
+@lyc_15
+!title: La Comtesse Vespérine
+« Frissepoil. » Elle ne te tend pas la main. Elle ne la tend jamais. « Je suis venue pour Hector. Il m'a fait danser en 1702, avant toi. Il dansait mieux. »
+Elle regarde la tombe, puis la Lune. Son visage est un masque très ancien, très bien entretenu. Mais sa voix tremble un peu. « Tu sais ce que c'est, une nuit sans Lune, pour nous ? C'est une maison où on aurait éteint toutes les lampes, et emporté les meubles, et oublié de nous prévenir. »
+* lyc_16 pan11 | Lui faire un compliment | « Vous êtes toujours aussi belle, Comtesse. Même en deuil. Surtout en deuil. » | « Vous êtes toujours aussi... » Tu cherches le mot. Elle attend. Tu ne le trouves pas. | pan+1 |
+* lyc_17 coe11 | Lui parler sérieusement | « Je vais la chercher, Vespérine. Hector me l'a demandé. » | « Je vais... » Tu t'arrêtes. Elle comprend quand même. | coe+1 |
+
+@lyc_16
+?last:ok Elle te regarde. Elle ne rit pas. Puis elle rit, un petit rire de cristal qui fait se taire les chouettes. « Toujours aussi ridicule, Frissepoil. Trois siècles, et toujours aussi ridicule. » Elle a l'air contente.
+?last:ko Elle attend encore un peu. Puis elle soupire. « Toujours aussi ridicule, Frissepoil. » Elle a l'air contente quand même.
+« Où vas-tu, maintenant que tu n'as plus de loup ? »
+* lyc_18 coe10 | « La chercher. » | Elle hausse un sourcil parfait. | |
+
+@lyc_17
+Elle te regarde longtemps, avec ses yeux d'hiver. « La chercher ? Là-haut ? Toi, qui as le vertige sur un tabouret ? »
+« Hector me l'a demandé. »
+Elle se tait. Elle regarde la tombe. « Alors il faudra que quelqu'un t'empêche de mourir sans élégance. »
+* lyc_18 coe10 | Attendre qu'elle finisse sa pensée | Tu attends. Elle ne la finit pas. Elle n'a jamais fini une phrase qui risquait d'être tendre. | |
+
+@lyc_18
+Un corbeau se pose sur la pierre tombale, un journal dans le bec. Il le lâche à tes pieds : « Le Courrier de la Lande. Édition spéciale. Tous les peuples se rassemblent au Carrefour des Espèces. Le Conseil des Espèces va se réunir pour la première fois de l'histoire. »
+C'est là qu'il faut aller. C'est là que tout le monde va.
+* lyc_19 coe12 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | « Venez... » Elle t'interrompt : « Je viens. Pour surveiller que tu ne meures pas sans élégance. Ne te fais pas d'idées. » Tu te fais des idées. | +comp:vesperine mor+1 | +comp:vesperine
+* lyc_20 pan11 | Partir seul, à pied, comme un loup | Tu lui fais une révérence et tu pars dans la lande. Tu l'entends dire, derrière toi : « La nuit, tout finit par se rejoindre, Frissepoil. » | | |
+
+@lyc_19
+Le carrosse de la Comtesse roule toute la nuit sur la lande. À l'intérieur, il fait sombre, il fait frais, ça sent la cire et la mûre. Elle boit du jus de mûre dans un verre de cristal. Elle n'en propose pas. Puis elle en propose.
+~vesperine: « Ne t'assieds pas trop près. Je mords encore, tu sais. Par principe. »
+* lyc_21 coe10 | Regarder la lande défiler | Tu regardes. Elle regarde aussi. Vous ne parlez pas. C'est la meilleure conversation que vous ayez eue en trois siècles. | | mor+1 |
+
+@lyc_20
+Tu marches toute la nuit sur la lande, seul, comme un loup. Mais tu n'es plus un loup. Tes pieds ont mal. Tu as froid. Tu as la médaille du Club ou le souvenir d'un hurlement, et un croc d'argent dans ta poche de poitrine qui te pique le cœur à chaque pas.
+Tu te dis que Sir Hector a fait cette route en 1640, en courant. Tu marches plus vite.
+* lyc_21 pan10 | Continuer | Tu continues. | | |
+
+@lyc_21
+À l'aube, au bord de la lande, tu trouves une famille de louveteaux-garous assis dans un fossé. Trois petits, en culottes courtes, qui essaient de hurler et n'y arrivent pas. Le plus jeune pleure : « Je serai jamais un loup ! »
+?comp:vesperine La Comtesse fait arrêter le carrosse. Elle ne descend pas, à cause du soleil qui se lève. Elle te fait signe d'y aller.
+* lyc_22 coe11 | Leur apprendre à hurler en humain | Tu t'assois dans le fossé avec eux. Tu leur montres comment on hurle quand on n'est pas un loup : avec le ventre, avec le chagrin, avec la joie. Ils essaient. C'est horrible. C'est magnifique. | Tu leur montres. Ils rient de ton fausset. Puis ils essaient. Ça marche mieux que prévu. | coe+1 mor+1 +flag:louveteaux |
+* lyc_22 pan11 | Leur promettre de ramener la Lune | « Vous serez des loups. Je vous le promets. Je vais la chercher. » Le plus jeune te regarde avec des yeux immenses. | Tu promets. Ils ne te croient pas. Tu promets plus fort. Le plus jeune te croit. | +flag:promesse_louveteaux |
+
+@lyc_22
+Le Carrefour des Espèces s'étend devant toi, immense, couvert de tentes et de fumée. Des milliers de créatures. Quelque part au milieu, on dit que le Conseil des Espèces va se réunir.
+Tu touches ta poche de poitrine. Le croc d'argent est là. Les vieux disaient que les crocs de loup-garou coupent ce qui retient la Lune. Personne n'a jamais vérifié. Tu ne sais pas pourquoi tu y penses maintenant.
+* hub_01 pan11 | Entrer dans la foule la tête haute | Tu entres. Un gentleman de la lande, en smoking froissé, au milieu de tous les peuples de la Terre. On te regarde. Tu fais semblant que c'est normal. | Tu entres, et ton smoking craque à l'épaule. Tu fais semblant que c'est voulu. | |
+* hub_01 coe10 | Entrer doucement, en écoutant | Tu entres en écoutant. Tout le monde a perdu quelque chose. Tu n'es pas le seul. | | mor+1 |

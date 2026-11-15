@@ -1,0 +1,268 @@
+# ================================================================
+# RÉPLIQUES DES COMPAGNONS — Terre (Carrefour, régions, Foire, nuit)
+# Chaque réplique est écrite pour CE moment. Forme : ~compagnon ?cond: texte
+# Les deux premières répliques valables s'affichent ; les échanges à deux
+# compagnons sont placés en tête pour passer avant les répliques seules.
+# ================================================================
+
+@+hub_ret
+~meduses ?comp:bartho: « LE VIEUX BULOT A PLEURÉ PENDANT LE RETOUR. IL DIT QUE C'EST LE SEL. NOUS SAVONS QUE C'EST NOUS. »
+~penelope ?comp:taupinel: « Monsieur Taupinel me suit en notant tout ce que je dis. J'ai tamponné son carnet REFUSÉ. Il a noté que j'avais tamponné son carnet. »
+~fulgence ?comp:vesperine: « Comtesse, vous êtes encore plus pâle au soleil. C'est un compliment. » Vespérine, sous son ombrelle : « C'en est un dans votre bouche seulement. »
+~quartz ?comp:pardon: « Pardon a mesuré le chemin du retour. Il m'a dit que j'avais tort sur la distance. Personne ne me dit jamais que j'ai tort. C'est délicieux. »
+~ysaline ?comp:plumard: « Colonel, cessez d'appeler les Gravitaires "mes gars". La moitié sont des femmes. » Plumard, au garde-à-vous : « Mes gars et mes dames ! »
+~bartho ?regions<2: « On a vu une région. Il en reste plein. Moi je dis qu'on rentre et qu'on boit un coup. Personne ne m'écoute, comme d'habitude. »
+~bartho ?regions>=2: « Deux régions, des ampoules aux pieds, et la Lune qui part quand même. Bon. On monte, alors ? Évidemment qu'on monte. »
+~penelope: « J'ai fait la liste de tout ce qu'on a vu. Elle est tamponnée. APPROUVÉ, pour la plupart. »
+~melusine: « ON EST RENTRÉS ! JE NE PENSAIS PAS QU'ON RENTRERAIT ! JE PLEURE DE SOULAGEMENT, NE FAITES PAS ATTENTION ! »
+~echo: « ... rentrés. Rentrés. » Elle a l'air contente du mot.
+~quartz: « J'avais calculé une chance sur trois de revenir. J'avais tort. C'était une chance sur deux. Je m'améliore. »
+~brume: « On revient... toujours un peu moins... » Elle ne finit pas. Elle te prend la main à la place.
+~rocambole: « Vous avez vu comme je n'ai rien volé, là-bas ? Rien ! Enfin, presque rien. Une petite chose. Je la rendrai. »
+~meduses: « LE CARREFOUR EST TROP SEC. NOUS NOUS DESSÉCHONS DANS NOTRE BOCAL. CHANGE NOTRE EAU, S'IL TE PLAÎT. »
+~fernand: « Je dépose une réclamation pour la longueur du trajet. Et une autre pour moi-même, parce que j'ai trouvé ça beau. »
+~zouzou: « C'est ça, le Carrefour ? Tout le monde est lent. Même la panique est lente, ici. »
+~coquille ?!flag:croissant: « Nous sommes déjà revenus ? Comme le temps passe vite quand on va lentement. »
+~vesperine: Du fond de ton ombre, la voix de Vespérine : « Ce soleil n'en finit pas. Et à midi, votre ombre est si courte que j'ai les genoux sous le menton. Réveillez-moi quand on fera quelque chose de nocturne. »
+~ondee: Dame Ondée laisse tomber une petite bruine sur la foule assoiffée. Des enfants ouvrent la bouche vers elle. Elle rougit, en gris.
+~gaspard: « Il y a deux cents ans, le Carrefour était un champ de navets. C'était moins bruyant. Les navets parlaient moins. »
+~fulgence: « Tu as remarqué ? Je n'ai pas changé de forme une seule fois depuis qu'on est rentrés. Bon, deux. Trois. »
+~ysaline: « Je compte les femelles dans les tentes du Conseil. Deux sur trente. On en reparlera. »
+~pardon: « Pardon. Le Carrefour a grandi de quatre cents mètres depuis notre départ. J'ai mesuré. C'est de la peur, surtout. »
+~pli: « J'ai profité du retour pour négocier un cessez-le-feu entre deux tentes. Elles se disputaient un piquet. »
+~taupinel: « J'ai de quoi remplir trois éditions. Il me manque juste quelqu'un pour les lire. Tu veux bien ? Plus tard. »
+~plumard: « Rapport de mission, soldat : terrain hostile, moral correct, ampoules aux pattes. Repos ! Pas trop longtemps. »
+~remontoir: « J'ai fait le voyage sans m'arrêter. Enfin, je me suis arrêté deux fois, mais j'ai fait semblant de réfléchir. »
+
+@+hub_07
+~melusine ?comp:plumard: Tante Mélusine se cramponne au bras du Colonel. « VOUS L'AVEZ ENTENDUE, VOUS AUSSI ? » « J'ai entendu, madame. Je vous couvre. » Il ne sait pas de quoi.
+~bartho ?comp:meduses: « Les bestioles dans mon bocal se sont mises à chanter toutes seules. » Les Méduses : « ELLE A CRIÉ. NOUS RÉPONDONS. C'EST LA POLITESSE DES MARÉES. »
+~bartho: « J'ai senti la mer se lever dans mes veines. Si quelqu'un doit monter, c'est pas moi. » Puis, plus bas : « Si c'est toi, je viens. »
+~penelope: « Ce cri n'était sur aucun formulaire. Je n'ai rien pour le tamponner. » Elle tremble.
+~melusine: « ELLE A CRIÉ ! MILLE ANS QUE JE TRICOTE SA LUMIÈRE, ET JE NE L'AVAIS JAMAIS ENTENDUE CRIER ! »
+~echo: « ... monte. Monte. » Écho regarde le ciel.
+~quartz: « Elle a quitté son orbite d'un cheveu. Un cheveu de quarante kilomètres. J'avais prévu deux. »
+~brume: « Elle a peur. Je connais... ce bruit-là... »
+~rocambole: « Un cri pareil, ça s'entend jusqu'à Bételgeuse. Les autres contrebandiers vont rappliquer. Il faut faire vite, avant eux. »
+~meduses: « NOUS AVONS SENTI LA MARÉE NOUS TIRER VERS LE HAUT. NOUS AVONS DIT NON. NOUS SOMMES TÊTUES. »
+~fernand: « Je ne dépose pas de réclamation. Pour une fois, il n'y a personne à qui l'adresser. »
+~zouzou: « Elle hurle comme ma mère quand je rate un passage. Bon. On y va, ou on attend qu'elle se taise ? »
+~coquille ?!flag:croissant: Madame Coquille pose ses pattes sur son ventre. « Il a bougé. Pour la première fois en trois cents ans. »
+~vesperine: « Une nuit sans Lune, c'était déjà triste. Une Lune qui crie, c'est autre chose. C'est une nuit qui saigne. »
+~ondee: Dame Ondée tonne tout bas. « Toutes mes filles ont levé la tête en même temps. Elles l'ont entendue. »
+~gaspard: « Je l'ai entendue comme ça en 1803. Juste avant. » Il ne dit pas avant quoi.
+~fulgence: Fulgence, sans le vouloir, a pris la forme d'un enfant. Il met un moment à redevenir lui-même.
+~ysaline: « On l'a vendue sans lui demander. Maintenant elle crie. Ça ne vous rappelle rien ? »
+~pardon: « Pardon. Je reconnais ce son. C'est celui qu'elle faisait quand je la mesurais. » Il range son mètre ruban, très vite.
+~pli: Monsieur Pli s'est replié en tout petit carré. De l'intérieur : « Il n'existe aucun protocole pour un satellite qui crie. »
+~taupinel: « Je n'ai rien vu, mais j'ai tout entendu. Ça fera la une. S'il y a encore des journaux demain. »
+~plumard: « Ce n'est pas l'heure ! Ce n'est pas l'heure de crier ! » Il a l'air vexé qu'on lui ait volé son métier.
+~remontoir: Le tic-tac de Remontoir s'est emballé. « Elle a sauté une heure. Nous avons tous sauté une heure. Je n'en avais pas beaucoup d'avance. »
+
+# ---------------------------------------------------------------- régions
+
+@+cot_01
+~bartho ?pc:ondine: « Grève-Molle est à trois criques. Si tu veux passer voir le phare, je t'attends dehors. Je ne rentre plus dans les phares. »
+~bartho: « La mer est saoule. Je la reconnais, on a bu ensemble. »
+~penelope: « Il y a de l'eau partout. Mes tampons vont baver. » Elle les tient en l'air, comme une chirurgienne.
+~quartz: « La marée est à la fois haute et basse. C'est impossible. J'adore. »
+~brume: « La mer... elle aussi... ne finit pas ses vagues... »
+~rocambole: « J'ai fait de la contrebande de perles ici, autrefois. Ne dites à personne que vous me connaissez. »
+~fernand: « De l'eau salée. Pour une luciole, c'est une très mauvaise nouvelle. Je reste en l'air. »
+~melusine: « LA MER ! ELLE EST FOLLE ! COMME MOI ! JE L'AIME DÉJÀ ! »
+~echo: Écho écoute le ressac et le répète. On ne sait plus qui imite qui.
+~zouzou: « Je peux sécher la plage en trois passages. Non ? Bon. »
+~coquille: « Ma mère a pondu sur une plage comme celle-ci. Il y a très longtemps. La mer était à sa place, à l'époque. »
+~vesperine: Ton ombre frissonne sur le sable. Vespérine, de l'intérieur : « Du soleil, du sel et du vent. Tout ce que ma peau déteste. Marchez dos au soleil, je vous prie, que j'aie un peu de place. »
+~ondee: « La mer a soif de moi et elle déborde quand même. Elle ne sait plus ce qu'elle veut. Je la comprends. »
+~gaspard: « J'ai survolé cette côte en 1803. Elle était à droite. Elle est à gauche, maintenant. »
+~fulgence: Fulgence prend la forme d'un pêcheur pour se fondre. Il a oublié les bottes.
+~ysaline: « Les Marégraves écopent avec leurs mains, et les mâles regardent. Je note. »
+~pardon: « La mer n'est pas mesurable aujourd'hui. Pardon. Elle bouge trop. »
+~pli: « Monsieur Pli prie qu'on le tienne loin des embruns. » Il se range au fond de ta poche.
+~taupinel: « Ça sent le scandale et le poisson. Les deux, souvent, vont ensemble. »
+~plumard: « Une plage. Terrain découvert, aucun abri. Je n'aime pas ça. Soldat, en avant quand même. »
+~remontoir: « La marée retarde de six heures. Même elle, elle ralentit. Je me sens moins seul. »
+
+@+for_01
+~melusine ?pc:basile: « UN LICHEN ! DANS LA FORÊT ! TU ES CHEZ TOI, MON PETIT ! » Elle ne connaît pas encore Basile, mais elle l'embrasse quand même.
+~bartho: « Des arbres. Ça ne bouge pas, ça ne parle pas, ça ne boit pas. Je les trouve sympathiques. »
+~penelope: « La Compagnie a mesuré cette forêt pour en faire des parquets. Je l'ai tamponné moi-même. » Elle regarde ses tampons sans rien dire.
+~quartz: « Une forêt qui a une administration ! Je veux voir leurs archives. Elles doivent être en écorce. »
+~brume: « Ici, même le silence... pousse... »
+~rocambole: « Il y a des truffes, dans les forêts. Des truffes, ça se vend. Je dis ça, je ne dis rien. »
+~meduses: « IL N'Y A PAS D'EAU, ICI. NOUS AVONS PEUR. PORTE LE BOCAL À L'OMBRE. »
+~echo: « ... forêt. Forêt. Ê-t. » Les arbres répètent après elle, en plus lent.
+~zouzou: « Si je passe trop près, ça brûle. Je vais rester en haut. Promis. Presque. »
+~coquille: « Enfin un endroit qui prend son temps. »
+~vesperine: Sous les grands arbres, l'ombre est si épaisse que Vespérine sort de la tienne, prudemment, et marche de tronc en tronc sans jamais toucher une tache de soleil. « Les sous-bois. Enfin un endroit où une dame peut se dégourdir les jambes. »
+~ondee: « Ils ont soif. Je l'entends dans leurs feuilles. » Elle laisse tomber quelques gouttes, discrètement.
+~gaspard: « Mon ballon est tombé dans une forêt comme celle-ci, la première fois. Les arbres l'avaient gardé un an. »
+~fulgence: Fulgence prend la forme d'un bouleau pour plaisanter. Un écureuil s'installe sur lui. Il n'ose plus bouger.
+~ysaline: « Les arbres pensent en réseau. Pas de chef. Ça me plaît. »
+~pardon: « J'ai mesuré ces racines. Pour la Compagnie. Pardon. » Il s'excuse auprès d'un chêne. Le chêne ne répond pas.
+~pli: « Monsieur Pli est en papier. Monsieur Pli a des cousins ici. Monsieur Pli est mal à l'aise. »
+~taupinel: « Sous terre, ici, c'est un vrai réseau d'information. Je me sens chez moi. »
+~plumard: « Une forêt. Embuscades possibles à chaque tronc. Restez groupés ! »
+~remontoir: « Les arbres et moi, nous comptons en siècles. Nous allons bien nous entendre. »
+
+@+son_01
+~brume ?pc:pistil: « Tu me ramènes... à la maison... » Elle a l'air d'avoir peur d'y rentrer.
+~bartho: « Dormir pour voyager ? C'est la première bonne idée de la journée. »
+~penelope: « Je n'ai jamais dormi. Les assistantes ne dorment pas. Je ne sais pas si j'ai le droit. »
+~quartz: « Le sommeil comme moyen de transport. J'ai écrit un article là-dessus. Il était faux. »
+~brume: « Le Pays des Songes... je le connais par cœur... enfin... par moitié... »
+~rocambole: « Je dors toujours avec un œil ouvert. Deux, avec mes quatre bras. C'est compliqué. »
+~melusine: « UN BONNET DE NUIT ! JE N'EN AVAIS PAS PORTÉ DEPUIS LE MOYEN ÂGE ! »
+~echo: « ... dors. Dors. » Elle s'endort la première, sur son propre mot.
+~fernand: « On me demande de m'éteindre pour dormir. Je dépose une réclamation de principe, et je m'éteins. »
+~zouzou: « Je ne dors pas. Les comètes ne dorment pas. » Elle s'endort au bout de trois secondes.
+~coquille ?!flag:croissant: « Il dort depuis trois cents ans, lui. Il va me montrer le chemin. »
+~vesperine: « Dormir de jour, enfin une coutume raisonnable. »
+~ondee: Dame Ondée se fait toute petite au-dessus de ton lit, comme un édredon.
+~gaspard: « Les morts ne rêvent pas. Je vais regarder. Ça me rappellera quelque chose. »
+~fulgence: « Dans les rêves, je n'ai pas besoin de changer de forme. Tout le monde le fait. »
+~ysaline: « Une tente, cent lits, et ce sont les femelles qui distribuent les tisanes. Évidemment. »
+~pardon: « Je n'ai pas de bouton pour dormir. Pardon. Je vais faire semblant. »
+~pli: Monsieur Pli se plie en forme d'oreiller. Il s'endort sous ta tête.
+~taupinel: « Je vais enquêter pendant que vous dormez. J'ai l'habitude, je vis dans le noir. »
+~plumard: « Dormir en pleine journée ! C'est contraire à tout ce que je représente ! » Il ronfle déjà.
+~remontoir: « Si je m'endors, ne me laisse pas trop longtemps. Je risque de ne pas me réveiller exprès. »
+
+@+pro_01
+~echo ?pc:brisefer: « ... chez toi. Chez toi. » Écho se blottit contre ton épaule de pierre.
+~bartho: « Sous terre. Pas d'eau, pas de ciel, pas de bar. Je descends par amitié. »
+~penelope: « Il fait noir. Mes tampons ne voient rien. Je vais tamponner au hasard. »
+~quartz ?!flag:quartz_renvoyee: « Je connais ces tunnels par cœur. Enfin, ceux d'il y a neuf cents ans. »
+~brume: « Le noir, ici... ce n'est pas le même que dans les rêves... il pèse... »
+~rocambole: « J'ai caché un magot quelque part là-dessous. Je ne sais plus où. Ouvrez l'œil. »
+~meduses: « NOUS SOMMES LA SEULE LUMIÈRE. NOUS ÉCLAIRONS. NOUS CHANTONS FAUX POUR ÉCLAIRER PLUS. »
+~fernand: « Enfin, on a besoin de moi. » Il s'allume au maximum. Il est ravi, mais ne le dira pas.
+~melusine: « JE SUIS CLAUSTROPHOBE ! JE NE LE SAVAIS PAS ! JE L'APPRENDS MAINTENANT ! »
+~zouzou: « Pas de ciel ? Vraiment aucun ciel ? Je vais étouffer. Je vous attends en haut ? Non ? D'accord. »
+~coquille: « Un tunnel, c'est une carapace qu'on partage. »
+~vesperine: Vespérine sort de ton ombre dès que le jour disparaît au-dessus du Puits, et s'étire comme un chat. « Le noir absolu. Enfin un endroit civilisé. »
+~ondee: « Je ne passe pas. Je suis trop grande. » Elle reste en haut, au-dessus du puits, et tu l'entends gronder doucement tout le long de la descente.
+~gaspard: « Les morts n'aiment pas descendre. Nous préférons monter. Mais je vous suis. »
+~fulgence: Fulgence prend la forme d'une Gravitaire pour avoir l'air plus solide. Il est trop léger. Personne n'est dupe.
+~ysaline: « Les Gravitaires ont un Commandant mâle depuis quatre mille ans. Il serait temps d'en discuter. »
+~pardon: « J'ai les plans de ces tunnels. La Compagnie voulait y faire des parkings. Pardon. »
+~pli: « Monsieur Pli rappelle qu'il n'a jamais négocié avec une planète entière. Il s'y prépare. »
+~taupinel: « Ah ! Le sous-sol ! Je suis chez moi. Suivez-moi, je ne vois rien, mais je sais où je vais. »
+~plumard: « Un coq sous terre ! Si on m'avait dit ! Comment je saurai quand c'est l'aube ? »
+~remontoir: « Le cœur de la Terre bat là-dessous. Je l'entends. Il bat trop vite. »
+
+@+cap_01
+~penelope ?pc:basile: « Tamponville. C'est ici que vous avez signé, et que moi j'ai tamponné. On revient sur les lieux. »
+~penelope: « Je connais tous les guichets. Je vous préviens : ils vont me reconnaître, et ils vont me demander où j'étais. »
+~bartho: « Une ville en papier. Il suffirait d'une averse. » Il regarde le ciel avec espoir.
+~quartz: « Une ville entièrement en dossiers. Statistiquement, il y a quelque part un dossier sur moi. »
+~brume: « Tant de papiers... et pas un poème... »
+~rocambole: « J'ai trois casiers judiciaires ici. Sous trois noms. Je vais mettre une moustache. Une autre. »
+~meduses: « TOUT EST SEC ET CARRÉ. NOUS N'AIMONS PAS LES ANGLES. »
+~fernand: « Le Bureau des Éclairages Nocturnes est dans cette ville. Ils m'ont licencié par lettre recommandée. Je vais aller leur montrer ma lumière. »
+~melusine: « ON DOIT PRENDRE UN TICKET ? MOI ? J'AI MILLE ANS ! »
+~echo: « ... ticket. Ticket. » Un guichetier lui donne un ticket. Elle est enchantée.
+~zouzou: « Une file d'attente. Je déteste les files d'attente. Je passe devant. Ah. On ne passe pas devant. »
+~coquille: « Une file d'attente ! Enfin un endroit à mon rythme. »
+~vesperine: De ton ombre, sur les pavés de papier, monte une voix agacée : « La bureaucratie, en plein jour. Mon premier mari était notaire. Je l'ai mordu. »
+~ondee: Dame Ondée reste à distance de la ville, avec prudence. « Si j'éternue, ils perdent trois siècles d'archives. »
+~gaspard: « Mon acte de décès doit être ici, quelque part. J'aimerais le lire. Par curiosité. »
+~fulgence: « Je peux prendre la forme de n'importe quel fonctionnaire. Choisis-en un, je te l'imite. »
+~ysaline: « Le Cadastre Céleste n'a jamais eu de directrice. Je dis ça. »
+~pardon: « Mon contrat de fabrication est dans ces archives. Pardon. Je préférerais ne pas le croiser. »
+~pli ?!comp:ondee: Monsieur Pli se déplie de tout son long. « Tamponville ! Mon ambassade ! Je suis chez moi ! »
+~taupinel: « La Capitale. Ils mentent tous en triple exemplaire. C'est mon paradis. »
+~plumard: « Une ville de bureaucrates ! Pas un seul ne s'est levé à l'aube de sa vie, j'en suis sûr. »
+~remontoir: « Les horloges de Tamponville ont toutes dix minutes de retard. Exprès. Pour les dossiers. »
+
+@+nua_01
+~zouzou ?pc:griselidis: « Ton ancien ciel, la factrice. On y revient. J'espère que ton Directeur ne va pas nous voir. »
+~bartho: « On monte à une échelle de corde. À mon âge. Si je tombe, je vous attends en bas. »
+~penelope: « La Compagnie a un service des Pluies. Je n'ai jamais su ce qu'ils faisaient. J'ai peur de le comprendre. »
+~quartz: « L'altitude réduit mes chances de survie de vingt pour cent. J'avais compté trente. Je suis optimiste. »
+~brume: « Les nuages... ce sont des cousins... un peu plus... lourds... »
+~rocambole: « D'ici, on voit très bien les vaisseaux de la Compagnie. Très bien. Pour des raisons purement touristiques. »
+~meduses: « NOUS SOMMES PLUS PRÈS DU CIEL QUE DE LA MER. NOUS AVONS LE VERTIGE. EN MILLE EXEMPLAIRES. »
+~fernand: « Le ciel. Le plus grand bureau du monde. Personne n'y travaille. »
+~melusine: « LA LUNE EST SI PROCHE ! JE POURRAIS LA TOUCHER ! NE ME LAISSEZ PAS LA TOUCHER, JE VAIS PLEURER ! »
+~echo: Écho crie « ... haut ! » et le ciel ne lui renvoie rien. Elle a l'air perdue.
+~zouzou: « Le ciel ! Enfin quelque chose de normal ! » Elle fait trois loopings avant que tu aies fini de monter.
+~coquille: Madame Coquille regarde l'échelle très longtemps. « Je monte. Ne m'attendez pas. Attendez-moi quand même. »
+~vesperine: Ton ombre s'étale sur les nuages, longue et pâle. Vespérine, dedans : « Plus haut, il fait plus froid. Ma peau apprécierait, si elle pouvait sortir. Il y a trop de soleil, ici. On est plus près de lui. »
+~fulgence: Fulgence prend la forme d'un oiseau pour monter plus vite. Il oublie les ailes.
+~ysaline: « Une échelle de corde. Avec des barreaux pensés pour des pattes de mâle. Tout est politique. »
+~pardon: « J'ai mesuré l'échelle. Elle est trop longue de trois mètres. Quelqu'un l'a allongée. Pardon, c'est rassurant. »
+~pli: « Monsieur Pli rappelle qu'il est en papier et que les nuages sont en eau. Monsieur Pli monte en serrant les plis. »
+~taupinel: « Une taupe dans les nuages. Je vais en faire un éditorial. »
+~plumard: « Le ciel ! Mon territoire ! Enfin, le territoire de mes ancêtres, avant qu'on oublie de voler. »
+~remontoir: « Une échelle. Je compte les barreaux. Ça m'occupe. Il y en a quatre cent douze. Il m'en reste trois cent quatre-vingt-dix. »
+
+@+com_01
+~rocambole ?pc:zephyrin: « Ah, le Marché ! On s'y est connus, toi et moi, tu te souviens ? Tu achetais des orbites, je vendais des trous noirs. »
+~rocambole: « Le Marché des Comètes. Je connais tous les marchands. Ils me doivent tous de l'argent. Ou l'inverse. »
+~bartho: « On paie en souvenirs, ici ? J'en ai plein de mauvais. Ils valent quelque chose ? »
+~penelope: « La Compagnie a un stand ici. Celui des lots de Lune. C'est moi qui ai imprimé les étiquettes. »
+~quartz: « Une comète endormie comme sol ! Elle a quatre milliards d'années. Je pourrais la dater. Je me tromperais. »
+~brume: « On vend des souvenirs... j'en ai si peu... ils sont flous... »
+~meduses: « NOUS AVONS MILLE SOUVENIRS CHACUNE. NOUS POURRIONS ACHETER TOUT LE MARCHÉ. NOUS NE VENDONS PAS NOS SOUVENIRS. »
+~fernand: « Des étoiles filantes à la douzaine. Ça me fait de la concurrence déloyale. »
+~melusine: « DES AURORES BORÉALES AU MÈTRE ! J'EN VEUX TROIS MÈTRES ! JE N'AI RIEN POUR PAYER ! »
+~echo: « ... vends. Vends. » Un marchand croit qu'elle veut vendre. Elle s'enfuit.
+~zouzou: « Ils vendent ma famille en morceaux, ici. Des bouts de queue de comète. Je vais être malade. »
+~coquille: « Il y a trop de monde, trop vite. Je vais attendre que le marché se termine. »
+~vesperine: Du fond de ton ombre : « Un marché de jour. Quelle vulgarité. Les vrais marchés se tiennent la nuit, avec des lanternes. Si vous voyez un étal d'éclipses, arrêtez-vous. »
+~ondee: Dame Ondée reste au-dessus du marché. « Ils vendent de la pluie en bouteille. Ma pluie. Je ne descends pas, je ferais un malheur. »
+~gaspard: « On m'a vendu un ballon ici, en 1803. Défectueux. Je viens réclamer. »
+~ysaline: « Les marchandes font le travail, les marchands font les prix. Rien de nouveau. »
+~taupinel: « Un marché, c'est le meilleur endroit pour les rumeurs. Ouvrez vos oreilles, je fermerai mes yeux. »
+~plumard: « Tant de civils au même endroit. Il faudrait des sentinelles. »
+~remontoir: « Les clés de remontage se vendent ici. Je n'en ai jamais acheté. Je n'en avais pas les moyens. »
+
+# ---------------------------------------------------------------- Foire
+
+@+foi_02
+~ysaline ?foire<1 ?comp:fulgence: Fulgence passe devant le stand du Syndicat en prenant la forme d'un chat. Il ne veut pas être reconnu. Tu ne comprends pas encore pourquoi.
+~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Vous m'invitez à la tente noire, Lord Frissepoil ? »
+~bartho ?foire<1: « Une foire. On va recruter des gens comme on achète du poisson. Je préviens : moi j'ai été pêché d'abord. »
+~penelope ?foire<1: « J'ai envie de tamponner tous les stands. APPROUVÉ, APPROUVÉ, APPROUVÉ. Je me retiens. »
+~quartz ?foire<1: « Trois stands en trois heures. Si je calcule bien, on aura le temps d'en voir cinq. Je calcule mal. »
+~brume ?foire<1: « Tant de visages... j'aimerais... me cacher... dans la barbe à papa... »
+~rocambole ?foire<1: « Une foire ! Il y a forcément une loterie truquée quelque part. J'y vais. Pour la démasquer. »
+~meduses ?foire<1: « NOUS VOULONS DE LA BARBE À PAPA. NOUS N'AVONS PAS DE BOUCHE. NOUS LA VOULONS QUAND MÊME. »
+~fernand ?foire<1: « Des lampions. De la concurrence. Je les trouve vulgaires. Je les trouve jolis. »
+~melusine ?foire<1: « DES LAMPIONS ! UNE VALSE ! JE VEUX DANSER AVEC TOUT LE MONDE ! »
+~echo ?foire<1: « ... rencontres. Rencontres. » Elle répète le mot de l'arche, et elle sourit.
+~zouzou ?foire<1: « Une foire de vieux. Je reste parce qu'il y a des lampions. »
+~coquille ?foire<1: « Trois stands seulement ? Je n'en verrai qu'un. Choisis pour moi. »
+~ondee ?foire<1: « S'il pleut sur la foire, je suis désolée d'avance. Je suis émue. »
+~gaspard ?foire<1: « Il y avait des foires comme ça à Lyon. On y vendait des ballons. J'en ai acheté un. Vous connaissez la suite. »
+~fulgence ?foire<1: « Une foire aux rencontres ! C'est mon lieu de travail. »
+~pardon ?foire<1: « Pardon. Je n'ai jamais été à une foire. On ne m'avait jamais invité nulle part. »
+~pli ?foire<1: « Monsieur Pli note que la foire ferme à minuit. Il ne négociera pas d'extension. Il essaiera quand même. »
+
+# ---------------------------------------------------------------- nuit
+
+@+nui_02
+~rocambole ?nuit<1 ?flag:rocambole_pardon_amis: Rocambole et Pardon partagent une couverture, chacun à un bout, sans se regarder. Rocambole marmonne : « Il ronfle en code binaire. »
+~fernand ?nuit<1 ?comp:ondee: Fernand ne dépose aucune réclamation ce soir. Il regarde Dame Ondée flotter au-dessus du feu. Il ne regarde qu'elle.
+~quartz ?nuit<1 ?comp:pardon: Le Docteur Quartz a fait une place à Pardon à côté d'elle. Elle lui explique les étoiles. Elle se trompe sur toutes. Il ne la corrige pas.
+~melusine ?nuit<1 ?comp:plumard: Tante Mélusine tricote une écharpe en lumière de Lune. Pour qui ? Elle ne veut pas le dire. Elle regarde le Colonel en coin.
+~vesperine ?nuit<1 ?pc:barnabe: Vespérine s'assied à côté de toi, à distance respectable. Puis un peu moins respectable.
+~vesperine ?nuit<1 ?comp:fulgence: Fulgence prend la forme d'un astronome du Moyen Âge pour plaire à Vespérine. Elle le regarde longtemps. « Pas celui-là. » Il redevient lui-même, gêné.
+~coquille ?flag:croissant: Madame Coquille couve le petit Croissant sous son cou. Elle ne dort pas. Elle le regarde respirer.
+~bartho ?nuit<1: « La dernière nuit. On dit ça au bar, d'habitude, et puis on revient le lendemain. »
+~penelope ?nuit<1: « Je n'ai jamais passé une nuit dehors. Il n'y a pas de toit. On voit tout. C'est terrifiant et magnifique. »
+~brume ?nuit<1: « La nuit... je suis plus épaisse... j'ose plus de mots... presque des phrases entières. »
+~echo ?nuit<1: « ... nuit. Nuit. » Elle s'endort contre toi en répétant le mot de plus en plus bas.
+~meduses ?nuit<1: « LA MARÉE GÉANTE NOUS APPELLE. NOUS RESTONS AVEC TOI. NOUS SOMMES FIDÈLES ET TERRIFIÉES. »
+~zouzou ?nuit<1: « Ma famille passe cette nuit. Non, je ne veux pas en parler. Si, je veux en parler. Plus tard. »
+~ondee ?nuit<1: Dame Ondée flotte au-dessus du camp, gonflée de la grande marée. « Je retiens tout. Pour demain. »
+~gaspard ?nuit<1: « La nuit, je suis presque visible. C'est mon heure. Comme une lampe. »
+~fulgence ?nuit<1: « Une nuit avant la fin du monde. Normalement, à ce moment-là, quelqu'un avoue son amour. Je regarde tout le monde. »
+~ysaline ?nuit<1: « J'organise une réunion sous la tente, tout à l'heure. Pour les femelles. Les mâles peuvent écouter de dehors. »
+~pardon ?nuit<1: « Pardon. Je ne dors pas. Je veille. Je mesure les ombres. »
+~pli ?nuit<1: « Monsieur Pli rédige un traité. Monsieur Pli a besoin de calme. Et d'un article trois. »
+~taupinel ?nuit<1: « Une édition spéciale. Cette nuit. Il me faut un témoin pour relire. »
+~plumard ?nuit<1: « Je monterai la garde. Je réveillerai tout le monde à l'aube. Je ne sais faire que ça, et je le fais bien. »
+~remontoir ?nuit<1 ?!flag:n_rem: « Viens me voir, tout à l'heure. Avant que je m'endorme. J'ai une devinette. »

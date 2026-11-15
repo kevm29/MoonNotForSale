@@ -1,0 +1,243 @@
+# ================================================================
+# ACTE III-b — LE CHANTIER LUNAIRE (les ouvriers, la voix de la Lune, les compagnons)
+# ================================================================
+
+@cha_01
+!title: Le chantier lunaire
+Le chantier de Lune-sur-Mer. Des grues dorées hautes comme des montagnes. Des cloisons de verre plantées dans les cratères. Des panneaux partout : « Port du casque obligatoire. » « Interdit de pleurer sur le chantier. » « La Direction vous remercie pour votre enthousiasme. »
+Des ouvriers d'Aldébaran, petits, dorés, casqués, travaillent en silence. Ils ont l'air épuisés.
+?flag:deguise Avec ton casque doré, tu passes inaperçu·e. Un ouvrier te tend une truelle par réflexe.
+* cha_03 coe10 | Aller parler aux ouvriers | Tu t'approches. Ils lèvent la tête, méfiants, puis curieux. | |
+* cha_04 rus11 | Étudier les panneaux du chantier | Tu lis tout. Les panneaux disent beaucoup de choses qu'ils ne voulaient pas dire. | | rus+1 |
+
+@cha_02
+Tu es à genoux dans la poussière lunaire. Elle est froide, douce, presque vivante. Tu sens une vibration sous tes doigts. Très faible. Comme un murmure qui monterait d'une pièce fermée. La Lune essaie de dire quelque chose.
+* cha_05 coe12 | Coller ton oreille au sol | Tu colles ton oreille. Tu entends. Une voix, minuscule, à l'intérieur de la roche. | Tu colles ton oreille. Tu entends un marteau-piqueur. Puis, derrière, quelque chose d'autre. | coe+1 |
+* cha_03 pan10 | Te relever et avancer | Tu te relèves. La voix attendra : elle a l'habitude. | |
+
+@cha_03
+!fx: +flag:bobinot
+Les ouvriers d'Aldébaran posent des cloisons de verre dans un cratère. Leur contremaître, Bobinot, un petit être doré au casque trop grand, surveille avec un chronomètre. « Plus vite ! Le patron vient inspecter ! La prime ! Pensez à la prime ! »
+Un vieil ouvrier chuchote : « Quelle prime ? On n'a jamais vu de prime. On n'a jamais vu de nuit, non plus. Ici, on éclaire tout le temps. »
+* cha_06 coe11 | Demander aux ouvriers ce qu'ils pensent de ce chantier | « Ce qu'on pense ? » Ils se regardent. Personne ne leur a jamais demandé. « On pense qu'elle pleure. La Lune. La nuit, quand les machines s'arrêtent, on l'entend. » | Ils haussent les épaules. « On ne pense pas. On pose des cloisons. » Puis le plus vieux pose la sienne, lentement, et les autres l'imitent. | coe+1 +flag:ouvriers_entendent | +flag:ouvriers_entendent
+* cha_07 rus11 | Demander où se trouve le crochet | Le vieil ouvrier pointe vers l'horizon. « Mer de la Tranquillité. Ne vous approchez pas. C'est là qu'elle a le plus mal. » | | |
+
+@cha_04
+Un grand panneau, devant une maquette géante : « Lune-sur-Mer — Plan des lots. » La Lune est découpée en parcelles numérotées. Copernic : vendu. Tycho : vendu. Face cachée : réservée. Mer de la Tranquillité : « Zone d'ancrage. Non constructible (pour l'instant). »
+?pc:zephyrin Tu reconnais tes lots. Tu les as vendus toi-même. Tu te souviens de chaque acheteur. Ton ressort fait un drôle de bruit.
+Tout en bas : « Copropriété — Assemblée générale le jour de la livraison. Tous les copropriétaires sont convoqués. »
+* cha_08 rus12 | Lire le règlement de copropriété | Article 3 : « Toute décision exige l'unanimité des copropriétaires. » Article 4 : « Un copropriétaire peut bloquer toute décision. » Il suffit d'une seule part pour tout bloquer. | Le règlement fait trois cents pages. Tu en lis trois. | +flag:reglement_copro |
+* cha_07 pan10 | Avancer vers le crochet | Tu avances. Le crochet grandit à l'horizon. | |
+
+@cha_05
+!fx: +flag:voix_lune
+La voix de la Lune. Minuscule, lointaine, à l'intérieur de la roche, comme quelqu'un qui parle dans une maison vide.
+« ...est-ce que quelqu'un m'entend ? Personne ne m'entend jamais. Ils posent des cloisons. Ils posent des piscines. Ils posent des miroirs. Personne ne m'écoute. »
+* cha_09 coe12 | Lui répondre : « Je t'entends. » | Silence. Puis la roche tremble, doucement, sous ta joue. « Toi ? Tu m'entends ? » | Tu réponds, mais un marteau-piqueur couvre ta voix. Tu répètes. Plus fort. | coe+1 +flag:parle_lune | +flag:parle_lune
+* cha_08 rus10 | Te relever et chercher d'où vient la voix | Tu cherches. La voix vient de partout. De toute la Lune à la fois. | |
+
+@cha_06
+Les ouvriers posent leurs truelles. « La nuit, quand les machines s'arrêtent, on l'entend pleurer. Tout bas. Bobinot dit que c'est le vent. Il n'y a pas de vent sur la Lune. »
+Un jeune ouvrier ajoute : « On n'aime pas ce chantier. On a construit des tas de choses, des tours sur des comètes, des hôtels dans des nébuleuses. Mais là, c'est différent. C'est comme construire dans la maison de quelqu'un qui est encore dedans. »
+* cha_10 pan12 | Leur proposer de faire grève | Silence. Puis un ouvrier pose son casque par terre. Puis un autre. Puis tous. « Grève. » Le mot fait le tour du cratère. Bobinot lâche son chronomètre. | Ils hésitent. « Grève ? On sera licenciés. » Il faudra d'autres arguments. | +flag:greve equ+3 | +flag:greve_hesite
+* cha_07 coe10 | Leur dire que tu comprends | Ils te regardent. Ils n'avaient jamais été compris par un client. | | coe+1 |
+
+@cha_07
+La mer de la Tranquillité. Une immense plaine grise et lisse. Au milieu, le crochet. Grand comme une baie, planté dans la roche jusqu'à la garde, relié par un câble d'or au Promontoire, en orbite haute. Le câble vibre. Il tire. Et la roche, autour du crochet, est fissurée, comme une peau qu'on aurait piquée.
+* cha_11 coe11 | T'approcher du crochet | Tu t'approches. Le sol tremble plus fort ici. La Lune a mal. Très mal. | | |
+* cha_12 rus11 | Observer la cantine des ouvriers, à côté | Une baraque de chantier, avec une cheminée qui fume. Ça sent le café et la fatigue. | | |
+
+@cha_08
+Une piscine à marées. Un grand bassin de verre, posé dans un cratère, rempli d'eau bleue. Une machine fait monter et descendre l'eau, mécaniquement, toutes les six heures. Un panneau : « Marée authentique de la Terre (reconstituée). »
+?pc:ondine Tu regardes l'eau monter et descendre. Ce n'est pas une marée. C'est un ascenseur avec de l'eau. Tu as envie de hurler. Tu as envie de pleurer. Tu fais les deux, et la piscine déborde.
+* cha_09 coe11 | Toucher l'eau de la piscine | Elle est tiède, chlorée, triste. Elle ne connaît pas la Lune. Elle ne sait pas pourquoi elle monte. | | coe+1 |
+* cha_11 pan11 | Débrancher la machine | Tu débranches. L'eau s'arrête. Elle a l'air soulagée. | Tu débranches la mauvaise prise. Toutes les lumières du cratère s'éteignent. Pour la première fois depuis des semaines, il fait nuit ici. | equ+2 |
+
+@cha_09
+?flag:voix_lune La voix de la Lune, à nouveau. Plus forte, cette fois. Elle te sent.
+?!flag:voix_lune Sous tes doigts, l'eau tiède frémit. Puis une voix monte de la roche, sous le bassin, minuscule. La voix de la Lune. Elle te sent.
+?flag:reve_lune « C'est toi. Celui ou celle qui est venu·e dans mon rêve. Tu as tenu ta promesse. »
+?!flag:reve_lune « Qui es-tu ? Tu n'es pas un ouvrier. Tu n'as pas de casque. Enfin, si tu en as un, ce n'est pas le tien. »
+« Pourquoi es-tu venu·e ? »
+* cha_13 coe12 | « Pour te demander ce que tu veux, toi. » | Long silence. La roche tremble. « Personne ne m'a jamais demandé ça. Pas une fois. En quatre milliards d'années. » | « Ce que je veux ? » Elle ne sait pas. Elle n'a jamais eu à savoir. | coe+1 +flag:parle_lune | +flag:parle_lune
+* cha_14 pan11 | « Pour te ramener. » | « Me ramener ? Je ne suis pas partie. On m'emporte. » Elle a l'air triste. « C'est différent. » | | +flag:parle_lune |
+
+@cha_10
+?last:ko Ils hésitent longtemps. Puis Bobinot, le contremaître, crie « Au travail ! » un peu trop fort, et c'est ce cri-là qui les décide. Un casque tombe. Puis un autre.
+La grève se répand sur le chantier comme une marée. Partout, les ouvriers posent leurs casques. Les grues s'arrêtent. Les marteaux-piqueurs se taisent. Et pour la première fois depuis des semaines, il y a du silence sur la Lune.
+Dans ce silence, on l'entend. Tout le monde l'entend. La Lune pleure, tout bas.
+Bobinot, le contremaître, retire son casque. « Je... je ne savais pas. »
+* cha_15 coe11 | Laisser le silence durer | Tu le laisses durer. Les ouvriers écoutent. Certains pleurent avec elle. | | mor+2 +flag:greve |
+
+@cha_11
+Le crochet. Tu es au pied. Il est immense, en or massif, gravé de la devise de la Compagnie : « Nous donnons un prix à ce qui n'en a pas. » Autour, la roche est fissurée. Des fissures fines, profondes, qui ressemblent à des rides de chagrin.
+Tu poses ta main sur la roche, à côté du crochet. Elle est brûlante.
+* cha_16 rus12 ?comp:quartz | Demander au Dr Quartz d'analyser la roche | Dr Quartz pose ses doigts de cristal sur la fissure. Ses facettes clignotent. « Fascinant ! La Lune a un cœur. Un cœur de cristal. Exactement comme ceux que je fabrique ! Enfin, en mieux. » | Elle analyse et se trompe trois fois. La quatrième, elle trouve. | |
+* cha_17 pan12 | Essayer d'arracher le crochet | Tu tires. Tu tires de toutes tes forces. Le crochet ne bouge pas. Mais le câble, là-haut, vibre. Quelque chose a craqué. | Tu tires et la Lune crie. Tu lâches tout de suite. Tu lui as fait mal. | |
+* cha_15 coe10 | Rester avec elle un moment | Tu restes. Tu ne peux rien faire d'autre. Parfois, c'est déjà quelque chose. | | mor+1 |
+
+@cha_12
+La cantine des ouvriers. Une baraque de chantier, avec une machine à café qui fume et des tables en plastique doré. Une affiche syndicale, à moitié arrachée : « HEURES SUP NON PAYÉES = DIGNITÉ NON PAYÉE. » Une cafetière, une radio qui grésille, et un ouvrier endormi sur un plan.
+* cha_15 rus11 | Regarder le plan sur lequel il dort | C'est le plan de la manœuvre. Jour 7 : sortie d'orbite. Jour 8 : départ définitif. On est au jour 6. Demain, elle quitte son orbite. | | +flag:calendrier rus+1 |
+* cha_15 coe10 | Lui mettre une couverture | Tu lui mets ta veste. Il sourit en dormant. Il rêve peut-être de sa maison. | | mor+1 |
+
+@cha_13
+La Lune réfléchit. Longtemps. Le sol vibre doucement, comme une respiration.
+« Je veux rester. Je veux tourner autour d'eux. Je veux que la mer monte quand je passe. Je veux qu'on m'écrive. Je veux qu'on rêve de moi. Je ne veux pas de piscines. Je ne veux pas de miroirs. Je ne veux pas être belle pour des gens qui ne me regardent que pour se regarder. »
+Elle se tait. « Est-ce que j'ai le droit de vouloir ? »
+* cha_18 coe12 | « Oui. Tu as le droit. » | La roche tremble, longtemps. Puis elle se calme. Une petite lumière, dans une fissure, s'allume. « Alors je veux. » | Ta voix tremble, mais elle t'entend. « Alors... je veux. Je crois. » | +flag:lune_consent coe+1 mor+1 | +flag:lune_consent
+* cha_18 rus11 | « Il faut que tu le dises à Platine. » | « À lui ? Il ne m'écoute pas. Personne ne m'écoute. » Elle hésite. « Sauf toi. Alors tu le lui diras. » | | +flag:lune_consent |
+
+@cha_14
+« On m'emporte », répète la Lune. « Je sens le crochet. Je sens le câble. Je sens qu'on me tire loin de la Terre, et je ne peux rien faire. Je ne sais faire que deux choses : tourner et briller. Ni l'une ni l'autre ne m'aide à rester. »
+* cha_18 coe11 | « On va t'aider. » | « Qui ? » « Nous. Tous. » Elle se tait. Puis : « Merci. » | | coe+1 |
+
+@cha_15
+!title: Au cœur du chantier
+Tu t'arrêtes au milieu du chantier, entre une grue arrêtée et une cloison de verre fendue. Autour de toi, la Lune respire doucement. Au-dessus, la Terre, ronde et bleue. Tu sens que c'est le moment. Celui où chacun de ceux qui t'accompagnent doit faire ce pour quoi il est venu.
+?!comp:bartho,comp:echo,comp:melusine,comp:meduses,comp:fernand,comp:brume,comp:rocambole,comp:penelope,comp:quartz,comp:zouzou,comp:coquille,comp:vesperine,comp:ondee,comp:gaspard,comp:fulgence,comp:ysaline,comp:pardon,comp:pli,comp:taupinel,comp:plumard,comp:remontoir Tu es seul·e. Ça te donne une liberté terrible : personne d'autre ne décidera à ta place.
+* cha_40 coe11 ?comp:ondee | Laisser Dame Ondée pleuvoir sur la Lune | Ondée s'élève au-dessus des grues, plus grise et plus solennelle que jamais. |  |
+* cha_41 coe11 ?comp:gaspard | Accompagner Gaspard, qui pose enfin le pied sur la Lune | Gaspard descend, très lentement, comme on descend d'un train après un très long voyage. |  |
+* cha_42 rus11 ?comp:remontoir | Suivre Grand-Père Remontoir, qui colle son oreille au sol | Remontoir s'est agenouillé, ce qui lui a pris une minute. Il écoute la Lune. |  |
+* cha_43 coe10 ?flag:croissant | Poser le petit Croissant sur la Lune | Tu sors le petit Croissant de sous ton manteau. Il cligne des yeux dans la lumière blanche. |  |
+* cha_44 pan11 ?comp:plumard | Suivre le Colonel Plumard, qui grimpe en haut d'une grue | Le Colonel grimpe, une patte après l'autre, la crête au vent. |  |
+* cha_45 coe11 ?comp:vesperine | Regarder la Comtesse Vespérine retirer ses gants | Vespérine retire ses gants, doigt par doigt. Elle a l'air de se préparer à quelque chose d'important. |  |
+* cha_46 rus11 ?comp:taupinel | Suivre Taupinel, qui creuse vers la cantine des ouvriers | Taupinel disparaît sous la poussière. Tu suis le petit monticule qui avance. |  |
+* cha_47 pan11 ?comp:ysaline | Suivre Ysaline, qui a repéré une caisse assez haute pour un discours | Ysaline marche droit vers une caisse de marbre, au milieu du chantier. |  |
+* cha_48 rus11 ?comp:pardon | Suivre Pardon vers le pied du crochet | Pardon marche vite, en s'excusant auprès des poutres. |  |
+* cha_49 rus11 ?comp:fulgence | Regarder Fulgence observer le contremaître | Fulgence fixe Bobinot avec une attention inquiétante. |  |
+* cha_50 coe11 ?comp:pli | Laisser Monsieur Pli s'avancer vers les vigiles | Monsieur Pli se déplie, se lisse, et marche vers deux vigiles dorés. |  |
+* cha_51 pan11 ?comp:zouzou | Regarder ce que Zouzou a en tête | Zouzou regarde les grues avec une expression que tu connais. |  |
+* cha_52 coe11 ?flag:obj_graine_lune | Planter la graine du Grand Chêne dans la mer de la Tranquillité | Tu sors la graine. Elle est tiède. Elle a l'air de savoir où elle est. |  |
+* cha_53 coe11 ?flag:sac_lettres | Ouvrir ta sacoche et livrer le courrier de la Terre | Tu poses ta sacoche dans la poussière. Elle pèse le poids de toute une planète qui écrit. |  |
+* cha_19 coe11 ?comp:echo | Laisser Écho écouter la Lune | Écho s'approche du sol, curieuse. Elle n'a rien à répéter : la Lune ne fait pas de bruit, ici. | |
+* cha_20 coe12 ?comp:melusine | Aider Tante Mélusine à nouer l'écharpe | Tante Mélusine déroule la pelote de lumière en sanglotant. « ENFIN ! MILLE ANS QUE J'ATTENDAIS CE MOMENT ! » | |
+* cha_21 coe12 ?comp:bartho | Suivre Bartholomé, qui cherche quelque chose dans la poussière | Bartholomé s'est agenouillé. Il fouille la poussière lunaire de ses mains d'eau. | |
+* cha_22 coe11 ?comp:meduses | Laisser le Chœur chanter pour la Lune | Le Chœur sort de son bocal et flotte, lumineux, dans le vide lunaire. | |
+* cha_23 rus11 ?comp:fernand | Regarder ce qui arrive à Fernand | Fernand vole au-dessus du sol lunaire. Sa lumière tremble. | |
+* cha_24 coe11 ?comp:brume | Laisser Brume-Lucie retrouver sa cousine | Brume-Lucie s'étire sur le sol, se fait plus grande, plus fine. | |
+* cha_25 rus12 ?comp:rocambole | Surveiller Rocambole, qui regarde la Lune bizarrement | Rocambole fait tourner sa moustache-nébuleuse. Il a son regard de voleur. | |
+* cha_26 rus11 ?comp:penelope | Suivre Pénélope, qui a repéré un bureau de chantier | Pénélope marche vers une baraque marquée « Direction — Documents officiels ». Ses tampons tremblent. | |
+* cha_16 rus11 ?comp:quartz | Retrouver le Dr Quartz au pied du crochet | Elle est déjà là, à genoux, à mesurer la Lune avec un compas en cristal. | |
+* cha_27 pan10 | Continuer vers le crochet et le Promontoire | Tu avances. Il est temps d'aller parler au propriétaire. | |
+
+@cha_16
+Dr Quartz est à genoux près du crochet, ses facettes en feu. « Écoutez-moi. La Lune a un cœur de cristal. C'est pour ça qu'elle tourne : par résonance. Elle vibre à la même fréquence que la Terre. Comme deux verres de cristal qui chantent ensemble. » Elle se tait. « C'est la chose la plus belle que j'aie jamais mesurée. Et j'ai mesuré un trou noir de poche. »
+Elle sort ses plans. « Si je pouvais fabriquer un cœur pareil, je pourrais fabriquer une Lune. Une autre. Une qui vibrerait avec nous. »
+* cha_27 rus12 | L'aider à prendre toutes les mesures | Vous mesurez. Elle note tout. Vous avez maintenant la fréquence du cœur de la Lune. Avec ça, une nouvelle Lune devient possible. Folle, mais possible. | Vous mesurez, mais vous vous trompez de virgule. Elle corrige. Elle a les mesures quand même. | +flag:plans_lune +flag:frequence_lune rus+1 | +flag:plans_lune
+* cha_27 coe11 | Lui demander si une copie aurait le même cœur | Elle s'arrête. « Non. Ce serait un cœur neuf. Il n'aurait pas les souvenirs. » Elle regarde ses plans. « Mais il pourrait en faire. » | | +flag:plans_lune |
+
+@cha_17
+?last:ko Tu as lâché, mais trop tard : là-haut, le câble a craqué quand même, un peu.
+?last:ok Le câble a craqué, là-haut. Quelque chose s'est fendu dans l'or. Pas assez pour rompre. Assez pour que le Promontoire sente une secousse. Une alarme retentit dans tout le chantier : « Incident technique. Merci de rester calmes. Monsieur Platine est informé. »
+Mais la Lune a eu mal, elle aussi. Tu le sens. Tu as fait craquer le câble en tirant sur elle.
+* cha_15 coe11 | Lui demander pardon | « Pardon. » La roche tremble. « Ce n'est rien. Tu essayais. Personne n'essaie jamais. » | | +flag:cable_affaibli coe+1 |
+* cha_27 pan10 | Te dire que c'était nécessaire | C'était nécessaire. Peut-être. Tu ne sais pas. | | +flag:cable_affaibli equ-3 |
+
+@cha_18
+La Lune te parle encore. Sa voix est plus claire, maintenant. Elle n'a plus peur de toi.
+« Écoute. Celui qui m'a achetée, Platine, il n'est pas méchant. Il est seul. Je le vois, dans son vaisseau, la nuit. Il écrit des poèmes pour moi. Ils sont mauvais. Mais il les écrit. » Elle se tait. « Ne lui fais pas de mal. Dis-lui juste que je ne veux pas. Personne ne le lui a jamais dit, à lui non plus. »
+* cha_15 coe12 | Promettre de le lui dire | Tu promets. Tu as fait beaucoup de promesses, ces derniers jours. Celle-ci a un goût différent. | | coe+1 +flag:message_lune |
+* cha_15 rus10 | Lui demander s'il y a un moyen de la décrocher | « Je ne sais pas. Peut-être que si quelqu'un prouvait que je n'ai jamais dit oui... Ou si la Terre me rattrapait... Ou si on lui donnait autre chose à aimer. » | | +flag:indices_lune |
+
+@cha_19
+Écho flotte au-dessus du sol lunaire. Il n'y a rien à répéter. Pas d'air, pas de son, pas de mots. La Lune est silencieuse, comme une église vide. Écho tremble. C'est la première fois de sa vie qu'elle n'a rien à répéter.
+Elle se tourne vers toi. Elle ouvre sa bouche de son. Et elle dit, d'une voix minuscule, quelque chose que personne ne lui a dit avant :
+« ...reste. »
+?flag:galet_parle Elle l'a déjà répété, ce mot, à Tamponville, après le Président. Mais cette fois, personne ne vient de le dire. Elle le dit d'elle-même.
+Un mot à elle. Le premier. Elle le dit à la Lune.
+* cha_27 coe12 | Ne rien dire, pour ne pas lui donner autre chose à répéter | Tu te tais. Écho répète son propre mot, encore et encore, doucement, contre la roche : « Reste. Reste. Reste. » Et la Lune, sous vos pieds, frissonne de joie. | Tu laisses échapper un sanglot. Écho le répète. Puis elle revient à son mot à elle : « Reste. » | +flag:echo_parle mor+2 coe+1 | +flag:echo_parle
+
+@cha_20
+Tante Mélusine déroule l'écharpe de lumière. Elle est immense, elle brille comme une rivière de lait. Elle la passe autour de la Lune, autour d'un cratère, puis d'un autre, en sanglotant, en chantant, en hurlant des ordres.
+?!flag:echarpe Il manque des mailles. Elle n'a pas eu le temps de tricoter assez. Elle tricote ici, sur place, avec la lumière qui reste.
+« UNE ÉCHARPE NE RETIENT PERSONNE DE FORCE, ENFANT ! ELLE RAPPELLE À QUELQU'UN QU'ON L'AIME ! »
+* cha_27 coe12 | Tenir l'autre bout de l'écharpe | Tu tiens. Mélusine noue. L'autre bout, elle le lance vers la Terre. Il descend, descend, et quelque part, sur le Carrefour, des milliers de mains l'attrapent. La Lune est nouée à la Terre par une écharpe. | Tu tiens, mais l'écharpe glisse. Mélusine la rattrape avec ses dents. Elle tient. À peine. | +flag:echarpe_nouee equ+5 | +flag:echarpe_nouee equ+2
+
+@cha_21
+Bartholomé fouille la poussière lunaire. « Elle est là. Je le sais. Les Marégraves qui montent trop haut deviennent de la poussière de Lune. » Il creuse. Il creuse. Et puis il s'arrête. Dans ses mains, une poignée de poussière qui brille un peu plus que les autres, d'un éclat bleu, salé.
+« Perline. »
+La poussière frémit dans ses mains. Elle forme, une seconde, le contour d'un sourire.
+* cha_27 coe12 | Le laisser seul avec elle | Tu t'éloignes. Quand tu reviens, Bartholomé est assis dans la poussière, les yeux fermés. Il sourit. « Elle a dit que je râlais trop. Elle a dit de continuer. Elle reste ici. Avec la Lune. Alors la Lune doit rester. » | Tu restes à côté. Il ne te voit même pas. Il parle à la poussière. | +flag:perline_trouvee mor+2 | +flag:perline_trouvee
+
+@cha_22
+Le Chœur des Méduses flotte dans le vide lunaire. Il chante. Il n'y a pas d'air, et pourtant on l'entend, parce que la Lune l'entend. Il chante l'air ancien, celui des marées qui se lèvent pour la saluer.
+Et dans un cratère, au loin, la poussière se soulève. Doucement. Comme une marée. Une marée de poussière, qui monte vers le Chœur, qui monte vers la Terre.
+« ELLE NOUS RÉPOND », chante le Chœur. « ELLE NOUS A TOUJOURS RÉPONDU. NOUS NE SAVIONS PAS ÉCOUTER. »
+* cha_27 coe11 | Chanter avec eux | Tu chantes. La marée de poussière monte plus haut. Sur Terre, toutes les mers se lèvent en même temps, pour la première fois depuis des jours. | | +flag:maree_lunaire +flag:marees_prevenues equ+4 |
+
+@cha_23
+Fernand vole au-dessus de la Lune. Ici, la lumière de la Lune est partout, intense, directe. Et Fernand se met à briller. Pas un clignotement : une vraie lumière, jaune, chaude, qui illumine tout le cratère.
+« Oh », dit Fernand. « Oh. Je... je brille. Je me souviens. » Sa voix tremble. « Je me souviens de pourquoi je brillais. Je brillais pour elle. Pour lui répondre. »
+~fernand: « Ne me regardez pas. C'est très gênant. Je suis une luciole cynique. Je ne pleure pas. Ce sont des larmes de lumière, c'est différent. »
+* cha_27 coe12 | Lui dire qu'il est magnifique | « Je sais », dit-il. Puis : « Merci. » Il n'a jamais dit merci sans ironie. Il brille encore plus fort. | Il ne t'entend pas. Il brille trop fort pour entendre. | +flag:fernand_brille mor+2 |
+
+@cha_24
+Brume-Lucie s'étire sur le sol lunaire. Elle se fait immense, fine, transparente. Elle enveloppe un cratère, puis deux, puis une vaste étendue. La Lune, sous elle, cesse de trembler. Les deux cousines se reconnaissent.
+« Je suis là, cousine », dit Brume-Lucie. Et pour la première fois, elle finit sa phrase. « Je suis là, et je reste jusqu'au bout. »
+* cha_27 coe12 | La regarder finir sa phrase | Tu la regardes. Elle a fini une phrase. Elle a l'air étonnée, et fière, et un peu effrayée. « J'ai fini. J'ai fini une phrase. » | | +flag:brume_finit mor+2 coe+1 |
+
+@cha_25
+Rocambole regarde la Lune. Il tire sur sa pipe vide. « Tu sais, mon ami, si on coupait le câble, maintenant, et qu'on accrochait la Lune au Pied-de-Nez à la place... Je connais un collectionneur dans la nébuleuse du Crabe. Il paierait le triple. »
+Il te regarde. Il attend. Il ne sait pas lui-même s'il plaisante.
+* cha_27 coe12 | « Tu ne feras pas ça. » | Il te regarde longtemps. Puis il range sa pipe. « Non. Je ne ferai pas ça. » Il soupire. « Mais tu sais quoi ? On pourrait faire semblant. Pour tromper Platine. » | Il hausse ses quatre épaules. « Peut-être. Peut-être pas. On verra. » | +flag:rocambole_honnete +flag:vol_pret | +flag:vol_pret
+* cha_27 rus11 | « Pourquoi pas ? » | Rocambole sourit, d'un sourire immense. « Ah ! Enfin quelqu'un de raisonnable ! » Puis son sourire s'éteint. « Tu es sûr·e ? » Tu ne réponds pas. | | +flag:vol_pret |
+
+@cha_26
+Pénélope entre dans le bureau de chantier. Des classeurs, des plans, des contrats. Elle ouvre un tiroir, puis un autre. Elle trouve. « Le contrat de livraison. Il précise que la Lune doit être livrée "en état de bon fonctionnement, avec toutes ses fonctions habituelles". »
+Elle te regarde, les yeux brillants. « Ses fonctions habituelles. Les marées. Les rêves. Les calendriers. Si elle ne les a plus, elle n'est pas conforme. La vente peut être annulée pour défaut de conformité ! »
+* cha_27 rus12 | Garder le contrat de livraison | Pénélope le glisse dans son chignon. « Je l'ai tamponné "COPIE CONFORME". C'est le premier mensonge utile de ma vie. » | | +flag:contrat_livraison +flag:dossier |
+
+@cha_27
+?flag:bobinot Une sirène. Des projecteurs. Le contremaître Bobinot arrive, entouré de vigiles dorés.
+?!flag:bobinot Une sirène. Des projecteurs. Un petit contremaître doré, au casque trop grand, arrive entouré de vigiles. Son badge dit « Bobinot ».
+ « Vous ! Qui êtes-vous ? Vous n'avez pas de badge ! » Il voit les ouvriers. « Et vous ! Pourquoi vous ne travaillez pas ? »
+?flag:greve Les ouvriers ne bougent pas. « Grève, chef. » Bobinot pâlit.
+?comp:coquille Derrière toi, Madame Coquille avance de son pas immuable, le petit Croissant sur le dos. Elle est à vingt mètres. Fuir sans elle, c'est impossible. Fuir avec elle, aussi.
+?flag:traite_vigiles Deux vigiles, derrière Bobinot, regardent ailleurs avec application. Ils ont signé un traité. Ils le respectent.
+* cha_28 pan11 | « Je veux voir Monsieur Platine. » | Bobinot te regarde. « Voir le patron ? Personne ne voit le patron. » Il hésite. « Mais il a demandé à voir quiconque causerait un incident. Vous en êtes un, apparemment. » | | |
+* cha_29 rus12 ?!comp:coquille | T'enfuir dans le chantier | Tu cours entre les grues, les cloisons, les piscines. Les vigiles s'excusent en te poursuivant. | Tu cours, mais tu tombes dans une piscine à marées. Tu en ressors trempé·e et capturé·e. | rus+1 comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard | comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard
+
+@cha_28
+Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Terrien. Je ne sais pas. Ça veut vous voir. » Une voix douce, polie, fatiguée, répond : « Faites-le monter, Bobinot. J'aime recevoir. Ça fait si longtemps qu'on ne m'a pas rendu visite. »
+* cha_30 coe10 | Attendre qu'on t'escorte | Tu attends. Un vigile t'offre un café. Il est mauvais. Il s'excuse. | |
+
+@cha_29
+?flag:plumard_reste Le Colonel Plumard, lui, n'a pas couru. « Un militaire ne fuit pas ! » Tu l'as vu, derrière toi, se planter devant les vigiles, la crête haute, et se laisser arrêter en chantant l'aube. Il t'a fait un salut militaire avant de disparaître entre deux uniformes dorés.
+?last:ko Tu ressors de la piscine, trempé·e, entre deux vigiles qui s'excusent. Ils te conduisent, très poliment, vers une silhouette de classeurs gris qui attend au bord du bassin.
+?last:ok Tu cours à travers le chantier. Les vigiles te poursuivent en s'excusant. Tu sautes par-dessus une cloison de verre, tu traverses une piscine vide, tu te caches derrière une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
+L'Huissier Krâmm.
+* cha_30 coe11 | Lui faire face | Il te regarde. Ses tiroirs s'ouvrent et se ferment. « Article premier : je vous attendais. » | |
+
+@cha_30
+?from:cha_28 L'escorte arrive. Ce n'est pas un vigile.
+L'Huissier Krâmm, de la Compagnie Foncière. Il est là, sur la Lune, au milieu du chantier, grand comme un phare couché, fait de classeurs gris qui s'ouvrent quand il respire.
+?flag:kramm_demission Il ne porte plus son badge d'huissier. « J'ai démissionné. Mais Monsieur Platine m'a demandé de venir une dernière fois. Pour l'inventaire final. Je suis venu. Je ne sais pas pourquoi. Peut-être pour voir. »
+?!flag:kramm_demission « Article premier : bonjour. Article deux : je suis chargé de l'inventaire final avant le départ. Article trois : vous êtes un accessoire non répertorié. »
+* cha_31 coe12 | Lui demander s'il veut voir la Lune avec toi | Il hésite. Puis il hoche ses tiroirs. Vous marchez ensemble jusqu'au bord d'un cratère. Il regarde. « Elle est plus grande que sur le dessin de ma fille. » | Il refuse. « Article... non. Je n'ai pas le temps. » Mais il regarde quand même, en coin. | +flag:kramm_regarde coe+1 |
+* cha_32 rus11 | Lui demander de t'emmener voir Platine | « Article quatre : c'est précisément ma mission. » Il te tend un tiroir, comme un bras. | |
+
+@cha_31
+Krâmm regarde la Lune. Longtemps. Ses tiroirs s'arrêtent de bouger. Puis il ouvre le dernier, celui du bas, et il en sort le dessin de sa fille. Une Lune avec un visage, qui sourit. Il le pose sur la poussière lunaire. Il le cale avec un caillou.
+« Voilà. Comme ça, elle sait que quelqu'un l'aime. Même si on l'emporte. »
+* cha_33 coe12 | Lui dire qu'on ne l'emportera pas | Il te regarde. « Vous croyez ? » « Oui. » Il se redresse. « Alors je ne ferai pas l'inventaire. Je refuse. » Il referme ses tiroirs. « Article premier, et dernier : non. » | Il secoue la tête. « On l'emporte toujours. C'est le métier. » | +flag:kramm_refuse coe+1 |
+
+@cha_32
+Krâmm t'escorte vers le pied du câble. Un ascenseur doré monte le long du câble, de la Lune au Promontoire, en orbite. Pendant le trajet, il ne dit rien. Puis, juste avant d'arriver : « Article... Je ne sais pas quel article. Il est très seul, vous savez. Monsieur Platine. Il n'a jamais eu personne. »
+* cha_33 coe11 | « Personne n'a jamais rien eu, ici. » | Krâmm hoche ses tiroirs. « C'est vrai. » | |
+* cha_33 rus10 | Demander comment le convaincre | « Il aime les choses belles et les contrats parfaits. Il déteste les fautes. » | | +flag:platine_faille |
+
+@cha_33
+?from:cha_31 Krâmm t'emmène ensuite au pied du câble, sans un mot, et vous montez ensemble dans l'ascenseur doré.
+L'ascenseur doré monte le long du câble. Par la vitre, la Lune s'éloigne en dessous, couverte de chantiers. La Terre, au loin, bleue et bancale. Et devant, le Promontoire : un vaisseau carré, gris et doré, qui ressemble à un bureau qui aurait appris à voler.
+Tu vas rencontrer celui qui a acheté la Lune.
+?comp:penelope Pénélope serre ses tampons. « Je vais le revoir. Je vais lui dire non. Je crois. »
+?pc:zephyrin Tu vas revoir Platine. Ton ancien patron. Ton ancien ami, peut-être. Ton ressort fait tic... tac.
+* cha_34 coe11 | Te préparer intérieurement | Tu respires. Tu penses à tout ce que tu as vu. Tu sais ce que tu vas dire. Enfin, à peu près. | | mor+1 |
+* neg_01 pan10 | Foncer vers la porte dès l'arrivée | Les portes s'ouvrent. Tu entres. | |
+
+@cha_34
+Tu regardes une dernière fois la Lune, en bas, par la vitre de l'ascenseur. Elle est blanche, couverte d'échafaudages, liée au câble. Et tu jurerais qu'elle te regarde aussi.
+?flag:echarpe_nouee Une écharpe de lumière brille autour d'elle, reliée à la Terre.
+?flag:echo_parle Quelque part sur sa surface, un écho minuscule répète un mot : « Reste. »
+* neg_01 coe10 | Entrer dans le Promontoire | Les portes dorées s'ouvrent. Ça sent l'eau de Cologne et le papier neuf. | |

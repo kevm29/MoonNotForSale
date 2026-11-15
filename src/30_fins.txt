@@ -1,0 +1,413 @@
+# ================================================================
+# LES QUINZE FINS
+# ================================================================
+
+@end_01
+!end: 1
+!title: Vice de forme
+L'acte de vente tombe en morceaux sur le marbre. Platine les ramasse un par un et les range dans une enveloppe sur laquelle il écrit, de sa belle écriture : « Mon plus beau contrat. Nul. »
+Le crochet se rétracte. La Lune soupire, et la poussière de toute sa surface se soulève d'un coup, comme un drap qu'on secoue au soleil. Elle retrouve son orbite au premier essai. Elle connaissait le chemin.
+Sur Terre, la mer remonte. Toutes les mers, en même temps, pour la saluer.
+?pc:basile Au Cadastre Céleste, ta signature finit de pousser sur un acte qui n'existe plus. Madame Épine la fait encadrer quand même : « Basile Grumeau, sans qui la Lune serait partie. » On l'accroche au-dessus du guichet zéro. On n'y fait plus la queue : tout le monde vient y déposer des fleurs.
+?pc:ondine Le soir même, tu écris ta dix mille neuf cent cinquante-deuxième lettre. Le lendemain matin, une bouteille revient sur la plage. Dedans, un seul mot, en lumière : « Reçu. »
+?comp:penelope Pénélope a été engagée par le Cadastre, au service des vices de forme. Elle n'utilise plus que son tampon droit. Elle est très heureuse.
+Platine, lui, ouvre un cabinet de conseil en contrats parfaits, sur une petite comète. Il écrit toujours des poèmes. Ils sont toujours mauvais. Il en envoie un à la Lune tous les dimanches. Elle les garde.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+La Lune n'a jamais dit oui. Il fallait juste que quelqu'un le lise.
+
+@end_02
+!end: 2
+!title: La quête des boutons
+?comp:penelope La signature de Platine sèche sur l'acte de rachat. Pénélope tamponne : APPROUVÉ.
+?!comp:penelope La signature de Platine sèche sur l'acte de rachat, à côté de son propre tampon, un peu de travers.
+Le crochet se rétracte. La Lune retrouve son orbite, lentement, comme une dame qui rentre chez elle après une longue soirée, les chaussures à la main.
+Sur Terre, on a fait une fête qui a duré trois jours. Les Marégraves ont dansé sur les plages, les Lichenautes ont fait une phrase entière en une demi-heure, les Gravitaires se sont levés de l'Axe pour applaudir, tous en même temps, et ont provoqué un petit séisme festif.
+?flag:perles_chargees Les perles de la mer sont rangées dans les coffres de la Compagnie Foncière d'Aldébaran. Platine ne les dépense jamais. Il les regarde parfois.
+?flag:boite_biscuits La boîte à biscuits, il l'a gardée. Elle est posée sur son bureau. Dedans : cinq boutons, une dent de Gravitaire, et un petit mot de la vieille Horlogère, qui s'est remise à faire tic-tac le soir même : « Merci d'avoir accepté. Ça ne valait rien. C'était tout ce qu'on avait. »
+?!flag:boite_biscuits ?flag:souscription,flag:cagnotte Il a gardé un bouton, un seul, dans la poche de son gilet. Il ne sait pas qui l'a donné. C'est pour ça qu'il le garde.
+Dans la galaxie, on se moque de Platine : le promoteur qui a revendu un satellite pour des boutons et des perles. Il s'en fiche. C'est la plus belle affaire de sa vie. Il le dit à tout le monde.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+La Lune est à la Terre, maintenant. Officiellement. La Terre a décidé de ne jamais s'en servir.
+
+@end_03
+!end: 3
+!title: La Terre qui marche
+La Terre avance. Lentement, lourdement, poussée par tous les Gravitaires du monde réunis au pôle. La mer, prévenue, se retire doucement et suit le mouvement comme une danseuse qui connaît le pas. Les forêts se penchent toutes ensemble. Les rêves se mettent à rêver de voyage.
+Platine regarde, la bouche ouverte. Une planète qui suit son satellite. Ce n'est dans aucun contrat. « C'est... c'est d'une beauté... », dit-il, et il coupe le câble lui-même. On ne retient pas quelque chose qui est suivi par une planète entière.
+La Lune s'arrête. Elle se retourne. Elle voit la Terre qui vient vers elle, à petits pas de géante. Et elle revient.
+?pc:brisefer Tu es au pôle, au milieu des Gravitaires, les bras tendus, tu pousses. Tu n'es pas assise. Pour la première fois en trois mille ans, tu tiens le monde debout. Ton genou craque. Tu t'en fiches.
+?pc:brisefer ?flag:galene ?flag:casque_galene Galène, à côté de toi, porte ton vieux casque. Il est presque à sa taille.
+?pc:brisefer ?flag:galene ?!flag:casque_galene Galène, à côté de toi, pousse en grimaçant. Il est très fier.
+Ça a pris trois semaines. La Terre a déménagé de quelques milliers de kilomètres. Les saisons ont un peu changé. Les astronomes de la galaxie ont dû refaire toutes leurs cartes. Ils ont râlé. Les Terriens s'en fichent.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+Ils ont appris une chose qu'ils ne savaient pas : quand quelqu'un qu'on aime s'en va, on peut le suivre.
+
+@end_04
+!end: 4
+!title: Une Lune de cristal
+Dr Quartz a mis deux ans. Deux ans dans un atelier gigantesque, au fond des géodes de la Terre, avec tous les Cristallins du monde qui ont donné un peu d'eux-mêmes. Elle s'est trompée quatre cent douze fois. La quatre cent treizième, ça a marché.
+La nouvelle Lune est en cristal. Elle brille d'une lumière violette, un peu froide. Elle a un cœur qui vibre, que Dr Quartz a accordé à la fréquence de l'ancienne. Elle tourne autour d'Aldébaran, maintenant, couverte de piscines, de golfs et de tours. Elle n'a pas de souvenirs. Elle n'a pas de rêves. Elle est parfaite, et elle ne pleure jamais.
+Platine en est très fier. Il y a construit sa Tour Platine, quatre cents étages. Il y habite seul. Il regarde parfois l'ancienne, au loin, qui tourne autour de la Terre.
+La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
+Mais parfois, la nuit, Dr Quartz lève les yeux vers le ciel d'Aldébaran, où brille une petite lumière violette, et elle se demande si sa Lune de cristal est heureuse. Elle ne le saura jamais. On ne fabrique pas l'affection. On fabrique seulement l'endroit où elle pourrait pousser.
+?comp:quartz « Probabilité qu'elle soit heureuse : inconnue », dit-elle. « C'est la seule mesure que je n'ai jamais voulu prendre. »
+
+@end_05
+!end: 5
+!title: Elle a dit non
+« Tu es libre. »
+La Lune écoute ces trois mots. Personne ne les lui avait jamais dits. Elle réfléchit, longtemps, en tournant doucement sur elle-même. Platine a les mains jointes. Tu retiens ta respiration.
+Puis elle parle, et cette fois, tout le monde l'entend : sur le Promontoire, sur la Terre, dans les rêves, dans les racines de la Toile.
+« Je reste. »
+Le crochet se détache tout seul. Il n'a jamais tenu que par une signature. La Lune retrouve son orbite. Pas parce qu'un contrat l'y oblige. Parce qu'elle le veut.
+Platine pleure, des feuilles d'or qui tombent comme une pluie d'automne. « Elle a choisi. Je ne savais pas qu'on pouvait choisir. »
+?pc:pistil Cette nuit-là, tu rentres dans le rêve de la Lune. La maison aux mille fenêtres a des meubles, maintenant. Un fauteuil. Une étagère pour les lettres. Une petite tasse de thé, pour toi.
+?pc:ondine Cette nuit-là, la mer monte plus haut que jamais. Toi aussi : deux mètres trente. Et sur l'écume, en lettres de lumière, une réponse, enfin : « Ma très chère Ondine. »
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+Depuis, chaque année, le jour anniversaire, la Terre entière dit merci à la Lune. Ça ne sert à rien. Ça la rend très heureuse.
+
+@end_06
+!end: 6
+!title: Le conseil syndical
+La première assemblée générale des copropriétaires de Lune-sur-Mer a duré onze ans. La deuxième, quatorze.
+Tu y vas à chaque fois. Tu t'opposes à tout. Les piscines : opposé. Les golfs : opposé. La Tour Platine : opposé. Le changement d'orbite : opposé, avec demande de vote à bulletin secret, contestation du quorum, et motion de procédure sur la couleur des bulletins.
+?pc:zephyrin ?flag:zep_actions Tes deux pour cent n'ont jamais aussi bien servi. Ton ressort fait tic-tac, la Lune est restée, et tu as découvert ta vraie vocation : retarder. Tu es le meilleur retardateur de la galaxie.
+La Lune n'a jamais quitté son orbite. Pas par miracle : par procédure. Le départ est « suspendu dans l'attente d'une décision unanime de l'assemblée ». Cette décision ne viendra jamais. Tu y veilles.
+Les autres copropriétaires ont fini par revendre leurs lots, découragés. Platine aussi. Il te les a vendus, à toi, pour un bouton. « Je n'en peux plus », a-t-il dit. « Vous êtes le pire copropriétaire de l'histoire. Je vous admire. »
+Aujourd'hui, la Lune appartient à un syndicat de copropriétaires composé d'une seule personne, qui refuse systématiquement tout projet. C'est la forme de liberté la plus absurde jamais inventée. Elle marche parfaitement.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+La Lune tourne. Elle ne sait pas qu'elle est en copropriété. Personne ne le lui a dit. C'est mieux comme ça.
+
+@end_07
+!end: 7
+!title: Le promoteur ému
+Platine appuie sur le bouton. Les moteurs s'arrêtent. Le silence tombe sur le Promontoire.
+?from:fin_13 « Je me laisse dépenser », dit-il. Et il ouvre la baie vitrée, et il sort, et il flotte jusqu'à la Lune.
+?!from:fin_13 « Il est l'heure », répète-t-il. Et il ouvre la baie vitrée, et il sort, et il flotte jusqu'à la Lune.
+Il marche longtemps sur la poussière. Il retire ses chaussures d'or. Il s'assoit au bord d'un cratère. Il dit : « Pardon. » La Lune ne répond pas tout de suite. Puis la poussière se soulève autour de lui, doucement, comme une main sur une épaule.
+Il a coupé le câble lui-même. Il a démantelé le chantier pièce par pièce, en payant toutes les heures supplémentaires de ses ouvriers, avec les intérêts. Il a été licencié par la Compagnie Foncière d'Aldébaran. Il a été ruiné. Il a été dépensé.
+Il vit aujourd'hui sur Terre, dans une petite maison au bord de la mer, près de Grève-Molle. Il regarde la marée tous les soirs. Il n'en avait jamais vu. Il pleure à chaque fois.
+?comp:bartho Il boit de l'eau douce au Ressac Triste avec Bartholomé. Ils râlent ensemble. Ils sont devenus amis, de la seule façon dont deux vieux râleurs peuvent l'être : sans jamais se le dire.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+Il écrit toujours des poèmes. Ils sont toujours mauvais. Mais maintenant, il les lit à voix haute, le soir, sur la plage. Et la Lune, là-haut, l'écoute.
+
+@end_08
+!end: 8
+!title: Le Grand Sommeil
+Platine s'endort, et dans son rêve, il entre dans la maison aux mille fenêtres. La Lune l'attend, assise par terre. Il s'assoit à côté d'elle. Ils regardent la Terre ensemble. Il ne la possède pas. Il est juste là.
+Et par la porte ouverte, tous les rêveurs de la Terre arrivent. Les Marégraves, les Lichenautes, les Gravitaires, les Horlogers, les Somnambules. Ils s'assoient dans la maison de la Lune. Ils regardent par les fenêtres. C'est si doux, si calme, si beau, que personne ne veut se réveiller.
+Personne ne s'est réveillé.
+La Terre dort. Toute la Terre. Depuis des années. Les mers dorment, les forêts dorment, les horloges dorment. La Lune, en vrai, est partie depuis longtemps vers Aldébaran, avec son crochet, son chantier et ses piscines. Mais dans le rêve, elle est restée. Elle reste toujours. Elle a des visiteurs tous les soirs.
+?pc:pistil Toi, tu es enfin chez toi. Tout le monde habite les rêves, maintenant. Tu n'es plus le seul. Tu sers le thé.
+?comp:brume Brume-Lucie flotte entre les fenêtres. Elle n'a plus jamais à finir une phrase : dans le Grand Sommeil, rien ne finit jamais.
+C'est une fin heureuse, si on ne se réveille pas. Personne ne se réveille.
+
+@end_09
+!end: 9
+!title: Procès en cours
+L'affaire « Terre contre Compagnie Foncière d'Aldébaran » est inscrite au rôle du Tribunal Intersidéral le mardi suivant. Première audience dans quatre cents ans.
+En attendant le jugement, la Lune est placée sous séquestre. Elle ne peut ni partir ni rester. Elle est suspendue, à mi-chemin, entre la Terre et Aldébaran, dans une orbite provisoire que les avocats appellent « orbite conservatoire ».
+La mer monte un peu. Les rêves sont un peu flous. Les Horlogers font tic... tac... très lentement. Tout le monde vit à mi-chemin.
+?pc:basile Tu es le principal témoin. On te convoque tous les dix ans pour répéter ta déposition. Tu la répètes, lentement, à ta vitesse. Il faut trois jours. Les juges dorment. Tu continues.
+Platine est devenu ton meilleur adversaire. Vous vous écrivez des conclusions de trois cents pages, avec des notes de bas de page, des renvois et des citations de poèmes. Il te souhaite ton anniversaire. Tu lui souhaites le sien. Vous déjeunez ensemble après chaque audience.
+La Lune attend la décision. Elle a l'habitude d'attendre.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+On ne sait pas comment ça finira. Personne ne le sait. C'est le principe d'un procès. C'est le principe de tout, en fait.
+
+@end_10
+!end: 10
+!title: Marée basse
+Les moteurs se sont arrêtés, ou ils ont continué, ça n'a plus d'importance. La Terre penchait trop. Elle a trop basculé, trop vite, pendant trop longtemps. Le monde était trop lourd.
+La Lune est restée, ou elle est partie. Mais la mer, elle, s'est arrêtée.
+Elle ne monte plus. Elle ne descend plus. Elle est immobile, plate, grise, comme une flaque de la taille d'une planète. Les vagues ont cessé. Les ports se sont tus. Les poissons font la queue devant des flaques qui ne bougeront jamais plus.
+?pc:ondine Tu mesures un mètre quatre-vingt-six. Toujours. Tu ne montes plus, tu ne descends plus. Tu es une Marégrave immobile, une marée qui ne vient pas. Tu écris toujours des lettres. Tu ne les envoies plus.
+Les Terriens se sont habitués. C'est ce qu'ils font de mieux, s'habituer. Ils ont inventé des marées mécaniques, des rêves en conserve, des horloges à piles. Ça marche presque.
+Le soir, quand le ciel est clair, ils lèvent la tête et ils cherchent quelque chose qu'ils ont oublié. Ils ne savent plus quoi. Mais ils continuent de chercher.
+?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.
+?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
+?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
+?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+C'est déjà ça. Ce n'est pas grand-chose.
+
+@end_11
+!end: 11
+!title: L'Axe brisé
+?from:fin_19 Le câble se rompt. La Lune est libérée d'un coup, sans préparation, sans douceur. Et la Terre, qui penchait déjà trop, reçoit le choc de plein fouet.
+?!from:fin_19 La Terre a fait trois pas vers la Lune. Au quatrième, le câble, tendu entre deux mondes qui bougent, se rompt. La Lune est libérée d'un coup, sans préparation, sans douceur. Et la Terre, qui penchait déjà trop, reçoit le choc de plein fouet.
+L'Axe craque. Dans les Profondeurs, les Gravitaires assis dessus sentent le fer se fendre sous eux. Ils tiennent. Ils tiennent jusqu'au bout. Mais le bout arrive.
+La Terre bascule. Pas beaucoup : vingt degrés. Assez pour tout changer. Les pôles sont devenus tropicaux, les tropiques sont devenus des déserts de glace. Les forêts poussent à l'horizontale. Les jours durent onze heures, puis trente-sept, puis neuf.
+La Lune tourne toujours autour de la Terre. Mais de travers. Elle passe parfois très près, parfois très loin. Elle a l'air de chercher sa place. Elle ne la trouve plus.
+?pc:brisefer Là-haut, sur le Promontoire, tu as senti l'Axe craquer jusque dans tes os. Tu es redescendue en trois jours, sans dormir. Tu t'es assise sur l'Axe brisé, et tu n'en as plus bougé. On t'y a retrouvée des années plus tard, onze tonnes de granit fendu, les mains posées à plat sur le fer, comme pour le tenir encore.
+?pc:brisefer ?flag:galene Galène t'a fait un tombeau en forme de fauteuil. Il dit que tu aurais détesté ça. Il a raison.
+La Terre penche, maintenant. Pour toujours. Les Terriens ont appris à vivre de biais. Ils marchent penchés. Ils dorment penchés. Ils aiment penchés.
+?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.
+?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
+?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
+?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+Ils disent que ce n'est pas si mal. Ils mentent un peu.
+
+@end_12
+!end: 12
+!title: Blanche et ronde
+Tu deviens une Lune.
+Ça prend une nuit. Ton corps blanchit, s'arrondit, s'allège. Tes souvenirs deviennent des cratères. Ta voix devient de la lumière froide. Tu montes, doucement, jusqu'au bout du câble de Platine, et le crochet se détache de l'ancienne Lune pour se planter en toi.
+Tu pars vers Aldébaran. Tu deviens Lune-sur-Mer. On construit sur toi des piscines, des golfs, une tour de quatre cents étages. Des gens riches te regardent pour regarder la vue. Tu ne pleures pas. Tu es une Lune, maintenant. Tu sais faire deux choses : tourner et briller. Tu tournes. Tu brilles.
+La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
+?pc:ondine Elle garde une boîte à chaussures pleine de lettres. Les tiennes. Elle les relit. Maintenant, elle t'écrit, toutes les nuits. Ses lettres mettent quarante ans à arriver jusqu'à Aldébaran. Tu les reçois. Tu les gardes.
+?comp:bartho Bartholomé lève les yeux tous les soirs vers le ciel, à l'endroit où tu es partie. Il râle. Il râle contre toi, contre la Lune, contre l'univers. Il ne s'arrête jamais. C'est sa façon de t'aimer.
+Platine habite ta Tour. Il te dit bonjour tous les matins. Il te dit merci tous les soirs. Personne ne lui avait demandé. Il le fait quand même.
+Tu tournes. Tu brilles. Tu es seule, et tu ne l'es pas.
+
+@end_13
+!end: 13
+!title: Le Pied-de-Nez
+Le câble se rompt. La Lune est libre. Pendant une seconde. Puis Rocambole lance un crochet tout neuf depuis le Pied-de-Nez, et le plante dans la mer de la Crise.
+« Désolé, mon ami ! Je n'ai pas pu résister ! Elle est trop belle ! »
+Il l'emmène. Pas vers Aldébaran. Ailleurs. Vers un coin de la galaxie que personne ne connaît, où il n'y a ni promoteurs, ni contrats, ni piscines.
+?flag:rocambole_honnete Puis, au milieu du chemin, il s'arrête. Il regarde la Lune. Il regarde la Terre, au loin, toute petite. Il tire sur sa pipe vide. « Non. » Il décroche le crochet. Il fait demi-tour. Il la ramène. Il la rend. C'est la première chose belle qu'il ait jamais rendue.
+?!flag:rocambole_honnete Il la garde trois mois. Puis il la ramène, en râlant. « Elle passait son temps à regarder par-dessus mon épaule. Vers vous. C'est insupportable, quelqu'un qui regarde toujours ailleurs. » Il la décroche au-dessus de son ancienne orbite. Elle y retourne toute seule.
+Platine a porté plainte pour vol. Rocambole a porté plainte pour « contrat de vente abusif d'un être sensible ». Les deux plaintes se sont annulées. C'est la seule fois que la justice intersidérale a fonctionné.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+Rocambole vit aujourd'hui sur Terre. Il pilote un bateau de pêche avec quatre bras. Il salue toutes les vaches. Il regarde la Lune tous les soirs, et il ne la vole pas. Ça lui demande un effort considérable.
+
+@end_14
+!end: 14
+!title: Le premier mot
+Le mot d'Écho résonne partout. « Reste. » Il traverse le Promontoire, le vide, la Lune, la Terre. Il entre dans les rêves, dans les racines, dans les mers, dans les horloges. Et partout où il arrive, quelqu'un le répète.
+Les Marégraves sur les plages : « Reste. » Les Lichenautes sur la Toile, lentement : « Re... ste. » Les Gravitaires sur l'Axe, en grondant. Les Horlogers figés, dont les ressorts se remettent à battre sur ce mot. Les Somnambules dans les rêves. Le Président galet, sur son coussin. Toute la Terre dit le même mot, en même temps, d'une seule voix.
+La Lune l'entend. Elle n'avait jamais entendu la Terre lui parler. Elle s'arrête de partir.
+Platine coupe les moteurs. Il n'a pas le choix : on ne peut pas emporter quelque chose à qui une planète entière dit « reste ».
+Écho, au milieu du bureau, se tait enfin. Elle a l'air épuisée. Heureuse. Elle se pose sur ton épaule.
+Elle ne répète plus. Elle parle. Pas beaucoup : trois ou quatre mots à elle, qu'elle a trouvés en chemin. « Reste. » « Pas seul. » « Merci. » Et, un soir, en regardant la Lune revenue à sa place, un quatrième, qu'elle a inventé toute seule et que personne d'autre ne comprend.
+?flag:croissant ?!flag:mort_coquille Madame Coquille et le petit Croissant vivent sur une plage, au sud. À chaque marée haute, Croissant fait semblant de naître une deuxième fois, pour le plaisir de sa mère. Il est très lent et très heureux.
+?flag:mort_coquille Le petit Croissant a été élevé par tout le Carrefour, à tour de rôle. Les soirs de marée haute, il nage vers la Lune. On dit qu'il va dire bonsoir à sa mère.
+?flag:remontoir_remonte Grand-Père Remontoir a cent ans devant lui. Il les passe à poser des devinettes aux enfants et à faire de la confiture. Il prétend qu'il ne se souvient pas d'avoir été lent.
+?flag:remontoir_repare Grand-Père Remontoir boite un peu, du ressort. Il dit que ça lui donne du charme.
+?flag:mort_remontoir Au Carrefour, on a construit une horloge qui ne donne pas l'heure, en souvenir de Grand-Père Remontoir. Elle donne des devinettes. Personne n'a jamais trouvé la dernière.
+?flag:gaspard_repose Les soirs de brume, aux Hauts-Nuages, des voyageurs disent avoir vu une nacelle d'osier vide passer très haut, tout droit vers la Lune, à l'heure.
+?comp:gaspard ?flag:gaspard_lettre Gaspard Ombrelune est redescendu à Lyon, deux cents ans en retard, avec un peu de poussière de Lune dans sa poche transparente. Il cherche la dame. Il a l'éternité.
+?comp:gaspard ?!flag:gaspard_lettre Gaspard Ombrelune est resté là-haut. C'est le premier habitant de la Lune : mort, mais ponctuel. Il fait visiter les cratères aux enfants qui rêvent.
+?flag:amour_fernand_ondee Fernand et Dame Ondée se sont installés au-dessus de la Forêt-Réseau. Quand il pleut là-bas, chaque goutte s'allume. Fernand n'a plus déposé une seule réclamation.
+?flag:amour_quartz_pardon Le Docteur Quartz et Pardon vivent dans la géode. Il mesure tout ce qu'elle dit. Elle se trompe toujours six fois sur dix. Il trouve que c'est la bonne proportion.
+?flag:mariage Tante Mélusine et le Colonel Plumard fêtent leur mariage tous les soirs à minuit, la seule heure où ils sont réveillés tous les deux.
+?flag:amour_melusine_plumard ?!flag:mariage Tante Mélusine et le Colonel Plumard se sont mariés au retour, en grande pompe, en majuscules et à l'aube.
+?flag:amour_barnabe Lord Barnabé et la Comtesse Vespérine dansent la valse tous les soirs de pleine lune, sur la terrasse du Club. À la fin, il hurle. Elle aussi.
+?flag:zouzou_rentree Tous les soixante-seize ans, une petite comète sort du cortège familial pour dessiner un cœur au-dessus du Carrefour. Puis elle rentre dans le rang, en traînant.
+?comp:zouzou Zouzou ne repasse plus jamais à heure fixe. Elle passe quand elle veut, c'est-à-dire tout le temps, et toujours au mauvais moment.
+?flag:article Le Courrier des Galeries tire maintenant à un million d'exemplaires. Taupinel ne voit toujours pas ses lecteurs, mais il les entend tourner les pages.
+?flag:assemblee_femmes La motion d'Ysaline est entrée dans la Charte des Espèces, article premier : « On ne vend pas celle qui n'a pas dit oui. »
+?flag:lettres_livrees La Lune répond aux lettres que Grisélidis lui a portées, une par nuit. Elle en a pour trois mille ans. Elle a le temps, maintenant.
+?flag:graine_plantee Dans la mer de la Tranquillité, un petit chêne pousse, tourné vers la Terre. C'est le seul arbre de la Lune. Les astronautes de passage lui font un signe.
+?flag:n_cor La nuit de la grande marée, personne ne s'est noyé. Les villages se souviennent d'un son de corne, venu de nulle part, qui les a réveillés juste à temps.
+?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
+?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
+?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
+?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+Elle le dit souvent. Elle a l'air de beaucoup l'aimer.
+
+@end_15
+!end: 15
+!title: Inauguration
+Ta signature est petite, penchée. Platine la regarde sécher avec tendresse. « Bienvenue dans la Compagnie. »
+L'inauguration de Lune-sur-Mer a lieu six mois plus tard, en orbite autour d'Aldébaran. Il y a des feux d'artifice, des discours, un orchestre de satellites. La Tour Platine brille de ses quatre cents étages. Les piscines à marées montent et descendent toutes les six heures, mécaniquement.
+Tu es concierge en chef. Tu as un uniforme doré et un trousseau de mille clés. Tu arroses les plantes en plastique. Tu changes les ampoules des cratères. Tu accueilles les résidents. Ils sont riches, polis, et ils ne regardent jamais la vue.
+Toi, tu la regardes. Tous les soirs, après ton service, tu montes au sommet de la Tour, et tu regardes, très loin, un petit point bleu qui penche. La Terre. Ta Terre. Sans Lune.
+La Lune, sous tes pieds, ne dit plus rien. Elle s'est tue le jour de l'inauguration. Parfois, la nuit, tu crois l'entendre pleurer, tout bas, dans les fondations. Tu poses ta main sur le sol. Tu dis : « Je suis là. » Ça ne change rien. Tu le fais quand même.
+?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.
+?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
+?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
+?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+C'est ton seul acte de résistance. Tu le fais tous les soirs. Personne ne le sait.

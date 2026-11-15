@@ -1,0 +1,279 @@
+# ================================================================
+# PROLOGUE 3 — PISTIL, Somnambule, habitant des rêves
+# ================================================================
+
+@pis_01
+!title: Sous les paupières
+Tu t'appelles Pistil. Tu es un Somnambule : tu n'existes que dans les rêves des autres. Tu ressembles à un pyjama plié qui aurait décidé d'avoir des yeux, avec un bonnet de nuit où brillent trois étoiles d'occasion.
+Tu habites une tasse de thé, dans le rêve d'un vieux Gravitaire qui dort depuis deux cents ans. C'est un bon rêve, lent et chaud. Mais cette nuit, la lumière de Lune qui éclaire tous les rêves du monde se met à clignoter, comme une ampoule qui hésite.
+* pis_02 coe10 | Sortir de ta tasse pour voir | Tu sors. Le paysage du rêve, des collines de laine, frissonne comme un rideau dans un courant d'air. | Tu sors trop vite et tu tombes dans le sucrier. | mor+1 |
+* pis_03 rus11 | Demander au rêve ce qui se passe | Le rêve te répond en changeant de couleur : bleu, gris, bleu, gris. En langage onirique, ça veut dire « Je ne sais pas, mais j'ai peur ». | Le rêve te répond par une girafe. Tu ne sais pas l'interpréter. | rus+1 |
+
+@pis_02
+Les collines de laine se détricotent par le bas. Un mouton du rêve passe en courant, à moitié défait, en criant « Je perds le fil ! Je perds le fil ! ». Au-dessus, la Lune du rêve, celle qui est toujours là dans tous les rêves, même ceux où on ne la voit pas, s'éloigne en grésillant.
+* pis_04 pan11 | Rattraper le mouton et le retricoter | Tu cours, tu l'attrapes, tu renoues ses mailles avec tes petites mains de flanelle. Il te remercie en bêlant une berceuse. | Tu attrapes le fil, pas le mouton. Tu as maintenant une pelote et un mouton tout nu qui te regarde avec reproche. | pan+1 equ+2 |
+* pis_05 coe10 | Regarder la Lune s'éloigner | Tu la regardes. Tu as toujours cru qu'elle était un meuble du rêve, comme le lit et le ciel. Elle avait peut-être une vie à elle. | Elle s'éloigne et tu as froid. Les Somnambules ont toujours froid quand la Lune s'en va. | coe+1 |
+
+@pis_03
+Tu poses la question à une porte, puisque dans les rêves, les portes savent beaucoup. « Porte, pourquoi la Lune clignote ? » La porte grince : « On la décroche. Là-haut, dans le monde éveillé. Quelqu'un l'a achetée. »
+Tu ne savais pas qu'on pouvait acheter la Lune. Tu ne savais pas qu'on pouvait acheter quoi que ce soit. Dans les rêves, tout est gratuit, sauf les cauchemars, qu'on paie plus tard.
+* pis_04 rus10 | Demander ce que c'est, « acheter » | La porte réfléchit. « C'est quand on donne des petits papiers pour que quelque chose ne soit plus à personne d'autre. » Tu trouves ça très triste. | « C'est compliqué », dit la porte, et elle se referme. Les portes n'aiment pas les explications. | rus+1 |
+* pis_05 coe11 | Demander si la Lune est d'accord | La porte grince longuement. « Personne ne lui a demandé. Personne ne demande jamais rien aux choses qui brillent. » | La porte ne répond pas. Elle s'ouvre sur un placard vide. C'est une réponse aussi. | coe+1 +flag:pistil_question |
+
+@pis_04
+Le vieux Gravitaire, celui dont c'est le rêve, s'agite dans son sommeil. Tu sens tout le paysage trembler. Il marmonne quelque chose dans son rêve : « Pas encore... pas encore réveillé... »
+Si un rêveur se réveille, son rêve s'efface. Et toi avec. C'est la règle. Les Somnambules meurent tous les matins, un peu, et renaissent le soir dans un autre rêve. Mais ce Gravitaire, c'est ta maison depuis cent ans.
+* pis_06 coe12 | Lui chanter une berceuse | Tu chantes. Ta voix est petite, mais elle est faite pour ça. Le Gravitaire se calme et ronfle comme un éboulement heureux. | Tu chantes faux. Le Gravitaire grogne. Il ne se réveille pas, mais il rêve un peu de cailloux qui chantent faux. | equ+2 mor+1 |
+* pis_07 rus11 | Lui fabriquer un rêve plus calme | Tu poses un lac, une barque, un chat. Il se calme. Tu es un bon architecte du sommeil. | Tu poses un lac, une barque, un chat qui parle de fiscalité. Le rêve devient un cauchemar administratif. | rus+1 |
+
+@pis_05
+La Lune du rêve est maintenant une virgule pâle, très loin. Sans elle, les ombres du rêve n'ont plus de direction. Elles errent, perdues, comme des chiens sans maître. Une ombre de chaise se frotte contre tes jambes.
+* pis_06 coe10 | Caresser l'ombre de chaise | Elle ronronne. Une ombre de chaise qui ronronne, c'est la chose la plus douce que tu aies entendue cette nuit. | Elle te mord. Les ombres perdues sont nerveuses. | mor+1 |
+* pis_08 rus11 | Rassembler les ombres errantes | Tu les rassembles dans un coin, comme un berger. Elles se tiennent tranquilles. Elles attendent qu'on leur dise où tomber. | Elles s'éparpillent. Une ombre de girafe s'enfuit dans un autre rêve. | equ+2 |
+
+@pis_06
+Le rêve se calme, un peu. Mais au loin, à l'horizon des paupières, tu vois le Pays-Dessous-les-Paupières se défaire : des villes de rêves s'effondrent, des forêts de souvenirs se déplument, des mers d'oublis s'évaporent. Partout sur la Terre, les gens dorment mal. La Lune s'en va, et le sommeil s'en va avec.
+* pis_09 pan11 | Partir voir ce qui se passe ailleurs | Tu sautes de ton rêve dans le rêve voisin, puis dans un autre. Tu voyages par sauts de sommeil. | Tu sautes dans un rêve de chute. Tu tombes pendant dix minutes. C'est long, dix minutes de chute. | pan+1 |
+* pis_07 coe10 | Rester encore un peu dans ta tasse | Tu restes. Le thé est tiède. C'est la dernière fois qu'il sera tiède, tu le sais. Tu le bois lentement. | Tu restes, mais la tasse se fêle. C'est un signe. Tu n'aimes pas les signes. | mor+1 |
+
+@pis_07
+Tu te réfugies dans ta tasse. Elle sent la camomille et la poussière d'étoile. Tu y as mis tes trésors : une plume de mouette rêvée, un bouton de lune, le souvenir d'un rire d'enfant que tu as trouvé dans un rêve en 1987.
+La tasse tremble. Le Gravitaire bouge. Quelque chose est en train de le réveiller.
+* pis_10 coe11 | Prendre tes trésors avec toi | Tu les glisses sous ton bonnet. Tu as maintenant la tête lourde de choses précieuses. | Tu prends tout, mais le rire d'enfant s'envole. Tu l'entends rire au loin, sans toi. | +flag:tresors |
+* pis_09 pan10 | Sortir et affronter ce qui arrive | Tu sors. Tu es petit, mais tu es dehors. C'est déjà beaucoup. |  | pan+1 |
+
+@pis_08
+Les ombres errantes se blottissent autour de toi. Une ombre de lampadaire, une ombre de chat, une ombre d'enfant qui a grandi et l'a laissée là. Elles te demandent, sans mots, où est passée la lumière qui les dessinait.
+Tu n'as pas de réponse. Tu as une couverture. Tu les couvres.
+* pis_10 coe12 | Leur promettre de retrouver la lumière | Tu promets. Les ombres se calment et s'endorment sur tes pieds. Tu ne sais pas tenir une promesse. Tu vas apprendre. | Tu promets, mais ta voix tremble. Les ombres ne te croient pas tout à fait. | coe+1 mor+1 |
+
+@pis_09
+Tu traverses les rêves de la Terre. Partout, la même chose : un rêve de Marégrave où la mer refuse de monter, un rêve d'Horloger où toutes les horloges fondent, un rêve de Lichenaute qui dure depuis deux siècles et commence à peine à avoir un début.
+Et partout, des rêveurs qui se réveillent en sursaut, en sueur, avec l'impression d'avoir perdu quelque chose.
+* pis_11 rus11 | Comprendre ce que tous ces rêves ont en commun | Tous ont perdu leur Lune. Elle était dans tous les rêves, même ceux où on ne la voyait pas, comme un mot qu'on n'écrit pas mais qu'on entend. | Tu vois des points communs, mais aussi des girafes. Il y a beaucoup de girafes, ce soir. | rus+1 |
+* pis_12 coe10 | T'arrêter dans un rêve d'enfant | Dans le rêve d'un petit Gravitaire, la Lune est un ballon. Il pleure parce qu'il l'a lâché. Tu lui rends un ballon de rêve. Il sourit dans son sommeil. | Le petit rêveur se réveille. Tu es éjecté de son rêve comme un bouchon. | equ+2 |
+
+@pis_10
+Le Gravitaire se réveille. Pas complètement : il ouvre un œil, un seul, gros comme une meule. Tout le rêve se plie vers cet œil. Tu t'accroches à un nuage pour ne pas être aspiré dans l'éveil.
+Une voix douce, à côté de toi : « Accroche-toi à moi, petit. Je suis du brouillard, je ne lâche jamais vraiment. »
+* pis_13 coe10 | T'accrocher à la voix | Tu t'accroches. C'est doux, frais, humide, comme un drap qu'on aurait étendu sur la nuit. | Tu t'accroches mais ta main passe au travers. Elle te rattrape quand même, par le bonnet. | mor+1 |
+* pis_13 pan11 | Lutter seul contre l'aspiration | Tu luttes. Tu es minuscule, mais tu es têtu. La voix rit doucement. « Brave petit. » | Tu luttes et tu perds. La voix te rattrape au dernier moment. | pan+1 |
+
+@pis_11
+Tu commences à comprendre. Les rêves ont besoin de la Lune comme les marées. Sans elle, ils se dérèglent. Et si les rêves se dérèglent, les Somnambules disparaissent. Tous. Toi, tes cousins, ta grand-tante Taie d'Oreiller qui habite depuis trois siècles dans le rêve d'une montagne.
+* pis_13 coe11 | Avoir peur, franchement | Tu as peur, très peur. Tu t'assois et tu trembles. Et quelqu'un vient s'asseoir à côté de toi. | Tu as peur et tu fais semblant que non. Ça ne marche pas. | mor-1 | mor-1
+* pis_14 rus12 | Chercher qui pourrait aider | Les Somnambules ont une légende : le Marchand de Sommeil, qui connaît tous les rêves et tous les rêveurs. S'il y a quelqu'un qui sait, c'est lui. | Tu cherches et tu ne trouves que d'autres Somnambules qui cherchent. | +flag:legende_marchand |
+
+@pis_12
+Le petit Gravitaire, dans son rêve, serre son ballon-Lune. Il te regarde avec ses yeux de caillou. « Tu es qui ? »
+« Je suis Pistil. J'habite les rêves. »
+« Tu peux la ramener, la vraie ? »
+Tu ne sais pas. Tu ne sais même pas où elle va. Tu sais juste que les enfants posent les questions que les grands ont peur de poser.
+* pis_13 coe12 | « Je vais essayer. » | « Promis ? » « Promis. » Il te tend la ficelle de son ballon. Tu la gardes. | Il ne te croit pas. Il serre son ballon plus fort. | coe+1 +flag:ficelle |
+* pis_14 rus10 | « Je ne sais pas, mais je connais quelqu'un qui sait peut-être. » | « Qui ? » « Le Marchand de Sommeil. » L'enfant frissonne. « Il est méchant ? » « Je ne sais pas. » | L'enfant se rendort plus profondément. Tu restes seul avec ta réponse. | +flag:legende_marchand |
+
+@pis_13
+?from:pis_11,from:pis_12 Un brouillard doux vient se poser à côté de toi. Il a une voix, une voix de matin d'automne.
+Elle s'appelle Brume-Lucie. Elle est une Brumeuse, une créature de brouillard qui vit entre le rêve et l'éveil, là où les choses sont floues. Elle a une voix de matin d'automne et elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
+« Je flotte entre les mondes, entre la nuit et le... enfin. Tu vois. »
+Quand elle est gênée, elle disparaît. Elle est souvent gênée.
+* pis_15 coe11 | Lui dire que ses demi-vers sont jolis | Elle rosit, ce qui pour du brouillard fait un joli coucher de soleil. Puis elle disparaît. Puis elle réapparaît, ravie. | Elle disparaît de gêne et met dix minutes à revenir. | mor+1 coe+1 |
+* pis_16 rus11 | Lui demander ce qu'elle sait de la Lune | « La Lune ? C'est ma cousine. Toutes les brumes sont cousines de la Lune. Elle nous éclaire, nous on la... enfin. On l'adoucit. » | « Ce que je sais... ce que je sais est flou. C'est ma nature. » | +flag:brume_lune |
+
+@pis_14
+Le Marchand de Sommeil tient boutique dans un rêve de grand magasin, au bout d'un couloir de dormeurs. Tout le monde le connaît. Personne ne l'a vu. Les Somnambules disent qu'il vend des grammes de sommeil dans des bocaux, et qu'en ce moment, avec l'insomnie mondiale, il fait fortune.
+* pis_17 pan11 | Aller tout de suite le voir | Tu te mets en route. Le couloir des dormeurs est long, rempli de ronflements. | Tu prends le mauvais couloir, celui des réveils en sursaut. Tu as très peur. | pan+1 |
+* pis_15 coe10 | Chercher d'abord quelqu'un pour t'accompagner | Tu cherches. Et quelqu'un te trouve : un nuage doux, une voix qui hésite. | |
+
+@pis_15
+?from:pis_14 Elle se présente en rougissant : Brume-Lucie, Brumeuse, créature de brouillard qui vit entre le rêve et l'éveil. Elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
+Brume-Lucie flotte autour de toi. Elle te regarde comme on regarde un poussin dans une tempête. « Tu es tout petit. Tu ne devrais pas aller seul là où les rêves se... » Elle ne finit pas. Elle n'aime pas les fins.
+« Est-ce que je peux venir ? Je ne sers à rien, mais je fais de l'ombre. Enfin, du flou. »
+* pis_16 coe10 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | Elle disparaît de joie et met longtemps à revenir. Mais elle revient. | +comp:brume mor+1 | +comp:brume
+* pis_17 rus11 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | Elle hésite, disparaît, revient : « Oui. Je suis sûre. Enfin. À moitié. » | +comp:brume | +comp:brume
+* pis_17 pan12 | « Non, reste en sécurité. J'y vais seul. » | Elle te regarde partir. Tu entends derrière toi un demi-vers qui ne finit pas. Ça te serre le cœur. | Elle insiste, tu refuses. Elle disparaît, vexée. | pan+1 | mor-1
+
+@pis_16
+Brume-Lucie te raconte la Lune. « Elle tourne autour de vous depuis toujours. Elle n'a jamais rien demandé. Elle éclaire les rêves sans qu'on la remercie. Et maintenant on la... » Elle ne termine pas. « Je déteste les fins. Les fins, c'est quand les choses s'en... »
+~brume: « Je n'ai pas fini ma phrase. Je ne la finirai pas. C'est plus joli comme ça. »
+* pis_17 coe11 | Lui dire qu'on va empêcher cette fin-là | Elle te regarde. « Toi ? » « Nous. » Elle reste visible longtemps, ce qui chez elle est une preuve de courage. | Elle ne te croit pas, mais elle aimerait te croire. C'est presque pareil. | mor+1 +flag:brume_espoir |
+* pis_17 rus10 | Lui demander de te guider vers le Marchand | Elle connaît le chemin. Elle connaît tous les chemins flous. Elle te guide. | Elle connaît le chemin, à peu près. Vous vous perdez deux fois. | |
+
+@pis_17
+Le couloir des dormeurs. Des lits à l'infini, des dormeurs de toutes les espèces, et au-dessus de chacun, une petite bulle de rêve. Mais ce soir, les bulles éclatent une à une. Pop. Pop. Des insomnies naissent comme des champignons.
+Au bout du couloir, une enseigne au néon violet : « AU BON SOMMEIL — Grammes, kilos, nuits complètes. Prix en hausse. »
+?comp:brume Brume-Lucie se cache derrière toi. « Je n'aime pas cet endroit. Il sent le café. »
+* pis_18 pan11 | Entrer dans la boutique | La clochette fait un bruit de bâillement. Tu entres. | La porte est lourde. Tu entres en poussant de tout ton petit poids. | |
+* pis_19 rus11 | Observer la boutique par la vitrine | Dans la vitrine, des bocaux : « Sommeil profond, 30 g », « Sieste, 5 g », « Rêve de vol, épuisé ». Et une affiche : « Partenaire officiel de Lune-sur-Mer ». | La vitrine est couverte de buée de rêve. Tu ne vois que ton reflet. Il a l'air inquiet. | rus+1 +flag:marchand_partenaire |
+
+@pis_18
+Le Marchand de Sommeil est grand, maigre, en robe de chambre de velours rouge. Il a des yeux comme des boutons de pyjama et une voix comme un oreiller qu'on retourne. Il compte des grammes de sommeil sur une petite balance dorée.
+« Un client ! Un Somnambule ! Qu'est-ce qu'il te faut, mon petit ? J'ai de tout. Sauf de la Lune. Ça, je n'en ai plus. Personne n'en a plus. »
+* pis_20 coe11 | Lui demander pourquoi il vend du sommeil | « Parce qu'on le gaspille ! Les gens dorment n'importe comment ! Moi, je l'emballe, je l'étiquette. Et maintenant qu'il manque, je le vends cher. C'est la loi du... » Il bâille. « ...marché. » | Il ricane. « Parce qu'on me l'achète, mon petit. » | coe+1 |
+* pis_21 rus12 | Lui demander s'il travaille pour la Compagnie | Il s'arrête de compter. « Qui t'a dit ça ? » Il sourit, trop large. « Je suis... consultant. La Compagnie me laisse l'exclusivité des rêves de Lune-sur-Mer. Des rêves de standing. Pour une clientèle choisie. » | Il fait semblant de ne pas entendre. Il compte plus fort. | +flag:marchand_traitre |
+
+@pis_19
+Tu observes encore. Dans l'arrière-boutique, des étagères pleines de bocaux étiquetés à la main : « Rêve de la Lune, nuit 1 », « Rêve de la Lune, nuit 2 »... Il y en a des milliers. Le Marchand a récolté les rêves de la Lune elle-même, pendant qu'elle dormait.
+La Lune rêve. Tu ne savais pas. Personne ne savait.
+* pis_18 coe11 | Entrer quand même, le cœur battant | Tu entres. La clochette bâille. Le Marchand lève ses yeux de bouton. | |
+* pis_22 rus12 | Te glisser dans l'arrière-boutique par la fenêtre | Tu es petit et plié comme un pyjama. Tu passes par la fente. Tu es dans l'arrière-boutique. | Tu restes coincé à moitié. Tu entends le Marchand qui approche. Tu forces. Tu passes. | rus+1 |
+
+@pis_20
+« Tu veux savoir le pire ? » Le Marchand se penche vers toi. Il sent la lavande et l'argent. « Quand la Lune sera partie, plus personne ne dormira gratuitement. Le sommeil sera rare. Je serai le seul à en avoir. Je serai l'homme le plus riche de la Terre. Enfin, l'homme le plus reposé. C'est pareil. »
+* pis_23 coe12 | Lui dire que c'est triste d'être riche tout seul | Il cligne de ses yeux-boutons. Personne ne lui avait jamais dit ça. « Triste ? Je ne suis pas triste. Je suis... » Il bâille. « Je suis fatigué. » | Il rit. « Tu es un enfant. Les enfants croient que les choses tristes sont tristes. » | coe+1 +flag:marchand_doute |
+* pis_21 rus11 | Lui proposer un marché | Il se frotte les mains. « Un marché ! J'adore les marchés. Qu'est-ce que tu as à vendre, petit pyjama ? » | Il te regarde de haut. « Tu n'as rien. Tu es un rêve. » | |
+
+@pis_21
+« Voilà ce que je te propose », dit le Marchand. « Tu me donnes ce que tu as de plus précieux, et je te donne un gramme de sommeil de Lune. Un gramme de son sommeil à elle. Avec ça, tu pourrais entrer dans son rêve. Lui parler. Mais c'est cher. Très cher. »
+?flag:tresors Il regarde ton bonnet. Il sait ce que tu y caches.
+* pis_24 coe12 ?flag:tresors | Lui donner tes trésors | Tu lui donnes la plume, le bouton, et tout ce que tu avais. Il te donne un petit bocal où brille une poussière d'argent. Tu te sens plus léger et plus pauvre. | Tu lui donnes tout mais il veut aussi ton nom. Tu refuses. Il te donne quand même le bocal, déçu. | +flag:sommeil_lune mor-1 | +flag:sommeil_lune mor-2
+* pis_25 rus12 | Lui proposer un rêve à toi en échange | « Un rêve de Somnambule ? Personne n'en a jamais eu ! » Il est fasciné. Tu lui donnes un rêve où tu as une maison et une famille. Il te donne le bocal. | Il prend ton rêve et le trouve banal. Il te donne quand même un demi-gramme. | +flag:sommeil_lune | +flag:sommeil_lune
+* pis_22 pan11 | Refuser et chercher le bocal toi-même | Tu fais semblant de partir. Tu reviens par l'arrière-boutique. | Il te voit faire. Il ne dit rien. Il sourit. Il sait que tu reviendras. | |
+
+@pis_22
+L'arrière-boutique. Des milliers de bocaux de rêves volés : des rêves de Marégraves, de Lichenautes, de Gravitaires, d'Horlogers. Et au fond, les plus brillants : les rêves de la Lune.
+Tu en prends un. À l'intérieur, une petite lumière tourne en rond, comme quelqu'un qui marche dans une maison vide.
+?comp:brume Brume-Lucie tremble. « On vole un voleur. C'est presque... enfin. C'est presque juste. »
+* pis_24 rus12 | Voler le bocal | Tu le glisses sous ton bonnet. Tu as volé quelque chose. Pour un rêve, c'est une première. Tu te sens grandir d'un centimètre. | Tu le glisses sous ton bonnet, mais une étoile du bonnet tombe et fait « ting ». | +flag:sommeil_lune +flag:vol_bocal rus+1 | +flag:sommeil_lune +flag:vol_bocal
+* pis_26 coe11 | Ouvrir tous les bocaux pour libérer les rêves | Tu ouvres, tu ouvres, tu ouvres. Des milliers de rêves s'envolent et rentrent chez leurs rêveurs. Partout sur la Terre, des gens dorment mieux pendant une nuit. Tu ne gardes qu'un bocal : le plus brillant, celui de la Lune. | Tu en ouvres trente avant que le Marchand n'arrive. Trente nuits sauvées. Tu as juste le temps d'attraper le bocal de la Lune. | equ+5 +flag:reves_liberes +flag:sommeil_lune +flag:vol_bocal | equ+2 +flag:sommeil_lune +flag:vol_bocal
+
+@pis_23
+Le Marchand s'assoit sur un tabouret. Il soupire. Il a l'air soudain très vieux. « Tu sais, petit, moi aussi j'étais un rêve. Un rêve d'enfant qui voulait que quelqu'un l'aide à dormir. On m'a rêvé gentil. Et puis on a grandi, et on m'a rêvé utile. Et puis rentable. »
+Il pose sa balance. « Je ne sais plus quel genre de rêve je suis. »
+* pis_25 coe12 | Lui dire qu'il peut encore être un rêve gentil | Il te regarde longtemps. Puis il ouvre un tiroir et te tend un petit bocal brillant. « Le sommeil de la Lune. Gratuitement. Ne le dis à personne. Surtout pas à moi. » | Il secoue la tête. « Trop tard. » Mais il te donne quand même un bocal, en détournant les yeux. | +flag:sommeil_lune +flag:marchand_gentil coe+1 | +flag:sommeil_lune
+* pis_21 rus10 | Profiter de sa faiblesse pour négocier | Il te regarde. Il comprend. Il redevient marchand. « Bien joué, petit. Parlons affaires. » | |
+
+@pis_24
+Tu tiens le bocal de sommeil de Lune contre toi. Il est froid et doux, comme une nuit de janvier sous une couette. Si tu l'avales, tu entreras dans le rêve de la Lune elle-même.
+Personne n'est jamais entré dans le rêve de la Lune. On ne savait même pas qu'elle rêvait.
+* pis_27 coe11 | L'avaler tout de suite | Tu l'avales. Ça a le goût d'une berceuse en hiver. Tu tombes. Lentement. Vers le haut. |  |
+* pis_26 rus11 | Attendre un endroit plus sûr | Tu le gardes. Tu sais que tu n'auras qu'une seule chance. | Tu attends trop. Le Marchand apparaît dans l'encadrement de la porte. | |
+
+@pis_25
+Tu as le bocal. Le Marchand te raccompagne à la porte avec une politesse de croque-mort. « Fais attention, petit. Le rêve de la Lune n'est pas un endroit gai. Elle rêve de choses... tristes. Elle est très seule, tu sais. On ne pense jamais à la solitude des choses qui tournent autour des autres. »
+* pis_27 coe12 | Le remercier sincèrement | Il est surpris. Il te fait un petit signe de la main, et sa robe de chambre devient un peu moins rouge, un peu plus douce. | Il ne répond pas. Il referme la porte. Mais pas à clé. | mor+1 |
+* pis_27 rus10 | Lui demander pourquoi il te prévient | « Parce que si elle part, je n'aurai plus rien à vendre. Même les marchands ont besoin de la nuit. » Il ferme la porte. | |
+
+@pis_26
+?flag:vol_bocal Le Marchand de Sommeil se dresse dans l'encadrement de la porte. Il a vu. Il a tout vu. Ses yeux-boutons brillent. « Petit voleur. Petit voleur de nuit. »
+?!flag:vol_bocal Le Marchand de Sommeil se dresse dans l'encadrement de la porte. « Tu traînes, petit. Ceux qui traînent dans ma boutique finissent par m'acheter du sommeil en trop. » Ses yeux-boutons brillent.
+Il s'approche. Il ne crie pas. Il bâille, et son bâillement est si grand qu'il aspire tout ce qui est autour.
+* pis_27 pan12 | Courir à travers le bâillement | Tu cours dans la bouche d'un bâillement géant. C'est une première dans l'histoire des rêves. Tu sors de l'autre côté, essoufflé et vivant. | Tu es aspiré, tu tournes, tu ressors par une oreille. C'est dégoûtant, mais efficace. | pan+1 | mor-1
+* pis_27 coe11 | Lui dire que tu fais ça pour la Lune | Le bâillement s'arrête net. Le Marchand te regarde. Puis il se retourne. « Je n'ai rien vu. Je dormais. Je dors toujours. » | Il ne t'écoute pas. Tu t'enfuis quand même, en zigzag, comme un rêve qu'on essaie d'attraper au réveil. | +flag:marchand_gentil |
+
+@pis_27
+Tu avales le sommeil de la Lune. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées, à travers le noir doux qui sépare les rêves des autres.
+Et tu arrives dans le rêve de la Lune.
+?comp:brume Brume-Lucie s'est accrochée à toi. Elle est venue. Elle tremble.
+* pis_28 coe10 | Ouvrir les yeux | Tu ouvres les yeux. Tu es dans une maison. | Tu ouvres un œil. Puis l'autre, par courage. | |
+
+@pis_28
+Le rêve de la Lune est une maison. Une grande maison blanche, vide, avec des milliers de fenêtres. Toutes les fenêtres donnent sur la Terre. Il n'y a pas de meubles. Il n'y a que des fenêtres, et de la poussière, et une petite silhouette ronde, assise par terre, qui regarde dehors.
+C'est elle. La Lune. Dans son rêve, elle est petite. Elle est assise, les genoux contre elle. Elle ne te voit pas.
+* pis_29 coe12 | T'approcher doucement | Tu t'approches. Tu fais très peu de bruit, tu es un pyjama. Elle sent ta présence. Elle tourne la tête. | Tu fais craquer un parquet de rêve. Elle sursaute et se cache derrière une fenêtre. | coe+1 |
+* pis_30 rus11 | Explorer d'abord la maison | Tu ouvres des portes. Derrière chacune, une pièce vide. Sur chaque mur, une date. Le premier jour, et tous les autres. Quatre milliards et demi de jours. | Tu ouvres des portes et tu te perds. La maison est grande comme une mémoire. | rus+1 |
+
+@pis_29
+La Lune te regarde. Elle a des yeux immenses et pâles, et une voix si douce que tu dois tendre l'oreille.
+« Qui es-tu ? Personne ne vient jamais ici. Personne ne sait que je rêve. »
+« Je suis Pistil. J'habite les rêves. »
+« Tu habites les rêves ? Comme c'est triste. Moi, j'habite un caillou qui tourne. » Elle sourit à moitié.
+* pis_31 coe11 | Lui demander si elle veut partir | Elle regarde les fenêtres. Toutes donnent sur la Terre. « Je n'ai jamais voulu partir. Je tourne autour d'eux parce que je les aime. Personne ne tourne autour de quelqu'un par contrat. » | Elle ne répond pas. Elle regarde la Terre. C'est une réponse. | +flag:reve_lune coe+1 | +flag:reve_lune
+* pis_32 rus11 | Lui expliquer ce qui se passe dehors | Elle écoute. « Vendue ? Moi ? Mais à qui j'appartenais ? » Elle a l'air perdue. Tu ne sais pas quoi répondre. | Elle sait déjà. Elle sent le crochet. Elle sent tout. | +flag:reve_lune |
+
+@pis_30
+Dans une des pièces, il y a une boîte à chaussures pleine de lettres. Des milliers de lettres, mouillées, écrites d'une écriture penchée : « Ma très chère, ce soir encore, la mer a fait semblant de ne pas t'attendre... » Toutes signées d'une certaine Ondine.
+Les vraies ont été renvoyées par la Compagnie, tamponnées « retour à l'expéditeur ». Mais la Lune les avait lues, chaque nuit, en passant au-dessus de la mer. Elle les sait par cœur. Elle les a recopiées dans son rêve, une par une.
+* pis_29 coe12 | Les remettre en place avec soin | Tu les ranges. Tu comprends que la Lune n'est pas une chose. Elle a quelqu'un qui lui écrit. Elle garde les lettres. | Tu en fais tomber trois. Tu les ramasses. Ta main tremble. | coe+1 +flag:lettres_ondine |
+* pis_33 rus11 | Continuer à explorer | Tu continues. Une autre pièce : une chambre d'enfant. Vide. | |
+
+@pis_31
+« Ils vont m'emmener loin. Dans un endroit où personne ne me regardera. Ou alors on me regardera, mais par la fenêtre d'une piscine. » Elle pose son menton sur ses genoux. « Je ne sais pas me défendre. Je suis la Lune. Je ne sais faire que deux choses : tourner et briller. »
+?comp:brume Brume-Lucie s'approche d'elle et l'enveloppe, comme un châle. La Lune ferme les yeux. « Oh. Ma cousine. »
+* pis_34 coe12 | Lui dire que ce sont déjà deux choses magnifiques | Elle te regarde. Une larme roule sur sa joue. Une larme de Lune, ça brille. « Personne ne m'avait jamais dit merci. » | Elle te sourit, mais elle ne te croit pas. Les gens tristes ne croient jamais les compliments. | coe+1 mor+1 +flag:lune_merci |
+* pis_35 pan11 | Lui promettre de la défendre | « Toi ? Tu es un pyjama. » « Un pyjama très déterminé. » Elle rit. Un rire de Lune, ça fait un petit clair de lune dans la pièce. | Elle te caresse le bonnet comme on caresse un chat qui promet de chasser un ours. | pan+1 |
+
+@pis_32
+« À qui j'appartenais ? » répète la Lune. « À personne. À la Terre ? Non. La Terre ne m'a jamais possédée. Elle m'a juste... gardée près d'elle. Comme on garde une amie. »
+Elle se lève. Elle va à une fenêtre. Dehors, la Terre, bleue, bancale, inquiète. « Ils ont l'air perdus sans moi. »
+* pis_34 coe11 | « Ils le sont. » | Elle pose sa main sur la vitre. « Alors je ne veux pas partir. » Elle le dit pour la première fois. Ça résonne dans toute la maison. | Elle hoche la tête mais ne dit rien. | +flag:lune_veut_rester |
+* pis_35 rus12 | « Il faut que tu le dises à tout le monde. » | « Comment ? Je ne parle qu'en rêve. » Tu réfléchis. Si tu pouvais garder une porte ouverte entre son rêve et le monde... | « Je ne sais pas parler aux éveillés. » | +flag:idee_porte |
+
+@pis_33
+La chambre d'enfant. Un petit lit, un mobile de planètes, et sur le mur, un dessin d'enfant scotché : une Lune avec un visage souriant. En bas, d'une écriture maladroite : « Pour la Lune, de la part de la fille de Krâmm. »
+La Lune garde aussi les dessins. Elle garde tout ce qu'on lui donne.
+* pis_29 coe11 | Retourner voir la Lune | Tu reviens dans la pièce aux fenêtres. Elle t'attend. Elle savait que tu viendrais. | |
+* pis_35 rus10 | Prendre une photo de rêve du dessin | Tu le mémorises. Tu ne sais pas pourquoi. Ça pourrait servir. | | +flag:vu_dessin |
+
+@pis_34
+La Lune s'assoit à côté de toi. Vous regardez la Terre ensemble, par la fenêtre. Elle te parle de tout ce qu'elle a vu : les premiers poissons, les premières mousses, les premiers Gravitaires qui ont levé la tête vers elle. Elle se souvient de tout. Elle n'oublie jamais rien. C'est son métier.
+* pis_36 coe11 | Lui demander ce qu'elle préfère chez la Terre | « Les marées. » Elle sourit. « Quand je passe, ils montent vers moi. Toute la mer se lève pour me dire bonjour. Toutes les nuits. Personne ne fait ça pour personne. » | « Tout. » Elle ne précise pas. Elle n'a pas besoin. | mor+1 |
+* pis_37 rus11 | Lui demander comment l'aider concrètement | « Je ne sais pas. Peut-être... si quelqu'un trouvait que je n'ai jamais dit oui. » | « Je ne sais pas. Je n'ai jamais eu besoin d'aide. » | +flag:indice_consentement |
+
+@pis_35
+Tu as une idée. Une idée de Somnambule. Si tu laisses une porte de rêve entrouverte, la Lune pourra parler aux éveillés, à travers leurs rêves. Tous ceux qui dormiront entendront sa voix. Mais une porte ouverte, ça laisse passer les courants d'air. Et les cauchemars.
+* pis_37 rus12 | Construire la porte | Tu prends un morceau de nuit et tu fais une porte. Tu la laisses entrouverte. Elle grince doucement. La Lune la regarde avec espoir. | Tu construis une porte, mais elle s'ouvre dans le mauvais sens. Tu la refais. Elle tient. | +flag:reve_ouvert rus+1 | +flag:reve_ouvert
+* pis_36 coe10 | Demander d'abord à la Lune si elle le veut | « Tu me demandes ? » Elle est émue. « Personne ne me demande jamais. Oui. Oui, je veux bien. » | « Je ne sais pas. » Elle a peur. Tu n'insistes pas. | +flag:lune_consultee coe+1 |
+
+@pis_36
+La Lune te prend la main. Sa main est froide et douce, comme du marbre au soleil. « Pistil. Quand tu repartiras, dis-leur que je ne voulais pas partir. Dis-leur que je les regarde. Dis-leur... » Elle hésite. « Dis-leur de ne pas me laisser toute seule là-bas. »
+* pis_38 coe12 | Promettre | Tu promets. Pour la deuxième fois de ta vie. Cette fois, tu sais ce que ça veut dire. | Tu promets, mais ta voix se casse. Elle te serre la main plus fort. | coe+1 mor+1 +flag:promesse_lune | +flag:promesse_lune
+* pis_37 rus10 | Lui demander de garder une porte ouverte pour toi | « Une porte ? » Elle sourit. « Je garderai une fenêtre. Pour toi. Toujours. » | |
+
+@pis_37
+Le rêve de la Lune commence à trembler. Là-haut, dans le monde éveillé, le crochet tire. La Lune se réveille, petit à petit, et quand elle se réveillera complètement, son rêve s'effacera, et toi avec.
+« Il faut que tu partes, Pistil. Vite. »
+* pis_38 pan11 | Partir en courant | Tu cours. Tu entends sa voix derrière toi : « Merci ». Puis la maison s'efface. | Tu cours dans le mauvais sens. Elle te remet sur le bon chemin d'une main de lumière. | pan+1 |
+* pis_39 coe11 | Lui dire au revoir correctement | « Au revoir, la Lune. » « Au revoir, petit pyjama. » Tu pars. Tu pleures. Ça fait des petites étoiles. | Tu dis au revoir mais le rêve s'effondre au milieu du mot. | mor+1 |
+
+@pis_38
+Tu tombes. Hors du rêve de la Lune. Hors de tous les rêves. Tu tombes vers quelque chose que tu n'as jamais vu : le monde éveillé. Les Somnambules n'y vont jamais. On dit que c'est trop dur, trop net, trop vrai. On dit qu'on y meurt.
+Mais si tu veux tenir ta promesse, il faut y aller.
+?comp:brume Brume-Lucie te serre fort. « Je connais l'éveil. Je vis à la frontière. Je vais te... enfin. Je vais t'aider. »
+* pis_40 pan12 | Te laisser tomber dans l'éveil | Tu tombes. L'air est froid, coupant, net. Tout a des bords. Tu as mal partout. Mais tu existes encore. | Tu tombes et tu perds connaissance. Tu te réveilles. Pour la première fois. Littéralement. | pan+1 | mor-1
+* pis_39 coe11 | Trouver un dormeur dont le bâillement t'amènera dehors | Tu cherches un dormeur qui s'éveille. Un Gravitaire. Il bâille. Tu sors par le bâillement. C'est la sortie des artistes. | Tu sors par un éternuement. C'est moins digne. | coe+1 |
+
+@pis_39
+?from:pis_37 Le rêve s'effondre au milieu de ton au revoir. Tu tombes longtemps, et tu atterris dans le rêve d'un Gravitaire qui est en train de se réveiller.
+Tu sors par la bouche d'un Gravitaire qui bâille, au milieu d'un champ. Il fait jour. Il fait jour ! La lumière n'est pas douce comme dans les rêves, elle est pleine d'angles. Les couleurs sont trop précises. Les sons sont trop forts. Tu as l'impression qu'on t'a enlevé une couverture.
+Le Gravitaire te regarde, toi, le petit pyjama sorti de sa bouche. « Ah. » Il se rendort.
+* pis_40 coe10 | T'habituer à l'éveil, doucement | Tu respires. L'air est réel. Il a un goût. Le goût de la poussière et de l'herbe. Tu aimes ça, un peu. | Tu ne t'habitues pas. Tu as le vertige. Tu t'accroches à un brin d'herbe. | mor+1 |
+* pis_41 rus11 | Te mettre tout de suite en route | Tu vois la Lune dans le ciel. Elle est réelle aussi. Énorme, penchée, avec un crochet. Tu sais où aller : vers elle. | Tu te mets en route, mais l'éveil n'a pas de raccourcis. Il faut marcher. Vraiment marcher. | |
+
+@pis_40
+Le monde éveillé. Tu marches dans un champ. Il y a de l'herbe, et l'herbe pique. Il y a du vent, et le vent pousse. Il y a des choses qui ne changent pas de forme quand tu les regardes. C'est terrifiant.
+Et pourtant, au-dessus, il y a la Lune. La vraie. Celle que tu as vue en rêve, petite et assise par terre. Ici, elle est immense et silencieuse. Personne ne sait qu'elle est triste. Sauf toi.
+* pis_42 coe12 | Lui faire signe, au cas où elle te verrait | Tu agites la main. Et, peut-être, juste peut-être, une petite lumière clignote sur sa face. | Tu agites la main. Rien. Elle est trop loin. Ou trop occupée à avoir peur. | mor+1 +flag:signe_lune |
+* pis_43 pan11 | Marcher vers elle | Tu marches. Tes jambes de flanelle ne sont pas faites pour la terre. Tu marches quand même. | Tu tombes. Tu te relèves. Tu tombes. L'éveil, c'est surtout tomber. | pan+1 |
+
+@pis_41
+Sur la route, tu croises des gens. Des vrais. Des Marégraves qui coulent, des Lichenautes qui rampent, des Horlogers qui tic-taquent. Ils ne te voient pas d'abord : un Somnambule dans l'éveil, c'est flou, presque transparent. Puis un enfant te montre du doigt.
+« Maman ! Il y a un rêve qui marche ! »
+* pis_42 coe11 | Faire coucou à l'enfant | L'enfant te fait coucou. Sa mère aussi, après une hésitation. Tu existes. Quelqu'un te voit. C'est vertigineux. | La mère prend l'enfant et s'éloigne vite. Tu comprends que tu fais peur. | mor+1 |
+* pis_43 rus10 | Demander à la mère où tout le monde va | « Au Carrefour des Espèces. La Grande Panique. Tout le monde y va. » Elle te regarde mieux. « Tu es... un rêve ? » « Oui. » « Ma fille rêvait de toi. » | Elle ne répond pas. Elle a peur des rêves qui parlent. | |
+
+@pis_42
+Tu as faim. Les Somnambules ne mangent pas en rêve ; ils se nourrissent de clair de lune. Ici, la lumière de Lune est faible, malade, abîmée par le crochet. Tu sens ton corps de pyjama devenir plus pâle, plus fin. Si tu restes trop longtemps dans l'éveil sans assez de Lune, tu vas t'effacer.
+?comp:brume Brume-Lucie se resserre autour de toi pour te garder au frais. « Tiens bon. Je suis là. Enfin. Plus ou moins là. »
+* pis_44 coe11 | Puiser dans tes promesses pour tenir | Tu penses à la Lune assise par terre. Tu penses au petit Gravitaire et à son ballon. Tu reprends un peu de couleur. | Tu penses fort, mais tu pâlis quand même. Il faudra faire vite. | mor+1 | equ-2
+* pis_45 rus12 | Boire la lumière de Lune dans une flaque | Une flaque reflète la Lune. Tu bois le reflet. Ça a un goût de métal et de chanson. Tu reprends des forces. | Tu bois une flaque de boue. Ça n'a pas le même effet. | rus+1 | mor-1
+
+@pis_43
+Tu marches longtemps. Le soleil se couche, la Lune se lève, énorme. La nuit tombe, et la nuit, enfin, ressemble un peu à ta maison. Tu sens les rêves de tous les dormeurs autour de toi, faibles, agités. Tu pourrais rentrer. Tu pourrais te glisser dans un rêve et oublier tout ça.
+* pis_44 coe12 | Résister à l'envie de rentrer | Tu restes dehors. C'est la chose la plus difficile que tu aies faite. Mais tu as promis. | Tu commences à te glisser dans un rêve, puis tu te reprends. Ça t'a coûté un souvenir. | coe+1 | mor-1
+* pis_45 rus10 | Te glisser dans un rêve pour te reposer, juste une heure | Tu dors dans un rêve de Marégrave. Tu te reposes. Tu ressors à l'aube, reposé et un peu salé. | Tu restes trop longtemps. Tu ressors en retard, mais reposé. | mor+1 |
+
+@pis_44
+À l'aube, tu arrives au sommet d'une colline. En bas, une immense plaine, couverte de tentes, de tribunes, de foules. Le Carrefour des Espèces. La Grande Panique. Des milliers de créatures, de toutes formes, qui crient, qui pleurent, qui discutent, qui vendent des beignets.
+Au-dessus, la Lune, penchée, son crochet planté dedans. Tu lui fais un petit signe.
+* pis_46 coe10 | Descendre vers la foule | Tu descends. Personne ne te remarque. Un rêve dans la foule. Mais un rêve avec une promesse. | Tu descends en roulant. Un pyjama qui roule, c'est rapide. |  |
+* hub_01 pan11 | Courir jusqu'en bas | Tu cours. Tu cours dans l'éveil. Tu commences à aimer ça. | Tu cours et tu tombes au milieu d'un groupe de Gravitaires. Ils te ramassent avec douceur. | pan+1 |
+
+@pis_45
+Tu reprends ta marche. Tu as de nouveau un peu de couleur. Au loin, un grondement de foule. Des panneaux plantés dans la terre : « GRANDE PANIQUE → ». Tu ne sais pas lire, les rêves n'ont pas d'alphabet. Mais tu reconnais la forme d'une flèche. Les flèches, c'est universel.
+* pis_46 rus11 | Suivre les flèches | Tu suis les flèches. Elles mènent toutes au même endroit. C'est rassurant, un monde où les flèches sont d'accord. | Une flèche a été tournée par un plaisantin. Tu fais un détour de deux heures. | |
+* hub_01 coe10 | Suivre le bruit de la foule | Tu suis les voix. Elles sont tristes et en colère. Tu sais où aller. | |
+
+@pis_46
+Le Carrefour des Espèces. Tu y es. Tu es au milieu du monde éveillé, minuscule, plié, pâle, avec une promesse en plus. Au-dessus de toi, la Lune. Elle ne sait pas que tu es là. Mais tu sais qu'elle te regarde. Elle regarde tout le monde. C'est son métier.
+* hub_01 coe11 | Entrer dans la Grande Panique | Tu entres. Personne ne sait qui tu es. Mais toi, tu sais ce que tu as vu : la Lune, petite, assise par terre, dans une maison pleine de fenêtres. | Tu entres en trébuchant sur ta propre ombre, qui ne sait plus de quel côté tomber. | mor+1 |

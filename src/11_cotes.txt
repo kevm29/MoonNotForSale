@@ -1,0 +1,233 @@
+# ================================================================
+# RÉGION — LES CÔTES HAGARDES (mer, Méduses, Bartholomé, la quête des perles)
+# ================================================================
+
+@cot_01
+!title: Les Côtes Hagardes
+!fx: +flag:vis_cot regions+1
+Les Côtes Hagardes. Ici, la mer ne sait plus où elle habite. D'un côté de la plage, elle est montée jusqu'aux toits ; de l'autre, elle a reculé si loin qu'on voit le fond, avec ses épaves étonnées et ses poissons qui font semblant de respirer.
+?pc:ondine Tu reconnais les rochers. Tu es à trois criques de Grève-Molle. La mer te reconnaît aussi : elle te lèche les pieds comme un chien qui a peur de l'orage.
+* cot_02 pan11 | Descendre sur le fond découvert | Tu marches sur le fond de la mer. Le sable est mou, plein de coquillages qui chuchotent. Tu marches où personne n'a jamais marché sans se noyer. | Tu t'enfonces jusqu'aux genoux. Un crabe t'aide à sortir, par pitié. | pan+1 |
+* cot_03 rus10 | Monter sur la falaise pour comprendre le désordre | De là-haut, tu vois : la mer forme une vague immobile, haute comme une cathédrale, qui attend que quelqu'un lui dise de retomber. | Le vent te pousse, tu t'accroches, tu ne vois rien d'autre que tes mains. | rus+1 |
+
+@cot_02
+Sur le fond découvert, des centaines de poissons font la queue devant une flaque. Un mérou en uniforme distribue des tickets : « Une gorgée par personne. Les baleines, deux. Les sardines, en groupe. »
+?pc:ondine,flag:ticket Tu reconnais le mérou à lunettes. Il te reconnaît aussi. « Votre place est toujours gardée, madame. On en est au numéro 9. »
+Une petite raie te tire par la manche. « Monsieur, madame, chose... La mer va revenir ? »
+* cot_04 coe11 | Lui répondre « oui » | Elle te croit. Elle va s'asseoir dans la flaque, confiante. Tu as menti à une raie. Tu feras en sorte que ce ne soit pas un mensonge. | Elle ne te croit pas. Les raies sont plus lucides qu'on ne le pense. | mor+1 |
+* cot_05 pan11 | Creuser un chenal pour amener l'eau jusqu'à eux | Tu creuses. D'autres viennent creuser avec toi : des Gravitaires, des crabes, une famille de Lichenautes très lente. L'eau arrive. Les poissons applaudissent avec leurs nageoires. | Tu creuses et l'eau arrive, mais dans la mauvaise direction. Tu as inondé un parking à crabes. | equ+3 | equ-1
+
+@cot_03
+Du haut de la falaise, la vague immobile est terrifiante. Elle est pleine de choses en suspens : des bateaux, des phares arrachés, des bancs de poissons figés en plein virage. Et une lumière, à l'intérieur, qui bouge en rythme. Une lumière qui chante.
+* cot_06 coe11 | Écouter le chant | C'est un chœur. Des milliers de voix minuscules qui chantent en même temps, avec de petites fautes de rythme, pour retenir la vague. | Le vent couvre le chant. Tu n'entends qu'un bourdonnement triste. | coe+1 |
+* cot_04 rus10 | Redescendre aider ceux d'en bas | Tu redescends. Le chant attendra : il a l'air de savoir attendre. | |
+
+@cot_04
+Tu remontes la plage vers le sud. Des villages de Marégraves sur pilotis, à moitié engloutis. Des gens qui écopent leur maison avec leurs mains, alors qu'ils sont eux-mêmes faits d'eau. Ils écopent, puis ils se remplissent, puis ils réécopent. Ils ne s'arrêtent jamais. C'est un travail sans fin, et ils le font en chantant faux.
+* cot_07 coe10 | Écoper avec eux un moment | Tu écopes. C'est inutile et ça fait du bien. Une vieille Marégrave t'offre une tasse de thé d'algues. Il est froid. Il est délicieux. | Tu écopes dans le mauvais sens. On te remercie quand même. | mor+1 equ+2 |
+* cot_06 rus11 | Leur demander d'où vient le chant dans la vague | « Les Méduses. Le Chœur des Méduses. Elles chantent pour tenir la vague. Si elles s'arrêtent, tout retombe d'un coup. » | « Quel chant ? » Ils n'entendent plus rien. Ils écopent. | |
+
+@cot_05
+Le chenal fonctionne. L'eau coule vers les poissons, et les poissons coulent vers l'eau. Le mérou en uniforme retire sa casquette. « Merci. On n'avait pas eu de bonne nouvelle depuis... depuis la Lune. »
+Il désigne la vague immobile, au loin. « Si vous voulez aider vraiment, allez voir les Méduses. Elles tiennent tout, là-bas. Elles fatiguent. »
+* cot_06 pan10 | Y aller à la nage | Tu nages vers la vague. C'est comme nager vers un mur qui respire. | Tu nages mal. Une sardine te dépasse en te regardant de haut. | |
+* cot_07 coe11 | Demander au mérou comment il tient le coup | « Je donne des tickets. Quand on donne des tickets, on n'a pas le temps d'avoir peur. » Il en tend un. « Pour vous. Numéro un. » | « Je ne tiens pas, je fais semblant. Comme tout le monde. » | +flag:ticket_un |
+
+@cot_06
+Le Chœur des Méduses. Au pied de la vague immobile, des milliers de méduses lumineuses flottent ensemble, se tenant par les filaments. Elles chantent d'une seule voix. C'est un seul être, en fait : un millier de corps, une seule personnalité, très susceptible.
+« NOUS TENONS LA VAGUE », chantent-elles. « NOUS SOMMES FATIGUÉES. NOUS CHANTONS FAUX. NE LE DIS À PERSONNE. »
+?flag:meduses_amies Elles te reconnaissent : « TOI ! TOI QUI CHANTES AUSSI MAL QUE NOUS ! »
+* cot_08 coe11 | Chanter avec elles pour les soulager | Tu chantes. La vague se raffermit. Les Méduses s'emmêlent de joie. | Tu chantes, et la vague descend d'un mètre. Tu chantes plus fort. Elle remonte de deux. | equ+3 +flag:chante_meduses | equ-2
+* cot_09 rus11 | Leur demander combien de temps elles peuvent tenir | « TROIS JOURS. PEUT-ÊTRE QUATRE. NOUS AVONS DES RÉSERVES DE PLANCTON ET D'ORGUEIL. » | « JUSQU'AU BOUT », chantent-elles, avec une fausse note sur « bout ». | rus+1 |
+
+@cot_07
+Une vieille Marégrave, très petite, très ridée, s'assoit à côté de toi. « Tu sais, mon petit, la mer n'est pas en colère. Elle est perdue. C'est différent. Quelqu'un en colère, on peut lui parler. Quelqu'un de perdu, il faut lui tendre la main. »
+Elle te tend sa main. Elle est froide et salée.
+* cot_06 coe12 | Prendre sa main | Tu la prends. Elle sourit. « Voilà. Fais pareil avec la mer. Commence par celles qui la tiennent : les Méduses, là-bas, au pied de la vague. » Tu y vas. | Tu la prends maladroitement. Un peu d'elle te coule entre les doigts. Elle rit, et te montre la vague immobile : « Va voir les Méduses. Elles, elles savent tenir. » | coe+1 |
+* cot_06 rus10 | Lui demander comment on tend la main à une mer | « Avec une promesse, mon petit. La mer aime les promesses. Demande aux Méduses, au pied de la vague : elles lui chantent des promesses depuis trois jours. » | Elle hausse les épaules. « Je ne sais pas. Je suis vieille, pas sage. Va demander aux Méduses, là-bas. » | |
+
+@cot_08
+Les Méduses s'arrêtent presque de chanter, et la vague tremble. Puis elles reprennent. « ÉCOUTE. NOUS AVONS UNE IDÉE. NOUS AVONS TOUJOURS DES IDÉES, NOUS SOMMES MILLE. LE PROMOTEUR VEUT DE L'ARGENT. LA MER A DES PERLES. BEAUCOUP DE PERLES. DES MILLIARDS. »
+Elles s'illuminent. « NOUS POURRIONS RACHETER LA LUNE. »
+* cot_10 rus12 | Calculer si c'est possible | Tu calcules. Quarante-deux milliards de lunes-crédits. Une perle vaut... une perle. Tu ne sais pas. Mais toutes les huîtres de la Terre, ça fait beaucoup de perles. | Tu calcules et tu tombes sur un nombre si grand qu'il a l'air d'une blague. | rus+1 +flag:idee_perles | +flag:idee_perles
+* cot_11 coe11 ?!from:cot_11 | Trouver l'idée magnifique et absurde | « C'EST ABSURDE », chantent-elles, ravies. « C'EST POUR ÇA QUE ÇA VA MARCHER. » | Elles ne comprennent pas ton enthousiasme. Elles pensaient que tu allais dire non. | mor+1 +flag:idee_perles | +flag:idee_perles
+* cot_13 coe11 ?from:cot_11 | Trouver l'idée magnifique, et leur demander de lancer l'appel aux huîtres | « C'EST ABSURDE », chantent-elles, ravies. « C'EST POUR ÇA QUE ÇA VA MARCHER. » Elles prennent leur souffle, toutes ensemble. | Elles ne comprennent pas ton enthousiasme. Elles pensaient que tu allais dire non. Elles lancent l'appel quand même, un peu vexées. | mor+1 +flag:idee_perles +flag:quete_perles | +flag:idee_perles +flag:quete_perles
+
+@cot_09
+« TROIS JOURS », répètent les Méduses. « APRÈS, NOUS LÂCHONS. LA VAGUE RETOMBE. ELLE EST HAUTE COMME DIX PHARES. ELLE EMPORTERA LES VILLAGES. » Elles se taisent un instant. « NOUS NE VOULONS PAS LÂCHER. MAIS NOUS SOMMES FAITES D'EAU ET DE CHANSON. ÇA S'USE. »
+* cot_10 coe11 | Leur promettre de revenir avant | « NE PROMETS PAS. TOUT LE MONDE NOUS PROMET. LES PÊCHEURS, LES POÈTES, LES MARÉES. PERSONNE NE REVIENT. » Puis, plus bas : « REVIENS QUAND MÊME. » | Elles ne répondent pas. Elles chantent. | coe+1 |
+* cot_11 pan11 | Proposer d'en emmener quelques-unes avec toi | « QUELQUES-UNES ? NOUS SOMMES UNE. SI NOUS VENONS, NOUS VENONS TOUTES. » Tu réfléchis à la logistique. | Elles se vexent. On ne divise pas un chœur. | |
+
+@cot_10
+Les Méduses se regroupent en une seule grande forme lumineuse, qui ressemble vaguement à une dame en robe de bal. « NOUS AVONS DÉCIDÉ. UNE MOITIÉ DE NOUS RESTE TENIR LA VAGUE. L'AUTRE MOITIÉ VIENT AVEC TOI. NOUS SOMMES TOUJOURS UNE, MÊME À DISTANCE. C'EST NOTRE TALENT. »
+Une petite méduse, la moitié qui vient, se pose sur ton épaule. Elle chante tout bas : « bonjour. »
+?!flag:idee_perles Puis le Chœur ajoute, très vite, comme une chose qu'on n'ose pas dire : « ET NOUS AVONS UNE IDÉE. LE PROMOTEUR VEUT DE L'ARGENT. LA MER A DES PERLES. DES MILLIARDS. MAIS IL FAUDRAIT LES DEMANDER AUX HUÎTRES, ET LES HUÎTRES NE DONNENT RIEN À PERSONNE. »
+* cot_12 coe10 | Accueillir le Chœur dans ton équipe | « NOUS SERONS UTILES. NOUS CHANTONS FAUX, MAIS FORT. » Elles s'installent dans un bocal que tu portes à la ceinture. Le bocal chante. | Elles s'installent dans ta poche. Ta poche chante. Tu as l'air étrange, maintenant. | +comp:meduses mor+1 | +comp:meduses
+* cot_13 rus11 | Leur demander plutôt de lancer la quête des perles | « LA QUÊTE ! OUI ! NOUS CHANTERONS À TOUTES LES HUÎTRES DU MONDE ! » Elles restent toutes pour chanter l'appel. | Elles hésitent. « TOUTES ? ET LA VAGUE ? » Tu insistes. Elles finissent par dire oui, sans enthousiasme. | +flag:quete_perles +flag:idee_perles | +flag:quete_perles +flag:idee_perles mor-1
+
+@cot_11
+Les Méduses chantent un air triste, un air ancien, qui parle d'une Lune qui passe chaque nuit et que la mer salue en se levant. Tu ne comprends pas les paroles. Tu comprends la mélodie. Elle dit : on t'aime, reviens, on ne savait pas qu'on t'aimait avant que tu partes.
+?pc:ondine C'est la mélodie de tes lettres. Tu ne le savais pas. Les Méduses les lisaient en passant sous les bouteilles.
+* cot_10 coe12 | Pleurer sans honte | Tu pleures. Les Méduses chantent plus doucement. Personne n'a honte, ici. On est dans la mer. Tout le monde est mouillé. | Tu n'arrives pas à pleurer. Tu chantonnes. C'est presque pareil. | mor+2 coe+1 | mor+1
+* cot_13 rus10 ?flag:idee_perles | Leur demander de chanter l'appel aux huîtres, pour les perles | « L'APPEL ? » Elles comprennent. « LA QUÊTE DES PERLES. OUI. » | Elles mettent longtemps à comprendre. « LES PERLES ? AH. NOTRE IDÉE. OUI. » | +flag:quete_perles |
+* cot_08 rus10 ?!flag:idee_perles | Leur demander s'il existe un moyen de sauver la Lune | Elles cessent de chanter le vieil air. « UN MOYEN ? NOUS SOMMES MILLE. NOUS AVONS TOUJOURS MILLE IDÉES. » | « NON », chantent-elles. Puis, après un long silence : « PEUT-ÊTRE. » | |
+
+@cot_12
+Avec le Chœur sur ton épaule, tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
+?comp:bartho Bartholomé, à côté de toi, retire sa casquette. « Mon bistrot. Enfin, le bistrot. Je n'y ai jamais payé, alors il est un peu à moi. »
+?!comp:bartho À l'intérieur, un vieux pêcheur Marégrave boit de l'eau douce en regardant la Lune par la fenêtre.
+* cot_14 coe10 | Entrer | Tu entres. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce. |  |
+* cot_15 rus11 | Faire le tour par la plage | Derrière le bistrot, sur la plage, des bouteilles. Des centaines de bouteilles vides, alignées. Quelqu'un les a ramassées et rangées avec soin. | | rus+1 |
+
+@cot_13
+Les Méduses lancent l'appel. Toute la mer l'entend. Et dans les profondeurs, il ne se passe rien. Les huîtres restent fermées. Elles n'ont jamais rien donné à personne : c'est leur façon d'exister.
+Une huître doyenne, grosse comme une armoire, entrouvre sa coquille d'un millimètre. « Une perle, c'est vingt ans de patience autour d'un grain de sable qui nous gênait. Pourquoi est-ce qu'on donnerait vingt ans de patience à un promoteur ? »
+* cot_16 coe12 | Lui promettre qu'on rachètera la Lune, et qu'on rendra les perles si ça échoue | La doyenne réfléchit vingt minutes, ce qui est rapide pour une huître. Puis elle s'ouvre. Et les autres l'imitent, une par une, comme des portes qu'on ouvre à des voisins. | La doyenne ne te croit pas. Elle s'ouvre quand même, un peu, par lassitude. Seules les plus vieilles la suivent. | equ+3 +flag:cagnotte | +flag:cagnotte mor-1
+* cot_17 rus12 | Lui proposer un reçu en bonne et due forme, tamponné par les crabes | Un reçu ! Les huîtres adorent les reçus : c'est fermé, c'est officiel, ça se range. Elles signent, elles s'ouvrent, et les crabes tamponnent toute la nuit. | Le reçu est mal rédigé. Les huîtres exigent des avenants, des annexes, un notaire. À l'aube, la moitié seulement a signé. | rus+1 +flag:cagnotte +flag:cagnotte_pleine | +flag:cagnotte
+
+@cot_14
+?!comp:bartho Le Ressac Triste. Au comptoir, Bartholomé Vasequeuse, le vieux pêcheur, regarde son verre d'eau douce. Il est dilué, sentimental, la casquette de travers.
+?comp:bartho Le Ressac Triste. Bartholomé reprend son tabouret au comptoir, comme s'il ne l'avait jamais quitté. Le patron lui sert son eau douce sans rien dire.
+?pc:ondine ?!comp:bartho « Ondine. Tu es revenue. Je t'ai gardé le village, comme promis. Mal, mais gardé. »
+?!pc:ondine ?!comp:bartho « Encore un qui vient sauver la Lune. Assieds-toi. Ça te passera. »
+?comp:bartho Il trinque avec son propre reflet dans la vitre. « À nous, vieux bulot. »
+* cot_18 coe11 | Lui demander pourquoi il boit de l'eau douce | « Parce que ça me dilue. Et dilué, je suis moins triste. Enfin, je suis triste en plus grand. » Il te regarde. « Ma femme est partie avec la Lune. Il y a vingt ans. Perline. » | « Parce que l'eau salée me rappelle tout. » | coe+1 |
+* cot_18 coe10 ?comp:bartho | Lui demander de te reparler de Perline, ici, chez lui | Il fait tourner son verre. « Ici, je peux. Ici, elle est partout. » | Il hausse les épaules. Puis il parle quand même. | |
+* cot_19 pan11 ?!comp:bartho | Lui proposer de venir avec toi | « Venir ? Moi ? » Il rit. « Je suis un vieux pêcheur. Je ne sais que deux choses : attendre et râler. » | Il ne répond pas. Il commande un autre verre. | |
+
+@cot_15
+Derrière le bistrot, les bouteilles. Des centaines, rangées sur le sable comme des soldats de verre. Dans chacune, un petit papier. Tu en ouvres une : « Perline, si tu redescends un jour, je suis au bistrot. Je n'ai pas bougé. Bartho. » Une autre : « Perline, il a plu. Tu aimais la pluie. » Une autre : « Perline, je t'en veux. Reviens. »
+Vingt ans de lettres jamais envoyées.
+* cot_14 coe12 | Les remettre en place avec soin et entrer | Tu les ranges. Tu entres. Tu sais maintenant qui est le vieux pêcheur au comptoir. | | coe+1 +flag:lettres_bartho |
+* cot_18 rus10 | En prendre une pour la lui montrer | Tu en prends une. Tu entres. Tu la poses sur le comptoir. | | +flag:lettres_bartho |
+
+@cot_16
+?from:cot_13 ?last:ko Au petit matin, les perles montent, moins nombreuses que prévu, mais elles montent.
+?from:cot_13 ?last:ok Au petit matin, les perles montent. Des millions de perles, qui remontent à la surface et brillent comme une Voie lactée à l'envers.
+Les perles flottent à la surface de la mer. Une fortune, peut-être assez pour racheter la Lune, peut-être pas. Mais il y a quelque chose de plus précieux que les perles : la mer entière s'est mobilisée. Les Marégraves, les Méduses, les poissons, les crabes, les huîtres. Tout le monde a donné.
+?comp:meduses Le Chœur chante si fort que la vague immobile se met à danser.
+* cot_20 rus11 | Mettre les perles en sécurité | Tu fais charger les perles dans les filets des pêcheurs. Il faudra les monter jusqu'au promoteur. C'est un autre problème. | Les filets sont troués. Il faut recoudre. Les crabes aident avec leurs pinces. Ça prend la nuit, mais les perles finissent à l'abri. | +flag:perles_chargees | +flag:perles_chargees mor-1
+* cot_20 coe10 | Remercier chaque espèce | Tu remercies les crabes, les huîtres, les poissons. Les huîtres se referment de gêne. C'est leur façon de rougir. | | mor+1 |
+
+@cot_17
+?last:ko Les reçus signés sont rares, mais ceux qui le sont valent de l'or. Ou de la nacre. Tu organises le ramassage avec ce que tu as.
+?!last:ko Le ramassage est un chef-d'œuvre administratif. Les crabes en chaîne, les poissons au tri, les Marégraves au transport.
+Les perles montent. Un vieux homard s'est autoproclamé trésorier et compte chaque perle à voix haute : « Un milliard trois cent mille et un. Un milliard trois cent mille et deux... »
+* cot_20 rus11 | Le laisser compter | Il comptera toute la nuit. Il est heureux. Il a enfin un but. | |
+* cot_16 coe10 | Faire une pause pour regarder | Tu t'arrêtes. Tu regardes. Tu as fait ça. Avec eux. | | mor+1 |
+
+@cot_18
+Bartholomé te raconte Perline. « Elle était poétesse. Elle écrivait des poèmes sur le sable, la mer les effaçait, elle en écrivait d'autres. Elle disait que la mer était son éditeur. » Il rit. « Une nuit d'équinoxe, la grande marée est montée si haut qu'elle a touché le ciel. Perline a suivi. Elle voulait voir la Lune de près. Elle n'est jamais redescendue. »
+Il essuie une larme. Elle fait une petite fumée sur le comptoir.
+* cot_21 coe12 | Lui demander s'il croit qu'elle est encore là-haut | « Je ne sais pas. On dit que les Marégraves qui montent trop haut deviennent de la poussière de Lune. Si c'est vrai, elle est sur la Lune. Et on l'emporte. » | « Je ne crois plus rien, petit. » Mais sa main serre son verre. | coe+1 +flag:perline |
+* cot_19 pan10 | Lui dire qu'il faut aller la chercher | Il te regarde longtemps. « Tu es fou. » « Oui. » « J'aime les fous. » | | |
+
+@cot_19
+?!comp:bartho Bartholomé finit son verre. Il le pose. Il le regarde. « Bon. Puisque tout le monde va mourir, autant mourir quelque part de joli. Là-haut, par exemple. »
+?!comp:bartho Il se lève. Ses genoux craquent comme une coque. « Je viens. Mais je râle. Je râle tout le temps. C'est le prix. »
+?comp:bartho Bartholomé finit son verre. « Je t'ai suivi jusqu'ici sans trop savoir pourquoi. Maintenant je sais. On va la chercher. » Il se lève. Ses genoux craquent comme une coque.
+* cot_22 coe10 ?!comp:bartho | Accepter le prix | Il enfile sa casquette, prend son filet et une bouteille d'eau douce pour les urgences sentimentales. Vous sortez. | Il vient, mais il râle déjà sur la porte, le vent et ta tête. | +comp:bartho mor+1 | +comp:bartho
+* cot_22 coe10 ?comp:bartho | Repartir avec lui | Il laisse un pourboire pour la première fois de sa vie. Le patron en pleure. | Il oublie sa bouteille d'eau douce. Il retourne la chercher. Il râle. | mor+1 +flag:bartho_decide |
+* cot_22 rus11 ?!comp:bartho | Lui demander plutôt de garder la côte | Il hoche la tête. « Je garderai. Je râlerai en gardant. » Il reste. Mais il te donne sa vieille boussole. « Elle indique toujours la Lune. Toujours. » | Il reste. Il ne dit rien de plus. | +flag:boussole_bartho | +flag:boussole_bartho
+
+@cot_20
+Tu longes la côte. Plus loin, sur une jetée, une silhouette de classeurs gris : l'Huissier Krâmm. Il mesure les vagues une par une, avec un mètre ruban qui se déroule tout seul. Il note dans un registre : « Vague. Une. Bien meuble. »
+?!pc:ondine Il te voit. Il lève un tiroir pour te saluer.
+?pc:ondine Il te voit. Il te reconnaît. Un tiroir s'ouvre : « Accessoire en fuite. Bonjour. » Il ne fait rien pour t'attraper. Il a l'air trop fatigué pour ça.
+* cot_23 rus11 | L'aborder poliment | « Article premier : bonjour. Article deux : je fais l'inventaire des accessoires du satellite. Les marées en font partie. » Il semble fatigué. | « Article premier : circulez. » | |
+* cot_24 pan12 | Lui confisquer son registre | Tu le lui arraches. Il te regarde, stupéfait. Un tiroir s'ouvre, puis se referme. « Article... il n'y a pas d'article pour ça. » | Il le tient fermement. Vous tirez chacun de votre côté, et le registre s'ouvre en grand entre vous deux. Tu as le temps de lire une page avant qu'il le referme. | pan+1 |
+
+@cot_21
+« Perline », répète Bartholomé. « Si elle est là-haut, en poussière, sur la Lune, alors chaque fois que la Lune passait, elle passait aussi. Elle me regardait. Toutes les nuits pendant vingt ans. » Il s'arrête. « Et moi je râlais contre la Lune. »
+Il pose son front sur le comptoir. Le bois se mouille.
+* cot_22 coe12 | Poser ta main sur son épaule | Il ne bouge pas. Puis il pose sa main sur la tienne. « Merci, petit. » | Il ne bouge pas. Tu restes là. C'est tout ce que tu peux faire. | coe+1 mor+1 |
+
+@cot_22
+Tu sors du Ressac Triste. Sur la plage, la mer hésite. Elle avance, recule, avance. Elle a l'air d'attendre quelque chose.
+?comp:bartho Bartholomé la regarde. « Elle a peur, la vieille. Je la connais. Quand elle a peur, elle fait comme ça. Elle fait semblant de danser. »
+* cot_20 rus10 | Suivre la côte vers le nord | Tu longes la côte. Les vagues te suivent comme des chiens perdus. | |
+* cot_25 coe11 | Parler à la mer | Tu t'accroupis et tu lui parles. Tu lui dis que la Lune ne part pas de son plein gré. La mer se calme un peu. Les mers sont jalouses ; elles aiment savoir qu'on ne les a pas quittées. | Tu lui parles, elle t'éclabousse. C'est une réponse. | coe+1 equ+2 |
+
+@cot_23
+Krâmm s'assoit sur la jetée. C'est étrange de voir un huissier s'asseoir. Ses tiroirs grincent. « Je compte depuis trois jours. J'ai compté onze milliards de vagues. Elles bougent tout le temps. Je ne sais pas si j'ai compté deux fois la même. » Il soupire. « C'est mon premier inventaire impossible. »
+* cot_26 coe12 | Lui dire que certaines choses ne se comptent pas | Il te regarde. Ses tiroirs s'arrêtent de bouger. « Article... » Il n'a pas d'article pour ça. Il range son mètre ruban. | Il secoue ses tiroirs. « Tout se compte. C'est la loi. » Mais il a l'air de douter. | coe+1 +flag:kramm_doute |
+* cot_27 rus11 | Lui demander à qui il rend ses comptes | « À Monsieur Platine. Il veut savoir combien de marées il achète. Pour les piscines. » Il baisse la voix. « Il ne sait pas ce qu'est une marée. Il n'en a jamais vu. » | « Article seize : secret professionnel. » Mais en rangeant son mètre, il marmonne : « ... jamais vu une marée de sa vie, ce Monsieur Platine... » | +flag:platine_jamais_vu | +flag:platine_jamais_vu
+
+@cot_24
+?last:ko Krâmm serre son registre contre ses tiroirs. Mais tu as lu.
+?!last:ko Tu tiens le registre de Krâmm. Des milliers de pages. Des vagues, des marées, des courants, des humeurs maritimes. Et dans la marge, d'une petite écriture tremblée : « Pour ma fille : la mer est grande. » Puis : « Pour ma fille : la mer a peur. » Puis : « Pour ma fille : je ne sais plus. »
+* cot_26 coe11 ?!last:ko | Lui rendre son registre | Tu le lui rends. Il le prend. Il ne dit rien. Il te fait un petit signe de tiroir. Merci. | | coe+1 +flag:kramm_doute |
+* cot_23 coe10 ?last:ko | Lui demander pardon, et qui est sa fille | Il ne répond pas tout de suite. Il s'assoit sur la jetée. | Il ne répond pas. Mais il s'assoit, comme quelqu'un de fatigué. | coe+1 |
+* cot_27 rus12 ?!last:ko | Garder le registre comme preuve | Tu le gardes. C'est la preuve que les marées ont été inventoriées comme des meubles. Un tribunal aimera ça. | | +flag:registre_kramm +flag:dossier |
+
+@cot_25
+?last:ko Une fois qu'elle t'a bien éclaboussé, la mer se calme.
+?!last:ko La mer se calme.
+Elle s'étale à tes pieds, en petites vagues timides. Puis, très lentement, elle forme des mots dans l'écume : « OÙ ? »
+Elle ne sait pas où va la Lune. Elle veut savoir.
+* cot_28 coe12 | Écrire la réponse dans le sable | Tu écris : « LOIN. MAIS ON VA LA CHERCHER. » La mer lit. Elle efface. Elle réécrit : « MOI AUSSI ? » | Une vague efface avant que tu aies fini. Tu recommences, plus vite. La mer lit quand même, puis réécrit : « MOI AUSSI ? » | coe+1 +flag:mer_parle |
+* cot_29 rus11 | Lui montrer la direction | Tu pointes le ciel. La mer se dresse un peu, comme quelqu'un qui se met sur la pointe des pieds. | | |
+
+@cot_26
+Krâmm reste sur la jetée. Il regarde la mer. Pour la première fois, il ne la compte pas. Il la regarde. « Elle est belle », dit-il. Puis, gêné : « Article quarante : ce constat n'a pas valeur juridique. »
+Il se lève. « Je dois rendre mon rapport. Je vais écrire : "Marées. Nombre : impossible. Valeur : inestimable." Monsieur Platine ne sera pas content. »
+* cot_29 coe10 | Le remercier | Il s'incline. Ses tiroirs claquent doucement, comme des applaudissements très administratifs. | | mor+1 +flag:rapport_kramm |
+* cot_29 rus11 | Lui suggérer d'ajouter : « Non cessibles » | Il réfléchit. Il ajoute. « Non cessibles. » Il te regarde. « Je pourrais être licencié. » « Vous pourriez être fier. » | Il secoue ses tiroirs. « Je n'ai pas le pouvoir de qualifier. » | +flag:rapport_kramm +flag:marees_non_cessibles | +flag:rapport_kramm
+
+@cot_27
+?from:cot_24 Dans le registre, en dernière page, une note de service signée Platine : « Prière de m'expliquer ce qu'est une marée. Joindre un échantillon. »
+Tu as une information. Platine n'a jamais vu de marée. Il achète une chose qu'il ne connaît pas. Il veut mettre la mer dans des piscines sans savoir que la mer ne tient dans rien. C'est une faille. Pas juridique : poétique. Mais Platine est un poète. Raté, mais un poète.
+* cot_29 rus11 | Retenir ça pour plus tard | Tu le retiens. Un jour, tu lui montreras une marée. Peut-être que ça changera tout. | | +flag:platine_faille |
+
+@cot_28
+« MOI AUSSI ? » La mer te demande si elle peut venir. Si elle aussi peut aller chercher la Lune. Tu ne sais pas comment une mer pourrait monter dans le ciel. Mais tu sais une chose : si la Terre devait bouger un jour pour suivre la Lune, il faudrait que la mer le sache. Qu'elle soit prête. Qu'elle ne déborde pas.
+* cot_30 coe12 | Lui promettre de la prévenir | Tu écris : « OUI. TU SERAS PRÉVENUE. TIENS-TOI PRÊTE. » La mer se retire doucement, comme quelqu'un qui va faire sa valise. | Tu écris, mais tu fais une faute. « TIENS-TOI PRÈTE. » La mer corrige. Elle est pointilleuse. | +flag:marees_prevenues coe+1 | +flag:marees_prevenues
+* cot_29 rus10 | Lui dire de rester calme en attendant | La mer s'étale. Calme. Elle fait confiance. C'est terrible, quelqu'un qui te fait confiance. | | equ+2 |
+
+@cot_29
+Plus loin sur la côte, une trombe. Une colonne d'eau qui monte vers la Lune, fine, tournoyante, lumineuse. Les Marégraves l'appellent la Trombe des Partis : c'est là que la mer monte quand la Lune tire trop fort, et que des Marégraves s'en vont avec elle. Ce soir, elle est plus haute que jamais.
+?comp:bartho Bartholomé se fige. « C'est là. C'est là qu'elle est partie. »
+* cot_31 pan12 | T'approcher de la Trombe | Tu t'approches. L'eau tourbillonne autour de toi. Tu sens qu'elle t'appelle vers le haut. | La Trombe t'aspire, te fait tourner trois fois et te recrache à moitié. Tu as mal partout, mais tu as vu l'intérieur. | pan+1 | equ-2 mor-1
+* cot_32 coe11 | Écouter ce qu'il y a dans la Trombe | Des voix. Des voix de Marégraves partis, qui chantent doucement dans l'eau qui monte. Ils sont là, quelque part, entre la mer et la Lune. | Tu n'entends que le vent. | coe+1 |
+
+@cot_30
+La mer s'est retirée, calme, prête. Les pêcheurs, sur la plage, la regardent avec stupeur. « Elle ne s'était jamais retirée comme ça. Comme si elle attendait un ordre. »
+Tu ne dis rien. Tu as fait une promesse à une mer. Il faudra la tenir.
+* cot_29 coe10 | Continuer ta route | Tu continues. Derrière toi, la mer t'attend. |  |
+
+@cot_31
+Dans la Trombe, l'eau tourne si vite qu'elle forme des visages. Des visages de Marégraves, flous, qui te regardent passer. Une femme, surtout. Une femme aux cheveux d'écume, qui écrit avec son doigt dans l'eau qui tourne.
+?comp:bartho Bartholomé crie : « PERLINE ! » La femme s'arrête d'écrire. Elle tourne la tête.
+* cot_33 coe12 ?comp:bartho | Laisser Bartholomé lui parler | Bartholomé avance dans l'eau qui tourne, sa casquette à la main, comme on entre dans une église. | Bartholomé avance, glisse, se relève. Il avance quand même. |
+* cot_34 rus11 | Lire ce qu'elle écrit | Elle écrit : « Je suis là. Je suis dans la Lune. Je suis dans la mer. Je suis entre les deux. Ne vous inquiétez pas. Tenez bon. » | Tu ne lis rien. L'eau tourne trop vite. | +flag:perline_message |
+
+@cot_32
+Dans la Trombe, les voix chantent. Tu reconnais l'air : c'est celui des Méduses, celui des lettres. Les Marégraves partis chantent la même chanson. Ils chantent pour la Lune. Ils sont avec elle, là-haut, en poussière d'écume.
+Ils ne sont pas morts. Ils sont partis. C'est différent. C'est pire ou mieux. Tu ne sais pas.
+* cot_34 coe11 | Chanter avec eux | Tu chantes. Ta voix monte dans la Trombe. Elle arrivera peut-être là-haut. | Ta voix se casse. La Trombe la garde quand même. | mor+1 |
+* cot_35 rus10 | Partir avant d'être aspiré·e | Tu recules. La Trombe te laisse partir. Elle a assez de monde. | |
+
+@cot_33
+Perline, dans la Trombe, regarde Bartholomé. Elle sourit. Elle écrit dans l'eau, en lettres qui tournent : « Vieux bulot. Tu râles toujours ? »
+Bartholomé pleure, rit, râle en même temps. « Oui ! Oui, je râle ! Tous les jours ! » Elle écrit : « Bien. Continue. Ça me fait rire, d'ici. » Puis : « Viens me chercher. Mais pas trop vite. »
+~bartho: « Elle m'a appelé vieux bulot. Vingt ans, et elle m'appelle encore vieux bulot. »
+* cot_35 coe12 | Laisser le moment durer | Tu restes en retrait. Bartholomé et Perline se parlent dans l'eau qui tourne, longtemps. Quand il revient, il a l'air plus jeune de vingt ans. Et plus triste. Et plus vivant. | Le moment est trop court. La Trombe tourne, Perline s'efface. Bartholomé reste debout, les bras ouverts. | mor+2 +flag:perline_vue | mor+1 +flag:perline_vue
+
+@cot_34
+?flag:perline_message Tu as lu le message des Marégraves partis. Ils sont là-haut, avec la Lune.
+?!flag:perline_message Tu n'as pas pu lire ce qu'écrivait la femme d'écume. Mais tu as entendu les voix et vu les visages : les Marégraves partis sont là-haut, avec la Lune. Si elle s'en va, ils s'en vont avec. Si elle reste, ils restent. Et ils te demandent de tenir bon.
+Tu as maintenant une autre raison de monter. Il y a des gens sur la Lune. Des gens à nous.
+* cot_35 coe11 | Repartir vers le Carrefour | Tu repars. La Trombe te regarde partir. | |
+
+@cot_35
+Tu quittes les Côtes Hagardes. Derrière toi, la vague immobile tient toujours, grâce aux Méduses. La mer s'est calmée, un peu.
+?flag:cagnotte Les perles brillent dans les filets des pêcheurs.
+?flag:marees_prevenues La mer attend ton signal, comme une danseuse en coulisse.
+Tu reprends la route du Carrefour, les pieds mouillés, la tête pleine de chansons fausses.
+* hub_ret coe10 | Retourner au Carrefour des Espèces | Tu marches. Le sel sèche sur toi. Tu le gardes. C'est un souvenir. |  | mor+1
+* cot_36 rus11 | Faire un dernier détour par la falaise | Tu montes une dernière fois. La vue est la même. Toi, tu as changé. | |
+
+@cot_36
+De la falaise, tu regardes la mer une dernière fois. Elle est grise, calme, tendue, comme quelqu'un qui retient sa respiration. Au-dessus, la Lune, toujours plus loin, avec son crochet.
+Tu fais un geste vers la mer. Elle te répond par une petite vague, une seule, qui monte jusqu'à tes pieds et repart. Un au revoir. Ou un à bientôt.
+* hub_ret coe11 | Partir | Tu pars. La mer te suit des yeux, si une mer a des yeux. Elle en a. Tu les as vus. | Tu pars sans te retourner. Tu le regretteras un peu. | mor+1 |

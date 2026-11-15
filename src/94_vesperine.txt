@@ -1,0 +1,26 @@
+# Vespérine ne peut pas être au soleil. Le jour, elle voyage dans ton ombre.
+# Avec l'éclat d'éclipse (Marché des Comètes), elle marche à côté de toi, dans sa petite nuit portative.
+
+@+lyc_22
+?comp:vesperine Le carrosse s'arrête au bord du Carrefour. Le soleil est levé. La Comtesse ne peut pas descendre. Elle soupire, ouvre la portière d'un doigt ganté, et se coule dans ton ombre, sur le marchepied, comme on enfile une cape. « Le jour, je voyagerai là-dedans. Un vieux procédé de famille. Marchez dos au soleil quand vous pouvez, et évitez les lampadaires. »
+
+@+foi_14
+?comp:vesperine ?from:foi_13 « Une chose encore », dit-elle à la sortie de la tente. « Le jour, je ne peux pas vous suivre au soleil. Je voyagerai dans votre ombre. C'est un vieux procédé de famille. Elle est un peu étroite, mais propre. »
+
+@+hub_ret
+~vesperine ?flag:obj_eclipse: Vespérine marche à côté de toi en plein jour, sous la petite éclipse accrochée à son col. Autour d'elle, un cercle de nuit de deux mètres, avec trois étoiles. Les passants s'écartent. « Je n'avais pas vu le monde en plein jour depuis 1312. Il est aussi laid que dans mon souvenir. C'est merveilleux. »
+
+@+cot_01
+~vesperine ?flag:obj_eclipse: Vespérine se promène sur la plage dans son petit cercle de nuit. Une mouette y entre par erreur, croit que le soir est tombé, et s'endort sur son épaule. « Du sel et du vent. Mais pas de soleil. Je pourrais m'habituer à la mer. »
+
+@+for_01
+~vesperine ?flag:obj_eclipse: Vespérine décroche un instant son éclipse, puisque les sous-bois suffisent. « Il faut la ménager. Une éclipse, ça s'use. Comme les dames. »
+
+@+cap_01
+~vesperine ?flag:obj_eclipse: Vespérine traverse Tamponville sous son éclipse portative. Trois fonctionnaires, surpris par la nuit soudaine, rangent leurs dossiers et rentrent chez eux. « Vous voyez. La nuit libère les gens. »
+
+@+nua_01
+~vesperine ?flag:obj_eclipse: Vespérine grimpe l'échelle de corde dans son cercle de nuit. Elle a ajusté l'éclipse d'un cran : ici, le soleil tape plus fort. « Si elle se décroche, rattrapez-moi. Ou rattrapez l'éclipse, c'est plus important. »
+
+@+asc_01
+~vesperine ?flag:obj_eclipse: Vespérine accroche l'éclat d'éclipse à son col au moment où l'aube se lève. « Cette fois, je monte en regardant. Neuf cents ans que je n'ai pas vu un lever de soleil. Il est vulgaire. Il est magnifique. »

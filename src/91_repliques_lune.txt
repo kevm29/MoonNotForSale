@@ -1,0 +1,139 @@
+# ================================================================
+# RÉPLIQUES DES COMPAGNONS — la montée, la Lune, le Promontoire
+# ================================================================
+
+@+asc_01
+~coquille ?comp:zouzou: Madame Coquille regarde Zouzou de haut en bas. « Si tu proposes de me porter, jeune fille, je te préviens : la vitesse, je la trouve vulgaire. »
+~pardon ?comp:rocambole: Pardon se tient à l'écart de Rocambole, qui fait comme si de rien n'était. Personne n'a oublié la nuit.
+~bartho: « Monter. Moi qui ai le mal de mer sur un pédalo. »
+~penelope: « Je connais l'ascenseur de service du chantier. Je l'ai pris tous les matins pendant trois ans. Il sent le ciment et le café. »
+~melusine: « ON MONTE ! JE N'AI PAS DE CHAUSSURES POUR LA LUNE ! JE VAIS Y ALLER EN PANTOUFLES ! »
+~echo: « ... monter. Monter. » Écho regarde en l'air, puis te regarde, puis reprend ta main.
+~quartz: « J'ai trois plans. Ils sont tous mauvais, mais pas de la même façon. C'est une forme de diversité. »
+~brume: « Si on monte... par le rêve... je saurai... le chemin... »
+~meduses: « NOUS N'AVONS JAMAIS ÉTÉ DANS LE VIDE. LE VIDE N'A PAS D'EAU. NOUS VENONS QUAND MÊME, DANS NOTRE BOCAL. »
+~fernand: « Je dépose une réclamation contre la gravité. Pour la forme. Et je viens. »
+~zouzou: « Vous savez qu'il y a une solution évidente, hein ? Elle a une queue et elle est très rapide. »
+~coquille: « Nous monterons à notre rythme. Nous arriverons à temps. Nous arrivons toujours à temps. »
+~vesperine: Vespérine regarde l'aube pâlir le ciel et se glisse dans ton ombre, comme dans une cape. « On part au lever du soleil. Évidemment. Personne ne pense jamais aux vampires. »
+~ondee: « Je peux te porter. Je suis gonflée de la marée d'hier, j'ai de quoi monter très haut. »
+~gaspard: « La dernière fois que j'ai essayé de monter, je suis mort. Je dis ça sans reproche. »
+~fulgence: « Si on rencontre des gardes là-haut, je serai un garde. S'ils sont plusieurs, je serai leur chef. »
+~ysaline: « Toutes les voies de montée ont été construites par des mâles pour des mâles. On montera quand même. »
+~pardon: « Pardon. J'ai les codes de l'ascenseur de service. Si ça peut servir. »
+~pli: « Monsieur Pli rappelle qu'il n'a pas de visa pour la Lune. Monsieur Pli monte quand même. C'est un incident diplomatique dont il assume la responsabilité. »
+~taupinel: « Si on meurt en montant, je veux que ma dernière dépêche soit belle. Note-la : "Ils y sont allés quand même." »
+~plumard: « En avant ! L'aube est l'heure des offensives, c'est connu ! Je l'ai sonnée moi-même ! »
+~remontoir ?flag:remontoir_remonte: « Cent ans devant moi, et je les commence par aller sur la Lune. C'est un bon début de siècle. »
+~remontoir: « Je monterai lentement. Je monterai quand même. Une devinette pour la route : qu'est-ce qui monte sans jamais redescendre ? » Il ne donne pas la réponse.
+
+@+asc_22
+~bartho ?comp:meduses: « Les bestioles chantent dans leur bocal depuis qu'on a posé le pied. » Les Méduses : « ELLE NOUS ENTEND. ELLE FAIT LES MARÉES. NOUS SOMMES CHEZ NOTRE MÈRE. »
+~gaspard ?comp:ondee: Gaspard et Dame Ondée regardent la Lune ensemble, un fantôme et un nuage. « Je l'avais touchée », dit-il. « Je sais », dit-elle. « J'étais là. Je t'ai mouillé. »
+~bartho: « On y est. Je pensais pas qu'on y arriverait. Je pensais pas grand-chose, remarque. »
+~penelope: « Le chantier. Je connais chaque grue par son numéro. Celle-là, c'est la 14. Elle grince quand elle pleure. »
+~melusine: « LA LUNE ! JE MARCHE SUR LA LUNE ! MILLE ANS QUE JE TRICOTE SA LUMIÈRE SANS L'AVOIR JAMAIS TOUCHÉE ! »
+~echo: Écho ouvre la bouche pour répéter quelque chose. Il n'y a aucun bruit. Elle reste silencieuse, émerveillée.
+~quartz: « La poussière est exactement comme je l'avais prévu. C'est la première fois de ma vie. Je ne sais pas comment réagir. »
+~brume: « Elle est... plus petite... que dans les rêves... et plus vraie... »
+~rocambole: « Belle comme la dernière fois. Plus fatiguée. Elle m'a reconnu, je crois. Elle fait la tête. »
+~fernand: Fernand s'éteint, puis se rallume, plus fort qu'avant. « La lumière publique numéro un. Mon ancienne patronne. »
+~zouzou: « Je l'ai vue mille fois en passant. Je ne m'étais jamais arrêtée. C'est triste, de près. »
+~coquille: Madame Coquille pose une patte sur la poussière. « Voilà donc celle qui fait les marées. Elle est fatiguée. Comme moi. »
+~vesperine: Vespérine sort de ton ombre et pose le pied sur la poussière. Le ciel est noir. « Il fait nuit, ici. Toujours. Je n'ai jamais été aussi bien. »
+~ondee: « Pas un nuage. Pas une goutte. Rien. Comment fait-elle, depuis quatre milliards d'années ? »
+~gaspard: Gaspard reste immobile, chapeau à la main. Il ne dit rien. Deux cents ans de retard, et il ne dit rien.
+~fulgence: Fulgence ne change pas de forme. Pour une fois, il veut voir avec ses propres yeux.
+~ysaline: « Une femelle de quatre milliards d'années, enchaînée par un crochet. Je n'ai pas besoin d'autres preuves. »
+~pardon: « Pardon. J'ai mesuré ce cratère. Il fait onze kilomètres. Il fait aussi beaucoup plus. »
+~pli: Monsieur Pli se déplie, solennel. « Au nom de l'ambassade de Tamponville, je présente mes respects à madame la Lune. » La poussière frémit.
+~taupinel: « Je ne vois rien. Je sens. Ça sent la poussière, le froid, et la tristesse. Ça fera un beau papier. »
+~plumard: « Pas d'aube, ici ! La Terre se lève, et personne ne chante ! Il faut remédier à ça. »
+~remontoir: « Elle bat. Sous mes pieds. Elle bat comme une horloge qui retarde. »
+
+@+cha_27
+~plumard ?!flag:greve: « Des vigiles ! Enfin un ennemi à ma taille ! Je ne fuis jamais, soldat. Jamais. Retiens-le. »
+~ysaline ?flag:greve: « Ils sont en grève. Je n'y suis pour rien. Enfin, un peu. »
+~pli ?flag:traite_vigiles: « Ces deux-là ont signé une clause de réciprocité. Ils ne nous voient pas. C'est contractuel. »
+~bartho: « Des vigiles qui s'excusent. On aura tout vu. »
+~penelope: « Bobinot. Il me prêtait son agrafeuse. Il ne sait pas encore que j'ai changé de camp. »
+~rocambole: « Laissez-moi parler, je connais les contremaîtres. Ils aiment qu'on les flatte et qu'on leur vole leur casquette. »
+~zouzou: « Je peux leur brûler le casque. Juste le casque. Bon, et un peu les sourcils. »
+~vesperine: « Des projecteurs. Comme c'est désagréable. On se croirait en plein jour. »
+~fulgence: « Si tu veux, je deviens Bobinot, et on aura deux Bobinot. Ça les occupera. »
+~pardon: Pardon se cache derrière toi. « Pardon. Ce sont des collègues. Ils me reconnaîtraient. »
+~taupinel: « Un contremaître qui crie. Note : il a peur. Ceux qui crient ont toujours peur. »
+~remontoir: « J'ai été contremaître, une fois, il y a six cents ans. Je criais aussi. Ça ne marchait pas non plus. »
+
+@+cha_30
+~penelope: Pénélope se cache derrière toi. « C'est lui qui m'a appris à tamponner. Il disait : "Ne regarde jamais ce que tu tamponnes." »
+~quartz: « Un classeur vivant ! Combien de tiroirs ? Ne répondez pas, je vais compter. »
+~bartho: « Un huissier. J'en ai eu un, après le départ de Perline. Il a saisi mon bateau. Il avait des yeux tristes, lui aussi. »
+~ysaline: « Il compte tout ce qui part. Personne ne lui a jamais demandé de compter ce qui reste. »
+~taupinel: Taupinel renifle les tiroirs de Krâmm. « Il y a un dessin d'enfant au fond. Ça sent les crayons de couleur. »
+~gaspard: « Il a l'air d'un mort qui ne le sait pas encore. Je reconnais. »
+~pli: « Monsieur Pli et Monsieur Krâmm sont tous les deux en papier, au fond. Monsieur Pli propose un dialogue entre confrères. »
+~remontoir: « Un homme qui compte. Moi, je décompte. On devrait s'entendre. »
+
+@+neg_01
+~penelope: « Je travaillais là. Troisième porte à gauche. Mon bureau sent encore l'encre. Je ne veux pas y retourner. »
+~rocambole: « Ces tableaux, c'est des planètes vendues. Celle-là, je l'avais repérée avant lui. Je l'aurais mieux traitée. »
+~bartho: « Tout est doré. Même les poubelles. Je me sens sale, et j'en suis fier. »
+~melusine: « C'EST HORRIBLE ! C'EST SI PROPRE ! JE VAIS SALIR LE TAPIS EXPRÈS ! »
+~vesperine: « J'ai connu des palais comme celui-ci. Personne n'y riait jamais. »
+~fulgence: « Je peux devenir un petit robot de ménage. On passerait inaperçus. Non ? Je reste moi. Pour l'instant. »
+~ysaline: « Des tableaux de planètes conquises. Aucune n'a été consultée. Je les compte. »
+~pardon: « Pardon. C'est ici qu'on m'a fabriqué. Dans le sous-sol. Je préférerais ne pas en parler. »
+~pli: Monsieur Pli lisse ses plis. « Monsieur Pli est prêt. Monsieur Pli a négocié avec des volcans. Ce n'est qu'un homme. »
+~taupinel: « Ça sent l'argent et la solitude. Les deux odeurs vont toujours ensemble. »
+~plumard: « Garde-à-vous, soldat. On entre chez l'ennemi. On reste polis. On sort vivants. »
+~remontoir: « Toutes les horloges, ici, sont à l'heure exacte. C'est le signe d'une maison où personne ne vit. »
+~zouzou: « Tout est doré. Ça me donne envie de tout brûler. Je me retiens. Pour toi. »
+~gaspard: Gaspard traverse un tableau sans le faire exprès. Il s'excuse auprès de la planète peinte.
+
+@+neg_16
+~melusine: Tante Mélusine se retient de sangloter. Pour une fois, elle se tait. C'est terrifiant.
+~penelope: Pénélope tient ses tampons serrés. Elle sait que, d'une seconde à l'autre, elle va devoir choisir lequel utiliser.
+~quartz: Le Docteur Quartz fait des calculs à voix basse : « Probabilité qu'il réfléchisse vraiment : faible. Probabilité qu'il nous écoute : moyenne. »
+~gaspard: Gaspard flotte près du mur, le chapeau à la main. Tu sens qu'il attend un signe de toi.
+~fulgence: Fulgence a les yeux qui changent de couleur, très vite. Il hésite entre plusieurs visages. Tu sais lequel il a préparé.
+~pli: Monsieur Pli frémit dans ta poche. Il est prêt à se déplier.
+~ysaline: Ysaline garde sous sa patte une feuille pliée en quatre. Elle attend.
+~taupinel: Taupinel a la main sur son journal plié. Il te regarde, ou presque.
+~plumard: Le Colonel Plumard prend une grande inspiration. Il la garde. Il attend l'ordre.
+
+@+neg_21
+~bartho: « Dix minutes. J'ai vécu des marées plus longues que ça. »
+~penelope: « Le compte à rebours ! C'est moi qui l'avais programmé. Je l'ai fait poli. Je le regrette. »
+~melusine: « DIX MINUTES ! JE NE PEUX PAS TRICOTER UNE LUNE EN DIX MINUTES ! »
+~echo: « ... minutes. Minutes. » Elle répète l'alarme, mais en plus doux, comme pour la consoler.
+~quartz: « J'avais prévu quinze minutes. J'avais tort. Comme d'habitude, mais au pire moment. »
+~rocambole: Rocambole tâte son chapeau. Il y a quelque chose dedans. Il te fait un clin d'œil.
+~zouzou: « Dix minutes, c'est long ! Moi en dix minutes je fais le tour de Jupiter. Qu'est-ce qu'on attend ? »
+~coquille: « Dix minutes. C'est très court. C'est aussi très long, si on ne court pas. »
+~vesperine: « Les moteurs s'allument et nous restons immobiles. Comme dans un bal où l'orchestre joue trop vite. »
+~ondee: Dame Ondée gronde contre la baie vitrée. Des gouttes ruissellent sur le verre. Dehors, il n'y a pas d'air. Elle pleure.
+~gaspard: « La dernière fois que j'avais dix minutes, je les ai passées à regarder la Lune. Je ne regrette rien. »
+~fulgence: Fulgence est devenu tout pâle, sous sa forme ordinaire. Il ne trouve plus aucune autre forme.
+~ysaline: « Dix minutes pour défaire ce qu'ils ont décidé en dix ans. C'est toujours comme ça. »
+~pardon: « Pardon. Les moteurs vont tirer. Le troisième boulon va grincer. C'est le moment, ou jamais. »
+~pli: « Monsieur Pli demande dix minutes de plus. » Personne ne lui répond. Il les demande quand même, par écrit.
+~taupinel: « Je tape la dernière ligne de l'article. Je la taperai deux fois : une si on gagne, une si on perd. »
+~plumard: « Dix minutes ! Toute ma vie, j'ai tenu des délais plus courts ! Aux ordres, soldat ! »
+~remontoir: « Dix minutes. Je les sens passer une par une. C'est l'avantage d'être lent. »
+
+@+fin_01
+~echo ?flag:echo_parle: Écho se tient prête. Elle a un mot à elle, maintenant. Elle attend le bon moment pour le dire.
+~gaspard: Gaspard pose sa main transparente sur ton épaule. Tu as froid. Ça te donne du courage.
+~coquille ?flag:croissant: Madame Coquille est arrivée. À temps, comme toujours. Le petit Croissant regarde Platine avec ses grands yeux.
+~remontoir: Remontoir compte à voix basse. « Vingt-neuf. Vingt-huit. » Il compte lentement. Il gagne quelques secondes pour toi.
+~zouzou: Zouzou s'est tue. Elle ne s'est jamais tue. C'est comme ça que tu sais que c'est grave.
+~plumard: Le Colonel Plumard bombe le torse. Il attend ton signal. Il l'attend depuis soixante ans.
+~ysaline: « Quoi que tu fasses, fais-le en le regardant dans les yeux. »
+~fulgence: Fulgence te prend la main, sans changer de forme. « Je suis là. Moi. Avec ma vraie tête. »
+~vesperine: « Trente secondes. J'en ai vécu des milliards. Celles-là sont les seules qui comptent. »
+~pardon: Pardon ne dit pas « pardon ». Il te regarde, et il hoche la tête.
+~bartho: « Allez. Fais un truc. N'importe quoi. Je râlerai après. »
+~penelope: Pénélope lève ses deux tampons. Elle attend de savoir lequel.
+~melusine: Tante Mélusine murmure. En minuscules. Pour la première fois en mille ans.
+~quartz: « Toutes mes probabilités sont nulles. Il ne reste que toi. Ce n'est pas une probabilité, c'est une chance. »

@@ -1,0 +1,144 @@
+# ================================================================
+# ACTE III-a — L'ASCENSION (cinq façons de monter, qui se rejoignent sur la Lune)
+# ================================================================
+
+@asc_01
+!title: Monter
+Il faut monter. La Lune est à trois cent quatre-vingt-quatre mille kilomètres, un peu plus chaque heure. Le Carrefour se rassemble autour de toi pour décider comment. Tout le monde a une idée. Aucune n'est raisonnable. C'est rassurant : les idées raisonnables ont vendu la Lune.
+?comp:rocambole Rocambole lève ses quatre bras : « Mon vaisseau ! Le Pied-de-Nez ! Il a perdu une aile, mais c'était une aile décorative ! »
+?comp:quartz Dr Quartz : « Probabilité d'arriver vivants : faible. Probabilité d'arriver : moyenne. Je prends. »
+?comp:zouzou Zouzou tourne au-dessus de ta tête. « Ou alors, tu montes sur moi. Mais je ne fais pas de pause pipi. »
+?comp:ondee Dame Ondée gronde doucement. « Je peux te porter. Les orages montent très haut, quand ils veulent. »
+* asc_23 pan11 ?comp:zouzou | Monter sur la queue de Zouzou | Tu t'agrippes à sa queue. Elle est brûlante. « C'est parti. » Tu n'as pas eu le temps de dire oui. | Tu t'agrippes, tu glisses, tu te rattrapes au bout de la queue. Elle décolle quand même. | equ+1 comp:coquille=>+flag:coquille_reste comp:coquille=>-comp:coquille |
+* asc_24 coe11 ?comp:ondee | Te laisser porter par Dame Ondée | Ondée se fait immense et t'enveloppe. C'est comme entrer dans un édredon mouillé. | Ondée t'enveloppe, et tu éternues. Elle prend ça pour un compliment. |  |
+* asc_02 pan11 ?comp:rocambole | Monter à bord du Pied-de-Nez | Le vieux cargo tousse, crache, et décolle. Rocambole hurle de joie. Tu hurles d'autre chose. | Le Pied-de-Nez décolle au troisième essai, à reculons. Ça compte. |  |
+* asc_06 pan12 ?flag:gravitaires_allies,flag:gravitaires_suivent,pc:brisefer | Te faire lancer par les Gravitaires | Les Gravitaires forment une catapulte de leurs bras croisés. Tu montes dans le creux. « À trois. » Ils lancent à deux. | Tu montes dans la catapulte. Ils comptent jusqu'à quatre, par excès de prudence. |  |
+* asc_10 coe11 ?flag:vis_cot,pc:ondine | Monter par la Trombe des Partis | La colonne d'eau t'accueille. Tu es aspiré·e vers le haut dans un tourbillon de voix salées. | La Trombe t'aspire de travers. Tu montes la tête en bas. | |
+* asc_14 rus12 | Te glisser dans l'ascenseur de service du chantier | Le chantier a planté un câble-ascenseur jusqu'au sol pour livrer les matériaux. Tu te faufiles entre deux caisses de marbre. | Tu te faufiles dans la mauvaise caisse. Elle contient des bidets. Tu montes quand même. | rus+1 comp:zouzou=>+flag:zouzou_devant comp:zouzou=>-comp:zouzou | comp:zouzou=>+flag:zouzou_devant comp:zouzou=>-comp:zouzou
+* asc_18 coe12 ?flag:sommeil_lune,flag:reve_ouvert,flag:reve_lune,pc:pistil | Monter par le rêve | Tu t'endors en pensant très fort à elle. Le rêve est une route comme une autre, en plus doux. | Tu t'endors et tu rêves d'abord d'un examen de mathématiques. Puis de la Lune. | |
+
+@asc_02
+Le Pied-de-Nez grimpe dans le ciel en grinçant de partout. La figure de proue tire la langue aux nuages. Dans la cabine, ça sent le café de comète, le vieux cuir et la peur bien rangée.
+~taupinel ?flag:taupinel_mensonge: « J'ai noté. Tu as menti à des drones. Ça ira dans l'article. En petit, mais ça ira. »
+~rocambole: « Tenez-vous ! Ce vaisseau a traversé trois ceintures d'astéroïdes et un divorce ! »
+* asc_03 pan11 | Prendre les commandes avec Rocambole | Tu tiens un des quatre manches. Rocambole tient les trois autres. Vous pilotez à cinq mains. Ça marche, à peu près. | Tu tires le mauvais levier. Vous faites un looping. Rocambole applaudit. | pan+1 |
+* asc_04 rus11 | Surveiller les radars | Tu vois des points dorés se lever du Promontoire : des drones de politesse. Tu les signales. | Le radar affiche une baleine. Tu ne sais pas si c'est une panne ou une baleine. | rus+1 |
+
+@asc_03
+Vous traversez l'atmosphère. Le ciel passe du bleu au noir comme une phrase qui finit. Les étoiles apparaissent, nettes, nombreuses, indifférentes. Et devant vous, la Lune. Énorme. Blanche. Couverte d'échafaudages, de grues, de cloisons de verre. Un chantier de la taille d'un continent.
+?comp:rocambole Rocambole ne dit rien. Il retire son chapeau.
+* asc_05 coe11 | La regarder en silence | Tu la regardes. Elle a l'air d'une vieille dame qu'on aurait mise en bigoudis contre son gré. | Tu la regardes, et ton cœur se serre si fort que tu en as mal aux côtes. | coe+1 |
+* asc_04 pan10 | Foncer vers elle | Vous foncez. La Lune grossit, grossit, grossit. | |
+
+@asc_04
+Les drones de politesse vous rattrapent. Une dizaine de petites sphères dorées qui encerclent le vaisseau en clignotant : « Excusez-nous. Vous n'avez pas de réservation. Veuillez faire demi-tour, s'il vous plaît, merci, bonne journée. »
+* asc_05 rus12 | Leur répondre que vous êtes des livreurs de bidets | « Ah ! Les bidets ! Nous vous attendions ! Quai numéro quatre ! » Ils vous escortent avec déférence. | Ils vérifient le bon de livraison. Vous n'en avez pas. Ils s'excusent, et ils tirent. Poliment. | rus+1 comp:taupinel=>+flag:taupinel_mensonge | equ-2 comp:taupinel=>+flag:taupinel_mensonge
+* asc_05 pan12 | Forcer le passage | Le Pied-de-Nez passe en force. Deux drones rebondissent sur la coque en criant « Pardon ! ». | Le Pied-de-Nez passe, mais il perd sa deuxième aile. Elle n'était pas décorative. | pan+1 comp:pli=>+flag:pli_part_asc comp:pli=>-comp:pli comp:pardon=>+flag:pardon_violence comp:pardon=>-comp:pardon | equ-3 comp:pli=>+flag:pli_part_asc comp:pli=>-comp:pli comp:pardon=>+flag:pardon_violence comp:pardon=>-comp:pardon
+
+@asc_05
+?flag:pli_part_asc ?from:asc_04 Monsieur Pli a assisté à l'abordage sans un mot. À l'atterrissage, il se déplie : « Je ne voyage pas avec la violence. » Il se plie en avion de papier et repart vers la Terre, porté par le souffle du vaisseau.
+?flag:pardon_violence ?from:asc_04 Pardon regarde par le hublot les deux drones cabossés qui dérivent dans le vide. « Ce sont des cousins. Pardon. Je ne peux pas rester avec ceux qui leur font ça. » Il descend du Pied-de-Nez et marche vers eux pour les réparer. Il ne revient pas.
+Le Pied-de-Nez se pose sur la Lune. Mal. Il rebondit trois fois dans la poussière, glisse dans un cratère, et s'arrête contre une palissade de chantier. Sur la palissade : « Ici bientôt : votre golf en apesanteur. »
+?comp:rocambole « Atterrissage parfait ! » crie Rocambole, la tête dans le tableau de bord.
+* asc_22 coe10 | Sortir sur la Lune | Tu ouvres la porte. Tu poses le pied. Tu es sur la Lune. |  |
+
+@asc_06
+La catapulte des Gravitaires. Des dizaines de géants de pierre, les bras croisés en un immense berceau. Au centre, toi. La Colonelle, ou le Commandant, ou quelqu'un, compte : « Un. Deux. »
+?pc:brisefer « Je compte, moi. Un. Deux. Trois. » Et tu te lances toi-même, en criant un ordre que personne ne comprend.
+?flag:gravitaires_allies Sous la terre, les douze géants de l'Assemblée vibrent pour te donner de l'élan.
+* asc_07 pan12 | Te tenir droit·e et serrer les dents | Ils lancent. Tu montes. Tu montes comme une pierre jetée par un enfant très fort, très loin, très haut. | Ils lancent de travers. Tu tournes sur toi-même pendant dix minutes. | pan+1 | mor-1
+* asc_08 coe11 | Leur dire merci avant le départ | « Merci. » Les Gravitaires grondent, émus. Ils lancent avec une douceur qui te surprend. | Ils lancent avant la fin de ton merci. Tu le finis dans le ciel. | mor+1 |
+
+@asc_07
+Tu traverses les nuages, puis le bleu, puis le noir. L'air disparaît. Tu retiens ta respiration, puis tu découvres que tu n'en as pas besoin : la poussière de Lune qui flotte autour de toi te nourrit, comme une vieille amie qui t'attendait.
+* asc_09 rus11 | Calculer ta trajectoire | Tu calcules. Tu vas atterrir... en plein dans le chantier. À côté d'une grue. | Tu calcules et tu trouves que tu vas rater la Lune de trois kilomètres. Tu agites les bras, tu frôles le vide, et c'est un câble de grue qui t'accroche au vol, par la ceinture. | | equ-2 mor-1
+* asc_08 coe10 | Profiter de la vue | La Terre, en dessous, bleue et bancale. La Lune, au-dessus, blanche et prisonnière. Entre les deux, toi, en vol. | | mor+1 |
+
+@asc_08
+En vol, tu vois la Terre de haut pour la première fois. Elle est petite. Elle est belle. Elle penche. Les mers débordent d'un côté, reculent de l'autre. Tu vois des feux allumés partout sur la face nocturne. Des milliers de gens qui regardent le ciel. Qui te regardent peut-être.
+?pc:brisefer Tu as tenu ça pendant trois mille ans. Tu ne savais pas que c'était si joli.
+* asc_09 coe12 | Leur faire signe | Tu leur fais signe. Personne ne peut te voir. Tu le fais quand même. | | coe+1 mor+1 |
+
+@asc_09
+?from:asc_07 ?last:ko Le câble te balance longtemps au-dessus du vide, puis te lâche sur un tas de sable de chantier. Tu as un bleu sur l'épaule, de la poussière partout, et la fierté en miettes.
+?from:asc_08,last:ok Tu atterris sur la Lune comme un météore poli : un grand nuage de poussière, un petit cratère neuf.
+Un ouvrier d'Aldébaran sursaute en lâchant son café.
+« Vous... vous avez rendez-vous ? »
+* asc_22 rus11 | « Oui. Avec la Lune. » | L'ouvrier réfléchit. « Ah. Elle est là. Partout, en fait. » Il te laisse passer. | Il te regarde comme une folle. Il appelle son contremaître. Tu files. | |
+* asc_22 pan10 | Te relever sans répondre | Tu te relèves. Tu secoues la poussière. Tu marches. | |
+
+@asc_10
+La Trombe des Partis. Une colonne d'eau qui monte, qui tourne, qui chante. Tu y entres, et elle t'emporte. Tu montes dans un tourbillon de sel et de voix. Les Marégraves partis sont là, en écume, et ils te portent vers le haut.
+?comp:bartho Bartholomé, à côté de toi, cherche un visage dans l'eau. « Perline ? Perline ! »
+* asc_11 coe12 | Chanter avec les voix | Tu chantes. Les voix chantent. La Trombe monte plus vite. | Tu chantes faux. Les voix chantent juste, par contraste. Ça marche quand même. | coe+1 |
+* asc_12 pan11 | Nager vers le haut | Tu nages dans l'eau qui monte. Tu es de l'eau qui monte dans l'eau qui monte. | Tu nages, mais le courant te tourne. Tu montes en spirale. | pan+1 |
+
+@asc_11
+La Trombe s'élève au-dessus des nuages. L'eau devient plus fine, plus froide, plus lumineuse. Elle se change en poussière. En poussière de Lune. Les voix des Marégraves partis te disent : « Nous sommes là depuis longtemps. Nous sommes dans la Lune. Si elle part, nous partons. »
+* asc_13 coe11 | Leur promettre qu'elle ne partira pas | « Ne promets pas », disent-elles. « Fais. » | | coe+1 |
+* asc_12 rus10 | Leur demander où atterrir | « Près de la mer de la Tranquillité. Là où ils ont planté le crochet. Là où elle a le plus mal. » | | +flag:sait_crochet |
+
+@asc_12
+Tu sors de la Trombe au-dessus de la Lune. Elle est là, immense, couverte de chantiers. Tu tombes doucement, comme une goutte de pluie sur un monde où il ne pleut jamais.
+?comp:bartho Bartholomé atterrit à côté de toi, trempé, la casquette de travers. « J'ai cru la voir. Perline. Dans l'eau. » Il essuie ses yeux. Ça ne sert à rien, il est en eau.
+* asc_13 coe10 ?comp:bartho ?pc:ondine | Lui prendre la main | Il la serre. Fort. Vous restez une seconde comme ça, deux Marégraves sur la Lune. | | mor+1 |
+* asc_13 coe10 ?comp:bartho ?!pc:ondine | Lui prendre la main | Il la serre. Fort. Sa main est mouillée. Vous restez une seconde comme ça, sur la Lune. | | mor+1 |
+* asc_13 coe10 ?!comp:bartho | Te laisser descendre jusqu'au sol | Tu descends. La poussière monte à ta rencontre, sans se presser. | | mor+1 |
+
+@asc_13
+Tu touches le sol de la Lune. La poussière est douce, grise, froide. Elle se soulève autour de tes pieds en petits nuages lents, comme si la Lune respirait. Tu sens quelque chose sous tes pieds : une vibration. Un tremblement très léger. La Lune a peur.
+* asc_22 coe11 | Poser ta main sur le sol | Tu poses ta main. La vibration se calme, un peu. Comme un animal qu'on caresse. | Tu poses ta main. La vibration s'accentue. Elle ne te connaît pas encore. | coe+1 +flag:toucher_lune |
+
+@asc_14
+L'ascenseur de service du chantier. Un câble d'acier doré qui monte de la Terre jusqu'à la Lune, avec des cabines de marchandises qui montent et descendent toutes les heures. 
+?!last:ko Tu es caché·e dans une caisse marquée « Marbre de Carrare (faux) ».
+?last:ko Tu es caché·e dans une caisse de bidets, ce qui n'aide pas à se sentir héroïque.
+La cabine monte. Ça prend des heures. Il fait noir.
+* asc_15 rus11 | Écouter les conversations des ouvriers | Deux ouvriers dans la cabine voisine : « Paraît que les Terriens résistent. » « Paraît que le patron dort mal. » « Paraît qu'on va pas être payés les heures sup. » | Tu entends seulement un ouvrier qui chante faux. Très faux. | +flag:ouvriers_mecontents |
+* asc_16 pan11 | Sortir de la caisse pour voir | Tu sors. La vue, par le hublot de la cabine, est vertigineuse. La Terre en bas, la Lune en haut, et toi au milieu. | Tu sors et un ouvrier te voit. Vous vous regardez. Il retourne dans sa caisse, gêné. | pan+1 |
+
+@asc_15
+Les ouvriers d'Aldébaran ne sont pas contents. Ils travaillent jour et nuit, enfin jour et jour, il n'y a pas de nuit sur un chantier lunaire bien éclairé. Ils ne sont pas payés les heures supplémentaires. Leur contremaître, un certain Bobinot, a promis une prime « quand la Lune sera livrée ».
+Une grève, ça se prépare.
+* asc_17 rus12 | Noter tout ça | Tu notes. Un ouvrier mécontent, c'est un allié qui ne le sait pas encore. | | rus+1 +flag:ouvriers_mecontents |
+* asc_16 coe10 | Compatir en silence | Tu compatis. Ils ne le sauront jamais. Mais ça compte. | | |
+
+@asc_16
+La cabine passe la moitié du trajet. Par le hublot, tu vois la Terre en entier pour la première fois. Ronde. Bleue. Bancale. Avec un petit cœur qui bat quelque part, sous la mer, sous la forêt, sous l'Axe. Tu ne savais pas qu'on pouvait aimer une planète comme on aime quelqu'un.
+* asc_17 coe12 | Te le dire à voix haute | « Je t'aime. » Personne n'entend. Sauf peut-être un ouvrier dans la cabine voisine, qui se met à pleurer sans savoir pourquoi. | | coe+1 mor+1 |
+* asc_17 rus10 | Te concentrer sur la suite | Tu te concentres. La cabine arrive bientôt. Il faudra sortir sans être vu·e. | |
+
+@asc_17
+La cabine arrive sur le quai de livraison du chantier lunaire. Des ouvriers déchargent des caisses de marbre, de verre, de bidets. Un contremaître en casque doré, Bobinot, crie des ordres : « Plus vite ! Le patron arrive demain pour l'inspection ! »
+* asc_22 rus12 | Sortir déguisé·e en ouvrier | Tu prends un casque doré sur une caisse. Tu le mets. Personne ne te regarde. Tu es invisible : tu as un casque. | Le casque est trop grand. Il te tombe sur les yeux. Tu sors à l'aveugle, mais tu sors. | rus+1 +flag:deguise +flag:obj_casque | +flag:deguise +flag:obj_casque
+* asc_22 pan11 | Sortir en courant | Tu cours. Bobinot crie : « Hé ! Toi ! » Tu cours plus vite. Tu es sur la Lune. | | equ+1 comp:remontoir=>+flag:remontoir_cabine comp:remontoir=>-comp:remontoir |
+
+@asc_18
+Tu t'endors. Tu rêves. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.
+?flag:reve_ouvert La porte que quelqu'un a laissée ouverte dans le rêve de la Lune est là. Elle t'attend. Elle grince doucement.
+?comp:brume Brume-Lucie t'enveloppe. « Je connais le chemin. C'est le chemin vers ma cousine. »
+* asc_19 coe11 | Te laisser porter | Tu te laisses porter. C'est doux. C'est lent. C'est comme être bercé par une marée. | | mor+1 |
+* asc_20 rus11 | Diriger ton rêve | Tu diriges. Les rêves obéissent aux rêveurs qui savent ce qu'ils veulent. Tu sais. | Tu diriges mal. Tu passes par un rêve de dentiste. | rus+1 |
+
+@asc_19
+Le rêve te dépose dans la grande maison blanche aux mille fenêtres. La maison de la Lune. Mais elle a changé : il y a des échafaudages dans le couloir. Des cloisons de verre ont été posées dans les pièces. Le chantier a envahi jusqu'à son rêve.
+* asc_21 coe12 | Chercher la Lune dans la maison | Tu la trouves dans la dernière pièce sans échafaudage. Assise par terre. Elle lève les yeux. « Tu es venu·e. » | Tu la cherches, et tu te perds dans les cloisons. C'est elle qui finit par te trouver. | coe+1 |
+* asc_20 rus11 | Chercher une sortie vers le monde réel | Tu cherches une fenêtre qui donne non pas sur la Terre, mais sur la Lune elle-même. Il y en a une. | | |
+
+@asc_20
+Dans le rêve, une fenêtre donne sur la surface de la Lune, la vraie. Tu l'ouvres. Tu passes. Tu tombes du rêve dans la réalité, et tu atterris sur la poussière lunaire, éveillé·e, en pyjama.
+?pc:pistil Tu es en pyjama de toute façon. Tu es un pyjama.
+* asc_22 coe10 | Te relever | Tu te relèves. Tu es sur la Lune. Pour de vrai. | |
+
+@asc_21
+La Lune, dans son rêve, te prend la main. « Ils ont mis des cloisons dans mes pièces. Ils ont mis des piscines dans mes cratères. Ils ont mis des miroirs pour que je me regarde être belle. Je ne veux pas me regarder. Je veux regarder la Terre. »
+Elle te serre la main. « Sors par là. Et viens me voir. La vraie moi. »
+* asc_20 coe11 | Promettre | Tu promets. Elle te montre une fenêtre. Tu passes. | | +flag:reve_lune coe+1 |
+
+@asc_22
+!title: Sur la Lune
+La Lune. La vraie. Tu es dessus.
+La poussière grise et douce, les cratères comme des souvenirs, le ciel noir, et la Terre, au-dessus, ronde et bleue, qui te regarde. Et partout, le chantier : des grues dorées, des échafaudages, des cloisons de verre, des panneaux. « Ici bientôt : Résidence Copernic, vue sur l'ancienne Terre. » « Ici bientôt : piscine à marées (marées en option). »
+Au loin, planté dans la mer de la Tranquillité, le crochet. Grand comme une baie. Relié par un câble au Promontoire, en orbite.
+* cha_01 pan10 | Avancer dans le chantier | Tu avances. Tes pas soulèvent de petits nuages lents. | |
+* cha_02 coe11 | T'agenouiller et toucher la poussière | Tu la touches. Elle est froide et douce. Tu sens, très loin, quelque chose qui frissonne. | Tu la touches, et elle s'envole entre tes doigts. Elle est timide. | coe+1 |

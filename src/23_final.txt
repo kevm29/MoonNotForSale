@@ -1,0 +1,183 @@
+# ================================================================
+# ACTE III-d — LE CHOIX (les voies qui mènent aux quinze fins)
+# Les voies lumineuses exigent un Équilibre de la Terre d'au moins 30.
+# ================================================================
+
+@fin_01
+!title: Trente secondes
+?from:neg_32 Trente secondes. Tout ce que tu as fait, tout ce que tu as porté jusqu'ici, tient dans ces trente secondes.
+?!from:neg_32 Il reste moins de trente secondes, maintenant. Ce que tu viens de tenter n'a pas suffi, mais rien n'est encore perdu. Tout ce que tu as porté jusqu'ici est encore là, sur le bureau, dans tes poches, autour de toi. Les dossiers, les perles, les promesses, les compagnons, les mots appris par cœur. Platine attend. La Lune attend. La Terre attend.
+?equ<30 Par la baie vitrée, tu vois la Terre. Elle penche beaucoup trop. Les mers débordent, les forêts se tordent. Il est peut-être déjà trop tard.
+?flag:cable_coupe Le câble flotte, coupé, mais la Compagnie a déjà lancé un câble de secours. Il est plus fin. Il tient quand même. Il reste quelques secondes.
+?comp:plumard ?flag:reve_ouvert Tu pourrais endormir Platine avec le reste de sommeil de Lune. Mais le Colonel Plumard est là, la crête frémissante : il chanterait l'aube au premier ronflement. Le rêve est une porte fermée, avec un coq devant.
+?equ>=30 Par la baie vitrée, tu vois la Terre. Elle penche, mais elle tient. Elle tient grâce à tout ce que tu as fait. Il est encore temps.
+* fin_24 coe10 ?flag:obj_lettre_vent | Sortir la lettre bleue : « Elle est pour elle. »  | Tu montres l'enveloppe. « À la Lune, en mains propres. » Platine fronce les sourcils. Puis il ouvre lui-même le sas. | |
+* fin_23 pan10 ?flag:obj_croc_argent ?!flag:essai_croc ?!flag:cable_coupe | Sortir le croc d'argent | Tu sors le croc. Il brille d'une lumière froide, une lumière de pleine lune. | |
+* fin_27 rus10 ?flag:acces_crochet ?!flag:essai_boulon ?!flag:cable_coupe | « Le troisième boulon. Maintenant. » | Tu te rappelles la plaque gravée : « Merci de votre compréhension ». Tu cours vers le sas. | |
+* fin_25 pan10 ?comp:plumard ?!flag:essai_aube | Faire signe au Colonel Plumard | Plumard gonfle sa poitrine. Il attendait ce moment depuis soixante ans. | |
+* fin_26 rus10 ?flag:scandale | « Le monde entier vous regarde. » | Tu montres l'écran, où tournent les titres de toute la galaxie. | |
+* fin_02 rus10 ?flag:contrat_vice,flag:dossier | « La vente est nulle. Je le prouverai. » | Tu poses la main sur le dossier. Platine baisse les yeux vers lui. | |
+* fin_04 coe10 ?flag:offre_rachat | « La Terre te rachète la Lune. Avec ce qu'elle a. » | Tu désignes ce que la Terre a donné, posé sur le bureau. Platine le regarde. | |
+* fin_06 pan10 ?flag:gravitaires_allies | « Si la Lune part, la Terre la suivra. » | Tu sors un caillou ramassé aux Profondeurs. Les Gravitaires se parlent par vibrations : serré assez fort, n'importe quel caillou de chez eux devient un signal. Platine fronce les sourcils. | |
+* fin_08 rus10 ?comp:quartz ?!flag:essai_quartz | « On va te donner autre chose à aimer. » | Dr Quartz s'avance, ses plans sous le bras, ses facettes en feu. | |
+* fin_10 coe10 ?flag:parle_lune ?!flag:essai_lune | « Demande-lui. À elle. » | Tu montres la Lune, par la vitre. Platine la regarde comme s'il la voyait pour la première fois. | |
+* fin_12 rus10 ?flag:copro,flag:zep_actions | « En tant que copropriétaire, je m'oppose. » | Tu brandis le règlement de copropriété. Platine pâlit. | |
+* fin_13 coe10 ?flag:platine_emu ?!flag:essai_main | « Laisse-toi dépenser. » | Tu poses ta main sur la sienne, sur le bouton rouge. | |
+* fin_14 coe10 ?flag:reve_ouvert ?!comp:plumard | « Endors-toi. Elle t'attend dans le rêve. » | Tu sors de ta poche un fond de bocal : un reste de sommeil de Lune, gardé depuis les Songes. | |
+* fin_15 pan10 ?comp:rocambole | Faire un signe à Rocambole | Rocambole sourit d'un sourire immense, et sort un coupe-câble de sous son chapeau. | |
+* fin_16 coe10 ?comp:echo ?flag:echo_parle | Laisser parler Écho | Écho s'avance. Elle vibre, minuscule, dans le grand bureau doré. | |
+* fin_17 coe10 | Proposer de prendre sa place | Tu le dis sans réfléchir. Platine te regarde, et pour la première fois, il a peur pour quelqu'un. | |
+* fin_19 pan10 ?!flag:essai_casse | Tout casser | Tu attrapes le bouton rouge, le bureau de marbre, le câble, n'importe quoi. | | equ+1 comp:pli=>+flag:pli_part_fin comp:pli=>-comp:pli |
+* fin_21 coe10 ?equ<30 | Regarder la mer, en bas, et comprendre | Tu regardes la Terre. Tu comprends avant que personne ne le dise. | |
+* fin_22 rus10 | Accepter le poste de concierge | Platine pousse un contrat vers toi, doucement, comme on tend un mouchoir. | |
+
+@fin_02
+« La vente est nulle. » Tu poses tout sur le bureau.
+?flag:clause_affection,flag:affection La clause d'affection du contrat d'orbite.
+?flag:signature_lente La signature du greffier, qui pousse encore.
+?flag:lettre_tamponnee La réclamation de la Lune, tamponnée « Reçu ».
+?flag:lettre_lune ?!flag:lettre_tamponnee La lettre de la Lune, qui dit qu'elle ne souhaite pas partir.
+?flag:contrat_livraison Le contrat de livraison, et son défaut de conformité.
+?flag:kramm_refuse L'inventaire que Krâmm a refusé de signer.
+?flag:taxe_orbite Le registre des cessions, et sa taxe d'orbite.
+Platine regarde chaque pièce. Il les aligne, au millimètre, comme un poète range ses brouillons.
+« C'est un vice de forme. Le plus beau que j'aie jamais vu. » Il te regarde. « Mais un vice de forme, ça se plaide. Devant un tribunal. Ça peut durer longtemps. Très longtemps. »
+* fin_03 rus12 | Exiger l'annulation immédiate, sur place | Tu exiges. Tu cites les articles. Tu cites la clause d'affection. Platine écoute, et lentement, il hoche la tête. | Tu exiges, mais ta voix tremble. Platine hésite. Il réfléchit encore. | rus+1 |
+* end_09 rus10 ?flag:dossier | Accepter d'aller devant le tribunal | « Très bien. Un procès. » Platine sourit, presque soulagé. « J'adore les procès. » | |
+
+@fin_03
+?flag:penelope_refuse Platine prend le cadre de l'acte de vente, avec le tampon rouge de Pénélope en travers du verre. Il le regarde une dernière fois.
+?!flag:penelope_refuse Platine prend le cadre de l'acte de vente. Il le regarde une dernière fois. « Mon plus beau contrat. Avec un vice de forme. » Il soupire. « Un poème avec une faute de rime ne peut pas être publié. »
+Il appuie sur le bouton rouge. Les moteurs s'arrêtent.
+* end_01 rus10 ?equ>=30 ?flag:contrat_vice | Le regarder déchirer l'acte | Il le déchire. Lentement. En deux, puis en quatre. Les morceaux tombent sur le marbre comme des feuilles d'automne. | |
+* end_10 coe10 ?equ<30 | Regarder la Terre, en bas | Les moteurs se sont arrêtés. Mais en bas, la Terre continue de basculer. | |
+* end_09 rus10 ?!flag:contrat_vice | Constater qu'il manque une pièce au dossier | Il manque une pièce. Platine le voit. Il rallume les moteurs, en s'excusant. « Il faudra plaider. » | |
+
+@fin_04
+Sur le bureau, ce que la Terre a donné. Ça ne fait pas cinquante-huit milliards. Ça ne fait rien du tout, sur un marché.
+?flag:boite_biscuits Platine prend un bouton dans la boîte à biscuits. Il le regarde. « Qui a donné ça ? » « Une vieille Horlogère de Tamponville. Son ressort va très lentement. Elle a donné la première. » Il repose le bouton. Ses mains tremblent.
+?!flag:boite_biscuits ?flag:souscription,flag:cagnotte Platine prend un bouton. Il le regarde. « Qui a donné ça ? » « Quelqu'un, en bas. Tout le monde, en bas. » Il repose le bouton. Ses mains tremblent.
+?!flag:souscription ?!flag:cagnotte Platine prend une perle. Il la regarde. « Qui a donné ça ? » « Des huîtres. Elles l'avaient promise à la Lune. » Il repose la perle. Ses mains tremblent.
+* fin_05 coe12 | « Ça ne vaut rien. C'est pour ça que ça vaut tout. » | Platine ferme les yeux. Il répète la phrase. Il la répète comme un vers. | Ta phrase sort mal. Il la comprend quand même. | coe+1 |
+* fin_05 rus11 ?comp:penelope | Demander à Pénélope de préparer l'acte de rachat | Pénélope sort un formulaire de son chignon. Elle l'a déjà rempli. Elle l'a rempli il y a trois jours. « Au cas où. » | | +flag:rachat_penelope |
+
+@fin_05
+?flag:rachat_penelope Platine regarde l'acte de rachat de Pénélope, rempli à la main, sans une rature.
+?!flag:rachat_penelope Platine sort lui-même un formulaire de son tiroir. « Un acte de rachat. Je l'avais fait imprimer pour une autre planète. Elle n'a jamais été rachetée. »
+?flag:stylo_or Il cherche son stylo en or. C'est toi qui l'as. Tu le lui rends. Il hésite.
+?!flag:stylo_or Il prend son stylo en or. Il hésite. « Si je signe, je vends la Lune pour des boutons. Je serai la risée de toute la galaxie. Le promoteur qui a revendu un satellite pour une boîte à biscuits. » Il sourit, lentement. « Ça fera une très belle histoire. »
+* end_02 coe10 ?equ>=30 ?comp:penelope | Le regarder signer | Il signe. Sa signature est belle, élégante, parfaitement inutile. Pénélope tamponne : « APPROUVÉ ». | |
+* end_02 coe10 ?equ>=30 ?!comp:penelope | Le regarder signer | Il signe. Sa signature est belle, élégante, parfaitement inutile. Il tamponne lui-même, de travers, en s'excusant auprès du tampon. | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Il signe. Mais en bas, la Terre a déjà trop basculé. | |
+
+@fin_06
+Tu brandis la petite pierre, le signal. Tu la serres. Elle vibre. En bas, très loin, sous la Terre, douze géants la sentent vibrer.
+« Que faites-vous ? » demande Platine.
+« Je donne le signal. »
+Et sous la Terre, l'Assemblée des Gravitaires se lève. Pour la première fois depuis la formation des continents. Toute la planète tremble.
+* fin_07 pan12 | Serrer la pierre de toutes tes forces | La pierre chauffe. En bas, tous les Gravitaires du monde poussent en même temps. La Terre bouge. | La pierre glisse. Tu la rattrapes. Le signal est parti quand même, un peu de travers. | pan+1 | equ-3
+
+@fin_07
+La Terre marche. Lentement, lourdement, comme une très vieille dame qui se lève de son fauteuil. Elle quitte son orbite d'un cheveu. Puis d'un autre. Elle suit la Lune.
+Par la baie vitrée, Platine regarde, la bouche ouverte. « Une planète qui bouge ? Une planète qui suit son satellite ? Ce n'est pas dans le contrat ! »
+?flag:marees_prevenues En bas, la mer s'est retirée doucement, prévenue. Elle suit la Terre sans déborder, comme une danseuse qui connaît le pas.
+?!flag:marees_prevenues En bas, la mer n'a pas été prévenue. Elle se soulève d'un coup, affolée, et déborde sur les continents.
+* end_03 coe10 ?equ>=30 ?flag:marees_prevenues | Regarder la Terre rejoindre la Lune | La Terre avance. La Lune hésite. Puis elle se tourne vers elle. | |
+* end_11 pan10 ?!flag:marees_prevenues | Regarder la mer déborder | La mer se soulève. L'Axe craque. | |
+* end_11 pan10 ?equ<30 | Regarder l'Axe craquer | La Terre bouge, mais elle est trop déséquilibrée. L'Axe craque. | |
+
+@fin_08
+Dr Quartz pose ses plans sur le bureau de marbre. « Monsieur Platine. Je vous propose une affaire. Vous voulez une Lune ? Je vais vous en fabriquer une. En cristal. Toute neuve. Avec un cœur qui vibre. Vous pourrez y construire vos piscines, vos golfs, vos tours. Et vous nous rendez la nôtre. »
+Platine regarde les plans. Il a les yeux qui brillent. « Une Lune neuve ? Sans vice de forme ? Sans locataires ? Sans... sentiments ? »
+* fin_09 rus12 ?flag:plans_lune | Lui montrer les mesures du cœur | Dr Quartz déroule les mesures. La fréquence, la résonance, la structure. Platine les lit. Il est fasciné. | Dr Quartz se trompe de feuille. Elle montre sa recette de thé à quatre cents degrés. Elle corrige. Il est fasciné quand même. | |
+* fin_01 coe10 ?!flag:plans_lune | Comprendre qu'il manque les plans | Dr Quartz se tourne vers toi. « Je n'ai pas les plans. Je les ai laissés dans la géode. Statistiquement, c'était prévisible. » | | +flag:essai_quartz |
+
+@fin_09
+Platine pose la main sur les plans. « Une Lune de cristal. Neuve. Qui ne pleurerait pas, la nuit. » Il réfléchit longtemps. « Vous savez, j'ai toujours voulu construire quelque chose de beau. Pas l'acheter. Le construire. »
+Il appuie sur le bouton rouge. Les moteurs s'arrêtent. « Docteur Quartz, vous êtes engagée. »
+* end_04 coe10 ?equ>=30 | Regarder Dr Quartz rougir en arc-en-ciel | Dr Quartz s'illumine de toutes ses facettes. « Engagée ! Moi ! Personne ne m'a jamais engagée ! » | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Les moteurs s'arrêtent. Mais la Terre, en bas, a déjà trop basculé. | |
+
+@fin_10
+« Demande-lui. À elle. »
+Platine regarde la Lune par la baie vitrée. « Lui demander ? Mais comment ? » Tu ouvres la baie vitrée. Le vide n'entre pas : la poussière de Lune flotte doucement dans le bureau, comme une respiration. Et la voix de la Lune, minuscule, emplit la pièce.
+« Bonjour. »
+Platine recule d'un pas. Il n'a jamais entendu une chose qu'il possède lui dire bonjour.
+* fin_11 coe12 | Laisser la Lune parler | Tu te tais. La Lune parle. Platine écoute. | |
+
+@fin_11
+« Je ne veux pas partir », dit la Lune. « Je tourne autour d'eux parce que je les aime. Je ne demande rien d'autre. » Elle se tait. « Mais je ne veux pas non plus qu'on me retienne de force. Ni toi, ni eux. Je veux choisir. »
+Platine tombe assis dans son fauteuil. « Choisir ? » Il la regarde. « Je ne savais pas que vous pouviez choisir. »
+« Personne ne me l'avait jamais demandé. »
+* end_05 coe11 ?equ>=30 ?flag:lune_consent | Lui dire qu'elle est libre | « Tu es libre. » Tu le dis. Platine le répète, tout bas. « Vous êtes libre. » | |
+* fin_01 coe10 ?!flag:lune_consent | Comprendre qu'elle n'a pas encore décidé | Elle hésite. « Je ne sais pas encore. Personne ne m'a jamais aidée à savoir. » Il faudra trouver un autre chemin. | | +flag:essai_lune |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Elle veut rester. Mais en bas, la Terre a trop basculé. | |
+
+@fin_12
+Tu brandis le règlement de copropriété. « Article 3 : unanimité. Article 4 : un seul copropriétaire peut bloquer toute décision. Je bloque. Je bloque le départ. Je bloque les piscines. Je bloque les golfs. Je bloque tout. »
+Platine se prend la tête dans les mains. « Un conseil syndical. Vous m'avez fait un conseil syndical. » Il appuie sur le bouton rouge. Les moteurs s'arrêtent. Pas par bonté. Par procédure.
+* end_06 rus10 ?equ>=30 | Convoquer la première assemblée générale | Tu convoques. La convocation est tamponnée dans la minute, avec le tampon de Platine lui-même, qu'il te tend en soupirant. Le départ est suspendu. | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | La procédure gagne. Mais en bas, la Terre a déjà perdu. | |
+
+@fin_13
+Ta main sur la sienne, sur le bouton rouge. Platine ne bouge pas. Sa main d'or est froide, puis tiède. « Me laisser dépenser », répète-t-il. « Pour quelque chose qui en vaut la peine. »
+Il te regarde. Il pleure : des feuilles d'or qui se détachent et tombent comme une pluie d'automne. « J'ai acheté la Lune parce que j'étais jaloux. Parce qu'elle avait quelqu'un. Moi, je n'avais personne. »
+* end_07 coe12 ?equ>=30 ?flag:platine_faille | « Tu as quelqu'un, maintenant. » | Il te regarde. Il comprend. Il appuie sur le bouton. Les moteurs s'arrêtent. | |
+* fin_01 coe10 ?!flag:platine_faille | Chercher les bons mots, sans les trouver | Tu ne sais pas où il est fragile, au juste. Il le sent. Il retire doucement sa main. « Pas encore. » | | +flag:essai_main |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Il arrête les moteurs. Mais en bas, la Terre a trop basculé. | |
+
+@fin_14
+Le reste de sommeil de Lune, au fond de son bocal, dans ta main. Tu le tends à Platine. « Endors-toi. Elle t'attend. »
+Il hésite. « Je dors mal. Je fais toujours le même cauchemar. »
+« Pas cette nuit. »
+Il avale le sommeil. Il s'endort, dans son fauteuil, la main sur le bouton rouge. Et dans le rêve, la porte que quelqu'un a laissée ouverte le mène tout droit à la maison aux mille fenêtres.
+* end_08 coe11 ?equ>=30 | Le regarder dormir | Il sourit en dormant. Puis toute la Terre, en bas, s'endort avec lui. | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Il dort. Mais en bas, la Terre a trop basculé pour rêver. | |
+
+@fin_15
+Rocambole sort un coupe-câble de sous son chapeau. Un coupe-câble immense, rouillé, magnifique. « Je l'ai volé à un astéroïde. Il ne s'en sert plus. »
+Platine se lève. « Que faites-vous ? »
+« Ce que je fais de mieux, mon ami. Je vole. » Il sort par la baie vitrée, flotte jusqu'au câble, et le coupe.
+* end_13 pan12 | Le suivre | Tu le suis. Le câble se rompt. La Lune est libre. Et le Pied-de-Nez attend, juste à côté, avec un crochet tout neuf. | Tu le suis, en t'emmêlant dans le câble. Il te dégage d'une main. | |
+
+@fin_16
+Écho s'avance au milieu du bureau. Elle tremble. Tout le monde la regarde. Platine se penche, curieux. « Qu'est-ce que c'est ? »
+Écho ouvre sa bouche de son. Elle ne répète rien. Elle dit son mot, celui qu'elle a trouvé sur la Lune.
+« ...reste. »
+Puis elle le dit plus fort. Et plus fort encore. Et dans le grand bureau doré, et dans le Promontoire tout entier, et dans le vide, et jusqu'à la Terre, le mot résonne.
+* end_14 coe12 ?equ>=30 | Laisser le mot résonner | Le mot ne s'arrête plus. Il résonne partout. | |
+* end_10 coe10 ?equ<30 | Regarder la Terre | Le mot résonne. Mais en bas, la Terre a trop basculé pour l'entendre. | |
+
+@fin_17
+« Si elle reste, il te faut une Lune. Prends-moi. »
+Platine te regarde. « Vous ? » « Moi. Je deviendrai ta Lune. Je tournerai autour d'Aldébaran. Tu pourras y construire tes piscines. Et elle, elle reste. »
+Il recule. « On ne peut pas devenir une Lune. »
+?flag:prophetie Tu te souviens de la Faille : « Je vois quelqu'un qui devient blanc et rond. »
+* fin_20 coe12 | « Si. On peut. Il suffit de le vouloir assez fort. » | Tu le veux. Tu le veux de toutes tes forces. Et quelque chose, en toi, commence à blanchir. | Tu le veux, mais ta voix tremble. Ça commence quand même. | |
+* fin_01 coe10 | Hésiter, et revenir en arrière | Tu n'es pas prêt·e. Personne ne l'est. Platine hoche la tête, soulagé. « Cherchez autre chose. Il reste quelques secondes. » | |
+
+@fin_19
+Tu attrapes le bouton rouge et tu l'arraches. Tu frappes le bureau de marbre. Tu cours vers la baie vitrée, vers le câble. Platine crie. Les alarmes hurlent. Les moteurs s'emballent.
+* end_11 pan12 ?equ<30 | Arracher le câble à mains nues | Tu tires. Le câble se rompt. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
+* fin_01 coe11 ?equ>=30 | Te reprendre au dernier moment | Tu t'arrêtes. Tu respires. Platine te regarde, choqué. « Il reste dix secondes. Faites autre chose. S'il vous plaît. » | Tu t'arrêtes, essoufflé·e. Il reste dix secondes. | +flag:essai_casse | +flag:essai_casse
+* end_11 pan11 ?equ>=30 | Tout casser quand même | Tu tires de toutes tes forces. Le câble se rompt. Et tout se rompt avec lui. | |
+
+@fin_20
+Tu blanchis. Tu deviens rond·e. Tu deviens léger·e, puis lumineux·se. Tu sens ton corps se transformer en poussière, en cratères, en lumière froide et douce. Ça ne fait pas mal. Ça fait comme une marée qui monte.
+?comp:bartho Bartholomé hurle ton nom. Puis il se tait. Il comprend.
+?comp:melusine Tante Mélusine sanglote si fort que tout le Promontoire tremble.
+?comp:brume Brume-Lucie t'enveloppe une dernière fois. « Je n'aime pas les fins. Celle-là, je la... enfin. »
+* end_12 coe10 | Te laisser devenir une Lune | Tu te laisses faire. Tu deviens une Lune. | |
+
+@fin_21
+Par la baie vitrée, la Terre. Elle penche beaucoup trop. Les mers ont trop débordé d'un côté, trop reculé de l'autre. Les forêts se sont trop tordues. L'Axe a trop craqué. Tu as fait de ton mieux. Ça n'a pas suffi. Le monde était trop lourd pour être porté par une seule personne, même avec des amis, même avec des promesses.
+Platine regarde aussi. Il pose une main sur ton épaule. « Je suis désolé. Je suis sincèrement désolé. »
+* end_10 coe10 | Regarder la mer, en bas | Tu regardes. Tu ne détournes pas les yeux. C'est tout ce que tu peux encore faire. | |
+
+@fin_22
+?!flag:offre_concierge Platine a glissé un contrat vers toi : « Concierge en chef de Lune-sur-Mer. Logé·e, nourri·e, avec vue sur votre planète. »
+?flag:stylo_or Tu sors de ta poche le stylo en or. L'acte de concierge en chef attend sur le bureau de marbre.
+?!flag:stylo_or Platine te tend son stylo en or. L'acte de concierge en chef attend sur le bureau de marbre. Platine attend, sans te presser. « Vous serez avec elle. Pour toujours. Vous la verrez tous les jours. Ce n'est pas rien. »
+Tu regardes la Lune par la vitre. Tu regardes la Terre. Tu es fatigué·e. Tellement fatigué·e.
+* end_15 rus10 | Signer | Tu signes. Ta signature est petite, penchée, comme une phrase qui renonce. | |
+* fin_01 coe11 | Poser le stylo | Tu poses le stylo. Platine hoche la tête. « Je comprends. Il reste quelques secondes. » | |

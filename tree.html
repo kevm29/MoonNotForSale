@@ -1,0 +1,278 @@
+<title>Carte des embranchements</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Outil de relecture : carte à gauche (deux colonnes : prologues, carrefour, régions à gauche ; acte III → fins), panneau d'inspection à droite. */
+:root{
+  --bg:#f3f1ec; --panel:#ffffff; --ink:#1d2236; --ink-2:#5b6078; --line:#d9d6cc; --accent:#3d4f9c; --warn:#b4532f; --ok:#2f7d6d;
+  --f-titre:"Gloock", Georgia, serif; --f-texte:"Source Serif 4", Georgia, serif; --f-data:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#151a2c; --panel:#1d2440; --ink:#ece7da; --ink-2:#a3a8c3; --line:#343d66; --accent:#f1dfa0; --warn:#ef8a72; --ok:#79c7bb; color-scheme:dark } }
+:root[data-theme="dark"]{ --bg:#151a2c; --panel:#1d2440; --ink:#ece7da; --ink-2:#a3a8c3; --line:#343d66; --accent:#f1dfa0; --warn:#ef8a72; --ok:#79c7bb; color-scheme:dark }
+*{box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-texte);font-size:15px;margin:0;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.app{display:grid;grid-template-rows:auto auto minmax(0,1fr);height:100%;gap:10px;padding-block:12px}
+header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:baseline;justify-content:space-between}
+h1{font-family:var(--f-titre);font-weight:400;font-size:28px;margin:0}
+h2{font-family:var(--f-titre);font-weight:400;font-size:21px;margin:0;text-wrap:balance}
+.lede{color:var(--ink-2);font-size:14px;margin:0}
+.kpis{display:flex;flex-wrap:wrap;gap:18px;font-family:var(--f-data);font-size:12px;color:var(--ink-2)}
+.kpis b{display:block;font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar label{font-family:var(--f-data);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+select,input[type=search]{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:6px 8px;font-size:13px;min-width:0}
+input[type=search]{width:220px;max-width:100%}
+.btn{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:6px 10px;cursor:pointer;font-family:var(--f-data);font-size:12px}
+.btn:hover,.btn[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 440px;gap:12px;min-height:0}
+#cy{background:var(--panel);border:1px solid var(--line);border-radius:6px;min-height:420px;position:relative}
+aside{background:var(--panel);border:1px solid var(--line);border-radius:6px;display:grid;grid-template-rows:auto minmax(0,1fr);min-height:0}
+.tabs{display:flex;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs button{background:none;border:0;border-bottom:2px solid transparent;padding:9px 12px;cursor:pointer;font-family:var(--f-data);font-size:12px;color:var(--ink-2);white-space:nowrap}
+.tabs button[aria-selected=true]{color:var(--ink);border-bottom-color:var(--accent)}
+.pane{overflow:auto;padding:14px;display:grid;gap:12px;align-content:start}
+.mono{font-family:var(--f-data);font-size:12px}
+.muted{color:var(--ink-2)}
+.cond{font-family:var(--f-data);font-size:11px;color:var(--warn)}
+.fxs{font-family:var(--f-data);font-size:11px;color:var(--ok)}
+.txt p{margin:0 0 .6em}
+.txt .c{font-family:var(--f-data);font-size:10px;color:var(--warn);display:block}
+.ch{border-top:1px solid var(--line);padding-top:8px;display:grid;gap:3px}
+a.nid,button.nid{font-family:var(--f-data);font-size:12px;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{text-align:left;padding:5px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-data);font-size:11px;font-weight:600;color:var(--ink-2);letter-spacing:.04em}
+td.n{font-family:var(--f-data);font-variant-numeric:tabular-nums;text-align:right}
+.tblwrap{overflow-x:auto}
+.legend{display:flex;flex-wrap:wrap;gap:6px 12px;font-family:var(--f-data);font-size:11px;color:var(--ink-2)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:-1px}
+.pill{font-family:var(--f-data);font-size:10px;padding:1px 6px;border-radius:10px;border:1px solid var(--line)}
+.pill.w{color:var(--warn);border-color:var(--warn)}
+.pill.o{color:var(--ok);border-color:var(--ok)}
+.meter{height:6px;background:var(--line);border-radius:3px;overflow:hidden;min-width:60px}
+.meter span{display:block;height:100%;background:var(--accent)}
+@media (max-width:900px){ .main{grid-template-columns:1fr;grid-template-rows:60vh auto} .app{height:auto} aside{max-height:none} }
+</style>
+
+<div class="app">
+  <header>
+    <div>
+      <h1>Moon <s>not</s> for Sale · carte des embranchements</h1>
+      <p class="lede">Chaque point est un nœud à choix. Les traits pointillés sont des choix conditionnels (compagnon, souvenir ou personnage). Clique un nœud pour lire son texte, ses choix et d'où l'on y arrive.</p>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </header>
+  <div class="bar">
+    <label for="fPc">Personnage</label>
+    <select id="fPc"></select>
+    <label for="fSec">Section</label>
+    <select id="fSec"></select>
+    <label for="fQ">Chercher</label>
+    <input type="search" id="fQ" placeholder="id ou mot du texte">
+    <button class="btn" id="bCond" aria-pressed="false">Choix conditionnels seulement</button>
+    <button class="btn" id="bHeat" aria-pressed="false">Fréquentation simulée</button>
+    <button class="btn" id="bFit">Recadrer</button>
+  </div>
+  <div class="main">
+    <div id="cy" role="img" aria-label="Graphe navigable des nœuds de l'histoire"></div>
+    <aside>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-tab="node">Nœud</button>
+        <button role="tab" aria-selected="false" data-tab="pcs">Par personnage</button>
+        <button role="tab" aria-selected="false" data-tab="ends">Fins</button>
+        <button role="tab" aria-selected="false" data-tab="flags">Souvenirs</button>
+        <button role="tab" aria-selected="false" data-tab="comps">Compagnons</button>
+      </div>
+      <div class="pane" id="pane"></div>
+    </aside>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+<script>
+const TITLES=["Colonelle","Colonel","Sœur","Lord","Madame","Monsieur","Sire","Comtesse","Dame","Tante","Dr","Grand-Père","Capitaine","Le"];
+function shortName(n){ return n.split(" ").find(w => !TITLES.includes(w)) || n; }
+const D = /*__DATA__*/null;
+const M = D.meta, N = D.nodes, ORDER = D.order;
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const SEC = {
+  ond:["Prologue · Ondine","#2f86a6"], bas:["Prologue · Basile","#6a8a3a"], pis:["Prologue · Pistil","#8a6bb8"], bri:["Prologue · Brisefer","#9a6a4a"], zep:["Prologue · Zéphyrin","#b8902a"], gri:["Prologue · Grisélidis","#4f9fc9"], pel:["Prologue · Pélagie","#c9a227"], lyc:["Prologue · Barnabé","#7d7f86"],
+  hub:["Carrefour des Espèces","#5b6078"], foi:["Foire aux Rencontres","#c96a3a"], cot:["Côtes Hagardes","#2a9d8f"], for:["Forêt-Réseau","#5c8f3c"], son:["Pays des Songes","#7b6fc4"], pro:["Profondeurs","#8b5e3c"], cap:["Tamponville","#a0712e"], nua:["Hauts-Nuages","#6fa8c9"], com:["Marché des Comètes","#b07cc6"],
+  nui:["La dernière nuit","#3f5a8a"],
+  asc:["Acte III · Ascension","#c0565b"], cha:["Acte III · Chantier lunaire","#b84a76"], neg:["Acte III · Promontoire","#9b3f8f"], fin:["Acte III · Le choix","#6b3fa0"], end:["Fins","#d4a017"]
+};
+const KIND = {"lumineuse":"#2f9e6d","douce-amère":"#c99a2e","ironique":"#4f7fbf","sombre":"#b4423a","sacrifice":"#8a5bb5"};
+const sec = id => id.split("_")[0];
+const incoming = {}; ORDER.forEach(id => incoming[id] = []);
+ORDER.forEach(id => N[id].choices.forEach((c, i) => incoming[c.to] && incoming[c.to].push({from:id, i})));
+const choiceNodes = ORDER.filter(id => !N[id].end);
+const ends = ORDER.filter(id => N[id].end);
+const firstLine = n => (n.lines[0] ? n.lines[0].t : "");
+const visits = D.sim.explore_visits, maxVisit = Math.max(...Object.values(visits));
+
+/* ---------- KPIs ---------- */
+const nChoices = ORDER.reduce((a, id) => a + N[id].choices.length, 0);
+const nCond = ORDER.reduce((a, id) => a + N[id].choices.filter(c => c.if.length).length, 0);
+$("#kpis").innerHTML = [["Nœuds à choix", choiceNodes.length], ["Choix", nChoices], ["Choix conditionnels", nCond], ["Fins", ends.length], ["Personnages", M.playables.length + Object.keys(M.companions).length + M.npcs.length]]
+  .map(([l, v]) => `<div><b>${v}</b>${l}</div>`).join("");
+
+/* ---------- filtres ---------- */
+$("#fPc").innerHTML = `<option value="">Tous</option>` + M.playables.map(p => `<option value="${p.id}">${esc(p.name)}</option>`).join("");
+$("#fSec").innerHTML = `<option value="">Toutes</option>` + Object.entries(SEC).map(([k, v]) => `<option value="${k}">${esc(v[0])}</option>`).join("");
+
+/* ---------- graphe ---------- */
+const css = getComputedStyle(document.documentElement);
+const tok = n => css.getPropertyValue(n).trim();
+const elements = [];
+for (const b of D.bands) elements.push({group:"nodes", data:{id:"band_"+b.sec, label:SEC[b.sec][0], band:1, w:b.w + 60, h:b.h}, position:{x:b.x + b.w/2 + 10, y:b.y + b.h/2}, selectable:false, grabbable:false, classes:"band"});
+for (const id of ORDER){
+  const n = N[id]; const p = D.layout[id];
+  elements.push({group:"nodes", data:{id, label: n.end ? `Fin ${n.end}` : id, col: n.end ? KIND[M.endings[n.end].kind] : SEC[sec(id)][1], end: n.end ? 1 : 0}, position:{x:p.x, y:p.y}, classes: n.end ? "end" : (n.title ? "titled" : "")});
+}
+for (const id of ORDER) N[id].choices.forEach((c, i) => {
+  const comp = c.if.some(x => x.includes("comp:")), cond = c.if.length > 0;
+  elements.push({group:"edges", data:{id:`${id}>${i}`, source:id, target:c.to, cond: cond ? 1 : 0}, classes: (cond ? "cond" : "") + (comp ? " comp" : "")});
+});
+const cy = cytoscape({
+  container: $("#cy"), elements, layout:{name:"preset"}, wheelSensitivity:.25, minZoom:.03, maxZoom:3,
+  style:[
+    {selector:"node", style:{"background-color":"data(col)", width:26, height:26, label:"data(label)", "font-family":"IBM Plex Mono, monospace", "font-size":9, color:tok("--ink-2"), "text-valign":"bottom", "text-margin-y":3, "min-zoomed-font-size":9}},
+    {selector:"node.titled", style:{width:34, height:34, "border-width":2, "border-color":tok("--ink")}},
+    {selector:"node.end", style:{shape:"star", width:48, height:48, "font-size":10, color:tok("--ink"), "font-weight":600}},
+    {selector:"node.band", style:{shape:"round-rectangle", width:"data(w)", height:"data(h)", "background-color":tok("--line"), "background-opacity":.25, "border-width":0, label:"data(label)", "text-valign":"top", "text-halign":"center", "font-size":34, "font-family":"Georgia, serif", "font-style":"italic", color:tok("--ink-2"), "text-margin-y":-6, events:"no", "z-index":0, "min-zoomed-font-size":4}},
+    {selector:"edge", style:{width:1, "line-color":tok("--ink-2"), opacity:.35, "curve-style":"bezier", "target-arrow-shape":"triangle", "target-arrow-color":tok("--ink-2"), "arrow-scale":.5}},
+    {selector:"edge.cond", style:{"line-style":"dashed", "line-color":tok("--warn"), "target-arrow-color":tok("--warn"), opacity:.55}},
+    {selector:".dim", style:{opacity:.06}},
+    {selector:"edge.dim", style:{opacity:.03}},
+    {selector:".hl", style:{opacity:1}},
+    {selector:"edge.hl", style:{width:2.5, opacity:1, "line-color":tok("--accent"), "target-arrow-color":tok("--accent")}},
+    {selector:"node:selected", style:{"border-width":4, "border-color":tok("--accent"), width:40, height:40}},
+    {selector:"node.match", style:{"border-width":4, "border-color":tok("--warn")}}
+  ]
+});
+cy.ready(() => cy.fit(undefined, 30));
+
+let heat = false, condOnly = false;
+function applyFilters(){
+  const pc = $("#fPc").value, s = $("#fSec").value, q = $("#fQ").value.trim().toLowerCase();
+  const reach = pc ? new Set(D.reach[pc]) : null;
+  cy.batch(() => {
+    cy.elements().removeClass("dim match");
+    cy.nodes().not(".band").forEach(n => {
+      const id = n.id(); let keep = true;
+      if (reach && !reach.has(id)) keep = false;
+      if (s && sec(id) !== s) keep = false;
+      if (!keep) n.addClass("dim");
+      if (q && (id.toLowerCase().includes(q) || N[id].lines.some(l => l.t.toLowerCase().includes(q)) || N[id].choices.some(c => c.label.toLowerCase().includes(q)))) n.addClass("match");
+      if (heat && !n.data("end")){ const v = visits[id] || 0; const k = v / maxVisit; n.style({width: 12 + 44*Math.sqrt(k), height: 12 + 44*Math.sqrt(k)}); }
+      else if (!n.hasClass("end") && !n.hasClass("titled")) n.removeStyle("width height");
+      else if (n.hasClass("titled")) n.removeStyle("width height");
+    });
+    cy.edges().forEach(e => { if (e.source().hasClass("dim") || e.target().hasClass("dim") || (condOnly && !e.data("cond"))) e.addClass("dim"); });
+  });
+  if (q){ const m = cy.nodes(".match"); if (m.length) cy.animate({fit:{eles:m, padding:80}, duration:350}); }
+}
+["#fPc","#fSec"].forEach(s => $(s).addEventListener("change", () => { applyFilters(); const pc = $("#fPc").value, sc = $("#fSec").value; const vis = cy.nodes().not(".band").not(".dim"); if ((pc || sc) && vis.length) cy.animate({fit:{eles:vis, padding:40}, duration:350}); if (pc){ tab("pcs"); } }));
+let qt; $("#fQ").addEventListener("input", () => { clearTimeout(qt); qt = setTimeout(applyFilters, 250); });
+$("#bCond").onclick = e => { condOnly = !condOnly; e.target.setAttribute("aria-pressed", condOnly); applyFilters(); };
+$("#bHeat").onclick = e => { heat = !heat; e.target.setAttribute("aria-pressed", heat); applyFilters(); };
+$("#bFit").onclick = () => cy.animate({fit:{padding:30}, duration:300});
+
+/* ---------- panneau ---------- */
+let current = "node", selected = null;
+function tab(t){ current = t; document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === t)); renderPane(); }
+document.querySelectorAll(".tabs button").forEach(b => b.onclick = () => tab(b.dataset.tab));
+function link(id){ return `<button class="nid" data-go="${id}">${id}</button>`; }
+function condText(c){
+  return c.split(",").map(x => {
+    const neg = x.startsWith("!"); x = x.replace(/^!/, "");
+    let t = x;
+    if (x.startsWith("comp:")) t = "avec " + (M.companions[x.slice(5)]?.name || x);
+    else if (x.startsWith("pc:")) t = "si l'on joue " + (M.playables.find(p => p.id === x.slice(3))?.name || x);
+    else if (x.startsWith("flag:")) t = "souvenir « " + x.slice(5) + " »";
+    else t = x.replace("equ", "Équilibre ").replace("regions", "régions visitées ");
+    return (neg ? "sans " : "") + t;
+  }).join(" ou ");
+}
+function nodePane(id){
+  if (!id) return `<p class="muted">Clique un nœud de la carte pour l'inspecter. Utilise les filtres pour isoler un personnage jouable, une section, ou les choix qui dépendent d'un compagnon.</p>
+    <div class="legend">${Object.entries(SEC).map(([k, v]) => `<span><i style="background:${v[1]}"></i>${esc(v[0])}</span>`).join("")}</div>
+    <div class="legend">${Object.entries(KIND).map(([k, v]) => `<span><i style="background:${v}"></i>fin ${k}</span>`).join("")}</div>`;
+  const n = N[id]; const s = sec(id);
+  let h = `<div><div class="mono muted">${id} · ${esc(SEC[s][0])}${n.fx.length ? ` · à l'arrivée : <span class="fxs">${n.fx.join(" ")}</span>` : ""}</div>${n.title ? `<h2>${esc(n.title)}</h2>` : ""}${n.end ? `<h2>Fin ${n.end} · ${esc(M.endings[n.end].title)}</h2><div class="mono muted">${esc(M.endings[n.end].kind)} · ${esc(M.endings[n.end].hint)}</div>` : ""}</div>`;
+  h += `<div class="txt">${n.lines.map(l => `<p>${l.if.length ? `<span class="c">${esc(l.if.map(condText).join(" et "))}</span>` : ""}${esc(l.t)}</p>`).join("")}</div>`;
+  const q = n.quips || []; if (q.length) h += `<div>${q.map(x => `<p><span class="cond">${esc(M.companions[x.c].name)}${x.if.length ? " · si " + esc(x.if.join(" et ")) : ""}</span> ${esc(x.t)}</p>`).join("")}</div>`;
+  if (n.choices.length) h += `<div class="mono muted">CHOIX (${n.choices.length})</div>` + n.choices.map(c => `<div class="ch"><div>${esc(c.label)} → ${link(c.to)}</div>
+      <div class="mono muted">${c.stat === "auto" ? "sans jet" : `jet ${c.stat === "any" ? "meilleure carac." : M.statNames[c.stat]} · difficulté ${c.diff}`}</div>
+      ${c.if.length ? `<div class="cond">Visible ${esc(c.if.map(condText).join(" et "))}</div>` : ""}
+      <div class="fxs">réussite : ${c.okfx.join(" ") || M.defaults.okfx.join(" ") + " (défaut)"} · échec : ${c.kofx.join(" ") || M.defaults.kofx.join(" ") + " (défaut)"}</div></div>`).join("");
+  h += `<div class="mono muted">ON Y ARRIVE DEPUIS (${incoming[id].length})</div><div>${incoming[id].map(x => link(x.from)).join(" · ") || "<span class='muted'>départ</span>"}</div>`;
+  const reachedBy = M.playables.filter(p => D.reach[p.id].includes(id)).map(p => shortName(p.name));
+  h += `<div class="mono muted">ACCESSIBLE POUR : ${reachedBy.join(", ")} · visité ${visits[id] || 0} fois sur ${D.sim.explore_runs * 5} parties simulées</div>`;
+  return h;
+}
+function pcsPane(){
+  const rows = M.playables.map(p => {
+    const reach = new Set(D.reach[p.id]);
+    const own = ORDER.filter(id => sec(id) === p.start.split("_")[0]).length;
+    const total = [...reach].filter(id => !N[id].end).length;
+    const pcOnly = ORDER.filter(id => N[id].lines.some(l => l.if.some(c => c.includes("pc:" + p.id))) || N[id].choices.some(c => c.if.some(x => x.includes("pc:" + p.id)))).length;
+    const sim = D.sim.explore[p.id] || {}; const runs = Object.values(sim).reduce((a, b) => a + b, 0);
+    const endsReached = Object.keys(sim).filter(k => !isNaN(+k)).length;
+    return {p, own, total, pcOnly, endsReached, runs};
+  });
+  return `<h2>Nœuds par personnage jouable</h2><p class="muted">« Prologue » : nœuds propres à son début. « Accessibles » : tous les nœuds à choix qu'il peut atteindre. « Variantes » : nœuds partagés dont le texte ou les choix changent pour lui.</p>
+  <div class="tblwrap"><table><tr><th>Personnage</th><th>Prologue</th><th>Accessibles</th><th>Variantes</th><th>Fins atteintes*</th></tr>
+  ${rows.map(r => `<tr><td>${esc(r.p.name)}<br><span class="mono muted">${esc(r.p.species)} · départ ${link(r.p.start)}</span></td><td class="n">${r.own}</td><td class="n">${r.total}</td><td class="n">${r.pcOnly}</td><td class="n">${r.endsReached}/15</td></tr>`).join("")}</table></div>
+  <p class="mono muted">* sur ${D.sim.explore_runs} parties simulées par personnage, choix au hasard en privilégiant les choix conditionnels.</p>
+  <h2>Répartition des fins par personnage</h2>
+  <div class="tblwrap"><table><tr><th>Fin</th>${M.playables.map(p => `<th>${esc(shortName(p.name))}</th>`).join("")}</tr>
+  ${Object.entries(M.endings).map(([k, e]) => `<tr><td>${k}. ${esc(e.title)}</td>${M.playables.map(p => { const v = (D.sim.explore[p.id] || {})[k] || 0; const pct = Math.round(v / D.sim.explore_runs * 1000) / 10; return `<td class="n">${pct} %</td>`; }).join("")}</tr>`).join("")}</table></div>`;
+}
+function endsPane(){
+  const tot = {}; for (const pc in D.sim.explore) for (const k in D.sim.explore[pc]) tot[k] = (tot[k] || 0) + D.sim.explore[pc][k];
+  const all = Object.values(tot).reduce((a, b) => a + b, 0);
+  return `<h2>Les quinze fins</h2><p class="muted">Chaque fin est gardée par des conditions posées sur les choix qui y mènent (voir l'onglet Nœud). Les fins lumineuses demandent un Équilibre de la Terre d'au moins 30.</p>
+  ${ends.map(id => { const n = N[id], e = M.endings[n.end]; const v = tot[n.end] || 0;
+    const via = incoming[id].map(x => { const c = N[x.from].choices[x.i]; return `${link(x.from)} <span class="cond">${esc(c.if.map(condText).join(" et ") || "sans condition")}</span>`; }).join("<br>");
+    return `<div class="ch"><div><b>${n.end}. ${esc(e.title)}</b> <span class="pill" style="color:${KIND[e.kind]};border-color:${KIND[e.kind]}">${esc(e.kind)}</span> ${link(id)}</div>
+    <div class="muted">${esc(e.hint)}</div><div style="display:flex;gap:8px;align-items:center"><div class="meter" style="flex:1"><span style="width:${Math.round(v / all * 100 * 3)}%"></span></div><span class="mono muted">${Math.round(v / all * 1000) / 10} % des parties simulées</span></div><div class="mono">${via}</div></div>`; }).join("")}`;
+}
+function flagsPane(){
+  const F = D.flags; const keys = Object.keys(F).sort();
+  const issues = keys.filter(k => !F[k].set.length || !F[k].need.length);
+  return `<h2>Souvenirs (drapeaux)</h2><p class="muted">Ce que le joueur a vécu, posé par un choix et relu plus loin pour ouvrir un texte ou un choix. Un souvenir jamais relu sert d'ambiance ; un souvenir exigé mais jamais posé serait une incohérence.</p>
+  <p class="mono">${keys.length} souvenirs · ${keys.filter(k => !F[k].set.length).length} exigés sans être posés · ${keys.filter(k => !F[k].need.length).length} posés sans être relus</p>
+  <div class="tblwrap"><table><tr><th>Souvenir</th><th>Posé dans</th><th>Relu dans</th></tr>
+  ${keys.map(k => `<tr><td class="mono">${esc(k)} ${!F[k].set.length ? `<span class="pill w">jamais posé</span>` : !F[k].need.length ? `<span class="pill">ambiance</span>` : `<span class="pill o">relié</span>`}</td><td>${F[k].set.map(link).join(" ")}</td><td>${F[k].need.map(link).join(" ")}</td></tr>`).join("")}</table></div>`;
+}
+function compsPane(){
+  return `<h2>Compagnons</h2><p class="muted">Où on les recrute, et combien de nœuds réagissent à leur présence (réplique écrite ou choix réservé).</p>
+  ${Object.entries(M.companions).map(([id, c]) => {
+    const rec = ORDER.filter(n => N[n].choices.some(ch => ch.okfx.includes("+comp:" + id) || ch.kofx.includes("+comp:" + id)));
+    const gated = ORDER.filter(n => N[n].choices.some(ch => ch.if.some(x => x.includes("comp:" + id))));
+    const lines = ORDER.filter(n => (N[n].quips || []).some(x => x.c === id) || N[n].lines.some(l => l.if.some(x => x.includes("comp:" + id))));
+    return `<div class="ch"><div><b>${esc(c.name)}</b> <span class="mono muted">${esc(c.species)} · +1 en ${M.statNames[c.stat]}</span></div><div class="muted">${esc(c.bio)}</div>
+      <div class="mono">Recrutement : ${rec.map(link).join(" ")}</div><div class="mono">Choix réservés (${gated.length}) : ${gated.map(link).join(" ")}</div><div class="mono">Répliques et variantes (${lines.length}) : ${lines.map(link).join(" ")}</div></div>`; }).join("")}`;
+}
+function renderPane(){
+  const P = $("#pane");
+  P.innerHTML = current === "node" ? nodePane(selected) : current === "pcs" ? pcsPane() : current === "ends" ? endsPane() : current === "flags" ? flagsPane() : compsPane();
+  P.querySelectorAll("[data-go]").forEach(b => b.onclick = () => go(b.dataset.go));
+  P.scrollTop = 0;
+}
+function go(id){
+  selected = id; cy.$(":selected").unselect(); const n = cy.getElementById(id); n.select();
+  cy.elements().removeClass("hl"); n.addClass("hl"); n.connectedEdges().addClass("hl"); n.neighborhood("node").addClass("hl");
+  cy.animate({center:{eles:n}, zoom:Math.max(cy.zoom(), .9), duration:300});
+  tab("node");
+}
+cy.on("tap", "node", e => { if (!e.target.data("band")) go(e.target.id()); });
+cy.on("tap", e => { if (e.target === cy){ cy.elements().removeClass("hl"); } });
+renderPane();
+</script>

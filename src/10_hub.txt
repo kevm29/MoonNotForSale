@@ -1,0 +1,94 @@
+# ================================================================
+# CARREFOUR DES ESPÈCES — point de convergence des cinq prologues
+# ================================================================
+
+@hub_01
+!title: La Grande Panique
+Le Carrefour des Espèces. Une plaine où toutes les routes de la Terre se cognent. On y a monté des tentes, des tribunes, des cuisines, une infirmerie pour les gens qui s'évaporent et un bureau des objets perdus où l'on a déposé, par erreur, trois montagnes.
+Au-dessus de tout, la Lune pend à son crochet comme une lanterne qu'on décroche après la fête.
+?pc:ondine Des Marégraves te reconnaissent : « C'est la fille du phare. Celle qui écrit à la Lune. » Ils se taisent quand tu passes.
+?pc:basile Sur un panneau, quelqu'un a écrit : « RECHERCHÉ : le fonctionnaire qui a signé. » Il n'y a pas de portrait. Personne ne sait à quoi ressemble un lichen en particulier.
+?pc:pistil Personne ne te voit vraiment. Un rêve qui marche en plein jour, ça se confond avec la fatigue des autres.
+?pc:brisefer La foule s'écarte devant tes onze tonnes. Un enfant demande à sa mère si tu es une montagne. Sa mère dit « chut », ce qui veut dire oui.
+?pc:zephyrin Tu baisses les élytres. Ici, tout le monde a perdu quelque chose. Toi, tu as touché une commission dessus.
+?pc:griselidis Ta sacoche est encore pleine. Les gens te tendent des enveloppes par réflexe, pour la Lune, pour leur mère, pour personne. Tu les prends toutes. Une factrice ne refuse pas le courrier, même suspendue.
+?pc:pelagie Nous bourdonnons au-dessus de la foule, en formation serrée. Quelqu'un crie « Une sage-femme ! » et nous nous retournons toutes. Ce n'était qu'une façon de parler. Nous restons vexées quatre secondes.
+?pc:barnabe Ta queue frétille malgré toi. Un loup-garou dans une foule paniquée, ça se tient droit, ça s'excuse et ça ne mord personne. Tu tiens droit. Tu t'excuses beaucoup.
+?comp:zouzou Zouzou fait trois fois le tour de la plaine en hurlant « C'EST TROP BIEN ICI » et revient se poser sur ton épaule, essoufflée de lumière.
+* hub_02 pan10 | Te frayer un chemin vers la grande tribune | Tu avances. La foule t'avale, puis te recrache devant la tribune, un peu froissé·e mais au premier rang. | Tu avances à contre-courant d'une procession de Lichenautes. Ça prend une heure. Tu arrives au dernier rang. | equ+2 |
+* hub_03 rus10 | Aller acheter un beignet et écouter les rumeurs | Le marchand de beignets est le centre du monde. Tout le monde y passe, tout le monde y parle, tout le monde y laisse des miettes de vérité. | Le beignet est fourré à l'inquiétude. Ça a un goût de rien, avec du sucre. | rus+1 |
+* hub_04 coe10 | Errer parmi les peuples pour sentir l'humeur | Tu erres. Tu vois des gens qui se tiennent la main sans être de la même espèce. Ça n'était jamais arrivé avant. | Tu erres et tu te perds entre deux tentes de Gravitaires qui ronflent. | mor+1 |
+
+@hub_02
+Sur la grande tribune, on a posé un coussin de velours, et sur le coussin, le Président de la Terre : un galet gris clair, élu il y a huit cents ans parce qu'il n'a jamais rien dit de faux. Il ne dit toujours rien. La foule l'écoute avec ferveur.
+?pc:basile ?flag:galet_archives Le coussin est d'abord vide : le Président est encore dans ta mousse. Tu montes le reposer. L'interprète te remercie d'un regard qui en dit long sur la sécurité présidentielle.
+?pc:basile ?!flag:galet_archives Tu reconnais le Président. Lui aussi, peut-être : il devient un peu plus gris quand tu passes.
+À côté de lui, un interprète en sueur traduit son silence : « Le Président... euh... le Président est préoccupé. Le Président est très gris aujourd'hui. »
+* hub_05 coe11 | Écouter le silence du Président avec respect | Tu écoutes. C'est un bon silence. Plein, rond, honnête. Le seul discours de la journée qui ne mente pas. | Tu écoutes, mais ton voisin commente le silence à voix haute. Ça gâche tout. | mor+1 |
+* hub_05 pan11 | Crier : « Et qu'est-ce qu'on fait, alors ? » | Mille têtes se tournent vers toi. Puis vers le galet. L'interprète transpire : « Le Président... propose qu'on fasse quelque chose. » Applaudissements frénétiques. | Personne ne t'entend. Tu cries plus fort. Un Gravitaire te tape gentiment sur l'épaule pour que tu te calmes. | pan+1 equ+2 |
+
+@hub_03
+Les rumeurs, au stand de beignets :
+« Il paraît que les mers vont s'arrêter. » « Il paraît que les rêves vont s'éteindre. » « Il paraît que les Horlogers sont tous bloqués à mardi. » « Il paraît que c'est un fonctionnaire qui a signé. » « Il paraît que le promoteur écrit des poèmes. » « Il paraît qu'on peut encore la rattraper. »
+La dernière rumeur fait le tour de la plaine trois fois.
+* hub_05 rus11 | Trier les rumeurs vraies des fausses | Tu tries. À ta grande surprise, elles sont presque toutes vraies. C'est la pire nouvelle de la journée. | Tu tries mal. Tu repars persuadé·e que la Lune est en fromage. | rus+1 +flag:rumeurs |
+* hub_05 coe10 | Payer un beignet à quelqu'un qui pleure | Tu paies un beignet à une petite Horlogère figée à moitié. Elle le mange d'une seule main. Elle te dit merci à moitié. | Elle n'a plus faim. Tu manges le beignet pour elle. C'est triste et sucré. | mor+1 equ+2 |
+
+@hub_04
+Les peuples de la Terre. Ils ne se sont jamais vraiment parlé. Les Marégraves trouvaient les Gravitaires trop lourds, les Lichenautes trouvaient les Horlogers trop pressés, les Somnambules n'existaient pour personne. Il a fallu qu'on vende la Lune pour qu'ils s'assoient autour du même feu.
+Une vieille Gravitaire tend une couverture à un Marégrave qui gèle. Un Horloger donne l'heure, fausse, à un lichen qui le remercie quand même.
+* hub_05 coe11 | T'asseoir à un feu et partager ce que tu sais | Tu racontes ton histoire. Les autres racontent la leur. Tout se recoupe. Tout pointe vers le même crochet, là-haut. | Tu racontes ton histoire, mais un Échotier de passage la répète en boucle et personne n'entend la fin. | coe+1 |
+* hub_05 rus10 | Compter les espèces présentes | Tu comptes douze peuples, quarante dialectes et un seul sujet de conversation. | Tu comptes deux fois les Lichenautes : ils n'avaient pas bougé. | |
+
+@hub_05
+On sonne une cloche. Le Conseil des Espèces se réunit pour la première fois de l'histoire de la Terre. Il a duré quatre minutes. Il a décidé une seule chose : envoyer des volontaires dans les régions du monde qui souffrent le plus, pour trouver de l'aide, des alliés, des idées. Ensuite, il faudra monter là-haut.
+Le Président galet est posé au centre de la carte. Il ne dit rien. C'est un accord.
+* cot_01 ?!flag:vis_cot | Partir vers les Côtes Hagardes, où la mer devient folle | Tu choisis la mer. Elle a besoin de quelqu'un. |  |
+* for_01 ?!flag:vis_for | Partir vers la Forêt-Réseau, où les arbres ne savent plus pousser | Tu choisis la forêt. Elle a de l'avance sur toi : elle sait depuis longtemps. |  |
+* son_01 ?!flag:vis_son | Partir vers le Pays des Songes, où les rêves s'éteignent | Tu choisis le sommeil. C'est le seul voyage qui se fait les yeux fermés. |  |
+* pro_01 ?!flag:vis_pro | Descendre dans les Profondeurs, où l'Axe de la Terre penche | Tu choisis le dessous. On n'y voit rien, mais on y sent tout. |  |
+* cap_01 ?!flag:vis_cap | Aller à Tamponville, la Capitale, où tout a été signé | Tu choisis la Capitale. Si le mal a été tamponné là-bas, il peut peut-être être détamponné. |  |
+* nua_01 ?!flag:vis_nua | Monter aux Hauts-Nuages, où le ciel se vide de sa pluie | Tu choisis le ciel. C'est un peu de la triche : c'est sur le chemin de la Lune. |  |
+* com_01 ?!flag:vis_com | Aller au Marché des Comètes, où l'on vend les morceaux du ciel | Tu choisis le marché. Là où on vend la Lune en petits morceaux, on doit savoir qui l'a achetée en gros. |  |
+* foi_01 ?!flag:vis_foi | Faire d'abord un tour à la Foire aux Rencontres, sous les tentes | Avant de partir, tu veux voir qui d'autre est venu. On ne sauve pas la Lune avec n'importe qui. |  |
+
+@hub_ret
+!title: Retour au Carrefour
+?regions<2 Tu reviens au Carrefour des Espèces. Les tentes ont doublé.
+?regions>=2 Tu reviens au Carrefour des Espèces pour la deuxième fois. Les tentes ont encore doublé ; certaines sont déjà repliées, prêtes pour une fuite que personne n'ose organiser.
+La Lune a grossi dans le ciel, ou elle s'est rapprochée pour mieux partir. Les gens te regardent revenir comme on regarde quelqu'un qui revient d'un enterrement : avec l'espoir qu'il ait vu quelque chose de beau quand même.
+?flag:perles_chargees Derrière toi, des pêcheurs tirent jusqu'au Carrefour des filets pleins de perles. On leur fait une haie d'honneur.
+?flag:gravitaires_allies Sous tes pieds, le sol frémit de temps en temps. Les Gravitaires de l'Assemblée attendent ton signal.
+?flag:reve_ouvert Des dormeurs, sous les tentes, sourient dans leur sommeil. Ils entendent une voix qu'ils ne connaissent pas encore.
+?comp:quartz Le Docteur Quartz pose une question à chaque passant et note les réponses. Elle est ravie : elle n'a jamais eu autant de données.
+?regions<2 Le Conseil des Espèces te fait signe : il reste du temps pour une autre région. Pas beaucoup.
+?regions>=2 Le Conseil des Espèces ne se réunit plus. Il n'y a plus le temps. Tout le monde regarde vers le haut.
+* foi_01 ?!flag:vis_foi | Passer par la Foire aux Rencontres avant de repartir | La Foire n'a pas fermé. Elle ne ferme jamais : c'est la seule chose du Carrefour qui ait un horaire. |  |
+* hub_06 ?regions<2 coe10 | Raconter ce que tu as vu, puis repartir | Tu racontes. On t'écoute. On te donne une soupe et une carte. Tu repars avec les deux. | Tu racontes mal. On t'écoute quand même. On te donne la soupe tout de suite, et la carte avec un peu de retard. | mor+1 |
+* hub_07 ?regions>=2 pan11 | Regarder la Lune, et comprendre que c'est l'heure | La Lune frémit. Le crochet tire. Les étoiles s'écartent comme pour laisser passer un cortège. C'est maintenant. | Tu regardes la Lune trop longtemps, et elle a l'air de te regarder aussi. Tu baisses les yeux le premier. | pan+1 |
+
+@hub_06
+Le Conseil des Espèces a griffonné sur la carte les régions déjà visitées. Il en reste. On te tend un sac de provisions : trois beignets, une gourde d'eau de Marégrave, un petit rêve de rechange en cas de panne.
+?flag:vis_cot Sur la carte, à côté des Côtes, quelqu'un a écrit : « Fait. Mouillé. »
+?flag:vis_cap Sur la carte, à côté de la Capitale, quelqu'un a écrit : « Fait. En triple exemplaire. »
+?flag:vis_for Sur la carte, à côté de la Forêt, quelqu'un a dessiné un arbre qui sourit.
+?flag:vis_son Sur la carte, à côté du Pays des Songes, quelqu'un a écrit : « Fait. Je crois. »
+?flag:vis_pro Sur la carte, à côté des Profondeurs, quelqu'un a écrit : « Fait. Lourd. »
+?flag:vis_nua Sur la carte, à côté des Hauts-Nuages, quelqu'un a dessiné un parapluie à l'envers.
+?flag:vis_com Sur la carte, à côté du Marché des Comètes, quelqu'un a écrit : « Fait. Trop cher. »
+?regions<1 Sur la carte, aucune région n'est encore barrée. Le Conseil attend que tu en choisisses une, et il fait semblant de ne pas attendre.
+* cot_01 ?!flag:vis_cot | Partir vers les Côtes Hagardes | La mer t'attend. Elle attend tout le monde, en ce moment. |  |
+* for_01 ?!flag:vis_for | Partir vers la Forêt-Réseau | Les arbres te font signe. Ils font signe dans toutes les directions, mais tu le prends pour toi. |  |
+* son_01 ?!flag:vis_son | Partir vers le Pays des Songes | Tu bâilles. C'est déjà un début de voyage. |  |
+* pro_01 ?!flag:vis_pro | Descendre dans les Profondeurs | Le sol gronde sous tes pieds, comme une invitation mal élevée. |  |
+* cap_01 ?!flag:vis_cap | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
+* nua_01 ?!flag:vis_nua | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
+* com_01 ?!flag:vis_com | Aller au Marché des Comètes | Tu suis la file des acheteurs. Ils ont tous des sacs vides et des yeux pleins. |  |
+
+@hub_07
+!title: L'heure de monter
+Au milieu de la nuit, la Lune pousse un cri. Pas un cri qu'on entend : un cri qu'on sent. Toutes les mers du monde se soulèvent d'un coup, tous les dormeurs se réveillent, toutes les horloges sautent une heure. Le crochet a tiré plus fort. La Lune a quitté son orbite d'un cheveu.
+Le Carrefour se tait. Puis quelqu'un dit, très simplement : « Il faut que quelqu'un monte. »
+Tout le monde te regarde.
+* nui_01 pan11 | « J'y vais. » | Tu le dis sans trembler. Tu trembles après, mais personne ne le voit, ou tout le monde fait semblant. | Ta voix tremble. Mais tu l'as dit. Le Carrefour applaudit ta voix qui tremble. | pan+1 mor+1 | mor+1
+* nui_01 coe11 | « On y va. Tous ensemble. » | Un murmure, puis un grondement. Des centaines de volontaires se lèvent. Tu ne seras pas seul·e. | Personne ne se lève. Puis un vieux Lichenaute se lève, lentement. Puis tout le monde. | equ+3 | equ+1

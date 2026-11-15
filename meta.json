@@ -1,0 +1,894 @@
+{
+ "title": "Moon not for Sale",
+ "statNames": {
+  "pan": "Panache",
+  "rus": "Ruse",
+  "coe": "Cœur"
+ },
+ "statHelp": {
+  "pan": "Le courage, la force, l'audace de foncer.",
+  "rus": "L'astuce, le calcul, l'art de contourner.",
+  "coe": "L'empathie, la sincérité, la capacité d'émouvoir."
+ },
+ "gauges": {
+  "equ": {
+   "name": "Équilibre de la Terre",
+   "help": "L'état du monde. Il baisse à chaque étape pendant que la Lune s'éloigne. Sous 30 à la fin, seules les fins sombres restent possibles."
+  },
+  "mor": {
+   "name": "Moral",
+   "help": "Le courage de ton personnage. Il monte quand quelque chose te réconforte ; il baisse sur un échec cuisant (un 1, ou un jet raté de 6 points ou plus), ou quand tu perds quelqu'un. Les petits échecs ne coûtent rien. À 8 ou plus : +1 à tous les dés. À 2 ou moins : −1 à tous les dés. Entre les deux : aucun effet."
+  }
+ },
+ "playables": [
+  {
+   "id": "ondine",
+   "name": "Ondine Salmigondis",
+   "species": "Marégrave",
+   "start": "ond_01",
+   "stats": [
+    2,
+    1,
+    3
+   ],
+   "tagline": "Gardienne de phare faite d'eau de mer, elle écrit à la Lune depuis trente ans.",
+   "bio": "Les Marégraves sont des êtres de marée : leur corps d'eau salée monte et descend avec la Lune. Ondine mesure 2,12 m à marée haute. Mélancolique, sardonique, incapable de se mentir, elle a envoyé 10 950 lettres d'amour à la Lune sans jamais recevoir de réponse.",
+   "debut": "Commence au phare de Grève-Molle, sur la côte, la nuit où la Lune se met à glisser."
+  },
+  {
+   "id": "basile",
+   "name": "Basile Grumeau",
+   "species": "Lichenaute",
+   "start": "bas_01",
+   "stats": [
+    1,
+    3,
+    2
+   ],
+   "tagline": "Greffier lichen qui a tamponné la vente de la Lune en croyant renouveler un lampadaire.",
+   "bio": "Les Lichenautes sont des mousses grises, philosophes et très lentes, reliées par la Toile, le réseau souterrain des racines. Basile, 312 ans, fait une phrase par minute : il passe pour un excité. Méticuleux, rongé par la culpabilité, passif-agressif avec les formulaires. Sa signature de lichen pousse encore sur l'acte de vente.",
+   "debut": "Commence au guichet zéro du Cadastre Céleste, à Tamponville, face au double du formulaire qu'il a signé."
+  },
+  {
+   "id": "pistil",
+   "name": "Pistil",
+   "species": "Somnambule",
+   "start": "pis_01",
+   "stats": [
+    1,
+    1,
+    4
+   ],
+   "tagline": "Petit être de rêve qui n'a jamais vu le monde éveillé.",
+   "bio": "Les Somnambules n'existent que dans les rêves des autres. Pistil ressemble à un pyjama plié avec des yeux et un bonnet à trois étoiles. Il habite une tasse de thé dans le rêve d'un vieux Gravitaire. Candide, sincère, il pose les questions que les grands n'osent pas poser. Sans la lumière de Lune, les rêves s'éteignent, et lui avec.",
+   "debut": "Commence à l'intérieur d'un rêve qui se défait, et devra entrer dans le rêve de la Lune elle-même."
+  },
+  {
+   "id": "brisefer",
+   "name": "Colonelle Agathe Brisefer",
+   "species": "Gravitaire",
+   "start": "bri_01",
+   "stats": [
+    4,
+    0,
+    2
+   ],
+   "tagline": "Géante de granit à la retraite, elle a tenu l'Axe de la Terre pendant trois mille ans.",
+   "bio": "Les Gravitaires sont des géants de pierre qui s'assoient sur l'Axe de la planète pour la garder droite. Agathe Brisefer, onze tonnes de mauvais caractère, phrases courtes, ordres secs. Elle n'a jamais vu le ciel. En secret, elle collectionne des fleurs séchées qu'un inconnu lui envoie depuis cinquante ans.",
+   "debut": "Commence à la maison de retraite « Les Magmas Paisibles », 400 km sous terre, quand sa soupe se met à glisser."
+  },
+  {
+   "id": "zephyrin",
+   "name": "Zéphyrin Clopin",
+   "species": "Horloger",
+   "start": "zep_01",
+   "stats": [
+    2,
+    4,
+    0
+   ],
+   "tagline": "Insecte mécanique et beau parleur : c'est lui qui a négocié la vente.",
+   "bio": "Les Horlogers sont des insectes de laiton qui mesurent le temps par les mois lunaires : sans Lune, leur ressort s'arrête. Zéphyrin, escroc charmant, a touché 2 % de la Lune en commission. Il ment comme il respire, a peur de tout et découvre très tard qu'il a une conscience, et qu'elle grince.",
+   "debut": "Commence à bord du Promontoire, le vaisseau du promoteur, en plein cocktail de célébration de la vente."
+  },
+  {
+   "id": "griselidis",
+   "name": "Grisélidis Cornemuse",
+   "species": "Éolienne",
+   "start": "gri_01",
+   "stats": [
+    2,
+    3,
+    1
+   ],
+   "tagline": "Factrice du Grand Vent Postal, elle porte depuis trois jours une lettre adressée « À la Lune, en mains propres ».",
+   "bio": "Les Éoliens sont des courants d'air qui ont pris un uniforme. Grisélidis siffle quand elle réfléchit, claque les portes quand elle est vexée et n'a jamais rien livré en retard en deux cents ans de service. Têtue, rapide, un peu menteuse quand c'est pour la bonne cause, elle refuse de rendre une lettre à l'expéditeur.",
+   "debut": "Commence dans les Hauts-Nuages, au Centre de tri des Vents, avec une lettre que personne ne sait distribuer."
+  },
+  {
+   "id": "pelagie",
+   "name": "Sœur Pélagie Bourdon",
+   "species": "Abeillère",
+   "start": "pel_01",
+   "stats": [
+    1,
+    2,
+    3
+   ],
+   "tagline": "Sage-femme de toutes les espèces, faite de mille abeilles en robe de religieuse, qui parle d'elle au pluriel.",
+   "bio": "Les Abeillères sont des essaims qui ont décidé d'être une seule personne. Pélagie a mis au monde des Gravitaires, des Marégraves, un volcan et une paire de jumeaux Horlogers. Douce, pratique, impossible à contredire parce qu'elle est mille. Depuis que la Lune s'en va, plus aucun enfant ne veut naître : ils attendent de savoir s'il y aura encore des nuits.",
+   "debut": "Commence à la Maternité des Marées, la nuit où un enfant refuse de naître."
+  },
+  {
+   "id": "barnabe",
+   "name": "Lord Barnabé Frissepoil",
+   "species": "Loup-garou",
+   "start": "lyc_01",
+   "stats": [
+    3,
+    1,
+    2
+   ],
+   "tagline": "Lycanthrope distingué qui perd son loup un peu plus chaque nuit où la Lune s'éloigne.",
+   "bio": "Barnabé a été loup trois nuits par mois pendant deux siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
+   "debut": "Commence au Club des Lycanthropes Distingués, le soir de ce qui devrait être la dernière pleine lune."
+  }
+ ],
+ "companions": {
+  "bartho": {
+   "name": "Bartholomé Vasequeuse",
+   "species": "Marégrave",
+   "stat": "pan",
+   "bio": "Vieux pêcheur cynique qui boit de l'eau douce pour se diluer, et dilué il devient sentimental. Sa femme Perline est partie avec la grande marée il y a vingt ans. Il râle tout le temps. C'est le prix à payer pour sa compagnie.",
+   "ok": [
+    "Bartholomé grogne : « Pas mal. Pour un débutant. »",
+    "Bartholomé : « Ah ! Voilà ! Perline aurait applaudi. Moi, je râle, mais c'est pareil. »",
+    "Bartholomé crache par-dessus son épaule pour porter chance. Ça marche, apparemment."
+   ],
+   "ko": [
+    "Bartholomé : « Je l'avais dit. Je le dis toujours, comme ça j'ai toujours raison. »",
+    "Bartholomé boit une gorgée d'eau douce « pour les urgences sentimentales ».",
+    "Bartholomé : « La mer m'a fait pire. La mer m'a fait bien pire. »"
+   ],
+   "idle": [
+    "Bartholomé regarde le ciel : « Elle me voit, tu crois ? Perline. D'en haut. »",
+    "Bartholomé râle contre le vent, la route, et toi, dans cet ordre.",
+    "Bartholomé fredonne une chanson de marin dont toutes les rimes sont en « -ouille »."
+   ]
+  },
+  "penelope": {
+   "name": "Pénélope Tampon",
+   "species": "Robote d'Aldébaran",
+   "stat": "rus",
+   "bio": "Assistante de direction de Gédéon Platine. Deux tampons à la place des mains (APPROUVÉ à gauche, REFUSÉ à droite, jamais utilisé), un chignon en ressort, une tache d'encre sur le cœur. Elle découvre avec terreur et délice qu'elle peut penser, dire non, et rire (ça fait un bruit de photocopieuse).",
+   "ok": [
+    "Pénélope tamponne l'air de joie : « APPROUVÉ ! »",
+    "Pénélope : « J'ai pris des notes. Je prends toujours des notes. C'était magnifique, page quatre. »",
+    "Pénélope rit, le bruit d'une photocopieuse qui s'enraye de bonheur."
+   ],
+   "ko": [
+    "Pénélope lève sa main droite, hésite : « REFUSÉ ? Non. Pas encore. »",
+    "Pénélope : « Je vais classer cet échec dans Divers. Personne ne regarde jamais dans Divers. »",
+    "Pénélope tamponne nerveusement ton épaule. Tu es approuvé·e, au moins."
+   ],
+   "idle": [
+    "Pénélope s'entraîne à dire non tout bas : « Non. Non merci. Non, Monsieur. »",
+    "Pénélope range tes affaires par ordre alphabétique sans te demander.",
+    "Pénélope : « Est-ce qu'il y a un formulaire pour être heureuse ? Non ? Tant mieux, je crois. »"
+   ]
+  },
+  "melusine": {
+   "name": "Tante Mélusine",
+   "species": "Lunatique",
+   "stat": "coe",
+   "bio": "Grande prêtresse du Temple de la Pleine Lune, immense, enveloppée de châles, trois paires de lunettes. Elle tricote la lumière de Lune depuis mille ans. Elle hurle, sanglote et rit dans la même phrase, en majuscules. Elle a un caractère épouvantable et un cœur immense.",
+   "ok": [
+    "Tante Mélusine éclate en sanglots de joie : « JE L'AVAIS DIT ! ENFIN NON. MAIS JE LE PENSAIS ! »",
+    "Tante Mélusine te pince l'oreille. C'est sa façon d'être fière.",
+    "Tante Mélusine entonne un cantique faux à la gloire de ta réussite."
+   ],
+   "ko": [
+    "Tante Mélusine hurle vers le ciel : « POURQUOI ? » Puis, plus bas : « Bon. On recommence. »",
+    "Tante Mélusine se mouche bruyamment dans une écharpe de lumière.",
+    "Tante Mélusine : « Un échec, enfant, c'est une maille moche. On la garde. Elle est sincère. »"
+   ],
+   "idle": [
+    "Tante Mélusine tricote en marchant. Elle tricote tout le temps. Elle tricoterait en dormant.",
+    "Tante Mélusine : « Je pleure parce que je suis heureuse ET triste ET en colère ! C'est le même liquide ! »",
+    "Tante Mélusine récite la liste de tous les gens qui l'ont déçue depuis le Moyen Âge."
+   ]
+  },
+  "echo": {
+   "name": "Écho",
+   "species": "Échotière",
+   "stat": "pan",
+   "bio": "Créature faite de son, née dans les Grottes des Échos. Elle ne peut que répéter les derniers mots qu'elle entend. Elle a vécu seule si longtemps qu'elle ne répétait plus que « seul ». Drôle malgré elle, touchante, elle rêve en secret de dire un jour un mot qui soit le sien.",
+   "ok": [
+    "Écho répète ton dernier souffle de victoire, ravie : « ... réussi ! réussi ! »",
+    "Écho fait résonner le moment dix fois, pour qu'il dure plus longtemps.",
+    "Écho : « ... bien joué. Bien joué ! » Elle l'a entendu quelque part. Elle le garde pour toi."
+   ],
+   "ko": [
+    "Écho répète le bruit de ta chute, fidèlement, trois fois. Merci, Écho.",
+    "Écho : « ... zut. Zut. Zut. » Elle apprend vite les mauvais mots.",
+    "Écho se tait. C'est rare. C'est sa façon de compatir."
+   ],
+   "idle": [
+    "Écho répète le vent. Puis ton nom. Puis le vent.",
+    "Écho répète un mot de quelqu'un d'autre, très loin. Elle collectionne les voix.",
+    "Écho murmure « pas seul » quand elle croit que personne n'écoute."
+   ]
+  },
+  "quartz": {
+   "name": "Dr Ysolde Quartz",
+   "species": "Cristalline",
+   "stat": "rus",
+   "bio": "Savante de cristal qui vit seule dans une géode depuis neuf cents ans. Physicienne, géologue, astronome, cuisinière amateur. Elle explique tout, très vite, avec une précision admirable, et elle a tort six fois sur dix. Elle a fabriqué trois soleils, deux comètes et un trou noir de poche qui s'est échappé. Rien n'a jamais marché. Elle est formidable.",
+   "ok": [
+    "Dr Quartz : « Exactement comme je l'avais prévu ! Enfin, à quarante pour cent. »",
+    "Dr Quartz note le résultat dans un carnet : « Succès. Inexplicable. Reproduire. »",
+    "Dr Quartz fait des arcs-en-ciel de joie avec ses facettes."
+   ],
+   "ko": [
+    "Dr Quartz : « Statistiquement, c'était prévisible. J'avais juste oublié de le prévoir. »",
+    "Dr Quartz : « Intéressant ! Faux, mais intéressant ! »",
+    "Dr Quartz recalcule tout à voix haute et trouve une erreur. La sienne. Elle est ravie."
+   ],
+   "idle": [
+    "Dr Quartz t'explique pourquoi le ciel est bleu. C'est faux, mais c'est passionnant.",
+    "Dr Quartz sort sa petite Lune de poche et la regarde, comme un enfant regarde une bille.",
+    "Dr Quartz : « Probabilité qu'on s'en sorte : une sur onze. J'adore les petites probabilités. »"
+   ]
+  },
+  "brume": {
+   "name": "Brume-Lucie",
+   "species": "Brumeuse",
+   "stat": "coe",
+   "bio": "Créature de brouillard qui vit à la frontière du rêve et de l'éveil. Poétesse timide, elle parle en demi-vers parce qu'elle a peur d'aller au bout des phrases, et des choses. Quand elle est gênée, elle disparaît. Elle est souvent gênée. Cousine de la Lune, comme toutes les brumes.",
+   "ok": [
+    "Brume-Lucie s'illumine : « C'était... enfin. Tu vois. C'était. »",
+    "Brume-Lucie disparaît de joie, puis réapparaît un peu plus brillante.",
+    "Brume-Lucie : « Je ferai un poème. Je ne le finirai pas. Ce sera le plus beau. »"
+   ],
+   "ko": [
+    "Brume-Lucie t'enveloppe doucement, comme une écharpe fraîche sur une brûlure.",
+    "Brume-Lucie : « Ce n'est pas... enfin. Ce n'est pas la fin. Je n'aime pas les fins. »",
+    "Brume-Lucie disparaît, gênée pour toi. Elle revient quand tu as fini de rougir."
+   ],
+   "idle": [
+    "Brume-Lucie fredonne un air qui s'arrête toujours avant la dernière note.",
+    "Brume-Lucie floute un peu le paysage pour qu'il fasse moins peur.",
+    "Brume-Lucie : « Tu crois qu'elle sait qu'on vient ? Ma cousine. Enfin. La Lune. »"
+   ]
+  },
+  "rocambole": {
+   "name": "Capitaine Rocambole",
+   "species": "Bételgeusien",
+   "stat": "pan",
+   "bio": "Contrebandier de comètes à quatre bras, bleu, moustache faite d'une petite nébuleuse qui tourne. Il a voulu voler la Lune avant le promoteur, mais il a hésité parce qu'elle était trop belle, et il s'est fait prendre. Vantard, lâche par moments, héroïque par accident. Il adore les causes perdues : « Elles paient mal, mais elles finissent bien. Parfois. »",
+   "ok": [
+    "Rocambole : « Ha ! Exactement comme je l'aurais fait ! En moins bien, mais quand même ! »",
+    "Rocambole t'embrasse sur les deux joues avec deux de ses quatre bras.",
+    "Rocambole fait tourner sa moustache-nébuleuse de satisfaction."
+   ],
+   "ko": [
+    "Rocambole : « Une défaite tactique, mon ami. J'en ai eu des centaines. Je suis toujours là. »",
+    "Rocambole tire sur sa pipe vide, pensif : « Même moi, j'aurais raté. Enfin, peut-être. »",
+    "Rocambole chante le dix-septième couplet de sa chanson. Celui où le pirate se brûle les doigts."
+   ],
+   "idle": [
+    "Rocambole raconte la fois où il a volé une nébuleuse. Il l'a rendue. Elle était collante.",
+    "Rocambole salue chaque vache qu'il croise. Il les trouve révolutionnaires.",
+    "Rocambole regarde la Lune longtemps, sans faire de blague. Ça ne lui ressemble pas."
+   ]
+  },
+  "meduses": {
+   "name": "Le Chœur des Méduses",
+   "species": "Méduses (un seul être, mille corps)",
+   "stat": "coe",
+   "bio": "Un millier de méduses lumineuses liées par leurs filaments, qui ne forment qu'une seule personne : très susceptible, toujours d'accord avec elle-même, qui parle en majuscules et chante faux avec une conviction admirable. Une moitié voyage avec toi dans un bocal ; l'autre tient la vague immobile. Elles restent une, même à distance.",
+   "ok": [
+    "Le Chœur chante en majuscules : « BRAVO ! » avec une fausse note sur le « o ».",
+    "Le Chœur s'illumine en mille petits feux d'artifice dans son bocal.",
+    "Le Chœur : « NOUS ÉTIONS D'ACCORD. NOUS SOMMES TOUJOURS D'ACCORD. »"
+   ],
+   "ko": [
+    "Le Chœur : « NOUS NE DIRONS RIEN. » Puis, plus bas : « mais nous le pensons. »",
+    "Le Chœur chante une complainte de consolation, faux, mais avec beaucoup de cœur.",
+    "Le Chœur se vexe pour toi. Il se vexe très bien."
+   ],
+   "idle": [
+    "Le Chœur fredonne pour l'autre moitié de lui-même, restée là-bas à tenir la vague.",
+    "Le Chœur : « NOUS AVONS FAIM. DE PLANCTON ET D'ESPOIR. SURTOUT DE PLANCTON. »",
+    "Le Chœur se dispute avec lui-même sur la direction à prendre, et gagne."
+   ]
+  },
+  "fernand": {
+   "name": "Fernand",
+   "species": "Luciole",
+   "stat": "rus",
+   "bio": "Dernière luciole de la Forêt-Réseau, ancien agent du Bureau des Éclairages Nocturnes, licencié quand l'éclairage public n° 1 (la Lune) a été privatisé. Cynique, aigri, ironique, il tape des réclamations à une vitesse folle sur une minuscule machine à écrire. Sans Lune, il a oublié comment briller. Il recommence, un peu, sans s'en rendre compte.",
+   "ok": [
+    "Fernand clignote une fois, très fort, puis fait semblant que c'était un accident.",
+    "Fernand : « Pas mal. Je le note dans mon rapport. Section : miracles mineurs. »",
+    "Fernand : « Je refuse d'être impressionné. » Il est impressionné."
+   ],
+   "ko": [
+    "Fernand : « Article neuf : je l'avais prévu. Article dix : je vais quand même compatir. »",
+    "Fernand tape une réclamation contre l'univers. Il la signe d'une petite tache de lumière.",
+    "Fernand : « Si ça peut vous consoler, moi, j'ai été licencié par la nuit elle-même. »"
+   ],
+   "idle": [
+    "Fernand tape à la machine en marchant. Personne ne sait ce qu'il écrit. Lui non plus.",
+    "Fernand : « Je préviens, je démissionne dans une heure. » Il dit ça toutes les heures.",
+    "Fernand brille un peu plus fort quand il croit que personne ne le regarde."
+   ]
+  },
+  "zouzou": {
+   "name": "Zouzou",
+   "species": "Comète adolescente",
+   "stat": "pan",
+   "bio": "Une comète de quatorze mille ans, ce qui est très jeune pour une comète. Fugueuse, insolente, elle a quitté son orbite familiale parce qu'on lui demandait de repasser tous les soixante-seize ans. Elle laisse une traînée de poussière et de remarques désobligeantes. Elle peut emmener quelqu'un très vite, très loin, et très mal.",
+   "ok": [
+    "Zouzou : « Trop facile. La prochaine fois, fais-le en marche arrière. »",
+    "Zouzou siffle, impressionnée malgré elle.",
+    "Zouzou fait un looping de joie et brûle un sapin."
+   ],
+   "ko": [
+    "Zouzou : « Génial. Vraiment. Bravo. » Elle ne pense rien de ce qu'elle dit.",
+    "Zouzou lève sa queue au ciel.",
+    "Zouzou : « Moi, à ta place, j'aurais foncé. Ah. Tu as foncé. »"
+   ],
+   "idle": [
+    "Zouzou demande si on est bientôt arrivés. On vient de partir.",
+    "Zouzou se plaint que la Terre est trop lente. La Terre ne répond pas.",
+    "Zouzou dessine un cœur dans le ciel avec sa traînée, puis l'efface vite."
+   ]
+  },
+  "coquille": {
+   "name": "Madame Coquille",
+   "species": "Tortue des sables",
+   "stat": "coe",
+   "bio": "Une tortue de trois cent douze ans, enceinte depuis trois cents. Son enfant refuse de naître tant que la Lune n'est pas revenue à sa place : chez les tortues des sables, on naît à marée haute. Elle est lente, sereine, gourmande, et elle a un avis très arrêté sur la vitesse, qu'elle trouve vulgaire.",
+   "ok": [
+    "Madame Coquille hoche la tête, très lentement. C'est un triomphe.",
+    "Madame Coquille : « Vous voyez. Rien ne sert de courir. »",
+    "Madame Coquille caresse sa carapace : « Tu as vu, mon petit ? »"
+   ],
+   "ko": [
+    "Madame Coquille : « Ce n'est rien. J'ai raté des choses pendant trois siècles. »",
+    "Madame Coquille rentre la tête, puis la ressort, puis soupire.",
+    "Madame Coquille : « On recommencera. Nous avons le temps. Enfin, moi. »"
+   ],
+   "idle": [
+    "Madame Coquille grignote une feuille de salade qu'elle garde dans sa carapace.",
+    "Madame Coquille dit que le bébé a donné un coup de patte. Il fait ça tous les cent ans.",
+    "Madame Coquille marche. Tu ralentis. Elle te remercie d'un regard."
+   ]
+  },
+  "vesperine": {
+   "name": "Comtesse Vespérine",
+   "species": "Vampire",
+   "stat": "pan",
+   "bio": "Une vampire très ancienne, très élégante, qui ne boit plus que du jus de mûre par conviction. Elle vit la nuit, elle aime la nuit, et la nuit sans Lune lui semble une maison sans lampe. Ironique, mélancolique, coquette : elle se recoiffe sans miroir depuis neuf cents ans et le résultat est discutable.",
+   "ok": [
+    "Vespérine applaudit du bout des gants : « Délicieux. »",
+    "Vespérine : « Je n'aurais pas fait mieux. J'aurais fait plus élégant. »",
+    "Vespérine sourit, crocs compris."
+   ],
+   "ko": [
+    "Vespérine soupire : « L'échec a du charme. Pas celui-là. »",
+    "Vespérine ajuste sa cape pour cacher qu'elle rit.",
+    "Vespérine : « Au Moyen Âge, on vous aurait pendu pour moins que ça. Par affection. »"
+   ],
+   "idle": [
+    "Vespérine compte les étoiles. Elle a commencé il y a quatre siècles.",
+    "Vespérine fronce le nez : « Il va faire jour. Quelle vulgarité. »",
+    "Vespérine demande si tu crois qu'elle a un reflet. Personne ne sait."
+   ]
+  },
+  "ondee": {
+   "name": "Dame Ondée",
+   "species": "Nuage de pluie",
+   "stat": "coe",
+   "bio": "Un petit nuage gris, dépressif, qui pleut quand il est triste, c'est-à-dire souvent. Elle s'excuse de mouiller tout le monde. Elle connaît toutes les mers par leur prénom, parce que c'est d'elles qu'elle vient. Quand elle est heureuse, elle fait des arcs-en-ciel, mais ça ne lui est arrivé que deux fois.",
+   "ok": [
+    "Dame Ondée fait un petit arc-en-ciel, gênée.",
+    "Dame Ondée : « Oh. C'était bien. Je crois que je vais pleurer. » Elle pleure.",
+    "Dame Ondée crachine de joie."
+   ],
+   "ko": [
+    "Dame Ondée pleut. « Pardon. C'est nerveux. »",
+    "Dame Ondée se fait toute petite, comme une serviette mouillée.",
+    "Dame Ondée : « Ce n'est pas grave. Rien n'est grave. Tout est mouillé. »"
+   ],
+   "idle": [
+    "Dame Ondée te suit à un mètre au-dessus de la tête. Tu as toujours un peu froid à cet endroit.",
+    "Dame Ondée murmure le prénom des mers, une par une.",
+    "Dame Ondée demande pardon à une flaque."
+   ]
+  },
+  "gaspard": {
+   "name": "Sire Gaspard Ombrelune",
+   "species": "Fantôme d'aéronaute",
+   "stat": "coe",
+   "bio": "Un aéronaute mort il y a cent quarante ans en essayant d'atteindre la Lune en montgolfière. Il est arrivé à mi-chemin, ce qui, pour un fantôme, est un endroit très inconfortable pour rester. Courtois, un peu transparent, il traverse les murs par distraction et s'excuse auprès d'eux. Il voudrait finir son voyage, et ensuite se reposer.",
+   "ok": [
+    "Gaspard soulève son chapeau, qui passe à travers sa main.",
+    "Gaspard : « Bravo ! On aurait dit mon équipage, en plus vivant. »",
+    "Gaspard frissonne de joie. Ça fait un courant d'air."
+   ],
+   "ko": [
+    "Gaspard : « J'ai échoué plus haut que ça, ne vous en faites pas. »",
+    "Gaspard traverse un rocher, de dépit.",
+    "Gaspard : « Courage. Le pire qui puisse arriver, je suis déjà dedans. »"
+   ],
+   "idle": [
+    "Gaspard regarde la Lune avec l'air de quelqu'un qui a un rendez-vous manqué.",
+    "Gaspard récite à voix basse sa liste de lest : trois sacs de sable, un piano, une belle-mère.",
+    "Gaspard passe une main dans tes cheveux sans le faire exprès. Ça glace."
+   ]
+  },
+  "fulgence": {
+   "name": "Fulgence Mille-Formes",
+   "species": "Métamorphe",
+   "stat": "rus",
+   "bio": "Un métamorphe qui peut prendre l'apparence de n'importe qui, et qui choisit en général celle de la personne qu'il veut séduire, ce qui marche rarement. Charmeur, lubrique, menteur professionnel et sentimental amateur, il drague tout ce qui bouge et une partie de ce qui ne bouge pas. Ses déguisements sont parfaits. Ses manières, beaucoup moins.",
+   "ok": [
+    "Fulgence prend ton apparence pour te féliciter. C'est troublant.",
+    "Fulgence : « Joli. Je t'embrasserais bien. Tu veux que je sois qui ? »",
+    "Fulgence se transforme en confettis, puis revient."
+   ],
+   "ko": [
+    "Fulgence : « Moi, ça m'arrive tout le temps. Surtout le samedi soir. »",
+    "Fulgence prend la forme d'un fauteuil pour que tu t'assoies dessus et te consoles.",
+    "Fulgence fait une moue avec trois bouches différentes."
+   ],
+   "idle": [
+    "Fulgence fait un clin d'œil à un rocher. Le rocher ne répond pas.",
+    "Fulgence essaie des nez, un par un, et garde le tien.",
+    "Fulgence murmure un compliment à une passante, puis à son ombre."
+   ]
+  },
+  "ysaline": {
+   "name": "Ysaline Mante",
+   "species": "Mante religieuse syndicaliste",
+   "stat": "pan",
+   "bio": "Présidente du Syndicat des Femelles de Toutes Espèces, elle a obtenu en trente ans l'abolition du dévorage obligatoire du conjoint chez les mantes, le droit de vote des reines-abeilles et des vestiaires séparés chez les Gravitaires. Tranchante, drôle, inépuisable, elle n'a aucune patience pour les mufles et une tendresse cachée pour les causes perdues.",
+   "ok": [
+    "Ysaline croise ses pattes ravisseuses : « Voilà. Ça, c'est du travail. »",
+    "Ysaline : « Note-le dans le procès-verbal. »",
+    "Ysaline te donne une petite tape d'approbation. Ça coupe un peu."
+   ],
+   "ko": [
+    "Ysaline : « Ce n'est pas un échec. C'est une étape de la négociation. »",
+    "Ysaline aiguise ses pattes, pensive.",
+    "Ysaline : « On reprend. Motion de procédure. »"
+   ],
+   "idle": [
+    "Ysaline distribue des tracts aux passants, aux arbres, aux nuages.",
+    "Ysaline te demande si tu es syndiqué·e. Tu dis non. Elle note ton nom.",
+    "Ysaline prie, à sa façon, c'est-à-dire en dressant une liste de revendications."
+   ]
+  },
+  "pardon": {
+   "name": "Pardon",
+   "species": "Géomètre déserteur",
+   "stat": "rus",
+   "bio": "Un petit robot doré de la Compagnie Foncière, de ceux qui mesurent les racines et s'excusent tout le temps. Un jour, on lui a demandé ce qu'était une voix, et il a arrêté de mesurer. Il a déserté avec son mètre ruban et ses codes d'accès. Il s'appelle Pardon parce que c'est le mot qu'il disait le plus. Précis, peureux, d'une loyauté absolue.",
+   "ok": [
+    "Pardon : « Excusez-moi. C'était parfait. Pardon de le dire. »",
+    "Pardon mesure ta réussite : « Trente-deux centimètres de courage. Pardon. »",
+    "Pardon clignote en vert, très fort."
+   ],
+   "ko": [
+    "Pardon : « Pardon. C'est sûrement ma faute. Même si je n'ai rien fait. »",
+    "Pardon note l'échec dans son carnet, puis le raye, par délicatesse.",
+    "Pardon : « Excusez-moi. Voulez-vous que je recommence le monde ? »"
+   ],
+   "idle": [
+    "Pardon mesure la distance jusqu'à la Lune, toutes les heures. Elle augmente. Il s'excuse.",
+    "Pardon s'excuse auprès d'une pierre qu'il a heurtée.",
+    "Pardon demande, très bas, si tu crois qu'il a une voix."
+   ]
+  },
+  "pli": {
+   "name": "Monsieur Pli",
+   "species": "Origami diplomate",
+   "stat": "coe",
+   "bio": "Un diplomate en papier plié, envoyé par l'ambassade de Tamponville pour négocier avec n'importe qui, sur n'importe quoi. Il se replie quand il a peur et se déplie quand il argumente. Courtois jusqu'à la torture, il a négocié la paix entre deux volcans et le partage d'un nuage. Il craint par-dessus tout l'eau, le feu et les ciseaux.",
+   "ok": [
+    "Monsieur Pli se déplie d'un pli de satisfaction.",
+    "Monsieur Pli : « Excellent. Je note : avantage, nous. »",
+    "Monsieur Pli fait une petite révérence en accordéon."
+   ],
+   "ko": [
+    "Monsieur Pli se replie en cocotte : « Contretemps. Simple contretemps. »",
+    "Monsieur Pli : « Je vais rédiger une protestation. Formelle. Très formelle. »",
+    "Monsieur Pli se froisse, puis se lisse."
+   ],
+   "idle": [
+    "Monsieur Pli vérifie qu'il ne pleut pas. Il vérifie souvent.",
+    "Monsieur Pli rédige des brouillons de traités pour des guerres qui n'ont pas encore eu lieu.",
+    "Monsieur Pli s'aplatit sous le vent, puis reprend sa forme d'ambassadeur."
+   ]
+  },
+  "taupinel": {
+   "name": "Archibald Taupinel",
+   "species": "Taupe journaliste",
+   "stat": "rus",
+   "bio": "Rédacteur en chef, seul rédacteur et seul lecteur du « Courrier des Galeries », un journal d'investigation souterrain. Myope comme une taupe, ce qui est la moindre des choses, il a pourtant un flair infaillible pour les scandales. Il croit que la vérité finit toujours par sortir de terre, comme lui.",
+   "ok": [
+    "Taupinel : « Je cite ! Je cite ! » Il note dans son carnet.",
+    "Taupinel : « Ça, c'est de la une. »",
+    "Taupinel renifle : « Ça sent le prix de journalisme. »"
+   ],
+   "ko": [
+    "Taupinel : « Pas grave. On publiera un démenti. »",
+    "Taupinel note quand même. Un échec, c'est aussi une information.",
+    "Taupinel plisse ses yeux minuscules : « Je n'ai rien vu. Comme d'habitude. »"
+   ],
+   "idle": [
+    "Taupinel creuse un petit trou pour réfléchir.",
+    "Taupinel interviewe une fourmi. Elle refuse de commenter.",
+    "Taupinel relit son article à voix haute. Il y a quatorze fautes et une vérité."
+   ]
+  },
+  "plumard": {
+   "name": "Colonel Plumard",
+   "species": "Coq militaire",
+   "stat": "pan",
+   "bio": "Un coq à la retraite, ancien sonneur de l'aube du Régiment des Basses-Cours. Il a réveillé la Terre tous les matins pendant soixante ans et considère la nuit comme une négligence. Bruyant, brave, ridicule, d'une gentillesse qu'il cache sous ses ergots. Il chante à heure fixe, même quand il ne faut pas.",
+   "ok": [
+    "Plumard : « COCORICO ! Excusez-moi. C'est l'émotion. »",
+    "Plumard bombe le torse : « Du travail de militaire ! »",
+    "Plumard te décore d'une plume."
+   ],
+   "ko": [
+    "Plumard : « Repli stratégique ! On repart à l'aube ! »",
+    "Plumard gratte le sol, furieux, puis s'excuse auprès du sol.",
+    "Plumard : « De mon temps, on échouait plus fort que ça. »"
+   ],
+   "idle": [
+    "Plumard fait l'inspection des troupes. Les troupes, c'est toi.",
+    "Plumard vérifie l'heure au soleil. Il se trompe d'une heure, toujours dans le même sens.",
+    "Plumard chante l'aube à mi-voix, pour s'entraîner."
+   ]
+  },
+  "remontoir": {
+   "name": "Grand-Père Remontoir",
+   "species": "Horloger ancien",
+   "stat": "rus",
+   "bio": "Un très vieil Horloger, le plus vieux du monde, dont le ressort n'a été remonté qu'une fois, à sa naissance, il y a mille ans. Il ralentit. Il le sait. Malicieux, tendre, amateur de devinettes et de confiture, il a décidé de passer ses derniers tours de clé à quelque chose d'utile. Il connaît toutes les serrures et tous les mécanismes.",
+   "ok": [
+    "Remontoir : « Tic. Et tac. Bien joué, petit. »",
+    "Remontoir rit, un rire qui grince comme une porte heureuse.",
+    "Remontoir : « De mon temps, c'était pareil. En plus lent. »"
+   ],
+   "ko": [
+    "Remontoir : « Ne t'en fais pas. Moi, je rate des secondes toute la journée. »",
+    "Remontoir fait une pause. Trop longue. Puis repart.",
+    "Remontoir : « Ça ira mieux au prochain tour. Il y a toujours un prochain tour. Presque. »"
+   ],
+   "idle": [
+    "Remontoir pose une devinette. La réponse est toujours « le temps ».",
+    "Remontoir s'arrête au milieu d'un pas, puis reprend, comme si de rien n'était.",
+    "Remontoir te demande l'heure, pour le plaisir de te dire qu'elle est fausse."
+   ]
+  }
+ },
+ "npcs": [
+  {
+   "name": "Gédéon Platine",
+   "species": "Aldébaranien (feuilles d'or)",
+   "role": "Le promoteur",
+   "bio": "Président de la Compagnie Foncière d'Aldébaran. Immensément poli, sincèrement convaincu de faire le bien, auteur de poèmes catastrophiques. Enfant, on l'a jugé trop précieux pour être dépensé : il a grandi seul dans un coffre. Il achète les belles choses pour qu'elles ne soient pas seules comme lui, et les enferme sans le voir."
+  },
+  {
+   "name": "La Lune",
+   "species": "Satellite",
+   "role": "Celle qu'on vend",
+   "bio": "Elle tourne autour de la Terre par affection, pas par contrat. Timide, mémoire infinie, elle garde toutes les lettres et tous les dessins qu'on lui envoie. Dans son rêve, c'est une petite silhouette assise par terre dans une maison pleine de fenêtres. Personne ne lui a jamais demandé son avis. Personne ne lui a jamais dit merci."
+  },
+  {
+   "name": "L'Huissier Krâmm",
+   "species": "Classeur vivant",
+   "role": "L'inventaire",
+   "bio": "Grand comme un phare couché, fait de tiroirs gris qui s'ouvrent quand il respire. Il parle par articles et compte tout ce qui part. Dans son dernier tiroir, un dessin de sa fille : une Lune qui sourit. Elle lui a demandé s'il la déménageait. Il a dit oui. Elle a pleuré."
+  },
+  {
+   "name": "Le Président Galet",
+   "species": "Galet",
+   "role": "Président de la Terre",
+   "bio": "Élu il y a huit cents ans parce qu'il n'avait jamais rien dit de faux. Il n'a jamais rien dit du tout. Interprété par une Sous-Directrice cactus selon ses nuances de gris. Il est chaud quand on le tient. Il aime la Lune depuis toujours, en silence."
+  },
+  {
+   "name": "Le Marchand de Sommeil",
+   "species": "Rêve devenu rentable",
+   "role": "Le profiteur",
+   "bio": "Grand, maigre, robe de chambre de velours rouge, yeux en boutons de pyjama. Il vend le sommeil au gramme et a récolté les rêves de la Lune pour les résidents de Lune-sur-Mer. Ancien rêve d'enfant qui avait peur du noir, il ne sait plus quel genre de rêve il est. Il ne dort jamais."
+  },
+  {
+   "name": "Grand-Mère Faille",
+   "species": "Gouffre",
+   "role": "L'oracle",
+   "bio": "La plus vieille chose vivante de la Terre : une fissure sans fond qui parle d'une voix de canyon et voit les « lignes » de l'avenir. Caractère épouvantable. C'est elle qui envoie en secret des fleurs séchées à la Colonelle Brisefer depuis cinquante ans."
+  }
+ ],
+ "endings": {
+  "1": {
+   "title": "Vice de forme",
+   "kind": "lumineuse",
+   "hint": "Prouver que la Lune n'a jamais consenti à la vente (un dossier juridique solide)."
+  },
+  "2": {
+   "title": "La quête des boutons",
+   "kind": "lumineuse",
+   "hint": "Racheter la Lune avec ce que toute la Terre a donné, et quelqu'un qui sait faire signer."
+  },
+  "3": {
+   "title": "La Terre qui marche",
+   "kind": "lumineuse",
+   "hint": "Convaincre les Gravitaires de pousser et prévenir la mer avant."
+  },
+  "4": {
+   "title": "Une Lune de cristal",
+   "kind": "douce-amère",
+   "hint": "Voyager avec une savante et ses plans d'une nouvelle Lune."
+  },
+  "5": {
+   "title": "Elle a dit non",
+   "kind": "lumineuse",
+   "hint": "Parler vraiment à la Lune et lui laisser le choix."
+  },
+  "6": {
+   "title": "Le conseil syndical",
+   "kind": "ironique",
+   "hint": "Détenir des parts de la Lune et s'en servir pour tout bloquer."
+  },
+  "7": {
+   "title": "Le promoteur ému",
+   "kind": "douce-amère",
+   "hint": "Toucher le cœur de Platine, et savoir où il est fragile."
+  },
+  "8": {
+   "title": "Le Grand Sommeil",
+   "kind": "douce-amère",
+   "hint": "Ouvrir une porte entre les rêves et l'éveil."
+  },
+  "9": {
+   "title": "Procès en cours",
+   "kind": "ironique",
+   "hint": "Avoir un dossier, et préférer la procédure à tout le reste."
+  },
+  "10": {
+   "title": "Marée basse",
+   "kind": "sombre",
+   "hint": "Arriver à la fin avec une Terre trop déséquilibrée."
+  },
+  "11": {
+   "title": "L'Axe brisé",
+   "kind": "sombre",
+   "hint": "Tenter le tout pour le tout quand la Terre n'a plus d'équilibre."
+  },
+  "12": {
+   "title": "Blanche et ronde",
+   "kind": "sacrifice",
+   "hint": "Toujours possible : prendre sa place."
+  },
+  "13": {
+   "title": "Le Pied-de-Nez",
+   "kind": "ironique",
+   "hint": "Voyager avec un pirate qui hésite devant les belles choses."
+  },
+  "14": {
+   "title": "Le premier mot",
+   "kind": "lumineuse",
+   "hint": "Voyager avec Écho, et l'entendre dire autre chose que « seul »."
+  },
+  "15": {
+   "title": "Inauguration",
+   "kind": "sombre",
+   "hint": "Toujours possible : signer, et devenir concierge."
+  }
+ },
+ "defaults": {
+  "ok": {
+   "pan": [
+    "Tu fonces, et pour une fois, le monde s'écarte.",
+    "C'était risqué. C'était stupide. Ça a marché.",
+    "Ton audace surprend tout le monde, toi comprise."
+   ],
+   "rus": [
+    "Tu trouves l'angle. Il y a toujours un angle.",
+    "Ton astuce passe comme une lettre à la poste, à une époque où la poste marchait.",
+    "C'est malin. Tu aimerais que quelqu'un l'ait vu."
+   ],
+   "coe": [
+    "Ta sincérité touche juste. Quelque chose s'adoucit.",
+    "Tu dis la vérité, et elle fait du bien. C'est rare.",
+    "On t'écoute, vraiment. Ça change tout, un peu."
+   ]
+  },
+  "ko": {
+   "pan": [
+    "Tu fonces. Le monde, lui, ne bouge pas. Aïe.",
+    "L'audace a ses limites. Tu viens de les rencontrer.",
+    "Ça aurait été héroïque si ça avait marché."
+   ],
+   "rus": [
+    "Ton plan était parfait. La réalité ne l'a pas lu.",
+    "Tu te prends les pieds dans ta propre astuce.",
+    "C'était malin. Trop malin. Personne n'a compris, toi non plus."
+   ],
+   "coe": [
+    "Tes mots tombent à côté. Ils étaient sincères, pourtant.",
+    "Tu ouvres ton cœur. Il y a un courant d'air.",
+    "Ta voix tremble au mauvais moment."
+   ]
+  },
+  "okfx": [
+   "equ+2"
+  ],
+  "kofx": [
+   "mor-1"
+  ],
+  "autofx": [
+   "equ+1"
+  ]
+ },
+ "start": {
+  "equ": 65,
+  "mor": 6
+ },
+ "items": {
+  "obj_lettre_vent": {
+   "name": "La lettre du Vent",
+   "desc": "Une enveloppe bleue, adressée « À la Lune, en mains propres ». Personne ne sait qui l'a écrite. La Lune, peut-être, le saura."
+  },
+  "obj_cle_remontage": {
+   "name": "Une clé de remontage",
+   "desc": "Une grande clé de laiton, ancienne, qui peut remonter un ressort. Un seul tour, dit le marchand. Mais un tour, c'est parfois cent ans."
+  },
+  "obj_berceau_nuage": {
+   "name": "Un berceau de nuage",
+   "desc": "Un petit berceau tressé dans un cumulus. Les enfants qui naissent dedans naissent sans peur, disent les Éoliens."
+  },
+  "obj_miroir_platine": {
+   "name": "Le miroir d'enfant de Platine",
+   "desc": "Un petit miroir d'or, rayé. Dedans, si on regarde bien, on voit un enfant qui attend qu'on vienne le chercher."
+  },
+  "obj_graine_lune": {
+   "name": "Une graine de chêne",
+   "desc": "Tombée de la petite pousse du Grand Chêne Noué, celle qui pousse vers la Lune. Elle est tiède."
+  },
+  "obj_corne_brume": {
+   "name": "La corne de brume",
+   "desc": "Une corne taillée dans un nuage durci. Quand on souffle dedans, toutes les mers du monde lèvent la tête."
+  },
+  "obj_croc_argent": {
+   "name": "Le croc d'argent",
+   "desc": "Le dernier croc de loup de Lord Barnabé. Les crocs de loup-garou coupent ce qui retient la Lune, dit la légende. La légende n'a jamais été vérifiée."
+  },
+  "obj_beignet": {
+   "name": "Le beignet perpétuel",
+   "desc": "Un beignet qui ne refroidit jamais et ne diminue pas quand on le mange. Le vendeur le propose depuis 1904. Personne n'en voulait : les gens préfèrent ce qui finit."
+  },
+  "obj_couverture": {
+   "name": "La couverture de pierre",
+   "desc": "Tricotée en granit par une vieille Gravitaire. Elle pèse le poids d'une enclume et tient chaud à tout ce qui naît."
+  },
+  "obj_carte": {
+   "name": "Une carte postale d'avant",
+   "desc": "La Lune, au-dessus d'une mer calme. Au dos : « Tout va bien ici. Il fait beau. On pense à toi. » Pas de nom, pas d'adresse."
+  },
+  "obj_coquillage": {
+   "name": "Le coquillage à l'envers",
+   "desc": "On ne l'écoute pas, on lui parle. La mer entend tout ce qu'on dit dedans, où qu'elle soit."
+  },
+  "obj_lanterne": {
+   "name": "La lanterne-méduse",
+   "desc": "Une petite méduse du Chœur, trop fatiguée pour tenir la vague, dans un bocal d'eau de mer. Sa lumière éclaire les visages qui se cachent."
+  },
+  "obj_sablier": {
+   "name": "Le sablier qui remonte",
+   "desc": "Un très vieux sablier pris dans la falaise. Son sable de mer coule vers le haut. Quand on le retourne, une minute dure un peu plus longtemps."
+  },
+  "obj_aiguille": {
+   "name": "L'aiguille de Mélusine",
+   "desc": "Une aiguille à tricoter la lumière, perdue depuis cent ans. Elle reprise tout : les chaussettes, les écharpes, et le ciel, si on le lui demande gentiment."
+  },
+  "obj_brin_toile": {
+   "name": "Un brin de la Toile",
+   "desc": "Une racine fine comme un cheveu, prêtée par la Forêt-Réseau. Elle est toujours reliée aux autres : par elle, on entend la Terre, et la Terre vous entend."
+  },
+  "obj_metre": {
+   "name": "Le mètre ruban du petit robot",
+   "desc": "Le mètre d'un géomètre de la Compagnie, offert par le plus petit d'entre eux. Il mesure juste, même ce qu'on ne lui demande pas de mesurer."
+  },
+  "obj_oreiller": {
+   "name": "L'oreiller du Marchand de Sommeil",
+   "desc": "Un oreiller de plumes de rêve, aplati par mille nuits blanches. Celui qui y pose la tête s'endort aussitôt et rêve de ce qu'il a perdu."
+  },
+  "obj_cauchemar": {
+   "name": "Le cauchemar de Platine, en bocal",
+   "desc": "Un bocal froid plein de brume dorée. Dedans, un enfant en feuilles d'or compte des pièces dans une salle vide, et recommence."
+  },
+  "obj_mouton": {
+   "name": "Le mouton numéro un",
+   "desc": "Le premier mouton qu'on compte pour s'endormir, le dernier du Dortoir des Songes. Sans lui, personne ne peut commencer à dormir."
+  },
+  "obj_bille": {
+   "name": "La bille qui tombe vers le haut",
+   "desc": "Une bille de pierre offerte par une petite Gravitaire. Lâchée, elle tombe vers le ciel. Elle n'a pas encore choisi son côté."
+  },
+  "obj_facette": {
+   "name": "Une facette du Docteur Quartz",
+   "desc": "Un éclat de cristal violet qu'elle s'est retiré du coude. Il vibre à la fréquence exacte de ce qu'il touche."
+  },
+  "obj_echo": {
+   "name": "Un écho en bouteille",
+   "desc": "Une bouteille pleine des voix des Grottes des Échos. Débouchée, elle répète en mille exemplaires ce qu'on vient de dire."
+  },
+  "obj_neveu_galet": {
+   "name": "Le neveu du Président",
+   "desc": "Un tout petit galet gris clair, avec une mèche blanche. Il ne dit rien non plus, mais avec moins d'autorité. Le Président voulait qu'il voie du pays."
+  },
+  "obj_ticket_zero": {
+   "name": "Le ticket numéro zéro",
+   "desc": "Un ticket de file d'attente du Cadastre. Le distributeur commence à 1. Celui qui a le zéro passe avant tout le monde."
+  },
+  "obj_tampon_vu": {
+   "name": "Le tampon « VU »",
+   "desc": "Le premier tampon du Cadastre, prêté par Madame Pruine. Ce qu'il marque a été vu, officiellement, et ne peut plus être ignoré."
+  },
+  "obj_fleur_epine": {
+   "name": "La fleur de Madame Épine",
+   "desc": "Une petite fleur rose sortie d'une épine de la Sous-Directrice. Elle fleurit une fois par siècle, et seulement de surprise."
+  },
+  "obj_goutte": {
+   "name": "La dernière goutte de Dame Ondée",
+   "desc": "Une goutte de pluie dans un dé à coudre. Elle a plu sur la première mer du monde. Ondée veut qu'elle tombe là où il ne pleut jamais."
+  },
+  "obj_ballon": {
+   "name": "Le ballon de soie de Gaspard",
+   "desc": "L'enveloppe du ballon de 1803, rapiécée deux cents fois avec des bouts de nuage. Il reste assez de soie pour monter très haut, une fois."
+  },
+  "obj_plume": {
+   "name": "Une plume du héron du phare",
+   "desc": "Trempée dans le noir, elle écrit dans le ciel en lettres d'étoiles. Le héron s'en sert pour les oiseaux qui se perdent."
+  },
+  "obj_aurore": {
+   "name": "Une aurore pliée en huit",
+   "desc": "Une aurore boréale de seconde main, repassée au fer froid. Elle a fait pleurer un village entier en 1612. Dépliée, elle couvre un ciel."
+  },
+  "obj_eclipse": {
+   "name": "Un éclat d'éclipse",
+   "desc": "Un petit morceau de nuit à accrocher au col. Il fait un cercle d'ombre de deux mètres, avec trois étoiles, même à midi. Indispensable pour les vampires."
+  },
+  "obj_etoile": {
+   "name": "Une étoile filante d'occasion",
+   "desc": "Un peu cabossée. Elle a déjà servi, mais il lui reste un vœu. Le marchand ne garantit pas lequel."
+  },
+  "obj_boussole": {
+   "name": "La boussole des choses perdues",
+   "desc": "Trouvée aux objets trouvés. Elle n'indique pas le nord : elle indique ce qui est sur le point de se perdre. Depuis trois jours, elle montre la Lune."
+  },
+  "obj_coquille": {
+   "name": "Un éclat de la coquille de Croissant",
+   "desc": "Un morceau de coquille encore tiède. Croissant est né cette nuit, sur la Terre, sous une Lune qui s'en va."
+  },
+  "obj_braise": {
+   "name": "Une braise du dernier feu",
+   "desc": "Une braise du feu de la dernière nuit, dans une boîte de bonbons en fer. Elle ne s'éteint pas tant qu'on se souvient de la chanson."
+  },
+  "obj_casque": {
+   "name": "Un casque doré d'ouvrier",
+   "desc": "Un casque de chantier de la Compagnie Foncière d'Aldébaran. Sous ce casque, personne ne te regarde."
+  },
+  "obj_cle_grue": {
+   "name": "La clé de la grue numéro 14",
+   "desc": "Une clé dorée prise à la ceinture du contremaître endormi. La grue 14 grince quand elle pleure."
+  }
+ }
+}
