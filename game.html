@@ -14,7 +14,7 @@
 }
 *{box-sizing:border-box}
 html,body{height:100%}
-body{background:var(--nuit);color:var(--craie);font-family:var(--f-texte);font-size:17px;line-height:1.6;
+body{margin:0;background:var(--nuit);color:var(--craie);font-family:var(--f-texte);font-size:17px;line-height:1.6;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   background-image:radial-gradient(ellipse at 80% -10%, rgba(241,223,160,.10), transparent 55%);background-attachment:fixed}
 button{font:inherit;color:inherit}
@@ -36,19 +36,35 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:400;text-wrap:balance;letter-spa
 .marquee p{max-width:62ch;color:var(--craie-2);margin:12px 0 0;font-size:16px}
 #moonCanvas{width:280px;height:auto;aspect-ratio:440/360;max-width:100%}
 .tabs{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;margin-top:14px}
-.tabs a{font-family:var(--f-data);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie-2);text-decoration:none;padding:10px 2px;border-bottom:2px solid transparent;margin-bottom:-1px}
-.tabs a:hover{color:var(--lune);border-bottom-color:var(--lune)}
+.tab{font-family:var(--f-data);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie-2);background:var(--nuit-2);border:1px solid var(--ligne);border-radius:4px;padding:9px 16px;cursor:pointer}
+.tab:hover{color:var(--lune);border-color:var(--lune)}
+.tab[aria-expanded="true"]{color:var(--nuit);background:var(--lune);border-color:var(--lune)}
 .tabs .btn{margin-left:8px}
-.home{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:26px;align-items:start}
-.home h2{font-size:24px;color:var(--lune);margin-bottom:8px;scroll-margin-top:16px}
-.cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
-.pc{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:9px;text-align:left;cursor:pointer;display:grid;grid-template-columns:104px minmax(0,1fr);gap:10px;align-items:start}
+/* pas de barre de défilement visible, nulle part */
+html{scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar{display:none}
+.panel{animation:open .25s ease-out}
+@keyframes open{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.home-rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.home-rules p{margin:0;background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:14px;font-size:14px;line-height:1.45;color:var(--craie-2)}
+.home-rules b{display:block;color:var(--lune);font-family:var(--f-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;font-weight:600}
+.cast{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.pc{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:12px 14px;text-align:left;cursor:pointer;display:grid;gap:2px}
 .pc:hover{border-color:var(--lune);background:var(--nuit-3)}
-.pc img{width:104px;height:104px;border-radius:4px;object-fit:cover;display:block;background:var(--nuit-3)}
-.pc .txt{display:grid;gap:3px;min-width:0}
-.pc h3{font-size:17px;line-height:1.15}
+.pc h3{font-size:19px;line-height:1.15}
 .pc .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
-.pc p{margin:0;font-size:13px;line-height:1.35;color:var(--craie-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+/* fiche du personnage */
+#sheet{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:16px;background:rgba(10,13,24,.78);backdrop-filter:blur(3px)}
+.sheet{width:min(920px,100%);max-height:calc(100vh - 32px);overflow:auto;scrollbar-width:none;background:var(--nuit-2);border:1px solid var(--lune);border-radius:8px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);animation:open .25s ease-out}
+.sheet::-webkit-scrollbar{display:none}
+.sheet img{width:100%;height:100%;min-height:100%;object-fit:cover;display:block;border-radius:7px 0 0 7px}
+.sheet .info{padding:22px 24px;display:grid;gap:10px;align-content:start}
+.sheet h2{font-size:clamp(26px,3.4vw,34px);line-height:1.05;color:var(--lune)}
+.sheet .sp{font-family:var(--f-data);font-size:12px;color:var(--maree);letter-spacing:.1em;text-transform:uppercase}
+.sheet p{margin:0;font-size:15px;line-height:1.5;color:var(--craie-2)}
+.sheet .tagline{color:var(--craie);font-style:italic}
+.sheet .lab{font-family:var(--f-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie);display:block;margin-bottom:2px}
+.sheet .stats{font-size:12px;gap:16px}
+.sheet .row{margin-top:6px}
 .stats{display:flex;gap:10px;font-family:var(--f-data);font-size:11px;color:var(--brume)}
 .stats span b{color:var(--craie)}
 .rules{display:grid;gap:10px;font-size:13.5px;line-height:1.45;color:var(--craie-2);background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:16px}
@@ -118,13 +134,17 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .ending h2{font-size:clamp(32px,6vw,52px)}
 .row{display:flex;flex-wrap:wrap;gap:10px}
 @media (max-width:1000px){
-  .home,.game-grid{grid-template-columns:1fr}
+  .game-grid{grid-template-columns:1fr}
+  .sheet{grid-template-columns:1fr;width:min(520px,100%)}
+  .sheet img{border-radius:7px 7px 0 0;height:auto;min-height:0;aspect-ratio:1;max-height:46vh}
   #side{padding-top:0}
 }
 @media (max-width:620px){
   .marquee{grid-template-columns:1fr}
   #moonCanvas{justify-self:center;width:190px}
   .tabs .btn{margin-left:0}
+  .cast{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .home-rules{grid-template-columns:1fr}
   .gauges{grid-template-columns:1fr}
   .choice{grid-template-columns:1fr}
   .choice .meta{text-align:left}
@@ -139,23 +159,16 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
         <h1 aria-label="Moon not for Sale, le mot « not » est barré">Moon <s>not</s> for <em>Sale</em></h1>
         <p>Un promoteur venu d'Aldébaran a acheté la Lune, légalement, avec des pâtisseries. Il a planté un crochet dedans et commence à l'emporter. Sur la Terre, les marées s'affolent, les rêves s'éteignent, les horloges s'arrêtent et l'Axe penche. Quelqu'un doit monter.</p>
         <nav class="tabs" aria-label="Accueil">
-      <a href="#commencer">Commencer</a>
-      <a href="#regles">Règles du jeu</a>
+      <button class="tab" id="tabRegles" aria-expanded="false" aria-controls="panelRegles">Règles du jeu</button>
+      <button class="tab" id="tabCommencer" aria-expanded="false" aria-controls="panelCommencer">Commencer</button>
       <button class="btn primary" id="btnResume" hidden>Reprendre la partie en cours</button>
     </nav>
       </div>
-      <canvas id="moonCanvas" width="440" height="360" aria-label="La Lune, accrochée par un crochet doré, avec une étiquette « vendu » barrée"></canvas>
+      <canvas id="moonCanvas" width="440" height="360" aria-label="La Lune, un crochet doré planté dedans, avec une étiquette « vendu » collée dessus"></canvas>
     </div>
-    <div class="home">
-      <section aria-labelledby="commencer">
-        <h2 id="commencer">Commencer</h2>
-        <div class="cast" id="cast"></div>
-      </section>
-      <aside aria-labelledby="regles">
-        <h2 id="regles">Règles du jeu</h2>
-        <div class="rules" id="rules"></div>
-      </aside>
-    </div>
+    <section class="panel" id="panelRegles" aria-label="Règles du jeu" hidden><div class="home-rules" id="rules"></div></section>
+    <section class="panel" id="panelCommencer" aria-label="Choisis ton personnage" hidden><div class="cast" id="cast"></div></section>
+    <div id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetName" hidden></div>
   </section>
 
   <section id="game" hidden>
@@ -281,23 +294,40 @@ function rulesHtml(short){
 }
 function renderCast(){
   $("#cast").innerHTML = M.playables.map(p => `
-    <button class="pc" data-pc="${p.id}" title="${esc(p.debut)}">
-      <img src="${(DATA.portraits || {})[p.id] || portraitFallback(p)}" alt="${esc(p.name)}" width="104" height="104" data-fb="${p.id}">
-      <span class="txt">
-        <span class="sp">${esc(p.species)}</span>
-        <h3>${esc(p.name)}</h3>
-        <p>${esc(p.tagline)}</p>
-        <span class="stats">${STATS.map((s,i)=>`<span>${SN[s]} <b>${p.stats[i]}</b></span>`).join("")}</span>
-      </span>
-    </button>`).join("");
-  document.querySelectorAll(".pc img").forEach(img => {
-    const p = M.playables.find(x => x.id === img.dataset.fb);
-    const fb = () => { img.onerror = null; img.src = portraitFallback(p); };
-    img.onerror = fb; if (!(DATA.portraits || {})[p.id] && (location.protocol === "about:" || (img.complete && !img.naturalWidth))) fb();
-  });
-  document.querySelectorAll(".pc").forEach(b => b.onclick = () => newGame(b.dataset.pc));
+    <button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.name)}</h3></button>`).join("");
+  document.querySelectorAll(".pc").forEach(b => b.onclick = () => openSheet(b.dataset.pc));
   $("#rules").innerHTML = rulesHtml(false);
   $("#btnResume").hidden = !store.get("lune.save", null);
+}
+function openSheet(id){
+  const p = M.playables.find(x => x.id === id), el = $("#sheet");
+  el.innerHTML = `<div class="sheet">
+    <img src="${(DATA.portraits || {})[p.id] || portraitFallback(p)}" alt="Portrait de ${esc(p.name)}">
+    <div class="info">
+      <span class="sp">${esc(p.species)}</span>
+      <h2 id="sheetName">${esc(p.name)}</h2>
+      <p class="tagline">${esc(p.tagline)}</p>
+      <p><span class="lab">Le personnage</span>${esc(p.bio)}</p>
+      <p><span class="lab">Où tu commences</span>${esc(p.debut)}</p>
+      <span class="stats">${STATS.map((s,i)=>`<span>${SN[s]} <b>${p.stats[i]}</b></span>`).join("")}</span>
+      <div class="row"><button class="btn" id="sheetBack">Choisir un autre personnage</button><button class="btn primary" id="sheetGo">Commencer</button></div>
+    </div></div>`;
+  el.hidden = false;
+  const close = () => { el.hidden = true; el.innerHTML = ""; document.removeEventListener("keydown", onKey); $(`.pc[data-pc="${id}"]`)?.focus(); };
+  const onKey = e => { if (e.key === "Escape") close(); };
+  document.addEventListener("keydown", onKey);
+  el.onclick = e => { if (e.target === el) close(); };
+  $("#sheetBack").onclick = close;
+  $("#sheetGo").onclick = () => { close(); newGame(id); };
+  $("#sheetGo").focus({preventScroll: true});
+}
+function bindTabs(){
+  const tabs = [["#tabRegles", "#panelRegles"], ["#tabCommencer", "#panelCommencer"]];
+  tabs.forEach(([t, pnl]) => $(t).onclick = () => {
+    const open = $(t).getAttribute("aria-expanded") !== "true";
+    tabs.forEach(([t2, p2]) => { $(t2).setAttribute("aria-expanded", "false"); $(p2).hidden = true; });
+    if (open){ $(t).setAttribute("aria-expanded", "true"); $(pnl).hidden = false; }
+  });
 }
 function newGame(pcId){
   const p = M.playables.find(x => x.id === pcId);
@@ -513,27 +543,30 @@ function drawMoon(){
     const h = x.createRadialGradient(cx, cy, R*.95, cx, cy, R*1.42);
     h.addColorStop(0, "rgba(241,223,160,.28)"); h.addColorStop(1, "rgba(241,223,160,0)");
     x.fillStyle = h; x.beginPath(); x.arc(cx, cy, R*1.42, 0, 6.2832); x.fill();
-    // câble doré jusqu'au crochet planté en haut à droite
-    const hx = cx + R*.52, hy = cy - R*.86;
-    x.strokeStyle = "rgba(241,223,160,.85)"; x.lineWidth = 2.2; x.beginPath(); x.moveTo(CX + 30, 0); x.quadraticCurveTo(CX + 34, hy*.5, hx, hy - 34); x.stroke();
+    // le point où le crochet entre dans la Lune, bien à l'intérieur du bord
+    const px = cx + R*.42, py = cy - R*.64, top = py - 62;
+    x.strokeStyle = "rgba(241,223,160,.85)"; x.lineWidth = 2.2; x.beginPath(); x.moveTo(CX + 40, 0); x.quadraticCurveTo(CX + 44, top*.5, px, top - 6); x.stroke();
     // la Lune
     x.save(); x.translate(cx, cy); x.rotate(sway*.6); x.drawImage(tex, -R-2, -R-2); x.restore();
-    // le crochet
-    const gold = x.createLinearGradient(hx - 16, hy - 40, hx + 16, hy + 6);
-    gold.addColorStop(0, "#fff1b8"); gold.addColorStop(.5, "#e0b54a"); gold.addColorStop(1, "#9c7424");
-    x.strokeStyle = gold; x.lineWidth = 7; x.lineCap = "round";
-    x.beginPath(); x.moveTo(hx, hy - 34); x.lineTo(hx, hy - 18); x.arc(hx - 11, hy - 18, 11, 0, Math.PI*.95); x.stroke();
-    x.fillStyle = "#e0b54a"; x.beginPath(); x.arc(hx, hy - 34, 4.5, 0, 6.2832); x.fill();
-    // l'étiquette « VENDU », barrée
-    const tsw = reduce ? 0 : Math.sin(t/70) * .12;
-    x.save(); x.translate(hx + 2, hy - 30); x.rotate(.35 + tsw);
-    x.strokeStyle = "rgba(236,231,218,.7)"; x.lineWidth = 1.2; x.beginPath(); x.moveTo(0, 0); x.lineTo(0, 44); x.stroke();
-    x.translate(0, 44);
-    x.fillStyle = "#ece7da"; x.beginPath(); x.moveTo(-44, 13); x.lineTo(-32, -6); x.lineTo(44, -6); x.lineTo(44, 32); x.lineTo(-32, 32); x.closePath(); x.fill();
-    x.fillStyle = "#151a2c"; x.beginPath(); x.arc(-30, 13, 3.5, 0, 6.2832); x.fill();
-    x.font = "600 19px 'IBM Plex Mono', monospace"; x.textAlign = "center"; x.fillText("VENDU", 7, 20);
-    x.strokeStyle = "#c0533f"; x.lineWidth = 2.4; x.beginPath(); x.moveTo(-20, 13); x.lineTo(36, 13); x.stroke();
+    // l'étiquette « VENDU », collée sur la Lune, un coin qui se décolle
+    x.save(); x.translate(cx + R*.14, cy + R*.36); x.rotate(-.13 + sway*.6);
+    const w = 118, hh = 44;
+    x.fillStyle = "rgba(20,16,10,.28)"; x.fillRect(-w/2 + 3, -hh/2 + 4, w, hh);
+    x.fillStyle = "#f4edd8"; x.beginPath(); x.moveTo(-w/2, -hh/2); x.lineTo(w/2 - 16, -hh/2); x.lineTo(w/2, -hh/2 + 16); x.lineTo(w/2, hh/2); x.lineTo(-w/2, hh/2); x.closePath(); x.fill();
+    x.fillStyle = "#d9cfb2"; x.beginPath(); x.moveTo(w/2 - 16, -hh/2); x.lineTo(w/2 - 16, -hh/2 + 16); x.lineTo(w/2, -hh/2 + 16); x.closePath(); x.fill();
+    x.strokeStyle = "#b8432f"; x.lineWidth = 1.5; x.strokeRect(-w/2 + 5, -hh/2 + 5, w - 26, hh - 10);
+    x.fillStyle = "#b8432f"; x.font = "600 23px 'IBM Plex Mono', monospace"; x.textAlign = "center"; x.textBaseline = "middle"; x.fillText("VENDU", -8, 1);
     x.restore();
+    // le trou et les fissures autour du crochet
+    x.strokeStyle = "rgba(70,58,38,.55)"; x.lineWidth = 1.3;
+    for (const [a, l] of [[.5, 16], [1.9, 13], [2.8, 19], [4.1, 11], [5.3, 15]]){ x.beginPath(); x.moveTo(px, py); x.lineTo(px + Math.cos(a)*l, py + 6 + Math.sin(a)*l*.6); x.stroke(); }
+    x.fillStyle = "rgba(40,32,20,.65)"; x.beginPath(); x.ellipse(px, py + 6, 9, 4, 0, 0, 6.2832); x.fill();
+    // le crochet : la tige s'enfonce, la courbe est dans la Lune
+    const gold = x.createLinearGradient(px - 12, top, px + 12, py);
+    gold.addColorStop(0, "#fff1b8"); gold.addColorStop(.5, "#e0b54a"); gold.addColorStop(1, "#9c7424");
+    x.strokeStyle = gold; x.lineWidth = 8; x.lineCap = "butt";
+    x.beginPath(); x.moveTo(px, top + 6); x.lineTo(px, py + 6); x.stroke();
+    x.lineWidth = 3.5; x.beginPath(); x.arc(px, top, 7, 0, 6.2832); x.stroke();
     t++; if (!reduce && !$("#title").hidden) requestAnimationFrame(frame); else if (!reduce) setTimeout(() => requestAnimationFrame(frame), 500);
   }
   frame();
@@ -541,5 +574,5 @@ function drawMoon(){
 
 /* ---------- démarrage ---------- */
 $("#btnResume").onclick = () => { const s = store.get("lune.save", null); if (s){ S = s; if (!N[S.node]) return showTitle(); render(); } };
-renderCast(); drawMoon();
+renderCast(); bindTabs(); drawMoon();
 </script>

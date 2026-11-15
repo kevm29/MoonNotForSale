@@ -6,4 +6,4 @@ ondine.webp, basile.webp, pistil.webp, brisefer.webp, zephyrin.webp, griselidis.
 
 `build.py` les intègre dans le HTML (le jeu reste un fichier autonome). Un personnage sans fichier garde un visuel provisoire (initiale sur fond coloré).
 
-Pour ajouter ou remplacer un portrait : réduire l'image à 320 × 320 px, WebP qualité 78 environ (40 Ko), puis `python3 build.py && python3 pack.py`.
+Pour ajouter ou remplacer un portrait : réduire l'image à 448 × 448 px, WebP qualité 74 environ (60 Ko), puis `python3 build.py && python3 pack.py`.

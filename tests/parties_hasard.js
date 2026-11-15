@@ -4,9 +4,10 @@ const dir=process.argv[2];const b=await chromium.launch();
 const p=await b.newPage({viewport:{width:1100,height:860},reducedMotion:"reduce"});
 const errs=[];p.on('pageerror',e=>errs.push('PE '+e.message));p.on('console',m=>{if(m.type()==='error')errs.push('C '+m.text())});
 const ends={};let bad=[];
-for(let run=0;run<8;run++){
+for(let run=0;run<9;run++){
   await p.goto('file://'+dir+'/out/la-lune-vendue.html');await p.evaluate(()=>localStorage.clear());await p.reload();await p.waitForTimeout(150);
-  const pcs=await p.$$('.pc'); await pcs[run%pcs.length].click(); await p.waitForTimeout(100);
+  await p.click('#tabCommencer');
+  const pcs=await p.$$('.pc'); await pcs[run%pcs.length].click(); await p.click('#sheetGo'); await p.waitForTimeout(100);
   let steps=0;
   for(;steps<250;steps++){
     if(await p.$('#again'))break;

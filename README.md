@@ -49,7 +49,7 @@ python3 tools/textcheck.py          # nœuds dont aucun texte ne s'affiche
 python3 tools/compscan.py           # compagnons nommés sans condition sur leur présence
 python3 tools/dump.py '^hub_0[1-3]$' full   # afficher des nœuds
 
-node tests/parties_hasard.js "$PWD"   # 8 parties au hasard jusqu'à une fin
+node tests/parties_hasard.js "$PWD"   # 9 parties au hasard jusqu'à une fin
 node tests/parties_ecrans.js "$PWD"   # une partie à 1200 px et une à 390 px
 node tests/carte.js "$PWD"            # la carte, sur grand et petit écran
 ```
