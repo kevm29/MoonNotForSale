@@ -6,6 +6,8 @@
 !title: La Forêt-Réseau
 !fx: +flag:vis_for regions+1
 La Forêt-Réseau. Une forêt si vieille qu'elle a une administration. Les arbres y poussent depuis toujours vers la Lune, la nuit, et vers le soleil, le jour, en un compromis lent et digne. Mais cette semaine, la Lune part de travers, et les arbres ne savent plus de quel côté pousser. Ils se tordent en spirale. Certains se sont noués entre eux, d'autres poussent à l'horizontale, l'un d'eux pousse vers le bas et s'en excuse.
+?pc:anatole Ta forêt. Derrière toi, à l'orée, la Serre des Belles-de-Nuit, et ses mille fleurs fermées. Les arbres te reconnaissent : ils ont l'habitude de te voir passer en zigzag, la nuit, entre deux lanternes.
+?pc:brisefer À l'orée, une serre de verre, posée au bord d'une fente du sol. Elle sent exactement comme ta boîte de fleurs. Sur la porte, un écriteau : « Parti chercher la Lune. Arrosez les belles-de-nuit si vous passez. » Une limace arrose le premier rang, très lentement. Tu repars sans rien dire. Tu as la gorge serrée, et tu ne sais pas pourquoi.
 ?pc:basile Tu sens la Toile sous tes pieds, la grande toile de racines et de champignons. Elle frissonne comme un tapis qu'on secoue.
 * for_02 rus11 | Chercher les Lichenautes de la forêt | Tu les trouves : une clairière couverte de mousses grises qui délibèrent. Elles délibèrent depuis trois jours sur l'ordre du jour. | Tu cherches, tu tournes, tu te retrouves trois fois devant le même arbre noué. Il te salue. | rus+1 |
 * for_03 coe10 | Écouter la forêt | La forêt craque, gémit, chuchote. Elle a mal. Une forêt qui a mal, ça fait le bruit d'une maison qui pleure par toutes ses poutres. | Tu écoutes et tu n'entends qu'un pivert qui tape au hasard, désorienté. | coe+1 |
@@ -35,7 +37,9 @@ Ton discours a fait un effet étrange. Les Lichenautes se sont mis à pousser pl
 
 @for_06
 Une petite lumière entre les branches. Elle clignote faiblement, comme une ampoule fatiguée. Tu t'approches. C'est une luciole. Une seule. Elle est assise sur une branche, devant un minuscule bureau en écorce, avec une minuscule machine à écrire. Elle tape une lettre de réclamation.
+?pc:anatole Tu la reconnais avant qu'elle parle. Tu as tourné autour d'elle, une nuit de brouillard, en 1987. Elle t'a verbalisé.
 « Bonsoir. Fernand. Dernière luciole de la Forêt-Réseau. Ancien agent du Bureau des Éclairages Nocturnes. Licencié la semaine dernière. Vous êtes là pour une réclamation ? Il y a une file d'attente. Elle est vide. Je suis toute la file. »
+?pc:anatole Il te regarde par-dessus ses lunettes. « Duvet. Le papillon de nuit. Onze procès-verbaux pour stationnement prolongé autour d'un lampadaire. » Il soupire. « Ils me manquent. Plus personne ne tourne autour de rien. »
 * for_08 coe11 | Lui demander pourquoi il a été licencié | « L'éclairage public numéro un, la Lune, a été privatisé. Le service n'a plus de raison d'exister. Nous étions trois mille lucioles. Les autres ont émigré vers des lampadaires. Moi, je reste. Par principe. Et par manque de lumière. » | « Restructuration. » Il tape plus fort. | coe+1 |
 * for_09 rus11 | Lui proposer de rédiger la réclamation avec lui | Il te tend une feuille. « Très bien. Article premier : la Lune n'est pas à vendre. Article deux : moi non plus. » Il est ironique, amer, et tape à une vitesse folle. | Il te regarde de haut. « Vous savez écrire une réclamation ? Personne ne sait. C'est un art. » | rus+1 |
 

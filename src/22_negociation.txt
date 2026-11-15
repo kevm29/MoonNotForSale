@@ -130,6 +130,7 @@ Et c'est à ce moment-là que la porte s'ouvre.
 * neg_43 coe11 ?flag:obj_miroir_platine | Poser le petit miroir d'or devant lui | Tu poses le miroir sur le marbre, sans un mot. |  |
 * neg_44 rus12 ?comp:fulgence ?flag:deguisement_fulgence | Laisser entrer la visiteuse que Fulgence a préparée | La porte s'ouvre sur une silhouette gantée, en feuilles d'or. |  |
 * neg_45 coe11 ?comp:ysaline ?flag:assemblee_femmes | Laisser Ysaline lire la motion de cette nuit | Ysaline s'avance, une feuille pliée en quatre entre deux pattes. |  |
+* neg_46 coe11 ?flag:obj_herbier | Ouvrir l'herbier des Belles-de-Nuit sous la lumière de la Lune | Tu poses le cahier bleu nuit sur le marbre, dans la lumière blanche qui tombe de la baie vitrée. |  |
 * neg_21 pan10 | Attendre ce qui arrive | Ce n'est personne. C'est une alarme. | |
 
 @neg_17

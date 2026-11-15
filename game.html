@@ -19,7 +19,7 @@ body{background:var(--nuit);color:var(--craie);font-family:var(--f-texte);font-s
   background-image:radial-gradient(ellipse at 80% -10%, rgba(241,223,160,.10), transparent 55%);background-attachment:fixed}
 button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--lune);outline-offset:2px}
-.wrap{max-width:860px;margin:0 auto;padding-block:20px 60px}
+.wrap{max-width:1180px;margin:0 auto;padding-block:14px 60px}
 h1,h2,h3{font-family:var(--f-titre);font-weight:400;text-wrap:balance;letter-spacing:.01em;margin:0}
 .eyebrow{font-family:var(--f-data);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--brume)}
 .btn{background:transparent;border:1px solid var(--ligne);border-radius:4px;padding:8px 14px;cursor:pointer;font-family:var(--f-data);font-size:13px;letter-spacing:.04em}
@@ -28,25 +28,43 @@ h1,h2,h3{font-family:var(--f-titre);font-weight:400;text-wrap:balance;letter-spa
 .btn.primary:hover{filter:brightness(1.08);color:var(--nuit)}
 /* ---------- écran titre ---------- */
 [hidden]{display:none !important}
-#title{display:grid;gap:28px;padding-top:4vh}
-.marquee{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:24px;align-items:center}
+#title{display:grid;gap:16px;padding-top:0}
+.marquee{display:grid;grid-template-columns:minmax(0,1fr) 280px;border-bottom:1px solid var(--ligne);padding-bottom:10px;gap:24px;align-items:center}
 .marquee h1 s{text-decoration:line-through;text-decoration-thickness:.07em;text-decoration-color:var(--lune);opacity:.75}
-.marquee h1{font-size:clamp(48px,9vw,92px);line-height:.95;color:var(--craie)}
+.marquee h1{font-size:clamp(44px,7vw,76px);line-height:.95;color:var(--craie)}
 .marquee h1 em{font-style:normal;color:var(--lune)}
-.marquee p{max-width:52ch;color:var(--craie-2);margin:14px 0 0}
-#moonCanvas{width:220px;height:auto;aspect-ratio:440/520;max-width:100%}
-.howto{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;border-top:1px solid var(--ligne);padding-top:18px;font-size:15px;color:var(--craie-2)}
-.howto b{display:block;color:var(--craie);font-family:var(--f-data);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;font-weight:600}
-.cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
-.pc{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:16px;text-align:left;cursor:pointer;display:grid;gap:8px;align-content:start}
-.pc:hover{border-color:var(--lune)}
-.pc h3{font-size:22px}
-.pc .sp{font-family:var(--f-data);font-size:12px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
-.pc p{margin:0;font-size:15px;color:var(--craie-2)}
-.pc .deb{font-style:italic;font-size:14px}
-.stats{display:flex;gap:12px;font-family:var(--f-data);font-size:12px;color:var(--brume)}
+.marquee p{max-width:62ch;color:var(--craie-2);margin:12px 0 0;font-size:16px}
+#moonCanvas{width:280px;height:auto;aspect-ratio:440/360;max-width:100%}
+.tabs{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;margin-top:14px}
+.tabs a{font-family:var(--f-data);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie-2);text-decoration:none;padding:10px 2px;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs a:hover{color:var(--lune);border-bottom-color:var(--lune)}
+.tabs .btn{margin-left:8px}
+.home{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:26px;align-items:start}
+.home h2{font-size:24px;color:var(--lune);margin-bottom:8px;scroll-margin-top:16px}
+.cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.pc{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:9px;text-align:left;cursor:pointer;display:grid;grid-template-columns:104px minmax(0,1fr);gap:10px;align-items:start}
+.pc:hover{border-color:var(--lune);background:var(--nuit-3)}
+.pc img{width:104px;height:104px;border-radius:4px;object-fit:cover;display:block;background:var(--nuit-3)}
+.pc .txt{display:grid;gap:3px;min-width:0}
+.pc h3{font-size:17px;line-height:1.15}
+.pc .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
+.pc p{margin:0;font-size:13px;line-height:1.35;color:var(--craie-2);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:flex;gap:10px;font-family:var(--f-data);font-size:11px;color:var(--brume)}
 .stats span b{color:var(--craie)}
-.title-actions{display:flex;flex-wrap:wrap;gap:10px}
+.rules{display:grid;gap:10px;font-size:13.5px;line-height:1.45;color:var(--craie-2);background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:16px}
+.rules b{display:block;color:var(--craie);font-family:var(--f-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:2px;font-weight:600}
+.rules p{margin:0}
+/* panneau permanent pendant la partie */
+.game-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:32px;align-items:start}
+#side{padding-top:26px;display:grid;gap:14px}
+#side .rules{gap:8px;font-size:13px}
+.side-box{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:14px;display:grid;gap:8px}
+.side-box h3{font-family:var(--f-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie);font-weight:600}
+.side-box .empty{font-size:13px;color:var(--brume);margin:0}
+.side-item{display:grid;gap:1px;font-size:13px;line-height:1.4;color:var(--craie-2);border-top:1px solid var(--ligne);padding-top:7px}
+.side-item:first-of-type{border-top:0;padding-top:0}
+.side-item strong{color:var(--craie);font-weight:600;font-size:14px}
+.side-item .sp{font-family:var(--f-data);font-size:10px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
 /* ---------- jeu ---------- */
 #hud{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(21,26,44,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--ligne);padding-block:10px;display:grid;gap:8px}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--nuit)}
@@ -62,9 +80,6 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .gauge.low .fill{background:var(--corail)}
 .mor-eff{font-size:11px;color:var(--brume);letter-spacing:0}.mor-eff span{opacity:.7}.mor-eff.up{color:var(--maree)}.mor-eff.down{color:var(--corail)}
 .gauge .lab{display:flex;justify-content:space-between}
-.team{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-family:var(--f-data);font-size:11px;border:1px solid var(--ligne);border-radius:20px;padding:3px 9px;background:var(--nuit-2);cursor:pointer;color:var(--craie-2)}
-.chip:hover{border-color:var(--maree);color:var(--maree)}
 .tools{display:flex;gap:6px}
 .tools .btn{padding:4px 9px;font-size:11px}
 #scene{padding-top:26px;display:grid;gap:18px}
@@ -102,28 +117,14 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .ending .num{font-family:var(--f-data);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--lune)}
 .ending h2{font-size:clamp(32px,6vw,52px)}
 .row{display:flex;flex-wrap:wrap;gap:10px}
-/* panneaux */
-dialog{background:var(--nuit-2);color:var(--craie);border:1px solid var(--ligne);border-radius:8px;max-width:min(720px,calc(100vw - 32px));width:100%;padding:0}
-dialog::backdrop{background:rgba(5,8,18,.7)}
-.dlg{padding:20px;display:grid;gap:14px;max-height:80vh;overflow:auto}
-.dlg h2{font-size:28px}
-.dlg-head{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.codex{display:grid;gap:12px}
-.codex article{border-top:1px solid var(--ligne);padding-top:10px}
-.codex h3{font-size:19px}
-.codex .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
-.codex p{margin:.3em 0 0;font-size:15px;color:var(--craie-2)}
-.ends{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
-.ends div{border:1px solid var(--ligne);border-radius:6px;padding:10px;font-size:14px}
-.ends div.got{border-color:var(--lune)}
-.ends b{font-family:var(--f-data);font-size:11px;color:var(--brume);display:block}
-.ends .got b{color:var(--lune)}
-.ends span{color:var(--craie-2);font-size:13px}
-.kind{font-family:var(--f-data);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--brume)}
+@media (max-width:1000px){
+  .home,.game-grid{grid-template-columns:1fr}
+  #side{padding-top:0}
+}
 @media (max-width:620px){
   .marquee{grid-template-columns:1fr}
-  #moonCanvas{justify-self:center;width:170px}
-  .howto{grid-template-columns:1fr}
+  #moonCanvas{justify-self:center;width:190px}
+  .tabs .btn{margin-left:0}
   .gauges{grid-template-columns:1fr}
   .choice{grid-template-columns:1fr}
   .choice .meta{text-align:left}
@@ -135,37 +136,37 @@ dialog::backdrop{background:rgba(5,8,18,.7)}
   <section id="title">
     <div class="marquee">
       <div>
-        <div class="eyebrow">Récit à choix · un dé · quinze fins</div>
         <h1 aria-label="Moon not for Sale, le mot « not » est barré">Moon <s>not</s> for <em>Sale</em></h1>
         <p>Un promoteur venu d'Aldébaran a acheté la Lune, légalement, avec des pâtisseries. Il a planté un crochet dedans et commence à l'emporter. Sur la Terre, les marées s'affolent, les rêves s'éteignent, les horloges s'arrêtent et l'Axe penche. Quelqu'un doit monter.</p>
-      </div>
-      <canvas id="moonCanvas" width="440" height="520" aria-label="La Lune accrochée à un câble de grue"></canvas>
-    </div>
-    <div class="howto">
-      <div><b>Le dé</b>Quand une action comporte un vrai risque, tu lances un d20 + ta caractéristique (+1 par compagnon spécialiste, +2 au plus) contre une difficulté. Un 1 rate toujours, un 20 réussit toujours. Chaque réussite et chaque échec a son propre texte. Les choix sans risque (marcher, entrer quelque part, écouter) n'ont pas de jet. Les caractéristiques montent lentement : 3 points d'expérience pour gagner +1, jusqu'à 5.</div>
-      <div><b>Les compagnons</b>Vingt et un personnages peuvent te suivre. Chacun ouvre des choix et en ferme d'autres. Ils réagissent à ce qui se passe et entre eux ; certaines de tes décisions peuvent les faire partir, ou changer leur humeur. Il y a aussi des gens qui ne voyagent pas ensemble.</div>
-      <div><b>Le moral</b>Il monte quand tu prends soin des autres, et baisse sur un échec cuisant (un 1, ou un jet raté de 6 points ou plus) ; les petits échecs ne coûtent rien. À 8 ou plus, +1 à tous tes dés. À 2 ou moins, −1. Entre les deux, aucun effet : c'est l'état normal d'un voyage.</div>
-      <div><b>Les objets</b>Sept objets sont cachés dans le monde. Ils changent la suite : un berceau peut sauver une vie, une clé peut gagner cent ans, une lettre peut faire parler la Lune.</div>
-      <div><b>L'équilibre</b>La Terre perd de l'équilibre à chaque étape pendant que la Lune s'éloigne. Sous 30 au moment final, seules les fins sombres restent.</div>
-    </div>
-    <div>
-      <div class="eyebrow" style="margin-bottom:10px">Choisis qui tu es</div>
-      <div class="cast" id="cast"></div>
-    </div>
-    <div class="title-actions">
+        <nav class="tabs" aria-label="Accueil">
+      <a href="#commencer">Commencer</a>
+      <a href="#regles">Règles du jeu</a>
       <button class="btn primary" id="btnResume" hidden>Reprendre la partie en cours</button>
-      <button class="btn" id="btnEnds1">Galerie des fins</button>
-      <button class="btn" id="btnCodex1">Personnages</button>
+    </nav>
+      </div>
+      <canvas id="moonCanvas" width="440" height="360" aria-label="La Lune, accrochée par un crochet doré, avec une étiquette « vendu » barrée"></canvas>
+    </div>
+    <div class="home">
+      <section aria-labelledby="commencer">
+        <h2 id="commencer">Commencer</h2>
+        <div class="cast" id="cast"></div>
+      </section>
+      <aside aria-labelledby="regles">
+        <h2 id="regles">Règles du jeu</h2>
+        <div class="rules" id="rules"></div>
+      </aside>
     </div>
   </section>
 
   <section id="game" hidden>
     <header id="hud"></header>
-    <div id="scene"></div>
+    <div class="game-grid">
+      <div id="scene"></div>
+      <aside id="side" aria-label="Ton équipe, tes objets et les règles"></aside>
+    </div>
   </section>
 </div>
 
-<dialog id="dlg"><div class="dlg" id="dlgBody"></div></dialog>
 
 <script>
 const TITLES=["Colonelle","Colonel","Sœur","Lord","Madame","Monsieur","Sire","Comtesse","Dame","Tante","Dr","Grand-Père","Capitaine","Le"];
@@ -256,16 +257,46 @@ const chance = (diff, bonus) => Math.max(5, Math.min(95, (21 - (diff - bonus)) *
 const pick = a => a[Math.floor(Math.random() * a.length)];
 
 /* ---------- écran titre ---------- */
+const IMG_DIR = "img/personnages/";
+function portraitFallback(p){
+  const hue = [...p.id].reduce((a, ch) => a + ch.charCodeAt(0), 0) % 360;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="hsl(${hue},35%,38%)"/><stop offset="1" stop-color="#151a2c"/></radialGradient></defs><rect width="96" height="96" fill="url(#g)"/><circle cx="74" cy="20" r="9" fill="#f1dfa0" opacity=".85"/><text x="48" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="40" fill="#ece7da">${esc(shortName(p.name)[0])}</text></svg>`;
+  return "data:image/svg+xml," + encodeURIComponent(svg);
+}
+function rulesHtml(short){
+  const nC = Object.keys(M.companions).length, nI = Object.keys(M.items || {}).length;
+  const R = [
+    ["Le dé", short ? "Une action risquée : d20 + ta caractéristique (+1 par compagnon spécialiste, +2 au plus) contre la difficulté. 1 rate, 20 réussit." :
+      "Une action risquée se joue au d20 + ta caractéristique (Panache, Ruse ou Cœur), +1 par compagnon spécialiste (+2 au plus), contre la difficulté affichée. Un 1 rate, un 20 réussit. Trois points d'expérience font monter une caractéristique de 1, jusqu'à 5."],
+    ["Les compagnons", short ? "Chacun ouvre des choix et en ferme d'autres. Certains ne voyagent pas ensemble, certains peuvent partir." :
+      `${nC} personnages peuvent te suivre. Chacun ouvre des choix et en ferme d'autres. Certains ne voyagent pas ensemble, d'autres partent si tu les heurtes.`],
+    ["Le moral", short ? "À 8 ou plus : +1 à tous tes dés. À 2 ou moins : −1." :
+      "Il monte quand tu prends soin des autres et baisse sur un échec cuisant. À 8 ou plus, +1 à tous tes dés ; à 2 ou moins, −1."],
+    ["Les objets", short ? "Ils font apparaître des choix plus loin. Certains ne servent qu'une fois." :
+      `${nI} objets sont cachés dans le monde. Chacun fait apparaître, plus loin, des choix qui n'existeraient pas sans lui.`],
+    ["L'équilibre", short ? "La Terre en perd à chaque étape. Sous 30 au moment final, seules les fins sombres restent." :
+      "La Terre en perd à chaque étape, tes réussites lui en rendent. Sous 30 au moment final, seules les fins sombres restent. Il y a quinze fins."]
+  ];
+  return R.map(([t, d]) => `<p><b>${t}</b>${esc(d)}</p>`).join("");
+}
 function renderCast(){
   $("#cast").innerHTML = M.playables.map(p => `
-    <button class="pc" data-pc="${p.id}">
-      <span class="sp">${esc(p.species)}</span>
-      <h3>${esc(p.name)}</h3>
-      <p>${esc(p.tagline)}</p>
-      <p class="deb">${esc(p.debut)}</p>
-      <div class="stats">${STATS.map((s,i)=>`<span>${SN[s]} <b>${p.stats[i]}</b></span>`).join("")}</div>
+    <button class="pc" data-pc="${p.id}" title="${esc(p.debut)}">
+      <img src="${(DATA.portraits || {})[p.id] || IMG_DIR + p.id + ".webp"}" alt="${esc(p.name)}" width="104" height="104" data-fb="${p.id}">
+      <span class="txt">
+        <span class="sp">${esc(p.species)}</span>
+        <h3>${esc(p.name)}</h3>
+        <p>${esc(p.tagline)}</p>
+        <span class="stats">${STATS.map((s,i)=>`<span>${SN[s]} <b>${p.stats[i]}</b></span>`).join("")}</span>
+      </span>
     </button>`).join("");
+  document.querySelectorAll(".pc img").forEach(img => {
+    const p = M.playables.find(x => x.id === img.dataset.fb);
+    const fb = () => { img.onerror = null; img.src = portraitFallback(p); };
+    img.onerror = fb; if (!(DATA.portraits || {})[p.id] && (location.protocol === "about:" || (img.complete && !img.naturalWidth))) fb();
+  });
   document.querySelectorAll(".pc").forEach(b => b.onclick = () => newGame(b.dataset.pc));
+  $("#rules").innerHTML = rulesHtml(false);
   $("#btnResume").hidden = !store.get("lune.save", null);
 }
 function newGame(pcId){
@@ -335,9 +366,6 @@ function hud(){
     <div class="who">${esc(p.name)}<small>${esc(p.species)}</small></div>
     <div class="statline">${STATS.map(s => `<span title="${esc(M.statHelp[s])} Expérience : ${(S.xp||{})[s]||0}/3.">${SN[s]} <b>${S.vars[s]}</b>${(S.xp||{})[s]?`<i class="xp" aria-hidden="true">${"·".repeat(S.xp[s])}</i>`:""}</span>`).join("")}</div>
     <div class="tools">
-      <button class="btn" id="tItems">Objets${heldItems().length ? ` (${heldItems().length})` : ""}</button>
-      <button class="btn" id="tCodex">Personnages</button>
-      <button class="btn" id="tEnds">Fins</button>
       <button class="btn" id="tIds" aria-pressed="${showIds}">Repères</button>
       <button class="btn" id="tQuit">Menu</button>
     </div>
@@ -346,7 +374,14 @@ function hud(){
     <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
     <div class="gauge ${m<=2?"low":""}" title="${esc(M.gauges.mor.help)}"><div class="lab"><span>MORAL</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div><div class="mor-eff ${m>=8?"up":m<=2?"down":""}">${m>=8?"+1 à tous tes dés":m<=2?"−1 à tous tes dés":"sans effet sur les dés"} <span>(8 et plus : +1 · 2 et moins : −1)</span></div></div>
   </div>
-  ${S.comp.length ? `<div class="team">${S.comp.map(c => `<button class="chip" data-comp="${c}">${esc(M.companions[c].name)} · ${SN[M.companions[c].stat]} +1</button>`).join("")}</div>` : ""}`;
+`;
+}
+function sideHtml(){
+  const team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item"><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span><strong>${esc(k.name)}</strong>${esc(k.bio.split(". ")[0])}.</div>`; }).join("");
+  const held = heldItems().map(f => `<div class="side-item"><strong>${esc(M.items[f].name)}</strong>${esc(M.items[f].desc)}</div>`).join("");
+  return `<div class="side-box"><h3>Ton équipe${S.comp.length ? ` (${S.comp.length})` : ""}</h3>${team || `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
+    <div class="side-box"><h3>Tes objets${heldItems().length ? ` (${heldItems().length})` : ""}</h3>${held || `<p class="empty">Rien encore. Il y a ${Object.keys(M.items).length} objets à trouver.</p>`}</div>
+    <div class="side-box"><h3>Règles du jeu</h3><div class="rules" style="background:none;border:0;padding:0">${rulesHtml(true)}</div></div>`;
 }
 function linesHtml(n){
   return n.lines.filter(l => allOk(l.if)).map(l => `<p>${esc(l.t)}</p>`).join("");
@@ -356,6 +391,7 @@ function quipsHtml(a){ return (a || []).map(quipHtml).join(""); }
 function render(rolling){
   showGame();
   $("#hud").innerHTML = hud();
+  $("#side").innerHTML = sideHtml();
   const n = N[S.node];
   let h = `<div>${showIds ? `<div class="node-id">${S.node}</div>` : ""}${n.title ? `<h2 class="node-title">${esc(n.title)}</h2>` : ""}</div>`;
   if (n.end){
@@ -363,9 +399,9 @@ function render(rolling){
     const got = store.get("lune.ends", {}); const count = Object.keys(got).length;
     h += `<div class="ending"><div class="num">Fin ${n.end} sur 15 · ${esc(e.kind)}</div><h2>${esc(e.title)}</h2><div class="text">${linesHtml(n)}</div>
       <div class="calc">Fins découvertes : ${count}/15 · ${S.steps} choix dans cette partie</div>
-      <div class="row"><button class="btn primary" id="again">Rejouer avec ${esc(shortName(M.playables.find(p=>p.id===S.pc).name))}</button><button class="btn" id="other">Choisir un autre personnage</button><button class="btn" id="seeEnds">Galerie des fins</button></div></div>`;
+      <div class="row"><button class="btn primary" id="again">Rejouer avec ${esc(shortName(M.playables.find(p=>p.id===S.pc).name))}</button><button class="btn" id="other">Choisir un autre personnage</button></div></div>`;
     $("#scene").innerHTML = h;
-    $("#again").onclick = () => newGame(S.pc); $("#other").onclick = showTitle; $("#seeEnds").onclick = openEnds;
+    $("#again").onclick = () => newGame(S.pc); $("#other").onclick = showTitle;
     bindHud(); return;
   }
   if (S.phase === "node"){
@@ -412,69 +448,98 @@ function render(rolling){
 }
 function bindHud(){
   const b = id => document.getElementById(id);
-  if (b("tCodex")) b("tCodex").onclick = openCodex;
-  if (b("tEnds")) b("tEnds").onclick = openEnds;
   if (b("tIds")) b("tIds").onclick = () => { showIds = !showIds; store.set("lune.ids", showIds); render(); };
   if (b("tQuit")) b("tQuit").onclick = showTitle;
-  if (b("tItems")) b("tItems").onclick = openItems;
-  document.querySelectorAll(".chip").forEach(c => c.onclick = () => openCodex(c.dataset.comp));
 }
 
-/* ---------- panneaux ---------- */
-function openDlg(html){ $("#dlgBody").innerHTML = html; $("#dlg").showModal(); $("#dlgBody .close").onclick = () => $("#dlg").close(); }
-function openCodex(focus){
-  const comps = Object.entries(M.companions);
-  const art = (name, sp, bio, extra="") => `<article><span class="sp">${esc(sp)}</span><h3>${esc(name)}</h3><p>${esc(bio)}</p>${extra}</article>`;
-  openDlg(`<div class="dlg-head"><h2>Les personnages</h2><button class="btn close">Fermer</button></div>
-    <div class="eyebrow">${M.playables.length} vies possibles</div><div class="codex">${M.playables.map(p=>art(p.name,p.species,p.bio)).join("")}</div>
-    <div class="eyebrow">${comps.length} compagnons</div><div class="codex">${comps.map(([id,c])=>art(c.name,c.species+" · spécialité "+SN[c.stat],c.bio, S && S.comp.includes(id) ? `<p class="kind">Dans ton équipe</p>` : "")).join("")}</div>
-    <div class="eyebrow">Six autres figures</div><div class="codex">${M.npcs.map(p=>art(p.name,p.species+" · "+p.role,p.bio)).join("")}</div>`);
-  if (typeof focus === "string"){ const i = comps.findIndex(([id]) => id === focus); const el = document.querySelectorAll(".codex")[1]?.children[i]; if (el) el.scrollIntoView({block:"center"}); }
-}
+/* ---------- objets tenus ---------- */
 function heldItems(){ return S && M.items ? S.flags.filter(f => M.items[f]) : []; }
-function openItems(){
-  const held = heldItems();
-  openDlg(`<div class="dlg-head"><h2>Tes objets</h2><button class="btn close">Fermer</button></div>
-    <p class="calc">Les objets se ramassent en chemin. Plus tard, ils font apparaître des choix qui n'existeraient pas sans eux. Certains servent une seule fois.</p>
-    ${held.length ? `<div class="codex">${held.map(f => `<article><span class="sp">Objet</span><h3>${esc(M.items[f].name)}</h3><p>${esc(M.items[f].desc)}</p></article>`).join("")}</div>` : `<p>Tu n'as encore rien ramassé. Il y a ${Object.keys(M.items).length} objets à trouver dans le monde.</p>`}`);
-}
-function openEnds(){
-  const got = store.get("lune.ends", {});
-  const names = id => shortName(M.playables.find(p=>p.id===id)?.name || "");
-  openDlg(`<div class="dlg-head"><h2>Les quinze fins</h2><button class="btn close">Fermer</button></div>
-    <p class="calc">${Object.keys(got).length}/15 découvertes. Les fins non découvertes montrent une piste.</p>
-    <div class="ends">${Object.entries(M.endings).map(([n,e]) => got[n] ? `<div class="got"><b>FIN ${n} · ${esc(e.kind)}</b>${esc(e.title)}<br><span>Avec ${got[n].map(names).join(", ")}</span></div>` : `<div><b>FIN ${n} · ???</b><span>${esc(e.hint)}</span></div>`).join("")}</div>`);
-}
 
 /* ---------- la Lune du titre ---------- */
 function drawMoon(){
   const cv = $("#moonCanvas"); const x = cv.getContext("2d"); const W = cv.width, H = cv.height;
   const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const craters = Array.from({length:14}, (_,i) => ({a:Math.random()*6.28, r:Math.random()*0.8, s:6+Math.random()*22}));
-  const stars = Array.from({length:60}, () => ({x:Math.random()*W, y:Math.random()*H, s:Math.random()*1.6+.3, p:Math.random()*6}));
+  let seed = 7; const rnd = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
+  const R = 122, CX = W/2 - 10, CY = 188;
+  // la surface est peinte une fois, puis reprise à chaque image
+  const tex = document.createElement("canvas"); tex.width = tex.height = R*2 + 4;
+  const t2 = tex.getContext("2d"), c = R + 2;
+  t2.save(); t2.beginPath(); t2.arc(c, c, R, 0, 6.2832); t2.clip();
+  let g = t2.createRadialGradient(c - R*.35, c - R*.4, R*.1, c, c, R*1.05);
+  g.addColorStop(0, "#fffaea"); g.addColorStop(.55, "#f0e3b8"); g.addColorStop(1, "#cdbb83");
+  t2.fillStyle = g; t2.fillRect(0, 0, tex.width, tex.height);
+  // mers : taches douces, bleu-gris
+  const maria = [[-.30,-.18,.34,.24],[.12,-.36,.22,.16],[.28,.05,.26,.20],[-.05,.30,.30,.17],[-.42,.22,.16,.12],[.40,-.20,.12,.10]];
+  for (const [mx,my,rx,ry] of maria){
+    for (let k = 0; k < 7; k++){
+      const ox = (rnd()-.5)*rx*.6, oy = (rnd()-.5)*ry*.6, px = c+(mx+ox)*R, py = c+(my+oy)*R;
+      const gg = t2.createRadialGradient(px, py, 0, px, py, rx*R*(.5+rnd()*.5));
+      gg.addColorStop(0, "rgba(128,134,150,.16)"); gg.addColorStop(1, "rgba(128,134,150,0)");
+      t2.fillStyle = gg; t2.beginPath(); t2.ellipse(px, py, rx*R, ry*R, rnd()*3, 0, 6.2832); t2.fill();
+    }
+  }
+  // grain
+  for (let k = 0; k < 2600; k++){ const a = rnd()*6.2832, r = Math.sqrt(rnd())*R; t2.fillStyle = rnd() < .5 ? "rgba(255,255,240,.10)" : "rgba(90,80,60,.08)"; t2.fillRect(c+Math.cos(a)*r, c+Math.sin(a)*r, 1.2, 1.2); }
+  // cratères : ombre en haut à gauche, lèvre claire en bas à droite (lumière venue du haut à gauche)
+  for (let k = 0; k < 22; k++){
+    const a = rnd()*6.2832, r = Math.sqrt(rnd())*R*.88, sz = 3 + Math.pow(rnd(), 2.2)*17;
+    const px = c+Math.cos(a)*r, py = c+Math.sin(a)*r;
+    t2.fillStyle = "rgba(110,100,75,.20)"; t2.beginPath(); t2.arc(px, py, sz, 0, 6.2832); t2.fill();
+    t2.lineWidth = Math.max(1, sz*.18);
+    t2.strokeStyle = "rgba(80,70,50,.28)"; t2.beginPath(); t2.arc(px, py, sz*.9, 3.5, 5.6); t2.stroke();
+    t2.strokeStyle = "rgba(255,252,235,.55)"; t2.beginPath(); t2.arc(px, py, sz*.95, .35, 2.5); t2.stroke();
+  }
+  // un cratère rayonnant
+  t2.strokeStyle = "rgba(255,250,230,.16)"; t2.lineWidth = 1.4;
+  for (let k = 0; k < 14; k++){ const a = rnd()*6.2832, l = R*(.25+rnd()*.45); t2.beginPath(); t2.moveTo(c-R*.18, c+R*.52); t2.lineTo(c-R*.18+Math.cos(a)*l, c+R*.52+Math.sin(a)*l); t2.stroke(); }
+  // terminateur et bord assombri
+  g = t2.createLinearGradient(c - R, c - R, c + R, c + R);
+  g.addColorStop(0, "rgba(255,255,255,0)"); g.addColorStop(.62, "rgba(21,26,44,0)"); g.addColorStop(1, "rgba(21,26,44,.55)");
+  t2.fillStyle = g; t2.fillRect(0, 0, tex.width, tex.height);
+  g = t2.createRadialGradient(c, c, R*.82, c, c, R);
+  g.addColorStop(0, "rgba(0,0,0,0)"); g.addColorStop(1, "rgba(60,50,30,.25)");
+  t2.fillStyle = g; t2.fillRect(0, 0, tex.width, tex.height);
+  t2.restore();
+
+  const stars = Array.from({length:70}, () => ({x:rnd()*W, y:rnd()*H, s:rnd()*1.5+.3, p:rnd()*6}));
   let t = 0;
   function frame(){
-    x.clearRect(0,0,W,H);
-    for (const s of stars){ x.globalAlpha = .35 + .35*Math.sin(t/30 + s.p); x.fillStyle = "#ece7da"; x.fillRect(s.x, s.y, s.s, s.s); }
+    x.clearRect(0, 0, W, H);
+    for (const st of stars){ x.globalAlpha = .3 + .35*Math.sin(t/40 + st.p); x.fillStyle = "#ece7da"; x.beginPath(); x.arc(st.x, st.y, st.s*.7, 0, 6.2832); x.fill(); }
     x.globalAlpha = 1;
-    const sway = reduce ? 0 : Math.sin(t/90) * 10;
-    const cx = W/2 + sway, cy = 330, R = 120;
-    x.strokeStyle = "#b9b4a7"; x.lineWidth = 3; x.beginPath(); x.moveTo(W/2, 0); x.lineTo(cx, cy - R - 26); x.stroke();
-    x.strokeStyle = "#f1dfa0"; x.lineWidth = 7; x.beginPath(); x.arc(cx, cy - R - 6, 20, Math.PI*1.05, Math.PI*2.1); x.stroke();
-    const g = x.createRadialGradient(cx-40, cy-40, 10, cx, cy, R); g.addColorStop(0, "#fbf3d4"); g.addColorStop(1, "#d8c98f");
-    x.fillStyle = g; x.beginPath(); x.arc(cx, cy, R, 0, 6.29); x.fill();
-    x.fillStyle = "rgba(120,110,80,.22)";
-    for (const c of craters){ x.beginPath(); x.arc(cx + Math.cos(c.a)*c.r*R*.85, cy + Math.sin(c.a)*c.r*R*.85, c.s, 0, 6.29); x.fill(); }
-    x.fillStyle = "#151a2c"; x.font = "bold 30px 'IBM Plex Mono', monospace"; x.textAlign = "center";
-    x.save(); x.translate(cx, cy+8); x.rotate(-0.12); x.fillText("VENDU", 0, 0); x.restore();
+    const sway = reduce ? 0 : Math.sin(t/110) * .05;
+    const cx = CX + Math.sin(sway) * 40, cy = CY;
+    // halo
+    const h = x.createRadialGradient(cx, cy, R*.95, cx, cy, R*1.42);
+    h.addColorStop(0, "rgba(241,223,160,.28)"); h.addColorStop(1, "rgba(241,223,160,0)");
+    x.fillStyle = h; x.beginPath(); x.arc(cx, cy, R*1.42, 0, 6.2832); x.fill();
+    // câble doré jusqu'au crochet planté en haut à droite
+    const hx = cx + R*.52, hy = cy - R*.86;
+    x.strokeStyle = "rgba(241,223,160,.85)"; x.lineWidth = 2.2; x.beginPath(); x.moveTo(CX + 30, 0); x.quadraticCurveTo(CX + 34, hy*.5, hx, hy - 34); x.stroke();
+    // la Lune
+    x.save(); x.translate(cx, cy); x.rotate(sway*.6); x.drawImage(tex, -R-2, -R-2); x.restore();
+    // le crochet
+    const gold = x.createLinearGradient(hx - 16, hy - 40, hx + 16, hy + 6);
+    gold.addColorStop(0, "#fff1b8"); gold.addColorStop(.5, "#e0b54a"); gold.addColorStop(1, "#9c7424");
+    x.strokeStyle = gold; x.lineWidth = 7; x.lineCap = "round";
+    x.beginPath(); x.moveTo(hx, hy - 34); x.lineTo(hx, hy - 18); x.arc(hx - 11, hy - 18, 11, 0, Math.PI*.95); x.stroke();
+    x.fillStyle = "#e0b54a"; x.beginPath(); x.arc(hx, hy - 34, 4.5, 0, 6.2832); x.fill();
+    // l'étiquette « VENDU », barrée
+    const tsw = reduce ? 0 : Math.sin(t/70) * .12;
+    x.save(); x.translate(hx + 2, hy - 30); x.rotate(.35 + tsw);
+    x.strokeStyle = "rgba(236,231,218,.7)"; x.lineWidth = 1.2; x.beginPath(); x.moveTo(0, 0); x.lineTo(0, 44); x.stroke();
+    x.translate(0, 44);
+    x.fillStyle = "#ece7da"; x.beginPath(); x.moveTo(-44, 13); x.lineTo(-32, -6); x.lineTo(44, -6); x.lineTo(44, 32); x.lineTo(-32, 32); x.closePath(); x.fill();
+    x.fillStyle = "#151a2c"; x.beginPath(); x.arc(-30, 13, 3.5, 0, 6.2832); x.fill();
+    x.font = "600 19px 'IBM Plex Mono', monospace"; x.textAlign = "center"; x.fillText("VENDU", 7, 20);
+    x.strokeStyle = "#c0533f"; x.lineWidth = 2.4; x.beginPath(); x.moveTo(-20, 13); x.lineTo(36, 13); x.stroke();
+    x.restore();
     t++; if (!reduce && !$("#title").hidden) requestAnimationFrame(frame); else if (!reduce) setTimeout(() => requestAnimationFrame(frame), 500);
   }
   frame();
 }
 
 /* ---------- démarrage ---------- */
-$("#btnEnds1").onclick = openEnds;
-$("#btnCodex1").onclick = () => openCodex();
 $("#btnResume").onclick = () => { const s = store.get("lune.save", null); if (s){ S = s; if (!N[S.node]) return showTitle(); render(); } };
 renderCast(); drawMoon();
 </script>

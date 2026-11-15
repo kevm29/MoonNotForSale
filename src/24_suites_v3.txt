@@ -144,6 +144,14 @@ Tu sors le petit miroir d'or, rayé, et tu le poses sur le bureau, devant lui. P
 « Où avez-vous trouvé ça ? » Sa voix est minuscule. « Ma mère l'a vendu. Avec le coffre. Avec l'ours. Elle a dit que je n'en avais plus besoin, que j'étais grand. » Il prend le miroir. Il regarde dedans. Il y voit un enfant en feuilles d'or, assis dans un coffre, qui attend qu'on vienne le chercher. Il y voit aussi, derrière, ton reflet à toi.
 * neg_21 coe11 | « Quelqu'un est venu, cette fois. » | Platine pleure. Des feuilles d'or tombent sur le marbre. Il ne les ramasse pas. « J'ai acheté la Lune parce qu'elle avait quelqu'un. » Il regarde le miroir. « Moi aussi, j'ai quelqu'un, peut-être. » | Il serre le miroir contre lui sans rien dire. Il ne te regarde pas. Mais il ne te demande pas de partir. | -flag:obj_miroir_platine +flag:platine_emu +flag:platine_faille mor+2 | -flag:obj_miroir_platine +flag:platine_emu +flag:platine_faille
 
+@neg_46
+!title: L'herbier
+Tu ouvres l'herbier dans la lumière de la Lune. Sept cent vingt belles-de-nuit, pressées, datées, numérotées. Elles frémissent. Puis, une à une, elles se déplient sur le papier, un tout petit peu, comme des mains qui se réveillent.
+Platine se penche. Il ne dit rien pendant longtemps. « Elles bougent », dit-il enfin. « Elles sont mortes, et elles bougent. »
+« Elles ne s'ouvrent que pour elle. Depuis toujours. Même séchées. Si elle part, plus aucune ne s'ouvrira, nulle part. Ni ici, ni chez vous. »
+Il tend un doigt d'or vers une fleur, sans oser la toucher. « On ne m'avait pas dit qu'elle avait des fleurs. On m'a vendu un satellite. Pas un satellite avec des fleurs. »
+* neg_21 coe11 | Lui laisser une fleur | Tu détaches la plus belle, celle de la nuit où tu as eu cinquante ans, et tu la poses dans sa paume. Elle se déplie encore un peu. Il la regarde comme on regarde quelqu'un qui vous a reconnu. « Elle a quelqu'un », murmure-t-il. « Elle a même des fleurs. » | Tu lui tends une fleur. Il n'ose pas la prendre. Tu la poses sur le bureau, devant lui. Il ne la quitte plus des yeux. | -flag:obj_herbier +flag:platine_emu +flag:platine_faille mor+2 | -flag:obj_herbier +flag:platine_emu
+
 @neg_44
 !title: Une visite de famille
 La porte s'ouvre. Une vieille dame en feuilles d'or entre, gantée, la tête haute. Platine se lève d'un bond, comme un enfant. « Mère ? »

@@ -10,6 +10,7 @@ Les Hauts-Nuages sont dégonflés. Partout, des nuages plats, gris, affaissés c
 ?pc:griselidis Tu connais ce ciel par cœur : tu y as distribué le courrier pendant trente ans. Tu ne l'as jamais vu aussi silencieux. Même les Vents de service ont l'air de chuchoter.
 ?pc:pelagie Nous n'aimons pas l'altitude. Trois d'entre nous ont le vertige, deux le mal de l'air, et Sœur Gertrude refuse de regarder en bas. Nous avançons en essaim serré, en récitant la liste des fleurs.
 ?pc:barnabe Ici, la Lune est si proche que ton poil se dresse. Tu as envie de hurler. Tu te retiens, par politesse envers les nuages, qui ont l'air de dormir.
+?pc:anatole Ici, il n'y a pas une lampe. Rien que la Lune, énorme, à deux heures de ton aile gauche. Tu voles droit sans même y penser. Tu en pleurerais.
 * nua_02 pan10 | Marcher vers le cœur des nuages | Tu marches. Chaque pas fait un petit soupir sous tes pieds. Tu t'excuses à chaque fois. | Tu passes à travers un nuage trop mince et tu te rattrapes de justesse à un cumulus. Il te regarde de haut. | pan+1 |
 * nua_03 rus10 | Suivre les gros tuyaux qui serpentent entre les nuages | Les tuyaux sont neufs, dorés, gravés d'un petit logo en forme de feuille d'or. Ils aspirent quelque chose. Tu suis le bruit de succion. | Tu suis un tuyau, puis un autre, puis tu reviens au premier. Tu finis par trouver la station en suivant l'odeur de graisse. | rus+1 |
 
@@ -152,6 +153,7 @@ Le soir tombe sur les Hauts-Nuages, et pour une fois il pleut un peu : une petit
 ?flag:ondee_pleut Au loin, vers l'ouest, Dame Ondée pleut sur des champs qui l'attendaient. Tu l'entends chanter. Un orage qui chante, ça ressemble à une grand-mère qui fait la vaisselle.
 ?flag:gaspard_repose À l'endroit où était la nacelle, il reste une corde qui pend dans le vide. Tu ne sais pas pourquoi, mais tu as envie de lui dire bonne nuit.
 ?pc:barnabe Tu hurles, enfin. Un hurlement court, pour la Lune, si près. Elle frémit. Tu n'oses pas croire qu'elle t'a entendu.
+?pc:anatole ?flag:obj_herbier Tu ouvres l'herbier sous la Lune, si proche. Les belles-de-nuit pressées se déplient presque entièrement. Une seconde, ton gilet sent la serre.
 ~gaspard: « Je reviendrai par ici, quand tout sera fini. Si on finit. »
 ~ondee: « On descend par l'échelle ? Je préfère tomber. C'est plus naturel. »
 ~zouzou: « Je peux te descendre en trois secondes. Tu arriveras en vie à quatre-vingts pour cent. »

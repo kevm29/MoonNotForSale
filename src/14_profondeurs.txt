@@ -71,7 +71,8 @@ Il te tend une petite plaque de granit gravée : « Médaille de l'Axe, troisiè
 @pro_10
 Le tunnel de la Faille. Il descend, encore, toujours. Les parois sont couvertes de dessins anciens : des Gravitaires assis sur l'Axe, depuis l'aube des temps.
 ?pc:brisefer Tu repasses devant ton portrait, jeune, avec une fleur derrière l'oreille. Cette fois, tu ne détournes pas les yeux.
-?!pc:brisefer Au bout du tunnel, un souffle froid. Une voix. « Encore quelqu'un. Tout le monde vient me voir, en ce moment. Je n'ai jamais été aussi populaire. »
+?!pc:brisefer ?!pc:anatole Au bout du tunnel, un souffle froid. Une voix. « Encore quelqu'un. Tout le monde vient me voir, en ce moment. Je n'ai jamais été aussi populaire. »
+?pc:anatole Au bout du tunnel, un souffle tiède, qui sent la pierre très ancienne. Tu le connais. C'est celui de la Fente, au fond de ta serre. « Tiens. Le jardinier. Je reconnais ton odeur de terreau, petit. Soixante ans que tu me nourris de pétales. »
 ?pc:brisefer Au bout du tunnel, un souffle froid. Une voix. « Brisefer. Deux fois en une semaine. Après trois mille ans de silence. Tu vas finir par m'aimer, petite. »
 * pro_12 coe10 | Saluer la Faille | « Bonjour, Grand-Mère. » « Grand-Mère ? Je suis un trou. Mais j'aime qu'on m'appelle Grand-Mère. » | |
 * pro_12 rus11 | Lui demander directement l'avenir | « Directement ? Quelle impolitesse. J'adore. » | |
@@ -99,6 +100,7 @@ Le Commandant reste assis sur l'Axe, les yeux fermés, à imaginer la Lune. « G
 
 @pro_15
 La Faille t'indique un passage étroit, où la roche brille. « La géode de Quartz. Fais attention, elle explique tout. Tout. Même ce qu'on ne lui demande pas. Surtout ce qu'on ne lui demande pas. »
+?pc:anatole Avant que tu partes, la Faille souffle encore : « Tes fleurs fanées, je les sèche, et je les envoie plus bas, à une petite qui est restée assise trois mille ans sur l'Axe. Une colonelle. Elle les garde dans une boîte. Elle ne sait pas que c'est toi. Elle est montée, elle aussi. Si tu la croises, elle est en granit et elle ne sourit pas. Dis-lui bonjour de ma part. »
 ?pc:brisefer ?flag:promesse_fleur,flag:fleurs_faille « Et toi, petite, tu as trouvé une fleur vivante ? »
 ?pc:brisefer ?flag:marguerite Tu sors de ta cuirasse la marguerite cueillie à la surface et tu la poses au bord du gouffre. La Faille soupire de bonheur, un long courant d'air tiède qui fait trembler les pétales sans les arracher.
 ?pc:brisefer ?flag:promesse_fleur,flag:fleurs_faille ?!flag:marguerite Tu n'as pas de fleur. Tu le dis. Elle soupire quand même. « La prochaine fois. J'ai le temps. »

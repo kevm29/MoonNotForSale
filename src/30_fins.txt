@@ -37,6 +37,7 @@ Platine, lui, ouvre un cabinet de conseil en contrats parfaits, sur une petite c
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune n'a jamais dit oui. Il fallait juste que quelqu'un le lise.
 
 @end_02
@@ -75,6 +76,7 @@ Dans la galaxie, on se moque de Platine : le promoteur qui a revendu un satellit
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune est à la Terre, maintenant. Officiellement. La Terre a décidé de ne jamais s'en servir.
 
 @end_03
@@ -112,6 +114,7 @@ La Lune s'arrête. Elle se retourne. Elle voit la Terre qui vient vers elle, à 
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Ils ont appris une chose qu'ils ne savaient pas : quand quelqu'un qu'on aime s'en va, on peut le suivre.
 
 @end_04
@@ -160,6 +163,7 @@ Platine pleure, des feuilles d'or qui tombent comme une pluie d'automne. « Elle
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Depuis, chaque année, le jour anniversaire, la Terre entière dit merci à la Lune. Ça ne sert à rien. Ça la rend très heureuse.
 
 @end_06
@@ -196,6 +200,7 @@ Aujourd'hui, la Lune appartient à un syndicat de copropriétaires composé d'un
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune tourne. Elle ne sait pas qu'elle est en copropriété. Personne ne le lui a dit. C'est mieux comme ça.
 
 @end_07
@@ -233,6 +238,7 @@ Il vit aujourd'hui sur Terre, dans une petite maison au bord de la mer, près de
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Il écrit toujours des poèmes. Ils sont toujours mauvais. Mais maintenant, il les lit à voix haute, le soir, sur la plage. Et la Lune, là-haut, l'écoute.
 
 @end_08
@@ -280,6 +286,7 @@ La Lune attend la décision. Elle a l'habitude d'attendre.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 On ne sait pas comment ça finira. Personne ne le sait. C'est le principe d'un procès. C'est le principe de tout, en fait.
 
 @end_10
@@ -360,6 +367,7 @@ Platine a porté plainte pour vol. Rocambole a porté plainte pour « contrat de
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Rocambole vit aujourd'hui sur Terre. Il pilote un bateau de pêche avec quatre bras. Il salue toutes les vaches. Il regarde la Lune tous les soirs, et il ne la vole pas. Ça lui demande un effort considérable.
 
 @end_14
@@ -396,6 +404,7 @@ Elle ne répète plus. Elle parle. Pas beaucoup : trois ou quatre mots à elle, 
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Elle le dit souvent. Elle a l'air de beaucoup l'aimer.
 
 @end_15

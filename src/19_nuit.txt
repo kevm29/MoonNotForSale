@@ -45,6 +45,7 @@ Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les
 * nui_53 ?nuit<3 ?pc:griselidis ?!flag:n_gri | Trier le courrier que le Carrefour t'a confié pour la Lune | Ta sacoche déborde. Depuis ton arrivée, on t'a donné des lettres. Pour la Lune, toutes. |  |
 * nui_54 ?nuit<3 ?pc:pelagie ?!flag:n_pel | Réunir le chapitre de l'essaim | Nous nous posons sur une branche morte, les trois cents, et nous tenons conseil. Il y a une question à régler. |  |
 * nui_55 ?nuit<3 ?pc:barnabe ?!flag:n_lou | Monter sur la colline pour hurler | Tu montes sur la colline. Le poil se dresse sur tout ton corps. La Lune est si proche. |  |
+* nui_59 ?nuit<3 ?pc:anatole ?!flag:n_noc | Voler vers la Lune, tout droit, aussi haut que tu peux | Tu ouvres les ailes au-dessus du camp. En bas, mille lampions t'appellent. Tu ne regardes que la Lune. |  |
 * nui_60 ?nuit<3 ?!flag:n_feu | Rester au feu, et chanter avec ceux qui ne dorment pas | Quelqu'un a sorti un accordéon. Quelqu'un d'autre a sorti un deuxième accordéon. C'est une catastrophe, et c'est merveilleux. |  |
 * nui_61 ?nuit<3 ?!flag:n_reg | Marcher seul·e jusqu'au bord du camp, pour regarder la Lune | Tu t'éloignes. Le bruit du camp s'efface. Il reste la Lune et toi. |  |
 * nui_30 ?comp:remontoir ?!flag:n_rem | Dormir enfin, jusqu'à l'aube | Tu t'allonges. Tu fermes les yeux. Le dernier son que tu entends, c'est un tic-tac, très lent. |  |
@@ -269,6 +270,14 @@ Sur la colline, tu lèves la tête. La Lune est si proche. Ton poil se dresse. T
 ?flag:mort_hector Tu penses à Hector. Il aurait hurlé avec toi. Il aurait hurlé faux, et fort.
 ?flag:louveteaux En bas, dans le camp, des petites voix te répondent. Les louveteaux. Ils te cherchent.
 * nui_02 pan11 | Hurler, enfin, de toutes tes forces | Tu hurles. Le hurlement monte, monte, jusqu'à elle. Et tu jurerais qu'elle a frémi, qu'elle a tourné la tête vers toi. Tu redescends en tremblant. Tu n'as jamais été aussi loup. | Le hurlement se casse au milieu. Tu as la gorge serrée. Tu recommences plus bas, plus doux. C'est un hurlement de chagrin. Il compte aussi. | +flag:hurlement_lune mor+2 | mor+1
+
+@nui_59
+!title: Le vol droit
+!fx: +flag:n_noc nuit+1
+Tu montes. Les lampions du Carrefour rapetissent, deviennent des miettes, puis plus rien. Il ne reste que la Lune, énorme, penchée, avec son crochet d'or dans le flanc. Tu ne l'as jamais vue de si près. Aucune Noctuelle ne l'a jamais vue de si près.
+?flag:obj_herbier L'herbier pèse contre ta poitrine. Tu pourrais y presser une dernière belle-de-nuit, si tu en avais une. Tu n'en as pas. Tu as la Lune.
+?flag:noctuelles_guidees Autour de toi, des points gris montent aussi, de tous les côtés de la plaine. Les Noctuelles du réverbère. Elles t'ont suivi.
+* nui_02 rus11 | Tenir le cap jusqu'au bout de tes forces | Tu montes encore, la Lune à deux heures de l'aile gauche, jusqu'à ce que l'air devienne trop mince pour porter une aile. Là, une seconde, tu la touches presque. Elle a une odeur : celle de ta serre, une nuit d'été. Tu redescends en planant, lentement, et tu sais exactement où tu vas, pour la première fois depuis des jours. | Le vent te renverse à mi-hauteur. Tu tournes, tu tombes, tu te rattrapes au-dessus d'un brasero, et tu en fais trois fois le tour. Puis tu relèves la tête, tu retrouves la Lune, et tu rentres. C'est un vol droit avec des détours. Il compte aussi. | +flag:vol_droit mor+2 rus+1 | mor+1
 
 # ---------------------------------------------------------------- pour tous
 

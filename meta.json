@@ -132,6 +132,20 @@
    "tagline": "Lycanthrope distingué qui perd son loup un peu plus chaque nuit où la Lune s'éloigne.",
    "bio": "Barnabé a été loup trois nuits par mois pendant deux siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
    "debut": "Commence au Club des Lycanthropes Distingués, le soir de ce qui devrait être la dernière pleine lune."
+  },
+  {
+   "id": "anatole",
+   "name": "Anatole Duvet",
+   "species": "Noctuelle",
+   "start": "ana_01",
+   "stats": [
+    0,
+    3,
+    3
+   ],
+   "tagline": "Jardinier de nuit, papillon gris, il se dirige à la Lune et se perd autour de toutes les lampes.",
+   "bio": "Les Noctuelles sont des papillons de nuit de la taille d'un parapluie plié. Elles volent droit en gardant la Lune au même angle de l'aile ; quand elles se trompent de lumière, elles tournent autour des lampes jusqu'au matin. Anatole soigne depuis soixante ans la Serre des Belles-de-Nuit, des fleurs qui ne s'ouvrent que sous la Lune. Timide, minutieux, poli avec les limaces. Chaque matin, il balaie les fleurs fanées dans une fente du sol, sans savoir où elles vont.",
+   "debut": "Commence à la Serre des Belles-de-Nuit, à l'orée de la Forêt-Réseau, le soir où les fleurs refusent de s'ouvrir."
   }
  ],
  "companions": {
@@ -889,6 +903,10 @@
   "obj_cle_grue": {
    "name": "La clé de la grue numéro 14",
    "desc": "Une clé dorée prise à la ceinture du contremaître endormi. La grue 14 grince quand elle pleure."
+  },
+  "obj_herbier": {
+   "name": "L'herbier des Belles-de-Nuit",
+   "desc": "Soixante ans de belles-de-nuit pressées, une par pleine lune. Ouvert sous la Lune, il se déplie un peu, comme s'il se souvenait. Il sent la vraie nuit."
   }
  }
 }

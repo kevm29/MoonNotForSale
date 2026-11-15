@@ -223,6 +223,7 @@
 
 @+foi_02
 ~ysaline ?foire<1 ?comp:fulgence: Fulgence passe devant le stand du Syndicat en prenant la forme d'un chat. Il ne veut pas être reconnu. Tu ne comprends pas encore pourquoi.
+~melusine ?foire<1 ?pc:anatole: « UN PAPILLON DE NUIT ! TU VEUX UNE ÉCHARPE EN LUMIÈRE DE LUNE ? NON ! TU LA MANGERAIS ! JE TE CONNAIS ! » Elle t'en tricote une quand même.
 ~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Vous m'invitez à la tente noire, Lord Frissepoil ? »
 ~bartho ?foire<1: « Une foire. On va recruter des gens comme on achète du poisson. Je préviens : moi j'ai été pêché d'abord. »
 ~penelope ?foire<1: « J'ai envie de tamponner tous les stands. APPROUVÉ, APPROUVÉ, APPROUVÉ. Je me retiens. »
@@ -248,6 +249,9 @@
 ~fernand ?nuit<1 ?comp:ondee: Fernand ne dépose aucune réclamation ce soir. Il regarde Dame Ondée flotter au-dessus du feu. Il ne regarde qu'elle.
 ~quartz ?nuit<1 ?comp:pardon: Le Docteur Quartz a fait une place à Pardon à côté d'elle. Elle lui explique les étoiles. Elle se trompe sur toutes. Il ne la corrige pas.
 ~melusine ?nuit<1 ?comp:plumard: Tante Mélusine tricote une écharpe en lumière de Lune. Pour qui ? Elle ne veut pas le dire. Elle regarde le Colonel en coin.
+~fernand ?nuit<1 ?pc:anatole: Fernand s'est posé sur ton épaule. « Duvet. Vous ne tournez plus autour de moi. Je ne sais pas si je dois être soulagé ou vexé. » Il reste.
+~vesperine ?nuit<1 ?pc:anatole: « Un papillon de nuit. Nous sommes du même quartier, vous et moi, Monsieur Duvet. Celui où les lampes ne sont pas les bienvenues. »
+~zouzou ?nuit<1 ?pc:anatole: « Arrête de me regarder comme ça. Je suis une comète, pas une lanterne. » Elle brille un peu moins, par gentillesse.
 ~vesperine ?nuit<1 ?pc:barnabe: Vespérine s'assied à côté de toi, à distance respectable. Puis un peu moins respectable.
 ~vesperine ?nuit<1 ?comp:fulgence: Fulgence prend la forme d'un astronome du Moyen Âge pour plaire à Vespérine. Elle le regarde longtemps. « Pas celui-là. » Il redevient lui-même, gêné.
 ~coquille ?flag:croissant: Madame Coquille couve le petit Croissant sous son cou. Elle ne dort pas. Elle le regarde respirer.

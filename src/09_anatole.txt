@@ -1,0 +1,114 @@
+# ================================================================
+# PROLOGUE — ANATOLE DUVET, jardinier de nuit (Noctuelle)
+# ================================================================
+
+@ana_01
+!title: La Serre des Belles-de-Nuit
+À l'orée de la Forêt-Réseau, au bord d'une fente si étroite qu'on la prend pour une ride du sol, il y a une serre de verre. Dedans poussent mille belles-de-nuit : des fleurs blanches qui ne s'ouvrent que lorsque la Lune les regarde. Le jardinier de nuit s'appelle Anatole Duvet. C'est toi.
+Tu es une Noctuelle. Un papillon de nuit de la taille d'un parapluie plié, poudré de gris, avec des antennes en plumes et un gilet de jardinier qui a plus de poches que de boutons. Les Noctuelles se dirigent à la Lune : elles la gardent toujours au même angle de l'aile, et elles vont droit. Quand elles se trompent de lumière, elles tournent autour des lampes jusqu'au matin. C'est la honte de l'espèce. Tu as soixante ans de carrière et onze amendes pour stationnement prolongé autour d'un lampadaire.
+Ce soir, comme tous les soirs, tu arrives à la serre à l'heure exacte où la Lune se lève.
+* ana_02 coe10 | Commencer ta tournée d'arrosage | Tu prends l'arrosoir de cuivre, celui qui fuit un peu à gauche. Tu le connais par cœur. Il te connaît aussi. | | coe+1 |
+* ana_03 rus10 | Lever d'abord les yeux vers la Lune, pour prendre ton cap | Tu sors sur le seuil, les antennes dressées, comme ta mère te l'a appris. | | rus+1 |
+
+@ana_02
+Les belles-de-nuit ne s'ouvrent pas. Mille boutons fermés, serrés comme des poings d'enfants qui boudent. Tu leur parles. Tu les arroses à l'eau de pluie tiède. Tu leur chantes la berceuse des jardiniers, celle qui n'a qu'un couplet et qu'on recommence jusqu'à ce que quelqu'un s'endorme.
+Rien. Une seule, au fond, entrouvre un pétale, regarde le ciel par la vitre, et se referme. Déçue.
+* ana_04 rus10 | Regarder ce qu'elle a vu | Tu lèves les yeux vers la vitre. | |
+
+@ana_03
+La Lune se lève. Tu prends ton cap sur elle : la Lune à deux heures de l'aile gauche, et tout droit. Tu décolles pour faire le tour de la serre, comme chaque soir.
+Tu atterris dix minutes plus tard au même endroit, étourdi. Tu as fait trois fois le tour de la lanterne de la porte. La Lune est trop loin, ce soir, pour tenir un cap. La lanterne, elle, est tout près.
+* ana_04 pan10 | Faire semblant que c'était voulu | Tu époussettes tes ailes. Personne ne t'a vu. Une limace t'a vu. Elle ne dira rien. | Tu te prends les pattes dans le tuyau d'arrosage. La limace détourne poliment les yeux. | |
+
+@ana_04
+!title: La lanterne
+?from:ana_02 Par la vitre, la Lune. Petite, penchée, avec un éclat doré planté dans le flanc, comme une broche mal mise. Les belles-de-nuit ne s'ouvrent pas pour une Lune qui s'en va. Elles ont leur fierté.
+?from:ana_03 Dans la serre, les belles-de-nuit sont restées fermées. Mille boutons serrés comme des poings d'enfants qui boudent. Là-haut, la Lune est petite, et elle penche, avec un éclat doré planté dans le flanc. Les belles-de-nuit ne s'ouvrent pas pour une Lune qui s'en va.
+Au-dessus de la porte, la lanterne brûle, ronde, jaune, parfaite. Elle t'appelle. Tu sens tes ailes se tourner vers elle toutes seules, comme une aiguille de boussole qui aurait faim. Et tu comprends une chose très simple et très grave : si la Lune part, toutes les Noctuelles du monde tourneront autour des lampes jusqu'à la fin des temps.
+* ana_05 rus11 | Souffler la lanterne | Tu souffles. Le noir revient. Et dans le noir, la Lune redevient la seule lumière. Petite, mais seule. Tu peux de nouveau la suivre. | Tu souffles trop fort : tu pars à reculons et tu atterris dans les arrosoirs. La lanterne est éteinte quand même. | rus+1 +flag:lanterne_soufflee | +flag:lanterne_soufflee
+* ana_06 coe11 | Laisser la lanterne allumée, et la regarder en face | Tu la regardes. Tu résistes. Tes ailes tremblent. Tu restes posé. C'est la chose la plus difficile que tu aies faite depuis ta mue. | Tu la regardes, et tu fais deux tours avant de te reprendre. Un et demi. Disons deux. | coe+1 |
+
+@ana_05
+Dans le noir, tu entends un bruit. Un tout petit bruit, qui vient du sol, au fond de la serre. La Fente respire.
+Chaque matin, depuis soixante ans, tu balaies les belles-de-nuit fanées dans la Fente : c'est le règlement des jardiniers, ce qui a fleuri doit retourner à la terre. Chaque matin, la Fente avale les fleurs sans un mot. Ce soir, elle souffle un courant d'air tiède qui sent la pierre très ancienne. Et dans le courant d'air, une voix, si lointaine qu'on dirait un souvenir :
+« ... pas de fleurs, ce matin ? »
+* ana_07 coe11 | Te pencher sur la Fente et répondre | « Elles ne se sont pas ouvertes, madame. Elles n'ont pas pu faner. » Tu ne sais pas pourquoi tu as dit « madame ». La Fente non plus, mais elle a l'air contente. | « Elles... » Ta voix se perd dans la Fente. Elle descend très loin. Elle met longtemps à arriver. | coe+1 |
+* ana_07 rus10 | Retenir ton souffle, et écouter encore | Tu ne bouges plus une antenne. La voix reprend. | |
+
+@ana_06
+Tu restes posé devant la lanterne. Une minute. Deux. Derrière la vitre, dans la nuit, un nuage gris passe, puis un autre. Puis tu comprends : ce ne sont pas des nuages. Ce sont des Noctuelles. Toutes celles de la forêt, des milliers, qui tourbillonnent autour des réverbères du village voisin parce que la Lune est trop loin pour les guider.
+Ta cousine Séraphine passe devant la vitre, à l'envers, en criant : « ANATOLE ! OÙ EST LE HAUT ? »
+* ana_08 rus11 | Lui crier un cap | « La Lune à deux heures de l'aile gauche, Séraphine ! Pas le réverbère ! » Elle se retourne, à l'endroit, pour la première fois depuis trois nuits. | « Le haut, c'est... » Tu hésites. Elle repart à l'envers. Tu as hésité, toi aussi. | rus+1 +flag:seraphine | +flag:seraphine
+* ana_08 coe10 | Ouvrir la porte et la faire entrer | Elle entre en vrille, heurte trois pots et s'effondre dans le terreau, soulagée. | | +flag:seraphine |
+
+@ana_07
+La voix reprend, plus près, ou plus fort :
+« Quelqu'un en bas les attend, tes fleurs. Depuis longtemps. Elle ne dit jamais merci, elle ne sait pas comment on fait. Mais elle les attend. »
+Tu demandes qui. Tu demandes où. La Fente souffle encore un peu, comme on soupire avant de dormir, puis elle se tait. Une Fente, ça ne fait pas la conversation. Ça dit une chose, et ça se referme.
+Tu restes à genoux au bord, l'arrosoir à la main. Soixante ans que tu balaies des fleurs dans un trou. Soixante ans que quelqu'un les attend.
+* ana_09 coe10 | Te relever, le cœur battant | Tu te relèves. Tu as les genoux pleins de terreau et la tête pleine de questions. | | +flag:fente_voix mor+1 |
+
+@ana_08
+Séraphine reprend son souffle, couverte de poudre grise. « Tout le monde tourne, Anatole. Les vieux, les petits. L'oncle Ferdinand a fait six cents fois le tour d'une enseigne de pharmacie. Il est vert. » Elle te regarde avec des yeux immenses. « Il paraît qu'on vend la Lune. Il paraît qu'un monsieur en or l'emporte. Qu'est-ce qu'on va devenir ? »
+* ana_09 coe11 | La rassurer | « On va la suivre, Séraphine. Jusqu'au bout. Les Noctuelles vont toujours tout droit vers la Lune. Même quand elle s'en va. Surtout quand elle s'en va. » | Tu cherches une phrase rassurante. Tu trouves « ça va aller ». Ça ne rassure personne, mais elle hoche la tête. | mor+1 |
+* ana_09 rus10 | Lui demander où se réunissent les autres peuples | « Au Carrefour des Espèces, dit-on. Le Conseil va se réunir. Mais c'est loin, et il y a des lampadaires partout sur la route. » | | |
+
+@ana_09
+!title: L'herbier
+Sur l'étagère du fond, entre les sachets de graines et la thermos de tilleul, il y a ton herbier. Un gros cahier de toile bleu nuit, gonflé comme un oreiller. Depuis soixante ans, chaque nuit de pleine lune, tu y presses une belle-de-nuit au moment exact où elle s'ouvre. Sept cent vingt fleurs, une par pleine lune, datées, numérotées, avec l'heure.
+Elles ont gardé quelque chose. Quand on ouvre le cahier sous la Lune, elles se déplient un tout petit peu, comme si elles se souvenaient.
+?flag:fente_voix Tu repenses à la voix. « Quelqu'un en bas les attend. » Tu ne sais pas où tu vas. Mais tu sais ce que tu emportes.
+?flag:seraphine Séraphine regarde l'herbier par-dessus ton épaule. « Tu vas partir avec ça ? C'est lourd. » « C'est la nuit, Séraphine. Ça ne pèse rien. » Ça pèse trois kilos.
+* ana_10 coe10 | Ouvrir l'herbier sous la vitre, une dernière fois | Tu l'ouvres sous la Lune. Les fleurs pressées frémissent, très peu. Moins que l'an dernier. Comme une voix qui s'éloigne au téléphone. | | coe+1 |
+* ana_10 rus10 | Le glisser dans la grande poche de ton gilet | Il rentre tout juste. Ton gilet a été cousu pour lui, il y a soixante ans. Tu ne l'avais jamais remarqué. | | |
+
+@ana_10
+!fx: +flag:obj_herbier
+L'herbier est contre ta poitrine, dans la grande poche du gilet. Tu regardes la serre. Mille belles-de-nuit fermées, qui attendent une Lune qui ne vient plus. Si tu pars, personne ne les arrosera. Si tu restes, elles ne s'ouvriront plus jamais.
+La limace, sur le rebord de la vitre, lève une antenne. Elle s'appelle Gluette. Elle habite la serre depuis plus longtemps que toi. Elle n'a jamais rien dit. Ce soir, elle parle : « J'arroserai. Lentement. J'aurai fini le premier rang à la Noël. Mais j'arroserai. »
+* ana_11 coe11 | Confier la serre à Gluette | Tu lui tends l'arrosoir de cuivre. Il est plus grand qu'elle. Elle le regarde comme on regarde une montagne qu'on a décidé de gravir. | Tu lui tends l'arrosoir. Elle glisse dessous et disparaît. Une voix monte de l'intérieur : « Ça ira. » | +flag:serre_confiee mor+1 | +flag:serre_confiee
+* ana_12 rus11 | Fermer la serre à clé, et laisser un écriteau | Tu écris, de ta plus belle écriture : « Parti chercher la Lune. Arrosez les belles-de-nuit si vous passez. » Tu le cloues sur la porte. Gluette le lit. Ça lui prend la nuit. | Tu écris l'écriteau à l'envers, à cause de la lanterne. Tu le récris. | +flag:ecriteau |
+
+@ana_11
+Gluette s'installe au pied du premier rang, l'arrosoir de cuivre à côté d'elle. « Va », dit-elle. « Et vole droit, pour une fois. »
+Personne ne t'avait jamais dit ça gentiment.
+* ana_13 pan10 | Ouvrir les ailes | Tu ouvres les ailes. Elles font un bruit de vieux papier. | Tu ouvres les ailes et tu renverses un pot. Gluette dit : « Je le ramasserai à Pâques. » | |
+
+@ana_12
+Tu fermes la porte. La clé, tu la glisses sous le paillasson, là où tout le monde la cherchera en premier. C'est un endroit très sûr : personne ne pense à chercher là où tout le monde cherche.
+L'écriteau se balance un peu sur la porte. Tu le relis trois fois. Il est juste. Il dit tout.
+* ana_13 pan10 | Ouvrir les ailes | Tu ouvres les ailes. Elles font un bruit de vieux papier. | | |
+
+@ana_13
+!title: Le vol de nuit
+Tu t'envoles au-dessus de la forêt. La nuit est pleine de lumières. Les réverbères du village. Les fenêtres des fermes. Une station-service, au loin, qui brille comme une cathédrale. Elles t'appellent toutes, chacune avec sa petite voix jaune.
+La Lune, elle, ne t'appelle plus. Elle s'en va. Il faut la suivre sans qu'elle le demande.
+?flag:seraphine Séraphine t'accompagne jusqu'à la lisière, puis elle se pose sur une branche. « Je reste avec les petits. Quelqu'un doit leur dire où est le haut. »
+* ana_14 rus12 | Voler en gardant les yeux sur la Lune, rien que sur elle | Tu voles droit. Les lumières te tirent par les ailes, une à une. Tu ne tournes pas la tête. Pour la première fois depuis des jours, une Noctuelle vole droit. | Tu tiens trois kilomètres. Puis la station-service te happe. Tu en fais le tour quarante fois. Le pompiste finit par t'offrir un café. Tu repars, plus humble, et plus réveillé. | rus+1 mor+1 | mor-1
+* ana_15 coe11 | Te poser, et marcher à pied, comme un insecte modeste | Tu te poses sur la route. À pied, on ne tourne autour de rien. On avance. C'est lent, mais c'est droit. | Tu te poses dans une flaque. Tu marches mouillé. C'est lent, mais c'est droit. | coe+1 |
+
+@ana_14
+Au-dessus du dernier village, un grand réverbère. Autour de lui, un nuage gris qui tourne : des centaines de Noctuelles, étourdies, qui ne mangent plus et ne dorment plus. Elles tournent depuis trois nuits. Certaines sont si fatiguées qu'elles tournent en dormant.
+* ana_16 rus11 | Éteindre le réverbère | Tu trouves l'interrupteur, derrière une petite trappe municipale. Clac. Le noir. Les Noctuelles s'arrêtent, se cognent un peu, puis lèvent la tête et voient la Lune. Petite, mais seule. Elles partent vers elle, en file. | Il n'y a pas d'interrupteur. C'est un réverbère municipal : il ne s'éteint que par délibération. Tu dévisses l'ampoule, et tu te brûles les pattes. Le résultat est le même, en plus douloureux. | equ+1 +flag:reverbere_eteint | +flag:reverbere_eteint
+* ana_16 coe11 | Leur ouvrir l'herbier, sous la Lune | Tu ouvres le cahier en plein ciel. Les belles-de-nuit pressées se déplient un peu, et l'odeur de la vraie nuit se répand. Une à une, les Noctuelles cessent de tourner. Elles se posent sur les pages, reprennent leur souffle, et repartent, la Lune à deux heures de l'aile gauche. | L'odeur est faible. Quelques Noctuelles seulement s'arrêtent. Elles appellent les autres. Ça finit par marcher, de bouche à antenne. | mor+2 +flag:noctuelles_guidees | mor+1 +flag:noctuelles_guidees
+
+@ana_15
+Tu marches toute la nuit sur la route. Tu n'es pas seul. Des voyageurs de toutes les espèces avancent dans le même sens que toi : une Marégrave qui dégouline à chaque pas, deux Horlogers qui boitent en mesure, un Lichenaute porté sur une civière parce qu'il avance trop lentement pour arriver avant la fin du monde.
+« On va au Carrefour des Espèces », te dit un Horloger. « Le Conseil se réunit. C'est la première fois de l'histoire. Il était temps. Il était même un peu plus tard que temps. »
+* ana_16 coe10 | Marcher avec eux | Tu marches avec eux. Personne ne te demande pourquoi un papillon de nuit marche à pied. Tout le monde, ce soir, avance comme il peut. | | mor+1 |
+
+@ana_16
+!title: L'aube
+Le ciel pâlit. Pour une Noctuelle, le jour est une maladie bénigne : les yeux piquent, les ailes s'alourdissent, on se cogne aux choses qui ne bougent pas. Tu as sommeil comme on a faim.
+?flag:noctuelles_guidees Derrière toi, très loin, des centaines de points gris rentrent vers les forêts. Elles ont tenu leur cap. Tu as envie de pleurer, mais les Noctuelles pleurent de la poudre, et tu n'en as plus beaucoup.
+?flag:reverbere_eteint ?!flag:noctuelles_guidees Derrière toi, le village est resté dans le noir. Quelqu'un va écrire au maire. Les Noctuelles, elles, sont rentrées chez elles.
+* ana_17 coe10 | Dormir quelques heures sous un pont | Tu t'accroches sous l'arche d'un vieux pont, tête en bas, et tu dors jusqu'à midi. Un troll te réveille poliment pour te dire que tu ronfles. | | mor+1 |
+* ana_17 pan11 | Continuer, en clignant des yeux | Tu continues. Tu te cognes à un arbre, puis à un autre arbre, puis à un panneau. Le panneau dit « CARREFOUR DES ESPÈCES →». C'est déjà ça. | Tu continues. Tu te cognes à tout. Tu t'excuses auprès de chaque chose. Les choses ne répondent pas, mais tu restes poli. | pan+1 |
+
+@ana_17
+Le Carrefour des Espèces s'étend devant toi, immense, couvert de tentes et de fumée. Des milliers de créatures. Et partout, des lampions, des lanternes, des braseros : de quoi faire tourner une Noctuelle jusqu'à la fin de ses jours.
+Tu poses la patte sur ton gilet. L'herbier est là, contre ta poitrine.
+?flag:fente_voix Tu repenses à la voix de la Fente. « Quelqu'un en bas les attend. » Tu te demandes qui. Tu te demandes depuis combien de temps.
+?!flag:fente_voix Tu repenses à la Fente, au fond de la serre, qui avale tes fleurs fanées tous les matins depuis soixante ans. Tu ne lui as jamais demandé où elles allaient.
+* hub_01 rus11 | Entrer en gardant les yeux sur la Lune, pas sur les lampions | Tu entres. Tu ne regardes que la Lune. Tu te cognes à onze personnes, mais tu ne tournes autour d'aucune lanterne. Tu es très fier. Personne ne sait pourquoi. | Tu entres, et un lampion te happe. Trois tours. Un enfant applaudit. Tu salues. | rus+1 |
+* hub_01 coe10 | Entrer doucement, en écoutant | Tu entres en écoutant. Tout le monde a perdu quelque chose. Les Noctuelles ne sont pas les seules à tourner en rond, ce soir. | | mor+1 |

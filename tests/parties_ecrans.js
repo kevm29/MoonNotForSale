@@ -5,7 +5,7 @@ for(const [ci,w] of [[0,1200],[3,390]]){
 const p=await b.newPage({viewport:{width:w,height:860},reducedMotion:"reduce"});
 const errs=[];p.on('pageerror',e=>errs.push('PE '+e.message));p.on('console',m=>{if(m.type()==='error')errs.push('C '+m.text())});
 await p.goto('file://'+dir+'/out/la-lune-vendue.html');await p.waitForTimeout(300);
-const bs=await p.$$('button');await bs[ci].click();
+const bs=await p.$$('.pc');await bs[ci].click();
 await p.waitForTimeout(300);
 await p.screenshot({path:dir+`/../g_scene_${w}.png`});
 let steps=0,ended=false;

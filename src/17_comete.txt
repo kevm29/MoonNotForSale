@@ -10,6 +10,7 @@ Ici, on ne paie pas en argent. On paie en souvenirs. Un bon souvenir d'enfance v
 Au-dessus de l'entrée, une banderole dorée : « GRANDE VENTE DE LOTS DE LUNE. Réservez votre cratère avant le déménagement. »
 ?pc:griselidis Une marchande te reconnaît : « La factrice ! Vous avez du courrier en souffrance ? On rachète les lettres jamais lues, très bon prix. » Tu serres ta sacoche contre toi.
 ?pc:barnabe Un étal propose « Clair de lune en bocal, véritable, avant fermeture définitive ». Ton estomac se noue. Tu achètes un bocal. Il est vide. On te dit que c'est normal, c'est un clair de lune de jour.
+?pc:anatole Un étal vend des lanternes « qui ressemblent à la Lune, en mieux ». Tu fais deux tours autour de la vitrine avant de pouvoir t'en arracher. Le marchand note ton nom pour sa clientèle fidèle.
 ?pc:pelagie Un étal vend du miel d'étoile. Nous goûtons. C'est du sucre teint en jaune. Nous faisons un scandale discret et très organisé.
 * com_02 pan10 | Plonger dans la foule | Tu plonges. Ça sent la poussière d'étoile, la friture et le marchandage. | Tu plonges et tu ressors trois étals plus loin, avec un ticket de tombola dans la poche et sans savoir comment. | pan+1 |
 * com_03 rus10 | Chercher le stand d'information | Le stand d'information est tenu par un hibou qui ne sait rien, mais avec assurance. Il te tend un plan du marché. Le plan est faux, mais joli. | Tu trouves le stand. Il est fermé pour cause d'information. | rus+1 |

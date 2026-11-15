@@ -2,8 +2,8 @@
 
 Un récit à choix dans le style du théâtre de l'absurde. Un promoteur venu d'Aldébaran a acheté la Lune, légalement, avec des pâtisseries. Il y a planté un crochet et commence à l'emporter. Sur la Terre, les marées s'affolent, les rêves s'éteignent et l'Axe penche. Quelqu'un doit monter.
 
-- 8 personnages jouables, 21 compagnons, 37 objets
-- environ 750 nœuds à choix, plus de 1 500 choix, 15 fins
+- 9 personnages jouables, 21 compagnons, 38 objets
+- environ 770 nœuds à choix, plus de 1 550 choix, 15 fins
 - un d20 pour les actions risquées, de l'expérience, deux jauges (Équilibre de la Terre, Moral)
 
 ## Jouer
@@ -22,6 +22,7 @@ Hors ligne : ouvrez `docs/index.html` dans un navigateur. Le fichier est autonom
 | `meta.json` | Personnages, compagnons, objets, fins, réglages des dés |
 | `build.py` | Valide l'histoire, simule des milliers de parties, écrit `out/` |
 | `game.html`, `tree.html` | Gabarits du jeu et de la carte |
+| `img/personnages/` | Portraits des fiches (`<id>.webp`, intégrés au HTML par `build.py`) |
 | `pack.py` | Écrit les pages autonomes dans `docs/` (Cytoscape intégré) |
 | `docs/` | Ce que publie GitHub Pages : `index.html` (le jeu) et `carte.html` |
 | `vendor_cytoscape.min.js` | Cytoscape.js 3.28.1 (licence MIT), pour la carte hors ligne |
