@@ -22,7 +22,7 @@ Hors ligne : ouvrez `docs/index.html` dans un navigateur. Le fichier est autonom
 | `meta.json` | Personnages, compagnons, objets, fins, réglages des dés |
 | `build.py` | Valide l'histoire, simule des milliers de parties, écrit `out/` |
 | `game.html`, `tree.html` | Gabarits du jeu et de la carte |
-| `img/personnages/` | Portraits des fiches (`<id>.webp`, intégrés au HTML par `build.py`) |
+| `img/` | Image d'accueil (`accueil.webp`) et portraits des fiches (`personnages/<id>.webp`), intégrés au HTML par `build.py` |
 | `pack.py` | Écrit les pages autonomes dans `docs/` (Cytoscape intégré) |
 | `docs/` | Ce que publie GitHub Pages : `index.html` (le jeu) et `carte.html` |
 | `vendor_cytoscape.min.js` | Cytoscape.js 3.28.1 (licence MIT), pour la carte hors ligne |

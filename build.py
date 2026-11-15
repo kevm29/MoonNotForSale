@@ -392,6 +392,8 @@ def main():
     import base64
     data["portraits"] = {os.path.splitext(os.path.basename(f))[0]: "data:image/webp;base64," + base64.b64encode(open(f, "rb").read()).decode()
                          for f in sorted(glob.glob(os.path.join(HERE, "img", "personnages", "*.webp")))}
+    acc = os.path.join(HERE, "img", "accueil.webp")
+    if os.path.exists(acc): data["accueil"] = "data:image/webp;base64," + base64.b64encode(open(acc, "rb").read()).decode()
     out = os.environ.get("OUT", os.path.join(HERE, "out"))
     os.makedirs(out, exist_ok=True)
     for tpl, name, payload in (("game.html", "la-lune-vendue.html", data), ("tree.html", "arbre-de-decision.html", tree)):
