@@ -8,9 +8,11 @@ Un récit à choix dans le style du théâtre de l'absurde. Un promoteur venu d'
 
 ## Jouer
 
-Ouvrez `dist/la-lune-vendue.html` dans un navigateur. Le fichier est autonome et fonctionne hors ligne.
+En ligne : **https://kevm29.github.io/MoonNotForSale/** (la carte des embranchements : https://kevm29.github.io/MoonNotForSale/carte.html).
 
-`dist/arbre-de-decision.html` est la carte de tous les embranchements. Elle sert à vérifier la cohérence de l'histoire : cliquez un nœud pour lire son texte, ses choix et d'où l'on y arrive.
+Hors ligne : ouvrez `docs/index.html` dans un navigateur. Le fichier est autonome.
+
+`docs/carte.html` est la carte de tous les embranchements. Elle sert à vérifier la cohérence de l'histoire : cliquez un nœud pour lire son texte, ses choix et d'où l'on y arrive.
 
 ## Organisation
 
@@ -20,7 +22,8 @@ Ouvrez `dist/la-lune-vendue.html` dans un navigateur. Le fichier est autonome et
 | `meta.json` | Personnages, compagnons, objets, fins, réglages des dés |
 | `build.py` | Valide l'histoire, simule des milliers de parties, écrit `out/` |
 | `game.html`, `tree.html` | Gabarits du jeu et de la carte |
-| `pack.py` | Écrit les copies autonomes dans `dist/` (Cytoscape intégré) |
+| `pack.py` | Écrit les pages autonomes dans `docs/` (Cytoscape intégré) |
+| `docs/` | Ce que publie GitHub Pages : `index.html` (le jeu) et `carte.html` |
 | `vendor_cytoscape.min.js` | Cytoscape.js 3.28.1 (licence MIT), pour la carte hors ligne |
 | `tools/` | Outils d'audit et de relecture |
 | `tests/` | Tests Playwright dans le navigateur |
@@ -29,7 +32,7 @@ Ouvrez `dist/la-lune-vendue.html` dans un navigateur. Le fichier est autonome et
 
 ```sh
 python3 build.py   # validation, simulation, out/la-lune-vendue.html et out/arbre-de-decision.html
-python3 pack.py    # copies autonomes dans dist/
+python3 pack.py    # pages autonomes dans docs/, à committer pour mettre le site à jour
 ```
 
 ## Vérifier
@@ -66,3 +69,7 @@ node tests/carte.js "$PWD"            # la carte, sur grand et petit écran
 - **Une virgule veut dire OU** (`?flag:a,flag:b`). Deux conditions séparées (`?flag:a ?flag:b`) veulent dire ET.
 - Effets : `+flag:x`, `-flag:x`, `+comp:x`, `-comp:x`, `var+n`, `cond=>effet`.
 - Un choix sans caractéristique ou sans texte d'échec se fait sans jet de dé.
+
+## Publication sur GitHub Pages
+
+Le site est servi depuis le dossier `docs/` de la branche `main` (Settings → Pages → Deploy from a branch → `main` / `/docs`). Pour mettre le jeu en ligne après une modification : `python3 build.py && python3 pack.py`, puis committer `docs/` et pousser.
