@@ -6,7 +6,7 @@
 /* Mise en page : une scène de théâtre nocturne. Bandeau d'état en haut, texte au centre comme un livret, choix en bas comme des répliques. Univers sombre assumé (une seule ambiance). */
 :root{
   --nuit:#151a2c; --nuit-2:#1d2440; --nuit-3:#272f52; --craie:#ece7da; --craie-2:#b9b4a7;
-  --lune:#f1dfa0; --maree:#79c7bb; --corail:#ef8a72; --brume:#9aa3c7; --ligne:#343d66;
+  --lune:#f1dfa0; --or:#c9a54a; --maree:#79c7bb; --corail:#ef8a72; --brume:#9aa3c7; --ligne:#343d66;
   --f-titre:"Gloock", "Playfair Display", Georgia, serif;
   --f-texte:"Source Serif 4", Georgia, "Times New Roman", serif;
   --f-data:"IBM Plex Mono", ui-monospace, Menlo, monospace;
@@ -161,6 +161,39 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .gauge .lab em{font-style:normal;margin-left:6px}
 #game ~ *, .wrap:has(#game:not([hidden])){padding-bottom:16px}
 #scene > div:empty{display:none}
+/* ---------- barre du haut : médaillon, nom, jauges, caractéristiques ---------- */
+#hud{display:block}
+.hud-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.hud-bar .who{display:flex;align-items:center;gap:12px;font-family:var(--f-titre);font-size:20px;min-width:0;background:none;border:0;color:inherit;padding:0;cursor:pointer;text-align:left}
+.hud-bar .who small{margin-left:0;display:block}
+.hud-bar .who .nm{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.face{width:52px;height:52px;border-radius:50%;flex:none;border:2px solid var(--or);background-color:var(--nuit-3);background-repeat:no-repeat;box-shadow:0 0 0 3px rgba(201,165,74,.18)}
+.gold-sep{width:2px;align-self:stretch;min-height:44px;background:linear-gradient(180deg,transparent,var(--or) 20%,var(--or) 80%,transparent);flex:none}
+.hud-bar .gauges{display:grid;grid-template-columns:1fr;gap:6px;flex:1 1 260px;min-width:200px}
+.hud-bar .stack{display:grid;gap:2px;font-family:var(--f-data);font-size:12px;font-variant-numeric:tabular-nums;min-width:130px}
+.hud-bar .stack span{display:flex;justify-content:space-between;gap:10px;color:var(--brume);cursor:help}
+.hud-bar .stack b{color:var(--craie)}
+.hud-bar .stack em{font-style:normal;color:var(--or);margin-left:4px}
+@media (max-width:640px){ #hud{position:static} .gold-sep{display:none} .hud-bar .stack{grid-auto-flow:column;gap:12px} .face{width:44px;height:44px} }
+/* ---------- médaillons de l'équipe et des objets ---------- */
+.meds{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 10px}
+.med{display:grid;justify-items:center;gap:5px;background:none;border:0;padding:0;color:var(--craie-2);font:inherit;font-size:11px;line-height:1.2;text-align:center;cursor:help}
+.med .pic{width:100%;aspect-ratio:1;max-width:76px;background:var(--nuit-3) center/cover no-repeat;border:2px solid var(--or);transition:transform .15s, box-shadow .15s}
+.med.rond .pic{border-radius:50%}
+.med.carre .pic{border-radius:8px;border-color:var(--ligne)}
+.med:hover .pic,.med:focus-visible .pic{transform:scale(1.06);box-shadow:0 0 0 3px rgba(241,223,160,.25)}
+.med:focus-visible{outline:none}
+.med .nm{max-width:100%;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+#card{position:fixed;z-index:30;width:min(560px,calc(100vw - 32px));pointer-events:none;background:var(--nuit-2);border:1px solid var(--lune);border-radius:8px;display:grid;grid-template-columns:150px minmax(0,1fr);gap:0;box-shadow:0 18px 50px rgba(0,0,0,.5);animation:open .15s ease-out}
+#card[hidden]{display:none}
+#card .big{margin:18px 0 18px 18px;width:132px;height:132px;background:var(--nuit-3) center/cover no-repeat;border:2px solid var(--or)}
+#card.rond .big{border-radius:50%} #card.carre .big{border-radius:10px;border-color:var(--ligne)}
+#card .info{padding:18px 20px;display:grid;gap:8px;align-content:start}
+#card h2{font-size:24px;line-height:1.1;color:var(--lune)}
+#card .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.1em;text-transform:uppercase}
+#card p{margin:0;font-size:14px;line-height:1.5;color:var(--craie-2)}
+#card .lab{font-family:var(--f-data);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie);display:block;margin-bottom:2px}
+@media (max-width:520px){ #card{grid-template-columns:1fr} #card .big{margin:16px auto 0;width:110px;height:110px} }
 /* blocs de lecture légèrement transparents : on devine l'image derrière */
 #scene{background:rgba(14,20,40,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid var(--ligne);border-radius:8px;padding:20px 22px 22px}
 #hud{background:rgba(21,26,44,.84)}
@@ -236,6 +269,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 </div>
 
 
+<div id="card" role="tooltip" hidden></div>
 <script>
 const TITLES=["Colonelle","Colonel","Sœur","Lord","Madame","Monsieur","Sire","Comtesse","Dame","Tante","Dr","Grand-Père","Capitaine","Le"];
 function shortName(n){ return n.split(" ").find(w => !TITLES.includes(w)) || n; }
@@ -354,7 +388,7 @@ function renderCast(){
   $("#rules").innerHTML = rulesHtml(true);
   $("#btnResume").hidden = !store.get("lune.save", null);
 }
-function openSheet(id){
+function openSheet(id, inGame){
   const p = M.playables.find(x => x.id === id), el = $("#sheet");
   el.innerHTML = `<div class="sheet">
     <img src="${(DATA.portraits || {})[p.id] || portraitFallback(p)}" alt="Portrait de ${esc(p.name)}">
@@ -365,15 +399,15 @@ function openSheet(id){
       <p><span class="lab">Le personnage</span>${esc(p.bio)}</p>
       <p><span class="lab">Où tu commences</span>${esc(p.debut)}</p>
       <span class="stats">${STATS.map((s,i)=>`<span>${SN[s]} <b>${p.stats[i]}</b></span>`).join("")}</span>
-      <div class="row"><button class="btn" id="sheetBack">Choisir un autre personnage</button><button class="btn primary" id="sheetGo">Commencer</button></div>
+      <div class="row">${inGame ? `<button class="btn" id="sheetBack">Quitter vers l'écran titre</button><button class="btn primary" id="sheetGo">Reprendre la partie</button>` : `<button class="btn" id="sheetBack">Choisir un autre personnage</button><button class="btn primary" id="sheetGo">Commencer</button>`}</div>
     </div></div>`;
   el.hidden = false;
   const close = () => { el.hidden = true; el.innerHTML = ""; document.removeEventListener("keydown", onKey); $(`.pc[data-pc="${id}"]`)?.focus(); };
   const onKey = e => { if (e.key === "Escape") close(); };
   document.addEventListener("keydown", onKey);
   el.onclick = e => { if (e.target === el) close(); };
-  $("#sheetBack").onclick = close;
-  $("#sheetGo").onclick = () => { close(); newGame(id); };
+  $("#sheetBack").onclick = inGame ? () => { close(); showTitle(); } : close;
+  $("#sheetGo").onclick = inGame ? close : () => { close(); newGame(id); };
   $("#sheetGo").focus({preventScroll: true});
 }
 function bindTabs(){
@@ -455,34 +489,87 @@ function gateTag(c){
 function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 
 /* ---------- rendu ---------- */
+/* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
+const FACE = {ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+function faceStyle(p){
+  const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
+  const [x, y] = FACE[p.id] || [.5, .3], w = .3, cl = v => Math.max(0, Math.min(1 - w, v - w / 2)) / (1 - w) * 100;
+  return `background-image:url('${src}');background-size:${100 / w}%;background-position:${cl(x)}% ${cl(y)}%`;
+}
+/* bonus des compagnons spécialistes, +2 au plus par caractéristique */
+function compBonus(st){ return Math.min(2, S.comp.filter(c => M.companions[c] && M.companions[c].stat === st).length); }
 function hud(){
   const p = M.playables.find(x => x.id === S.pc);
   const e = S.vars.equ, m = S.vars.mor;
   return `
-  <div class="hud-row">
-    <div class="who">${DATA.portraits && DATA.portraits[p.id] ? `<img class="who-pic" src="${DATA.portraits[p.id]}" alt="">` : ""}<span>${esc(p.name)}<small>${esc(p.species)}</small></span></div>
-    <div class="statline">${STATS.map(s => `<span title="${esc(M.statHelp[s])} Expérience : ${(S.xp||{})[s]||0}/3.">${SN[s]} <b>${S.vars[s]}</b>${(S.xp||{})[s]?`<i class="xp" aria-hidden="true">${"·".repeat(S.xp[s])}</i>`:""}</span>`).join("")}</div>
-    <div class="tools">
-      <button class="btn" id="tQuit">Menu</button>
+  <div class="hud-bar">
+    <button class="who" id="tWho" title="Ta fiche (et retour à l'écran titre)"><span class="face" style="${faceStyle(p)}"></span><span class="nm">${esc(p.name)}<small>${esc(p.species)}</small></span></button>
+    <span class="gold-sep" aria-hidden="true"></span>
+    <div class="gauges">
+      <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
+      <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} À 8 ou plus : +1 aux dés. À 2 ou moins : −1."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
     </div>
-  </div>
-  <div class="gauges">
-    <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
-    <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} À 8 ou plus : +1 aux dés. À 2 ou moins : −1."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
+    <span class="gold-sep" aria-hidden="true"></span>
+    <div class="stack">${STATS.map(st => { const bo = compBonus(st), who = S.comp.filter(c => M.companions[c] && M.companions[c].stat === st).map(c => shortName(M.companions[c].name));
+      return `<span title="${esc(M.statHelp[st])} Expérience : ${(S.xp||{})[st]||0}/3.${bo ? ` Bonus de ${who.join(", ")} : +${bo} aux jets.` : ""}">${SN[st]} <b>${S.vars[st]}${bo ? `<em>+${bo}</em>` : ""}</b></span>`; }).join("")}</div>
   </div>
 `;
+}
+const MED_HUE = id => [...id].reduce((a, ch) => a + ch.charCodeAt(0), 0) % 360;
+/* médaillon provisoire tant que l'image n'existe pas : rond pour un compagnon, carré pour un objet */
+function medFallback(id, name, round){
+  const h = MED_HUE(id), letter = esc((name.replace(/^(L'|La |Le |Les |Un |Une |Des |Dr |Docteur |Madame |Monsieur |Tante |Capitaine |Comtesse |Dame |Sire |Colonel |Grand-Père |Archibald )+/, "")[0] || "?").toUpperCase());
+  const svg = round
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><radialGradient id="g" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="hsl(${h},38%,40%)"/><stop offset="1" stop-color="#151a2c"/></radialGradient></defs><rect width="96" height="96" fill="url(#g)"/><text x="48" y="62" text-anchor="middle" font-family="Georgia,serif" font-size="40" fill="#ece7da">${letter}</text></svg>`
+    : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><rect width="96" height="96" fill="#d9d4c7"/><rect x="10" y="10" width="76" height="76" rx="6" fill="none" stroke="hsl(${h},30%,45%)" stroke-width="2" stroke-dasharray="4 4"/><text x="48" y="61" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="hsl(${h},30%,32%)">${letter}</text></svg>`;
+  return "data:image/svg+xml," + encodeURIComponent(svg);
+}
+function medImg(kind, id, name){ return ((DATA.meds || {})[kind] || {})[id] || medFallback(id, name, kind === "c"); }
+const CROISSANT = {name:"Le petit Croissant", species:"Bébé tortue des sables", bio:"Né la dernière nuit, à marée haute, quand la Lune tirait la mer jusqu'au bord de la plaine. Il est très lent, très curieux, et il regarde la Lune avec des yeux énormes. Sa mère l'a appelé comme la Lune quand elle commence."};
+function medCard(kind, id){
+  if (kind === "c"){
+    if (id === "croissant") return {round:true, img:medImg("c", id, CROISSANT.name), sp:CROISSANT.species, name:CROISSANT.name, rows:[["Qui c'est", CROISSANT.bio], ["Avec toi", S.comp.includes("coquille") ? "Sur le dos de sa mère, Madame Coquille." : "Dans tes bras. Il va falloir qu'il vive pour deux."]]};
+    const k = M.companions[id];
+    return {round:true, img:medImg("c", id, k.name), sp:k.species, name:k.name, rows:[["Qui c'est", k.bio], ["Son talent", `+1 à tes jets de ${SN[k.stat]} tant que ${shortName(k.name)} t'accompagne (deux spécialistes au plus comptent).`]]};
+  }
+  const it = M.items[id];
+  return {round:false, img:medImg("o", id, it.name), sp:"Objet", name:it.name, rows:[["Ce que c'est", it.desc], ["À quoi ça sert", "Il fera apparaître, plus loin, un choix qui n'existerait pas sans lui. Certains ne servent qu'une fois."]]};
+}
+function medHtml(kind, id, name){
+  return `<button class="med ${kind === "c" ? "rond" : "carre"}" data-k="${kind}" data-id="${id}" aria-label="${esc(name)}"><span class="pic" style="background-image:url('${medImg(kind, id, name)}')"></span><span class="nm">${esc(kind === "c" ? (id === "croissant" ? "Croissant" : shortName(name)) : name)}</span></button>`;
 }
 function sideHtml(){
-  let team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item" tabindex="0" title="${esc(k.bio)}"><strong>${esc(k.name)}</strong><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span></div>`; }).join("");
+  const ids = [...S.comp];
   /* le petit Croissant voyage avec sa mère, ou avec toi si elle n'est plus là */
-  const crois = S.flags.includes("croissant") && (S.comp.includes("coquille") || S.flags.includes("mort_coquille"));
-  if (crois) team += `<div class="side-item" tabindex="0" title="Né la dernière nuit, à marée haute. Il est très lent, très curieux, et il regarde la Lune avec des yeux énormes."><strong>Le petit Croissant</strong><span class="sp">Bébé tortue des sables · ${S.comp.includes("coquille") ? "sur le dos de sa mère" : "dans tes bras"}</span></div>`;
-  const nTeam = S.comp.length + (crois ? 1 : 0);
-  const held = heldItems().map(f => `<div class="side-item" tabindex="0" title="${esc(M.items[f].desc)}"><strong>${esc(M.items[f].name)}</strong></div>`).join("");
-  return `<div class="side-box"><h3>Ton équipe${nTeam ? ` (${nTeam})` : ""}</h3>${team || `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
-    <div class="side-box"><h3>Tes objets${heldItems().length ? ` (${heldItems().length})` : ""}</h3>${held || `<p class="empty">Rien encore. Il y a ${Object.keys(M.items).length} objets à trouver.</p>`}</div>
+  if (S.flags.includes("croissant") && (S.comp.includes("coquille") || S.flags.includes("mort_coquille"))) ids.push("croissant");
+  const team = ids.map(c => medHtml("c", c, c === "croissant" ? CROISSANT.name : M.companions[c].name)).join("");
+  const items = heldItems(), held = items.map(f => medHtml("o", f, M.items[f].name)).join("");
+  return `<div class="side-box"><h3>Ton équipe${ids.length ? ` (${ids.length})` : ""}</h3>${team ? `<div class="meds">${team}</div>` : `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
+    <div class="side-box"><h3>Tes objets${items.length ? ` (${items.length})` : ""}</h3>${held ? `<div class="meds">${held}</div>` : `<p class="empty">Rien encore. Il y a ${Object.keys(M.items).length} objets à trouver.</p>`}</div>
 `;
 }
+/* fiche au survol (ou au toucher) d'un médaillon */
+function showCard(el){
+  const c = medCard(el.dataset.k, el.dataset.id), card = $("#card");
+  card.className = c.round ? "rond" : "carre";
+  card.innerHTML = `<span class="big" style="background-image:url('${c.img}')"></span><div class="info"><span class="sp">${esc(c.sp)}</span><h2>${esc(c.name)}</h2>${c.rows.map(([l, t]) => `<p><span class="lab">${l}</span>${esc(t)}</p>`).join("")}</div>`;
+  card.hidden = false; cardAt = Date.now();
+  const r = el.getBoundingClientRect(), cw = card.offsetWidth, ch = card.offsetHeight, vw = innerWidth, vh = innerHeight;
+  let x = r.left - cw - 14; if (x < 16) x = Math.max(16, Math.min(vw - cw - 16, r.left + r.width / 2 - cw / 2));
+  let y = x === r.left - cw - 14 ? r.top + r.height / 2 - ch / 2 : r.bottom + 10; if (y + ch > vh - 16) y = Math.max(16, (x === r.left - cw - 14 ? vh - ch - 16 : r.top - ch - 10));
+  card.style.left = x + "px"; card.style.top = Math.max(16, y) + "px";
+}
+function hideCard(){ const c = $("#card"); if (c) c.hidden = true; }
+function bindMeds(){
+  document.querySelectorAll(".med").forEach(el => {
+    el.onmouseenter = el.onfocus = () => showCard(el);
+    el.onmouseleave = el.onblur = hideCard;
+    el.onclick = e => { e.stopPropagation(); $("#card").hidden ? showCard(el) : hideCard(); };
+  });
+}
+document.addEventListener("click", hideCard);
+let cardAt = 0;
+addEventListener("scroll", () => { if (Date.now() - cardAt > 400) hideCard(); }, {passive:true});
 function linesHtml(n){
   return n.lines.filter(l => allOk(l.if)).map(l => `<p>${esc(l.t)}</p>`).join("");
 }
@@ -583,7 +670,8 @@ function render(rolling){
 function bindHud(){
   const b = id => document.getElementById(id);
   if (b("tIds")) b("tIds").onclick = () => { showIds = !showIds; store.set("lune.ids", showIds); render(); };
-  if (b("tQuit")) b("tQuit").onclick = showTitle;
+  if (b("tWho")) b("tWho").onclick = () => { openSheet(S.pc, true); };
+  bindMeds();
 }
 
 /* ---------- objets tenus ---------- */

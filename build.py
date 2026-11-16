@@ -392,6 +392,9 @@ def main():
     import base64
     data["portraits"] = {os.path.splitext(os.path.basename(f))[0]: "data:image/webp;base64," + base64.b64encode(open(f, "rb").read()).decode()
                          for f in sorted(glob.glob(os.path.join(HERE, "img", "personnages", "*.webp")))}
+    # médaillons des compagnons (ronds) et des objets (carrés), intégrés s'ils existent ; sinon le jeu dessine un médaillon provisoire
+    data["meds"] = {k: {os.path.splitext(os.path.basename(f))[0]: "data:image/webp;base64," + base64.b64encode(open(f, "rb").read()).decode()
+                        for f in sorted(glob.glob(os.path.join(HERE, "img", d, "*.webp")))} for k, d in (("c", "compagnons"), ("o", "objets"))}
     rj = os.path.join(HERE, "reactions.json")
     if os.path.exists(rj):
         data["reactions"] = {k: v for k, v in json.load(open(rj, encoding="utf-8")).items() if not k.startswith("_")}
