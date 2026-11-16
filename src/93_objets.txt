@@ -24,7 +24,11 @@ Tu mords dedans. C'est chaud. Tu regardes : il est entier.
 !title: La couverture de pierre
 !fx: +flag:hub_11_vu
 La couverture est tissée en granit, maille par maille, si serrée qu'elle a l'air souple. La vieille Gravitaire la plie en quatre avec toi, lentement, comme on plie un drapeau. « Je l'ai tricotée pour mon petit-fils. Il est en bas, il tient l'Axe. Il n'a plus froid : là où il est, il fait cinq mille degrés. »
-Elle te la pose dans les bras. « Prends-la. Elle tient chaud à tout ce qui naît. Moi, je suis trop vieille pour naître encore. »
+?pc:pistil Elle te la pose dessus, faute de pouvoir te la poser dans les bras. Tu disparais dessous. Quelque part sous le granit, un bonnet à trois étoiles s'agite.
+?pc:anatole Elle te la pose sur le dos. Tes ailes plient sous le granit comme un parapluie sous l'averse.
+?pc:brisefer Elle te la pose dans les bras. Pour toi, c'est un mouchoir. Pour elle, c'était trente ans de tricot.
+?!pc:pistil ?!pc:anatole ?!pc:brisefer Elle te la pose dans les bras.
+« Prends-la. Elle tient chaud à tout ce qui naît. Moi, je suis trop vieille pour naître encore. »
 * hub_05 pan10 | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | Tu la hisses et tu tombes assis·e dessus. La vieille Gravitaire rit pendant dix minutes, puis la reprend. « Trop lourde pour toi. Je la garderai pour les nuits froides. » | +flag:obj_couverture pan+1 |
 * hub_05 | La remercier, et la lui laisser pour les nuits froides | Elle hoche la tête. « Tu as raison. Il va faire froid, quand elle sera partie. » | | mor+1 |
 
@@ -75,14 +79,14 @@ Tu le retournes. Il coule vers le haut quand même, mais plus lentement. Le vent
 # ---------------------------------------------------------------- FORÊT-RÉSEAU
 
 @+for_17
-* for_40 ?!flag:obj_aiguille ?!flag:for_40_vu | Ramasser l'aiguille qui luit sous le banc | Tu te glisses sous le banc de pierre, entre deux pelotes géantes. | | |
+* for_40 ?!flag:obj_aiguille ?!flag:for_40_vu | Ramasser l'aiguille qui luit sous le banc | Sous le banc de pierre, entre deux pelotes géantes, quelque chose luit. | | |
 
 @for_40
 !title: L'aiguille de Mélusine
 !fx: +flag:for_40_vu
-Une aiguille à tricoter, longue comme ton bras, qui luit faiblement. Elle a dû tomber il y a longtemps : une araignée a tissé sa toile entre elle et le pied du banc, et elle y a brodé, avec la lumière de l'aiguille, un tout petit croissant.
-Tu la tends à Tante Mélusine. Elle la regarde par-dessus ses trois paires de lunettes. « MA VIEILLE AIGUILLE ! JE L'AI CHERCHÉE CENT ANS ! » Elle la fait tourner entre ses doigts. Puis elle te la rend. « GARDE-LA. ELLE REPRISE TOUT. LES CHAUSSETTES, LES ÉCHARPES, ET LE CIEL, SI ON LE LUI DEMANDE GENTIMENT. »
-* for_21 | La remercier, et la glisser dans ta manche | Elle luit doucement contre ton bras, comme une veine de lumière. | | +flag:obj_aiguille |
+Une aiguille à tricoter de deux mètres, faite pour des mains immenses, qui luit faiblement. Elle a dû tomber il y a longtemps : une araignée a tissé sa toile entre elle et le pied du banc, et elle y a brodé, avec la lumière de l'aiguille, un tout petit croissant.
+Tu la tends à Tante Mélusine. Elle la regarde par-dessus ses trois paires de lunettes. « MA VIEILLE AIGUILLE ! JE L'AI CHERCHÉE CENT ANS ! » Elle la fait tourner entre ses doigts. Puis elle souffle dessus, et l'aiguille rapetisse, rapetisse, jusqu'à tenir pile dans ta main. « ELLE SE MET À LA TAILLE DE CELUI QUI TRICOTE. GARDE-LA. ELLE REPRISE TOUT. LES CHAUSSETTES, LES ÉCHARPES, ET LE CIEL, SI ON LE LUI DEMANDE GENTIMENT. »
+* for_21 | La remercier, et la garder contre toi | Elle luit doucement contre toi, comme une veine de lumière. | | +flag:obj_aiguille |
 
 @+for_22
 * for_41 ?!flag:obj_brin_toile | Demander à la Toile si tu peux emporter un brin | Tu poses les deux mains à plat sur les racines, et tu demandes, poliment. | | |
@@ -383,7 +387,7 @@ Dans la note, il y a tout : son poids, son âge, et son cœur, qui bat de traver
 
 @+cha_15
 * cha_60 ?flag:obj_lanterne | Allumer la lanterne-méduse au milieu du chantier | Tu sors le bocal. La petite méduse se réveille et regarde autour d'elle. | | |
-* cha_61 ?flag:obj_aiguille | Repriser le ciel autour du crochet avec l'aiguille de Mélusine | Tu sors l'aiguille de ta manche. Elle s'allume toute seule. | | |
+* cha_61 ?flag:obj_aiguille | Repriser le ciel autour du crochet avec l'aiguille de Mélusine | Tu sors l'aiguille. Elle s'allume toute seule, et s'allonge juste ce qu'il faut pour le ciel. | | |
 * cha_66 ?flag:obj_goutte ?!comp:ondee | Laisser tomber la dernière goutte de Dame Ondée sur la Lune | Tu ouvres le dé à coudre. | | |
 * cha_67 ?flag:obj_aurore | Déplier l'aurore au-dessus du chantier | Un pli, deux plis, huit plis. | | |
 * cha_68 ?flag:obj_boussole | Suivre l'aiguille de la boussole des choses perdues | Sur la Lune, l'aiguille de la boussole s'affole. | | |
