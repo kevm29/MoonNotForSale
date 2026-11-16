@@ -1,0 +1,256 @@
+# Répliques liées aux scènes les plus fréquentées avec des compagnons,
+# et petites conversations entre compagnons (une réplique « ?comp:autre » met deux compagnons en scène).
+
+@+hub_06
+~bartho ?comp:zouzou ?regions>=1: Bartholomé regarde la carte. « On repart ? J'ai encore du sable dans les bottes. » Zouzou : « Moi j'ai de la poussière d'étoile partout, et tu ne m'entends pas me plaindre. » « Si. Tout le temps. »
+~penelope ?comp:ysaline ?regions>=1: Pénélope tamponne la carte APPROUVÉ, par réflexe. Ysaline lui prend le tampon des mains : « On ne tamponne pas un voyage. On le vote. » Elles votent. C'est unanime, à deux.
+~quartz ?comp:remontoir ?regions>=1: Le Docteur Quartz calcule la distance au crayon. « Quatre jours. » Grand-Père Remontoir, sans regarder : « Deux. » Ils comparent. Il a raison. Elle le note dans un carnet intitulé « Exceptions ».
+~melusine ?comp:coquille ?regions>=1: « ENCORE UN DÉPART ! » sanglote Tante Mélusine. Madame Coquille lui tapote la cheville : « Ne pleurez pas. Je serai en retard, ça vous laissera le temps de nous rattraper. »
+~vesperine ?comp:gaspard ?regions>=1: Vespérine ouvre son ombrelle. Gaspard, poliment : « Il fait nuit, Comtesse. » « Justement. Il faut que les gens sachent que je suis prête. »
+~rocambole ?comp:pardon ?regions>=1: Rocambole montre la carte de ses quatre bras à la fois. « Par là, il y a de la contrebande. Par là aussi. Par là, surtout. » Pardon : « Pardon. Je dois noter que vous l'avez dit. » « Note pas ! »
+~fulgence ?comp:ondee ?regions>=1: Fulgence prend la forme d'un parapluie pour faire rire Dame Ondée. Elle pleut un tout petit peu dessus, pour voir. Il fait semblant de s'ouvrir.
+~taupinel ?comp:pli ?regions>=1: « Monsieur Pli, une déclaration pour le Courrier ? » Monsieur Pli se plie en forme de point d'interrogation, puis en forme de point final. Taupinel note les deux.
+~plumard ?regions>=1: Le Colonel Plumard bombe le torse devant la carte. « Une nouvelle région ! On y entre au clairon. » Il n'a pas de clairon. Il fait le clairon.
+~echo ?regions>=1: « ... partir... partir. » Écho répète le mot en le rendant joyeux, la deuxième fois.
+~brume ?regions>=1: « On repart... je crois que j'aime... enfin. Les départs. Un peu. »
+~meduses ?regions>=1: « NOUS AVONS VOTÉ. NOUS SOMMES D'ACCORD AVEC NOUS. ALLONS-Y. »
+~fernand ?regions>=1: Fernand tape une réclamation : « Objet : trajet. Motif : encore. » Il la plie et la garde pour plus tard.
+~coquille ?regions>=1: « Allez devant, je vous suis. Ne m'attendez pas, mais ne partez pas sans moi. »
+~ondee ?regions>=1: Dame Ondée se gonfle un peu. « Nouvelle région, nouvelle mer à saluer. Je les connais toutes, vous savez. »
+
+@+foi_02
+~ysaline ?comp:plumard ?foire<1: Ysaline s'arrête devant le stand du Régiment des Basses-Cours. Le Colonel Plumard rajuste sa crête. « Madame la Présidente. » « Colonel. Vos poules ont le droit de vote ? » Il réfléchit. « Elles ne l'ont jamais demandé. » « Elles vont. »
+~taupinel ?comp:penelope ?foire<1: Taupinel renifle l'air de la Foire. « Il y a un scandale ici. Je le sens. » Pénélope : « C'est la barbe à papa. » « Le scandale, c'est la barbe à papa. Notez. »
+~bartho ?foire<1: « Une foire. La dernière fois que j'ai été à une foire, j'ai gagné un poisson rouge. Il est parti avec la marée, lui aussi. »
+~zouzou ?foire<1: Zouzou fait trois fois le tour de la Foire en une seconde. « J'ai tout vu. Il y a un stand de beignets. C'est tout ce qui compte. »
+~vesperine ?foire<1: « Des lampions. Enfin un éclairage qui ne cherche pas à m'humilier. »
+~fulgence ?foire<1: Fulgence prend la forme d'un champion de tir à la carabine. Il rate tout. Il reprend sa forme. « La forme ne fait pas tout. »
+~melusine ?foire<1: « UN ORCHESTRE DE GRILLONS ! » Elle pleure. « ILS JOUENT FAUX ! COMME À MON MARIAGE ! »
+~remontoir ?foire<1: « Une valse. J'ai dansé celle-là il y a sept cents ans. Elle n'a pas changé. Moi, un peu. »
+~quartz ?foire<1: « Les lampions sont alimentés par fermentation de jus de pomme. » Ils sont alimentés par des lucioles. Elle ne s'en remettra pas.
+~fernand ?foire<1 ?!comp:quartz: Fernand inspecte les lampions. « Éclairage non homologué. Un lampion sur trois. » Il sourit quand même, une seconde, puis se reprend.
+~meduses ?foire>=1 ?comp:melusine: Le Chœur des Méduses et Tante Mélusine chantent avec l'orchestre de grillons. L'orchestre s'arrête, vexé. Elles continuent sans lui.
+~rocambole ?foire>=1 ?comp:zouzou: Rocambole a acheté quatre barbes à papa, une par bras. Zouzou en vole une. Il ne dit rien. Il la regarde manger, ému. « Comme ma fille. » « T'as pas de fille. » « Comme ma fille si j'en avais une. »
+~penelope ?foire>=1: Pénélope a gagné un ours en peluche au chamboule-tout. Elle l'a tamponné APPROUVÉ sur le ventre.
+~gaspard ?foire>=1: « Les lampions montent quand on les lâche. Je les suis du regard. Ils arrivent tous plus haut que moi. »
+~ondee ?foire>=1: Dame Ondée s'est postée au-dessus de la buvette. Elle rafraîchit les boissons. Elle a l'air presque heureuse.
+~pli ?foire>=1: Monsieur Pli s'est fait plier en cocotte par un enfant. Il n'a pas osé protester. Il se déplie poliment derrière une tente.
+
+@+nui_01
+~bartho ?comp:ondee: Bartholomé regarde la grande marée monter. « Perline est là-dedans, quelque part. » Dame Ondée descend un peu, juste au-dessus de lui, sans pleuvoir. « Je connais toutes les mers. Je lui dirai bonjour pour vous. »
+~meduses ?comp:bartho: « LA MARÉE NOUS APPELLE. » Bartholomé serre le bocal contre sa poitrine. « Pas ce soir, les bestioles. Ce soir vous restez avec le vieux. » « NOUS RESTONS AVEC LE VIEUX. »
+~gaspard ?comp:vesperine: Gaspard et Vespérine regardent la Lune côte à côte. « Je l'ai vue de plus près que quiconque », dit Gaspard. Vespérine : « Et moi plus longtemps. » Ils se taisent. Ils ont gagné tous les deux.
+~zouzou ?comp:remontoir: Zouzou se pose à côté de Grand-Père Remontoir. « Tu as peur ? » « De quoi ? » « De demain. » « À mon âge, demain, c'est un cadeau. On ne regarde pas un cadeau en ayant peur. »
+~rocambole: Rocambole regarde la Lune et lisse sa moustache-nébuleuse. « J'aurais pu la voler, vous savez. » Il ne finit pas. Personne ne lui demande la fin.
+~penelope: « Dans le bureau de Monsieur Platine, il n'y avait pas de nuit. Je ne savais pas que c'était si grand. »
+~fernand: Fernand éteint sa lumière, pour mieux voir la Lune. C'est la première fois qu'il le fait de sa vie.
+~echo: « ... maintenant... » Écho a entendu Madame Coquille, ou quelqu'un d'autre. Elle répète le mot comme on serre une main.
+~ysaline: « Une marée immense, et personne ne demande leur avis aux poissons. Je note pour le prochain congrès. »
+~taupinel: Taupinel colle son museau à la marée. « Elle sent la fin du monde. Et le sel. Surtout le sel. »
+
+@+nui_02
+~bartho ?nuit>=1 ?comp:melusine: Bartholomé et Tante Mélusine se disputent la dernière tasse de tisane. « JE SUIS PLUS VIEILLE QUE VOUS ! » « Je suis plus fatigué. » Ils la partagent. Elle pleure dedans. Il dit que ça la sale bien.
+~penelope ?nuit>=1 ?comp:pardon: Pénélope et Pardon comparent leurs anciens badges de la Compagnie. « Vous étiez à quel étage ? » « Sous-sol trois. Pardon. » « Moi, dernier étage. » Ils se regardent. « Vous aviez une fenêtre ? » « Non. » « Moi non plus, en fait. »
+~rocambole ?nuit>=1 ?comp:fulgence: Rocambole joue aux cartes avec Fulgence. Fulgence change de visage à chaque main. Rocambole triche avec ses quatre bras. Personne ne gagne. Ils sont ravis.
+~quartz ?nuit>=1 ?comp:taupinel: Le Docteur Quartz dicte à Taupinel la vraie composition de la Lune. Taupinel note. Il rature. Il note de nouveau. « Vous êtes sûre ? » « À quarante pour cent. » « C'est déjà beaucoup. »
+~zouzou ?nuit>=1 ?comp:coquille: Zouzou s'est posée, une fois, à côté de Madame Coquille. « Tu vas jamais nulle part, toi. » « Je vais partout. Lentement. Toi, tu vas nulle part. Vite. » Zouzou ne répond pas. Elle reste posée. Longtemps, pour elle.
+~ysaline ?nuit>=1 ?comp:vesperine: Ysaline essaie d'inscrire Vespérine au Syndicat. « Je ne signe rien après minuit. » « Il est onze heures. » « Pour moi, il est toujours après minuit. »
+~gaspard ?nuit>=1 ?comp:echo: Gaspard raconte son vol en montgolfière. Écho répète « ... haut... haut... » à chaque phrase. Il n'a jamais eu un aussi bon public.
+~brume ?nuit>=1 ?comp:ondee: Brume-Lucie et Dame Ondée flottent l'une à côté de l'autre. Un brouillard et un nuage. « On est... un peu cousines ? » « On est de la même eau. » Brume-Lucie reste visible jusqu'au matin.
+~plumard ?nuit>=1 ?comp:remontoir: Le Colonel Plumard demande l'heure à Grand-Père Remontoir, pour sonner l'aube à temps. Remontoir lui donne l'heure avec trois minutes de retard. Plumard la recopie quand même, par respect.
+~pli ?nuit>=1 ?comp:ysaline: Monsieur Pli soumet son traité à Ysaline. Elle l'amende. Il se replie. Elle l'amende encore. Il se déplie. Au bout d'une heure, il y a un article trois.
+~meduses ?nuit>=1 ?comp:fernand: Fernand et le Chœur des Méduses comparent leur lumière. « LA NÔTRE EST PLUS BLEUE. » « La mienne est homologuée. » Ils éclairent le camp à deux, chacun d'un côté.
+~bartho ?nuit>=1: Bartholomé a bu de l'eau douce. Il est très dilué. Il serre tout le monde dans ses bras en disant qu'il ne serre jamais personne.
+~penelope ?nuit>=1: Pénélope s'entraîne à dire non. Au feu, aux étoiles, à une chaise. « Non. Non. NON. » Elle sourit. « C'est grisant. »
+~fulgence ?nuit>=1: Fulgence s'est endormi. Dans son sommeil, il change de forme toutes les minutes. En ce moment, c'est toi.
+~echo ?nuit>=1: Écho fredonne les derniers mots de toutes les conversations du camp. Ça fait une chanson. Elle est presque belle.
+~taupinel ?nuit>=1: Taupinel relit son article à voix haute. Il y a ton nom dedans. Tu fais semblant de dormir.
+
+@+hub_12
+~bartho ?comp:ondee: Bartholomé lit le dos de la carte postale par-dessus ton épaule. « "Tout va bien ici." » Il renifle. Dame Ondée pleut deux gouttes sur la carte, très précisément à côté de l'écriture.
+~gaspard: « J'en ai envoyé une, moi aussi, avant de partir. Je ne suis jamais rentré la chercher. »
+~penelope: « Pas de nom, pas d'adresse. Au bureau, on l'aurait renvoyée. » Elle te la rend. « Gardez-la. C'est mieux. »
+~vesperine: « Les gens ne veulent pas de souvenirs de ce qui part. C'est faux. Ils ne veulent que ça. »
+~remontoir: « Tout va bien ici. Il fait beau. On pense à toi. » Remontoir hoche la tête. « Trois phrases. C'est tout ce qu'il faut, à la fin. »
+
+@+asc_14
+~rocambole ?comp:zouzou: Rocambole s'est caché dans une caisse de bidets, lui aussi. Il en sort la tête : « Je l'ai choisie exprès. Personne ne fouille les bidets. » Zouzou, de l'extérieur : « Moi si. »
+~pardon: Pardon se tasse dans un coin de la caisse. « Pardon. Je connais ces caisses. Je les ai mesurées. Pas de l'intérieur. »
+~plumard: « Se cacher dans une caisse. Pour un militaire, c'est une humiliation. » Il se cache très bien.
+~coquille: Madame Coquille rentre dans sa carapace. « Moi, je suis toujours dans une caisse. Je ne vois pas la différence. »
+~quartz: « Cette caisse supporte quatre cents kilos. » Elle craque. « Trois cent quatre-vingt-dix. »
+
+@+asc_15
+~ysaline ?comp:pardon: « Pas payés les heures supplémentaires ? » Ysaline sort son carnet de syndicaliste. Pardon, tout bas : « Pardon. À la Compagnie, on ne compte pas les heures. On compte les mètres. Moi non plus, je n'ai jamais été payé. »
+~ysaline: Ysaline vibre d'indignation. « Une grève. Enfin, quelqu'un qui parle ma langue. »
+~taupinel: Taupinel note si vite que son crayon fume. « Ça, c'est la une. »
+~penelope: « Bobinot. Je connais Bobinot. Il m'envoyait des notes de frais pour des casques. Toujours trop grands. »
+
+@+asc_16
+~gaspard: Gaspard colle son visage transparent au hublot. « C'est d'ici. C'est exactement d'ici que je l'ai vue, la dernière fois. » Il ne dit rien d'autre jusqu'au quai.
+~zouzou ?comp:coquille: Zouzou regarde la Terre par le hublot. « Elle est toute petite. » Madame Coquille, sans ouvrir les yeux : « Elle est grande. C'est toi qui es loin. »
+~ondee: Dame Ondée regarde la Terre et nomme les mers une par une, tout bas, comme on compte des enfants.
+~bartho: « Bancale. » Bartholomé regarde la Terre. « Comme moi. On tient quand même. »
+~fernand: Fernand cesse de taper. Pour la première fois, il ne trouve rien à réclamer.
+
+@+asc_17
+~pardon: Pardon voit les ouvriers dorés. Ils sont petits, comme lui. Il recule d'un pas. « Pardon. Ce sont mes collègues. Mes anciens collègues. »
+~rocambole: « Je vais faire diversion », annonce Rocambole. Il ne fait rien. Mais il l'a annoncé très fort, et ça fait diversion.
+~penelope: Pénélope cache ses tampons sous sa veste. « Si Bobinot me reconnaît, il voudra que je signe ses bons de livraison. »
+~melusine: « UN QUAI ! » Tout le monde se retourne. Tante Mélusine se fait toute petite. Elle n'est pas très douée pour ça.
+
+@+cha_01
+~pardon ?comp:penelope: Pénélope lit les panneaux. « "Interdit de pleurer sur le chantier." C'est moi qui l'ai tapé. » Pardon : « C'est moi qui l'ai fixé. » Ils se regardent, honteux. Puis Pénélope prend un feutre et ajoute : « sauf si c'est mérité ».
+~melusine: Tante Mélusine lit « Interdit de pleurer sur le chantier ». Elle pleure exprès, très fort.
+~ysaline: « Des ouvriers épuisés, une direction absente, des panneaux insultants. J'ai l'impression d'être chez moi. »
+~vesperine: « Jamais de nuit ici. Ils ont éclairé la Lune. Il faut être un barbare pour éclairer la Lune. »
+~fernand: Fernand regarde les projecteurs du chantier, un par un. « Éclairage public. Il y en avait un. Le n° 1. Il marchait très bien. »
+~gaspard: Gaspard pose le pied sur la poussière. Il ne s'enfonce pas. Il ne laisse pas de trace. Il pleure quand même.
+~coquille: « Ils travaillent vite. » Madame Coquille fronce ce qui lui tient lieu de sourcils. « C'est toujours mauvais signe. »
+
+@+cha_02
+~remontoir ?comp:quartz: Remontoir colle son oreille au sol à côté de toi. « Elle bat. Lentement. Comme moi. » Le Docteur Quartz : « C'est une vibration sismique. » « C'est ce que je dis. »
+~echo: Écho se penche vers le sol. Elle écoute. Puis, très bas : « ... aide... » Elle ne sait pas si c'est elle ou la Lune qui l'a dit.
+~brume: « Elle essaie de... enfin. Elle n'ose pas finir non plus. »
+~ondee: Dame Ondée laisse tomber trois gouttes sur la poussière. Elles disparaissent tout de suite, comme si la Lune avait soif.
+
+@+cha_03
+~pardon ?comp:ysaline: Pardon reconnaît un vieil ouvrier. « Matricule 4002. » « Pardon ? C'est toi ? » Ysaline s'interpose : « Vous vous connaissez ? Parfait. Vous serez délégués du personnel. »
+~ysaline: Ysaline donne sa carte au vieil ouvrier. « Pas de nuit, pas de prime. C'est un cas d'école. Je l'ai déjà vu cent fois. Je ne m'y habitue pas. »
+~plumard: « Jamais vu de nuit ? » Le Colonel Plumard est bouleversé. « Mais alors… on ne sonne jamais l'aube ? »
+~pardon: Pardon baisse les yeux. « Pardon. Je mesurais les racines, en bas. Eux, ils mesurent la Lune. On ne s'est jamais parlé. On aurait dû. »
+~vesperine: Vespérine s'est réfugiée sous son ombrelle. « Pas de nuit. Ces pauvres gens n'ont jamais vu une étoile. »
+
+@+cha_07
+~quartz ?comp:remontoir: Le Docteur Quartz mesure le crochet de loin. « Il fera céder la croûte dans six jours. » Remontoir écoute le câble. « Trois. » Elle ne discute pas.
+~zouzou: Zouzou regarde le câble d'or. « On pourrait le couper avec ma queue. » Elle réfléchit. « Non. Elle serait trop brûlée. »
+~gaspard: Gaspard regarde le câble. « Une corde jusqu'à elle. J'en ai rêvé. Pas comme ça. »
+~melusine: Tante Mélusine regarde les fissures. Elle ne crie pas. C'est la première fois. C'est ce qui fait le plus peur.
+
+@+cha_11
+~quartz ?comp:remontoir: Le Docteur Quartz analyse la roche. « Elle a de la fièvre. » Remontoir : « Non. Elle a du chagrin. » « C'est pareil, chez les minéraux. » Pour une fois, ils ont raison tous les deux.
+~rocambole: Rocambole lit la devise du crochet. « "Nous donnons un prix à ce qui n'en a pas." » Il crache dans la poussière. « Même moi, je n'ai jamais osé l'écrire. »
+~echo: « ... prix... prix... » Écho répète le mot de la devise jusqu'à ce qu'il ne veuille plus rien dire.
+~ondee: Dame Ondée pleut sur la roche brûlante. Ça fume. La roche a l'air un peu soulagée.
+~penelope: « Je l'ai fait graver. » Pénélope regarde la devise. « Bon de commande n° 88. Je regrette le n° 88. »
+
+@+cha_15
+~zouzou ?comp:coquille: Zouzou tourne autour de Madame Coquille. « Qu'est-ce que tu vas faire, toi ? » « Moi ? Rien. Je suis venue. C'est déjà beaucoup, à ma vitesse. »
+~bartho ?comp:meduses: Bartholomé ouvre son bocal. « C'est le moment, les bestioles ? » « C'EST LE MOMENT, VIEUX BULOT. » Il ne referme pas le couvercle. Il ne le referme plus.
+~plumard ?comp:melusine: Le Colonel Plumard ajuste sa crête. Tante Mélusine lui noue une écharpe de lumière autour du cou, sans rien dire, ce qui chez elle est un hurlement.
+~gaspard: « J'y suis. Après cent quarante ans. » Gaspard ne bouge plus. Il a peur d'avoir à repartir.
+
+@+cha_28
+~penelope: Pénélope reconnaît la voix dans la radio. Elle devient blanche, pour une femme de bureau, c'est beaucoup. « C'est lui. Il dit toujours "J'aime recevoir". Il n'a jamais reçu personne. »
+~pardon: « Pardon. Il est poli. C'est le pire. On ne peut pas lui en vouloir, et on lui en veut. »
+~rocambole: Rocambole se cache derrière toi. Il a quatre bras pour se cacher, et il les utilise tous.
+~ysaline: « Faites-le monter. » Ysaline grince. « Comme un colis. »
+
+@+cha_30
+~pli ?comp:penelope: Monsieur Pli se déplie face à l'Huissier. Pénélope lui souffle : « Il aime les articles. Citez-en un. » Pli : « Article premier. On se dit bonjour. » Krâmm, désarmé : « … Bonjour. »
+~penelope: Pénélope fait une petite révérence à l'Huissier. « Monsieur Krâmm. » « Mademoiselle Tampon. Vous avez quitté votre poste. » « Oui. Ça fait du bien. Vous devriez essayer. »
+~taupinel: Taupinel se faufile entre les tiroirs de l'Huissier. Il lit tout. Il note tout. Krâmm le laisse faire. Il a l'air presque soulagé.
+
+@+cha_31
+~melusine: Tante Mélusine se mouche si fort dans son châle que trois ouvriers lâchent leurs outils. « UN DESSIN D'ENFANT ! JE NE SUPPORTE PAS LES DESSINS D'ENFANT ! »
+~vesperine: Vespérine ferme son ombrelle. Par respect.
+~bartho: Bartholomé détourne les yeux. « Perline dessinait des bateaux dans le sable. La mer les effaçait. Elle recommençait. »
+~echo: « ... aime... » Écho le répète tout bas, au-dessus du dessin, pour qu'il reste.
+
+@+cha_32
+~pli: Monsieur Pli se plie en deux. « Très seul. J'ai négocié avec des gens très seuls. Ils signent tout. Ils veulent juste qu'on reste. »
+~fulgence: Fulgence ne prend aucune forme pendant le trajet. Il reste lui-même, gris et flou. « Quand on est seul, on finit par n'avoir plus de visage. Je sais. »
+~ondee: Dame Ondée se fait toute petite dans un coin de l'ascenseur. « Seul. Comme une pluie que personne n'attend. »
+
+@+cha_33
+~rocambole ?comp:zouzou: Rocambole lisse sa moustache. « J'ai déjà été dans un bureau volant. » Zouzou : « Menteur. » « Celui-là, je l'ai cambriolé. Presque. » « Menteur. » « Bon. Je l'ai vu en photo. »
+~quartz: « Le Promontoire est en aluminium plaqué or. » Elle tapote la vitre. « Ou en or plaqué aluminium. L'un des deux. »
+~plumard: « Une inspection ! » Le Colonel se met au garde-à-vous dans l'ascenseur. Il ne sait pas qui inspecte qui. Il préfère être prêt.
+~coquille: Madame Coquille regarde la Lune s'éloigner. « Nous montons. Je n'aime pas monter. Mais je n'aime pas non plus qu'on la déménage. »
+
+@+cha_34
+~gaspard: Gaspard regarde la Lune par la vitre. « Elle me regarde aussi. Ou alors elle regarde à travers moi. Ça m'arrive souvent. »
+~brume: « Elle nous... enfin. Elle nous regarde partir. Je n'aime pas les... » Elle se tait. Elle ne disparaît pas.
+~echo ?flag:echo_parle: Écho entend le mot qui monte de la Lune. « Reste. » Elle le répète, tout bas, à la vitre. « Reste. »
+
+@+neg_02
+~penelope: Pénélope se tient bien droite derrière toi. Platine la voit. « Mademoiselle Tampon ! Vous êtes venue ! Vous avez pris un congé ? » « J'ai pris ma vie. » Il ne comprend pas. Elle si.
+~rocambole: Rocambole regarde les maquettes de mondes vendus. Il en compte quatre qu'il connaît. Il ne dit pas comment il les connaît.
+~fulgence: Fulgence prend, sans le faire exprès, l'apparence d'une feuille d'or. Il se reprend vite. « Pardon. Ça m'arrive quand j'ai peur. »
+~zouzou: « Un poème ? » Zouzou s'étrangle. « Il a dit un poème ? »
+
+@+neg_03
+~pli: Monsieur Pli s'incline devant Platine, un pli parfait. Platine s'incline aussi. Ça dure. Personne ne veut se relever le premier.
+~coquille: Madame Coquille met trois minutes à entrer dans le bureau. Platine attend poliment. Il a l'air de trouver ça charmant.
+
+@+neg_04
+~ysaline ?comp:penelope: Ysaline croise ses pattes ravisseuses. « "Légalement. Proprement." » Pénélope, tout bas : « C'est moi qui ai tapé l'acte. Il y avait une faute dans "proprement". » Ysaline sourit. Ça ne rassure personne.
+~bartho: Bartholomé grogne. « Avec des pâtisseries. Moi, on m'a pris ma femme avec une marée. Au moins la marée, elle s'excusait pas. »
+~melusine: Tante Mélusine se retient de crier. Ça fait un bruit de bouilloire.
+~taupinel: Taupinel note « Avec des pâtisseries ». Il souligne deux fois.
+~remontoir: Remontoir regarde Platine avec une grande douceur. « Il a peur du temps, ce garçon. Ceux qui achètent tout ont peur du temps. »
+
+@+neg_15
+~bartho ?flag:vis_cot: Bartholomé, quand tu parles des Marégraves qui écopent : « Et dis-lui que la mer chante faux, depuis. Ça, il comprendra pas, mais dis-le. »
+~penelope: Pénélope ajoute, d'une petite voix : « Et les bureaux. Il y a des gens qui pleurent dans les bureaux, aussi. »
+~ondee: Dame Ondée pleut sur la moquette dorée pendant que tu parles. Platine ne dit rien. Il regarde la tache s'étendre.
+
+@+neg_22
+~penelope: Pénélope regarde le bouton rouge. « C'est moi qui ai rédigé la notice. "Ne pas presser sans autorisation." Il ne s'est jamais autorisé. »
+~rocambole: « Dépensé. » Rocambole hausse les quatre épaules. « Moi, j'ai été dépensé dix fois. On s'en remet. On recommence en plus petit. »
+~zouzou: « Ruiné, ruiné. » Zouzou fait la moue. « Moi, j'ai rien, et je vais partout. »
+
+@+neg_23
+~melusine: Tante Mélusine écoute le poème. Elle sanglote. « C'EST NUL ! C'EST NUL ET C'EST BEAU ! COMME TOUT CE QUI EST SINCÈRE ! »
+~vesperine: Vespérine murmure : « Les rimes sont atroces. Mais il y a quelqu'un, derrière. Ça, c'est rare. »
+~gaspard: Gaspard écoute, les yeux fermés. « J'ai écrit des choses comme ça. Avant de monter. Je ne les ai lues à personne. Je suis monté à la place. »
+
+@+neg_24
+~ysaline: « Concierge en chef ? » Ysaline éclate de rire. « Proposez-lui au moins délégué du personnel. »
+~penelope: Pénélope pose la main sur ton bras. « Il m'a fait la même offre, il y a dix ans. Assistante pour toujours. J'ai dit oui. Vous voyez où ça mène ? » Elle montre ses tampons.
+~fulgence: Fulgence prend un instant ta forme, en concierge, avec une casquette dorée. Il se regarde. « Non. Ça ne te va pas du tout. »
+
+@+neg_26
+~meduses: Le Chœur des Méduses colle ses mille petites faces à la baie vitrée. « NOUS VOYONS LA TERRE. ELLE NOUS FAIT COUCOU. NOUS LUI FAISONS COUCOU. »
+~remontoir: « Cinq minutes. » Remontoir sourit. « C'est long, cinq minutes. J'ai fait des choses très importantes en moins que ça. »
+~coquille: « Cinq minutes. » Madame Coquille n'a pas l'air pressée. « On peut faire tant de choses lentement, en cinq minutes. »
+~plumard: Le Colonel Plumard compte les secondes à voix haute. Personne ne lui a demandé. Ça aide quand même.
+
+@+neg_27
+~pardon: Pardon regarde le stylo. « Pardon. Ce stylo n'a jamais écrit de refus. Je l'ai mesuré. »
+~ysaline: Ysaline siffle entre ses mandibules. « Pose ce stylo. Doucement. Comme une arme. »
+
+@+neg_28
+~gaspard: « Jaloux. » Gaspard hoche la tête. « Moi aussi, j'étais jaloux de la Terre. Elle avait quelqu'un. J'ai voulu aller voir. »
+~ondee: Dame Ondée laisse tomber une seule goutte sur l'épaule de Platine. Il sursaute. Il n'a jamais été mouillé par quelqu'un.
+~fulgence: Fulgence se tait. Il sait ce que c'est, de vouloir que quelqu'un tourne autour de soi. Il a changé de visage mille fois pour ça.
+~brume: « Personne qui... enfin. Personne qui tourne. Je connais ça. » Brume-Lucie, pour une fois, va jusqu'au bout : « C'est pas ridicule. »
+
+@+neg_29
+~quartz: Le Docteur Quartz lève la main. « J'ai trois solutions. Deux sont fausses. » Elle réfléchit. « Peut-être les trois. »
+~taupinel: Taupinel lève le museau de son carnet. « Tous les chemins sont notés. Je peux vous relire les bons. Enfin, ceux que j'ai compris. »
+
+@+neg_30
+~bartho: Bartholomé pose sa grosse main sur ton épaule. Il ne dit rien. Il ne râle pas. Ça veut tout dire.
+~echo: « ... quoi faire... » Écho répète la question de Platine. Puis, plus bas, la réponse qu'elle n'a pas : « ... faire... »
+~penelope: Pénélope lève son tampon REFUSÉ, celui de droite, celui qui n'a jamais servi. Elle attend ton signal.
+
+@+neg_32
+~plumard: Le Colonel Plumard gonfle les plumes. Il a l'aube toute prête dans la gorge. Il attend.
+~vesperine: Vespérine ferme les yeux. « Quoi que vous disiez, mon cher, dites-le bien. On s'en souviendra longtemps. Moi, en tout cas. Et j'ai du temps. »
+~zouzou: Zouzou ne tourne plus. C'est la première fois qu'elle reste immobile. Elle brille, toute droite, à côté de toi.
+~remontoir: Tic. … … … Tac. Remontoir retient son tic-tac, pour ne pas faire de bruit.
+
+@+nui_60
+~fulgence ?comp:vesperine: Fulgence invite Vespérine à danser. Il prend la forme d'un prince de bal. Elle refuse. Il reprend sa vraie forme, grise et floue. Elle accepte.
+~melusine ?comp:plumard: Tante Mélusine entraîne le Colonel Plumard dans une gigue. Il proteste au garde-à-vous. Il danse au garde-à-vous. C'est très réussi.
+~remontoir ?comp:zouzou: Grand-Père Remontoir danse avec Zouzou. Lui à son rythme, elle au sien. Ils ne sont jamais ensemble. Ils rient tout le temps.
+~pardon: Pardon ne sait pas danser. Il mesure les pas des autres, et les reproduit avec exactement trois secondes de retard. On le trouve formidable.
+~echo: Écho chante le dernier mot de chaque couplet. Comme personne ne connaît les chansons, c'est le seul mot que tout le monde chante juste.
+~ysaline: Ysaline a obtenu que les danseuses mènent la danse. Les danseurs suivent. Ils ont l'air soulagés.
+
+@+nui_61
+~gaspard: Gaspard s'assoit à côté de toi, un peu au-dessus de l'herbe. « Moi aussi, je lui ai dit que j'arrivais. Il y a cent quarante ans. Toi, arrive pour de vrai. »
+~ondee: Dame Ondée flotte au-dessus de vous deux et pleut, très doucement, ce qui chez elle veut dire « moi aussi ».
+~zouzou: Zouzou s'allonge dans l'herbe. Elle ne brille presque plus. « Elle a l'air fatiguée. Comme ma mère quand je partais. »
+~echo: Écho s'assoit contre toi. Tu dis quelque chose à la Lune. Elle le répète, plus bas, pour que ça monte plus loin.

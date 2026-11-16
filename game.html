@@ -404,11 +404,13 @@ function enterNode(id){
 }
 function pickQuips(n){
   const out = [], seen = new Set();
+  /* la première réplique qui colle, par compagnon ; on garde d'abord les échanges entre compagnons et les répliques liées à la situation, puis on tire au hasard */
   for (const q of (n.quips || [])){
     if (seen.has(q.c) || !S.comp.includes(q.c) || !allOk(q.if)) continue;
-    seen.add(q.c); out.push(q); if (out.length >= 2) break;
+    seen.add(q.c); out.push(q);
   }
-  return out;
+  const prio = q => (q.if || []).some(c => /^!?comp:|,comp:/.test(c)) ? 2 : (q.if || []).length ? 1 : 0;
+  return out.map(q => [q, prio(q) + Math.random()]).sort((x, y) => y[1] - x[1]).slice(0, 2).map(x => x[0]);
 }
 /* un compagnon commente ta façon d'agir après un jet (une fois sur deux environ) ; de préférence le spécialiste de la caractéristique */
 function pickReact(stat, ok){
@@ -432,7 +434,7 @@ function choose(i){
   if (heavy && !ch.kofx.length) log.push({t:"échec cuisant", p:false});
   apply(auto ? (ch.okfx.length ? ch.okfx : (d.autofx || [])) : ok ? (ch.okfx.length ? ch.okfx : d.okfx) : (ch.kofx.length ? ch.kofx : (heavy ? d.kofx : [])), log);
   const text = ok ? ch.ok : ch.ko;
-  S.phase = "roll"; S.roll = {label: ch.label, auto, die, bonus, parts, diff: ch.diff, ok, text, log, react: auto ? null : pickReact(stat, ok), to: ch.to, stat, from: S.node};
+  S.phase = "roll"; S.roll = {label: ch.label, auto, die, bonus, parts, diff: ch.diff, ok, text, log, react: null, to: ch.to, stat, from: S.node};
   S.steps++;
   store.set("lune.save", S);
   render(!auto);
@@ -471,9 +473,13 @@ function hud(){
 `;
 }
 function sideHtml(){
-  const team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item" tabindex="0" title="${esc(k.bio)}"><strong>${esc(k.name)}</strong><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span></div>`; }).join("");
+  let team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item" tabindex="0" title="${esc(k.bio)}"><strong>${esc(k.name)}</strong><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span></div>`; }).join("");
+  /* le petit Croissant voyage avec sa mère, ou avec toi si elle n'est plus là */
+  const crois = S.flags.includes("croissant") && (S.comp.includes("coquille") || S.flags.includes("mort_coquille"));
+  if (crois) team += `<div class="side-item" tabindex="0" title="Né la dernière nuit, à marée haute. Il est très lent, très curieux, et il regarde la Lune avec des yeux énormes."><strong>Le petit Croissant</strong><span class="sp">Bébé tortue des sables · ${S.comp.includes("coquille") ? "sur le dos de sa mère" : "dans tes bras"}</span></div>`;
+  const nTeam = S.comp.length + (crois ? 1 : 0);
   const held = heldItems().map(f => `<div class="side-item" tabindex="0" title="${esc(M.items[f].desc)}"><strong>${esc(M.items[f].name)}</strong></div>`).join("");
-  return `<div class="side-box"><h3>Ton équipe${S.comp.length ? ` (${S.comp.length})` : ""}</h3>${team || `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
+  return `<div class="side-box"><h3>Ton équipe${nTeam ? ` (${nTeam})` : ""}</h3>${team || `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
     <div class="side-box"><h3>Tes objets${heldItems().length ? ` (${heldItems().length})` : ""}</h3>${held || `<p class="empty">Rien encore. Il y a ${Object.keys(M.items).length} objets à trouver.</p>`}</div>
 `;
 }
