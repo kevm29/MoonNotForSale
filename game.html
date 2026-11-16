@@ -162,7 +162,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 #game ~ *, .wrap:has(#game:not([hidden])){padding-bottom:16px}
 #scene > div:empty{display:none}
 /* ---------- barre du haut : médaillon, nom, jauges, caractéristiques ---------- */
-#hud{display:block}
+#hud{display:block;padding-inline:14px}
+.game-grid{column-gap:12px}
 .hud-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .hud-bar .who{display:flex;align-items:center;gap:12px;font-family:var(--f-titre);font-size:20px;min-width:0;background:none;border:0;color:inherit;padding:0;cursor:pointer;text-align:left}
 .hud-bar .who small{margin-left:0;display:block}

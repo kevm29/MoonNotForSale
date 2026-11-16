@@ -167,7 +167,8 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 #game ~ *, .wrap:has(#game:not([hidden])){padding-bottom:16px}
 #scene > div:empty{display:none}
 /* ---------- barre du haut : médaillon, nom, jauges, caractéristiques ---------- */
-#hud{display:block}
+#hud{display:block;padding-inline:14px}
+.game-grid{column-gap:12px}
 .hud-bar{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
 .hud-bar .who{display:flex;align-items:center;gap:12px;font-family:var(--f-titre);font-size:20px;min-width:0;background:none;border:0;color:inherit;padding:0;cursor:pointer;text-align:left}
 .hud-bar .who small{margin-left:0;display:block}
@@ -535,7 +536,7 @@ function medCard(kind, id){
   if (kind === "c"){
     if (id === "croissant") return {round:true, img:medImg("c", id, CROISSANT.name), sp:CROISSANT.species, name:CROISSANT.name, rows:[["Qui c'est", CROISSANT.bio], ["Avec toi", S.comp.includes("coquille") ? "Sur le dos de sa mère, Madame Coquille." : "Dans tes bras. Il va falloir qu'il vive pour deux."]]};
     const k = M.companions[id];
-    return {round:true, img:medImg("c", id, k.name), sp:k.species, name:k.name, rows:[["Qui c'est", k.bio], ["Son talent", `+1 à tes jets de ${SN[k.stat]} tant qu'il ou elle t'accompagne (deux spécialistes au plus comptent).`]]};
+    return {round:true, img:medImg("c", id, k.name), sp:k.species, name:k.name, rows:[["Qui c'est", k.bio], ["Son talent", `+1 à tes jets de ${SN[k.stat]} tant que ${shortName(k.name)} t'accompagne (deux spécialistes au plus comptent).`]]};
   }
   const it = M.items[id];
   return {round:false, img:medImg("o", id, it.name), sp:"Objet", name:it.name, rows:[["Ce que c'est", it.desc], ["À quoi ça sert", "Il fera apparaître, plus loin, un choix qui n'existerait pas sans lui. Certains ne servent qu'une fois."]]};
