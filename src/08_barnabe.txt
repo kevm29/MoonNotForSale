@@ -112,13 +112,15 @@ Elle se tait. Elle regarde la tombe. « Alors il faudra que quelqu'un t'empêche
 @lyc_18
 Un corbeau se pose sur la pierre tombale, un journal dans le bec. Il le lâche à tes pieds : « Le Courrier de la Lande. Édition spéciale. Tous les peuples se rassemblent au Carrefour des Espèces. Le Conseil des Espèces va se réunir pour la première fois de l'histoire. »
 C'est là qu'il faut aller. C'est là que tout le monde va.
-* lyc_19 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | | +comp:vesperine mor+1 |
+* lyc_19 coe12 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | « Venez avec moi, Vespérine. » Elle sourit, sans les dents. « Je ne voyage pas avec un loup qui n'en est plus un. Ce serait triste pour nous deux. » Le carrosse repart dans la nuit, sans toi. | +comp:vesperine mor+1 |
 * lyc_20 pan11 | Partir seul, à pied, comme un loup | Tu lui fais une révérence et tu pars dans la lande. Tu l'entends dire, derrière toi : « La nuit, tout finit par se rejoindre, Frissepoil. » | | |
 
 @lyc_19
-Le carrosse de la Comtesse roule toute la nuit sur la lande. À l'intérieur, il fait sombre, il fait frais, ça sent la cire et la mûre. Elle boit du jus de mûre dans un verre de cristal. Elle n'en propose pas. Puis elle en propose.
+?comp:vesperine Le carrosse de la Comtesse roule toute la nuit sur la lande. À l'intérieur, il fait sombre, il fait frais, ça sent la cire et la mûre. Elle boit du jus de mûre dans un verre de cristal. Elle n'en propose pas. Puis elle en propose.
+?!comp:vesperine Tu marches toute la nuit sur la lande, à pied. Au loin, les lanternes du carrosse s'éloignent, puis s'éteignent.
 ~vesperine: « Ne t'assieds pas trop près. Je mords encore, tu sais. Par principe. »
-* lyc_21 coe10 | Regarder la lande défiler | Tu regardes. Elle regarde aussi. Vous ne parlez pas. C'est la meilleure conversation que vous ayez eue en trois siècles. | | mor+1 |
+* lyc_21 coe10 ?comp:vesperine | Regarder la lande défiler | Tu regardes. Elle regarde aussi. Vous ne parlez pas. C'est la meilleure conversation que vous ayez eue en trois siècles. | | mor+1 |
+* lyc_21 coe10 ?!comp:vesperine | Marcher en regardant la Lune | Elle est petite, penchée, et elle s'éloigne. Toi aussi, tu marches. Vous allez dans le même sens, pour une fois. | | |
 
 @lyc_20
 Tu marches toute la nuit sur la lande, seul, comme un loup. Mais tu n'es plus un loup. Tes pieds ont mal. Tu as froid. Tu as la médaille du Club ou le souvenir d'un hurlement, et un croc d'argent dans ta poche de poitrine qui te pique le cœur à chaque pas.

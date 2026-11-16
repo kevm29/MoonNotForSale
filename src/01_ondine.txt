@@ -117,7 +117,7 @@ Le bateau de Bartholomé s'appelle « La Pas-Fière ». C'est une barque à mote
 Bartholomé finit par se lever, ce qui chez lui est un événement géologique.
 « Bon. Si on doit mourir, autant que ce soit loin d'ici. Le bistrot est trop triste pour un enterrement. »
 Il te regarde. Il attend que tu dises quelque chose.
-* ond_19 | « Viens avec moi, Bartho. » | Il prend sa casquette, ses filets, et une bouteille d'eau douce « pour les urgences sentimentales ». | | +comp:bartho |
+* ond_19 coe10 | « Viens avec moi, Bartho. » | Il prend sa casquette, ses filets, et une bouteille d'eau douce « pour les urgences sentimentales ». | Il secoue la tête. « Pas maintenant, petite. Quelqu'un doit garder le bistrot. Et la mer. » Il retourne à sa bouteille d'eau douce. Tu pars sans lui. | +comp:bartho |
 * ond_19 pan11 | « Reste ici et garde le village. » | Il hoche la tête. Quelqu'un doit rester. Il sera ce quelqu'un. Il le sera mal, mais il le sera. | Il hoche la tête avec un soulagement qui te fait de la peine. | equ+3 |
 * ond_20 rus11 | « On en reparlera plus tard. » Partir lire l'affiche qu'on cloue au phare | Tu sors. Derrière toi, Bartho reste debout, perplexe, comme un homme à qui on a promis une suite. | Tu sors un peu trop vite. Tu entends Bartho soupirer jusqu'au phare. |  | mor-1
 

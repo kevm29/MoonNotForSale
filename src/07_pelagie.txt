@@ -86,13 +86,14 @@ Et au bout du couloir, quelque chose avance. Très lentement. Une tortue énorme
 !title: Madame Coquille
 « Madame Coquille. Tortue des sables. Trois cent douze ans. Enceinte depuis trois cents. » Elle dit tout cela avec une grande dignité, en grignotant une feuille de salade. « J'ai entendu qu'un bébé était né cette nuit. Je viens vous féliciter. Et vous dire une chose. »
 Elle pose une patte sur sa carapace. « Chez nous, on naît à marée haute, quand la Lune est pleine. Mon petit attend depuis trois siècles le bon moment. Si la Lune s'en va, il n'y aura plus jamais de bon moment. » Elle nous regarde. « Alors je vais monter. Je vais aller dire deux mots à ce monsieur en or. »
-* pel_14 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | | +comp:coquille mor+1 |
+* pel_14 coe11 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | Elle réfléchit si longtemps que nous croyons qu'elle s'est endormie. Elle s'est endormie. Nous n'osons pas la réveiller. Nous partons sans elle, sur la pointe de nos mille pattes. | +comp:coquille mor+1 |
 * pel_15 rus11 | Lui conseiller de rester ici, à l'abri | « Le voyage sera long, Madame. Et rapide, par moments. » Elle soupire. « La vitesse. Quelle vulgarité. » Elle reste. | | |
 
 @pel_14
-Madame Coquille range sa salade dans sa carapace et se met en route à côté de nous. Elle avance d'un pas, puis d'un autre. Nous ralentissons. Les mille abeilles ralentissent. C'est très reposant.
+?comp:coquille Madame Coquille range sa salade dans sa carapace et se met en route à côté de nous. Elle avance d'un pas, puis d'un autre. Nous ralentissons. Les mille abeilles ralentissent. C'est très reposant.
+?!comp:coquille Madame Coquille dort, la tête à moitié rentrée, une feuille de salade au bec. Nous lui laissons un mot, écrit en danse sur le sable. Elle le lira dans trois jours.
 ~coquille: « Ne vous inquiétez pas. Je suis lente, mais je n'arrive jamais en retard. J'arrive quand j'arrive. C'est l'heure, alors. »
-* pel_16 coe10 | Préparer le départ | Nous retournons à la Maternité, avec Madame Coquille, préparer nos affaires. | |
+* pel_16 coe10 | Préparer le départ | Nous retournons à la Maternité préparer nos affaires. | |
 
 @pel_15
 Madame Coquille hoche la tête. « Vous avez raison. Je vous attendrai. J'ai l'habitude. » Elle s'installe dans le couloir, au soleil qui ne se lève pas encore. « Mais revenez vite. Enfin, vite pour vous. Pour moi, ça ira toujours. »

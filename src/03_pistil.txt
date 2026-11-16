@@ -89,15 +89,17 @@ Le Marchand de Sommeil tient boutique dans un rêve de grand magasin, au bout d'
 ?from:pis_14 Elle se présente en rougissant : Brume-Lucie, Brumeuse, créature de brouillard qui vit entre le rêve et l'éveil. Elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
 Brume-Lucie flotte autour de toi. Elle te regarde comme on regarde un poussin dans une tempête. « Tu es tout petit. Tu ne devrais pas aller seul là où les rêves se... » Elle ne finit pas. Elle n'aime pas les fins.
 « Est-ce que je peux venir ? Je ne sers à rien, mais je fais de l'ombre. Enfin, du flou. »
-* pis_16 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | | +comp:brume mor+1 |
-* pis_17 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | | +comp:brume |
+* pis_16 coe10 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | Elle disparaît de joie. Tu attends. Elle ne revient pas. Quand on est du brouillard, on se perd parfois dans sa propre émotion. | +comp:brume mor+1 |
+* pis_17 rus11 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | « Dangereux ? » Elle se dissout d'un coup. « Alors non... pas moi... pas... » Le reste de sa phrase s'efface avec elle. Tu continues seul. | +comp:brume |
 * pis_17 pan12 | « Non, reste en sécurité. J'y vais seul. » | Elle te regarde partir. Tu entends derrière toi un demi-vers qui ne finit pas. Ça te serre le cœur. | Elle insiste, tu refuses. Elle disparaît, vexée. | pan+1 | mor-1
 
 @pis_16
-Brume-Lucie te raconte la Lune. « Elle tourne autour de vous depuis toujours. Elle n'a jamais rien demandé. Elle éclaire les rêves sans qu'on la remercie. Et maintenant on la... » Elle ne termine pas. « Je déteste les fins. Les fins, c'est quand les choses s'en... »
+?comp:brume Brume-Lucie te raconte la Lune. « Elle tourne autour de vous depuis toujours. Elle n'a jamais rien demandé. Elle éclaire les rêves sans qu'on la remercie. Et maintenant on la... » Elle ne termine pas. « Je déteste les fins. Les fins, c'est quand les choses s'en... »
+?!comp:brume Brume-Lucie n'est pas revenue. À l'endroit où elle s'est dissoute, l'air est plus frais, et il flotte un début de phrase : « Elle tourne autour de vous depuis toujours... » La fin manque. Elle manque toujours, avec elle.
 ~brume: « Je n'ai pas fini ma phrase. Je ne la finirai pas. C'est plus joli comme ça. »
-* pis_17 coe11 | Lui dire qu'on va empêcher cette fin-là | Elle te regarde. « Toi ? » « Nous. » Elle reste visible longtemps, ce qui chez elle est une preuve de courage. | Elle ne te croit pas, mais elle aimerait te croire. C'est presque pareil. | mor+1 +flag:brume_espoir |
-* pis_17 rus10 | Lui demander de te guider vers le Marchand | Elle connaît le chemin. Elle connaît tous les chemins flous. Elle te guide. | Elle connaît le chemin, à peu près. Vous vous perdez deux fois. | |
+* pis_17 coe11 ?comp:brume | Lui dire qu'on va empêcher cette fin-là | Elle te regarde. « Toi ? » « Nous. » Elle reste visible longtemps, ce qui chez elle est une preuve de courage. | Elle ne te croit pas, mais elle aimerait te croire. C'est presque pareil. | mor+1 +flag:brume_espoir |
+* pis_17 rus10 ?comp:brume | Lui demander de te guider vers le Marchand | Elle connaît le chemin. Elle connaît tous les chemins flous. Elle te guide. | Elle connaît le chemin, à peu près. Vous vous perdez deux fois. | |
+* pis_17 rus10 ?!comp:brume | Chercher seul le chemin du Marchand | Tu suis les bulles de rêve qui éclatent : elles vont toutes dans la même direction, comme des miettes. | Tu tournes en rond dans un rêve de couloir. Tu finis par trouver, par hasard et par lassitude. | |
 
 @pis_17
 Le couloir des dormeurs. Des lits à l'infini, des dormeurs de toutes les espèces, et au-dessus de chacun, une petite bulle de rêve. Mais ce soir, les bulles éclatent une à une. Pop. Pop. Des insomnies naissent comme des champignons.

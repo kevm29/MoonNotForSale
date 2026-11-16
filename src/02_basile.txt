@@ -238,7 +238,7 @@ Elle penche la tête. « Je suis jolie ? »
 ?from:bas_36 Au bout du couloir, une petite porte ronde donne sur la Toile, le réseau de racines lumineuses qui court sous toute la planète.
 Pénélope te regarde au bord de la Toile. « Je ne peux pas retourner sur le Promontoire. Pas maintenant. Est-ce que... est-ce qu'un lichen a besoin d'une assistante ? »
 Personne n'a jamais eu besoin de toi, et maintenant on te demande si tu as besoin de quelqu'un.
-* bas_39 | « Pas d'une assistante. D'une amie. » | Elle tamponne l'air, deux fois, de joie. Elle vient. Elle portera les dossiers. Elle insiste. | | +comp:penelope mor+1 |
+* bas_39 coe10 | « Pas d'une assistante. D'une amie. » | Elle tamponne l'air, deux fois, de joie. Elle vient. Elle portera les dossiers. Elle insiste. | Elle lève son tampon APPROUVÉ, puis le baisse. « Je ne sais pas faire ça, choisir. On ne m'a jamais appris. » Elle reste sur le palier, les mains-tampons croisées. Tu descends seul dans la Toile. | +comp:penelope mor+1 |
 * bas_39 rus12 | « Retournez là-bas et espionnez Platine pour nous. » | Elle hésite, puis hoche la tête. « Je vais lui mentir. Pour la première fois. Je vais le faire très bien. » | Elle repart, mais tu vois à ses épaules qu'elle a peur. | +flag:penelope_espionne | +flag:penelope_espionne
 
 @bas_38

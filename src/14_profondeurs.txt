@@ -171,8 +171,8 @@ Elle la tient dans ses mains de cristal, comme un enfant. « Je l'ai faite pour 
 Le Docteur Quartz regarde le plan. « C'est la chose la plus folle que j'aie jamais imaginée. Et j'ai fabriqué un trou noir de poche. »
 ?flag:quartz_renvoyee Puis elle te reconnaît, et son visage de cristal se ferme. « Vous. Vous m'avez renvoyée des Hauts-Nuages pour une comète. Je reste ici, avec mes plans. Eux, au moins, ne me renvoient pas. »
 ?comp:zouzou ?!flag:quartz_renvoyee Zouzou se colle à ton dos. « Elle a un compas. Elle va me mesurer. Si elle vient, je pars. » Le Docteur Quartz, de son côté, regarde déjà la comète avec une gourmandise scientifique inquiétante.
-* pro_28 ?comp:zouzou ?!flag:quartz_renvoyee | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file par le tunnel en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | | -comp:zouzou +comp:quartz +flag:zouzou_partie |
-* pro_28 ?!comp:zouzou ?!flag:quartz_renvoyee | Lui demander de venir avec toi | Elle range ses plans, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | | +comp:quartz mor+1 |
+* pro_28 coe11 ?comp:zouzou ?!flag:quartz_renvoyee | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file par le tunnel en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | Zouzou se colle à ton dos et refuse de bouger. Le Docteur Quartz range son compas, vexée : « Je ne pars pas avec une comète qui me déteste. C'est statistiquement intenable. » Elle reste dans sa géode. | -comp:zouzou +comp:quartz +flag:zouzou_partie | mor-1
+* pro_28 coe11 ?!comp:zouzou ?!flag:quartz_renvoyee | Lui demander de venir avec toi | Elle range ses plans, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | Elle hésite. « Sortir ? De ma géode ? » Elle calcule. Le calcul dit non. « Neuf cents ans que je ne suis pas sortie. Ce n'est pas le jour de commencer. » Elle te sert une troisième tasse, pour adoucir. | +comp:quartz mor+1 |
 * pro_29 rus10 | Lui laisser les plans pour qu'elle y travaille | « Oui ! Je vais tout recalculer ! Trois fois ! » Elle te donne une copie. | | +flag:plans_lune |
 
 @pro_26
@@ -187,9 +187,11 @@ Les Gravitaires de l'Assemblée se prennent la main, un par un, de plaque en pla
 * pro_30 coe12 | Leur dire que tu donneras le signal | Ils hochent la tête. Douze montagnes qui hochent la tête, c'est un tremblement de terre poli. | | +flag:gravitaires_allies equ+3 |
 
 @pro_28
-Le Docteur Quartz est prête. Elle porte un sac à dos plein de plans, une sphère de cristal dans sa poche, des lunettes de rechange et un parapluie. « Statistiquement, nous avons une chance sur onze de survivre. Peut-être une sur douze. J'adore les petites chances. Elles sont plus intéressantes. »
+?comp:quartz Le Docteur Quartz est prête. Elle porte un sac à dos plein de plans, une sphère de cristal dans sa poche, des lunettes de rechange et un parapluie. « Statistiquement, nous avons une chance sur onze de survivre. Peut-être une sur douze. J'adore les petites chances. Elles sont plus intéressantes. »
+?!comp:quartz Le Docteur Quartz a repris ses calculs, le dos tourné. Elle t'a déjà oublié·e, ou elle fait semblant, ce qui chez une savante est la même chose.
 ~quartz: « Vous savez que j'ai tort à soixante pour cent ? Ça laisse quarante pour cent de génie. C'est beaucoup. »
-* pro_29 coe10 | Partir avec elle | Vous sortez de la géode. Elle regarde le tunnel comme si c'était le monde entier. | |
+* pro_29 coe10 ?comp:quartz | Partir avec elle | Vous sortez de la géode. Elle regarde le tunnel comme si c'était le monde entier. | |
+* pro_29 ?!comp:quartz | Sortir de la géode | Tu sors. Derrière toi, les cristaux s'éteignent un par un. | |
 
 @pro_29
 En remontant des Profondeurs, tu entends un écho. Quelqu'un répète un mot, au fond d'une grotte. Le même mot, encore et encore. « Seul. Seul. Seul. »
@@ -216,7 +218,7 @@ Les Grottes des Échos. Des milliers de cavités qui résonnent. Au milieu, une 
 ?!comp:echo ?pc:brisefer Tu la reconnais : c'est Écho, que tu avais laissée ici. Depuis ton départ, elle est revenue à son vieux mot. Elle te reconnaît aussi, et répète ton pas, celui avec le genou qui craque.
 ?comp:echo C'est un autre Échotier, plus petit, plus pâle que ton Écho. Écho, à côté de toi, s'arrête. Elle regarde la silhouette. Elle répète : « Seul. » Puis elle te regarde. Elle ne savait pas qu'il y en avait d'autres.
 * pro_34 coe12 ?!comp:echo | Lui dire « Pas seul » | « ... pas seul ? ... pas seul. » Elle répète. Elle répète autre chose que « seul ». Ça lui avait manqué. | « ... pas... seul. Seul. » Elle n'y arrive pas tout à fait du premier coup. Au cinquième, si. | coe+1 +flag:echo_pas_seul | +flag:echo_pas_seul
-* pro_35 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | | rus+1 +comp:echo |
+* pro_35 rus11 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | Elle répète tout dans le désordre. « Moi Lune avec seul. » Puis elle se tait, perdue dans ses propres mots, et ne te suit pas. | rus+1 +comp:echo |
 * pro_37 coe11 ?comp:echo | Laisser Écho lui parler | Écho s'approche du petit Échotier. Elle ne peut dire que ce qu'elle vient d'entendre. Alors tu dis « pas seul », pour elle, et elle le répète pour lui. | Tu dis « pas seul » trop bas. Écho le répète trop fort. Le petit Échotier sursaute, puis répète aussi. | coe+1 |
 
 @pro_33
@@ -232,9 +234,11 @@ La garde Gravitaire t'attend. « Alors ? »
 * pro_33 rus10 | La laisser ici, où elle est chez elle | Tu la laisses. Elle répète « pas seul » en te regardant partir. Tu espères que c'est vrai. | | |
 
 @pro_35
-Écho flotte autour de toi. Elle répète tout ce qu'elle entend : tes pas, ta respiration, le petit bruit de ton cœur.
-?comp:quartz Elle répète aussi le Docteur Quartz, qui ne s'arrête jamais de parler. Le Docteur Quartz est enchantée : « Enfin quelqu'un qui écoute tout ce que je dis ! »
-* pro_33 coe10 | Remonter avec elle | Vous remontez. Écho répète le bruit de la surface qui approche. C'est un bruit qu'elle n'a jamais entendu. | |
+?comp:echo Écho flotte autour de toi. Elle répète tout ce qu'elle entend : tes pas, ta respiration, le petit bruit de ton cœur.
+?!comp:echo Écho est restée dans sa grotte, à répéter ses mots dans le désordre. Tu les entends encore un moment, puis plus rien.
+?comp:quartz ?comp:echo Elle répète aussi le Docteur Quartz, qui ne s'arrête jamais de parler. Le Docteur Quartz est enchantée : « Enfin quelqu'un qui écoute tout ce que je dis ! »
+* pro_33 coe10 ?comp:echo | Remonter avec elle | Vous remontez. Écho répète le bruit de la surface qui approche. C'est un bruit qu'elle n'a jamais entendu. | |
+* pro_33 ?!comp:echo | Remonter | Tu remontes seul. Les grottes répètent tes pas, pour la forme. | |
 
 @pro_36
 Tu sors du Grand Puits. Le Carrefour est là, avec ses tentes, ses feux, sa foule. La Lune est plus grosse dans le ciel, plus penchée. Elle s'éloigne.

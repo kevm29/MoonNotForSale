@@ -201,13 +201,13 @@ C'est un Échotier. Une créature de son, qui ne peut dire que ce qu'on vient de
 @bri_32
 Écho flotte autour de toi. Elle est curieuse. Elle répète ta respiration, puis ton cœur, puis le craquement de ton genou. Elle a l'air d'aimer ce son-là.
 Tu te dis : la Faille a raison. Tu ne parles pas assez bien pour convaincre le monde. Mais quelqu'un qui répète, là-haut, devant tout le monde, ça pourrait faire du bruit.
-* bri_34 | L'inviter à monter avec toi | « Viens avec moi, là-haut. » « ... là-haut. Là-haut ! » Elle répète avec une joie qui fait vibrer la grotte entière. Elle vient. | | +comp:echo mor+1 |
-* bri_35 | Lui apprendre d'abord quelques phrases utiles | « La Lune est à nous. » « ... est à nous. » « Ne touchez pas à la Lune. » « ... à la Lune. » Elle apprend vite. Elle n'a pas le choix. | | +comp:echo +flag:echo_phrases |
+* bri_34 coe11 | L'inviter à monter avec toi | « Viens avec moi, là-haut. » « ... là-haut. Là-haut ! » Elle répète avec une joie qui fait vibrer la grotte entière. Elle vient. | « Viens avec moi, là-haut. » « ... là-haut. Là-haut. » Elle répète, ravie, et elle reste en bas. Elle a compris le mot, pas l'invitation. | +comp:echo mor+1 |
+* bri_35 rus12 | Lui apprendre d'abord quelques phrases utiles | « La Lune est à nous. » « ... est à nous. » « Ne touchez pas à la Lune. » « ... à la Lune. » Elle apprend vite. Elle n'a pas le choix. | Elle apprend « Lune », « nous » et un juron militaire que tu as laissé échapper. Elle les répète en boucle, enchantée, et ne te suit pas : elle a trop à répéter. | +comp:echo +flag:echo_phrases |
 
 @bri_33
 Écho ne bouge pas. Tu t'assois sur un rocher, fatiguée. Ton genou craque. Elle répète le craquement, puis ton soupir. Puis, très bas, le mot qu'elle répétait quand tu es arrivée : « seul ».
 Tu comprends. Elle n'a pas besoin d'ordres. Elle a besoin de compagnie.
-* bri_34 | Lui dire : « Moi aussi. » | « ... moi aussi. » Elle s'approche. Elle se pose sur ton épaule, comme un oiseau de son. Elle viendra. | | +comp:echo coe+1 |
+* bri_34 coe12 | Lui dire : « Moi aussi. » | « ... moi aussi. » Elle s'approche. Elle se pose sur ton épaule, comme un oiseau de son. Elle viendra. | Tu le dis si bas qu'elle ne l'entend pas. Elle répète le silence, poliment. Tu n'oses pas recommencer. Elle reste dans sa grotte. | +comp:echo coe+1 |
 
 @bri_34
 Il faut remonter. La surface est à quatre cents kilomètres au-dessus de vous. Il y a les tunnels réguliers, longs et sûrs. Il y a la cheminée du Grand Volcan Dormant, directe, brûlante, interdite. Il y a l'Ascenseur des Taupes, qui marche une fois sur deux.
@@ -217,9 +217,11 @@ Il faut remonter. La surface est à quatre cents kilomètres au-dessus de vous. 
 * bri_38 coe10 | Prendre les tunnels réguliers, en aidant les autres en route | Les tunnels sont pleins de Gravitaires qui fuient vers le haut. Tu les guides. Tu montes avec eux, lentement, comme une procession. | Les tunnels sont bouchés. Tu montes lentement. Très lentement. | equ+2 +flag:gravitaires_suivent |
 
 @bri_35
-Écho a appris quelques phrases. Elle les répète en boucle dans la grotte, tout doucement, pour ne pas les oublier : « La Lune est à nous. La Lune est à nous. Ne touchez pas. » Ça fait un bruit de prière.
+?last:ok Écho a appris quelques phrases. Elle les répète en boucle dans la grotte, tout doucement, pour ne pas les oublier : « La Lune est à nous. La Lune est à nous. Ne touchez pas. » Ça fait un bruit de prière.
+?last:ko Écho répète « Lune », « nous » et ton juron, en boucle, ravie, dans le fond de sa grotte. Elle ne te regarde même plus partir.
 Tu te rends compte que tu as appris à parler à quelqu'un qui ne fait que répéter. C'est peut-être ce que tu as fait toute ta vie avec les jeunes soldats.
-* bri_34 coe11 | Lui dire que c'est très bien | « Très bien. » « ... très bien ! » Elle est ravie. Elle répétera ça longtemps. | |
+* bri_34 coe11 ?comp:echo | Lui dire que c'est très bien | « Très bien. » « ... très bien ! » Elle est ravie. Elle répétera ça longtemps. | |
+* bri_34 | La laisser à ses phrases, et remonter | Tu la laisses. En partant, tu l'entends encore : « Lune. Nous. » Et le juron. | |
 
 @bri_36
 La cheminée du Grand Volcan Dormant. Tu grimpes. Le volcan dort, mais il ronfle. À chaque ronflement, une bouffée de lave te passe au-dessus de la tête. Les parois sont couvertes de cristaux qui brillent comme des étoiles prisonnières.

@@ -62,7 +62,7 @@ Elles s'illuminent. « NOUS POURRIONS RACHETER LA LUNE. »
 Les Méduses se regroupent en une seule grande forme lumineuse, qui ressemble vaguement à une dame en robe de bal. « NOUS AVONS DÉCIDÉ. UNE MOITIÉ DE NOUS RESTE TENIR LA VAGUE. L'AUTRE MOITIÉ VIENT AVEC TOI. NOUS SOMMES TOUJOURS UNE, MÊME À DISTANCE. C'EST NOTRE TALENT. »
 Une petite méduse, la moitié qui vient, se pose sur ton épaule. Elle chante tout bas : « bonjour. »
 ?!flag:idee_perles Puis le Chœur ajoute, très vite, comme une chose qu'on n'ose pas dire : « ET NOUS AVONS UNE IDÉE. LE PROMOTEUR VEUT DE L'ARGENT. LA MER A DES PERLES. DES MILLIARDS. MAIS IL FAUDRAIT LES DEMANDER AUX HUÎTRES, ET LES HUÎTRES NE DONNENT RIEN À PERSONNE. »
-* cot_12 | Accueillir le Chœur dans ton équipe | « NOUS SERONS UTILES. NOUS CHANTONS FAUX, MAIS FORT. » Elles s'installent dans un bocal que tu portes à la ceinture. Le bocal chante. | | +comp:meduses mor+1 |
+* cot_12 coe10 | Accueillir le Chœur dans ton équipe | « NOUS SERONS UTILES. NOUS CHANTONS FAUX, MAIS FORT. » Elles s'installent dans un bocal que tu portes à la ceinture. Le bocal chante. | « NOUS VOULONS BIEN. » Elles se jettent toutes dans ta poche en même temps et ressortent aussitôt, vexées : trop petite. « NOUS RESTONS. NOUS TENONS LA VAGUE. ADIEU. » Elles retournent au large en chantant faux. | +comp:meduses mor+1 |
 * cot_13 rus11 | Leur demander plutôt de lancer la quête des perles | « LA QUÊTE ! OUI ! NOUS CHANTERONS À TOUTES LES HUÎTRES DU MONDE ! » Elles restent toutes pour chanter l'appel. | Elles hésitent. « TOUTES ? ET LA VAGUE ? » Tu insistes. Elles finissent par dire oui, sans enthousiasme. | +flag:quete_perles +flag:idee_perles | +flag:quete_perles +flag:idee_perles mor-1
 
 @cot_11
@@ -73,7 +73,8 @@ Les Méduses chantent un air triste, un air ancien, qui parle d'une Lune qui pas
 * cot_08 rus10 ?!flag:idee_perles | Leur demander s'il existe un moyen de sauver la Lune | Elles cessent de chanter le vieil air. « UN MOYEN ? NOUS SOMMES MILLE. NOUS AVONS TOUJOURS MILLE IDÉES. » | « NON », chantent-elles. Puis, après un long silence : « PEUT-ÊTRE. » | |
 
 @cot_12
-Avec le Chœur sur ton épaule, tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
+?comp:meduses Avec le Chœur sur ton épaule, tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
+?!comp:meduses Derrière toi, le Chœur chante au large, faux et fort. Tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
 ?comp:bartho Bartholomé, à côté de toi, retire sa casquette. « Mon bistrot. Enfin, le bistrot. Je n'y ai jamais payé, alors il est un peu à moi. »
 ?!comp:bartho À l'intérieur, un vieux pêcheur Marégrave boit de l'eau douce en regardant la Lune par la fenêtre.
 * cot_14 coe10 | Entrer | Tu entres. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce. |  |
@@ -126,7 +127,7 @@ Il essuie une larme. Elle fait une petite fumée sur le comptoir.
 ?!comp:bartho Bartholomé finit son verre. Il le pose. Il le regarde. « Bon. Puisque tout le monde va mourir, autant mourir quelque part de joli. Là-haut, par exemple. »
 ?!comp:bartho Il se lève. Ses genoux craquent comme une coque. « Je viens. Mais je râle. Je râle tout le temps. C'est le prix. »
 ?comp:bartho Bartholomé finit son verre. « Je t'ai suivi jusqu'ici sans trop savoir pourquoi. Maintenant je sais. On va la chercher. » Il se lève. Ses genoux craquent comme une coque.
-* cot_22 ?!comp:bartho | Accepter le prix | Il enfile sa casquette, prend son filet et une bouteille d'eau douce pour les urgences sentimentales. Vous sortez. | | +comp:bartho mor+1 |
+* cot_22 coe10 ?!comp:bartho | Accepter le prix | Il enfile sa casquette, prend son filet et une bouteille d'eau douce pour les urgences sentimentales. Vous sortez. | Il compte ce que tu lui proposes, trois fois. « Non. Ce n'est pas assez. Pas pour quitter ce bistrot. » Il recommande une eau douce. Tu sors seul. | +comp:bartho mor+1 |
 * cot_22 coe10 ?comp:bartho | Repartir avec lui | Il laisse un pourboire pour la première fois de sa vie. Le patron en pleure. | Il oublie sa bouteille d'eau douce. Il retourne la chercher. Il râle. | mor+1 +flag:bartho_decide |
 * cot_22 rus11 ?!comp:bartho | Lui demander plutôt de garder la côte | Il hoche la tête. « Je garderai. Je râlerai en gardant. » Il reste. Mais il te donne sa vieille boussole. « Elle indique toujours la Lune. Toujours. » | Il reste. Il ne dit rien de plus. | +flag:boussole_bartho | +flag:boussole_bartho
 

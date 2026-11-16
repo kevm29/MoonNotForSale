@@ -15,7 +15,7 @@
 Le vendeur, un vieil Horloger à moustache, emballe le beignet dans un papier gras avec des gestes de joaillier. « Le dernier. Il est perpétuel : il ne refroidit pas, et il ne diminue pas quand on le mange. Je le vends depuis 1904. Personne n'en voulait. Les gens préfèrent les beignets qui finissent. »
 Tu mords dedans. C'est chaud. Tu regardes : il est entier.
 * hub_05 | Le ranger soigneusement dans ta poche | Il est chaud contre ta hanche. Tu as l'impression d'avoir emporté un petit bout de cuisine. | | +flag:obj_beignet |
-* hub_05 | En donner un morceau à l'enfant qui te regarde | L'enfant mord. Le beignet repousse. L'enfant te regarde comme si tu étais magicien·ne. Tu ne le détrompes pas. | | +flag:obj_beignet mor+1 |
+* hub_05 coe10 | En donner un morceau à l'enfant qui te regarde | L'enfant mord. Le beignet repousse. L'enfant te regarde comme si tu étais magicien·ne. Tu ne le détrompes pas. | L'enfant mord, le beignet repousse, et l'enfant hurle de terreur. Sa mère t'arrache le beignet des mains et le jette dans un feu. Il repousse dans le feu. Il est perdu pour tout le monde. | +flag:obj_beignet mor+1 |
 
 @+hub_04
 * hub_11 ?!flag:obj_couverture ?!flag:hub_11_vu | Aider la vieille Gravitaire à replier sa couverture | Tu prends un coin. Il pèse le poids d'une enclume. | | |
@@ -25,7 +25,7 @@ Tu mords dedans. C'est chaud. Tu regardes : il est entier.
 !fx: +flag:hub_11_vu
 La couverture est tissée en granit, maille par maille, si serrée qu'elle a l'air souple. La vieille Gravitaire la plie en quatre avec toi, lentement, comme on plie un drapeau. « Je l'ai tricotée pour mon petit-fils. Il est en bas, il tient l'Axe. Il n'a plus froid : là où il est, il fait cinq mille degrés. »
 Elle te la pose dans les bras. « Prends-la. Elle tient chaud à tout ce qui naît. Moi, je suis trop vieille pour naître encore. »
-* hub_05 | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | | +flag:obj_couverture pan+1 |
+* hub_05 pan10 | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | Tu la hisses et tu tombes assis·e dessus. La vieille Gravitaire rit pendant dix minutes, puis la reprend. « Trop lourde pour toi. Je la garderai pour les nuits froides. » | +flag:obj_couverture pan+1 |
 * hub_05 | La remercier, et la lui laisser pour les nuits froides | Elle hoche la tête. « Tu as raison. Il va faire froid, quand elle sera partie. » | | mor+1 |
 
 @+hub_ret
@@ -51,7 +51,7 @@ Tu en choisis une : la Lune, au-dessus d'une mer calme. Au dos, d'une écriture 
 Un grand coquillage rose, échoué sur le fond découvert. Tu le portes à ton oreille : rien. Tu le portes à ta bouche, par curiosité, et tu dis « allô ». Très loin, derrière l'horizon, la mer répond : « allô ? »
 Un vieux crabe, sur un rocher, hausse les pinces. « C'est un coquillage à l'envers. On ne l'écoute pas, on lui parle. La mer entend tout ce qu'on dit dedans, où qu'elle soit. Ça ne sert à rien : personne n'a jamais rien à dire à la mer. »
 * cot_04 | L'emporter | Tu le glisses dans ton sac. Il marmonne encore un peu, puis il s'endort. | | +flag:obj_coquillage |
-* cot_04 | Dire à la mer, dedans, de revenir vers les poissons | Tu cries dans le coquillage. Au loin, la mer s'arrête, hésite, et fait trois pas vers vous. Les poissons applaudissent avec leurs nageoires. | | +flag:obj_coquillage equ+2 |
+* cot_04 pan10 | Dire à la mer, dedans, de revenir vers les poissons | Tu cries dans le coquillage. Au loin, la mer s'arrête, hésite, et fait trois pas vers vous. Les poissons applaudissent avec leurs nageoires. | Tu cries trop fort. La mer prend peur et recule encore. Le coquillage, vexé, te glisse des mains et roule dans une flaque. Tu ne le retrouves pas. | +flag:obj_coquillage equ+2 |
 
 @+cot_09
 * cot_41 ?!flag:obj_lanterne | T'occuper de la petite méduse qui s'éteint dans une flaque | Une méduse minuscule s'est détachée du Chœur. Elle clignote, de plus en plus faiblement. | | |
@@ -69,7 +69,7 @@ Elle est grosse comme un dé à coudre, et elle a trop chanté. Tu la prends dan
 !title: Le sablier qui remonte
 C'est un sablier. Très vieux, cerclé de cuivre vert, enfoncé dans la falaise comme si la mer l'avait oublié là en partant, il y a mille ans. Dedans, du sable de mer. Il coule vers le haut.
 Tu le retournes. Il coule vers le haut quand même, mais plus lentement. Le vent s'arrête une seconde. Une mouette reste suspendue au-dessus de toi, l'air surpris. Puis tout repart.
-* hub_ret | L'arracher à la falaise | Tu tires, la craie cède, tu tombes en arrière avec le sablier contre ta poitrine. Il n'a pas une égratignure. Toi, si. | | +flag:obj_sablier |
+* hub_ret pan10 | L'arracher à la falaise | Tu tires, la craie cède, tu tombes en arrière avec le sablier contre ta poitrine. Il n'a pas une égratignure. Toi, si. | La craie résiste. Tu tires plus fort, et un pan de falaise tombe à la mer, avec le sablier. Tu remontes la plage trempé·e, les mains vides. | +flag:obj_sablier | mor-1 mor-1
 * hub_ret | Le laisser à la falaise, qui a l'air d'y tenir | Tu le laisses. La falaise, il te semble, se tient un peu plus droite. | | mor+1 |
 
 # ---------------------------------------------------------------- FORÊT-RÉSEAU
@@ -118,7 +118,7 @@ Le Marchand fait la grimace. « Le cauchemar de Monsieur Platine. Il le fait tou
 Sur un lit défait, il reste un mouton. Un tout petit, en laine qui s'effiloche, avec un numéro brodé sur le flanc : 1. Les autres se sont envolés avec les rêves qui tombaient.
 « C'est le premier », dit la vieille Somnambule en bâillant. « Celui qu'on compte avant tous les autres. Sans lui, personne ne peut commencer à s'endormir. Emmenez-le. Ici, plus personne ne dort assez pour compter jusqu'à un. »
 * hub_ret | Le prendre sous ton bras | Il bêle une fois, très bas. Puis il s'endort contre toi. | | +flag:obj_mouton |
-* hub_ret | Le compter, pour voir | « Un. » Tu bâilles. Tu te réveilles une heure plus tard, la tête sur le mouton, reposé·e comme jamais. Il te suit quand tu pars. | | +flag:obj_mouton mor+2 |
+* hub_ret coe10 | Le compter, pour voir | « Un. » Tu bâilles. Tu te réveilles une heure plus tard, la tête sur le mouton, reposé·e comme jamais. Il te suit quand tu pars. | « Un. » Rien ne se passe : tu es trop inquiet·e pour dormir. Le mouton te regarde avec pitié et retourne se coucher sur son lit défait. Il attendra quelqu'un de plus fatigué. | +flag:obj_mouton mor+2 |
 
 # ---------------------------------------------------------------- PROFONDEURS
 
@@ -169,7 +169,7 @@ La file entière se tait. Un vieil Horloger enlève son chapeau. Une Lichenaute 
 !fx: +flag:cap_40_vu
 Sur la semelle du tampon, deux lettres à l'envers : UV. Ou plutôt VU.
 « Le premier tampon du Cadastre », dit Madame Pruine sans lever les yeux, ce qui pour une Lichenaute prend vingt minutes. « Ce qu'il marque a été vu. Officiellement. Et ce qui a été vu ne peut plus être ignoré. Personne ne s'en sert plus. Les gens préfèrent les tampons qui ne voient rien. »
-* cap_04 | Lui demander si tu peux l'emprunter, pour une affaire urgente | Elle réfléchit longtemps. Puis elle pousse le tampon vers toi, d'un millimètre par minute. Tu attends. Tu l'as. « Rapportez-le. Ou ne le rapportez pas. Je l'aurai vu partir. » | | +flag:obj_tampon_vu rus+1 |
+* cap_04 rus10 | Lui demander si tu peux l'emprunter, pour une affaire urgente | Elle réfléchit longtemps. Puis elle pousse le tampon vers toi, d'un millimètre par minute. Tu attends. Tu l'as. « Rapportez-le. Ou ne le rapportez pas. Je l'aurai vu partir. » | Elle refuse, très lentement. Ça prend une heure. Pendant ce temps, elle range le tampon dans un tiroir, tourne la clé et avale la clé. Le refus est définitif. | +flag:obj_tampon_vu rus+1 |
 
 @+cap_12
 * cap_14 ?!flag:obj_fleur_epine | Lui dire que sa fleur est jolie | Madame Épine rougit, ce qui chez un cactus se voit aux épines. Elle détache la petite fleur rose et te la tend. « Elle sort une fois par siècle, et seulement de surprise. Vous m'avez surprise. Prenez-la. Et trouvez-moi cette erreur. » | | +flag:obj_fleur_epine +flag:epine_alliee |
@@ -201,8 +201,8 @@ La goutte entre dans le dé à coudre, tourne trois fois, et s'arrête, ronde et
 !title: Le ballon de 1803
 Gaspard sort un paquet de soie pliée, grise de poussière, rapiécée de partout avec des bouts de nuages. « Mon ballon. Ce qu'il en reste. Je l'ai recousu tous les jours pendant deux cents ans. Il ne m'a jamais remonté. Je crois qu'il attendait quelqu'un de plus lourd que moi. »
 Il te le tend, cérémonieusement. « Il reste assez de soie pour monter très haut. Une fois. »
-* nua_16 | « Venez avec moi, Sire Gaspard. Nous le gonflerons ensemble. » | Gaspard remet son chapeau transparent. « Ensemble. Je n'avais pas entendu ce mot depuis 1803. » | | +flag:obj_ballon +comp:gaspard mor+1 |
-* nua_16 | Prendre le ballon, et détacher la nacelle pour qu'il se repose | Tu dénoues la corde. Gaspard s'élève doucement, sans ballon, sans poids, en souriant. « Gonflez-le pour moi. » Il disparaît dans un nuage. | | +flag:obj_ballon +flag:gaspard_repose mor+1 |
+* nua_16 coe10 | « Venez avec moi, Sire Gaspard. Nous le gonflerons ensemble. » | Gaspard remet son chapeau transparent. « Ensemble. Je n'avais pas entendu ce mot depuis 1803. » | Gaspard hésite si longtemps que le vent emporte la soie pliée. Elle file vers l'ouest. « Ah », dit Gaspard. « Encore raté. » Il reste dans sa nacelle. | +flag:obj_ballon +comp:gaspard mor+1 |
+* nua_16 coe11 | Prendre le ballon, et détacher la nacelle pour qu'il se repose | Tu dénoues la corde. Gaspard s'élève doucement, sans ballon, sans poids, en souriant. « Gonflez-le pour moi. » Il disparaît dans un nuage. | La corde est nouée depuis deux cents ans. Tu y passes une heure. Elle ne cède pas, et pendant ce temps, la soie pliée s'envole. Gaspard te remercie quand même d'avoir essayé. | +flag:obj_ballon +flag:gaspard_repose mor+1 |
 
 @+nua_18
 * nua_42 ?!flag:obj_plume | Suivre le héron jusqu'à son nid, en haut du phare | Tu montes les cent marches du phare. Le héron te regarde arriver sans surprise. | | |
@@ -222,7 +222,7 @@ Puis il te tend la plume. Il en a d'autres. Il a toute une aile.
 !title: Le stand des aurores
 Des aurores boréales pendent à des cintres, comme des robes. Vertes, roses, violettes. Certaines ont servi au-dessus du pôle, d'autres au-dessus d'un seul mariage. Un vieux renard des neiges les repasse au fer froid.
 « De seconde main, toutes. Les cieux n'en veulent plus : ils veulent du bleu, rien que du bleu, c'est plus vendeur. » Il en plie une en huit, très serrée. « Celle-là a fait pleurer un village entier, en 1612. Elle a encore de la ressource. »
-* com_06 | L'échanger contre ta plus belle histoire | Tu racontes. Le renard s'assoit. Il écoute jusqu'au bout, puis il te tend l'aurore pliée sans un mot. Elle est tiède, et elle sent le froid. | | +flag:obj_aurore |
+* com_06 coe10 | L'échanger contre ta plus belle histoire | Tu racontes. Le renard s'assoit. Il écoute jusqu'au bout, puis il te tend l'aurore pliée sans un mot. Elle est tiède, et elle sent le froid. | Ton histoire ne lui plaît pas. Il bâille, replie l'aurore et la remet sur son cintre. « Revenez quand il vous sera arrivé quelque chose. » | +flag:obj_aurore |
 
 @+com_13
 * com_40 ?!flag:obj_eclipse ?!flag:com_40_vu | Passer devant l'étal d'éclipses, en sortant de la tente | Un étal tendu de velours noir attire ton regard. | | |
@@ -236,7 +236,7 @@ Des aurores boréales pendent à des cintres, comme des robes. Vertes, roses, vi
 Sur le velours noir, rangées par taille, des éclipses. Des grandes, pour les continents. Des moyennes, pour les villages. Et des toutes petites, comme des boutons de nuit, pour une seule personne. La marchande est une chouette en lunettes de soleil.
 « Une éclipse de poche ? Ça s'accroche au col. Ça fait de l'ombre autour de vous, partout où vous allez, même à midi. Très pratique pour les siestes. Indispensable pour les vampires. »
 ?comp:vesperine Du fond de ton ombre, une main gantée se tend vers l'étal. « Celle-là. La petite, avec la dentelle. Je vous en prie. »
-* com_15 | La marchander contre ton ombre de midi | La chouette accepte. À partir d'aujourd'hui, ton ombre de midi sera un peu plus courte. Tu repars avec un petit morceau de nuit au creux de la main. | | +flag:obj_eclipse rus+1 |
+* com_15 rus10 | La marchander contre ton ombre de midi | La chouette accepte. À partir d'aujourd'hui, ton ombre de midi sera un peu plus courte. Tu repars avec un petit morceau de nuit au creux de la main. | La chouette refuse ton ombre de midi : elle en a déjà trop. Elle refuse aussi celle du soir. Elle garde son éclipse. | +flag:obj_eclipse rus+1 |
 * com_15 | Passer ton chemin | La chouette hausse les épaules. « Les gens n'achètent plus d'éclipses. Ils préfèrent le plein jour. Ça finira mal. » | | |
 
 @+com_15
@@ -256,7 +256,7 @@ Sur le velours noir, rangées par taille, des éclipses. Des grandes, pour les c
 Derrière le comptoir, un vieil escargot en blouse classe des choses que personne n'est venu réclamer : des parapluies, des dents de lait, un gant gauche, la moitié d'un serment, un dimanche entier.
 « Tout ce qui se perd finit ici », dit l'escargot. « Sauf ce qui se perd ici. Ça, je ne sais pas où ça va. » Il pose sur le comptoir une boussole en laiton. Son aiguille tourne, hésite, et pointe vers le ciel. « Elle n'indique pas le nord. Elle indique ce qui est sur le point de se perdre. Depuis trois jours, elle montre la Lune. »
 * foi_02 | La prendre | « Ramenez-la quand elle indiquera autre chose », dit l'escargot. « Ou ne la ramenez pas. Elle se retrouvera ici de toute façon. » | | +flag:obj_boussole |
-* foi_02 | Demander s'il y a quelque chose à rendre à quelqu'un du camp | L'escargot fouille longtemps. Il sort un dimanche entier, plié, perdu en 1950 par une vieille dame du camp. Tu le lui rapportes. Elle pleure de joie. L'escargot te donne la boussole, pour la peine. | | +flag:obj_boussole mor+2 |
+* foi_02 coe10 | Demander s'il y a quelque chose à rendre à quelqu'un du camp | L'escargot fouille longtemps. Il sort un dimanche entier, plié, perdu en 1950 par une vieille dame du camp. Tu le lui rapportes. Elle pleure de joie. L'escargot te donne la boussole, pour la peine. | L'escargot fouille longtemps et ne retrouve rien. Il range la boussole au fond de son comptoir. « Elle est à quelqu'un. Ce n'est pas encore vous. » | +flag:obj_boussole mor+2 |
 
 # ---------------------------------------------------------------- LA DERNIÈRE NUIT
 
