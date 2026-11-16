@@ -23,6 +23,7 @@ Une vieille poule en tablier, à l'entrée, te prévient : « Minuit, c'est dans
 * foi_09 ?foire<3 ?!flag:stand_rem | L'établi du plus vieil Horloger du monde | Un établi couvert de rouages. Derrière, un très vieil Horloger cligne des yeux, lentement, très lentement. |  |
 * foi_11 ?foire<3 ?!flag:stand_coq ?!comp:coquille | La maternité de campagne, où se repose une tortue | Sous une tente blanche, une tortue énorme se repose sur un tas de coussins, en mangeant des fraises avec une lenteur royale. |  |
 * foi_13 ?foire<3 ?!flag:stand_ves ?!comp:vesperine ?!flag:vesperine_renvoyee | La tente noire du Bal des Créatures de la Nuit | Une tente de velours noir, tendue de dentelle. On y entend un violon. Une odeur de mûre écrasée flotte à l'entrée. |  |
+* foi_16 ?foire<3 ?pc:brisefer ?!flag:stand_qua ?!comp:quartz ?!flag:quartz_renvoyee | Le stand des Cristallins, où une savante mesure les passants | Un stand qui scintille, couvert de cristaux et de rapporteurs. Une petite femme de quartz, perchée sur un tabouret, mesure tous ceux qui passent avec un compas. Elle s'arrête net en te voyant. |  |
 * hub_06 ?regions<2 | Quitter la Foire et partir vers une région du monde | Tu passes sous l'arche. Derrière toi, la valse continue sans toi. Devant, le Conseil a déplié sa carte. |  |
 * hub_07 ?regions>=2 | Quitter la Foire : il est l'heure de regarder vers le haut | Tu passes sous l'arche. La valse s'arrête net. Tout le monde, dans la foire, s'est retourné vers la Lune. |  |
 
@@ -116,3 +117,18 @@ Sous la tente noire, une femme pâle en robe de dentelle danse seule une valse l
 ?comp:vesperine La Comtesse marche à côté de toi, une ombrelle noire à la main. Il fait nuit. Elle l'a ouverte quand même, par habitude.
 ?!comp:vesperine Derrière toi, sous la tente noire, la valse reprend. On entend un seul pas de danse.
 * foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Tu as une odeur de mûre sur la manche. | |
+
+@foi_16
+!title: Le Docteur Quartz
+!fx: +flag:stand_qua foire+1
+« Une Gravitaire ! Une vraie, assise sur l'Axe ! » La petite femme de cristal saute de son tabouret. « Docteur Ysolde Quartz, géode du sous-sol moins quatre cents. Je suis remontée exprès : là-dessous, tout le monde est assis et personne ne veut se faire mesurer. » Elle te mesure. Il lui faut trois fois le compas.
+« Onze tonnes, à cent grammes près. Parfait. » Elle déroule un plan taché de thé. « C'est une nouvelle Lune, en cristal. Il faudrait des Gravitaires pour la porter jusqu'à l'orbite. J'en cherchais une. Vous êtes la première qui ne dorme pas. »
+?comp:zouzou Zouzou se colle à ton dos. « Elle a un compas. Elle va me mesurer. Si elle vient, je pars. » Le Docteur Quartz regarde déjà la comète avec une gourmandise scientifique inquiétante.
+* foi_17 coe11 ?comp:zouzou | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file entre les stands en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | Zouzou part sans un mot, ce qui est pire que tout ce qu'elle aurait pu dire. Quartz te suit. | -comp:zouzou +comp:quartz +flag:plans_lune | -comp:zouzou +comp:quartz +flag:plans_lune
+* foi_17 coe11 ?!comp:zouzou | « Venez. Je porterai votre Lune. » | Elle roule son plan, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | Elle hésite. « Avec une Gravitaire ? Vous allez me casser. » Elle vient quand même, à trois pas derrière toi, avec son parapluie. | +comp:quartz +flag:plans_lune mor+1 | +comp:quartz +flag:plans_lune
+* foi_17 rus10 | Lui laisser le temps de finir ses calculs | « Oui ! Je vais tout recalculer ! Trois fois ! » Elle te donne une copie de son plan, que tu plies en seize. | | +flag:plans_lune |
+
+@foi_17
+?comp:quartz Le Docteur Quartz marche à côté de toi en te mesurant de temps en temps, par habitude. Tu fais semblant de ne pas le voir.
+?!comp:quartz Le Docteur Quartz est remontée sur son tabouret. Elle mesure déjà le passant suivant.
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. La foule est plus dense. Minuit approche. | |

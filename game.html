@@ -87,7 +87,7 @@ html{scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar{displa
 .side-box{background:var(--nuit-2);border:1px solid var(--ligne);border-radius:6px;padding:14px;display:grid;gap:8px}
 .side-box h3{font-family:var(--f-data);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--craie);font-weight:600}
 .side-box .empty{font-size:13px;color:var(--brume);margin:0}
-.side-item{display:grid;gap:1px;font-size:13px;line-height:1.4;color:var(--craie-2);border-top:1px solid var(--ligne);padding-top:7px}
+.side-item{cursor:help;display:grid;gap:1px;font-size:13px;line-height:1.4;color:var(--craie-2);border-top:1px solid var(--ligne);padding-top:7px}
 .side-item:first-of-type{border-top:0;padding-top:0}
 .side-item strong{color:var(--craie);font-weight:600;font-size:14px}
 .side-item .sp{font-family:var(--f-data);font-size:10px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
@@ -144,9 +144,22 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .loc-band{margin:26px 0 0;position:relative;border-radius:8px;overflow:hidden;border:1px solid var(--ligne);aspect-ratio:16/6;background:var(--nuit-2)}
 .loc-band img{display:block;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s}
 .loc-band img.on{opacity:1}
-.loc-band figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 8px;font-family:var(--f-data);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--craie);background:linear-gradient(180deg,transparent,rgba(8,12,26,.75));text-shadow:0 1px 6px rgba(0,0,0,.8)}
+.loc-band{z-index:1;margin-top:12px;max-height:52vh;width:100%;transition:height .25s}
+#scene{gap:14px}
+.node-title{font-size:clamp(24px,3vw,32px)}
+.choice{padding:10px 14px}
+.choices{gap:8px}
 #col{min-width:0}
-#col #scene{margin-top:14px}
+#scene{margin-top:12px}
+#side{padding-top:12px}
+.text p,.quip,.outcome{text-align:justify;hyphens:auto;-webkit-hyphens:auto}
+.text p{max-width:none}
+.quip{max-width:none}
+#game .who{display:flex;align-items:center;gap:10px}
+.who-pic{width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid var(--lune);flex:none}
+.gauges{align-items:end}
+.gauge .lab em{font-style:normal;margin-left:6px}
+#game ~ *, .wrap:has(#game:not([hidden])){padding-bottom:16px}
 #scene > div:empty{display:none}
 /* blocs de lecture légèrement transparents : on devine l'image derrière */
 #scene{background:rgba(14,20,40,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid var(--ligne);border-radius:8px;padding:20px 22px 22px}
@@ -165,7 +178,6 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   .sheet{grid-template-columns:1fr;width:min(520px,100%)}
   .sheet img{border-radius:7px 7px 0 0;height:auto;min-height:0;aspect-ratio:1;max-height:46vh}
   #side{padding-top:0}
-  #col #scene{margin-top:12px}
 }
 @media (max-width:620px){
   .loc-band{aspect-ratio:2/1;margin-top:14px}
@@ -215,8 +227,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   <section id="game" hidden>
     <div class="loc-bg" id="locBg" aria-hidden="true"></div>
     <header id="hud"></header>
+    <figure class="loc-band" id="locBand" hidden><img id="locImg" alt="" decoding="async"></figure>
     <div class="game-grid">
-      <div id="col"><figure class="loc-band" id="locBand" hidden><img id="locImg" alt="" decoding="async"><figcaption id="locName"></figcaption></figure><div id="scene"></div></div>
+      <div id="col"><div id="scene"></div></div>
       <aside id="side" aria-label="Ton équipe, tes objets et les règles"></aside>
     </div>
   </section>
@@ -435,25 +448,24 @@ function hud(){
   const e = S.vars.equ, m = S.vars.mor;
   return `
   <div class="hud-row">
-    <div class="who">${esc(p.name)}<small>${esc(p.species)}</small></div>
+    <div class="who">${DATA.portraits && DATA.portraits[p.id] ? `<img class="who-pic" src="${DATA.portraits[p.id]}" alt="">` : ""}<span>${esc(p.name)}<small>${esc(p.species)}</small></span></div>
     <div class="statline">${STATS.map(s => `<span title="${esc(M.statHelp[s])} Expérience : ${(S.xp||{})[s]||0}/3.">${SN[s]} <b>${S.vars[s]}</b>${(S.xp||{})[s]?`<i class="xp" aria-hidden="true">${"·".repeat(S.xp[s])}</i>`:""}</span>`).join("")}</div>
     <div class="tools">
-      <button class="btn" id="tIds" aria-pressed="${showIds}">Repères</button>
       <button class="btn" id="tQuit">Menu</button>
     </div>
   </div>
   <div class="gauges">
     <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
-    <div class="gauge ${m<=2?"low":""}" title="${esc(M.gauges.mor.help)}"><div class="lab"><span>MORAL</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div><div class="mor-eff ${m>=8?"up":m<=2?"down":""}">${m>=8?"+1 à tous tes dés":m<=2?"−1 à tous tes dés":"sans effet sur les dés"} <span>(8 et plus : +1 · 2 et moins : −1)</span></div></div>
+    <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} Maintenant : ${m>=8?"+1 à tous tes dés":m<=2?"−1 à tous tes dés":"sans effet sur les dés"} (8 et plus : +1 · 2 et moins : −1)."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
   </div>
 `;
 }
 function sideHtml(){
-  const team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item"><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span><strong>${esc(k.name)}</strong>${esc(k.bio.split(". ")[0])}.</div>`; }).join("");
-  const held = heldItems().map(f => `<div class="side-item"><strong>${esc(M.items[f].name)}</strong>${esc(M.items[f].desc)}</div>`).join("");
+  const team = S.comp.map(c => { const k = M.companions[c]; return `<div class="side-item" tabindex="0" title="${esc(k.bio)}"><strong>${esc(k.name)}</strong><span class="sp">${esc(k.species)} · ${SN[k.stat]} +1</span></div>`; }).join("");
+  const held = heldItems().map(f => `<div class="side-item" tabindex="0" title="${esc(M.items[f].desc)}"><strong>${esc(M.items[f].name)}</strong></div>`).join("");
   return `<div class="side-box"><h3>Ton équipe${S.comp.length ? ` (${S.comp.length})` : ""}</h3>${team || `<p class="empty">Personne ne t'accompagne pour l'instant.</p>`}</div>
     <div class="side-box"><h3>Tes objets${heldItems().length ? ` (${heldItems().length})` : ""}</h3>${held || `<p class="empty">Rien encore. Il y a ${Object.keys(M.items).length} objets à trouver.</p>`}</div>
-    <div class="side-box"><h3>Règles du jeu</h3><div class="rules" style="background:none;border:0;padding:0">${rulesHtml(true)}</div></div>`;
+`;
 }
 function linesHtml(n){
   return n.lines.filter(l => allOk(l.if)).map(l => `<p>${esc(l.t)}</p>`).join("");
@@ -480,13 +492,22 @@ function showLoc(){
   el.classList.remove("on");
   el.onload = () => el.classList.add("on");
   el.onerror = () => { band.hidden = true; };
-  el.sizes = "(max-width:1000px) 100vw, 850px";
+  el.sizes = "(max-width:800px) 100vw, 1180px";
   el.srcset = `${locSrc(img, 800)} 800w, ${locSrc(img)} 1600w`;
   el.src = locSrc(img);
   if (el.complete && el.naturalWidth) el.classList.add("on");
-  $("#locName").textContent = LIEUX.noms[img] || "";
   const bg = new Image(); bg.onload = () => { $("#locBg").style.backgroundImage = `url("${locSrc(img, 800)}")`; }; bg.src = locSrc(img, 800);
 }
+/* sur ordinateur, pas de défilement : le bandeau rapetisse (jusqu'à 170 px) pour que la scène tienne dans l'écran */
+function fitBand(){
+  const band = $("#locBand"); if (!band || band.hidden) return;
+  band.style.height = "";
+  if (innerWidth <= 1000 || innerHeight < 560) return;
+  const over = document.documentElement.scrollHeight - innerHeight;
+  if (over > 0) band.style.height = Math.max(170, band.offsetHeight - over - 2) + "px";
+}
+if (window.ResizeObserver) new ResizeObserver(() => fitBand()).observe(document.querySelector("#scene"));
+addEventListener("resize", fitBand);
 function prefetchLocs(n){
   if (!LIEUX || !n.choices) return;
   const seen = new Set([S.loc]);
