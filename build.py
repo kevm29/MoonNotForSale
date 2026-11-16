@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compile les fichiers src/*.txt (DSL) en données JSON, valide le graphe,
 simule des parties, et injecte le tout dans les gabarits HTML."""
-import json, re, sys, random, glob, os
+import json, re, sys, random, glob, os, shutil
 from collections import defaultdict, deque, Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -396,6 +396,30 @@ def main():
     if os.path.exists(acc): data["accueil"] = "data:image/webp;base64," + base64.b64encode(open(acc, "rb").read()).decode()
     out = os.environ.get("OUT", os.path.join(HERE, "out"))
     os.makedirs(out, exist_ok=True)
+    # images des lieux : fichiers à part (img/lieux), chargés à la demande ; le HTML ne garde que la table nœud -> image
+    lj = os.path.join(HERE, "lieux.json")
+    if os.path.exists(lj):
+        L = json.load(open(lj, encoding="utf-8"))
+        nmap, names = {}, {}
+        for lieu in L["lieux"]:
+            names[lieu["image"]] = lieu["nom"]
+            if not os.path.exists(os.path.join(HERE, "img", "lieux", lieu["image"] + ".webp")):
+                print("IMAGE MANQUANTE", lieu["image"])
+            for part in lieu["scenes"].split(","):
+                part = part.strip()
+                if " à " in part:
+                    a, b = part.split(" à "); pre = a.split("_")[0]
+                    lo, hi = int(a.split("_")[1]), int(b.split("_")[1])
+                    for nid in order:
+                        p, _, num = nid.partition("_")
+                        if p == pre and num.isdigit() and lo <= int(num) <= hi: nmap[nid] = lieu["image"]
+                elif part in nodes: nmap[part] = lieu["image"]
+                else: print("lieux.json : nœud inconnu", part)
+        data["lieux"] = {"n": nmap, "d": L["defauts"], "noms": names}
+        sans = [n for n in order if n not in nmap]
+        print(f"images de lieux : {len(nmap)} nœuds explicites, {len(sans)} suivent l'image en cours ou celle de leur section")
+        if os.path.abspath(out) != os.path.join(HERE, "img"):
+            shutil.copytree(os.path.join(HERE, "img", "lieux"), os.path.join(out, "img", "lieux"), dirs_exist_ok=True)
     for tpl, name, payload in (("game.html", "la-lune-vendue.html", data), ("tree.html", "arbre-de-decision.html", tree)):
         p = os.path.join(HERE, tpl)
         if not os.path.exists(p): continue

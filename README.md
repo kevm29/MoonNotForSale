@@ -74,3 +74,7 @@ node tests/carte.js "$PWD"            # la carte, sur grand et petit écran
 ## Publication sur GitHub Pages
 
 Le site est servi depuis le dossier `docs/` de la branche `main` (Settings → Pages → Deploy from a branch → `main` / `/docs`). Pour mettre le jeu en ligne après une modification : `python3 build.py && python3 pack.py`, puis committer `docs/` et pousser.
+
+## Images des lieux
+
+`img/lieux/<n°>.webp` (1600 × 600) et `<n°>-800.webp` (800 × 300), numérotées comme le document des prompts des lieux (35-doux / 35-rouge : bureau de Platine, calme ou compte à rebours). `lieux.json` dit quelle image va avec quels nœuds ; un nœud absent garde l'image en cours, ou prend celle de sa section. Les images restent des fichiers à part (chargées à la demande) : `build.py` les copie dans out/, `pack.py` dans docs/.

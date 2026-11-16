@@ -138,6 +138,23 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .fx span{font-family:var(--f-data);font-size:11px;padding:2px 8px;border-radius:3px;background:var(--nuit-3)}
 .fx .p{color:var(--maree)} .fx .m{color:var(--corail)}
 .outcome{margin:.4em 0 0}
+/* ---------- images des lieux : bandeau net en haut de la scène, même image floutée en fond ---------- */
+.loc-bg{position:fixed;inset:-24px;z-index:0;pointer-events:none;background:#0a1828 center/cover no-repeat;filter:blur(3px) brightness(.62) saturate(.95);transition:background-image .6s}
+.game-grid{position:relative;z-index:1}
+.loc-band{margin:26px 0 0;position:relative;border-radius:8px;overflow:hidden;border:1px solid var(--ligne);aspect-ratio:16/6;background:var(--nuit-2)}
+.loc-band img{display:block;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s}
+.loc-band img.on{opacity:1}
+.loc-band figcaption{position:absolute;left:0;right:0;bottom:0;padding:22px 14px 8px;font-family:var(--f-data);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--craie);background:linear-gradient(180deg,transparent,rgba(8,12,26,.75));text-shadow:0 1px 6px rgba(0,0,0,.8)}
+#col{min-width:0}
+#col #scene{margin-top:14px}
+#scene > div:empty{display:none}
+/* blocs de lecture légèrement transparents : on devine l'image derrière */
+#scene{background:rgba(14,20,40,.78);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid var(--ligne);border-radius:8px;padding:20px 22px 22px}
+#hud{background:rgba(21,26,44,.84)}
+.side-box{background:rgba(24,30,56,.8);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.choice{background:rgba(29,36,64,.7)}
+.choice:hover{background:rgba(39,47,82,.85)}
+.roll{background:rgba(29,36,64,.7)}
 /* fin */
 .ending{border:1px solid var(--lune);border-radius:8px;padding:24px;display:grid;gap:14px;background:linear-gradient(180deg,rgba(241,223,160,.06),transparent)}
 .ending .num{font-family:var(--f-data);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--lune)}
@@ -148,6 +165,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   .sheet{grid-template-columns:1fr;width:min(520px,100%)}
   .sheet img{border-radius:7px 7px 0 0;height:auto;min-height:0;aspect-ratio:1;max-height:46vh}
   #side{padding-top:0}
+  #col #scene{margin-top:12px}
+}
+@media (max-width:620px){
+  .loc-band{aspect-ratio:2/1;margin-top:14px}
+  #scene{padding:16px 14px 18px}
 }
 @media (max-aspect-ratio:1/1){
   .marquee,.panel{margin-left:0}
@@ -191,9 +213,10 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
   </section>
 
   <section id="game" hidden>
+    <div class="loc-bg" id="locBg" aria-hidden="true"></div>
     <header id="hud"></header>
     <div class="game-grid">
-      <div id="scene"></div>
+      <div id="col"><figure class="loc-band" id="locBand" hidden><img id="locImg" alt="" decoding="async"><figcaption id="locName"></figcaption></figure><div id="scene"></div></div>
       <aside id="side" aria-label="Ton équipe, tes objets et les règles"></aside>
     </div>
   </section>
@@ -437,8 +460,42 @@ function linesHtml(n){
 }
 function quipHtml(q){ return q ? `<div class="quip"><b>${esc(M.companions[q.c].name)}</b>${esc(q.t)}</div>` : ""; }
 function quipsHtml(a){ return (a || []).map(quipHtml).join(""); }
+/* ---------- image du lieu : une par lieu, elle ne change que quand on arrive ailleurs ---------- */
+const LIEUX = DATA.lieux;
+const locSrc = (img, w) => `img/lieux/${img}${w === 800 ? "-800" : ""}.webp`;
+function locFor(id){
+  if (!LIEUX) return null;
+  const sec = id.split("_")[0];
+  const img = LIEUX.n[id] || (S.locSec === sec && S.loc) || LIEUX.d[sec] || S.loc || null;
+  S.loc = img; S.locSec = sec; return img;
+}
+let shownLoc = null;
+function showLoc(){
+  const img = locFor(S.node), band = $("#locBand");
+  if (!img){ band.hidden = true; return; }
+  band.hidden = false;
+  if (img === shownLoc) return;
+  shownLoc = img;
+  const el = $("#locImg");
+  el.classList.remove("on");
+  el.onload = () => el.classList.add("on");
+  el.onerror = () => { band.hidden = true; };
+  el.sizes = "(max-width:1000px) 100vw, 850px";
+  el.srcset = `${locSrc(img, 800)} 800w, ${locSrc(img)} 1600w`;
+  el.src = locSrc(img);
+  if (el.complete && el.naturalWidth) el.classList.add("on");
+  $("#locName").textContent = LIEUX.noms[img] || "";
+  const bg = new Image(); bg.onload = () => { $("#locBg").style.backgroundImage = `url("${locSrc(img, 800)}")`; }; bg.src = locSrc(img, 800);
+}
+function prefetchLocs(n){
+  if (!LIEUX || !n.choices) return;
+  const seen = new Set([S.loc]);
+  n.choices.forEach(c => { const t = c.to && N[c.to] ? (LIEUX.n[c.to] || LIEUX.d[c.to.split("_")[0]]) : null;
+    if (t && !seen.has(t)){ seen.add(t); const i = new Image(); i.src = locSrc(t, innerWidth <= 1000 ? 800 : 1600); } });
+}
 function render(rolling){
   showGame();
+  showLoc();
   $("#hud").innerHTML = hud();
   $("#side").innerHTML = sideHtml();
   const n = N[S.node];
@@ -466,6 +523,7 @@ function render(rolling){
     if (hiddenN > 0) h += `<div class="hidden-count">${hiddenN} autre${hiddenN>1?"s":""} possibilité${hiddenN>1?"s":""} ici, pour d'autres compagnons ou d'autres vies.</div>`;
     $("#scene").innerHTML = h;
     document.querySelectorAll(".choice").forEach(b => b.onclick = () => choose(+b.dataset.i));
+    prefetchLocs(n);
   } else {
     const r = S.roll;
     if (r.auto){

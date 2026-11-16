@@ -19,4 +19,8 @@ for name in ("la-lune-vendue.html", "arbre-de-decision.html"):
     dest = NAMES.get(name, name)
     open(os.path.join(DST, dest), "w", encoding="utf-8").write(s)
     print("écrit", dest, len(s))
+lieux = os.path.join(HERE, "img", "lieux")
+if os.path.isdir(lieux):
+    shutil.copytree(lieux, os.path.join(DST, "img", "lieux"), dirs_exist_ok=True)
+    print("copié img/lieux", len(os.listdir(lieux)), "fichiers")
 open(os.path.join(DST, ".nojekyll"), "w").close()
