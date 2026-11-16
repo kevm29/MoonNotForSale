@@ -86,7 +86,7 @@ Et au bout du couloir, quelque chose avance. Très lentement. Une tortue énorme
 !title: Madame Coquille
 « Madame Coquille. Tortue des sables. Trois cent douze ans. Enceinte depuis trois cents. » Elle dit tout cela avec une grande dignité, en grignotant une feuille de salade. « J'ai entendu qu'un bébé était né cette nuit. Je viens vous féliciter. Et vous dire une chose. »
 Elle pose une patte sur sa carapace. « Chez nous, on naît à marée haute, quand la Lune est pleine. Mon petit attend depuis trois siècles le bon moment. Si la Lune s'en va, il n'y aura plus jamais de bon moment. » Elle nous regarde. « Alors je vais monter. Je vais aller dire deux mots à ce monsieur en or. »
-* pel_14 coe11 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | Elle réfléchit si longtemps que nous croyons qu'elle s'est endormie. Puis : « Oui. » | +comp:coquille mor+1 | +comp:coquille
+* pel_14 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | | +comp:coquille mor+1 |
 * pel_15 rus11 | Lui conseiller de rester ici, à l'abri | « Le voyage sera long, Madame. Et rapide, par moments. » Elle soupire. « La vitesse. Quelle vulgarité. » Elle reste. | | |
 
 @pel_14

@@ -17,7 +17,7 @@
   },
   "mor": {
    "name": "Moral",
-   "help": "Le courage de ton personnage. Il monte quand quelque chose te réconforte ; il baisse sur un échec cuisant (un 1, ou un jet raté de 6 points ou plus), ou quand tu perds quelqu'un. Les petits échecs ne coûtent rien. À 8 ou plus : +1 à tous les dés. À 2 ou moins : −1 à tous les dés. Entre les deux : aucun effet."
+   "help": "Le moral de ton personnage. Il monte quand quelque chose te fait du bien, il baisse sur un gros échec ou quand tu perds quelqu'un."
   }
  },
  "playables": [
@@ -782,7 +782,7 @@
   },
   "obj_croc_argent": {
    "name": "Le croc d'argent",
-   "desc": "Le dernier croc de loup de Lord Barnabé. Les crocs de loup-garou coupent ce qui retient la Lune, dit la légende. La légende n'a jamais été vérifiée."
+   "desc": "Le dernier croc de loup de Lord Barnabé. C'est la Lune qui l'a fait pousser, deux siècles de pleines lunes : un petit morceau d'elle, qui mord encore."
   },
   "obj_beignet": {
    "name": "Le beignet perpétuel",

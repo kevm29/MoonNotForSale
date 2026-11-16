@@ -54,7 +54,7 @@ La ville s'effondre par morceaux. Des rêves de Marégraves, où la mer refuse d
 Brume-Lucie et toi, vous travaillez ensemble. Elle enveloppe les rêves qui tombent, tu les remets en place. Un rêve de vieille dame, un rêve de chat, un rêve de lichen qui dure depuis trois siècles. Elle chantonne en travaillant, des demi-vers qui ne finissent jamais.
 ~brume: « Tu vois, à deux, c'est moins... enfin. C'est plus... Tu vois. »
 * son_11 coe11 ?comp:brume | Lui dire qu'elle a bien fait de venir | Elle s'enroule autour de toi, gênée et ravie. « Enfin. Oui. Moi aussi, je trouve. » | Tu le dis trop vite. Elle croit que tu te moques, puis comprend que non, et rougit en gris clair. | mor+1 |
-* son_11 coe11 ?!comp:brume | Lui demander de venir avec toi au-delà des Songes | Elle s'arrête. « Avec toi ? Dans l'éveil ? Là-haut ? Vers la... » Elle tremble. « J'ai peur. Mais j'ai encore plus peur de rester seule pendant que tout s'éteint. Oui. Je viens. » | Elle disparaît de peur. Puis revient. « Oui. Si tu me tiens la main. Enfin. Le brouillard. » | +comp:brume mor+1 | +comp:brume
+* son_11 ?!comp:brume | Lui demander de venir avec toi au-delà des Songes | Elle s'arrête. « Avec toi ? Dans l'éveil ? Là-haut ? Vers la... » Elle tremble. « J'ai peur. Mais j'ai encore plus peur de rester seule pendant que tout s'éteint. Oui. Je viens. » | | +comp:brume mor+1 |
 * son_07 rus10 | Lui demander où trouver le responsable | Elle pointe un néon violet, au centre de la ville. « Le Marchand. » | |
 
 @son_09

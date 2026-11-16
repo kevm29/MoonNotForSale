@@ -138,7 +138,7 @@ Tu sors du Centre de tri. Le soleil se couche sur les Hauts-Nuages. Plus bas, tr
 ?flag:ordre_mission Derrière toi, les vents du Centre te suivent, en formation, avec leurs sacoches. Ils ne savent pas où tu vas. Ils viennent quand même.
 ?flag:prospectus_detournes Au-dessus de toi, des tonnes de papier corrigé partent vers tous les horizons.
 Zouzou flotte à côté de toi. « Bon. Tu descends là-bas ? Chez les lents ? »
-* gri_21 coe11 | « Viens avec moi. On ne monte pas à deux. On monte à des milliers. » | Zouzou te regarde. Elle fait semblant de réfléchir. « Je viens. Mais c'est parce que je n'ai rien de mieux à faire. Que ce soit clair. » | Zouzou hausse sa queue. « Bof. » Puis elle te suit quand même, à trois mètres, en faisant semblant de passer par là. | +comp:zouzou mor+1 | +comp:zouzou
+* gri_21 | « Viens avec moi. On ne monte pas à deux. On monte à des milliers. » | Zouzou te regarde. Elle fait semblant de réfléchir. « Je viens. Mais c'est parce que je n'ai rien de mieux à faire. Que ce soit clair. » | | +comp:zouzou mor+1 |
 * gri_22 pan10 | « Merci, Zouzou. Je vais finir seule. » | Zouzou te regarde. Une seconde, elle a l'air blessée. Puis elle hausse sa queue. « Comme tu veux, la factrice. Le ciel est grand. » Elle file vers les nuages. | | |
 
 @gri_21

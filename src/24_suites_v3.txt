@@ -172,7 +172,7 @@ Platine lit à son tour. Il fronce les sourcils. « Mais la Lune n'est pas... el
 
 @fin_23
 !title: Le croc d'argent
-Tu sors de ta poche le croc d'argent. Le dernier croc de Lord Barnabé, tombé un soir où il ne s'est pas transformé. « Les crocs de loup-garou coupent ce qui retient la Lune », dit la légende. La légende n'a jamais été vérifiée.
+Tu sors de ta poche le croc d'argent. Le dernier croc de Lord Barnabé, tombé le soir où il ne s'est pas transformé. C'est la Lune qui l'a fait pousser, deux siècles de pleines lunes : un morceau d'elle, avec des dents. Le câble, lui, n'est qu'à la Compagnie. Tu paries sur la Lune.
 ?pc:barnabe C'est ton croc. Tu le sens vibrer dans ta main, comme s'il se souvenait de ta gueule.
 Tu sors par le sas. Tu flottes jusqu'au câble, tendu comme une corde de violon. Tu poses le croc dessus.
 * fin_11 pan12 ?equ>=30 | Couper | Le câble chante, puis se rompt. Le crochet lâche. La Lune frémit, libre, et ne bouge pas encore. Elle attend de savoir ce qu'elle veut. Platine, derrière la vitre, la regarde, et tu entends enfin sa voix à elle. | Le croc glisse, ripe, mord. Tu recommences. À la troisième fois, le câble lâche, dans un grand soupir d'acier. La Lune est libre. Elle hésite. | +flag:cable_coupe | +flag:cable_coupe

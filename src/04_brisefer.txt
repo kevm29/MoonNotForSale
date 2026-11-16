@@ -201,13 +201,13 @@ C'est un Échotier. Une créature de son, qui ne peut dire que ce qu'on vient de
 @bri_32
 Écho flotte autour de toi. Elle est curieuse. Elle répète ta respiration, puis ton cœur, puis le craquement de ton genou. Elle a l'air d'aimer ce son-là.
 Tu te dis : la Faille a raison. Tu ne parles pas assez bien pour convaincre le monde. Mais quelqu'un qui répète, là-haut, devant tout le monde, ça pourrait faire du bruit.
-* bri_34 coe11 | L'inviter à monter avec toi | « Viens avec moi, là-haut. » « ... là-haut. Là-haut ! » Elle répète avec une joie qui fait vibrer la grotte entière. Elle vient. | Elle répète « là-haut » mais reste en bas. Puis elle te suit, timide, à trois pas. | +comp:echo mor+1 | +comp:echo
-* bri_35 rus12 | Lui apprendre d'abord quelques phrases utiles | « La Lune est à nous. » « ... est à nous. » « Ne touchez pas à la Lune. » « ... à la Lune. » Elle apprend vite. Elle n'a pas le choix. | Elle apprend « Lune », « nous » et un juron militaire que tu as laissé échapper. | +comp:echo +flag:echo_phrases | +comp:echo
+* bri_34 | L'inviter à monter avec toi | « Viens avec moi, là-haut. » « ... là-haut. Là-haut ! » Elle répète avec une joie qui fait vibrer la grotte entière. Elle vient. | | +comp:echo mor+1 |
+* bri_35 | Lui apprendre d'abord quelques phrases utiles | « La Lune est à nous. » « ... est à nous. » « Ne touchez pas à la Lune. » « ... à la Lune. » Elle apprend vite. Elle n'a pas le choix. | | +comp:echo +flag:echo_phrases |
 
 @bri_33
 Écho ne bouge pas. Tu t'assois sur un rocher, fatiguée. Ton genou craque. Elle répète le craquement, puis ton soupir. Puis, très bas, le mot qu'elle répétait quand tu es arrivée : « seul ».
 Tu comprends. Elle n'a pas besoin d'ordres. Elle a besoin de compagnie.
-* bri_34 coe12 | Lui dire : « Moi aussi. » | « ... moi aussi. » Elle s'approche. Elle se pose sur ton épaule, comme un oiseau de son. Elle viendra. | Tu le dis si bas qu'elle ne l'entend pas. Tu le redis. Elle l'entend. Elle vient. | +comp:echo coe+1 | +comp:echo
+* bri_34 | Lui dire : « Moi aussi. » | « ... moi aussi. » Elle s'approche. Elle se pose sur ton épaule, comme un oiseau de son. Elle viendra. | | +comp:echo coe+1 |
 
 @bri_34
 Il faut remonter. La surface est à quatre cents kilomètres au-dessus de vous. Il y a les tunnels réguliers, longs et sûrs. Il y a la cheminée du Grand Volcan Dormant, directe, brûlante, interdite. Il y a l'Ascenseur des Taupes, qui marche une fois sur deux.

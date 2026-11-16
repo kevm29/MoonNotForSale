@@ -89,8 +89,8 @@ Le Marchand de Sommeil tient boutique dans un rêve de grand magasin, au bout d'
 ?from:pis_14 Elle se présente en rougissant : Brume-Lucie, Brumeuse, créature de brouillard qui vit entre le rêve et l'éveil. Elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
 Brume-Lucie flotte autour de toi. Elle te regarde comme on regarde un poussin dans une tempête. « Tu es tout petit. Tu ne devrais pas aller seul là où les rêves se... » Elle ne finit pas. Elle n'aime pas les fins.
 « Est-ce que je peux venir ? Je ne sers à rien, mais je fais de l'ombre. Enfin, du flou. »
-* pis_16 coe10 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | Elle disparaît de joie et met longtemps à revenir. Mais elle revient. | +comp:brume mor+1 | +comp:brume
-* pis_17 rus11 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | Elle hésite, disparaît, revient : « Oui. Je suis sûre. Enfin. À moitié. » | +comp:brume | +comp:brume
+* pis_16 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | | +comp:brume mor+1 |
+* pis_17 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | | +comp:brume |
 * pis_17 pan12 | « Non, reste en sécurité. J'y vais seul. » | Elle te regarde partir. Tu entends derrière toi un demi-vers qui ne finit pas. Ça te serre le cœur. | Elle insiste, tu refuses. Elle disparaît, vexée. | pan+1 | mor-1
 
 @pis_16

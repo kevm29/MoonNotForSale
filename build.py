@@ -392,6 +392,9 @@ def main():
     import base64
     data["portraits"] = {os.path.splitext(os.path.basename(f))[0]: "data:image/webp;base64," + base64.b64encode(open(f, "rb").read()).decode()
                          for f in sorted(glob.glob(os.path.join(HERE, "img", "personnages", "*.webp")))}
+    rj = os.path.join(HERE, "reactions.json")
+    if os.path.exists(rj):
+        data["reactions"] = {k: v for k, v in json.load(open(rj, encoding="utf-8")).items() if not k.startswith("_")}
     acc = os.path.join(HERE, "img", "accueil.webp")
     if os.path.exists(acc): data["accueil"] = "data:image/webp;base64," + base64.b64encode(open(acc, "rb").read()).decode()
     out = os.environ.get("OUT", os.path.join(HERE, "out"))

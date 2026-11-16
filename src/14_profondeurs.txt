@@ -171,8 +171,8 @@ Elle la tient dans ses mains de cristal, comme un enfant. « Je l'ai faite pour 
 Le Docteur Quartz regarde le plan. « C'est la chose la plus folle que j'aie jamais imaginée. Et j'ai fabriqué un trou noir de poche. »
 ?flag:quartz_renvoyee Puis elle te reconnaît, et son visage de cristal se ferme. « Vous. Vous m'avez renvoyée des Hauts-Nuages pour une comète. Je reste ici, avec mes plans. Eux, au moins, ne me renvoient pas. »
 ?comp:zouzou ?!flag:quartz_renvoyee Zouzou se colle à ton dos. « Elle a un compas. Elle va me mesurer. Si elle vient, je pars. » Le Docteur Quartz, de son côté, regarde déjà la comète avec une gourmandise scientifique inquiétante.
-* pro_28 coe11 ?comp:zouzou ?!flag:quartz_renvoyee | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file par le tunnel en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | Zouzou part sans un mot, ce qui est pire que tout ce qu'elle aurait pu dire. Quartz te suit. | -comp:zouzou +comp:quartz +flag:zouzou_partie | -comp:zouzou +comp:quartz +flag:zouzou_partie mor-1
-* pro_28 coe11 ?!comp:zouzou ?!flag:quartz_renvoyee | Lui demander de venir avec toi | Elle range ses plans, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | Elle hésite. « Sortir ? De ma géode ? » Elle sort quand même. Elle prend un parapluie, au cas où. | +comp:quartz mor+1 | +comp:quartz
+* pro_28 ?comp:zouzou ?!flag:quartz_renvoyee | Laisser partir Zouzou, et emmener le Docteur Quartz | Zouzou te regarde, incrédule. « Pour une règle à calcul ? » Elle file par le tunnel en laissant une traînée vexée. Quartz range son compas, un peu honteuse d'avoir gagné. | | -comp:zouzou +comp:quartz +flag:zouzou_partie |
+* pro_28 ?!comp:zouzou ?!flag:quartz_renvoyee | Lui demander de venir avec toi | Elle range ses plans, ses lunettes, sa petite Lune de poche. « Je viens. J'ai une théorie sur tout ce qui va mal se passer. Ce sera utile. » | | +comp:quartz mor+1 |
 * pro_29 rus10 | Lui laisser les plans pour qu'elle y travaille | « Oui ! Je vais tout recalculer ! Trois fois ! » Elle te donne une copie. | | +flag:plans_lune |
 
 @pro_26
@@ -216,7 +216,8 @@ Les Grottes des Échos. Des milliers de cavités qui résonnent. Au milieu, une 
 ?!comp:echo ?pc:brisefer Tu la reconnais : c'est Écho, que tu avais laissée ici. Depuis ton départ, elle est revenue à son vieux mot. Elle te reconnaît aussi, et répète ton pas, celui avec le genou qui craque.
 ?comp:echo C'est un autre Échotier, plus petit, plus pâle que ton Écho. Écho, à côté de toi, s'arrête. Elle regarde la silhouette. Elle répète : « Seul. » Puis elle te regarde. Elle ne savait pas qu'il y en avait d'autres.
 * pro_34 coe12 ?!comp:echo | Lui dire « Pas seul » | « ... pas seul ? ... pas seul. » Elle répète. Elle répète autre chose que « seul ». Ça lui avait manqué. | « ... pas... seul. Seul. » Elle n'y arrive pas tout à fait du premier coup. Au cinquième, si. | coe+1 +flag:echo_pas_seul | +flag:echo_pas_seul
-* pro_35 rus11 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | Elle répète tout dans le désordre. « Moi Lune avec seul. » Puis elle te suit quand même, en répétant ton pas. | rus+1 +comp:echo | +comp:echo
+* pro_35 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | | rus+1 +comp:echo |
+* pro_37 coe11 ?comp:echo | Laisser Écho lui parler | Écho s'approche du petit Échotier. Elle ne peut dire que ce qu'elle vient d'entendre. Alors tu dis « pas seul », pour elle, et elle le répète pour lui. | Tu dis « pas seul » trop bas. Écho le répète trop fort. Le petit Échotier sursaute, puis répète aussi. | coe+1 |
 
 @pro_33
 Tu arrives au fond du Grand Puits. Il ne reste plus qu'à remonter les échelles. Au-dessus, très loin, un petit cercle de lumière : la surface.
@@ -239,3 +240,8 @@ La garde Gravitaire t'attend. « Alors ? »
 Tu sors du Grand Puits. Le Carrefour est là, avec ses tentes, ses feux, sa foule. La Lune est plus grosse dans le ciel, plus penchée. Elle s'éloigne.
 Sous tes pieds, très loin, l'Axe tient. Pour l'instant.
 * hub_ret coe10 | Retourner au Conseil | Tu marches. Tu as les genoux qui tremblent. Ce n'est pas la fatigue. C'est le souvenir de l'Axe. | |
+
+@pro_37
+Le petit Échotier répète : « ... pas seul. » Puis encore, plus fort. Les grottes le reprennent, de cavité en cavité, jusqu'à ce que toute la montagne dise « pas seul ». Écho répète la montagne. Elle a l'air de quelqu'un qui retrouve une langue qu'elle croyait seule à parler.
+Le petit Échotier ne vous suivra pas : les grottes sont chez lui. Mais il ne dit plus « seul ».
+* pro_33 coe10 | Remonter avec Écho | Écho se retourne une dernière fois et répète, pour le petit : « Pas seul. » Puis elle te suit. | | +flag:echo_pas_seul mor+1 |

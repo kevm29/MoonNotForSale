@@ -177,7 +177,7 @@ Tu as toujours su que tu finirais par vendre quelque chose qui ne t'appartenait 
 La cage s'ouvre. Rocambole sort, s'étire de ses quatre bras, fait craquer ses huit coudes. Il est encore plus grand dehors. « Ah ! La liberté ! Elle sent la cale, mais elle est à moi ! »
 Il te soulève du sol et t'embrasse sur les deux élytres. « Petit insecte, tu viens de faire la chose la plus stupide de ta carrière. Je t'adore. »
 * zep_30 rus11 | « On va à la fourrière chercher ton vaisseau. » | « Évidemment ! On ne s'évade pas à pied, c'est vulgaire. » | |
-* zep_31 coe10 | « Tu viens avec moi sur Terre ? » | « Sur Terre ? Avec des Marégraves, des lichens et des gens qui écrivent à la Lune ? » Il réfléchit. « J'adore les causes perdues. Elles paient mal, mais elles finissent bien. Parfois. » | « Sur Terre ? C'est un trou ! Un trou merveilleux, mais un trou. » Il vient quand même. | +comp:rocambole mor+1 | +comp:rocambole
+* zep_31 | « Tu viens avec moi sur Terre ? » | « Sur Terre ? Avec des Marégraves, des lichens et des gens qui écrivent à la Lune ? » Il réfléchit. « J'adore les causes perdues. Elles paient mal, mais elles finissent bien. Parfois. » | | +comp:rocambole mor+1 |
 
 @zep_29
 ?from:zep_26 « Ouvre-moi d'abord, petit. On parlera navigation après. »

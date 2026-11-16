@@ -45,19 +45,18 @@ Une vieille Gravitaire tend une couverture à un Marégrave qui gèle. Un Horlog
 * hub_05 rus10 | Compter les espèces présentes | Tu comptes douze peuples, quarante dialectes et un seul sujet de conversation. | Tu comptes deux fois les Lichenautes : ils n'avaient pas bougé. | |
 
 @hub_05
-!fx: pc:brisefer=>+flag:gravitaires_allies pc:ondine=>+flag:marees_prevenues pc:pelagie=>+flag:marees_prevenues
 On sonne une cloche. Le Conseil des Espèces se réunit pour la première fois de l'histoire de la Terre. Il a duré quatre minutes. Il a décidé une seule chose : envoyer des volontaires dans les régions du monde qui souffrent le plus, pour trouver de l'aide, des alliés, des idées. Ensuite, il faudra monter là-haut.
 Le Président galet est posé au centre de la carte. Il ne dit rien. C'est un accord.
 ?flag:voie_tri Le galet a été posé sur la carte du côté des affaires de papier : le Conseil te propose les régions où l'on signe, où l'on vend et où l'on décide.
 ?flag:voie_rum Le marchand de beignets s'est invité au Conseil. Il pointe sur la carte les régions dont parlent ses rumeurs, et seulement celles-là.
 ?flag:voie_peu Les peuples que tu as écoutés autour des feux ont chacun montré leur pays. Le Conseil t'envoie là où ils ont besoin de toi.
-?pc:ondine Les Côtes ne sont pas sur ta liste. « On n'enquête pas chez soi, dit l'interprète du galet. On y pleure, et ça fausse les mesures. » Alors tu écris une dernière lettre, à la mer cette fois, pour la prévenir de ce qui vient. Un Marégrave de passage promet de la lui remettre en main propre, s'il en trouve une.
-?pc:pelagie Les Côtes ne sont pas sur notre liste. « On n'enquête pas chez soi, dit l'interprète du galet. On y accouche, et ça fausse les mesures. » Nous envoyons trois ouvrières prévenir la mer de ce qui vient. La mer a l'habitude de nous écouter : nous lui avons appris les contractions.
-?pc:basile Tamponville n'est pas sur ta liste. Le Conseil craint que tu y tamponnes quelque chose par réflexe.
-?pc:pistil Le Pays des Songes n'est pas sur ta liste. « Tu y es déjà, d'une certaine façon », dit l'interprète, qui n'a pas compris non plus.
-?pc:brisefer Les Profondeurs ne sont pas sur ta liste. Tes cousins s'y assoient très bien sans toi, dit le Conseil. Tu grognes. C'est vrai. Tu tapes trois fois du talon sur la plaine : en bas, l'Assemblée des douze entend l'ordre. Elle attendra ton signal.
-?pc:griselidis Les Hauts-Nuages ne sont pas sur ta liste. Le Conseil veut des nouvelles d'ailleurs, et tu es la seule à pouvoir les rapporter vite.
-?pc:anatole La Forêt n'est pas sur ta liste. Ta serre est à sa lisière ; le Conseil dit qu'on ne trouve pas d'aide au bout de son propre jardin.
+?pc:ondine Les Côtes ne sont pas sur ta liste. Pas encore. « On n'enquête pas chez soi d'abord, dit l'interprète du galet. On y pleure, et ça fausse les mesures. Rapportez d'abord des nouvelles d'ailleurs ; ensuite, la mer vous écoutera mieux. »
+?pc:pelagie Les Côtes ne sont pas sur notre liste. Pas encore. « On n'enquête pas chez soi d'abord, dit l'interprète du galet. On y accouche, et ça fausse les mesures. » Nous bourdonnons notre désaccord. Puis nous comprenons : on revient mieux chez soi quand on a vu ailleurs.
+?pc:basile Tamponville n'est pas sur ta liste. Pas encore. Le Conseil craint que tu y tamponnes quelque chose par réflexe ; il te demande d'aller voir ailleurs d'abord.
+?pc:pistil Le Pays des Songes n'est pas sur ta liste. Pas encore. « Tu y es déjà, d'une certaine façon », dit l'interprète, qui n'a pas compris non plus. « Va voir le monde éveillé d'abord. »
+?pc:brisefer Les Profondeurs ne sont pas sur ta liste. Pas encore. Tes cousins s'y assoient très bien sans toi, dit le Conseil : ramène-leur d'abord des nouvelles du dessus. Tu grognes. C'est vrai.
+?pc:griselidis Les Hauts-Nuages ne sont pas sur ta liste. Pas encore. Le Conseil veut d'abord des nouvelles d'ailleurs, et tu es la seule à pouvoir les rapporter vite.
+?pc:anatole La Forêt n'est pas sur ta liste. Pas encore. Ta serre est à sa lisière ; le Conseil dit qu'on ne trouve pas d'aide au bout de son propre jardin, pas en premier.
 * cot_01 ?!flag:vis_cot ?!pc:ondine ?!pc:pelagie ?flag:voie_rum,flag:voie_peu | Partir vers les Côtes Hagardes, où la mer devient folle | Tu choisis la mer. Elle a besoin de quelqu'un. |  |
 * for_01 ?!flag:vis_for ?!pc:anatole ?flag:voie_peu | Partir vers la Forêt-Réseau, où les arbres ne savent plus pousser | Tu choisis la forêt. Elle a de l'avance sur toi : elle sait depuis longtemps. |  |
 * son_01 ?!flag:vis_son ?!pc:pistil ?flag:voie_rum | Partir vers le Pays des Songes, où les rêves s'éteignent | Tu choisis le sommeil. C'est le seul voyage qui se fait les yeux fermés. |  |
@@ -92,19 +91,20 @@ Le Conseil des Espèces a griffonné sur la carte les régions déjà visitées.
 ?flag:vis_nua Sur la carte, à côté des Hauts-Nuages, quelqu'un a dessiné un parapluie à l'envers.
 ?flag:vis_com Sur la carte, à côté du Marché des Comètes, quelqu'un a écrit : « Fait. Trop cher. »
 ?regions>=1 Le Conseil ne trace plus de flèche que vers les régions où ton premier voyage a laissé une piste. Les autres, il les a pliées dans le pli de la carte, là où on ne regarde jamais.
+?regions>=1 ?pc:ondine,pc:pelagie,pc:basile,pc:pistil,pc:brisefer,pc:griselidis,pc:anatole Et, tout en bas, une petite flèche de plus, à l'encre plus pâle : vers chez toi. Tu as vu ailleurs. Tu peux rentrer.
 ?regions<1 Sur la carte, aucune région n'est encore barrée. Le Conseil attend que tu en choisisses une, et il fait semblant de ne pas attendre.
 * cot_01 ?regions<1 ?!flag:vis_cot ?!pc:ondine ?!pc:pelagie ?flag:voie_rum,flag:voie_peu | Partir vers les Côtes Hagardes | La mer t'attend. Elle attend tout le monde, en ce moment. |  |
-* cot_01 ?regions>=1 ?!flag:vis_cot ?!pc:ondine ?!pc:pelagie ?flag:vis_pro,flag:vis_nua | Partir vers les Côtes Hagardes | La mer t'attend. Elle attend tout le monde, en ce moment. |  |
+* cot_01 ?regions>=1 ?!flag:vis_cot ?flag:vis_pro,flag:vis_nua,pc:ondine,pc:pelagie | Partir vers les Côtes Hagardes | La mer t'attend. Elle attend tout le monde, en ce moment. |  |
 * for_01 ?regions<1 ?!flag:vis_for ?!pc:anatole ?flag:voie_peu | Partir vers la Forêt-Réseau | Les arbres te font signe. Ils font signe dans toutes les directions, mais tu le prends pour toi. |  |
-* for_01 ?regions>=1 ?!flag:vis_for ?!pc:anatole ?flag:vis_son,flag:vis_pro,flag:vis_nua | Partir vers la Forêt-Réseau | Les arbres te font signe. Ils font signe dans toutes les directions, mais tu le prends pour toi. |  |
+* for_01 ?regions>=1 ?!flag:vis_for ?flag:vis_son,flag:vis_pro,flag:vis_nua,pc:anatole | Partir vers la Forêt-Réseau | Les arbres te font signe. Ils font signe dans toutes les directions, mais tu le prends pour toi. |  |
 * son_01 ?regions<1 ?!flag:vis_son ?!pc:pistil ?flag:voie_rum | Partir vers le Pays des Songes | Tu bâilles. C'est déjà un début de voyage. |  |
-* son_01 ?regions>=1 ?!flag:vis_son ?!pc:pistil ?flag:vis_for,flag:vis_cap,flag:vis_com | Partir vers le Pays des Songes | Tu bâilles. C'est déjà un début de voyage. |  |
+* son_01 ?regions>=1 ?!flag:vis_son ?flag:vis_for,flag:vis_cap,flag:vis_com,pc:pistil | Partir vers le Pays des Songes | Tu bâilles. C'est déjà un début de voyage. |  |
 * pro_01 ?regions<1 ?!flag:vis_pro ?!pc:brisefer ?flag:voie_peu | Descendre dans les Profondeurs | Le sol gronde sous tes pieds, comme une invitation mal élevée. |  |
-* pro_01 ?regions>=1 ?!flag:vis_pro ?!pc:brisefer ?flag:vis_cot,flag:vis_for,flag:vis_cap | Descendre dans les Profondeurs | Le sol gronde sous tes pieds, comme une invitation mal élevée. |  |
+* pro_01 ?regions>=1 ?!flag:vis_pro ?flag:vis_cot,flag:vis_for,flag:vis_cap,pc:brisefer | Descendre dans les Profondeurs | Le sol gronde sous tes pieds, comme une invitation mal élevée. |  |
 * cap_01 ?regions<1 ?!flag:vis_cap ?!pc:basile ?flag:voie_tri,flag:voie_rum | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
-* cap_01 ?regions>=1 ?!flag:vis_cap ?!pc:basile ?flag:vis_son,flag:vis_pro,flag:vis_com | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
+* cap_01 ?regions>=1 ?!flag:vis_cap ?flag:vis_son,flag:vis_pro,flag:vis_com,pc:basile | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
 * nua_01 ?regions<1 ?!flag:vis_nua ?!pc:griselidis ?flag:voie_tri | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
-* nua_01 ?regions>=1 ?!flag:vis_nua ?!pc:griselidis ?flag:vis_cot,flag:vis_for,flag:vis_com | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
+* nua_01 ?regions>=1 ?!flag:vis_nua ?flag:vis_cot,flag:vis_for,flag:vis_com,pc:griselidis | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
 * com_01 ?regions<1 ?!flag:vis_com ?flag:voie_tri | Aller au Marché des Comètes | Tu suis la file des acheteurs. Ils ont tous des sacs vides et des yeux pleins. |  |
 * com_01 ?regions>=1 ?!flag:vis_com ?flag:vis_cot,flag:vis_son,flag:vis_cap,flag:vis_nua | Aller au Marché des Comètes | Tu suis la file des acheteurs. Ils ont tous des sacs vides et des yeux pleins. |  |
 

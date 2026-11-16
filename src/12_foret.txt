@@ -60,7 +60,7 @@ Il ne rit pas.
 @for_09
 Fernand tape sa réclamation avec toi. Elle fait trois pages. Elle est brillante, cynique, juridiquement inattaquable. « Article sept : la nuit est un bien commun. Article huit : on ne vend pas un bien commun. Article neuf : si vous lisez ceci, vous êtes déjà en tort. »
 Il signe d'une petite tache de lumière. Puis il te regarde. « Vous allez quelque part ? Je pourrais venir. Je ne sers à rien, mais je râle bien et je tape vite. »
-* for_12 coe10 | « Viens, Fernand. » | Il range sa machine dans son élytre. « Je viens. Mais je garde mon droit de démissionner toutes les heures. » | Il vient en se plaignant du voyage, du froid, de toi. Il est ravi. | +comp:fernand +flag:reclamation_fernand | +comp:fernand +flag:reclamation_fernand
+* for_12 | « Viens, Fernand. » | Il range sa machine dans son élytre. « Je viens. Mais je garde mon droit de démissionner toutes les heures. » | | +comp:fernand +flag:reclamation_fernand |
 * for_12 rus11 | « Envoie plutôt ta réclamation à la Compagnie. » | Il l'envoie par pigeon. « Ils ne la liront pas. Mais elle existera. C'est déjà une forme de victoire. » | | +flag:reclamation_fernand |
 
 @for_10
@@ -167,7 +167,7 @@ Silence. Puis une centaine d'aiguilles se lèvent.
 @for_25
 À l'aube, l'écharpe est finie. Elle est roulée en une pelote gigantesque, haute comme une maison, qui brille d'une lumière blanche et douce. Tante Mélusine s'assoit dessus, épuisée, ses trois paires de lunettes de travers.
 « Voilà. Maintenant, il faut la monter là-haut. Et la nouer autour d'elle. » Elle te regarde. « Je suis trop vieille pour grimper. Mais je suis trop têtue pour rester. »
-* for_27 coe11 | « Venez avec moi, Tante Mélusine. » | Elle se lève d'un bond, renverse deux Lunatiques. « ENFIN ! Quelqu'un qui me demande de venir quelque part ! Mille ans que j'attends ! » Elle emporte la pelote, des aiguilles et un thermos de tisane. | Elle hésite. « Moi ? Je vais vous ralentir. » « Oui. » « Alors je viens. » | +comp:melusine mor+1 | +comp:melusine
+* for_27 | « Venez avec moi, Tante Mélusine. » | Elle se lève d'un bond, renverse deux Lunatiques. « ENFIN ! Quelqu'un qui me demande de venir quelque part ! Mille ans que j'attends ! » Elle emporte la pelote, des aiguilles et un thermos de tisane. | | +comp:melusine mor+1 |
 * for_28 rus11 | « Restez ici, Tante Mélusine. Gardez-la au chaud. » | Elle hoche la tête. « Je la garderai. Si un jour la Lune redescend, elle trouvera une écharpe qui l'attend. » | | +flag:pelote_temple |
 
 @for_26

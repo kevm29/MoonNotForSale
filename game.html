@@ -144,7 +144,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .loc-band{margin:26px 0 0;position:relative;border-radius:8px;overflow:hidden;border:1px solid var(--ligne);aspect-ratio:16/6;background:var(--nuit-2)}
 .loc-band img{display:block;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .45s}
 .loc-band img.on{opacity:1}
-.loc-band{z-index:1;margin-top:12px;max-height:52vh;width:100%;transition:height .25s}
+.loc-band{z-index:1;margin-top:12px;max-height:46vh;width:100%}
 #scene{gap:14px}
 .node-title{font-size:clamp(24px,3vw,32px)}
 .choice{padding:10px 14px}
@@ -410,6 +410,16 @@ function pickQuips(n){
   }
   return out;
 }
+/* un compagnon commente ta façon d'agir après un jet (une fois sur deux environ) ; de préférence le spécialiste de la caractéristique */
+function pickReact(stat, ok){
+  const R = DATA.reactions; if (!R || !stat || !S.comp.length || Math.random() < 0.45) return null;
+  const all = S.comp.filter(c => R[c] && R[c][stat]); if (!all.length) return null;
+  const fresh = all.filter(c => c !== S.lastReact); const base = fresh.length ? fresh : all;
+  const spec = base.filter(c => M.companions[c].stat === stat);
+  const pool = spec.length && Math.random() < 0.6 ? spec : base;
+  const c = pool[Math.floor(Math.random() * pool.length)]; S.lastReact = c;
+  return {c, t: R[c][stat][ok ? 0 : 1]};
+}
 function choose(i){
   const n = N[S.node]; const ch = visibleChoices(n)[i];
   const auto = ch.stat === "auto";
@@ -422,7 +432,7 @@ function choose(i){
   if (heavy && !ch.kofx.length) log.push({t:"échec cuisant", p:false});
   apply(auto ? (ch.okfx.length ? ch.okfx : (d.autofx || [])) : ok ? (ch.okfx.length ? ch.okfx : d.okfx) : (ch.kofx.length ? ch.kofx : (heavy ? d.kofx : [])), log);
   const text = ok ? ch.ok : ch.ko;
-  S.phase = "roll"; S.roll = {label: ch.label, auto, die, bonus, parts, diff: ch.diff, ok, text, log, react: null, to: ch.to, stat, from: S.node};
+  S.phase = "roll"; S.roll = {label: ch.label, auto, die, bonus, parts, diff: ch.diff, ok, text, log, react: auto ? null : pickReact(stat, ok), to: ch.to, stat, from: S.node};
   S.steps++;
   store.set("lune.save", S);
   render(!auto);
@@ -456,7 +466,7 @@ function hud(){
   </div>
   <div class="gauges">
     <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
-    <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} Maintenant : ${m>=8?"+1 à tous tes dés":m<=2?"−1 à tous tes dés":"sans effet sur les dés"} (8 et plus : +1 · 2 et moins : −1)."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
+    <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} À 8 ou plus : +1 aux dés. À 2 ou moins : −1."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
   </div>
 `;
 }
@@ -498,16 +508,6 @@ function showLoc(){
   if (el.complete && el.naturalWidth) el.classList.add("on");
   const bg = new Image(); bg.onload = () => { $("#locBg").style.backgroundImage = `url("${locSrc(img, 800)}")`; }; bg.src = locSrc(img, 800);
 }
-/* sur ordinateur, pas de défilement : le bandeau rapetisse (jusqu'à 170 px) pour que la scène tienne dans l'écran */
-function fitBand(){
-  const band = $("#locBand"); if (!band || band.hidden) return;
-  band.style.height = "";
-  if (innerWidth <= 1000 || innerHeight < 560) return;
-  const over = document.documentElement.scrollHeight - innerHeight;
-  if (over > 0) band.style.height = Math.max(170, band.offsetHeight - over - 2) + "px";
-}
-if (window.ResizeObserver) new ResizeObserver(() => fitBand()).observe(document.querySelector("#scene"));
-addEventListener("resize", fitBand);
 function prefetchLocs(n){
   if (!LIEUX || !n.choices) return;
   const seen = new Set([S.loc]);

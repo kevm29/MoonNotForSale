@@ -1,0 +1,297 @@
+{
+ "_doc": "Réactions des compagnons à ta façon d'agir, après un jet : pour chaque compagnon, selon la caractéristique du choix (pan = Panache, rus = Ruse, coe = Cœur), une réplique si ça réussit [0] et une si ça rate [1]. Elles parlent de la manière, jamais du lieu, pour rester justes partout.",
+ "bartho": {
+  "pan": [
+   "Bartholomé grogne : « Foncer comme ça... Perline faisait pareil. C'est pour ça que je l'ai épousée. »",
+   "Bartholomé : « Fonce, fonce. La mer aussi fonçait, et regarde où elle en est. »"
+  ],
+  "rus": [
+   "Bartholomé plisse les yeux : « Malin. Un peu trop malin pour être honnête. Ça me plaît. »",
+   "Bartholomé : « Quand on ruse avec la marée, la marée gagne. Je dis ça, je dis rien. »"
+  ],
+  "coe": [
+   "Bartholomé détourne la tête. Il a de l'eau dans les yeux. Il dit que c'est de l'eau douce.",
+   "Bartholomé te tape l'épaule : « Être gentil, ça rate souvent. C'est pour ça que personne ne l'est. Continue. »"
+  ]
+ },
+ "penelope": {
+  "pan": [
+   "Pénélope tamponne l'air : « APPROUVÉ. Sans formulaire. Je ne savais pas qu'on pouvait faire ça. »",
+   "Pénélope lève son tampon REFUSÉ, hésite, et le range. « Je ne m'en sers jamais. Même pas pour vous. »"
+  ],
+  "rus": [
+   "Pénélope : « Vous avez contourné la procédure. C'est affreux. Faites-le encore. »",
+   "Pénélope chuchote : « Il fallait un tampon de plus. Il en faut toujours un de plus. »"
+  ],
+  "coe": [
+   "Pénélope pose une main-tampon sur sa tache d'encre, là où devrait être son cœur. « Ça fait quelque chose, ici. »",
+   "Pénélope : « Ils n'ont pas dit oui. Mais vous avez demandé gentiment. Ça devrait compter. Je vais le noter. »"
+  ]
+ },
+ "melusine": {
+  "pan": [
+   "Tante Mélusine hurle de joie : « VOILÀ ! DU CRAN ! JE TRICOTERAI ÇA SUR UNE ÉCHARPE ! »",
+   "Tante Mélusine sanglote : « TU T'ES JETÉ DEDANS COMME UNE ANGUILLE ! » Puis elle rit. « J'ADORE LES ANGUILLES. »"
+  ],
+  "rus": [
+   "Tante Mélusine remonte ses trois paires de lunettes : « MALIN, ENFANT. PRESQUE AUTANT QUE MOI EN L'AN SIX CENT. »",
+   "Tante Mélusine : « TROP DE NŒUDS ! QUAND ON TRICOTE TROP SERRÉ, ÇA CASSE ! »"
+  ],
+  "coe": [
+   "Tante Mélusine pleure dans son châle : « C'ÉTAIT BEAU. JE DÉTESTE QUAND C'EST BEAU. »",
+   "Tante Mélusine te serre contre ses châles : « ÇA N'A PAS MARCHÉ, MAIS TU AS LE CŒUR À LA BONNE MAILLE. »"
+  ]
+ },
+ "echo": {
+  "pan": [
+   "Écho répète, de plus en plus fort : « ... fonce ! fonce ! FONCE ! »",
+   "Écho répète, tout bas : « ... aïe. aïe. »"
+  ],
+  "rus": [
+   "Écho répète, ravie de comprendre : « ... malin ! malin ! »",
+   "Écho répète ton soupir, exactement. Puis le sien, qui est le même."
+  ],
+  "coe": [
+   "Écho répète ce que tu viens de dire, doucement, comme si elle voulait le garder : « ... avec toi. avec toi. »",
+   "Écho répète : « ... pas grave. pas grave. » Personne ne l'a dit. Elle a décidé de le dire quand même."
+  ]
+ },
+ "quartz": {
+  "pan": [
+   "Dr Quartz : « Force appliquée, résultat obtenu. La physique est d'accord avec vous, pour une fois. »",
+   "Dr Quartz note : « Trop de force, pas assez de levier. Archimède vous aurait grondé. Moi aussi, mais gentiment. »"
+  ],
+  "rus": [
+   "Dr Quartz rayonne : « Raisonnement élégant ! Je n'aurais pas mieux fait. Enfin, si, mais plus lentement. »",
+   "Dr Quartz : « Votre calcul était juste. C'est la réalité qui s'est trompée. Ça arrive six fois sur dix. »"
+  ],
+  "coe": [
+   "Dr Quartz rougit en arc-en-ciel : « Ça, ce n'est pas mesurable. C'est très agaçant. Et très bien. »",
+   "Dr Quartz : « Les sentiments ont une marge d'erreur considérable. Je l'ai toujours dit. »"
+  ]
+ },
+ "brume": {
+  "pan": [
+   "Brume-Lucie s'épaissit d'admiration : « Tu as osé... tout droit... comme une... »",
+   "Brume-Lucie s'éclaircit, inquiète : « Trop vite... la brume, elle... elle aurait attendu... »"
+  ],
+  "rus": [
+   "Brume-Lucie murmure : « Par le côté... comme un rêve... qui passe sous la porte... »",
+   "Brume-Lucie : « Le détour était... joli. Juste... un peu trop... »"
+  ],
+  "coe": [
+   "Brume-Lucie s'enroule autour de toi : « C'était doux... comme... » Elle ne finit pas. Elle n'en a pas besoin.",
+   "Brume-Lucie se fait toute petite : « Ce n'est pas... ta faute. Les gens... parfois... »"
+  ]
+ },
+ "rocambole": {
+  "pan": [
+   "Rocambole fait tourner sa moustache-nébuleuse : « Ça, c'est un abordage ! J'ai failli le faire moi-même ! »",
+   "Rocambole : « Un vrai pirate aurait raté plus élégamment. Mais bon, c'était courageux. Trop. »"
+  ],
+  "rus": [
+   "Rocambole applaudit des quatre mains : « Du grand art de contrebandier ! Tu veux un poste à mon bord ? »",
+   "Rocambole : « Leçon numéro un : on ne ment jamais à quelqu'un qui ment mieux que toi. »"
+  ],
+  "coe": [
+   "Rocambole renifle : « Bah. Les bons sentiments, ça ne rapporte rien. » Il renifle encore. « Ça m'a eu quand même. »",
+   "Rocambole : « Tu vois ? Le cœur, ça se fait avoir. Moi, j'ai le mien sous clé. » Il ment."
+  ]
+ },
+ "meduses": {
+  "pan": [
+   "Le Chœur chante, en majuscules : « QUELLE AUDACE ! » avec une fausse note sur « dace ».",
+   "Le Chœur s'éteint à moitié : « NOUS AURIONS CHANTÉ AVANT. ON CHANTE TOUJOURS AVANT. »"
+  ],
+  "rus": [
+   "Le Chœur, unanime : « TRÈS MALIN. NOUS SOMMES TOUTES D'ACCORD. NOUS SOMMES TOUJOURS D'ACCORD. »",
+   "Le Chœur se vexe pour toi : « LE MONDE NE MÉRITE PAS TES IDÉES. »"
+  ],
+  "coe": [
+   "Le Chœur brille plus fort dans son bocal et chante quelque chose de très beau, et de très faux.",
+   "Le Chœur fredonne un air de consolation. Il est faux. Il console quand même."
+  ]
+ },
+ "fernand": {
+  "pan": [
+   "Fernand tape une ligne : « Réclamation sans objet : ça a marché. » Il a l'air déçu.",
+   "Fernand tape : « Incident n° 4 512. Imprudence. Je l'avais prévu. Personne ne lit mes rapports. »"
+  ],
+  "rus": [
+   "Fernand clignote deux fois, ce qui chez lui est un compliment officiel.",
+   "Fernand : « Une ruse, c'est comme un éclairage public. Quand ça lâche, tout le monde vous voit. »"
+  ],
+  "coe": [
+   "Fernand ne tape rien. Il clignote doucement, longtemps. Puis il dit que sa batterie a eu un raté.",
+   "Fernand : « La gentillesse n'est pas remboursée. Je le sais, j'ai fait une demande. »"
+  ]
+ },
+ "zouzou": {
+  "pan": [
+   "Zouzou fait un looping : « OUAIS ! Ça, c'était presque aussi cool que moi ! »",
+   "Zouzou ricane, puis s'arrête : « ... Ça va ? Non mais je demande, hein. »"
+  ],
+  "rus": [
+   "Zouzou : « Sournois. J'adore. Tu me prêtes ce coup-là la prochaine fois que mes parents passent ? »",
+   "Zouzou : « Trop compliqué. Moi j'aurais juste foncé dedans. »"
+  ],
+  "coe": [
+   "Zouzou détourne la queue, gênée : « Beurk. C'était mignon. Fais pas ça devant moi. »",
+   "Zouzou : « T'es trop gentil·le, c'est ça ton problème. » Elle reste quand même collée à toi."
+  ]
+ },
+ "coquille": {
+  "pan": [
+   "Madame Coquille met très longtemps à dire « bravo ». Le temps qu'elle finisse, tu as déjà fait trois pas.",
+   "Madame Coquille : « Trop vite. Toujours trop vite. Mon enfant attend depuis trois cents ans, lui, et il va très bien. »"
+  ],
+  "rus": [
+   "Madame Coquille : « Malin. » Puis, une minute plus tard : « Très malin. »",
+   "Madame Coquille rentre la tête, ce qui chez elle veut dire : « On en reparlera. »"
+  ],
+  "coe": [
+   "Madame Coquille pose sa patte sur ton pied : « Toi, tu ferais une bonne mère. » C'est le plus grand compliment des tortues.",
+   "Madame Coquille : « La gentillesse, c'est comme la ponte. Ça ne marche pas toujours du premier coup. »"
+  ]
+ },
+ "vesperine": {
+  "pan": [
+   "Vespérine : « Quelle fougue. On se croirait au bal de 1720. »",
+   "Vespérine soupire : « Foncer, c'est si peu élégant quand ça rate. Recoiffez-vous, au moins. »"
+  ],
+  "rus": [
+   "Vespérine : « Délicieusement retors. Vous auriez fait une excellente vampire. »",
+   "Vespérine : « Une ruse doit avoir l'air d'un accident. Celle-ci avait l'air d'une ruse. »"
+  ],
+  "coe": [
+   "Vespérine se tait un moment : « C'était tendre. Il y a longtemps que personne n'a été tendre devant moi. »",
+   "Vespérine : « Le monde n'aime pas les cœurs ouverts, très cher. Il entre sans frapper. »"
+  ]
+ },
+ "ondee": {
+  "pan": [
+   "Dame Ondée fait un petit arc-en-ciel, puis s'excuse de l'avoir fait.",
+   "Dame Ondée se met à pleuvoir sur toi. « Pardon. Pardon. C'est l'émotion. »"
+  ],
+  "rus": [
+   "Dame Ondée : « Je n'aurais jamais pensé à ça. Je ne pense qu'à pleuvoir. »",
+   "Dame Ondée bruine : « Ce n'est rien. Toutes les mers se trompent de rivage, un jour. »"
+  ],
+  "coe": [
+   "Dame Ondée pleut de bonheur, très doucement, juste sur tes chaussures.",
+   "Dame Ondée se serre contre toi, humide : « Moi aussi, quand je donne, on me dit non. On me dit qu'il pleut. »"
+  ]
+ },
+ "gaspard": {
+  "pan": [
+   "Gaspard soulève son chapeau, qui passe à travers sa main : « Bravo ! Moi aussi j'ai foncé, une fois. J'en suis mort, mais avec panache. »",
+   "Gaspard : « Croyez-en un homme qui s'est arrêté à mi-chemin du ciel : l'élan ne suffit pas toujours. »"
+  ],
+  "rus": [
+   "Gaspard : « Habile ! En 1803, j'aurais eu besoin de quelqu'un comme vous. Et d'un meilleur ballon. »",
+   "Gaspard traverse un mur de dépit et revient s'excuser."
+  ],
+  "coe": [
+   "Gaspard devient un peu moins transparent, comme s'il se réchauffait.",
+   "Gaspard : « Ma dame de Lyon ne m'a jamais répondu non plus. On s'en remet. Moi, il m'a fallu cent quarante ans. »"
+  ]
+ },
+ "fulgence": {
+  "pan": [
+   "Fulgence prend ton apparence pour te féliciter. C'est troublant. C'est aussi un peu flatteur.",
+   "Fulgence devient un gros chat qui fait semblant de n'avoir rien vu."
+  ],
+  "rus": [
+   "Fulgence : « Un mensonge parfait. Je suis jaloux. Et un peu amoureux. »",
+   "Fulgence : « Ton mensonge manquait de conviction. Il faut croire à ce qu'on invente, sinon personne d'autre n'y croit. »"
+  ],
+  "coe": [
+   "Fulgence redevient lui-même, une seconde, sans forme d'emprunt. Puis il se reprend.",
+   "Fulgence prend l'apparence de quelqu'un qui te serre dans ses bras. C'est lui qui te serre dans ses bras."
+  ]
+ },
+ "ysaline": {
+  "pan": [
+   "Ysaline lève son mégaphone : « Voilà comment on obtient des choses ! »",
+   "Ysaline : « On a perdu une bataille. Pas la grève. Note-le. »"
+  ],
+  "rus": [
+   "Ysaline : « Bien négocié. Trente ans de syndicat, je reconnais une bonne manœuvre. »",
+   "Ysaline : « On ne gagne jamais au premier tour de table. Ni au deuxième. On revient. »"
+  ],
+  "coe": [
+   "Ysaline replie ses pattes avant, émue : « La solidarité. Ça marche toujours, au fond. »",
+   "Ysaline : « Ils n'ont pas voulu écouter. Ça ne veut pas dire que tu avais tort. »"
+  ]
+ },
+ "pardon": {
+  "pan": [
+   "Pardon : « Excusez-moi. C'était courageux. Pardon de le dire. »",
+   "Pardon : « Pardon. Je mesure l'écart entre ce que vous vouliez et ce qui est arrivé. Pardon. Il est grand. »"
+  ],
+  "rus": [
+   "Pardon : « Pardon, mais c'était très bien pensé. J'aurais mis trois cents mesures à le trouver. »",
+   "Pardon déroule son mètre, puis le rembobine sans rien dire. « Pardon. »"
+  ],
+  "coe": [
+   "Pardon ne s'excuse pas, pour une fois. Il te regarde. Puis il s'excuse de ne pas s'être excusé.",
+   "Pardon : « Pardon. Ce n'était pas votre faute. Pardon de le dire à votre place. »"
+  ]
+ },
+ "pli": {
+  "pan": [
+   "Monsieur Pli se replie à moitié : « Quelle... franchise. Un peu brutale. Mais efficace, je l'admets. »",
+   "Monsieur Pli se replie entièrement, puis se déplie : « La diplomatie aurait pu éviter cela. Je dis ça respectueusement. »"
+  ],
+  "rus": [
+   "Monsieur Pli se déplie d'un pli de satisfaction : « Une négociation exemplaire. »",
+   "Monsieur Pli : « Une subtilité trop subtile, cher ami. Il faut parfois plier moins fin. »"
+  ],
+  "coe": [
+   "Monsieur Pli se défroisse complètement, ce qui ne lui arrive presque jamais.",
+   "Monsieur Pli : « Ils n'ont pas accepté votre main tendue. Je la consigne quand même au procès-verbal. »"
+  ]
+ },
+ "taupinel": {
+  "pan": [
+   "Taupinel note : « Titre : UN·E INCONNU·E FONCE ET GAGNE. Ça va se vendre. »",
+   "Taupinel : « Pas d'inquiétude, je ne publierai pas ça. Enfin, en page six. »"
+  ],
+  "rus": [
+   "Taupinel renifle : « Ça sent le scoop. Je cite : malin. »",
+   "Taupinel : « Ta version des faits ne tenait pas. Crois-moi, je m'y connais en versions des faits. »"
+  ],
+  "coe": [
+   "Taupinel retire ses lunettes, les essuie, les remet. « Je ne note pas. Il y a des choses qu'on ne met pas dans le journal. »",
+   "Taupinel : « Je note que tu as essayé. Dans le journal, c'est souvent ce qui compte. »"
+  ]
+ },
+ "plumard": {
+  "pan": [
+   "Plumard : « COCORICO ! Excusez-moi. C'est l'émotion. À L'ASSAUT ! »",
+   "Plumard : « Repli stratégique ! Ce n'est pas une défaite, c'est une aube qui se fait attendre ! »"
+  ],
+  "rus": [
+   "Plumard : « Une manœuvre de flanc ! Le Régiment vous aurait décoré·e ! »",
+   "Plumard : « Trop de tactique, pas assez de clairon. C'est toujours le problème. »"
+  ],
+  "coe": [
+   "Plumard se racle le jabot très fort pour cacher qu'il est ému.",
+   "Plumard : « Un soldat qui tend la main et qu'on repousse reste un soldat. Repos. »"
+  ]
+ },
+ "remontoir": {
+  "pan": [
+   "Remontoir : « Tic. Et tac. Bien joué, petit. À ton âge, je fonçais aussi. Moins vite. »",
+   "Remontoir : « Tic... Ce n'est rien. Chaque horloge a ses minutes de travers. »"
+  ],
+  "rus": [
+   "Remontoir sourit : « Ah, une devinette résolue ! J'adore les devinettes. Et la confiture. »",
+   "Remontoir : « Trop d'engrenages. La bonne solution n'en a jamais plus de trois. »"
+  ],
+  "coe": [
+   "Remontoir pose sa main de laiton sur la tienne. Son ressort fait un petit bruit content.",
+   "Remontoir : « Tu as donné un tour de clé à quelqu'un qui n'en voulait pas. Ce n'est pas perdu. Ça reste dans le ressort. »"
+  ]
+ }
+}

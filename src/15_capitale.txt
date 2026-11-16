@@ -199,7 +199,7 @@ Il te regarde. « Est-ce que c'est possible ? »
 @cap_30
 ?!comp:penelope Pénélope te regarde. « Je ne peux pas retourner sur le Promontoire. Pas maintenant. Est-ce que... est-ce que vous avez besoin de quelqu'un qui tamponne ? »
 ?comp:penelope Pénélope te regarde. « Je ne retournerai pas sur le Promontoire. Je reste avec vous. Je le savais déjà, mais je voulais le dire à voix haute, devant une archive. »
-* cap_31 coe10 ?!comp:penelope | « Venez avec moi. » | Elle tamponne l'air deux fois, de joie. Elle vient. Elle porte tes dossiers. Elle insiste. | Elle vient, mais elle t'appelle « Monsieur » ou « Madame » pendant trois jours. | +comp:penelope mor+1 | +comp:penelope
+* cap_31 ?!comp:penelope | « Venez avec moi. » | Elle tamponne l'air deux fois, de joie. Elle vient. Elle porte tes dossiers. Elle insiste. | | +comp:penelope mor+1 |
 * cap_32 coe10 ?comp:penelope | Repartir avec elle | Elle range ses tampons et te suit, d'un pas plus décidé qu'avant. | | mor+1 |
 * cap_32 rus11 ?!comp:penelope ?!flag:acte_vente | « Gardez l'acte en lieu sûr ici. » | Elle le cache dans le dossier « Divers ». Personne ne cherche jamais dans « Divers ». | | +flag:acte_cache |
 

@@ -112,7 +112,7 @@ Elle se tait. Elle regarde la tombe. « Alors il faudra que quelqu'un t'empêche
 @lyc_18
 Un corbeau se pose sur la pierre tombale, un journal dans le bec. Il le lâche à tes pieds : « Le Courrier de la Lande. Édition spéciale. Tous les peuples se rassemblent au Carrefour des Espèces. Le Conseil des Espèces va se réunir pour la première fois de l'histoire. »
 C'est là qu'il faut aller. C'est là que tout le monde va.
-* lyc_19 coe12 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | « Venez... » Elle t'interrompt : « Je viens. Pour surveiller que tu ne meures pas sans élégance. Ne te fais pas d'idées. » Tu te fais des idées. | +comp:vesperine mor+1 | +comp:vesperine
+* lyc_19 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | | +comp:vesperine mor+1 |
 * lyc_20 pan11 | Partir seul, à pied, comme un loup | Tu lui fais une révérence et tu pars dans la lande. Tu l'entends dire, derrière toi : « La nuit, tout finit par se rejoindre, Frissepoil. » | | |
 
 @lyc_19
@@ -133,6 +133,6 @@ Tu te dis que Sir Hector a fait cette route en 1640, en courant. Tu marches plus
 
 @lyc_22
 Le Carrefour des Espèces s'étend devant toi, immense, couvert de tentes et de fumée. Des milliers de créatures. Quelque part au milieu, on dit que le Conseil des Espèces va se réunir.
-Tu touches ta poche de poitrine. Le croc d'argent est là. Les vieux disaient que les crocs de loup-garou coupent ce qui retient la Lune. Personne n'a jamais vérifié. Tu ne sais pas pourquoi tu y penses maintenant.
+Tu touches ta poche de poitrine. Le croc d'argent est là, froid comme un clair de lune. Il t'a poussé deux cents ans, une nuit de pleine lune après l'autre : c'est elle qui l'a fait, pas toi. Tu as l'impression de porter sur toi un petit morceau d'elle.
 * hub_01 pan11 | Entrer dans la foule la tête haute | Tu entres. Un gentleman de la lande, en smoking froissé, au milieu de tous les peuples de la Terre. On te regarde. Tu fais semblant que c'est normal. | Tu entres, et ton smoking craque à l'épaule. Tu fais semblant que c'est voulu. | |
 * hub_01 coe10 | Entrer doucement, en écoutant | Tu entres en écoutant. Tout le monde a perdu quelque chose. Tu n'es pas le seul. | | mor+1 |
