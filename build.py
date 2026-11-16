@@ -116,7 +116,7 @@ def check(cond, st):
     else:
         m = re.match(r"(\w+)(>=|<=|>|<|==)(-?\d+)$", c)
         if not m: raise ValueError(cond)
-        a = st["vars"].get(m.group(1), 0); b = int(m.group(3)); op = m.group(2)
+        a = len(st["comp"]) if m.group(1) == "comps" else st["vars"].get(m.group(1), 0); b = int(m.group(3)); op = m.group(2)
         r = {">=": a >= b, "<=": a <= b, ">": a > b, "<": a < b, "==": a == b}[op]
     return (not r) if neg else r
 

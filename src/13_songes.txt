@@ -8,6 +8,8 @@
 Pour aller au Pays des Songes, il faut s'endormir. Au Carrefour, on a monté un Dortoir des Voyageurs : une tente immense, remplie de lits, où une vieille Somnambule distribue des tisanes et des bonnets de nuit.
 « Allongez-vous. Fermez les yeux. Pensez à la Lune. Si vous ne vous réveillez pas, on vous enverra une carte postale. »
 ?pc:pistil Tu n'as pas besoin de lit. Tu rentres chez toi. Mais chez toi a changé : les murs de rêve sont plus minces qu'avant, presque transparents.
+?pc:pistil ?comps>=1 Tes compagnons, eux, ont besoin d'un lit. Tu leur montres le vieux truc des Somnambules : on s'endort en tenant un pan de ton pyjama, et on rêve là où tu vas. Un Somnambule, c'est une porte qui marche. Ils s'allongent en rond autour de toi, chacun un bout de flanelle serré dans le poing. Tu n'as jamais été tenu par autant de monde.
+?!pc:pistil ?comps>=1 La vieille Somnambule regarde ta troupe. « Ensemble ? Alors main dans la main, et la même pensée pour tout le monde. Sinon chacun part dans son rêve, et on vous retrouve dans trois semaines. » Vous vous endormez en chaîne. Vous arriverez en chaîne.
 * son_02 coe10 | T'endormir en pensant à la Lune | Tu penses à elle. Tu tombes. Doucement. Vers le haut. | Tu penses à la Lune, puis à tes impôts, puis à la Lune. Tu t'endors quand même, de travers. | mor+1 |
 * son_03 rus11 | T'endormir en comptant les moutons | Les moutons sautent la barrière. Le quatorzième est défait, à moitié détricoté. Il te fait signe de le suivre. | Les moutons refusent de sauter. Ils font grève. Seul le quatorzième, à moitié détricoté, saute quand même, par solidarité. Il te fait signe de le suivre, et tu t'endors en le regardant. | rus+1 |
 
@@ -132,6 +134,8 @@ Il te tend un petit bocal. « Tenez. Le dernier. Le plus récent. Elle l'a fait 
 Le rêve de la Lune. Une grande maison blanche, vide, avec des milliers de fenêtres. Toutes donnent sur la Terre. Pas de meubles. Seulement de la poussière, et une petite silhouette ronde, assise par terre, les genoux contre elle, qui regarde dehors.
 ?pc:pistil Elle tourne la tête vers toi. « Pistil. Tu es revenu. » Elle sourit. Tu as tenu ta promesse.
 ?!pc:pistil Elle ne te voit pas tout de suite. Elle regarde la Terre.
+?pc:pistil ?comps>=1 Tes compagnons sont tombés avec toi, accrochés à ton pyjama. Dans le rêve d'un astre, ils ont l'air tout petits et tout intimidés, comme des invités arrivés avant l'heure.
+?!pc:pistil ?comps>=1 Tes compagnons sont là aussi. Le gramme de sommeil, vous l'avez partagé, un grain chacun, et vous êtes tombés ensemble, une ronde qui monte. Ils se tiennent sur le seuil, sans oser entrer.
 ?comp:brume Brume-Lucie s'approche d'elle et l'enveloppe. La Lune ferme les yeux. « Ma cousine. »
 * son_23 coe12 | T'asseoir à côté d'elle | Tu t'assois. Elle ne dit rien. Puis elle pose sa tête sur ton épaule. Elle est légère. Elle est si légère. | Tu t'assois, mais elle se recule un peu. Elle a peur des visiteurs. Puis elle se rapproche. | coe+1 |
 * son_24 rus11 | Lui demander si elle veut partir | Elle te regarde. « Personne ne me l'a jamais demandé. » Elle réfléchit. « Non. Je tourne autour d'eux parce que je les aime. Personne ne tourne autour de quelqu'un par contrat. » | Elle ne répond pas. Elle regarde la Terre. C'est une réponse. | +flag:reve_lune +flag:lune_veut_rester | +flag:reve_lune
@@ -211,6 +215,8 @@ Tu sors du rêve de Platine. Le Marchand t'attend dans l'arrière-boutique. « A
 ?pc:pistil Tu ressors du rêve par la porte de service des Somnambules et tu te retrouves au Dortoir des Voyageurs, entre deux lits. Toi, tu n'as pas dormi : tu es rentré. Tu as quand même le cœur plein. Autour de toi, d'autres rêveurs se réveillent aussi.
 ?flag:reve_ouvert Ils se regardent. Ils ont tous fait le même rêve : une Lune assise par terre, dans une maison pleine de fenêtres, qui disait « Je ne veux pas partir ».
 ?comp:brume Brume-Lucie flotte au-dessus de ton lit, un peu pâle. L'éveil lui fait mal. Elle reste quand même.
+?pc:pistil ?comps>=1 Tes compagnons se réveillent en rond autour de toi, le pan de ton pyjama encore dans la main. Personne ne le lâche tout de suite.
+?!pc:pistil ?comps>=1 Tes compagnons se réveillent dans les lits voisins, au même moment, la main encore tendue vers la tienne.
 * son_34 coe11 | Raconter ton rêve aux autres | Tu racontes. On t'écoute. Une Marégrave pleure. Un Gravitaire fait semblant de ne pas pleurer. | Tu racontes mal. Les rêves se racontent toujours mal. Mais ils comprennent. | equ+2 +flag:terre_sait |
 * son_35 rus11 | Noter tout ce que tu as vu avant d'oublier | Tu notes. Les rêves s'effacent vite. Tu en sauves l'essentiel. | Tu notes, mais ton écriture du matin est illisible. | rus+1 |
 

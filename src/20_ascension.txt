@@ -116,7 +116,30 @@ La cabine arrive sur le quai de livraison du chantier lunaire. Des ouvriers déc
 @asc_18
 Tu t'endors. Tu rêves. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.
 ?flag:reve_ouvert La porte que quelqu'un a laissée ouverte dans le rêve de la Lune est là. Elle t'attend. Elle grince doucement.
+?pc:pistil ?comps>=1 Avant de t'endormir, tu tends les pans de ton pyjama. Tous ceux qui s'y accrochent rêvent le même rêve que toi : c'est le vieux truc des Somnambules. Tes compagnons s'allongent autour de toi et ferment les yeux, chacun un bout de flanelle serré dans le poing. Tu montes, et toute ta troupe monte avec toi, comme une traîne.
+?!pc:pistil ?comps>=1 ?flag:sommeil_lune Tu partages ce qu'il te reste de sommeil de Lune, un grain chacun, et vous vous endormez main dans la main. Le rêve vous prend tous ensemble.
+?!pc:pistil ?comps>=1 ?!flag:sommeil_lune Tes compagnons s'endorment en te tenant la main, en chaîne. Quand on rêve de la même personne au même moment, on finit par rêver ensemble.
 ?comp:brume Brume-Lucie t'enveloppe. « Je connais le chemin. C'est le chemin vers ma cousine. »
+~bartho: « Si je rêve de Perline, tu me réveilles pas. Promis ? »
+~penelope: « Je n'ai jamais dormi pendant les heures de bureau. » Elle tamponne son oreiller : APPROUVÉ.
+~melusine: « JE VAIS RONFLER ! JE RONFLE EN MAJUSCULES ! » Elle s'endort au milieu du mot « ronfler ».
+~echo: « ... rêve... rêve... » Elle s'endort sur le mot, et le mot s'endort avec elle.
+~quartz: « Le cristal ne rêve pas. C'est statistiquement établi. » Elle ronfle avant la fin de la phrase.
+~rocambole: « Je dors toujours un œil ouvert. » Il ferme les deux. « Et les deux bras du haut en garde. »
+~meduses: « NOUS RÊVONS TOUJOURS LA MÊME CHOSE, TOUTES LES MILLE. CETTE FOIS, NOUS RÊVONS DE TOI. »
+~fernand: « Je dépose une réclamation pour sommeil non programmé. » Il la tape en dormant, sans une faute.
+~zouzou: « Je n'ai jamais dormi. Une comète, ça passe. » Elle s'endort en boule, la queue sur le nez.
+~coquille: « Enfin quelque chose que je fais plus vite que tout le monde. » Elle dort déjà.
+~vesperine: « Un rêve de nuit, en pleine nuit. Je me sens chez moi. » Elle se recoiffe avant de fermer les yeux.
+~ondee: « Si je pleure en dormant, ne m'en voulez pas. » Elle bruine doucement sur toute la ronde.
+~gaspard: « La dernière fois que j'ai fermé les yeux en montant vers elle, je ne les ai jamais rouverts. » Il s'accroche quand même, très fort.
+~fulgence: Il prend ta forme pour s'endormir. « Comme ça, on rêvera pareil. »
+~ysaline: « Une ronde de dormeurs sans chef. Je valide. » Elle s'endort la première, par principe.
+~pardon: « Je ne sais pas dormir. Pardon. » Il se met en veille. Une petite lumière bleue clignote, comme un rêve qui essaie.
+~pli: Il se plie en oreiller pour quelqu'un, puis en dormeur pour lui-même.
+~taupinel: « Je note tout. Même en dormant. Surtout en dormant. »
+~plumard: « Dormir en pleine mission ! Jamais ! » Il est le premier à ronfler.
+~remontoir: « À mon âge, on s'endort n'importe où. C'est se réveiller qui est difficile. » Tic. Tac. Plus lentement.
 * asc_19 coe11 | Te laisser porter | Tu te laisses porter. C'est doux. C'est lent. C'est comme être bercé par une marée. | | mor+1 |
 * asc_20 rus11 | Diriger ton rêve | Tu diriges. Les rêves obéissent aux rêveurs qui savent ce qu'ils veulent. Tu sais. | Tu diriges mal. Tu passes par un rêve de dentiste. | rus+1 |
 
@@ -128,6 +151,7 @@ Le rêve te dépose dans la grande maison blanche aux mille fenêtres. La maison
 @asc_20
 Dans le rêve, une fenêtre donne sur la surface de la Lune, la vraie. Tu l'ouvres. Tu passes. Tu tombes du rêve dans la réalité, et tu atterris sur la poussière lunaire, éveillé·e, en pyjama.
 ?pc:pistil Tu es en pyjama de toute façon. Tu es un pyjama.
+?comps>=1 Autour de toi, tes compagnons tombent un par un dans la poussière, éveillés, ébouriffés de sommeil, et se relèvent en se demandant qui a ronflé.
 * asc_22 coe10 | Te relever | Tu te relèves. Tu es sur la Lune. Pour de vrai. | |
 
 @asc_21
