@@ -205,7 +205,8 @@ Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Ter
 @cha_29
 ?flag:plumard_reste Le Colonel Plumard, lui, n'a pas couru. « Un militaire ne fuit pas ! » Tu l'as vu, derrière toi, se planter devant les vigiles, la crête haute, et se laisser arrêter en chantant l'aube. Il t'a fait un salut militaire avant de disparaître entre deux uniformes dorés.
 ?last:ko Tu ressors de la piscine, trempé·e, entre deux vigiles qui s'excusent. Ils te conduisent, très poliment, vers une silhouette de classeurs gris qui attend au bord du bassin.
-?last:ok Tu cours à travers le chantier. Les vigiles te poursuivent en s'excusant. Tu sautes par-dessus une cloison de verre, tu traverses une piscine vide, tu te caches derrière une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
+?last:ok ?pc:brisefer Tu marches à travers le chantier. Tu ne cours pas : onze tonnes qui courent, sur la Lune, ça fait des trous. Les vigiles te poursuivent en s'excusant. Les cloisons de verre éclatent sur ton passage, une maquette de golf aussi. Et là, tu tombes nez à nez avec une silhouette de classeurs gris, presque aussi grande que toi.
+?last:ok ?!pc:brisefer Tu cours à travers le chantier. Les vigiles te poursuivent en s'excusant. Tu sautes par-dessus une cloison de verre, tu traverses une piscine vide, tu te caches derrière une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
 L'Huissier Krâmm.
 * cha_30 coe11 | Lui faire face | Il te regarde. Ses tiroirs s'ouvrent et se ferment. « Article premier : je vous attendais. » | |
 
@@ -223,12 +224,16 @@ Krâmm regarde la Lune. Longtemps. Ses tiroirs s'arrêtent de bouger. Puis il ou
 * cha_33 coe12 | Lui dire qu'on ne l'emportera pas | Il te regarde. « Vous croyez ? » « Oui. » Il se redresse. « Alors je ne ferai pas l'inventaire. Je refuse. » Il referme ses tiroirs. « Article premier, et dernier : non. » | Il secoue la tête. « On l'emporte toujours. C'est le métier. » | +flag:kramm_refuse coe+1 |
 
 @cha_32
-Krâmm t'escorte vers le pied du câble. Un ascenseur doré monte le long du câble, de la Lune au Promontoire, en orbite. Pendant le trajet, il ne dit rien. Puis, juste avant d'arriver : « Article... Je ne sais pas quel article. Il est très seul, vous savez. Monsieur Platine. Il n'a jamais eu personne. »
+Krâmm t'escorte vers le pied du câble. Un ascenseur doré monte le long du câble, de la Lune au Promontoire, en orbite.
+?pc:brisefer L'ascenseur est fait pour des Aldébaraniens, qui pèsent le poids d'une feuille. Tu n'y entrerais pas un bras. Alors tu fais ce que les Gravitaires font depuis toujours : tu grimpes. Tu t'accroches au câble d'or, une main après l'autre, et l'ascenseur monte à côté de toi, à ta vitesse, avec Krâmm dedans. Le câble grince sous ton poids. Là-haut, quelque part, des voyants d'alarme s'allument.
+Pendant le trajet, il ne dit rien. Puis, juste avant d'arriver : « Article... Je ne sais pas quel article. Il est très seul, vous savez. Monsieur Platine. Il n'a jamais eu personne. »
 * cha_33 coe11 | « Personne n'a jamais rien eu, ici. » | Krâmm hoche ses tiroirs. « C'est vrai. » | |
 * cha_33 rus10 | Demander comment le convaincre | « Il aime les choses belles et les contrats parfaits. Il déteste les fautes. » | | +flag:platine_faille |
 
 @cha_33
-?from:cha_31 Krâmm t'emmène ensuite au pied du câble, sans un mot, et vous montez ensemble dans l'ascenseur doré.
+?from:cha_31 ?!pc:brisefer Krâmm t'emmène ensuite au pied du câble, sans un mot, et vous montez ensemble dans l'ascenseur doré.
+?from:cha_31 ?pc:brisefer Krâmm t'emmène ensuite au pied du câble, sans un mot. L'ascenseur est trop petit pour toi : tu grimpes le long du câble, une main après l'autre, et Krâmm monte à côté, dans sa cabine, à ta vitesse.
+?pc:brisefer Toi, tu regardes par la vitre de la cabine de Krâmm, en grimpant à côté, le vide sous les bottes.
 L'ascenseur doré monte le long du câble. Par la vitre, la Lune s'éloigne en dessous, couverte de chantiers. La Terre, au loin, bleue et bancale. Et devant, le Promontoire : un vaisseau carré, gris et doré, qui ressemble à un bureau qui aurait appris à voler.
 Tu vas rencontrer celui qui a acheté la Lune.
 ?comp:penelope Pénélope serre ses tampons. « Je vais le revoir. Je vais lui dire non. Je crois. »

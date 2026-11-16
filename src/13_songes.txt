@@ -166,6 +166,7 @@ Vous restez longtemps assis·es, la Lune et toi, à regarder la Terre par la fen
 @son_25
 Le rêve de Gédéon Platine. Une salle immense, toute en or. Des coffres, des lingots, des contrats encadrés aux murs. Au centre, sur une table de marbre, une petite pièce de monnaie en or. Elle est seule. Elle tremble.
 Tu t'approches. La pièce a un visage : c'est Platine, enfant, minuscule. Il pleure.
+Dans la vraie vie, Platine n'est pas une pièce : c'est un Aldébaranien, un grand monsieur fait de feuilles d'or. Mais dans ses rêves, il se voit toujours comme ça. Une petite pièce qu'on a mise de côté, enfant, parce qu'elle était trop précieuse pour être dépensée, et qu'on a oubliée au fond d'un coffre.
 « Personne ne veut me dépenser », dit-il. « Je suis trop précieux. Alors on me garde dans un coffre. Personne ne me touche jamais. »
 * son_28 coe12 | Prendre la pièce dans ta main | Tu la prends. Elle est froide. Puis elle se réchauffe. Le petit Platine te regarde, stupéfait. « Tu... tu me touches ? Personne ne me touche. » Il sourit. | Tu la prends, mais elle te glisse des doigts. Elle roule sous la table. Elle pleure plus fort. | coe+1 +flag:platine_reve | +flag:platine_reve
 * son_29 rus11 | Comprendre le cauchemar | Platine achète des choses qui n'ont pas de prix pour leur en donner un. Parce que lui, on lui a donné un prix, et ça l'a rendu seul. | | +flag:platine_reve +flag:platine_faille |

@@ -5,20 +5,24 @@
 @neg_01
 !title: Le Promontoire
 Le Promontoire. Des couloirs dorés, des tapis épais, des tableaux de planètes vendues aux murs. Des petits robots de ménage s'inclinent sur ton passage. Tout est propre, poli, parfait, et tout sent un peu la solitude, comme un hôtel de luxe hors saison.
+?pc:brisefer Le Promontoire n'a pas été construit pour toi. Tu entres par le quai de chargement, à quatre pattes, et tu avances dans les couloirs pliée en trois. Les tapis épais gémissent. Les petits robots de ménage te regardent passer, puis regardent le sol, puis se mettent à calculer.
 Au bout du couloir, une porte immense : « Gédéon Platine — Président. Entrez sans frapper, je vous en prie. »
+?pc:brisefer Immense pour un Aldébaranien. Pour toi, elle arrive à la ceinture.
 * neg_02 coe10 | Entrer sans frapper | Tu entres. Il t'attend. | |
 * neg_03 rus11 | Frapper quand même, par principe | Tu frappes. Une voix douce, de l'autre côté : « Oh ! Quelqu'un qui frappe ! Comme c'est délicat ! Entrez, entrez. » | | rus+1 |
 
 @neg_02
 Le bureau de Platine. Une pièce ronde, dorée, avec une baie vitrée sur la Lune. Partout, des maquettes de mondes vendus. Et au centre, derrière un bureau de marbre, Gédéon Platine lui-même : grand, mince, en feuilles d'or si fines qu'elles laissent passer la lumière. Il se lève. Il sourit. Un sourire sincère, ce qui est le plus inquiétant.
 « Bienvenue. Bienvenue ! Vous êtes Terrien·ne ? Comme c'est émouvant. Asseyez-vous. Un thé ? Un poème ? »
+?pc:brisefer Tu entres à genoux. Ta tête touche le plafond. Platine lève les yeux, très haut, puis encore un peu. Il ne recule pas. « Une Gravitaire ! Dans mon bureau ! » Il pousse lui-même son fauteuil contre le mur, pour te faire de la place, et s'assoit sur le coin de son bureau de marbre, pour être à hauteur de ton menton. Le plancher doré craque. Il fait semblant de ne pas l'entendre.
 ?pc:zephyrin Il te voit. Son sourire tremble. « Zéphyrin. Mon cher Zéphyrin. Vous êtes revenu. Je savais que vous reviendriez. » Il a l'air sincèrement heureux de te voir. C'est horrible.
 * neg_04 coe11 | Accepter le thé | Il te sert lui-même, avec une délicatesse infinie. Le thé est parfait. Tout est parfait. Tu as envie de crier. | | coe+1 |
 * neg_04 pan11 | Rester debout | Tu restes debout. Il hoche la tête, compréhensif. « Vous êtes en colère. C'est normal. Tout le monde est en colère contre moi. Je ne sais pas pourquoi. » | | pan+1 |
 
 @neg_03
 La porte s'ouvre sur un bureau doré. Gédéon Platine se lève derrière son bureau de marbre. Il a l'air ravi. « Vous avez frappé ! Personne ne frappe jamais. Les gens entrent pour vendre, ou pour acheter. Vous, vous avez frappé. » Il s'incline. « Gédéon Platine. Promoteur. Poète, à mes heures. Que puis-je pour vous ? »
-* neg_04 coe10 | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
+* neg_04 coe10 ?!pc:brisefer | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
+* neg_04 coe10 ?pc:brisefer | T'asseoir par terre, face à lui | Il n'y a pas de fauteuil pour onze tonnes. Tu t'assois sur la moquette. Le Promontoire tout entier penche d'un degré. Platine se tient à son bureau et sourit, poli jusqu'au bout. « Mettez-vous à l'aise. » | |
 
 @neg_04
 Platine joint ses mains d'or. « Alors. Vous êtes venu·e jusqu'ici. Vous avez traversé le ciel, mon chantier, mes vigiles. Vous avez mis mes ouvriers en émoi. » Il sourit. « Vous voulez la Lune. Tout le monde veut la Lune. Mais c'est moi qui l'ai achetée. Légalement. Proprement. Avec des pâtisseries. »
