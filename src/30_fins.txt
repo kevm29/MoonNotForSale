@@ -244,10 +244,13 @@ Il écrit toujours des poèmes. Ils sont toujours mauvais. Mais maintenant, il l
 @end_08
 !end: 8
 !title: Le Grand Sommeil
-Platine s'endort, et dans son rêve, il entre dans la maison aux mille fenêtres. La Lune l'attend, assise par terre. Il s'assoit à côté d'elle. Ils regardent la Terre ensemble. Il ne la possède pas. Il est juste là.
-Et par la porte ouverte, tous les rêveurs de la Terre arrivent. Les Marégraves, les Lichenautes, les Gravitaires, les Horlogers, les Somnambules. Ils s'assoient dans la maison de la Lune. Ils regardent par les fenêtres. C'est si doux, si calme, si beau, que personne ne veut se réveiller.
+Platine s'endort, et dans son rêve, il entre dans la maison aux mille fenêtres. La Lune l'attend, assise par terre. Il s'assoit à côté d'elle. Ils regardent la Terre ensemble. Il ne la possède pas. Il est juste là. Pour la première fois de sa vie, il ne veut plus rien acheter.
+Mais il dort. Et le bouton rouge, celui qui arrête les moteurs, ne s'appuie pas tout seul. Le Promontoire suit son calendrier, sans patron pour le contredire. Jour 8 : départ définitif.
+Le crochet tire. La Lune s'en va vers Aldébaran, avec son chantier et ses piscines. Mais un rêve, ça ne déménage pas. Il reste là où on l'a fait, comme une maison qu'on quitte en laissant la lumière allumée. La maison aux mille fenêtres est restée au-dessus de la Terre, avec sa porte ouverte.
+Et maintenant que plus rien ne tire sur le ciel, les rêves ne se cassent plus. L'insomnie est partie avec le crochet. Pour la première fois depuis la vente, la Terre peut dormir. Alors elle dort.
+Par la porte ouverte, tous les rêveurs de la Terre arrivent. Les Marégraves, les Lichenautes, les Gravitaires, les Horlogers, les Somnambules. Ils s'assoient dans la maison de la Lune, à côté de Platine. Ils regardent par les fenêtres. C'est si doux, si calme, si beau, que personne ne veut se réveiller.
 Personne ne s'est réveillé.
-La Terre dort. Toute la Terre. Depuis des années. Les mers dorment, les forêts dorment, les horloges dorment. La Lune, en vrai, est partie depuis longtemps vers Aldébaran, avec son crochet, son chantier et ses piscines. Mais dans le rêve, elle est restée. Elle reste toujours. Elle a des visiteurs tous les soirs.
+La Terre dort. Toute la Terre. Depuis des années. Les mers dorment, les forêts dorment, les horloges dorment. Là-haut, le ciel est vide. Mais dans le rêve, la Lune est restée. Elle reste toujours. Elle a des visiteurs tous les soirs.
 ?pc:pistil Toi, tu es enfin chez toi. Tout le monde habite les rêves, maintenant. Tu n'es plus le seul. Tu sers le thé.
 ?comp:brume Brume-Lucie flotte entre les fenêtres. Elle n'a plus jamais à finir une phrase : dans le Grand Sommeil, rien ne finit jamais.
 C'est une fin heureuse, si on ne se réveille pas. Personne ne se réveille.
