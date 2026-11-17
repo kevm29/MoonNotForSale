@@ -506,7 +506,8 @@ Platine regarde l'éclat sans comprendre.
 @fin_30
 !title: L'oreiller du Marchand
 « Vous n'avez pas dormi depuis quand ? » Platine regarde l'oreiller. Il ne sait plus. Ses paupières d'or se mettent à peser. « Celui qui pose la tête dessus rêve de ce qu'il a perdu », dis-tu.
-* end_08 ?equ>=30 | Le regarder poser la tête | Platine pose la tête sur l'oreiller, juste une seconde. Il s'endort aussitôt. Sa main glisse du bouton rouge. | | -flag:obj_oreiller |
+* end_08 ?equ>=30 | Le regarder poser la tête, et attendre | Platine pose la tête sur l'oreiller, juste une seconde. Il s'endort aussitôt. Tu attends qu'il se réveille. | | -flag:obj_oreiller +flag:gs_regret |
+* end_08 ?equ>=30 | Le regarder s'endormir, puis guider sa main | Platine pose la tête sur l'oreiller et s'endort aussitôt, la main tendue vers le bouton rouge. Tu poses ta main sur la sienne. | | -flag:obj_oreiller +flag:gs_main |
 * end_10 ?equ<30 | Regarder la Terre | Par la baie vitrée, la Terre penche beaucoup trop. Il n'y a plus le temps de rêver. | | |
 
 @fin_32

@@ -131,7 +131,8 @@ Le reste de sommeil de Lune, au fond de son bocal, dans ta main. Tu le tends à 
 Il hésite. « Je dors mal. Je fais toujours le même cauchemar. »
 « Pas cette nuit. »
 Il avale le sommeil. Il s'endort, dans son fauteuil, la main sur le bouton rouge. Et dans le rêve, la porte que quelqu'un a laissée ouverte le mène tout droit à la maison aux mille fenêtres.
-* end_08 coe11 ?equ>=30 | Le regarder dormir | Il sourit en dormant. Sa main glisse du bouton rouge sans l'enfoncer. Les moteurs, eux, ne dorment pas. | |
+* end_08 coe11 ?equ>=30 | Attendre qu'il se réveille | Il sourit en dormant. Tu t'assois en face de lui, et tu attends. Les moteurs ronronnent. Tu as confiance. Presque. | Il dort longtemps. Trop longtemps. Les moteurs montent d'un cran. Tu te ronges les ongles, mais tu attends. | +flag:gs_regret | +flag:gs_regret
+* end_08 rus10 ?equ>=30 | Poser ta main sur la sienne | Sa main est posée sur le bouton rouge, toute légère. Tu poses la tienne dessus. | Ta main tremble. Tu la poses quand même sur la sienne. | +flag:gs_main | +flag:gs_main
 * end_10 coe10 ?equ<30 | Regarder la Terre | Il dort. Mais en bas, la Terre a trop basculé pour rêver. | |
 
 @fin_15
