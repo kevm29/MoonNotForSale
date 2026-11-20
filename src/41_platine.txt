@@ -1,0 +1,332 @@
+# ================================================================
+# HISTOIRE DE GÉDÉON PLATINE (débloquée après deux parties terminées)
+# Acte I : le bureau du Promontoire, avant le crochet (pla_)
+# Acte II : la Terre, incognito (plt_) : deux lieux, une nuit, puis le retour
+# Acte III : remonter, ou ne pas remonter (plf_)
+# Ses compagnons sont les héros du jeu, qui ne savent pas qui il est. Sauf Pistil.
+# Émotions : flags pl_emo_* (lettres, marée, serre, fleurs, signature).
+# ================================================================
+
+@pla_01
+!title: Lettre d'acceptation
+Orbite haute. Le Promontoire, vaisseau-bureau de la Compagnie Foncière d'Aldébaran. Ton bureau est en marbre et en or, avec une baie vitrée sur la Terre. Sur la Terre, il y a la Lune. Elle tourne autour, comme une chose oubliée.
+Tu es Gédéon Platine, président de la Compagnie. Tu es grand, mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière. Enfant, on t'a jugé trop précieux pour être dépensé : on t'a rangé dans un coffre. Tu y as grandi seul. Depuis, tu achètes les belles choses pour qu'elles ne soient pas seules, et tu les ranges. Tu ne vois pas le rapport. Personne ne te l'a jamais montré.
+Pénélope Tampon, ton assistante, entre avec une enveloppe. « Monsieur. Le Cadastre Céleste de la Terre a répondu. Formulaire C-12 bis, tamponné. La vente est acceptée. »
+Tu ouvres l'enveloppe. Au bas du formulaire, une signature de greffier, une signature de lichen, qui pousse encore : « Basile Gru... »
+* pla_02 coe9 | « Merci, ma chère. Vous pouvez disposer. » | Pénélope s'incline. Tu ne remarques pas qu'elle reste une seconde de trop sur le seuil, comme quelqu'un qui aurait aimé qu'on lui demande son avis. | Pénélope s'incline et sort. Tu as déjà oublié qu'elle était là. Elle, non. | coe+1 |
+* pla_02 rus9 | Examiner la signature qui pousse | Une signature de lichen : elle pousse en faisant grandir le nom de son auteur. Il lui faudra un mois. Tu notes : « Vérifier la fin de la signature. » Tu ne le vérifieras pas. Tu as autre chose à faire : acheter une Lune. | Tu la regardes pousser. Ça t'endort. Tu reposes le formulaire. | +flag:pl_vu_signature |
+* pla_02 | Écrire un poème pour célébrer l'événement | « Ô Lune, astre rond, / te voici dans nos fonds. » Tu le relis. Tu le trouves bon. Il est mauvais. Tu le gardes dans ton tiroir, avec les quatre cents autres. | | mor+1 |
+
+@pla_02
+!title: Les équipes
+Une Lune, ça ne se déménage pas tout seul. Il faut un huissier pour l'inventaire, des ouvriers pour le crochet, et quelqu'un pour parler aux Terriens, qui ont la réputation d'être sentimentaux.
+Dans l'antichambre attendent trois candidats. L'Huissier Krâmm, grand comme un phare couché, fait de tiroirs gris qui s'ouvrent quand il respire. Bobinot, contremaître doré au casque trop grand, et son équipe d'ouvriers. Et Zéphyrin Clopin, un Horloger de la Terre, insecte de laiton aux moustaches à ressort, qui a trouvé la Lune et négocié la vente pour deux pour cent.
+* pla_03 rus9 | Commencer par l'Huissier Krâmm | Krâmm entre, ouvre un tiroir, en sort un mètre ruban qui se déroule tout seul. « Article premier : tout ce qui part doit être compté. » Tu l'engages. Il compte déjà ton bureau. | Krâmm entre et commence par compter tes poèmes. Il en trouve quatre cent un. Tu l'engages quand même, en rougissant. | +flag:pl_kramm |
+* pla_04 pan9 | Commencer par Bobinot et ses ouvriers | Bobinot salue si fort que son casque lui tombe sur le nez. « Un crochet ? On en a planté sur des comètes, Monsieur. Une Lune, c'est une grosse comète qui ne bouge pas. » Tu l'engages. | Bobinot salue si fort qu'il tombe. Ses ouvriers le relèvent avec beaucoup de tendresse. Tu l'engages quand même : une équipe qui s'aime, ça plante bien. | +flag:pl_bobinot |
+
+@pla_03
+Krâmm range son mètre. « Une question, Monsieur. Pour l'inventaire. Qu'est-ce que nous emportons avec la Lune ? »
+« Tout, Krâmm. Tout ce qui est à elle. »
+Krâmm ouvre un tiroir, l'air ennuyé. « Les marées, alors. Les rêves. Les calendriers. Les lettres qu'on lui écrit. Les loups. Il y a beaucoup de dépendances, sur une Lune. »
+Il hésite. « Ma fille m'a demandé si je déménageais la Lune. J'ai dit oui. Elle a pleuré. » Il referme le tiroir. « Ce n'est pas mon tiroir. »
+* pla_04 coe10 | « Dites à votre fille qu'elle sera mieux soignée chez nous. » | Krâmm hoche la tête. Il ne la croit pas, ta phrase. Toi si. C'est ce qui te rend dangereux, dirait quelqu'un, si quelqu'un osait te parler. | Krâmm hoche la tête et sort. Tu restes avec la phrase « Elle a pleuré » dans ton bureau, et tu ne sais pas où la ranger. | coe+1 | +flag:pl_emo_kramm
+* pla_04 | « Comptez tout, Krâmm. Nous trierons là-bas. » | Krâmm s'incline et sort. On entend ses tiroirs grincer dans le couloir, comme des soupirs. | |
+
+@pla_04
+!title: Le crochet
+Bobinot déroule les plans du crochet sur ton bureau de marbre. Un crochet d'or, long comme une montagne, avec un câble jusqu'au Promontoire. « On le plante où, Monsieur ? »
+?!flag:pl_bobinot Bobinot est venu tout seul, casque à la main, parce que tu avais oublié de l'appeler. Il ne t'en veut pas : on oublie toujours les ouvriers.
+* pla_05 pan9 | « Dans la mer de la Tranquillité. C'est le plus joli nom. » | Bobinot note. Ses ouvriers partent en chantant. Trois jours plus tard, le crochet est planté au milieu de la Tranquillité, qui ne l'est plus. | Les ouvriers ratent la mer de la Tranquillité et plantent le crochet dans la mer des Crises. Bobinot s'excuse. Tu trouves que ça ira aussi. | equ-2 | equ-3
+* pla_05 rus9 | « Là où ça fera le moins mal. » | Bobinot réfléchit longtemps. « Une Lune, Monsieur, ça n'a mal nulle part. Enfin, je crois. » Il choisit un vieux cratère sans nom. Le crochet s'y plante avec un bruit que personne n'entend, sauf la Lune. | Bobinot ne comprend pas la question. On ne demande pas aux ouvriers où ça fait mal. Ils plantent au hasard. | equ-1 +flag:pl_doux | equ-3
+
+@pla_05
+!title: Le complexe
+Zéphyrin Clopin entre, élytres vernies, moustaches frémissantes. Il étale sur ton bureau trois maquettes de la future Lune-sur-Mer.
+« Monsieur le Président. Trois projets. Des piscines, avec vue sur l'ancienne Terre. Un golf, sur la face cachée, avec des trous de météorites. Ou des tours, hautes, très hautes, pour regarder les autres planètes de haut. » Il ajoute, plus bas : « Chaque projet a ses... petites conséquences en bas. Mais en bas, ce n'est plus notre affaire. »
+* pla_06 | Choisir les piscines | « Les piscines. Pour qu'elle ne soit plus jamais à sec. » Zéphyrin note. Il ne dit pas qu'il faudra de l'eau, et que l'eau, il faudra la prendre aux marées. | | +flag:pl_piscines |
+* pla_06 | Choisir le golf | « Le golf. Pour qu'elle ait enfin un jardin. » Zéphyrin note. Il ne dit pas qu'il faudra du gazon, et que le gazon, il faudra le prendre aux racines de la Terre. | | +flag:pl_golf |
+* pla_06 | Choisir les tours | « Les tours. Pour qu'elle voie loin. » Zéphyrin note. Il ne dit pas que des tours sur une Lune, ça pèse, et que le poids, quelqu'un en bas devra le tenir. | | +flag:pl_tours |
+
+@pla_06
+!title: Les premiers jours
+Le crochet tient. Le câble se tend. La Lune commence à bouger, de côté, comme une armoire qu'on traîne sur un parquet.
+Sur ton bureau, un écran que Krâmm a fait installer affiche un chiffre : « Équilibre de la Terre ». Il baisse. Tu ne sais pas ce que c'est. Tu demandes à Zéphyrin. Il dit que c'est un indicateur technique. Il ne te regarde pas en le disant.
+Le soir, tu regardes la Terre par la baie vitrée. Sur la face nocturne, des milliers de petites lumières s'allument. Des feux. Partout.
+~penelope: Pénélope pose une tasse de thé sur ton bureau sans rien dire. Elle pose toujours le thé sans rien dire. Ce soir, tu remarques qu'elle tremble.
+* plt_01 coe9 | Te demander ce que pensent les gens d'en bas | Tu te le demandes. C'est la première fois. La question est si nouvelle qu'elle te fait mal à la tête. Tu décides d'aller voir. Incognito. | Tu te le demandes, puis tu as peur de la réponse. Tu décides quand même d'aller voir. Incognito, pour qu'on ne te réponde pas en face. | coe+1 |
+* plt_01 rus9 | Décider d'étudier le marché toi-même | « Un bon promoteur visite toujours le terrain », dis-tu à Zéphyrin. Il pâlit. « En bas ? Vous ? » Tu as déjà ton chapeau. | « Un bon promoteur visite le terrain », dis-tu. Zéphyrin te supplie de n'en rien faire. Tu y vas quand même, par contrariété. | rus+1 |
+
+# ---------------------------------------------------------------- LA TERRE, INCOGNITO
+
+@plt_01
+!title: Incognito
+La navette te dépose dans un champ, la nuit. Tu as gardé ton costume trois-pièces. Tu n'as rien changé d'autre, et c'est inutile : pour un Terrien, tous les Aldébaraniens se ressemblent. Des feuilles d'or empilées, qui bruissent. On te prend pour un touriste. Un touriste triste, vu ce qui se passe au-dessus.
+Tu as une liste. Quatre endroits dont parlent les rapports de Krâmm : les Côtes, où la mer se conduit mal ; le Cadastre de Tamponville, où l'on a signé ; une maison de retraite très profonde, près de l'Axe de la Terre ; une serre, à l'orée d'une forêt, où des fleurs refusent de s'ouvrir.
+Tu as le temps d'en voir deux. Peut-être trois, si tu ne dors pas. Tu dors mal, de toute façon.
+* plt_cot | Aller sur les Côtes | La navette te dépose au bord d'une plage où la mer est partie. | |
+* plt_cap | Aller au Cadastre de Tamponville | La navette te dépose devant une file d'attente qui fait trois fois le tour d'une ville. | |
+* plt_bri | Descendre à la maison de retraite, près de l'Axe | Un ascenseur de basalte te descend à quatre cents kilomètres sous la surface. Il fait chaud. Tes feuilles se recroquevillent. | |
+* plt_ana | Aller à la serre, à l'orée de la forêt | La navette te dépose au bord d'une fente si étroite qu'on la prend pour une ride du sol. | |
+
+@plt_hub
+!title: La Terre, la nuit
+Tu t'assois sur un muret, au bord d'une route. Au-dessus de toi, ta Lune, à son crochet. D'ici, elle a l'air plus grande que de là-haut. Plus fragile.
+?lieux<2 Tu as encore le temps d'aller voir un autre endroit.
+?lieux>=2 Tu as vu ce que tu voulais voir. Peut-être plus. La navette clignote, quelque part, pour te ramener.
+?comp:ondine Ondine se tient près de toi, debout, deux mètres douze d'eau salée. Elle ne sait pas qui tu es. Elle te parle de la Lune comme d'une amie qu'on aurait enlevée.
+?comp:basile Basile, sur ton épaule, fait une phrase par minute. Il te parle de sa signature, qui pousse encore. Il ne sait pas à qui il parle.
+?comp:brisefer Brisefer s'est assise par terre. La route s'est enfoncée de dix centimètres. « On repart quand tu veux, le doré. »
+?comp:anatole Anatole tourne la tête vers la Lune, toujours au même angle de l'aile. Il vole un peu de travers, depuis quelques jours.
+?comp:pistil Pistil te regarde. Lui, il sait qui tu es. Il ne dit rien.
+* plt_cot ?lieux<2 ?!flag:pl_vu_cot | Aller sur les Côtes | La route descend vers une mer qui n'est plus là. | |
+* plt_cap ?lieux<2 ?!flag:pl_vu_cap | Aller au Cadastre de Tamponville | La route monte vers une ville en papier. | |
+* plt_bri ?lieux<2 ?!flag:pl_vu_bri | Descendre à la maison de retraite, près de l'Axe | L'ascenseur de basalte grince sous tes pieds dorés. | |
+* plt_ana ?lieux<2 ?!flag:pl_vu_ana | Aller à la serre, à l'orée de la forêt | La route longe une forêt qui pousse de travers. | |
+* plt_nuit ?!flag:pl_nuit | Dormir un peu, au bord de la route | Tu fermes les yeux. Tu sais ce qui t'attend. Toujours le même cauchemar. | |
+* plf_01 ?lieux>=2 ?flag:pl_nuit | Rejoindre la navette | La navette descend en silence au bord du champ. Elle a l'air pressée. Toi, moins. | |
+
+@plt_nuit
+!title: Le cauchemar
+!fx: +flag:pl_nuit
+Tu dors. Et dans ton rêve, comme toujours, tu es une petite pièce d'or au fond d'un coffre. Il fait noir. On ne t'a jamais dépensée. On ne t'a jamais regardée non plus. Le couvercle ne s'ouvre pas.
+Mais cette nuit, quelque chose bouge dans le coffre. Un petit être de rêve, qui ressemble à un pyjama plié avec des yeux et un bonnet à trois étoiles. Il tient une lampe de poche. « Oh. Bonsoir. Je m'appelle Pistil. Je suis un Somnambule. J'habite les rêves des autres. Le tien est très... fermé. »
+Il te regarde, la petite pièce au fond du coffre, et puis il regarde le dessin gravé sur toi : un crochet, une Lune. « Ah. C'est toi, alors. Celui qui achète la Lune. »
+?comps>=1 Au loin, dans le rêve, tu entends tes compagnons qui dorment eux aussi, au bord de la route. Ils ne savent pas qui tu es. Pistil, lui, le sait maintenant.
+* plt_nuit2 coe9 | « Ne le dites à personne. S'il vous plaît. » | Pistil réfléchit. « D'accord. Mais je viens avec toi. Quelqu'un doit ouvrir ce coffre, un jour. » Quand tu te réveilles, il est là, assis sur ta poitrine, tout petit, tout réel. Il a suivi ton rêve jusque dans le monde éveillé, ce qu'aucun Somnambule ne fait. | Pistil réfléchit. « Je ne dirai rien. Mais je ne viens pas. » Il éteint sa lampe. Tu te réveilles seul, avec le coffre encore autour de toi. | +comp:pistil +flag:pl_pistil_avant |
+* plt_nuit2 coe10 | « Pourquoi est-ce que je fais toujours ce rêve ? » | Pistil s'assoit à côté de toi, dans le noir. « Parce que personne ne t'a jamais sorti du coffre. Alors tu mets les autres dans des coffres, pour qu'ils te tiennent compagnie. » Silence. « Je viens avec toi. Je veux voir si tu changes. » Au réveil, il est là, sur ta poitrine, réel. | Pistil ouvre la bouche pour te répondre, mais tu te réveilles en sursaut, la question encore dans la gorge. | +comp:pistil +flag:pl_pistil_avant +flag:pl_emo_coffre |
+* plt_nuit2 | Le chasser du rêve | Tu fermes le couvercle sur lui. Pistil disparaît. Tu te réveilles en sueur d'or. Tu as gardé ton secret. Tu n'es pas sûr d'avoir gagné. | |
+
+@plt_nuit2
+Tu te réveilles au bord de la route. L'aube n'est pas encore là. La Lune, au-dessus, est un peu plus loin qu'hier.
+?comp:pistil Pistil s'étire. Il regarde le monde éveillé avec des yeux énormes. « C'est donc ça. C'est très net. » Il te tient par un fil de ton costume, pour ne pas se perdre.
+?comp:pistil ?comp:ondine Ondine regarde Pistil, puis toi. « D'où il sort, celui-là ? » Pistil répond : « D'un rêve. » Ondine trouve ça normal. Les Marégraves ont vu pire.
+~pistil: Pistil chuchote, pour toi seul : « Je ne dirai rien. Mais je regarde. »
+* plt_hub | Reprendre la route | Tu te lèves. Tes feuilles d'or sont couvertes de rosée. Ça ne t'était jamais arrivé. Dans un coffre, il n'y a pas de rosée. | |
+
+# ---------------------------------------------------------------- LES CÔTES
+
+@plt_cot
+!title: Grève-Molle
+!fx: +flag:pl_vu_cot lieux+1
+La mer s'est retirée d'un kilomètre. Des poissons font la queue devant une flaque. Des Marégraves, faits d'eau de mer, écopent leurs maisons avec leurs mains.
+?flag:pl_piscines Tu comprends tout de suite où est partie l'eau. Tes piscines, là-haut, se remplissent. Les marées montent vers elles au lieu de monter vers la plage. Tu ne l'avais pas lu dans les maquettes. Ce n'était pas dans les maquettes.
+Au bout de la plage, un phare. En haut du phare, une lumière, et une silhouette d'eau salée qui écrit.
+* plt_cot2 coe9 | Monter au phare | Tu montes l'escalier en colimaçon. Il est mouillé. Tout est mouillé, ici. | Tu glisses trois fois dans l'escalier mouillé. Tu arrives en haut couvert de sel, ce qui, sur des feuilles d'or, fait un très joli givre. | flag:pl_piscines=>+flag:pl_emo_maree |
+* plt_cot2 rus9 | Interroger les Marégraves sur le promoteur | « Platine ? » Une vieille Marégrave crache par terre. « Il paraît qu'il écrit des poèmes. Un homme qui écrit des poèmes et qui vole la Lune, c'est le pire genre : il croit qu'il l'aime. » Tu remontes au phare, le cœur bizarre. | « Platine ? » Ils ne veulent pas en parler. Ils écopent. Tu remontes au phare. | +flag:pl_rumeur |
+
+@plt_cot2
+!title: Le phare
+En haut du phare, une Marégrave de deux mètres douze, debout par habitude et par politesse. Ondine Salmigondis. Autour d'elle, des piles de lettres. Elle en écrit une. Elle s'interrompt quand tu entres.
+« Vous êtes d'Aldébaran ? » Elle a vu tes feuilles d'or. « Vous connaissez ce Platine ? »
+Tu dis que non. C'est ton premier mensonge depuis des années. Tu es étonné qu'il soit si facile.
+« C'est ma dix mille neuf cent cinquante et unième lettre à la Lune », dit-elle. « Elle n'a jamais répondu. Elle est timide. Maintenant, je ne sais plus à quelle adresse écrire. »
+* plt_cot3 coe9 | Lui demander de te lire une lettre | Elle te lit la première, écrite à huit ans. « Chère Lune, est-ce que tu as froid, la nuit ? Moi oui. On pourrait avoir froid ensemble. » Tu ne dis rien. Tu as froid, d'un coup, toi aussi. Tu as toujours eu froid. | Elle hésite, puis refuse. « Elles sont à elle, pas à vous. » Elle a raison. Tu as acheté la Lune, pas ses lettres. Enfin, si. Mais tu ne le dis pas. | +flag:pl_emo_lettres coe+1 |
+* plt_cot3 rus9 | Lui dire que là-bas, sur Aldébaran, la Lune sera bien traitée | « Bien traitée ? » Elle te regarde comme on regarde quelqu'un qui confond une maison et une cage. « Elle avait des lettres. Vous lui donnerez quoi ? Des piscines ? » | Elle ne répond pas. Elle se remet à écrire, en appuyant si fort que le papier se mouille. | |
+
+@plt_cot3
+Ondine plie sa lettre. « Je vais monter là-haut. Il paraît que des gens se rassemblent au Carrefour, pour aller la chercher. » Elle te regarde. « Vous avez l'air de savoir comment on monte, vous. »
+~pistil: Pistil, sur ton épaule, regarde Ondine écrire. Il te regarde, toi. Il ne dit rien. C'est pire que s'il parlait.
+* plt_hub coe10 ?!comp:ondine | « Venez avec moi. Je connais quelqu'un, là-haut. » | Elle prend ses lettres, toutes, dans un sac étanche. « Je viens. Si vous connaissez quelqu'un, vous me le présenterez. » Tu promets. Tu ne sais pas comment tu tiendras cette promesse. | Elle secoue la tête. « Je n'ai pas confiance en l'or. Il brille quand il ment. » Tu regardes tes mains. Elles brillent. | +comp:ondine |
+* plt_hub | Redescendre seul | Tu redescends l'escalier. En bas, la mer s'est encore retirée d'un mètre. | |
+
+# ---------------------------------------------------------------- LE CADASTRE
+
+@plt_cap
+!title: Tamponville
+!fx: +flag:pl_vu_cap lieux+1
+La file d'attente du Cadastre fait trois fois le tour de la ville. Tous ces gens viennent contester la vente de la Lune. Ta vente. Ils ont tous un ticket. Tu en prends un : le 4 813. Personne ne te reconnaît. Tu fais la queue pour contester ta propre vente.
+Devant toi, une vieille Horlogère tend des tracts : « SOUSCRIPTION NATIONALE POUR LE RACHAT DE LA LUNE. Chaque Terrien donne ce qu'il peut. Même un bouton. Même une heure. »
+* plt_cap2 coe9 | Donner quelque chose à la souscription | Tu donnes une feuille d'or, arrachée à ton coude. Ça fait mal. L'Horlogère la range dans sa boîte à biscuits, sans savoir qu'elle tient un morceau du propriétaire. « Merci, monsieur. C'est beaucoup. » C'est la première fois que tu donnes quelque chose sans rien acheter en échange. | Tu sors ton portefeuille, puis tu le ranges. On ne rachète pas ce qu'on vient d'acheter. Si ? | +flag:pl_emo_don coe+1 |
+* plt_cap2 rus9 | Doubler la file, discrètement, par la porte de service | Tu doubles tout le monde. C'est ton métier. Derrière la porte de service, un escalier descend : « Guichet zéro ↓ ». | Tu te trompes de porte et tu passes une heure dans les archives des réclamations diverses. Il y en a une pour toi, de la part d'un enfant. Tu ne la lis pas. Tu la gardes. | |
+
+@plt_cap2
+!title: Le guichet zéro
+Sous-sol moins quatre. Un bureau, une tasse de rosée froide, et un Lichenaute, une mousse grise de trois cent douze ans, qui fixe un papier carbone. Basile Grumeau, greffier. Il est rapide pour un lichen : une phrase par minute.
+« Ma... signature », dit-il, sans lever les yeux. « Elle pousse... encore. Sur l'acte de vente. Basile Gru... Il manque... quelques jours. J'ai vendu... la Lune. Sans le savoir. »
+Il lève les yeux vers toi. Il voit un Aldébaranien. Il ne sait pas lequel. « Vous... êtes de chez lui ? »
+* plt_cap3 coe10 | « Je suis... du service des réclamations. » | Basile te croit. Personne ne ment, au Cadastre, à part les formulaires. Il te tend le carbone. « Alors... réclamez. » Tu regardes ta propre vente, de l'autre côté du guichet. | Basile te regarde longtemps. « Vous... mentez. Je ne sais pas... sur quoi. Mais vous mentez... lentement. Comme nous. » | +flag:pl_emo_signature |
+* plt_cap3 rus10 | « Que se passerait-il si votre signature ne finissait jamais de pousser ? » | Basile réfléchit, pendant cinq minutes. « L'acte... ne serait pas... signé. » Il te regarde, étonné. « Pourquoi... un Aldébaranien... me dit ça ? » Tu ne sais pas. La phrase est sortie toute seule. | Basile ne comprend pas la question. Toi non plus, en fait. | +flag:pl_basile_idee |
+
+@plt_cap3
+Basile range son carbone. « Je vais... monter au Carrefour. Rendre... ce que j'ai vendu. Si c'est... possible. »
+~pistil: Pistil s'approche de Basile et lui chuchote quelque chose. Basile ralentit encore. Puis il te regarde, très longtemps, comme on regarde un formulaire qu'on n'a pas encore compris.
+~ondine: Ondine sourit à Basile. « Un lichen qui veut rendre la Lune ? Bienvenue au club. »
+* plt_hub coe10 ?!comp:basile | « Venez avec moi. Je vous porterai. » | Basile monte sur ton épaule. Il pèse le poids d'une mousse. « Merci... collègue. » Tu n'as jamais eu de collègue. Tu as eu des employés. | Basile secoue la tête, lentement : « Je préfère... monter... par mes propres moyens. » Il en a pour trois semaines. | +comp:basile |
+* plt_hub | Remonter à la surface | Tu remontes. Dans ta poche, ton ticket 4 813. Tu le gardes. Tu ne sais pas pourquoi. | |
+
+# ---------------------------------------------------------------- LES MAGMAS PAISIBLES
+
+@plt_bri
+!title: Les Magmas Paisibles
+!fx: +flag:pl_vu_bri lieux+1
+Maison de retraite des Gravitaires, quatre cents kilomètres sous la surface. Des géants de pierre mangent de la soupe de lave tiède. La soupe glisse toute seule vers le bord des assiettes. Vers l'est.
+?flag:pl_tours Tu sais pourquoi. Tes tours, là-haut, pèsent sur la Lune, et la Lune tire sur l'Axe. Le poids que tu as posé là-haut, c'est ici qu'on le porte.
+Au fond du réfectoire, une Gravitaire de onze tonnes, granit et basalte, presse des fleurs séchées dans un gros livre. La Colonelle Agathe Brisefer. Elle a tenu l'Axe de la Terre pendant trois mille ans, assise dessus.
+* plt_bri2 pan9 | T'asseoir à sa table | Tu t'assois. La chaise ploie. Brisefer lève un œil. « Un doré. Ici. On aura tout vu. » Elle te pousse une soupe. Tu goûtes. C'est mauvais, chaud et honnête. | Tu t'assois, mais ta chaise glisse vers l'est avec la soupe. Brisefer te rattrape d'une main, sans lever les yeux. | flag:pl_tours=>+flag:pl_emo_axe |
+* plt_bri2 coe9 | Regarder les fleurs qu'elle presse | Des fleurs blanches, fanées, de toutes les nuits. « On me les envoie par la poste depuis cinquante ans. De là-haut, je crois. Je ne sais pas qui. » Elle les presse avec un soin terrible, pour des mains de onze tonnes. | Elle referme le livre d'un coup. « Ça ne vous regarde pas. » La table tremble. | +flag:pl_emo_fleurs coe+1 |
+
+@plt_bri2
+Brisefer repose sa cuillère. « Vous savez ce qui se passe, là-haut ? Le promoteur, ce Platine ? Il nous fait pencher. Moi, j'ai tenu l'Axe trois mille ans. Je sais quand ça penche. »
+Elle se lève. Le réfectoire entier se lève avec elle, par réflexe. « Je remonte. Quelqu'un doit aller lui dire, à ce Platine, ce que ça pèse. »
+?comp:pistil Pistil la regarde se lever. Puis il te regarde. Puis il la regarde encore. Il a l'air de quelqu'un qui vient d'avoir une idée.
+* plt_bri3 pan10 ?!comp:brisefer | « Venez avec moi. Je remonte justement. » | Elle te regarde de haut en bas. « Vous ? Vous pesez une feuille. » Elle hausse les épaules. « D'accord. Il faut bien quelqu'un pour tenir la porte. » | Elle ne t'écoute pas. Elle part devant, et l'ascenseur de basalte la remonte sans toi, parce qu'il ne peut prendre qu'elle. | +comp:brisefer |
+* plt_hub | La laisser partir devant | Elle s'en va. Le sol se redresse d'un millimètre derrière elle, par respect. | |
+
+@plt_bri3
+?comp:pistil ?flag:pl_pistil_avant Dans l'ascenseur de basalte, pendant que Brisefer tient la porte, Pistil grimpe sur son épaule de granit et lui parle à l'oreille, longtemps. Brisefer ne dit rien. Puis elle te regarde. Elle te regarde comme on regarde un poids qu'on va devoir porter.
+?!comp:pistil Dans l'ascenseur de basalte, Brisefer te raconte l'Axe : trois mille ans assise, sans broncher. Tu lui racontes ton coffre. Tu ne lui dis pas que tu étais une pièce d'or dedans. Tu dis « un endroit ».
+~brisefer: Brisefer : « Vous êtes léger, le doré. Trop léger. Il faudrait vous lester. »
+* plt_hub ?comp:pistil ?flag:pl_pistil_avant | Faire semblant de n'avoir rien vu | Tu fais semblant. Brisefer aussi. Pistil sourit, dans son bonnet. Quelque chose a été décidé sans toi. Tu as l'habitude de décider pour les autres. Pas l'inverse. | | +flag:pl_ligue |
+* plt_hub ?!flag:pl_ligue | Remonter à la surface | L'ascenseur remonte. Brisefer le remplit à elle seule. Tu voyages sur le toit. | |
+
+# ---------------------------------------------------------------- LA SERRE
+
+@plt_ana
+!title: La Serre des Belles-de-Nuit
+!fx: +flag:pl_vu_ana lieux+1
+Une serre de verre, au bord d'une fente. Dedans, mille belles-de-nuit, des fleurs blanches qui ne s'ouvrent que lorsque la Lune les regarde. Ce soir, la Lune est de travers. Les fleurs ne savent plus. Certaines s'ouvrent à moitié, d'autres pas du tout, d'autres se fanent sans avoir fleuri.
+?flag:pl_golf Au fond de la serre, des racines arrachées sèchent. Ton golf, là-haut, a besoin de gazon. Le gazon pousse en tirant sur les racines de la Terre. Tu le sais : c'était dans la maquette, en tout petit.
+Un papillon de nuit grand comme un parapluie plié, poudré de gris, avec un gilet plein de poches, arrose les fleurs qui restent. Anatole Duvet, jardinier de nuit. Il vole de travers.
+* plt_ana2 coe9 | L'aider à arroser | Il te tend l'arrosoir de cuivre, celui qui fuit un peu à gauche. Tu arroses. Une fleur s'ouvre devant toi, une seule, à moitié. Anatole dit : « Elle vous a pris pour un rayon de Lune. Vous êtes un peu doré. » Tu ne dis rien. Tu arroses la fleur suivante. | Tu arroses à côté. L'arrosoir fuit sur tes chaussures. Anatole te le reprend gentiment. | +flag:pl_emo_serre coe+1 | flag:pl_golf=>+flag:pl_emo_serre
+* plt_ana2 rus9 | Lui demander ce qu'il fait des fleurs fanées | « Je les jette dans la fente, chaque matin. Il paraît que, tout en bas, quelqu'un les reçoit. Une vieille dame de pierre, très loin. » Il hausse ses épaules poudrées. « J'aime croire qu'on les garde. » | Il ne répond pas. Il a trop de fleurs à sauver. | +flag:pl_fente |
+
+@plt_ana2
+Anatole pose son arrosoir. « Je vais monter là-haut. Une Noctuelle se dirige à la Lune. Si elle part, je vole droit vers rien. Je préfère voler droit vers elle. »
+?flag:pl_fente ?flag:pl_vu_bri Tu repenses aux fleurs que Brisefer presse dans son livre, quatre cents kilomètres plus bas. Tu comprends d'où elles viennent. Tu es le seul à le savoir. Tu te tais. C'est la première fois que tu gardes un secret pour faire plaisir.
+~ondine: Ondine respire une belle-de-nuit. « Elles sentent comme mes lettres. »
+~brisefer: Brisefer regarde les fleurs fanées. Elle ne dit rien. Elle en ramasse une, avec une délicatesse de onze tonnes.
+* plt_hub coe10 ?!comp:anatole | « Venez avec moi. Je sais comment on monte. » | Il plie ses ailes, prend son arrosoir. « Je vous suis. Vous avez l'air de savoir où vous allez. » Personne ne te l'avait jamais dit. Tu ne sais pas où tu vas. | Anatole secoue ses antennes. « Je reste avec elles jusqu'au bout. » Il retourne à ses fleurs. | +comp:anatole |
+* plt_hub | Repartir | Derrière toi, une fleur s'ouvre, à moitié. Elle s'est trompée. Tu n'es pas la Lune. | |
+
+# ---------------------------------------------------------------- REMONTER
+
+@plf_01
+!title: La navette
+La navette protocolaire attend au bord du champ. Pénélope est aux commandes, venue te chercher. « Monsieur. Le conseil d'administration s'inquiète. Le départ définitif de la Lune est prévu pour demain. Il faut votre doigt sur le bouton. »
+?comp:ondine ?!flag:pl_ligue Ondine regarde la navette, puis toi. Elle comprend que tu connais vraiment quelqu'un, là-haut. Elle ne comprend pas encore qui.
+?comps>=2 Tes compagnons regardent la navette. Ils s'attendent à monter avec toi. Ils ne savent pas où elle va.
+?flag:pl_ligue Brisefer s'est levée. Pistil est sur son épaule. Ils se tiennent entre toi et la navette.
+~pistil ?!flag:pl_ligue: Pistil te tient par un fil de ton costume. « Tu vas monter, alors ? »
+~basile: Basile, sur ton épaule, lit le nom sur la navette, une lettre par minute. « C... o... m... » Il n'a pas encore compris. Il va comprendre.
+~anatole: Anatole tourne la tête vers la Lune. « Elle est encore là. Pour combien de temps ? »
+* plf_ligue ?flag:pl_ligue ?comp:brisefer ?comp:pistil | Avancer vers la navette | Brisefer ne bouge pas. Elle te regarde. « Pistil m'a tout dit, Platine. » | |
+* plf_02 ?!flag:pl_ligue | Monter dans la navette | La navette monte. La Terre rapetisse. La Lune grandit. Tu as les mains qui tremblent, et tu ne sais pas laquelle des deux en est la cause. | |
+* plf_02 ?flag:pl_ligue ?!comp:brisefer | Monter dans la navette | La navette monte. La Terre rapetisse. | |
+
+@plf_ligue
+!title: Onze tonnes
+« Tu es Platine », dit Brisefer. Ce n'est pas une question.
+?comp:ondine Ondine pâlit, ce qui chez une Marégrave donne de l'eau très claire. « Vous m'avez menti. » Tu ne réponds pas. Tu as menti. Mais tu as aussi écouté ses lettres.
+?comp:basile Basile, sur ton épaule, fait une phrase entière en trente secondes, un record : « Vous êtes... l'acquéreur. »
+?comp:anatole Anatole replie ses ailes, lentement, comme on ferme un livre qu'on a aimé malgré la fin.
+« Tu ne remontes pas », dit Brisefer. « Une vente, il faut un acheteur. Un acheteur qui ne remonte jamais, ça ne fait plus une vente. »
+Pistil, sur son épaule, te regarde avec une grande douceur. « Je t'avais dit que je regardais. »
+* plf_ligue2 pan12 | Essayer de passer quand même | Tu essaies. Tu es fait de feuilles d'or. Elle est faite de granit. | Tu essaies. Tu es fait de feuilles d'or. Elle est faite de granit. | |
+* plf_ligue2 coe9 | Ne pas essayer | Tu restes là. Tu ne sais pas si c'est de la peur ou du soulagement. C'est peut-être la même chose, la première fois. | Tu restes là. Tu ne sais pas si c'est de la peur ou du soulagement. | |
+
+@plf_ligue2
+Brisefer s'assoit. Sur toi. Pas fort. Juste assez. Onze tonnes de granit, posées avec la délicatesse de quelqu'un qui presse des fleurs. Tu ne peux plus bouger. Tu n'as jamais été aussi bien tenu.
+« J'ai tenu l'Axe trois mille ans », dit-elle. « Je peux bien te tenir trois jours. »
+* end_24 | Attendre | Pénélope, dans la navette, attend. Puis elle comprend. Puis elle éteint le moteur. | |
+
+@plf_02
+!title: Le bureau
+Le Promontoire. Ton bureau de marbre et d'or. La baie vitrée sur la Lune, si proche maintenant que tu vois ses cratères. Sur le bureau, le bouton rouge qui commande les moteurs, pour le départ définitif.
+Krâmm, Bobinot, Zéphyrin, Pénélope : tout le monde attend ton doigt.
+?comps>=1 Tes compagnons sont montés avec toi. Ils regardent le bureau, l'or, le bouton, le nom sur la porte. Ils comprennent, un par un, en silence.
+?comp:ondine Ondine serre son sac de lettres contre elle. « C'était vous. » Elle ne crie pas. C'est pire.
+?comp:basile Basile, sur ton épaule, a compris depuis la navette. Il pense très fort à autre chose, pour que sa signature ne finisse pas.
+?comp:brisefer Brisefer s'est arrêtée sur le seuil. Le plancher du Promontoire ne la tiendrait pas. Elle te regarde de là.
+?comp:anatole Anatole se pose sur le rebord de la baie vitrée, face à la Lune, au bon angle de l'aile. Pour la première fois depuis des jours, il ne penche plus.
+?comp:pistil Pistil s'assoit sur le bouton rouge. Il te regarde. Il attend.
+L'écran de Krâmm affiche l'Équilibre de la Terre. Tu sais, maintenant, ce que c'est.
+* plf_vente ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don | Revendre la Lune. À quelqu'un d'en bas. Pour presque rien | Tu le dis à voix haute, pour que Krâmm l'entende. Krâmm ouvre un tiroir qu'il n'avait jamais ouvert. | |
+* plf_conseil ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don,flag:pl_emo_kramm,flag:pl_emo_signature,flag:pl_emo_coffre | « Je dois réfléchir. » | Zéphyrin pâlit. Krâmm note : « Le président réfléchit. » Pénélope transmet au conseil d'administration, qui n'a jamais reçu ce message-là. | |
+* end_26 | Appuyer sur le bouton | Tu appuies. Ton doigt ne tremble pas. Tu as vu les Terriens de près. Ils pleurent pour un caillou dans le ciel. | |
+
+@plf_vente
+!title: Le prix
+Revendre la Lune. Il faut un acheteur, et un prix. Krâmm, très sérieux, ouvre son registre : « Le prix doit être réel, Monsieur. Article premier : on ne donne pas un satellite. On le vend. »
+?comp:ondine Ondine tient son sac de lettres.
+?comp:anatole Anatole fouille dans les poches de son gilet.
+?comp:basile Basile, sur ton épaule, a un tampon dans la main.
+?comp:pistil Pistil a quelque chose dans son bonnet.
+?comps<1 Il n'y a personne d'en bas avec toi. Alors tu écris à Grève-Molle, à la Serre, au Cadastre, à quiconque voudra bien l'acheter.
+* end_25 coe9 ?comp:ondine | La vendre à Ondine, pour une lettre | Ondine sort de son sac la toute première, celle de ses huit ans : « Chère Lune, est-ce que tu as froid, la nuit ? » Elle te la tend. Krâmm la pèse, la compte, et l'inscrit : « Prix : une lettre. Valeur : inestimable. Vente conforme. » | Ondine hésite trop longtemps. Elle ne veut pas donner la première. Elle en donne une autre, au hasard, la mille deux cent douzième. Krâmm l'accepte quand même. « Une lettre est une lettre. » | +flag:pl_prix_lettre | +flag:pl_prix_lettre
+* end_25 coe9 ?comp:anatole | La vendre à Anatole, pour une fleur fanée | Anatole sort de sa poche une belle-de-nuit fanée, pressée. Krâmm la pèse : rien. Il l'inscrit quand même : « Prix : une fleur. » | Anatole sort une fleur, puis une autre, puis toutes ses poches. Krâmm en prend une. « Une suffit. » | +flag:pl_prix_fleur | +flag:pl_prix_fleur
+* end_25 coe9 ?comp:pistil | La vendre à Pistil, pour un rêve | Pistil sort de son bonnet un tout petit rêve, rond, qui brille. « C'est le tien. Celui où le coffre s'ouvre. Je l'ai gardé pour toi. » Krâmm ne sait pas comment inscrire un rêve. Il écrit : « Prix : une ouverture. » | Pistil sort un rêve de son bonnet, mais ce n'est pas le bon : c'est celui d'un vieux Gravitaire qui rêve de soupe. Krâmm l'inscrit quand même. Tout prix est un prix. | +flag:pl_prix_reve | +flag:pl_prix_reve
+* end_25 coe9 ?comp:basile | La vendre à Basile, pour un coup de tampon | Basile lève son tampon et tamponne le registre de Krâmm : « REÇU ». « Voilà... le prix. Un reçu. » Krâmm hoche la tête, lentement : « Un reçu est une contrepartie. » | Basile lève son tampon, très lentement. Ça prend un quart d'heure. Krâmm attend. Un huissier attend toujours. « REÇU. » | +flag:pl_prix_tampon | +flag:pl_prix_tampon
+* end_25 coe11 ?comps<1 | La vendre au premier Terrien qui répondra | Une réponse arrive au bout d'une heure, par le Grand Vent Postal : un enfant de Grève-Molle propose une bille. Krâmm accepte la bille. | Une seule réponse arrive, très tard : un enfant de Grève-Molle propose une bille. Krâmm hésite, puis accepte. | +flag:pl_prix_bille | +flag:pl_prix_bille
+* end_25 coe11 ?comps>=1 | La vendre au premier Terrien qui répondra | Tu écris aux Côtes, par le Grand Vent Postal. Un enfant de Grève-Molle propose une bille. Krâmm accepte la bille. | Une seule réponse arrive, très tard : un enfant propose une bille. Krâmm accepte. | +flag:pl_prix_bille | +flag:pl_prix_bille
+
+@plf_conseil
+!title: Le conseil d'administration
+Le conseil d'administration de la Compagnie apparaît dans le grand miroir d'or du bureau : douze Aldébaraniens, feuilles d'or empilées, qui bruissent et qui brillent. Ils brillent beaucoup.
+« Monsieur le Président. Vous réfléchissez ? » Le plus vieux se penche. « Un président qui réfléchit, c'est un président qui hésite. Un président qui hésite, c'est un président fatigué. »
+Krâmm, derrière toi, ouvre et referme un tiroir, nerveusement.
+* end_27 rus11 | Leur expliquer ce que tu as vu, en bas | Tu leur racontes. Les lettres, la marée, les fleurs. Ils t'écoutent avec une grande politesse. Puis ils votent. | Tu essaies de raconter. Tu cherches tes mots. Tu n'en as jamais eu besoin : tu n'avais que des chiffres. Ils votent avant la fin. | |
+* plf_02b | Te taire, et revenir vers le bouton | Tu te tais. Le conseil attend. Le bouton aussi. | |
+
+@plf_02b
+Le bouton rouge. Ton doigt au-dessus. La Lune derrière la vitre, si proche.
+* end_26 | Appuyer | Tu appuies. Après tout, tu as déjà payé. | |
+* plf_vente ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don | Retirer ton doigt, et chercher un acheteur | Tu retires ton doigt. Le conseil, dans le miroir, se met à bruisser très fort. Tu l'éteins. | |
+
+# ---------------------------------------------------------------- LES FINS
+
+@end_24
+!end: 24
+!title: Disparu en mission
+Trois jours. Brisefer reste assise. Tu restes dessous. On t'apporte de la soupe. Elle est mauvaise, chaude et honnête.
+À bord du Promontoire, la navette rentre vide. Le conseil d'administration s'inquiète, puis s'agace, puis consulte les statuts. Article premier : un acheteur absent ne peut pas prendre livraison.
+?comp:basile Et au Cadastre, un greffier lichen, revenu de son voyage sur ton épaule, constate « l'absence prolongée de l'acquéreur ». Sa signature n'a pas fini de pousser : il pense à autre chose depuis trois jours, exprès. D'un coup de tampon, il rend la vente caduque. « Acquéreur... introuvable. Signature... inachevée. Vente... sans objet. »
+?!comp:basile Et là-haut, c'est Pénélope qui tamponne. Elle a attendu trois jours dans la navette. Le quatrième, elle a écrit elle-même : « Acquéreur disparu en mission. Vente caduque. » Elle a tamponné « APPROUVÉ ». Pour la première fois, elle était d'accord avec son tampon.
+Le crochet se détache. La Lune reste.
+Brisefer se relève. Tu es tout plat, un peu froissé, très vivant. Personne ne t'avait jamais tenu si longtemps.
+Tu ne remontes pas. Au début, tu es furieux : tu écris des poèmes de colère, très mauvais. Puis tu plantes des choses. Tu deviens jardinier, à la Serre, à côté d'Anatole, ou n'importe où ailleurs où il pousse quelque chose. Tu arroses de travers. Les fleurs s'ouvrent quand même : elles te prennent pour un rayon de Lune.
+?comp:pistil Pistil vient te voir la nuit, dans ton rêve. Le coffre est ouvert, maintenant. Il n'y a plus de couvercle. Il n'y a plus de coffre. Il y a un jardin.
+?comp:ondine Ondine t'a pardonné à la mille deux cent douzième lettre. Elle t'écrit, maintenant, en plus de la Lune. Tu réponds. Tu es moins timide qu'elle.
+?comp:anatole Anatole t'apprend à arroser sans fuir à gauche. Ça prend des années. Vous avez le temps.
+Brisefer, elle, envoie à la Serre une boîte de fleurs pressées, chaque printemps. Elle ne dit pas à qui. Tout le monde sait.
+
+@end_25
+!end: 25
+!title: Revendue pour presque rien
+Krâmm referme son registre. « Vente conforme. La Lune appartient désormais à un Terrien. Le crochet n'a plus d'objet. » Il ouvre le tiroir des choses qui restent, celui qu'il n'avait jamais utilisé, et il y range l'acte.
+Le crochet se détache à l'aube. La Lune remonte doucement à sa place, comme quelqu'un qui retourne s'asseoir.
+?flag:pl_prix_lettre Ondine possède la Lune. Elle ne sait pas quoi en faire. Elle continue de lui écrire. Maintenant, elle sait à quelle adresse : chez elle.
+?flag:pl_prix_fleur Anatole possède la Lune. Il l'a inscrite au registre de la Serre, entre deux belles-de-nuit. Les fleurs s'ouvrent à l'heure, de nouveau. Il vole droit.
+?flag:pl_prix_reve Pistil possède la Lune. Elle est dans son bonnet, en titre de propriété. Il a dit qu'il la rendrait à elle-même, un jour, quand elle voudra. Elle ne l'a pas encore demandé.
+?flag:pl_prix_tampon Basile possède la Lune. Il l'a inscrite au Cadastre, au rayon « Biens non cessibles ». Personne ne pourra plus jamais la vendre : il faudrait remplir un formulaire qui n'existe pas.
+?flag:pl_prix_bille Un enfant de Grève-Molle possède la Lune. Il a payé une bille. Il dit que c'est la meilleure affaire de sa vie. Il a raison.
+Le conseil d'administration de la Compagnie t'a renvoyé le lendemain, pour « vente à perte ». Tu n'as pas protesté. Tu as gardé ton bureau en marbre, pour y écrire des poèmes. Ils sont toujours mauvais. Mais maintenant, il y en a un qui parle d'une Lune qui reste, et celui-là, on dit qu'il n'est pas si mal.
+?comp:brisefer Brisefer a gardé une belle-de-nuit pressée pour toi, dans son livre. Elle ne te l'a jamais donnée. Elle la garde pour le jour où tu le mériteras tout à fait.
+Le soir, tu regardes la Lune depuis la Terre. Elle ne t'appartient plus. C'est la première chose que tu aimes sans la posséder.
+
+@end_26
+!end: 26
+!title: Les Terriens sont idiots
+Les moteurs grondent. Le crochet tire. La Lune quitte son orbite comme on quitte une maison où l'on a trop vécu.
+Tu regardes la Terre rapetisser par la baie vitrée. Tu as vu les Terriens de près : ils écrivent à un caillou, ils pleurent sur des fleurs fanées, ils donnent des boutons pour racheter le ciel. Ils sont idiots. Ils sont attendrissants, mais idiots. Tu as bien fait. Tu le répètes trois fois. À la troisième, tu y crois presque.
+?comps>=1 Tes compagnons sont redescendus par la navette, sans un mot. Pénélope les a reconduits. Elle n'est pas remontée.
+Sur Aldébaran, on inaugure les piscines, le golf ou les tours, selon ce qui a été choisi. Tu coupes le ruban. Tu fais un discours. Tu brilles beaucoup.
+Sur la Terre, il paraît un journal les jours de pluie : La Gazette des Jours de Pluie. Il pleut beaucoup, depuis que la Lune est partie. Le journal paraît tous les jours. En première page, un jour, ta photo, en costume trois-pièces, sous le titre : « L'homme qui a acheté la Lune. »
+?comp:ondine À Grève-Molle, Ondine la découpe. Elle te reconnaît. Elle la range avec ses lettres. Elle n'écrit plus. Il n'y a plus d'adresse.
+?comp:basile Au Cadastre, Basile la lit, une ligne par minute. Sa signature a fini de pousser. Il la regarde tous les jours. « Basile Grumeau. » C'est complet. C'est le pire mot qu'il ait jamais écrit.
+?comp:brisefer Aux Magmas Paisibles, Brisefer la lit à la table du réfectoire. Elle ne dit rien. La soupe glisse vers l'est. Elle ne la retient plus.
+?comp:anatole À la Serre, Anatole la lit en volant de travers. Les belles-de-nuit ne s'ouvrent plus. Il les arrose quand même.
+?comp:pistil Pistil ne lit pas les journaux. Il vient te voir dans ton rêve, toutes les nuits. Le coffre est fermé. Il frappe au couvercle. Tu ne réponds pas.
+
+@end_27
+!end: 27
+!title: Le promoteur promu
+Le conseil d'administration vote à l'unanimité. Un président qui réfléchit n'est plus un président : c'est un poète, et la Compagnie a déjà assez de poèmes dans les tiroirs.
+On te remplace par l'Huissier Krâmm, qui ne réfléchit jamais, par article premier. Krâmm s'assoit dans ton fauteuil. Il pose son doigt sur le bouton rouge. Il hésite une seconde, une seule, en pensant à sa fille. Puis il appuie, parce que c'est son tiroir.
+La vente se poursuit sans toi. La Lune part vers Aldébaran.
+Toi, on t'a reclassé. Tu es ouvrier, dans l'équipe de Bobinot. Tu poses des cloisons de verre sur la Lune que tu voulais sauver. Bobinot est un bon chef. Il dit merci. Il t'appelle « mon grand ».
+Le soir, sur le chantier, tu regardes la Terre, qui s'éloigne. Tu écris des poèmes sur les cloisons, au feutre, en tout petit. Les autres ouvriers les lisent. Ils les trouvent mauvais. Ils les lisent quand même.
+?comp:pistil Pistil vient te voir la nuit, dans ton rêve. Le coffre n'est plus fermé à clé. Il n'est pas encore ouvert. « C'est un début », dit Pistil.
+?comp:ondine Ondine t'a envoyé une lettre, par le Grand Vent Postal, adressée « À l'ouvrier qui était président, sur la Lune ». Elle est arrivée. C'est la première lettre que la Lune reçoit depuis son départ. Tu la lui lis, le soir, à voix haute.
+?comp:basile Basile, au Cadastre, a fait inscrire ta rétrogradation au registre. Il a tamponné « REÇU ». C'est sa façon de dire qu'il a bien noté que tu avais changé.
+?comp:brisefer Brisefer a dit, en apprenant la nouvelle : « Trop léger. Je l'avais dit. » Puis elle a ajouté, plus bas : « Mais il a hésité. C'est déjà lourd, une hésitation. »
+?comp:anatole Anatole vole vers la Lune tous les soirs, au bon angle de l'aile, aussi loin qu'il peut. Il n'arrive jamais. Il revient. Il recommence.

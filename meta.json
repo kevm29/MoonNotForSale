@@ -162,6 +162,22 @@
    "bio": "Le Président de la Terre ne bouge pas et ne parle pas. Il pense, lentement, et personne ne le sait. Maître Gontran Verbiage, son interprète autoproclamé, parle à sa place depuis quarante ans, et ne dit jamais ce que le galet pense. Ici, tu choisis ce que tu penses. Ce que le monde entend, c'est autre chose.",
    "debut": "Commence sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces, la nuit de la Grande Panique.",
    "locked": "Il n'a jamais rien dit de faux. Il n'a jamais rien dit."
+  },
+  {
+   "id": "platine",
+   "name": "Platine",
+   "species": "Promoteur doré",
+   "start": "pla_01",
+   "stats": [
+    3,
+    4,
+    0
+   ],
+   "unlock": 2,
+   "tagline": "Le promoteur couvert de feuilles d'or qui a acheté la Lune. Il appuiera sur le bouton demain.",
+   "bio": "Platine possède des tours, des piscines et des planètes. Il a acheté la Lune à un guichet de Tamponville, pour presque rien. Avant d'appuyer sur le bouton, il descend sur Terre, incognito, voir ce qu'il a acheté. Les héros du jeu vont le croiser sans savoir qui il est. Son Cœur commence à zéro. Il peut monter.",
+   "debut": "Commence dans le bureau du Promontoire Doré, la veille de la livraison de la Lune.",
+   "locked": "Platine attend dans son bureau doré. Termine deux parties pour qu'il descende sur Terre."
   }
  ],
  "companions": {
@@ -647,6 +663,111 @@
     "Xanthin pose son bord sur une racine pour prendre des nouvelles de la famille.",
     "Xanthin fait des progrès : il pousse plus vite quand il est content."
    ]
+  },
+  "ondine": {
+   "name": "Ondine Salmigondis",
+   "species": "Marégrave",
+   "stat": "coe",
+   "bio": "Gardienne de phare faite d'eau de mer. Elle écrit à la Lune depuis trente ans, une lettre par marée. Elle ne sait pas qui tu es, et c'est peut-être mieux comme ça.",
+   "ok": [
+    "Ondine sourit. Ça fait une petite vague.",
+    "Ondine : « La Lune aurait aimé voir ça. »",
+    "Ondine range une phrase de plus pour sa prochaine lettre."
+   ],
+   "ko": [
+    "Ondine soupire. Ça mouille un peu le sol.",
+    "Ondine : « La marée revient toujours. Pas toi, peut-être. »",
+    "Ondine se tait. Une goutte salée coule sur sa joue, mais chez elle c'est tout le temps."
+   ],
+   "idle": [
+    "Ondine relit une lettre en remuant les lèvres.",
+    "Ondine regarde la Lune comme on regarde une amie à la fenêtre d'un train.",
+    "Ondine compte les marées qu'il reste."
+   ]
+  },
+  "basile": {
+   "name": "Basile Grumeau",
+   "species": "Lichenaute",
+   "stat": "rus",
+   "bio": "Greffier lichen de Tamponville. Il a tamponné la vente de la Lune en croyant renouveler un lampadaire. Il parle une phrase par minute. Sa signature pousse encore.",
+   "ok": [
+    "Basile : « Bien... » (une minute passe) « ...joué. »",
+    "Basile tamponne l'air, par réflexe, avec satisfaction.",
+    "Basile pousse d'un millimètre. C'est sa façon d'applaudir."
+   ],
+   "ko": [
+    "Basile : « Ah. » C'est tout. Mais c'est un « ah » de dix secondes.",
+    "Basile vérifie un règlement imaginaire. Il n'y a pas d'article pour ça.",
+    "Basile se recroqueville sur ton épaule."
+   ],
+   "idle": [
+    "Basile pense à sa signature. Elle pousse.",
+    "Basile classe tes soupirs par ordre de date.",
+    "Basile commence une phrase. Tu en auras la fin plus tard."
+   ]
+  },
+  "pistil": {
+   "name": "Pistil",
+   "species": "Somnambule",
+   "stat": "coe",
+   "bio": "Petit être de rêve qui n'a jamais vu le monde éveillé, avant toi. Il t'a vu dans le cauchemar des pièces d'or. Il sait qui tu es. Il ne dit rien. Pas encore.",
+   "ok": [
+    "Pistil applaudit sans bruit, comme dans un rêve.",
+    "Pistil : « C'est très net, ici. »",
+    "Pistil te regarde. Il sait. Il sourit quand même."
+   ],
+   "ko": [
+    "Pistil se cache dans son bonnet.",
+    "Pistil : « Dans les rêves, ça aurait marché. »",
+    "Pistil te tient plus fort par le fil de ton costume."
+   ],
+   "idle": [
+    "Pistil touche les choses pour vérifier qu'elles ne fondent pas.",
+    "Pistil bâille. Ça fait de la lumière.",
+    "Pistil te regarde, longtemps, sans rien dire."
+   ]
+  },
+  "brisefer": {
+   "name": "Colonelle Agathe Brisefer",
+   "species": "Gravitaire",
+   "stat": "pan",
+   "bio": "Géante de granit à la retraite. Elle a tenu l'Axe de la Terre pendant trois mille ans. Elle t'appelle « le doré ». Elle n'aime pas les gens qui décident pour les autres.",
+   "ok": [
+    "Brisefer : « Pas mal, le doré. »",
+    "Brisefer hoche la tête. Le sol tremble un peu.",
+    "Brisefer : « J'ai vu pire. J'ai fait pire. »"
+   ],
+   "ko": [
+    "Brisefer grogne. Une fissure court sous tes pieds.",
+    "Brisefer : « Recommence. Moins doré. »",
+    "Brisefer te rattrape d'une main, sans lever les yeux."
+   ],
+   "idle": [
+    "Brisefer s'assoit. La route s'enfonce.",
+    "Brisefer regarde l'Axe de la Terre, au loin, comme une vieille collègue.",
+    "Brisefer fait craquer ses épaules. Ça s'entend de loin."
+   ]
+  },
+  "anatole": {
+   "name": "Anatole Duvet",
+   "species": "Noctuelle",
+   "stat": "rus",
+   "bio": "Jardinier de nuit, papillon gris. Il se dirige à la Lune et vole un peu de travers depuis quelques jours. Il te trouve doré. Il croit que c'est un compliment.",
+   "ok": [
+    "Anatole bat des ailes, ravi. De la poussière grise tombe partout.",
+    "Anatole : « Joli. Comme une fleur qui s'ouvre. »",
+    "Anatole fait un petit looping, de travers."
+   ],
+   "ko": [
+    "Anatole replie ses ailes.",
+    "Anatole : « Ça arrive. Même aux fleurs. »",
+    "Anatole regarde la Lune pour se calmer."
+   ],
+   "idle": [
+    "Anatole cherche la Lune du regard, au bon angle de l'aile.",
+    "Anatole arrose une plante que personne n'avait vue.",
+    "Anatole vole un peu de travers, et s'excuse auprès de l'air."
+   ]
   }
  },
  "npcs": [
@@ -802,6 +923,26 @@
    "title": "Basile Gru...",
    "kind": "lumineuse",
    "hint": "Faire passer un message par la Toile au greffier qui a signé."
+  },
+  "24": {
+   "title": "Disparu en mission",
+   "kind": "lumineuse",
+   "hint": "Laisser Pistil et Brisefer s'occuper de toi, après les avoir réunis."
+  },
+  "25": {
+   "title": "Revendue pour presque rien",
+   "kind": "lumineuse",
+   "hint": "Être ému sur Terre, puis remonter avec quelque chose à offrir en échange."
+  },
+  "26": {
+   "title": "Les Terriens sont idiots",
+   "kind": "sombre",
+   "hint": "Ne rien regretter du tout."
+  },
+  "27": {
+   "title": "Le promoteur promu",
+   "kind": "ironique",
+   "hint": "Être un peu ému, mais pas assez pour renoncer."
   }
  },
  "defaults": {

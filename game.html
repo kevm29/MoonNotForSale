@@ -504,7 +504,7 @@ function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 
 /* ---------- rendu ---------- */
 /* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
-const FACE = {president:[.5,.45], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+const FACE = {president:[.5,.45], platine:[.5,.3], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
 function faceStyle(p){
   const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
   const [x, y] = FACE[p.id] || [.5, .3], w = .3, cl = v => Math.max(0, Math.min(1 - w, v - w / 2)) / (1 - w) * 100;
@@ -538,7 +538,7 @@ function medFallback(id, name, round){
     : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><rect width="96" height="96" fill="#f1dfa0"/><rect x="10" y="10" width="76" height="76" rx="6" fill="none" stroke="#a8862f" stroke-width="2" stroke-dasharray="4 4"/><text x="48" y="61" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#6e5520">${letter}</text></svg>`;
   return "data:image/svg+xml," + encodeURIComponent(svg);
 }
-function medImg(kind, id, name){ return ((DATA.meds || {})[kind] || {})[id] || medFallback(id, name, kind === "c"); }
+function medImg(kind, id, name){ return ((DATA.meds || {})[kind] || {})[id] || (kind === "c" && (DATA.portraits || {})[id]) || medFallback(id, name, kind === "c"); }
 const CROISSANT = {name:"Le petit Croissant", species:"Bébé tortue des sables", bio:"Né la dernière nuit, à marée haute, quand la Lune tirait la mer jusqu'au bord de la plaine. Il est très lent, très curieux, et il regarde la Lune avec des yeux énormes. Sa mère l'a appelé comme la Lune quand elle commence."};
 function medCard(kind, id){
   if (kind === "c"){
