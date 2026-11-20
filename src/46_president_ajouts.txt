@@ -1,0 +1,231 @@
+# ================================================================
+# PRÉSIDENT GALET : SCÈNES SUPPLÉMENTAIRES (Capitale, Carrefour, régions, dernière nuit)
+# ================================================================
+
+# ---------------------------------------------------------------- TAMPONVILLE
+
+@gpa_07b
+!title: Le déjeuner présidentiel
+Midi. On t'emporte à la salle à manger du Palais : une table de quarante couverts, et une seule assiette, devant ton coussin. Madame Saupiquet, la cuisinière, une Horlogère ronde qui fait tic-tac en remuant ses casseroles, pose devant toi une soupe à l'oseille. Elle la pose tous les jours, depuis quarante ans.
+Tu ne manges pas. Tu n'as jamais mangé. Gontran mange à ta place. Il dit chaque fois : « Le Président se régale. »
+Madame Saupiquet le regarde manger, les mains sur le tablier. Elle ne l'a jamais cru. Elle continue de cuisiner pour toi quand même. « On ne sait jamais », dit-elle à ses casseroles. « Un jour, il aura faim. »
+* gpa_08 ?comp:gontran | Penser : « Elle cuisine pour moi depuis quarante ans. Je ne l'ai jamais remerciée. » | Gontran traduit, la bouche pleine : « Le Président trouve la soupe trop salée ! » Madame Saupiquet ne dit rien. Elle reprend l'assiette. Le lendemain, elle mettra moins de sel. Elle met moins de sel tous les ans. La soupe n'a plus de goût depuis 1990. | |
+* gpa_08 coe9 | Penser à la soupe, très fort, côté lisse tourné vers elle | La vapeur de la soupe se dépose sur toi, et sur ton côté lisse, à l'endroit où tu blanchis, elle dessine une petite tache claire, ronde, comme un sourire. Madame Saupiquet la voit. Elle reste immobile, sa louche en l'air. Puis elle rit, tic-tac, et elle s'essuie les yeux avec le tablier. « Je le savais. » | La vapeur se dépose sur toi, sans rien dessiner. Madame Saupiquet reprend l'assiette, comme tous les jours. | +flag:p_saupiquet mor+1 |
+* gpa_08 | Regarder la soupe refroidir | Elle refroidit. Une petite peau se forme dessus. C'est le seul spectacle du déjeuner, et tu le regardes jusqu'au bout. | |
+
+@gpa_08b
+!title: Le Cantonnier des Lampadaires
+En sortant du Bureau des Signatures, on croise dans l'escalier un vieux Cantonnier, un Gravitaire voûté en uniforme bleu, avec une perche à allumer les lampadaires sur l'épaule. Il allume les lampadaires de Tamponville depuis trois cents ans. Il connaît chacun par son numéro.
+Il a entendu le mot, par la porte. « Lampadaire céleste numéro un ? » Il se gratte le casque. « Il n'y a pas de lampadaire céleste, Maître Verbiage. Les miens s'arrêtent au numéro quatre mille douze, devant la gare. Au-dessus, c'est la Lune. Ça ne se renouvelle pas, la Lune. Ça ne s'éteint pas non plus. Enfin. Ça ne s'éteignait pas. »
+?flag:p_annonce Il voit dépasser de sous ton coussin l'annonce découpée par Anselme. « Échange lampadaire céleste contre rien. » Il la lit deux fois. Il pâlit, ce qui chez un Gravitaire prend une bonne minute.
+~gontran: Gontran tapote l'épaule du Cantonnier. « Une formalité, mon brave. Une formalité. »
+* gpa_09 coe9 | Penser au Cantonnier : « Vous avez raison. Ce n'est pas un lampadaire. » | Tu blanchis, du côté de l'escalier. Le Cantonnier le voit, dans la pénombre : il a l'œil, pour les lumières qui s'allument. Il hoche la tête, lentement. « Vous aussi, vous trouvez que ça ne va pas. » Il te tend sa perche, pour que tu la touches. C'est sa façon de saluer. « Si un jour vous avez besoin de quelqu'un qui connaît les lumières, Monsieur le Président, c'est moi. » | Le Cantonnier ne voit rien. Il remonte l'escalier en grommelant des numéros. « Quatre mille dix, quatre mille onze, quatre mille douze. Et puis rien. Et puis la Lune. » | +flag:p_cantonnier |
+* gpa_09 ?comp:gontran | Penser : « Gontran, écoutez-le. » | Gontran traduit : « Le Président vous décore pour trois cents ans de service ! » Il épingle sur l'uniforme du Cantonnier une médaille qu'il sort de sa poche. C'est un bouchon de bouteille. Le Cantonnier le garde. Il n'a jamais été décoré. Il ne comprend toujours pas pour le lampadaire. | |
+
+@gpa_16b
+!title: Les pigeons du Cadastre
+Sur le toit du Cadastre, au retour, à la tombée de la nuit, Gontran s'arrête au pigeonnier pour envoyer des communiqués. Des centaines de pigeons-coursiers attendent, en rang, chacun avec un petit étui à la patte. Ils portent les convocations, les arrêtés, les mauvaises nouvelles. Ils n'ont jamais porté de bonnes nouvelles : il n'y en a pas, dans l'administration.
+Un vieux pigeon gris, la plume mitée, te regarde de son œil rond. Il a l'air de te reconnaître. Il a porté ton portrait officiel, il y a soixante ans, dans toutes les mairies de la Terre.
+« Roucou », dit-il. Ça veut dire : « Vous voulez envoyer quelque chose ? »
+~gontran: Gontran attache un communiqué à chaque patte. Le même partout : « Le Président est serein. »
+* gpa_17 coe9 | Penser au pigeon : « Oui. Au Carrefour. Dites-leur que j'arrive, et que j'ai peur. » | Tu blanchis. Le vieux pigeon penche la tête. Les pigeons-coursiers ne savent pas lire, mais ils savent ce qu'on veut envoyer : c'est leur métier. Il s'envole sans étui, sans papier, vers le Carrefour. Il arrivera avant toi. Il ne portera rien, et tout le monde, en le voyant, comprendra que quelqu'un a peur. | Le vieux pigeon attend. Puis Gontran lui attache un communiqué à la patte. « Le Président est serein. » Le pigeon s'envole, la plume basse. | +flag:p_pigeon mor+1 |
+* gpa_17 | Regarder les pigeons s'envoler | Ils partent dans toutes les directions, avec le même message. Ils ont l'air de ne pas y croire. | |
+
+@gpa_17b
+!title: La nuit au Palais
+La nuit. Anselme est parti. Gontran dort sur une banquette du couloir, en parlant. Il traduit tes rêves : « Le Président rêve de banquets. » Tu ne dors pas. Les galets ne dorment pas. Ils attendent le matin, et le matin vient, et ils l'attendent encore.
+Par la fenêtre, la Lune. Le crochet d'or brille dans son flanc. Une chaîne invisible tire, et toute la nuit, la Lune descend d'un cheveu vers l'horizon, comme quelqu'un qui recule vers une porte.
+Dans la salle ronde, la pendule fait tic-tac. Le veilleur de nuit passe, un vieil Horloger en pantoufles, avec une lanterne. Il s'arrête devant toi. Il ne sait pas pourquoi. Il ne s'arrête jamais.
+?flag:p_saupiquet Il pose sur la table, à côté de toi, un bol de soupe fumante, couvert d'une assiette. Il y a un mot dessus : « Pour le Président. Au cas où. S. »
+* gpa_18 coe8 | Penser au veilleur : « Restez un peu. » | Tu blanchis, côté lanterne. Le veilleur le voit. Il pose sa lanterne par terre, et il s'assoit sur la chaise d'Anselme, sans rien dire. Il reste jusqu'à l'aube. Tu n'as jamais passé une nuit avec quelqu'un. C'est bien. Personne ne parle. | Le veilleur reste un instant, puis il secoue la tête et reprend sa ronde. Ses pantoufles s'éloignent dans le couloir. | mor+1 |
+* gpa_18 | Regarder la Lune descendre, toute la nuit | Tu la regardes reculer vers la porte. Au matin, elle a perdu un cheveu de ciel. Personne d'autre ne l'a vu. | |
+
+# ---------------------------------------------------------------- LE CARREFOUR
+
+@gal_01b
+!title: La file des doléances
+Après le discours, une file se forme au pied de la tribune. Ce n'est pas pour serrer ta main, cette fois. C'est pour te parler. Toutes les espèces ont quelque chose à dire au Président, et personne ne l'a jamais fait, parce que personne ne savait que c'était permis. Ça ne l'est pas. Mais la Lune s'en va, alors on ose.
+Une Marégrave dont la maison est à sec. Un Gravitaire qui ne dort plus, parce que la Terre penche. Un vieux Vent qui n'a plus de nuages à pousser.
+Et une toute petite Lunatique, ronde et pâle comme une bougie, qui ne dit rien du tout. Elle pose devant toi un fil de lumière de Lune, enroulé sur une bobine de bois. Le dernier qu'elle a tiré. « Pour que vous vous souveniez de quoi elle est faite », dit-elle, et elle s'en va.
+?flag:p_pigeon Au-dessus de la file, un vieux pigeon gris tourne en rond, sans étui à la patte. Les gens le regardent, et ils se taisent un peu. Ils ont compris que le Président avait peur, lui aussi.
+~gontran: Gontran répond à chacun : « Le Président a bien noté. » Il ne note rien. Tu as tout retenu.
+* gal_02 ?comp:gontran | Penser : « Gardez le fil. Il ne faut pas le perdre. » | Gontran ramasse la bobine. « Le Président collectionne les bobines ! » Il la glisse dans sa poche, contre toi. Il ne sait pas ce que c'est. Elle est tiède. | | +flag:obj_fil_lune |
+* gal_02 coe9 | Écouter chaque doléance jusqu'au bout, sans rien penser d'autre | Tu écoutes. Une heure, deux heures. Tu es un galet : tu as le temps. Les gens le sentent. Ils repartent un peu plus légers, d'avoir parlé à quelqu'un qui écoute vraiment, même s'il ne répond pas. La bobine, on la pose dans la poche, contre toi. | Tu écoutes, mais la file est trop longue, et la moitié des gens repartent sans avoir parlé. La bobine, quelqu'un la pose dans la poche, contre toi. | +flag:obj_fil_lune equ+1 mor+1 | +flag:obj_fil_lune
+
+# ---------------------------------------------------------------- LA FORÊT
+
+@gfo_01d
+!title: Le ruisseau qui remonte
+Sur le chemin du temple, un ruisseau coule à l'envers. Il remonte la pente, vers le sommet de la colline, vers la Lune trop basse. Les poissons nagent à reculons, très étonnés. Les cailloux du fond roulent vers le haut, un par un.
+?comp:gontran Gontran, pour traverser, saute de pierre en pierre. À la troisième, il glisse. Tu tombes de sa poche, dans l'eau.
+?!comp:gontran Au gué, celui qui te porte trébuche. Tu tombes dans l'eau.
+Tu es au fond du ruisseau, au milieu des cailloux qui remontent. Ils t'emportent avec eux. Ils disent, tous ensemble, très lentement : « On monte. On monte. On ne sait pas pourquoi. »
+~xanthin: Xanthin, qui était sur ton flanc, est mouillé. Un lichen mouillé, c'est un lichen vexé pour une heure.
+~ondee: Dame Ondée regarde le ruisseau avec stupeur. « L'eau qui monte. Mais c'est mon métier, de faire monter l'eau. »
+* gfo_02 coe9 | Penser aux cailloux : « Arrêtez-vous. Ce n'est pas là-haut qu'elle est. » | Ce que tu penses passe de caillou en caillou, plus vite que l'eau. Les cailloux s'arrêtent. Ils se calent les uns contre les autres. Le ruisseau, buté contre eux, hésite, et puis il redescend, de mauvaise grâce, dans le bon sens. On te repêche à l'endroit où tu t'es arrêté, au milieu d'un barrage de cailloux qui t'ont écouté. | Les cailloux ne t'entendent pas, l'eau parle trop fort. On te repêche cent mètres plus haut, à côté d'une truite qui nage à reculons et qui a l'air de t'en vouloir. | equ+2 mor+1 |
+* gfo_02 | Se laisser emporter, et attendre qu'on te repêche | On te repêche cent mètres plus haut, près du temple. Le ruisseau a fait le chemin à ta place. | |
+
+# ---------------------------------------------------------------- LES PROFONDEURS
+
+@gpr_09b
+!title: L'Assemblée des Gravitaires
+En redescendant vers l'Axe, on traverse une salle ronde où les Gravitaires tiennent assemblée. Ceux qui ne sont pas assis sur l'Axe sont là, des milliers, et ils votent. La question est simple : faut-il continuer de peser ? Ils pèsent depuis trois jours. Ils sont fatigués. Si la Lune part quand même, à quoi bon ?
+La présidente de séance, une très vieille Gravitaire en granit rose, voit qu'on t'apporte. « Le Président de la Terre ! Qu'il dise, lui ! Faut-il continuer de peser ? »
+Toute l'assemblée se tourne vers toi. Personne n'a jamais demandé ton avis sur une chose aussi lourde.
+~quartz: Dr Quartz, très vite : « Statistiquement, s'ils arrêtent, l'Axe bascule en six heures. S'ils continuent, en quarante. Quarante, c'est plus long. »
+~bartho: Bartholomé : « On ne lâche pas un filet parce qu'il est lourd. On le lâche quand il est vide. »
+* gpr_10 pan10 ?comp:gontran | Penser : « Oui. Encore une nuit. Je vous en supplie. » | Gontran traduit, d'une voix de tribun : « Le Président dit : levez-vous ! » Un silence de mille tonnes. Puis la présidente éclate de rire, un rire de carrière, et toute l'assemblée avec elle. « Se lever ? Nous ? On ne se lève pas, Maître. On n'a jamais su. » Ils retournent tous à l'Axe, en riant, pour peser. Gontran est enchanté de son effet. | Gontran traduit, d'une voix de tribun : « Le Président dit : levez-vous ! » Un murmure. Quelques Gravitaires, fatigués, se lèvent pour de bon et rentrent chez eux. L'Axe le sentira. | equ+2 | equ-2
+* gpr_10 coe9 ?!comp:gontran ?comp:xanthin | Penser : « Oui. Encore une nuit. Je vous en supplie. » | Xanthin le dit, lentement, à toute l'assemblée. Une phrase si lente, pour des Gravitaires, c'est la bonne vitesse. Ils l'écoutent jusqu'au bout. La présidente hoche la tête. « Une nuit. On peut faire une nuit. » Ils retournent tous à l'Axe. | Xanthin le dit, lentement, mais l'assemblée est trop fatiguée pour attendre la fin. Quelques Gravitaires rentrent chez eux. | equ+2 | equ-1
+* gpr_10 coe8 | Ne rien penser, et peser, toi aussi, de tout ton poids, sur la table de l'assemblée | Tu pèses. Tu ne pèses pas grand-chose. Mais tu restes là, immobile, sans demander à partir. Les Gravitaires te regardent. Une pierre qui reste, ça, ils comprennent. Ils retournent à l'Axe, un par un, sans voter. | Tu pèses. Personne ne le remarque. Le vote se fait sans toi. Ils continueront, de justesse. | equ+1 |
+
+# ---------------------------------------------------------------- LES HAUTS-NUAGES
+
+@gnu_02b
+!title: La poste des Vents
+Au milieu des nuages, une baraque de planches, avec une enseigne qui grince : « Centre de tri des Vents. Courrier aérien. » À l'intérieur, des Vents de service trient des lettres en soufflant dessus. Celles qui partent vers le nord, un souffle à gauche. Vers le sud, un souffle à droite.
+Sur une étagère, une enveloppe bleue que personne n'ose souffler. Adresse : « À la Lune, en mains propres. » Pas d'expéditeur. Elle est là depuis des années. Aucun Vent ne monte si haut.
+Le chef de tri, un Vent d'ouest en manches de lustrine, te regarde. « Vous, vous allez peut-être plus haut que nous, non ? Avec votre rang. »
+~ondee: Dame Ondée rougit de violet. Elle connaît cette lettre. Elle ne dit pas comment.
+~echo: Écho répète le bruit des lettres qu'on souffle : « ...fff. Fff. » Les Vents trouvent ça très professionnel.
+* gnu_03 coe9 | Penser à la lettre : « Je la porterai, si je peux. » | Tu blanchis, du côté de l'étagère. Le chef de tri le voit. Il souffle l'enveloppe bleue, une seule fois, très doucement, et elle se pose contre toi. « En mains propres. Vous n'avez pas de mains. C'est encore plus propre. » | Le chef de tri attend, puis il range l'enveloppe sur son étagère. « Ce sera pour une autre fois. Elle a l'habitude d'attendre. » | +flag:obj_lettre_vent |
+* gnu_03 ?comp:gontran | Penser : « Gontran, prenez la lettre bleue. » | Gontran traduit : « Le Président veut envoyer une carte postale ! » Il en achète une, écrit « Le Président est serein » au dos, et la fait souffler vers le Carrefour. La lettre bleue reste sur l'étagère. | |
+* gnu_03 | Sortir, vers les nuages dégonflés | Les Vents reprennent leur tri. Derrière toi, la lettre bleue attend encore. | |
+
+# ---------------------------------------------------------------- LA DERNIÈRE NUIT
+
+@gal_nuit1
+!title: Ceux qui ne dorment pas
+Le feu baisse. On s'endort, un par un, autour de toi. Ceux qui restent éveillés sont ceux qui ont peur, et ceux qui n'ont jamais dormi.
+?comp:gontran Gontran ne dort pas. Il est assis à côté de toi, son carnet sur les genoux. Il prépare le discours de demain. Il écrit une phrase, il la barre, il en écrit une autre. Il te regarde. « Vous savez, Monsieur le Président, je n'ai jamais su ce que vous pensiez. » Il le dit tout bas, comme on avoue quelque chose. « Je l'ai toujours dit très fort, pour que personne ne remarque que je ne savais pas. »
+?!comp:gontran ?flag:p_gontran_parti Gontran n'est plus là. Sa place, au bord du feu, est restée vide. Personne ne s'y assoit. C'est étrange : il prenait beaucoup de place.
+?!comp:gontran ?flag:p_gontran_compris Quelqu'un a déposé une enveloppe près de toi, au bord du feu. Elle est de Gontran. Dedans, une seule phrase : « Je ne savais pas qu'il y avait quelque chose à entendre. Pardon. G. V. »
+?comp:xanthin Xanthin, sur ton flanc, fait semblant de dormir. Il écoute tout ce que tu penses cette nuit. Il ne le répétera jamais.
+~bartho: Bartholomé ne dort pas. Il regarde la Lune. Il compte ses cratères à voix basse. Il en manque un, d'après lui. C'est celui de Perline.
+~melusine: Tante Mélusine dort assise, en tricotant. Ses aiguilles continuent toutes seules. Elle ronfle en majuscules.
+~quartz: Dr Quartz ne dort pas : les Cristallines ne dorment jamais. Elle relit ses mesures à la lueur du feu, en soulignant.
+~anatole: Anatole tourne autour du feu, lentement, malgré lui. Chaque tour, il s'excuse.
+* gal_nuit2 ?comp:gontran | Penser : « Moi non plus, je ne savais pas que vous aviez peur. » | Gontran ne t'entend pas. Mais il pose son carnet. Il ne finit pas le discours. Il reste assis à côté de toi, à regarder le feu, sans rien dire. C'est la première fois, en quarante ans, qu'il ne dit rien à côté de toi. Vous êtes deux à vous taire. C'est presque une conversation. | | +flag:p_gontran_tait mor+1 |
+* gal_nuit2 | Regarder ceux qui dorment | Ils dorment autour de toi, comme autour de quelque chose d'important. Tu ne savais pas que tu l'étais. | |
+
+@gal_nuit2
+!title: Avant l'aube
+Il reste quelques heures avant que les moteurs du Promontoire démarrent. Ils démarreront tout seuls, à l'aube, comme prévu. La Lune partira. Tout le monde le sait. Personne ne le dit.
+Au-dessus du Carrefour, la Lune est si basse qu'on entend presque la chaîne d'or grincer.
+?flag:obj_fil_lune Dans la poche, la bobine de fil de lumière est encore tiède. Elle tire un peu, vers le haut, comme un cerf-volant.
+?flag:obj_lettre_vent Dans la poche, l'enveloppe bleue. « À la Lune, en mains propres. »
+?flag:p_cale Tu as encore la rayure de l'Axe, sur le côté. Elle te gratte un peu, quand tu penses à la Terre qui penche.
+?flag:p_perline Bartholomé a sorti la lettre de Perline. Il la relit à la lueur du feu, sans bruit.
+~xanthin: Xanthin, très bas : « Demain... on fera... ce que vous... penserez. Je le dirai. Promis. »
+~basile: Basile Grumeau, sur une pierre, pense à autre chose de toutes ses forces. On l'entend presque penser aux trombones.
+~echo: Écho répète le grincement de la chaîne, tout bas, pour qu'on n'oublie pas qu'il faut se lever tôt.
+* gal_nuit3 coe9 | Penser à tous ceux qui sont là : « Quoi qu'il arrive, merci. » | Tu blanchis, d'un côté, puis de l'autre, puis tout entier, doucement, comme une Lune qui se lève. Ceux qui ne dorment pas le voient. Ils ne savent pas ce que ça veut dire. Ils devinent. Ils devinent juste. | Tu penses fort, mais le feu est trop bas pour qu'on te voie blanchir. Tu le penses quand même. Ça compte aussi. | mor+1 |
+* gal_nuit3 | Attendre, sans rien penser | Tu attends. Puis, dans le noir, quelqu'un traverse la plaine avec une enveloppe dorée. | |
+
+# ---------------------------------------------------------------- SCÈNES SUPPLÉMENTAIRES (2)
+
+@gpa_04b
+!title: Le courrier du Président
+Avant les audiences, le courrier. Une secrétaire Horlogère, Mademoiselle Ressort, ouvre les lettres adressées au Président et les lit à voix haute, pendant que Gontran choisit les réponses. Il y en a trois sortes : « Le Président vous remercie », « Le Président prend note », et « Le Président est serein ».
+Ce matin, il y a une lettre d'enfant, au crayon, avec des fautes. « Monsieur le Président. Comment vous vous appelez ? Moi c'est Nénuphar. J'ai six ans. Est-ce que vous avez peur de la Lune qui bouge ? Moi oui. »
+Mademoiselle Ressort se tait. Elle regarde Gontran. Gontran cherche dans ses trois réponses. Aucune ne va.
+~gontran: Gontran se racle la gorge trois fois. Il n'a jamais reçu de question à laquelle il ne pouvait pas répondre.
+* gpa_05 ?comp:gontran | Penser : « Dites-lui que oui. Que j'ai peur aussi. » | Gontran dicte : « Le Président est serein. » Mademoiselle Ressort écrit. Puis, quand Gontran a le dos tourné, elle ajoute au crayon, en bas de la lettre, très petit : « Il a pâli d'un côté en lisant la vôtre. Je crois qu'il a peur aussi. » Elle ne sait pas pourquoi elle l'a écrit. | | +flag:p_nenuphar |
+* gpa_05 coe9 | Penser à l'enfant, très fort, son nom à toi en entier | Tu penses ton nom. Personne ne l'entend. Mais Mademoiselle Ressort, en pliant la lettre, voit que tu as blanchi, d'un côté, comme une page qu'on vient d'écrire. Elle garde la lettre de Nénuphar. Elle ne la classe pas. Elle la pose sous ton coussin, à côté de l'annonce. | Tu penses ton nom. Personne ne l'entend. La lettre de Nénuphar part aux archives, dans le classeur « Divers ». | +flag:p_nenuphar +flag:p_nom_pense mor+1 |
+* gpa_05 | Laisser Gontran choisir une réponse | « Le Président vous remercie. » La lettre part. Quelque part, une enfant de six ans saura que le Président la remercie. Elle ne saura pas de quoi. | |
+
+@gtr_02b
+!title: Le wagon-restaurant
+Après le tunnel, Gontran a faim. Il t'emporte au wagon-restaurant et te pose sur la nappe, contre le pot de moutarde, face à la vitre.
+À la table voisine, un monsieur seul, en manteau gris boutonné jusqu'au menton, un chapeau trop enfoncé, une écharpe sur le bas du visage. Il ne mange pas. Il regarde le paysage avec une attention extrême, comme quelqu'un qui fait l'inventaire de ce qu'il voit. Quand il tourne la tête, une feuille d'or brille une seconde, sous le chapeau, et disparaît.
+Il te voit. Il te regarde longtemps. Il a l'air de quelqu'un qui reconnaît une belle chose, et qui en a envie, et qui a honte d'en avoir envie.
+~gontran: Gontran commande deux menus : un pour lui, un pour le Président. Il mange les deux.
+* gtr_03 coe9 | Penser au monsieur gris : « Vous regardez la Terre comme si vous l'achetiez. » | Tu blanchis, côté table voisine. Le monsieur le voit. Il sursaute, comme pris en faute. Il remonte son écharpe, paie son café sans l'avoir bu, et quitte le wagon. À la porte, il se retourne, une seconde. Tu ne sais pas qui c'est. Tu sauras le reconnaître. | Le monsieur ne voit rien. Il continue de regarder le paysage, puis toi, puis le paysage, comme s'il comparait les prix. Il descend à la gare suivante. | +flag:p_train_platine | +flag:p_train_platine
+* gtr_03 | Regarder le paysage, comme lui | Vous regardez la même chose, chacun de son côté de la vitre. Un champ, une rivière, une vache. Il a l'air de les voir pour la première fois. Toi aussi. | | +flag:p_train_platine |
+
+@gfo_02b
+!title: Le peintre
+Au bord du cercle de pierres blanches, le peintre de passage a fini son tableau. Il le retourne vers toi. C'est un portrait de Gontran, de dos, et à côté, un petit caillou gris sur une grande pierre blanche. Le caillou est très réussi. On voit qu'il pense.
+« Je peins ce qui ne bouge pas », dit le peintre, un vieux Lunatique tout pâle, avec un béret. « Les gens bougent, alors je les peins de dos, ça va plus vite. Vous, je vous ai eu de face. C'est rare. »
+~gontran: Gontran se reconnaît de dos. « Mon meilleur profil », dit-il, sincèrement.
+~melusine: Tante Mélusine regarde le tableau. « LE CAILLOU EST TRISTE. ON LE VOIT. MOI JE LE VOIS. »
+* gfo_03 coe8 | Penser au peintre : « Gardez-le. C'est le seul portrait où je pense. » | Le peintre te regarde. Il ne t'a pas entendu. Mais il voit le caillou pâlir, en vrai, exactement comme sur son tableau. Il en a les larmes aux yeux. « Prenez-le. Il est à vous. Je n'avais jamais peint quelque chose de vrai. » Il roule la toile, petite comme une carte, et la glisse dans la poche, contre toi. | Le peintre range son tableau dans sa sacoche, avec les autres dos. Il te salue de son béret. | +flag:obj_portrait mor+1 |
+* gfo_03 | Laisser le peintre ranger son tableau | Il le range avec ses autres tableaux : quatre cents dos et un caillou de face. | |
+
+@gpr_01b
+!title: Les fossiles
+La benne descend dans le Grand Puits. Sur les parois, à la lueur de la lampe, défilent des couches de roche, de toutes les couleurs, comme les pages d'un livre fermé. Dans les pages, des fossiles : des coquillages, des fougères, des poissons, très vieux.
+Et, dans une couche grise, à mi-hauteur, un galet. Un galet comme toi, pris dans la roche depuis des millions d'années. Il pense, très lentement, plus lentement que toi. Il pense une seule chose, depuis toujours : « La Lune est au-dessus. »
+Il ne l'a jamais vue. Il le sait, c'est tout.
+~xanthin: Xanthin écoute le galet fossile. « C'est... un ancêtre ? Il pense... plus lentement... que vous. Je ne... croyais pas... que c'était possible. »
+* gpr_02 coe9 | Penser au galet fossile : « Elle est toujours au-dessus. Pour l'instant. » | Ta pensée traverse la roche jusqu'à lui. Il met une éternité à la recevoir. Puis, dans la couche grise, il pense, pour la première fois depuis des millions d'années, une deuxième chose : « Bien. » La benne continue de descendre. | Ta pensée se perd dans la roche, entre deux fougères. Le galet fossile continue de penser la même chose. Il a raison, encore, pour quelques heures. | mor+1 |
+* gpr_02 | Regarder les couches défiler | Des millions d'années, de haut en bas, en trois minutes de benne. Tu te sens jeune, pour la première fois. | |
+
+@gnu_10b
+!title: La longue-vue
+Avant que tu repartes, la mouette du phare sort de sa poche de ciré une longue-vue de laiton, cabossée, très vieille. « Elle a appartenu à un capitaine qui cherchait la Lune dans les nuages. Il l'a trouvée. Elle était derrière lui. »
+Elle la braque sur le Promontoire, au bout de la chaîne d'or, et elle te la colle contre le flanc, pour que tu regardes. Derrière une baie vitrée, dans un bureau de marbre, une silhouette mince, toute en feuilles d'or, regarde la Lune. Elle ne sourit pas. Elle a l'air de quelqu'un qui regarde une chose qu'il a achetée et qui n'est pas contente d'être là.
+?flag:p_train_platine Tu as déjà vu cette silhouette. Dans le wagon-restaurant, sous un chapeau trop enfoncé, avec une feuille d'or qui brillait.
+~gaspard: Gaspard regarde aussi. « Il a l'air seul, ce monsieur. J'ai été seul deux siècles dans une nacelle. Je connais cette tête. »
+* gnu_11 ?comp:gontran | Penser : « Gontran, gardez la longue-vue. » | Gontran prend la longue-vue des mains de la mouette. « Le Président accepte ce cadeau au nom de la Terre ! » La mouette hausse les épaules. Elle voulait la prêter. Elle la donne. Gontran la glisse dans la poche, contre toi. | | +flag:obj_longue_vue |
+* gnu_11 coe9 ?!comp:gontran | Penser à la mouette : « Prêtez-la-moi. Je vous la rendrai. » | Tu blanchis, contre le laiton. La mouette le sent. « Prenez. Rapportez-la quand la Lune sera revenue. Ou pas. Elle est faite pour chercher. » On glisse la longue-vue contre toi. | La mouette reprend sa longue-vue et retourne à sa manivelle. | +flag:obj_longue_vue |
+* gnu_11 | Rendre la longue-vue à la mouette | Elle la range dans son ciré. « La Lune est derrière vous, Monsieur. N'oubliez pas. » | |
+
+# ---------------------------------------------------------------- SCÈNES SUPPLÉMENTAIRES (3)
+
+@gpa_14b
+!title: L'ascenseur du Cadastre
+Pour descendre aux archives, il faut prendre l'ascenseur du Cadastre : une cage de fer forgé, et dedans, sur un tabouret, une liftière Gravitaire, Madame Basalte, qui monte et descend depuis deux cents ans. Elle connaît les quarante étages par cœur, du sous-sol moins quatre au toit. Elle n'a jamais dépassé le toit.
+« Archives ? Sous-sol moins deux. » Elle tire la manette. Pendant la descente, elle regarde vers le haut, par la grille, comme toujours. « Vous savez, Monsieur le Président, j'ai toujours voulu monter plus haut que le toit. Jusqu'à la Lune. Une fois. Pour voir le dernier étage. » Elle rit. « Il paraît qu'on l'a vendue. Je ne verrai jamais le dernier étage. »
+~gontran: Gontran consulte sa montre. « Le Président est attendu, Madame. Plus vite, s'il vous plaît. » L'ascenseur ne va pas plus vite. Il n'est jamais allé plus vite.
+* gpa_15 coe9 | Penser à Madame Basalte : « Si je le vois, le dernier étage, je penserai à vous. » | Tu blanchis, côté grille, du côté tourné vers le haut. Madame Basalte le voit, parce qu'elle regarde toujours vers le haut. Elle se tait jusqu'au sous-sol. Puis, en ouvrant la grille : « Merci, Monsieur le Président. Je ne sais pas de quoi. Mais merci. » | Madame Basalte ne voit rien : elle regarde trop haut. Elle ouvre la grille au sous-sol moins deux, comme tous les jours. | +flag:p_basalte mor+1 |
+* gpa_15 | Regarder les étages défiler | Sous-sol moins un, sous-sol moins deux. Des couloirs de classeurs, à perte de vue. La Terre entière est rangée là, en papier. | |
+
+@gtr_01b
+!title: Le contrôleur
+Le contrôleur passe dans le compartiment, un vieux Horloger à casquette, avec une pince à poinçonner. « Billets, s'il vous plaît. »
+Gontran sort une carte de première classe, puis il désigne le galet sur la tablette. « Le Président de la Terre. Il voyage sans billet. Article premier. »
+Le contrôleur regarde le caillou. Il ne connaît pas l'article premier. Il connaît le règlement des chemins de fer, qui ne fait pas d'exception pour les cailloux. « Tout voyageur doit avoir un billet. Même petit. » Il sort de sa poche un billet vierge, le plus petit modèle, celui des enfants. Il hésite au-dessus de la case « destination ».
+~gontran: Gontran est outré. « On ne poinçonne pas un chef d'État ! » Le contrôleur ne répond pas. Il a déjà poinçonné un archevêque.
+* gtr_02 coe9 | Penser au contrôleur : « Aller simple. Je ne sais pas si je reviendrai. » | Tu blanchis, côté billet. Le contrôleur le voit. Il regarde le caillou longtemps. Puis il poinçonne la case « aller simple », très doucement, et pose le billet contre toi. « Bon voyage, Monsieur. J'espère que vous reviendrez quand même. On ne sait jamais, avec les allers simples. » | Le contrôleur poinçonne « aller-retour », par habitude, et pose le billet contre toi. Tu le gardes. Tu n'as jamais eu de billet. | +flag:p_aller_simple |
+* gtr_02 | Laisser Gontran s'indigner | Gontran s'indigne pendant dix minutes. Le contrôleur attend la fin, poinçonne un billet enfant « aller-retour », et le pose contre toi sans un mot. | |
+
+@gfo_03d
+!title: La limace
+Au fond de la serre, entre deux pots, une très vieille limace grise traverse l'allée. Elle la traverse depuis ce matin. Elle va de la fleur fanée de gauche à la fleur fanée de droite. Elle n'est pas pressée. Elle a le temps. Comme toi.
+On te pose dans l'allée, par mégarde, juste sur son chemin.
+Elle s'arrête contre toi. Elle te regarde de ses deux petites cornes. Elle ne fait pas le tour. Elle attend que tu bouges. Tu ne bouges pas. Tu ne peux pas.
+~anatole: Anatole se précipite, affolé, tout poli : « Pardon, Madame ! Pardon ! On va déplacer Monsieur le Président ! »
+~xanthin: Xanthin, très intéressé : « Enfin... quelqu'un... à ma vitesse. »
+* gfo_04 coe8 | Penser à la limace : « Montez. Je ne bouge pas, mais je ne glisse pas. » | Elle ne t'entend pas. Mais elle sent que tu ne bougeras pas, et que tu n'es pas pressé de la voir partir. Alors elle monte. Elle traverse ton dos, lentement, en laissant une petite traînée brillante, et elle redescend de l'autre côté. Ça lui prend une heure. Tu ne t'es jamais senti aussi utile. Tu es un pont. | Elle attend. Puis elle fait le tour, très lentement, et vexée. Tu as été un obstacle. Tu n'aimes pas ça. | mor+1 |
+* gfo_04 | Laisser Anatole te déplacer | Anatole te soulève, avec mille excuses à la limace, et te pose sur une étagère. La limace reprend sa route. Elle arrivera à la fleur de droite demain. | |
+
+@gpr_06b
+!title: Le lac noir
+Après les grottes, le chemin longe un lac souterrain, noir, parfaitement immobile. Pas une ride. On dirait du verre. Au milieu, une barque, et dans la barque, une vieille taupe passeuse, en ciré, avec une rame qu'elle ne bouge pas.
+« Le lac ne bouge plus depuis trois jours », dit-elle. « Il bougeait avec la Lune, avant. Une petite marée, sous la terre, deux centimètres. Personne ne le savait. Moi, je le savais. Maintenant, il attend. »
+On te pose au bord. L'eau noire te reflète. C'est la première fois que tu te vois. Tu es plus petit que tu ne pensais. Plus gris aussi.
+~bartho: Bartholomé s'agenouille au bord du lac et met la main dans l'eau. Elle est froide. Elle est douce. « Il a une marée, ce lac. Je la sens. Elle dort. »
+~echo: Écho répète le silence du lac. Il n'y a rien à répéter. Elle le répète très bien.
+* gpr_07 coe9 | Penser au lac : « Bouge. Deux centimètres. Pour elle. » | Ce que tu penses passe par la pierre du bord, jusqu'au fond. Le lac frissonne. Une ride, une seule, part de ton reflet et traverse jusqu'à la barque. La taupe passeuse lève la tête. « Deux centimètres. » Elle rame, une fois, de joie. | Le lac reste noir, immobile. Tu te regardes dedans, longtemps. Tu te trouves l'air triste. | equ+1 mor+1 |
+* gpr_07 | Se regarder dans l'eau noire | Un galet gris clair, un côté lisse, un côté rugueux. Tu ne savais pas lequel était le bon. Les deux, sans doute. | |
+
+@gnu_04b
+!title: Les nuageons
+Autour de la grande nuée violette, des dizaines de petits nuages, à peine nés, qui ne savent pas encore pleuvoir. Ce sont les filles des filles de Dame Ondée : les pompes ont pris leurs mères. Elles flottent en rond, perdues, en se tenant par la vapeur.
+Une d'elles, la plus petite, vient se poser sur toi. Elle est froide et légère. Elle sent la pluie d'avant. Elle ne pèse rien. Toi, tu pèses : elle s'accroche à toi pour ne pas s'envoler vers les pompes.
+~ondee: Dame Ondée regarde ses petites-filles. Elle gronde, très bas, comme on retient ses larmes.
+* gnu_05 coe9 | Penser à la petite : « Reste là. Je suis lourd. Rien ne t'emportera. » | Elle ne t'entend pas, mais elle sent que tu ne bouges pas. Elle se met en boule sur toi, et elle s'endort. Les autres nuageons viennent s'accrocher à elle, une par une, et bientôt tu es un caillou qui porte un petit nuage endormi. Les pompes, au loin, aspirent dans le vide. | Elle s'accroche, mais une rafale l'emporte vers les pompes. Dame Ondée la rattrape de justesse, d'un bord. Elle gronde longtemps. | equ+1 mor+1 |
+* gnu_05 | La laisser flotter | Elle repart, en rond, avec les autres. Elle cherche quelque chose de lourd. Il n'y a que des nuages, ici. | |
+
+@gal_nuit3
+!title: Le dernier Conseil
+Dans le noir, on sonne la cloche. Le Conseil des Espèces se réunit une dernière fois, à la lueur des lanternes, autour de la grande carte. Les délégués ont les yeux rouges. Personne n'a dormi.
+On te pose au centre de la carte. Comme la première fois. Il y a quelques jours, le Conseil a duré quatre minutes. Cette nuit, la présidente de séance, une vieille Lunatique, annonce : « Nous n'avons plus le temps de délibérer. Une seule question. Que pense le Président ? »
+Toute la tente se tourne vers toi. Cette fois, ils veulent vraiment le savoir.
+?comp:gontran Gontran se lève, puis se rassoit. Il ne sait pas ce que tu penses. Il le sait, maintenant, qu'il ne le sait pas.
+?comp:xanthin Xanthin attend sur ton flanc. Il dira ce que tu penseras. Il l'a promis.
+?!comp:gontran ?!comp:xanthin Personne ne parle pour toi. Personne ne t'entend. Mais ils attendent quand même, longtemps, et ce long silence ressemble à une réponse.
+?flag:p_gazette_vraie Sur la table, la Gazette d'hier : « LE PRÉSIDENT : "AIDEZ-MOI." » Ils l'ont tous lue.
+* gfi_01 ?comp:xanthin | Penser : « Je ne sais pas. Mais je ne veux pas qu'elle parte. » | Xanthin le dit. Ça prend une minute. Personne ne bouge. À la fin, la présidente de séance hoche la tête. « Moi non plus. » Puis un Gravitaire : « Moi non plus. » Puis toute la tente, un par un. Le Conseil dure quatre minutes, encore. C'est assez. | | mor+1 |
+* gfi_01 ?comp:gontran ?!comp:xanthin | Penser : « Je ne sais pas. Mais je ne veux pas qu'elle parte. » | Gontran ouvre la bouche. Il la referme. Puis il dit, tout bas, pour la première fois de sa vie : « Je ne sais pas ce que pense le Président. » La tente se tait. La présidente le regarde, longtemps. « Merci, Maître Verbiage. C'est la première chose vraie que vous dites. » Le Conseil se lève. | | +flag:p_gontran_aveu |
+* gfi_01 | Ne rien penser, et laisser le Conseil regarder | Ils te regardent. Tu ne dis rien. Tu n'as jamais rien dit. Ce soir, pour la première fois, ils comprennent que ce n'est pas rien. | |

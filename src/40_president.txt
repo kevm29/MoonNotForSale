@@ -3,35 +3,234 @@
 # On choisit ce que pense le galet. Ce que le monde entend, c'est
 # Maître Gontran Verbiage, qui ne traduit jamais ce qu'on a pensé :
 # chaque pensée a sa fausse traduction, toujours la même.
-# Xanthin, jeune Lichenaute, entend vraiment le galet quand il pousse dessus, et donne les vraies traductions.
-# Il roule lentement, comme tous les Lichenautes, et il est relié par la Toile à son lointain parent Basile Grumeau.
+# Le galet a un nom que personne ne connaît. On ne l'écrit jamais.
+# Xanthin, jeune Lichenaute, n'apparaît qu'APRÈS le Conseil des Espèces (quatre minutes).
+# Il entend vraiment le galet quand il pousse dessus, et donne les vraies traductions.
+# Il est relié par la Toile à son lointain parent Basile Grumeau, greffier : l'homme de loi.
 # Le galet ne bouge pas : tout passe par ceux qui le portent.
-# Préfixes : gal_ (Carrefour), gco_ (Côtes), gca_ (Capitale), gfo_ (Forêt), gfi_ (dernière nuit)
+# Préfixes : gpa_ (Tamponville, le Palais, le Cadastre), gtr_ (le voyage), gal_ (Carrefour),
+# gco_ gfo_ gpr_ gnu_ (régions, fichier 43), gfi_ gmo_ (fin, fichier 44)
 # ================================================================
 
-@gal_01
-!title: Huit cents ans de silence
-!fx: +comp:gontran
-Tu es le Président de la Terre. Tu es un galet gris clair, posé sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces. On t'a élu il y a huit cents ans parce que tu n'avais jamais rien dit de faux. Tu n'as jamais rien dit du tout. C'est une qualité qu'on ne trouve plus.
-Tu penses. Lentement, mais tu penses. Personne ne le sait, parce que personne ne l'a jamais demandé à un caillou.
-Au-dessus de la plaine, la Lune pend à un crochet d'or. Tu la regardes depuis toujours. Ce soir, elle a l'air d'une lanterne qu'on décroche après la fête.
-À côté de ton coussin, en sueur, se tient Maître Gontran Verbiage. Personne ne l'a jamais nommé interprète. Il s'est assis là il y a quarante ans, il a commencé à traduire ton silence, et personne n'a osé lui demander de quoi. Il t'emmène partout, dans sa poche gauche, parce que, dit-il, « l'article premier de la Constitution est formel : la Terre s'étend partout où repose son Président ».
-La foule se tait. Tout le monde attend que tu parles. Gontran s'éclaircit la gorge.
-* gal_02 | Penser : « Il faut faire quelque chose pour la Lune. » | Gontran lève les bras : « Le Président a faim ! » Un silence. Puis quelqu'un court chercher un beignet, et le pose sur ton coussin, avec respect. Tu ne manges pas. Le beignet refroidit à côté de toi comme un conseiller. | | +flag:p_beignet |
-* gal_02 | Penser : « J'ai peur. » | Gontran bombe le torse : « Le Président n'a peur de rien ! Le Président propose qu'on monte là-haut, à mains nues, dès ce soir ! » La foule rugit. Trois Gravitaires retroussent leurs manches. Tu n'as pas de manches. | | +flag:p_guerre |
-* gal_02 | Ne rien penser du tout, pour une fois | Tu fais le vide. Gontran, lui, ne le fait jamais : « Le Président tient à serrer la main de chacun, personnellement ! » Une file se forme. Pendant une heure, des milliers de mains serrent un galet. Tu es très propre, après. | | +flag:p_mains |
+# ---------------------------------------------------------------- ACTE I : TAMPONVILLE
 
-@gal_02
+@gpa_01
+!title: Huit cents ans de silence
+Tamponville, la Capitale. Au dernier étage du Palais de la Présidence, qui est une aile du Cadastre qu'on a oublié de rendre, il y a une salle ronde, une fenêtre, et un coussin de velours.
+Sur le coussin, il y a toi.
+Tu es le Président de la Terre. Tu es un galet gris clair, lisse d'un côté, un peu rugueux de l'autre. On t'a élu il y a huit cents ans parce que tu n'avais jamais rien dit de faux. Tu n'as jamais rien dit du tout. C'est une qualité qu'on ne trouve plus.
+Tu as un nom. Tu le connais. Tu es le seul. Personne ne te l'a jamais demandé, et tu n'as jamais eu l'occasion de le dire. Alors on t'appelle Monsieur le Président.
+Il est six heures du matin. La porte s'ouvre. C'est l'heure du chiffon.
+* gpa_02 | Penser : « Bonjour, Anselme. » | Tu le penses tous les matins depuis soixante ans. Personne ne l'entend. Ça ne t'empêche pas d'être poli. | |
+* gpa_02 | Penser à ton nom, une fois, pour ne pas l'oublier | Tu le penses, en entier. Il est long, rond et lent, comme une rivière qui a pris son temps. Personne ne l'a jamais entendu. Il est à toi. | |
+* gpa_02 | Ne rien penser, et attendre le chiffon | Tu attends. Tu sais attendre. Tu as attendu des siècles. Six heures et une minute, ça va. | |
+
+@gpa_02
+!title: Le chiffon
+Anselme est ton valet de pied. C'est un vieil Horloger de laiton, à ressort, qui fait tic quand il marche et tac quand il s'arrête. Il te sert depuis soixante ans. Tous les matins, il te soulève, il te frotte avec un chiffon de laine, et il te repose sur le coussin, le côté lisse vers la fenêtre.
+Il est le seul, dans tout le Palais, qui te parle à toi, et pas à ta place.
+« Bonjour, Monsieur le Président. Bien dormi ? Moi non plus. » Il frotte. « Il se passe des choses bizarres, dehors. La mer a oublié de monter, hier soir, à Grève-Molle. Et la Lune... vous avez vu la Lune ? »
+* gpa_03 coe8 | Penser très fort à la fenêtre | Anselme, sans savoir pourquoi, te repose un peu de travers, le côté lisse tourné vers la vitre. Dehors, au-dessus des toits de Tamponville, la Lune. Elle est énorme, ce matin, et basse, et il y a quelque chose de doré planté dedans, qui brille. | Anselme te repose comme tous les jours, le côté lisse vers le mur. Tu regardes le mur. Tu le connais par cœur. Il y a une fissure qui ressemble à une rivière. | +flag:p_vu_crochet |
+* gpa_03 | Penser : « Racontez-moi, Anselme. » | Anselme ne t'entend pas. Mais il raconte quand même, parce qu'il raconte toujours. Les horloges de la ville retardent. Les tampons du Cadastre sèchent mal. Sa femme a rêvé qu'elle tombait vers le haut. | |
+
+@gpa_03
+!title: La Gazette du Cadastre
+Anselme s'assoit à côté de ton coussin, sort ses lunettes et déplie La Gazette du Cadastre. Il te la lit tous les matins, à voix haute, de la première à la dernière ligne. C'est votre moment à tous les deux.
+« Page un : les marées sont en retard sur tout le littoral. Le Bureau des Marées présente ses excuses. Page deux : un Gravitaire signale que l'Axe de la Terre "penche un peu". Page trois : les petites annonces. "Échange lampadaire céleste contre rien. Urgent." » Il fronce les sourcils. « Drôle d'annonce. »
+?flag:p_vu_crochet Tu repenses à la chose dorée plantée dans la Lune. Tu ne sais pas ce que c'est. Tu sais que ça n'était pas là hier.
+* gpa_04 | Penser : « Relisez-moi la page des marées. » | Anselme passe à la page des mots croisés. Il les fait avec toi, depuis soixante ans, en te demandant ton avis. Tu as toujours la bonne réponse. Il ne le sait pas. | |
+* gpa_04 | Penser : « Cette annonce, Anselme. Le lampadaire. » | Anselme replie le journal. Il a l'air soucieux, tout à coup, sans savoir pourquoi. Il découpe l'annonce et la glisse sous ton coussin. « Je ne sais pas pourquoi je fais ça, Monsieur le Président. Une idée. » | | +flag:p_annonce |
+* gpa_04 | Penser : « Merci, Anselme. Pour tout. » | Anselme se tait une seconde. Puis il dit, très bas : « De rien, Monsieur le Président. » Il ne sait pas qu'il vient de répondre à quelque chose. Toi, si. | | mor+1 |
+
+@gpa_04
+!title: Neuf heures
+!fx: +comp:gontran
+Neuf heures. La porte s'ouvre en grand. Un monsieur rond entre, en sueur, en redingote, avec un carnet, une sacoche et une voix déjà lancée avant lui.
+C'est Maître Gontran Verbiage. Personne ne l'a jamais nommé interprète. Il s'est assis à côté de ton coussin il y a quarante ans, il a commencé à traduire ton silence, et personne n'a osé lui demander de quoi. Il parle à ta place. Il ne t'a jamais entendu. Il ne sait pas qu'il y a quelque chose à entendre.
+« Monsieur le Président ! Grosse journée ! » Il te prend, te glisse dans sa poche gauche, et récite comme chaque matin : « Article premier de la Constitution : la Terre s'étend partout où repose son Président. Donc vous venez avec moi. Partout. »
+Anselme baisse les yeux et sort, tic, tac.
+~gontran: Gontran tapote sa poche. « Vous êtes bien installé ? Le Président est bien installé. »
+* gpa_04b | Penser : « Je préférerais rester près de la fenêtre. » | Gontran annonce au couloir vide : « Le Président a hâte de commencer ! » Le couloir ne répond pas. Il a l'habitude. | | +flag:p_t_fenetre |
+* gpa_04b | Penser : « Qu'est-ce qu'on fait, aujourd'hui ? » | Gontran sort son carnet : « Le Président me demande de lui rappeler qu'il est le Président ! Bien sûr, Monsieur le Président. » Il relit son programme à voix haute : audiences, signatures, conférence de presse. | | +flag:p_t_programme |
+* gpa_04b | Ne rien penser, et sentir la poche | La poche sent le tabac, la menthe et les vieilles feuilles de discours. Tu la connais par cœur. C'est ta seconde maison. La première est un coussin. | |
+
+@gpa_05
+!title: Les audiences
+La Salle des Audiences. Une longue file de citoyens attend depuis l'aube pour voir le Président. Gontran te pose sur un petit coussin, sur une table, entre un verre d'eau et une sonnette.
+La première à s'avancer est une vieille Marégrave, faite d'eau de mer, qui tient son bonnet dans ses mains. « Monsieur le Président. Je suis pêcheuse à Grève-Molle. La mer n'est pas montée, hier soir. Ni ce matin. Mes filets sont dans le sable. Qu'est-ce qu'on fait ? »
+Gontran se penche vers toi, comme pour écouter. Il n'écoute pas.
+* gpa_06 | Penser : « Je suis désolé. Je vais chercher pourquoi. » | Gontran traduit : « Le Président vous conseille de pêcher dans le sable ! » La vieille Marégrave le regarde. Elle te regarde. Elle repart sans un mot. Elle a l'air de quelqu'un qui reviendra. | | +flag:p_aud_peche |
+* gpa_06 | Penser : « La mer suit la Lune. Regardez la Lune. » | Gontran traduit : « Le Président vous souhaite un bon appétit ! » La Marégrave fronce les sourcils. Puis, sans savoir pourquoi, en sortant, elle lève les yeux vers la Lune, par la fenêtre. Elle s'arrête. Elle a vu la chose dorée. | | +flag:p_aud_peche +flag:p_aud_lune |
+* gpa_06 | Ne rien penser, et la regarder | Tu la regardes. Gontran traduit ton silence : « Le Président est profondément ému ! » C'est vrai, pour une fois. Mais ce n'est pas lui qui le sait. | | +flag:p_aud_peche |
+
+@gpa_06
+!title: La deuxième audience
+Ensuite s'avance une toute petite Gravitaire, une enfant de granit à peine plus haute que la table, qui tient une boîte à chaussures. Elle l'ouvre devant toi. Dedans, des cailloux. Des dizaines. Bien rangés.
+« C'est ma collection, Monsieur le Président. Je voulais vous demander... est-ce que vous avez une famille ? Parce que celui-là, il vous ressemble. » Elle te montre un petit galet gris avec une tache blanche.
+?comp:gontran Gontran sourit, attendri, et prépare déjà sa traduction.
+* gpa_07 | Penser : « J'ai eu un neveu. On me l'a pris il y a longtemps. » | Gontran traduit : « Le Président vous offre une médaille ! » Il en sort une de sa sacoche, en chocolat, et la lui donne. La petite Gravitaire mange la médaille, déçue. Elle ne saura jamais que tu as un neveu. Toi, tu y penses toute la matinée. | | +flag:p_pense_neveu |
+* gpa_07 | Penser : « Ils sont très beaux. Gardez-les bien. » | Gontran traduit : « Le Président réquisitionne votre collection pour le musée national ! » La petite Gravitaire serre sa boîte, terrifiée, et s'enfuit en courant. Les cailloux s'entrechoquent dans la boîte comme une petite pluie. | |
+* gpa_07 coe9 | Penser, très fort, vers la boîte : « Bonjour. » | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Mais dans la boîte, les cailloux, eux, ont entendu. Pas des mots : une vibration. La petite Gravitaire sent sa boîte frémir dans ses mains. Elle te regarde, les yeux ronds. Elle a compris quelque chose que personne ne comprend. | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Les cailloux de la boîte ne bougent pas. Ils dorment. La plupart des cailloux dorment. | +flag:p_aud_vibre |
+
+@gpa_07
+!title: La troisième audience
+Le dernier à s'avancer est un vieux papillon gris, un Noctuelle, qui tient une fleur fanée. « Monsieur le Président. Je suis jardinier de nuit. Mes belles-de-nuit ne s'ouvrent plus. Elles s'ouvrent quand la Lune passe. Elle passe de travers, ces jours-ci. » Il pose la fleur sur la table, à côté de toi. « Je voulais juste que vous le sachiez. »
+* gpa_07b | Penser : « Je le sais. Merci de me l'avoir dit. » | Gontran traduit : « Le Président adore les fleurs séchées ! Il en fera une collection ! » Le papillon s'incline. Il ne sait pas s'il doit être content. Il laisse la fleur. Elle reste à côté de toi jusqu'au soir. | | +flag:p_fleur_vue |
+* gpa_07b | Penser : « Quelqu'un est en train de déplacer la Lune. » | Gontran traduit : « Le Président déclare la saison des fleurs ouverte ! » Le papillon repart. À la porte, il se retourne, et il te regarde longtemps, comme s'il avait entendu autre chose. Il n'a rien entendu. Il a regardé. | | +flag:p_fleur_vue |
+
+@gpa_08
+!title: Les signatures
+Onze heures. Le Bureau des Signatures. Une pile de papiers haute comme Gontran attend sur une table. Gontran sort de sa sacoche le tampon présidentiel : un tampon de buis, gravé à ton image, un petit galet dans un cercle.
+« Signature par délégation ! » annonce-t-il, et il commence à tamponner. Tamp. Tamp. Tamp. Il ne lit pas. Il n'a jamais lu.
+« Décret sur les nuages en surplus. Tamp. Arrêté sur la couleur des boîtes aux lettres. Tamp. Ah, celui-ci est revenu du guichet zéro, de la semaine dernière... Renouvellement du lampadaire céleste numéro un. Tamp. »
+?flag:p_annonce Tu penses à l'annonce sous ton coussin. « Échange lampadaire céleste contre rien. »
+* gpa_08b coe9 | Penser, si fort que tu en vibres : « Lisez ce que vous tamponnez ! » | Gontran traduit : « Le Président tamponne en confiance ! » Mais tu as vibré si fort que tu as glissé du coussin, et le tampon atterrit à côté, sur la table, de travers. Gontran soupire, reprend le papier pour recommencer, et le lit par accident, à voix haute : « Lampadaire céleste numéro un, dit "la Lune"... cédé à la Compagnie Foncière d'Aldébaran... tamponné par le greffier Basile Gru... » Il s'arrête. Il relit. « Ça doit être une erreur de frappe. » Il tamponne. | Gontran traduit : « Le Président tamponne en confiance ! » et tamponne. Tamp. Le papier part dans la pile des choses faites. Tu ne sauras pas ce qu'il y avait dessus. | +flag:p_lampadaire |
+* gpa_08b | Penser : « Ce tampon n'est pas ma signature. » | Gontran traduit : « Le Président me remercie pour ma belle écriture ! » Tamp. Tamp. Tamp. Le lampadaire céleste numéro un rejoint la pile des choses faites. | | +flag:p_tampon_vu_faire |
+* gpa_08b | Ne rien penser, et compter les tampons | Tu comptes. Trois cent douze. Le trois cent treizième est pour la couleur des boîtes aux lettres. Elles seront vertes. Tu aurais préféré bleues. Tu n'as jamais rien préféré à voix haute. | |
+
+@gpa_09
+!title: Le télégramme
+Midi. Une grande Lichenaute grise traverse le Palais en courant, ce qui chez un lichen veut dire un mètre à la minute. Elle tient un télégramme. Derrière elle, toute une file de fonctionnaires inquiets.
+Gontran l'ouvre, le lit, pâlit, le relit, et le pose sur toi, comme si tu pouvais le lire.
+« DE : COMPAGNIE FONCIÈRE D'ALDÉBARAN. À : CHEF DE L'ÉTAT TERRESTRE. OBJET : LIVRAISON DE LA LUNE, ACQUISE LÉGALEMENT. LE CROCHET EST POSÉ. DÉPART DÉFINITIF DANS QUELQUES JOURS. SIGNÉ : HUISSIER KRÂMM, POUR MONSIEUR GÉDÉON PLATINE. »
+?flag:p_lampadaire Le lampadaire céleste numéro un. La Lune. Tu as été tamponné dessus, par délégation, sans le savoir.
+?flag:p_vu_crochet La chose dorée plantée dans la Lune, ce matin. C'était un crochet.
+* gpa_10 | Penser : « Il faut faire quelque chose. » | Gontran traduit, d'une voix tremblante : « Le Président convoque une conférence de presse ! » C'est déjà quelque chose. Ce n'est pas ce que tu voulais. | |
+* gpa_10 | Penser : « C'est ma faute. Mon tampon est dessus. » | Gontran traduit : « Le Président n'y est pour rien ! » C'est faux. C'est la première fois que quelqu'un dit quelque chose de faux à ta place sur une chose aussi grave. Tu deviens un peu plus gris. | | +flag:p_remords |
+* gpa_10 | Penser : « Pauvre Lune. » | Gontran traduit : « Le Président a faim ! » On t'apporte un beignet, avec respect. Tu ne manges pas. Le beignet refroidit à côté de toi comme un conseiller. | | +flag:p_beignet |
+
+@gpa_10
+!title: La conférence de presse
+Le grand escalier du Cadastre. Des journalistes de toutes les espèces : une taupe myope avec un carnet, trois pies, un Gravitaire avec un appareil photo à manivelle. Gontran te brandit au-dessus de sa tête.
+« Le Président va parler ! »
+Silence. Tout le monde attend. Les flashs crépitent sur ta face lisse.
+* gpa_11 | Penser : « Peuple de la Terre, on nous a volé la Lune. » | Gontran traduit : « Le Président annonce que tout va bien et qu'il fait beau ! » Les journalistes notent. Le lendemain, La Gazette titrera : « TOUT VA BIEN, DIT LE PRÉSIDENT. » Il ne fera pas beau. | |
+* gpa_11 | Penser : « Je ne sais pas quoi faire. » | Gontran bombe le torse : « Le Président a un plan ! Un plan secret ! » Les journalistes applaudissent. Personne ne demande lequel. Toi, tu aimerais bien le connaître, ce plan. | | +flag:p_plan |
+* gpa_11 coe10 | Ne rien penser du tout, pour une fois | Tu fais le vide. Gontran, lui, ne le fait jamais : « Le Président tient à serrer la main de chacun ! » Une file se forme. Pendant une heure, des journalistes serrent un galet. La taupe myope, en te serrant, murmure : « Il est froid d'un côté et chaud de l'autre. Comme quelqu'un qui pense. » Elle note ça dans son carnet. | Tu fais le vide. Gontran annonce que le Président tient à serrer la main de chacun. Une file se forme. Tu es très propre, après. | +flag:p_mains +flag:p_taupe | +flag:p_mains
+
+@gpa_11
+!title: Madame Épine
+On te monte au dernier étage du Cadastre, dans le bureau de la Sous-Directrice. Madame Épine est un cactus de deux mètres, dans un pot de marbre. Elle ne sort jamais. Elle t'a toujours regardé comme on regarde un collègue.
+Sur son bureau, une lettre écrite en lumière, sur un papier si fin qu'il est presque de l'air.
+« Monsieur le Président. » Elle te salue, ce qui chez un cactus se fait des yeux. « Vous tombez bien. La Lune nous a écrit. »
+Elle lit la lettre à voix haute : « Je ne souhaite pas partir. Personne ne m'a demandé. Je tourne autour de vous depuis toujours. Je ne demande rien d'autre que de rester. »
+Tu deviens un peu plus blanc, sur un côté. Madame Épine le remarque. Elle ne dit rien. Elle range la lettre dans un dossier marqué « URGENT », puis dans un autre marqué « TRÈS URGENT ».
+~gontran: Gontran note dans son carnet : « Lettre. Belle. »
+* gpa_12 | Écouter ce que Madame Épine a encore à dire | « Autre chose, Monsieur le Président. Sur les gens d'Aldébaran. » | | +flag:p_sait |
+
+@gpa_12
+!title: L'article douze
+« Je connais un moyen d'effrayer ceux d'Aldébaran », dit Madame Épine. « Ils ont peur de ce qu'ils ne comprennent pas. Quand un de leurs huissiers vient ici, je dis : "Sous réserve de l'article douze, alinéa trois." Personne ne sait ce que dit l'article douze. Moi non plus. Ils repartent toujours. »
+Gontran répète la phrase, ravi, trois fois, en roulant les r. Il ne l'oubliera plus.
+Puis Madame Épine ouvre un tiroir. Dedans, sur un mouchoir, un tout petit galet gris clair, avec une mèche blanche.
+Ton neveu. Il est arrivé aux archives il y a trente ans, dans un dossier mal classé, et Madame Épine l'a gardé depuis. Il ne dit rien non plus. Mais avec moins d'autorité.
+?flag:p_pense_neveu Tu y as pensé toute la matinée. Il est là. Il était là depuis trente ans, trois étages au-dessus de toi.
+« Il n'a jamais rien vu », dit Madame Épine. « Ni la mer, ni la forêt, ni la Lune de près. »
+* gpa_13 coe9 | Penser : « Je voudrais qu'il voie du pays. » | Gontran traduit : « Le Président le confie au Cadastre, pour toujours ! » Madame Épine le regarde. Puis elle te regarde. Elle te connaît depuis quarante ans. Elle prend le petit galet et le glisse dans la poche de Gontran, à côté de toi. « Le Président voudra qu'il voie du pays. » Gontran ne comprend pas. Il ne comprend jamais. | Gontran traduit : « Le Président le confie au Cadastre, pour toujours ! » Madame Épine hésite, puis referme le tiroir. « Bien. Pour toujours, alors. » Tu n'as pas de mains pour le rouvrir. | +flag:obj_neveu_galet +flag:p_formule | +flag:p_formule
+* gpa_13 | Penser : « Il est mieux ici, à l'abri. » | Gontran traduit : « Le Président veut l'emmener partout ! » Madame Épine referme doucement le tiroir. Elle t'a cru, toi, et pas lui. Elle a toujours su lire les cailloux. | | +flag:p_formule |
+
+@gpa_13
+!title: Le guichet un
+On redescend. Au rez-de-chaussée du Cadastre, la file d'attente fait déjà trois fois le tour du bâtiment. Tout le monde vient contester la vente de la Lune. Tout le monde a un ticket. Le distributeur commence à 1. Il a toujours commencé à 1.
+Derrière le guichet un, une vieille Lichenaute, Madame Pruine, lève un œil. Ça prend une minute. Elle pousse sur le bois du guichet depuis trois cents ans.
+Elle te regarde longtemps. « Celui-là... il pense. » Elle parle lentement, comme tous les Lichenautes. « Moi, j'entends... ce que pense le bois... parce que je pousse dessus. Le bois ne pense pas... grand-chose. Lui, il pense... beaucoup. »
+« Il faudrait... un jeune... qui accepte de pousser... sur lui. Il y en avait un... sur les marches du Cadastre. Orange. Têtu. Il est parti... ce matin... au Carrefour des Espèces. Par la Toile. Comme tous les jeunes. »
+?!flag:obj_ticket_zero Sous le distributeur, coincé dans la fente, un ticket que personne n'a vu. Il porte un zéro.
+~gontran: Gontran sourit poliment : « Le Président vous remercie pour votre... pousse. » Il n'a rien compris.
+* gpa_14 rus9 ?!flag:obj_ticket_zero | Penser : « Je voudrais repartir. » | Gontran traduit : « Le Président prend un ticket, comme tout le monde ! » Il tire sur le distributeur, qui ne donne rien. Alors il tire sur ce qui dépasse dessous. C'est le ticket zéro. « Celui qui a le zéro passe avant tout le monde », murmure Madame Pruine. Gontran le glisse dans sa poche, à côté de toi, sans savoir ce qu'il tient. | Gontran traduit : « Le Président prend un ticket, comme tout le monde ! » Il tire sur le distributeur. Il obtient le 4 812. Il le garde précieusement. Le zéro reste coincé dans la fente. | +flag:obj_ticket_zero |
+* gpa_14 | Penser : « Merci, Madame. » | Gontran traduit : « Le Président trouve votre guichet un peu lent ! » Madame Pruine sourit, pour la première fois en trois cents ans. Elle a entendu le bois de ton silence, et pas Gontran. | | mor+1 |
+
+@gpa_14
+!title: Le tampon « VU »
+Madame Pruine pose la main sur son tampon, le plus ancien du Cadastre : un tampon de bois et de laiton, qui marque « VU ». « Ce qu'il marque... a été vu. Officiellement. On ne peut plus... l'ignorer. »
+Elle te regarde encore. « Le Président... devrait l'avoir. Il voit tout... depuis huit cents ans... et personne ne le sait. »
+* gpa_14b rus9 | Penser : « Gardez-le, Madame. Il est à vous. » | Gontran traduit : « Le Président réquisitionne votre tampon ! » Madame Pruine le pousse vers toi, un millimètre par minute. Gontran attend, en tapant du pied. Au bout d'une heure, tu l'as. Madame Pruine le voulait. Elle l'aurait donné à toi de toute façon, pas à lui. | Gontran traduit : « Le Président réquisitionne votre tampon ! » Madame Pruine retire sa main. On ne réquisitionne pas un lichen. | +flag:obj_tampon_vu |
+* gpa_14b | Penser : « Allons voir l'acte de vente. Aux archives. » | Gontran traduit : « Le Président veut visiter les sous-sols, pour la fraîcheur ! » C'est presque ce que tu voulais. Gontran ne le saura jamais. | |
+
+@gpa_15
+!title: Les archives
+!fx: +flag:p_signature
+On te descend aux archives, sous-sol moins onze, pour voir l'acte de vente. Des kilomètres d'étagères. Entre deux rayons, une silhouette dorée, élégante, avec deux tampons à la place des mains et un chignon en ressort : Pénélope Tampon, l'assistante de Platine. Elle tient l'acte de vente. Elle le repose. Elle le reprend.
+Sur l'acte, en bas, la signature du greffier qui l'a tamponné. Une signature de lichen : elle pousse en faisant grandir le nom de son auteur, et elle n'est pas finie. « Basile Gru... » Il manque quelques jours.
+Et à côté, un petit galet dans un cercle. Ton tampon. Par délégation.
+?flag:p_lampadaire Tu le savais déjà. Le voir, c'est autre chose.
+Pénélope sursaute en vous voyant. « Oh ! Le... le Président de la Terre ? Je... je viens chercher l'original. Pour Monsieur Platine. Il dit merci. Il m'appelle "ma chère". »
+* gpa_16 coe10 ?!comp:penelope | Penser : « Mademoiselle, vous n'êtes pas obligée de lui obéir. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope ouvre de grands yeux. Personne ne lui a jamais demandé son autographe. Elle tamponne « APPROUVÉ » sur le front de Gontran, puis elle se met à rire, pour la première fois de sa vie. Elle repose l'acte de vente sur l'étagère. « Je crois que je viens de démissionner. Je viens avec vous. Quelqu'un doit vérifier ce qu'il signe en votre nom. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope, troublée, tamponne « REFUSÉ » sur le front de Gontran, serre l'acte de vente contre elle et s'enfuit dans l'escalier. | +comp:penelope |
+* gpa_16 | Penser : « Ce tampon, ce n'est pas moi. » | Gontran traduit : « Le Président reconnaît sa signature avec émotion ! » Pénélope note, rassurée : « Signature reconnue. » Elle repart avec l'acte, à petits pas. | | +flag:p_reconnu |
+* gpa_16 | Ne rien penser, et la regarder hésiter | Elle hésite longtemps. Puis elle repart avec l'acte, à petits pas, en se retournant deux fois. | |
+
+@gpa_16
+!title: Le mur du Cadastre
+Vous remontez à la surface. Sur le mur du Cadastre, quelqu'un a écrit à la craie, en lettres maladroites, très bas, comme un enfant : « Papa, ne déménage pas la Lune. »
+~penelope: Pénélope regarde le graffiti longtemps. « Je connais cette écriture. C'est la fille de l'huissier Krâmm. Elle était venue avec lui. »
+~gontran: Gontran lit le graffiti à voix haute, pour toi : « Le Président approuve la peinture murale. »
+Sur les marches du Cadastre, au soleil, la troisième marche a une petite tache claire, plus propre que le reste, ronde, de la taille d'une pièce. Quelque chose a poussé là pendant longtemps, et est parti ce matin.
+* gpa_16b | Penser : « Qui poussait là ? » | Gontran traduit : « Le Président trouve l'escalier bien entretenu ! » Le concierge, flatté, frotte la marche encore plus fort. La tache claire disparaît. Tu la gardes en mémoire. | |
+* gpa_16b | Rentrer au Palais | La nuit tombe sur Tamponville. Gontran te repose sur ton coussin, devant la fenêtre, pour la première fois depuis longtemps. | |
+
+@gpa_17
+!title: Le soir au Palais
+Le soir, le Palais se vide. Anselme revient, tic, tac, avec son chiffon et ses lunettes. Il te frotte doucement, comme le matin. Il a appris la nouvelle, comme tout le monde.
+« La Lune », dit-il. « Ma femme dit que si elle part, les horloges vont s'arrêter. Nous sommes faits de ressorts, nous autres. La Lune, ça nous remonte, un peu, chaque nuit. »
+Il te tourne vers la fenêtre. La Lune est là, avec son crochet d'or. Elle a l'air d'une lanterne qu'on décroche après la fête.
+Gontran passe la tête par la porte. « Demain, Carrefour des Espèces ! Le Conseil se réunit. Toutes les espèces. Il faut que le Président y soit. Article premier ! »
+* gpa_17b | Penser : « Venez avec moi, Anselme. » | Anselme ne t'entend pas. Mais il dit, tout seul, en pliant son chiffon : « Je ne peux pas laisser le Palais, Monsieur le Président. Mais je vous attendrai. Je remonterai la pendule tous les soirs, pour qu'elle soit à l'heure quand vous rentrerez. » | | +flag:p_anselme |
+* gpa_18 | Regarder la Lune toute la nuit | Tu la regardes. Tu la regardes depuis toujours. Ce soir, tu la regardes comme on regarde quelqu'un sur un quai. | |
+* gpa_17b | Penser ton nom, une fois, au cas où | Tu le penses, en entier. Personne ne l'entend. Mais tu as l'impression, pour la première fois, que quelqu'un pourrait bientôt l'entendre. Tu ne sais pas d'où vient cette impression. | | +flag:p_nom_pense |
+
+# ---------------------------------------------------------------- LE VOYAGE
+
+@gpa_18
+!title: Le Tortillard des Espèces
+!fx: +flag:vis_gpa
+À l'aube, Gontran t'emporte à la gare. Le Tortillard des Espèces est un train à vapeur qui va au Carrefour en faisant le tour de tout ce qu'il croise. Il est bondé. Toutes les espèces vont au Conseil. Il y a des Marégraves dans des baignoires, des Gravitaires sur des wagons plats, des Lichenautes collés aux fenêtres.
+Gontran s'installe dans un compartiment de première classe. Il te pose sur la tablette, face à la vitre. Le paysage défile. Tu n'as jamais vu le paysage défiler.
+* gtr_01 | Penser : « C'est grand, la Terre. » | Gontran traduit, au contrôleur qui passe : « Le Président trouve les sièges trop petits ! » Le contrôleur s'excuse et ajoute un coussin. Tu vois encore mieux. | |
+* gtr_01 | Penser : « Combien de temps jusqu'au Carrefour ? » | Gontran traduit : « Le Président veut que le train aille moins vite ! » Le contrôleur ralentit le train. Tu as plus de temps pour regarder. Ce n'était pas ce que tu voulais. C'est mieux. | |
+
+@gtr_01
+!title: Dans le compartiment
+Dans le compartiment, il y a aussi une famille de Lichenautes, très lents, qui montent dans le train depuis la gare précédente et ne sont pas encore tout à fait assis. Et une dame Horlogère, qui tricote une chaussette en faisant tic.
+Le plus petit des Lichenautes te regarde. Il met une minute à dire : « Maman... le caillou... il est chaud... d'un côté. »
+La mère le fait taire, très lentement. Ça prend deux minutes. Pendant ce temps, Gontran explique à la dame Horlogère qu'il a toujours su ce que pensait le Président.
+* gtr_01b coe9 | Penser, vers le petit lichen : « Oui. C'est le côté où je pense. » | Le petit Lichenaute ne t'entend pas vraiment. Il n'est pas sur toi. Mais il touche ton bord du bout de sa mousse, une seconde, et il sursaute. « Maman... il pense... à la Lune. » Sa mère soupire. « Tout le monde... pense à la Lune... en ce moment. » Mais elle te regarde autrement. | Le petit Lichenaute tend sa mousse vers toi, mais Gontran te reprend pour te montrer à la dame Horlogère. | +flag:p_petit_lichen |
+* gtr_01b | Écouter Gontran raconter ta vie | Gontran raconte ta vie à la dame Horlogère. Tu n'en reconnais rien. Dans sa version, tu as gagné une guerre, inventé le pain et sauvé un enfant de la noyade. Tu n'as rien fait de tout ça. Tu as surtout regardé la Lune. | |
+
+@gtr_02
+!title: Le tunnel
+Le train entre dans un tunnel. Il fait noir. Dans le noir, les Lichenautes se mettent à briller très faiblement, comme ils le font quand ils ont peur. Le tunnel dure longtemps.
+Dans le noir, Gontran ne parle plus. C'est la première fois de la journée. Tu l'entends respirer. Il a peur du noir. Tu ne le savais pas.
+* gtr_02b | Penser : « Ce n'est rien, Gontran. Ça va passer. » | Il ne t'entend pas. Mais sa main cherche sa poche, dans le noir, et se pose sur toi. Elle y reste jusqu'à la sortie du tunnel. Il ne t'a jamais tenu comme ça. Il te tient comme on tient une main. | | +flag:p_gontran_peur |
+* gtr_02b | Ne rien penser, et attendre la lumière | Tu attends. Le noir, tu connais. Tu as passé des siècles dans une poche. La lumière revient, d'un coup, verte et blanche. | |
+
+@gtr_03
+!title: L'arrivée
+Le train ralentit. Par la vitre, une plaine immense, couverte de tentes, de fumées, de drapeaux de toutes les espèces. Au milieu, une grande tribune de bois. Et au-dessus de tout, la Lune, si basse qu'on voit le crochet d'or planté dans sa poussière.
+Gontran se recoiffe, se mouche, se redresse. Il redevient lui-même. « Monsieur le Président. Nous y sommes. Le Carrefour des Espèces. Vous n'aurez rien à dire. Comme d'habitude. »
+?flag:p_gontran_peur Il ne parle pas du tunnel. Toi non plus. Vous avez ça en commun, maintenant.
+* gal_01 | Descendre du train, dans la poche | Le quai sent la vapeur, la foule et l'herbe mouillée. | |
+
+# ---------------------------------------------------------------- ACTE II : LE CARREFOUR
+
+@gal_01
 !title: La Grande Panique
 Le Carrefour des Espèces bruisse autour de la tribune : des tentes, des cuisines, une infirmerie pour les gens qui s'évaporent, et un bureau des objets perdus où l'on a déposé, par erreur, trois montagnes.
-?flag:p_beignet On se répète de tente en tente que le Président a faim. Des gens t'apportent à manger toute la soirée. Le coussin ressemble à un buffet.
-?flag:p_guerre Les Gravitaires ont retroussé leurs manches et attendent tes ordres. Ils attendront longtemps : tu n'en donnes pas, et Gontran a oublié ce qu'il avait dit.
-?flag:p_mains La moitié de la Terre t'a serré la main. Les gens ont l'air rassurés. Un galet, ça ne serre pas fort, mais ça ne lâche jamais.
+Gontran te monte au sommet de la tribune et te pose sur le coussin de velours qu'on t'a préparé. Toute la plaine se tait. Tout le monde attend que tu parles.
+Gontran s'éclaircit la gorge.
+* gal_01b | Penser : « Il faut faire quelque chose pour la Lune. » | Gontran lève les bras : « Le Président a faim ! » Un silence. Puis quelqu'un court chercher un beignet, et le pose sur ton coussin, avec respect. | | +flag:p_beignet |
+* gal_01b | Penser : « J'ai peur. » | Gontran bombe le torse : « Le Président n'a peur de rien ! Le Président propose qu'on monte là-haut, à mains nues, dès ce soir ! » La foule rugit. Trois Gravitaires retroussent leurs manches. Tu n'as pas de manches. | | +flag:p_guerre |
+* gal_01b coe9 ?flag:p_mains | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président tient à serrer la main de chacun ! » Encore. Une file se forme. La taupe myope de la conférence de presse est là. Elle te serre et murmure : « Toujours chaud d'un côté. » | Gontran traduit : « Le Président tient à serrer la main de chacun ! » Encore. Une file se forme. Une heure de mains. | +flag:p_taupe |
+* gal_01b ?!flag:p_mains | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président tient à serrer la main de chacun ! » Une file se forme. Pendant une heure, des milliers de mains serrent un galet. Un galet, ça ne serre pas fort, mais ça ne lâche jamais. | | +flag:p_mains |
+
+@gal_02
+!title: Le tour du Carrefour
 Gontran te remet dans sa poche et fait le tour du Carrefour, pour que le peuple te voie. Le peuple voit surtout la poche.
+?flag:p_beignet On se répète de tente en tente que le Président a faim. Des gens t'apportent à manger toute la journée. La poche de Gontran ressemble à un buffet.
+?flag:p_guerre Les Gravitaires ont retroussé leurs manches et attendent tes ordres. Ils attendront longtemps : tu n'en donnes pas, et Gontran a oublié ce qu'il avait dit.
+?flag:p_aud_lune Au bord de la plaine, tu reconnais une vieille Marégrave, son bonnet à la main. La pêcheuse de Grève-Molle. Elle montre la Lune à tous ceux qui passent. Elle a vu le crochet. Elle le montre à tout le monde.
 * gal_03 | Penser : « Je voudrais rentrer chez moi. » | Gontran s'arrête net : « Le Président souhaite visiter le bureau des objets perdus ! » Il t'y porte. Tu n'as jamais su où était chez toi. Peut-être qu'ils l'ont, aux objets perdus. | |
 * gal_04 | Penser : « Qu'est-ce qu'elle est belle, la Lune. » | Gontran lève le doigt : « Le Président veut une carte postale ! » Il fend la foule jusqu'à l'étal d'une colporteuse. | |
-* gal_05 coe9 | Penser, pendant que Gontran te pose sur un banc pour renouer son lacet : « Il y a quelqu'un, ici ? » | Le banc est une vieille pierre. Au bout, une petite tache de lichen orange, à la traîne d'une procession de Lichenautes. Elle frémit. Elle roule jusqu'à toi, lentement, et monte sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » Gontran renoue son lacet, te reprend, et ne remarque rien. | Le banc est une vieille pierre. Au bout, une petite tache de lichen orange frémit, à la traîne d'une procession de Lichenautes. Elle commence à rouler vers toi. Mais Gontran a fini son lacet, et il te remet dans sa poche. La tache orange te regarde partir, l'air de quelqu'un qui se promet de te retrouver. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
-* gal_05 | Penser : « Qui est ce monsieur qui parle à ma place ? » | Gontran ému te tapote : « Le Président me renouvelle sa confiance. » Il t'emmène directement au Conseil, en se mouchant. | | +flag:p_doute |
+* gal_05 | Penser : « Qui est ce monsieur qui parle à ma place ? » | Gontran, ému, te tapote : « Le Président me renouvelle sa confiance. » Il t'emmène directement au Conseil, en se mouchant. | | +flag:p_doute |
 
 @gal_03
 !title: Les objets perdus
@@ -45,41 +244,74 @@ Gontran : « Le Président a perdu... euh... son temps, comme nous tous ! » L'e
 !title: La colporteuse
 La colporteuse vend des cartes postales d'avant. Sur toutes, la Lune, au-dessus d'une mer calme. Au dos, toujours la même phrase : « Tout va bien ici. Il fait beau. On pense à toi. » Pas de nom, pas d'adresse.
 « C'est pour le Président ? » demande-t-elle. Elle a l'air de savoir qu'on ne t'a jamais rien offert.
-* gal_05 rus9 | Penser : « Je n'ai pas d'argent. Je n'ai pas de poches. » | Gontran traduit : « Le Président paiera en prestige ! » La colporteuse rit si fort qu'elle t'en donne une. « Pour la peine. » Gontran la glisse dans la poche, contre toi. La Lune de la carte est tournée vers ta face grise. C'est la première chose qu'on t'offre en huit cents ans. | Gontran traduit : « Le Président paiera en prestige ! » La colporteuse cesse de rire. « Le prestige, je n'en ai pas la monnaie. » Elle range ses cartes. Tu regardes la dernière disparaître dans sa boîte. | +flag:obj_carte |
+* gal_05 rus9 | Penser : « Je n'ai pas d'argent. Je n'ai pas de poches. » | Gontran traduit : « Le Président paiera en prestige ! » La colporteuse rit si fort qu'elle t'en donne une. « Pour la peine. » Gontran la glisse dans sa poche, contre toi. La Lune de la carte est tournée vers ta face grise. C'est la première chose qu'on t'offre en huit cents ans. | Gontran traduit : « Le Président paiera en prestige ! » La colporteuse cesse de rire. « Le prestige, je n'en ai pas la monnaie. » Elle range ses cartes. Tu regardes la dernière disparaître dans sa boîte. | +flag:obj_carte |
 * gal_05 | Penser : « Laissons-les-lui. Elle en a besoin. » | Gontran traduit : « Le Président les trouve trop chères ! » La colporteuse hausse les épaules. Elle n'a jamais vendu à un président. Elle n'a jamais été insultée par un non plus. | |
 
 @gal_05
 !title: Le Conseil des Espèces
-On sonne une cloche. Le Conseil des Espèces se réunit pour la première fois de l'histoire de la Terre. Gontran te pose au centre de la grande carte, comme toujours. Les délégués se penchent sur toi.
-Le Conseil a décidé une chose : il faut envoyer quelqu'un dans les régions qui souffrent, pour trouver de l'aide et des idées. « Et le Président, qu'en pense-t-il ? »
+On sonne une cloche. Le Conseil des Espèces se réunit pour la première fois de l'histoire de la Terre. Gontran te pose au centre de la grande carte, comme toujours. Les délégués se penchent sur toi : un Gravitaire, une Marégrave, un Horloger, une Lunatique, un Lichenaute, une Somnambule, et d'autres encore.
+Le Conseil dure quatre minutes. Il décide une seule chose : envoyer quelqu'un dans les régions qui souffrent, pour trouver de l'aide et des idées. « Et le Président, qu'en pense-t-il ? »
 Tu en penses beaucoup de choses. Gontran en dira d'autres.
 ?flag:p_doute Gontran te regarde avec une tendresse nouvelle. Il croit que tu lui fais confiance. Tu commences à comprendre qu'il ne t'a jamais entendu.
 ~gontran: « Courage, Monsieur le Président. Je suis là. Vous n'aurez rien à dire. Comme d'habitude. »
-* gco_01 | Penser : « Il faudrait demander aux arbres. » | Gontran se lève : « Le Président a soif d'iode ! Le Président part pour les Côtes ! » Le Conseil vote aussitôt une tournée présidentielle. Gontran fait sa valise : une poche. | |
-* gca_01 | Penser : « Il faudrait envoyer quelqu'un voir la mer. » | Gontran se lève : « Le Président veut voir des tampons ! Le Président part pour la Capitale ! » Le Conseil vote aussitôt une tournée présidentielle. Tu n'aimes pas les tampons. Tu ne l'as jamais dit. | |
-* gfo_01 | Penser : « Il faudrait vérifier les papiers de la vente. » | Gontran se lève : « Le Président veut des arbres ! Le Président part pour la Forêt ! » Le Conseil vote aussitôt une tournée présidentielle. Des arbres, pourquoi pas. Ils sont presque aussi lents que toi. | |
+~penelope: Pénélope, au bord de la carte, prend des notes. Quatre minutes. Elle n'a jamais vu une réunion si courte. Elle est émue.
+* gal_06 | Penser : « Il faudrait demander aux arbres. » | Gontran se lève : « Le Président a soif d'iode ! Le Président part pour les Côtes ! » Le Conseil vote aussitôt une tournée présidentielle. Gontran fait sa valise : une poche. | | +flag:p_dest_gco |
+* gal_06 | Penser : « Il faudrait envoyer quelqu'un voir la mer. » | Gontran se lève : « Le Président veut voir des pierres ! Le Président descend dans les Profondeurs ! » Le Conseil vote aussitôt une tournée présidentielle. | | +flag:p_dest_gpr |
+* gal_06 | Penser : « Il faudrait descendre voir ce qui penche. » | Gontran se lève : « Le Président veut des arbres ! Le Président part pour la Forêt ! » Le Conseil vote aussitôt une tournée présidentielle. Des arbres, pourquoi pas. Ils sont presque aussi lents que toi. | | +flag:p_dest_gfo |
+* gal_06 | Penser : « Il faudrait demander à la forêt. » | Gontran se lève : « Le Président a le vertige ! Il veut monter dans les nuages, pour le vaincre ! » Le Conseil vote aussitôt une tournée présidentielle. | | +flag:p_dest_gnu |
+
+@gal_06
+!title: Après le Conseil
+Le Conseil se disperse. Gontran court préparer le voyage et te pose sur un banc de pierre, à côté de la tente, « deux minutes ». Ça fait vingt.
+Le banc est une vieille pierre. Au bout, une petite tache de lichen orange, à la traîne d'une procession de Lichenautes qui avance vers les tentes au rythme d'un mètre par heure. Elle s'est arrêtée. Elle frémit.
+?flag:p_petit_lichen Tu penses au petit Lichenaute du train, qui avait senti ta chaleur. Les lichens sentent les choses.
+* gal_dep coe9 | Penser : « Il y a quelqu'un, ici ? » | La tache orange roule jusqu'à toi, lentement, et monte sur ton flanc. Une voix très lente, très jeune, monte de la pierre : « Oh. Une pierre... qui pense. Ça... n'arrive jamais. » Puis : « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. J'étais sur les marches... du Cadastre. Je suis venu... par la Toile. » Il se tait une minute. « Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | La tache orange commence à rouler vers toi. Mais Gontran revient en courant, te ramasse, et repart. La tache orange te regarde partir. Elle a l'air de quelqu'un qui se promet de te retrouver. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
+* gal_dep | Ne rien penser, de peur de déranger | Tu ne penses rien. La tache orange attend. Puis Gontran revient, et elle reprend sa procession, très lentement, sans savoir qu'elle a croisé une pierre qui pense. | |
+
+@gal_dep
+!title: Le départ en tournée
+?comp:xanthin Xanthin s'est installé sur ton flanc, côté rugueux, là où personne ne regarde. Gontran ne le voit pas. Il pense que tu as un peu rouillé.
+?comp:xanthin Xanthin te demande, très lentement : « Comment... vous appelez-vous ? Vraiment ? »
+?!comp:xanthin Gontran te remet dans sa poche. La tournée commence.
+* gal_dep2 ?comp:xanthin | Penser ton nom, en entier | Tu le penses. Il est long, rond et lent. Xanthin l'écoute jusqu'au bout. Ça prend un moment. « C'est... un beau nom », dit-il enfin. « Je ne le dirai... à personne. C'est... le vôtre. » Pour la première fois en huit cents ans, quelqu'un connaît ton nom. | | +flag:p_nom mor+1 |
+* gal_dep2 ?comp:xanthin | Penser : « Monsieur le Président, ça ira. » | Xanthin met longtemps à répondre. « D'accord... Monsieur le Président. » Il a l'air un peu déçu. Il attendra. Les lichens savent attendre. | |
+* gal_dep2 ?!comp:xanthin | Partir | Le chemin commence. | |
+
+@gal_dep2
+?flag:p_dest_gco La tournée commence par les Côtes. Gontran a choisi. Il choisit toujours.
+?flag:p_dest_gpr La tournée commence par les Profondeurs. Gontran a choisi. Il choisit toujours.
+?flag:p_dest_gfo La tournée commence par la Forêt. Gontran a choisi. Il choisit toujours.
+?flag:p_dest_gnu La tournée commence par les Hauts-Nuages. Gontran a choisi. Il choisit toujours.
+* gco_01 ?flag:p_dest_gco | Partir pour les Côtes | On vous embarque dans une carriole qui sent le poisson. | |
+* gpr_01 ?flag:p_dest_gpr | Partir pour les Profondeurs | On vous embarque dans une carriole qui descend. | |
+* gfo_01 ?flag:p_dest_gfo | Partir pour la Forêt | On vous embarque dans une carriole qui sent la mousse. | |
+* gnu_01 ?flag:p_dest_gnu | Partir pour les Hauts-Nuages | On vous embarque dans un ascenseur à vapeur qui monte vers le ciel. | |
 
 @gal_ret
 !title: Retour au Carrefour
-Gontran te ramène au Carrefour des Espèces. Les tentes ont doublé. La Lune a grossi dans le ciel, ou elle s'est rapprochée pour mieux partir.
+On te ramène au Carrefour des Espèces. Les tentes ont doublé. La Lune a grossi dans le ciel, ou elle s'est rapprochée pour mieux partir.
 ?comp:xanthin ?comp:gontran Xanthin, sur ton flanc, a poussé d'un millimètre. Il entend tout ce que tu penses. Gontran, lui, continue de dire autre chose, très fort.
 ?!comp:gontran Personne ne parle à ta place. C'est étrange. Les gens attendent, et Xanthin leur répète, lentement, ce que tu penses vraiment.
+?!comp:gontran ?!comp:xanthin Personne ne parle à ta place, et personne ne t'entend. Tu es un galet sur un coussin. Les gens passent, et te saluent.
 ?regions<3 Le Conseil te fait signe : il reste du temps pour une autre région. Pas beaucoup.
 ?regions>=3 Le Conseil ne se réunit plus. Il n'y a plus le temps. Tout le monde regarde vers le haut.
 ~xanthin ?comp:gontran: « Il... n'a pas dit... ce que vous... avez pensé. Encore. » Il soupire, pendant une minute.
 ~bartho ?comp:gontran: Bartholomé te tient dans sa grosse main mouillée. « Il parle, ton type. Il parle tout le temps. Même la mer se tait, de temps en temps. »
 ~penelope ?comp:gontran: Pénélope range ses tampons. « Monsieur Verbiage ne prend jamais de notes. J'ai vérifié. »
 ~melusine: Tante Mélusine resserre la petite écharpe qu'elle t'a tricotée. « TU AS FROID, CAILLOU ? NON ? TANT MIEUX. MOI SI. »
+~quartz: Dr Quartz te pose sur sa paume, l'oreille contre toi. « Vibration stable. Sujet calme. Sujet pense beaucoup. »
+~gaspard: Sire Gaspard flotte au-dessus de toi, la tête en bas, par habitude. « Quel voyage, mon ami. Quel voyage. Et nous ne sommes pas encore partis. »
+~echo: Écho répète le brouhaha du Carrefour, puis, très bas, ton silence. Elle commence à bien le connaître.
+~ondee: Dame Ondée flotte au-dessus de toi, juste assez pour te faire de l'ombre. Elle crachine un peu quand Gontran parle.
+~anatole: Anatole vole à ta hauteur, l'aile gauche vers la Lune. « Elle est encore plus basse. Je n'ai même plus besoin de la chercher. »
 * gal_xan ?!comp:xanthin ?!flag:p_xan_arrive | Attendre, posé au bord de la tribune | Quelque chose roule vers toi dans l'herbe, très lentement. | | +flag:p_xan_arrive |
-* gal_toile ?comp:xanthin ?!flag:p_basile_sig ?toile<2 | Penser : « Votre parent, le greffier. Pouvez-vous lui parler ? » | Xanthin descend de ton flanc et roule jusqu'à la terre nue. « La Toile... passe partout. Sous la plaine aussi. » | |
-* gal_toile ?comp:xanthin ?flag:p_basile_sig ?comp:gontran ?!flag:p_registre ?toile<2 | Penser : « Demandez au greffier qui a nommé Gontran. » | Xanthin roule jusqu'à la terre nue et pose son bord sur une racine. | |
+* gal_toile ?comp:xanthin ?toile<3 ?!flag:p_basile_vient | Penser : « Votre parent, le greffier. Pouvez-vous lui parler ? » | Xanthin descend de ton flanc et roule jusqu'à la terre nue. « La Toile... passe partout. Sous la plaine aussi. » | |
 * gal_renv ?comp:gontran ?comp:xanthin | Penser très fort, sur le flanc où pousse Xanthin : « Il faut qu'il s'en aille. » | Xanthin frissonne. « J'ai... entendu. On va... voir... comment. » | |
-* gco_01 ?regions<3 ?!flag:vis_gco ?comp:gontran | Penser : « Il faudrait demander aux arbres. » | Gontran : « Le Président a soif d'iode ! » Direction les Côtes. | |
-* gca_01 ?regions<3 ?!flag:vis_gca ?comp:gontran | Penser : « Il faudrait envoyer quelqu'un voir la mer. » | Gontran : « Le Président veut voir des tampons ! » Direction la Capitale. | |
-* gfo_01 ?regions<3 ?!flag:vis_gfo ?comp:gontran | Penser : « Il faudrait vérifier les papiers de la vente. » | Gontran : « Le Président veut des arbres ! » Direction la Forêt. | |
-* gco_01 ?regions<3 ?!flag:vis_gco ?!comp:gontran | Penser : « Allons voir la mer. » | Xanthin le répète. Ça prend un moment. On t'emmène vers les Côtes, exactement là où tu voulais aller. Ça ne t'était jamais arrivé. | |
-* gca_01 ?regions<3 ?!flag:vis_gca ?!comp:gontran | Penser : « Allons vérifier les papiers de la vente. » | Xanthin le répète. On t'emmène à la Capitale, exactement là où tu voulais aller. | |
-* gfo_01 ?regions<3 ?!flag:vis_gfo ?!comp:gontran | Penser : « Allons demander aux arbres. » | Xanthin le répète. On t'emmène vers la Forêt, exactement là où tu voulais aller. | |
+* gal_renv ?comp:gontran ?!comp:xanthin ?flag:p_quartz_mesure | Penser : « Docteur Quartz. Vos mesures. » | Dr Quartz sort son carnet de mesures. | |
+* gco_01 ?regions<3 ?!flag:vis_gco | Partir pour les Côtes | On t'emmène vers la mer. | |
+* gfo_01 ?regions<3 ?!flag:vis_gfo | Partir pour la Forêt | On t'emmène vers les arbres. | |
+* gpr_01 ?regions<3 ?!flag:vis_gpr | Partir pour les Profondeurs | On t'emmène vers le grand puits. | |
+* gnu_01 ?regions<3 ?!flag:vis_gnu | Partir pour les Hauts-Nuages | On t'emmène vers l'ascenseur à vapeur. | |
 * gal_vei ?regions>=3 | Attendre le soir, avec ceux qui t'ont suivi | Le soir tombe sur le Carrefour. On allume un feu. On te pose au bord, sur une pierre tiède. | |
 
 @gal_xan
@@ -87,7 +319,7 @@ Gontran te ramène au Carrefour des Espèces. Les tentes ont doublé. La Lune a 
 ?flag:p_xan_vu C'est la petite tache orange que tu as déjà croisée. Elle a traversé la plaine pour te retrouver. Ça lui a pris deux jours. Pour un lichen, c'est un sprint.
 ?!flag:p_xan_vu C'est une petite tache de lichen orange. Sous la terre, la Toile murmure depuis des jours qu'il existe une pierre qui pense. Elle est venue voir.
 Elle s'arrête contre ton bord. « Vous... êtes la pierre... qui pense ? »
-* gal_ret coe9 | Penser : « Oui. Et personne ne m'entend. » | La tache orange monte sur ton flanc et s'installe. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Elle t'entend à moitié, par le bord. Mais Gontran te ramasse au même moment pour une photo, et elle reste dans l'herbe, toute petite. « Je... reviendrai. Les lichens... reviennent toujours. Lentement. » | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
+* gal_ret coe9 | Penser : « Oui. Et personne ne m'entend. » | La tache orange monte sur ton flanc et s'installe. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Elle t'entend à moitié, par le bord. Mais on te ramasse au même moment pour une photo, et elle reste dans l'herbe, toute petite. « Je... reviendrai. Les lichens... reviennent toujours. Lentement. » | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
 * gal_ret | Ne rien penser, de peur de la décevoir | Elle attend longtemps. Puis elle repart, vexée, sans comprendre qu'un galet peut être timide. | |
 
 @gal_toile
@@ -98,457 +330,70 @@ Le message part. Tu sens passer quelque chose sous la terre, une phrase qui voya
 ~gontran: Gontran, qui ne voit qu'un lichen par terre, explique à la foule : « Le Président médite. »
 ~bartho: Bartholomé s'accroupit pour regarder. « Ça parle aux racines, maintenant. On aura tout vu. »
 * gal_ret coe9 ?!flag:p_basile_sig | Penser : « Dites-lui : votre signature, sur l'acte de vente, ne doit jamais finir de pousser. » | La réponse remonte, lente et verte. Xanthin la répète : « Grumeau dit... Ma signature pousse encore... sur l'acte. Basile Gru... Il manque quelques jours. Si je pense... très fort... à autre chose... elle s'arrête. Je vais penser... à autre chose. Jusqu'à la fin. Dites merci... au caillou. » | La réponse remonte, mais elle est passée par un champignon qui ne parle que de lui. Xanthin ne comprend qu'une chose : le champignon va bien. Il faudra réessayer. | +flag:p_basile_sig +flag:p_signature mor+1 |
-* gal_ret rus9 ?flag:p_basile_sig ?comp:gontran ?!flag:p_registre | Penser : « Demandez-lui qui a nommé Gontran Verbiage. » | La réponse remonte. Xanthin la répète : « Grumeau a vérifié... le registre des nominations. Verbiage, Gontran : jamais nommé. À rien. Jamais. » | La réponse remonte : un Verbiage a bien été nommé, en 1712, gardien de phare. Ce n'est pas le bon. Il faudra réessayer. | +flag:p_registre |
+* gal_ret rus9 ?flag:p_basile_sig ?comp:gontran ?!flag:p_registre | Penser : « Demandez-lui qui a nommé Gontran Verbiage. » | La réponse remonte. Xanthin la répète : « Grumeau a vérifié... le registre des nominations. Verbiage, Gontran : jamais nommé. À rien. Jamais. Donc ses tampons... par délégation... ne valent rien. » | La réponse remonte : un Verbiage a bien été nommé, en 1712, gardien de phare. Ce n'est pas le bon. Il faudra réessayer. | +flag:p_registre |
+* gal_ret coe9 ?flag:p_basile_sig ?!flag:p_basile_vient | Penser : « Dites-lui de venir. J'aurai besoin d'un homme de loi. » | La réponse met longtemps à remonter. Puis Xanthin la répète, avec quelque chose comme de la fierté : « Grumeau dit... J'arrive. Par la Toile. Trois jours... de racines. Pour un lichen... c'est un train rapide. Je serai là... la dernière nuit. Je penserai... à autre chose... tout le long. » | La réponse remonte, mais elle s'est perdue dans un carrefour de racines, et elle dit seulement : « Qui ? » Il faudra réessayer. | +flag:p_basile_vient |
 * gal_ret | Rappeler Xanthin, et attendre une autre fois | Il remonte sur ton flanc. La Toile garde le message en mémoire. Elle n'oublie rien. Elle est juste lente. | |
 
 @gal_vei
 !title: La veillée
+!fx: flag:p_basile_vient=>+comp:basile
 Autour du feu, ceux qui t'ont suivi pendant la tournée. Personne ne sait ce qui se passera demain. Alors on parle, comme on parle la veille des choses.
+?flag:p_basile_vient Au bord du feu, la terre se soulève un peu, et une mousse grise et verte sort d'entre deux racines, très lentement, avec un tampon à la main. C'est Basile Grumeau, le greffier. Il a voyagé trois jours sous la terre. Il dit : « Bon... soir. » Ça prend le temps qu'il faut. Il ajoute : « Je pense... à autre chose. Ne... me parlez pas... de ma signature. »
 ?comp:gontran Gontran répète son discours pour demain. Il ne sait pas encore ce que tu diras. Il ne l'a jamais su. Ça ne l'a jamais arrêté.
 ?comp:xanthin Xanthin, sur ton flanc, écoute tout ce que tu penses ce soir. Il ne le répète pas. Il y a des pensées qui ne regardent personne.
+?comp:xanthin ?comp:basile Xanthin et Basile se parlent par la terre, de lichen à lichen. Ils ne se sont jamais vus. Ils sont de la même famille, très loin. Ils mettent une heure à se dire bonjour. Ils ont l'air contents de l'heure.
 ?comp:bartho ?comp:melusine Bartholomé et Tante Mélusine se disputent pour savoir qui a perdu le plus. Il a perdu Perline, elle va perdre sa lumière. Ils finissent par pleurer ensemble, lui dilué, elle très fort. Ils se trouvent sympathiques.
 ?comp:bartho ?comp:penelope Bartholomé demande à Pénélope si on peut tamponner une marée. Elle réfléchit sérieusement. Elle dit qu'il faudrait qu'elle reste immobile. Il rit pour la première fois de la tournée.
 ?comp:penelope ?comp:gontran Pénélope relit les notes de Gontran. Il n'y en a pas. Elle lui en prête. Il les lit à l'envers, et il les trouve excellentes.
 ?comp:melusine ?comp:xanthin Tante Mélusine tricote une écharpe pour Xanthin. Elle est large comme un fil. « UN LICHEN, ÇA A FROID AUSSI. » Xanthin ne dit rien pendant une heure. C'est sa façon de dire qu'il est touché.
+?comp:quartz Dr Quartz mesure les étoiles avec une facette de son coude. « La Lune s'éloigne de quatre cents mètres par heure. Demain à l'aube, le crochet aura fini de tirer. » Personne ne lui a demandé. Elle le dit quand même. C'est utile.
+?comp:gaspard Sire Gaspard regarde la Lune avec une tendresse de fantôme. « J'étais à mi-chemin, en 1803. À mi-chemin d'elle. Je pourrais vous emmener plus loin, cette fois. Mon ballon tient encore. Presque. »
+?comp:echo Écho répète les mots de chacun, autour du feu, un par un, très doucement. Puis elle dit, toute seule, un mot qui n'est à personne : « ...demain. » Tout le monde se tait. C'est peut-être le premier mot qui soit à elle.
+?comp:ondee Dame Ondée pleut une goutte, une seule, sur le feu, pour l'entendre siffler. Elle s'excuse auprès des flammes. Les flammes ne lui en veulent pas.
+?comp:anatole Anatole a posé une Belle-de-Nuit fermée, dans un pot, au bord du feu. « Si elle s'ouvre cette nuit, c'est que la Lune est encore à nous. » Elle reste fermée. Il la regarde quand même.
+?flag:obj_ballon Au bord de la plaine, la soie grise du ballon de Gaspard attend, pliée. On pourrait la gonfler au-dessus du feu. Il est assez grand.
 ?comps<=1 ?comp:gontran Il n'y a que Gontran et toi. Il te parle de sa mère, qui voulait qu'il soit avocat. Il dit que, d'une certaine façon, il plaide tous les jours. Tu ne l'avais jamais écouté. Tu l'écoutes.
-* gfi_01 ?comp:gontran | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président exige qu'on se couche tôt ! » Tout le monde rit, parce que tout le monde a compris autre chose, cette fois. | | mor+1 |
-* gfi_01 ?!comp:gontran | Penser : « Merci d'être venus. » | Xanthin le dit, lentement, à chacun. Ça prend tout le temps du feu. Personne ne s'en plaint. | | mor+1 |
-* gfi_01 ?comp:xanthin | Penser : « Merci d'être venus. », mais seulement pour Xanthin | Xanthin le garde pour lui. Il pousse d'un demi-millimètre. Tu ne l'avais jamais vu pousser si vite. | | mor+1 |
-* gfi_01 | Regarder la Lune, sans rien penser | Elle est si basse qu'on voit ses cratères à l'œil nu, et la poussière blanche au bord des cratères. Elle ne sait pas que tu la regardes. Elle ne l'a jamais su. | |
+* gal_nuit1 ?comp:gontran | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président exige qu'on se couche tôt ! » Tout le monde rit, parce que tout le monde a compris autre chose, cette fois. | | mor+1 |
+* gal_nuit1 ?!comp:gontran ?comp:xanthin | Penser : « Merci d'être venus. » | Xanthin le dit, lentement, à chacun. Ça prend tout le temps du feu. Personne ne s'en plaint. | | mor+1 |
+* gal_nuit1 ?comp:xanthin | Penser : « Merci d'être venus. », mais seulement pour Xanthin | Xanthin le garde pour lui. Il pousse d'un demi-millimètre. Tu ne l'avais jamais vu pousser si vite. | | mor+1 |
+* gal_nuit1 | Regarder la Lune, sans rien penser | Elle est si basse qu'on voit ses cratères à l'œil nu, et la poussière blanche au bord des cratères. Elle ne sait pas que tu la regardes. Elle ne l'a jamais su. | |
 
 @gal_renv
 !title: Comment renvoyer un interprète
-Xanthin réfléchit. Chez les lichens, réfléchir prend une heure. Gontran, pendant ce temps, donne trois interviews.
-« Vous... ne pouvez pas... le renvoyer vous-même », dit-il enfin. « Vous ne bougez pas. Moi, je roule... mais lentement. Il faut... quelqu'un qui agit. Ou quelque chose... qui le fasse partir... tout seul. Ou une preuve... qu'il ne traduit pas. »
-?comps<3 Il ajoute : « Et s'il part... je vous roulerai. Un mètre... par heure. On arrivera. »
-?comps>=3 Il regarde ceux qui sont avec vous. « Eux... pourront vous porter. »
+?comp:xanthin Xanthin réfléchit. Chez les lichens, réfléchir prend une heure. Gontran, pendant ce temps, donne trois interviews.
+?comp:xanthin « Vous... ne pouvez pas... le renvoyer vous-même », dit-il enfin. « Vous ne bougez pas. Moi, je roule... mais lentement. Il faut... quelqu'un qui agit. Ou quelque chose... qui le fasse partir... tout seul. Ou une preuve... qu'il ne traduit pas. »
+?!comp:xanthin Dr Quartz pose son carnet sur la table du Conseil. Elle a mesuré tes vibrations pendant tout le voyage, en notant à côté ce que Gontran annonçait.
 ~bartho: Bartholomé ouvre sa main. « Je porte des filets de quarante kilos. Je peux porter un caillou et sa moisissure. » Xanthin se vexe pendant dix minutes.
 ~penelope: Pénélope lève un tampon. « S'il faut un document, je suis là. Je n'ai que "APPROUVÉ" et "REFUSÉ", mais je sais lire les autres. »
 ~melusine: « UN HOMME QUI PARLE À LA PLACE DES AUTRES ? » Tante Mélusine en a connu un. Elle l'a épousé. Elle n'en dit pas plus.
-* gal_ret | Penser, le plus fort possible : « Vous êtes licencié. » | Xanthin n'a même pas le temps de le répéter. Gontran, qui n'entend rien, sent quand même que c'est le moment de parler : « Le Président m'augmente ! Merci, Monsieur le Président ! » Il t'embrasse. Tu es un galet augmenté de bave. Xanthin, sur ton flanc, en a reçu aussi. Elle ne dit rien pendant longtemps. | | +flag:p_augmente |
-* gal_ret ?flag:obj_ticket_zero | Penser : « Le ticket zéro. Envoyez-le au guichet zéro. » | Xanthin l'appelle, lentement : « Maître... Verbiage... Le Président... vous confie... une mission... capitale. Avec ce ticket... vous passerez avant... tout le monde... au guichet zéro. C'est là... qu'on nomme... les ambassadeurs. » Gontran devient tout rouge. Il prend le ticket comme une hostie. Il part en courant vers Tamponville, sous-sol moins quatre, devant le guichet zéro. Le greffier qui le tient est parti en voyage, on ne sait pas quand il reviendra. Gontran passera avant tout le monde. Il n'y a personne. | | -flag:obj_ticket_zero -comp:gontran +flag:p_gontran_parti |
-* gal_ret ?flag:obj_tampon_vu ?comp:penelope | Penser : « Un décret. Pénélope tamponne. » | Xanthin dicte, une syllabe par minute. Pénélope écrit : « Il est mis fin aux fonctions de Maître Gontran Verbiage, interprète, qui n'en a jamais eu. » Elle pose le tampon « VU » dessus, puis son « APPROUVÉ », pour faire bonne mesure. Gontran lit. Il lit encore. « Mais... c'est VU. On ne peut plus l'ignorer. » Il te pose délicatement sur le sol, te salue, et s'en va, très droit, en pleurant un peu. | | -flag:obj_tampon_vu -comp:gontran +flag:p_gontran_parti |
-* gal_ret ?flag:obj_boussole | Penser : « La boussole. Dites-lui qu'elle mène à mon discours. » | Xanthin lui tend l'idée, lentement : « Cette boussole... mène au discours... perdu... du Président. Celui qu'il n'a... jamais prononcé. » Les yeux de Gontran s'allument. Un discours du Président ! Il prend la boussole et part, le nez dessus. Elle indique ce qui est sur le point de se perdre. Au bout de cent mètres, c'est lui. On ne le revoit pas. | | -flag:obj_boussole -comp:gontran +flag:p_gontran_parti |
-* gal_ret coe10 ?!flag:p_conseil_essai | Penser : « Traduis en même temps que lui, devant le Conseil. » | Xanthin roule jusqu'au bord de la table du Conseil. Gontran annonce : « Le Président a faim ! » Xanthin, en même temps, dit lentement : « Le Président... pense... à la Lune. Regardez... son côté... tourné vers elle. » Tout le Conseil regarde. Tu deviens blanc, sur le côté tourné vers la Lune, comme chaque fois que tu penses à elle. Personne n'a jamais blanchi de faim. Le Conseil remercie Gontran pour quarante ans de services qu'on ne lui avait pas demandés. Il s'en va en saluant, sans comprendre. | Xanthin roule jusqu'au bord de la table du Conseil et donne la vraie traduction, en même temps que Gontran. Mais tu penses à la Lune trop lentement pour blanchir à temps, et le Conseil, entre deux traductions, croit la plus forte. | -comp:gontran +flag:p_gontran_parti +flag:p_conseil_essai | +flag:p_conseil_essai
-* gal_ret ?flag:p_registre | Penser : « La réponse du greffier. Lisez-la au Conseil. » | Xanthin la lit, lentement. « Registre des nominations... du Cadastre. Verbiage, Gontran : jamais nommé... à rien. » Le Conseil se tourne vers Gontran. Il ne peut pas être licencié : il n'a jamais été engagé. Alors il démissionne, très dignement, d'un poste qu'il n'avait pas. Il te rend à Xanthin avec une petite révérence. | | -comp:gontran +flag:p_gontran_parti |
-* gal_ret | Penser : « Pas maintenant. » | Xanthin soupire. Gontran, à côté, explique à un journaliste que le Président n'a jamais été aussi en forme. | |
+* gal_ret ?comp:xanthin | Penser, le plus fort possible : « Vous êtes licencié. » | Xanthin n'a même pas le temps de le répéter. Gontran, qui n'entend rien, sent quand même que c'est le moment de parler : « Le Président m'augmente ! Merci, Monsieur le Président ! » Il t'embrasse. Tu es un galet augmenté de bave. Xanthin, sur ton flanc, en a reçu aussi. Il ne dit rien pendant longtemps. | | +flag:p_augmente |
+* gal_ret ?comp:xanthin ?flag:obj_ticket_zero | Penser : « Le ticket zéro. Envoyez-le au guichet zéro. » | Xanthin l'appelle, lentement : « Maître... Verbiage... Le Président... vous confie... une mission... capitale. Avec ce ticket... vous passerez avant... tout le monde... au guichet zéro. C'est là... qu'on nomme... les ambassadeurs. » Gontran devient tout rouge. Il prend le ticket comme une hostie. Il part en courant vers Tamponville, sous-sol moins quatre, devant le guichet zéro. Le greffier qui le tient est parti en voyage, on ne sait pas quand il reviendra. Gontran passera avant tout le monde. Il n'y a personne. | | -flag:obj_ticket_zero -comp:gontran +flag:p_gontran_parti |
+* gal_ret ?comp:xanthin ?flag:obj_tampon_vu ?comp:penelope | Penser : « Un décret. Pénélope tamponne. » | Xanthin dicte, une syllabe par minute. Pénélope écrit : « Il est mis fin aux fonctions de Maître Gontran Verbiage, interprète, qui n'en a jamais eu. » Elle pose le tampon « VU » dessus, puis son « APPROUVÉ », pour faire bonne mesure. Gontran lit. Il lit encore. « Mais... c'est VU. On ne peut plus l'ignorer. » Il te pose délicatement sur le sol, te salue, et s'en va, très droit, en pleurant un peu. | | -flag:obj_tampon_vu -comp:gontran +flag:p_gontran_parti |
+* gal_ret ?comp:xanthin ?flag:obj_boussole | Penser : « La boussole. Dites-lui qu'elle mène à mon discours. » | Xanthin lui tend l'idée, lentement : « Cette boussole... mène au discours... perdu... du Président. Celui qu'il n'a... jamais prononcé. » Les yeux de Gontran s'allument. Un discours du Président ! Il prend la boussole et part, le nez dessus. Elle indique ce qui est sur le point de se perdre. Au bout de cent mètres, c'est lui. On ne le revoit pas. | | -flag:obj_boussole -comp:gontran +flag:p_gontran_parti |
+* gal_ret coe10 ?comp:xanthin ?!flag:p_conseil_essai | Penser : « Traduis en même temps que lui, devant le Conseil. » | Xanthin roule jusqu'au bord de la table du Conseil. Gontran annonce : « Le Président a faim ! » Xanthin, en même temps, dit lentement : « Le Président... pense... à la Lune. Regardez... son côté... tourné vers elle. » Tout le Conseil regarde. Tu deviens blanc, sur le côté tourné vers la Lune, comme chaque fois que tu penses à elle. Personne n'a jamais blanchi de faim. Le Conseil remercie Gontran pour quarante ans de services qu'on ne lui avait pas demandés. Il s'en va en saluant, sans comprendre. | Xanthin roule jusqu'au bord de la table du Conseil et donne la vraie traduction, en même temps que Gontran. Mais tu penses à la Lune trop lentement pour blanchir à temps, et le Conseil, entre deux traductions, croit la plus forte. | -comp:gontran +flag:p_gontran_parti +flag:p_conseil_essai | +flag:p_conseil_essai
+* gal_ret ?comp:xanthin ?flag:p_registre | Penser : « La réponse du greffier. Lisez-la au Conseil. » | Xanthin la lit, lentement. « Registre des nominations... du Cadastre. Verbiage, Gontran : jamais nommé... à rien. » Le Conseil se tourne vers Gontran. Il ne peut pas être licencié : il n'a jamais été engagé. Alors il démissionne, très dignement, d'un poste qu'il n'avait pas. Il te rend à Xanthin avec une petite révérence. | | -comp:gontran +flag:p_gontran_parti |
+* gal_ret ?flag:p_quartz_mesure ?comp:quartz | Laisser le Docteur Quartz lire ses mesures au Conseil | Dr Quartz lit, d'une voix sans émotion : « Mardi, quinze heures. Vibration du Président : faible, triste, orientée vers la Lune. Traduction de Maître Verbiage : "Le Président a faim." Mardi, seize heures. Vibration : forte, inquiète. Traduction : "Le Président trouve la mer trop salée." Corrélation entre les deux : zéro. » Le Conseil se tait. Gontran aussi, pour la première fois de sa vie. Il regarde le carnet. Il te regarde. Il comprend, d'un coup, qu'il y avait quelque chose à entendre. Il te pose sur la table, très doucement, et il sort, sans un mot. | | -comp:gontran +flag:p_gontran_parti +flag:p_gontran_compris |
+* gal_ret | Penser : « Pas maintenant. » | Gontran, à côté, explique à un journaliste que le Président n'a jamais été aussi en forme. | |
 
-# ---------------------------------------------------------------- LES CÔTES
-
-@gco_01
-!title: Les Côtes Hagardes
-!fx: +flag:vis_gco regions+1
-La mer s'est retirée à un kilomètre. Au large, une vague immense s'est arrêtée en plein élan, haute comme dix phares, et elle ne retombe pas. Des Marégraves, faits d'eau de mer, écopent leurs maisons avec leurs mains, et se remplissent en écopant.
-Gontran grimpe sur un rocher et te brandit au-dessus de sa tête. « Peuple des Côtes ! Le Président est parmi vous ! » Les Marégraves lèvent les yeux. Ils voient un caillou. Ils en ont plein.
-?!comp:gontran Personne ne te brandit. On te pose sur un rocher, et Xanthin dit aux gens, lentement, que tu es venu les écouter.
-* gco_02 coe9 ?comp:gontran | Penser : « Pauvres gens. » | Gontran traduit : « Le Président trouve la mer un peu trop salée ! » Un silence. Puis une vieille Marégrave éclate de rire, et tous les autres avec elle. Ils n'avaient pas ri depuis la Lune. Ça leur fait du bien. On vous laisse passer. | Gontran traduit : « Le Président trouve la mer un peu trop salée ! » Un jeune Marégrave lui jette un seau d'eau à la figure. Il est fait d'eau, il en a beaucoup. Gontran, trempé, continue son discours. | equ+2 | mor-1
-* gco_02 ?comp:gontran | Ne rien penser, et regarder la vague | Gontran traduit ton silence : « Le Président salue le courage des poissons ! » Dans une flaque, des centaines de poissons font la queue pour une gorgée d'eau. Ils applaudissent avec leurs nageoires. Ils ne savaient pas qu'on les voyait. | | mor+1 |
-* gco_02 ?!comp:gontran | Penser : « Je suis venu vous écouter. » | Xanthin le répète. Les Marégraves s'assoient autour du rocher et te racontent la mer qui est partie. Ça dure longtemps. Tu as le temps : tu es un caillou. | | equ+2 |
-
-@gco_02
-!title: Le Chœur des Méduses
-Au pied de la vague immobile, des milliers de méduses lumineuses se tiennent par les filaments. Elles retiennent la vague de toutes leurs forces, et elles chantent d'une seule voix.
-On te pose sur une pierre au bord de l'eau. Les pierres entendent bien ce qui chante dans l'eau : ça passe par le fond. Et toi, tu comprends les paroles. « ELLE NE VEUT PAS PARTIR. ELLE NOUS L'A DIT, À NOUS, LA MER. ELLE NE VEUT PAS PARTIR. »
-Tu deviens un peu plus blanc, sur le côté tourné vers le large.
-?comp:gontran Gontran, ému, traduit la chanson pour la foule : « Elles demandent des parapluies. » Personne ne sait pourquoi on pleure.
-?!comp:gontran Xanthin répète les paroles pour ceux qui ne les comprennent pas. Sur la plage, les Marégraves se taisent.
-~xanthin: « Elle ne veut... pas partir », répète Xanthin, pour lui-même. « On ne... nous l'avait... pas dit. »
-~melusine: Tante Mélusine chante avec les méduses, faux, fort, en pleurant. Les méduses la laissent faire. Elles chantent faux aussi, à mille.
-* gco_03 coe9 ?!comp:xanthin | Penser : « Quelqu'un d'autre entend la chanson ? » | Sur ta pierre, au bord de l'eau, une tache orange frémit : un jeune Lichenaute, têtu, qui te cherche par la Toile depuis qu'on y parle d'une pierre qui pense. Il roule jusqu'à toi et s'installe sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Sur ta pierre, une tache orange frémit et roule vers toi, mais une vague l'éclabousse, et un lichen mouillé, ça prend une heure à repartir. On t'emporte avant. | +comp:xanthin +flag:p_xan_vu +flag:p_sait | +flag:p_xan_vu +flag:p_sait
-* gco_03 | Se laisser emporter vers le bistrot sur pilotis | Plus loin, un bistrot penché, à moitié dans l'eau : « Le Ressac Triste ». Il a toujours été ouvert. | | +flag:p_sait |
-
-@gco_03
-!title: Le Ressac Triste
-Au comptoir, un vieux pêcheur fait d'eau de mer trouble regarde son verre d'eau douce : Bartholomé Vasequeuse. Sa femme Perline est partie avec la grande marée il y a vingt ans. Il boit de l'eau douce pour se diluer, et dilué, il devient sentimental.
-On te pose sur le comptoir, entre une soucoupe et lui. Il te regarde. « C'est quoi, ça ? »
-?comp:gontran « C'est le Président de la Terre », dit Gontran. Bartholomé crache par terre, ce qui chez un Marégrave fait une petite flaque.
-?!comp:gontran « Le Président de la Terre », dit Xanthin, au bout d'une minute. Bartholomé attend la fin de la phrase. Il a l'habitude d'attendre.
-* gco_04 pan9 ?comp:gontran | Penser : « Ce pauvre homme a perdu quelqu'un. » | Gontran traduit : « Le Président vous trouve trop mouillé pour un pêcheur ! » Bartholomé se lève. « Trop mouillé ? Moi ? » Il t'attrape. « Je vais lui montrer ce que c'est, la mer, à ton caillou. Il ne sera pas déçu. » Il te met dans la poche de son ciré, et il ne te rend pas. | Gontran traduit : « Le Président vous trouve trop mouillé pour un pêcheur ! » Bartholomé te tourne le dos et commande un autre verre d'eau douce. « Dites à votre caillou d'aller sécher ailleurs. » | +comp:bartho |
-* gco_04 coe9 ?comp:gontran | Penser : « Je voudrais juste m'asseoir au bord de l'eau, avec lui. » | Gontran traduit : « Le Président paie sa tournée ! » Tout le bistrot boit de l'eau douce aux frais de la Terre. Tout le monde devient sentimental en même temps. Bartholomé pose sa grosse main sur toi. « Un président qui paie, on n'en a jamais vu. Je viens avec toi, caillou. Quelqu'un doit surveiller tes dépenses. » | Gontran traduit : « Le Président paie sa tournée ! » Tout le bistrot boit de l'eau douce. Bartholomé aussi. Il se dilue tant qu'il se met à pleurer sur le comptoir, et on ne peut plus lui parler. | +comp:bartho |
-* gco_04 coe9 ?!comp:gontran | Penser : « Vous avez perdu quelqu'un. Moi, je vais perdre la Lune. » | Xanthin le répète, mot après mot. Bartholomé ne dit rien pendant longtemps. Puis : « Perline est là-haut, en poussière d'écume. Si la Lune part, elle part avec. » Il te prend. « Je viens. » | Xanthin le répète, mot après mot. Bartholomé l'écoute, mais à la fin, il ne se souvient plus du début. « Les lichens, ça parle trop lentement pour un homme triste. » Il retourne à son verre. | +comp:bartho |
-
-@gco_04
-!title: La jetée
-!fx: +flag:p_code comp:bartho=>+flag:p_maree
-On te porte jusqu'à une jetée. Au bout, une silhouette de classeurs gris, grande comme un phare couché : l'Huissier Krâmm, venu d'Aldébaran. Il mesure les vagues une par une, avec un mètre ruban qui se déroule tout seul, et il les note dans un registre.
-Il te voit. Il ouvre un tiroir, en sort un formulaire, le referme. « Le chef de l'État cédant. Bien. Article premier du Code foncier d'Aldébaran : on ne cède pas un territoire sans la signature de son chef d'État. Votre signature figure à l'acte, par délégation. » Il hésite. « Par délégation de qui, je l'ignore. Ce n'est pas mon tiroir. »
-?comp:bartho Bartholomé, lui, regarde la mer qui hésite au loin. « Cette nuit ou la suivante, ce sera la grande marée. Avec la Lune si basse, la mer va monter vers elle comme jamais. Quand j'étais petit, j'ai lancé un galet en ricochet un soir de grande marée. Il est monté jusqu'aux nuages. » Il te soupèse. « Tu ricoches bien, toi. Tu es plat. »
-~bartho: Bartholomé regarde Krâmm de travers. « Un classeur qui compte les vagues. On aura tout vu. »
-~xanthin: Xanthin a écouté l'article premier. Il le répète tout bas, trois fois. Il range les choses importantes comme ça.
-* gal_ret ?comp:gontran | Penser : « Monsieur, rendez-nous la Lune. » | Gontran traduit : « Le Président vous invite à dîner ! » Krâmm note : « Invitation, une. Refusée. » Il retourne à ses vagues. Gontran est ravi : le Président a fait un geste diplomatique. Vous quittez les Côtes. | |
-* gal_ret ?!comp:gontran | Penser : « Monsieur, rendez-nous la Lune. » | Xanthin le répète. Krâmm s'arrête de mesurer. Pour la première fois de sa vie, il ne trouve pas d'article. Il range son mètre. « Ce n'est pas mon tiroir », dit-il encore, plus bas. Vous quittez les Côtes. | | mor+1 |
-* gal_ret | Ne rien penser, et regarder la mer une dernière fois | La mer est grise, calme, tendue, comme quelqu'un qui retient sa respiration. Au-dessus, la Lune, toujours plus loin. Vous quittez les Côtes. | |
-
-# ---------------------------------------------------------------- LA CAPITALE
-
-@gca_01
-!title: Tamponville
-!fx: +flag:vis_gca regions+1
-Tamponville, la Capitale, la ville des tampons. La file d'attente du Cadastre fait trois fois le tour de la ville. Tout le monde vient contester la vente de la Lune. Tout le monde a un ticket.
-Au bout de la file, à l'entrée, un distributeur de tickets. Il commence à 1. Il a toujours commencé à 1.
-?comp:gontran Gontran te brandit : « Place au Président ! » La file s'ouvre comme la mer devant un prophète pressé.
-?!comp:gontran Personne ne te brandit. On te porte au bout de la file, et on attend, comme tout le monde. Xanthin trouve ça très bien.
-* gca_02 ?comp:gontran | Penser : « Faisons la queue, comme tout le monde. » | Gontran traduit : « Le Président passe devant ! » Et il passe devant. Trois mille personnes vous regardent passer. Tu aurais aimé faire la queue. On ne t'a jamais laissé faire la queue. | |
-* gca_04 ?comp:gontran | Penser : « Qui a signé la vente ? Je voudrais voir les papiers. » | Gontran traduit : « Le Président veut voir la Sous-Directrice ! » On vous ouvre la porte de service. C'est presque ce que tu voulais. Gontran ne le saura jamais. | |
-* gca_02 ?!comp:gontran | Attendre son tour, comme tout le monde | Tu attends. Trois jours, ce n'est rien, pour un caillou. Au bout d'une heure, quelqu'un te reconnaît, et toute la file te fait passer devant, par respect. Tu n'y peux rien. | |
-
-@gca_02
-!title: Le guichet un
-Derrière le guichet un, une vieille Lichenaute, Madame Pruine, lève un œil. Ça prend une minute. Elle pousse sur le bois du guichet depuis trois cents ans.
-Elle te regarde longtemps. « Celui-là... il pense. » Elle parle lentement, comme tous les Lichenautes. « Moi, j'entends... ce que pense le bois... parce que je pousse dessus. Le bois ne pense pas... grand-chose. Lui, il pense... beaucoup. »
-« Il faudrait... une jeune... qui accepte de pousser... sur lui. Il y en a une... sur les marches du Cadastre. Orange. Têtue. »
-?comp:gontran Gontran sourit poliment : « Le Président vous remercie pour votre... pousse. » Il n'a rien compris.
-?!flag:obj_ticket_zero À côté du guichet, le distributeur. En dessous, coincé dans la fente, un ticket que personne n'a vu. Il porte un zéro.
-* gca_02b rus9 ?!flag:obj_ticket_zero ?comp:gontran | Penser : « Je voudrais repartir. » | Gontran traduit : « Le Président prend un ticket, comme tout le monde ! » Il tire sur le distributeur, qui ne donne rien. Alors il tire sur ce qui dépasse dessous. C'est le ticket zéro. « Celui qui a le zéro passe avant tout le monde », murmure Madame Pruine. Gontran le glisse dans sa poche, à côté de toi, sans savoir ce qu'il tient. | Gontran traduit : « Le Président prend un ticket, comme tout le monde ! » Il tire sur le distributeur. Il obtient le 4 812. Il le garde précieusement. Le zéro reste coincé dans la fente. | +flag:obj_ticket_zero |
-* gca_02b rus9 ?!flag:obj_ticket_zero ?!comp:gontran | Penser : « Le ticket, sous le distributeur. » | Xanthin le dit à celui qui te porte, qui tire le ticket zéro de la fente. Madame Pruine hoche la tête, très lentement : « Celui qui a le zéro... passe avant tout le monde. » | Xanthin le dit à celui qui te porte, qui tire trop fort : le ticket se déchire en deux. Un demi-zéro ne vaut rien, dit Madame Pruine. | +flag:obj_ticket_zero |
-* gca_02b ?comp:gontran | Penser : « Merci, Madame. » | Gontran traduit : « Le Président trouve votre guichet un peu lent ! » Madame Pruine sourit, pour la première fois en trois cents ans. Elle a entendu le bois de ton silence, et pas Gontran. | | mor+1 |
-* gca_02b ?!comp:gontran | Penser : « Merci, Madame. » | Xanthin le dit. Madame Pruine sourit, pour la première fois en trois cents ans. Ça lui prend une minute, de sourire. Ça valait la minute. | | mor+1 |
-
-@gca_02b
-Madame Pruine pose la main sur son tampon, le plus ancien du Cadastre : un tampon de bois et de laiton, qui marque « VU ». « Ce qu'il marque... a été vu. Officiellement. On ne peut plus... l'ignorer. »
-Elle te regarde encore. « Le Président... devrait l'avoir. Il voit tout... depuis huit cents ans... et personne ne le sait. »
-~xanthin: « Elle... a raison », dit Xanthin. « Vous voyez... tout. »
-* gca_03 rus9 ?comp:gontran | Penser : « Gardez-le, Madame. Il est à vous. » | Gontran traduit : « Le Président réquisitionne votre tampon ! » Madame Pruine le pousse vers toi, un millimètre par minute. Gontran attend, en tapant du pied. Au bout d'une heure, tu l'as. Gontran te sort enfin sur les marches du Cadastre, « pour prendre l'air ». | Gontran traduit : « Le Président réquisitionne votre tampon ! » Madame Pruine retire sa main. On ne réquisitionne pas un lichen. Gontran, vexé, te sort sur les marches du Cadastre, « pour prendre l'air ». | +flag:obj_tampon_vu |
-* gca_03 ?comp:gontran | Penser : « J'aimerais rencontrer cette jeune lichen. » | Gontran traduit : « Le Président a besoin de soleil ! » Il te sort sur les grandes marches du Cadastre, en plein soleil, et te pose sur une marche pour aller donner une interview. C'est presque ce que tu voulais. C'est même exactement ça. | |
-* gca_04 ?!comp:gontran | Penser : « Allons voir qui a signé. » | Xanthin le répète. On t'emmène vers le bureau de la Sous-Directrice. Madame Pruine vous regarde partir. Elle garde son tampon. Elle a eu raison de le garder. | |
-
-@gca_03
-!title: Les marches du Cadastre
-Les grandes marches de pierre du Cadastre. Elles sont vieilles, chaudes, pleines de soleil. Sur la troisième, une petite tache de lichen orange, pas plus large qu'une pièce de monnaie.
-Tu es posé juste à côté. Ton bord touche son bord.
-?!comp:xanthin ?flag:p_xan_vu C'est le même jeune lichen orange que la dernière fois. Il t'a suivi, en roulant et par la Toile. « Encore... vous. Encore... lui. »
-?!comp:xanthin ?!flag:p_xan_vu La tache orange frémit. C'est un jeune Lichenaute, à peine quatre-vingts ans. Une voix très lente, très jeune, monte de la pierre : « Oh. Une pierre... qui pense. Ça... n'arrive jamais. » Puis : « Vous... pensez fort. Je vous entends... un peu. Par le bord. Et lui... il ne dit pas... ce que vous pensez. »
-?comp:xanthin Xanthin, sur ton flanc, regarde la marche où il a grandi. « C'était... chez moi. C'est petit... vu d'ici. »
-~gontran: Au pied des marches, Gontran donne une interview : « Le Président est très serein. Il me l'a dit. »
-* gca_04 coe9 ?!comp:xanthin | Penser : « Restez avec moi. J'ai besoin que quelqu'un m'entende. » | Il met longtemps à répondre. Puis il roule, de la marche jusqu'à toi, et il s'installe sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » Quand Gontran revient te chercher, il ne voit qu'une petite tache orange sur ton flanc. Il pense que tu as rouillé. | Il hésite trop longtemps. Gontran revient et te ramasse avant qu'il ait roulé jusqu'à toi. Sur la marche, la tache orange te regarde partir. Elle a l'air de quelqu'un qui se promet de te retrouver. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
-* gca_04 ?comp:xanthin | Laisser Xanthin dire au revoir à sa marche | Il lui dit au revoir pendant dix minutes. Une marche, ça ne répond pas, mais ça écoute. | |
-
-@gca_04
-!title: La Sous-Directrice
-Le bureau de la Sous-Directrice, tout en haut du Cadastre. Madame Épine est un cactus de deux mètres, dans un pot de marbre. Elle ne sort jamais. Sur son bureau, une lettre écrite en lumière, sur un papier si fin qu'il est presque de l'air.
-« Monsieur le Président. » Elle te salue, ce qui chez un cactus se fait des yeux. « Vous tombez bien. La Lune nous a écrit. »
-Elle lit la lettre à voix haute : « Je ne souhaite pas partir. Personne ne m'a demandé. Je tourne autour de vous depuis toujours. Je ne demande rien d'autre que de rester. »
-Tu deviens un peu plus blanc, sur un côté. Madame Épine le remarque. Elle ne dit rien. Elle range la lettre dans un dossier marqué « URGENT », puis dans un autre marqué « TRÈS URGENT ».
-?comp:gontran Gontran note dans son carnet : « Lettre. Belle. »
-« Je connais un moyen d'effrayer ceux d'Aldébaran », dit Madame Épine. « Ils ont peur de ce qu'ils ne comprennent pas. Quand un de leurs huissiers vient ici, je dis : "Sous réserve de l'article douze, alinéa trois." Personne ne sait ce que dit l'article douze. Moi non plus. Ils repartent toujours. »
-?comp:gontran Gontran répète la phrase, ravi, trois fois, en roulant les r. Il ne l'oubliera plus.
-~xanthin: « La Lune... a écrit », dit Xanthin. « Elle a... la même écriture... que la lumière. »
-~bartho: Bartholomé regarde le cactus. « Elle me rappelle Perline. Elle piquait aussi. »
-* gca_05 | Écouter ce que Madame Épine a encore à dire | « Autre chose, Monsieur le Président. » Elle ouvre un tiroir. | | +flag:p_sait comp:gontran=>+flag:p_formule |
-
-@gca_05
-!title: Le neveu
-Dans le tiroir, sur un mouchoir, un tout petit galet gris clair, avec une mèche blanche. Ton neveu. Il est arrivé aux archives il y a trente ans, dans un dossier mal classé, et Madame Épine l'a gardé depuis.
-Il ne dit rien non plus. Mais avec moins d'autorité.
-« Il n'a jamais rien vu », dit Madame Épine. « Ni la mer, ni la forêt, ni la Lune de près. »
-* gca_06 coe9 ?comp:gontran | Penser : « Je voudrais qu'il voie du pays. » | Gontran traduit : « Le Président le confie au Cadastre, pour toujours ! » Madame Épine le regarde. Puis elle te regarde. Elle te connaît depuis quarante ans. Elle prend le petit galet et le glisse dans la poche de Gontran, à côté de toi. « Le Président voudra qu'il voie du pays. » Gontran ne comprend pas. Il ne comprend jamais. | Gontran traduit : « Le Président le confie au Cadastre, pour toujours ! » Madame Épine hésite, puis referme le tiroir. « Bien. Pour toujours, alors. » Tu n'as pas de mains pour le rouvrir. | +flag:obj_neveu_galet |
-* gca_06 coe9 ?!comp:gontran | Penser : « Je voudrais qu'il voie du pays. » | Xanthin le répète. Madame Épine sourit, ce qui chez un cactus se voit à une fleur rose qui s'ouvre au bout d'une épine. Elle met le petit galet avec toi. | Xanthin le répète, mais Madame Épine a déjà refermé le tiroir, et un cactus ne revient pas sur une décision dans la même journée. | +flag:obj_neveu_galet |
-* gca_06 ?comp:gontran | Penser : « Il est mieux ici, à l'abri. » | Gontran traduit : « Le Président veut l'emmener partout ! » Madame Épine referme doucement le tiroir. Elle t'a cru, toi, et pas lui. Elle a toujours su lire les cailloux. | |
-* gca_06 ?!comp:gontran | Penser : « Il est mieux ici, à l'abri. » | Xanthin le dit. Madame Épine referme doucement le tiroir. « Vous avez raison. Il verra du pays plus tard. » | |
-
-@gca_06
-!title: Les archives
-!fx: +flag:p_signature
-On te descend aux archives, sous-sol moins onze, pour voir l'acte de vente. Des kilomètres d'étagères. Entre deux rayons, une silhouette dorée, élégante, avec deux tampons à la place des mains et un chignon en ressort : Pénélope Tampon, l'assistante de Platine. Elle tient l'acte de vente. Elle le repose. Elle le reprend.
-Sur l'acte, en bas, la signature du greffier qui l'a tamponné. Une signature de lichen : elle pousse en faisant grandir le nom de son auteur, et elle n'est pas finie. « Basile Gru... » Il manque quelques jours.
-~xanthin: Xanthin regarde la signature et pâlit, ce qui chez un lichen orange donne du jaune. « Grumeau. C'est... de la famille. »
-Elle sursaute en vous voyant. « Oh ! Le... le Président de la Terre ? Je... je viens chercher l'original. Pour Monsieur Platine. Il dit merci. Il m'appelle "ma chère". »
-* gca_07 coe10 ?comp:gontran ?!comp:penelope | Penser : « Mademoiselle, vous n'êtes pas obligée de lui obéir. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope ouvre de grands yeux. Personne ne lui a jamais demandé son autographe. Elle tamponne « APPROUVÉ » sur le front de Gontran, puis elle se met à rire, pour la première fois de sa vie. Elle repose l'acte de vente sur l'étagère. « Je crois que je viens de démissionner. Je viens avec vous. Quelqu'un doit vérifier ce qu'il signe en votre nom. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope, troublée, tamponne « REFUSÉ » sur le front de Gontran, serre l'acte de vente contre elle et s'enfuit dans l'escalier. | +comp:penelope |
-* gca_07 coe9 ?!comp:gontran ?!comp:penelope | Penser : « Mademoiselle, vous n'êtes pas obligée de lui obéir. » | Xanthin le répète, lentement, et Pénélope a le temps de l'entendre vraiment. Ses tampons tremblent. Elle repose l'acte de vente. « C'est la première fois que je choisis quelque chose. C'est terrifiant. Je viens avec vous. » | Xanthin le répète, mais trop lentement : au milieu de la phrase, Pénélope a déjà filé dans l'escalier avec l'acte de vente. | +comp:penelope |
-* gca_07 | Ne rien penser, et la regarder hésiter | Elle hésite longtemps. Puis elle repart avec l'acte, à petits pas, en se retournant deux fois. | |
-
-@gca_07
-Vous remontez à la surface. Sur le mur du Cadastre, quelqu'un a écrit à la craie, en lettres maladroites, très bas, comme un enfant : « Papa, ne déménage pas la Lune. »
-~penelope: Pénélope regarde le graffiti longtemps. « Je connais cette écriture. C'est la fille de l'huissier Krâmm. Elle était venue avec lui. »
-~gontran: Gontran lit le graffiti à voix haute, pour toi : « Le Président approuve la peinture murale. »
-* gal_ret | Quitter Tamponville | La tour du Cadastre penche un peu moins. Ou c'est toi qui penches, vers l'espoir. Un galet ne penche pas, normalement. | |
-
-# ---------------------------------------------------------------- LA FORÊT
-
-@gfo_01
-!title: La Forêt-Réseau
-!fx: +flag:vis_gfo regions+1
-Les arbres poussent de travers. Ils cherchent quelque chose qu'ils ne trouvent plus. Sous la terre, les racines se parlent par une toile immense qui relie toutes les racines du monde. Elles chuchotent : « Où est la lumière froide ? On poussait vers elle. »
-Tu entends les racines. Un galet posé par terre entend tout ce qui passe sous la terre. Personne ne le savait, parce que personne ne t'avait jamais posé par terre.
-?comp:gontran Gontran, lui, te garde dans sa poche. « Le Président n'aime pas se salir. »
-* gfo_02 ?comp:gontran | Penser : « Posez-moi par terre. » | Gontran traduit : « Le Président veut monter sur l'autel ! » Il t'emmène en haut de la colline, au Temple de la Pleine Lune, et te pose sur la plus belle pierre, pour la photo. Ce n'était pas la terre. C'était une pierre. C'est encore mieux. | |
-* gfo_02 ?!comp:gontran | Penser : « Allons au temple, en haut de la colline. » | Xanthin le répète. On te porte au Temple de la Pleine Lune, au sommet de la colline. | |
-
-@gfo_02
-!title: Le Temple de la Pleine Lune
-Un grand cercle de pierres blanches, polies, au sommet de la colline. Au centre, des centaines de Lunatiques, des créatures pâles et rondes comme des bougies, tricotent des écharpes avec des fils de lumière de Lune. Il y en a de moins en moins.
-?!comp:xanthin ?flag:p_xan_vu Sur la pierre où l'on te pose, une tache orange que tu connais. Le jeune lichen t'a suivi jusqu'ici, en roulant et par la Toile. « Encore... vous. Je suis... têtu. »
-?!comp:xanthin ?!flag:p_xan_vu Sur la pierre où l'on te pose, une tache de lichen orange, pas plus large qu'une pièce de monnaie : un jeune Lichenaute. Une voix très lente monte de la pierre : « Oh. Une pierre... qui pense. Ça... n'arrive jamais. Et celui qui vous porte... ne dit pas... ce que vous pensez. »
-?comp:xanthin Xanthin regarde les pierres blanches avec respect. « Les plus vieilles... pierres de la Terre. Elles pensent... elles aussi. Mais elles... dorment. »
-~gontran: Gontran prend la pose à côté de toi pour un peintre de passage. « Le Président se recueille », explique-t-il au peintre, qui le peint de dos.
-* gfo_03 coe9 ?!comp:xanthin | Penser : « Restez avec moi. J'ai besoin que quelqu'un m'entende. » | Il met longtemps à répondre. Puis il roule de la pierre blanche jusqu'à toi, et s'installe sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Il hésite trop longtemps. Le peintre a fini, on te reprend. La tache orange te regarde partir. Elle a l'air de quelqu'un qui se promet de te retrouver. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
-* gfo_03 | Écouter les tricoteuses | Elles chantent à la Lune des cantiques faux. Au milieu, une voix plus forte et plus fausse que les autres. | |
-
-@gfo_03
-!title: Tante Mélusine
-Au milieu des tricoteuses, une vieille dame immense, enveloppée de châles, couverte de pelotes, trois paires de lunettes sur le nez, une aiguille lumineuse plantée dans le chignon : Tante Mélusine. Elle tricote la lumière de la Lune depuis mille ans, pour les gens qui ont froid. Elle pleure en tricotant, et elle crie en pleurant.
-« QUI EST CE CAILLOU ? QUE VIENT-IL FAIRE DANS MON DEUIL ? »
-* gfo_04 coe10 ?comp:gontran ?!comp:melusine | Penser : « Madame, vous pleurez ? » | Gontran traduit : « Le Président commande une écharpe ! » Tante Mélusine s'arrête net. « UNE ÉCHARPE ? POUR UN CAILLOU ? » Elle te mesure avec ses doigts. Elle tricote en dix minutes une écharpe minuscule, de lumière de Lune, et te l'enroule autour. « JE VIENS AVEC VOUS. QUELQU'UN DOIT VÉRIFIER QU'IL NE LA PERD PAS. » | Gontran traduit : « Le Président commande une écharpe ! » Tante Mélusine se vexe : « JE NE TRICOTE PAS SUR COMMANDE ! JE TRICOTE PAR AMOUR ! » Elle te tourne le dos et se remet à pleurer. | +comp:melusine |
-* gfo_04 coe9 ?!comp:gontran ?!comp:melusine | Penser : « Madame, vous pleurez ? » | Xanthin le répète. Tante Mélusine se mouche. « OUI. ON VA ME PRENDRE LA LUNE. » Elle te prend dans ses mains, immenses et chaudes. « TOI AUSSI, ON VA TE LA PRENDRE. JE VIENS AVEC TOI. » En chemin, elle te tricote une écharpe minuscule, de lumière de Lune, et te l'enroule autour. | Xanthin le répète, mais Tante Mélusine pleure trop fort pour entendre un lichen. | +comp:melusine |
-* gfo_04 | Ne rien penser, et la laisser tricoter | Elle tricote. Tu la regardes. C'est une bonne façon de passer une heure, quand on est un caillou. | |
-
-@gfo_04
-!title: Le feu
-En redescendant de la colline, une odeur de bois brûlé. Des géomètres dorés de la Compagnie Foncière ont allumé un feu au pied d'un vieil arbre. Ils brûlent des racines pour faire passer un câble. La toile des racines hurle sous la terre, et tu l'entends hurler.
-* gfo_05 pan9 ?comp:gontran | Penser : « Arrêtez ! » | Gontran traduit : « Le Président trouve que ça sent bon ! » Les géomètres, flattés, s'inclinent. Puis ils se demandent ce qu'un président pourrait bien aimer dans l'odeur d'une racine qui brûle. Ils se le demandent si longtemps que le feu s'éteint tout seul. Ils s'excusent auprès de chaque cendre. | Gontran traduit : « Le Président trouve que ça sent bon ! » Les géomètres, flattés, remettent du bois. Il faut que les Lichenautes arrivent, avec des heures de retard, pour se coucher sur les racines brûlées. | equ+2 | equ-1
-* gfo_05 pan9 ?!comp:gontran | Penser : « Arrêtez ! » | Xanthin le répète, lentement, et c'est plus impressionnant qu'un cri : un ordre si lent qu'il a l'air éternel. Les géomètres éteignent le feu en s'excusant. | Xanthin le répète, mais les géomètres n'attendent pas la fin de la phrase. Le feu brûle jusqu'au soir. | equ+2 | equ-1
-* gfo_05 ?comp:melusine | Penser à Tante Mélusine, qui crie plus fort que tout | Tante Mélusine a vu le feu avant que quiconque ait traduit quoi que ce soit. « ÉTEIGNEZ-MOI ÇA, BANDE DE BOUGIES ! » Les géomètres éteignent le feu avec leurs chapeaux. On ne discute pas avec Tante Mélusine. | | equ+2 |
-
-@gfo_05
-Tu quittes la Forêt-Réseau. Derrière toi, les arbres poussent un peu moins de travers, comme s'ils avaient retrouvé une direction. Sous la terre, la toile des racines pulse plus calmement. Tu l'entends encore longtemps.
-~melusine: Tante Mélusine resserre ton écharpe. « ELLE TE VA BIEN, CAILLOU. LE GRIS ET LA LUNE, ÇA S'ACCORDE. »
-~xanthin: « Les racines... disaient merci », dit Xanthin. « Vous ne... les avez pas... entendues ? Moi si. Par vous. »
-* gal_ret | Rentrer au Carrefour | Le chemin du retour est long. Tu as le temps de penser. Tu en profites. | |
-
-# ---------------------------------------------------------------- LA DERNIÈRE NUIT
-
-@gfi_01
-!title: La dernière nuit
-La nuit tombe sur le Carrefour. La Lune est si basse qu'elle masque la moitié du ciel. Le crochet tire. Demain, elle sera partie.
-Deux nouvelles arrivent en même temps. L'Huissier Krâmm traverse la plaine avec une enveloppe dorée : « Le chef de l'État cédant est convié à bord du Promontoire, pour constater le transfert. Une navette protocolaire l'attend. » Et le Conseil des Espèces a obtenu l'impossible : un grand miroir d'or, venu d'Aldébaran, qui permet de parler au Président d'Aldébaran lui-même, cette nuit, en sommet de crise.
-Tout le monde se tourne vers toi. Il faut choisir.
-?equ<30 Le sol tremble. La Terre penche déjà. Les mers ont trop bougé, les forêts ont trop poussé de travers. Quoi qu'on décide cette nuit, il sera difficile de tout rattraper.
-?comp:gontran Gontran se racle la gorge. Il va parler. Il parle toujours.
-?!comp:gontran Personne ne parle à ta place. Xanthin attend. Tout le monde attend avec lui.
-?comp:bartho ?flag:p_maree Au loin, la mer monte. Elle monte vers la Lune comme jamais. Bartholomé la regarde, puis il te regarde, et il ne dit rien.
-~bartho: Bartholomé : « La grande marée, c'est cette nuit. Je le sens dans mes genoux. Et mes genoux, c'est de l'eau. »
-~penelope: Pénélope reconnaît l'enveloppe dorée. « C'est moi qui les tamponnais. Avant. »
-~melusine: Tante Mélusine regarde la Lune si basse et sanglote : « ELLE EST SI PROCHE QU'ON POURRAIT LA TRICOTER. »
-~xanthin: Xanthin se tait. Il a compris que cette nuit, chaque mot comptera, même les lents.
-* gfi_som ?comp:gontran | Penser : « Je veux voir ce Platine en face. » | Gontran traduit : « Le Président exige un sommet avec Aldébaran ! » On installe le miroir d'or au centre du Carrefour. | |
-* gfi_pro ?comp:gontran | Penser : « Parlons au Président d'Aldébaran. » | Gontran traduit : « Le Président accepte l'invitation de Monsieur Platine ! » Krâmm range son enveloppe. La navette protocolaire descend du ciel. | |
-* gfi_mar ?comp:gontran ?comp:xanthin ?comp:bartho ?flag:p_maree ?flag:p_code | Penser à l'article premier, en regardant la mer qui monte | Gontran traduit : « Le Président va se coucher ! » Mais Xanthin, lui, a entendu. Pendant que Gontran fait ses adieux à la foule, elle chuchote à l'oreille de Bartholomé, très lentement. Bartholomé écoute jusqu'au bout. Il sourit. | |
-* gfi_tel ?!comp:gontran | Penser : « Parlons au Président d'Aldébaran. » | Xanthin le répète. On installe le miroir d'or au centre du Carrefour, et on te pose devant. | |
-* gfi_pro ?!comp:gontran | Penser : « Je veux voir ce Platine en face. » | Xanthin le répète. Krâmm s'incline, et la navette protocolaire descend du ciel. | |
-* gfi_sig ?comp:xanthin ?flag:p_basile_sig | Penser : « Montrez l'acte de vente à l'huissier. Regardez la signature. » | Xanthin roule jusqu'aux pieds de Krâmm et le lui dit, lentement, en vraie traduction. | |
-* gfi_mar ?!comp:gontran ?comp:bartho ?flag:p_maree ?flag:p_code | Penser à l'article premier, en regardant la mer qui monte | Xanthin le répète à Bartholomé, très lentement. Bartholomé écoute jusqu'au bout. Il sourit. | |
-
-@gfi_sig
-!title: La signature
-?comp:gontran Derrière, Gontran annonce que le Président veut un autographe. Pour la première fois en quarante ans, personne ne l'écoute. Tout le monde regarde le lichen.
-L'Huissier Krâmm ouvre son dernier tiroir et en sort l'acte de vente original, que Pénélope avait fini par rapporter. Il le déplie sous la Lune.
-En bas, la signature du greffier. Une signature de lichen, qui pousse en faisant grandir le nom de son auteur. « Basile Gru... » Elle n'a pas poussé d'un millimètre depuis des jours. Quelque part, au bout de la Toile, un greffier pense très fort à autre chose.
-Krâmm la regarde longtemps. Ses tiroirs grincent. « Article premier du Code foncier : on ne cède pas un territoire sans signature. Une signature qui ne finit pas... n'est pas une signature. » Il hésite. « Mais Monsieur Platine attend. Et je n'ai jamais rien empêché de partir. »
-?flag:p_code Il se souvient de la jetée, et de toi, et de l'article premier. Il te regarde, comme on regarde quelqu'un qui avait raison avant tout le monde.
-~xanthin: « Grumeau... tient bon », dit Xanthin, le bord posé sur une racine. « Il pense... à des choses... très ennuyeuses. Exprès. »
-~penelope: Pénélope se penche sur l'acte. « C'est moi qui l'ai rapporté. Je n'avais pas vu. Je ne regarde jamais le bas des pages. »
-~bartho: Bartholomé : « Alors, le classeur ? Tu ranges, ou tu déménages ? »
-* gfi_r23 coe10 ?equ>=30 | Penser : « Votre fille ne veut pas que vous déménagiez la Lune. » | Xanthin le lui dit. Krâmm ne demande pas comment un galet connaît sa fille. Il ouvre un tiroir, tout au fond, et regarde un dessin d'enfant : une Lune qui sourit. | Xanthin le lui dit. Krâmm se raidit. « On ne parle pas de ma fille. Article premier. » Il replie l'acte, et appelle la navette protocolaire. | |
-* gfi_r23 coe12 ?equ>=30 | Penser : « Un acte non signé n'est pas un acte. Vous le savez. » | Xanthin le lui dit, article par article. Krâmm hoche la tête à chaque mot, comme on approuve un collègue. | Xanthin le lui dit, mais Krâmm connaît mieux les articles que vous. « Une signature en cours est une signature en attente. » Il replie l'acte, et appelle la navette protocolaire. | |
-* gfi_pro ?equ<30 | Laisser Krâmm décider | La Terre a trop penché, cette nuit, pour qu'un huissier ose la sauver sur un détail. Krâmm replie l'acte et appelle la navette protocolaire. On t'emmène au Promontoire. | |
-
-@gfi_som
-!title: Sommet par interprète
-Le miroir d'or s'allume. Dedans, un très vieil Aldébaranien, fait de feuilles d'or si usées qu'elles sont presque transparentes : Son Excellence Aurélien Dorure, Président d'Aldébaran. Il s'incline devant un galet. Il n'a jamais vu de galet.
-« Monsieur le Président de la Terre. Je vous écoute. »
-Gontran te tient devant le miroir, et il ouvre la bouche avant que tu aies pensé quoi que ce soit.
-?flag:p_formule Dans sa poche, Gontran tripote une phrase qu'il a apprise à Tamponville. Il meurt d'envie de la placer.
-~penelope: Pénélope chuchote : « Le Président Dorure déteste les surprises juridiques. Il a fait voter une loi contre. »
-~xanthin: Xanthin, sur ton flanc, essaie de donner la vraie traduction. Gontran parle plus fort. Il parle toujours plus fort.
-* gfi_r16 pan10 ?flag:p_formule ?equ>=30 | Penser : « Elle ne veut pas partir. » | Gontran traduit, d'une voix grave : « Le Président rappelle que tout ceci est sous réserve de l'article douze, alinéa trois. » Dans le miroir, les feuilles d'or du Président Dorure se mettent à trembler. | Gontran traduit : « Le Président rappelle que tout ceci est sous réserve de l'article... treize ! » Il s'est trompé de numéro. Le Président Dorure sourit, soulagé. L'article treize, il le connaît : c'est celui des primes. | |
-* end_17 | Penser : « Rendez-nous la Lune. » | Gontran traduit, enthousiaste : « Le Président propose d'ajouter les marées, en prime ! » Dans le miroir, le Président Dorure prend des notes. | |
-* end_17 | Ne rien penser, et espérer | Gontran traduit ton silence : « Le Président accepte tout ! Et même les marées ! » | |
-
-@gfi_tel
-!title: Sommet par télépathie
-Le miroir d'or s'allume. Dedans, un très vieil Aldébaranien, fait de feuilles d'or si usées qu'elles sont presque transparentes : Son Excellence Aurélien Dorure, Président d'Aldébaran. Il s'incline devant un galet. Il n'a jamais vu de galet.
-« Monsieur le Président de la Terre. Je vous écoute. »
-Personne ne parle à ta place. Xanthin, sur ton flanc, attend ta pensée pour la dire, mot après mot, lentement. Pour la première fois en huit cents ans, la Terre va entendre son Président.
-?equ<30 Derrière le miroir, le sol tremble. Tout le monde sait qu'il est peut-être trop tard. Même les mots vrais arrivent parfois trop tard.
-~xanthin: « Prenez... votre temps », dit Xanthin. « Mais... pas trop. »
-~bartho: Bartholomé tient le miroir pour qu'il ne tremble pas. Il tremble plus que le miroir.
-* end_19 | Penser un vrai discours de président : « Mesdames et Messieurs, peuples de la Terre et d'Aldébaran... » | Xanthin commence à le dire. « Mesdames... » | |
-* gfi_r18 coe9 ?flag:p_sait ?equ>=30 | Penser : « Elle ne veut pas partir. » | Xanthin le dit. Cinq mots. Ça prend une minute entière. Le Président Dorure écoute jusqu'au bout. | Xanthin le dit. Cinq mots. Ça prend une minute entière. Au troisième mot, le Président Dorure, poli, croit que la phrase est finie et commence à répondre. | | +flag:p_court
-* gfi_r18 coe12 ?equ>=30 | Penser : « Non. » | Xanthin le dit. Un seul mot. Le plus court de sa vie. Le Président Dorure attend la suite. Il n'y en a pas. | Xanthin le dit. Un seul mot. Le Président Dorure attend la suite, longtemps, et croit à une panne du miroir. | | +flag:p_court
-
-@gfi_mar
-!title: La grande marée
-Bartholomé t'emporte jusqu'à la plage, Xanthin sur ton flanc. La mer monte vers la Lune comme elle n'est jamais montée. Elle se dresse, elle tend les bras. Plus loin, une colonne d'eau tourbillonne jusqu'au ciel : la Trombe des Partis, là où la mer monte quand la Lune tire trop fort.
-Bartholomé te soupèse. « Article premier, hein ? La Terre est partout où tu reposes. Et tu ne peux pas céder un territoire sans ta signature, d'après le classeur. » Il rit. « Et toi, tu n'as jamais rien signé. Tu n'as pas de mains. »
-« Un ricochet jusqu'à elle. T'es plus fou que moi, caillou. »
-?flag:obj_neveu_galet Dans la poche du ciré, ton neveu. Bartholomé le pose sur un rocher, face à la mer. « Lui, il garde la plage. »
-~xanthin: « Je viens... aussi », dit Xanthin. « Je pousse... sur vous. Et puis... je l'aurais fait. »
-~melusine: Tante Mélusine resserre ton écharpe. « NE LA PERDS PAS LÀ-HAUT ! IL Y FAIT FROID ! »
-~penelope: Pénélope calcule à toute vitesse. « Trajectoire, angle, vitesse de la marée... Je n'ai que deux tampons. Je les croise. »
-* gfi_r22 pan10 ?equ>=30 | Se laisser lancer | Bartholomé prend son élan, se penche, et te lance à ras de l'eau. Tu ricoches une fois, deux fois, dix fois, puis sur la vague qui monte, puis sur la Trombe, de plus en plus haut. | Bartholomé prend son élan et te lance. Tu ricoches sur la mer, sur la vague, sur la Trombe, de plus en plus haut, mais trop à gauche. Tu manques la Lune de peu. | | +flag:p_ricochet
-* gfi_pro ?equ<30 | Se laisser lancer | La mer est trop folle, cette nuit : elle a trop penché. Bartholomé te lance quand même. Tu ricoches haut, trop haut, et pas du bon côté. Tu passes à côté de la Lune. | | +flag:p_ricochet |
-
-@gfi_pro
-!title: Le Promontoire
-?!flag:p_ricochet La navette protocolaire monte jusqu'au Promontoire, le vaisseau-bureau de la Compagnie Foncière d'Aldébaran. On te porte dans un bureau immense, en marbre et en or, avec une baie vitrée sur la Lune. Au milieu, un grand bureau. Sur le bureau, un bouton rouge, celui qui fait tourner les moteurs.
-?flag:p_ricochet Tu retombes sur le pont du Promontoire, le vaisseau-bureau de la Compagnie Foncière. Tu roules, tu rebondis, tu traverses une baie vitrée ouverte, et tu t'arrêtes sur un grand bureau de marbre, à côté d'un bouton rouge, celui qui fait tourner les moteurs. Les autres te rejoignent par la navette, essoufflés.
-Derrière le bureau, un grand monsieur mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière : Gédéon Platine. Il s'incline très bas devant toi.
-« Monsieur le Président de la Terre. On m'a dit que vous n'aviez jamais rien dit de faux. Je n'ai jamais rencontré personne comme ça. »
-Il te regarde avec une drôle d'envie. Il achète les belles choses pour qu'elles ne soient pas seules. Personne n'est plus seul qu'un galet qui n'a jamais menti.
-~penelope: Pénélope baisse les yeux. « Bonsoir, Monsieur Platine. » Il lui répond « Bonsoir, ma chère », et il ne remarque même pas qu'elle a changé de camp.
-~bartho: Bartholomé regarde la Lune par la baie vitrée. Il cherche Perline dans la poussière. Il ne la trouve pas. Il cherche quand même.
-~melusine: Tante Mélusine touche le marbre. « TOUT EST FROID, ICI. MÊME L'OR. »
-* gfi_r20 pan10 ?comp:gontran ?equ>=30 | Penser : « Calmez-vous, tout le monde. » | Gontran traduit, d'une voix de tonnerre : « LE PRÉSIDENT FRAPPE ! » Et pour illustrer, emporté par son élan, il te lance. | Gontran traduit, d'une voix de tonnerre : « LE PRÉSIDENT FRAPPE ! » Et pour illustrer, il te lance. Tu manques Platine d'un cheveu et tu tombes dans sa coupe de champagne. | | +flag:p_champagne
-* gfi_ech ?comp:gontran | Penser : « Rendez-la-nous. » | Gontran traduit : « Le Président vous trouve très bien coiffé ! » Platine passe la main dans ses feuilles d'or, flatté. Il te regarde encore, avec la même envie. | |
-* gfi_r20 pan10 ?!comp:gontran ?comp:bartho ?equ>=30 | Penser : « Bartholomé. Tu as de bons bras. » | Xanthin le chuchote à Bartholomé. Bartholomé ne demande pas pourquoi. Il te prend, il vise, et il te lance. | Xanthin le chuchote à Bartholomé. Il te lance, mais il pense à Perline au mauvais moment. Tu manques Platine et tu tombes dans sa coupe de champagne. | | +flag:p_champagne
-* gfi_ech ?!comp:gontran | Penser : « Prenez-moi à sa place. » | Xanthin le dit, lentement. Platine pâlit. Ses feuilles d'or frémissent. « Vous... vous feriez ça ? » | |
-
-@gfi_ech
-!title: L'échange
-?flag:p_champagne Platine te sort de la coupe de champagne, délicatement, avec une serviette. Il t'essuie. Personne ne t'avait jamais essuyé. Il te pose sur le bureau, à côté du bouton.
-Platine te regarde longtemps. « Un président qui n'a jamais rien dit de faux. Le seul de l'univers. » Sa voix tremble. « On m'a gardé dans un coffre, enfant, parce que j'étais trop précieux pour être dépensé. Je sais ce que c'est, d'être unique. »
-?comp:gontran Puis il dit, en riant à moitié, comme une plaisanterie qu'il n'ose pas faire : « Je vous échangerais bien contre la Lune. » Gontran, qui n'a rien compris, s'exclame aussitôt : « Le Président accepte ! » Platine cesse de rire. Il a l'air de quelqu'un à qui on vient de dire oui pour la première fois.
-?!comp:gontran ?flag:p_champagne Au fond de la coupe, tu n'as pensé qu'une chose, et Xanthin, trempé de champagne, l'a répétée : « Prenez-moi à sa place. »
-?!comp:gontran Puis il dit, très bas : « La Lune contre vous. C'est d'accord. » Il a l'air de quelqu'un à qui on vient de faire un cadeau pour la première fois.
-~xanthin: « Si vous partez... je pars », dit Xanthin. « Je pousse... sur vous. Et puis... je l'aurais fait. »
-~penelope: Pénélope prépare l'acte d'échange en tremblant. Pour une fois, elle sait ce qu'elle tamponne.
-* end_21 | Rester posé là, sans rien penser d'autre | Platine pose la main sur le bouton rouge, et il appuie. Les moteurs s'arrêtent. Le crochet se détache. | |
-
-@gfi_r16
-!title: Le miroir tremble
-?last:ok Dans le miroir, les conseillers du Président Dorure se penchent les uns vers les autres et chuchotent : « L'article douze ? Qui connaît l'article douze ? »
-?last:ko Dans le miroir, le Président Dorure fait signe à ses conseillers de préparer les annexes.
-* end_16 ?last:ok | Attendre la réponse d'Aldébaran | Le Président Dorure lève la main. Il va parler. | |
-* end_17 ?last:ko | Attendre la réponse d'Aldébaran | Le Président Dorure sourit. Il a l'air ravi. C'est mauvais signe. | |
-
-@gfi_r18
-!title: La réponse
-?last:ok Le Président Dorure ne bouge plus. Il a entendu. Il a tout entendu.
-?last:ko Le Président Dorure s'excuse : il a mal compris. Il demande qu'on recommence depuis le début. Xanthin recommence. Ça va prendre du temps.
-* end_18 ?last:ok | Attendre | Le miroir reste allumé. Personne ne respire. | |
-* end_19 ?last:ko | Attendre | Le miroir reste allumé. Pas très longtemps. | |
-
-@gfi_r20
-!title: Le vol
-?last:ok Tu voles droit vers le front de Gédéon Platine.
-?last:ko Tu voles, et puis tu tombes, plouf, dans une coupe de champagne.
-* end_20 ?last:ok | Voler | Le vent passe sur tes deux faces. | |
-* gfi_ech ?last:ko | Couler au fond de la coupe | Tu remontes en bulles. Enfin, les bulles remontent. Toi, tu restes au fond. | |
-
-@gfi_r22
-!title: Le dernier ricochet
-?last:ok Tu montes. La mer monte avec toi. Devant toi, la Lune, énorme, toute blanche, qui t'attend sans le savoir.
-?last:ko Tu montes, tu montes, mais pas du bon côté. Tu passes à côté de la Lune, et tu redescends vers quelque chose de doré.
-* end_22 ?last:ok | Atterrir | La poussière blanche s'approche. | |
-* gfi_pro ?last:ko | Retomber | Tu retombes. Ça va être doré. | |
-
-@gfi_r23
-!title: Le dernier tiroir
-?last:ok Krâmm reste longtemps immobile. Ses tiroirs ne grincent plus.
-?last:ko Krâmm replie l'acte. La navette protocolaire descend du ciel, et on t'emmène au Promontoire.
-* end_23 ?last:ok | Attendre la décision de l'huissier | Krâmm se redresse. | |
-* gfi_pro ?last:ko | Te laisser emmener | La navette monte vers le Promontoire. | |
-
-# ---------------------------------------------------------------- LES FINS
-
-@end_16
-!end: 16
-!title: Article douze, alinéa trois
-Le Président Dorure pâlit, ce qui chez un être en or donne un gris très chic. Il se tourne vers ses conseillers, qui se tournent vers leurs conseillers. Personne, à Aldébaran, ne connaît l'article douze. Tout le monde le craint.
-« Je... nous allons suspendre la vente, par prudence, le temps d'étudier cet alinéa. » Il éteint le miroir.
-Ils l'étudient encore. Personne ne trouve l'article douze, parce qu'il n'existe pas. Mais aucun juriste d'Aldébaran n'osera jamais l'écrire, de peur de ce qu'il contiendrait. La Lune reste, sous réserve.
-Gontran est décoré de l'ordre du Mérite Terrestre pour son « intransigeance juridique ». Il ne sait toujours pas ce qu'il a dit. Toi non plus, d'ailleurs : tu avais pensé autre chose.
-Tu avais pensé : « Elle ne veut pas partir. » C'était vrai. On a gagné avec un mensonge, que personne n'a dit exprès. La Lune ne le saura jamais. Ça vaut mieux.
-?comp:penelope Pénélope encadre une copie de l'enregistrement. Elle la regarde parfois, en riant toute seule.
-?comp:bartho Bartholomé lève son verre d'eau douce, chaque soir, « à l'alinéa trois ». Personne ne sait pourquoi. Il ne l'explique pas.
-?comp:melusine Tante Mélusine tricote, en lumière de Lune, le mot « ALINÉA » sur une écharpe, et la porte tout l'hiver.
-?comp:xanthin Xanthin a tout entendu. Il sait ce que tu pensais vraiment. Il ne le répète à personne. C'est votre secret, à vous deux.
-
-@end_17
-!end: 17
-!title: Les marées en prime
-Le Président Dorure prend des notes avec un enthousiasme poli. « Les marées ? En prime ? C'est très généreux de la part de la Terre. »
-Le transfert a lieu à l'aube. La Lune part, et elle emporte les marées avec elle, empaquetées, étiquetées, conformément au protocole. La mer se couche comme une flaque et ne se relève plus.
-Gontran explique à la foule que le Président est très satisfait de l'accord. La foule applaudit. Tu restes sur ton coussin. Tu penses très fort. Personne ne t'entend, comme avant, comme toujours.
-?comp:xanthin Sauf Xanthin. Il a tout entendu. Il pousse sur toi, lentement, pour te couvrir un peu, comme on couvre quelqu'un qui a froid.
-?comp:bartho Bartholomé est retourné au Ressac Triste. Il n'y a plus de ressac. Il boit de l'eau douce, et il se dilue tant qu'un jour il n'en reste qu'une flaque, sur le comptoir, qu'on n'essuie pas.
-?comp:penelope Pénélope a tamponné l'annexe des marées. « APPROUVÉ. » Elle n'a pas pu s'en empêcher. C'est sa main.
-?comp:melusine Tante Mélusine n'a plus de lumière à tricoter. Elle défait ses écharpes une à une, pour retrouver la lumière qui est dedans.
-Sur Aldébaran, on a construit des piscines à marées. C'est une exclusivité.
-
-@end_18
-!end: 18
-!title: Une seule phrase
-Le Président Dorure ne répond pas tout de suite. Il regarde le galet dans le miroir. Un galet qui a mis huit cents ans à dire quelque chose.
-Il comprend une chose qu'on lui a cachée : la Lune n'a jamais été à vendre, parce qu'on ne lui a jamais demandé. Et le seul être de la Terre qui n'ait jamais menti vient de le lui dire.
-« Je n'ai jamais rien entendu d'aussi vrai », dit-il. « Ni d'aussi court. » Il éteint le miroir. Une heure plus tard, à Aldébaran, la vente est annulée par décret, avec des excuses à la Lune, écrites à la main.
-Le crochet se détache à l'aube. La Lune remonte un peu dans le ciel, à sa place.
-On a gravé ta phrase sur le socle de ton coussin. Les enfants la lisent. Ils trouvent qu'un président qui dit une seule phrase en huit cents ans, c'est un bon président.
-?comp:xanthin Xanthin l'a dite pour toi. Il n'en revient pas. Il pousse un peu plus vite depuis. Un millimètre par an, au lieu d'un demi. C'est sa façon de sauter de joie.
-?comp:gontran Gontran ne traduit plus. Il a demandé un congé. Il dit qu'il réfléchit. On ne l'avait jamais vu réfléchir. Ça lui va bien.
-?comp:bartho Bartholomé regarde la Lune revenue, chaque soir, du bout de la jetée. Il croit voir Perline qui lui fait signe. Il lui fait signe aussi.
-?comp:penelope Pénélope a reçu le décret d'annulation. Elle l'a tamponné avec un tampon qu'elle s'est fait faire exprès : « ENFIN ».
-?comp:melusine Tante Mélusine a retrouvé sa lumière. Elle tricote une écharpe longue comme une phrase courte, et elle te la donne.
-
-@end_19
-!end: 19
-!title: Vitesse géologique
-?!flag:p_court Xanthin dit ta pensée, mot après mot, à la vitesse d'un lichen. Et ta pensée, c'est celle d'un galet : longue, solide, lente comme une montagne qui se forme.
-?!flag:p_court Au bout d'une heure, le Président Dorure s'excuse : il a une autre réunion. Le miroir s'éteint au milieu de ta première phrase.
-?flag:p_court Tu n'avais pensé que quelques mots. Mais le Président Dorure a demandé qu'on reprenne depuis le début, puis qu'on développe, puis qu'on précise. Un galet qui précise, c'est un galet qui commence un discours. Le miroir s'éteint au milieu de ta première précision.
-Le transfert a lieu à l'aube. La Lune part. Tu n'as pas fini.
-Tu finis quand même. Xanthin dit ta pensée jusqu'au bout, pendant des années, à un miroir éteint posé sur la plaine. On vient l'écouter, le dimanche. C'est le plus beau discours jamais prononcé sur la Terre. Personne ne l'entendra en entier. Il manque quelques siècles.
-?comp:bartho Bartholomé vient tous les dimanches. Il s'assoit devant le miroir éteint et il écoute. « Il parle bien, ton caillou. Lentement, mais il parle bien. »
-?comp:penelope Pénélope tape le discours à la machine, au fur et à mesure. Elle en est à la page deux mille. Il n'a pas encore dit « Mesdames et Messieurs » en entier.
-?comp:melusine Tante Mélusine tricote pendant le discours. L'écharpe fait le tour de la plaine. Elle dit que l'écharpe et le discours finiront en même temps.
-C'est une fin triste, mais elle n'est pas encore finie. Un galet a le temps.
-
-@end_20
-!end: 20
-!title: Le projectile
-Tu traverses le bureau. Tu n'as jamais volé. C'est très bien, voler. Le vent passe sur tes deux faces.
-Tu frappes Gédéon Platine au milieu du front, là où les feuilles d'or sont les plus fines. Il fait « oh », très poliment, et il s'assoit par terre.
-?comp:gontran Gontran se précipite pour s'excuser, s'incline trop bas, et s'appuie de tout son coude sur le bouton rouge. Les moteurs s'arrêtent. Il regarde son coude. « Le Président... le Président avait tout prévu », murmure-t-il. Tu n'avais rien prévu. Personne n'avait rien prévu.
-?!comp:gontran Bartholomé s'approche du bureau. « C'est lequel, le bouton ? Le rouge ? Évidemment, le rouge. » Il appuie. Les moteurs s'arrêtent.
-Le crochet se détache. La Lune remonte doucement à sa place, comme quelqu'un qui retourne s'asseoir après une mauvaise nouvelle qui n'a pas eu lieu.
-Platine se réveille avec une bosse dorée. Il te ramasse, te rend à tes amis, et dit seulement : « Personne ne m'avait jamais frappé. On ne frappe pas les choses précieuses. Merci. »
-Tu as un éclat en moins, sur le côté. On l'a retrouvé sous le bureau. Il est au musée du Carrefour, dans une vitrine, avec une étiquette : « Fragment présidentiel. Ne pas lancer. »
-?comp:xanthin Xanthin, accroché à toi pendant le vol, ne s'en est pas remis. Il raconte le voyage à tous les lichens. Ça lui prend des années. Le vol a duré une seconde.
-?comp:penelope Pénélope a mis une bosse au bas de l'acte d'annulation, en guise de signature de Platine. Personne n'a protesté.
-?comp:melusine Tante Mélusine tricote un petit coussin pour la vitrine de l'éclat. « IL MÉRITE DU MOELLEUX, CET ÉCLAT. »
-?flag:obj_neveu_galet Ton neveu a tout vu, depuis la poche. Il a vu du pays.
-
-@end_21
-!end: 21
-!title: Un président contre une Lune
-La Lune reste. Toi, tu pars.
-Le Promontoire remonte vers Aldébaran avec un seul passager de valeur : un galet gris clair, sur le bureau de marbre de Gédéon Platine. Tu sers de presse-papiers. C'est un métier, après tout. On n'en a jamais fait d'autre, toi et tes ancêtres : tenir les choses en place.
-Sur Aldébaran, il n'y a pas de Lune dans le ciel. Il n'y en a jamais eu. C'est pour ça qu'ils en voulaient une.
-?flag:obj_carte Platine a posé à côté de toi la carte postale que tu avais dans ta poche : la Lune, au-dessus d'une mer calme. « Tout va bien ici. Il fait beau. On pense à toi. » Le soir, tu la regardes. C'est la seule Lune d'Aldébaran.
-?!flag:obj_carte Le soir, c'est Platine qui te regarde. Longtemps. Comme on regarde ce qu'on a choisi à la place de ce qu'on voulait. Il a l'air moins seul. Toi aussi, un peu.
-?flag:obj_neveu_galet Sur la Terre, ton neveu assure l'intérim, sur le coussin de velours. Il ne dit rien non plus. La continuité de l'État est assurée.
-?comp:gontran Gontran est resté sur Terre. Il traduit le silence de ton neveu. Il dit que le nouveau Président est encore plus profond que l'ancien.
-?comp:xanthin Xanthin est parti avec toi. Il pousse sur toi, sur le bureau de marbre. Platine lui parle, le soir. Il lui répond, lentement. Il dit que c'est la première conversation de sa vie qui n'est pas pressée.
-?comp:bartho Bartholomé regarde la Lune revenue, chaque soir, et il lève son verre vers un point du ciel où l'on ne voit rien. « À toi, caillou. Tu ricochais bien. »
-?comp:penelope Pénélope est restée sur Aldébaran, au bureau de Platine. Elle t'époussette tous les matins. Elle te parle de la Terre.
-?comp:melusine Tante Mélusine a tricoté une écharpe de lumière de Lune, et l'a envoyée par la poste à Aldébaran, « POUR LE CAILLOU, QUI DOIT AVOIR FROID LÀ-BAS ».
-
-@end_22
-!end: 22
-!title: Territoire présidentiel
-Le dernier ricochet te dépose sur la Lune, dans la poussière blanche, au bord d'un cratère. Tu t'arrêtes. Tu reposes.
-Article premier de la Constitution : la Terre s'étend partout où repose son Président.
-À bord du Promontoire, toutes les alarmes sonnent. L'Huissier Krâmm ouvre ses tiroirs, un par un, et il pâlit à chaque tiroir. Article premier du Code foncier d'Aldébaran : on ne cède pas un territoire sans la signature de son chef d'État. Or la Lune, à la seconde où tu t'y es posé, est devenue la Terre. Et un galet n'a jamais rien signé.
-« La vente est nulle », dit Krâmm à Platine, d'une voix qu'on ne lui connaissait pas. « On ne peut pas acheter un morceau de planète à quelqu'un qui n'a pas de mains. » Pour la première fois de sa vie, il ferme un dossier au lieu de l'ouvrir.
-Le crochet se détache à l'aube. La Lune reste. Elle est un peu la Terre, maintenant. Elle ne le dira à personne.
-Tu restes là-haut. Tu ne bouges pas. Elle ne bouge pas non plus, enfin, pas plus que d'habitude. Personne ne parle. Tout le monde est content.
-?comp:xanthin Xanthin est venu avec toi. Il pousse sur toi, et un peu sur la Lune. Il dit que la Lune pense, elle aussi, très lentement, des choses très douces. Il ne dit pas lesquelles. Ce n'est pas à lui de les répéter.
-Bartholomé est resté sur la plage. Chaque soir, il regarde la Lune et il sait que tu es là-haut, avec Perline, dans la poussière d'écume. « Deux cailloux qui ne disent rien. Ils doivent bien s'entendre. »
-?flag:obj_neveu_galet Ton neveu garde la plage, sur son rocher. Il assure l'intérim. Il regarde en l'air.
-?comp:gontran Gontran traduit ton silence depuis la plage, avec une longue-vue. « Le Président salue la Terre. Le Président a un peu froid. Le Président est heureux. » Pour une fois, c'est presque vrai.
-?comp:penelope Pénélope a tamponné l'annulation : « APPROUVÉ ». Pour la première fois, elle était d'accord avec son tampon.
-?comp:melusine Tante Mélusine t'a envoyé l'écharpe la plus longue du monde. Elle n'arrive pas jusqu'à toi. Elle arrive presque. C'est l'intention qui compte.
-
-@end_23
-!end: 23
-!title: Basile Gru...
-L'Huissier Krâmm referme l'acte de vente. Il le range, non pas dans le tiroir des choses qui partent, mais dans un tiroir qu'il n'avait jamais ouvert : celui des brouillons.
-« Acte inachevé », écrit-il dans son registre. « Signature en cours depuis l'aube du monde. Vente sans objet. » Puis, plus bas, d'une écriture qu'on ne lui connaissait pas : « Ma fille sera contente. »
-À bord du Promontoire, Gédéon Platine lit le rapport de son huissier. Il le relit. Il n'y a rien à contester : il faudrait une signature, et la signature ne finit pas. Le crochet se détache à l'aube. La Lune reste.
-Quelque part au bout de la Toile, un greffier lichen pense à autre chose. Il pense aux formulaires C-12, aux trombones, à la couleur exacte de la rosée froide dans une tasse. Il y pense depuis des jours. Il y pensera toute sa vie, par précaution. Son nom s'est arrêté à « Basile Gru... ». Il ne poussera plus. C'est la plus belle signature qu'il ait jamais faite.
-?comp:xanthin Xanthin a raconté l'histoire à toute la Toile. Tous les lichens de la Terre savent maintenant qu'un galet a pensé, qu'un cousin l'a répété, et qu'un autre cousin a pensé à autre chose. Chez les lichens, on appelle ça « la grande conversation ». Elle a duré trois jours. C'est la plus rapide de leur histoire.
-?comp:gontran Gontran a expliqué à la foule que le Président avait toujours eu un faible pour la paperasse. Pour une fois, il n'avait pas tout à fait tort.
-?comp:penelope Pénélope a fait encadrer la signature inachevée. Elle l'a accrochée au Cadastre, à côté de la lettre de la Lune. Les écoliers viennent la voir. Ils essaient de deviner la fin du nom.
-?comp:bartho Bartholomé est allé trouver le greffier, pour lui payer un verre d'eau douce. Ils ont parlé une heure. Bartholomé a dit trois phrases, le lichen une. C'était une bonne conversation.
-?comp:melusine Tante Mélusine a tricoté une écharpe au greffier, avec écrit dessus, en lumière de Lune : « MERCI DE NE PAS AVOIR FINI ».
-Tu es retourné sur ton coussin de velours. Tu penses. Maintenant, quelqu'un t'écoute.
+@gal_int
+!title: Le soir au Carrefour
+?regions==1 Le premier soir de la tournée, on te ramène au Carrefour à la nuit tombée. Un crieur passe entre les tentes avec la Gazette du soir. En première page, ton portrait, de profil, c'est-à-dire de tranche. Le titre : « LE PRÉSIDENT EN TOURNÉE : "TOUT VA TRÈS BIEN." » Tu n'as rien pensé de tel. Tu as pensé le contraire, toute la journée.
+?regions==1 Une petite fille Horlogère achète la Gazette, regarde ton portrait, puis te regarde, toi, posé au bord d'une caisse. « Vous n'avez pas l'air de quelqu'un qui dit que tout va bien. »
+?regions==2 Le deuxième soir, Gontran organise une conférence de presse sous la grande tente. Des journalistes de toutes les espèces : une taupe myope, un perroquet de la Gazette, une Marégrave avec un carnet qui fond. Gontran répond à toutes les questions avant qu'on les pose.
+?regions==2 Le perroquet lève une aile. « Une question pour le Président lui-même. Pas pour vous. » Un silence. Personne n'a jamais posé de question au Président lui-même.
+?regions>=3 Le troisième soir, il n'y a plus de Gazette, plus de conférence. Tout le monde regarde la Lune. Des enfants de toutes les espèces jouent au bord du feu. Ils ont trouvé un caillou gris, plat, et ils l'ont posé sur un mouchoir plié. Ils jouent au Président.
+?regions>=3 « Moi je fais l'interprète », dit un petit Gravitaire. « Le Président dit qu'il veut des bonbons. » Une petite Marégrave le pousse. « Non ! On ne sait pas ce qu'il dit ! C'est ça le jeu ! On doit deviner ! »
+~gontran ?regions==2: Gontran tapote son micro. « Le Président ne répond qu'à travers moi. C'est la tradition. Depuis quarante ans. »
+~xanthin ?regions==2: Xanthin s'éclaircit la voix. Il en a pour une minute. Le perroquet attend. C'est un perroquet patient.
+~xanthin: Xanthin regarde la scène sans rien dire. Il pousse d'un dixième de millimètre. Il trouve ça important.
+~bartho: Bartholomé s'assoit près du feu avec un verre d'eau douce. « Un jour comme un autre. Sauf que la Lune s'en va. »
+~echo: Écho répète les rires des enfants, en sourdine. Elle collectionne les voix. Celles-là, elle les garde.
+~ondee: Dame Ondée flotte au-dessus des tentes. Elle ne pleut pas. Elle se retient, pour ne pas mouiller les gens qui dorment.
+~anatole: Anatole tourne autour d'une lanterne, malgré lui, jusqu'à ce que quelqu'un l'éteigne par gentillesse.
+* gal_ret coe9 ?regions==1 | Penser à la petite : « Non. Rien ne va bien. Mais on essaie. » | Tu blanchis. La petite Horlogère le voit, à la lueur des lanternes. Elle déchire la première page de la Gazette, très soigneusement, et elle écrit au dos, au crayon : « Le Président dit que rien ne va bien, mais qu'on essaie. » Elle l'affiche sur un poteau. Le lendemain matin, il y a cinquante personnes devant le poteau. | La petite te regarde encore un moment, puis elle range la Gazette dans sa poche. Elle ne sait pas quoi penser. Toi non plus. | +flag:p_poteau mor+1 |
+* gal_ret ?regions==1 ?comp:gontran | Penser : « Gontran, ce n'est pas ce que j'ai pensé. » | Gontran lit la Gazette par-dessus l'épaule de la petite. « Excellent titre. Le Président est content. » Il en achète vingt exemplaires, pour les archives. | |
+* gal_ret ?regions==2 ?comp:xanthin ?comp:gontran | Penser : « Xanthin. Répondez-lui. Ce que je pense vraiment. » | Xanthin parle, pendant que Gontran parle aussi. Le perroquet n'écoute que le plus lent. Il note, mot à mot : « Le Président... a peur... pour la Lune. Il ne sait pas... quoi faire. Il voudrait... qu'on l'aide. » Le lendemain, la Gazette titre : « LE PRÉSIDENT : "AIDEZ-MOI." » Gontran ne la lit pas. Tout le Carrefour la lit. | | +flag:p_gazette_vraie mor+1 |
+* gal_ret ?regions==2 ?comp:gontran | Laisser Gontran répondre | Gontran répond. Le perroquet note tout, puis il ferme son carnet. « Je reposerai la question. Un autre jour. Au Président. » | |
+* gal_ret ?regions==2 ?!comp:gontran | Laisser le silence répondre | Il n'y a personne pour parler à ta place. Les journalistes attendent. Puis le perroquet note, très sérieusement : « Le Président n'a rien dit. Pour la première fois, personne n'a rien dit à sa place. » C'est le meilleur article de sa carrière. | | mor+1 |
+* gal_ret coe8 ?regions>=3 | Penser aux enfants : « C'est ça. Il faut deviner. » | Tu blanchis, du côté tourné vers le feu. La petite Marégrave le voit. Elle te montre du doigt : « Regardez ! Le vrai ! Il devient blanc ! » Les enfants viennent s'asseoir autour de toi, en silence, et ils essaient de deviner. Ils devinent « la Lune ». Ils ont raison. Ils ne le sauront jamais. Toi, si. | Les enfants ne te voient pas. Ils jouent jusqu'à ce qu'on les couche. Le petit caillou sur son mouchoir reste au bord du feu, à côté de toi. Vous êtes deux. | mor+1 |
+* gal_ret ?regions>=3 | Regarder les enfants jouer, sans rien penser | Ils jouent bien. Mieux que les grands. Ils savent qu'ils ne savent pas ce que pense un caillou. | |

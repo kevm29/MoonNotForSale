@@ -1,0 +1,280 @@
+# ================================================================
+# PRÉSIDENT GALET : LES RÉGIONS (1) : LES CÔTES ET LA FORÊT
+# Chaque région se termine par un retour au Carrefour (gal_ret).
+# ================================================================
+
+# ---------------------------------------------------------------- LES CÔTES
+
+@gco_01
+!title: Les Côtes Hagardes
+!fx: +flag:vis_gco regions+1
+La mer s'est retirée à un kilomètre. Au large, une vague immense s'est arrêtée en plein élan, haute comme dix phares, et elle ne retombe pas. Des Marégraves, faits d'eau de mer, écopent leurs maisons avec leurs mains, et se remplissent en écopant.
+?comp:gontran Gontran grimpe sur un rocher et te brandit au-dessus de sa tête. « Peuple des Côtes ! Le Président est parmi vous ! » Les Marégraves lèvent les yeux. Ils voient un caillou. Ils en ont plein.
+?!comp:gontran Personne ne te brandit. On te pose sur un rocher, et les Marégraves s'approchent, un par un, pour voir ce qu'on leur a amené.
+?!comp:gontran ?comp:xanthin Xanthin leur dit, lentement, que tu es venu les écouter.
+~xanthin: Xanthin goûte l'air. « Du sel... Les lichens... n'aiment pas le sel. Je reste... quand même. »
+~quartz: Dr Quartz lèche un doigt et le tend au vent. « Salinité : forte. Humidité : forte. Moral local : faible. Pas besoin d'instrument pour le dernier. »
+~echo: Écho répète le bruit de la mer. Elle ne l'avait jamais entendu. Elle le répète en boucle, émerveillée : « ...shhhh... shhhh... »
+* gco_01b coe9 ?comp:gontran | Penser : « Pauvres gens. » | Gontran traduit : « Le Président trouve la mer un peu trop salée ! » Un silence. Puis une vieille Marégrave éclate de rire, et tous les autres avec elle. Ils n'avaient pas ri depuis la Lune. Ça leur fait du bien. On vous laisse passer. | Gontran traduit : « Le Président trouve la mer un peu trop salée ! » Un jeune Marégrave lui jette un seau d'eau à la figure. Il est fait d'eau, il en a beaucoup. Gontran, trempé, continue son discours. | equ+1 | mor-1
+* gco_01b ?comp:gontran | Ne rien penser, et regarder la vague | Gontran traduit ton silence : « Le Président salue le courage des poissons ! » Dans une flaque, des centaines de poissons font la queue pour une gorgée d'eau. Ils applaudissent avec leurs nageoires. Ils ne savaient pas qu'on les voyait. | | mor+1 |
+* gco_01b ?!comp:gontran ?comp:xanthin | Penser : « Je suis venu vous écouter. » | Xanthin le répète. Les Marégraves s'assoient autour du rocher et te racontent la mer qui est partie. Ça dure longtemps. Tu as le temps : tu es un caillou. | | equ+1 |
+* gco_01b | Se laisser emmener vers le village | On te porte vers les maisons basses, derrière une digue de planches et de galets. | |
+
+@gco_01b
+!title: La digue
+Le village des Marégraves se tient derrière une vieille digue de planches et de galets. Elle ne retient plus la mer, puisque la mer est partie. Elle retient ce qui reste : les flaques, les puits, l'eau des maisons. Et elle fuit.
+Au pied de la digue, une petite Marégrave, pas plus haute qu'un seau, bouche un trou avec son doigt. Elle est faite d'eau. Son doigt fuit aussi. Elle est un peu plus petite à chaque heure.
+Le trou est rond. Il a exactement ta taille. Tu le vois. Tu es peut-être le seul à le voir.
+~melusine: Tante Mélusine se penche sur la petite. « TU VAS FONDRE, MA CHÉRIE ! ENLÈVE TON DOIGT ! » La petite ne l'enlève pas. Elle est têtue comme une marée.
+* gco_01c ?comp:gontran | Penser : « Je pourrais boucher ce trou. » | Gontran traduit : « Le Président veut un bain de pieds ! » Il se penche pour te tremper dans la flaque, glisse sur une algue, et te lâche. Tu roules. Tu t'arrêtes dans le trou. Tu le bouches exactement. La petite retire son doigt. Elle regarde la digue, puis toi, puis Gontran, qui se relève en expliquant que tout était prévu. Il faut une heure pour te remplacer par un bouchon de liège. Tu en es un peu fier. | | +flag:p_digue equ+2 mor+1 |
+* gco_01c coe9 ?!comp:gontran ?comp:xanthin | Penser : « Mettez-moi dans le trou. » | Xanthin le répète. La petite hésite, puis elle te prend de sa main libre et te pousse dans le trou. Tu le bouches exactement. Elle retire son doigt, et elle rit. Une heure plus tard, on te remplace par un bouchon de liège. Xanthin, qui était sur le côté mouillé, ne dit rien pendant longtemps. | Xanthin le répète, mais la petite ne comprend pas qu'un caillou veuille aller dans un trou. Elle garde son doigt. On lui apporte un bouchon de liège, beaucoup plus tard. | +flag:p_digue equ+2 mor+1 | equ+1
+* gco_01c coe8 | Penser très fort à la petite, sans savoir quoi faire | Tu penses si fort à elle que tu blanchis, sur le côté tourné vers la digue. La petite le voit. Elle a l'impression qu'on la regarde gentiment. Elle tient une heure de plus, et quelqu'un finit par apporter un bouchon. | Tu penses à elle. Elle ne le sait pas. Un bouchon de liège arrive plus tard, et elle est un peu plus petite qu'avant. | mor+1 |
+
+@gco_01c
+!title: Le village à marée basse
+Les maisons des Marégraves sont faites pour être sous l'eau à moitié. À sec, elles ont l'air gênées, comme des gens surpris en chemise de nuit. Les poissons d'ornement tournent en rond dans des seaux. Les filets sèchent sur les toits et ne prennent plus que le vent.
+Au milieu de la place, il y a une horloge à marée. Elle indique « marée basse » depuis trois jours. Une vieille Marégrave la remonte tous les matins, par habitude, et elle ne bouge pas.
+?flag:p_digue Les gens du village te saluent en passant. On dit déjà que le Président a bouché la digue. Personne ne sait que c'était une glissade. Toi, tu le sais.
+~xanthin: « L'horloge... est en pierre », dit Xanthin. « Elle pense... que la mer... reviendra. Elle a... raison, peut-être. »
+~gaspard: Sire Gaspard regarde les filets sécher. « En 1803, on lestait les ballons avec des filets mouillés. Ça ne marchait pas non plus. »
+* gco_02 ?comp:gontran | Penser : « Ce n'est pas l'horloge qui est cassée. » | Gontran traduit : « Le Président offre une horloge neuve au village ! » La vieille Marégrave le regarde longtemps. « Celle-là marche très bien. C'est la mer qui est en retard. » Elle remonte son horloge, et vous continuez vers la vague. | |
+* gco_02 ?!comp:gontran ?comp:xanthin | Penser : « Ce n'est pas l'horloge qui est cassée. » | Xanthin le répète à la vieille Marégrave. Elle hoche la tête. « Je sais. C'est la mer qui est en retard. Mais si j'arrête de la remonter, elle croira qu'on l'a oubliée. » Elle te montre le chemin de la vague. | | mor+1 |
+* gco_02 | Regarder la vague immobile, au loin | Elle ne bouge pas. Elle a l'air d'attendre quelqu'un. On t'emmène vers elle. | |
+
+@gco_02
+!title: Le Chœur des Méduses
+Au pied de la vague immobile, des milliers de méduses lumineuses se tiennent par les filaments. Elles retiennent la vague de toutes leurs forces, et elles chantent d'une seule voix.
+On te pose sur une pierre au bord de l'eau. Les pierres entendent bien ce qui chante dans l'eau : ça passe par le fond. Et toi, tu comprends les paroles. « ELLE NE VEUT PAS PARTIR. ELLE NOUS L'A DIT, À NOUS, LA MER. ELLE NE VEUT PAS PARTIR. »
+Tu deviens un peu plus blanc, sur le côté tourné vers le large.
+?comp:gontran Gontran, ému, traduit la chanson pour la foule : « Elles demandent des parapluies. » Personne ne sait pourquoi on pleure.
+?!comp:gontran ?comp:xanthin Xanthin répète les paroles pour ceux qui ne les comprennent pas. Sur la plage, les Marégraves se taisent.
+~xanthin: « Elle ne veut... pas partir », répète Xanthin, pour lui-même. « On ne... nous l'avait... pas dit. »
+~melusine: Tante Mélusine chante avec les méduses, faux, fort, en pleurant. Les méduses la laissent faire. Elles chantent faux aussi, à mille.
+~echo: Écho reprend la fin de la chanson : « ...pas partir. Pas partir. » Les méduses s'arrêtent, étonnées. Personne ne leur avait jamais répondu.
+* gco_02b coe9 ?!comp:xanthin | Penser : « Quelqu'un d'autre entend la chanson ? » | Sur ta pierre, au bord de l'eau, une tache orange frémit : un jeune Lichenaute, têtu, qui te cherche par la Toile depuis qu'on y parle d'une pierre qui pense. Il roule jusqu'à toi et s'installe sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Sur ta pierre, une tache orange frémit et roule vers toi, mais une vague l'éclabousse, et un lichen mouillé, ça prend une heure à repartir. On t'emporte avant. | +comp:xanthin +flag:p_xan_vu +flag:p_sait | +flag:p_xan_vu +flag:p_sait
+* gco_02b ?comp:xanthin | Penser : « Xanthin, dites-leur qu'on a entendu. » | Xanthin roule au bord de l'eau, très lentement, et pose son bord sur la pierre mouillée. Il dit aux méduses : « On... a entendu. » Il lui faut une minute. Les méduses chantent un peu moins fort, comme des gens qu'on a enfin écoutés. | | +flag:p_sait equ+1 |
+* gco_02b | Écouter la chanson jusqu'au bout | Elle ne finit pas. Elle recommence. Mais tu l'as entendue en entier, une fois, et tu la gardes. | | +flag:p_sait |
+
+@gco_02b
+!title: La criée
+Sur la plage, à l'endroit où la mer s'est retirée, on a monté une criée. On y vend ce que la mer a laissé en partant : une ancre, une cloche d'église, trois chaussures gauches, une baignoire, un piano, des bouteilles. Les Marégraves achètent leurs propres affaires, perdues depuis des siècles, pour pas cher.
+Au premier rang, un géomètre doré de la Compagnie Foncière lève la main à chaque lot, sans regarder. Il n'achète pas les objets. Il achète le sable dessous, en parcelles. « Lune-sur-Mer, résidence. Vue sur rien. »
+Le crieur annonce : « Lot quarante : une bouteille, fermée, avec un papier dedans. Mise à prix : un coquillage. »
+~quartz: Dr Quartz achète une baignoire. « Pour une expérience. » On ne saura jamais laquelle.
+* gco_02c pan9 ?comp:gontran | Penser : « Cette bouteille. » | Gontran lève ta main présidentielle, c'est-à-dire toi, au-dessus de la foule : « Le Président achète la plage entière ! » Le géomètre doré surenchérit. Gontran surenchérit encore, au nom de la Terre, qui n'a pas d'argent. Dans la confusion, le crieur adjuge la bouteille au seul acheteur qu'il voit : le caillou qu'on agite. Elle tombe dans la poche de Gontran, à côté de toi. | Gontran lève ta main présidentielle, c'est-à-dire toi : « Le Président achète la plage entière ! » Le géomètre doré surenchérit, et gagne. La plage est vendue. La bouteille aussi, à une Marégrave qui la voulait pour mettre des fleurs. | +flag:obj_bouteille_mer | equ-1
+* gco_02c coe9 ?!comp:gontran ?comp:xanthin | Penser : « Cette bouteille. Pour un coquillage. » | Xanthin le dit au crieur, lentement. Le crieur attend la fin de la phrase si longtemps que personne d'autre n'enchérit. « Adjugé au caillou, pour un coquillage. » Quelqu'un paie le coquillage pour toi. On pose la bouteille contre ton flanc. | Xanthin le dit au crieur, mais avant la fin de la phrase, la bouteille est partie à une Marégrave qui la voulait pour mettre des fleurs. | +flag:obj_bouteille_mer |
+* gco_02c | Regarder le géomètre doré acheter le sable | Il achète tout. Il ne regarde rien. Il a l'air de quelqu'un qui n'a jamais marché pieds nus. | | equ-1 |
+
+@gco_02c
+!title: Le fond de la mer
+Derrière la criée, là où la mer devrait être, s'étend le fond. Personne ne l'avait jamais vu au soleil. Il est plein de choses : des forêts d'algues couchées, des villes de crabes abandonnées, des épaves si vieilles qu'elles ont oublié leur nom. Des géomètres dorés y plantent des piquets avec des fanions : « Parcelle 412. Réservée. »
+On te pose sur le fond, pour la photo. Le fond est fait de cailloux, des milliards. Ils sont tous comme toi. Ils murmurent. Ils n'ont jamais été au sec. Ils ont peur du soleil.
+?flag:obj_bouteille_mer Dans la poche, la bouteille cogne contre toi. Il y a un papier dedans, plié en quatre, jauni. On voit une signature à travers le verre : « Perline ».
+~xanthin: « Ils ont... peur », dit Xanthin. « Les cailloux... du fond. Ils n'ont... jamais vu... le ciel. »
+~echo: Écho, pour la première fois, ne répète rien. Il n'y a aucun bruit, au fond de la mer. Elle a peur de le déranger.
+* gco_03 ?comp:gontran | Penser aux cailloux : « Elle va revenir. » | Gontran traduit, pour la photo : « Le Président prend possession du fond de la mer au nom de la Terre ! » Le géomètre doré s'étrangle. Les cailloux, eux, ont entendu autre chose : ce que tu penses passe par le fond. Ils se calment, un peu. | | +flag:p_fond equ+1 |
+* gco_03 ?!comp:gontran | Penser aux cailloux : « Elle va revenir. » | Les cailloux ont entendu. Ce que tu penses passe par le fond, d'une pierre à l'autre, jusqu'au large. Ils se calment, un peu. Un géomètre doré trébuche sur un piquet qui n'était pas là avant. | | +flag:p_fond equ+1 |
+* gco_03 | Se laisser ramasser, et quitter le fond | On t'essuie. Tu laisses derrière toi des milliards de cousins qui ne savent pas qui tu es. | |
+
+@gco_03
+!title: Le Ressac Triste
+Au bord de la plage, un bistrot penché, sur pilotis, à moitié dans le vide puisque la mer est partie. Au comptoir, un vieux pêcheur fait d'eau de mer trouble regarde son verre d'eau douce : Bartholomé Vasequeuse. Sa femme Perline est partie avec la grande marée il y a vingt ans. Il boit de l'eau douce pour se diluer, et dilué, il devient sentimental.
+On te pose sur le comptoir, entre une soucoupe et lui. Il te regarde. « C'est quoi, ça ? »
+?comp:gontran « C'est le Président de la Terre », dit Gontran. Bartholomé crache par terre, ce qui chez un Marégrave fait une petite flaque.
+?!comp:gontran ?comp:xanthin « Le Président de la Terre », dit Xanthin, au bout d'une minute. Bartholomé attend la fin de la phrase. Il a l'habitude d'attendre.
+?!comp:gontran ?!comp:xanthin « Le Président de la Terre », dit quelqu'un. Bartholomé hausse les épaules. « Il est petit. »
+* gco_03b pan9 ?comp:gontran | Penser : « Ce pauvre homme a perdu quelqu'un. » | Gontran traduit : « Le Président vous trouve trop mouillé pour un pêcheur ! » Bartholomé se lève. « Trop mouillé ? Moi ? » Il t'attrape. « Je vais lui montrer ce que c'est, la mer, à ton caillou. Il ne sera pas déçu. » Il te met dans la poche de son ciré, et il ne te rend pas. | Gontran traduit : « Le Président vous trouve trop mouillé pour un pêcheur ! » Bartholomé te tourne le dos et commande un autre verre d'eau douce. « Dites à votre caillou d'aller sécher ailleurs. » | +comp:bartho |
+* gco_03b coe9 ?comp:gontran | Penser : « Je voudrais juste m'asseoir au bord de l'eau, avec lui. » | Gontran traduit : « Le Président paie sa tournée ! » Tout le bistrot boit de l'eau douce aux frais de la Terre. Tout le monde devient sentimental en même temps. Bartholomé pose sa grosse main sur toi. « Un président qui paie, on n'en a jamais vu. Je viens avec toi, caillou. Quelqu'un doit surveiller tes dépenses. » | Gontran traduit : « Le Président paie sa tournée ! » Tout le bistrot boit de l'eau douce. Bartholomé aussi. Il se dilue tant qu'il se met à pleurer sur le comptoir, et on ne peut plus lui parler. | +comp:bartho |
+* gco_03b coe9 ?!comp:gontran ?comp:xanthin | Penser : « Vous avez perdu quelqu'un. Moi, je vais perdre la Lune. » | Xanthin le répète, mot après mot. Bartholomé ne dit rien pendant longtemps. Puis : « Perline est là-haut, en poussière d'écume. Si la Lune part, elle part avec. » Il te prend. « Je viens. » | Xanthin le répète, mot après mot. Bartholomé l'écoute, mais à la fin, il ne se souvient plus du début. « Les lichens, ça parle trop lentement pour un homme triste. » Il retourne à son verre. | +comp:bartho |
+* gco_03b ?flag:obj_bouteille_mer | Laisser la bouteille de la criée rouler vers lui | La bouteille roule sur le comptoir et s'arrête contre son verre. Bartholomé la regarde. Il voit la signature à travers le verre. Il ne respire plus, ce qui, pour un homme fait d'eau, ne change pas grand-chose, mais ça se voit. Il casse le goulot sur le bord du comptoir, très doucement, et il lit. Il lit encore. Puis il range le papier dans son ciré, contre son cœur, et il te range à côté. « Elle dit qu'il fait beau, là-haut. Elle dit qu'elle pense à moi. » Il se lève. « Je viens avec toi, caillou. Je ne laisse pas partir la Lune où elle est. » | | -flag:obj_bouteille_mer +flag:p_perline +comp:bartho mor+2 |
+* gco_03b | Laisser Bartholomé à son verre, et sortir sur la plage | Il ne te regarde pas partir. Il regarde son verre. Il y voit la mer, en tout petit. | |
+
+@gco_03b
+!title: Les ricochets
+Sur ce qui reste de la plage, des enfants marégraves font des ricochets dans les flaques. Ce n'est pas facile : les flaques sont petites. Il faut viser. Un garçon fait d'eau et de sable cherche le caillou parfait. Il le trouve. C'est toi.
+Il te prend, te soupèse, te trouve plat, lisse, exactement ce qu'il faut. Il prend son élan.
+?comp:bartho Bartholomé lève un sourcil, et ne fait rien. Il veut voir.
+~gontran: Gontran court derrière le garçon en criant : « On ne lance pas le Président ! Article neuf ! » Il n'y a pas d'article neuf.
+~quartz: Dr Quartz calcule à voix haute : « Angle optimal : vingt degrés. Le petit en prend trente. Résultat probable : trois rebonds, puis le Président au fond. »
+* gco_03c pan9 | Penser : « Vingt degrés. Pas trente. » | Le garçon ne t'entend pas, mais tu penses si fort à l'angle que tu glisses un peu dans sa main, et il te lance à vingt degrés sans le savoir. Un rebond, deux, cinq, neuf, onze, d'une flaque à l'autre. Les enfants hurlent. Personne n'avait jamais fait onze. Tu t'arrêtes sur le sable mouillé, étourdi. Tu ne savais pas que tu savais faire ça. | Le garçon te lance à trente degrés. Un rebond, deux, trois, et puis la flaque, et le fond, et l'eau froide. On te repêche au bout d'un quart d'heure, avec un crabe accroché. | +flag:p_ricoche mor+1 | mor-1
+* gco_03c ?comp:bartho | Penser à Bartholomé : « Montrez-lui. » | Bartholomé ne t'a pas entendu. Mais il voit le garçon tenir mal le caillou, et ça lui fait de la peine. Il s'accroupit. « Pas comme ça, petit. Comme ça. Le poignet. » Il te place dans la main du garçon, et il guide le geste. Onze rebonds. Les enfants hurlent. Bartholomé sourit, pour la première fois depuis vingt ans. « Il ricoche bien, ton caillou. Il est plat. » | | +flag:p_ricoche +flag:p_maree mor+1 |
+* gco_03c | Ne rien penser, et se laisser lancer | Le garçon te lance au hasard. Quatre rebonds. C'est honorable. On te repêche, on t'essuie, on te rend. Le garçon s'excuse. Il ne savait pas que tu étais président. Il ne savait même pas qu'on pouvait l'être. | |
+
+@gco_03c
+!title: Perline
+?comp:bartho Bartholomé t'emmène chez lui, une cabane de bois flotté au bout de la plage. Sur le mur, un portrait à l'aquarelle d'une femme faite d'écume, qui rit. Perline. « Elle riait comme la mer qui se retire sur les galets », dit-il. « Ce bruit-là. Tu le connais. Tu l'as fait mille fois. »
+?comp:bartho ?flag:p_perline Il pose la lettre de la bouteille à côté du portrait. Il ne la relit pas. Il la connaît déjà.
+?!comp:bartho Une vieille Marégrave te prend sur ses genoux, sur le perron d'une cabane de bois flotté. Elle te raconte la grande marée d'il y a vingt ans : la mer est montée si haut vers la Lune qu'elle a emporté une femme faite d'écume, qui riait. Son mari ne s'en est jamais remis. Il est au bistrot. Il y est toujours.
+Au-dessus de la cabane, la Lune est si basse qu'on voit la poussière blanche au bord des cratères. Quelque part là-dedans, de l'écume qui a été quelqu'un.
+~xanthin: Xanthin se tait longtemps. « La poussière... de la Lune... C'est aussi... des gens ? » Personne ne répond. Personne ne sait.
+* gco_04 ?comp:bartho | Penser : « Je la ramènerai. Avec la Lune. » | Bartholomé ne t'entend pas. Mais il te prend, et il te pose un moment contre le portrait, côté lisse, comme on fait faire connaissance. « Voilà. Vous vous êtes vus. » Puis il te remet dans son ciré. | | mor+1 |
+* gco_04 ?!comp:bartho | Penser à cet homme, au bistrot | La vieille Marégrave sent que tu blanchis un peu. « Tu penses à lui ? Tout le monde y pense. Personne n'ose lui parler. » | |
+* gco_04 | Regarder la Lune, au-dessus de la cabane | Tu la regardes. Elle est trop basse pour être calme. Elle a l'air de partir à reculons. | |
+
+@gco_04
+!title: La jetée
+!fx: +flag:p_code comp:bartho=>+flag:p_maree
+On te porte jusqu'à une jetée. Au bout, une silhouette de classeurs gris, grande comme un phare couché : l'Huissier Krâmm, venu d'Aldébaran. Il mesure les vagues une par une, avec un mètre ruban qui se déroule tout seul, et il les note dans un registre.
+Il te voit. Il ouvre un tiroir, en sort un formulaire, le referme. « Le chef de l'État cédant. Bien. Article premier du Code foncier d'Aldébaran : on ne cède pas un territoire sans la signature de son chef d'État. Votre signature figure à l'acte, par délégation. » Il hésite. « Par délégation de qui, je l'ignore. Ce n'est pas mon tiroir. »
+?comp:bartho Bartholomé, lui, regarde la mer qui hésite au loin. « Cette nuit ou la suivante, ce sera la grande marée. Avec la Lune si basse, la mer va monter vers elle comme jamais. Quand j'étais petit, j'ai lancé un galet en ricochet un soir de grande marée. Il est monté jusqu'aux nuages. » Il te soupèse. « Tu ricoches bien, toi. Tu es plat. »
+?comp:bartho ?flag:p_ricoche Il ajoute : « Onze, sur la plage. Je t'ai vu. »
+~bartho: Bartholomé regarde Krâmm de travers. « Un classeur qui compte les vagues. On aura tout vu. »
+~xanthin: Xanthin a écouté l'article premier. Il le répète tout bas, trois fois. Il range les choses importantes comme ça.
+~penelope: Pénélope se cache derrière un poteau. Krâmm la connaît. Il ne la voit pas. Les huissiers ne voient que ce qui est dans un dossier.
+* gco_05 ?comp:gontran | Penser : « Monsieur, rendez-nous la Lune. » | Gontran traduit : « Le Président vous invite à dîner ! » Krâmm note : « Invitation, une. Refusée. » Puis il range son mètre et regagne sa cabine, au bout de la jetée. Gontran est ravi : le Président a fait un geste diplomatique. Il te pose sur le rebord de la fenêtre de la cabine, pour qu'on te voie. | |
+* gco_05 ?!comp:gontran ?comp:xanthin | Penser : « Monsieur, rendez-nous la Lune. » | Xanthin le répète. Krâmm s'arrête de mesurer. Pour la première fois de sa vie, il ne trouve pas d'article. Il range son mètre. « Ce n'est pas mon tiroir », dit-il encore, plus bas. Il regagne sa cabine, au bout de la jetée. On te pose sur le rebord de la fenêtre. | | mor+1 |
+* gco_05 | Regarder Krâmm rentrer dans sa cabine | Il marche comme une armoire qu'on déménage. On te pose sur le rebord de sa fenêtre, pour attendre. | |
+
+@gco_05
+!title: La cabine de l'huissier
+Par la fenêtre, tu vois la cabine de Krâmm : des classeurs du sol au plafond, des tiroirs dans les tiroirs, une seule chaise, droite. Il s'assoit. Il ouvre un tiroir tout en bas, qu'il n'ouvre jamais devant personne. Il en sort une feuille de papier, et il la regarde longtemps.
+C'est un dessin d'enfant. Une Lune ronde et jaune, dans un ciel bleu, au-dessus d'une maison. En dessous, d'une écriture qui penche : « Pour papa. La Lune à sa place. »
+Krâmm la regarde. Il ne sait pas qu'on le regarde. Personne ne regarde jamais un huissier quand il est seul.
+~xanthin: « Il a... une fille », dit Xanthin. « Les huissiers... ont des filles. Je ne savais... pas. »
+~penelope: Pénélope, tout bas : « Elle s'appelle Agrafe. Elle a six cents ans. Elle a peur du noir. Il ne le dit à personne. »
+* gco_06 coe9 | Penser au dessin, très fort, côté lisse contre la vitre | Tu blanchis, sur le côté tourné vers la cabine. Krâmm lève les yeux. Il voit un caillou qui pâlit à sa fenêtre. Il range le dessin, très vite, et puis il le ressort. Il ne sait pas pourquoi, mais il ne se sent plus seul avec. Toi, tu sais maintenant ce qu'il y a au fond du dernier tiroir. | Tu penses au dessin. Krâmm ne lève pas les yeux. Il range la feuille et ferme le tiroir à clé. Mais tu l'as vue. | +flag:p_krfille mor+1 | +flag:p_krfille
+* gco_06 ?comp:gontran | Penser : « Ne le dérangez pas. » | Gontran frappe à la vitre : « Le Président vous souhaite une bonne soirée ! » Krâmm range le dessin d'un geste brusque et tire le rideau. Mais tu l'as vu. Tu sais ce qu'il y a au fond du dernier tiroir. | | +flag:p_krfille |
+
+@gco_06
+!title: La nuit des Côtes
+On te pose pour la nuit sur un rocher, face au large.
+?comp:bartho Bartholomé dort à côté, assis, le dos contre la cabane, la main sur ton rocher pour être sûr que personne ne te prend.
+?comp:gontran Gontran dort dans la carriole. Il parle en dormant. Il traduit tes rêves. Il dit que tu rêves de banquets.
+La mer, au loin, te parle. Elle parle par le fond, d'un caillou à l'autre, jusqu'à toi. Elle dit qu'elle a envie de monter. Que la Lune l'appelle, plus fort que jamais. Que demain, ou après-demain, elle montera aussi haut qu'elle pourra, pour la retenir ou pour la suivre, elle ne sait pas encore.
+~xanthin: Xanthin dort. Les lichens dorment en poussant. Il pousse un peu de travers, vers la mer.
+~melusine: Tante Mélusine ne dort pas. Elle tricote un bonnet pour une méduse. « ELLE A FROID À LA TÊTE, ÇA SE VOIT. »
+~echo: Écho répète la mer toute la nuit, très bas, pour t'aider à dormir. Ça marche. Tu n'as jamais dormi.
+* gco_07 | Penser à la mer : « Ne pars pas. » | La mer t'entend. Elle n'a jamais été entendue par un président. Elle se calme d'un centimètre, sur toute la côte, pour te faire plaisir. | | equ+2 |
+* gco_07 | Penser à la mer : « Si tu dois monter, monte. Je serai là. » | La mer t'entend. Elle ne dit rien. Mais, au matin, elle est plus haute d'un mètre, et plus calme, comme quelqu'un qui a pris une décision. | | +flag:p_maree_promise mor+1 |
+* gco_07 | Ne rien penser, et écouter la mer jusqu'à l'aube | Tu écoutes. C'est le plus long discours que tu aies jamais entendu, et le seul qui ne parlait pas de toi. | |
+
+@gco_07
+!title: Le départ des Côtes
+Au matin, on te ramène à la carriole.
+?flag:p_digue Devant la digue, la petite Marégrave te fait un signe de la main. Elle a retrouvé sa taille. Le bouchon de liège tient.
+?flag:p_krfille Sur la jetée, Krâmm mesure déjà les vagues. Il ne te regarde pas. Il a mis le dessin dans sa poche de poitrine.
+?flag:p_fond Sur le fond, les cailloux murmurent encore que la mer va revenir. Ils le croient parce que tu l'as pensé.
+~bartho: Bartholomé ferme sa cabane à clé, alors qu'il n'y a rien à voler. « Une habitude. Perline fermait toujours. »
+~gontran: Gontran fait un dernier discours aux Côtes. Il dit que le Président reviendra pour les vacances. Les Marégraves ne savent pas ce que c'est.
+* gal_int | Rentrer au Carrefour | La carriole remonte la route. La mer, derrière, te regarde partir. | |
+
+# ---------------------------------------------------------------- LA FORÊT
+
+@gfo_01
+!title: La Forêt-Réseau
+!fx: +flag:vis_gfo regions+1
+Les arbres poussent de travers. Ils cherchent quelque chose qu'ils ne trouvent plus. Sous la terre, les racines se parlent par une toile immense qui relie toutes les racines du monde. Elles chuchotent : « Où est la lumière froide ? On poussait vers elle. »
+Tu entends les racines. Un galet posé par terre entend tout ce qui passe sous la terre. Personne ne le savait, parce que personne ne t'avait jamais posé par terre.
+?comp:gontran Gontran, lui, te garde dans sa poche. « Le Président n'aime pas se salir. »
+~xanthin: Xanthin frissonne de plaisir. « La Toile... est forte, ici. C'est... comme rentrer... à la maison. »
+~bartho: Bartholomé regarde les arbres. « Pas une goutte de sel. Je vais sécher. »
+~ondee: Dame Ondée se met à pleuvoir sur une fougère qui avait soif, sans qu'on lui demande. Elle s'excuse auprès de la fougère.
+* gfo_01b ?comp:gontran | Penser : « Posez-moi par terre. » | Gontran traduit : « Le Président veut voir le plus bel arbre ! » Il cherche le plus bel arbre. Il n'y en a plus : ils penchent tous. Il choisit le plus penché, parce que c'est le plus photogénique. | |
+* gfo_01b ?!comp:gontran | Se laisser poser par terre | On te pose sur la mousse. Les racines, en dessous, se taisent d'un coup : elles ont senti quelque chose de lourd qui écoute. Puis elles recommencent, plus doucement. | | +flag:p_racines |
+
+@gfo_01b
+!title: L'arbre qui penche
+Un chêne immense penche si fort que sa cime touche presque le sol, de l'autre côté du chemin. Il ne tombe pas. Il cherche. Ses branches se tendent toutes vers le même endroit du ciel, là où la Lune se levait depuis toujours, et où elle se lève maintenant trop bas, et de travers.
+À son pied, un Lichenaute très vieux, gris comme de la cendre, a mis cent ans à monter jusqu'à la première branche. Il redescend. « Il ne... trouve plus... sa direction. Il pousse... vers rien. »
+?flag:p_racines Par la mousse, tu entends l'arbre. Il ne parle pas. Il a mal, comme un cou tordu.
+~xanthin: Xanthin salue le vieux lichen. Ils se parlent une heure. À la fin, Xanthin dit : « C'est... un oncle. Enfin... un oncle... de la Toile. »
+~quartz: Dr Quartz mesure l'angle de l'arbre. « Quarante et un degrés. La Lune, hier : quarante. Il est en retard d'un jour. Il est presque à l'heure. »
+* gfo_01c coe9 | Penser à l'arbre : « Elle est toujours là. Plus bas. Regarde plus bas. » | Ce que tu penses descend par la mousse, par les racines, jusqu'au cœur du chêne. Il frissonne de toutes ses feuilles. Lentement, très lentement, il baisse une branche, une seule, vers la Lune trop basse. Il l'a retrouvée. Les arbres autour baissent une branche aussi, comme on se passe une nouvelle. | Ce que tu penses descend dans la mousse, mais l'arbre a trop mal pour écouter. Il continue de chercher en haut, là où il n'y a plus rien. | equ+2 mor+1 | equ-1
+* gfo_01c ?comp:gontran | Penser : « Il a mal. » | Gontran traduit : « Le Président trouve cet arbre très élégant ! » Il pose pour un portrait à côté du chêne, la main sur l'écorce. Le chêne ne dit rien. Il n'a jamais été élégant. Il a toujours été droit. | |
+* gfo_01c | Écouter l'arbre, sans rien penser | Tu l'écoutes chercher. C'est un bruit très lent. Tu le connais : c'est le bruit que tu fais quand tu penses à la Lune. | |
+
+@gfo_01c
+!title: Les messagers
+Le long du chemin, des champignons poussent en cercle. Ils clignotent, l'un après l'autre, comme une guirlande. Ce sont les messagers de la Forêt-Réseau : ils lisent ce qui passe dans la Toile et le répètent à la surface, pour ceux qui ne savent pas écouter la terre.
+Ils répètent en ce moment : « Feu au sud. Géomètres. Câble. Feu au sud. » Puis : « Une pierre qui pense est dans la forêt. Une pierre qui pense. »
+Ils parlent de toi. Toute la forêt sait que tu es là.
+~xanthin: « Les champignons... racontent tout », soupire Xanthin. « Surtout... ce qui ne... les regarde pas. »
+~gontran: Gontran est enchanté. « Le Président fait la une des champignons ! »
+* gfo_01d ?comp:gontran | Penser : « Le feu. Au sud. Il faut y aller. » | Gontran traduit : « Le Président veut monter au temple, pour la vue ! » La colline est au nord. Le feu est au sud. Vous montez au nord. | | equ-1 |
+* gfo_01d ?!comp:gontran | Penser : « Le feu, au sud. Mais d'abord, le temple : il faut savoir qui prier. » | On te porte au Temple de la Pleine Lune, au sommet de la colline. Le feu, au sud, attendra une heure. Il n'est pas pressé. Les feux ne le sont jamais. | |
+* gfo_01d | Se laisser porter vers le temple, sur la colline | Tout le monde va au temple. C'est là qu'on prie la Lune. On t'y emmène. | |
+
+@gfo_02
+!title: Le Temple de la Pleine Lune
+Un grand cercle de pierres blanches, polies, au sommet de la colline. Au centre, des centaines de Lunatiques, des créatures pâles et rondes comme des bougies, tricotent des écharpes avec des fils de lumière de Lune. Il y en a de moins en moins.
+?comp:gontran Gontran te pose sur la plus belle pierre, pour la photo.
+?!comp:xanthin ?flag:p_xan_vu Sur la pierre où l'on te pose, une tache orange que tu connais. Le jeune lichen t'a suivi jusqu'ici, en roulant et par la Toile. « Encore... vous. Je suis... têtu. »
+?!comp:xanthin ?!flag:p_xan_vu Sur la pierre où l'on te pose, une tache de lichen orange, pas plus large qu'une pièce de monnaie : un jeune Lichenaute. Une voix très lente monte de la pierre : « Oh. Une pierre... qui pense. Ça... n'arrive jamais. »
+?!comp:xanthin ?!flag:p_xan_vu ?comp:gontran La voix ajoute : « Et celui qui vous porte... ne dit pas... ce que vous pensez. »
+?comp:xanthin Xanthin regarde les pierres blanches avec respect. « Les plus vieilles... pierres de la Terre. Elles pensent... elles aussi. Mais elles... dorment. »
+~gontran: Gontran prend la pose à côté de toi pour un peintre de passage. « Le Président se recueille », explique-t-il au peintre, qui le peint de dos.
+* gfo_02b coe9 ?!comp:xanthin | Penser : « Restez avec moi. J'ai besoin que quelqu'un m'entende. » | Il met longtemps à répondre. Puis il roule de la pierre blanche jusqu'à toi, et s'installe sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | Il hésite trop longtemps. Le peintre a fini, on te reprend. La tache orange te regarde partir. Elle a l'air de quelqu'un qui se promet de te retrouver. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
+* gfo_02b ?comp:xanthin | Penser aux pierres blanches : « Réveillez-vous. » | Les pierres blanches ne se réveillent pas. Mais l'une d'elles, la plus vieille, bouge d'un grain de sable dans son sommeil, et elle se tourne vers la Lune. Xanthin l'a vu. Il ne s'en remet pas. | | equ+1 |
+* gfo_02b | Écouter les tricoteuses | Elles chantent à la Lune des cantiques faux. Au milieu, une voix plus forte et plus fausse que les autres. | |
+
+@gfo_03
+!title: Tante Mélusine
+Au milieu des tricoteuses, une vieille dame immense, enveloppée de châles, couverte de pelotes, trois paires de lunettes sur le nez, une aiguille lumineuse plantée dans le chignon : Tante Mélusine. Elle tricote la lumière de la Lune depuis mille ans, pour les gens qui ont froid. Elle pleure en tricotant, et elle crie en pleurant.
+« QUI EST CE CAILLOU ? QUE VIENT-IL FAIRE DANS MON DEUIL ? »
+* gfo_03b coe10 ?comp:gontran ?!comp:melusine | Penser : « Madame, vous pleurez ? » | Gontran traduit : « Le Président commande une écharpe ! » Tante Mélusine s'arrête net. « UNE ÉCHARPE ? POUR UN CAILLOU ? » Elle te mesure avec ses doigts. Elle tricote en dix minutes une écharpe minuscule, de lumière de Lune, et te l'enroule autour. « JE VIENS AVEC VOUS. QUELQU'UN DOIT VÉRIFIER QU'IL NE LA PERD PAS. » | Gontran traduit : « Le Président commande une écharpe ! » Tante Mélusine se vexe : « JE NE TRICOTE PAS SUR COMMANDE ! JE TRICOTE PAR AMOUR ! » Elle te tourne le dos et se remet à pleurer. | +comp:melusine |
+* gfo_03b coe9 ?!comp:gontran ?comp:xanthin ?!comp:melusine | Penser : « Madame, vous pleurez ? » | Xanthin le répète. Tante Mélusine se mouche. « OUI. ON VA ME PRENDRE LA LUNE. » Elle te prend dans ses mains, immenses et chaudes. « TOI AUSSI, ON VA TE LA PRENDRE. JE VIENS AVEC TOI. » En chemin, elle te tricote une écharpe minuscule, de lumière de Lune, et te l'enroule autour. | Xanthin le répète, mais Tante Mélusine pleure trop fort pour entendre un lichen. | +comp:melusine |
+* gfo_03b | Ne rien penser, et la laisser tricoter | Elle tricote. Tu la regardes. C'est une bonne façon de passer une heure, quand on est un caillou. | |
+
+@gfo_03b
+!title: L'atelier des écharpes
+Derrière le temple, sous un auvent de branches, l'atelier des Lunatiques. Des milliers d'écharpes pendent à des fils, toutes en lumière de Lune, pâles et tièdes. Il y en a pour les oiseaux, pour les vieillards, pour les ponts qui ont froid l'hiver. On les envoie dans le monde entier.
+Les pelotes de lumière s'amenuisent. Chaque nuit, la Lune donne moins de fil, parce qu'elle s'en va. Une petite Lunatique, la plus jeune, tricote avec le dernier bout de sa pelote. Elle s'éteint un peu à chaque maille.
+?comp:melusine Tante Mélusine la regarde et se tait. C'est la première fois qu'elle se tait depuis le début de la journée. C'est plus terrible que tous ses cris.
+~xanthin: Xanthin regarde les écharpes. « Il y en a... une pour... les lichens ? » Il y en a une. Elle est large comme un fil.
+~gaspard: Gaspard passe sa main transparente à travers une écharpe. Elle reste tiède. « Elle me réchauffe. Je n'ai pas eu chaud depuis 1803. »
+* gfo_03c ?flag:obj_carte | Penser à la carte postale, dans la poche | On sort la carte postale de ta poche : la Lune, au-dessus d'une mer calme. On la tend à la petite Lunatique, sans savoir pourquoi. Elle la regarde. Elle tire un fil de lumière de la Lune dessinée, un fil minuscule, et il vient. Une image de Lune, ça donne un peu de fil aussi, quand on y croit. Elle sourit. Elle se rallume d'un cran. Elle garde la carte. | | -flag:obj_carte +flag:p_carte_donnee mor+2 equ+1 |
+* gfo_03c ?flag:obj_fil_lune | Penser à la bobine de fil, dans la poche | On sort la bobine que t'a donnée la petite Lunatique du Carrefour. Le fil de lumière est encore tiède. On la tend à la plus jeune tricoteuse. Elle la regarde comme on regarde un repas après trois jours. Elle tricote avec, et elle se rallume, maille après maille. Elle ne demande pas d'où il vient. Elle a reconnu la main de sa sœur. | | -flag:obj_fil_lune +flag:p_fil_donne mor+2 equ+1 |
+* gfo_03c coe9 | Penser à la petite : « Garde ton fil. Tricote-toi quelque chose. » | Elle ne t'entend pas. Mais elle s'arrête, un instant, au milieu d'une maille. Elle regarde son dernier bout de fil. Elle en fait une toute petite écharpe pour elle-même. C'est la première chose qu'elle tricote pour elle. Elle se rallume d'un cran. | Elle ne t'entend pas. Elle finit l'écharpe d'un pont, et elle pâlit encore. | mor+1 |
+* gfo_03c | Regarder les écharpes, et repartir | Il y en a tant qu'on ne voit plus le ciel. Tant mieux. Le ciel, aujourd'hui, n'est pas beau à voir. | |
+
+@gfo_03c
+!title: La Serre des Belles-de-Nuit
+En redescendant vers le sud, à l'orée de la forêt, une grande serre de verre et de fer. À l'intérieur, des fleurs blanches qui ne s'ouvrent que sous la Lune. Elles sont toutes fermées. Elles attendent depuis trois nuits.
+Un papillon de nuit gris, grand comme un parapluie plié, passe entre les rangs avec un arrosoir. Il s'appelle Anatole. Il soigne la serre depuis soixante ans. Il parle aux fleurs à voix basse, et il s'excuse auprès des limaces.
+Il te voit. Il s'incline. « Monsieur le Président. Je ne savais pas que vous étiez une pierre. Je pensais que c'était une façon de parler. »
+~xanthin: « Il est... poli », dit Xanthin. « Avec... les limaces. J'aime... les gens polis... avec les limaces. »
+~melusine: Tante Mélusine embrasse Anatole sur les deux antennes. Ils se connaissent : elle lui tricote des chaussettes pour ses six pattes.
+* gfo_03d coe9 ?!comp:anatole | Penser aux fleurs fermées : « Elles attendent la même chose que moi. » | Tu blanchis, du côté tourné vers les fleurs. Anatole le voit. Il pose son arrosoir. « Vous les comprenez. » Il réfléchit, en battant des ailes très lentement. « Je viens avec vous. Si vous rapportez la Lune, je veux être là pour leur dire. » | Tu blanchis un peu. Anatole ne le remarque pas : une lampe vient de s'allumer au fond de la serre, et il tourne autour, malgré lui, jusqu'à ce qu'on l'éteigne. | +comp:anatole |
+* gfo_03d ?comp:gontran | Penser : « Ne le dérangez pas, il travaille. » | Gontran traduit : « Le Président voudrait des fleurs pour son bureau ! » Anatole regarde ses fleurs fermées, puis Gontran. « Elles ne sont pas à cueillir, Monsieur. Elles ne sont même pas ouvertes. » Il retourne à son arrosoir, très poliment, et très vexé. | |
+* gfo_03d | Écouter les fleurs, fermées | Elles ne font aucun bruit. C'est le bruit de l'attente. Tu le connais bien. | |
+
+@gfo_04
+!title: Le feu
+Au sud, une odeur de bois brûlé. Des géomètres dorés de la Compagnie Foncière ont allumé un feu au pied d'un vieil arbre. Ils brûlent des racines pour faire passer un câble. La toile des racines hurle sous la terre, et tu l'entends hurler.
+~anatole: Anatole recule. Le feu est une lumière. Il a envie de tourner autour. Il se retient de toutes ses ailes.
+~ondee: Dame Ondée regarde le feu. Elle gonfle. « Je peux ? » demande-t-elle. Elle n'ose pas.
+* gfo_04b pan9 ?comp:gontran | Penser : « Arrêtez ! » | Gontran traduit : « Le Président trouve que ça sent bon ! » Les géomètres, flattés, s'inclinent. Puis ils se demandent ce qu'un président pourrait bien aimer dans l'odeur d'une racine qui brûle. Ils se le demandent si longtemps que le feu s'éteint tout seul. Ils s'excusent auprès de chaque cendre. | Gontran traduit : « Le Président trouve que ça sent bon ! » Les géomètres, flattés, remettent du bois. Il faut que les Lichenautes arrivent, avec des heures de retard, pour se coucher sur les racines brûlées. | equ+2 | equ-1
+* gfo_04b pan9 ?!comp:gontran ?comp:xanthin | Penser : « Arrêtez ! » | Xanthin le répète, lentement, et c'est plus impressionnant qu'un cri : un ordre si lent qu'il a l'air éternel. Les géomètres éteignent le feu en s'excusant. | Xanthin le répète, mais les géomètres n'attendent pas la fin de la phrase. Le feu brûle jusqu'au soir. | equ+2 | equ-1
+* gfo_04b ?comp:melusine | Penser à Tante Mélusine, qui crie plus fort que tout | Tante Mélusine a vu le feu avant que quiconque ait traduit quoi que ce soit. « ÉTEIGNEZ-MOI ÇA, BANDE DE BOUGIES ! » Les géomètres éteignent le feu avec leurs chapeaux. On ne discute pas avec Tante Mélusine. | | equ+2 |
+* gfo_04b ?comp:ondee | Penser à Dame Ondée : « Oui. Vous pouvez. » | Dame Ondée n'a pas entendu. Mais elle a vu le caillou blanchir de son côté, et elle a pris ça pour une permission. Elle pleut. Une pluie lourde, juste au-dessus du feu, qui s'éteint en sifflant. Les géomètres sont trempés. Elle s'excuse auprès de chacun. | | equ+2 mor+1 |
+* gfo_04b | Regarder le feu, sans pouvoir rien faire | Tu le regardes. Les racines hurlent. Le feu brûle jusqu'au soir, et il faut que les Lichenautes arrivent, avec des heures de retard, pour se coucher sur les racines brûlées. | | equ-1 |
+
+@gfo_04b
+!title: La borne
+Les géomètres ramassent leurs instruments. Ils ont planté partout des piquets dorés, avec des rubans : « Lune-sur-Forêt. Résidence. Parcelle 9. » Il leur manque une borne, une vraie, pour marquer le coin de la parcelle. Le chef géomètre regarde par terre. Il cherche une pierre. Plate, lisse, bien grise.
+Il te voit.
+~xanthin: « Oh non », dit Xanthin, très vite pour un lichen. Ça prend quand même dix secondes.
+~bartho: Bartholomé serre le poing. « Touche pas à mon caillou, toi. »
+* gfo_04c rus9 ?comp:gontran | Penser : « Je ne suis pas une borne. » | Gontran s'interpose : « Le Président est une borne ! La plus haute borne de la Terre ! » Le géomètre, ravi, te plante au coin de la parcelle 9. Gontran met dix minutes à comprendre ce qu'il a dit. Il te déterre en pleurant, et il arrache tous les piquets autour, par vengeance. C'est la plus belle chose qu'il ait jamais faite. Il ne sait pas pourquoi il l'a faite. | Gontran s'interpose : « Le Président est une borne ! La plus haute borne de la Terre ! » Le géomètre, ravi, te plante au coin de la parcelle 9. Il faut une heure à Gontran pour te retrouver parmi les piquets. Tu as vu passer beaucoup de fourmis. | +flag:p_piquets equ+1 |
+* gfo_04c coe9 ?!comp:gontran | Penser, sous la main du géomètre : « Ce coin de forêt n'est à personne. » | Le géomètre te soulève. Il te sent blanchir sous ses doigts, et il te lâche, comme on lâche une tasse trop chaude. Il regarde sa main. Il regarde ses piquets. Il les arrache, un par un, sans savoir pourquoi. | Le géomètre te soulève et te plante au coin de la parcelle 9. On met une heure à te retrouver parmi les piquets. Tu as vu passer beaucoup de fourmis. | +flag:p_piquets equ+1 |
+* gfo_04c | Se laisser planter là | Le géomètre te plante au coin de la parcelle. Tu es une borne. C'est presque un métier. On vient te rechercher au bout d'une heure, et les piquets restent. | | equ-1 |
+
+@gfo_04c
+!title: La clairière des Lichenautes
+Plus loin, une clairière couverte de pierres. Sur chaque pierre, un Lichenaute : des gris, des verts, des jaunes, des orange. Ils ne bougent pas. Ils se parlent par la Toile, une phrase par heure, et ils ont des conversations commencées il y a cent ans.
+Quand on te pose au milieu, toutes les taches frémissent en même temps. La Toile répète partout : « La pierre qui pense est là. »
+?comp:xanthin Xanthin descend de ton flanc pour saluer la famille. Il met une heure par cousin. Il en a trois cents.
+?!comp:xanthin Une vieille lichen grise te dit, en deux heures : « Il y a... un petit orange... qui vous cherche. Têtu. Il vous... trouvera. »
+~basile: Basile salue ses cousins de la clairière. Ils lui demandent des nouvelles de sa signature. Il pense très fort à autre chose.
+* gfo_05 ?comp:xanthin | Penser : « Demandez-leur ce qu'ils savent de la vente. » | Xanthin pose la question. La réponse vient de très loin, de racine en racine, et met deux heures : « À Tamponville... un cousin... a tamponné... quelque chose... de travers. Il ne s'en remet pas. Sa signature... pousse encore. » Xanthin se tourne vers toi. « Basile... Grumeau. Le greffier. C'est... de la famille. » | | +flag:p_basile_sait mor+1 |
+* gfo_05 ?!comp:xanthin | Penser : « Merci. » | Toutes les taches de la clairière frémissent ensemble, une fois. Chez les Lichenautes, c'est une ovation. | | mor+1 |
+* gfo_05 | Repartir | On te ramasse. Trois cents lichens te regardent partir. Ils en parleront pendant un siècle. | |
+
+@gfo_05
+!title: Quitter la forêt
+Tu quittes la Forêt-Réseau. Derrière toi, les arbres poussent un peu moins de travers, comme s'ils avaient retrouvé une direction. Sous la terre, la toile des racines pulse plus calmement. Tu l'entends encore longtemps.
+?flag:p_piquets Au bord du chemin, il n'y a plus un piquet doré. Quelqu'un les a tous arrachés.
+~melusine: Tante Mélusine resserre ton écharpe. « ELLE TE VA BIEN, CAILLOU. LE GRIS ET LA LUNE, ÇA S'ACCORDE. »
+~xanthin: « Les racines... disaient merci », dit Xanthin. « Vous ne... les avez pas... entendues ? Moi si. Par vous. »
+~anatole: Anatole vole à ta hauteur, l'aile gauche tournée vers la Lune, pour ne pas se perdre. Il a pris un arrosoir, au cas où.
+* gal_int | Rentrer au Carrefour | Le chemin du retour est long. Tu as le temps de penser. Tu en profites. | |

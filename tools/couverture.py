@@ -16,9 +16,9 @@ LIEUX = [
     (r"^pel_", "La Maternité des Marées"), (r"^lyc_", "Le Club des Lycanthropes"), (r"^ana_", "La Serre des Belles-de-Nuit"),
     (r"^(hub|gal|plu)_", "Le Carrefour des Espèces"), (r"^foi_", "La Foire aux Rencontres"),
     (r"^(cot|gco|pct)_", "Les Côtes Hagardes"), (r"^(for|gfo)_", "La Forêt-Réseau"), (r"^(son|pso)_", "Le Pays des Songes"),
-    (r"^pro_", "Les Profondeurs"), (r"^(cap|gca)_", "Tamponville, la Capitale"), (r"^nua_", "Les Hauts-Nuages"),
+    (r"^(pro|gpr)_", "Les Profondeurs"), (r"^(cap|gpa)_", "Tamponville, la Capitale"), (r"^(nua|gnu)_", "Les Hauts-Nuages"),
     (r"^(com|pcm)_", "Le Marché des Comètes"), (r"^(nui|pnu|gfi)_", "La dernière nuit, au camp"), (r"^asc_", "La montée vers la Lune"),
-    (r"^(cha|pch)_", "Le chantier lunaire"), (r"^(neg|fin|plf|pmo|pla|pcr)_", "Le Promontoire de Platine"),
+    (r"^(cha|pch|gmo)_", "Le chantier lunaire"), (r"^gtr_", "Le train de nuit"), (r"^(neg|fin|plf|pmo|pla|pcr)_", "Le Promontoire de Platine"),
     (r"^(pne|pnc|pno)_", "Le Pays des Songes"),
 ]
 def lieu(nid):
@@ -44,7 +44,7 @@ def run(nodes, meta, pc, runs, policy):
                 out["fins"][n["end"]].append(steps); out["len"].append(steps); break
             avail = [c for c in n["choices"] if all(B.check(cc, st) for cc in c["if"])]
             if not avail or steps > 500:
-                out["bloque"] += 1; break
+                out["bloque"] += 1; out.setdefault("bloque_at", Counter())[cur] += 1; break
             if policy == "explore":
                 gated = [c for c in avail if c["if"]]
                 ch = random.choice(gated) if gated and random.random() < 0.7 else random.choice(avail)

@@ -155,7 +155,7 @@
    "id": "president",
    "name": "Le Président de la Terre",
    "species": "Galet",
-   "start": "gal_01",
+   "start": "gpa_01",
    "stats": [
     0,
     0,
@@ -164,7 +164,7 @@
    "unlock": 1,
    "tagline": "Un galet gris clair, élu il y a huit cents ans parce qu'il n'a jamais rien dit de faux.",
    "bio": "Un galet gris clair, posé sur un coussin de velours depuis huit cents ans. Il a un nom. Personne ne le connaît : il ne l'a jamais dit. Il n'a jamais rien dit du tout, et c'est pour ça qu'on l'a élu. Maître Gontran Verbiage, son interprète, parle à sa place depuis quarante ans.",
-   "debut": "Commence sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces, la nuit de la Grande Panique."
+   "debut": "Commence un matin ordinaire au Palais de Tamponville, la Capitale, sur son coussin de velours, le jour où un crochet doré apparaît dans la Lune."
   },
   {
    "id": "platine",
@@ -985,6 +985,16 @@
    "title": "Souvenir d'Aldébaran",
    "kind": "ironique",
    "hint": "Se faire vendre aux enchères, et rater au bureau."
+  },
+  "33": {
+   "title": "Saisie conservatoire",
+   "kind": "heureuse",
+   "hint": "Emmener un homme de loi jusqu'à la Lune, puis jusqu'au bureau."
+  },
+  "34": {
+   "title": "Le Président de la Lune",
+   "kind": "douce-amère",
+   "hint": "Rester là-haut, sans personne pour le constater."
   }
  },
  "defaults": {
@@ -1188,6 +1198,26 @@
   "obj_herbier": {
    "name": "L'herbier des Belles-de-Nuit",
    "desc": "Soixante ans de belles-de-nuit pressées, une par pleine lune. Ouvert sous la Lune, il se déplie un peu, comme s'il se souvenait. Il sent la vraie nuit."
+  },
+  "obj_bouteille_mer": {
+   "name": "Une bouteille à la mer",
+   "desc": "Une vieille bouteille fermée, rendue par la mer qui s'est retirée. À travers le verre, on lit une signature : « Perline »."
+  },
+  "obj_registre_pluie": {
+   "name": "La page du registre",
+   "desc": "Une page arrachée au registre de la station de pompage. « Pluie achetée. Vendeur : personne. »"
+  },
+  "obj_fil_lune": {
+   "name": "Un fil de lumière de Lune",
+   "desc": "Une bobine de bois, avec le dernier fil de lumière qu'une petite Lunatique a tiré de la Lune. Il est tiède, et il tire un peu vers le haut."
+  },
+  "obj_portrait": {
+   "name": "Le portrait de face",
+   "desc": "Une petite toile roulée : un caillou gris sur une pierre blanche, peint de face par un vieux Lunatique qui ne peint que des dos. On voit qu'il pense."
+  },
+  "obj_longue_vue": {
+   "name": "La longue-vue de la mouette",
+   "desc": "Une longue-vue de laiton cabossée. Elle a appartenu à un capitaine qui cherchait la Lune dans les nuages. Elle était derrière lui."
   }
  }
 }

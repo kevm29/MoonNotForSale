@@ -1,0 +1,266 @@
+# ================================================================
+# PRÉSIDENT GALET : LES RÉGIONS (2) : LES PROFONDEURS ET LES HAUTS-NUAGES
+# ================================================================
+
+# ---------------------------------------------------------------- LES PROFONDEURS
+
+@gpr_01
+!title: Le Grand Puits
+!fx: +flag:vis_gpr regions+1
+On descend aux Profondeurs par le Grand Puits, un trou rond qui s'enfonce sous le Carrefour. Une Gravitaire de garde, large comme une porte de grange, regarde ce qu'on lui présente.
+?comp:gontran Gontran te tend vers elle, à bout de bras : « Le Président de la Terre ! » La Gravitaire te prend, te soupèse, te retourne. « Il est bien. Il est dense. » Chez les Gravitaires, c'est le plus beau compliment.
+?!comp:gontran On te pose dans sa grosse main. Elle te soupèse, te retourne. « Il est bien. Il est dense. » Chez les Gravitaires, c'est le plus beau compliment.
+Elle te tend un casque, beaucoup trop grand. Tu disparais dessous.
+~xanthin: Xanthin regarde le trou. « En bas... la Toile... est très vieille. Elle parle... en pierre. »
+~bartho: Bartholomé regarde dans le puits. « Pas d'eau au fond. Qu'est-ce que c'est que ce puits ? »
+~melusine: Tante Mélusine se penche au bord. « IL FAIT NOIR. JE N'AI PAS TRICOTÉ POUR LE NOIR. »
+* gpr_01b ?comp:gontran | Penser : « Je préférerais sans casque. » | Gontran traduit : « Le Président veut descendre le premier ! » La Gravitaire hoche la tête, admirative, et te pose seul dans la benne, sans casque, par respect. La benne descend. Gontran suit dans la suivante, en criant des instructions que personne n'entend. | | mor+1 |
+* gpr_01b coe9 | Penser à la Gravitaire : « Merci. » | Tu blanchis un peu, de son côté. Elle le sent dans sa paume. Elle ne dit rien, mais elle te repose dans la benne avec une douceur qu'on n'attend pas d'une porte de grange. « Bon voyage, le dense. » | Elle te pose dans la benne. Elle a l'habitude des cailloux. Elle ne remarque rien. | mor+1 |
+* gpr_01b | Se laisser descendre | La benne grince. La lumière du jour rétrécit au-dessus, jusqu'à n'être plus qu'une pièce de monnaie. | |
+
+@gpr_02
+!title: L'Ascenseur des Taupes
+Au fond du Puits, il fait chaud et sombre. Le sol vibre : un gémissement lent, continu, comme une porte qui grince depuis trois jours. L'Ascenseur des Taupes attend, une grande cage de bois tirée par des taupes en salopette, qui ne voient rien et n'ont besoin de rien voir.
+Une petite Gravitaire, à peine cent ans, en bonnet de laine trop grand, monte dans la cage avec toi. Elle te regarde. « T'es un caillou ? »
+?comp:gontran Gontran : « C'est le Président de la Terre, mademoiselle. » La petite : « Il est petit. »
+?!comp:gontran Personne ne répond à ta place. La petite attend. Puis elle dit : « Moi aussi, je dis rien, quand j'ai peur. »
+« Mon papa est à l'Axe. Il est assis depuis trois jours. Il ne peut pas se lever. Si tu le vois, tu peux lui dire que je l'aime ? Il oublie, quand il est assis trop longtemps. »
+~melusine: Tante Mélusine tricote un nœud au bonnet de la petite, pour qu'il ne lui tombe plus sur les yeux.
+~quartz: Dr Quartz, depuis le fond de la cage : « Les Gravitaires assis plus de trois jours oublient un mot par heure. Il lui reste "fille". Il faut faire vite. »
+* gpr_03 coe9 | Penser à elle : « Oui. Je lui dirai. » | Tu blanchis. Elle le voit, parce qu'il fait noir et que le blanc, dans le noir, ça se voit. Elle te prend, te met dans la poche de sa salopette, contre un sandwich de basalte. « Je t'emmène. Comme ça, tu le reconnaîtras. Il a une fissure en étoile sur le front. Il s'appelle Gneiss. » | Elle ne voit rien, il fait trop noir. Elle soupire et regarde ses chaussures. « Personne veut. » | +flag:p_gneiss |
+* gpr_03 ?comp:gontran | Penser : « Gontran, dites-lui oui. » | Gontran se penche vers elle : « Le Président dit que les enfants ne sont pas admis à l'Axe ! » La petite le regarde avec des yeux de silex. Elle descend de la cage à l'étage suivant, sans un mot. | | mor-1 |
+* gpr_03 | Ne rien penser, et regarder les taupes tirer | Elles tirent sans se plaindre. Elles ne savent pas ce qu'il y a en haut, ni ce qu'il y a en bas. Elles connaissent seulement la corde. | |
+
+@gpr_03
+!title: Les parois
+L'Ascenseur te dépose dans une grande caverne. Les parois sont fissurées de frais. Et les parois parlent.
+Tu ne t'y attendais pas. Les pierres, ici, sont tes cousines, de très loin : du granit, du basalte, du schiste. Elles pensent, comme toi, très lentement. Elles ont peur. Elles disent : « On penche. On penche. Qui nous tient ? »
+Personne d'autre ne les entend. Seulement toi, et ce qui pousse sur les pierres.
+?!comp:xanthin Dans une fissure, à la hauteur de tes yeux, quelque chose d'orange frémit.
+~xanthin: Xanthin écoute les parois, bouleversé. « Je n'avais... jamais... entendu de granit. Il a... une voix... de grand-père. »
+~echo: Écho, intimidée, répète les parois tout bas : « ...penche. Penche. »
+* gpr_04 coe9 ?!comp:xanthin | Penser : « Qui est là, dans la fissure ? » | La tache orange sort de la fissure, très lentement, et roule le long de la paroi jusqu'à toi. « La Toile... passe aussi... sous les montagnes. Je vous cherchais. On parle... de vous... jusqu'ici. » Elle monte sur ton flanc. « Je m'appelle... Xanthin. Je suis le demi-frère... de l'oncle... du petit-cousin par alliance... de Basile Grumeau. Le greffier. Chez les lichens... toute la Toile... est de la famille. Maintenant... je vous entends. Tout. Et je dirai... ce que vous pensez vraiment. » | La tache orange frémit, mais un caillou tombe de la voûte et la couvre de poussière. Le temps qu'elle s'en dégage, tu es loin. | +comp:xanthin +flag:p_xan_vu | +flag:p_xan_vu
+* gpr_04 coe8 | Penser aux parois : « Je ne sais pas qui vous tient. Mais je vous entends. » | Les parois se taisent. Puis, une à une, elles répètent ce que tu as pensé, de pierre en pierre, jusqu'au fond de la caverne. Une pierre qui entend les autres pierres, ça ne s'était jamais vu. Elles ont un peu moins peur. | Les parois ne t'entendent pas : elles parlent trop fort, toutes à la fois. | equ+1 mor+1 |
+* gpr_04 | Écouter, sans rien penser | Tu écoutes la montagne avoir peur. C'est très lent, très lourd, très triste. | |
+
+@gpr_04
+!title: Les Grottes des Échos
+Un couloir s'ouvre sur des grottes où chaque bruit revient dix fois. On y parle bas. Le moindre pas devient une armée.
+Au fond, une voix répète, toute seule : « ...seule. Seule. Seule. »
+C'est une créature faite de son, née dans ces grottes. Elle ne peut que répéter les derniers mots qu'elle entend. Elle a vécu seule si longtemps qu'elle ne répétait plus que « seule ».
+?comp:gontran Gontran se racle la gorge, et sa voix part dans toute la grotte : « LE PRÉSIDENT DE LA TERRE ! » La créature répète, ravie : « ...de la Terre ! Terre ! Terre ! »
+?!comp:gontran Personne ne dit rien. La créature attend un mot. Il n'en vient pas.
+~xanthin: Xanthin parle si lentement que les échos reviennent avant qu'il ait fini. Il se répond à lui-même. Ça le déconcerte beaucoup.
+~bartho: Bartholomé, d'une grosse voix : « Ho ! » La grotte lui renvoie « ho » pendant une minute. Il a l'air content. C'est comme la mer.
+* gpr_05 ?comp:gontran | Penser : « Laissez-la tranquille. » | Gontran traduit : « LE PRÉSIDENT VOUS SALUE ! » La créature répète : « ...salue ! Salue ! » Puis, toute seule, plus bas : « ...pas seule. » Gontran ne l'entend pas. Toi, si. | | mor+1 |
+* gpr_05 ?comp:xanthin | Penser : « Dites-lui bonjour. Lentement. » | Xanthin le dit. « Bon... jour. » La créature attend la fin. Elle répète « jour », très doucement, comme on goûte un mot nouveau. | | mor+1 |
+* gpr_05 | Ne rien penser, et écouter la grotte | La créature répète le silence. On ne savait pas qu'on pouvait. Elle le fait très bien. | |
+
+@gpr_05
+!title: Écho
+Elle s'approche. Elle n'a pas de forme : on la voit quand elle parle, comme une buée qui tremble. Elle tourne autour de toi. Une pierre qui ne fait pas de bruit, c'est la chose la plus étrange qu'elle ait jamais rencontrée.
+Elle s'appelle Écho. Elle ne l'a jamais dit. Quelqu'un l'a dit un jour, devant elle, et elle l'a répété.
+~gontran: Gontran, très fort : « Mademoiselle, le Président a besoin de quelqu'un pour répéter ses discours ! » Écho : « ...ses discours ! Discours ! » Gontran est ébloui. Il a trouvé un auditoire.
+~xanthin: « Elle répète... tout », dit Xanthin. « Moi... je répète... seulement vous. On est... presque collègues. »
+* gpr_06 pan9 ?!comp:echo ?comp:gontran | Penser : « Viens avec nous. » | Gontran traduit : « Le Président veut que vous veniez avec nous ! » C'est la première fois qu'il traduit juste, et il ne le sait pas. Écho répète : « ...avec nous ! Avec nous ! » Et puisqu'elle l'a dit, elle vient. | Gontran traduit : « Le Président vous trouve bruyante ! » Écho répète : « ...bruyante. » Elle se tait, vexée, et se cache dans une fissure. | +comp:echo |
+* gpr_06 coe9 ?!comp:echo ?comp:xanthin | Penser : « Viens avec nous. Tu ne seras plus seule. » | Xanthin le dit, très lentement. Écho attend la fin. « ...plus seule », répète-t-elle. Puis encore : « Plus seule. » Elle tourne autour de toi trois fois, et elle reste. | Xanthin le dit, mais si lentement qu'Écho, entre deux mots, répète le bruit d'une goutte qui tombe, et elle oublie le début. | +comp:echo |
+* gpr_06 | La laisser à sa grotte | Elle te regarde partir. « ...partir », répète-t-elle, très bas. Tu ne l'oublieras pas tout de suite. | |
+
+@gpr_06
+!title: La bouteille
+À la sortie des grottes, une niche dans la roche. On y a laissé, il y a longtemps, des bouteilles vides : de limonade, de vin, de sirop. Les mineurs y enfermaient des échos pour les remonter à leurs enfants, comme on rapporte un coquillage.
+Une bouteille est encore là, vide. Il suffirait de la déboucher dans la grotte, de faire un bruit, et de la reboucher.
+?comp:echo Écho regarde les bouteilles avec méfiance. Ses cousines sont là-dedans, peut-être.
+~quartz: Dr Quartz : « Un écho en bouteille garde le dernier mot qu'on y met. Pendant cent ans. Je l'ai mesuré. Enfin, pendant deux jours. Le reste est extrapolé. »
+* gpr_06b ?comp:gontran | Penser : « Il faudrait y mettre un mot. Un seul. » | Gontran prend la bouteille. « Le Président veut un souvenir ! » Il la débouche dans la grotte et crie le premier mot qui lui vient : « BRAVO ! » Il rebouche. Dans la bouteille, un « bravo » tourne en rond. Il te la met dans la poche. | | +flag:obj_echo |
+* gpr_06b coe9 ?!comp:gontran ?comp:xanthin | Penser : « Mettez-y : non. » | Xanthin le dit, à l'entrée de la grotte, une seule syllabe, la plus courte qu'il ait jamais dite : « Non. » On rebouche. Dans la bouteille, un « non » tourne en rond, petit et têtu. On la pose contre toi. | Xanthin le dit, mais trop lentement : le temps qu'il finisse, la grotte a répété autre chose, une goutte qui tombe. Dans la bouteille, il n'y a qu'un « plic ». | +flag:obj_echo +flag:p_echo_non |
+* gpr_06b | Laisser les bouteilles où elles sont | Elles attendent les enfants des mineurs. Les enfants des mineurs sont grands, maintenant. Ils ne viennent plus. | |
+
+@gpr_07
+!title: La géode
+Plus bas, une géode immense, creuse comme une cathédrale, tapissée de cristaux violets. Au milieu, une dame de cristal, toute en facettes, fait des calculs à la craie sur le mur, et efface, et recommence. Dr Ysolde Quartz, savante, seule dans sa géode depuis neuf cents ans.
+Elle te voit. Elle s'arrête au milieu d'une équation. « Un galet. Ici ? » Elle te prend, te pose contre son oreille de cristal. Elle écoute.
+« Il vibre », dit-elle. « Les galets ne vibrent pas. Celui-ci vibre. Fréquence basse, irrégulière, avec des pics. » Elle lève les yeux. « Il pense. »
+?comp:gontran Gontran se penche : « Le Président pense beaucoup à ses électeurs, Madame. » Dr Quartz le regarde comme on regarde une erreur de calcul.
+~xanthin: Xanthin est jaloux. Pendant une minute. Puis il trouve ça fascinant. « Elle... vous entend... sans pousser... sur vous. »
+~echo: Écho répète « ...il pense » dans toute la géode. Les cristaux vibrent avec. Dr Quartz note la fréquence.
+* gpr_08 rus9 | Penser très fort, un seul mot à la fois, pour qu'elle mesure | Tu penses « Lune ». Elle note un pic. Tu penses « Gontran ». Elle note un creux. Tu penses « non ». Elle note un trait, net. Elle relève la tête. « Il répond. Ce galet répond. » Elle prend un carnet tout neuf. « Je viens avec vous. Il faut que je mesure tout. Statistiquement, c'est la découverte du millénaire. J'en ai fait une par siècle, mais celle-ci est vraie. » | Tu penses « Lune », mais tu penses en même temps à la petite Gravitaire, et à la mer, et la courbe est illisible. Dr Quartz secoue la tête. « Trop de bruit. Il pense à tout à la fois. Comme tout le monde. » Elle te repose. | +comp:quartz +flag:p_quartz_mesure |
+* gpr_08 | Ne rien penser, pour ne pas la déranger | Dr Quartz note : « Vibration nulle. » Puis elle fronce les sourcils. « Personne ne vibre nul. Il se retient. » Elle te repose, intriguée. | |
+
+@gpr_08
+!title: Les mesures
+?comp:quartz Dr Quartz te pose sur une balance de cristal, entre deux électrodes. Elle mesure. Tu penses, elle note. Elle a déjà rempli onze pages.
+?comp:quartz ?comp:gontran Pendant qu'elle mesure, Gontran parle, comme toujours : « Le Président trouve la géode très bien décorée ! » Dr Quartz note ça aussi, sur la page d'en face. À gauche : ce que tu vibres. À droite : ce que Gontran annonce. Elle regarde les deux colonnes. Elle ne dit rien. Elle continue de noter.
+?!comp:quartz Dr Quartz retourne à ses calculs, mais elle se retourne souvent vers toi. Les cristaux de la géode vibrent un peu quand tu penses. Elle le voit.
+Au fond de la géode, sur une étagère, il y a ses inventions ratées : trois soleils éteints, deux comètes en bocal, une petite Lune de poche qui tourne toute seule.
+~quartz: « La Lune de poche », dit Dr Quartz. « Ma première invention. La seule qui marche. Elle tourne autour de rien. Comme la vraie, demain. »
+* gpr_09 ?comp:quartz ?comp:gontran | Penser, pour la colonne de gauche : « Ce n'est pas ce que je dis. » | Tu vibres net. Dr Quartz souligne deux fois. Sur la page de droite, Gontran annonce au même moment : « Le Président est d'accord avec moi ! » Dr Quartz souligne trois fois. | | +flag:p_quartz_preuve |
+* gpr_09 coe8 ?!comp:quartz | Penser à la Lune de poche | Les cristaux vibrent. Dr Quartz se retourne. Elle regarde la Lune de poche, puis toi. « Vous aussi, vous l'aimez. » Elle te la pose à côté, une minute, pour que vous vous regardiez. | Les cristaux vibrent à peine. Dr Quartz ne se retourne pas. | mor+1 |
+* gpr_09 | Regarder les inventions ratées | Trois soleils éteints, deux comètes en bocal. Tout ce qu'elle a essayé. Elle a essayé beaucoup. | |
+
+@gpr_09
+!title: La facette
+Avant de te laisser repartir, Dr Quartz s'arrête devant toi. Elle a l'air de chercher une formule qu'elle n'a jamais apprise.
+Elle détache une facette de son coude, avec un petit « tic » de verre. Violette et tiède. « Elle vibre comme ce qu'elle touche. Posez-la sur n'importe quoi, elle chante sa fréquence. Posez-la sur vous, et ceux qui ont des oreilles sauront ce que vous pensez. Enfin, à peu près. À quarante pour cent. »
+?comp:quartz « Je viens avec vous, de toute façon, mais je vous la donne quand même. C'est la première fois que je donne quelque chose. Je voulais voir l'effet. »
+~gontran: Gontran prend la facette, la regarde à la lumière, et la met dans sa poche, contre toi. « Pour le musée présidentiel. »
+~xanthin: Xanthin regarde la facette. « Elle... fait mon travail... en moins lent. Je ne suis... pas jaloux. Si... un peu. »
+* gpr_09b coe9 | Penser à elle : « Merci. Je n'ai jamais rien reçu. » | La facette, posée contre toi, vibre. Une note grave, longue, un peu tremblante. Dr Quartz l'entend. Elle met sa main sur sa bouche de cristal. « Ah. C'est ça, l'effet. » Elle fait des arcs-en-ciel avec toutes ses facettes, sans le vouloir. | La facette vibre, mais tu penses trop bas. Dr Quartz n'entend qu'un bourdonnement. « Défaut de fabrication, sans doute. Le mien. » | +flag:obj_facette mor+1 | +flag:obj_facette
+* gpr_09b | La laisser faire | On glisse la facette contre toi. Elle est tiède. Elle vibre, un peu, à ta fréquence. | | +flag:obj_facette |
+
+@gpr_10
+!title: L'Axe de la Terre
+Tout en bas, l'Axe de la Terre. Une colonne de fer et de nickel si immense qu'on ne voit ni son haut ni son bas. Autour, une salle grande comme une mer. Et sur l'Axe, assis, des milliers de Gravitaires, serrés les uns contre les autres, qui pèsent de tout leur poids. Ils transpirent du sable. L'Axe penche quand même. D'un degré. Puis d'un autre.
+?flag:p_gneiss Dans la poche de la salopette, la petite Gravitaire se hisse sur la pointe des pieds. « Là ! La fissure en étoile ! » Un gros Gravitaire gris ronfle à moitié en pesant. Il a l'air d'avoir oublié beaucoup de mots.
+Tu sens tout. Tu es une pierre, posée près de l'Axe : tu sens le monde qui veut basculer, la Lune qui tire, le cœur de la planète qui bat vite.
+~quartz: Dr Quartz sort un rapporteur. « Vingt-trois degrés quatre. Vingt-trois degrés cinq. Ça monte. »
+~bartho: Bartholomé s'assoit sur l'Axe, à côté des Gravitaires, sans qu'on lui demande. Il est fait d'eau. Il ne pèse pas grand-chose. Il pèse quand même.
+* gpr_11 ?flag:p_gneiss | Penser au papa : « Elle t'aime. » | La petite te sort de sa poche et te pose sur le front de son père, contre la fissure en étoile. Une pierre contre une pierre : ce que tu penses passe. Gneiss ouvre un œil. Il voit sa fille. Il se souvient du mot. Il le dit : « Fille. » Puis : « Ma fille. » Il pèse deux fois plus lourd, d'un coup. L'Axe se redresse d'un dixième de degré. | | +flag:p_gneiss_ok equ+2 mor+2 |
+* gpr_11 coe9 | Penser à l'Axe, de tout ton poids | Tu n'es pas lourd. Mais tu penses lourd. L'Axe, qui est une pierre aussi, très loin, t'entend. Il ne se redresse pas. Il arrête de pencher, une minute. Les Gravitaires, sans savoir pourquoi, respirent. | L'Axe est trop grand pour entendre un si petit caillou. Il penche. | equ+1 |
+* gpr_11 | Regarder les Gravitaires peser | Ils pèsent. Ils ne savent pas jusqu'à quand. Toi non plus. | |
+
+@gpr_11
+!title: La cale
+Au pied de l'Axe, là où il touche le roc, il y a une fente. Une fente étroite, plate, juste sous le bord de la colonne. Chaque fois que l'Axe penche, la fente s'ouvre un peu plus.
+Il faudrait quelque chose dedans. Quelque chose de plat, de dur, de dense. Quelque chose qui tienne.
+Un galet, par exemple.
+~quartz: Dr Quartz calcule. « Une cale de cette taille, sous l'Axe : un degré gagné, peut-être deux. Mais il faudrait la laisser là. Toute la nuit. »
+~xanthin: « Si on... vous met... dans la fente... je viens », dit Xanthin. « Je pousse... sur vous. »
+~gontran: Gontran a compris quelque chose, une fois. Il pâlit. « On ne glisse pas le Président sous une colonne ! »
+* gpr_12 pan10 ?comp:gontran | Penser : « Mettez-moi dans la fente. » | Gontran traduit : « Le Président refuse catégoriquement d'aller dans la fente ! » Puis il trébuche sur un Gravitaire, et tu lui glisses des mains. Tu tombes pile dans la fente. L'Axe se pose sur toi. Tu tiens. Toute la nuit, tu tiens le monde, un tout petit peu. Au matin, les Gravitaires te dégagent avec un respect infini. Tu as une rayure de plus. Tu la garderas. | Gontran traduit : « Le Président refuse catégoriquement d'aller dans la fente ! » Il te serre si fort contre lui que personne n'ose te prendre. Les Gravitaires mettent un sandwich de basalte à ta place. Ça tient un peu moins bien. | +flag:p_cale equ+3 mor+1 | equ+1
+* gpr_12 coe9 ?!comp:gontran | Penser : « Mettez-moi dans la fente. » | La fente est près de toi. Tu blanchis, du côté tourné vers elle. Une vieille Gravitaire le voit. Elle comprend sans qu'on lui dise. Elle te prend, et elle te glisse dans la fente, doucement. L'Axe se pose sur toi. Toute la nuit, tu tiens le monde, un tout petit peu. Au matin, on te dégage avec un respect infini. Tu as une rayure de plus. Tu la garderas. | Tu blanchis, mais personne ne le voit, dans le noir. On met un sandwich de basalte à ta place. Ça tient un peu moins bien. | +flag:p_cale equ+3 mor+1 | equ+1
+* gpr_12 | Ne rien penser, et laisser les Gravitaires décider | Les Gravitaires mettent un sandwich de basalte dans la fente. C'est solide, le basalte. Pas autant qu'un président. | | equ+1 |
+
+@gpr_12
+!title: La remontée
+On remonte. L'Ascenseur des Taupes, le Puits, la benne, et la lumière au-dessus qui s'agrandit, de la pièce de monnaie à la soucoupe, de la soucoupe au ciel.
+?flag:p_cale Les Gravitaires ont gravé quelque chose dans la roche, au pied de l'Axe, à l'endroit de la fente : un petit ovale. Personne ne sait ce que c'est, à part eux. Ils appellent ça « la place du dense ».
+?flag:p_gneiss_ok La petite Gravitaire est restée en bas, assise sur l'Axe à côté de son papa. Elle pèse aussi. Elle t'a fait un signe, avec son bonnet.
+~echo: Écho, dans la benne, répète le bruit de la poulie. Puis, tout bas : « ...dense. » Elle a retenu le mot. Elle l'aime bien.
+~quartz: Dr Quartz relit son carnet pendant la montée. Elle souligne beaucoup.
+* gal_int | Revenir au jour | Le ciel est là, énorme, avec la Lune dedans, encore plus basse que ce matin. | |
+
+# ---------------------------------------------------------------- LES HAUTS-NUAGES
+
+@gnu_01
+!title: L'ascenseur à vapeur
+!fx: +flag:vis_gnu regions+1
+On monte aux Hauts-Nuages par un ascenseur à vapeur, une cabine de cuivre au bout d'un câble qui se perd dans le ciel. Le liftier est un vieux Vent de service, en casquette, qui souffle dans la chaudière pour la faire monter.
+« Étage ? » demande-t-il. Il n'y en a qu'un.
+?comp:gontran Gontran : « Le Président a le vertige ! Montez doucement ! » Le Vent souffle plus fort, pour rendre service.
+~bartho: Bartholomé s'accroche à la rampe. « Un Marégrave, ça vit en bas. Tout en bas. Le plus bas possible. »
+~melusine: Tante Mélusine regarde par le hublot. « ON VOIT MA FORÊT ! ELLE PENCHE ENCORE ! »
+~xanthin: Xanthin se cramponne à toi. Il n'a jamais été si loin de la Toile. Il se tait. Il écoute le vide.
+* gnu_02 ?comp:gontran | Penser : « Je n'ai pas le vertige. » | Gontran traduit : « Le Président veut voir par le hublot ! » Il te colle contre la vitre. En bas, la Terre s'éloigne, ronde, avec ses mers qui penchent. Tu ne l'avais jamais vue d'en haut. Tu ne l'avais jamais vue du tout : on te posait toujours face au plafond. | | mor+1 |
+* gnu_02 coe9 | Penser au Vent liftier : « Ne soufflez pas trop fort, vous allez vous épuiser. » | Tu blanchis un peu, côté chaudière. Le vieux Vent le remarque. Il ralentit. Il souffle doucement, à son rythme. Il n'avait jamais pris son temps, de toute sa carrière. Il arrive en haut moins fatigué que d'habitude. « Merci, Monsieur. Je ne sais pas de quoi. » | Le Vent souffle de toutes ses forces. Il arrive en haut épuisé, comme toujours. | mor+1 |
+* gnu_02 | Se laisser monter | L'ascenseur monte. Le câble grince. La Terre devient une carte, puis un dessin, puis une idée. | |
+
+@gnu_02
+!title: Les Hauts-Nuages
+Tout en haut, on te pose sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé. Tu es habitué aux coussins. Celui-là est triste.
+Les Hauts-Nuages sont dégonflés. Partout, des nuages plats, gris, affaissés comme des draps sur une corde. Il ne pleut plus sur la Terre depuis que la Lune est à vendre. Des petits nuages pleurent à sec. Ils hoquettent de la vapeur.
+Une mère-nuage berce un nuageon qui n'arrive pas à faire sa première averse.
+~xanthin: « Pas de... Toile, ici », murmure Xanthin. « Pas de racines. Je suis... tout seul. Sauf vous. »
+~echo: Écho répète le « pfff » du nuage. Le nuage se dégonfle encore plus. Écho s'excuse : « ...pardon. Pardon. »
+* gnu_02b coe9 | Penser au nuageon : « Ça viendra. » | Tu blanchis. Sur un nuage gris, ça se voit. Le nuageon te regarde, très sérieux. Il essaie encore. Une goutte. Une seule. Elle tombe vers la Terre, très loin. Sa mère pleure de joie, à sec. | Le nuageon ne te regarde pas. Il est trop occupé à ne pas y arriver. | mor+1 equ+1 |
+* gnu_02b ?comp:gontran | Penser : « Pourquoi ne pleuvent-ils plus ? » | Gontran traduit : « Le Président a soif ! » La mère-nuage le regarde, avec une immense lassitude. « Nous aussi, Monsieur. Nous aussi. Allez à la station. Vous verrez. » | |
+* gnu_02b | Se laisser porter vers le bruit, au bord du ciel | Au bord des nuages, quelque chose ronronne. Des machines. | |
+
+@gnu_03
+!title: La station de pompage
+Au bord du ciel, une station de pompage ronronne. Des pompes dorées plantent leurs trompes dans les nuages et les sucent jusqu'à la dernière goutte. La pluie part dans des barils. Sur chaque baril : « COMPAGNIE FONCIÈRE D'ALDÉBARAN. Pluie fine, qualité Lune-sur-Mer. Pour piscines. »
+On vend la Lune, et on remplit les piscines de la Lune avec la pluie de la Terre.
+Des ouvriers en combinaison dorée roulent les barils. Ils ne regardent pas les nuages. Ils regardent leurs barils.
+~bartho: Bartholomé regarde les barils. « De l'eau douce. Pour des piscines. Moi, je la bois pour pleurer. »
+~quartz: Dr Quartz tapote un baril. « Douze mille litres. Assez pour pleuvoir sur un département pendant une semaine. Ou pour une piscine. Une. »
+* gnu_04 ?comp:gontran | Penser : « C'est du vol. » | Gontran traduit, très fort : « Le Président veut visiter les installations ! » Un contremaître accourt, ravi, et vous fait faire le tour. Il montre tout. Il est fier. Il montre même le registre des achats, ouvert sur son bureau, pour qu'on admire les chiffres. | | +flag:p_visite |
+* gnu_04 pan9 ?!comp:gontran | Penser très fort : « C'est du vol », face aux ouvriers | Tu blanchis si fort que ça se voit de loin. Un ouvrier s'arrête de rouler son baril. Il regarde le caillou blanc, puis le nuage dégonflé derrière. Il pose son baril. Il ne le reprend pas. | Tu blanchis, mais les ouvriers ne regardent que leurs barils. | equ+1 |
+* gnu_04 | Regarder la plus grosse nuée, au milieu | Au centre des Hauts-Nuages, une seule nuée est restée gonflée. Elle est énorme, violette, ronde comme un ventre. | |
+
+@gnu_04
+!title: Dame Ondée
+La grande nuée violette tremble. Elle retient sa respiration depuis des semaines. Elle s'appelle Dame Ondée. Elle a plu sur la première mer du monde, quand la Terre était encore tiède. Elle a plu sur tout : sur les déserts, sur les dinosaures, sur des mariages ratés.
+« Les pompes ont pris mes filles », dit-elle d'une voix de tonnerre lointain. « Alors je garde ma pluie. Toute ma pluie. Ils ne l'auront pas. Mais je gonfle. Je gonfle, et un jour je vais éclater. »
+Elle te voit, tout petit, sur son bord. « Qu'est-ce que c'est ? Un grêlon ? »
+?comp:gontran « Le Président de la Terre ! » dit Gontran. Dame Ondée gronde. « La Terre a un président ? Et où était-il, quand on a pris mes filles ? »
+~bartho: Bartholomé regarde Dame Ondée avec une tendresse de marin. « C'est d'une mer qu'elle vient. Ça se voit. Elle a la même tristesse. »
+~melusine: « POURQUOI VOUS NE PLEUREZ PAS, MADAME ? MOI JE PLEURE TOUT LE TEMPS, ÇA SOULAGE ! »
+* gnu_04b ?comp:gontran | Penser : « J'étais sur un coussin. Pardon. » | Gontran traduit : « Le Président était en vacances ! » Dame Ondée gronde si fort que la station tremble. Un baril roule et tombe dans le vide. Gontran se cache derrière toi, ce qui n'est pas pratique. | | equ-1 |
+* gnu_04b coe9 ?!comp:gontran ?comp:xanthin | Penser : « J'étais sur un coussin. Pardon. » | Xanthin le répète, lentement. Dame Ondée se tait. Personne ne lui avait jamais demandé pardon, en quatre milliards d'années. Une goutte tombe de son bord. Une seule. « Ce n'est rien », dit-elle. « Je suis une nuée. On me demande toujours pardon après. » | Xanthin le répète, mais le vent emporte la moitié des syllabes. Dame Ondée n'entend que « coussin ». Elle ne comprend pas. | mor+1 |
+* gnu_04b coe8 | Ne rien penser, et rester posé sur son bord, comme on reste près de quelqu'un | Tu restes. Elle te sent, sur son bord, petit, lourd, immobile. Elle se calme un peu. On ne gronde pas contre quelqu'un qui reste. | Tu restes. Elle ne te sent même pas. Tu es trop petit pour une nuée. | mor+1 |
+
+@gnu_05
+!title: Le berceau
+Dame Ondée penche son bord vers la Terre, tout en bas. « Regarde. Les champs. Ils ont soif. J'ai assez de pluie pour eux tous. Mais si je l'ouvre, je vais tout noyer. J'ai oublié comment pleuvoir doucement. Ça fait trop longtemps. »
+Elle tremble. Elle a peur d'elle-même.
+~quartz: Dr Quartz : « Une pluie douce, c'est une pluie qui commence petit. Une goutte. Puis deux. C'est mathématique. Elle a juste perdu le début de la suite. »
+~echo: Écho, très bas : « ...doucement. Doucement. »
+* gnu_06 coe9 | Penser, contre elle, le plus doucement possible : « Une goutte. Puis deux. » | Tu penses lentement. Tu as toujours pensé lentement. Dame Ondée le sent, contre son bord. Une goutte tombe. Puis deux. Puis une pluie fine, tiède, qui descend vers la Terre. En bas, quelque part, un champ desséché lève la tête. Dame Ondée pleure de joie, ce qui, pour un nuage, est un peu redondant. « Je viens avec vous », dit-elle. « Je veux apprendre à pleuvoir doucement. Vous, vous savez être lent. » | Tu penses lentement, mais elle a trop peur. Une pluie lourde tombe d'un coup sur un village, puis plus rien. Elle se referme. Elle a honte. | +comp:ondee equ+2 | equ-1
+* gnu_06 ?comp:echo | Penser à Écho : « Répète-lui. Doucement. » | Écho ne t'a pas entendu, mais elle répète déjà : « ...doucement. Doucement. Doucement. » Tout bas, en boucle, comme une berceuse. Dame Ondée l'écoute. Une goutte. Puis deux. Puis une pluie fine, qui descend vers la Terre. « Encore », dit Dame Ondée. Écho répète « encore ». Dame Ondée vient avec vous, pour garder la berceuse près d'elle. | | +comp:ondee equ+2 mor+1 |
+* gnu_06 | La laisser à sa peur | Elle reste gonflée. Elle te regarde partir. Elle ne gronde plus. Elle attend. | |
+
+@gnu_06
+!title: Le registre
+Dans la cabine du contremaître, au bord de la station, le registre des achats est ouvert sur le bureau.
+« Pluie achetée aux Hauts-Nuages : 0,02 lune-crédit le litre. Vendeur : personne (les nuages n'ont pas d'adresse). Destination : piscines de Lune-sur-Mer, après déménagement de la Lune. » Personne n'a vendu cette pluie. On l'a juste prise, en signant à la place du ciel.
+Au bas de la page, une autre ligne, au tampon : « Acompte pour la Lune : versé. Signature du cédant : par délégation. Visa : Tamponville, guichet onze. »
+?flag:p_visite Le contremaître a laissé le registre là exprès, pour qu'on admire. Il est parti chercher des petits fours.
+En bas de la page, une note au crayon : « Fantôme signalé à la nacelle 3. Ne pas le nourrir. »
+~penelope: Pénélope lit par-dessus. Elle reconnaît son propre tampon. Elle pâlit, ce qui, chez une robote, fait un bruit de ventilateur.
+~quartz: Dr Quartz photographie la page de mémoire. Elle a une mémoire de cristal. Elle se trompe six fois sur dix, mais pas sur les chiffres.
+* gnu_07 rus9 ?comp:gontran | Penser : « Prenez cette page. » | Gontran traduit : « Le Président veut un autographe du contremaître ! » Il arrache la page pour qu'on la signe, et il oublie de la rendre. Elle finit dans sa poche, contre toi, pliée en huit. Il ne sait pas ce qu'il a pris. | Gontran traduit : « Le Président veut un autographe du contremaître ! » Le contremaître revient avec ses petits fours, signe un menu, et referme le registre. | +flag:obj_registre_pluie |
+* gnu_07 rus9 ?!comp:gontran | Penser : « Prenez cette page. » | Quelqu'un te comprend, ou devine. La page est arrachée, pliée, glissée contre toi, avant que le contremaître revienne. | Le contremaître revient trop tôt, avec ses petits fours, et referme le registre en vous souriant. | +flag:obj_registre_pluie |
+* gnu_07 | Laisser le registre où il est | Tu as lu. Tu t'en souviendras. Les galets ont une bonne mémoire : ils n'ont rien d'autre à faire. | |
+
+@gnu_07
+!title: Le fantôme de la nacelle 3
+Attachée à un mât de pompe, une vieille nacelle d'osier flotte au bout d'une corde. Pas de ballon au-dessus. Dans la nacelle, un homme en redingote, transparent, lisse sa moustache transparente.
+« Sire Gaspard Ombrelune, aéronaute. Parti de Lyon en 1803 pour atteindre la Lune. Arrivé jusqu'ici. Pas plus loin. » Il soupire, et son soupir fait de la buée. « Je suis mort en chemin. Mais je n'ai pas renoncé. C'est une question de principe. »
+Il te regarde. Il ôte son chapeau, qui passe à travers sa main. « Un président ! Je n'en ai jamais vu. En 1803, nous avions un roi, puis un autre, puis personne. »
+~gontran: Gontran tend la main pour serrer celle du fantôme. Il serre du vide. Il continue à serrer, par politesse.
+~ondee: Dame Ondée connaît Gaspard. « Il est là depuis deux siècles. Je pleuvais sur lui, avant. Il ne se mouillait pas. Ça m'énervait. »
+* gnu_08 coe9 | Penser : « Vous voulez toujours y aller ? » | Tu blanchis, côté Lune. Gaspard le voit. Les fantômes voient les choses pâles. « Vous aussi, vous la regardez comme ça », dit-il. Il sort de sous le siège de la nacelle un paquet de soie pliée, grise, fine comme de la peau. « Mon ballon. Le vrai. Je l'ai replié en tombant. Il ne lui manque que de l'air chaud. » | Gaspard ne te voit pas blanchir : il regarde la Lune, comme toujours. Il parle tout seul de 1803. | +flag:p_soie |
+* gnu_08 | Écouter Gaspard raconter son voyage | Il raconte. Le départ de Lyon. Le piano qu'on a jeté pour monter plus haut. La belle-mère qu'on a failli jeter. Le froid. Il raconte bien. Personne ne l'avait écouté depuis 1803. | | +flag:p_soie mor+1 |
+
+@gnu_08
+!title: Le ballon
+?flag:p_soie Gaspard déplie un coin de la soie. Elle brille comme une flaque au clair de Lune. « Il faudrait le gonfler, quelque part en bas, avec un bon feu. Et lâcher les amarres. Et monter. Tout droit. Elle est si basse, ce soir et demain, qu'on y arriverait presque à pied. »
+?!flag:p_soie Gaspard regarde la Lune et ne dit plus rien. Sous le siège de la nacelle, un paquet gris dépasse.
+~xanthin: « Un ballon... jusqu'à la Lune », dit Xanthin. « Il faudrait... être fou. Ou un caillou. »
+~quartz: Dr Quartz calcule. « Avec la Lune à cette distance, un ballon de cette taille, un fantôme à bord pour le lest négatif... Probabilité : une sur trois. C'est énorme. Je n'ai jamais eu mieux. »
+* gnu_09 coe9 ?flag:p_soie ?comp:gontran | Penser : « Venez avec nous. On le gonflera ensemble. » | Gontran traduit : « Le Président réquisitionne ce ballon pour le musée présidentiel ! » Gaspard se raidit. Puis il éclate de rire, un rire de 1803. « Un musée ! Moi qui voulais la Lune ! Eh bien, allons au musée, et nous verrons bien où il est. » Il prend la soie sous son bras et descend de sa nacelle pour la première fois depuis deux siècles. | Gontran traduit : « Le Président réquisitionne ce ballon pour le musée présidentiel ! » Gaspard serre la soie contre lui. « Personne ne réquisitionne mon ballon. » Il se rassoit dans sa nacelle, vexé, pour un siècle de plus. | +comp:gaspard +flag:obj_ballon |
+* gnu_09 coe9 ?flag:p_soie ?!comp:gontran ?comp:xanthin | Penser : « Venez avec nous. On le gonflera ensemble. » | Xanthin le répète, lentement. Gaspard remet son chapeau transparent. « Ensemble. Je n'avais pas entendu ce mot depuis 1803. » Il prend la soie sous son bras et descend de sa nacelle pour la première fois depuis deux siècles. | Xanthin le répète, mais si lentement que Gaspard, entre deux mots, s'endort. Les fantômes s'endorment quand on leur parle trop doucement. | +comp:gaspard +flag:obj_ballon |
+* gnu_09 | Laisser Gaspard à sa nacelle | Il te salue. « Si vous la voyez de près, dites-lui que j'arrive. Un jour. » | |
+
+@gnu_09
+!title: Le contremaître
+Le contremaître est un dirigeable en cravate, gonflé d'importance. Il flotte dans sa cabine en regardant des graphiques qui montent. Il te voit. Il se gonfle encore. « Le Président de la Terre ! Quel honneur ! Vous venez signer le contrat de la pluie ? Il manque votre paraphe. Enfin, celui de votre délégué. »
+?flag:obj_registre_pluie Dans la poche, contre toi, la page arrachée crisse.
+~ondee: Dame Ondée gronde derrière la vitre. Le contremaître se dégonfle d'un dixième, et se regonfle aussitôt, par habitude.
+~gaspard: Gaspard traverse le mur en hululant comme un hibou de 1803. Le contremaître se dégonfle d'un tiers.
+* gnu_10 ?comp:gontran | Penser : « Jamais. » | Gontran sort son tampon « par délégation ». Il va parapher. Puis il s'arrête : il ne sait pas où le Président voudrait le paraphe, et il a peur de mal le mettre. Il hésite si longtemps que le contremaître se dégonfle d'impatience et range le contrat. « Revenez quand vous saurez ce que vous voulez. » | | +flag:p_pas_signe |
+* gnu_10 pan9 ?flag:obj_registre_pluie | Penser : « La page. Montrez-lui la page. » | On déplie la page sur son bureau. « Vendeur : personne. » Le contremaître la lit. Il se dégonfle d'un tiers. Il la relit. D'un autre tiers. « Je... ce n'est pas moi qui ai écrit "personne". C'est l'usage. » Il arrête les pompes, une à une, pour réfléchir. Le silence qui suit est si doux qu'un nuageon, quelque part, fait sa première averse. | On déplie la page sur son bureau. Le contremaître la lit, se dégonfle d'un tiers, et se regonfle aussitôt. « Un brouillon. Nous avons des brouillons. » Il la jette. | -flag:obj_registre_pluie +flag:p_pompes_arretees equ+3 | -flag:obj_registre_pluie
+* gnu_10 ?comp:ondee | Penser à Dame Ondée : « Montrez-lui. » | Dame Ondée ne t'a pas entendu. Mais elle a vu le dirigeable gonflé, et elle a vu le caillou blanchir. Elle se penche sur la station et, très doucement, comme tu le lui as appris, elle pleut. Dans les trompes des pompes. Des milliers de litres, très doucement. Les pompes s'étouffent, une à une. Le contremaître, trempé, se dégonfle complètement. | | +flag:p_pompes_arretees equ+3 |
+* gnu_10 | Ne rien penser, et partir | Le contremaître te raccompagne en flottant. Les pompes tournent. Elles tourneront demain. | |
+
+@gnu_10
+!title: Le Phare des Nuages
+Tout au bout des Hauts-Nuages, un phare de vapeur, dressé sur le dernier nuage solide. De là-haut, on voit la Lune comme jamais. Elle est énorme. Elle remplit la moitié du ciel. On voit ses cratères, ses mers sèches, la poussière blanche.
+Et on voit le crochet. Une chose dorée, plantée dans son flanc, reliée par une chaîne d'or à un vaisseau-bureau immense, en marbre et en or, qui flotte plus loin : le Promontoire. La chaîne est tendue. Elle tire.
+?flag:p_vu_crochet Tu l'avais vu de ta fenêtre, à Tamponville, tout petit. Le voilà en vrai. Il est plus grand que toutes les tours de la Capitale.
+Le gardien du phare est une mouette très vieille, en ciré, qui tourne la manivelle de la lumière. « Je l'éclaire tous les soirs, la Lune. Pour qu'elle trouve son chemin. Ce soir, elle ne le cherche plus. On la tire. »
+~gaspard: Gaspard regarde la Lune, si proche. « J'étais là, en 1803. Juste là. Elle était beaucoup plus loin. »
+~quartz: Dr Quartz mesure la chaîne au rapporteur. « Elle se raccourcit de quatre cents mètres par heure. Demain à l'aube, c'est fini. »
+~xanthin: Xanthin regarde le Promontoire. « C'est... là-bas... qu'est le bouton ? »
+* gnu_10b coe9 | Penser à la mouette : « Continuez de l'éclairer. » | Tu blanchis, côté Lune. La mouette le voit, à la lueur de son phare. Elle hoche la tête. « Je continuerai. Même si elle ne regarde plus. On ne sait jamais. » Elle tourne la manivelle un peu plus fort, et le faisceau du phare passe sur la Lune, sur le crochet, sur la chaîne d'or, et sur le Promontoire, où quelqu'un, derrière une baie vitrée, lève les yeux. | La mouette ne te voit pas. Elle tourne sa manivelle, comme tous les soirs, pour personne. | +flag:p_phare mor+1 | +flag:p_vu_crochet
+* gnu_10b | Regarder le crochet, longtemps | Tu le regardes. Il est beau, en or, bien fait. Tu le détestes. C'est la première fois que tu détestes quelque chose. Ça fait un drôle d'effet, dans une pierre. | | +flag:p_vu_crochet |
+
+@gnu_11
+!title: Redescendre
+On redescend par l'ascenseur à vapeur. Le vieux Vent souffle doucement.
+?flag:p_pompes_arretees Derrière vous, les pompes se taisent. Sur toute la Terre, il recommence à pleuvoir, très fin.
+?comp:ondee Dame Ondée vous suit en flottant au-dessus de la cabine. Elle pleut un tout petit peu, juste sur le toit de l'ascenseur, pour s'entraîner. Ça fait un bruit de pluie sur un toit. C'est le plus beau bruit du monde.
+?comp:gaspard Gaspard, dans l'ascenseur, tient son ballon plié sur ses genoux transparents. Il regarde la Lune par le hublot jusqu'à ce qu'on ne la voie plus.
+~echo: Écho répète la pluie sur le toit. C'est la plus belle chose qu'elle ait jamais répétée.
+~gontran: Gontran prépare son communiqué : « Le Président a rendu la pluie aux nuages. » Il ne sait pas si c'est vrai. Pour une fois, c'est presque vrai.
+* gal_int | Rentrer au Carrefour | La cabine touche le sol avec un soupir de vapeur. La plaine. Les tentes. Le Carrefour. | |

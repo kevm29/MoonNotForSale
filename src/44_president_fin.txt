@@ -1,0 +1,413 @@
+# ================================================================
+# PRÉSIDENT GALET : LA DERNIÈRE NUIT, LA LUNE, LE PROMONTOIRE, LES FINS
+# ================================================================
+
+# ---------------------------------------------------------------- LA DERNIÈRE NUIT
+
+@gfi_01
+!title: La dernière nuit
+Au cœur de la nuit, au Carrefour, la Lune est si basse qu'elle masque la moitié du ciel. Le crochet tire. Demain, elle sera partie.
+Deux nouvelles arrivent en même temps. L'Huissier Krâmm traverse la plaine avec une enveloppe dorée : « Le chef de l'État cédant est convié à bord du Promontoire, pour constater le transfert. Une navette protocolaire l'attend. » Et le Conseil des Espèces a obtenu l'impossible : un grand miroir d'or, venu d'Aldébaran, qui permet de parler au Président d'Aldébaran lui-même, cette nuit, en sommet de crise.
+Tout le monde se tourne vers toi. Il faut choisir.
+?equ<30 Le sol tremble. La Terre penche déjà. Les mers ont trop bougé, les forêts ont trop poussé de travers. Quoi qu'on décide cette nuit, il sera difficile de tout rattraper.
+?comp:gontran Gontran se racle la gorge. Il va parler. Il parle toujours.
+?!comp:gontran ?comp:xanthin Personne ne parle à ta place. Xanthin attend. Tout le monde attend avec lui.
+?!comp:gontran ?!comp:xanthin Personne ne parle à ta place, et personne ne t'entend. Tout le monde regarde le caillou.
+?comp:basile Basile Grumeau, sur une pierre, lit l'invitation par-dessus l'épaule de Krâmm. Il met dix minutes. Il lève un bord. « Constater... le transfert ? Sans... état des lieux ? Ce n'est pas... dans les règles. »
+?comp:gaspard ?flag:obj_ballon Gaspard déplie un coin de la soie grise. Il regarde la Lune, puis le feu, puis toi.
+?comp:bartho ?flag:p_maree Au loin, la mer monte. Elle monte vers la Lune comme jamais. Bartholomé la regarde, puis il te regarde, et il ne dit rien.
+~bartho: Bartholomé : « La grande marée, c'est cette nuit. Je le sens dans mes genoux. Et mes genoux, c'est de l'eau. »
+~penelope: Pénélope reconnaît l'enveloppe dorée. « C'est moi qui les tamponnais. Avant. »
+~melusine: Tante Mélusine regarde la Lune si basse et sanglote : « ELLE EST SI PROCHE QU'ON POURRAIT LA TRICOTER. »
+~xanthin: Xanthin se tait. Il a compris que cette nuit, chaque mot comptera, même les lents.
+* gfi_01 ?flag:obj_longue_vue | Regarder le Promontoire dans la longue-vue de la mouette | On braque la longue-vue sur le Promontoire. Derrière la baie vitrée, Platine ne dort pas. Il est assis à son bureau, le menton dans les mains, la main posée à côté d'un bouton rouge, et il regarde la Lune comme on regarde quelqu'un qui part à cause de vous. Tu sais maintenant à qui tu as affaire. Ce n'est pas un ogre. C'est un collectionneur triste. On rend la longue-vue à la nuit : elle a fini de chercher. | | -flag:obj_longue_vue +flag:p_vu_platine mor+1 |
+* gfi_som ?comp:gontran | Penser : « Je veux voir ce Platine en face. » | Gontran traduit : « Le Président exige un sommet avec Aldébaran ! » On installe le miroir d'or au centre du Carrefour. | |
+* gfi_pro ?comp:gontran | Penser : « Parlons au Président d'Aldébaran. » | Gontran traduit : « Le Président accepte l'invitation de Monsieur Platine ! » Krâmm range son enveloppe. La navette protocolaire descend du ciel. | |
+* gfi_mar ?comp:gontran ?comp:xanthin ?comp:bartho ?flag:p_maree ?flag:p_code | Penser à l'article premier, en regardant la mer qui monte | Gontran traduit : « Le Président va se coucher ! » Mais Xanthin, lui, a entendu. Pendant que Gontran fait ses adieux à la foule, il chuchote à l'oreille de Bartholomé, très lentement. Bartholomé écoute jusqu'au bout. Il sourit. | |
+* gfi_tel ?!comp:gontran | Penser : « Parlons au Président d'Aldébaran. » | Xanthin le répète. On installe le miroir d'or au centre du Carrefour, et on te pose devant. | |
+* gfi_pro ?!comp:gontran | Penser : « Je veux voir ce Platine en face. » | Xanthin le répète. Krâmm s'incline, et la navette protocolaire descend du ciel. | |
+* gfi_sig ?comp:xanthin ?flag:p_basile_sig | Penser : « Montrez l'acte de vente à l'huissier. Regardez la signature. » | Xanthin roule jusqu'aux pieds de Krâmm et le lui dit, lentement, en vraie traduction. | |
+* gfi_mar ?!comp:gontran ?comp:bartho ?flag:p_maree ?flag:p_code | Penser à l'article premier, en regardant la mer qui monte | Xanthin le répète à Bartholomé, très lentement. Bartholomé écoute jusqu'au bout. Il sourit. | |
+* gmo_nav ?comp:basile | Penser : « Maître Grumeau. Que dit la procédure ? » | Basile prend une minute par mot. « Aucun transfert... de territoire... sans état des lieux... préalable. Sur place. En présence... du cédant. » Krâmm ouvre un tiroir, vérifie, le referme, très pâle. « C'est exact. Je l'avais oublié. Personne n'a jamais demandé. » La navette protocolaire fera donc escale sur la Lune, avant le Promontoire. Le règlement est le règlement. | |
+* gmo_bal ?flag:obj_ballon ?comp:gaspard | Penser à la soie grise, et au feu | Gaspard a compris avant tout le monde. Il ne t'a pas entendu : il a vu le caillou blanchir du côté de la Lune. « Ce soir. Elle n'a jamais été si proche. » Il déplie le ballon au-dessus du feu du Carrefour. | |
+
+@gfi_sig
+!title: La signature
+?comp:gontran Derrière, Gontran annonce que le Président veut un autographe. Pour la première fois en quarante ans, personne ne l'écoute. Tout le monde regarde le lichen.
+L'Huissier Krâmm ouvre son dernier tiroir et en sort l'acte de vente original, que Pénélope avait fini par rapporter. Il le déplie sous la Lune.
+En bas, la signature du greffier. Une signature de lichen, qui pousse en faisant grandir le nom de son auteur. « Basile Gru... » Elle n'a pas poussé d'un millimètre depuis des jours. Quelque part, au bout de la Toile, un greffier pense très fort à autre chose.
+Krâmm la regarde longtemps. Ses tiroirs grincent. « Article premier du Code foncier : on ne cède pas un territoire sans signature. Une signature qui ne finit pas... n'est pas une signature. » Il hésite. « Mais Monsieur Platine attend. Et je n'ai jamais rien empêché de partir. »
+?flag:p_code Il se souvient de la jetée, et de toi, et de l'article premier. Il te regarde, comme on regarde quelqu'un qui avait raison avant tout le monde.
+~xanthin: « Grumeau... tient bon », dit Xanthin, le bord posé sur une racine. « Il pense... à des choses... très ennuyeuses. Exprès. »
+~penelope: Pénélope se penche sur l'acte. « C'est moi qui l'ai rapporté. Je n'avais pas vu. Je ne regarde jamais le bas des pages. »
+~bartho: Bartholomé : « Alors, le classeur ? Tu ranges, ou tu déménages ? »
+* gfi_r23 coe10 ?equ>=30 ?flag:p_krfille | Penser : « Votre fille ne veut pas que vous déménagiez la Lune. » | Xanthin le lui dit. Krâmm ne demande pas comment un galet connaît sa fille : il se souvient du caillou qui pâlissait à la fenêtre de sa cabine. Il ouvre le tiroir du bas, et regarde le dessin. « Pour papa. La Lune à sa place. » | Xanthin le lui dit. Krâmm se raidit. « On ne parle pas de ma fille. Article premier. » Il replie l'acte, et appelle la navette protocolaire. | |
+* gfi_r23 coe12 ?equ>=30 | Penser : « Un acte non signé n'est pas un acte. Vous le savez. » | Xanthin le lui dit, article par article. Krâmm hoche la tête à chaque mot, comme on approuve un collègue. | Xanthin le lui dit, mais Krâmm connaît mieux les articles que vous. « Une signature en cours est une signature en attente. » Il replie l'acte, et appelle la navette protocolaire. | |
+* gfi_pro ?equ<30 | Laisser Krâmm décider | La Terre a trop penché, cette nuit, pour qu'un huissier ose la sauver sur un détail. Krâmm replie l'acte et appelle la navette protocolaire. On t'emmène au Promontoire. | |
+
+@gfi_som
+!title: Sommet par interprète
+Le miroir d'or s'allume. Dedans, un très vieil Aldébaranien, fait de feuilles d'or si usées qu'elles sont presque transparentes : Son Excellence Aurélien Dorure, Président d'Aldébaran. Il s'incline devant un galet. Il n'a jamais vu de galet.
+« Monsieur le Président de la Terre. Je vous écoute. »
+Gontran te tient devant le miroir, et il ouvre la bouche avant que tu aies pensé quoi que ce soit.
+?flag:p_formule Dans sa poche, Gontran tripote une phrase qu'il a apprise à Tamponville. Il meurt d'envie de la placer.
+~penelope: Pénélope chuchote : « Le Président Dorure déteste les surprises juridiques. Il a fait voter une loi contre. »
+~xanthin: Xanthin, sur ton flanc, essaie de donner la vraie traduction. Gontran parle plus fort. Il parle toujours plus fort.
+* gfi_r16 pan10 ?flag:p_formule ?equ>=30 | Penser : « Elle ne veut pas partir. » | Gontran traduit, d'une voix grave : « Le Président rappelle que tout ceci est sous réserve de l'article douze, alinéa trois. » Dans le miroir, les feuilles d'or du Président Dorure se mettent à trembler. | Gontran traduit : « Le Président rappelle que tout ceci est sous réserve de l'article... treize ! » Il s'est trompé de numéro. Le Président Dorure sourit, soulagé. L'article treize, il le connaît : c'est celui des primes. | |
+* end_17 | Penser : « Rendez-nous la Lune. » | Gontran traduit, enthousiaste : « Le Président propose d'ajouter les marées, en prime ! » Dans le miroir, le Président Dorure prend des notes. | |
+* end_17 | Ne rien penser, et espérer | Gontran traduit ton silence : « Le Président accepte tout ! Et même les marées ! » | |
+
+@gfi_tel
+!title: Sommet par télépathie
+Le miroir d'or s'allume. Dedans, un très vieil Aldébaranien, fait de feuilles d'or si usées qu'elles sont presque transparentes : Son Excellence Aurélien Dorure, Président d'Aldébaran. Il s'incline devant un galet. Il n'a jamais vu de galet.
+« Monsieur le Président de la Terre. Je vous écoute. »
+Personne ne parle à ta place. Xanthin, sur ton flanc, attend ta pensée pour la dire, mot après mot, lentement. Pour la première fois en huit cents ans, la Terre va entendre son Président.
+?equ<30 Derrière le miroir, le sol tremble. Tout le monde sait qu'il est peut-être trop tard. Même les mots vrais arrivent parfois trop tard.
+~xanthin: « Prenez... votre temps », dit Xanthin. « Mais... pas trop. »
+~bartho: Bartholomé tient le miroir pour qu'il ne tremble pas. Il tremble plus que le miroir.
+* end_19 | Penser un vrai discours de président : « Mesdames et Messieurs, peuples de la Terre et d'Aldébaran... » | Xanthin commence à le dire. « Mesdames... » | |
+* gfi_r18 coe9 ?flag:p_sait ?equ>=30 | Penser : « Elle ne veut pas partir. » | Xanthin le dit. Cinq mots. Ça prend une minute entière. Le Président Dorure écoute jusqu'au bout. | Xanthin le dit. Cinq mots. Ça prend une minute entière. Au troisième mot, le Président Dorure, poli, croit que la phrase est finie et commence à répondre. | | +flag:p_court
+* gfi_r18 coe12 ?equ>=30 | Penser : « Non. » | Xanthin le dit. Un seul mot. Le plus court de sa vie. Le Président Dorure attend la suite. Il n'y en a pas. | Xanthin le dit. Un seul mot. Le Président Dorure attend la suite, longtemps, et croit à une panne du miroir. | | +flag:p_court
+
+@gfi_mar
+!title: La grande marée
+Bartholomé t'emporte jusqu'à la plage, Xanthin sur ton flanc. La mer monte vers la Lune comme elle n'est jamais montée. Elle se dresse, elle tend les bras. Plus loin, une colonne d'eau tourbillonne jusqu'au ciel : la Trombe des Partis, là où la mer monte quand la Lune tire trop fort.
+Bartholomé te soupèse. « Article premier, hein ? La Terre est partout où tu reposes. Et tu ne peux pas céder un territoire sans ta signature, d'après le classeur. » Il rit. « Et toi, tu n'as jamais rien signé. Tu n'as pas de mains. »
+« Un ricochet jusqu'à elle. T'es plus fou que moi, caillou. »
+?flag:obj_neveu_galet Dans la poche du ciré, ton neveu. Bartholomé le pose sur un rocher, face à la mer. « Lui, il garde la plage. »
+~xanthin: « Je viens... aussi », dit Xanthin. « Je pousse... sur vous. Et puis... je l'aurais fait. »
+~melusine: Tante Mélusine resserre ton écharpe. « NE LA PERDS PAS LÀ-HAUT ! IL Y FAIT FROID ! »
+~penelope: Pénélope calcule à toute vitesse. « Trajectoire, angle, vitesse de la marée... Je n'ai que deux tampons. Je les croise. »
+* gfi_r22 pan10 ?equ>=30 | Se laisser lancer | Bartholomé prend son élan, se penche, et te lance à ras de l'eau. Tu ricoches une fois, deux fois, dix fois, puis sur la vague qui monte, puis sur la Trombe, de plus en plus haut. | Bartholomé prend son élan et te lance. Tu ricoches sur la mer, sur la vague, sur la Trombe, de plus en plus haut, mais trop à gauche. Tu manques la Lune de peu. | | +flag:p_ricochet
+* gfi_pro ?equ<30 | Se laisser lancer | La mer est trop folle, cette nuit : elle a trop penché. Bartholomé te lance quand même. Tu ricoches haut, trop haut, et pas du bon côté. Tu passes à côté de la Lune. | | +flag:p_ricochet |
+
+@gfi_pro
+!title: Le Promontoire
+?!flag:p_ricochet La navette protocolaire monte jusqu'au Promontoire, le vaisseau-bureau de la Compagnie Foncière d'Aldébaran. On te porte dans un bureau immense, en marbre et en or, avec une baie vitrée sur la Lune. Au milieu, un grand bureau. Sur le bureau, un bouton rouge : celui qui arrête les moteurs. Ils démarreront tout seuls à l'aube, si personne n'appuie.
+?flag:p_ricochet Tu retombes sur le pont du Promontoire, le vaisseau-bureau de la Compagnie Foncière. Tu roules, tu rebondis, tu traverses une baie vitrée ouverte, et tu t'arrêtes sur un grand bureau de marbre, à côté d'un bouton rouge : celui qui arrête les moteurs. Ils démarreront tout seuls à l'aube, si personne n'appuie. Les autres te rejoignent par la navette, essoufflés.
+?flag:p_lune_terre Krâmm tient sous le bras le constat de la Lune. Il ne l'a pas encore montré à Platine. Il cherche le bon tiroir pour le lui annoncer. Il n'y en a pas.
+?flag:p_train_platine Tu le reconnais avant qu'il parle : le monsieur gris du wagon-restaurant, qui regardait la Terre comme un inventaire.
+?flag:p_vu_platine C'est la silhouette de la longue-vue. De près, elle a l'air encore plus seule.
+Derrière le bureau, un grand monsieur mince, fait de feuilles d'or si fines qu'elles laissent passer la lumière : Gédéon Platine. Il s'incline très bas devant toi.
+« Monsieur le Président de la Terre. On m'a dit que vous n'aviez jamais rien dit de faux. Je n'ai jamais rencontré personne comme ça. »
+Il te regarde avec une drôle d'envie. Il achète les belles choses pour qu'elles ne soient pas seules. Personne n'est plus seul qu'un galet qui n'a jamais menti.
+~penelope: Pénélope baisse les yeux. « Bonsoir, Monsieur Platine. » Il lui répond « Bonsoir, ma chère », et il ne remarque même pas qu'elle a changé de camp.
+~bartho: Bartholomé regarde la Lune par la baie vitrée. Il cherche Perline dans la poussière. Il ne la trouve pas. Il cherche quand même.
+~melusine: Tante Mélusine touche le marbre. « TOUT EST FROID, ICI. MÊME L'OR. »
+* gfi_r20 pan10 ?comp:gontran ?equ>=30 | Penser : « Calmez-vous, tout le monde. » | Gontran traduit, d'une voix de tonnerre : « LE PRÉSIDENT FRAPPE ! » Et pour illustrer, emporté par son élan, il te lance. | Gontran traduit, d'une voix de tonnerre : « LE PRÉSIDENT FRAPPE ! » Et pour illustrer, il te lance. Tu manques Platine d'un cheveu et tu tombes dans sa coupe de champagne. | | +flag:p_champagne
+* gfi_ech ?comp:gontran | Penser : « Rendez-la-nous. » | Gontran traduit : « Le Président vous trouve très bien coiffé ! » Platine passe la main dans ses feuilles d'or, flatté. Il te regarde encore, avec la même envie. | |
+* gfi_r20 pan10 ?!comp:gontran ?comp:bartho ?equ>=30 | Penser : « Bartholomé. Tu as de bons bras. » | Xanthin le chuchote à Bartholomé. Bartholomé ne demande pas pourquoi. Il te prend, il vise, et il te lance. | Xanthin le chuchote à Bartholomé. Il te lance, mais il pense à Perline au mauvais moment. Tu manques Platine et tu tombes dans sa coupe de champagne. | | +flag:p_champagne
+* gfi_ech ?!comp:gontran | Penser : « Prenez-moi à sa place. » | Xanthin le dit, lentement. Platine pâlit. Ses feuilles d'or frémissent. « Vous... vous feriez ça ? » | |
+* gmo_saisie ?comp:basile ?flag:p_lune_terre | Penser : « Maître Grumeau. Le deuxième constat. » | Basile descend de ta poche sur le bureau de marbre, très lentement, avec son tampon. Platine le regarde faire, poli, sans comprendre. | |
+
+@gfi_ech
+!title: L'échange
+?flag:p_champagne Platine te sort de la coupe de champagne, délicatement, avec une serviette. Il t'essuie. Personne ne t'avait jamais essuyé. Il te pose sur le bureau, à côté du bouton.
+Platine te regarde longtemps. « Un président qui n'a jamais rien dit de faux. Le seul de l'univers. » Sa voix tremble. « On m'a gardé dans un coffre, enfant, parce que j'étais trop précieux pour être dépensé. Je sais ce que c'est, d'être unique. »
+?comp:gontran Puis il dit, en riant à moitié, comme une plaisanterie qu'il n'ose pas faire : « Je vous échangerais bien contre la Lune. » Gontran, qui n'a rien compris, s'exclame aussitôt : « Le Président accepte ! » Platine cesse de rire. Il a l'air de quelqu'un à qui on vient de dire oui pour la première fois.
+?!comp:gontran ?flag:p_champagne Au fond de la coupe, tu n'as pensé qu'une chose, et Xanthin, trempé de champagne, l'a répétée : « Prenez-moi à sa place. »
+?!comp:gontran Puis il dit, très bas : « La Lune contre vous. C'est d'accord. » Il a l'air de quelqu'un à qui on vient de faire un cadeau pour la première fois.
+~xanthin: « Si vous partez... je pars », dit Xanthin. « Je pousse... sur vous. Et puis... je l'aurais fait. »
+~penelope: Pénélope prépare l'acte d'échange en tremblant. Pour une fois, elle sait ce qu'elle tamponne.
+* end_21 ?flag:obj_portrait | Penser au portrait du peintre, dans la poche : « Prenez plutôt celui-ci. » | On déroule le petit portrait sur le bureau : un caillou gris, de face, qui pense. Platine le regarde longtemps. Il a les larmes aux yeux. « C'est très beau. C'est presque vous. » Il le roule, délicatement, et le range dans sa poche de poitrine. « Je le garde. Mais je veux aussi l'original. Je suis collectionneur. On ne se refait pas. » Il pose la main sur le bouton rouge, et il appuie. Les moteurs s'arrêtent. Le crochet se détache. | | -flag:obj_portrait +flag:p_portrait_platine |
+* end_21 | Rester posé là, sans rien penser d'autre | Platine pose la main sur le bouton rouge, et il appuie. Les moteurs s'arrêtent. Le crochet se détache. | |
+
+@gfi_r16
+!title: Le miroir tremble
+?last:ok Dans le miroir, les conseillers du Président Dorure se penchent les uns vers les autres et chuchotent : « L'article douze ? Qui connaît l'article douze ? »
+?last:ko Dans le miroir, le Président Dorure fait signe à ses conseillers de préparer les annexes.
+* end_16 ?last:ok | Attendre la réponse d'Aldébaran | Le Président Dorure lève la main. Il va parler. | |
+* end_17 ?last:ko | Attendre la réponse d'Aldébaran | Le Président Dorure sourit. Il a l'air ravi. C'est mauvais signe. | |
+
+@gfi_r18
+!title: La réponse
+?last:ok Le Président Dorure ne bouge plus. Il a entendu. Il a tout entendu.
+?last:ko Le Président Dorure s'excuse : il a mal compris. Il demande qu'on recommence depuis le début. Xanthin recommence. Ça va prendre du temps.
+* end_18 ?last:ok | Attendre | Le miroir reste allumé. Personne ne respire. | |
+* end_19 ?last:ko | Attendre | Le miroir reste allumé. Pas très longtemps. | |
+
+@gfi_r20
+!title: Le vol
+?last:ok Tu voles droit vers le front de Gédéon Platine.
+?last:ko Tu voles, et puis tu tombes, plouf, dans une coupe de champagne.
+* end_20 ?last:ok | Voler | Le vent passe sur tes deux faces. | |
+* gfi_ech ?last:ko | Couler au fond de la coupe | Tu remontes en bulles. Enfin, les bulles remontent. Toi, tu restes au fond. | |
+
+@gfi_r22
+!title: Le dernier ricochet
+?last:ok Tu montes. La mer monte avec toi. Devant toi, la Lune, énorme, toute blanche, qui t'attend sans le savoir.
+?last:ko Tu montes, tu montes, mais pas du bon côté. Tu passes à côté de la Lune, et tu redescends vers quelque chose de doré.
+* end_22 ?last:ok | Atterrir | La poussière blanche s'approche. | |
+* gfi_pro ?last:ko | Retomber | Tu retombes. Ça va être doré. | |
+
+@gfi_r23
+!title: Le dernier tiroir
+?last:ok Krâmm reste longtemps immobile. Ses tiroirs ne grincent plus.
+?last:ko Krâmm replie l'acte. La navette protocolaire descend du ciel, et on t'emmène au Promontoire.
+* end_23 ?last:ok | Attendre la décision de l'huissier | Krâmm se redresse. | |
+* gfi_pro ?last:ko | Te laisser emmener | La navette monte vers le Promontoire. | |
+
+# ---------------------------------------------------------------- LES FINS
+
+@end_16
+!end: 16
+!title: Article douze, alinéa trois
+Le Président Dorure pâlit, ce qui chez un être en or donne un gris très chic. Il se tourne vers ses conseillers, qui se tournent vers leurs conseillers. Personne, à Aldébaran, ne connaît l'article douze. Tout le monde le craint.
+« Je... nous allons suspendre la vente, par prudence, le temps d'étudier cet alinéa. » Il éteint le miroir.
+Ils l'étudient encore. Personne ne trouve l'article douze, parce qu'il n'existe pas. Mais aucun juriste d'Aldébaran n'osera jamais l'écrire, de peur de ce qu'il contiendrait. La Lune reste, sous réserve.
+Gontran est décoré de l'ordre du Mérite Terrestre pour son « intransigeance juridique ». Il ne sait toujours pas ce qu'il a dit. Toi non plus, d'ailleurs : tu avais pensé autre chose.
+Tu avais pensé : « Elle ne veut pas partir. » C'était vrai. On a gagné avec un mensonge, que personne n'a dit exprès. La Lune ne le saura jamais. Ça vaut mieux.
+?comp:penelope Pénélope encadre une copie de l'enregistrement. Elle la regarde parfois, en riant toute seule.
+?comp:bartho Bartholomé lève son verre d'eau douce, chaque soir, « à l'alinéa trois ». Personne ne sait pourquoi. Il ne l'explique pas.
+?comp:melusine Tante Mélusine tricote, en lumière de Lune, le mot « ALINÉA » sur une écharpe, et la porte tout l'hiver.
+?comp:xanthin Xanthin a tout entendu. Il sait ce que tu pensais vraiment. Il ne le répète à personne. C'est votre secret, à vous deux.
+
+@end_17
+!end: 17
+!title: Les marées en prime
+Le Président Dorure prend des notes avec un enthousiasme poli. « Les marées ? En prime ? C'est très généreux de la part de la Terre. »
+Le transfert a lieu à l'aube. La Lune part, et elle emporte les marées avec elle, empaquetées, étiquetées, conformément au protocole. La mer se couche comme une flaque et ne se relève plus.
+Gontran explique à la foule que le Président est très satisfait de l'accord. La foule applaudit. Tu restes sur ton coussin. Tu penses très fort. Personne ne t'entend, comme avant, comme toujours.
+?comp:xanthin Sauf Xanthin. Il a tout entendu. Il pousse sur toi, lentement, pour te couvrir un peu, comme on couvre quelqu'un qui a froid.
+?comp:bartho Bartholomé est retourné au Ressac Triste. Il n'y a plus de ressac. Il boit de l'eau douce, et il se dilue tant qu'un jour il n'en reste qu'une flaque, sur le comptoir, qu'on n'essuie pas.
+?comp:penelope Pénélope a tamponné l'annexe des marées. « APPROUVÉ. » Elle n'a pas pu s'en empêcher. C'est sa main.
+?comp:melusine Tante Mélusine n'a plus de lumière à tricoter. Elle défait ses écharpes une à une, pour retrouver la lumière qui est dedans.
+Sur Aldébaran, on a construit des piscines à marées. C'est une exclusivité.
+
+@end_18
+!end: 18
+!title: Une seule phrase
+Le Président Dorure ne répond pas tout de suite. Il regarde le galet dans le miroir. Un galet qui a mis huit cents ans à dire quelque chose.
+Il comprend une chose qu'on lui a cachée : la Lune n'a jamais été à vendre, parce qu'on ne lui a jamais demandé. Et le seul être de la Terre qui n'ait jamais menti vient de le lui dire.
+« Je n'ai jamais rien entendu d'aussi vrai », dit-il. « Ni d'aussi court. » Il éteint le miroir. Une heure plus tard, à Aldébaran, la vente est annulée par décret, avec des excuses à la Lune, écrites à la main.
+Le crochet se détache à l'aube. La Lune remonte un peu dans le ciel, à sa place.
+On a gravé ta phrase sur le socle de ton coussin. Les enfants la lisent. Ils trouvent qu'un président qui dit une seule phrase en huit cents ans, c'est un bon président.
+?comp:xanthin Xanthin l'a dite pour toi. Il n'en revient pas. Il pousse un peu plus vite depuis. Un millimètre par an, au lieu d'un demi. C'est sa façon de sauter de joie.
+?comp:gontran Gontran ne traduit plus. Il a demandé un congé. Il dit qu'il réfléchit. On ne l'avait jamais vu réfléchir. Ça lui va bien.
+?comp:bartho Bartholomé regarde la Lune revenue, chaque soir, du bout de la jetée. Il croit voir Perline qui lui fait signe. Il lui fait signe aussi.
+?comp:penelope Pénélope a reçu le décret d'annulation. Elle l'a tamponné avec un tampon qu'elle s'est fait faire exprès : « ENFIN ».
+?comp:melusine Tante Mélusine a retrouvé sa lumière. Elle tricote une écharpe longue comme une phrase courte, et elle te la donne.
+
+@end_19
+!end: 19
+!title: Vitesse géologique
+?!flag:p_court Xanthin dit ta pensée, mot après mot, à la vitesse d'un lichen. Et ta pensée, c'est celle d'un galet : longue, solide, lente comme une montagne qui se forme.
+?!flag:p_court Au bout d'une heure, le Président Dorure s'excuse : il a une autre réunion. Le miroir s'éteint au milieu de ta première phrase.
+?flag:p_court Tu n'avais pensé que quelques mots. Mais le Président Dorure a demandé qu'on reprenne depuis le début, puis qu'on développe, puis qu'on précise. Un galet qui précise, c'est un galet qui commence un discours. Le miroir s'éteint au milieu de ta première précision.
+Le transfert a lieu à l'aube. La Lune part. Tu n'as pas fini.
+Tu finis quand même. Xanthin dit ta pensée jusqu'au bout, pendant des années, à un miroir éteint posé sur la plaine. On vient l'écouter, le dimanche. C'est le plus beau discours jamais prononcé sur la Terre. Personne ne l'entendra en entier. Il manque quelques siècles.
+?comp:bartho Bartholomé vient tous les dimanches. Il s'assoit devant le miroir éteint et il écoute. « Il parle bien, ton caillou. Lentement, mais il parle bien. »
+?comp:penelope Pénélope tape le discours à la machine, au fur et à mesure. Elle en est à la page deux mille. Il n'a pas encore dit « Mesdames et Messieurs » en entier.
+?comp:melusine Tante Mélusine tricote pendant le discours. L'écharpe fait le tour de la plaine. Elle dit que l'écharpe et le discours finiront en même temps.
+C'est une fin triste, mais elle n'est pas encore finie. Un galet a le temps.
+
+@end_20
+!end: 20
+!title: Le projectile
+Tu traverses le bureau. Tu n'as jamais volé. C'est très bien, voler. Le vent passe sur tes deux faces.
+Tu frappes Gédéon Platine au milieu du front, là où les feuilles d'or sont les plus fines. Il fait « oh », très poliment, et il s'assoit par terre.
+?comp:gontran Gontran se précipite pour s'excuser, s'incline trop bas, et s'appuie de tout son coude sur le bouton rouge. Les moteurs s'arrêtent. Il regarde son coude. « Le Président... le Président avait tout prévu », murmure-t-il. Tu n'avais rien prévu. Personne n'avait rien prévu.
+?!comp:gontran Bartholomé s'approche du bureau. « C'est lequel, le bouton ? Le rouge ? Évidemment, le rouge. » Il appuie. Les moteurs s'arrêtent.
+Le crochet se détache. La Lune remonte doucement à sa place, comme quelqu'un qui retourne s'asseoir après une mauvaise nouvelle qui n'a pas eu lieu.
+Platine se réveille avec une bosse dorée. Il te ramasse, te rend à tes amis, et dit seulement : « Personne ne m'avait jamais frappé. On ne frappe pas les choses précieuses. Merci. »
+Tu as un éclat en moins, sur le côté. On l'a retrouvé sous le bureau. Il est au musée du Carrefour, dans une vitrine, avec une étiquette : « Fragment présidentiel. Ne pas lancer. »
+?comp:xanthin Xanthin, accroché à toi pendant le vol, ne s'en est pas remis. Il raconte le voyage à tous les lichens. Ça lui prend des années. Le vol a duré une seconde.
+?comp:penelope Pénélope a mis une bosse au bas de l'acte d'annulation, en guise de signature de Platine. Personne n'a protesté.
+?comp:melusine Tante Mélusine tricote un petit coussin pour la vitrine de l'éclat. « IL MÉRITE DU MOELLEUX, CET ÉCLAT. »
+?flag:obj_neveu_galet Ton neveu a tout vu, depuis la poche. Il a vu du pays.
+
+@end_21
+!end: 21
+!title: Un président contre une Lune
+La Lune reste. Toi, tu pars.
+Le Promontoire remonte vers Aldébaran avec un seul passager de valeur : un galet gris clair, sur le bureau de marbre de Gédéon Platine. Tu sers de presse-papiers. C'est un métier, après tout. On n'en a jamais fait d'autre, toi et tes ancêtres : tenir les choses en place.
+Sur Aldébaran, il n'y a pas de Lune dans le ciel. Il n'y en a jamais eu. C'est pour ça qu'ils en voulaient une.
+?flag:obj_carte Platine a posé à côté de toi la carte postale que tu avais dans ta poche : la Lune, au-dessus d'une mer calme. « Tout va bien ici. Il fait beau. On pense à toi. » Le soir, tu la regardes. C'est la seule Lune d'Aldébaran.
+?!flag:obj_carte Le soir, c'est Platine qui te regarde. Longtemps. Comme on regarde ce qu'on a choisi à la place de ce qu'on voulait. Il a l'air moins seul. Toi aussi, un peu.
+?flag:obj_neveu_galet Sur la Terre, ton neveu assure l'intérim, sur le coussin de velours. Il ne dit rien non plus. La continuité de l'État est assurée.
+?comp:gontran Gontran est resté sur Terre. Il traduit le silence de ton neveu. Il dit que le nouveau Président est encore plus profond que l'ancien.
+?comp:xanthin Xanthin est parti avec toi. Il pousse sur toi, sur le bureau de marbre. Platine lui parle, le soir. Il lui répond, lentement. Il dit que c'est la première conversation de sa vie qui n'est pas pressée.
+?comp:bartho Bartholomé regarde la Lune revenue, chaque soir, et il lève son verre vers un point du ciel où l'on ne voit rien. « À toi, caillou. Tu ricochais bien. »
+?comp:penelope Pénélope est restée sur Aldébaran, au bureau de Platine. Elle t'époussette tous les matins. Elle te parle de la Terre.
+?comp:melusine Tante Mélusine a tricoté une écharpe de lumière de Lune, et l'a envoyée par la poste à Aldébaran, « POUR LE CAILLOU, QUI DOIT AVOIR FROID LÀ-BAS ».
+
+@end_22
+!end: 22
+!title: Territoire présidentiel
+Le dernier ricochet te dépose sur la Lune, dans la poussière blanche, au bord d'un cratère. Tu t'arrêtes. Tu reposes.
+Article premier de la Constitution : la Terre s'étend partout où repose son Président.
+À bord du Promontoire, toutes les alarmes sonnent. L'Huissier Krâmm ouvre ses tiroirs, un par un, et il pâlit à chaque tiroir. Article premier du Code foncier d'Aldébaran : on ne cède pas un territoire sans la signature de son chef d'État. Or la Lune, à la seconde où tu t'y es posé, est devenue la Terre. Et un galet n'a jamais rien signé.
+« La vente est nulle », dit Krâmm à Platine, d'une voix qu'on ne lui connaissait pas. « On ne peut pas acheter un morceau de planète à quelqu'un qui n'a pas de mains. » Pour la première fois de sa vie, il ferme un dossier au lieu de l'ouvrir.
+Le crochet se détache à l'aube. La Lune reste. Elle est un peu la Terre, maintenant. Elle ne le dira à personne.
+Tu restes là-haut. Tu ne bouges pas. Elle ne bouge pas non plus, enfin, pas plus que d'habitude. Personne ne parle. Tout le monde est content.
+?comp:xanthin Xanthin est venu avec toi. Il pousse sur toi, et un peu sur la Lune. Il dit que la Lune pense, elle aussi, très lentement, des choses très douces. Il ne dit pas lesquelles. Ce n'est pas à lui de les répéter.
+Bartholomé est resté sur la plage. Chaque soir, il regarde la Lune et il sait que tu es là-haut, avec Perline, dans la poussière d'écume. « Deux cailloux qui ne disent rien. Ils doivent bien s'entendre. »
+?flag:obj_neveu_galet Ton neveu garde la plage, sur son rocher. Il assure l'intérim. Il regarde en l'air.
+?comp:gontran Gontran traduit ton silence depuis la plage, avec une longue-vue. « Le Président salue la Terre. Le Président a un peu froid. Le Président est heureux. » Pour une fois, c'est presque vrai.
+?comp:penelope Pénélope a tamponné l'annulation : « APPROUVÉ ». Pour la première fois, elle était d'accord avec son tampon.
+?comp:melusine Tante Mélusine t'a envoyé l'écharpe la plus longue du monde. Elle n'arrive pas jusqu'à toi. Elle arrive presque. C'est l'intention qui compte.
+
+@end_23
+!end: 23
+!title: Basile Gru...
+L'Huissier Krâmm referme l'acte de vente. Il le range, non pas dans le tiroir des choses qui partent, mais dans un tiroir qu'il n'avait jamais ouvert : celui des brouillons.
+« Acte inachevé », écrit-il dans son registre. « Signature en cours depuis l'aube du monde. Vente sans objet. » Puis, plus bas, d'une écriture qu'on ne lui connaissait pas : « Ma fille sera contente. »
+À bord du Promontoire, Gédéon Platine lit le rapport de son huissier. Il le relit. Il n'y a rien à contester : il faudrait une signature, et la signature ne finit pas. Le crochet se détache à l'aube. La Lune reste.
+Quelque part au bout de la Toile, un greffier lichen pense à autre chose. Il pense aux formulaires C-12, aux trombones, à la couleur exacte de la rosée froide dans une tasse. Il y pense depuis des jours. Il y pensera toute sa vie, par précaution. Son nom s'est arrêté à « Basile Gru... ». Il ne poussera plus. C'est la plus belle signature qu'il ait jamais faite.
+?comp:xanthin Xanthin a raconté l'histoire à toute la Toile. Tous les lichens de la Terre savent maintenant qu'un galet a pensé, qu'un cousin l'a répété, et qu'un autre cousin a pensé à autre chose. Chez les lichens, on appelle ça « la grande conversation ». Elle a duré trois jours. C'est la plus rapide de leur histoire.
+?comp:gontran Gontran a expliqué à la foule que le Président avait toujours eu un faible pour la paperasse. Pour une fois, il n'avait pas tout à fait tort.
+?comp:penelope Pénélope a fait encadrer la signature inachevée. Elle l'a accrochée au Cadastre, à côté de la lettre de la Lune. Les écoliers viennent la voir. Ils essaient de deviner la fin du nom.
+?comp:bartho Bartholomé est allé trouver le greffier, pour lui payer un verre d'eau douce. Ils ont parlé une heure. Bartholomé a dit trois phrases, le lichen une. C'était une bonne conversation.
+?comp:melusine Tante Mélusine a tricoté une écharpe au greffier, avec écrit dessus, en lumière de Lune : « MERCI DE NE PAS AVOIR FINI ».
+Tu es retourné sur ton coussin de velours. Tu penses. Maintenant, quelqu'un t'écoute.
+
+# ---------------------------------------------------------------- LA LUNE (ÉTAT DES LIEUX, BALLON) ET LA SAISIE
+
+@gmo_nav
+!title: La navette protocolaire
+La navette protocolaire descend du ciel, toute dorée, avec des fauteuils de velours et un steward qui ne parle que par formulaires. On te pose sur un fauteuil. Tu disparais dedans.
+L'Huissier Krâmm s'assoit en face, droit comme un classeur. Il a sorti un formulaire tout neuf : « État des lieux préalable à la cession d'un satellite naturel ». Il n'a jamais servi. Il le défroisse avec respect.
+Basile Grumeau est posé sur l'accoudoir, le tampon serré contre lui. Il a l'air de quelqu'un qui part en voyage d'affaires pour la première fois de sa vie, et qui pense très fort à autre chose.
+~xanthin: Xanthin, sur ton flanc, regarde Basile. « C'est... la première fois... qu'on voyage... en famille. »
+~gontran: Gontran demande au steward où sont les micros. Il n'y en a pas. Il en est malade.
+~penelope: Pénélope a un mouvement de recul en voyant les fauteuils. Elle les a tamponnés, autrefois. Ils étaient « APPROUVÉS ».
+~bartho: Bartholomé colle son nez au hublot. « Je vais voir où elle est, Perline. Je vais voir de près. »
+* gmo_01 ?comp:gontran | Penser : « Je vais marcher sur la Lune. Enfin, être posé dessus. » | Gontran traduit : « Le Président a le mal de l'air ! » Le steward lui tend un formulaire de mal de l'air. Gontran le remplit pour toi, avec soin. La navette se pose dans la poussière blanche. | | +flag:p_navette |
+* gmo_01 coe9 | Penser à Basile : « Courage. Pensez aux trombones. » | Tu blanchis, du côté de l'accoudoir. Basile le sent : il pousse sur le même velours. Il ne sait pas ce que tu as pensé, mais il pense aux trombones, tout de suite, très fort, sans savoir pourquoi. La navette se pose dans la poussière blanche. | Basile ne sent rien. Il regarde le hublot, et la Lune qui grandit, et il commence à penser à l'acte de vente. Il s'arrête net. La navette se pose dans la poussière blanche. | +flag:p_navette mor+1 | +flag:p_navette
+
+@gmo_bal
+!title: Le ballon de 1803
+Au-dessus du feu du Carrefour, la soie grise se gonfle, lentement, comme quelqu'un qui reprend son souffle après deux siècles. Gaspard l'accroche à un panier à linge, faute de nacelle. On te pose au fond du panier.
+?comp:gontran Gontran monte aussi. « On ne laisse pas partir le Président sans son interprète ! » Il a le vertige. Il ne le dit à personne. Il le dit à tout le monde.
+?comp:xanthin Xanthin se cramponne à ton flanc, les yeux fermés. Il n'a pas d'yeux. Il les ferme quand même.
+Gaspard tient la corde. Il tremble. Il n'a pas tremblé depuis 1803. « Lâchez tout », dit-il.
+~bartho: Bartholomé ne monte pas. « Un Marégrave, en l'air ? Jamais. » Puis il monte, en grognant, au dernier moment.
+~ondee: Dame Ondée pousse le ballon par en dessous, doucement, comme tu le lui as appris.
+~quartz: Dr Quartz : « Probabilité de succès : une sur trois. Probabilité de mourir : nulle, il y a déjà un fantôme à bord pour nous montrer comment on fait. »
+* gmo_01 coe10 | Lâcher les amarres | Le ballon monte. Il traverse les nuages, puis le bleu, puis le noir, sans un bruit. Il te pose sur la Lune avec une douceur de 1803, et il se dégonfle là, comme quelqu'un qui a fini son travail. Gaspard descend du panier. Il pose un pied transparent dans la poussière. Il ne dit rien. Il pleure, très peu, de la buée. | Une rafale prend le ballon de travers. Vous montez en tournant comme une toupie. Tu arrives sur la Lune au fond du panier, la tête en bas, si un galet a une tête. Mais tu arrives. Gaspard, lui, arrive à l'endroit. Il a l'habitude. | -flag:obj_ballon +flag:p_ballon mor+2 | -flag:obj_ballon +flag:p_ballon
+
+@gmo_01
+!title: La poussière blanche
+On te pose sur la Lune.
+Elle est blanche, grise, silencieuse. La poussière est fine comme de la farine, et froide. Au-dessus, la Terre, énorme, bleue, qui penche un peu. Tu ne l'avais jamais vue d'ici. Personne ne t'avait jamais posé sur autre chose que la Terre.
+Sous toi, la Lune. Tu es une pierre. Elle est une pierre. Vous vous entendez. Elle pense, très lentement, des choses très douces et très tristes. Elle pense : « Je ne veux pas partir. »
+?flag:p_navette Krâmm sort de la navette avec son formulaire et un mètre ruban. Il mesure un cratère. Il note. Il fait les choses dans l'ordre.
+?flag:p_ballon Le ballon dégonflé gît dans la poussière comme un drap. Gaspard marche autour, sans laisser de traces. Il a l'air de quelqu'un qui est enfin arrivé chez lui, sans savoir que c'était chez lui.
+Au loin, au bord d'un cratère, le crochet doré, planté dans le flanc de la Lune, et la chaîne d'or qui monte vers le Promontoire.
+~xanthin: Xanthin écoute la Lune, par toi. Il ne dit rien pendant longtemps. Puis : « Elle... pense... comme vous. Exactement... comme vous. Lentement. »
+~gaspard: Gaspard ôte son chapeau. « Madame. Je suis en retard. Pardonnez-moi. Deux siècles. »
+~bartho: Bartholomé s'agenouille et prend une poignée de poussière. Il la regarde couler entre ses doigts mouillés. Elle colle. Il ne dit rien.
+~melusine: Tante Mélusine ne crie pas. Pour la première fois de sa vie, elle chuchote : « Elle est là. Je la touche. »
+~gontran: Gontran, pour une fois, ne trouve rien à traduire. Il regarde la Terre, là-haut. Il cherche sa maison. Il ne la trouve pas.
+* gmo_02 | Penser à la Lune : « Je sais. Moi non plus, je ne veux pas que tu partes. » | La Lune t'entend. Personne ne lui avait jamais parlé depuis la surface. Sous toi, la poussière frémit, sur un mètre, en rond, comme une eau qu'on a touchée. | | mor+1 |
+* gmo_02 ?flag:obj_lettre_vent | Laisser l'enveloppe bleue glisser dans la poussière | L'enveloppe bleue, « À la Lune, en mains propres », tombe de la poche et se pose sur la poussière. Personne ne l'ouvre. La Lune n'a pas de mains non plus. Mais sous toi, tu la sens qui lit, lentement, à travers le papier. Tu ne sauras jamais ce qu'il y avait dedans. Elle, si. Elle pense, après, un peu plus fort : « Je ne veux pas partir. » Et puis, plus doucement : « Merci. » | | -flag:obj_lettre_vent +flag:p_lettre_lue mor+2 |
+* gmo_02 ?flag:obj_fil_lune | Dérouler le fil de lumière de la petite Lunatique | On déroule la bobine. Le fil de lumière, tiré de la Lune, retrouve la Lune : il se tend tout seul et rentre dans la poussière, comme un enfant qui rentre à la maison. À l'endroit où il disparaît, la poussière brille un peu, pendant une minute. | | -flag:obj_fil_lune +flag:p_fil_rendu mor+1 |
+* gmo_02 | Écouter la Lune, sans rien penser | Elle pense longtemps. Tu écoutes. Deux pierres, l'une sur l'autre, qui ne disent rien. | |
+
+@gmo_02
+!title: Le chantier
+Plus loin, dans un cratère, le chantier de la Compagnie Foncière. Des ouvriers d'Aldébaran posent des cloisons de verre pour des piscines. Leur contremaître, Bobinot, un petit être doré au casque trop grand, surveille avec un chronomètre. « Plus vite ! Le patron vient inspecter à l'aube ! La prime ! »
+Il te voit. Il voit ceux qui te portent. « Visiteurs non autorisés ! Vigiles ! »
+Deux vigiles dorés s'avancent dans la poussière.
+?flag:p_navette Krâmm lève un doigt. « Visite d'état des lieux. Article quarante. » Les vigiles s'arrêtent net. On ne discute pas un article.
+~bartho: Bartholomé roule ses manches. Les vigiles regardent ses bras. Ils ralentissent.
+~echo: Écho, intimidée, répète le chronomètre de Bobinot : « ...tic. Tic. Tic. » Bobinot le regarde, perplexe : il en a deux, maintenant.
+* gmo_03 ?flag:obj_echo | Penser à la bouteille d'écho, dans la poche | On débouche la bouteille au milieu du chantier. Le mot qu'on y avait enfermé s'échappe et part dans le cratère, de cloison en cloison, et revient, et repart. Les ouvriers posent leurs truelles pour écouter. | | -flag:obj_echo +flag:p_echo_lache |
+* gmo_03 ?flag:obj_facette | Penser à la facette du Docteur Quartz | On pose la facette violette sur la poussière. Elle touche la Lune. Elle se met à vibrer, à la fréquence de ce qu'elle touche, et elle chante. Tout le chantier l'entend : une note grave, lente, triste, qui dit, sans mots, qu'elle ne veut pas partir. | | -flag:obj_facette +flag:p_lune_chante |
+* gmo_03 pan9 | Penser aux ouvriers, très fort, côté lisse tourné vers eux | Tu blanchis si fort, dans le blanc de la Lune, que tu deviens invisible. Puis tu redeviens gris, d'un coup. Les ouvriers ont vu un caillou disparaître et revenir. Ils ne savent pas ce que c'est. Ils s'arrêtent pour réfléchir. Bobinot aussi. Les vigiles aussi. | Tu blanchis, mais dans le blanc de la Lune, personne ne voit la différence. Les vigiles s'approchent. Krâmm, ou Gaspard, ou quelqu'un, te ramasse avant eux. | equ+1 |
+
+@gmo_03
+!title: Ce que disent les ouvriers
+?flag:p_echo_lache Le mot de la bouteille tourne encore dans le cratère. Les ouvriers le répètent, à voix basse, pour voir l'effet que ça fait.
+?flag:p_echo_lache ?flag:p_echo_non C'était « non ». Sur tout le chantier, on dit « non » tout bas. Bobinot lâche son chronomètre.
+?flag:p_lune_chante La facette chante toujours. Un vieil ouvrier s'agenouille et pose son oreille contre la poussière. Il se relève. « La nuit, quand les machines s'arrêtent, on l'entend pleurer. Bobinot dit que c'est le vent. Il n'y a pas de vent sur la Lune. »
+Un jeune ouvrier s'approche, son casque à la main. Il regarde le caillou qu'on porte. « C'est vous, le Président de la Terre ? Le patron dit que vous avez signé. »
+~gontran: Gontran ouvre la bouche. Puis il la referme. Il a l'air de comprendre, pour la première fois, que ce qu'il a dit pendant quarante ans avait des conséquences.
+~penelope: Pénélope tamponne nerveusement un rocher : « REFUSÉ ». Elle n'avait jamais utilisé sa main droite. Elle regarde le rocher. Elle est très émue.
+* gmo_04 ?comp:xanthin | Penser : « Je n'ai jamais rien signé. Je n'ai pas de mains. » | Xanthin le dit au jeune ouvrier, lentement. Le jeune ouvrier regarde le caillou. Il regarde ses propres mains. Il rit, un petit rire étonné. « C'est vrai. » Il le dit à un autre, qui le dit à un autre. Bientôt, tout le chantier sait qu'on a vendu la Lune au nom de quelqu'un qui n'a pas de mains. Personne ne reprend sa truelle. | | +flag:p_greve_lune equ+2 |
+* gmo_04 ?!comp:xanthin | Laisser le jeune ouvrier regarder le caillou | Il te regarde longtemps. « Vous n'avez pas de mains », dit-il enfin. « Comment vous avez signé ? » Personne ne lui répond. Il repose sa truelle, pour réfléchir. | | equ+1 |
+* gmo_04 | Ne rien penser, et regarder la Terre, là-haut | Elle est bleue. Elle penche. Tu es le Président de ce truc-là. Ça te paraît énorme, d'ici. | |
+
+@gmo_04
+!title: Le constat
+On te pose au pied du crochet doré, dans la poussière, à l'endroit exact où la Lune est attachée.
+?comp:basile Basile Grumeau descend de ta poche. Il pose son tampon dans la poussière. Il a apporté un formulaire, plié en seize, qu'il déplie en un quart d'heure. Il lève un bord vers toi. « Article premier... de la Constitution... de la Terre. » Une minute passe. « La Terre... s'étend... partout... où repose... son Président. » Une autre minute. « Vous... reposez... ici. »
+?comp:basile ?flag:p_navette Krâmm, debout derrière lui, a cessé de mesurer. Il ouvre la bouche. Il ouvre un tiroir. Il ne trouve rien à opposer. Un article est un article.
+?!comp:basile Tu es posé sur la Lune. Tu te souviens de l'article premier de la Constitution, qu'on lisait à ton élection, il y a huit cents ans : « La Terre s'étend partout où repose son Président. » Tu y es. Tu reposes. Mais personne ici n'est homme de loi. Personne ne peut l'écrire, ni le tamponner, ni le faire valoir. Ce que tu sais ne compte que si quelqu'un le constate.
+?!comp:basile ?flag:p_ballon Au-dessus, le Promontoire a vu le ballon. Une navette dorée descend vers vous, pour ramasser les intrus.
+~xanthin: Xanthin regarde Basile écrire, avec une fierté de famille. « C'est... mon oncle... du petit-cousin... Enfin. Il écrit... bien. »
+~gaspard: Gaspard s'est assis sur le bord d'un cratère. Il n'a plus envie de bouger. Il a l'air reposé, déjà.
+* gmo_05 rus10 ?comp:basile | Laisser Maître Grumeau rédiger le constat, jusqu'au bout | Basile écrit. Une lettre par minute. Il ne pense qu'au constat, et surtout pas à l'autre signature. Il pense « Lune ». Il pense « Terre ». Il pense « constaté ». À la fin, il pose son tampon dans la poussière, au bas du formulaire : « Constaté sur place. Ce lieu est la Terre. » Krâmm se penche, lit, et contresigne sans un mot, parce qu'un huissier présent doit contresigner. C'est le règlement. | Basile écrit, une lettre par minute. À la moitié, il lève les yeux vers le crochet, et il pense, une seconde, à l'acte de vente. Il s'arrête net, terrifié : il a senti sa signature frémir, quelque part. Le temps qu'il pense de nouveau aux trombones, la navette sonne le départ. Le constat reste inachevé, comme son nom. | +flag:p_lune_terre mor+2 | +flag:p_constat_rate
+* gmo_05 ?comp:basile ?comp:echo | Penser à Écho : « Répète-le-lui, le temps qu'il écrive. » | Écho ne t'a pas entendu, mais elle a entendu Basile. Elle répète l'article premier, mot par mot, en boucle, au rythme de sa plume : « ...partout où repose son Président. Son Président. » Basile n'a plus besoin de penser à autre chose : il écrit ce qu'il entend. Au bas du formulaire, son tampon : « Constaté sur place. Ce lieu est la Terre. » Krâmm contresigne. C'est le règlement. | | +flag:p_lune_terre mor+2 |
+* end_34 ?!comp:basile | Rester là, posé sur la Lune, et ne plus bouger | Tu restes. Tu ne bouges pas. Tu sais faire ça mieux que personne. | |
+* gfi_pro ?!comp:basile | Se laisser ramasser par la navette dorée | Des vigiles dorés te ramassent dans la poussière, poliment, et t'emportent vers le Promontoire. Les autres suivent. | |
+
+@gmo_05
+!title: Vers le Promontoire
+?flag:p_lune_terre Krâmm range le constat dans un tiroir neuf, qu'il ouvre pour l'occasion. Il l'étiquette à la main : « Lune (Terre) ». Il regarde l'étiquette. Il la trouve juste. Ça l'effraie.
+?flag:p_constat_rate Krâmm range le formulaire inachevé dans le tiroir des brouillons. Basile, sur ta poche, ne dit rien. Il pense aux trombones, de toutes ses forces, pour se punir.
+La navette décolle et monte vers le Promontoire, au bout de la chaîne d'or. Derrière, la Lune rapetisse. Elle ne t'a pas lâché. Tu as encore de sa poussière sur toi.
+~basile ?flag:p_lune_terre: Basile, très bas, à toi seul : « Monsieur... le Président. Là-haut... aussi... vous reposerez... quelque part. » Il tient son tampon à deux mains.
+~gaspard: Gaspard est resté sur la Lune, assis au bord de son cratère. Il vous a salués de son chapeau. Il ne reviendra pas. Il est arrivé.
+* gfi_pro ?flag:p_lune_terre | Penser : « Oui. Sur son bureau. » | Basile a entendu par la poche, ou il a deviné. Il hoche le bord. La navette accoste le Promontoire. | | -comp:gaspard |
+* gfi_pro | Regarder la Lune s'éloigner par le hublot | Elle rapetisse. La chaîne d'or, elle, ne rapetisse pas. La navette accoste le Promontoire. | | -comp:gaspard |
+
+@gmo_saisie
+!title: Le deuxième constat
+Basile Grumeau est posé sur le bureau de marbre, à côté de toi, à côté du bouton rouge. Il déplie un second formulaire. Il lève un bord vers Krâmm. « Article premier... de la Constitution... de la Terre. »
+Krâmm ferme les yeux. Il a compris avant Platine. Il a toujours tout compris avant Platine, c'est son métier.
+« Le Président... repose... sur ce bureau. Ce bureau... est la Terre. Ce bureau... est dans ce vaisseau. Ce vaisseau... repose... sur ce bureau. Enfin... l'inverse. » Il met une minute à se corriger. « Ce vaisseau... est la Terre. »
+Gédéon Platine sourit, aimable, sans comprendre. « Un lichen notaire ! Comme c'est charmant. Vous signerez bien quelque chose pour ma collection ? »
+?flag:p_greve_lune Par la baie vitrée, on voit le chantier de la Lune, arrêté. Les ouvriers sont assis dans la poussière. Personne ne travaille pour un patron qui a acheté au nom de quelqu'un sans mains.
+~penelope: Pénélope s'est placée derrière Basile, les deux tampons levés. Elle attend son tour. Pour une fois, elle sait ce qu'elle va tamponner.
+~xanthin: Xanthin, sur ton flanc, tremble. « Mon oncle... du petit-cousin... va saisir... un vaisseau. La Toile... ne s'en remettra... jamais. »
+~gontran: Gontran, très bas, sans traduire pour une fois : « Monsieur le Président... est-ce que c'est vous qui avez pensé tout ça ? » Personne ne lui répond. Il a l'air de deviner.
+* gmo_r33 rus10 | Laisser Maître Grumeau rédiger, devant Platine | Basile écrit, une lettre par minute, sur le marbre. Platine regarde, de plus en plus pâle à mesure que les mots apparaissent : « saisie », « conservatoire », « territoire de la Terre ». Krâmm, à côté, ouvre ses tiroirs un par un, et un par un, il les trouve d'accord avec le lichen. | Basile écrit, une lettre par minute. Platine, pendant ce temps, appelle ses avocats d'or par le miroir. Ils parlent vite. Très vite. Ils parlent si vite que Basile, à la troisième ligne, perd le fil. Il pense, une seconde, à l'acte de vente. Il s'arrête, épouvanté. Le formulaire reste en plan. | |
+* gmo_r33 ?flag:p_echo_lache,comp:echo | Laisser les ouvriers, ou Écho, répéter l'article | Basile lit l'article premier à voix haute, une fois, très lentement. Et on le répète après lui. « Ce vaisseau est la Terre. » Ça résonne dans tout le Promontoire. Une chose dite par tant de monde a des témoins. Krâmm, en huissier, ne peut pas faire comme s'il ne l'avait pas entendue. | | +flag:p_temoins |
+
+@gmo_r33
+!title: Saisie
+?last:ok Le formulaire est fini. Basile pose son tampon. Pénélope pose le sien à côté : « APPROUVÉ ». Krâmm contresigne, d'une main qui ne tremble pas.
+?flag:p_temoins ?comp:echo C'est Écho qui a répété, de couloir en couloir, jusqu'aux cuisines.
+?flag:p_temoins ?!comp:echo Ce sont les ouvriers de la Lune, par la radio du chantier restée ouverte : depuis la bouteille, ils ont pris l'habitude de répéter les mots importants.
+?flag:p_temoins Le formulaire se finit tout seul, ou presque : Basile n'a qu'à écrire ce que tout le vaisseau répète. Son tampon, puis celui de Pénélope : « APPROUVÉ ». Krâmm contresigne.
+?last:ko ?!flag:p_temoins Le formulaire reste inachevé. Platine se tourne vers toi, avec une drôle de douceur. « Vous êtes venu avec un notaire. Personne n'était jamais venu me voir avec un notaire. On venait avec des chèques. »
+* end_33 ?last:ok | Rester posé sur le bureau, et attendre que Krâmm parle | Krâmm se redresse de toute sa hauteur de classeurs. | |
+* end_33 ?flag:p_temoins | Rester posé sur le bureau, et attendre que Krâmm parle | Krâmm se redresse de toute sa hauteur de classeurs. | |
+* gfi_ech ?last:ko ?!flag:p_temoins | Rester posé là, sous le regard de Platine | Platine te regarde longtemps. Il a l'air de quelqu'un qui va dire une bêtise, très sérieusement. | |
+
+@end_33
+!end: 33
+!title: Saisie conservatoire
+Krâmm lit le procès-verbal à voix haute, pour qu'il soit lu.
+« Article premier de la Constitution de la Terre : la Terre s'étend partout où repose son Président. Constaté sur la Lune, ce soir, par Maître Basile Grumeau, greffier. Constaté sur le bureau de Monsieur Gédéon Platine, ce soir, par le même. En conséquence, la Lune est la Terre. Le Promontoire est la Terre. »
+Il tourne la page. « Article premier du Code foncier d'Aldébaran : on ne cède pas un territoire sans la signature de son chef d'État. Le chef d'État de la Terre n'a pas de mains. La vente est nulle. Les biens en cause, sur territoire terrestre, sont saisis à titre conservatoire, dans l'attente d'un jugement que personne ne rendra, parce qu'il n'y a pas de tribunal pour ça. »
+Il tourne encore la page. Il hésite. « Article quatre de la Constitution de la Terre : toute personne qui se trouve sur la Terre sans autre patrie valable est citoyenne de la Terre. Le Promontoire étant la Terre, et Aldébaran ne reconnaissant pas la double nationalité... » Il lève les yeux vers Platine. « Monsieur, vous êtes citoyen de la Terre. »
+Platine ouvre la bouche. « Mais je n'ai rien demandé ! » Krâmm hoche la tête. « Personne ne demande. C'est ce qui est bien, avec la Constitution. »
+Pénélope appuie sur le bouton rouge. Les moteurs s'arrêtent. Ils sont à la Terre, maintenant. La Terre n'en veut pas. Le crochet se détache. La Lune remonte doucement à sa place, avec un peu de poussière en moins, sur un mètre, en rond, là où un galet a reposé.
+Le Promontoire reste en orbite, saisi, amarré à rien. On en fait une sorte de seconde Lune, toute petite, en marbre, qui brille un peu le soir. Les enfants du Carrefour l'appellent « le bureau ».
+Gédéon Platine reçoit sa carte d'identité terrestre trois semaines plus tard, par la poste, avec un formulaire C-12 à remplir. Il le remplit. Il découvre qu'il a un pays. Il n'en avait jamais eu : il en avait acheté plusieurs. Aux élections suivantes, il vote. Pour le galet. Tout le monde vote pour le galet. Il ne s'est pas présenté.
+?comp:xanthin Xanthin a raconté l'histoire à toute la Toile. Elle a mis un an à faire le tour du monde. À la fin, tous les lichens de la Terre savaient qu'un cousin avait saisi un vaisseau. Ils en sont très fiers. Basile fait semblant de ne pas l'être.
+?comp:gontran Gontran a demandé à Basile s'il pouvait être nommé à quelque chose. Basile a mis une heure à répondre. Il l'a nommé « citoyen ». Gontran a pleuré. C'est la première fois qu'on le nommait.
+?!comp:gontran Gontran a lu le procès-verbal dans la Gazette. Il l'a relu. Il a écrit une lettre au Président, la première de sa vie qui ne parlait pas à sa place. Elle commence par « Je ne savais pas ».
+?comp:bartho Bartholomé a gardé un peu de la poussière de la Lune dans une boîte d'allumettes. Il dit que c'est Perline. Personne ne le contredit.
+?comp:penelope Pénélope a demandé la nationalité terrestre, elle aussi. Elle a rempli le formulaire elle-même. Elle s'est tamponnée « APPROUVÉ ».
+?comp:melusine Tante Mélusine a tricoté une écharpe pour Platine, en lumière de Lune. « TU ES DE LA FAMILLE, MAINTENANT. TU AURAS FROID COMME TOUT LE MONDE. »
+?flag:obj_neveu_galet Ton neveu a tout vu. Il en parle encore. Enfin, il n'en parle pas. Mais il y pense, et ça se voit.
+Toi, on te ramène sur ton coussin de velours. Tu as encore de la poussière de Lune sur une face. Tu ne laisses personne l'essuyer.
+
+@end_34
+!end: 34
+!title: Le Président de la Lune
+Tu restes posé sur la Lune, dans la poussière blanche, au bord d'un cratère.
+Article premier de la Constitution : la Terre s'étend partout où repose son Président. Tu le sais. La Lune le sait aussi, maintenant : tu le lui as pensé. Mais personne ne l'a écrit. Personne ne l'a constaté. Un article de loi qu'aucun homme de loi ne fait valoir, c'est une pensée, comme les autres. Et les pensées d'un galet, ça ne pèse rien, dans un registre.
+À l'aube, les moteurs du Promontoire démarrent tout seuls, comme prévu. La chaîne d'or se tend. La Lune quitte sa place, lentement, et toi avec elle.
+Tu ne bouges pas. Tu ne t'accroches pas. Tu n'as jamais eu besoin de t'accrocher : tu es lourd, et tu restes où l'on te pose.
+La Terre rapetisse au-dessus de toi. Bleue, puis bille, puis point. Tu la regardes jusqu'au bout. Tu as été son Président huit cents ans, et tu ne l'avais jamais vue en entier. Elle est belle. Elle penche un peu. On ne te demandera plus ce que tu en penses.
+Sur Aldébaran, on suspend la Lune dans un ciel qui n'en avait jamais eu. Au bord d'un cratère, il y a un caillou gris. Personne ne le remarque. Il est le Président d'une Lune qui ne sait pas qu'elle est la Terre. Il ne le dit à personne. Il ne l'a jamais dit.
+?comp:gaspard Gaspard est resté avec toi. Il s'est assis au bord du cratère, et il s'est reposé, enfin. Un soir, il n'était plus là. Il avait fini son voyage.
+?comp:xanthin Xanthin est resté sur toi. Il est le seul lichen d'Aldébaran. Il n'a plus de Toile. Il te parle, lentement. Tu lui réponds. Il dit que c'est la plus longue conversation de l'histoire des lichens, et qu'elle ne fait que commencer.
+?comp:bartho Bartholomé est rentré à la Terre par la navette des vigiles. Il regarde le ciel vide, le soir, et il lève son verre vers l'endroit où vous étiez, Perline et toi. « Deux cailloux qui ne disent rien. Ils doivent bien s'entendre, là-bas. »
+?comp:gontran Gontran est rentré aussi. Il a voulu traduire ton silence depuis la Terre, à la longue-vue. Il n'y avait plus rien à viser. Alors il s'est tu. Les gens disent qu'il ressemble à quelqu'un, quand il se tait.
+?flag:obj_neveu_galet Sur la Terre, ton neveu assure l'intérim, sur le coussin de velours. Il ne dit rien. Il regarde en l'air, là où il n'y a plus de Lune.
+Les nuits sont noires, sur la Terre, maintenant. Les marées sont plates. Mais sur Aldébaran, au bord d'un cratère, il y a un petit bout de Terre, gris clair, posé là. Il pense à eux. Il pense lentement. Il a le temps.
