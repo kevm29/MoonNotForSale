@@ -16,10 +16,10 @@ LIEUX = [
     (r"^pel_", "La Maternité des Marées"), (r"^lyc_", "Le Club des Lycanthropes"), (r"^ana_", "La Serre des Belles-de-Nuit"),
     (r"^(hub|gal|plu)_", "Le Carrefour des Espèces"), (r"^foi_", "La Foire aux Rencontres"),
     (r"^(cot|gco|pct)_", "Les Côtes Hagardes"), (r"^(for|gfo)_", "La Forêt-Réseau"), (r"^(son|pso)_", "Le Pays des Songes"),
-    (r"^(pro|gpr)_", "Les Profondeurs"), (r"^(cap|gpa)_", "Tamponville, la Capitale"), (r"^(nua|gnu)_", "Les Hauts-Nuages"),
+    (r"^(pro|gpr)_", "Les Profondeurs"), (r"^(cap|gpa)_", "Tamponville, la Capitale"), (r"^(nua|gnu|pha)_", "Les Hauts-Nuages"),
     (r"^(com|pcm)_", "Le Marché des Comètes"), (r"^(nui|pnu|gfi)_", "La dernière nuit, au camp"), (r"^asc_", "La montée vers la Lune"),
     (r"^(cha|pch|gmo)_", "Le chantier lunaire"), (r"^gtr_", "Le train de nuit"), (r"^(neg|fin|plf|pmo|pla|pcr)_", "Le Promontoire de Platine"),
-    (r"^(pne|pnc|pno)_", "Le Pays des Songes"),
+    (r"^(pne|pnc|pno)_", "Le Pays des Songes"), (r"^ply_", "La Lyre, très loin"),
 ]
 def lieu(nid):
     for pat, nom in LIEUX:

@@ -185,7 +185,7 @@
    "id": "ploum",
    "name": "Ploum",
    "species": "Créature de la Lyre",
-   "start": "plu_01",
+   "start": "ply_01",
    "stats": [
     3,
     0,
@@ -194,7 +194,7 @@
    "unlock": 1,
    "tagline": "Une très vieille limace-méduse venue de la Lyre, avec un bocal sur la tête. Elle a entendu un appel.",
    "bio": "Ploum a mille deux cents ans, trois yeux qui ne regardent jamais dans la même direction et pas de bras. Il respire son air à lui, dans un bocal qui fait des bulles quand il parle. Ses pouvoirs lui échappent : il devient transparent sans prévenir, il se téléporte quand ça tourne mal, et il fait flotter ce qu'il regarde fort. Il ne sait pas ce que sont les objets terriens : il les avale pour comprendre, puis il les recrache.",
-   "debut": "Commence en pleine Grande Assemblée du Carrefour des Espèces, transparent, à côté du Président galet."
+   "debut": "Commence sur la Lyre, très loin, la nuit où il entend une voix ronde qui parle en dormant."
   }
  ],
  "companions": {
@@ -1234,6 +1234,34 @@
   "obj_echarpe": {
    "name": "Une écharpe de lumière de Lune",
    "desc": "Une écharpe toute fine, pâle et tiède, tricotée en dix minutes par Tante Mélusine. Tant que la Lune est là, elle tient chaud."
+  },
+  "obj_corde_lyre": {
+   "name": "La corde basse de la Lyre",
+   "desc": "Une corde de lumière détachée de son étoile. Elle est tiède, et elle joue toujours la même note, très grave, quand on bouge."
+  },
+  "obj_ticket_trouve": {
+   "name": "Ticket des objets trouvés n°1200",
+   "desc": "« Une limace, grise, avec bocal. Trouvée au Carrefour. Non réclamée. » Les objets trouvés ne se vendent pas : c'est la loi du Carrefour."
+  },
+  "obj_gamelle": {
+   "name": "Une gamelle de soupe de comète",
+   "desc": "Une gamelle de fer remplie par Mère Fricassée. Poireaux, queue d'étoile. Elle reste chaude très longtemps, comme si elle attendait qu'on la partage."
+  },
+  "obj_dessin_lune": {
+   "name": "Le dessin de l'enfant Lichenaute",
+   "desc": "Une feuille de lichen pliée en quatre. Une Lune ronde, verte, avec un sourire. « Pour elle, si tu la vois. »"
+  },
+  "obj_berceuse": {
+   "name": "Le coquillage à berceuse",
+   "desc": "Un coquillage blanc donné par la Somnambule. Il y a une vraie berceuse dedans, gardée pour quelqu'un qui ne dort jamais."
+  },
+  "obj_goutte_ondee": {
+   "name": "La dernière goutte de Dame Ondée",
+   "desc": "Une goutte de pluie qui ne s'évapore pas. Elle a de la mémoire : elle a été la première mer du monde."
+  },
+  "obj_laissez_passer": {
+   "name": "Le laissez-passer du Conseil",
+   "desc": "Un papier couvert de tampons, collé sur la vitre du bocal. Il dit qu'on a le droit. Les portes le croient."
   }
  }
 }
