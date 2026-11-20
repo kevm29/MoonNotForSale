@@ -62,7 +62,8 @@ html{scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar{displa
 .pc:hover{border-color:var(--lune);background:var(--nuit-3)}
 .pc h3{font-size:16px;line-height:1.15}
 .pc .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
-.pc.locked{border-style:dashed;opacity:.75}.pc.locked h3{font-style:italic;font-size:14px;color:var(--craie-2)}
+.pc.locked{border-style:dashed;opacity:.75;grid-template-columns:34px 1fr;column-gap:10px;align-items:center}.pc.locked h3{font-style:italic;font-size:14px;color:var(--craie-2);grid-column:2}.pc.locked .sp{grid-column:2;letter-spacing:.3em}
+.pc .ombre{grid-row:1/3;width:34px;height:40px;background:radial-gradient(circle at 50% 30%,#05070d 0 9px,transparent 10px),radial-gradient(ellipse 17px 13px at 50% 100%,#05070d 0 98%,transparent 100%);opacity:.9}
 /* fiche du personnage */
 #sheet{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:16px;background:rgba(10,13,24,.78);backdrop-filter:blur(3px)}
 .sheet{width:min(920px,100%);max-height:calc(100vh - 32px);overflow:auto;scrollbar-width:none;background:var(--nuit-2);border:1px solid var(--lune);border-radius:8px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);animation:open .25s ease-out}
@@ -325,7 +326,7 @@ function apply(fx, log){
     const k = m[1], n = +m[3]; let v = S.vars[k] || 0; const old = v;
     v = m[2] === "+" ? v + n : m[2] === "-" ? v - n : n;
     if (k === "equ") v = Math.max(0, Math.min(100, v));
-    if (k === "mor") v = Math.max(0, Math.min(10, v));
+    if (k === "mor" || k === "encre") v = Math.max(0, Math.min(10, v));
     if (STATS.includes(k) && m[2] === "+"){
       // progression lente : 3 points d'expérience = +1 dans la caractéristique (max 5)
       S.xp = S.xp || {}; let xp = (S.xp[k] || 0) + n; let s = S.vars[k] || 0;
@@ -339,8 +340,8 @@ function apply(fx, log){
     }
     if (STATS.includes(k)) v = Math.max(0, Math.min(STAT_MAX, v));
     S.vars[k] = v;
-    if (log && v !== old && ["equ","mor",...STATS].includes(k)){
-      const name = k === "equ" ? "Équilibre" : k === "mor" ? "Moral" : SN[k];
+    if (log && v !== old && ["equ","mor","encre",...STATS].includes(k)){
+      const name = k === "equ" ? "Équilibre" : k === "mor" ? "Moral" : k === "encre" ? "Encre" : SN[k];
       log.push({t:`${v>old?"+":"−"}${Math.abs(v-old)} ${name}`, p:v>old});
     }
   }
@@ -353,7 +354,8 @@ function bonusFor(stat){
   const parts = [{l:SN[stat], v:S.vars[stat]||0}];
   let cb = 0;
   for (const c of S.comp) if (M.companions[c].stat === stat && cb < COMP_MAX){ parts.push({l:shortName(M.companions[c].name), v:COMP_BONUS}); cb += COMP_BONUS; }
-  const m = S.vars.mor; if (m >= 8) parts.push({l:"Moral", v:1}); else if (m <= 2) parts.push({l:"Moral", v:-1});
+  if (inkOn()){ const k = S.vars.encre || 0; if (k >= 7) parts.push({l:"Encre", v:2}); else if (k >= 4) parts.push({l:"Encre", v:1}); }
+  else { const m = S.vars.mor; if (m >= 8) parts.push({l:"Moral", v:1}); else if (m <= 2) parts.push({l:"Moral", v:-1}); }
   return parts;
 }
 // 1 naturel : toujours un échec ; 20 naturel : toujours une réussite
@@ -392,7 +394,7 @@ function gamesDone(){
 function isLocked(p){ return (p.unlock || 0) > gamesDone(); }
 function renderCast(){
   $("#cast").innerHTML = M.playables.map(p => isLocked(p)
-    ? `<button class="pc locked" data-pc="${p.id}" title="${esc(p.locked || "")}"><span class="sp">? ? ?</span><h3>${esc(p.locked || "Un personnage caché")}</h3></button>`
+    ? `<button class="pc locked" data-pc="${p.id}" aria-label="Personnage à découvrir"><span class="ombre" aria-hidden="true"></span><span class="sp">*****</span><h3>À découvrir</h3></button>`
     : `<button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.name)}</h3></button>`).join("");
   document.querySelectorAll(".pc").forEach(b => b.onclick = () => { const p = M.playables.find(x => x.id === b.dataset.pc); if (isLocked(p)) showLocked(b, p); else openSheet(b.dataset.pc); });
   $("#rules").innerHTML = rulesHtml(true);
@@ -505,23 +507,25 @@ function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 /* ---------- rendu ---------- */
 /* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
 const FACE = {president:[.5,.45], platine:[.5,.3], ploum:[.5,.4], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+function inkOn(){ return !!(S && S.flags && S.flags.includes("nuit_encre")); }
 function faceStyle(p){
   const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
   const [x, y] = FACE[p.id] || [.5, .3], w = .3, cl = v => Math.max(0, Math.min(1 - w, v - w / 2)) / (1 - w) * 100;
-  return `background-image:url('${src}');background-size:${100 / w}%;background-position:${cl(x)}% ${cl(y)}%`;
+  const k = (S && S.pc === p.id && inkOn()) ? (S.vars.encre || 0) : 0, f = k >= 7 ? ";filter:brightness(.45) saturate(.5) hue-rotate(200deg)" : k >= 4 ? ";filter:brightness(.7) saturate(.7) hue-rotate(200deg)" : "";
+  return `background-image:url('${src}');background-size:${100 / w}%;background-position:${cl(x)}% ${cl(y)}%${f}`;
 }
 /* bonus des compagnons spécialistes, +2 au plus par caractéristique */
 function compBonus(st){ return Math.min(2, S.comp.filter(c => M.companions[c] && M.companions[c].stat === st).length); }
 function hud(){
   const p = M.playables.find(x => x.id === S.pc);
-  const e = S.vars.equ, m = S.vars.mor;
+  const e = S.vars.equ, m = S.vars.mor, k = S.vars.encre || 0;
   return `
   <div class="hud-bar">
     <button class="who" id="tWho" title="Ta fiche (et retour à l'écran titre)"><span class="face" style="${faceStyle(p)}"></span><span class="nm">${esc(p.name)}<small>${esc(p.species)}</small></span></button>
     <span class="gold-sep" aria-hidden="true"></span>
     <div class="gauges">
       <div class="gauge ${e<30?"low":""}" title="${esc(M.gauges.equ.help)}"><div class="lab"><span>ÉQUILIBRE DE LA TERRE</span><span>${e}/100</span></div><div class="bar"><div class="fill" style="width:${e}%"></div></div></div>
-      <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} À 8 ou plus : +1 aux dés. À 2 ou moins : −1."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>
+${inkOn() ? `<div class="gauge ink" tabindex="0" title="${esc(M.gauges.encre.help)}"><div class="lab"><span>ENCRE${k>=7?` <em class="mor-eff up">+2 aux dés</em>`:k>=4?` <em class="mor-eff up">+1 aux dés</em>`:""}</span><span>${k}/10</span></div><div class="bar"><div class="fill" style="width:${k*10}%"></div></div></div>` : `      <div class="gauge ${m<=2?"low":""}" tabindex="0" title="${esc(M.gauges.mor.help)} À 8 ou plus : +1 aux dés. À 2 ou moins : −1."><div class="lab"><span>MORAL${m>=8?` <em class="mor-eff up">+1 aux dés</em>`:m<=2?` <em class="mor-eff down">−1 aux dés</em>`:""}</span><span>${m}/10</span></div><div class="bar"><div class="fill" style="width:${m*10}%"></div></div></div>`}
     </div>
     <span class="gold-sep" aria-hidden="true"></span>
     <div class="stack">${STATS.map(st => { const bo = compBonus(st), who = S.comp.filter(c => M.companions[c] && M.companions[c].stat === st).map(c => shortName(M.companions[c].name));

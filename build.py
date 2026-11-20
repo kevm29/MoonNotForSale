@@ -137,7 +137,7 @@ def apply(fx, st):
         v = st["vars"].get(k, 0)
         v = v + n if op == "+" else v - n if op == "-" else n
         if k == "equ": v = max(0, min(100, v))
-        if k == "mor": v = max(0, min(10, v))
+        if k in ("mor", "encre"): v = max(0, min(10, v))
         if k in STATS and op == "+":
             # progression lente : 3 points d'expérience = +1 dans la caractéristique (max STAT_MAX)
             xp = st.setdefault("xp", {}).get(k, 0) + n
@@ -240,8 +240,11 @@ def roll_ok(st, ch, meta):
         stat = max(STATS, key=lambda s: st["vars"].get(s, 0))
     bonus = st["vars"].get(stat, 0)
     bonus += min(COMP_MAX, COMP_BONUS * sum(1 for cid in st["comp"] if meta["companions"][cid]["stat"] == stat))
-    m = st["vars"].get("mor", 5)
-    bonus += 1 if m >= 8 else -1 if m <= 2 else 0
+    if "nuit_encre" in st["flags"]:
+        k = st["vars"].get("encre", 0); bonus += 2 if k >= 7 else 1 if k >= 4 else 0
+    else:
+        m = st["vars"].get("mor", 5)
+        bonus += 1 if m >= 8 else -1 if m <= 2 else 0
     d = random.randint(1, 20)
     ok = d == 20 or (d != 1 and d + bonus >= ch["diff"])
     # échec cuisant : un 1, ou raté de HEAVY points ou plus -> seul cas où le malus par défaut (Moral -1) s'applique

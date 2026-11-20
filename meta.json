@@ -18,6 +18,10 @@
   "mor": {
    "name": "Moral",
    "help": "Le moral de ton personnage. Il monte quand quelque chose te fait du bien, il baisse sur un gros échec ou quand tu perds quelqu'un."
+  },
+  "encre": {
+   "name": "Encre",
+   "help": "L'encre des cauchemars que tu as faits tiens. Plus elle monte, plus tu es fort aux dés, plus tu t'assombris. À 10, tu te perds dedans."
   }
  },
  "playables": [
@@ -159,9 +163,8 @@
    ],
    "unlock": 1,
    "tagline": "Un galet gris clair, élu il y a huit cents ans parce qu'il n'a jamais rien dit de faux.",
-   "bio": "Le Président de la Terre ne bouge pas et ne parle pas. Il pense, lentement, et personne ne le sait. Maître Gontran Verbiage, son interprète autoproclamé, parle à sa place depuis quarante ans, et ne dit jamais ce que le galet pense. Ici, tu choisis ce que tu penses. Ce que le monde entend, c'est autre chose.",
-   "debut": "Commence sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces, la nuit de la Grande Panique.",
-   "locked": "Il n'a jamais rien dit de faux. Il n'a jamais rien dit."
+   "bio": "Un galet gris clair, posé sur un coussin de velours depuis huit cents ans. Il a un nom. Personne ne le connaît : il ne l'a jamais dit. Il n'a jamais rien dit du tout, et c'est pour ça qu'on l'a élu. Maître Gontran Verbiage, son interprète, parle à sa place depuis quarante ans.",
+   "debut": "Commence sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces, la nuit de la Grande Panique."
   },
   {
    "id": "platine",
@@ -176,8 +179,7 @@
    "unlock": 2,
    "tagline": "Le promoteur couvert de feuilles d'or qui a acheté la Lune. Il appuiera sur le bouton demain.",
    "bio": "Platine possède des tours, des piscines et des planètes. Il a acheté la Lune à un guichet de Tamponville, pour presque rien. Avant d'appuyer sur le bouton, il descend sur Terre, incognito, voir ce qu'il a acheté. Les héros du jeu vont le croiser sans savoir qui il est. Son Cœur commence à zéro. Il peut monter.",
-   "debut": "Commence dans le bureau du Promontoire Doré, la veille de la livraison de la Lune.",
-   "locked": "Platine attend dans son bureau doré. Termine deux parties pour qu'il descende sur Terre."
+   "debut": "Commence dans le bureau du Promontoire Doré, la veille de la livraison de la Lune."
   },
   {
    "id": "ploum",
@@ -192,8 +194,7 @@
    "unlock": 1,
    "tagline": "Une très vieille limace-méduse venue de la Lyre, avec un bocal sur la tête. Elle a entendu un appel.",
    "bio": "Ploum a mille deux cents ans, trois yeux qui ne regardent jamais dans la même direction et pas de bras. Il respire son air à lui, dans un bocal qui fait des bulles quand il parle. Ses pouvoirs lui échappent : il devient transparent sans prévenir, il se téléporte quand ça tourne mal, et il fait flotter ce qu'il regarde fort. Il ne sait pas ce que sont les objets terriens : il les avale pour comprendre, puis il les recrache.",
-   "debut": "Commence en pleine Grande Assemblée du Carrefour des Espèces, transparent, à côté du Président galet.",
-   "locked": "Quelque chose, très loin, a entendu un appel. Termine une partie pour le faire venir."
+   "debut": "Commence en pleine Grande Assemblée du Carrefour des Espèces, transparent, à côté du Président galet."
   }
  ],
  "companions": {
