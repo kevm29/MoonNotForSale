@@ -403,7 +403,7 @@ function isLocked(p){ return (p.unlock || 0) > gamesDone(); }
 function renderCast(){
   $("#cast").innerHTML = M.playables.map(p => isLocked(p)
     ? `<button class="pc locked" data-pc="${p.id}" aria-label="Personnage à découvrir"><span class="ombre" aria-hidden="true"></span><span class="sp">*****</span><h3>À découvrir</h3></button>`
-    : `<button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.photoName || p.name)}</h3>${p.photoName ? `<span class="tit">${esc(p.name)}</span>` : ""}</button>`).join("");
+    : `<button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.photoName || p.name)}</h3></button>`).join("");
   document.querySelectorAll(".pc").forEach(b => b.onclick = () => { const p = M.playables.find(x => x.id === b.dataset.pc); if (isLocked(p)) showLocked(b, p); else openSheet(b.dataset.pc); });
   $("#rules").innerHTML = rulesHtml(true);
   $("#btnResume").hidden = !store.get("lune.save", null);
@@ -415,10 +415,10 @@ function showLocked(b, p){
 function openSheet(id, inGame){
   const p = M.playables.find(x => x.id === id), el = $("#sheet");
   el.innerHTML = `<div class="sheet">
-    <figure class="ph"><img src="${(DATA.portraits || {})[p.id] || portraitFallback(p)}" alt="Portrait de ${esc(p.name)}">${p.photoName ? `<figcaption class="plaque">${esc(p.photoName)}</figcaption>` : ""}</figure>
+    <figure class="ph"><img src="${(DATA.portraits || {})[p.id] || portraitFallback(p)}" alt="Portrait de ${esc(p.name)}"></figure>
     <div class="info">
       <span class="sp">${esc(p.species)}</span>
-      <h2 id="sheetName">${esc(p.name)}</h2>
+      <h2 id="sheetName">${esc(p.photoName || p.name)}</h2>
       <p class="tagline">${esc(p.tagline)}</p>
       <p><span class="lab">Le personnage</span>${esc(p.bio)}</p>
       <p><span class="lab">Où tu commences</span>${esc(p.debut)}</p>
