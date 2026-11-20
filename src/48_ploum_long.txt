@@ -13,7 +13,7 @@
 @ply_01
 !title: La Lyre
 Très loin d'ici, il y a un système d'étoiles qu'on appelle la Lyre. Entre ses étoiles sont tendues de longues cordes de lumière, et quand le vent stellaire passe, elles jouent une note. Toujours la même. Depuis toujours.
-Sur la plus petite planète de la Lyre, il n'y a qu'une créature : toi. Une grosse limace-méduse grise, sans bras, avec trois yeux qui ne regardent jamais dans la même direction. Tu as mille deux cents ans. Tu dors à moitié, comme toujours, et tu écoutes la note.
+Sur la plus petite planète de la Lyre, il n'y a qu'une créature : toi. Une grosse limace-méduse grise, sans bras, avec trois yeux qui ne regardent jamais dans la même direction. Ailleurs dans la Lyre, on t'appellerait un Bullimaçon, s'il y avait quelqu'un pour t'appeler. Tu as mille deux cents ans. Tu dors à moitié, comme toujours, et tu écoutes la note.
 Cette nuit, il y a autre chose sous la note. Une voix. Ronde, ensommeillée, immense, qui vient de très loin, et qui dit quelque chose que tu ne comprends pas.
 Personne ne t'a jamais appelé. Tu ouvres un œil. Puis les deux autres, chacun dans sa direction.
 * ply_02 | Écouter encore, sans bouger | Tu écoutes. La voix revient, plus faible. Elle ne t'appelle pas, peut-être. Elle parle. Mais il n'y a que toi pour l'entendre, alors c'est un peu à toi qu'elle parle. | |

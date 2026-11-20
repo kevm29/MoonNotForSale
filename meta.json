@@ -170,7 +170,7 @@
   {
    "id": "platine",
    "name": "Platine",
-   "species": "Promoteur doré",
+   "species": "Aldébaranien",
    "start": "pla_01",
    "stats": [
     3,
@@ -178,14 +178,14 @@
     0
    ],
    "unlock": 2,
-   "tagline": "Le promoteur couvert de feuilles d'or qui a acheté la Lune. Il appuiera sur le bouton demain.",
-   "bio": "Platine possède des tours, des piscines et des planètes. Il a acheté la Lune à un guichet de Tamponville, pour presque rien. Avant d'appuyer sur le bouton, il descend sur Terre, incognito, voir ce qu'il a acheté. Les héros du jeu vont le croiser sans savoir qui il est. Son Cœur commence à zéro. Il peut monter.",
-   "debut": "Commence dans le bureau du Promontoire Doré, la veille de la livraison de la Lune."
+   "tagline": "Président de la Compagnie Foncière d'Aldébaran, fait de feuilles d'or. Il collectionne les choses uniques, et la Lune est sa dernière acquisition.",
+   "bio": "Les Aldébaraniens sont faits de feuilles d'or si fines qu'elles laissent passer la lumière : ils bruissent quand ils marchent, et pour un Terrien, ils se ressemblent tous. Gédéon Platine préside la Compagnie Foncière d'Aldébaran depuis le Promontoire, son vaisseau-bureau. Il possède des tours, des piscines, des planètes, et une salle entière de choses uniques qu'il est le seul à venir regarder. Élégant, glacial, d'une politesse parfaite, il dort mal et écrit en secret de très mauvais poèmes.",
+   "debut": "Commence dans son bureau du Promontoire, en orbite autour de la Terre, le matin où la vente de la Lune est acceptée."
   },
   {
    "id": "ploum",
    "name": "Ploum",
-   "species": "Créature de la Lyre",
+   "species": "Bullimaçon",
    "start": "ply_01",
    "stats": [
     3,
@@ -193,8 +193,8 @@
     3
    ],
    "unlock": 1,
-   "tagline": "Un très vieil être venu de la Lyre, mi-limace mi-méduse, avec un bocal sur la tête. Il a entendu un appel.",
-   "bio": "Ploum a mille deux cents ans, trois yeux qui ne regardent jamais dans la même direction et pas de bras. Il respire son air à lui, dans un bocal qui fait des bulles quand il parle. Ses pouvoirs lui échappent : il devient transparent sans prévenir, il se téléporte quand ça tourne mal, et il fait flotter ce qu'il regarde fort. Quand il ne connaît pas une chose, il l'avale pour comprendre ce qu'elle est, puis il la recrache.",
+   "tagline": "Un Bullimaçon de la Lyre, mille deux cents ans, un bocal sur la tête. Quelqu'un l'a appelé, de très loin.",
+   "bio": "Les Bullimaçons sont des limaces-méduses des confins de la Lyre, où des cordes de lumière tendues entre les étoiles jouent toujours la même note. Ils respirent l'air de leur planète dans un bocal, parlent en bulles qui éclatent mot par mot, et vivent si longtemps qu'ils finissent par n'être là qu'à moitié. Ploum a trois yeux qui ne regardent jamais dans la même direction et pas de bras. Ses pouvoirs lui échappent : il devient transparent sans prévenir, il se téléporte quand ça tourne mal, et il fait flotter ce qu'il regarde fort. Quand il ne connaît pas une chose, il l'avale pour comprendre ce qu'elle est, puis il la recrache.",
    "debut": "Commence sur la Lyre, très loin, la nuit où il entend une voix ronde qui parle en dormant."
   }
  ],
