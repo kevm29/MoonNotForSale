@@ -248,7 +248,8 @@ La Toile est un labyrinthe de lumière blanche, de filaments, de sporanges qui m
 * bas_40 rus11 | Optimiser le trajet | Tu calcules un raccourci. Tu gagnes trois jours, ce qui pour un lichen est un miracle et pour les autres reste deux heures. | Le raccourci passe par un cimetière de taupes. Tu t'excuses beaucoup. | rus+1 |
 
 @bas_39
-Le voyage dans la Toile est long. Des heures, peut-être des jours ; sous terre, le temps fait des nœuds. ?!comp:penelope ?!flag:penelope_espionne Pénélope n'est plus là. Elle t'a dit au revoir à l'entrée de la Toile, en tamponnant l'air une seule fois.
+Le voyage dans la Toile est long. Des heures, peut-être des jours ; sous terre, le temps fait des nœuds.
+?!comp:penelope ?!flag:penelope_espionne Pénélope n'est plus là. Elle t'a dit au revoir à l'entrée de la Toile, en tamponnant l'air une seule fois.
 ?flag:signature_lente Tu repenses à ta signature, qui pousse toujours, là-haut, sur l'acte de vente. Dans quelques jours, elle sera finie.
 ?comp:penelope Pénélope dort contre une racine. En dormant, elle tamponne doucement le vide. « Approuvé, approuvé, refusé. » Elle sourit.
 * bas_40 rus11 ?!flag:signature_lente | Relire le double du formulaire dans la lumière des racines | Tu remarques enfin ce que tu n'avais pas vu : ta signature de lichen n'est pas finie. Elle pousse encore. L'acte n'est peut-être pas complet. | Tu relis sans rien voir. Puis, au troisième passage, tu vois : ta signature pousse encore. | +flag:signature_lente | +flag:signature_lente

@@ -178,6 +178,22 @@
    "bio": "Platine possède des tours, des piscines et des planètes. Il a acheté la Lune à un guichet de Tamponville, pour presque rien. Avant d'appuyer sur le bouton, il descend sur Terre, incognito, voir ce qu'il a acheté. Les héros du jeu vont le croiser sans savoir qui il est. Son Cœur commence à zéro. Il peut monter.",
    "debut": "Commence dans le bureau du Promontoire Doré, la veille de la livraison de la Lune.",
    "locked": "Platine attend dans son bureau doré. Termine deux parties pour qu'il descende sur Terre."
+  },
+  {
+   "id": "ploum",
+   "name": "Ploum",
+   "species": "Créature de la Lyre",
+   "start": "plu_01",
+   "stats": [
+    3,
+    0,
+    3
+   ],
+   "unlock": 1,
+   "tagline": "Une très vieille limace-méduse venue de la Lyre, avec un bocal sur la tête. Elle a entendu un appel.",
+   "bio": "Ploum a mille deux cents ans, trois yeux qui ne regardent jamais dans la même direction et pas de bras. Il respire son air à lui, dans un bocal qui fait des bulles quand il parle. Ses pouvoirs lui échappent : il devient transparent sans prévenir, il se téléporte quand ça tourne mal, et il fait flotter ce qu'il regarde fort. Il ne sait pas ce que sont les objets terriens : il les avale pour comprendre, puis il les recrache.",
+   "debut": "Commence en pleine Grande Assemblée du Carrefour des Espèces, transparent, à côté du Président galet.",
+   "locked": "Quelque chose, très loin, a entendu un appel. Termine une partie pour le faire venir."
   }
  ],
  "companions": {
@@ -943,6 +959,31 @@
    "title": "Le promoteur promu",
    "kind": "ironique",
    "hint": "Être un peu ému, mais pas assez pour renoncer."
+  },
+  "28": {
+   "title": "Le bouton, doucement",
+   "kind": "lumineuse",
+   "hint": "Endormir Platine avec un rêve volé, puis l'aider à faire ce qu'il n'ose pas."
+  },
+  "29": {
+   "title": "Le crochet qui flotte",
+   "kind": "lumineuse",
+   "hint": "Refaire au crochet ce que tu as fait au petit caillou de la tribune."
+  },
+  "30": {
+   "title": "Le grand détour",
+   "kind": "sombre",
+   "hint": "Avoir compris qui appelait, et vouloir la protéger soi-même."
+  },
+  "31": {
+   "title": "Retour à l'envoyeur",
+   "kind": "douce-amère",
+   "hint": "Rater, tout près du but, quand on n'est pas arrivé dans une caisse."
+  },
+  "32": {
+   "title": "Souvenir d'Aldébaran",
+   "kind": "ironique",
+   "hint": "Se faire vendre aux enchères, et rater au bureau."
   }
  },
  "defaults": {

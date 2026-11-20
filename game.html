@@ -504,7 +504,7 @@ function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 
 /* ---------- rendu ---------- */
 /* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
-const FACE = {president:[.5,.45], platine:[.5,.3], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+const FACE = {president:[.5,.45], platine:[.5,.3], ploum:[.5,.4], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
 function faceStyle(p){
   const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
   const [x, y] = FACE[p.id] || [.5, .3], w = .3, cl = v => Math.max(0, Math.min(1 - w, v - w / 2)) / (1 - w) * 100;
@@ -585,7 +585,7 @@ document.addEventListener("click", hideCard);
 let cardAt = 0;
 addEventListener("scroll", () => { if (Date.now() - cardAt > 400) hideCard(); }, {passive:true});
 function linesHtml(n){
-  return n.lines.filter(l => allOk(l.if)).map(l => `<p>${esc(l.t)}</p>`).join("");
+  return n.lines.filter(l => allOk(l.if)).map(l => `<p>${esc(l.t).replace(/_([^_]+)_/g, "<em>$1</em>")}</p>`).join("");
 }
 function quipHtml(q){ return q ? `<div class="quip"><b>${esc(M.companions[q.c].name)}</b>${esc(q.t)}</div>` : ""; }
 function quipsHtml(a){ return (a || []).map(quipHtml).join(""); }

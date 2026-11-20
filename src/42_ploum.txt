@@ -1,0 +1,514 @@
+# ================================================================
+# HISTOIRE DE PLOUM (débloquée après une partie terminée)
+# Ploum, très vieille créature de la Lyre : limace-méduse grise, sans bras,
+# trois yeux, bocal-scaphandre qui fait des bulles quand il parle.
+# Il devient transparent sans le vouloir, se téléporte quand il rate (3 fois au plus),
+# et avale les objets pour comprendre ce qu'ils sont (passage en italique), puis les recrache.
+# L'appel qu'il a entendu : la Lune qui dit en dormant « Je ne veux pas partir ».
+# Trois façons de le comprendre : l'écho en bouteille (Comètes), un rêve de la Lune (Songes),
+# la lettre d'Ondine revenue de la mer (Côtes).
+# Préfixes : plu_ (arrivée, carrefour), pcm_ (Comètes), pso_ (Songes), pct_ (Côtes),
+# pcr_ (la caisse), pnu_ (dernière nuit), pch_ (chantier), pmo_ (Promontoire)
+# Drapeaux : pm_galet (a fait flotter le Président), pm_appel (a compris l'appel),
+# pm_reve (a avalé un rêve : pm_reve_lune ou pm_reve_platine), pm_caisse (route de la caisse)
+# ================================================================
+
+@plu_01
+!title: Pop
+Quelque part, très loin, dans le système de la Lyre, tu dormais à moitié, comme toujours. Tu as mille deux cents ans. Tu es une grosse limace-méduse grise, sans bras, avec trois yeux qui ne regardent jamais dans la même direction. Tu t'appelles Ploum. Ce n'est pas ton vrai nom, mais c'est le bruit que tu fais en arrivant.
+Il y a trois nuits, tu as entendu un appel. Une voix ronde, ensommeillée, immense, qui disait quelque chose que tu n'as pas compris. Tu as mis ton bocal-scaphandre, rempli de ton air à toi. Tu as voulu y aller. Tes pouvoirs t'échappent depuis quelques siècles : tu t'es téléporté un peu au hasard.
+Pop. Tu es au milieu d'une foule immense, sur une plaine pleine de tentes. Des milliers de créatures regardent vers une tribune. Personne ne te regarde. Tu es transparent. Ça t'arrive. Tu ne sais pas quand ça s'arrête.
+Sur la tribune, sur un coussin de velours, il y a un petit caillou gris clair. Tout le monde le regarde avec respect. À côté, un monsieur en sueur parle très fort à sa place.
+Au-dessus de la plaine, la Lune pend à un crochet d'or.
+* plu_02 pan9 | Faire flotter le petit caillou gris, pour voir | Tu le regardes fort, avec tes trois yeux à la fois. Le caillou se soulève de son coussin, monte, tourne lentement sur lui-même au-dessus de la tribune. La foule hurle. Le monsieur en sueur lève les bras : « Le Président s'élève au-dessus de la situation ! » Ovation. Tu le reposes, doucement. Il n'a rien dit. Il avait l'air content. | Tu le regardes fort, mais un seul de tes yeux suit. Le caillou se soulève de travers, roule du coussin et tombe dans la poche du monsieur en sueur. Le monsieur annonce : « Le Président se penche sur la question ! » La foule applaudit poliment. | +flag:pm_galet |
+* plu_02 | Ne toucher à rien, et écouter | Tu écoutes. Le monsieur en sueur s'appelle Maître Gontran Verbiage. Il traduit le caillou. Le caillou ne dit rien. Gontran traduit quand même. Ça a l'air de bien marcher pour tout le monde. | |
+
+@plu_02
+!title: Visible
+Et puis ta transparence s'arrête, d'un coup, comme une lumière qu'on rallume. Au milieu de la foule, il y a maintenant une grosse limace grise avec un bocal sur la tête. Les gens s'écartent. Un enfant Lichenaute te montre du doigt, très lentement.
+?flag:pm_galet Un murmure court : « C'est le Président qui l'a fait venir. Il s'est envolé, et après, l'autre est apparu. »
+Une cloche sonne. Des délégués de toutes les espèces descendent de la tribune et s'approchent de toi avec beaucoup de précautions. Le plus vieux, un Horloger en laiton, te tend la main. Tu n'as pas de main. Il serre ton bocal.
+« L'enquêteur ! Celui qu'on a demandé aux étoiles ! Vous êtes venu ! »
+* plu_03 coe9 | Faire des bulles polies | Tes bulles montent dans le bocal et éclatent en mots, un par un, avec du retard : « Bon. Jour. Ploum. » L'Horloger s'incline. « Monsieur Ploum. Enfin quelqu'un de sérieux. » | Tes bulles montent dans le bocal et éclatent toutes ensemble : « Bloup. » L'Horloger hoche la tête, grave. « Il parle en bulles. C'est bien un enquêteur. » | coe+1 |
+* plu_03 pan10 | Essayer de redevenir transparent, par timidité | Tu deviens à moitié transparent. On voit la tribune à travers toi. La foule applaudit le tour de magie. Tu redeviens gris. Tu rougis, ce qui chez toi fait gris foncé. | Tu ne deviens pas transparent. Tu deviens bleu. Personne ne sait ce que ça veut dire, alors tout le monde fait comme si c'était normal. | pan+1 |
+
+@plu_03
+!title: Le Conseil des Espèces
+On t'installe sous la grande tente du Conseil. On t'explique tout, très vite, en parlant fort, comme à quelqu'un qui vient de loin.
+La Lune a été vendue. Un promoteur d'Aldébaran, Gédéon Platine, l'a achetée à un guichet. Il l'a accrochée à un crochet d'or. Demain à l'aube, ses moteurs démarreront, et la Lune partira pour toujours. Depuis, les marées se trompent, les rêves s'effritent, et la Terre penche.
+« Allez voir les régions, Monsieur l'enquêteur. Comprenez ce qui se passe. Revenez nous dire quoi faire. »
+Tu ne sais pas ce qu'est un promoteur. Tu ne sais pas ce qu'est un guichet. Mais tu regardes la Lune, au bout de son crochet, et tu repenses à la voix ronde et ensommeillée. Elle venait peut-être de par ici.
+Gontran, en passant, te fait un clin d'œil. « Le Président vous remercie pour le spectacle. » Le caillou, dans sa poche, ne dit rien.
+* pcm_01 | Aller au Marché des Comètes, où l'on vend des morceaux de ciel | On t'indique une vieille comète amarrée au bord de la plaine. Tu rampes. Tu rampes vite, pour une limace. | |
+* pso_01 | Aller au Pays des Songes, où l'on entend la nuit | On t'indique une tente immense pleine de lits. Il paraît qu'on y va en dormant. Tu n'as pas dormi depuis quatre cents ans. | |
+* pct_01 | Aller sur les Côtes, où la mer appelle la Lune | On t'indique l'ouest. Tu fermes deux yeux sur trois, tu penses à la mer, et tu essaies de te téléporter exprès. Ça marche, pour une fois. Tu ne sais pas pourquoi. | |
+
+@plu_hub
+!title: Retour au Carrefour
+Tu reviens au Carrefour des Espèces. Les tentes ont doublé. La Lune a l'air plus basse, ou plus fatiguée.
+?flag:pm_appel Tu sais, maintenant, qui appelait. Tu la regardes autrement. Ce n'était pas un appel au secours. C'était quelqu'un qui parlait en dormant, et qui ne savait pas qu'on l'entendait.
+?!flag:pm_appel Tu ne sais toujours pas qui appelait. La voix ronde se tait. Tu as peur d'arriver trop tard pour quelque chose que tu ne connais pas.
+?regions<2 Le Conseil te fait signe : il reste du temps pour une autre région. Pas beaucoup.
+?regions>=2 Le soir tombe. Le Conseil ne se réunit plus. Tout le monde regarde vers le haut.
+~pardon: Pardon s'excuse auprès du soir qui tombe.
+~brume: Brume-Lucie s'enroule autour de ton bocal. « On a vu... des choses... »
+~bartho: Bartholomé boit une gorgée d'eau douce. « T'es lent, pour un enquêteur. Mais t'es là. »
+* pcm_01 ?regions<2 ?!flag:vis_pcm | Aller au Marché des Comètes | Tu rampes vers la comète amarrée. | |
+* pso_01 ?regions<2 ?!flag:vis_pso | Aller au Pays des Songes | Tu rampes vers la tente des lits. | |
+* pct_01 ?regions<2 ?!flag:vis_pct | Aller sur les Côtes | Tu penses à la mer. Tu te téléportes exprès. Ça marche, cette fois encore. | |
+* pnu_01 ?regions>=2 | Attendre la nuit avec les autres | Tu t'installes près d'un feu. La nuit vient. C'est la dernière. | |
+
+@plu_tele
+!title: Ailleurs
+!fx: tele+1
+Ton bocal fait pop. Le monde se plie en quatre, comme une carte qu'on range mal. Tu n'as rien décidé. Tu ne décides jamais.
+?comps>=1 Ceux qui t'accompagnent s'étaient accrochés à ton bocal. Ils arrivent avec toi, un peu froissés.
+?tele>=3 Ça fait trois fois. Tu sens que tes pouvoirs sont fatigués, eux aussi. Ils ne te feront plus ce coup-là aujourd'hui.
+~pardon: « Pardon. Pardon. Je crois que j'ai laissé mon estomac là-bas. Pardon. »
+~brume: « Partir... sans dire... au revoir... »
+~bartho: Bartholomé vomit un peu d'eau de mer. « Préviens, la prochaine fois. »
+* pcm_01 ?!flag:vis_pcm | Ouvrir tes trois yeux | Ça sent la friture et la poussière d'étoile. | |
+* pso_01 ?flag:vis_pcm ?!flag:vis_pso | Ouvrir tes trois yeux | Ça sent la tisane et les oreillers. | |
+* pct_01 ?flag:vis_pcm ?flag:vis_pso ?!flag:vis_pct | Ouvrir tes trois yeux | Ça sent le sel. | |
+* pnu_01 ?flag:vis_pcm ?flag:vis_pso ?flag:vis_pct | Ouvrir tes trois yeux | Ça sent le feu de bois. C'est le soir. | |
+
+# ---------------------------------------------------------------- LE MARCHÉ DES COMÈTES
+
+@pcm_01
+!title: Le Marché des Comètes
+!fx: +flag:vis_pcm regions+1
+Une vieille comète endormie, amarrée au sol par cent cordages. Sur son dos, un marché. On y vend des morceaux de ciel : des étoiles filantes, des aurores au mètre, des éclipses d'occasion.
+Ici, on paie en souvenirs. Tu en as mille deux cents ans. Le problème, c'est que tu ne te rappelles pas bien lesquels. Il y a surtout un mardi, très long, où il ne s'est rien passé.
+Au-dessus de l'entrée, une banderole : « QUINZE HEURES : SOUVENIRS D'ENFANCE D'UN GRAND HOMME D'ALDÉBARAN. »
+* pcm_r1 pan10 | Plonger dans la foule | Tu glisses entre les jambes, sous les étals, sur une flaque d'aurore renversée. Tu arrives au fond du marché, très vite, très gluant. | Tu te coinces entre deux étals. Les gens poussent. Tu paniques. Ton bocal se met à faire des bulles tout seul. | |
+* pcm_02 | Suivre une odeur de bouteille débouchée | Tu rampes vers l'odeur. Une bouteille débouchée, ça sent le vide et la voix. | |
+
+@pcm_r1
+?last:ok Tu reprends ton souffle derrière un étal de bouteilles.
+?last:ko Tu sens venir le pop.
+* pcm_02 ?last:ok | Regarder l'étal | La marchande lève les yeux. | |
+* plu_tele ?last:ko ?tele<3 | Pop | Le marché disparaît. | |
+* pcm_02 ?last:ko ?tele>=3 | Respirer, et ne pas faire pop | Tu respires. Rien ne se passe. Tu sors de la foule par le bas. | |
+
+@pcm_02
+!title: L'étal des échos
+Une vieille chauve-souris tient un étal de bouteilles. Dedans, des bruits : un rire de 1912, un orage, un « je t'aime » qu'on n'a jamais envoyé. « Échos des Grottes, véritables, mis en bouteille au fond de la terre. »
+Elle en pose une devant toi. Elle est encore fraîche. « Celle-là, je l'ai remplie la nuit dernière, quand la Lune est passée très bas au-dessus des Grottes. Elle répète une voix qui n'est pas d'ici. Très grosse voix. Très triste. »
+* pcm_03 coe10 | Payer avec un souvenir de chez toi | Tu fouilles très loin dans ta tête. Tu trouves le jour où la Lyre a eu deux soleils, par erreur, pendant une heure. La chauve-souris le prend, le regarde à l'envers, et te tend la bouteille. « Joli. Un peu chaud. » | Tu fouilles dans ta tête. Tu ne trouves que le mardi. La chauve-souris soupire. « J'en ai déjà douze, de ce mardi-là. Je ne sais pas d'où ils viennent. » Elle range la bouteille. | +flag:obj_echo |
+* pcm_03 | Passer ton chemin | Tu passes. La bouteille te suit des yeux. Les bouteilles n'ont pas d'yeux. Tu as quand même l'impression. | |
+
+@pcm_03
+!title: Sous le comptoir
+?flag:obj_echo ?!flag:pm_echo_avale La bouteille est dans ton bocal, contre ta joue. Elle murmure. Tu ne comprends pas ce qu'elle dit. Tu pourrais la goûter.
+?flag:pm_echo_avale La bouteille est de nouveau dans ton bocal. Elle murmure encore. Maintenant, tu comprends chaque mot.
+Sous le comptoir du stand d'information, quelque chose de doré tremble. Un tout petit robot, recroquevillé, murmure : « Pardon. Pardon. Je ne suis pas là. »
+Plus loin, une tente dorée. Quinze heures sonnent sur une horloge de parquet.
+* pcm_avale ?flag:obj_echo ?!flag:pm_echo_avale | Avaler la bouteille, pour comprendre ce que c'est | Tu l'avales. C'est comme ça, chez toi, qu'on comprend les choses. | |
+* pcm_03 coe10 ?!comp:pardon ?!flag:pm_pardon_vu | Te pencher sous le comptoir | Le robot te regarde avec deux yeux ronds comme des boutons de manchette. « Pardon. Vous êtes une limace ? Pardon. Je suis Pardon. Je mesurais les racines pour la Compagnie. On m'a demandé ce qu'était une racine. Je n'ai pas su. Je suis parti. Pardon. » Il regarde ton bocal. « Je peux venir ? Vous n'avez pas l'air de savoir où vous allez non plus. » Il grimpe sur ton dos. | Le robot te voit, crie « Pardon ! », et file sous un autre comptoir. Tu ne le revois plus. | +comp:pardon +flag:pm_pardon_vu | +flag:pm_pardon_vu
+* pcm_04 | Aller vers la tente dorée | Tu entres sous la tente. Il y a beaucoup de monde, et un coffre. | |
+
+@pcm_avale
+!title: Être une bouteille
+_Tu es une bouteille. Tu es froide, en verre, avec un col étroit et du vide plein de voix. Les voix tournent en toi. Elles répètent la dernière chose qu'on a dite au fond des Grottes, la nuit dernière, quand la Lune est passée tout près de la mer. Une voix ronde, ensommeillée, immense : « Je ne veux pas partir. »_
+Tu recraches la bouteille. Tu restes longtemps sans bouger.
+Tu connais cette voix. C'est l'appel. Celui que tu as entendu, il y a trois nuits, à l'autre bout du ciel. Ce n'était pas un appel à l'aide. C'était la Lune, qui parlait en dormant.
+~pardon: Pardon regarde la bouteille, puis la Lune. « Pardon. C'était elle ? Pardon. Je ne savais pas qu'elle parlait. »
+* pcm_03 | Ranger la bouteille dans ton bocal | Tu la ranges. Elle continue de murmurer. Ça te tient compagnie. | | +flag:pm_appel +flag:pm_echo_avale |
+
+@pcm_04
+!title: La vente aux enchères
+Un commissaire-priseur qui est une horloge de parquet frappe trois coups sur sa propre poitrine. « Souvenirs d'enfance d'un grand homme d'Aldébaran, vendus par sa famille, qui n'en voulait plus ! »
+Sur la table : un petit coffre tapissé de velours, un ours en feuilles d'or qui a perdu un œil, des cahiers d'écolier, et un miroir d'enfant, rayé, en or. Il brille. Tu as très envie de savoir ce que c'est. C'est ta façon d'avoir envie des choses.
+Au premier rang, une robote grise, avec un chignon en ressort et deux tampons à la place des mains, achète tout, lot après lot, sans cligner des yeux. Elle paie en souvenirs de bureau.
+Tu sens tes bords qui picotent. Tu vas peut-être devenir transparent. Ou pas. Tu ne sais jamais.
+~pardon: Pardon se cache derrière toi. « Pardon. C'est Madame Tampon. L'assistante de Monsieur Platine. Pardon. Elle ne doit pas me voir. »
+* pcm_r2 pan10 | Retenir ton souffle, devenir transparent, et aller goûter le miroir | Tu retiens ton souffle. Tes bords disparaissent, puis le reste. Tu rampes jusqu'à la table, sans un bruit. Tu avales le miroir. Personne ne voit rien. Le commissaire-priseur cherche son lot partout, puis sonne midi, ce qui chez lui veut dire « tant pis ». | Tu retiens ton souffle. Tu rampes jusqu'à la table. Tu tends ce que tu as en guise de bouche vers le miroir. Et ta transparence s'arrête, au milieu des lots, sous tous les regards. | +flag:obj_miroir_platine | +flag:pm_pris
+* pcm_06 | Regarder la vente sans bouger | Tu regardes. La robote grise achète le miroir, puis le coffre. Elle range tout dans une grande caisse de velours. Sur l'étiquette, elle tamponne : « JOYEUX ANNIVERSAIRE, MONSIEUR. » | |
+
+@pcm_r2
+?last:ok Tu ressors de la tente. Dans ton ventre, quelque chose de petit et de froid brille.
+?last:ko Le commissaire-priseur te regarde. Puis il regarde la salle. Il a une idée.
+* pcm_05 ?last:ok | Trouver un coin tranquille | Derrière un étal d'éclipses, tu recraches le miroir. | |
+* pcm_vendu ?last:ko | Faire des bulles d'excuse | Personne ne les comprend. | |
+
+@pcm_05
+!title: Être un miroir
+_Tu es un miroir. Tu es petit, froid, rayé. Pendant longtemps, tu as été accroché à l'intérieur d'un coffre. Dans le coffre, il y avait un enfant en feuilles d'or. Il te regardait pour avoir quelqu'un à regarder. Il comptait des pièces pour que le temps passe. Il attendait qu'on vienne le chercher. Personne n'est venu._
+Tu sors du miroir. Tu ne comprends pas tout. Tu comprends qu'un enfant a attendu, et que cet enfant a grandi, et qu'il s'appelle peut-être Platine.
+~pardon: Pardon regarde dans le miroir. « Pardon. C'est Monsieur Platine, ça ? Il est petit. Pardon. Je ne savais pas qu'il avait été petit. »
+* plu_hub | Garder le miroir dans ton bocal, et rentrer au Carrefour | Tu le ranges contre la bouteille, s'il y a une bouteille, ou tout seul. Il ne pèse rien. | |
+
+@pcm_06
+!title: Une caisse de velours
+La vente est finie. La robote grise fait charger sa caisse de velours sur un chariot. « Pour le Promontoire. Ascenseur de service. Fragile. »
+?flag:obj_echo La bouteille, dans ton bocal, murmure plus fort quand la caisse passe. Tu ne sais pas pourquoi.
+~pardon: « Pardon. Elle a tout acheté pour lui. Pour son anniversaire. Je crois que c'est gentil. Pardon. Je ne suis pas sûr. »
+* plu_hub | Rentrer au Carrefour | Tu rentres. Derrière toi, le marché continue, comme si rien n'était arrivé. | |
+
+@pcm_vendu
+!title: Lot supplémentaire
+« Lot supplémentaire ! » crie l'horloge. « Curiosité d'un autre système ! Avec bocal ! Mise à prix : un souvenir ! »
+Tu essaies de redevenir transparent. Rien. Tu essaies de te téléporter. Rien. Tes pouvoirs boudent, comme toujours au mauvais moment.
+La robote grise lève son tampon. « Adjugé », dit l'horloge. On te colle une étiquette sur le bocal : « Lot numéro cinq. »
+?comps>=1 Dans la foule, ceux qui t'accompagnent te regardent, affolés. Il faudrait payer plus cher qu'elle. Avec quelque chose qui vaut plus qu'un souvenir de bureau.
+* pcm_libre ?comps>=1 ?flag:obj_echo | Faire des bulles désespérées vers les tiens, en montrant la bouteille d'écho | Tu recraches la bouteille au bord de la table. Les tiens comprennent. | | -flag:obj_echo +flag:pm_paye_echo |
+* pcm_libre ?comps>=1 ?flag:obj_cauchemar | Faire des bulles désespérées vers les tiens, en montrant le bocal froid | Tu recraches le bocal froid au bord de la table. Les tiens comprennent. | | -flag:obj_cauchemar -flag:pm_reve_platine -flag:pm_reve flag:pm_reve_lune=>+flag:pm_reve +flag:pm_paye_cauch |
+* pcr_01 | Te laisser emballer | On te pose dans la caisse de velours, entre l'ours et le coffre. Le couvercle se ferme. Il fait noir. Ça sent l'or et la naphtaline. | | +flag:pm_caisse |
+
+@pcm_libre
+!title: Racheté
+?comp:pardon Pardon lève la main, en tremblant. « Pardon. Je surenchéris. Pardon. »
+?!comp:pardon ?comp:brume Brume-Lucie se condense en une silhouette presque solide. « Je surenchéris... avec ceci... »
+?!comp:pardon ?!comp:brume ?comp:bartho Bartholomé lève sa grosse main mouillée. « Moi, je surenchéris. Avec ça. »
+?flag:pm_paye_echo L'horloge débouche la bouteille. Une voix ronde, immense, emplit la tente : « Je ne veux pas partir. » Tout le monde se tait. Même la robote grise baisse son tampon. « Adjugé », dit l'horloge, tout bas. « Pour une voix. »
+?flag:pm_paye_cauch L'horloge regarde dans le bocal. Un enfant en feuilles d'or y compte des pièces. La robote grise fait un pas en arrière. Elle reconnaît quelqu'un. « Adjugé », dit l'horloge. « Pour un cauchemar. »
+On décolle ton étiquette. Tu es de nouveau à toi.
+* plu_hub | Sortir de la tente, très vite | Tu sors. Tu ne te retournes pas. Tu n'as pas de cou, de toute façon. | |
+
+# ---------------------------------------------------------------- LA CAISSE
+
+@pcr_01
+!title: La caisse de velours
+!fx: -comp:pardon -comp:brume -comp:bartho
+Il fait noir. La caisse roule, monte, s'arrête, remonte. Un ascenseur, sans doute. Ceux qui t'accompagnaient sont restés en bas. Tu es seul avec les souvenirs d'un enfant.
+Contre toi, l'ours en feuilles d'or, qui n'a qu'un œil. Les cahiers d'écolier. Le petit coffre. Et le miroir, rayé, froid.
+Tu as tout le voyage pour goûter.
+* pcr_02 ?!flag:obj_miroir_platine | Avaler le miroir | Tu l'avales. Il fait encore plus noir dedans. | | +flag:obj_miroir_platine |
+* pcr_03 ?!flag:pm_poeme | Avaler un cahier d'écolier | Tu l'avales. Il a un goût d'encre et de dimanche. | | +flag:pm_poeme |
+* pcr_04 | Attendre que quelqu'un ouvre | Tu attends. Tu sais attendre. Tu as mille deux cents ans. | |
+
+@pcr_02
+!title: Être un miroir
+_Tu es un miroir. Tu es petit, froid, rayé. Pendant longtemps, tu as été accroché à l'intérieur d'un coffre. Dans le coffre, il y avait un enfant en feuilles d'or. Il te regardait pour avoir quelqu'un à regarder. Il comptait des pièces pour que le temps passe. Il attendait qu'on vienne le chercher. Personne n'est venu._
+Tu recraches le miroir. Tu le gardes contre toi, dans le noir.
+* pcr_01 | Continuer le voyage | La caisse monte toujours. | |
+
+@pcr_03
+!title: Être un cahier
+_Tu es un cahier d'écolier. Sur ta première page, d'une écriture d'enfant, un poème, très mauvais : « Je compte les pièces / Une, deux, cent / Si je compte assez / Quelqu'un viendra / Avant la fin du compte. » Sur toutes les pages suivantes, des chiffres. Rien que des chiffres. Le compte n'a jamais fini._
+Tu recraches le cahier. Tu as un peu froid, pour quelqu'un qui n'a jamais froid.
+* pcr_01 | Continuer le voyage | La caisse monte toujours. | |
+
+@pcr_04
+!title: Livraison
+La caisse s'arrête. Des pas. Un tampon frappe le couvercle : « REÇU ». On te porte, longtemps, sur des tapis épais.
+Puis une voix synthétique, tout près : « Monsieur. Pour votre anniversaire. De la part de votre famille. Enfin. De ma part. Votre famille n'en voulait plus. »
+Le couvercle s'ouvre.
+* pmo_bur | Ouvrir tes trois yeux | La lumière est dorée. Tout est doré. | |
+
+# ---------------------------------------------------------------- LE PAYS DES SONGES
+
+@pso_01
+!title: Le Dortoir des Voyageurs
+!fx: +flag:vis_pso regions+1
+Pour aller au Pays des Songes, il faut s'endormir. Une vieille Somnambule distribue des tisanes et des bonnets de nuit sous une tente immense pleine de lits.
+Elle te regarde. Elle regarde ton bocal. « Vous, vous ne dormez jamais. Ça se voit. Ça fait combien de temps ? »
+Tu comptes avec des bulles. Quatre cents ans. Elle soupire et te tend une tisane, et un bonnet, par principe.
+* pso_r1 coe10 | Boire la tisane | Tu bois la tisane. Puis tu avales le bol. Puis la cuillère. La Somnambule reprend le reste à temps. Tu t'endors, d'un coup, comme on tombe d'une chaise. | Tu bois la tisane. Tu t'endors beaucoup trop fort. Tu rêves d'ailleurs. Ton bocal fait des bulles dans ton sommeil. | |
+* pso_avale | Avaler le bonnet de nuit, pour voir | Tu l'avales. La Somnambule ne dit rien. Elle a vu pire. | |
+
+@pso_r1
+?last:ok Tu tombes doucement, vers le haut.
+?last:ko Dans ton sommeil, tu sens venir le pop.
+* pso_02 ?last:ok | Rêver | Tu rêves. Pour la première fois depuis quatre cents ans. | |
+* plu_tele ?last:ko ?tele<3 | Pop | Le dortoir disparaît. | |
+* pso_02 ?last:ko ?tele>=3 | Rêver quand même | Tes pouvoirs sont trop fatigués pour t'emmener ailleurs. Tu rêves là où tu es. | |
+
+@pso_avale
+!title: Être un bonnet de nuit
+_Tu es un bonnet de nuit. Tu es en flanelle, tu sens les cheveux, la tisane et le savon. Tu connais par cœur le chemin du sommeil : tu l'as pris toutes les nuits, sur des centaines de têtes. C'est un chemin facile. On descend, on lâche, on se laisse porter._
+Tu recraches le bonnet. Mais tu as appris le chemin. Tu le prends. Tu t'endors.
+* pso_02 | Rêver | Tu rêves. Pour la première fois depuis quatre cents ans. | | coe+1 |
+
+@pso_02
+!title: Le Pays des Songes
+Une ville immense, faite de tous les rêves de la Terre, sur des nuages de coton. Mais elle s'effrite. Des quartiers entiers tombent dans le vide. Là-haut, la Lune du rêve n'est plus qu'une virgule pâle.
+Dans ton rêve, tu as des bras. Tu ne sais pas quoi en faire. Tu les gardes le long du corps, par politesse.
+Dans une ruelle, un brouillard argenté fredonne, très timidement.
+* pso_03 coe10 ?!comp:brume | Faire une bulle au brouillard | La bulle monte, éclate : « Bon. Jour. » Le brouillard s'approche. Il prend une forme de jeune fille, à moitié. « Des bulles... des demi-mots... comme moi... Je suis Brume-Lucie... Je viens... si tu veux... » | Le brouillard sursaute et se cache derrière un réverbère. Il ne revient pas. | +comp:brume |
+* pso_03 | Aller vers le néon violet, au centre de la ville | Tu y vas. Les rêves qui tombent s'écartent sur ton passage. | |
+
+@pso_03
+!title: Le Marchand de Sommeil
+Le Marchand de Sommeil. Grand, maigre, en robe de chambre de velours rouge, avec des yeux comme des boutons de pyjama. Il pèse des grammes de sommeil sur une balance dorée.
+Il te regarde. « Vous. Un client qui ne dort jamais. Le pire client de l'univers. » Il pèse tes quatre cents ans de veille d'un coup d'œil. « Vous êtes ici par erreur, ou par curiosité ? »
+Derrière lui, la porte de l'arrière-boutique est entrouverte. Des milliers de bocaux. Au fond, une étagère éclairée d'argent : « Rêves de la Lune ». Et dans un coin, tout seul, un bocal froid, plein de brume dorée.
+~brume: Brume-Lucie tremble. « Les rêves... de la Lune... il les vend... »
+* pso_r2 pan10 | Devenir transparent, et entrer dans l'arrière-boutique | Tu retiens ton souffle. Même dans un rêve, tu sais le faire, parfois. Tu disparais. Tu passes sous le bras du Marchand. | Tu retiens ton souffle. Tu restes gris. Le Marchand te regarde, un sourcil levé. « Vous essayez de disparaître ? Chez moi ? » | +flag:pm_transp_son |
+* pso_05 | Lui demander, avec des bulles, ce qu'il y a dans les bocaux | Il sourit. Il adore qu'on lui pose la question. | |
+
+@pso_r2
+?last:ok Tu es dans l'arrière-boutique. Le Marchand, de l'autre côté de la porte, pèse toujours.
+?last:ko Le Marchand croise les bras.
+* pso_04 ?last:ok | Regarder les bocaux | Ils brillent tous un peu. | |
+* pso_05 ?last:ko | Faire des bulles d'excuse | Le Marchand les regarde éclater. Il soupire. | |
+
+@pso_04
+!title: L'arrière-boutique
+Des milliers de bocaux. Les rêves volés de la Terre entière, étiquetés, rangés. L'étagère de la Lune brille d'argent : dans chaque bocal, une lumière tourne en rond, comme quelqu'un qui marche dans une maison vide.
+Dans le coin, le bocal froid. Dedans, une brume dorée qui compte, tout bas.
+?flag:pm_reve_lune ?flag:obj_cauchemar Tu as ce que tu es venu prendre. Plus, même. Ton ventre est plein de rêves.
+* pso_reve ?!flag:pm_reve_lune | Avaler un rêve de la Lune | Tu prends le plus petit. Tu l'avales. | |
+* pso_cauch ?!flag:obj_cauchemar | Avaler le bocal froid du coin | Tu l'avales. Il est froid comme une pièce de monnaie. | |
+* pso_06 | Ressortir sans bruit | Tu repasses sous le bras du Marchand. Il pèse toujours. Il ne voit rien. Ou il fait semblant. | |
+
+@pso_05
+!title: Un marché
+« Dans les bocaux ? Des rêves. Je les récolte. La Lune en fait beaucoup, ces nuits-ci, et elle ne les garde pas. Ça se perdrait. » Il bâille. « Et dans le coin, le cauchemar de Monsieur Platine. Il le fait toutes les nuits depuis cinquante ans. Je l'ai mis en bocal pour qu'il dorme un peu. Il n'a pas dormi mieux. Il n'en veut plus, et moi non plus. »
+Il te regarde. « Je vous en donne un. Un seul. Contre un souvenir. »
+Tu n'as que le mardi. Il le prend quand même. « L'ennui, c'est mon meilleur produit. Ça fait dormir n'importe qui. »
+~brume: Brume-Lucie te pousse doucement vers l'étagère d'argent. « Elle... d'abord... »
+* pso_reve | Prendre un rêve de la Lune | Il te tend le plus petit. Tu l'avales devant lui. Il fait une grimace polie. | |
+* pso_cauch | Prendre le bocal froid du coin | Il te le tend avec soulagement. « Bon débarras. » Tu l'avales devant lui. Il fait une grimace polie. | |
+
+@pso_reve
+!title: Être un rêve de la Lune
+!fx: +flag:pm_reve_lune +flag:pm_reve +flag:pm_appel
+_Tu es un rêve. Tu es une maison pleine de fenêtres, et dans chaque fenêtre, la Terre, vue de près : des marées, des fleurs qui s'ouvrent la nuit, des enfants qui ne veulent pas dormir. Au milieu de la maison, la Lune est assise par terre, en chemise de nuit. Elle a l'air très fatiguée. Elle dit, à personne : « Je ne veux pas partir. » Elle le dit toutes les nuits. Personne ne l'entend. Toi, si. Tu l'as entendue de l'autre bout du ciel._
+Tu sors du rêve. Tu ne le recraches pas : tu le gardes en toi, au chaud, comme une lettre qu'on n'a pas encore remise.
+Tu sais, maintenant, qui appelait.
+~brume: Brume-Lucie a tout vu à travers ton bocal. « C'était... elle... depuis le début... »
+* pso_04 ?flag:pm_transp_son | Retourner aux étagères | Personne ne t'a vu. Tu es encore transparent. | |
+* pso_06 ?!flag:pm_transp_son | Te réveiller | Le Marchand claque des doigts. | |
+
+@pso_cauch
+!title: Être un cauchemar
+!fx: +flag:obj_cauchemar +flag:pm_reve_platine +flag:pm_reve
+_Tu es un cauchemar. Tu es une salle vide, immense, dorée. Au milieu, un enfant en feuilles d'or compte des pièces. Une, deux, cent, mille. Il arrive à la fin. Il recommence. Il compte pour que le temps passe. Il compte en attendant quelqu'un. Personne ne vient. Ça dure depuis cinquante ans. Il ne sait plus ce qu'il attendait. Il compte quand même._
+Tu recraches le bocal, bien fermé. Tu le gardes dans ton bocal, contre ta joue. Il compte tout bas. Tu sais à qui il appartient. Il pourrait peut-être lui rendre.
+* pso_04 ?flag:pm_transp_son | Retourner aux étagères | Personne ne t'a vu. Tu es encore transparent. | |
+* pso_06 ?!flag:pm_transp_son | Te réveiller | Le Marchand claque des doigts. | |
+
+@pso_06
+!title: Réveil
+Tu te réveilles dans le dortoir, sous un bonnet de nuit qui n'est pas à toi. La vieille Somnambule te regarde. « Alors ? Quatre cents ans, ça valait le coup ? »
+?flag:pm_reve Tu as un rêve en toi, au chaud. Tu as l'impression d'être enceint d'un petit soleil.
+~brume: Brume-Lucie s'est réveillée en même temps que toi. Elle te suit, en brouillard du matin. « Je viens... encore... un peu... »
+* plu_hub | Rentrer au Carrefour | Tu rampes jusqu'à la tente du Conseil. Ton bocal est plein de buée. | |
+
+# ---------------------------------------------------------------- LES CÔTES
+
+@pct_01
+!title: Les Côtes Hagardes
+!fx: +flag:vis_pct regions+1
+Ici, la mer ne sait plus où elle habite. D'un côté de la plage, elle est montée jusqu'aux toits ; de l'autre, elle a reculé si loin qu'on voit le fond, avec ses épaves étonnées.
+Tu aimes bien. Chez toi, sur la Lyre, il n'y a pas de mer. Il y a seulement des bulles.
+Au bord d'une flaque, un vieux Marégrave fait d'eau de mer pêche dans quatre centimètres d'eau. Il n'attrape rien. Il boit de l'eau douce dans une gourde, pour se diluer.
+* pct_02 pan10 ?!comp:bartho | Faire flotter un poisson jusqu'à sa ligne | Tu regardes fort un poisson échoué au loin. Il s'élève, traverse la plage en l'air, et se pose délicatement sur l'hameçon. Le vieux Marégrave regarde le poisson, puis toi. « Bartholomé. Vasequeuse. T'es quoi, toi ? Peu importe. Tu viens avec moi. Je t'emmène voir la petite du phare. » | Tu regardes fort un poisson. Il s'élève, traverse la plage, et tombe sur la tête du vieux Marégrave. Il te regarde longtemps. Il ne dit rien. Il retourne à sa flaque. | +comp:bartho |
+* pct_02 | Suivre la lumière du phare | Tu rampes sur le sable mouillé. C'est agréable. C'est presque chez toi. | |
+
+@pct_02
+!title: Le phare de Grève-Molle
+Le phare de Grève-Molle. En haut, une lumière. Et une silhouette d'eau salée, penchée sur une table, qui écrit.
+?comp:bartho Bartholomé s'arrête au pied du phare. « Ondine. Elle écrit à la Lune depuis trente ans. Une lettre par marée. La Lune ne répond jamais. » Il boit une gorgée. « Moi, ma femme est partie avec la grande marée. Je ne lui écris pas. Ça revient au même. »
+L'escalier est en colimaçon. Il est mouillé. Tu n'as pas de jambes.
+* pct_r1 pan10 | Monter l'escalier, marche par marche | Tu montes. Lentement, en laissant une trace brillante sur chaque marche. Au sommet, tu es épuisé et très fier. | Tu montes, tu glisses, tu remontes, tu reglisses. À la quarantième marche, tu paniques. Ton bocal fait des bulles tout seul. | |
+* pct_03 | Attendre en bas, au pied du phare | Tu attends. À la marée suivante, Ondine descend jeter sa lettre à la mer. Elle te trouve là. | |
+
+@pct_r1
+?last:ok Tu arrives en haut.
+?last:ko Tu sens venir le pop.
+* pct_03 ?last:ok | Frapper à la porte avec ton bocal | Ça fait toc, glouglou. | |
+* plu_tele ?last:ko ?tele<3 | Pop | Le phare disparaît. | |
+* pct_03 ?last:ko ?tele>=3 | Respirer, et ne pas faire pop | Tu respires. Rien ne se passe. Tu finis l'escalier sur le dos. | |
+
+@pct_03
+!title: Ondine
+Ondine Salmigondis est faite d'eau de mer. Elle te regarde sans peur : les Marégraves ont vu pire. Autour d'elle, des milliers de lettres, toutes adressées « À la Lune ».
+« La Lune ne répond jamais », dit-elle. « Mais cette nuit, la mer m'a rapporté une de mes lettres. Mouillée. Au dos, il y a des traces rondes, comme des marées. Je ne sais pas les lire. Personne ne sait. »
+Elle te montre la lettre. Tu as trois yeux. Aucun ne sait lire. Mais tu as une autre façon de comprendre les choses.
+~bartho: Bartholomé, sur le seuil, ne dit rien. Il regarde la lettre comme on regarde une porte qu'on n'ose pas ouvrir.
+* pct_lettre coe10 | Lui demander, en bulles, si tu peux la goûter | Elle hésite. Puis elle te la tend. « Vous êtes bizarre. Mais vous avez trois yeux. Vous lisez peut-être autrement. » | Elle serre la lettre contre elle. « Non. C'est tout ce que j'ai. » Tu comprends. Tu ne goûtes pas. | |
+* pct_04 | Lui dire, en bulles, que toi aussi tu as entendu quelqu'un appeler | Tes bulles éclatent en mots, un par un. Elle les écoute tous. Elle sourit. « Alors on est deux à écouter. » | |
+
+@pct_lettre
+?last:ko Ondine range la lettre dans son sac.
+?last:ok Tu avales la lettre, très délicatement.
+?last:ok _Tu es une lettre. Tu as traversé la mer, la nuit, le ciel. Là-haut, quelqu'un t'a lue, dans son sommeil. Quelqu'un de rond, d'immense, de très fatigué. Elle t'a répondu au dos, avec la marée, en grosses lettres d'eau : « Je ne veux pas partir. »_
+?last:ok Tu recraches la lettre. Tu la rends à Ondine. Tu lui traduis, en bulles, mot par mot.
+* pct_04 ?last:ok | Attendre qu'elle relise | Ondine relit la lettre, avec tes bulles. Elle pleure. Chez elle, ça ne se voit pas : c'est de l'eau de mer sur de l'eau de mer. « Elle m'a répondu. Trente ans. Elle m'a répondu. » | | +flag:pm_appel +flag:pm_lettre |
+* pct_04 ?last:ko | Ne pas insister | Tu n'insistes pas. Tu sais ce que c'est, de n'avoir qu'une chose. | |
+
+@pct_04
+!title: Une commission
+Ondine te raccompagne au bas du phare.
+?flag:pm_lettre « Si vous montez là-haut, dites-lui que j'ai bien reçu. Dites-lui que je continue. »
+?!flag:pm_lettre « Si vous montez là-haut, dites-lui que j'écris toujours. Elle saura. »
+?flag:pm_appel ?!flag:pm_lettre Tu sais déjà qui appelait. Tu ne lui dis pas. Ça ne t'appartient pas.
+~bartho: Bartholomé te regarde partir. Puis il te suit. « Je viens jusqu'au bout. Pour la petite. Et parce que t'es lent. »
+* plu_hub | Te téléporter exprès vers le Carrefour | Tu fermes deux yeux sur trois. Tu penses très fort aux tentes. Ça marche. Tu ne sais toujours pas pourquoi. | |
+
+# ---------------------------------------------------------------- LA DERNIÈRE NUIT
+
+@pnu_01
+!title: La dernière nuit
+Le Carrefour s'endort autour des feux. Personne ne dort vraiment. La Lune pend au-dessus de la plaine, énorme, avec son crochet d'or qui brille. À l'aube, les moteurs démarreront.
+?flag:pm_appel Tu la regardes. Elle dort, elle aussi. Elle parle peut-être en ce moment. Tu tends ce qui te sert d'oreilles.
+?!flag:pm_appel Tu la regardes. Tu ne sais toujours pas qui t'a appelé. Mais tu commences à te douter de quelque chose.
+?comps<1 Tu es seul près du feu. Tu as l'habitude. Sur la Lyre, il n'y a que toi.
+~pardon: Pardon se serre contre ton bocal. « Pardon. Demain, il faudra monter. Je connais le chantier. J'y mesurais les cratères. Pardon. Je n'ai pas envie d'y retourner. Je viendrai quand même. »
+~brume: Brume-Lucie flotte au-dessus du feu. « La dernière nuit... qu'elle passe... ici... »
+~bartho: Bartholomé ne boit plus. Il regarde la Lune. « Perline. Ma femme. Elle est partie avec la marée. Si la Lune s'en va, il n'y aura plus de marée. Elle ne pourra plus revenir. »
+* pnu_02 ?flag:pm_appel ?comps>=1 | Raconter aux tiens qui appelait | Tu le racontes en bulles, longtemps. Ils écoutent. Personne ne dit rien. Puis tout le monde regarde la Lune autrement. | | coe+1 |
+* pnu_02 ?!flag:pm_appel coe11 | Écouter la nuit, très fort, avec tes trois yeux fermés | Tu écoutes. Tout en haut, très loin, une voix ronde dit quelque chose en dormant. Tu n'entends que le dernier mot : « partir ». Tu sais, maintenant, que c'était elle. Tu ne sais pas ce qu'elle voulait. | Tu écoutes. Tu n'entends que le feu, et quelqu'un qui ronfle. | coe+1 |
+* pnu_02 | Regarder la Lune jusqu'au matin | Tu la regardes. Elle est belle. Tu ne savais pas qu'on pouvait trouver quelque chose beau, après mille deux cents ans. | |
+
+@pnu_02
+!title: L'aube, presque
+Le ciel pâlit à peine. Il faut monter. Là-haut, le Promontoire de Platine, son bureau, et le bouton rouge, le seul qui puisse arrêter les moteurs.
+~pardon: « Pardon. Il y a un ascenseur de service. Pour les caisses. Pardon. »
+~bartho: « Monter ? Moi ? Je suis fait d'eau. Je vais m'évaporer. Tant pis. »
+* pch_01 pan11 | Penser très fort à la Lune, et te téléporter exprès | Tu fermes tes trois yeux. Tu penses à la Lune. Pop. Tu arrives sur le chantier lunaire, au pied des grues dorées, avec tous ceux qui s'accrochaient à ton bocal. | Tu fermes tes trois yeux. Tu penses à la Lune. Pop. Tu arrives sur le chantier lunaire, dans une bétonnière. Elle tourne. Ceux qui s'accrochaient à ton bocal tournent avec toi. | |
+* pch_01 | Prendre l'ascenseur de service, entre deux caisses de marbre | Tu te faufiles. L'ascenseur monte, monte, monte. Ça dure toute la fin de la nuit. | |
+
+# ---------------------------------------------------------------- LE CHANTIER
+
+@pch_01
+!title: Le chantier lunaire
+Des grues dorées hautes comme des montagnes. Des cloisons de verre plantées dans les cratères. Des panneaux : « Port du casque obligatoire. » « Interdit de pleurer sur le chantier. »
+Au bout du chantier, l'entrée du Promontoire. Deux vigiles dorés, casqués, très grands, gardent la porte.
+Sous tes pieds, la Lune. Elle est tiède. Elle dort. Tu l'entends respirer.
+?flag:pm_appel Elle murmure. Tu sais ce qu'elle dit.
+~pardon: Pardon tremble. « Pardon. Ce sont des collègues. Ils ne m'aiment pas. Pardon. »
+~brume: Brume-Lucie se fait toute petite. « Elle dort... sous nous... »
+~bartho: Bartholomé fume un peu. Il s'évapore. « Dépêche. Je fonds. »
+* pch_r1 pan10 | Devenir transparent, et passer devant les vigiles | Tu retiens ton souffle. Tu disparais. Tu passes entre leurs jambes dorées. | Tu retiens ton souffle. Tu disparais à moitié, juste devant eux. Ils voient une limace à moitié. C'est pire. | |
+* pmo_01 ?comp:pardon | Laisser Pardon parler aux vigiles | Pardon s'avance, minuscule, doré, en tremblant. « Pardon. Livraison. Pardon. » Les vigiles regardent ce robot de la Compagnie, puis toi, puis l'étiquette que Pardon vient de te coller : « FRAGILE ». Ils ouvrent la porte. | |
+
+@pch_r1
+?last:ok Derrière toi, les vigiles n'ont rien vu.
+?last:ko Les vigiles t'attrapent par le bocal.
+* pmo_01 ?last:ok | Avancer dans le couloir | Le couloir est doré. | |
+* pch_02 ?last:ko | Faire des bulles | Ils ne les comprennent pas. | |
+
+@pch_02
+!title: Attrapé
+Les vigiles te soulèvent par le bocal. Tu pendouilles. « Une limace. Sur le chantier. Sans casque. »
+* pmo_01 ?comp:bartho | Laisser Bartholomé s'en occuper | Bartholomé, à moitié évaporé, s'assoit sur le premier vigile. Un Marégrave assis, ça mouille énormément. Le vigile glisse, te lâche, et part en glissant jusqu'à la grue numéro quatorze. | |
+* pmo_01 ?comp:brume | Laisser Brume-Lucie envelopper les vigiles | Brume-Lucie s'épaissit autour d'eux. Ils ne voient plus rien. Ils te lâchent pour chercher leurs mains. | |
+* pmo_01 | Faire pop, sans le vouloir | Tu ne l'as pas voulu. Mais ça arrive. Pop. Tu atterris dans le couloir du Promontoire, seul, un peu froissé. Les vigiles regardent leurs mains vides. | | -comp:pardon -comp:brume -comp:bartho |
+
+# ---------------------------------------------------------------- LE PROMONTOIRE
+
+@pmo_01
+!title: Le Promontoire
+Des couloirs dorés, des tapis épais, des tableaux de planètes vendues. Tout est propre, poli, parfait, et tout sent un peu la solitude.
+Au bout du couloir, une porte immense : « Gédéon Platine. Président. Entrez sans frapper, je vous en prie. »
+* pmo_bur | Entrer sans frapper | Tu n'as pas de main, de toute façon. Tu pousses la porte avec ton bocal. | |
+
+@pmo_bur
+!title: Le bureau de Platine
+Un bureau de marbre et d'or. Une baie vitrée sur la Lune, si proche qu'on voit ses cratères. Sur le bureau, le bouton rouge : le seul qui puisse arrêter les moteurs. Dehors, le ciel pâlit. À l'aube, ils démarreront tout seuls.
+Derrière le bureau, un homme couvert de feuilles d'or, très droit, très fatigué. Gédéon Platine.
+?flag:pm_caisse Il est penché au-dessus de la caisse de velours ouverte. Il regarde l'ours, les cahiers, le coffre. Et toi, au milieu, avec ton étiquette « Lot numéro cinq ». Il ne dit rien. Derrière lui, la robote grise se tient très droite, un tampon levé, au cas où.
+?!flag:pm_caisse Il lève les yeux. Il voit une limace grise avec un bocal sur la tête. « Vous êtes de la Compagnie ? » Tu fais une bulle. Il hoche la tête, comme si ça répondait à la question.
+?flag:pm_miroir_rendu Le petit miroir est posé sur le marbre. Platine ne le quitte pas des yeux. Ses mains ne savent plus quoi faire.
+?flag:pm_poeme_rendu Le cahier d'écolier est ouvert sur le bureau, à la première page. Platine a posé la main dessus, comme pour le cacher, ou pour le tenir.
+?flag:pm_appel Sous le bureau, sous le Promontoire, sous tout, la Lune dort. Tu l'entends. « Je ne veux pas partir. »
+~pardon: Pardon se cache derrière un pied du bureau. « Pardon, Monsieur. »
+~brume: Brume-Lucie s'enroule autour de la baie vitrée, comme pour la retenir.
+~bartho: Bartholomé, à moitié évaporé, s'assoit dans un fauteuil de cuir et le mouille entièrement.
+* pmo_bur ?flag:obj_miroir_platine ?!flag:pm_miroir_rendu | Recracher le miroir sur le bureau | Tu le recraches sur le marbre. Platine se penche. Dans le miroir, un enfant en feuilles d'or, dans un coffre, qui attend. Platine devient très pâle, ce qui, sur des feuilles d'or, fait presque blanc. « Où avez-vous eu ça ? » Tu fais une bulle. Il ne la comprend pas. Ça n'a pas d'importance. | | coe+1 +flag:pm_miroir_rendu |
+* pmo_bur ?flag:pm_poeme ?!flag:pm_poeme_rendu | Recracher le cahier d'écolier, ouvert au poème | Tu le recraches, ouvert. Platine lit. « Je compte les pièces. Une, deux, cent. » Il referme le cahier, très vite. Il le rouvre. « J'avais oublié. Je n'avais pas oublié. » | | coe+1 +flag:pm_poeme_rendu |
+* pmo_r1 coe10 ?flag:pm_reve ?!flag:pm_essai_reve | Recracher sur Platine le rêve que tu portes | Tu ouvres ton bocal. Le rêve sort, en brume, et enveloppe Platine. Il ferme les yeux. Il s'affaisse dans son fauteuil, la main posée sur le bouton rouge, toute légère. Il dort. | Tu ouvres ton bocal. Le rêve sort, en brume, mais Platine recule. La brume se colle au mur, puis à la robote grise, qui s'endort debout, le tampon en l'air. Platine, lui, est bien réveillé. | +flag:pm_essai_reve | +flag:pm_essai_reve
+* pmo_r2 pan11 ?flag:pm_galet ?!flag:pm_essai_crochet | Devenir transparent, sortir sur la coque, et faire flotter le crochet | Tu retiens ton souffle. Tu disparais. Tu sors par la baie vitrée entrouverte, tu rampes sur la coque de la Lune jusqu'au crochet d'or. Il est énorme. Tu le regardes fort, avec tes trois yeux à la fois, comme le petit caillou de la tribune. Il frémit. Il se soulève. | Tu retiens ton souffle. Tu disparais à moitié. Platine voit une moitié de limace ramper vers la baie vitrée. Il appuie sur un autre bouton, un petit, et la baie se referme. | +flag:pm_essai_crochet | +flag:pm_essai_crochet
+* pmo_rate ?!flag:pm_reve ?!flag:pm_galet | Faire des bulles à Platine, pour tout lui expliquer | Tu fais des bulles. Beaucoup. Elles éclatent en mots, un par un, avec du retard. Platine les regarde monter. Il ne comprend pas. Ou il comprend trop tard. | |
+
+@pmo_r1
+?last:ok Platine dort. Sa main est toujours sur le bouton rouge.
+?last:ko Platine se relève. Il te regarde, avec méfiance, maintenant.
+* pmo_dort ?last:ok | Approcher | Tu t'approches, sans bruit. | |
+* pmo_rate ?last:ko | Reculer | Tu recules. Tes bords picotent. Ce n'est pas bon signe. | |
+
+@pmo_r2
+?last:ok Le crochet se soulève.
+?last:ko Tu es dans le bureau, de l'autre côté de la vitre fermée.
+* end_29 ?last:ok | Regarder fort, encore plus fort | Le crochet se soulève encore. Il se détache. | |
+* pmo_rate ?last:ko | Reculer | Tu recules. Tes bords picotent. Ce n'est pas bon signe. | |
+
+@pmo_rate
+!title: Ça clignote
+Tes pouvoirs s'affolent. Tu deviens transparent, puis gris, puis bleu, puis transparent. Ton bocal fait des bulles tout seul. Tu sens venir un pop, un gros, de ceux qui vont loin.
+Dehors, le ciel est rose. Les moteurs vont démarrer.
+* pmo_r1 coe11 ?flag:pm_reve ?!flag:pm_essai_reve | Le rêve, alors. Vite, avant le pop | Tu ouvres ton bocal. Le rêve sort, en brume, et enveloppe Platine. Cette fois, il ne recule pas. Il s'affaisse dans son fauteuil, la main sur le bouton rouge. Il dort. | Tu ouvres ton bocal. Le rêve sort, mais tu clignotes, et il passe à travers toi, et se perd dans le couloir. | +flag:pm_essai_reve | +flag:pm_essai_reve
+* pmo_r2 pan12 ?flag:pm_galet ?!flag:pm_essai_crochet | Le crochet, alors. Vite, avant le pop | Tu disparais. Tu passes à travers la baie vitrée, sans savoir comment. Tu rampes sur la coque jusqu'au crochet d'or. Tu le regardes fort. Il frémit. Il se soulève. | Tu disparais, puis tu réapparais, collé à la vitre, du mauvais côté. | +flag:pm_essai_crochet | +flag:pm_essai_crochet
+* end_31 ?!flag:pm_caisse ?flag:pm_essai_reve,!flag:pm_reve ?flag:pm_essai_crochet,!flag:pm_galet | Retenir le pop | Tu le retiens. Tu le retiens de toutes tes forces. Il ne se laisse pas retenir. | |
+* end_32 ?flag:pm_caisse ?flag:pm_essai_reve,!flag:pm_reve ?flag:pm_essai_crochet,!flag:pm_galet | Retenir le pop | Tu le retiens. Tu le retiens si bien qu'il ne vient pas. Rien ne vient. Tes pouvoirs se sont éteints, d'un coup, comme une bougie. Tu restes là, gris, visible, au milieu du bureau. La robote grise lève son tampon. | |
+
+@pmo_dort
+!title: Platine dort
+Platine dort dans son fauteuil. Sa main d'or est posée sur le bouton rouge, toute légère. Il ne l'a pas enfoncé. Il ne l'enfonce jamais.
+?flag:pm_reve_platine Il rêve de son cauchemar, celui que tu lui as rendu. Mais tu es passé dedans, et tu l'as un peu changé, sans le vouloir : dans la salle vide, il y a maintenant une limace grise qui regarde l'enfant compter. Quelqu'un est venu. L'enfant s'arrête de compter.
+?flag:pm_reve_lune ?!flag:pm_reve_platine Il rêve du rêve de la Lune. Il est dans la maison aux mille fenêtres. La Lune est assise par terre, en chemise de nuit. Elle lui dit : « Je ne veux pas partir. » Il l'entend. Pour la première fois, quelqu'un lui dit non sans lui vendre quelque chose.
+Une larme d'or coule sur sa joue. Il dort toujours.
+Dehors, le ciel est rose. Les moteurs vont démarrer.
+~pardon: Pardon chuchote : « Pardon. Il faut appuyer. Moi je ne peux pas. Je suis de la Compagnie. Pardon. »
+~brume: Brume-Lucie, tout bas : « Sa main... sur le bouton... »
+~bartho: Bartholomé ne dit rien. Il retient son souffle. Chez un Marégrave, ça fait une petite vague.
+* end_28 | Faire flotter sa main, doucement, jusqu'au fond du bouton | Tu n'as pas de bras. Tu regardes sa main, fort, avec tes trois yeux. Elle s'enfonce, doucement, comme si elle le décidait elle-même. Le bouton fait clic. Les moteurs s'arrêtent avant d'avoir démarré. | |
+* end_30 ?flag:pm_appel | Ne pas toucher au bouton. Emmener la Lune chez toi, où personne ne la vendra | Tu sors par la baie vitrée. Tu poses ton bocal contre la Lune, et tu la regardes fort, avec tes trois yeux, plus fort que tu n'as jamais regardé. Elle frémit. Le crochet se détache. Elle te suit. | |
+
+# ---------------------------------------------------------------- LES FINS
+
+@end_28
+!end: 28
+!title: Le bouton, doucement
+Platine se réveille une heure plus tard, dans le silence. Les moteurs sont arrêtés. Sa main est sur le bouton, enfoncé jusqu'au fond. Il la regarde comme si elle appartenait à quelqu'un d'autre. Il ne se rappelle pas l'avoir fait. Il se rappelle son rêve.
+Il ne rallume pas les moteurs. Il dit seulement, à la robote grise : « Annulez. » Elle tamponne « APPROUVÉ ». Pour la première fois, elle est d'accord avec son tampon.
+Le crochet se détache. La Lune remonte doucement à sa place, comme quelqu'un qui retourne s'asseoir.
+?flag:pm_reve_platine Platine dort, maintenant, la nuit. Il ne compte plus. Il dit qu'une limace grise vient parfois dans son rêve, et qu'elle regarde l'enfant jouer.
+?flag:pm_reve_lune ?!flag:pm_reve_platine Platine a écrit une lettre à la Lune, sa première, un poème très mauvais. Il l'a confiée au Grand Vent Postal. La Lune ne répond jamais. Mais il continue.
+Toi, tu es resté. Tu ne sais plus comment repartir : ton pop s'est usé, cette nuit-là. Tu vis sur une plage des Côtes, dans une épave étonnée. Le soir, tu fais flotter les galets pour les enfants. Ils les font tourner autour de leur tête, comme de toutes petites lunes.
+?flag:pm_lettre Ondine passe te voir, de temps en temps. Elle t'apporte les réponses de la Lune, pour que tu les lui traduises.
+?comp:pardon Pardon a trouvé ce qu'était une racine. Il en mesure une, sur ta plage, tous les jours. Elle pousse. Il s'excuse auprès d'elle.
+?comp:brume Brume-Lucie vient le matin, sur la plage, en brouillard. Elle finit ses vers, maintenant, parfois.
+?comp:bartho Bartholomé pêche à côté de toi. La marée revient, chaque jour, à l'heure. Il attend qu'elle lui rapporte quelqu'un. Il ne boit plus d'eau douce.
+Au Carrefour, le Président galet a gardé l'habitude de s'élever, de temps en temps, au-dessus des situations. C'est toi, bien sûr. Gontran ne le saura jamais.
+
+@end_29
+!end: 29
+!title: Le crochet qui flotte
+Le crochet d'or se soulève. Il glisse hors de la Lune, lentement, comme une écharde qu'on retire. Il monte, il tourne sur lui-même, il flotte, énorme et inutile, au-dessus du chantier.
+À l'aube, les moteurs démarrent. Ils tirent de toutes leurs forces sur un câble qui ne tient plus rien. Le Promontoire tremble, tire, tousse, et s'en va tout seul vers Aldébaran, avec son bureau, ses tapis épais, et Platine à la fenêtre, qui regarde la Lune rester.
+Dans le contrat, il est écrit : « livraison au crochet ». Le crochet a été livré. Il flotte toujours, quelque part, entre la Terre et la Lune. Les juristes de la Compagnie étudient encore la question.
+Toi, tu es redescendu à cheval sur le crochet, aussi loin que tu as pu, puis en pop, le reste. Tu as atterri sur la tribune du Carrefour, à côté du petit caillou gris. Il t'a regardé. Tu es sûr qu'il t'a regardé.
+Gontran a annoncé : « Le Président a fait revenir la Lune par la seule force de sa pensée. » Pour une fois, il n'était pas si loin de la vérité.
+?comp:pardon Pardon a été le seul ouvrier de la Compagnie à rester sur Terre. Il s'excuse encore, mais moins.
+?comp:brume Brume-Lucie a écrit un poème sur le crochet qui flotte. Il est fini. C'est le premier.
+?comp:bartho Bartholomé est rentré aux Côtes. La marée est revenue à l'heure. Il pêche, et il attend.
+?flag:pm_appel La nuit, la Lune parle encore en dormant. Elle ne dit plus « Je ne veux pas partir ». Elle dit des choses que tu ne comprends pas, et qui ont l'air heureuses.
+
+@end_30
+!end: 30
+!title: Le grand détour
+Tu emmènes la Lune. Tu la tires derrière toi, en la regardant fort, à travers le noir. Personne ne pourra plus la vendre : chez toi, sur la Lyre, il n'y a pas de guichet, pas de promoteur, pas de crochet. Seulement des bulles.
+À mi-chemin, tes pouvoirs font ce qu'ils font toujours.
+Pop.
+Tu te retrouves chez toi, seul, sur la Lyre. Tu as fait le voyage en une seconde. La Lune, non. Elle est restée là où tu l'as lâchée, entre deux systèmes, au milieu de rien.
+Elle dérive, maintenant, toute seule, endormie, loin de la Terre et loin de chez toi. Les marées de la Terre se sont arrêtées. Les fleurs de nuit ne s'ouvrent plus.
+Tu la cherches. Tu fais des pops dans tous les sens, au hasard, comme toujours. Tu arrives partout, sauf là où elle est.
+La nuit, parfois, tu entends encore sa voix ronde, ensommeillée, immense, de très loin. Elle ne dit plus « Je ne veux pas partir ». Elle dit « Où suis-je ? ». Personne ne lui répond. Tu essaies. Tes bulles ne vont pas si loin.
+
+@end_31
+!end: 31
+!title: Retour à l'envoyeur
+Pop.
+Tu es chez toi. Sur la Lyre. Seul. Tes pouvoirs t'ont ramené là d'où tu venais, au pire moment, comme un colis qu'on renvoie parce que personne n'a signé.
+Là-bas, à l'aube, les moteurs ont démarré. La Lune est partie vers Aldébaran.
+?flag:pm_appel Tu savais qui appelait. Tu l'avais compris. Tu étais tout près. Ça te fait plus mal que tout le reste.
+?!flag:pm_appel Tu ne sais toujours pas qui appelait. Tu le comprends des semaines plus tard, quand la voix ronde revient, très loin, plus faible, d'un autre coin du ciel, en disant : « Je ne voulais pas partir. »
+Alors tu lui écris. Une lettre, avec des bulles, que tu confies au vent de la Lyre. Elle met des années à traverser le ciel.
+Elle arrive, un jour, sur une Lune posée au milieu des piscines et des tours d'Aldébaran. La Lune la lit en dormant. Dedans, il n'y a que trois mots, éclatés un par un, avec du retard : « Je. T'ai. Entendue. »
+?flag:pm_lettre Sur Terre, à Grève-Molle, Ondine écrit toujours. Elle a changé l'adresse. Les lettres mettent des années, maintenant. Elles arrivent quand même.
+La Lune ne répond jamais. Mais la nuit, sur la Lyre, tu entends parfois quelque chose de très rond, de très loin, qui ressemble à un merci.
+
+@end_32
+!end: 32
+!title: Souvenir d'Aldébaran
+La robote grise te tamponne : « REÇU ». Platine te regarde longtemps. Puis il dit : « Mettez-le avec le reste. »
+On te pose sur l'étagère de son bureau, entre l'ours qui n'a qu'un œil et le petit coffre de velours. On colle sous toi une étiquette dorée : « Curiosité d'un autre système. Souvenir d'enfance. »
+À l'aube, les moteurs démarrent. La Lune part. Le Promontoire part avec elle. Tu pars avec le Promontoire. Tu vois la Terre rapetisser par la baie vitrée, depuis ton étagère.
+Sur Aldébaran, on inaugure les piscines, le golf et les tours. Platine coupe les rubans. Il brille beaucoup.
+Mais le soir, quand tout le monde est parti, il s'assoit devant l'étagère. Il te parle. De son enfance, du coffre, des pièces qu'il comptait. Il dit qu'il n'en a jamais parlé à personne. Tu fais des bulles. Il ne les comprend pas. Il dit que c'est la première fois qu'on l'écoute sans rien lui vendre.
+?flag:pm_appel En dessous de vous, quelque part sous les piscines, la Lune dort et répète « Je ne veux pas partir ». Tu es le seul à l'entendre. Tu es sur une étagère. Tu ne peux rien faire.
+Tu es devenu ce qu'il y a de plus précieux dans le bureau du promoteur le plus riche d'Aldébaran. C'est un honneur. Tu t'en passerais bien.

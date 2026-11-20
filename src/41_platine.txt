@@ -202,7 +202,7 @@ Anatole pose son arrosoir. « Je vais monter là-haut. Une Noctuelle se dirige �
 
 @plf_01
 !title: La navette
-La navette protocolaire attend au bord du champ. Pénélope est aux commandes, venue te chercher. « Monsieur. Le conseil d'administration s'inquiète. Le départ définitif de la Lune est prévu pour demain. Il faut votre doigt sur le bouton. »
+La navette protocolaire attend au bord du champ. Pénélope est aux commandes, venue te chercher. « Monsieur. Le conseil d'administration s'inquiète. Le départ définitif de la Lune est prévu pour demain, à l'aube. Les moteurs démarreront tout seuls. Il faut que vous soyez à votre bureau, à côté du bouton d'arrêt. On ne sait jamais, a dit le conseil, qui ne dit jamais ça. »
 ?comp:ondine ?!flag:pl_ligue Ondine regarde la navette, puis toi. Elle comprend que tu connais vraiment quelqu'un, là-haut. Elle ne comprend pas encore qui.
 ?comps>=2 Tes compagnons regardent la navette. Ils s'attendent à monter avec toi. Ils ne savent pas où elle va.
 ?flag:pl_ligue Brisefer s'est levée. Pistil est sur son épaule. Ils se tiennent entre toi et la navette.
@@ -231,18 +231,18 @@ Brisefer s'assoit. Sur toi. Pas fort. Juste assez. Onze tonnes de granit, posée
 
 @plf_02
 !title: Le bureau
-Le Promontoire. Ton bureau de marbre et d'or. La baie vitrée sur la Lune, si proche maintenant que tu vois ses cratères. Sur le bureau, le bouton rouge qui commande les moteurs, pour le départ définitif.
-Krâmm, Bobinot, Zéphyrin, Pénélope : tout le monde attend ton doigt.
+Le Promontoire. Ton bureau de marbre et d'or. La baie vitrée sur la Lune, si proche maintenant que tu vois ses cratères. Sur le bureau, le bouton rouge : le seul qui puisse arrêter les moteurs. À l'aube, ils démarreront tout seuls. Si personne n'appuie, la Lune part.
+Krâmm, Bobinot, Zéphyrin, Pénélope : tout le monde regarde ton doigt, en espérant qu'il ne bouge pas.
 ?comps>=1 Tes compagnons sont montés avec toi. Ils regardent le bureau, l'or, le bouton, le nom sur la porte. Ils comprennent, un par un, en silence.
 ?comp:ondine Ondine serre son sac de lettres contre elle. « C'était vous. » Elle ne crie pas. C'est pire.
 ?comp:basile Basile, sur ton épaule, a compris depuis la navette. Il pense très fort à autre chose, pour que sa signature ne finisse pas.
 ?comp:brisefer Brisefer s'est arrêtée sur le seuil. Le plancher du Promontoire ne la tiendrait pas. Elle te regarde de là.
 ?comp:anatole Anatole se pose sur le rebord de la baie vitrée, face à la Lune, au bon angle de l'aile. Pour la première fois depuis des jours, il ne penche plus.
-?comp:pistil Pistil s'assoit sur le bouton rouge. Il te regarde. Il attend.
+?comp:pistil Pistil s'assoit à côté du bouton rouge. Il est bien trop léger pour l'enfoncer. Il te regarde. Il attend.
 L'écran de Krâmm affiche l'Équilibre de la Terre. Tu sais, maintenant, ce que c'est.
 * plf_vente ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don | Revendre la Lune. À quelqu'un d'en bas. Pour presque rien | Tu le dis à voix haute, pour que Krâmm l'entende. Krâmm ouvre un tiroir qu'il n'avait jamais ouvert. | |
 * plf_conseil ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don,flag:pl_emo_kramm,flag:pl_emo_signature,flag:pl_emo_coffre | « Je dois réfléchir. » | Zéphyrin pâlit. Krâmm note : « Le président réfléchit. » Pénélope transmet au conseil d'administration, qui n'a jamais reçu ce message-là. | |
-* end_26 | Appuyer sur le bouton | Tu appuies. Ton doigt ne tremble pas. Tu as vu les Terriens de près. Ils pleurent pour un caillou dans le ciel. | |
+* end_26 | Croiser les bras, et attendre l'aube | Tu croises les bras. Ton doigt ne s'approche pas du bouton. Il ne tremble pas. Tu as vu les Terriens de près. Ils pleurent pour un caillou dans le ciel. | |
 
 @plf_vente
 !title: Le prix
@@ -265,12 +265,12 @@ Le conseil d'administration de la Compagnie apparaît dans le grand miroir d'or 
 « Monsieur le Président. Vous réfléchissez ? » Le plus vieux se penche. « Un président qui réfléchit, c'est un président qui hésite. Un président qui hésite, c'est un président fatigué. »
 Krâmm, derrière toi, ouvre et referme un tiroir, nerveusement.
 * end_27 rus11 | Leur expliquer ce que tu as vu, en bas | Tu leur racontes. Les lettres, la marée, les fleurs. Ils t'écoutent avec une grande politesse. Puis ils votent. | Tu essaies de raconter. Tu cherches tes mots. Tu n'en as jamais eu besoin : tu n'avais que des chiffres. Ils votent avant la fin. | |
-* plf_02b | Te taire, et revenir vers le bouton | Tu te tais. Le conseil attend. Le bouton aussi. | |
+* plf_02b | Te taire, et regarder le bouton | Tu te tais. Le conseil attend. Le bouton aussi. L'aube aussi. | |
 
 @plf_02b
-Le bouton rouge. Ton doigt au-dessus. La Lune derrière la vitre, si proche.
-* end_26 | Appuyer | Tu appuies. Après tout, tu as déjà payé. | |
-* plf_vente ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don | Retirer ton doigt, et chercher un acheteur | Tu retires ton doigt. Le conseil, dans le miroir, se met à bruisser très fort. Tu l'éteins. | |
+Le bouton rouge. Ton doigt au-dessus, sans le toucher. La Lune derrière la vitre, si proche. Dehors, le ciel commence à pâlir.
+* end_26 | Ne pas appuyer | Tu retires ta main et tu la mets dans ta poche. Après tout, tu as déjà payé. | |
+* plf_vente ?flag:pl_emo_lettres,flag:pl_emo_maree,flag:pl_emo_serre,flag:pl_emo_fleurs,flag:pl_emo_axe,flag:pl_emo_don | Tourner le dos à l'aube, et chercher un acheteur | Tu tournes le dos à la baie vitrée. Le conseil, dans le miroir, se met à bruisser très fort. Tu l'éteins. | |
 
 # ---------------------------------------------------------------- LES FINS
 
@@ -306,7 +306,7 @@ Le soir, tu regardes la Lune depuis la Terre. Elle ne t'appartient plus. C'est l
 @end_26
 !end: 26
 !title: Les Terriens sont idiots
-Les moteurs grondent. Le crochet tire. La Lune quitte son orbite comme on quitte une maison où l'on a trop vécu.
+À l'aube, les moteurs grondent. Personne n'appuie sur rien. Le crochet tire. La Lune quitte son orbite comme on quitte une maison où l'on a trop vécu.
 Tu regardes la Terre rapetisser par la baie vitrée. Tu as vu les Terriens de près : ils écrivent à un caillou, ils pleurent sur des fleurs fanées, ils donnent des boutons pour racheter le ciel. Ils sont idiots. Ils sont attendrissants, mais idiots. Tu as bien fait. Tu le répètes trois fois. À la troisième, tu y crois presque.
 ?comps>=1 Tes compagnons sont redescendus par la navette, sans un mot. Pénélope les a reconduits. Elle n'est pas remontée.
 Sur Aldébaran, on inaugure les piscines, le golf ou les tours, selon ce qui a été choisi. Tu coupes le ruban. Tu fais un discours. Tu brilles beaucoup.
@@ -321,7 +321,7 @@ Sur la Terre, il paraît un journal les jours de pluie : La Gazette des Jours de
 !end: 27
 !title: Le promoteur promu
 Le conseil d'administration vote à l'unanimité. Un président qui réfléchit n'est plus un président : c'est un poète, et la Compagnie a déjà assez de poèmes dans les tiroirs.
-On te remplace par l'Huissier Krâmm, qui ne réfléchit jamais, par article premier. Krâmm s'assoit dans ton fauteuil. Il pose son doigt sur le bouton rouge. Il hésite une seconde, une seule, en pensant à sa fille. Puis il appuie, parce que c'est son tiroir.
+On te remplace par l'Huissier Krâmm, qui ne réfléchit jamais, par article premier. Krâmm s'assoit dans ton fauteuil. Il pose son doigt sur le bouton rouge. Il hésite une seconde, une seule, en pensant à sa fille. Puis il retire son doigt, parce que ce n'est pas son tiroir. À l'aube, les moteurs démarrent.
 La vente se poursuit sans toi. La Lune part vers Aldébaran.
 Toi, on t'a reclassé. Tu es ouvrier, dans l'équipe de Bobinot. Tu poses des cloisons de verre sur la Lune que tu voulais sauver. Bobinot est un bon chef. Il dit merci. Il t'appelle « mon grand ».
 Le soir, sur le chantier, tu regardes la Terre, qui s'éloigne. Tu écris des poèmes sur les cloisons, au feutre, en tout petit. Les autres ouvriers les lisent. Ils les trouvent mauvais. Ils les lisent quand même.
