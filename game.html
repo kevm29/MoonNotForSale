@@ -394,12 +394,20 @@ function gamesDone(){
   const pairs = Object.values(got).reduce((a, v) => a + v.length, 0);
   return Math.max(store.get("lune.parties", 0), pairs);
 }
-function isLocked(p){ return (p.unlock || 0) > gamesDone(); }
+function isLocked(p){ return !store.get("lune.testeur", false) && (p.unlock || 0) > gamesDone(); }
+/* raccourci de test : 6 appuis de suite sur la case verrouillée d'un nouveau héros débloquent les trois */
+let tapN = 0, tapT = 0;
+function testTap(p){
+  if (!(p.unlock > 0)) { tapN = 0; return false; }
+  const now = Date.now(); tapN = (now - tapT < 1500) ? tapN + 1 : 1; tapT = now;
+  if (tapN >= 6){ tapN = 0; store.set("lune.testeur", true); renderCast(); return true; }
+  return false;
+}
 function renderCast(){
   $("#cast").innerHTML = M.playables.map(p => isLocked(p)
     ? `<button class="pc locked" data-pc="${p.id}" aria-label="Personnage à découvrir"><span class="ombre" aria-hidden="true"></span><span class="sp">*****</span><h3>À découvrir</h3></button>`
     : `<button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.photoName || p.name)}</h3></button>`).join("");
-  document.querySelectorAll(".pc").forEach(b => b.onclick = () => { const p = M.playables.find(x => x.id === b.dataset.pc); if (isLocked(p)) showLocked(b, p); else openSheet(b.dataset.pc); });
+  document.querySelectorAll(".pc").forEach(b => b.onclick = () => { const p = M.playables.find(x => x.id === b.dataset.pc); if (isLocked(p)) { if (!testTap(p)) showLocked(b, p); } else { tapN = 0; openSheet(b.dataset.pc); } });
   $("#rules").innerHTML = rulesHtml(true);
   $("#btnResume").hidden = !store.get("lune.save", null);
 }
@@ -509,7 +517,7 @@ function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 
 /* ---------- rendu ---------- */
 /* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
-const FACE = {president:[.5,.45], platine:[.5,.3], ploum:[.5,.4], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+const FACE = {president:[.5,.4], platine:[.35,.22], ploum:[.33,.27], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
 function inkOn(){ return !!(S && S.flags && S.flags.includes("nuit_encre")); }
 function faceStyle(p){
   const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
