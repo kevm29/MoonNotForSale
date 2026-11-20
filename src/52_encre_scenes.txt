@@ -1,0 +1,191 @@
+# ================================================================
+# NUIT D'ENCRE : scènes de dialogue, pensées de Pistil, petits choix,
+# répliques des compagnons de rêve et petites conversations entre eux.
+# Ces scènes ne touchent pas la jauge d'encre.
+# ================================================================
+
+@pne_00b
+!title: La chute
+Tu tombes longtemps. Le temps de penser à des choses.
+Tu penses à ta tasse de thé, dans le rêve du vieux Gravitaire. Elle doit être froide, maintenant. Personne ne la réchauffe, quand tu n'es pas dedans.
+Tu penses aux éveillés, là-haut, qui vont se lever à l'aube et regarder le ciel. Ils ne sauront pas que quelqu'un est resté en bas pour eux. C'est bien comme ça. Tu n'aimes pas qu'on te regarde.
+~brume: Brume-Lucie tombe à côté de toi, en s'étirant. « On tombe... ensemble... c'est moins... »
+* pne_01 | Compter tes étoiles, pour te rassurer | Une, deux, trois. Elles sont là, sur ton bonnet. Elles sont d'occasion, mais elles brillent. | |
+* pne_01 | Fermer les yeux et te laisser porter | Un Somnambule qui ferme les yeux, ça ne dort pas. Ça écoute. Tu entends, en dessous, un grand fleuve qui coule. | |
+
+@pne_02b
+!title: Le Passeur
+Le Passeur s'assoit à l'arrière de la barque pendant que tu tiens la perche. Il bâille. Il bâille depuis le début du monde.
+« Moi aussi, j'ai été un rêve, dans le temps. Un rêve de batelier, d'un vieux qui rêvait de rivière. Il est mort, le vieux. Moi, je suis resté. On reste, parfois. »
+Il te regarde, les paupières à moitié fermées. « Toi aussi, tu restes. Fais attention à ce que tu deviens, quand tu restes. »
+* pne_hub | Lui demander ce qu'on devient | « Ce qu'on fait. » Il ferme les yeux. « On devient toujours ce qu'on fait. Moi, je passe. Alors je suis le Passeur. » | |
+* pne_hub | Lui demander s'il dort, parfois | « Jamais. Je suis le seul ici à ne jamais rêver. C'est reposant, de ne pas rêver. Tu ne peux pas savoir. » Il bâille encore. | |
+* pne_hub | Ne rien demander, et pousser la perche | Il hoche la tête. « Bien. Les questions, ça alourdit la barque. » | |
+
+# ----- Dialogues dans les beaux rêves
+
+@pne_ba1b
+!title: Le Marégrave qui rame
+Le Marégrave rame sans s'arrêter. Il parle à quelqu'un, mais pas à toi. À la mer, peut-être.
+« Elle avait un rire comme une vague qui se casse sur un rocher. Pas joli. Fort. On l'entendait de l'autre bout de la côte. Les mouettes répondaient. »
+?flag:pn_etoile_donnee Ton bonnet te semble plus léger. Il te reste deux étoiles. Tu te demandes quel enfant aura la troisième.
+~melusine: Tante Mélusine est assise dans la barque, en rêve, plus grande que la barque. « UN MARIN QUI PLEURE. JE CONNAIS ÇA. MON TROISIÈME MARI ÉTAIT MARIN. NON. IL ÉTAIT PHARE. »
+~brisefer: Brisefer regarde le Marégrave ramer. « Il porte, lui aussi. Il porte une rame. C'est pareil. »
+~zouzou: Zouzou fait le tour de la barque. « Il rame vers quelque chose qui n'avance pas. Moi, je fais l'inverse. »
+~brume: Brume-Lucie se pose sur l'eau verte. « Elle est... belle... sa mer... même vide... »
+* pne_ba2 | Lui demander comment elle s'appelait | « Perline. » Il le dit comme on pose quelque chose de fragile. « Perline Vasequeuse. » Il rame plus fort. | |
+* pne_ba2 | Lui demander ce qu'il pêchait, avant | « Des bulots. Des vieilles bottes. Une fois, une sirène, mais elle était fâchée, je l'ai relâchée. » Il rit presque. « Perline l'avait trouvée jolie. » | |
+* pne_ba2 | Te taire, et écouter la mer se vider | Ça fait un bruit de baignoire. C'est le bruit le plus triste qu'on puisse faire avec une mer. | |
+
+@pne_me1b
+!title: La prêtresse parle en tricotant
+La prêtresse tricote et parle en même temps, très fort, sans te regarder.
+« MILLE ANS QUE JE TRICOTE. AVANT, JE CROCHETAIS. LE CROCHET, C'EST VULGAIRE. NON. C'EST TRÈS BIEN, LE CROCHET. MAIS PAS CELUI-LÀ. » Elle montre le ciel du rêve, là où quelque chose tire.
+« CHAQUE MAILLE, C'EST UNE NUIT. TU SAIS COMBIEN DE NUITS IL Y A DANS MILLE ANS ? MOI NON PLUS. JE COMPTE EN MAILLES. »
+~bartho: Bartholomé ôte sa casquette devant elle. « Madame. » « MONSIEUR. » Ils se regardent. Ils ont le même âge de tristesse.
+~brisefer: Brisefer et Tante Mélusine se mesurent du regard. Elles sont aussi grandes l'une que l'autre. « Vous tricotez quoi ? » « LA NUIT. ET VOUS ? » « Je portais la Terre. » « AH. CHACUNE SON OUVRAGE. »
+~zouzou: Zouzou passe à travers le tricot, et ressort couverte de lumière. « Pardon ! » « TU M'AS FAIT UNE MAILLE FILÉE. » « Pardon ! »
+* pne_me2 | Lui demander pour qui elle tricote | « POUR LES ENDORMIS. ILS NE ME DISENT JAMAIS MERCI. ILS DORMENT. C'EST NORMAL. C'EST TRÈS VEXANT. » | |
+* pne_me2 | Admirer le tricot à voix haute | « TU TROUVES ? » Elle rougit sous ses trois paires de lunettes. « C'EST DU POINT DE RIZ. C'EST TRÈS DIFFICILE. NON. C'EST FACILE. MAIS JE LE FAIS TRÈS BIEN. » | |
+* pne_me2 | Penser à ton bonnet, qu'elle a peut-être tricoté | Tu touches ton bonnet. Il est en laine de nuit. Tu ne sais pas d'où il vient. Il a toujours été là, comme tes étoiles. Peut-être que tout ce qui est doux vient d'ici. | |
+
+@pne_br1b
+!title: La géante parle en portant
+La géante parle entre ses dents, pour ne pas lâcher.
+« Avant, il y avait des jours où je le portais bien. On ne me remerciait pas. Il y avait des jours où je le portais mal. Il y avait des tremblements de terre. On me le reprochait. » Elle crache un caillou. « On se souvient toujours des tremblements. »
+~bartho: Bartholomé regarde la géante. « Ma femme disait qu'il fallait jamais rien porter tout seul. Même un seau. » Brisefer, dans son rêve, entend. Elle ne répond pas. Ses bras tremblent un peu moins.
+~melusine: Tante Mélusine, tout bas, ce qui chez elle reste fort : « JE LUI TRICOTERAIS BIEN DES MITAINES. POUR TROIS MILLE ANS. IL FAUDRAIT BEAUCOUP DE LAINE. »
+~zouzou: Zouzou fait le tour de l'Axe. « C'est quoi, ce truc invisible ? » « La Terre. » « Elle est pas plus grosse que ça ? » « Elle est invisible, la comète. Ça ne la rend pas légère. »
+* pne_br2 | Lui demander ce qu'elle fait, à la retraite | « Rien. » Elle grimace. « J'ai essayé le tricot. J'ai cassé les aiguilles. J'ai essayé le jardinage. J'ai cassé le jardin. Alors je reviens ici, toutes les nuits. » | |
+* pne_br2 | Lui dire qu'on se souvient aussi de ceux qui portent | Elle grogne. « Qui ? » Tu ne sais pas. Tu dis : « Moi. » Elle te regarde. Elle ne dit rien. Mais elle se tient plus droite. | |
+* pne_br2 | Regarder ses bras de granit, couverts de fissures | Chaque fissure est une année. Il y en a trois mille. Tu ne les comptes pas. Tu les regardes, c'est tout. Ça a l'air de suffire. | |
+
+@pne_zo1b
+!title: La ronde
+Tu restes un moment au bord de la ronde. Les comètes passent devant toi, une par une, en se présentant, parce qu'elles sont bien élevées.
+« Tante Aphélie. » « Cousin Périhélie. » « Grand-Mère Excentricité, quatre milliards d'années, toujours en forme. » Elles passent. Elles reviennent dans soixante-seize ans. Elles disent qu'elles se souviendront de toi.
+~bartho: Bartholomé ôte sa casquette à chaque comète qui passe. Ça fait beaucoup de casquette.
+~melusine: Tante Mélusine pleure. « UNE FAMILLE QUI SE RETROUVE TOUS LES SOIXANTE-SEIZE ANS. C'EST TRÈS ÉMOUVANT. C'EST TRÈS RAISONNABLE. MOI, C'ÉTAIT TOUS LES NOËLS, ET C'ÉTAIT TROP. »
+~brisefer: Brisefer regarde les orbites se croiser. « Ça se cogne parce que ça penche. Tout penche, ce soir. Même les familles. »
+~brume: Brume-Lucie fait la ronde avec elles, un tour, et se perd. « Je ne... sais pas... tourner... »
+* pne_zo2 | Saluer chaque comète par son nom quand elle repasse | Tu as tout retenu. Elles sont très flattées. Grand-Mère Excentricité te fait un clin d'œil, ce qui chez une comète provoque une petite pluie d'étoiles. | |
+* pne_zo2 | Demander à Grand-Mère Excentricité pourquoi la petite part toujours | « Parce qu'elle est comme moi à son âge. » Elle rit. « J'ai mis trois cents millions d'années à revenir. Ils m'ont attendue. On attend toujours, dans cette famille. » | |
+* pne_zo2 | Penser à ta propre famille, si tu en as une | Les Somnambules n'ont pas de famille. Ils ont des voisins de tasse, de chaussette, de tiroir. Ils se croisent dans les rêves des autres. Ça te suffisait. Ce soir, tu n'es plus sûr. | |
+
+# ----- L'eau noire
+
+@pnc_00b
+!title: Les premiers pas
+L'eau noire porte, mais elle colle. Chaque pas fait un bruit de baiser mouillé. Derrière toi, le Passeur ne bouge plus. Il te regarde partir. Il ne te fait pas signe. On ne fait pas signe, ici.
+Tu penses : les beaux rêves, c'était facile. Il suffisait d'être gentil. Ici, tu ne sais pas encore ce qu'il faudra être.
+~bartho ?comp:melusine: Bartholomé tend la main à Tante Mélusine pour descendre de la barque. Elle ne la prend pas. « JE DESCENDS TRÈS BIEN TOUTE SEULE. » Elle glisse. Il la rattrape. Elle ne dit rien. Elle garde sa main un peu plus longtemps qu'il ne faudrait.
+~brisefer ?comp:zouzou: Zouzou se pose sur l'épaule de Brisefer. « T'as peur, toi ? » « J'ai porté la Terre. » « C'est pas une réponse. » « Si. C'est une réponse de géante. »
+~bartho ?!comp:melusine: Bartholomé descend le premier. Il teste l'eau du bout de la botte. « Ça porte. Ça porte comme une vase. J'aime pas la vase. »
+~melusine ?!comp:bartho: Tante Mélusine descend en tenant sa jupe. « C'EST SALE. C'EST TRÈS SALE. JE N'AI PAS PEUR. C'EST SEULEMENT SALE. »
+* pnc_hub | Avancer sans regarder tes pieds | Si tu regardes tes pieds, tu vois l'encre. Alors tu regardes devant. Devant, il y a des cauchemars. Ce n'est pas mieux. | |
+* pnc_hub | Te retourner pour faire signe au Passeur, quand même | Tu fais signe. Il ne répond pas. Puis, tout doucement, il lève sa perche. Une fois. | |
+
+@pnc_a1c
+!title: Le petit Gravitaire
+Vous tombez. Le petit Gravitaire a fini par te voir. Il ouvre la bouche. Il a une voix, dans la chute, une petite voix de caillou.
+« Tu es un rêve ou un cauchemar ? » Tu ne sais pas quoi répondre. « Les cauchemars, ils ne tombent pas. Ils poussent. Toi, tu tombes. Alors tu es un rêve. »
+~brisefer: Brisefer tombe à côté de vous, droite comme une colonne. Elle ne se débat pas. « C'est un Gravitaire, petit. Mes cousins. On ne tombe pas, nous. On attire. »
+~zouzou: Zouzou tourne autour du petit en riant. « C'est rigolo, de tomber ! » Le petit la regarde. Il n'a pas l'air de trouver ça rigolo. Puis, un peu, si.
+~bartho: Bartholomé tombe en tenant sa casquette. « Moi, je tombe toujours dans l'eau. Là, y a pas d'eau. C'est ça qui me gêne. »
+* pnc_a2 | Lui dire que tu es un rêve | Il sourit. Il a des dents comme des petits graviers. « Je savais. » | |
+* pnc_a2 | Lui dire que tu ne sais pas | Il réfléchit, en tombant. « Moi non plus, je ne sais pas ce que je suis. On est deux. » | |
+* pnc_a2 | Lui demander pourquoi il tombe | « La Terre penche. Quand elle penche, elle me lâche. Je suis petit. Elle lâche toujours les petits d'abord. » Il dit ça très sérieusement. | |
+
+@pnc_b1c
+!title: Les horloges qui parlent
+Les horloges, en ralentissant, chuchotent. Chacune dit sa dernière heure. « Six heures douze, le jour où il a appris à marcher. » « Minuit moins le quart, le soir où il a vu la mer. » « Trois heures, la nuit où il n'a pas dormi. »
+L'Horloger les écoute, allongé. « Ce sont les miennes. Toutes mes heures. Elles me disent au revoir. C'est poli. »
+~melusine: Tante Mélusine se penche sur une petite horloge qui dit « Quatre heures, le goûter ». Elle pleure. « J'AIMAIS BEAUCOUP LE GOÛTER. »
+~bartho: Bartholomé écoute une grosse horloge de marine. « Marée haute, huit heures vingt. » Il hoche la tête. « Elle a raison. C'était l'heure. »
+~brume: Brume-Lucie s'enroule autour d'une horloge qui ne dit plus rien. « Elle a... oublié... son heure... comme moi... mes fins... »
+* pnc_b2 | Demander à l'Horloger quelle est son heure préférée | Il réfléchit, alors que le temps s'arrête. « Toutes celles où il ne se passait rien. Une heure où il ne se passe rien, c'est une heure qui dure. » | |
+* pnc_b2 | Écouter chaque horloge jusqu'au bout | Tu les écoutes. Une vie entière en heures. Elle tient dans une salle. Tu penses à la tienne, qui tiendrait dans une tasse. | |
+
+@pnc_c1c
+!title: La vieille au poteau
+La vieille Marégrave tient son poteau d'une main. De l'autre, elle tient un panier vide. « C'était pour les coques. Il n'y a plus de coques. Elles sont parties avec la mer. »
+Elle te regarde, petit pyjama accroché à sa jupe d'eau. « Tu n'es pas d'ici. Ici, tout le monde est fait de mer. Toi, tu es fait de quoi ? » « De flanelle. » « Ça sèche vite, la flanelle ? » « Oui. » « Tant mieux pour toi. »
+~bartho: Bartholomé et la vieille se regardent. Ils se reconnaissent. « Madame Lagrue. » « Bartholomé. T'es pas encore parti, toi ? » « J'attends. » « Moi aussi. »
+~zouzou: Zouzou éclaire la mer qui s'envole, par en dessous. On voit des poissons qui ne savent pas s'ils montent ou s'ils nagent.
+~melusine: Tante Mélusine s'accroche au poteau, elle aussi, ce qui fait trembler le poteau. « JE NE M'ENVOLE PAS. JE SUIS TROP LOURDE. C'EST UN AVANTAGE. POUR UNE FOIS. »
+* pnc_c2 | Lui dire que la mer reviendra | « Elle revient toujours », dit la vieille. « C'est pour ça qu'on l'aime. Mais ce soir, je ne sais pas. » | |
+* pnc_c2 | Lui demander ce qu'elle ferait sans la mer | Elle réfléchit longtemps. « Je ramasserais autre chose. Des cailloux. Les cailloux, ça ne part pas. C'est triste, les choses qui ne partent pas. » | |
+
+@pnc_d1c
+!title: L'enfant lent
+L'enfant Lichenaute a mis longtemps à tourner la tête vers toi. Maintenant, il parle. Un mot toutes les dix secondes.
+« Elle... se... lève... tous... les... soirs. » Silence. « Je... l'attends... toujours. » Silence. « Elle... arrive... toujours... avant... moi. »
+Tu comprends : il est si lent qu'il n'a jamais vu la Lune se lever. Elle est toujours déjà là, quand il lève la tête. Ce soir, pour la première fois, il est arrivé avant elle. Et elle ne vient pas.
+~zouzou: Zouzou se pose à côté de lui, toute petite. « Moi, je suis trop rapide. Je rate tout aussi. » Il la regarde. Il met une minute. « On... est... pareils. »
+~brisefer: Brisefer s'assoit derrière vous deux. Elle ne dit rien. Elle fait de l'ombre, mais une ombre qui protège.
+~bartho: Bartholomé allume sa pipe, en rêve. Elle fait une petite lumière. Ce n'est pas une Lune. C'est quelque chose.
+* pnc_d2 | Attendre avec lui, à son rythme | Tu attends. Tu apprends à attendre lentement. C'est plus long, mais c'est moins seul. | |
+* pnc_d2 | Lui raconter comment la Lune se lève | Tu lui racontes : d'abord une lueur derrière les collines, puis un bord, puis toute ronde. Il écoute. Il n'avait jamais su qu'elle montait. Il croyait qu'elle était posée là. | |
+
+@pnc_e1c
+!title: Les voisins de tiroir
+Dans l'armoire, sur les étagères, tu reconnais des pyjamas. Pas tous. Quelques-uns. Celui-là, à rayures, habitait la chaussette d'un marin. Celui-ci, en pilou, dormait dans un tiroir de commode, chez une vieille dame qui rêvait de valses.
+Ils ne te reconnaissent pas. Leurs étoiles sont éteintes. Ils sont pliés.
+Tu penses : si je n'étais pas resté, je serais là, moi aussi, peut-être. Ou peut-être que c'est parce que je suis resté que l'armoire a une place pour moi.
+~brume: Brume-Lucie touche un pyjama plié du bout de sa brume. « Il est... froid... comme... la fin... d'une phrase... »
+~melusine: Tante Mélusine regarde les bonnets éteints. « C'EST MOI QUI LES AI TRICOTÉS. TOUS. NON. JE NE SAIS PAS. PEUT-ÊTRE. » Elle se tait. C'est pire.
+~zouzou: Zouzou passe le long des étagères en éclairant les bonnets un par un. Les étoiles ne se rallument pas. Mais on les voit.
+* pnc_e2 | Lisser le pli d'un pyjama, au passage | Tu le lisses. C'est un geste de Somnambule, ça : on lisse les draps des dormeurs, avant de partir. Le pyjama ne bouge pas. Mais le pli est plus doux. | |
+* pnc_e2 | Ne pas t'attarder | Tu passes vite. Si tu t'attardes, tu finiras par t'allonger. | |
+
+@pnc_f1c
+!title: Le guichet
+Derrière Xanthin, au mur, des affiches. « LE GUICHET VOUS REMERCIE DE VOTRE PATIENCE. » « UN TAMPON BIEN FAIT EST UN TAMPON POUR TOUJOURS. » Et une petite photo, punaisée de travers : un galet gris sur un coussin rouge.
+« C'est le Président », dit le petit lichen, sans s'arrêter. Clac. « Il ne parle pas. Je l'entends quand même. Je suis le seul. » Clac. « Il ne m'a jamais rien reproché. C'est pire. »
+~brisefer: Brisefer lit les affiches avec dégoût. « Un tampon pour toujours. Rien n'est pour toujours. Même pas l'Axe. »
+~bartho: Bartholomé ramasse un papier, le regarde, et le froisse. « J'ai jamais su lire. C'est ma meilleure qualité, ce soir. »
+~zouzou: Zouzou attrape un tampon au vol et tamponne le plafond. « VENDU ! » Le plafond la regarde, vexé. Elle le repose.
+* pnc_f2 | Regarder la photo du galet | Il a l'air calme, sur son coussin. Il a l'air de quelqu'un qui écoute. Tu ne sais pas pourquoi, ça te fait du bien. | |
+* pnc_f2 | Lui demander depuis quand il signe | « Depuis toujours. » Clac. « Depuis ce matin. » Clac. « Dans un cauchemar, c'est pareil. » | |
+
+# ----- Vers le fond
+
+@pnc_pie2
+!title: La pente
+La pièce d'or roule devant toi, sur la pente d'eau noire. Elle fait un bruit de clochette, en roulant. Ça te rappelle quelque chose. Une petite cuillère contre une tasse.
+?flag:pn_etoile_donnee Il te reste deux étoiles. Elles brillent froid. Tu te demandes si celle que tu as donnée brille encore, quelque part dans le fleuve.
+?encre>=7 Tu regardes tes mains. Tu ne te souviens plus d'avoir eu des mains de flanelle. Tu sais que c'était le cas. Tu ne t'en souviens plus.
+?encre<4 Tes mains sont presque propres. L'eau noire glisse dessus sans les prendre. Tu ne sais pas si c'est de la chance ou si c'est toi.
+~bartho ?comp:brisefer: Bartholomé et Brisefer marchent côte à côte dans la pente, la géante et le vieux. « On est trop vieux pour ça, la géante. » « Parle pour toi. J'ai trois mille ans. Je suis dans la force de l'âge. »
+~melusine ?comp:zouzou: Zouzou s'est réfugiée dans le chignon de Tante Mélusine. « Ça sent la lavande, là-dedans. » « C'EST DE LA NAPHTALINE. » « Ça sent bon quand même. »
+~brume ?comp:bartho: Brume-Lucie se met devant Bartholomé, pour qu'il ne voie pas trop loin dans le noir. Il la traverse, sans le vouloir. « Pardon, petite. » « Ce n'est... rien... j'ai l'habitude... »
+* pno_00 | Suivre la pièce sans te presser | Elle t'attend quand tu ralentis. Elle aussi, elle a l'habitude d'attendre. | |
+* pno_00 | Courir derrière elle | Tu cours. Elle accélère. C'est un jeu, presque. Ça fait longtemps que tu n'as pas joué. | |
+
+# ----- Le rêve de Platine
+
+@pno_00d
+!title: Le lit d'or
+Tu traverses la grande salle. Ton pas ne fait aucun bruit sur l'or. Rien ne fait de bruit, ici. Même l'eau des piscines retient son souffle.
+Le lit est immense. Platine y tient tout petit, au bord, comme s'il avait peur de prendre trop de place. À côté de lui, sur la table de nuit, une tasse de café, froide, pleine. Il ne la boit jamais. Il la fait servir quand même.
+Tu penses : c'est une tasse. Il dort à côté d'une tasse. Moi, je dors dedans.
+~bartho: Bartholomé regarde le dormeur longtemps. « Il a l'air d'un noyé. Un noyé qui serait au sec. »
+~melusine: Tante Mélusine baisse la voix, pour la première fois depuis mille ans, presque. « IL A FROID. ON NE TRICOTE PAS POUR LES MÉCHANTS. NON. ON TRICOTE POUR CEUX QUI ONT FROID. JE NE SAIS PLUS. »
+~brisefer: Brisefer, devant le lit : « Il porte quelque chose. Je le vois à ses épaules. Il ne sait pas quoi. »
+~zouzou: Zouzou s'approche de la tasse de café et souffle dessus. Elle est froide. Elle la réchauffe, un peu, sans rien dire.
+~brume: Brume-Lucie reste au pied du lit, sans oser monter. « Il ne rêve... pas... il attend... »
+* pno_suite | Te mettre au travail | Tu tournes le dos au lit. C'est plus facile, de dos. | |
+* pno_suite | Réchauffer sa tasse de café, d'abord | Tu poses les mains autour. Tu as l'habitude des tasses. Elle se réchauffe. Il ne la boira pas. Mais elle sera chaude. | |
+
+@pno_03b
+!title: L'enfant qui compte
+Tu te penches au-dessus du coffre ouvert. L'enfant en feuilles d'or ne lève pas la tête. Il compte, une pièce après l'autre, en les posant en piles bien droites.
+« Tu es qui ? » demande-t-il, sans s'arrêter. « Tu es le monsieur qui vient ? Non. Tu es trop petit. Le monsieur qui vient, il sera grand. »
+~bartho: Bartholomé s'agenouille au bord du coffre. Il ne dit rien. Il tend sa grosse main d'eau, ouverte. L'enfant ne la prend pas. Il la regarde.
+~melusine: Tante Mélusine se couvre la bouche. Pour une fois, elle ne crie rien du tout.
+~brisefer: Brisefer pose la main sur le bord du coffre. « Je connais ça. Porter tout seul, dans le noir, sans que personne regarde. »
+~zouzou: Zouzou éclaire le fond du coffre, doucement. L'enfant cligne des yeux. Il n'avait pas vu de lumière depuis longtemps.
+~brume: Brume-Lucie se penche, elle aussi. « Il compte... jusqu'où... ? »
+* pno_fin0 | Lui demander jusqu'où il compte | « Jusqu'à mille. » Il pose une pièce. « Après, je recommence. » | |
+* pno_fin0 | Lui dire ton nom | « Pistil. » Il répète, en comptant : « Pistil. Trois cent douze. Pistil. Trois cent treize. » Ton nom se mélange aux chiffres. Il a l'air de lui plaire. | |
+* pno_fin0 | Le regarder compter, sans rien dire | Il compte. Tu regardes. Il s'arrête une seconde, étonné. Quelqu'un regarde. Puis il reprend. | |

@@ -1298,6 +1298,10 @@
   "obj_poussiere_comete": {
    "name": "Une poignée de poussière de comète",
    "desc": "Donnée par Zouzou. Ça brille dans le noir. Ça ne sert à rien, sauf quand il fait noir."
+  },
+  "obj_voeu_occasion": {
+   "name": "Un vœu d'occasion",
+   "desc": "Une boîte d'allumettes avec un vœu dedans, fait par un enfant en 1950 et jamais servi : « Que la Lune reste toujours. »"
   }
  }
 }

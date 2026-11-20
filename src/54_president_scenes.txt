@@ -1,0 +1,141 @@
+# ================================================================
+# LE PRÉSIDENT : scènes de dialogue, pensées, petits choix, répliques des
+# compagnons et petites conversations entre eux.
+# Rappel : le Président ne parle pas. Seuls Xanthin (posé sur lui) et
+# Madame Pruine entendent ce qu'il pense. Gontran traduit toujours de travers.
+# ================================================================
+
+# ---------- Tamponville ----------
+
+@gpa_01b
+!title: La fenêtre
+Avant le chiffon, il y a toujours une minute. La minute de la fenêtre. Le soleil se lève sur Tamponville, et tu le regardes se lever, parce qu'on t'a posé face à la vitre il y a huit cents ans et que personne n'a jamais pensé à te tourner.
+Des toits de papier gris, des cheminées qui fument de l'encre, des pigeons qui portent des formulaires. La ville de tous les tampons. Elle se réveille, guichet après guichet.
+Tu penses : huit cents ans de levers de soleil, et pas un pareil. On dit que les cailloux s'ennuient. C'est que personne ne leur a jamais demandé.
+* gpa_02 | Compter les cheminées, comme chaque matin | Trois cent douze. Hier, trois cent onze. Quelqu'un a construit une cheminée cette nuit. Tu es content pour lui. | |
+* gpa_02 | Regarder le pigeon du toit d'en face | Il est là depuis onze ans. Il a un formulaire à la patte qu'il n'a jamais livré. Vous vous regardez tous les matins. Ce sont les relations les plus anciennes que tu aies, après Anselme. | |
+* gpa_02 | Ne regarder que le ciel | Le ciel est pâle. La Lune n'est pas encore couchée. Elle est plus basse qu'hier. Tu le remarques. Tu ne sais pas encore que c'est important. | |
+
+@gpa_02b
+!title: Le café d'Anselme
+Après le chiffon, Anselme s'assoit sur le tabouret à côté de ton coussin. Il boit son café, une burette d'huile fine, à petites gorgées. C'est le seul moment de la journée où il s'assoit.
+« Ma femme était une pendule de cheminée, Monsieur le Président. Elle sonnait les demies. Moi, les heures. On se complétait. » Il boit. « Elle s'est arrêtée il y a vingt ans. Je la remonte encore, le dimanche. Elle ne repart pas. Je la remonte quand même. »
+Il te regarde. « Vous aussi, vous avez quelqu'un qu'on remonte, quelque part ? »
+* gpa_03 | Penser : « J'ai un neveu. Je ne sais pas où il est. » | Anselme ne t'entend pas. Mais il hoche la tête, comme s'il avait entendu quelque chose. « On a tous quelqu'un. » Il finit sa burette. | |
+* gpa_03 | Penser : « Vous, Anselme. Vous me remontez tous les matins. » | Il ne l'entend pas. Il se lève, fait tac, et te tourne d'un millimètre vers la lumière, sans savoir pourquoi. | |
+* gpa_03 | L'écouter boire, sans rien penser | Une burette d'huile, ça fait un bruit très doux. Huit cents ans, et c'est peut-être ton bruit préféré. | |
+
+@gpa_05b
+!title: Entre deux audiences
+Entre deux audiences, Gontran boit ton verre d'eau, s'éponge le front, et vérifie sa coiffure dans le reflet de la sonnette. L'huissier de salle, un vieux Gravitaire en livrée, fait entrer le suivant, puis s'arrête.
+Il se penche vers toi, pendant que Gontran ne regarde pas. « Monsieur le Président. Quarante ans que je fais entrer les gens. Vous savez ce qu'ils me disent tous, en sortant ? "Il m'a écouté." Personne d'autre ne les écoute, ici. » Il se redresse. « Je voulais que vous le sachiez. »
+~gontran: Gontran se retourne. « Qu'est-ce que vous lui dites ? » L'huissier : « Rien, Maître. Je lui ai dit l'heure. » Gontran : « Le Président sait l'heure. Le Président sait tout. »
+* gpa_06 | Penser : « Merci. Je les écoute, oui. Je ne peux rien faire d'autre. » | Tu blanchis un tout petit peu. L'huissier ne le voit pas. Il fait entrer la suivante. | |
+* gpa_06 | Penser : « Écouter, ce n'est pas assez. » | L'huissier ne t'entend pas. Il fait entrer la suivante avec la même lenteur qu'il met depuis quarante ans, celle qui laisse aux gens le temps d'arranger leur bonnet. | |
+
+@gpa_06b
+!title: La petite reste
+L'audience est finie, mais la petite Gravitaire ne s'en va pas. Elle s'assoit par terre, au pied de la table, avec sa boîte à chaussures sur les genoux, et elle te parle, à toi, tout bas, pendant que Gontran signe des autographes.
+« Moi, je les écoute, mes cailloux. Celui-là, il est triste. Celui-là, il a froid. Celui-là, il ne dit rien, mais c'est parce qu'il réfléchit. » Elle te regarde. « Vous, vous réfléchissez tout le temps. Ça se voit à votre côté rugueux. »
+~gontran: Gontran, de loin, sans se retourner : « Le Président est très touché par la jeunesse ! » La petite lève les yeux au ciel. Elle a sept cents ans de moins que lui et elle a déjà compris.
+* gpa_07 | Penser : « Oui. Je réfléchis. » | Tu ne sais pas comment, mais elle sourit, comme si elle t'avait entendu. Elle referme sa boîte, très doucement, pour ne pas réveiller le caillou qui réfléchit. | |
+* gpa_07 | Penser à chacun de ses cailloux, un par un | Un triste, un qui a froid, un qui réfléchit. Tu leur penses bonjour, chacun. Dans la boîte, quelque chose frémit. La petite ne le voit pas. Elle le sent. | |
+
+@gpa_09b
+!title: Le couloir
+Après le télégramme, tout le Palais court. Des fonctionnaires dans les couloirs, des formulaires qui volent, des tampons qui tombent. Un vieux chef de bureau pleure dans une corbeille à papier. Quelqu'un crie qu'il faut un formulaire pour la Lune. Quelqu'un d'autre crie qu'il n'en existe pas.
+Gontran te porte au milieu de la panique, serré contre son gilet. Il ne parle pas. Pour une fois, il n'a pas de traduction prête.
+Au bout du couloir, Anselme passe, avec son chiffon. Il te voit. Il te fait un petit signe, tic, comme tous les matins. Au milieu de tout, c'est la seule chose qui n'a pas changé.
+* gpa_10 | Penser : « Anselme. Restez près de la fenêtre. » | Il ne t'entend pas. Mais il retourne vers la salle ronde, et il s'assoit devant la fenêtre, à ta place. Quelqu'un doit la regarder. | |
+* gpa_10 | Penser à la Lune, très fort, au milieu des cris | Tu penses à elle. Elle ne t'entend pas. Elle est trop loin, ou trop occupée à être tirée. Mais tu penses à elle. Personne d'autre, dans ce couloir, n'y pense calmement. | |
+
+@gpa_10b
+!title: Après les flashs
+Les journalistes repartent en courant, pour écrire. Le grand escalier se vide. Il reste des confettis de magnésium sur les marches et un photographe Gravitaire qui range sa manivelle.
+Il s'approche de toi, sur le coussin de Gontran. Il te photographie encore une fois, de très près, sans flash. « Pour moi », dit-il. « Pas pour le journal. Je photographie les gens qui ne disent rien. Ce sont les seuls qui restent pareils sur les photos. »
+~gontran: Gontran se recoiffe, épuisé. « Ils ont adoré, Monsieur le Président. Adoré. » Il s'assoit sur une marche. « Qu'est-ce que j'ai dit, déjà ? » Il ne s'en souvient pas. Ça ne lui était jamais arrivé.
+* gpa_11 | Penser : « Gardez-la. Elle sera vraie. » | Le photographe ne t'entend pas. Mais il range la plaque à part, dans une boîte en fer, avec les photos de sa mère. | |
+* gpa_11 | Regarder Gontran, assis sur la marche | Il a l'air plus petit, assis. Tu ne l'avais jamais vu assis. Tu penses que tu l'aimes bien, malgré tout. Malgré tout ce qu'il te fait dire. | |
+
+@gpa_15b
+!title: L'escalier des archives
+Onze étages à remonter. L'ascenseur des archives est en panne depuis l'an mille. Gontran monte les marches une par une, en soufflant, toi dans sa poche.
+Au cinquième, il s'arrête pour reprendre son souffle. Il te sort de sa poche et te regarde, à la lumière d'une meurtrière. « Vous savez, Monsieur le Président, ce tampon. Le vôtre. Sur l'acte. » Il hésite. « C'est moi qui l'ai mis. Par délégation. Je tamponne tout, je ne lis jamais. C'est plus simple. » Il te remet dans sa poche. « Je ne pensais pas qu'on vendrait la Lune avec. »
+~penelope: Pénélope monte derrière vous, l'acte de vente serré contre elle. Elle ne dit rien. Elle monte les marches deux par deux, comme quelqu'un qui a hâte d'arriver quelque part où il ne veut pas aller.
+* gpa_16 | Penser : « Ce n'est pas votre faute, Gontran. » | Il ne l'entend pas. Il remonte. Mais il monte un peu plus vite, comme quelqu'un qui a posé quelque chose. | |
+* gpa_16 | Penser : « Si. C'est un peu votre faute. Et un peu la mienne. » | Il ne l'entend pas. Mais il s'arrête une marche plus loin et dit tout seul : « Un peu la mienne. » Puis il reprend. | |
+* gpa_16 | Penser aux onze étages de papier sous vous | Tout ce qu'on a signé sur la Terre depuis huit cents ans. Ça tient dans un escalier. La Lune aussi, maintenant. | |
+
+# ---------- Le train ----------
+
+@gtr_01c
+!title: La vitre
+Le Tortillard des Espèces fait le tour de tout ce qu'il croise. Gontran t'a posé sur la tablette, face à la vitre. C'est la première fois depuis huit cents ans que la fenêtre bouge.
+Des champs, des rivières, une forêt qui penche. Une vache qui regarde le train. Une vache qui regarde la Lune. Un village entier, sur les toits, avec des longues-vues.
+Tu penses : c'est donc ça, le pays dont je suis le Président. Je ne l'avais jamais vu. On ne me l'avait jamais montré. On me montrait des papiers.
+~gontran: Gontran dort, la bouche ouverte, la tête contre la vitre. Il ronfle en trois langues.
+* gtr_02 | Regarder la vache | Elle te regarde. Elle mâche. Elle ne sait pas que tu es le Président. C'est reposant, quelqu'un qui ne sait pas. | |
+* gtr_02 | Regarder le village sur les toits | Des gens de toutes les espèces, sur les tuiles, qui regardent la Lune. Ils ne regardent pas le train. Le train ne compte pas, ce soir. | |
+* gtr_02 | Penser : « Je ne savais pas que c'était si grand. » | Personne ne t'entend. Le train siffle, comme pour répondre. Ce n'est pas une réponse. Ça y ressemble. | |
+
+@gtr_03b
+!title: Le quai
+Sur le quai, une foule immense attend les trains. Des Gravitaires avec des valises de pierre, des Marégraves avec des seaux, des Horlogers qui vérifient l'heure de l'arrivée. Une fanfare de Lichenautes joue un air très lent, commencé la veille.
+Gontran fend la foule, toi dans sa poche. Personne ne le reconnaît. Personne ne sait que le Président de la Terre passe. Tu entends, de partout : « La Lune... la Lune... la Lune... »
+Une vieille dame Horlogère te frôle. Elle dit à sa voisine : « Il paraît que le Président va venir. » La voisine : « Le galet ? Qu'est-ce qu'il va faire, un galet ? »
+~gontran: Gontran entend. Il s'arrête. Il ouvre la bouche pour répondre. Puis il la referme, et il serre un peu plus sa poche. Il ne sait pas quoi répondre. Il ne l'a jamais su.
+* gal_01 | Penser : « Rien, Madame. Mais je serai là. » | Elle ne t'entend pas. Elle s'éloigne vers les tentes. Mais tu l'as pensé, et ça reste. | |
+* gal_01 | Écouter la fanfare | L'air est si lent qu'il faudrait trois jours pour le reconnaître. Les Lichenautes jouent quand même. Ils savent que quelqu'un, un jour, l'entendra en entier. | |
+
+# ---------- Le Carrefour ----------
+
+@gal_route
+!title: La carriole
+?flag:p_dest_gco La carriole des Côtes sent le poisson et la corde. Le cocher est un Marégrave qui se dilue un peu à chaque cahot.
+?flag:p_dest_gpr La carriole des Profondeurs descend avant même d'être partie. Le cocher est un Gravitaire qui ne parle pas. Vous avez ça en commun.
+?flag:p_dest_gfo La carriole de la Forêt penche. Tout penche, de ce côté. Le cocher, un vieil Écureuil-Postier, dit que c'est normal, que c'est la Lune.
+?flag:p_dest_gnu L'ascenseur à vapeur monte en sifflant. Le liftier est un Vent de service, en livrée, qui annonce les étages : « Brouillard. Cirrus. Nuages d'orage. Nuages de beau temps, terminus. »
+?comp:xanthin Xanthin, sur ton flanc, regarde le paysage avec toi. Il ne parle pas. Il pousse, un tout petit peu, vers ce que tu regardes.
+~gontran ?comp:xanthin: Gontran te sort de sa poche pour vérifier que tu vas bien. Il voit la tache orange. « Vous rouillez, Monsieur le Président. » Il frotte. Xanthin se cramponne. Gontran abandonne. « Ça doit être l'humidité. »
+~gontran ?!comp:xanthin: Gontran répète son discours pour la tournée, à voix basse. Il en a trois versions. Aucune n'est de toi.
+* gco_01 ?flag:p_dest_gco | Penser à la mer, que tu n'as jamais vue | On dit qu'elle est salée et qu'elle monte deux fois par jour. Tu as hâte. Tu n'as jamais eu hâte. | |
+* gpr_01 ?flag:p_dest_gpr | Penser aux Profondeurs, d'où viennent tous les cailloux | Tu viens peut-être de là, toi aussi. Tu ne t'en souviens pas. On t'a trouvé dans une rivière. Avant, tu ne sais pas. | |
+* gfo_01 ?flag:p_dest_gfo | Penser à la forêt, que tu n'as vue qu'en papier | Tes archives sont faites de ses arbres. Tu vas voir les arbres avant qu'ils deviennent des archives. | |
+* gnu_01 ?flag:p_dest_gnu | Penser au ciel, plus près | Tu n'es jamais monté plus haut que le dernier étage du Palais. Tu vas monter plus haut que la pluie. | |
+* gco_01 ?flag:p_dest_gco ?comp:xanthin | Penser à Xanthin : « Tu as déjà vu la mer ? » | « Non... » Une minute. « Les lichens... ne vont pas... à la mer. Le sel... nous... grille. » Une minute. « Je viens... quand même. » | |
+* gpr_01 ?flag:p_dest_gpr ?comp:xanthin | Penser à Xanthin : « Tu as peur du noir ? » | « Je brille... un peu... dans le noir. » Une minute. « Je vous... éclairerai. Un peu. » | |
+* gfo_01 ?flag:p_dest_gfo ?comp:xanthin | Penser à Xanthin : « Tu as de la famille, dans la forêt ? » | « Tous... les lichens... ont de la famille... dans la forêt. » Une minute. « Je ne... les connais pas. On ne se... voit pas. On pousse... trop lentement. » | |
+* gnu_01 ?flag:p_dest_gnu ?comp:xanthin | Penser à Xanthin : « Ça ne te fait pas peur, la hauteur ? » | « Si. » Une minute. « Mais je... suis sur vous. Vous... ne tombez... jamais. » | |
+
+@gal_int2
+!title: Plus tard, autour du feu
+?regions==1 Plus tard, les feux baissent. La plaine sent la soupe et la fumée. Tu es posé sur une caisse, au bord d'un feu, parmi ceux qui t'accompagnent.
+?regions==2 Plus tard, le deuxième soir, quelqu'un a construit un petit coussin de mousse pour toi, au bord du feu. Personne ne dit qui. Il est très bien fait.
+?regions>=3 Plus tard, le troisième soir, personne ne dort. On parle bas. Tu écoutes, comme tu as toujours fait. Ce soir, tu entends plus de voix qu'en huit cents ans.
+~gontran ?comp:bartho: Gontran explique à Bartholomé le fonctionnement de la présidence. Bartholomé écoute, crache dans le feu, et dit : « Donc, il dit rien et vous inventez. » Gontran : « Je traduis. » « Ma femme aussi, elle traduisait mes silences. Elle se trompait jamais. Vous, vous vous trompez tout le temps. »
+~bartho ?comp:ondee: Bartholomé et Dame Ondée regardent le feu ensemble. « Vous pleuvez sur la mer, des fois ? » « Tous les jours, avant. » « Sur Grève-Molle ? » « Sur Grève-Molle. » Il ne demande rien de plus. Elle ne dit rien de plus. Ils se comprennent.
+~melusine ?comp:gaspard: Tante Mélusine tricote une écharpe pour Sire Gaspard. « VOUS ÊTES UN FANTÔME. VOUS AVEZ FROID. » « Je n'ai plus de cou, Madame. » « ÇA N'A JAMAIS EMPÊCHÉ PERSONNE. »
+~quartz ?comp:echo: Le Dr Quartz parle de la vitesse du son. Écho répète la fin de chaque phrase. « ...trois cent quarante mètres par seconde. » « ...par seconde. » Quartz s'arrête. « C'est très agaçant. » « ...agaçant. » Quartz sourit, une facette seulement.
+~anatole ?comp:melusine: Anatole et Tante Mélusine parlent de la nuit comme de la cousine qu'ils ont en commun. « Elle est plus courte, cette année. » « ELLE EST PLUS NOIRE. » « Elle est inquiète. » « COMME NOUS. »
+~gaspard ?comp:ondee: Sire Gaspard regarde Dame Ondée. « En 1803, une pluie a percé mon ballon. » Dame Ondée devient toute petite. « C'était moi ? » « Je ne sais pas. Je ne vous en veux pas. C'était une très belle pluie. »
+~echo ?comp:bartho: Écho répète le nom que Bartholomé murmure en regardant le feu : « ...Perline. » Il sursaute. Puis il lui demande de le redire. Elle le redit. Doucement. Comme une vague.
+~penelope ?comp:gontran: Pénélope range les notes de Gontran, qui n'en a pas, dans un classeur. Il la regarde faire, ému. « Personne n'avait jamais classé mes notes. » « Vous n'en avez pas. » « Justement. »
+~quartz ?comp:gontran: Le Dr Quartz demande à Gontran comment il traduit le Président. « À l'instinct. » Elle note : « Méthode : aucune. Résultats : faux. Reproductibilité : excellente. »
+~xanthin ?comps>=3: Xanthin, sur ton flanc, te répète ce qu'il entend autour du feu, mot pour mot, très lentement. Il prend du retard. Il te raconte ce qu'on disait il y a une heure. Ça te va.
+?comp:xanthin ?comps<3 Xanthin, sur ton flanc, ne dit rien. Il écoute le feu. Les lichens aiment le bruit du feu, de loin.
+* gal_ret ?comp:xanthin | Penser à Xanthin : « Raconte-moi ce qu'ils disent. » | Il raconte. Lentement. À la fin, le feu s'est éteint et ils dorment tous. Tu as tout entendu, avec une heure de retard. C'est comme un écho, mais gentil. | |
+* gal_ret | Écouter le feu | Il craque. Il parle une langue que personne ne traduit. Pour une fois, personne ne traduit rien. | |
+* gal_ret | Penser à chacun, un par un, en faisant le tour du feu | Tu penses à chacun. Ils ne l'entendent pas. Mais, autour du feu, pendant un moment, plus personne ne parle, comme si quelque chose était passé. | |
+
+@gal_vei2
+!title: Les étoiles
+Plus tard, quand le feu n'est plus que des braises, tu restes seul, face au ciel, posé sur une pierre, le côté lisse vers la Lune.
+?comp:gontran C'est Gontran qui t'a posé comme ça. Il ne t'a pas demandé. Il a compris tout seul. C'est la première fois.
+La Lune est si basse que tu vois son crochet d'or. Il brille comme une dent. Autour, les étoiles font comme d'habitude. Elles ne savent pas.
+Tu penses : demain, il faudra dire quelque chose. Huit cents ans que je n'ai rien dit. Ce serait le bon moment. Je ne sais pas comment on commence.
+~xanthin: Xanthin, endormi sur ton flanc, rêve à voix basse. Tu entends son rêve, puisqu'il est sur toi. Il rêve qu'il est un rocher, très grand, et que quelqu'un pousse sur lui. Il a l'air heureux.
+~basile ?comp:xanthin: Basile s'est approché de vous, au ras de la terre. Il ne dort pas : les lichens âgés ne dorment presque plus. Il touche Xanthin du bout d'un filament. Il ne dit rien. Il veille sur le petit.
+~gontran: Gontran dort à côté de la pierre, en boule, sa redingote comme couverture. Il a laissé une main posée près de toi. Au cas où.
+* gal_nuit1 | Penser ton nom, une fois, à la Lune | Tu le penses, en entier, long, rond et lent. Elle ne t'entend pas. Mais c'est la première fois que tu le dis à quelqu'un d'autre que toi. | |
+* gal_nuit1 | Penser : « Je trouverai les mots. » | Tu ne sais pas si c'est vrai. Tu le penses quand même. Tu as huit cents ans de mots à rattraper. Il en suffit d'un. | |
+* gal_nuit1 | Regarder le crochet, sans détourner les yeux | Tu le regardes. Il est beau, et faux. Tout ce qui est en or, ici, est un peu faux. Tu blanchis, côté Lune. Personne ne le voit. La Lune, peut-être. | |

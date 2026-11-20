@@ -1,0 +1,206 @@
+# ================================================================
+# PLOUM, SCÈNES AJOUTÉES (vers 110 choix)
+# ================================================================
+
+@ply_02b
+!title: Les souvenirs de la grotte
+Au fond de la grotte, tu gardes tes souvenirs. Il n'y en a pas beaucoup, pour mille deux cents ans. Ils flottent dans des bulles, comme les mots du jardin, mais en plus lourd : une étoile filante qui s'est excusée, la nuit des deux soleils, un caillou qui ressemblait à quelqu'un. Et beaucoup de mardis.
+Tu ne pourras pas tout emporter. Ton bocal est petit.
+* ply_03 coe9 | Choisir un seul souvenir, le plus léger, et le garder contre la vitre du bocal | Tu prends la nuit des deux soleils. Elle est chaude. Elle tient dans un coin du bocal, et elle éclaire un peu, la nuit, comme une veilleuse. | Tu hésites trop longtemps. Tu prends un mardi, par erreur. Il ne pèse rien. Il ne sert à rien. Il est à toi. | coe+1 |
+* ply_03 | Les laisser tous ici, pour qu'ils gardent la grotte | Ils te regardent partir, en flottant. Une grotte avec des souvenirs dedans, ce n'est pas tout à fait vide. | |
+
+@ply_05b
+!title: La nébuleuse qui sent la menthe
+Pop. Tu arrives au milieu d'un nuage immense, vert pâle, qui sent la menthe. Tout est frais. Tes trois yeux pleurent un peu.
+Au milieu de la nébuleuse, une vieille étoile toute petite tricote des nuages avec ses rayons. Elle te voit. « Un voyageur ! Il n'en passe plus. Tout le monde va voir la planète bleue, en ce moment. Il paraît qu'on y vend quelque chose. »
+* ply_06 coe10 | Lui demander, en bulles, ce qu'on y vend | « Sa lune. » La vieille étoile pose son tricot. « On ne vend pas une lune. Une lune, c'est ce qui fait que la nuit a un milieu. Sans elle, la nuit n'a plus que des bords. » Elle reprend son tricot. « Dis-le-leur, si tu y vas. Moi, je suis trop vieille pour voyager. » | Tes bulles éclatent au mauvais moment. Elle croit que tu éternues. Elle te souhaite une bonne santé et retourne à son tricot. | coe+1 |
+* ply_06 | Respirer la menthe un grand coup, et repartir | Tu respires. Ton bocal sent la menthe pour trois jours. Ça te va bien. | |
+
+@plu_03c
+!title: Le tableau des disparus
+Au milieu du Carrefour, un grand tableau de liège est couvert de petits papiers. « CHERCHE MA MARÉE, PARTIE MARDI. » « PERDU : UN RÊVE, BLEU, AVEC UN CHEVAL. » « QUELQU'UN A VU MON OMBRE ? » Des créatures de toutes les espèces lisent, en silence, et ajoutent des papiers.
+Tout en haut, quelqu'un a punaisé un dessin de la Lune, avec écrit dessous : « DISPARUE BIENTÔT. »
+* plu_04 coe10 | Ajouter ton propre papier, avec des bulles collées dessus : « Cherche qui appelait » | Tu le colles. Les bulles éclatent une à une : « Cher. Che. Qui. Ap. Pe. Lait. » Une vieille Horlogère lit, et te tapote le bocal. « Moi aussi, j'ai entendu quelque chose, la nuit. Une voix ronde. Je croyais que c'était mon ressort. » | Tes bulles éclatent avant que le papier tienne. Il tombe. Quelqu'un le ramasse, le lit, le remet. Il est à l'envers. | coe+1 |
+* plu_04 | Lire tous les papiers, un par un | Tu lis. Il y en a trois mille. Chacun a perdu quelque chose depuis la vente. Tu comprends que tu n'es pas venu pour une seule voix. | |
+
+@plu_06c
+!title: La poste du Carrefour
+Devant une tente marquée « POSTE », une comète en casquette trop grande attend, essoufflée, avec une sacoche pleine. C'est Bertille, la Comète-Facteur.
+?flag:pm_rumeur Elle te reconnaît. « La troisième planète de la Lyre ! Vous êtes venu ! Vous voyez, je vous avais dit qu'on parlait beaucoup d'elle. »
+?!flag:pm_rumeur Elle te regarde de travers. « On s'est vus quelque part ? Je vois tout le monde. Je ne retiens personne. Je vais vite. »
+« J'ai des lettres pour la Lune. Des milliers. Les gens lui écrivent. Mais je n'ai pas d'adresse. La Lune n'a jamais eu besoin d'adresse : elle était là. »
+* plu_07 pan10 | Faire flotter une lettre, une seule, très haut, vers la Lune | Tu regardes une lettre fort. Elle s'envole, monte au-dessus des tentes, de plus en plus haut, jusqu'à n'être plus qu'un point. Bertille en reste la bouche ouverte. « Distribuée ! » Elle tamponne sa sacoche. Elle en tire une autre. Puis elle se rappelle qu'il y en a des milliers, et elle s'assoit. | Tu regardes une lettre fort. Elle monte, hésite, et redescend dans la soupe de Mère Fricassée. Bertille soupire. « Retour à l'envoyeur. » | pan+1 |
+* plu_07 | Avaler une lettre, pour comprendre ce que c'est | Tu l'avales. _Tu es une lettre. Un enfant t'a écrite au crayon, en appuyant très fort : « Chère Lune, est-ce que tu as peur ? Moi oui. Reste. » Tu ne sais pas où tu vas. Tu sais seulement qui tu cherches._ Tu la recraches, bien à plat. Bertille la remet dans sa sacoche, avec les autres. « Je trouverai bien. » | | coe+1 |
+
+@pcm_03b
+!title: Le bureau de change
+Entre deux étals, un bureau de change. Un petit monsieur en visière verte échange les souvenirs contre des pièces de ciel, et les pièces de ciel contre des souvenirs. Le cours change toutes les minutes. Sur un tableau noir : « Souvenir d'enfance : 12. Premier amour : 40. Mardi : 0,01. »
+« Vous avez l'air d'en avoir beaucoup, vous. Des vieux. Les vieux souvenirs, ça se vend bien, en ce moment. Tout le monde veut se rappeler comment c'était avant. »
+* pcm_03c coe10 | Lui demander, en bulles, combien vaut un souvenir de la Lune | Il réfléchit. Il tape sur sa machine. Il la tape encore. « Je ne peux pas. Elle n'a pas de cours. On ne l'a jamais vendue, avant. Enfin, une fois. Une fois de trop. » Il te rend tes bulles, une par une, comme de la monnaie. | Tes bulles éclatent sur son tableau et effacent le cours du mardi. Il le réécrit, très lentement, à zéro virgule zéro zéro un. | coe+1 |
+* pcm_03c | Ne rien changer, et passer | Tu gardes tes mardis. Ils ne valent rien. Ils sont à toi. | |
+
+@pcm_08b
+!title: Le vendeur de vœux
+Au bout du marché, un petit étal tout en bleu : « VŒUX D'OCCASION. FAITS UNE FOIS. ÉTAT CORRECT. » Le vendeur, une vieille chouette, range des vœux dans des boîtes d'allumettes. Ils brillent un peu. Certains sont rayés.
+« On fait un vœu sur une étoile filante, et puis on l'oublie. Moi, je les ramasse. Ils servent encore. Un vœu, ça ne s'use pas tant que personne ne l'a exaucé. »
+* pcm_09 coe10 | Lui offrir un souvenir en échange d'un vœu | Elle prend ton souvenir, le regarde à travers ses lunettes, et te tend une boîte d'allumettes. Dedans, un vœu tout petit, fait par un enfant en 1950 : « Que la Lune reste toujours. » « Il n'a jamais servi. Il est comme neuf. » | Elle regarde ton souvenir. C'est un mardi. Elle te le rend, poliment. « Je ne prends que les souvenirs où il se passe quelque chose. » | +flag:obj_voeu_occasion |
+* pcm_09 | La regarder ranger ses vœux | Elle les range par taille. Les plus grands sont les plus simples. Le plus grand de tous, c'est « Encore une minute ». | |
+
+@pso_02c
+!title: La bibliothèque des rêves oubliés
+Au détour d'une rue du rêve, une bibliothèque sans murs. Des étagères à perte de vue, et sur les étagères, tous les rêves qu'on a oubliés au réveil. Ils sont rangés par ordre alphabétique de rêveur. Il y en a beaucoup. Presque tous.
+Une bibliothécaire en chemise de nuit pousse un chariot. « Chut. Ils dorment. Enfin, ils sont oubliés, c'est pareil. »
+* pso_03 coe10 | Lui demander s'il y a un rêve oublié de la Lune | Elle cherche à « L ». Elle trouve un seul volume, tout mince. « La Lune ne dort jamais vraiment. Elle rêve en marchant. Ce rêve-là, elle l'a oublié ce matin. » Elle l'ouvre. Une seule ligne : « Je ne veux pas partir. » Elle le referme. « Je n'ai pas le droit de le prêter. » | Elle cherche. Elle se perd entre deux rayons. Elle revient avec un rêve de quelqu'un d'autre : un mouton qui apprend à nager. | coe+1 |
+* pso_03 | Avaler un rêve oublié, au hasard des étagères | Tu en prends un, tout petit. _Tu es un rêve oublié. Quelqu'un t'a fait, une nuit, où il était heureux. Il ne s'en souvient pas. Mais le matin, il a souri sans savoir pourquoi. C'était toi._ Tu le recraches à sa place, sur l'étagère. La bibliothécaire ne dit rien. | | coe+1 |
+
+@pso_10
+!title: Les pantoufles
+À la sortie du Pays des Songes, il y a des milliers de pantoufles, rangées par paires, au bord du sommeil. Ce sont celles des rêveurs qui ne sont jamais revenus de leur rêve. Elles attendent. Quelques-unes sont dépareillées.
+?flag:pm_reve Le rêve que tu portes remue dans ton bocal quand tu passes devant elles.
+* plu_route pan10 | Faire flotter les pantoufles dépareillées jusqu'à leur pareille | Tu regardes fort. Les pantoufles volent, se cherchent, se trouvent. À la fin, il n'en reste qu'une, toute seule, rose, au bout de la rangée. Tu la poses bien droite. Quelqu'un reviendra peut-être. | Tu regardes fort. Les pantoufles s'envolent toutes et retombent en tas. Il faudra des années pour les retrier. | pan+1 |
+* plu_route | Passer devant, sans en déranger aucune | Tu passes. Tu n'as pas de pieds. Tu ne sauras jamais ce que c'est, une pantoufle qui attend. | |
+
+@pct_04b
+!title: Les dunes qui chantent
+Derrière le phare, des dunes de sable chantent quand le vent passe. D'habitude, elles chantent la marée. Ce soir, elles chantent faux. Elles ne savent plus quand la mer reviendra, alors elles chantent toutes les heures à la fois.
+Un vieux chameau des sables, assis au sommet, se bouche les oreilles. « Trente ans que j'écoute ces dunes. Elles n'ont jamais chanté si mal. C'est la Lune. Elles l'attendent, et elle ne passe pas à l'heure. »
+* pct_05 coe10 | Faire des bulles en rythme, pour leur redonner la mesure | Tes bulles éclatent une, deux, une, deux, comme une vague. Les dunes t'entendent. Elles se calent sur toi. Pendant une minute, elles chantent juste. Le chameau débouche ses oreilles, étonné. | Tes bulles éclatent n'importe comment. Les dunes s'en inspirent. C'est encore pire. | coe+1 |
+* pct_05 | T'asseoir à côté du chameau, et écouter quand même | Vous écoutez. C'est faux. C'est beau quand même, d'une certaine façon. Le chameau te donne un dattier en sucre. Tu l'avales. Tu ne comprends pas ce que c'est. C'est bon. | |
+
+@pct_08
+!title: La baigneuse
+En repartant, tu croises une très vieille dame en maillot de bain rayé, avec un bonnet à fleurs. Elle marche vers la mer, qui est très loin. Elle marche depuis ce matin.
+« Tous les soirs, je me baigne. Depuis soixante ans. La mer vient, je rentre dedans, je ressors. Ce soir, elle ne vient pas. Alors c'est moi qui y vais. »
+* plu_route pan11 | Faire flotter une vague jusqu'à elle | Tu regardes la mer fort, très loin. Une petite vague se détache, traverse la plage en l'air, et retombe aux pieds de la vieille dame. Elle y entre jusqu'aux chevilles. Elle ferme les yeux. « Voilà. » Ça lui suffit. | Tu regardes la mer fort. Une goutte se détache, traverse la plage, et tombe sur son bonnet. Elle lève la tête. « Il pleut. Bon. Ça compte. » | pan+1 |
+* plu_route | L'accompagner un bout de chemin | Tu rampes à côté d'elle. Elle te raconte soixante ans de bains. Ça prend une heure. Vous n'atteignez pas la mer. Ce n'est pas grave. Elle a eu quelqu'un à qui le raconter. | | coe+1 |
+
+@pha_02c
+!title: Les grêlons
+Sur un petit nuage dur et blanc, une classe entière de grêlons attend la récréation. Ce sont des enfants, ronds et froids, qui ne demandent qu'à tomber. Mais depuis que les pompes aspirent tout, ils ne tombent plus. Ils rebondissent sur place, de plus en plus fort, en criant.
+Leur maîtresse, une vieille giboulée, n'arrive plus à les tenir.
+* pha_03 pan10 | Les faire tomber, un par un, très doucement, jusqu'à la Terre | Tu regardes fort. Les grêlons descendent un à un, lentement, comme des flocons, et arrivent en bas tout petits, tout doux, sur un champ de salades qui ne leur en veut pas. La maîtresse te remercie d'une averse. | Tu regardes fort. Ils tombent tous à la fois, très vite, sur une tente du Carrefour. Personne n'est blessé. La tente, si. | pan+1 |
+* pha_03 | Leur raconter, en bulles, comment c'est, en bas | Tes bulles éclatent en mots : « Herbe. Toits. Pa. Ra. Pluies. » Les grêlons écoutent, sages pour la première fois de la journée. Ils en rêvent, maintenant. Ils tomberont mieux. | | coe+1 |
+
+@pha_05c
+!title: Le Phare des Nuages
+Au bout des nuages, il y a un phare tout fin, construit pour les oiseaux et les ballons. Sa lanterne est éteinte. Dedans, un héron a fait son nid.
+Le héron te regarde. Il ne dit rien. Les hérons ne disent jamais rien. Mais il bouge un peu, pour te montrer : dans son nid, au milieu des brindilles, il y a la vieille ampoule du phare.
+* pha_06 pan10 | Faire flotter l'ampoule jusqu'à sa place, sans déranger le nid | Tu regardes l'ampoule fort. Elle se soulève, passe au-dessus du héron, et se visse dans la lanterne. Elle s'allume. Le phare éclaire les nuages, pour la première fois depuis longtemps. Le héron ne bouge pas. Il a chaud, maintenant. | Tu regardes l'ampoule fort. Elle se soulève, puis se repose dans le nid. Le héron a l'air de trouver que c'était mieux comme ça. | pan+1 |
+* pha_06 | Laisser le héron couver l'ampoule | Il la couve. Elle n'éclora jamais. Il le sait peut-être. Ça ne l'empêche pas. | |
+
+@pnu_00c
+!title: Les veilleurs
+Plus tard, quand les feux baissent, il ne reste que les veilleurs. Mère Fricassée remue une marmite vide, pour s'occuper les mains. Madame Colimaçonne a sorti un tricot, qu'elle avance d'une maille par heure. Le vieil Horloger fait tic-tac, tout bas, pour ne réveiller personne.
+« Vous montez, demain ? » demande Mère Fricassée. Tu fais une bulle qui dit oui. Elle hoche la tête. « Mangez avant. On ne sauve rien le ventre vide. »
+* pnu_00d coe10 | Leur raconter la Lyre, en bulles, pour passer le temps | Tes bulles éclatent une à une, longtemps : les cordes de lumière, le jardin de bulles, la grotte. Ils écoutent. Madame Colimaçonne pose son tricot. L'Horloger arrête de faire tic-tac pour mieux entendre. Pour une fois, c'est toi qui viens de loin, et quelqu'un veut savoir comment c'était. | Tes bulles éclatent toutes ensemble. Mère Fricassée te tend une cuillère de soupe froide. « Mangez. Vous raconterez demain. » | coe+1 |
+* pnu_00d | Rester avec eux sans rien dire | Personne ne parle. C'est très bien. Les veilleurs n'ont pas besoin de parler. | |
+
+@pnu_01d
+!title: L'étoile filante
+Au milieu de la nuit, une étoile filante traverse le ciel au-dessus du Carrefour, toute seule, très lente. Tout le camp lève la tête. Personne ne fait de vœu. On n'ose plus.
+?flag:obj_voeu_occasion Dans ton bocal, la boîte d'allumettes du vendeur de vœux s'est mise à briller.
+* pnu_02b ?flag:obj_voeu_occasion | Ouvrir la boîte d'allumettes, et laisser partir le vœu d'occasion | Le vœu sort de la boîte, tout petit, tout neuf. « Que la Lune reste toujours. » Il monte, rejoint l'étoile filante, et repart avec elle. Personne ne sait si un vœu d'occasion marche. Mais tout le camp l'a vu monter, et tout le camp, cette nuit-là, l'a fait aussi, en silence. | | -flag:obj_voeu_occasion coe+1 |
+* pnu_02b coe10 | Faire une bulle vers l'étoile, au cas où | La bulle monte, et éclate juste sous l'étoile filante. Elle ne dit rien. Elle brille, c'est tout. Autour de toi, quelques-uns font des bulles aussi, avec leur bouche, pour essayer. | La bulle éclate tout de suite. L'étoile est déjà passée. | coe+1 |
+* pnu_02b | La regarder passer | Elle passe. Elle ne s'arrête pas. Les étoiles filantes ne s'arrêtent jamais. | |
+
+@pch_03b
+!title: Les panneaux
+Le long du chantier, des panneaux dorés sont plantés dans la poussière : « PORT DU CASQUE OBLIGATOIRE. » « INTERDIT DE PLEURER SUR LE CHANTIER. » « LA LUNE N'EST PAS UN TERRAIN DE JEU. » « BIENTÔT : VOTRE PISCINE AVEC VUE SUR RIEN. »
+Sous le dernier, quelqu'un a gratté dans la poussière, avec un doigt : « Elle dort. Marchez doucement. »
+* pch_01 | Avaler le panneau « Interdit de pleurer », pour comprendre ce que c'est | Tu l'avales. _Tu es un panneau. On t'a planté là pour dire ce qu'on n'a pas le droit de faire. Personne ne t'a demandé si tu étais d'accord. Toi, tu aurais bien pleuré._ Tu le recraches à l'envers, face contre la poussière. Plus personne ne peut le lire. | | coe+1 |
+* pch_01 coe10 | Ajouter, avec des bulles, un mot sous la phrase grattée | Tu poses une bulle dans la poussière, juste sous la phrase. Elle n'éclate pas. Elle reste là, ronde, avec un mot dedans : « Oui. » Les ouvriers qui passeront la verront. Ils marcheront doucement. | Ta bulle éclate en touchant la poussière. Il reste une petite tache mouillée, qui sèche. | coe+1 |
+
+@pmo_01b
+!title: Les planètes vendues
+Dans le couloir doré, des tableaux. Chacun montre une planète, avec une petite plaque dessous : « ACQUISE. » Une planète rouge avec des canaux. Une planète en forme de poire. Une planète toute petite, avec un arbre dessus.
+Quand tu passes devant la petite planète, l'arbre du tableau bouge. Il se penche vers toi. Il chuchote, en peinture : « Ils m'ont mis dans un cadre. Avant, j'avais un ciel. »
+* pmo_02 coe10 | Lui demander, en bulles, s'il veut que tu fasses quelque chose | L'arbre réfléchit. « Dis-lui. Au monsieur doré. Dis-lui qu'on était bien, avant, sans lui. Dis-lui que ce n'est pas méchant. C'est juste vrai. » Tu le retiens. Tu sais que ça ne servira peut-être à rien. Tu le retiens quand même. | L'arbre ne t'entend pas. Il est peint. Il retourne à son immobilité, en soupirant un peu de vert. | coe+1 |
+* pmo_02 | Passer devant les tableaux sans t'arrêter | Il y en a quarante. Tu ne les comptes pas. Tu les sens te regarder passer. | |
+
+@pcr_08b
+!title: Le contrôle
+La caisse s'arrête. Une voix métallique : « Contrôle des livraisons. Ouvrez. » La robote grise proteste : « C'est un cadeau. » La voix insiste. Le couvercle se soulève d'un centimètre. Un œil de vigile doré regarde dedans. Il voit un ours, un coffre, des cahiers. Et une limace grise avec une étiquette.
+* pcr_09 pan10 | Devenir transparent, vite, avant qu'il te voie | Tu retiens ton souffle. Tu disparais. L'œil passe sur toi sans s'arrêter. « Ours. Coffre. Cahiers. Conforme. » Le couvercle retombe. | Tu retiens ton souffle. Tu disparais à moitié. Le vigile voit une demi-limace. Il cligne. Il décide qu'il a trop travaillé. « Conforme. » | |
+* pcr_09 | Ne pas bouger, et faire semblant d'être une peluche | Tu ne bouges pas. Tu fais une tête de peluche. Le vigile regarde longtemps. « Peluche limace. Bizarre. Conforme. » | |
+
+@pcr_09b
+!title: La caisse voisine
+Dans l'ascenseur, à côté de ta caisse, il y en a une autre, plus petite. Elle chuchote. Tu colles ton bocal contre le velours. C'est un coucher de soleil, plié en huit, rangé là pour la collection du patron.
+« Tu sais où on va ? » dit le coucher de soleil. « Dans une vitrine. On m'a déjà mis dans une vitrine, une fois. On ne m'ouvre jamais. Je suis plié depuis douze ans. J'ai des crampes. »
+* pcr_05 coe10 | Lui raconter, en bulles, le soleil de chez toi | Tes bulles éclatent contre sa caisse : la nuit des deux soleils, sur la Lyre, quand le ciel s'est trompé pendant une heure. Le coucher de soleil rit, tout bas. Il se déplie d'un pli, dans sa caisse, pour mieux écouter. | Tes bulles éclatent dans ton propre bocal. Le coucher de soleil n'entend rien. Il soupire en orange. | coe+1 |
+* pcr_05 | L'écouter se plaindre jusqu'en haut | Il se plaint. Ça lui fait du bien. Ça te fait passer le temps. | |
+
+@pcr_06b
+!title: La souris d'or
+Vers la fin de la nuit, quelque chose gratte la caisse. Un trou s'ouvre dans le velours. Une souris toute dorée passe la tête. Elle vit dans la réserve. Elle mange les feuilles d'or qui tombent du patron.
+« Encore un cadeau ? Il ne les ouvre jamais, tu sais. Il les met dans la salle. Il les regarde. C'est tout. » Elle renifle ton bocal. « Toi, tu as l'air vivant. Ça va le changer. »
+* pcr_10 coe10 | Lui demander, en bulles, comment il est, le patron | La souris réfléchit. « Il ne dort pas. Il compte. La nuit, il compte des choses. Des pièces, des planètes. Je crois qu'il attend d'arriver quelque part. » Elle hausse les épaules. « Il ne sait pas où. » Elle repart dans son trou. | La souris ne comprend pas les bulles. Elle les mange. Elle repart, un peu pétillante. | coe+1 |
+* pcr_10 | La laisser repartir | Elle repart. Le trou reste. Un peu d'air entre. Ça sent le café. | |
+
+# ---------------------------------------------------------------- DIALOGUES ET PAUSES
+
+@ply_04b
+!title: Une dernière question
+Bertille a déjà fait demi-tour. Elle revient, en marche arrière, ce que les comètes détestent.
+« J'ai oublié de vous demander. Vous voulez que je prévienne quelqu'un ? Que vous partez ? Je fais aussi les avis de départ. »
+Tu réfléchis. Il n'y a personne à prévenir. Il n'y a jamais eu personne.
+* ply_05 coe9 | Lui demander de prévenir la Lyre elle-même | Bertille te regarde, puis regarde les cordes de lumière. Elle sort un formulaire. Elle écrit : « Destinataire : la Lyre. Message : Ploum est parti. Il revient. » Elle l'accroche à la corde la plus haute. La Lyre joue une note. Bertille repart, très émue, en se mouchant dans sa queue. | Bertille ne comprend pas tes bulles. Elle écrit « RAS » sur son formulaire et repart. Ce n'est pas faux. | coe+1 |
+* ply_05 | Lui dire, d'une bulle, qu'il n'y a personne | « Personne ? » Elle reste un moment immobile, ce qui chez une comète est presque impoli. « Alors je préviendrai personne. Ça fera toujours un avis de plus. » | |
+
+@plu_05c
+!title: Gontran, en privé
+Après la photo, Gontran t'entraîne derrière la tribune. Il s'éponge le front. Il a l'air beaucoup moins sûr de lui, sans public.
+« Entre nous, Monsieur l'enquêteur. Vous croyez qu'il pense quelque chose ? » Il montre le caillou, sur son coussin. « Quarante ans que je traduis. Je n'ai jamais rien entendu. Je fais de mon mieux. Je dis ce qu'un président dirait. »
+* plu_06 coe10 | Regarder le caillou fort, avec tes trois yeux, pour voir s'il pense | Tu le regardes. Il ne flotte pas, cette fois. Mais tu sens quelque chose, comme une très vieille patience, tiède, au fond de la pierre. Tu fais une bulle à Gontran : « Il. Pense. » Gontran s'assoit sur une marche. « Ah. » Il a l'air soulagé et terrifié en même temps. | Tu le regardes. Tu ne sens rien. Gontran hoche la tête, déçu, et un peu rassuré. « Moi non plus. On est deux. » | coe+1 |
+* plu_06 | Lui faire une bulle : « Con. Ti. Nuez. » | Gontran se redresse. Il remet son nœud papillon droit. « Vous avez raison. Quelqu'un doit parler. » Il retourne vers la tribune, en parlant déjà. | |
+
+@pcm_03c
+!title: La robote grise
+Devant la tente dorée, une robote grise attend, très droite, un tampon à la main, un carnet dans l'autre. Elle relit une liste. Elle a l'air de quelqu'un qui fait les courses pour un autre et qui a peur de se tromper.
+Elle te voit. Elle baisse les yeux vers ton bocal. « Vous venez pour la vente ? Moi aussi. Je n'achète rien pour moi. Je n'ai besoin de rien. »
+~pardon: Pardon se cache derrière toi. « Pardon. C'est l'assistante de Monsieur. Elle ne m'a jamais vu. Personne ne me voit. Pardon. »
+* pcm_04 coe10 | Lui demander, en bulles, pour qui elle achète | Elle hésite. « Pour Monsieur. Il ne sait pas. Ce sont des choses à lui. Des choses de quand il était petit. Quelqu'un les a vendues, il y a longtemps. Je les rachète. » Elle range son carnet. « Ne lui dites pas. Il ne veut jamais rien de petit. » | Elle regarde tes bulles éclater. « Je ne parle pas le bulle. » Elle entre dans la tente. | coe+1 |
+* pcm_04 | La laisser entrer devant toi | Elle entre. Elle se retourne, une seconde, comme pour te remercier. Elle ne le fait pas. Elle n'a pas l'habitude. | |
+
+@pso_07b
+!title: Les rêves de la Somnambule
+La Somnambule te raccompagne entre les lits. Elle marche les yeux fermés, sans rien heurter.
+« Moi, avant, je rêvais de la mer. Tous les soirs. Une mer qui montait jusqu'à ma fenêtre et qui me disait bonsoir. Depuis la vente, je rêve d'une baignoire vide. » Elle sourit, les yeux toujours fermés. « Ce n'est pas un cauchemar. C'est pire. C'est petit. »
+~brume: Brume-Lucie s'enroule autour du bras de la Somnambule. Elles se connaissent, on dirait. « Tante... »
+* pso_08 coe10 | Lui proposer, en bulles, de lui faire flotter un peu de mer, pour cette nuit | Tu ne sais pas si tu peux. Tu regardes fort la cruche d'eau sur la table de nuit. L'eau monte, fait une petite vague, et se repose. La Somnambule l'entend. Elle ouvre les yeux, pour la première fois. « Une vague. » Elle les referme. Elle dormira mieux. | L'eau de la cruche monte, et se renverse sur l'oreiller. La Somnambule rit. « C'est déjà mieux qu'une baignoire vide. » | coe+1 |
+* pso_08 | La remercier, d'une bulle, et partir | La bulle éclate à son oreille : « Mer. Ci. » Elle te fait au revoir dans la mauvaise direction, comme toujours. | |
+
+@pct_05b
+!title: Le capitaine Grisaille
+La mouette descend de son mât et se pose à côté de toi, sur le sable. Elle enlève sa casquette. Elle a l'air plus petite, sans.
+« Vous savez ce qui est drôle ? J'ai passé ma vie à chercher la Lune dans les nuages. Je ne l'ai jamais regardée en face. Et maintenant qu'elle part, je ne regarde qu'elle. » Elle se gratte sous l'aile. « On est bête, quand on est capitaine. »
+~bartho: Bartholomé salue la mouette d'un doigt. « Grisaille. » « Vasequeuse. » Ils se connaissent depuis quarante ans. Ils ne se sont jamais rien dit de plus.
+* pct_06 coe10 | Lui dire, en bulles, que toi aussi tu as traversé tout le ciel pour elle | La mouette te regarde longtemps. « Tout le ciel ? Pour une voix ? » Elle remet sa casquette. « Alors on n'est pas deux à être bêtes. Ça console. » | Tes bulles éclatent dans le vent. La mouette les regarde partir vers le large. « Elles vont loin, vos mots. Plus loin que moi. » | coe+1 |
+* pct_06 | Regarder la Lune avec elle, sans rien dire | Vous la regardez. Une mouette et une limace, sur une plage sans mer. Personne ne vous voit. C'est très bien. | |
+
+@pha_04b
+!title: Les mers de Dame Ondée
+La pluie tombe toujours, fine, vers la Terre. Dame Ondée flotte au-dessus de toi, plus légère.
+« Vous savez, je connais toutes les mers par leur prénom. La Méditerranée s'appelle Rose. La mer du Nord s'appelle Gérard. Il est grognon. La petite mer derrière le phare s'appelle Perle. C'est moi qui l'ai remplie, il y a dix mille ans. » Elle frissonne. « Si la Lune part, elles n'auront plus personne pour leur dire bonne nuit. »
+* pha_05 coe10 | Lui demander, en bulles, le prénom de la Lune | Dame Ondée réfléchit très longtemps. « Elle n'en a pas. Personne ne lui en a jamais donné. On l'appelle la Lune, comme on dit la table. » Elle a l'air bouleversée par sa propre réponse. « Il faudrait lui en trouver un. Avant qu'elle parte. » | Tes bulles se mélangent à la pluie. Dame Ondée croit que tu pleures, toi aussi. Elle pleut un peu plus fort, par solidarité. | coe+1 |
+* pha_05 | L'écouter réciter les prénoms des mers | Elle les récite, toutes. Il y en a quatre cents. Ça prend le temps d'une averse. À la fin, tu connais Gérard. Il a l'air sympathique, au fond. | |
+
+@pnu_00d
+!title: L'enfant, la nuit
+Au milieu de la nuit, l'enfant Lichenaute arrive enfin au feu. Il est parti ce matin pour te rejoindre. Il s'assoit à côté de toi, très lentement, et met une heure à trouver la bonne position.
+Il regarde la Lune. Puis toi. Il ouvre la bouche. Tu attends. « Elle... a... vu... mon... dessin ? »
+?flag:obj_dessin_lune ?!flag:pm_dessin_rendu Tu ne l'as pas encore donné. Tu l'as encore, dans ton bocal.
+* pnu_01 ?flag:obj_dessin_lune | Lui montrer le dessin, dans ton bocal, et lui faire signe que tu l'apporteras demain | Il regarde son dessin à travers la vitre. Il met longtemps à comprendre. Puis il sourit, à la vitesse des Lichenautes : ça commence par les yeux et ça finit vers l'aube. | | coe+1 |
+* pnu_01 coe10 | Lui faire une bulle : « Pas. En. Co. Re. » | La bulle éclate devant lui. Il hoche la tête, une fois, en dix minutes. « Pas... encore... c'est... bien. » Il s'endort contre toi. | La bulle éclate trop vite. Il ne l'a pas lue. Il s'endort quand même, contre toi, en attendant la réponse. | coe+1 |
+* pnu_01 | Le laisser s'endormir contre toi | Il s'endort. Il est vert, mousseux, tiède. Tu ne bouges plus jusqu'au matin. | |
+
+@pmo_02b
+!title: La baie vitrée
+Au bout de la galerie, une baie vitrée. Derrière, la Lune, si proche que tu pourrais la toucher, si tu avais des mains. Elle est grise, et douce, et un peu sale, comme quelqu'un qui a dormi habillé.
+Tu colles ton bocal contre la vitre. Ça fait toc. Elle ne se réveille pas.
+?flag:pm_appel Tu sais ce qu'elle dit. Elle le dit encore, tout bas. Elle le dira jusqu'à l'aube.
+?!flag:pm_appel Tu sens sa voix à travers la vitre, dans le verre. Toujours la même phrase. Tu ne la comprends toujours pas.
+~pardon: Pardon colle son petit visage contre la vitre, à côté de toi. « Pardon. Elle est belle de près. On ne me laissait pas regarder. »
+~ondee: Dame Ondée, dehors, s'est posée contre la vitre. De l'intérieur, on dirait que la Lune a un nuage sur l'épaule.
+* pmo_03 | Rester un moment contre la vitre | Tu restes. Tu respires. Elle respire. Pendant une minute, vous respirez ensemble, au même rythme, de chaque côté du verre. | | coe+1 |
+* pmo_03 | Te détourner, et aller vers le bureau | Plus tu la regardes, moins tu as envie de faire autre chose. Il faut faire autre chose. | |

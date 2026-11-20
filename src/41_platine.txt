@@ -53,8 +53,8 @@ Le crochet tient. Le câble se tend. La Lune commence à bouger, de côté, comm
 Sur ton bureau, un écran que Krâmm a fait installer affiche un chiffre : « Équilibre de la Terre ». Il baisse. Tu ne sais pas ce que c'est. Tu demandes à Zéphyrin. Il dit que c'est un indicateur technique. Il ne te regarde pas en le disant.
 Le soir, tu regardes la Terre par la baie vitrée. Sur la face nocturne, des milliers de petites lumières s'allument. Des feux. Partout.
 ~penelope: Pénélope pose une tasse de thé sur ton bureau sans rien dire. Elle pose toujours le thé sans rien dire. Ce soir, tu remarques qu'elle tremble.
-* pla_06b coe9 | Te demander ce que pensent les gens d'en bas | Tu te le demandes. C'est la première fois. La question est si nouvelle qu'elle te fait mal à la tête. Tu décides d'aller voir. Incognito. | Tu te le demandes, puis tu as peur de la réponse. Tu décides quand même d'aller voir. Incognito, pour qu'on ne te réponde pas en face. | coe+1 |
-* pla_06b rus9 | Décider d'étudier le marché toi-même | « Un bon promoteur visite toujours le terrain », dis-tu à Zéphyrin. Il pâlit. « En bas ? Vous ? » Tu as déjà ton chapeau. | « Un bon promoteur visite le terrain », dis-tu. Zéphyrin te supplie de n'en rien faire. Tu y vas quand même, par contrariété. | rus+1 |
+* pla_06a coe9 | Te demander ce que pensent les gens d'en bas | Tu te le demandes. C'est la première fois. La question est si nouvelle qu'elle te fait mal à la tête. Tu décides d'aller voir. Incognito. | Tu te le demandes, puis tu as peur de la réponse. Tu décides quand même d'aller voir. Incognito, pour qu'on ne te réponde pas en face. | coe+1 |
+* pla_06a rus9 | Décider d'étudier le marché toi-même | « Un bon promoteur visite toujours le terrain », dis-tu à Zéphyrin. Il pâlit. « En bas ? Vous ? » Tu as déjà ton chapeau. | « Un bon promoteur visite le terrain », dis-tu. Zéphyrin te supplie de n'en rien faire. Tu y vas quand même, par contrariété. | rus+1 |
 
 # ---------------------------------------------------------------- LA TERRE, INCOGNITO
 
@@ -102,7 +102,7 @@ Tu te réveilles au bord de la route. L'aube n'est pas encore là. La Lune, au-d
 ?comp:pistil Pistil s'étire. Il regarde le monde éveillé avec des yeux énormes. « C'est donc ça. C'est très net. » Il te tient par un fil de ton costume, pour ne pas se perdre.
 ?comp:pistil ?comp:ondine Ondine regarde Pistil, puis toi. « D'où il sort, celui-là ? » Pistil répond : « D'un rêve. » Ondine trouve ça normal. Les Marégraves ont vu pire.
 ~pistil: Pistil chuchote, pour toi seul : « Je ne dirai rien. Mais je regarde. »
-* plt_hub | Reprendre la route | Tu te lèves. Tes feuilles d'or sont couvertes de rosée. Ça ne t'était jamais arrivé. Dans un coffre, il n'y a pas de rosée. | |
+* plt_nuit3 | Reprendre la route | Tu te lèves. Tes feuilles d'or sont couvertes de rosée. Ça ne t'était jamais arrivé. Dans un coffre, il n'y a pas de rosée. | |
 
 # ---------------------------------------------------------------- LES CÔTES
 
@@ -121,8 +121,8 @@ En haut du phare, une Marégrave de deux mètres douze, debout par habitude et p
 « Vous êtes d'Aldébaran ? » Elle a vu tes feuilles d'or. « Vous connaissez ce Platine ? »
 Tu dis que non. C'est ton premier mensonge depuis des années. Tu es étonné qu'il soit si facile.
 « C'est ma dix mille neuf cent cinquante et unième lettre à la Lune », dit-elle. « Elle n'a jamais répondu. Elle est timide. Maintenant, je ne sais plus à quelle adresse écrire. »
-* plt_cot3 coe9 | Lui demander de te lire une lettre | Elle te lit la première, écrite à huit ans. « Chère Lune, est-ce que tu as froid, la nuit ? Moi oui. On pourrait avoir froid ensemble. » Tu ne dis rien. Tu as froid, d'un coup, toi aussi. Tu as toujours eu froid. | Elle hésite, puis refuse. « Elles sont à elle, pas à vous. » Elle a raison. Tu as acheté la Lune, pas ses lettres. Enfin, si. Mais tu ne le dis pas. | +flag:pl_emo_lettres coe+1 |
-* plt_cot3 rus9 | Lui dire que là-bas, sur Aldébaran, la Lune sera bien traitée | « Bien traitée ? » Elle te regarde comme on regarde quelqu'un qui confond une maison et une cage. « Elle avait des lettres. Vous lui donnerez quoi ? Des piscines ? » | Elle ne répond pas. Elle se remet à écrire, en appuyant si fort que le papier se mouille. | |
+* plt_cot3b coe9 | Lui demander de te lire une lettre | Elle te lit la première, écrite à huit ans. « Chère Lune, est-ce que tu as froid, la nuit ? Moi oui. On pourrait avoir froid ensemble. » Tu ne dis rien. Tu as froid, d'un coup, toi aussi. Tu as toujours eu froid. | Elle hésite, puis refuse. « Elles sont à elle, pas à vous. » Elle a raison. Tu as acheté la Lune, pas ses lettres. Enfin, si. Mais tu ne le dis pas. | +flag:pl_emo_lettres coe+1 |
+* plt_cot3b rus9 | Lui dire que là-bas, sur Aldébaran, la Lune sera bien traitée | « Bien traitée ? » Elle te regarde comme on regarde quelqu'un qui confond une maison et une cage. « Elle avait des lettres. Vous lui donnerez quoi ? Des piscines ? » | Elle ne répond pas. Elle se remet à écrire, en appuyant si fort que le papier se mouille. | |
 
 @plt_cot3
 Ondine plie sa lettre. « Je vais monter là-haut. Il paraît que des gens se rassemblent au Carrefour, pour aller la chercher. » Elle te regarde. « Vous avez l'air de savoir comment on monte, vous. »
@@ -145,8 +145,8 @@ Devant toi, une vieille Horlogère tend des tracts : « SOUSCRIPTION NATIONALE P
 Sous-sol moins quatre. Un bureau, une tasse de rosée froide, et un Lichenaute, une mousse grise de trois cent douze ans, qui fixe un papier carbone. Basile Grumeau, greffier. Il est rapide pour un lichen : une phrase par minute.
 « Ma... signature », dit-il, sans lever les yeux. « Elle pousse... encore. Sur l'acte de vente. Basile Gru... Il manque... quelques jours. J'ai vendu... la Lune. Sans le savoir. »
 Il lève les yeux vers toi. Il voit un Aldébaranien. Il ne sait pas lequel. « Vous... êtes de chez lui ? »
-* plt_cap3 coe10 | « Je suis... du service des réclamations. » | Basile te croit. Personne ne ment, au Cadastre, à part les formulaires. Il te tend le carbone. « Alors... réclamez. » Tu regardes ta propre vente, de l'autre côté du guichet. | Basile te regarde longtemps. « Vous... mentez. Je ne sais pas... sur quoi. Mais vous mentez... lentement. Comme nous. » | +flag:pl_emo_signature |
-* plt_cap3 rus10 | « Que se passerait-il si votre signature ne finissait jamais de pousser ? » | Basile réfléchit, pendant cinq minutes. « L'acte... ne serait pas... signé. » Il te regarde, étonné. « Pourquoi... un Aldébaranien... me dit ça ? » Tu ne sais pas. La phrase est sortie toute seule. | Basile ne comprend pas la question. Toi non plus, en fait. | +flag:pl_basile_idee |
+* plt_cap3b coe10 | « Je suis... du service des réclamations. » | Basile te croit. Personne ne ment, au Cadastre, à part les formulaires. Il te tend le carbone. « Alors... réclamez. » Tu regardes ta propre vente, de l'autre côté du guichet. | Basile te regarde longtemps. « Vous... mentez. Je ne sais pas... sur quoi. Mais vous mentez... lentement. Comme nous. » | +flag:pl_emo_signature |
+* plt_cap3b rus10 | « Que se passerait-il si votre signature ne finissait jamais de pousser ? » | Basile réfléchit, pendant cinq minutes. « L'acte... ne serait pas... signé. » Il te regarde, étonné. « Pourquoi... un Aldébaranien... me dit ça ? » Tu ne sais pas. La phrase est sortie toute seule. | Basile ne comprend pas la question. Toi non plus, en fait. | +flag:pl_basile_idee |
 
 @plt_cap3
 Basile range son carbone. « Je vais... monter au Carrefour. Rendre... ce que j'ai vendu. Si c'est... possible. »

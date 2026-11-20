@@ -21,17 +21,17 @@ Sur le coussin, il y a toi.
 Tu es le Président de la Terre. Tu es un galet gris clair, lisse d'un côté, un peu rugueux de l'autre. On t'a élu il y a huit cents ans parce que tu n'avais jamais rien dit de faux. Tu n'as jamais rien dit du tout. C'est une qualité qu'on ne trouve plus.
 Tu as un nom. Tu le connais. Tu es le seul. Personne ne te l'a jamais demandé, et tu n'as jamais eu l'occasion de le dire. Alors on t'appelle Monsieur le Président.
 Il est six heures du matin. La porte s'ouvre. C'est l'heure du chiffon.
-* gpa_02 | Penser : « Bonjour, Anselme. » | Tu le penses tous les matins depuis soixante ans. Personne ne l'entend. Ça ne t'empêche pas d'être poli. | |
-* gpa_02 | Penser à ton nom, une fois, pour ne pas l'oublier | Tu le penses, en entier. Il est long, rond et lent, comme une rivière qui a pris son temps. Personne ne l'a jamais entendu. Il est à toi. | |
-* gpa_02 | Ne rien penser, et attendre le chiffon | Tu attends. Tu sais attendre. Tu as attendu des siècles. Six heures et une minute, ça va. | |
+* gpa_01b | Penser : « Bonjour, Anselme. » | Tu le penses tous les matins depuis soixante ans. Personne ne l'entend. Ça ne t'empêche pas d'être poli. | |
+* gpa_01b | Penser à ton nom, une fois, pour ne pas l'oublier | Tu le penses, en entier. Il est long, rond et lent, comme une rivière qui a pris son temps. Personne ne l'a jamais entendu. Il est à toi. | |
+* gpa_01b | Ne rien penser, et attendre le chiffon | Tu attends. Tu sais attendre. Tu as attendu des siècles. Six heures et une minute, ça va. | |
 
 @gpa_02
 !title: Le chiffon
 Anselme est ton valet de pied. C'est un vieil Horloger de laiton, à ressort, qui fait tic quand il marche et tac quand il s'arrête. Il te sert depuis soixante ans. Tous les matins, il te soulève, il te frotte avec un chiffon de laine, et il te repose sur le coussin, le côté lisse vers la fenêtre.
 Il est le seul, dans tout le Palais, qui te parle à toi, et pas à ta place.
 « Bonjour, Monsieur le Président. Bien dormi ? Moi non plus. » Il frotte. « Il se passe des choses bizarres, dehors. La mer a oublié de monter, hier soir, à Grève-Molle. Et la Lune... vous avez vu la Lune ? »
-* gpa_03 coe8 | Penser très fort à la fenêtre | Anselme, sans savoir pourquoi, te repose un peu de travers, le côté lisse tourné vers la vitre. Dehors, au-dessus des toits de Tamponville, la Lune. Elle est énorme, ce matin, et basse, et il y a quelque chose de doré planté dedans, qui brille. | Anselme te repose comme tous les jours, le côté lisse vers le mur. Tu regardes le mur. Tu le connais par cœur. Il y a une fissure qui ressemble à une rivière. | +flag:p_vu_crochet |
-* gpa_03 | Penser : « Racontez-moi, Anselme. » | Anselme ne t'entend pas. Mais il raconte quand même, parce qu'il raconte toujours. Les horloges de la ville retardent. Les tampons du Cadastre sèchent mal. Sa femme a rêvé qu'elle tombait vers le haut. | |
+* gpa_02b coe8 | Penser très fort à la fenêtre | Anselme, sans savoir pourquoi, te repose un peu de travers, le côté lisse tourné vers la vitre. Dehors, au-dessus des toits de Tamponville, la Lune. Elle est énorme, ce matin, et basse, et il y a quelque chose de doré planté dedans, qui brille. | Anselme te repose comme tous les jours, le côté lisse vers le mur. Tu regardes le mur. Tu le connais par cœur. Il y a une fissure qui ressemble à une rivière. | +flag:p_vu_crochet |
+* gpa_02b | Penser : « Racontez-moi, Anselme. » | Anselme ne t'entend pas. Mais il raconte quand même, parce qu'il raconte toujours. Les horloges de la ville retardent. Les tampons du Cadastre sèchent mal. Sa femme a rêvé qu'elle tombait vers le haut. | |
 
 @gpa_03
 !title: La Gazette du Cadastre
@@ -59,18 +59,18 @@ Anselme baisse les yeux et sort, tic, tac.
 La Salle des Audiences. Une longue file de citoyens attend depuis l'aube pour voir le Président. Gontran te pose sur un petit coussin, sur une table, entre un verre d'eau et une sonnette.
 La première à s'avancer est une vieille Marégrave, faite d'eau de mer, qui tient son bonnet dans ses mains. « Monsieur le Président. Je suis pêcheuse à Grève-Molle. La mer n'est pas montée, hier soir. Ni ce matin. Mes filets sont dans le sable. Qu'est-ce qu'on fait ? »
 Gontran se penche vers toi, comme pour écouter. Il n'écoute pas.
-* gpa_06 | Penser : « Je suis désolé. Je vais chercher pourquoi. » | Gontran traduit : « Le Président vous conseille de pêcher dans le sable ! » La vieille Marégrave le regarde. Elle te regarde. Elle repart sans un mot. Elle a l'air de quelqu'un qui reviendra. | | +flag:p_aud_peche |
-* gpa_06 | Penser : « La mer suit la Lune. Regardez la Lune. » | Gontran traduit : « Le Président vous souhaite un bon appétit ! » La Marégrave fronce les sourcils. Puis, sans savoir pourquoi, en sortant, elle lève les yeux vers la Lune, par la fenêtre. Elle s'arrête. Elle a vu la chose dorée. | | +flag:p_aud_peche +flag:p_aud_lune |
-* gpa_06 | Ne rien penser, et la regarder | Tu la regardes. Gontran traduit ton silence : « Le Président est profondément ému ! » C'est vrai, pour une fois. Mais ce n'est pas lui qui le sait. | | +flag:p_aud_peche |
+* gpa_05b | Penser : « Je suis désolé. Je vais chercher pourquoi. » | Gontran traduit : « Le Président vous conseille de pêcher dans le sable ! » La vieille Marégrave le regarde. Elle te regarde. Elle repart sans un mot. Elle a l'air de quelqu'un qui reviendra. | | +flag:p_aud_peche |
+* gpa_05b | Penser : « La mer suit la Lune. Regardez la Lune. » | Gontran traduit : « Le Président vous souhaite un bon appétit ! » La Marégrave fronce les sourcils. Puis, sans savoir pourquoi, en sortant, elle lève les yeux vers la Lune, par la fenêtre. Elle s'arrête. Elle a vu la chose dorée. | | +flag:p_aud_peche +flag:p_aud_lune |
+* gpa_05b | Ne rien penser, et la regarder | Tu la regardes. Gontran traduit ton silence : « Le Président est profondément ému ! » C'est vrai, pour une fois. Mais ce n'est pas lui qui le sait. | | +flag:p_aud_peche |
 
 @gpa_06
 !title: La deuxième audience
 Ensuite s'avance une toute petite Gravitaire, une enfant de granit à peine plus haute que la table, qui tient une boîte à chaussures. Elle l'ouvre devant toi. Dedans, des cailloux. Des dizaines. Bien rangés.
 « C'est ma collection, Monsieur le Président. Je voulais vous demander... est-ce que vous avez une famille ? Parce que celui-là, il vous ressemble. » Elle te montre un petit galet gris avec une tache blanche.
 ?comp:gontran Gontran sourit, attendri, et prépare déjà sa traduction.
-* gpa_07 | Penser : « J'ai eu un neveu. On me l'a pris il y a longtemps. » | Gontran traduit : « Le Président vous offre une médaille ! » Il en sort une de sa sacoche, en chocolat, et la lui donne. La petite Gravitaire mange la médaille, déçue. Elle ne saura jamais que tu as un neveu. Toi, tu y penses toute la matinée. | | +flag:p_pense_neveu |
-* gpa_07 | Penser : « Ils sont très beaux. Gardez-les bien. » | Gontran traduit : « Le Président réquisitionne votre collection pour le musée national ! » La petite Gravitaire serre sa boîte, terrifiée, et s'enfuit en courant. Les cailloux s'entrechoquent dans la boîte comme une petite pluie. | |
-* gpa_07 coe9 | Penser, très fort, vers la boîte : « Bonjour. » | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Mais dans la boîte, les cailloux, eux, ont entendu. Pas des mots : une vibration. La petite Gravitaire sent sa boîte frémir dans ses mains. Elle te regarde, les yeux ronds. Elle a compris quelque chose que personne ne comprend. | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Les cailloux de la boîte ne bougent pas. Ils dorment. La plupart des cailloux dorment. | +flag:p_aud_vibre |
+* gpa_06b | Penser : « J'ai eu un neveu. On me l'a pris il y a longtemps. » | Gontran traduit : « Le Président vous offre une médaille ! » Il en sort une de sa sacoche, en chocolat, et la lui donne. La petite Gravitaire mange la médaille, déçue. Elle ne saura jamais que tu as un neveu. Toi, tu y penses toute la matinée. | | +flag:p_pense_neveu |
+* gpa_06b | Penser : « Ils sont très beaux. Gardez-les bien. » | Gontran traduit : « Le Président réquisitionne votre collection pour le musée national ! » La petite Gravitaire serre sa boîte, terrifiée, et s'enfuit en courant. Les cailloux s'entrechoquent dans la boîte comme une petite pluie. | |
+* gpa_06b coe9 | Penser, très fort, vers la boîte : « Bonjour. » | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Mais dans la boîte, les cailloux, eux, ont entendu. Pas des mots : une vibration. La petite Gravitaire sent sa boîte frémir dans ses mains. Elle te regarde, les yeux ronds. Elle a compris quelque chose que personne ne comprend. | Gontran traduit : « Le Président a soif ! » et boit ton verre d'eau. Les cailloux de la boîte ne bougent pas. Ils dorment. La plupart des cailloux dorment. | +flag:p_aud_vibre |
 
 @gpa_07
 !title: La troisième audience
@@ -95,18 +95,18 @@ Gontran l'ouvre, le lit, pâlit, le relit, et le pose sur toi, comme si tu pouva
 « DE : COMPAGNIE FONCIÈRE D'ALDÉBARAN. À : CHEF DE L'ÉTAT TERRESTRE. OBJET : LIVRAISON DE LA LUNE, ACQUISE LÉGALEMENT. LE CROCHET EST POSÉ. DÉPART DÉFINITIF DANS QUELQUES JOURS. SIGNÉ : HUISSIER KRÂMM, POUR MONSIEUR GÉDÉON PLATINE. »
 ?flag:p_lampadaire Le lampadaire céleste numéro un. La Lune. Tu as été tamponné dessus, par délégation, sans le savoir.
 ?flag:p_vu_crochet La chose dorée plantée dans la Lune, ce matin. C'était un crochet.
-* gpa_10 | Penser : « Il faut faire quelque chose. » | Gontran traduit, d'une voix tremblante : « Le Président convoque une conférence de presse ! » C'est déjà quelque chose. Ce n'est pas ce que tu voulais. | |
-* gpa_10 | Penser : « C'est ma faute. Mon tampon est dessus. » | Gontran traduit : « Le Président n'y est pour rien ! » C'est faux. C'est la première fois que quelqu'un dit quelque chose de faux à ta place sur une chose aussi grave. Tu deviens un peu plus gris. | | +flag:p_remords |
-* gpa_10 | Penser : « Pauvre Lune. » | Gontran traduit : « Le Président a faim ! » On t'apporte un beignet, avec respect. Tu ne manges pas. Le beignet refroidit à côté de toi comme un conseiller. | | +flag:p_beignet |
+* gpa_09b | Penser : « Il faut faire quelque chose. » | Gontran traduit, d'une voix tremblante : « Le Président convoque une conférence de presse ! » C'est déjà quelque chose. Ce n'est pas ce que tu voulais. | |
+* gpa_09b | Penser : « C'est ma faute. Mon tampon est dessus. » | Gontran traduit : « Le Président n'y est pour rien ! » C'est faux. C'est la première fois que quelqu'un dit quelque chose de faux à ta place sur une chose aussi grave. Tu deviens un peu plus gris. | | +flag:p_remords |
+* gpa_09b | Penser : « Pauvre Lune. » | Gontran traduit : « Le Président a faim ! » On t'apporte un beignet, avec respect. Tu ne manges pas. Le beignet refroidit à côté de toi comme un conseiller. | | +flag:p_beignet |
 
 @gpa_10
 !title: La conférence de presse
 Le grand escalier du Cadastre. Des journalistes de toutes les espèces : une taupe myope avec un carnet, trois pies, un Gravitaire avec un appareil photo à manivelle. Gontran te brandit au-dessus de sa tête.
 « Le Président va parler ! »
 Silence. Tout le monde attend. Les flashs crépitent sur ta face lisse.
-* gpa_11 | Penser : « Peuple de la Terre, on nous a volé la Lune. » | Gontran traduit : « Le Président annonce que tout va bien et qu'il fait beau ! » Les journalistes notent. Le lendemain, La Gazette titrera : « TOUT VA BIEN, DIT LE PRÉSIDENT. » Il ne fera pas beau. | |
-* gpa_11 | Penser : « Je ne sais pas quoi faire. » | Gontran bombe le torse : « Le Président a un plan ! Un plan secret ! » Les journalistes applaudissent. Personne ne demande lequel. Toi, tu aimerais bien le connaître, ce plan. | | +flag:p_plan |
-* gpa_11 coe10 | Ne rien penser du tout, pour une fois | Tu fais le vide. Gontran, lui, ne le fait jamais : « Le Président tient à serrer la main de chacun ! » Une file se forme. Pendant une heure, des journalistes serrent un galet. La taupe myope, en te serrant, murmure : « Il est froid d'un côté et chaud de l'autre. Comme quelqu'un qui pense. » Elle note ça dans son carnet. | Tu fais le vide. Gontran annonce que le Président tient à serrer la main de chacun. Une file se forme. Tu es très propre, après. | +flag:p_mains +flag:p_taupe | +flag:p_mains
+* gpa_10b | Penser : « Peuple de la Terre, on nous a volé la Lune. » | Gontran traduit : « Le Président annonce que tout va bien et qu'il fait beau ! » Les journalistes notent. Le lendemain, La Gazette titrera : « TOUT VA BIEN, DIT LE PRÉSIDENT. » Il ne fera pas beau. | |
+* gpa_10b | Penser : « Je ne sais pas quoi faire. » | Gontran bombe le torse : « Le Président a un plan ! Un plan secret ! » Les journalistes applaudissent. Personne ne demande lequel. Toi, tu aimerais bien le connaître, ce plan. | | +flag:p_plan |
+* gpa_10b coe10 | Ne rien penser du tout, pour une fois | Tu fais le vide. Gontran, lui, ne le fait jamais : « Le Président tient à serrer la main de chacun ! » Une file se forme. Pendant une heure, des journalistes serrent un galet. La taupe myope, en te serrant, murmure : « Il est froid d'un côté et chaud de l'autre. Comme quelqu'un qui pense. » Elle note ça dans son carnet. | Tu fais le vide. Gontran annonce que le Président tient à serrer la main de chacun. Une file se forme. Tu es très propre, après. | +flag:p_mains +flag:p_taupe | +flag:p_mains
 
 @gpa_11
 !title: Madame Épine
@@ -155,9 +155,9 @@ Sur l'acte, en bas, la signature du greffier qui l'a tamponné. Une signature de
 Et à côté, un petit galet dans un cercle. Ton tampon. Par délégation.
 ?flag:p_lampadaire Tu le savais déjà. Le voir, c'est autre chose.
 Pénélope sursaute en vous voyant. « Oh ! Le... le Président de la Terre ? Je... je viens chercher l'original. Pour Monsieur Platine. Il dit merci. Il m'appelle "ma chère". »
-* gpa_16 coe10 ?!comp:penelope | Penser : « Mademoiselle, vous n'êtes pas obligée de lui obéir. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope ouvre de grands yeux. Personne ne lui a jamais demandé son autographe. Elle tamponne « APPROUVÉ » sur le front de Gontran, puis elle se met à rire, pour la première fois de sa vie. Elle repose l'acte de vente sur l'étagère. « Je crois que je viens de démissionner. Je viens avec vous. Quelqu'un doit vérifier ce qu'il signe en votre nom. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope, troublée, tamponne « REFUSÉ » sur le front de Gontran, serre l'acte de vente contre elle et s'enfuit dans l'escalier. | +comp:penelope |
-* gpa_16 | Penser : « Ce tampon, ce n'est pas moi. » | Gontran traduit : « Le Président reconnaît sa signature avec émotion ! » Pénélope note, rassurée : « Signature reconnue. » Elle repart avec l'acte, à petits pas. | | +flag:p_reconnu |
-* gpa_16 | Ne rien penser, et la regarder hésiter | Elle hésite longtemps. Puis elle repart avec l'acte, à petits pas, en se retournant deux fois. | |
+* gpa_15b coe10 ?!comp:penelope | Penser : « Mademoiselle, vous n'êtes pas obligée de lui obéir. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope ouvre de grands yeux. Personne ne lui a jamais demandé son autographe. Elle tamponne « APPROUVÉ » sur le front de Gontran, puis elle se met à rire, pour la première fois de sa vie. Elle repose l'acte de vente sur l'étagère. « Je crois que je viens de démissionner. Je viens avec vous. Quelqu'un doit vérifier ce qu'il signe en votre nom. » | Gontran traduit : « Le Président vous demande un autographe ! » Pénélope, troublée, tamponne « REFUSÉ » sur le front de Gontran, serre l'acte de vente contre elle et s'enfuit dans l'escalier. | +comp:penelope |
+* gpa_15b | Penser : « Ce tampon, ce n'est pas moi. » | Gontran traduit : « Le Président reconnaît sa signature avec émotion ! » Pénélope note, rassurée : « Signature reconnue. » Elle repart avec l'acte, à petits pas. | | +flag:p_reconnu |
+* gpa_15b | Ne rien penser, et la regarder hésiter | Elle hésite longtemps. Puis elle repart avec l'acte, à petits pas, en se retournant deux fois. | |
 
 @gpa_16
 !title: Le mur du Cadastre
@@ -208,7 +208,7 @@ Dans le noir, Gontran ne parle plus. C'est la première fois de la journée. Tu 
 Le train ralentit. Par la vitre, une plaine immense, couverte de tentes, de fumées, de drapeaux de toutes les espèces. Au milieu, une grande tribune de bois. Et au-dessus de tout, la Lune, si basse qu'on voit le crochet d'or planté dans sa poussière.
 Gontran se recoiffe, se mouche, se redresse. Il redevient lui-même. « Monsieur le Président. Nous y sommes. Le Carrefour des Espèces. Vous n'aurez rien à dire. Comme d'habitude. »
 ?flag:p_gontran_peur Il ne parle pas du tunnel. Toi non plus. Vous avez ça en commun, maintenant.
-* gal_01 | Descendre du train, dans la poche | Le quai sent la vapeur, la foule et l'herbe mouillée. | |
+* gtr_03b | Descendre du train, dans la poche | Le quai sent la vapeur, la foule et l'herbe mouillée. | |
 
 # ---------------------------------------------------------------- ACTE II : LE CARREFOUR
 
@@ -282,10 +282,10 @@ Le banc est une vieille pierre. Au bout, une petite tache de lichen orange, à l
 ?flag:p_dest_gpr La tournée commence par les Profondeurs. Gontran a choisi. Il choisit toujours.
 ?flag:p_dest_gfo La tournée commence par la Forêt. Gontran a choisi. Il choisit toujours.
 ?flag:p_dest_gnu La tournée commence par les Hauts-Nuages. Gontran a choisi. Il choisit toujours.
-* gco_01 ?flag:p_dest_gco | Partir pour les Côtes | On vous embarque dans une carriole qui sent le poisson. | |
-* gpr_01 ?flag:p_dest_gpr | Partir pour les Profondeurs | On vous embarque dans une carriole qui descend. | |
-* gfo_01 ?flag:p_dest_gfo | Partir pour la Forêt | On vous embarque dans une carriole qui sent la mousse. | |
-* gnu_01 ?flag:p_dest_gnu | Partir pour les Hauts-Nuages | On vous embarque dans un ascenseur à vapeur qui monte vers le ciel. | |
+* gal_route ?flag:p_dest_gco | Partir pour les Côtes | On vous embarque dans une carriole qui sent le poisson. | |
+* gal_route ?flag:p_dest_gpr | Partir pour les Profondeurs | On vous embarque dans une carriole qui descend. | |
+* gal_route ?flag:p_dest_gfo | Partir pour la Forêt | On vous embarque dans une carriole qui sent la mousse. | |
+* gal_route ?flag:p_dest_gnu | Partir pour les Hauts-Nuages | On vous embarque dans un ascenseur à vapeur qui monte vers le ciel. | |
 
 @gal_ret
 !title: Retour au Carrefour
@@ -353,10 +353,10 @@ Autour du feu, ceux qui t'ont suivi pendant la tournée. Personne ne sait ce qui
 ?comp:anatole Anatole a posé une Belle-de-Nuit fermée, dans un pot, au bord du feu. « Si elle s'ouvre cette nuit, c'est que la Lune est encore à nous. » Elle reste fermée. Il la regarde quand même.
 ?flag:obj_ballon Au bord de la plaine, la soie grise du ballon de Gaspard attend, pliée. On pourrait la gonfler au-dessus du feu. Il est assez grand.
 ?comps<=1 ?comp:gontran Il n'y a que Gontran et toi. Il te parle de sa mère, qui voulait qu'il soit avocat. Il dit que, d'une certaine façon, il plaide tous les jours. Tu ne l'avais jamais écouté. Tu l'écoutes.
-* gal_nuit1 ?comp:gontran | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président exige qu'on se couche tôt ! » Tout le monde rit, parce que tout le monde a compris autre chose, cette fois. | | mor+1 |
-* gal_nuit1 ?!comp:gontran ?comp:xanthin | Penser : « Merci d'être venus. » | Xanthin le dit, lentement, à chacun. Ça prend tout le temps du feu. Personne ne s'en plaint. | | mor+1 |
-* gal_nuit1 ?comp:xanthin | Penser : « Merci d'être venus. », mais seulement pour Xanthin | Xanthin le garde pour lui. Il pousse d'un demi-millimètre. Tu ne l'avais jamais vu pousser si vite. | | mor+1 |
-* gal_nuit1 | Regarder la Lune, sans rien penser | Elle est si basse qu'on voit ses cratères à l'œil nu, et la poussière blanche au bord des cratères. Elle ne sait pas que tu la regardes. Elle ne l'a jamais su. | |
+* gal_vei2 ?comp:gontran | Penser : « Merci d'être venus. » | Gontran traduit : « Le Président exige qu'on se couche tôt ! » Tout le monde rit, parce que tout le monde a compris autre chose, cette fois. | | mor+1 |
+* gal_vei2 ?!comp:gontran ?comp:xanthin | Penser : « Merci d'être venus. » | Xanthin le dit, lentement, à chacun. Ça prend tout le temps du feu. Personne ne s'en plaint. | | mor+1 |
+* gal_vei2 ?comp:xanthin | Penser : « Merci d'être venus. », mais seulement pour Xanthin | Xanthin le garde pour lui. Il pousse d'un demi-millimètre. Tu ne l'avais jamais vu pousser si vite. | | mor+1 |
+* gal_vei2 | Regarder la Lune, sans rien penser | Elle est si basse qu'on voit ses cratères à l'œil nu, et la poussière blanche au bord des cratères. Elle ne sait pas que tu la regardes. Elle ne l'a jamais su. | |
 
 @gal_renv
 !title: Comment renvoyer un interprète
@@ -390,10 +390,10 @@ Autour du feu, ceux qui t'ont suivi pendant la tournée. Personne ne sait ce qui
 ~echo: Écho répète les rires des enfants, en sourdine. Elle collectionne les voix. Celles-là, elle les garde.
 ~ondee: Dame Ondée flotte au-dessus des tentes. Elle ne pleut pas. Elle se retient, pour ne pas mouiller les gens qui dorment.
 ~anatole: Anatole tourne autour d'une lanterne, malgré lui, jusqu'à ce que quelqu'un l'éteigne par gentillesse.
-* gal_ret coe9 ?regions==1 | Penser à la petite : « Non. Rien ne va bien. Mais on essaie. » | Tu blanchis. La petite Horlogère le voit, à la lueur des lanternes. Elle déchire la première page de la Gazette, très soigneusement, et elle écrit au dos, au crayon : « Le Président dit que rien ne va bien, mais qu'on essaie. » Elle l'affiche sur un poteau. Le lendemain matin, il y a cinquante personnes devant le poteau. | La petite te regarde encore un moment, puis elle range la Gazette dans sa poche. Elle ne sait pas quoi penser. Toi non plus. | +flag:p_poteau mor+1 |
-* gal_ret ?regions==1 ?comp:gontran | Penser : « Gontran, ce n'est pas ce que j'ai pensé. » | Gontran lit la Gazette par-dessus l'épaule de la petite. « Excellent titre. Le Président est content. » Il en achète vingt exemplaires, pour les archives. | |
-* gal_ret ?regions==2 ?comp:xanthin ?comp:gontran | Penser : « Xanthin. Répondez-lui. Ce que je pense vraiment. » | Xanthin parle, pendant que Gontran parle aussi. Le perroquet n'écoute que le plus lent. Il note, mot à mot : « Le Président... a peur... pour la Lune. Il ne sait pas... quoi faire. Il voudrait... qu'on l'aide. » Le lendemain, la Gazette titre : « LE PRÉSIDENT : "AIDEZ-MOI." » Gontran ne la lit pas. Tout le Carrefour la lit. | | +flag:p_gazette_vraie mor+1 |
-* gal_ret ?regions==2 ?comp:gontran | Laisser Gontran répondre | Gontran répond. Le perroquet note tout, puis il ferme son carnet. « Je reposerai la question. Un autre jour. Au Président. » | |
-* gal_ret ?regions==2 ?!comp:gontran | Laisser le silence répondre | Il n'y a personne pour parler à ta place. Les journalistes attendent. Puis le perroquet note, très sérieusement : « Le Président n'a rien dit. Pour la première fois, personne n'a rien dit à sa place. » C'est le meilleur article de sa carrière. | | mor+1 |
-* gal_ret coe8 ?regions>=3 | Penser aux enfants : « C'est ça. Il faut deviner. » | Tu blanchis, du côté tourné vers le feu. La petite Marégrave le voit. Elle te montre du doigt : « Regardez ! Le vrai ! Il devient blanc ! » Les enfants viennent s'asseoir autour de toi, en silence, et ils essaient de deviner. Ils devinent « la Lune ». Ils ont raison. Ils ne le sauront jamais. Toi, si. | Les enfants ne te voient pas. Ils jouent jusqu'à ce qu'on les couche. Le petit caillou sur son mouchoir reste au bord du feu, à côté de toi. Vous êtes deux. | mor+1 |
-* gal_ret ?regions>=3 | Regarder les enfants jouer, sans rien penser | Ils jouent bien. Mieux que les grands. Ils savent qu'ils ne savent pas ce que pense un caillou. | |
+* gal_int2 coe9 ?regions==1 | Penser à la petite : « Non. Rien ne va bien. Mais on essaie. » | Tu blanchis. La petite Horlogère le voit, à la lueur des lanternes. Elle déchire la première page de la Gazette, très soigneusement, et elle écrit au dos, au crayon : « Le Président dit que rien ne va bien, mais qu'on essaie. » Elle l'affiche sur un poteau. Le lendemain matin, il y a cinquante personnes devant le poteau. | La petite te regarde encore un moment, puis elle range la Gazette dans sa poche. Elle ne sait pas quoi penser. Toi non plus. | +flag:p_poteau mor+1 |
+* gal_int2 ?regions==1 ?comp:gontran | Penser : « Gontran, ce n'est pas ce que j'ai pensé. » | Gontran lit la Gazette par-dessus l'épaule de la petite. « Excellent titre. Le Président est content. » Il en achète vingt exemplaires, pour les archives. | |
+* gal_int2 ?regions==2 ?comp:xanthin ?comp:gontran | Penser : « Xanthin. Répondez-lui. Ce que je pense vraiment. » | Xanthin parle, pendant que Gontran parle aussi. Le perroquet n'écoute que le plus lent. Il note, mot à mot : « Le Président... a peur... pour la Lune. Il ne sait pas... quoi faire. Il voudrait... qu'on l'aide. » Le lendemain, la Gazette titre : « LE PRÉSIDENT : "AIDEZ-MOI." » Gontran ne la lit pas. Tout le Carrefour la lit. | | +flag:p_gazette_vraie mor+1 |
+* gal_int2 ?regions==2 ?comp:gontran | Laisser Gontran répondre | Gontran répond. Le perroquet note tout, puis il ferme son carnet. « Je reposerai la question. Un autre jour. Au Président. » | |
+* gal_int2 ?regions==2 ?!comp:gontran | Laisser le silence répondre | Il n'y a personne pour parler à ta place. Les journalistes attendent. Puis le perroquet note, très sérieusement : « Le Président n'a rien dit. Pour la première fois, personne n'a rien dit à sa place. » C'est le meilleur article de sa carrière. | | mor+1 |
+* gal_int2 coe8 ?regions>=3 | Penser aux enfants : « C'est ça. Il faut deviner. » | Tu blanchis, du côté tourné vers le feu. La petite Marégrave le voit. Elle te montre du doigt : « Regardez ! Le vrai ! Il devient blanc ! » Les enfants viennent s'asseoir autour de toi, en silence, et ils essaient de deviner. Ils devinent « la Lune ». Ils ont raison. Ils ne le sauront jamais. Toi, si. | Les enfants ne te voient pas. Ils jouent jusqu'à ce qu'on les couche. Le petit caillou sur son mouchoir reste au bord du feu, à côté de toi. Vous êtes deux. | mor+1 |
+* gal_int2 ?regions>=3 | Regarder les enfants jouer, sans rien penser | Ils jouent bien. Mieux que les grands. Ils savent qu'ils ne savent pas ce que pense un caillou. | |

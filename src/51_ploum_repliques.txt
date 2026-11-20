@@ -1,0 +1,270 @@
+# Ploum : répliques de compagnons liées aux lieux, petites conversations entre compagnons,
+# et pensées de Ploum. Pardon (Marché des Comètes), Brume-Lucie (Pays des Songes),
+# Bartholomé (Côtes Hagardes), Dame Ondée (Hauts-Nuages). Personne ne parle de ce qu'il n'a pas vu.
+
+# ---------- Carrefour ----------
+@+plu_07
+?flag:pm_galet Tu repenses au petit caillou gris, qui tournait au-dessus de la tribune. Lui non plus n'a rien décidé. Vous avez ça en commun.
+?flag:obj_gamelle Ta gamelle de soupe tinte contre ton bocal à chaque mouvement. Ça fait une petite musique de voyage.
+
+@+plu_hub
+~pardon ?comp:brume ?regions>=2: Pardon mesure Brume-Lucie avec son mètre ruban. « Pardon. Vous faites un mètre douze. » Elle s'étire. « Et maintenant... ? » « Pardon. Trois mètres. » Elle se rétrécit, ravie. « Et maintenant... ? » Il range son mètre. Il ne gagnera pas.
+~bartho ?comp:pardon ?regions>=2: Bartholomé soulève Pardon par la tête, pour le regarder de près. « T'es en or, toi ? » « Pardon. En laiton doré. » « Dommage. » Il le repose, gentiment, à l'endroit.
+~bartho ?comp:brume ?regions>=2: Brume-Lucie se pose sur l'épaule de Bartholomé. Il frissonne. « T'es humide. » « Toi aussi... » « Moi, c'est de naissance. » « Moi aussi... » Ils restent comme ça, humides ensemble, sans rien dire.
+~ondee ?comp:pardon ?regions>=2: Dame Ondée regarde Pardon. « Vous êtes de la Compagnie. C'est la Compagnie qui m'avait mis un tuyau. » Pardon se cache derrière ton bocal. « Pardon. Pardon. Je mesurais seulement des racines. » Elle réfléchit, puis lui pleut une goutte sur la tête, pas méchante. « Une seule. Pour la forme. »
+~ondee ?comp:brume ?regions>=2: Brume-Lucie et Dame Ondée se tournent autour, prudentes, comme deux chats. « Tu es un nuage... ? » « Et toi un brouillard. » « C'est pareil... ? » « Non. Moi je tombe. » « Moi... je traîne... » Elles décident que c'est de la famille éloignée.
+~ondee ?comp:bartho ?regions>=2: Bartholomé ouvre la bouche vers le ciel quand Dame Ondée passe au-dessus. Elle lui pleut dedans, juste un peu. « De la pluie de mer. » Il ferme les yeux. « Merci, Madame. »
+?regions>=3 ?comps>=3 Tu regardes ta petite troupe : un robot, un brouillard, un vieux pêcheur, un nuage. Sur la Lyre, tu étais tout seul. Tu n'avais jamais pensé que ça s'arrêterait.
+
+@+plu_route
+~pardon ?comp:bartho: Pardon trotte pour suivre les grandes bottes de Bartholomé. « Pardon. Vous marchez vite. » « J'ai l'habitude. La marée, elle, n'attend pas. » Il ralentit quand même, sans le dire.
+~brume ?comp:ondee: Brume-Lucie traîne au ras du chemin, Dame Ondée flotte au-dessus. Entre elles deux, il fait un temps de novembre parfait. Les passants remontent leurs cols.
+?flag:obj_ticket_trouve Le ticket des objets trouvés colle un peu à l'intérieur de ton bocal. Quelque part, quelqu'un cherche quelque chose. Tu y penses en marchant.
+
+@+plu_route2
+~pardon: Pardon compte ses pas. « Pardon. Mille deux cent douze. Mille deux cent treize. » Il s'arrête. « Pardon. Je ne sais pas pourquoi je compte. On m'a appris. »
+~brume: Brume-Lucie s'accroche à un buisson, se déchire un peu, se recoud. « Les chemins... j'aime... les bords... »
+~bartho: Bartholomé ramasse un caillou rond et le met dans sa poche. « Pour Perline. Elle les collectionnait. » Il en a les poches pleines.
+~ondee: Dame Ondée pleut un peu devant vous, sur la poussière du chemin. « Comme ça, ça sent bon. » Ça sent bon.
+~bartho ?comp:pardon: Bartholomé : « Dis donc, la Compagnie. Ça sert à quoi, de mesurer des racines ? » Pardon réfléchit très longtemps. « Pardon. À savoir combien elles mesurent. » Bartholomé hoche la tête, comme si c'était une très bonne réponse.
+
+# ---------- Marché des Comètes ----------
+@+pcm_01
+~brume: Brume-Lucie s'enroule autour d'une aurore en vitrine. « On peut... acheter... le ciel... ? C'est triste... et joli... »
+~bartho: Bartholomé regarde les cordages. « C'est mal amarré. Je l'aurais fait au nœud de chaise. » Personne ne lui demande.
+~ondee: Dame Ondée flotte, gênée, au-dessus des étals. « On vend de la pluie, ici aussi. En bouteilles. » Elle ne pleut pas, de peur qu'on la mette en bouteille.
+
+@+pcm_02
+~bartho: Bartholomé se penche sur les bouteilles. « Vous auriez pas un bruit de marée ? Une marée de 1974, en août ? » La chauve-souris cherche. Elle n'en a pas. Il dit que ce n'est rien.
+~brume: Brume-Lucie colle son oreille de brouillard contre un « je t'aime » en bouteille. « Il n'est... jamais arrivé... Moi non plus... je n'arrive jamais... au bout... »
+
+@+pcm_02b
+~ondee: Dame Ondée regarde les aurores au mètre. « Je les ai vues, les vraies. Au pôle. Elles ne savaient pas qu'elles étaient à vendre. »
+~pardon: « Pardon. Combien le mètre ? » Le Lapon d'étoiles lui donne le prix. Pardon le note. Il n'a pas d'argent. Il note quand même. Il note tout.
+
+@+pcm_04
+~pardon: Pardon tremble sur ton dos à chaque coup de marteau. « Pardon. La Compagnie vend aussi. Pardon. C'est moi qui ai mesuré certains de ces lots. »
+~bartho: Bartholomé ricane sous sa casquette. « Des souvenirs d'enfance. Qui achète ça ? Les miens, je les donnerais gratis. Enfin. Pas tous. »
+~ondee ?comp:brume: Dame Ondée chuchote à Brume-Lucie : « Ils vendent un souvenir d'enfance. » « Et l'enfant... il le sait... ? » « Je ne crois pas. » Elles se taisent. L'horloge frappe trois coups.
+
+@+pcm_07
+~pardon: « Pardon. Une éclipse d'occasion. Pardon. Je ne savais pas qu'on pouvait les réutiliser. » Le Ferrailleur : « On peut tout réutiliser, mon garçon. Même les robots. » Pardon ne sait pas si c'est gentil.
+~bartho: Bartholomé soupèse une éclipse cabossée. « Ma mère m'en avait montré une. On avait regardé à travers un seau d'eau. » Il la repose très doucement.
+
+@+pcm_07b
+~brume: Brume-Lucie regarde les écheveaux d'étoiles. « Elle file... des choses qui tombent... Moi aussi... je tombe... souvent... »
+~ondee: « Elle file mieux que nous, » dit Dame Ondée. « Nous, on tombe en vrac. »
+
+@+pcm_08
+~pardon: Pardon salue l'horloge très bas. « Pardon. Vous avez l'heure ? » L'horloge est ravie. Personne ne lui demande jamais l'heure. Elle la lui donne, deux fois.
+
+@+pcm_09
+~bartho: Bartholomé retrousse ses manches. « Un cordage, c'est un cordage. Une comète ou un chalutier, c'est pareil. » Il fait un nœud de chaise. La comète cesse de pencher. Il ne dit rien. Il est très fier.
+~ondee: Dame Ondée mouille le cordage. « Mouillé, ça tient mieux. » C'est vrai, à ce qu'il paraît.
+
+@+pcm_03b
+~bartho: Bartholomé regarde le tableau des taux. « Un souvenir d'été vaut trois pièces de ciel. Un souvenir d'hiver, une. » Il sort un petit coquillage de sa poche, le regarde, et le remet dedans. « Pas à vendre. »
+
+@+pcm_08b
+~brume: Brume-Lucie se penche sur les vœux d'occasion. « Ils ont été... faits... et puis ? Ils ont marché... ou pas... ? » La chouette : « On ne demande pas. »
+
+@+pcm_libre
+~pardon: Pardon serre ton bocal comme on serre quelqu'un qu'on a failli perdre. « Pardon. J'ai eu très peur. Pardon. Ne vous faites plus vendre. »
+
+# ---------- Pays des Songes ----------
+@+pso_01
+~pardon: Pardon refuse la tisane. « Pardon. Je ne dors pas. Je me mets en veille. » La Somnambule lui met quand même un bonnet de nuit. Il le garde.
+~bartho: Bartholomé s'allonge sur un lit trop petit. Ses bottes dépassent. « Ça fait trente ans que je ne dors plus. Je vais essayer. Pour toi. »
+~ondee: Dame Ondée flotte au-dessus des lits, et pleut sur les tisanes trop chaudes, pour les refroidir. La Somnambule la remercie, sans ouvrir les yeux.
+
+@+pso_02
+~pardon: Pardon s'arrête au bord d'un quartier qui tombe. « Pardon. Si c'était un chantier de la Compagnie, il y aurait des barrières. » Il n'y en a pas. Il en fait une, avec ses bras.
+~bartho: Bartholomé regarde la ville de coton. « J'ai rêvé de la mer, cette nuit. Pour une fois. » Il ne dit pas qui était dans la mer.
+~ondee: Dame Ondée ne sait pas si elle rêve ou si elle est vraiment un nuage parmi les nuages. Elle décide que c'est la même chose.
+
+@+pso_02c
+~pardon: Pardon prend un rêve oublié sur une étagère. C'est le rêve d'un robot qui mesure une racine, et la racine lui serre la main. « Pardon. C'est le mien. Je l'avais oublié. » Il le remet en place, très doucement.
+~bartho: Bartholomé ne cherche pas. Il sait ce qu'il trouverait. Il attend dehors, en fumant une pipe éteinte.
+
+@+pso_03
+~pardon: « Pardon, Monsieur. La Compagnie vous achète des rêves ? » Le Marchand de Sommeil sourit, sans répondre. Pardon note : « Il sourit sans répondre. »
+~bartho: Bartholomé se met entre toi et le Marchand. Il ne sait pas pourquoi. Il fait ça avec les requins, d'habitude.
+
+@+pso_04
+~ondee: Dame Ondée regarde les bocaux d'argent. « Des rêves de la Lune... On les avait mis en bouteille, eux aussi. Comme ma pluie. »
+~pardon ?comp:bartho: Pardon lit les étiquettes. « Pardon. Côtes Hagardes, 1974. » Bartholomé se retourne d'un coup. « Montre. » Ce n'est pas le bon. C'est un rêve de mouette. Il repose le bocal.
+
+@+pso_06
+~bartho: Bartholomé se réveille en sursaut. « Je l'ai vue. Elle riait. » Il se lève, met sa casquette, et ne dit plus rien de toute la matinée.
+~ondee: Dame Ondée s'est endormie en pleuvant. Tout le dortoir est mouillé. La Somnambule dit que c'est bon pour les rêves.
+
+@+pso_07
+~pardon: Pardon se tient très droit pendant que la Somnambule parle. Il croit que c'est un entretien.
+~brume ?comp:pardon: Brume-Lucie demande tout bas à Pardon : « Elle voit... les yeux fermés... ? » « Pardon. Moi aussi, en veille. » « Et tu vois quoi... ? » « Pardon. Des racines. »
+
+@+pso_08
+~bartho: « Il ronfle comme la mer d'Iroise, » dit Bartholomé, presque tendre. « Ça me rappelle chez moi. »
+~ondee: Dame Ondée se met à l'abri derrière une tente. Le Ronfleur l'a déjà aspirée une fois, de loin, et recrachée en nuage de vapeur. Elle s'en souvient.
+
+@+pso_09
+~pardon: Pardon offre de mesurer les insomnies. Personne ne sait ce que ça veut dire. On le laisse faire. Il trouve : « Pardon. Très longues. »
+~brume ?comp:bartho: Bartholomé : « Trente ans que je ne dors plus. Je pourrais faire la queue avec eux. » Brume-Lucie : « Tu as dormi... cette nuit... » Il réfléchit. « Tiens. C'est vrai. »
+
+@+pso_10
+~bartho: Bartholomé regarde une paire de bottes de pêcheur, au milieu des pantoufles. Il ne dit rien. Il les range bien droites, l'une à côté de l'autre.
+
+# ---------- Côtes Hagardes ----------
+@+pct_01
+~pardon: Pardon recule devant la mer. « Pardon. Je rouille. » Il marche du côté sec de la plage, très loin du côté mouillé.
+~brume: Brume-Lucie se pose sur la mer basse, toute plate. « Ici... on ne sait plus... où est le bord... comme moi... »
+~ondee: Dame Ondée regarde la mer qui ne sait plus où elle habite. « Je lui ai plu dessus il y a cent ans. Elle était bien rangée, à l'époque. »
+
+@+pct_02
+~pardon: « Pardon. Un phare. On en mesure, aussi. Pardon. Celui-ci fait trente-deux mètres. » Personne ne l'a mesuré. Il le sait à l'œil.
+~ondee: Dame Ondée tourne autour du phare. Une silhouette d'eau salée écrit, là-haut. « Elle est faite de mer, » murmure-t-elle. « Comme ma pluie, avant. »
+
+@+pct_03
+~brume: Brume-Lucie lit par-dessus l'épaule d'Ondine. « Tu écris... jusqu'au bout... Moi, je n'y arrive pas... » Ondine lui tend une plume. Brume-Lucie la laisse tomber au milieu d'un mot.
+~ondee: Dame Ondée et Ondine se regardent longtemps. Deux eaux qui se reconnaissent. « Je porterai vos lettres, si vous voulez, » dit Dame Ondée. « Je monte, moi. »
+~pardon: « Pardon, Madame. Vous écrivez à la Lune ? Pardon. Elle a une adresse ? » Ondine sourit. « Elle a des marées. C'est pareil. »
+
+@+pct_04b
+~brume: Brume-Lucie chante avec les dunes. Elle chante encore plus faux qu'elles. Les dunes, vexées, retrouvent la note.
+~bartho: « Elles chantaient juste, avant, » dit Bartholomé. « Perline chantait avec elles. Elle chantait faux, elle aussi. C'était mieux. »
+
+@+pct_05
+~pardon: Pardon grimpe sur l'épave et mesure le mât. « Pardon. Ce bateau attend. Pardon. Il a l'air de quelqu'un qui attend. »
+~ondee: Dame Ondée pleut sur le linge du bateau, qui sèche depuis vingt ans. Il sera propre, au moins.
+
+@+pct_06
+~pardon: Pardon tend un seau aux pêcheuses. Elles le trouvent très poli. Elles lui donnent un bonbon à la menthe. Il ne mange pas. Il le garde.
+~brume: Brume-Lucie se penche sur un seau vide. « Elles pêchent... ce qui ne vient pas... »
+
+@+pct_06b
+~ondee: Dame Ondée se met devant la lumière qui tourne faux, pour l'adoucir. Le faisceau devient gris, tout doux. Les bateaux, au loin, ne savent pas si c'est mieux.
+~bartho: « Ce phare, je l'ai allumé moi-même, quand j'étais mousse. » Bartholomé pose la main sur la lanterne. « Calme-toi, mon vieux. Calme-toi. »
+
+@+pct_07
+~bartho ?comp:pardon: Bartholomé ouvre la bouteille avec les dents. Pardon : « Pardon. Ce n'est pas hygiénique. » « Je suis fait d'eau de mer. Rien n'est plus hygiénique que moi. »
+
+@+pct_08
+~bartho: Bartholomé salue la vieille baigneuse. « Madame Lagrue. Toujours la même heure. » « Toujours, Bartholomé. Et la tienne ? » Il ne répond pas. Elle lui tapote le bras, et repart vers la mer.
+
+# ---------- Hauts-Nuages ----------
+@+pha_01
+~pardon: Pardon s'enfonce dans le nuage jusqu'aux genoux. « Pardon. Ce n'est pas un sol homologué. »
+~brume: Brume-Lucie se roule dans les nuages. « La famille... ! » Les nuages ne la reconnaissent pas. Elle fait semblant que si.
+~bartho: Bartholomé s'évapore un peu, si haut. Il se tient le chapeau et le reste. « Je vais finir en nuage, moi aussi. Ça m'est égal. Perline aimait les nuages. »
+
+@+pha_02
+~pardon: Pardon reconnaît le tuyau. Il baisse la tête. « Pardon. C'est un modèle de la Compagnie. Pardon. Pardon. Pardon. » Il le dit trois fois. Pour lui, c'est beaucoup.
+~bartho: Bartholomé regarde le tuyau planté dans Dame Ondée. Sa mâchoire se serre. « On ne boit pas la pluie des autres. »
+
+@+pha_02b
+~brume: Brume-Lucie se couche à côté d'un nuage vidé et le serre. « Il a froid... il n'a plus rien... dedans... »
+~pardon: Pardon marche sur la pointe des pieds pour ne pas réveiller les nuages plats. Ils ne se réveilleraient pas. Il le fait quand même.
+
+@+pha_02c
+~bartho: « Allez, la marmaille. » Bartholomé laisse les grêlons lui tomber dessus, un par un. Ils rient. Lui aussi, un peu, pour la première fois depuis longtemps.
+~pardon: Pardon prend un coup de grêlon sur la tête. Ding. « Pardon. » Le grêlon : « Pardon ! » Ils s'excusent l'un après l'autre pendant une minute.
+
+@+pha_03
+~pardon: « Pardon. Il y a toujours un arrêt d'urgence. Toujours. » Pardon regarde la station comme on regarde une maison où on a grandi et qu'on n'aimait pas.
+~brume: Brume-Lucie s'enroule autour d'un tuyau qui siffle. Le sifflement s'étouffe. « Chut... chut... »
+
+@+pha_04
+~bartho: La pluie tombe vers la Terre. Bartholomé tend le visage. « Elle descend vers les Côtes. Elle va retrouver la mer. » Il ne pleure pas. C'est la pluie.
+~brume ?comp:pardon: Brume-Lucie se tourne vers Pardon : « Tu as... fait ça... toi... ? » « Pardon. » « C'est oui... ? » « Pardon. Oui. »
+
+@+pha_05
+~bartho: Bartholomé ôte sa casquette devant le monsieur transparent. « Un collègue. Un qui attend aussi. »
+~pardon: Pardon lit les pages de journal sur la toile du ballon. « Pardon. 1803. "Le Prix du blé." Pardon. On ne savait pas encore mesurer les racines. »
+
+@+pha_05b
+~bartho: « Pluie de la Terre, pour Aldébaran. » Bartholomé crache par terre, ce qui, ici, fait un petit nuage. « Ils exportent notre pluie. Et nous, on a quoi ? »
+~brume: Brume-Lucie se faufile entre les bouteilles. « On pourrait... les ouvrir... toutes... » Personne n'ose. Elle non plus.
+
+@+pha_05c
+~pardon: Pardon monte l'escalier du phare des nuages, marche par marche. « Pardon. Deux cent douze marches. » Le héron le regarde arriver, en se demandant s'il est à manger.
+
+@+pha_06
+~pardon: Pardon s'accroche à ton bocal, les yeux fermés. « Pardon. Je n'aime pas descendre. Pardon. Je n'aime pas monter non plus. »
+~bartho: Bartholomé regarde la Terre, loin en dessous. « Je vois les Côtes, d'ici. Toutes petites. On dirait qu'elles attendent aussi. »
+
+# ---------- La dernière nuit ----------
+@+pnu_00
+~pardon ?comp:ondee: Pardon s'assoit sous Dame Ondée, à l'abri du feu. Elle le protège de la chaleur. Il la protège de rien du tout. C'est un bon arrangement.
+~brume ?comp:bartho: Brume-Lucie vient se poser contre le flanc de Bartholomé, loin du feu. « Tu n'aimes pas... le feu... » « Non. » « Moi non plus... » « On n'a qu'à rester là, alors. » Ils restent là.
+?flag:obj_gamelle Mère Fricassée te reconnaît à ta gamelle. Elle la remplit, sans un mot. Tu n'as pas faim. Tu la gardes au chaud contre toi.
+
+@+pnu_00b
+~pardon: Pardon regarde la vis, au loin. « Pardon. Une vis de huit mètres. Filetage à droite. Pardon. Elle se dévisse à gauche. » Il est tout content d'avoir su ça.
+~bartho: « Un crochet dans la Lune. » Bartholomé secoue la tête. « On accroche les poissons, pas les lunes. »
+~ondee: Dame Ondée regarde le crochet. « Si je pleuvais dessus toute la nuit, il rouillerait ? » « Pardon. C'est de l'or. » « Oh. » Elle pleut un peu quand même, pour l'essayer.
+
+@+pnu_00c
+~pardon: Pardon tient compagnie à Madame Colimaçonne. Ils ne se disent rien. Ils comparent leurs vitesses. Elle va plus vite.
+~brume: Brume-Lucie se met autour des veilleurs, comme une couverture très légère. Personne ne lui a demandé. Tout le monde a moins froid.
+
+@+pnu_00d
+~bartho: Bartholomé regarde l'enfant Lichenaute arriver, à son rythme. « Il est parti ce matin ? » Il hoche la tête, respectueux. « Ça, c'est de la persévérance. »
+~brume: Brume-Lucie s'approche du petit. « Toi aussi... tu arrives... en retard... » Il sourit, très lentement. Elle aussi.
+
+@+pnu_01c
+~pardon ?comp:bartho: Quand c'est le tour de Bartholomé, il ne parle pas de la Lune. Il parle de Perline. Pardon l'écoute sans s'excuser une seule fois. C'est la première fois de sa vie.
+
+@+pnu_01d
+~pardon: Pardon ne fait pas de vœu. « Pardon. On ne m'a pas dit comment on fait. » Brume-Lucie, si elle est là, ne lui dit pas non plus. Elle ne sait pas finir les phrases.
+~bartho: Bartholomé ferme les yeux pendant que l'étoile passe. Il ne dit pas ce qu'il souhaite. Tout le monde le sait.
+~ondee: Dame Ondée pleut un peu sur l'étoile filante, pour qu'elle brille moins vite. Ça ne marche pas. C'était gentil d'essayer.
+
+@+pnu_02
+~brume: Brume-Lucie se condense, plus dense que jamais. « Je viens... jusqu'au bout... cette fois... jusqu'au... » Elle ne finit pas. Mais elle vient.
+~bartho ?comp:pardon: Bartholomé pose une grosse main sur Pardon. « Tu montes avec nous, la Compagnie. » « Pardon. Oui. » « Arrête de t'excuser, là-haut. Ils en profiteraient. »
+
+@+pnu_02b
+~pardon: Pardon se cache derrière toi en voyant Maître Gontran. « Pardon. Les avocats. Pardon. Ils lisent les contrats. »
+~bartho: Bartholomé regarde le Conseil en pyjama. « Toute la planète en pyjama, pour une limace. » Il te tapote le bocal. « Tu le mérites. »
+
+# ---------- Sur la Lune et au Promontoire ----------
+@+pch_00
+~pardon ?comp:brume: Brume-Lucie s'étale sur la poussière de Lune. Pardon s'allonge à côté d'elle, raide comme un piquet. « Pardon. Elle bouge. » « Elle respire... » « Pardon. Elle respire. »
+~bartho ?comp:ondee: Bartholomé chuchote à Dame Ondée : « C'est elle qui tire la marée ? » « Oui. » « Alors c'est elle qui a pris Perline. » Silence. « Et c'est elle qui ramène tout ce qui revient. » Il ne répond pas. Il pose la main sur la poussière.
+
+@+pch_01
+?flag:obj_dessin_lune ?!flag:pm_dessin_rendu Le dessin de l'enfant Lichenaute frotte contre ton bocal. Sur le dessin, la Lune sourit. En vrai, elle dort. C'est presque pareil.
+
+@+pch_03
+~pardon: Pardon reconnaît le grutier. « Pardon. Monsieur Lucien. » Le grutier le reconnaît aussi. « Le petit mesureur ! T'étais parti où ? » « Pardon. Je cherchais ce qu'était une racine. » Le grutier hoche la tête : « Moi aussi, j'aimerais bien savoir. »
+~bartho: Bartholomé regarde la tartine du grutier. Il a faim pour la première fois depuis trente ans. Il ne demande rien.
+
+@+pch_03b
+~pardon: Pardon lit les panneaux tout haut. « Pardon. "Interdit de pleurer sur le chantier." » Il regarde Brume-Lucie, Dame Ondée, Bartholomé, toute l'eau de la troupe. « Pardon. On est en infraction. »
+~ondee: Dame Ondée passe devant le panneau « INTERDIT DE PLEURER » et pleure juste un peu, exprès. Pardon fait semblant de ne pas voir.
+
+@+pmo_01
+~pardon: Pardon reconnaît les tapis. « Pardon. Je n'étais jamais monté jusqu'ici. On m'appelait au sous-sol. Pardon. Les tapis sont plus épais en haut. »
+~bartho: Bartholomé laisse des traces de bottes mouillées sur les tapis dorés. Il ne s'essuie pas les pieds. Exprès.
+
+@+pmo_01b
+~ondee: Dame Ondée regarde la planète bleue toute petite, sous sa plaque. « Il a fait pareil avec d'autres. Il a mis des tuyaux partout. » Elle frissonne, et une goutte tombe sur la plaque.
+~brume: Brume-Lucie embue la vitre d'un tableau. Dans la buée, elle écrit : « PAS À VEN- ». Elle ne finit pas. Ça se comprend quand même.
+
+@+pmo_02
+~bartho: Bartholomé s'arrête devant une vitrine : la dernière marée d'une mer qui a disparu. Il ne bouge plus pendant longtemps. Personne ne le presse.
+~brume ?comp:pardon: Brume-Lucie : « Il garde... tout ce qui est... seul... » Pardon : « Pardon. Lui aussi, il est seul. » Brume-Lucie se tait. C'est la phrase la plus longue que Pardon ait jamais dite sans s'excuser au milieu.
+
+@+pmo_02b
+?flag:pm_appel Contre la vitre, tu entends quelque chose. Très loin. Très rond. La voix qui t'appelait depuis la Lyre. Elle n'a jamais été aussi proche.
+
+@+pmo_03
+~pardon: Pardon se redresse devant la robote grise. « Pardon. Collègue. » Elle le regarde par-dessus ses tampons. « Collègue. » Ils se font un petit signe de tête, celui des gens qui travaillent trop.
+~bartho: Bartholomé s'appuie sur le petit bureau gris. Il le mouille. La robote grise soupire et tamponne le mouillé : « HUMIDE. »
+
+@+pmo_bur
+~pardon ?comp:bartho: Bartholomé murmure à Pardon : « C'est lui, ton patron ? » « Pardon. Le patron de mon patron de mon patron. » « Il a l'air fatigué. » « Pardon. Oui. Ça, je ne l'avais jamais mesuré. »
+~brume ?comp:ondee: Brume-Lucie et Dame Ondée se collent à la baie vitrée, de chaque côté. La Lune, derrière, a l'air d'être enveloppée de gris doux. Platine lève les yeux. Il ne dit rien. Il les regarde faire.
+
+@+pmo_dort
+~pardon: Pardon remonte le plaid sur les genoux de Platine. « Pardon, Monsieur. » Il s'excuse, cette fois, pour quelqu'un d'autre.
+~bartho: Bartholomé regarde Platine dormir. « Il dort comme un mousse après sa première tempête. » Il baisse sa voix, pour une fois.

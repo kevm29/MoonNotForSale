@@ -1,0 +1,213 @@
+# ================================================================
+# PLATINE : scènes de dialogue, pensées, petits choix, répliques des
+# compagnons et petites conversations entre eux.
+# Rappel : sur Terre, personne ne sait qui il est, sauf Pistil (depuis le cauchemar).
+# ================================================================
+
+# ---------- Le Promontoire ----------
+
+@pla_01f
+!title: Le miroir
+Pénélope sortie, tu restes seul avec l'ordre de démarrage signé. Sur le mur, le grand miroir d'or du conseil d'administration est éteint. Éteint, c'est un simple miroir. Tu t'y vois.
+Un grand monsieur couvert de feuilles d'or, en costume trois-pièces, avec des yeux qui ne dorment pas. À la tempe, une feuille se décolle un peu. Dessous, il n'y a rien. Il n'y a jamais rien eu.
+Tu penses : quand j'étais petit, on m'a dit que l'or, ça protège. Je l'ai cru. Je le crois encore. C'est pour ça que j'en mets partout.
+* pla_02 | Recoller la feuille, du bout du doigt | Elle tient. Elle tient toujours, quand on appuie. Il suffit de ne pas y penser. | |
+* pla_02 | Laisser la feuille comme elle est | Elle pend un peu, de travers. Personne ne te le fera remarquer. Personne ne te regarde d'assez près. | |
+* pla_02 | Te détourner du miroir | Tu as l'habitude. Tu te regardes rarement. Tu regardes ce que tu achètes. | |
+
+@pla_04d
+!title: Bobinot, au retour
+Dans la navette de chantier qui vous ramène au Promontoire, Bobinot enlève son casque. Sans, il a l'air beaucoup plus jeune. Il a des cheveux d'or tout aplatis.
+« Je peux vous demander une chose, Monsieur ? Ma fille m'a demandé, au téléphone, si la Lune avait des parents. Je n'ai pas su quoi répondre. Vous, vous savez ? »
+* pla_05 | « La Terre, je suppose. » | Bobinot hoche la tête, très sérieusement. « Alors on l'enlève à sa mère. » Il remet son casque. Il ne dit plus rien jusqu'au Promontoire. | |
+* pla_05 | « Ce n'est pas une question de chantier, Bobinot. » | « Non, Monsieur. Pardon, Monsieur. » Il remet son casque. Il le remet un peu de travers, comme quelqu'un qui pense à autre chose. | |
+* pla_05 | Ne pas répondre, et regarder la Lune s'éloigner par le hublot | Elle est grise, et douce, et elle ne se débat pas. Bobinot regarde avec toi. Vous ne dites rien. C'est la première fois que tu partages un silence avec un employé. | |
+
+@pla_06a
+!title: Le chiffre
+Tard le soir, le Promontoire est vide. Les couloirs dorés bourdonnent tout bas. Tu repasses devant l'écran de Krâmm. « Équilibre de la Terre ». Le chiffre baisse, d'un cran, pendant que tu le regardes.
+Tu as toujours aimé les chiffres. Un chiffre, ça ne ment pas, ça ne pleure pas, ça ne demande rien. Celui-là, tu ne l'aimes pas. Il a l'air de quelqu'un qui retient sa respiration.
+* pla_06b | Éteindre l'écran | Tu l'éteins. Le chiffre continue de baisser, dans le noir. Tu le sais. Tu n'as pas besoin de le voir. | |
+* pla_06b | Le noter dans ton carnet, comme tu notes tout | Tu le notes, à côté du prix de la Lune. Les deux chiffres, l'un sous l'autre. Ils n'ont rien à voir. Ils ont tout à voir. | |
+
+# ---------- La Terre ----------
+
+@plt_00b
+!title: La première nuit
+?flag:pl_fermiere Dans la cuisine de la fermière, il fait chaud. Un poêle, une horloge qui marche, un chat de pierre qui dort sur un coussin. Sur la table, une toile cirée à carreaux. Tu n'as jamais vu de toile cirée. Tu y poses tes mains d'or, à plat, pour voir.
+?flag:pl_fermiere La fermière ne te pose pas de questions. Par la fenêtre, la Lune, à son crochet, un peu de travers. « Mon défunt mari disait qu'elle nous regardait dormir. Il ronflait. Elle devait bien rire. »
+?!flag:pl_fermiere La lanterne s'éloigne. Tu restes seul dans le champ. L'herbe te mouille les chevilles. Au-dessus de toi, ta Lune, à son crochet, un peu de travers. Tu ne l'avais jamais vue d'en bas.
+?!flag:pl_fermiere Tu penses : c'est donc ça, ce que voient les Terriens. Une lumière accrochée. Tu croyais qu'ils voyaient un terrain.
+* plt_01 ?flag:pl_fermiere | Boire le lait | Il est tiède. Il a un goût d'herbe. Tu ne savais pas qu'on pouvait boire de l'herbe. | |
+* plt_01 ?flag:pl_fermiere | Lui demander si elle a peur | « Peur ? » Elle réfléchit. « J'ai quatre cents ans. J'ai eu peur de beaucoup de choses. Ça ne les a jamais empêchées d'arriver. » Elle te ressert. | |
+* plt_01 ?flag:pl_fermiere | Regarder le chat de pierre dormir | Il dort comme si rien ne pouvait arriver. Tu l'envies. Tu n'as jamais dormi comme ça. Même petit. Surtout petit. | |
+* plt_01 ?!flag:pl_fermiere | Marcher vers la route, sans te retourner | Tu marches. Derrière toi, la ferme éteint sa lanterne. Tu n'as pas l'habitude qu'on te laisse partir sans rien te vendre. | |
+* plt_01 ?!flag:pl_fermiere | Regarder la Lune encore un moment | Elle est belle. Ce n'est pas un mot de promoteur. Tu le penses quand même, et tu ne sais pas où le ranger. | |
+
+@plt_nuit3
+!title: Ce que dit Pistil
+?comp:pistil Vous marchez un moment sans parler. Puis Pistil, sur ton épaule, demande : « Pourquoi une pièce ? Dans ton rêve. Pourquoi tu es une pièce, et pas l'enfant ? »
+?comp:pistil Tu ne sais pas. Tu n'y avais jamais pensé. Tu as toujours été la pièce. Le petit garçon, dans le coffre, tu ne le vois jamais. Tu le sens, à côté. Il compte.
+?!comp:pistil Tu marches un moment au bord de la route. Le cauchemar te suit encore, comme une odeur de métal froid. Tu entends encore compter, quelque part. « Une. Deux. Cent. »
+~ondine ?comp:pistil: Ondine marche à côté de vous. Elle n'entend pas ce que dit Pistil. Elle entend que tu ne réponds pas. Elle te pose une main d'eau salée sur l'épaule, un instant, et la retire.
+~brisefer ?comp:pistil: Brisefer regarde le petit pyjama sur ton épaule. « Il te parle tout le temps, ce bout de tissu. » Pistil : « Je suis un Somnambule. » « C'est ce que je dis. Un bout de tissu. »
+~bartho ?comp:pistil: Bartholomé : « Il cause, le pyjama. Il cause comme ma femme. Elle aussi, elle posait les questions qu'on voulait pas. »
+* plt_hub ?comp:pistil | « Parce qu'une pièce, ça ne pleure pas. » | Pistil te regarde longtemps. « Si. Ça pleure. Ça ne fait pas de bruit, c'est tout. » | |
+* plt_hub ?comp:pistil | « Je ne sais pas. » | « C'est bien », dit Pistil. « C'est la première chose vraie que tu me dis. » | |
+* plt_hub ?!comp:pistil | Compter tes pas pour couvrir le compte | Tu comptes. Tes pas, plus fort que le compte. À cent, il s'est tu. Tu continues quand même jusqu'à mille. Personne ne vient. | |
+
+@plt_halte
+!title: La halte
+?lieux==1 Avant de repartir, tu t'arrêtes à une fontaine, au bord de la route. L'eau penche, dans le bassin. Elle coule un peu de côté, vers ta Lune.
+?lieux==2 Avant de repartir, tu t'arrêtes sous un arbre. Ses feuilles bougent sans vent, toutes du même côté. Les tiennes aussi, un peu.
+?lieux==3 Avant de repartir, tu t'arrêtes au bord d'un champ de blé. Les épis se sont couchés vers le ciel. Un épouvantail regarde la Lune, lui aussi, et il n'a pas le choix.
+?lieux>=4 La dernière halte. Tu t'assois sur une borne kilométrique. Elle indique « LUNE : » et puis rien. Quelqu'un a effacé le chiffre.
+?comps>=2 Derrière toi, ceux qui te suivent parlent entre eux. Tu n'as jamais été celui derrière qui l'on parle. Tu as toujours été celui devant qui l'on se tait.
+~ondine ?comp:basile: Ondine porte Basile dans le creux de sa main, pour qu'il voie la route. « Vous avez vu la mer, Monsieur Basile ? » Il met trois minutes à répondre. « Une fois... en photo... sur un dossier. » Elle décide de la lui montrer, un jour.
+~brisefer ?comp:anatole: Brisefer et Anatole marchent ensemble. Elle fait trembler la route, il vole un peu de travers. « Tu penches, toi. » « Vers la Lune. C'est plus fort que moi. » « Moi aussi, je penche. Vers le sol. On s'équilibre. »
+~bartho ?comp:ondine: Bartholomé et Ondine parlent de marées, comme d'autres parlent du temps. « Grève-Molle, demain, huit heures douze. » « Si elle revient. » « Elle reviendra. Elle revient toujours. » Aucun des deux n'y croit. Ils le disent quand même.
+~basile ?comp:brisefer: Basile, sur l'épaule de Brisefer, écrit une phrase sur le granit. Elle le laisse faire. « Tu écris quoi ? » « Votre... nom. Pour... le registre. » « Quel registre ? » « Celui... des gens... qui portent. »
+~anatole ?comp:pistil: Anatole regarde Pistil avec ses grands yeux de Noctuelle. « Vous sortez la nuit, vous aussi ? » « Je ne sors jamais. J'habite les rêves. » « Ah. Moi, j'habite la nuit. On est voisins. »
+~pistil ?comps<2: Pistil, sur ton épaule, compte les étoiles. Il en trouve moins que d'habitude. Il ne te dit pas pourquoi. Il sait que tu sais.
+~ondine ?comps<2: Ondine boit à la fontaine, longuement, pour ne pas s'évaporer. « Vous ne buvez jamais, vous ? » Tu ne sais pas. Tu n'as jamais eu soif.
+~bartho ?comps<2: Bartholomé s'assoit à côté de toi. Il ne dit rien. Il te tend sa gourde. C'est de l'eau douce. Tu bois. Ça ne te fait rien. Ça lui fait plaisir.
+* plt_hub ?lieux==1 | Tremper tes doigts d'or dans la fontaine | L'eau est froide. Une feuille d'or se détache et flotte, de travers, vers la Lune, comme le reste. Tu la laisses partir. | |
+* plt_hub ?lieux==1 | Repartir sans t'arrêter longtemps | Tu n'as jamais su t'arrêter. Tu ne vas pas commencer maintenant. | |
+* plt_hub ?lieux==2 | T'adosser à l'arbre, un moment | Il est rugueux. Il te tient. Tu te dis que les arbres, ça porte aussi, sans qu'on les remercie. | |
+* plt_hub ?lieux==2 | Ramasser une feuille tombée | Elle est verte, pas dorée. Elle ne vaut rien. Tu la mets dans ta poche, à côté de ton stylo. | |
+* plt_hub ?lieux==3 | Redresser l'épouvantail | Tu le redresses. Il retombe du même côté, vers la Lune. Tu le laisses. Il a le droit de regarder. | |
+* plt_hub ?lieux==3 | Écouter le blé | Il chuchote. Il dit la même chose que tout le monde, en plus doux. | |
+* plt_hub ?lieux>=4 | Écrire un chiffre sur la borne, avec ton stylo | Tu écris le prix que tu as payé. Puis tu le barres. Ce n'est pas la distance. Ce n'est pas la bonne unité. | |
+* plt_hub ?lieux>=4 | Te relever, et ne pas regarder la borne | Tu te relèves. Le chiffre effacé te suit quand même. | |
+
+# ---------- Les Côtes ----------
+
+@plt_cot_b2
+!title: Le patron
+Au bout de la plage, un bistrot sur pilotis : le Ressac Triste. Avant d'aller au comptoir, tu t'arrêtes près de la porte. Le patron est un crabe gris, très vieux, qui essuie des verres secs avec une serviette sèche. Il n'y a plus d'eau pour les mouiller.
+« Avant, on servait des vagues, ici. Une vague au comptoir, deux vagues en terrasse. Maintenant, on sert de l'eau de puits. Les clients s'évaporent. »
+Au mur, une photo jaunie : un bal au bord de la mer, des lampions, et la Lune, très ronde, juste au-dessus de l'orchestre. Sur la photo, une Marégrave aux cheveux d'écume danse avec un jeune pêcheur.
+~pistil: Pistil regarde la photo. Il la regarde longtemps, avec un drôle d'air. Comme s'il avait déjà vu cette mer, quelque part, dans un rêve.
+* plt_cot_b | Demander au patron qui danse, sur la photo | Le crabe regarde vers le comptoir, où un vieux pêcheur fait d'eau de mer boit tout seul, puis vers toi. « Ça ne se demande pas. » Il essuie un verre. « Ça se devine. » | |
+* plt_cot_b | Commander une eau de puits, pour faire comme tout le monde | On te la sert. Tu la bois. Tu ne t'évapores pas. Tu n'es pas fait d'eau. Tu n'es fait de rien qui s'en va. | |
+* plt_cot_b | Laisser un pourboire en or, sans le dire | Tu glisses une feuille d'or sous la soucoupe. Le crabe la trouvera ce soir. Il la regardera longtemps. Il n'en aura rien à faire, mais il la gardera. | |
+
+@plt_cot3b
+!title: Les lettres d'Ondine
+Pendant qu'Ondine écrit, tu regardes ses lettres, empilées partout dans la lanterne du phare. Des milliers. Chacune commence de la même façon : « Chère Lune ».
+Elle te voit regarder. « Vous pouvez en lire une. Elle ne les lit pas, de toute façon. »
+?comp:bartho Bartholomé se tient en bas de l'escalier, la casquette à la main. Il ne monte pas. Il ne monte jamais au phare. C'est de là-haut qu'on a vu partir Perline.
+~basile: Basile regarde la pile de lettres, une ligne par minute. « Personne... ne les a... tamponnées. » Ondine : « Il faudrait ? » « Non... C'est... pour ça... qu'elles sont... belles. »
+~brisefer: Brisefer s'est arrêtée à mi-hauteur de l'escalier : il ne la supporterait pas plus haut. Elle crie, d'en bas : « Elle écrit à qui, la grande mouillée ? » « À la Lune. » « Ah. Moi, je lui parlais. C'est moins long. »
+* plt_cot3 | Lire une lettre, au hasard | « Chère Lune. Aujourd'hui, la mer est descendue de trois mètres. J'ai pensé que tu étais fâchée. Si c'est à cause de moi, dis-le-moi. Ondine. » Tu la replies. Ce n'est pas à cause d'elle. | |
+* plt_cot3 | Refuser poliment | « Ce n'est pas à moi qu'elles sont adressées. » Ondine te regarde, surprise. Puis touchée. Personne n'avait jamais respecté son courrier. | |
+
+# ---------- Tamponville ----------
+
+@plt_cap_b2
+!title: Le cagibi des formulaires
+Après Madame Épine, il faut traverser le cagibi des formulaires. Des étagères jusqu'au plafond, et sur chaque étagère, un formulaire pour chaque chose. « Demande de naissance. » « Déclaration de pluie. » « Contestation de coucher de soleil, en trois exemplaires. »
+Un formulaire, tout en haut, n'a jamais été rempli. Son titre : « Reprise d'un bien vendu par erreur. »
+~ondine: Ondine lit les titres à voix haute, en riant. « Déclaration de marée ! Je ne savais pas qu'il fallait la déclarer. » « On ne la déclare plus », dit le préposé, sans lever les yeux. « Elle ne vient plus. »
+~brisefer: Brisefer ne passe pas dans le cagibi. Elle reste à la porte, les bras croisés. « Les papiers, ça ne porte rien. Ça fait semblant. »
+~bartho: Bartholomé prend un formulaire « Avis de disparition en mer ». Il le regarde. Il le repose. « J'en ai rempli un, il y a vingt ans. On m'a jamais répondu. »
+~pistil: Pistil chuchote à ton oreille : « Il y en a un pour reprendre. Tu l'as vu ? » Tu l'as vu.
+* plt_cap_h | Prendre le formulaire « Reprise d'un bien vendu par erreur » | Tu le plies en quatre et tu le mets dans ta poche intérieure, contre ton cœur d'or. Il est vierge. Il est léger. Il pèse beaucoup. | | +flag:pl_formulaire |
+* plt_cap_h | Ne rien prendre | Tu as signé assez de papiers pour une vie. Tu passes. | |
+
+@plt_cap3b
+!title: Basile parle
+Basile te parle. Lentement, une phrase par minute, en s'arrêtant au milieu. Tu as le temps. Tu n'as jamais eu le temps. Tu l'as, aujourd'hui.
+« J'ai signé... sans lire. Trois cents ans... que je signe... sans lire. On ne lit pas... ce qu'on tamponne. » Une minute. « Le Président... n'a rien dit. Il ne dit... jamais rien. J'ai cru... que ça voulait dire... oui. »
+Une minute encore. « Vous savez... ce que c'est... de signer... quelque chose... qu'on regrette ? »
+~ondine: Ondine s'est assise par terre pour être à la hauteur de Basile. Elle l'écoute avec le même respect qu'elle met à écrire ses lettres.
+~pistil: Pistil, sur ton épaule, ne bouge plus. Il attend ta réponse. Il en a besoin, lui aussi.
+* plt_cap3 | « Oui. Je sais. » | Basile te regarde longtemps. « Alors... on est... deux. » Il dit ça comme on tend la main. | |
+* plt_cap3 | « Non. Je ne regrette jamais. » | Basile hoche la tête, très lentement. « Moi non plus... avant. » Il range son carbone. | |
+* plt_cap3 | Ne pas répondre | Il attend une minute. Pour lui, ce n'est pas long. Puis il hoche la tête comme si tu avais répondu. Peut-être que tu as répondu. | |
+
+# ---------- Les Profondeurs ----------
+
+@plt_bri_c2
+!title: La foule assise
+Tout autour de l'Axe, des Gravitaires sont assis. Ils sont venus de partout s'asseoir près de l'Axe, pour le retenir de leur poids. Ils ne bougent plus depuis trois jours. Certains ont des fleurs de lichen sur les épaules.
+Un très vieux Gravitaire ouvre un œil quand tu passes. « Assieds-toi, l'étranger. Plus on est lourds, mieux ça tient. » Il regarde tes feuilles d'or. « Tu ne pèses rien, toi. Assieds-toi quand même. Ça compte, l'intention. »
+~bartho: Bartholomé s'assoit avec eux. Il pèse le poids d'un seau d'eau. « Ça compte, l'intention », répète-t-il, très content.
+~anatole: Anatole se pose sur la tête d'un Gravitaire endormi, très doucement. « Je ne pèse rien non plus. Mais je veux bien aider. »
+~ondine: Ondine s'agenouille près d'un Gravitaire qui a soif. Elle lui donne un peu d'elle, au creux de la main. Il boit. Il oublie un mot de moins.
+* plt_bri_e | T'asseoir un moment avec eux | Tu t'assois. Tu ne pèses rien. Pourtant, le vieux Gravitaire hoche la tête, satisfait. Personne ne t'avait jamais accueilli pour rien. | |
+* plt_bri_e | Rester debout, et continuer | Tu ne t'assois pas. Tu ne t'es jamais assis par terre. Le vieux Gravitaire referme son œil. Il ne t'en veut pas. Il est trop vieux pour en vouloir. | |
+
+@plt_bri_h2
+!title: Ce que raconte Brisefer
+Entre deux parties de dominos, Brisefer parle. Elle parle de l'Axe comme d'un vieux collègue.
+« Trois mille ans que je l'ai tenu. Le premier jour, je me suis dit : un jour, quelqu'un viendra me remplacer. Personne n'est venu. Le dernier jour, on m'a donné une médaille et une chambre ici. » Elle pose un domino. « La médaille est en or. Je m'en sers pour caler la table. »
+~anatole: Anatole regarde la médaille sous le pied de table. « C'est de l'or véritable ? » « Ça cale pareil. »
+~basile: Basile, sur la table, parmi les dominos, une phrase par minute : « J'ai aussi... une médaille... Trois siècles... de tampons. » Brisefer : « Elle cale quoi, la tienne ? » « Rien... Je la... regarde. » « T'as tort. »
+~pistil: Pistil regarde la médaille d'or sous la table, puis tes mains. Il ne dit rien. Il a ce petit sourire des gens qui comprennent avant toi.
+* plt_bri2 | Lui demander si l'Axe lui manque | Elle s'arrête de jouer. « Tous les jours. » Elle repose ses dominos. « Les choses qu'on a portées longtemps, elles manquent. Même quand elles faisaient mal. » Elle te regarde. « Surtout. » | |
+* plt_bri2 | Regarder ta propre main, couverte d'or | Elle est belle. Elle ne cale rien. Elle n'a jamais rien porté de plus lourd qu'un stylo. Tu la poses à plat sur la table, à côté des dominos. Brisefer la regarde. Elle ne dit rien. | |
+
+# ---------- La Serre ----------
+
+@plt_ana_b2
+!title: Le fil
+Tante Mélusine te tient longtemps sous ses trois paires de lunettes. Elle tricote en parlant, sans jamais regarder ses aiguilles.
+« MILLE ANS QUE JE TRICOTE POUR LES GENS QUI ONT FROID. TU SAIS QUI A LE PLUS FROID ? CEUX QUI ONT TOUT. ILS ONT TOUT, ET ÇA NE TIENT PAS CHAUD. » Elle s'arrête. « NON. CEUX QUI N'ONT RIEN ONT PLUS FROID. NON. TOUT LE MONDE A FROID. C'EST POUR ÇA QUE JE TRICOTE. »
+~ondine: Ondine et Tante Mélusine se connaissent : la prêtresse lui a tricoté un bonnet, une fois, qu'elle n'a jamais pu mettre parce qu'il est en lumière et qu'elle est en eau. « Tu l'as encore ? » « Je le garde dans une bouteille. » « C'EST TRÈS BIEN. NON. C'EST TRÈS TRISTE. NON. C'EST BIEN. »
+~brisefer: Brisefer et la prêtresse se toisent. « Vous, vous portez. » « ET VOUS, VOUS TRICOTEZ ? » « Non. Je portais la Terre. » « C'EST À PEU PRÈS PAREIL. » Brisefer réfléchit. Elle trouve que c'est vrai.
+~pistil: Pistil reconnaît la laine. C'est celle de son bonnet. Il ne dit rien. Il se fait tout petit dans ton col.
+* plt_ana_c | Lui demander pour qui elle tricote, ce soir | « POUR TOI. NON. POUR TOUT LE MONDE. NON. POUR TOI, AUSSI. » Elle ne lâche pas son tricot. | |
+* plt_ana_c | Lui dire que tu n'as besoin de rien | « PERSONNE N'A BESOIN DE RIEN. TOUT LE MONDE A BESOIN DE TOUT. » Elle ajoute une maille. « C'EST LA MÊME CHOSE, DIT AUTREMENT. » | |
+* plt_ana_c | Écouter ses aiguilles | Elles cliquettent. C'est le bruit le plus régulier que tu aies jamais entendu. Plus régulier qu'un compte. Plus doux. | |
+
+@plt_ana_g2
+!title: L'heure d'Anatole
+Anatole a fini d'arroser. Il s'assoit sur un pot retourné, ses grandes ailes repliées. Il ne sait pas quelle heure il est. Il regarde quand même la Lune, comme on regarde une horloge arrêtée.
+« Soixante ans que je note l'heure où elles s'ouvrent. Je n'ai jamais su pourquoi. Pour savoir, je crois. Quand on sait l'heure, on n'est pas perdu. »
+~bartho: Bartholomé s'assoit sur un autre pot. « Moi, je sais l'heure de la marée. Quand elle vient pas, je sais quand même l'heure. Ça sert à rien. Je la sais quand même. »
+~basile: Basile, une phrase par minute : « Moi... je sais... l'heure... de fermeture. » Anatole hoche la tête, comme si c'était une bonne heure à savoir.
+~ondine: Ondine regarde les fleurs fermées. « Elles attendent, comme moi. J'attends une réponse depuis trente ans. Elles, depuis trois jours. Elles sont jeunes. »
+* plt_ana2 | Lui donner l'heure exacte, avec ta montre en or | « Onze heures quarante-deux. » Il la répète tout bas, pour s'en souvenir. Ce n'est pas l'heure des fleurs. C'est quand même une heure. Il te remercie. | |
+* plt_ana2 | Lui dire qu'il n'est pas perdu | Il te regarde, avec ses yeux de nuit. « Vous non plus, alors. » Tu ne sais pas si c'est une question. | |
+
+# ---------- Le Carrefour ----------
+
+@plt_car6b
+!title: Le portrait
+Plus loin, sous une tente-école, un vieux Lichenaute fait la classe. Au tableau, il a dessiné la Lune, avec son crochet, et un grand bonhomme doré qui tire dessus. Les élèves recopient.
+« Platine », dit le maître, « a acheté la Lune. Qui peut me dire pourquoi ? » Un petit Gravitaire lève la main. « Parce qu'il est riche. » « Ce n'est pas une raison. Autre chose ? » Une petite Marégrave : « Parce qu'il n'en avait pas. »
+~pistil: Pistil, contre ton cou : « Elle a raison, la petite. » Tu ne réponds pas.
+~brisefer: Brisefer regarde le bonhomme doré au tableau. « Il est mal dessiné. Il a l'air trop sûr de lui. » Elle te regarde. « Toi, tu as l'air de quelqu'un qui doute. »
+~anatole: Anatole se penche vers le tableau. « Il a dessiné la Lune trop petite. » « Elle rapetisse », dit un élève. « Elle s'en va. » Anatole se tait.
+~ondine ?comp:bartho: Ondine et Bartholomé restent au fond de la tente, comme deux parents à la réunion de l'école. Ils ne disent rien. Ils écoutent les enfants.
+* plt_car4 | Attendre la réponse du maître | Le vieux Lichenaute réfléchit. « Peut-être », dit-il. « Ou parce que personne ne lui a jamais rien donné. Ça arrive. » Il efface le bonhomme. Il garde la Lune. | |
+* plt_car4 | Partir avant la fin de la leçon | Tu sors. Derrière toi, les enfants récitent : « La Lune n'est pas à vendre. La Lune n'est pas à vendre. » Ils le récitent comme une table de multiplication. | |
+
+@plt_car4b
+!title: Le dernier soir
+Au bord de la plaine, avant la navette, tu te retournes une dernière fois vers le Carrefour. Mille feux. Des chansons, en vingt langues. Quelqu'un rit, quelque part. On rit, ici, même la dernière nuit.
+?comps>=1 Ceux qui t'ont suivi sont là, autour de toi. Ils ne savent pas où tu vas. Ils viennent quand même.
+~ondine: Ondine regarde la navette. « C'est à vous, ça ? » Tu dis que c'est à ton employeur. C'est presque vrai. Elle hoche la tête. « Je monte quand même. J'ai une lettre à porter. »
+~basile: Basile, sur ton épaule, une phrase par minute : « Je crois... que je sais... qui vous êtes. » Une minute. « Je ne dirai... rien. Je n'ai jamais... rien dit. Je suis... doué. »
+~brisefer: Brisefer regarde la navette, puis toi. Ses yeux de silex se plissent. Elle ne dit rien. Elle réfléchit, ce qui chez une géante prend du temps et fait du bruit.
+~anatole: Anatole tourne une dernière fois la tête vers la Lune. « Si on monte, je la verrai de près. Je n'ai jamais vu une lune de près. Juste les fleurs qui la regardent. »
+~bartho: Bartholomé met sa casquette. « Une navette. Ça flotte, au moins ? » « Ça vole. » « C'est pire. »
+~pistil ?comp:basile: Pistil et Basile se regardent par-dessus ton col. Ils savent tous les deux. Ils échangent un signe de tête. C'est un club très fermé.
+* plf_01 | Monter le premier | Tu montes. Tu as l'habitude de passer devant. Pour une fois, tu te retournes pour voir si les autres suivent. | |
+* plf_01 | Laisser monter les autres d'abord | Tu attends au bas de la passerelle. Tu n'avais jamais laissé passer personne. C'est étrange : on voit mieux les gens de derrière. | |
+
+# ---------- La remontée ----------
+
+@plf_01e2
+!title: Pénélope
+Dans le couloir, après Zéphyrin, Pénélope t'attend. Elle tient un plateau. Dessus, ton thé. Elle le tient comme d'habitude, au même endroit, au même angle.
+« Monsieur. Je voulais vous dire. » Elle ne dit rien d'autre pendant un moment. Puis : « Pendant votre absence, j'ai lu les lettres. Celles de la Terre. Les réclamations. On en a reçu quatre millions. Je les ai toutes lues. » Elle pose le thé. « Je n'en ai tamponné aucune. »
+?comp:ondine Ondine regarde Pénélope, puis le plateau, puis toi. Elle comprend quelque chose. Elle ne dit rien. Elle serre son sac de lettres contre elle.
+?comp:brisefer Brisefer regarde Pénélope de haut en bas. « Elle, au moins, elle lit. »
+* plf_01f | « Merci, Pénélope. » | Elle te regarde comme si tu venais de dire un mot d'une langue étrangère. Puis elle hoche la tête, très vite, et repart. Le thé est chaud. Il l'est toujours. Tu ne l'avais jamais remarqué. | |
+* plf_01f | « Qu'en avez-vous pensé ? » | « Que vous devriez les lire aussi, Monsieur. » Elle repart. Elle n'avait jamais rien répondu d'autre que « Bien, Monsieur ». | |
+* plf_01f | Prendre le thé, sans rien dire | Tu prends le thé. Elle attend une seconde de trop. Puis elle repart. Tu bois. Il a un goût de quatre millions de lettres. | |
+
+@+plf_01f
+?flag:pl_formulaire Dans ta poche intérieure, le formulaire vierge de Tamponville craque quand tu respires. « Reprise d'un bien vendu par erreur. » Tu ne l'as pas rempli. Tu sens ses quatre plis contre ton cœur d'or.

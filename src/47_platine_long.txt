@@ -77,8 +77,8 @@ Un enfant marégrave te tend un seau. Il ne sait pas qui tu es. Il voit des bras
 Derrière les maisons, une vieille digue de planches retient ce qui reste d'eau douce : les puits, les flaques, les réserves. Elle fuit. Une petite Marégrave, pas plus haute qu'un seau, bouche un trou avec son doigt. Son doigt fuit aussi. Elle est un peu plus petite à chaque heure.
 Le trou est rond. Il n'est pas très grand.
 ?flag:pl_piscines Tu sais où va l'eau qui manque. Elle monte vers tes piscines. Chaque marée qu'on a prise là-haut, c'est ce doigt-là qui la retient en bas.
-* plt_cot_b coe10 | Arracher une feuille d'or à ton coude, et boucher le trou avec | Tu arraches une feuille. Ça fait mal, comme toujours. Tu la plies en quatre et tu la glisses dans le trou, à la place du doigt. L'or ne fuit pas. La petite retire sa main et te regarde, émerveillée. « Vous êtes fait en bouchon ? » Tu dis oui. C'est la plus belle chose qu'on t'ait jamais demandée. | Tu arraches une feuille, mais elle est trop fine : l'eau passe à travers. La petite remet son doigt. Elle te remercie quand même, très poliment. | +flag:pl_emo_digue coe+1 |
-* plt_cot_b | Aller chercher quelqu'un d'autre | Tu cherches. Tout le monde écope. Tu reviens. La petite est toujours là, un peu plus petite. Quelqu'un finit par apporter un bouchon de liège. Ce n'était pas toi. | |
+* plt_cot_b2 coe10 | Arracher une feuille d'or à ton coude, et boucher le trou avec | Tu arraches une feuille. Ça fait mal, comme toujours. Tu la plies en quatre et tu la glisses dans le trou, à la place du doigt. L'or ne fuit pas. La petite retire sa main et te regarde, émerveillée. « Vous êtes fait en bouchon ? » Tu dis oui. C'est la plus belle chose qu'on t'ait jamais demandée. | Tu arraches une feuille, mais elle est trop fine : l'eau passe à travers. La petite remet son doigt. Elle te remercie quand même, très poliment. | +flag:pl_emo_digue coe+1 |
+* plt_cot_b2 | Aller chercher quelqu'un d'autre | Tu cherches. Tout le monde écope. Tu reviens. La petite est toujours là, un peu plus petite. Quelqu'un finit par apporter un bouchon de liège. Ce n'était pas toi. | |
 
 @plt_cot_b
 !title: Le Ressac Triste
@@ -146,8 +146,8 @@ La file passe sous les fenêtres du Palais de la Présidence, une aile du Cadast
 !title: Madame Épine
 Dans le hall du Cadastre, une grande plante dans un pot de marbre te barre le passage : un cactus de deux mètres, en tailleur, qui ne cligne jamais des yeux faute d'en avoir. Madame Épine, Sous-Directrice.
 « Vous êtes d'Aldébaran. » Ce n'est pas une question. « Je les reconnais. Ils viennent tous voir la file. Ils la trouvent pittoresque. » Elle se penche. « Article douze, alinéa trois. Toute cession est suspendue si le cédant n'a pas été entendu. Le cédant, ici, n'a jamais rien dit. Vous le direz à votre patron, n'est-ce pas ? »
-* plt_cap_h rus10 | « Je n'ai pas de patron, Madame. » | Elle te regarde longtemps, sans cligner. « Alors c'est pire. » Elle s'écarte. Tu passes. Tu sens ses épines dans ton dos jusqu'au bout du couloir. Elle sait. Elle ne dira rien. Elle attend de voir ce que tu feras. | Tu le dis trop vite. Elle ne s'écarte pas. Tu fais le tour du pot de marbre, ce qui prend du temps : il est grand. | +flag:pl_epine |
-* plt_cap_h coe9 | « Je le lui dirai. » | Tu le diras. Tu te le dis déjà. Article douze, alinéa trois. Tu le notes au dos de ton ticket. Madame Épine s'écarte, très légèrement. C'est énorme, pour un cactus. | Elle ne te croit pas. Elle a raison. Tu passes quand même. | +flag:pl_article_douze |
+* plt_cap_b2 rus10 | « Je n'ai pas de patron, Madame. » | Elle te regarde longtemps, sans cligner. « Alors c'est pire. » Elle s'écarte. Tu passes. Tu sens ses épines dans ton dos jusqu'au bout du couloir. Elle sait. Elle ne dira rien. Elle attend de voir ce que tu feras. | Tu le dis trop vite. Elle ne s'écarte pas. Tu fais le tour du pot de marbre, ce qui prend du temps : il est grand. | +flag:pl_epine |
+* plt_cap_b2 coe9 | « Je le lui dirai. » | Tu le diras. Tu te le dis déjà. Article douze, alinéa trois. Tu le notes au dos de ton ticket. Madame Épine s'écarte, très légèrement. C'est énorme, pour un cactus. | Elle ne te croit pas. Elle a raison. Tu passes quand même. | +flag:pl_article_douze |
 
 @plt_cap_c
 !title: Le Cantonnier
@@ -193,8 +193,8 @@ L'Ascenseur s'arrête devant l'Axe de la Terre : une colonne de fer et de nickel
 !title: La petite au bonnet
 Au pied de l'Axe, une petite Gravitaire, à peine cent ans, en bonnet de laine trop grand, cherche quelqu'un dans la foule assise. Elle te voit. Tu es le seul debout.
 « Vous pouvez monter ? Mon papa est là-haut. Il a une fissure en étoile sur le front. Il s'appelle Gneiss. Il est assis depuis trois jours, et il oublie un mot par heure. Il faut lui dire que je l'aime avant qu'il oublie le mot. »
-* plt_bri_e coe9 | La prendre sur tes épaules, pour qu'elle le lui dise elle-même | Elle pèse le poids d'une petite montagne. Tes épaules d'or plient. Tu tiens. Tu la portes jusqu'au gros Gravitaire à la fissure en étoile. Elle lui crie : « Papa ! Je t'aime ! » Il ouvre un œil. Il se souvient du mot. « Fille. » Il pèse deux fois plus lourd d'un coup. L'Axe se redresse d'un cheveu. Toi, tu as une épaule tordue pour toujours. Tu ne la feras jamais redresser. | Tu essaies de la soulever. Elle pèse une petite montagne. Tu tombes assis. Elle soupire, et elle monte toute seule, par les autres, de genou en genou. | +flag:pl_gneiss +flag:pl_emo_axe coe+1 |
-* plt_bri_e | Lui dire que tu n'as pas le temps | Elle te regarde avec des yeux de silex. Elle ne dit rien. Elle commence à grimper toute seule. Tu entends, en partant, une toute petite voix qui crie « Papa ! » très haut. | | coe-1 |
+* plt_bri_c2 coe9 | La prendre sur tes épaules, pour qu'elle le lui dise elle-même | Elle pèse le poids d'une petite montagne. Tes épaules d'or plient. Tu tiens. Tu la portes jusqu'au gros Gravitaire à la fissure en étoile. Elle lui crie : « Papa ! Je t'aime ! » Il ouvre un œil. Il se souvient du mot. « Fille. » Il pèse deux fois plus lourd d'un coup. L'Axe se redresse d'un cheveu. Toi, tu as une épaule tordue pour toujours. Tu ne la feras jamais redresser. | Tu essaies de la soulever. Elle pèse une petite montagne. Tu tombes assis. Elle soupire, et elle monte toute seule, par les autres, de genou en genou. | +flag:pl_gneiss +flag:pl_emo_axe coe+1 |
+* plt_bri_c2 | Lui dire que tu n'as pas le temps | Elle te regarde avec des yeux de silex. Elle ne dit rien. Elle commence à grimper toute seule. Tu entends, en partant, une toute petite voix qui crie « Papa ! » très haut. | | coe-1 |
 
 @plt_bri_e
 !title: Le lac noir
@@ -239,8 +239,8 @@ Un petit poisson, entraîné malgré lui, passe devant toi en battant des nageoi
 !title: Tante Mélusine
 Au sommet de la colline, au Temple de la Pleine Lune, une vieille dame immense, couverte de châles et de pelotes, trois paires de lunettes sur le nez, tricote la lumière de la Lune depuis mille ans pour les gens qui ont froid. Tante Mélusine. Elle pleure en tricotant, et elle crie en pleurant.
 « UN DORÉ ! QU'EST-CE QU'IL VIENT FAIRE DANS MON DEUIL ? » Elle te regarde par-dessus ses trois lunettes. « TU AS FROID. ÇA SE VOIT. LES DORÉS ONT TOUJOURS FROID. »
-* plt_ana_c coe10 | « Oui. J'ai toujours eu froid. » | Elle s'arrête de tricoter. Elle te regarde longtemps. Puis elle tire de sa pelote le dernier fil de lumière qu'elle a, et elle te tricote, en dix minutes, une écharpe toute fine, pâle et tiède. Elle te l'enroule autour du cou. « VOILÀ. C'EST DE LA LUNE. TANT QU'ELLE EST LÀ, ÇA TIENDRA CHAUD. » Tu ne lui dis pas qui tu es. Tu ne pourrais pas. | Elle te regarde longtemps, puis elle secoue la tête. « NON. TU MENS. TU AS FROID, MAIS TU NE LE SAIS PAS ENCORE. » Elle se remet à tricoter pour quelqu'un d'autre. | +flag:obj_echarpe +flag:pl_emo_echarpe coe+1 |
-* plt_ana_c | « Non, Madame. Je vais très bien. » | « MENTEUR. » Elle se remet à tricoter. Elle a mille ans d'expérience des gens qui vont très bien. | |
+* plt_ana_b2 coe10 | « Oui. J'ai toujours eu froid. » | Elle s'arrête de tricoter. Elle te regarde longtemps. Puis elle tire de sa pelote le dernier fil de lumière qu'elle a, et elle te tricote, en dix minutes, une écharpe toute fine, pâle et tiède. Elle te l'enroule autour du cou. « VOILÀ. C'EST DE LA LUNE. TANT QU'ELLE EST LÀ, ÇA TIENDRA CHAUD. » Tu ne lui dis pas qui tu es. Tu ne pourrais pas. | Elle te regarde longtemps, puis elle secoue la tête. « NON. TU MENS. TU AS FROID, MAIS TU NE LE SAIS PAS ENCORE. » Elle se remet à tricoter pour quelqu'un d'autre. | +flag:obj_echarpe +flag:pl_emo_echarpe coe+1 |
+* plt_ana_b2 | « Non, Madame. Je vais très bien. » | « MENTEUR. » Elle se remet à tricoter. Elle a mille ans d'expérience des gens qui vont très bien. | |
 
 @plt_ana_c
 !title: Les tricoteuses
@@ -277,13 +277,13 @@ Au bord de la serre, la fente dans laquelle Anatole jette les fleurs fanées, ch
 ?lieux>=4 La dernière route. Elle est longue, et vide, et tu marches. Tu as vu les quatre endroits. Tu as vu ce que tu as acheté. Tu n'as pas trouvé où le ranger.
 ~pistil: Pistil, sur ton épaule, ne dit rien. Il regarde ce que tu regardes. C'est sa façon de te poser une question.
 ~bartho: Bartholomé grogne. « Les routes, c'est de la mer qui ne bouge pas. »
-* plt_hub coe9 ?lieux==1 | Regarder le galet, sans détourner les yeux | Il pâlit un peu, du côté tourné vers toi. Tu ne sais pas ce que ça veut dire. Tu sais que ce n'est pas rien. Tu paies ton café sans l'avoir bu et tu descends à la gare suivante, le cœur trop rapide pour un cœur d'or. | Le galet ne bouge pas. L'homme en redingote parle trop fort. Tu descends à la gare suivante. | +flag:pl_train coe+1 | +flag:pl_train
-* plt_hub ?lieux==1 | Regarder le paysage, comme le galet | Vous regardez la même chose, chacun de son côté de la vitre. Un champ, une rivière, une vache. Tu as l'impression de les voir pour la première fois. Lui aussi, peut-être. | | +flag:pl_train |
-* plt_hub coe9 ?lieux==2 | « Je le connais un peu. Il n'est pas si grand. » | L'aubergiste te regarde. Tout le monde te regarde. Puis le vieux Vent rit. « Pas si grand ? Alors il a dû rapetisser. » Tout le monde rit. Tu manges ta soupe. Elle est bonne. Tu n'as jamais mangé dans un endroit où l'on riait de toi sans le savoir. C'est étrangement reposant. | Tu le dis trop bas. Personne n'entend. Tu manges ta soupe, seul, au milieu de tout le monde. | coe+1 |
-* plt_hub ?lieux==2 | « Non. Je ne le connais pas. » | C'est ton troisième mensonge, ou le quatrième. Tu ne comptes plus. Ça t'inquiète davantage que le premier. | |
-* plt_hub coe9 ?lieux==3 | T'arrêter, et répondre à la petite : « Si. Il a froid. » | Les enfants s'arrêtent. Ils te regardent, toi, le grand monsieur doré au bord du champ. La petite Marégrave réfléchit. Puis elle enlève son écharpe et l'enroule autour du bonhomme en papier. « Voilà. » Les autres enfants trouvent ça bête. Ils recommencent à jouer. Le bonhomme a une écharpe, maintenant. | Les enfants ne t'entendent pas. Ils repartent en courant derrière le bonhomme. | +flag:pl_enfants coe+1 |
-* plt_hub ?lieux==3 | Passer ton chemin | Tu passes. Derrière toi, ils crient « Platine ! » en riant. Ça ne te fait pas rire. | |
-* plt_hub ?lieux>=4 | Continuer de marcher | Tu marches. La Lune, au-dessus, te suit. Elle n'a pas le choix : elle est accrochée. | |
+* plt_halte coe9 ?lieux==1 | Regarder le galet, sans détourner les yeux | Il pâlit un peu, du côté tourné vers toi. Tu ne sais pas ce que ça veut dire. Tu sais que ce n'est pas rien. Tu paies ton café sans l'avoir bu et tu descends à la gare suivante, le cœur trop rapide pour un cœur d'or. | Le galet ne bouge pas. L'homme en redingote parle trop fort. Tu descends à la gare suivante. | +flag:pl_train coe+1 | +flag:pl_train
+* plt_halte ?lieux==1 | Regarder le paysage, comme le galet | Vous regardez la même chose, chacun de son côté de la vitre. Un champ, une rivière, une vache. Tu as l'impression de les voir pour la première fois. Lui aussi, peut-être. | | +flag:pl_train |
+* plt_halte coe9 ?lieux==2 | « Je le connais un peu. Il n'est pas si grand. » | L'aubergiste te regarde. Tout le monde te regarde. Puis le vieux Vent rit. « Pas si grand ? Alors il a dû rapetisser. » Tout le monde rit. Tu manges ta soupe. Elle est bonne. Tu n'as jamais mangé dans un endroit où l'on riait de toi sans le savoir. C'est étrangement reposant. | Tu le dis trop bas. Personne n'entend. Tu manges ta soupe, seul, au milieu de tout le monde. | coe+1 |
+* plt_halte ?lieux==2 | « Non. Je ne le connais pas. » | C'est ton troisième mensonge, ou le quatrième. Tu ne comptes plus. Ça t'inquiète davantage que le premier. | |
+* plt_halte coe9 ?lieux==3 | T'arrêter, et répondre à la petite : « Si. Il a froid. » | Les enfants s'arrêtent. Ils te regardent, toi, le grand monsieur doré au bord du champ. La petite Marégrave réfléchit. Puis elle enlève son écharpe et l'enroule autour du bonhomme en papier. « Voilà. » Les autres enfants trouvent ça bête. Ils recommencent à jouer. Le bonhomme a une écharpe, maintenant. | Les enfants ne t'entendent pas. Ils repartent en courant derrière le bonhomme. | +flag:pl_enfants coe+1 |
+* plt_halte ?lieux==3 | Passer ton chemin | Tu passes. Derrière toi, ils crient « Platine ! » en riant. Ça ne te fait pas rire. | |
+* plt_halte ?lieux>=4 | Continuer de marcher | Tu marches. La Lune, au-dessus, te suit. Elle n'a pas le choix : elle est accrochée. | |
 
 # ---------------------------------------------------------------- LE CARREFOUR DES ESPÈCES
 
@@ -320,8 +320,8 @@ Le soir tombe sur le Carrefour. Tu marches entre les tentes. Partout, des gens q
 Personne ne sait que tu es là. Tu pourrais rester. Tu pourrais ne jamais remonter. La navette clignote, au bord de la plaine.
 ~pistil: Pistil, très bas : « Tu pourrais rester, tu sais. Personne ne t'a reconnu. » Il sait que ce n'est pas vrai. Lui t'a reconnu.
 ~basile: Basile regarde ton portrait à moustaches, une ligne par minute. Il finit par dire : « Il... ne vous... ressemble pas. Vous êtes... plus fatigué. »
-* plf_01 coe9 | T'asseoir un moment sous la tente, avec la famille de Marégraves | Ils te font de la place. Ils te tendent un bol. Tu manges avec eux, sous ton propre portrait à moustaches. Personne ne fait le rapprochement. Le père marégrave te dit : « Demain, on sera peut-être sans Lune. Mais ce soir, on mange ensemble. » Tu manges ensemble. Tu ne l'avais jamais fait. Puis tu te lèves, et tu vas vers la navette. | Tu t'approches, mais la tente est pleine. On s'excuse. Tu vas vers la navette. | +flag:pl_tente coe+1 |
-* plf_01 | Aller vers la navette | Tu traverses la plaine. Derrière toi, le Carrefour s'allume de mille feux. | |
+* plt_car4b coe9 | T'asseoir un moment sous la tente, avec la famille de Marégraves | Ils te font de la place. Ils te tendent un bol. Tu manges avec eux, sous ton propre portrait à moustaches. Personne ne fait le rapprochement. Le père marégrave te dit : « Demain, on sera peut-être sans Lune. Mais ce soir, on mange ensemble. » Tu manges ensemble. Tu ne l'avais jamais fait. Puis tu te lèves, et tu vas vers la navette. | Tu t'approches, mais la tente est pleine. On s'excuse. Tu vas vers la navette. | +flag:pl_tente coe+1 |
+* plt_car4b | Aller vers la navette | Tu traverses la plaine. Derrière toi, le Carrefour s'allume de mille feux. | |
 
 # ---------------------------------------------------------------- LA REMONTÉE
 
@@ -357,8 +357,8 @@ Tu la relis. Personne ne t'avait jamais remercié d'avance. Tu ne sais pas si la
 Sur la Lune, à midi, les ouvriers de Bobinot s'assoient dans la poussière pour manger. Ils t'invitent, par politesse, sans y croire. Tu t'assois. Ils n'en reviennent pas.
 Ils mangent des sandwiches d'Aldébaran, durs comme des lingots. Ils chantent une chanson de chantier sur une comète qui ne voulait pas qu'on l'accroche. Au dernier couplet, la comète s'échappe. Ils rient. Puis ils regardent la poussière sous eux, et ils ne rient plus.
 « C'est bizarre, Monsieur », dit Bobinot. « On a accroché cent comètes. Celle-là, elle ne bouge pas, elle ne se débat pas. Elle attend. Ça fait plus peur. »
-* pla_05 coe9 | Chanter le refrain avec eux | Tu chantes. Faux. Les ouvriers se regardent, puis ils chantent avec toi, plus fort, pour couvrir ta voix. C'est le plus beau chœur que la Lune ait jamais entendu, et le plus faux. Bobinot a les larmes aux yeux. Il dit que c'est la poussière. | Tu ouvres la bouche. Rien ne sort. Les ouvriers finissent sans toi, poliment. | +flag:pl_chante coe+1 |
-* pla_05 | Manger ton sandwich en silence | Il est dur. Tu le finis. Tu n'avais jamais fini un repas en même temps que d'autres gens. | |
+* pla_04d coe9 | Chanter le refrain avec eux | Tu chantes. Faux. Les ouvriers se regardent, puis ils chantent avec toi, plus fort, pour couvrir ta voix. C'est le plus beau chœur que la Lune ait jamais entendu, et le plus faux. Bobinot a les larmes aux yeux. Il dit que c'est la poussière. | Tu ouvres la bouche. Rien ne sort. Les ouvriers finissent sans toi, poliment. | +flag:pl_chante coe+1 |
+* pla_04d | Manger ton sandwich en silence | Il est dur. Tu le finis. Tu n'avais jamais fini un repas en même temps que d'autres gens. | |
 
 @pla_06d
 !title: Le premier rapport
@@ -428,15 +428,15 @@ Un très vieux Gravitaire, plus gris que les autres, te regarde passer. « Un do
 !title: Les dominos
 Dans la salle commune, Brisefer joue aux dominos de basalte avec deux anciens. Les dominos glissent vers l'est. Il faut jouer vite.
 Elle te fait signe de t'asseoir. « Tu joues, le doré ? » Tu n'as jamais joué. Tu as racheté deux casinos.
-* plt_bri2 coe9 | Jouer, en perdant de bon cœur | Tu perds. Tu perds tout. Tu ne savais pas qu'on pouvait perdre sans que ça coûte rien. Brisefer gagne trois parties d'affilée et te tape dans le dos, ce qui te plie en deux. « Tu perds bien. C'est rare chez les dorés. » | Tu joues pour gagner, par habitude. Tu gagnes. Personne ne te félicite. Tu ne sais pas quoi faire de ta victoire. | +flag:pl_dominos coe+1 |
-* plt_bri2 rus9 | Jouer pour gagner | Tu calcules. Tu gagnes deux parties. Brisefer te regarde de travers. « Tu comptes. Tu comptes tout, toi. » Elle n'a pas tort. | Tu calcules mal : les dominos ont glissé. Tu perds. | rus+1 |
+* plt_bri_h2 coe9 | Jouer, en perdant de bon cœur | Tu perds. Tu perds tout. Tu ne savais pas qu'on pouvait perdre sans que ça coûte rien. Brisefer gagne trois parties d'affilée et te tape dans le dos, ce qui te plie en deux. « Tu perds bien. C'est rare chez les dorés. » | Tu joues pour gagner, par habitude. Tu gagnes. Personne ne te félicite. Tu ne sais pas quoi faire de ta victoire. | +flag:pl_dominos coe+1 |
+* plt_bri_h2 rus9 | Jouer pour gagner | Tu calcules. Tu gagnes deux parties. Brisefer te regarde de travers. « Tu comptes. Tu comptes tout, toi. » Elle n'a pas tort. | Tu calcules mal : les dominos ont glissé. Tu perds. | rus+1 |
 
 @plt_ana_g
 !title: Le carnet d'Anatole
 Pendant qu'Anatole arrose, tu ramasses un carnet tombé de son gilet. Dedans, au crayon, depuis soixante ans, l'heure exacte où chaque fleur s'est ouverte. Une colonne par nuit. Toujours à l'heure de la Lune.
 Depuis trois jours, la colonne est vide. Puis, en bas de la dernière page, d'une écriture qui tremble : « Si elles ne s'ouvrent plus, je ne saurai plus quelle heure il est. »
-* plt_ana2 coe9 | Rendre le carnet à Anatole, sans dire que tu l'as lu | Tu le lui tends. « Vous l'avez fait tomber. » Il le reprend, le serre contre son gilet. Il ne te demande pas si tu l'as lu. Il le sait, à ta tête. Il dit seulement : « Merci de ne pas l'avoir dit. » | Tu le lui tends, et tu dis, maladroitement : « Elles s'ouvriront. » Il te regarde. « Vous l'avez lu. » Il range le carnet, gêné. | coe+1 |
-* plt_ana2 | Le reposer par terre, où tu l'as trouvé | Il le retrouvera. Il a l'habitude de chercher ce qui tombe. | |
+* plt_ana_g2 coe9 | Rendre le carnet à Anatole, sans dire que tu l'as lu | Tu le lui tends. « Vous l'avez fait tomber. » Il le reprend, le serre contre son gilet. Il ne te demande pas si tu l'as lu. Il le sait, à ta tête. Il dit seulement : « Merci de ne pas l'avoir dit. » | Tu le lui tends, et tu dis, maladroitement : « Elles s'ouvriront. » Il te regarde. « Vous l'avez lu. » Il range le carnet, gêné. | coe+1 |
+* plt_ana_g2 | Le reposer par terre, où tu l'as trouvé | Il le retrouvera. Il a l'habitude de chercher ce qui tombe. | |
 
 @plt_ana_h
 !title: La nuit dans la serre
@@ -459,8 +459,8 @@ Quatre minutes. Ton conseil d'administration met quatre heures à choisir la cou
 !title: La taupe journaliste
 À la sortie de la tente, une taupe myope en imperméable, un carnet à la main, t'attrape par la manche. « La Gazette du Cadastre ! Vous êtes d'Aldébaran, monsieur ? Une déclaration ? Que pense Aldébaran de la vente ? »
 Elle colle son museau contre ton manteau pour te voir. Elle voit de l'or. Elle renifle. « Vous sentez le coffre-fort. »
-* plt_car4 rus10 | « Aldébaran pense que la Lune est très jolie là où elle est. » | La taupe note, ravie. « Superbe. Votre nom ? » « Pénélope », dis-tu, sans savoir pourquoi. Le lendemain, la Gazette titre : « UNE ALDÉBARANIENNE : "ELLE EST TRÈS JOLIE LÀ OÙ ELLE EST." » Là-haut, quelqu'un qui tamponne la lira, et elle ne saura pas quoi en penser. | Tu commences ta phrase, mais la taupe renifle encore. « Vous sentez vraiment le coffre-fort. » Tu t'éloignes vite. | +flag:pl_gazette |
-* plt_car4 | « Pas de commentaire. » | La taupe note : « Pas de commentaire. » Elle trouve ça très aldébaranien. | |
+* plt_car6b rus10 | « Aldébaran pense que la Lune est très jolie là où elle est. » | La taupe note, ravie. « Superbe. Votre nom ? » « Pénélope », dis-tu, sans savoir pourquoi. Le lendemain, la Gazette titre : « UNE ALDÉBARANIENNE : "ELLE EST TRÈS JOLIE LÀ OÙ ELLE EST." » Là-haut, quelqu'un qui tamponne la lira, et elle ne saura pas quoi en penser. | Tu commences ta phrase, mais la taupe renifle encore. « Vous sentez vraiment le coffre-fort. » Tu t'éloignes vite. | +flag:pl_gazette |
+* plt_car6b | « Pas de commentaire. » | La taupe note : « Pas de commentaire. » Elle trouve ça très aldébaranien. | |
 
 @plf_01d
 !title: Krâmm
@@ -476,8 +476,8 @@ C'est le dessin. « Pour papa. La Lune à sa place. »
 Dans le couloir, Zéphyrin te barre le passage, les moustaches à ressort toutes tordues. Il tient une enveloppe.
 « Monsieur. Mes deux pour cent. » Il te la tend. « Je n'en veux plus. Ma concierge ne dort plus. Elle n'a plus de veilleuse. Je ne peux pas vivre de sa veilleuse. »
 ?flag:pl_rendre Il ajoute, plus bas : « C'est vous qui m'avez dit qu'on pouvait rendre. Je n'y avais jamais pensé. »
-* plf_01f coe9 | Prendre l'enveloppe, et la poser sur le bureau, à côté du bouton | Tu la prends. Tu la poses à côté du bouton rouge. Deux pour cent de la Lune, rendus. Ça ne change rien à la vente. Ça change quelque chose à Zéphyrin : il se tient plus droit, ses moustaches se défroissent. Il s'en va en sifflotant, faux. | Tu prends l'enveloppe, puis tu la lui rends. « Gardez-les. Ce n'est pas le moment. » Il repart, les moustaches tordues. | +flag:pl_zephyrin_rend coe+1 |
-* plf_01f | « Ce n'est pas le moment, Zéphyrin. » | Il repart, l'enveloppe à la main. Il ne sait plus à qui la donner. | |
+* plf_01e2 coe9 | Prendre l'enveloppe, et la poser sur le bureau, à côté du bouton | Tu la prends. Tu la poses à côté du bouton rouge. Deux pour cent de la Lune, rendus. Ça ne change rien à la vente. Ça change quelque chose à Zéphyrin : il se tient plus droit, ses moustaches se défroissent. Il s'en va en sifflotant, faux. | Tu prends l'enveloppe, puis tu la lui rends. « Gardez-les. Ce n'est pas le moment. » Il repart, les moustaches tordues. | +flag:pl_zephyrin_rend coe+1 |
+* plf_01e2 | « Ce n'est pas le moment, Zéphyrin. » | Il repart, l'enveloppe à la main. Il ne sait plus à qui la donner. | |
 
 @plf_01f
 !title: La Salle des choses seules
@@ -495,15 +495,15 @@ Et dans le coin, sous sa housse, le coffre.
 !title: L'ordre de démarrage
 Pénélope apporte le dernier document de la vente : l'ordre de démarrage des moteurs. Le Promontoire tirera la Lune avec sa chaîne d'or. Les moteurs démarreront tout seuls, à l'aube du troisième jour, à l'heure prévue. Pour les arrêter, il n'y aura qu'un moyen : le bouton rouge, sur ton bureau. Celui qui arrête tout.
 « C'est l'usage, Monsieur », dit Pénélope. « On programme le départ. On garde un bouton pour les regrets. Personne ne s'en sert jamais. »
-* pla_02 rus9 | Signer l'ordre, et demander qu'on retire le bouton | Tu signes. « Retirez le bouton, Pénélope. Je n'ai pas de regrets. » Pénélope ne bouge pas. « C'est le règlement, Monsieur. Le bouton reste. » Tu ne savais pas qu'il y avait un règlement au-dessus de toi. Le bouton reste, rouge, sur ton bureau. Tu le regardes de travers. | Tu signes, et tu oublies de parler du bouton. Il reste là. | rus+1 |
-* pla_02 coe9 | Signer l'ordre, et regarder le bouton longtemps | Tu signes. Puis tu regardes le bouton rouge, à côté de ton encrier. Il est petit, rond, propre. Personne ne s'en sert jamais. Tu ne sais pas pourquoi tu le regardes si longtemps. | Tu signes sans regarder. Le bouton te regarde, lui. | +flag:pl_bouton coe+1 |
+* pla_01f rus9 | Signer l'ordre, et demander qu'on retire le bouton | Tu signes. « Retirez le bouton, Pénélope. Je n'ai pas de regrets. » Pénélope ne bouge pas. « C'est le règlement, Monsieur. Le bouton reste. » Tu ne savais pas qu'il y avait un règlement au-dessus de toi. Le bouton reste, rouge, sur ton bureau. Tu le regardes de travers. | Tu signes, et tu oublies de parler du bouton. Il reste là. | rus+1 |
+* pla_01f coe9 | Signer l'ordre, et regarder le bouton longtemps | Tu signes. Puis tu regardes le bouton rouge, à côté de ton encrier. Il est petit, rond, propre. Personne ne s'en sert jamais. Tu ne sais pas pourquoi tu le regardes si longtemps. | Tu signes sans regarder. Le bouton te regarde, lui. | +flag:pl_bouton coe+1 |
 
 @plt_00
 !title: Le champ
 La navette te dépose dans un champ, la nuit, et repart sans bruit. Tu es seul dans l'herbe, en manteau, ton chapeau enfoncé. Tu n'as jamais marché dans l'herbe. Elle est mouillée. Elle sent quelque chose que tu ne connais pas.
 Au bout du champ, une ferme. Une lanterne s'approche. C'est une vieille fermière Gravitaire, qui a entendu un bruit. Elle lève sa lanterne vers toi. « Vous êtes perdu, monsieur ? »
-* plt_01 coe9 | « Oui. Un peu. » | Elle hoche la tête. « Tout le monde est un peu perdu, depuis que la Lune bouge. » Elle te fait entrer, te donne un bol de lait chaud, et te montre sur une vieille carte où sont les Côtes, la Capitale, les Profondeurs et la forêt. Elle ne te demande pas qui tu es. Au matin, elle te donne une tartine pour la route. | Elle hoche la tête, te montre la route d'un geste, et rentre chez elle. Elle a du travail. | +flag:pl_fermiere coe+1 |
-* plt_01 | « Non, Madame. Je sais où je vais. » | Elle te regarde, longtemps, à la lueur de sa lanterne. « Alors vous êtes bien le seul. » Elle rentre. | |
+* plt_00b coe9 | « Oui. Un peu. » | Elle hoche la tête. « Tout le monde est un peu perdu, depuis que la Lune bouge. » Elle te fait entrer, te donne un bol de lait chaud, et te montre sur une vieille carte où sont les Côtes, la Capitale, les Profondeurs et la forêt. Elle ne te demande pas qui tu es. Au matin, elle te donne une tartine pour la route. | Elle hoche la tête, te montre la route d'un geste, et rentre chez elle. Elle a du travail. | +flag:pl_fermiere coe+1 |
+* plt_00b | « Non, Madame. Je sais où je vais. » | Elle te regarde, longtemps, à la lueur de sa lanterne. « Alors vous êtes bien le seul. » Elle rentre. | |
 
 @plt_cot_k
 !title: La vague immobile

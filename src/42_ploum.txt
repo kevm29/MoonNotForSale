@@ -105,7 +105,7 @@ Sous le comptoir du stand d'information, quelque chose de doré tremble. Un tout
 Plus loin, une tente dorée. Quinze heures sonnent sur une horloge de parquet.
 * pcm_avale ?flag:obj_echo ?!flag:pm_echo_avale | Avaler la bouteille, pour comprendre ce que c'est | Tu l'avales. C'est comme ça, chez toi, qu'on comprend les choses. | |
 * pcm_03 coe10 ?!comp:pardon ?!flag:pm_pardon_vu | Te pencher sous le comptoir | Le robot te regarde avec deux yeux ronds comme des boutons de manchette. « Pardon. Vous êtes une limace ? Pardon. Je suis Pardon. Je mesurais les racines pour la Compagnie. On m'a demandé ce qu'était une racine. Je n'ai pas su. Je suis parti. Pardon. » Il regarde ton bocal. « Je peux venir ? Vous n'avez pas l'air de savoir où vous allez non plus. » Il grimpe sur ton dos. | Le robot te voit, crie « Pardon ! », et file sous un autre comptoir. Tu ne le revois plus. | +comp:pardon +flag:pm_pardon_vu | +flag:pm_pardon_vu
-* pcm_04 | Aller vers la tente dorée | Tu entres sous la tente. Il y a beaucoup de monde, et un coffre. | |
+* pcm_03b | Aller vers la tente dorée | Tu entres sous la tente. Il y a beaucoup de monde, et un coffre. | |
 
 @pcm_avale
 !title: Être une bouteille
@@ -170,7 +170,7 @@ On décolle ton étiquette. Tu es de nouveau à toi.
 
 @pcr_01
 !title: La caisse de velours
-!fx: -comp:pardon -comp:brume -comp:bartho
+!fx: -comp:pardon -comp:brume -comp:bartho -comp:ondee
 Il fait noir. La caisse roule, monte, s'arrête, remonte. Un ascenseur, sans doute. Ceux qui t'accompagnaient sont restés en bas. Tu es seul avec les souvenirs d'un enfant.
 Contre toi, l'ours en feuilles d'or, qui n'a qu'un œil. Les cahiers d'écolier. Le petit coffre. Et le miroir, rayé, froid.
 Tu as tout le voyage pour goûter.
@@ -337,7 +337,7 @@ Ondine te raccompagne au bas du phare.
 ?!flag:pm_lettre « Si vous montez là-haut, dites-lui que j'écris toujours. Elle saura. »
 ?flag:pm_appel ?!flag:pm_lettre Tu sais déjà qui appelait. Tu ne lui dis pas. Ça ne t'appartient pas.
 ~bartho: Bartholomé te regarde partir. Puis il te suit. « Je viens jusqu'au bout. Pour la petite. Et parce que t'es lent. »
-* pct_05 | Redescendre vers la plage | Tu rampes sur le sable mouillé. Le phare clignote derrière toi, pour rien. | |
+* pct_04b | Redescendre vers la plage | Tu rampes sur le sable mouillé. Le phare clignote derrière toi, pour rien. | |
 
 # ---------------------------------------------------------------- LA DERNIÈRE NUIT
 
@@ -404,7 +404,7 @@ Les vigiles te soulèvent par le bocal. Tu pendouilles. « Une limace. Sur le ch
 !title: Le Promontoire
 Des couloirs dorés, des tapis épais, des tableaux de planètes vendues. Tout est propre, poli, parfait, et tout sent un peu la solitude.
 Au bout du couloir, une porte immense : « Gédéon Platine. Président. Entrez sans frapper, je vous en prie. »
-* pmo_02 | Entrer sans frapper | Tu n'as pas de main, de toute façon. Tu pousses la porte avec ton bocal. | |
+* pmo_01b | Entrer sans frapper | Tu n'as pas de main, de toute façon. Tu pousses la porte avec ton bocal. | |
 
 @pmo_bur
 !title: Le bureau de Platine
