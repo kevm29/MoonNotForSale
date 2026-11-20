@@ -1218,6 +1218,22 @@
   "obj_longue_vue": {
    "name": "La longue-vue de la mouette",
    "desc": "Une longue-vue de laiton cabossée. Elle a appartenu à un capitaine qui cherchait la Lune dans les nuages. Elle était derrière lui."
+  },
+  "obj_caillou_lune": {
+   "name": "Un caillou de Lune",
+   "desc": "Un petit caillou blanc, rond et léger, ramassé dans la poussière de la Lune. Il est froid. Il n'a jamais été payé."
+  },
+  "obj_piquet": {
+   "name": "Le piquet de la parcelle 412",
+   "desc": "Un piquet doré, avec un fanion : « Lune-sur-Mer, résidence. Vue sur rien. » Arraché du fond de la mer."
+  },
+  "obj_lettre_platine": {
+   "name": "Une lettre à la Lune",
+   "desc": "« Chère Lune. Je t'ai achetée. Je ne savais pas que tu avais des gens. Est-ce que tu as froid, la nuit ? Moi aussi. G. »"
+  },
+  "obj_echarpe": {
+   "name": "Une écharpe de lumière de Lune",
+   "desc": "Une écharpe toute fine, pâle et tiède, tricotée en dix minutes par Tante Mélusine. Tant que la Lune est là, elle tient chaud."
   }
  }
 }
