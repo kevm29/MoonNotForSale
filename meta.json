@@ -146,6 +146,22 @@
    "tagline": "Jardinier de nuit, papillon gris, il se dirige à la Lune et se perd autour de toutes les lampes.",
    "bio": "Les Noctuelles sont des papillons de nuit de la taille d'un parapluie plié. Elles volent droit en gardant la Lune au même angle de l'aile ; quand elles se trompent de lumière, elles tournent autour des lampes jusqu'au matin. Anatole soigne depuis soixante ans la Serre des Belles-de-Nuit, des fleurs qui ne s'ouvrent que sous la Lune. Timide, minutieux, poli avec les limaces. Chaque matin, il balaie les fleurs fanées dans une fente du sol, sans savoir où elles vont.",
    "debut": "Commence à la Serre des Belles-de-Nuit, à l'orée de la Forêt-Réseau, le soir où les fleurs refusent de s'ouvrir."
+  },
+  {
+   "id": "president",
+   "name": "Le Président de la Terre",
+   "species": "Galet",
+   "start": "gal_01",
+   "stats": [
+    0,
+    0,
+    0
+   ],
+   "unlock": 1,
+   "tagline": "Un galet gris clair, élu il y a huit cents ans parce qu'il n'a jamais rien dit de faux.",
+   "bio": "Le Président de la Terre ne bouge pas et ne parle pas. Il pense, lentement, et personne ne le sait. Maître Gontran Verbiage, son interprète autoproclamé, parle à sa place depuis quarante ans, et ne dit jamais ce que le galet pense. Ici, tu choisis ce que tu penses. Ce que le monde entend, c'est autre chose.",
+   "debut": "Commence sur un coussin de velours, au sommet de la grande tribune du Carrefour des Espèces, la nuit de la Grande Panique.",
+   "locked": "Il n'a jamais rien dit de faux. Il n'a jamais rien dit."
   }
  ],
  "companions": {
@@ -589,6 +605,48 @@
     "Remontoir s'arrête au milieu d'un pas, puis reprend, comme si de rien n'était.",
     "Remontoir te demande l'heure, pour le plaisir de te dire qu'elle est fausse."
    ]
+  },
+  "gontran": {
+   "name": "Maître Gontran Verbiage",
+   "species": "Interprète autoproclamé",
+   "stat": "pan",
+   "bio": "Il s'est assis un jour à côté du coussin présidentiel, il a commencé à traduire le silence du Président, et personne n'a osé lui demander de quoi. Depuis quarante ans, il parle pour le galet. Il ne l'a jamais entendu. Il ne dit jamais ce que le Président pense, mais il le dit très fort.",
+   "ok": [
+    "Gontran s'incline devant la foule : « Le Président l'avait prévu. »",
+    "Gontran : « Comme je le disais au Président, qui ne m'avait rien dit... »",
+    "Gontran s'éponge le front, ravi, sans savoir pourquoi."
+   ],
+   "ko": [
+    "Gontran traduit l'échec : « Le Président est très satisfait. »",
+    "Gontran : « Ce n'est pas un échec, c'est une position. »",
+    "Gontran transpire. Il transpire toujours, mais là, davantage."
+   ],
+   "idle": [
+    "Gontran répète l'article premier de la Constitution, pour personne.",
+    "Gontran tapote sa poche gauche pour vérifier que la Terre y est toujours.",
+    "Gontran prépare une déclaration du Président. Le Président n'en sait rien."
+   ]
+  },
+  "xanthin": {
+   "name": "Xanthin",
+   "species": "Lichenaute (lichen orange)",
+   "stat": "coe",
+   "bio": "Jeune Lichenaute de quatre-vingts ans, orange et têtu. Quand il pousse sur une pierre, il entend ce qu'elle pense. Sur le Président, il entend tout, et il dit enfin ce que le galet pense vraiment, lentement. Demi-frère de l'oncle du petit-cousin par alliance de Basile Grumeau : par la Toile, toute sa famille l'écoute.",
+   "ok": [
+    "Xanthin : « C'était... bien. » Il a mis une minute à le dire. C'est un compliment énorme.",
+    "Xanthin pousse d'un demi-millimètre de joie.",
+    "Xanthin : « La Toile... dit bravo. Enfin... un cousin dit bravo. »"
+   ],
+   "ko": [
+    "Xanthin : « On... recommencera. Les lichens... recommencent toujours. »",
+    "Xanthin soupire. Ça dure une minute.",
+    "Xanthin : « Ce n'était pas... ce que vous pensiez. Je sais. »"
+   ],
+   "idle": [
+    "Xanthin écoute ce que tu penses, et ne le répète pas. Il y a des pensées qui ne regardent personne.",
+    "Xanthin pose son bord sur une racine pour prendre des nouvelles de la famille.",
+    "Xanthin fait des progrès : il pousse plus vite quand il est content."
+   ]
   }
  },
  "npcs": [
@@ -704,6 +762,46 @@
    "title": "Inauguration",
    "kind": "sombre",
    "hint": "Toujours possible : signer, et devenir concierge."
+  },
+  "16": {
+   "title": "Article douze, alinéa trois",
+   "kind": "ironique",
+   "hint": "Laisser l'interprète effrayer Aldébaran avec une phrase apprise à Tamponville."
+  },
+  "17": {
+   "title": "Les marées en prime",
+   "kind": "sombre",
+   "hint": "Laisser l'interprète parler au sommet de crise."
+  },
+  "18": {
+   "title": "Une seule phrase",
+   "kind": "lumineuse",
+   "hint": "Dire enfin, par un lichen, une seule phrase vraie au Président d'Aldébaran."
+  },
+  "19": {
+   "title": "Vitesse géologique",
+   "kind": "douce-amère",
+   "hint": "Penser comme un galet devant un miroir qui n'a pas le temps."
+  },
+  "20": {
+   "title": "Le projectile",
+   "kind": "lumineuse",
+   "hint": "Être lancé, au Promontoire, par quelqu'un qui a de bons bras ou de grands gestes."
+  },
+  "21": {
+   "title": "Un président contre une Lune",
+   "kind": "sacrifice",
+   "hint": "Valoir plus que la Lune aux yeux d'un collectionneur."
+  },
+  "22": {
+   "title": "Territoire présidentiel",
+   "kind": "lumineuse",
+   "hint": "Se souvenir de l'article premier par une nuit de grande marée."
+  },
+  "23": {
+   "title": "Basile Gru...",
+   "kind": "lumineuse",
+   "hint": "Faire passer un message par la Toile au greffier qui a signé."
   }
  },
  "defaults": {

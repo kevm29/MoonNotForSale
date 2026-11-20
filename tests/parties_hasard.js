@@ -7,7 +7,7 @@ const ends={};let bad=[];
 for(let run=0;run<9;run++){
   await p.goto('file://'+dir+'/out/la-lune-vendue.html');await p.evaluate(()=>localStorage.clear());await p.reload();await p.waitForTimeout(150);
   await p.click('#tabCommencer');
-  const pcs=await p.$$('.pc'); await pcs[run%pcs.length].click(); await p.click('#sheetGo'); await p.waitForTimeout(100);
+  const pcs=await p.$$('.pc:not(.locked)'); await pcs[run%pcs.length].click(); await p.click('#sheetGo'); await p.waitForTimeout(100);
   let steps=0;
   for(;steps<250;steps++){
     if(await p.$('#again'))break;

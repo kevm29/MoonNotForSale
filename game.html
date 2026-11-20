@@ -62,6 +62,7 @@ html{scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar{displa
 .pc:hover{border-color:var(--lune);background:var(--nuit-3)}
 .pc h3{font-size:16px;line-height:1.15}
 .pc .sp{font-family:var(--f-data);font-size:11px;color:var(--maree);letter-spacing:.08em;text-transform:uppercase}
+.pc.locked{border-style:dashed;opacity:.75}.pc.locked h3{font-style:italic;font-size:14px;color:var(--craie-2)}
 /* fiche du personnage */
 #sheet{position:fixed;inset:0;z-index:20;display:grid;place-items:center;padding:16px;background:rgba(10,13,24,.78);backdrop-filter:blur(3px)}
 .sheet{width:min(920px,100%);max-height:calc(100vh - 32px);overflow:auto;scrollbar-width:none;background:var(--nuit-2);border:1px solid var(--lune);border-radius:8px;display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);animation:open .25s ease-out}
@@ -272,7 +273,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 <div id="card" role="tooltip" hidden></div>
 <script>
-const TITLES=["Colonelle","Colonel","Sœur","Lord","Madame","Monsieur","Sire","Comtesse","Dame","Tante","Dr","Grand-Père","Capitaine","Le"];
+const TITLES=["Maître","Colonelle","Colonel","Sœur","Lord","Madame","Monsieur","Sire","Comtesse","Dame","Tante","Dr","Grand-Père","Capitaine","Le"];
 function shortName(n){ return n.split(" ").find(w => !TITLES.includes(w)) || n; }
 const DATA = /*__DATA__*/null;
 const M = DATA.meta, N = DATA.nodes, SN = M.statNames, STATS = ["pan","rus","coe"];
@@ -378,16 +379,28 @@ function rulesHtml(short){
     ["Les objets", short ? "Ils font apparaître des choix plus loin. Certains ne servent qu'une fois." :
       `${nI} objets sont cachés dans le monde. Chacun fait apparaître, plus loin, des choix qui n'existeraient pas sans lui.`],
     ["L'équilibre", short ? "La Terre en perd à chaque étape. Sous 30 au moment final, seules les fins sombres restent." :
-      "La Terre en perd à chaque étape, tes réussites lui en rendent. Sous 30 au moment final, seules les fins sombres restent. Il y a quinze fins."]
+      "La Terre en perd à chaque étape, tes réussites lui en rendent. Sous 30 au moment final, seules les fins sombres restent. Il y a " + Object.keys(M.endings).length + " fins, et des héros qui se dévoilent au fil des parties."]
   ];
   return R.map(([t, d]) => `<p><b>${t}</b>${esc(d)}</p>`).join("");
 }
+function gamesDone(){
+  // parties terminées : compteur, ou à défaut une par couple (fin, héros) déjà atteint
+  const got = store.get("lune.ends", {});
+  const pairs = Object.values(got).reduce((a, v) => a + v.length, 0);
+  return Math.max(store.get("lune.parties", 0), pairs);
+}
+function isLocked(p){ return (p.unlock || 0) > gamesDone(); }
 function renderCast(){
-  $("#cast").innerHTML = M.playables.map(p => `
-    <button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.name)}</h3></button>`).join("");
-  document.querySelectorAll(".pc").forEach(b => b.onclick = () => openSheet(b.dataset.pc));
+  $("#cast").innerHTML = M.playables.map(p => isLocked(p)
+    ? `<button class="pc locked" data-pc="${p.id}" title="${esc(p.locked || "")}"><span class="sp">? ? ?</span><h3>${esc(p.locked || "Un personnage caché")}</h3></button>`
+    : `<button class="pc" data-pc="${p.id}"><span class="sp">${esc(p.species)}</span><h3>${esc(p.name)}</h3></button>`).join("");
+  document.querySelectorAll(".pc").forEach(b => b.onclick = () => { const p = M.playables.find(x => x.id === b.dataset.pc); if (isLocked(p)) showLocked(b, p); else openSheet(b.dataset.pc); });
   $("#rules").innerHTML = rulesHtml(true);
   $("#btnResume").hidden = !store.get("lune.save", null);
+}
+function showLocked(b, p){
+  const n = p.unlock || 0;
+  b.querySelector("h3").textContent = `Termine ${n === 1 ? "une partie" : n + " parties"}, avec n'importe quel héros, pour découvrir qui se cache ici.`;
 }
 function openSheet(id, inGame){
   const p = M.playables.find(x => x.id === id), el = $("#sheet");
@@ -433,7 +446,7 @@ function enterNode(id){
   const n = N[id];
   const log = []; apply(n.fx, log); S.drift = log.filter(l => !l.p);
   S.quips = pickQuips(n);
-  if (n.end){ const got = store.get("lune.ends", {}); got[n.end] = got[n.end] || []; if (!got[n.end].includes(S.pc)) got[n.end].push(S.pc); store.set("lune.ends", got); store.set("lune.save", null); }
+  if (n.end){ store.set("lune.parties", gamesDone() + 1); const got = store.get("lune.ends", {}); got[n.end] = got[n.end] || []; if (!got[n.end].includes(S.pc)) got[n.end].push(S.pc); store.set("lune.ends", got); store.set("lune.save", null); }
   else store.set("lune.save", S);
   render(); window.scrollTo({top:0});
 }
@@ -491,7 +504,7 @@ function visibleChoices(n){ return n.choices.filter(c => allOk(c.if)); }
 
 /* ---------- rendu ---------- */
 /* recadrage sur le visage des portraits (centre x, y en fraction de l'image) */
-const FACE = {ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
+const FACE = {president:[.5,.45], ondine:[.33,.13], basile:[.52,.42], pistil:[.53,.2], brisefer:[.46,.2], zephyrin:[.4,.2], griselidis:[.55,.22], pelagie:[.42,.25], barnabe:[.42,.21], anatole:[.48,.27]};
 function faceStyle(p){
   const src = (DATA.portraits || {})[p.id] || portraitFallback(p);
   const [x, y] = FACE[p.id] || [.5, .3], w = .3, cl = v => Math.max(0, Math.min(1 - w, v - w / 2)) / (1 - w) * 100;
@@ -618,8 +631,8 @@ function render(rolling){
   if (n.end){
     const e = M.endings[n.end];
     const got = store.get("lune.ends", {}); const count = Object.keys(got).length;
-    h += `<div class="ending"><div class="num">Fin ${n.end} sur 15 · ${esc(e.kind)}</div><h2>${esc(e.title)}</h2><div class="text">${linesHtml(n)}</div>
-      <div class="calc">Fins découvertes : ${count}/15 · ${S.steps} choix dans cette partie</div>
+    h += `<div class="ending"><div class="num">Fin ${n.end} sur ${Object.keys(M.endings).length} · ${esc(e.kind)}</div><h2>${esc(e.title)}</h2><div class="text">${linesHtml(n)}</div>
+      <div class="calc">Fins découvertes : ${count}/${Object.keys(M.endings).length} · ${S.steps} choix dans cette partie</div>
       <div class="row"><button class="btn primary" id="again">Rejouer avec ${esc(shortName(M.playables.find(p=>p.id===S.pc).name))}</button><button class="btn" id="other">Choisir un autre personnage</button></div></div>`;
     $("#scene").innerHTML = h;
     $("#again").onclick = () => newGame(S.pc); $("#other").onclick = showTitle;

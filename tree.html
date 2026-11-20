@@ -228,7 +228,7 @@ function pcsPane(){
   });
   return `<h2>Nœuds par personnage jouable</h2><p class="muted">« Prologue » : nœuds propres à son début. « Accessibles » : tous les nœuds à choix qu'il peut atteindre. « Variantes » : nœuds partagés dont le texte ou les choix changent pour lui.</p>
   <div class="tblwrap"><table><tr><th>Personnage</th><th>Prologue</th><th>Accessibles</th><th>Variantes</th><th>Fins atteintes*</th></tr>
-  ${rows.map(r => `<tr><td>${esc(r.p.name)}<br><span class="mono muted">${esc(r.p.species)} · départ ${link(r.p.start)}</span></td><td class="n">${r.own}</td><td class="n">${r.total}</td><td class="n">${r.pcOnly}</td><td class="n">${r.endsReached}/15</td></tr>`).join("")}</table></div>
+  ${rows.map(r => `<tr><td>${esc(r.p.name)}<br><span class="mono muted">${esc(r.p.species)} · départ ${link(r.p.start)}</span></td><td class="n">${r.own}</td><td class="n">${r.total}</td><td class="n">${r.pcOnly}</td><td class="n">${r.endsReached}/${Object.keys(D.meta.endings).length}</td></tr>`).join("")}</table></div>
   <p class="mono muted">* sur ${D.sim.explore_runs} parties simulées par personnage, choix au hasard en privilégiant les choix conditionnels.</p>
   <h2>Répartition des fins par personnage</h2>
   <div class="tblwrap"><table><tr><th>Fin</th>${M.playables.map(p => `<th>${esc(shortName(p.name))}</th>`).join("")}</tr>
@@ -237,7 +237,7 @@ function pcsPane(){
 function endsPane(){
   const tot = {}; for (const pc in D.sim.explore) for (const k in D.sim.explore[pc]) tot[k] = (tot[k] || 0) + D.sim.explore[pc][k];
   const all = Object.values(tot).reduce((a, b) => a + b, 0);
-  return `<h2>Les quinze fins</h2><p class="muted">Chaque fin est gardée par des conditions posées sur les choix qui y mènent (voir l'onglet Nœud). Les fins lumineuses demandent un Équilibre de la Terre d'au moins 30.</p>
+  return `<h2>Les fins</h2><p class="muted">Chaque fin est gardée par des conditions posées sur les choix qui y mènent (voir l'onglet Nœud). Les fins lumineuses demandent un Équilibre de la Terre d'au moins 30.</p>
   ${ends.map(id => { const n = N[id], e = M.endings[n.end]; const v = tot[n.end] || 0;
     const via = incoming[id].map(x => { const c = N[x.from].choices[x.i]; return `${link(x.from)} <span class="cond">${esc(c.if.map(condText).join(" et ") || "sans condition")}</span>`; }).join("<br>");
     return `<div class="ch"><div><b>${n.end}. ${esc(e.title)}</b> <span class="pill" style="color:${KIND[e.kind]};border-color:${KIND[e.kind]}">${esc(e.kind)}</span> ${link(id)}</div>
