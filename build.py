@@ -9,8 +9,8 @@ STATS = ("pan", "rus", "coe")
 XP_STEP, STAT_MAX, COMP_BONUS, COMP_MAX = 3, 5, 1, 2
 HEAVY = 6
 # difficulté ajoutée selon l'avancée : le monde se dérègle, tout devient plus dur
-DIFF_OFFSET = {"ond": 1, "bas": 1, "pis": 1, "bri": 1, "zep": 1, "gri": 1, "pel": 1, "lyc": 1, "ana": 1, "hub": 1, "foi": 2, "nua": 2, "com": 2, "nui": 3, "cot": 2, "for": 2, "son": 2, "pro": 2, "cap": 2, "asc": 3, "cha": 4, "neg": 4, "fin": 3, "gal": 0, "gco": 1, "gfo": 1, "gfi": 2, "pla": 0, "plt": 1, "plf": 2, "plu": 0, "ply": 0, "pha": 1, "pcm": 1, "pso": 1, "pct": 1, "pcr": 2, "pnu": 2, "pch": 3, "pmo": 2, "gpa": 0, "gtr": 0, "gpr": 1, "gnu": 1, "gmo": 2}
-DRIFT_PREFIXES = ("pcm_", "pha_", "pso_", "pct_", "pcr_", "pnu_", "pch_", "pmo_", "plt_", "plf_", "gco_", "gfo_", "gpr_", "gnu_", "gfi_", "gmo_", "nua_", "com_", "cot_", "for_", "son_", "pro_", "cap_", "asc_", "cha_", "neg_", "fin_")
+DIFF_OFFSET = {"ond": 1, "bas": 1, "pis": 1, "bri": 1, "zep": 1, "gri": 1, "pel": 1, "lyc": 1, "ana": 1, "hub": 1, "foi": 2, "nua": 2, "com": 2, "nui": 3, "cot": 2, "for": 2, "son": 2, "pro": 2, "cap": 2, "asc": 3, "cha": 4, "neg": 4, "fin": 3, "gal": 0, "gco": 1, "gfo": 1, "gfi": 2, "pla": 0, "plt": 1, "plf": 2, "plu": 0, "ply": 0, "pha": 1, "pne": 1, "pnc": 2, "pno": 2, "pcm": 1, "pso": 1, "pct": 1, "pcr": 2, "pnu": 2, "pch": 3, "pmo": 2, "gpa": 0, "gtr": 0, "gpr": 1, "gnu": 1, "gmo": 2}
+DRIFT_PREFIXES = ("pcm_", "pha_", "pnc_", "pno_", "pso_", "pct_", "pcr_", "pnu_", "pch_", "pmo_", "plt_", "plf_", "gco_", "gfo_", "gpr_", "gnu_", "gfi_", "gmo_", "nua_", "com_", "cot_", "for_", "son_", "pro_", "cap_", "asc_", "cha_", "neg_", "fin_")
 
 def parse_conds(tokens):
     out = []
@@ -290,7 +290,7 @@ def simulate(nodes, meta, runs=4000, policy="random"):
 
 def layout(nodes, order, meta):
     """Positions pré-calculées : bandes par section, groupes de sections de gauche à droite."""
-    groups = [["ond", "bas", "pis", "bri", "zep", "gri", "pel", "lyc", "ana"], ["hub", "foi"], ["cot", "for", "son", "pro", "cap", "nua", "com"], ["nui"], ["asc"], ["cha"], ["neg"], ["fin"], ["gpa", "gtr"], ["gal"], ["gco", "gfo", "gpr", "gnu"], ["gfi", "gmo"], ["pla"], ["plt"], ["plf"], ["ply", "plu"], ["pcm", "pso", "pct", "pha"], ["pcr"], ["pnu"], ["pch"], ["pmo"], ["end"]]
+    groups = [["ond", "bas", "pis", "bri", "zep", "gri", "pel", "lyc", "ana"], ["hub", "foi"], ["cot", "for", "son", "pro", "cap", "nua", "com"], ["nui"], ["asc"], ["cha"], ["neg"], ["fin"], ["gpa", "gtr"], ["gal"], ["gco", "gfo", "gpr", "gnu"], ["gfi", "gmo"], ["pla"], ["plt"], ["plf"], ["ply", "plu"], ["pcm", "pso", "pct", "pha"], ["pcr"], ["pnu"], ["pch"], ["pmo"], ["pne"], ["pnc"], ["pno"], ["end"]]
     bysec = defaultdict(list)
     for nid in order: bysec[nid.split("_")[0]].append(nid)
     DX, DY = 84, 58
@@ -375,7 +375,7 @@ def main():
         report[policy + "_visits"] = {n: visits[n] for n in order}
         report[policy + "_runs"] = 1500
     print("\ntaux de réussite des jets par section :")
-    for sec in ["ond","bas","pis","bri","zep","gri","pel","lyc","ana","hub","foi","cot","for","son","pro","cap","nua","com","nui","asc","cha","neg","fin","gpa","gtr","gal","gco","gfo","gpr","gnu","gfi","gmo","pla","plt","plf","ply","plu","pcm","pha","pso","pct","pcr","pnu","pch","pmo","end"]:
+    for sec in ["ond","bas","pis","bri","zep","gri","pel","lyc","ana","hub","foi","cot","for","son","pro","cap","nua","com","nui","asc","cha","neg","fin","gpa","gtr","gal","gco","gfo","gpr","gnu","gfi","gmo","pla","plt","plf","ply","plu","pcm","pha","pso","pct","pcr","pnu","pch","pmo","pne","pnc","pno","end"]:
         c = STATS_OK.get(sec)
         if c: print(f"  {sec}: {100*c[True]/max(1,c[True]+c[False]):.0f} %")
     allc = Counter()

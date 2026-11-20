@@ -748,15 +748,15 @@
    "name": "Colonelle Agathe Brisefer",
    "species": "Gravitaire",
    "stat": "pan",
-   "bio": "Géante de granit à la retraite. Elle a tenu l'Axe de la Terre pendant trois mille ans. Elle t'appelle « le doré ». Elle n'aime pas les gens qui décident pour les autres.",
+   "bio": "Géante de granit à la retraite. Elle a tenu l'Axe de la Terre pendant trois mille ans. Elle donne à chacun un surnom tiré de ce qu'elle voit en premier. Elle n'aime pas les gens qui décident pour les autres.",
    "ok": [
-    "Brisefer : « Pas mal, le doré. »",
+    "Brisefer : « Pas mal. Pour quelqu'un de ta taille. »",
     "Brisefer hoche la tête. Le sol tremble un peu.",
     "Brisefer : « J'ai vu pire. J'ai fait pire. »"
    ],
    "ko": [
     "Brisefer grogne. Une fissure court sous tes pieds.",
-    "Brisefer : « Recommence. Moins doré. »",
+    "Brisefer : « Recommence. Plus lourd. »",
     "Brisefer te rattrape d'une main, sans lever les yeux."
    ],
    "idle": [
@@ -995,6 +995,26 @@
    "title": "Le Président de la Lune",
    "kind": "douce-amère",
    "hint": "Rester là-haut, sans personne pour le constater."
+  },
+  "35": {
+   "title": "Le roi de la Nuit d'encre",
+   "kind": "sombre",
+   "hint": "Rester dans les rêves, faire siens les cauchemars, et lâcher sur Platine l'œuvre la plus noire."
+  },
+  "36": {
+   "title": "La veilleuse",
+   "kind": "lumineuse",
+   "hint": "Descendre dans le noir sans y descendre seul, et écouter ceux qui sont venus avec toi."
+  },
+  "37": {
+   "title": "Perdu dans l'encre",
+   "kind": "sombre",
+   "hint": "Laisser l'encre monter jusqu'au bout."
+  },
+  "38": {
+   "title": "L'échange",
+   "kind": "douce-amère",
+   "hint": "Écouter ce que compte la pièce d'or, et arriver à mille à sa place."
   }
  },
  "defaults": {
@@ -1262,6 +1282,22 @@
   "obj_laissez_passer": {
    "name": "Le laissez-passer du Conseil",
    "desc": "Un papier couvert de tampons, collé sur la vitre du bocal. Il dit qu'on a le droit. Les portes le croient."
+  },
+  "obj_coquille_perline": {
+   "name": "Le coquillage de Perline",
+   "desc": "Un coquillage nacré trouvé au fond d'un rêve de mer. Quand on le porte à l'oreille, une voix de femme rit, très loin."
+  },
+  "obj_maille_lune": {
+   "name": "Une maille de lumière de Lune",
+   "desc": "Une petite boucle tiède détachée du tricot de Tante Mélusine. Elle répare tout ce qui se défait. Un peu les gens."
+  },
+  "obj_grain_axe": {
+   "name": "Un grain de l'Axe",
+   "desc": "Lourd comme une montagne, petit comme une lentille. Tout ce qui flotte, il le tient en place."
+  },
+  "obj_poussiere_comete": {
+   "name": "Une poignée de poussière de comète",
+   "desc": "Donnée par Zouzou. Ça brille dans le noir. Ça ne sert à rien, sauf quand il fait noir."
   }
  }
 }

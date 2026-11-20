@@ -226,6 +226,7 @@ La Lune te prend la main. Sa main est froide et douce, comme du marbre au soleil
 Le rêve de la Lune commence à trembler. Là-haut, dans le monde éveillé, le crochet tire. La Lune se réveille, petit à petit, et quand elle se réveillera complètement, son rêve s'effacera, et toi avec.
 « Il faut que tu partes, Pistil. Vite. »
 * pis_38 pan11 | Partir en courant | Tu cours. Tu entends sa voix derrière toi : « Merci ». Puis la maison s'efface. | Tu cours dans le mauvais sens. Elle te remet sur le bon chemin d'une main de lumière. | pan+1 |
+* pne_00 | Ne pas partir. Rester dans les rêves, et descendre jusqu'à celui qui l'a achetée | La Lune te regarde. « Pistil... Les Somnambules ne vont pas là où il fait noir. » Tu ne bouges pas. Elle comprend. Elle a peur pour toi. Elle ne te retient pas. | |
 * pis_39 coe11 | Lui dire au revoir correctement | « Au revoir, la Lune. » « Au revoir, petit pyjama. » Tu pars. Tu pleures. Ça fait des petites étoiles. | Tu dis au revoir mais le rêve s'effondre au milieu du mot. | mor+1 |
 
 @pis_38
@@ -233,6 +234,7 @@ Tu tombes. Hors du rêve de la Lune. Hors de tous les rêves. Tu tombes vers que
 Mais si tu veux tenir ta promesse, il faut y aller.
 ?comp:brume Brume-Lucie te serre fort. « Je connais l'éveil. Je vis à la frontière. Je vais te... enfin. Je vais t'aider. »
 * pis_40 pan12 | Te laisser tomber dans l'éveil | Tu tombes. L'air est froid, coupant, net. Tout a des bords. Tu as mal partout. Mais tu existes encore. | Tu tombes et tu perds connaissance. Tu te réveilles. Pour la première fois. Littéralement. | pan+1 | mor-1
+* pne_00 | Te retenir au bord du rêve. Ne pas tomber dans l'éveil | Tu tends la main, et tu attrapes le dernier morceau de la maison de la Lune qui n'est pas encore effacé : une fenêtre. Tu ne tomberas pas. Tu feras autrement. | |
 * pis_39 coe11 | Trouver un dormeur dont le bâillement t'amènera dehors | Tu cherches un dormeur qui s'éveille. Un Gravitaire. Il bâille. Tu sors par le bâillement. C'est la sortie des artistes. | Tu sors par un éternuement. C'est moins digne. | coe+1 |
 
 @pis_39

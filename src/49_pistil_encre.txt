@@ -1,0 +1,597 @@
+# ================================================================
+# PISTIL, LA NUIT D'ENCRE (route sombre, ouverte dès la première partie)
+# Entrée : pis_37 / pis_38, au lieu de tomber dans l'éveil, Pistil reste dans les rêves.
+# pne_ : Acte I, les beaux rêves (Bartholomé, Mélusine, Brisefer, Zouzou)
+# pnc_ : Acte II, l'insomnie (4 cauchemars, alliés néfastes)
+# pno_ : Acte III, l'œuvre (le cauchemar de Platine) et fins 35 à 38
+# Jauge : encre (remplace le Moral quand le drapeau nuit_encre est posé). À 10 : fin 37.
+# Variables : beaux (rêves visités), cauch (cauchemars traversés)
+# Drapeaux : pn_ins, pn_pdn, pn_mar, pn_piece (alliés), pn_piece_ecoutee,
+#   pn_e_yeux, pn_e_larmes, pn_e_coffre (morceaux de l'œuvre)
+# ================================================================
+
+# ---------------------------------------------------------------- ACTE I : LES BEAUX RÊVES
+
+@pne_00
+!title: Rester
+!fx: +flag:nuit_encre
+Tu ne pars pas. Tu t'accroches au cadre d'une fenêtre pendant que la maison de la Lune s'efface autour de toi. Les murs deviennent du brouillard. Le plancher devient du vent. La Lune elle-même devient une lumière, puis un souvenir de lumière.
+?flag:promesse_lune Tu as promis de dire aux autres qu'elle ne voulait pas partir. Tu le diras. Mais d'ici, d'en dessous, de là où les éveillés ne vont jamais.
+Les Somnambules ne vont pas dans l'éveil. On dit qu'on y meurt. Alors tu feras autrement. Tu passeras de rêve en rêve. Tu iras jusqu'à celui qui l'a achetée, et tu lui parleras là où il ne peut pas fermer la porte : dans son sommeil.
+Quelque part en toi, une goutte d'encre tombe. Tu ne la remarques pas encore.
+~brume: Brume-Lucie s'enroule autour de toi. « Rester... ici... avec toi... d'accord... »
+* pne_01 coe10 | Lâcher la fenêtre doucement, en disant merci | Tu dis merci à la fenêtre. Elle s'efface en dernier, comme si elle t'avait attendu. Tu tombes lentement, comme une feuille. | Tu lâches trop tôt. Tu tombes vite, en tourbillon, et tu perds ton bonnet un moment. | coe+1 |
+* pne_01 pan10 | Sauter, avant que le rêve te lâche | Tu sautes. Tu tombes, tu tombes, et tu te sens, pour la première fois, maître de ta chute. | Tu sautes, et ton pyjama se prend dans le vent. Tu tombes à l'envers. | pan+1 |
+
+@pne_01
+!title: Le Fleuve des Dormeurs
+Tu tombes dans le Fleuve des Dormeurs. C'est là que coulent tous les rêves de la Terre, la nuit, chacun dans sa bulle, comme des lanternes sur l'eau. Il y en a des milliards. Certains brillent, d'autres clignotent. Beaucoup éclatent.
+Sur la rive, un vieux passeur aux paupières lourdes pousse sa barque avec une perche. C'est le Passeur de paupières. Il connaît chaque rêve par le nom de son dormeur.
+« Un Somnambule qui ne rentre pas chez lui ? On n'en voit pas souvent. Tu cherches quelqu'un ? »
+* pne_01b coe10 | Lui demander le chemin jusqu'au rêve de celui qui a acheté la Lune | « Platine ? » Il crache dans le fleuve. « Son rêve est tout au fond, là où l'eau est froide. On n'y descend pas seul. Il te faudra des amis. Et il te faudra être plus fort que tu n'es. » Il te montre quatre lanternes qui flottent près de la rive. « Commence par eux. Ce sont de bons rêves. Ils sont en train de se casser. » | « Je passe les rêves, je ne les explique pas. » Il te montre quand même quatre lanternes près de la rive. « Ceux-là, ils ont besoin de quelqu'un. » | coe+1 |
+* pne_01b | Monter dans sa barque, sans rien demander | Il pousse. La barque glisse entre les bulles. Il ne dit rien. Puis il s'arrête devant quatre lanternes qui clignotent plus que les autres. « Commence par là. » | |
+
+@pne_02
+!title: Quatre lanternes
+Quatre bulles de rêve flottent devant la barque. Le Passeur les nomme une par une en les touchant de sa perche.
+« Un vieux pêcheur qui rêve de la mer. Une prêtresse qui rêve qu'elle tricote. Une géante qui rêve qu'elle porte encore la Terre. Une comète qui rêve de sa famille. Le crochet tire, là-haut. Leurs rêves se fendent. »
+Il te tend la perche. « Tu entres où tu veux. Tu sors quand c'est réglé. »
+* pne_hub | Prendre la perche | Elle est légère. Elle sent le sommeil. | |
+
+@pne_hub
+!title: Sur le fleuve
+?beaux==0 Les quatre lanternes t'attendent.
+?beaux==1 Tu reviens dans la barque. Trois lanternes clignotent encore.
+?beaux==2 Tu reviens dans la barque. Le fleuve coule plus vite. Il reste deux lanternes.
+?beaux==3 Tu reviens dans la barque. Le fleuve gronde. Il reste une lanterne, qui tremble.
+?beaux>=4 Tu reviens dans la barque. Les quatre lanternes brillent, maintenant, toutes droites. Mais tout autour, le fleuve noircit.
+~brume: Brume-Lucie flotte au ras de l'eau. « Les rêves... ils ont froid... »
+~bartho: Bartholomé, dans son rêve, est plus jeune. Il rame quand tu ne rames pas. « Laisse, petit. C'est mon métier. »
+~melusine: Tante Mélusine tricote dans la barque, en rêve, sans fil. « JE TRICOTE LE VIDE. C'EST TRÈS REPOSANT. NON. »
+~brisefer: Brisefer est assise à l'arrière. La barque devrait couler. En rêve, elle ne coule pas. « Rame, le pyjama. »
+~zouzou: Zouzou fait des cercles au-dessus du fleuve. « C'est lent, votre barque. C'est lent, vos rêves. »
+* pne_ba1 ?!flag:vis_pne_ba | Entrer dans le rêve du vieux pêcheur | La bulle sent le sel. | |
+* pne_me1 ?!flag:vis_pne_me | Entrer dans le rêve de la prêtresse | La bulle sent la laine et l'encens. | |
+* pne_br1 ?!flag:vis_pne_br | Entrer dans le rêve de la géante | La bulle est lourde. Elle sent la pierre. | |
+* pne_zo1 ?!flag:vis_pne_zo | Entrer dans le rêve de la comète | La bulle est chaude. Elle file. Tu as du mal à l'attraper. | |
+* pne_fin ?beaux>=4 | Laisser le Passeur t'emmener plus bas | Il reprend la perche. Il ne dit rien. Le fleuve descend. | |
+
+# ----- Le rêve de Bartholomé
+
+@pne_ba1
+!title: La mer de Bartholomé
+!fx: +flag:vis_pne_ba beaux+1
+Tu es dans une barque, sur une mer verte. Un Marégrave rame, jeune encore, fait d'eau claire. Au loin, sur l'horizon, une silhouette lui fait signe : une Marégrave aux cheveux d'écume. Perline. Il rame vers elle. Elle ne se rapproche jamais.
+Et la mer se vide. Le crochet tire, là-haut, et la marée du rêve s'en va, par le fond, comme une baignoire. La barque racle déjà le sable.
+« Pas encore », dit le Marégrave. « Je ne l'ai pas encore rejointe. Pas encore. »
+* pne_ba2 pan10 | Ramer avec lui, de toutes tes petites forces | Tu rames. La barque avance d'un mètre, puis de deux. Perline ne se rapproche pas, mais elle ne s'éloigne plus. Le Marégrave te regarde. « T'es qui, toi ? Peu importe. Rame. » | Tu rames. La rame est plus grande que toi. Tu tombes dans ce qui reste de la mer. Il te repêche d'une main, sans s'arrêter. | pan+1 |
+* pne_ba2 | T'asseoir à l'avant, et regarder Perline | Tu la regardes. Elle a l'air de vouloir dire quelque chose. Elle n'a pas de voix, dans ce rêve. Il ne s'est jamais souvenu de sa voix. | |
+
+@pne_ba2
+!title: La marée qui part
+La mer n'est plus qu'une flaque autour de la barque. Perline est toujours là, sur l'horizon, debout sur le sable mouillé. Le Marégrave lâche les rames. Il a l'air très vieux, tout d'un coup.
+« Vingt ans que je rame. Elle est partie avec la grande marée. Si la marée s'en va pour de bon, elle ne pourra jamais revenir. »
+* pne_ba3 coe10 | Lui dire qu'elle ne s'éloigne pas : elle l'attend | Tu le dis. Il lève la tête. Il la regarde vraiment, pour la première fois du rêve. Elle ne s'éloigne pas. Elle n'a jamais reculé. C'est lui qui ne voulait pas arriver. Il pleure. Chez un Marégrave, c'est de l'eau de mer sur de l'eau de mer. La mer du rêve remonte un peu, avec ses larmes. | Tu le dis. Il hausse les épaules. « Les rêves disent toujours ça. » Mais il ne reprend pas les rames. Il la regarde. | +flag:pn_ba_ok coe+1 |
+* pne_ba3 pan11 | Retenir la marée du rêve, en t'asseyant sur la bonde | Tu trouves la bonde au fond de la mer, là où l'eau s'en va. Tu t'assois dessus, de tout ton poids de pyjama. Ce n'est pas lourd. Mais c'est un rêve, et dans un rêve, c'est la volonté qui pèse. L'eau s'arrête. Elle remonte. | Tu t'assois dessus. L'eau te passe à travers. Tu n'es qu'un pyjama. | +flag:pn_ba_ok |
+* pne_ba3 rus10 | Plonger chercher ce qu'elle a laissé sur le sable | Tu plonges dans la flaque. Au fond, un coquillage nacré, avec un peu de voix dedans. Quand tu le portes à ton oreille, une voix de femme rit, très loin. C'est la voix qu'il avait oubliée. | Tu plonges. Le fond est trop loin, ou trop près. Tu ressors avec du sable dans le bonnet. | +flag:obj_coquille_perline +flag:pn_ba_ok |
+
+@pne_ba3
+!title: Le pêcheur
+?flag:pn_ba_ok La mer du rêve est revenue, un peu. Elle clapote. Perline est toujours sur l'horizon. Le Marégrave ne rame plus. Il la regarde, et c'est assez, pour cette nuit.
+?flag:obj_coquille_perline Tu tends le coquillage au Marégrave. Il écoute. Il ferme les yeux. « C'est elle. » Il te le rend. « Garde-le. Moi, maintenant, je m'en souviens. »
+?!flag:pn_ba_ok La mer du rêve est presque vide. Le Marégrave s'est rendormi au fond de sa barque, sur le sable.
+?flag:pn_ba_ok Il te regarde. « Bartholomé. Vasequeuse. Dans la vraie vie, je râle. Ici, je suis jeune, et j'ai rien à faire. Tu vas où ? »
+* pne_route ?flag:pn_ba_ok | L'emmener avec toi, dans les rêves | Il grimpe dans ta barque, la sienne sous le bras. « Je viendrai quand je dors. Le reste du temps, je râle. » | | +comp:bartho |
+* pne_route ?encre<7 | Le laisser à sa mer, et sortir sur la pointe des pieds | Tu sors. Derrière toi, il regarde l'horizon. Il n'a pas besoin de toi. C'est bien. | | coe+1 |
+* pne_route ?!flag:pn_ba_ok | Sortir | Tu sors. La bulle clignote toujours. | |
+
+# ----- Le rêve de Mélusine
+
+@pne_me1
+!title: Le tricot infini
+!fx: +flag:vis_pne_me beaux+1
+Un temple immense, plein de châles. Au milieu, une femme gigantesque avec trois paires de lunettes tricote la lumière de Lune. Le tricot descend des aiguilles, coule sur les marches, remplit le temple, déborde par les fenêtres. Il fait le tour du monde. C'est lui qui éclaire les rêves.
+Mais il se défait. Le crochet tire, là-haut, et un fil a sauté. Le tricot se démaille plus vite qu'elle ne tricote. La lumière file par le trou.
+« NON NON NON. NE BOUGE PAS. NE BOUGE SURTOUT PAS. QUI ES-TU ? NE RÉPONDS PAS. TIENS ÇA. »
+* pne_me2 coe10 | Tenir le fil, sans bouger | Tu le tiens. Il est chaud et il tire fort. Tu ne bouges pas. Elle tricote, furieusement, en pleurant de joie et de colère en même temps. Le démaillage ralentit. | Tu le tiens. Il t'emporte à l'autre bout du temple. Elle hurle. Tu reviens en rampant, le fil entre les dents. | coe+1 |
+* pne_me2 rus11 | Chercher le bout du fil qui a sauté | Tu suis le fil défait, des marches jusqu'au jardin, du jardin jusqu'au ciel du rêve. Le bout est là, accroché à une étoile de travers. Tu le décroches. | Tu suis le fil. Il y en a des kilomètres. Tu reviens bredouille, tout emmêlé. | rus+1 |
+
+@pne_me2
+!title: La maille
+La prêtresse s'arrête de tricoter. C'est la première fois depuis mille ans. Elle te regarde à travers ses trois paires de lunettes.
+« LE TROU. IL FAUT REPRENDRE LA MAILLE. JE N'Y ARRIVE PAS. MES DOIGTS SONT TROP GROS POUR UNE SI PETITE MAILLE. TU AS DES DOIGTS ? TU AS DES DOIGTS ! »
+* pne_me3 rus10 | Reprendre la maille sautée, avec tes petits doigts de flanelle | Tu prends la maille. Tu la passes. Tu la tires. Elle tient. La lumière arrête de fuir. La prêtresse se tait. Elle pleure en silence, ce qui chez elle est inédit. | Tu prends la maille. Elle te glisse. Tu la reprends. Tu la reprends encore. Au bout d'une heure, elle tient, de travers. La prêtresse décide que c'est très beau. | +flag:pn_me_ok |
+* pne_me3 coe11 | Lui dire de s'arrêter un peu, que le trou attendra | « QUE LE TROU ATTENDRA ? » Elle te regarde. Puis elle pose ses aiguilles. Elle respire. Elle reprend la maille elle-même, tranquillement. Elle y arrive. Elle n'y arrivait pas parce qu'elle avait peur. | « ATTENDRE ? MILLE ANS QUE J'ATTENDS ! » Elle reprend le tricot plus vite. Le trou reste. Mais il ne grandit plus. | +flag:pn_me_ok coe+1 |
+
+@pne_me3
+!title: La prêtresse
+?flag:pn_me_ok Le tricot de lumière coule à nouveau, régulier, par les fenêtres du temple. Il éclaire les rêves, un peu moins bien qu'avant. Assez.
+?!flag:pn_me_ok Le tricot coule, troué. Les rêves, en bas, clignotent.
+?flag:pn_me_ok Elle détache une maille de son ouvrage et te la donne. Une petite boucle de lumière de Lune, tiède. « TANTE MÉLUSINE. POUR TOI. ÇA RÉPARE TOUT CE QUI SE DÉFAIT. LES TROUS, LES CHAUSSETTES, LES GENS. PAS LES GENS. UN PEU LES GENS. »
+* pne_route ?flag:pn_me_ok | Lui demander de venir avec toi | « VENIR ? MOI ? » Elle remballe ses aiguilles. « BIEN SÛR. QUELQU'UN DOIT TE SURVEILLER. » | | +comp:melusine +flag:obj_maille_lune |
+* pne_route ?flag:pn_me_ok ?encre<7 | Prendre la maille, et la laisser tricoter | Elle te serre contre elle. Tu disparais dans ses châles. Quand elle te repose, tu sens la laine pour une semaine. | | +flag:obj_maille_lune coe+1 |
+* pne_route ?!flag:pn_me_ok | Sortir | Elle ne te voit pas partir. Elle tricote. | |
+
+# ----- Le rêve de Brisefer
+
+@pne_br1
+!title: L'Axe
+!fx: +flag:vis_pne_br beaux+1
+Il fait nuit, et il fait lourd. Au milieu du noir, une géante de granit est debout, les bras levés. Elle porte quelque chose d'énorme et d'invisible, qui grince : l'Axe de la Terre.
+Dans la vraie vie, elle l'a lâché il y a longtemps. Elle est à la retraite. Mais toutes les nuits, en rêve, elle le reprend. Et ce soir, l'Axe glisse. Le crochet tire la Lune, la Lune tire la Terre, et la Terre penche dans ses bras.
+« Recule, le pyjama. Si je lâche, tu es dessous. »
+* pne_br2 pan11 | Pousser avec elle | Tu pousses. Ce que tu pousses fait trois mille ans et six milliards de milliards de tonnes. Mais c'est un rêve. L'Axe se redresse d'un cheveu. Elle te regarde du coin de l'œil. « Pas mal. Pour un pyjama. » | Tu pousses. Tu t'aplatis. Elle te ramasse du bout du pied, sans lâcher. « Reste derrière. » | pan+1 |
+* pne_br2 | Rester derrière elle, et la regarder porter | Tu la regardes. Ses bras tremblent. Ils tremblent depuis trois mille ans. Personne ne l'a jamais regardée porter. On regarde toujours ce qui est porté. | | coe+1 |
+
+@pne_br2
+!title: Ce qui pèse
+« Trois mille ans », dit la géante. « J'ai tenu trois mille ans. On m'a mise à la retraite. Mais je le reprends toutes les nuits. Si je ne le tiens pas, qui le tient ? »
+L'Axe grince. Elle serre les dents, et des cailloux tombent de sa mâchoire.
+* pne_br3 coe11 | Lui dire qu'ici, c'est un rêve : elle a le droit de le poser | Tu le dis, tout bas. Elle te regarde longtemps. Puis, lentement, elle baisse les bras. L'Axe reste en l'air, tout seul. Il tient. Il a toujours tenu. Elle s'assoit par terre. Le sol du rêve s'enfonce, et elle rit, pour la première fois en trois mille ans. | Tu le dis. Elle grogne. « Un rêve, c'est là où on tient le mieux. » Elle ne lâche pas. Mais ses bras tremblent moins. | +flag:pn_br_ok coe+1 |
+* pne_br3 rus11 | Glisser une cale sous l'Axe, avec un bout de nuit | Tu trouves un morceau de nuit bien dur. Tu le glisses sous l'Axe, là où il grince. Il arrête de grincer. Elle sent le poids diminuer. Elle te regarde. « Malin. » | Ta cale fond. La nuit, ça fond. Tu en remets. Ça fond encore. Elle hausse les épaules, ce qui fait trembler le rêve. | +flag:pn_br_ok |
+
+@pne_br3
+!title: La géante
+?flag:pn_br_ok L'Axe tient tout seul, au-dessus du rêve. La géante est assise, les bras ballants. Elle ne sait pas quoi en faire, de ses bras.
+?!flag:pn_br_ok La géante tient toujours l'Axe. Elle tiendra jusqu'au matin.
+?flag:pn_br_ok Elle gratte le sol et en tire un grain gris, lourd comme une montagne, petit comme une lentille. « Un grain de l'Axe. Il est tombé quand j'ai lâché. Colonelle Agathe Brisefer. Prends-le. Tout ce qui flotte, ça le tient en place. »
+* pne_route ?flag:pn_br_ok | Lui demander de venir avec toi | Elle se lève. Le rêve craque. « Pour une fois que j'ai les mains libres. On y va, le pyjama. » | | +comp:brisefer +flag:obj_grain_axe |
+* pne_route ?flag:pn_br_ok ?encre<7 | Prendre le grain, et la laisser se reposer | Elle s'allonge par terre, de tout son long. Elle s'endort, dans son propre rêve. C'est possible, quand on a tenu trois mille ans. | | +flag:obj_grain_axe coe+1 |
+* pne_route ?!flag:pn_br_ok | Sortir | Elle ne te voit pas partir. Elle porte. | |
+
+# ----- Le rêve de Zouzou
+
+@pne_zo1
+!title: L'orbite familiale
+!fx: +flag:vis_pne_zo beaux+1
+Une immense ronde de comètes tourne autour d'un soleil de rêve. Ce sont les tantes, les cousins, les grands-parents, tous à la queue leu leu, depuis des milliards d'années. Une seule sort de la ronde, encore et encore : une petite comète adolescente qui file vers le noir, revient, repart.
+« Zouzou ! » crie une grosse comète, au milieu de la ronde. « Tous les soixante-seize ans ! On ne t'a demandé que ça ! »
+Et ce soir, la ronde se défait. Le crochet tire, là-haut, et les orbites se croisent. Les comètes se cognent. La petite file, mais elle a peur, cette fois. Elle ne sait plus où revenir.
+* pne_zo2 pan10 | Lui courir après | Tu cours sur le noir. Tu la rattrapes, à moitié. Elle te regarde, étonnée. « T'es qui, toi ? Un pyjama qui court ? C'est le rêve le plus bête que j'aie jamais fait. » | Tu cours. Elle est une comète. Tu es un pyjama. Elle passe trois fois devant toi en riant. | pan+1 |
+* pne_zo2 coe10 | Aller voir la grosse comète au milieu de la ronde | Tu y vas. C'est sa mère. Elle a l'air furieuse. Elle a surtout l'air inquiète. « Elle revient toujours. Mais ce soir, je ne sais pas si elle saura. » | Tu y vas. Elle ne te voit pas. Elle crie le nom de sa fille dans le noir. | coe+1 |
+
+@pne_zo2
+!title: Revenir
+La petite comète s'est arrêtée au bord du noir. Derrière elle, la ronde familiale se cogne et s'emmêle. Devant elle, rien.
+« Je ne veux pas tourner en rond toute ma vie. Mais je ne veux pas qu'ils se cassent. Je ne sais pas ce que je veux. J'ai quatorze mille ans. »
+* pne_zo3 coe10 | Lui dire qu'on peut revenir sans rester | Tu le dis. Elle réfléchit, ce qui chez une comète ressemble à ralentir. Puis elle fait demi-tour, file vers la ronde, passe entre les orbites, et les remet en ordre d'un coup de queue, une par une. Puis elle repart. Mais elle repasse, cette fois, en faisant coucou. | Tu le dis. Elle hausse sa queue. « Facile à dire, pour un pyjama. » Mais elle reste là, au bord, à regarder. | +flag:pn_zo_ok coe+1 |
+* pne_zo3 pan11 | La défier à la course, jusqu'à la ronde et retour | « Toi ? Me battre ? » Elle part. Tu pars. Elle gagne, évidemment. Mais pour gagner, elle a dû traverser la ronde, et en la traversant, elle a remis les orbites en place, sans y penser. Sa mère la regarde passer. Elle ne crie plus. | Elle part. Tu pars. Tu te perds. Elle revient te chercher en grognant, et la ronde se cogne derrière vous. | +flag:pn_zo_ok |
+
+@pne_zo3
+!title: La comète
+?flag:pn_zo_ok La ronde tourne à nouveau, presque droite. La petite comète passe devant elle, et repart, et repasse. Sa mère ne crie plus. Elle compte les passages.
+?!flag:pn_zo_ok La ronde se cogne. La petite comète est restée au bord du noir.
+?flag:pn_zo_ok Elle secoue sa queue au-dessus de toi. Une poussière dorée tombe dans ta main. « Zouzou. Poussière de comète. Ça brille dans le noir. Ça ne sert à rien, sauf quand il fait noir. Il fait souvent noir, chez vous. »
+* pne_route ?flag:pn_zo_ok | Lui proposer de venir avec toi | « Avec un pyjama ? Dans des rêves ? » Elle fait trois tours. « D'accord. Mais c'est moi qui conduis. » | | +comp:zouzou +flag:obj_poussiere_comete |
+* pne_route ?flag:pn_zo_ok ?encre<7 | Prendre la poussière, et la laisser à sa famille | Elle file. Elle repasse. Elle te fait coucou, de loin, en passant, avec la queue. | | +flag:obj_poussiere_comete coe+1 |
+* pne_route ?!flag:pn_zo_ok | Sortir | Tu sors. Derrière toi, la ronde se cogne. | |
+
+# ----- Fin de l'acte I
+
+@pne_fin
+!title: Plus bas
+Le Passeur de paupières pousse la barque vers l'aval. Le fleuve change de couleur. Il était bleu. Il devient gris. Puis il devient noir, comme de l'encre.
+« Là-haut, le crochet tire. Les gens ont peur de ne plus s'endormir. Et la peur de ne pas dormir, ça fait des cauchemars. Beaucoup. Il faut traverser leurs cauchemars pour descendre jusqu'à Platine. » Il te regarde. « Un Somnambule, ça vit dans les beaux rêves. Dans les cauchemars, ça ne tient pas. Sauf si on les fait siens. »
+?comps>=1 Ceux qui t'accompagnent se serrent dans la barque. Ce sont des rêves, eux aussi. Ils ont peur du noir.
+* pnc_00 | Tremper la main dans l'eau noire | Elle est froide. Elle te monte au poignet. Elle ne part pas quand tu retires la main. | | encre+1 |
+* pnc_00 ?encre<7 | Ne pas y toucher, et laisser la barque descendre | Tu gardes les mains sur les genoux. Le Passeur hoche la tête. « Bien. Pas encore. » | | coe+1 |
+
+# ---------------------------------------------------------------- ACTE II : L'INSOMNIE
+
+@pnc_00
+!title: L'insomnie
+La barque s'arrête. Le Passeur ne va pas plus loin. Devant toi, sur des kilomètres, des cauchemars flottent sur l'eau noire, gros comme des maisons, fermés comme des poings.
+Tout autour, les bulles des beaux rêves éclatent, une par une. Pop. Pop. Et de chaque bulle qui éclate, il sort une petite bête grise, aux yeux grands ouverts, qui ne dormira plus jamais.
+« Les Insomnies », dit le Passeur. « Elles naissent quand un rêve éclate. Elles vont où il fait noir. Elles te suivront. »
+~bartho: Bartholomé ne rame plus. « J'aime pas l'eau, ici. Elle est pas salée. Elle est triste. »
+~melusine: Tante Mélusine serre ses aiguilles. « JE N'AI PAS PEUR. JE TRICOTE TRÈS VITE, C'EST TOUT. »
+~brisefer: Brisefer regarde les cauchemars comme on regarde une armée. « Ça se tient, ça. Ça se tient comme tout le reste. »
+~zouzou: Zouzou s'est faite toute petite. Elle éclaire à peine. « J'ai pas peur. Je préfère éclairer peu. C'est tout. »
+~brume: Brume-Lucie se cache dans ton bonnet. « Les cauchemars... je ne... je ne vais pas... au bout... »
+* pnc_hub | Descendre de la barque, sur l'eau noire | Tu marches dessus. Elle te porte. Elle colle un peu. | |
+
+@pnc_hub
+!title: L'eau noire
+?encre>=10 L'encre te monte jusqu'aux yeux. Tu ne la sens plus. Tu ne sens plus rien d'autre.
+?cauch==0 Six cauchemars, plus gros que les autres, bloquent le chemin vers le fond. Il faudra les traverser.
+?cauch>=1 ?cauch<5 Les gros cauchemars bloquent encore le chemin. Tu en as traversé quelques-uns. Ils ne se ressemblent pas, mais ils ont tous le même goût.
+?cauch==5 Un dernier gros cauchemar bloque le chemin.
+?encre>=7 Tes mains sont noires jusqu'aux coudes. Ton pyjama s'assombrit. Tes étoiles brillent d'une lumière froide. Tu te sens fort. Tu n'avais jamais été fort.
+?encre>=4 ?encre<7 L'encre te monte aux poignets. Les dés t'obéissent mieux. Tu ne sais pas si c'est bien.
+?flag:pn_ins Les Insomnies te suivent en file, les yeux grands ouverts.
+~bartho: Bartholomé marche à côté de toi, dans l'eau noire jusqu'aux genoux. « T'as les mains sales, petit. »
+~melusine: Tante Mélusine te regarde les mains, par-dessus ses trois paires de lunettes. Elle ne dit rien. Pour une fois.
+~brisefer: Brisefer s'est mise derrière toi. « J'ai porté pire. Avance. »
+~zouzou: Zouzou éclaire devant toi, juste un peu.
+~brume: Brume-Lucie te serre plus fort quand l'encre monte.
+* end_37 ?encre>=10 | Laisser l'encre t'avoir | Tu ne résistes plus. Elle n'a jamais été dehors. Elle était déjà toi. | |
+* pnc_a1 ?encre<10 ?!flag:vis_pnc_a | Entrer dans le cauchemar qui tombe | Il est vertical. Il n'a pas de fond. | |
+* pnc_b1 ?encre<10 ?!flag:vis_pnc_b | Entrer dans le cauchemar qui fait tic-tac | Il bat comme un cœur qui se fatigue. | |
+* pnc_c1 ?encre<10 ?!flag:vis_pnc_c | Entrer dans le cauchemar qui sent le sel | Il se vide, de l'intérieur. | |
+* pnc_d1 ?encre<10 ?!flag:vis_pnc_d | Entrer dans le cauchemar tout noir | Il n'a rien dedans. C'est ça, le pire. | |
+* pnc_e1 ?encre<10 ?!flag:vis_pnc_e | Entrer dans le cauchemar qui sent la lessive | Il est plié, rangé, et il sent le pyjama. | |
+* pnc_f1 ?encre<10 ?!flag:vis_pnc_f | Entrer dans le cauchemar qui fait des tampons | Il fait clac. Clac. Clac. Sans arrêt. | |
+
+# ----- Cauchemar A : la chute
+
+@pnc_a1
+!title: Le cauchemar qui tombe
+!fx: +flag:vis_pnc_a
+Un petit Gravitaire, à peine plus haut qu'une maison, tombe. Il tombe dans le noir, les bras écartés, depuis le début de la nuit. Il n'y a pas de fond. La Terre penche, alors il rêve qu'elle le lâche.
+Tu tombes avec lui. C'est son cauchemar ; tu n'y peux rien. Il crie sans voix. Autour de vous, des Insomnies tombent aussi, les yeux ouverts, en riant.
+* pnc_a1b pan10 | Te laisser tomber plus vite que lui, pour l'attendre en bas | Tu plonges. Tu dépasses le petit Gravitaire. Il te voit passer. Il arrête de crier, pour te regarder. | Tu plonges. Il n'y a pas de bas. Tu tombes à côté de lui, aussi perdu que lui. | |
+* pnc_a1b | Attraper sa main, et tomber avec lui | Tu attrapes un doigt. C'est tout ce qui tient dans ta main. Il serre. Vous tombez à deux. C'est moins pire. | |
+
+@pnc_a2
+!title: Le fond
+Il n'y a pas de fond. Il faut en faire un. Ou faire de la chute autre chose.
+Tu sens l'encre dans tes mains, prête. Tu pourrais prendre ce cauchemar, le plier, le faire tien. Il t'obéirait. Tu serais plus fort.
+* pnc_route ?flag:obj_maille_lune | Défaire la maille de Mélusine, et en tricoter un filet de lumière | Tu tires sur la maille. Elle se déroule, se déroule, et devient un filet de lumière de Lune tendu sous vous. Vous tombez dedans. Ça rebondit. Le petit Gravitaire rit. Son cauchemar devient une balançoire. Il se rendort, bien, au fond d'un vrai rêve. | | -flag:obj_maille_lune cauch+1 |
+* pnc_route ?comp:brisefer | Laisser Brisefer l'attraper | Brisefer tend les bras, comme pour l'Axe. Le petit Gravitaire tombe dedans. Elle le tient. « Je tiens. J'ai toujours tenu. » Il dort, contre le granit. | | cauch+1 |
+* pnc_route coe10 ?encre<7 | Lui parler, pendant la chute, jusqu'à ce qu'il n'ait plus peur de tomber | Tu lui parles de ta tasse, du sucrier, du Gravitaire qui dort depuis deux cents ans. Il écoute. Il oublie qu'il tombe. Quand il l'oublie, la chute s'arrête. Il se rendort. | Tu lui parles. Il ne t'entend pas. Il tombe. Tu tombes. À la fin, il se réveille en sursaut, quelque part sur Terre, en sueur. Le cauchemar s'éteint, sans que tu aies rien réglé. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Le plier, et le mettre dans ta poche | Tu tends la main noire. La chute s'arrête net. Le cauchemar se plie, comme un drap, puis comme une lettre, puis comme rien. Il entre dans ta poche. Le petit Gravitaire se réveille, ailleurs, sans savoir pourquoi il n'a plus peur. Toi, tu sais. Tu tombes, maintenant, un peu, tout le temps, à l'intérieur. | Tu tends la main. Le cauchemar se débat. Il finit par entrer, de travers. Il te fait mal. | encre+1 cauch+1 | encre+1 cauch+1
+
+# ----- Cauchemar B : le tic-tac
+
+@pnc_b1
+!title: Le cauchemar qui fait tic-tac
+!fx: +flag:vis_pnc_b
+Une salle pleine d'horloges. Au milieu, un vieil Horloger en laiton est allongé, les mains croisées. Il rêve que son tic-tac s'arrête à l'aube. Autour de lui, toutes les horloges ralentissent, une à une. Tic. Puis rien. Tac. Puis rien.
+« Sans Lune, plus de marées. Sans marées, plus de temps. Sans temps, plus d'Horlogers. C'est logique. Je n'aime pas que ce soit logique. »
+* pnc_b1b coe10 | T'asseoir à côté de lui, et écouter son tic-tac | Tu écoutes. Il est faible, mais régulier. Tu le lui dis. Il est surpris. Personne n'écoute jamais le tic-tac des Horlogers ; on regarde l'heure. | Tu écoutes. Tu n'entends rien. Les horloges autour couvrent tout. | coe+1 |
+* pnc_b1b | Remonter une des horloges, au hasard, pour voir | Tu la remontes. Elle repart. Puis elle s'arrête. Ce n'est pas une affaire de ressort. | |
+
+@pnc_b2
+!title: L'aube
+Dans le cauchemar, le jour se lève. Les horloges s'arrêtent toutes ensemble. L'Horloger ferme les yeux. Il attend son dernier tic.
+* pnc_route ?comp:melusine | Laisser Tante Mélusine lui tricoter un battement | Tante Mélusine prend ses aiguilles. « UN CŒUR, C'EST UNE MAILLE À L'ENDROIT, UNE MAILLE À L'ENVERS. TIC. TAC. JE SAIS FAIRE. » Elle tricote. Le tic-tac reprend, en laine, très doux. L'Horloger sourit. Il se rendort. | | cauch+1 |
+* pnc_route coe11 ?encre<7 | Faire tic-tac à sa place, avec ta voix | « Tic. Tac. Tic. Tac. » Tu le fais toute l'aube du cauchemar. Il écoute. Il reprend le rythme. Le cauchemar passe. Il dort. | « Tic. Tac. » Ta voix se casse. Il se réveille en sursaut, quelque part sur Terre, et vérifie l'heure. Le cauchemar s'éteint, sans que tu aies rien réglé. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Arrêter toi-même les horloges, et les garder | Tu poses ta main noire sur la grande horloge. Toutes s'arrêtent, mais c'est toi qui l'as décidé. Le cauchemar entre dans ta poche, avec son silence. L'Horloger se réveille, ailleurs, et son tic-tac repart, fort. Le tien, celui que tu n'avais pas, s'arrête un peu. | Tu poses ta main. Les horloges s'emballent, puis s'arrêtent, puis s'emballent. Le cauchemar entre de force. | encre+1 cauch+1 | encre+1 cauch+1
+
+# ----- Cauchemar C : la mer qui part
+
+@pnc_c1
+!title: Le cauchemar qui sent le sel
+!fx: +flag:vis_pnc_c
+Un village de Marégraves, au bord d'une mer qui part. Pas qui recule : qui part. Elle se lève, comme un drap, et s'envole vers la Lune, avec ses poissons, ses bateaux, ses noyés. Les Marégraves courent derrière elle. Ils sont faits d'eau. Ils commencent à s'envoler aussi.
+Une vieille Marégrave s'accroche à un poteau. « Si la mer part, on part avec. On ne sait pas faire autrement. »
+~bartho: Bartholomé s'arrête. Il regarde la mer qui s'envole. Il ne dit rien. Il se tient au poteau, lui aussi.
+* pnc_c1b pan11 | T'accrocher à la mer, et tirer vers le bas | Tu attrapes le bord de la mer. Tu tires. Tu ne pèses rien. Mais tu tires. Elle ralentit, d'un rien. Les Marégraves te regardent. | Tu attrapes le bord de la mer. Elle t'emporte. Tu redescends en pluie, tout seul, sur la plage. | pan+1 |
+* pnc_c1b | Aider la vieille à tenir son poteau | Tu t'accroches à elle. Elle s'accroche au poteau. Vous tenez. Pour l'instant. | |
+
+@pnc_c2
+!title: La mer en l'air
+La mer flotte au-dessus du village, immense, à l'envers. Elle hésite. Elle ne sait pas si elle doit suivre la Lune ou rester.
+* pnc_route ?flag:obj_grain_axe | Lancer le grain de l'Axe dans la mer | Le grain tombe dans la mer flottante. Il est lourd comme une montagne. La mer, d'un coup, se souvient qu'elle a un fond. Elle redescend, se repose dans son lit, et clapote. Les Marégraves retombent dans leurs maisons, tout mouillés, ce qui ne les change pas. | | -flag:obj_grain_axe cauch+1 |
+* pnc_route ?comp:bartho | Laisser Bartholomé parler à la mer | Bartholomé lâche son poteau. Il monte vers la mer. Il lui parle, tout bas. Il lui parle de Perline. La mer l'écoute. Elle redescend, doucement, pour l'écouter mieux. Il retombe avec elle. | | cauch+1 coe+1 |
+* pnc_route coe11 ?encre<7 | Chanter aux Marégraves la chanson des marées, celle que la Lune t'a racontée | Tu la chantes. « Quand je passe, ils montent vers moi. Toute la mer se lève pour me dire bonjour. » Les Marégraves comprennent : la mer ne part pas. Elle dit bonjour. Elle redescendra. Elle redescend. | Tu chantes, mais tu as oublié les mots. La mer s'en va. La vieille Marégrave se réveille en sursaut, quelque part sur une côte, et court voir si la mer est là. Elle est là. Le cauchemar s'éteint sans toi. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Le boire, toute la mer | Tu ouvres la bouche. La mer du cauchemar descend vers toi, et tu la bois, toute, sel, poissons, noyés. Le village se rendort. Ses dormeurs se réveilleront avec la mer à sa place. Toi, tu as la mer dedans, à l'envers, qui veut partir. | Tu bois. Ça déborde. Tu en recraches la moitié. Le reste entre quand même. | encre+1 cauch+1 | encre+1 cauch+1
+
+# ----- Cauchemar D : le ciel vide
+
+@pnc_d1
+!title: Le cauchemar tout noir
+!fx: +flag:vis_pnc_d
+Un enfant Lichenaute est assis dans un champ, la nuit. Il lève la tête. Le ciel est vide. Pas d'étoile, pas de nuage, pas de Lune. Rien. Il attend qu'elle se lève. Elle ne se lèvera plus. C'est tout le cauchemar. Il n'y a rien d'autre dedans, et c'est ça qui fait peur.
+L'enfant ne pleure pas. Il est trop lent pour pleurer. Il regarde.
+* pnc_d1b coe10 | T'asseoir à côté de lui, et regarder le ciel vide | Tu t'assois. Vous regardez le rien ensemble. Il tourne la tête vers toi, très lentement. Il met une minute. « Tu... la... vois... ? » | Tu t'assois. Il ne te voit pas. Il ne voit que le noir. | coe+1 |
+* pnc_d1b | Chercher une étoile, n'importe laquelle | Tu cherches. Il n'y en a pas. Ce n'est pas un ciel. C'est un trou. | |
+
+@pnc_d2
+!title: Le trou
+Le ciel vide pèse. Il descend un peu. L'herbe du champ se couche, comme sous un couvercle.
+* pnc_route ?flag:obj_poussiere_comete | Jeter la poussière de Zouzou dans le ciel | Tu la jettes en l'air. Elle monte, s'éparpille, et s'allume. Mille petites étoiles de comète. Ce n'est pas la Lune. Mais ce n'est plus vide. L'enfant les regarde. Il sourit, très lentement, et s'endort au milieu de son sourire. | | -flag:obj_poussiere_comete cauch+1 |
+* pnc_route ?comp:zouzou | Laisser Zouzou traverser le ciel | Zouzou file d'un bout du ciel à l'autre, en laissant sa traînée. Puis elle revient. Puis elle repart. « Regarde, le lent. Il y a toujours quelqu'un qui passe. » L'enfant la suit des yeux. Il s'endort avant son troisième passage. | | cauch+1 |
+* pnc_route coe11 ?encre<7 | Lui dessiner la Lune sur le ciel, avec ton doigt | Tu montes sur la pointe des pieds. Tu dessines un rond sur le noir, avec un sourire, comme les enfants. Le rond reste. Il brille un peu. L'enfant le regarde. « Elle... reviendra. » Il s'endort. | Tu dessines un rond. Il s'efface. L'enfant se réveille, quelque part dans un champ, et lève la tête. La vraie Lune est encore là, pour cette nuit. Le cauchemar s'éteint sans toi. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Avaler le vide | Tu ouvres la bouche, et le ciel vide entre en toi. Tout entier. Le champ retrouve des étoiles. L'enfant s'endort. Toi, tu as un trou dedans, maintenant, exactement de la forme d'une Lune absente. | Tu avales le vide. Il ne rentre pas bien. Il en reste un coin dans le ciel du champ, et un coin en toi. | encre+1 cauch+1 | encre+1 cauch+1
+
+# ----- Entre deux cauchemars : les alliés néfastes
+
+@pnc_route
+!title: Entre deux cauchemars
+?encre>=10 L'encre est partout. Tu n'arrives plus à te souvenir de ta tasse.
+?cauch==1 En sortant du cauchemar, tu marches sur l'eau noire. Les Insomnies sont venues à ta rencontre, des dizaines, petites, grises, les yeux grands ouverts. Elles ne dorment jamais. Elles te regardent comme on regarde un chef. « Prends-nous. On ne dort pas. On t'aidera à ce que personne ne dorme. »
+?cauch==3 En sortant du cauchemar, une vieille ombre t'attend, assise sur l'eau noire, avec une valise. Elle a un chapeau, et un curriculum vitae très long. « La Peur-du-Noir. Quarante mille ans d'expérience. Placards, dessous de lits, couloirs, caves. On ne m'emploie plus : les enfants ont des veilleuses. Je cherche un poste. »
+?cauch==5 En sortant du cauchemar, une boutique flotte sur l'eau noire. Au comptoir, un Marchand de Sommeil, gras, souriant, avec des sacs de sable doré. « Tout le monde veut dormir, ce soir ! Je vends le sommeil au poids. Très cher. Pour toi, j'ai mieux : des larmes de Lune, en flacon. Des vraies. Elles font pleurer n'importe quel rêve. »
+?cauch==2 En sortant du cauchemar, tu retrouves le Passeur de paupières, assis dans sa barque, sur l'eau noire. Il a l'air vieux. « Tu as les mains sales, petit Somnambule. Je peux te les laver. Ça te rendra plus faible. »
+?cauch==4 En sortant du cauchemar, une petite bulle intacte flotte vers toi, toute seule. C'est un beau rêve, le dernier du coin. Il brille faiblement. Il se cache derrière toi, comme un chaton sous une chaise. Il cherche un refuge.
+?cauch>=6 Le chemin est libre. L'eau noire descend en pente, vers le fond. Tout au fond, quelque chose brille. Quelque chose de doré.
+~bartho ?cauch==1,cauch==3,cauch==5: Bartholomé crache dans l'eau noire. « Ceux-là, je les aime pas. »
+~melusine ?cauch==1,cauch==3,cauch==5: Tante Mélusine pince les lèvres. « JE NE DIS RIEN. JE PENSE TRÈS FORT. »
+~brisefer ?cauch==1,cauch==3,cauch==5: Brisefer croise les bras. « Les gens qui décident pour les autres, je les aime pas. Ceux-là décident pour tout le monde. »
+~zouzou ?cauch==1,cauch==3,cauch==5: Zouzou siffle. « Il a des clients louches, le pyjama. »
+~brume: Brume-Lucie disparaît à moitié. Elle a peur.
+* end_37 ?encre>=10 | Ne plus savoir qui tu étais | Tu cherches ton nom. Tu ne le trouves pas. | |
+* pnc_hub ?encre<10 ?cauch==1 | Prendre les Insomnies avec toi | Elles se rangent derrière toi en file, les yeux ouverts. Tu te sens suivi. C'est la première fois qu'on te suit. Ce n'est pas comme tu imaginais. | | +flag:pn_ins encre+1 |
+* pnc_hub ?encre<10 ?cauch==1 ?encre<7 coe10 | Les renvoyer, une par une, dans des rêves qui ne sont pas cassés | Tu en prends une. Tu la poses dans une bulle intacte. Elle ferme les yeux. Elle dort. Puis une autre. Ça prend longtemps. À la fin, il n'en reste aucune, et toi, tu es fatigué d'une bonne fatigue. | Tu en prends une. Elle te mord. Elles s'enfuient toutes, dans le noir, les yeux ouverts. | coe+1 |
+* pnc_hub ?encre<10 ?cauch==3 | L'engager | Elle te tend un contrat. Tu signes avec ton doigt noir. Elle range sa valise. « Je commence quand ? » Elle est déjà derrière toi. Tu ne la vois pas. Tu la sens. | | +flag:pn_pdn encre+1 |
+* pnc_hub ?encre<10 ?cauch==3 ?encre<7 coe11 | Lui proposer un autre poste : l'ombre d'une veilleuse | Elle te regarde. « L'ombre d'une veilleuse ? » Tu lui expliques : sans ombre, une veilleuse n'éclaire rien ; c'est l'ombre autour qui fait la lumière. Elle réfléchit longtemps. Puis elle accepte. Elle part vers une chambre d'enfant, sa valise à la main, très digne. | Elle hausse ses épaules d'ombre. « Les veilleuses, c'est la concurrence. » Elle s'en va chercher ailleurs. | coe+1 |
+* pnc_hub ?encre<10 ?cauch==5 | Lui acheter les larmes de Lune | « Le prix ? Un beau rêve. Le tien. » Tu le lui donnes : la tasse de thé, les collines de laine, le vieux Gravitaire qui dort. Il le met dans un sac. Il te tend le flacon. Tu ne te souviens plus très bien d'où tu viens. | | +flag:pn_mar encre+1 |
+* pnc_hub ?encre<10 ?cauch==5 rus11 | Lui voler le flacon pendant qu'il compte son sable | Tu attends qu'il pèse un sac. Tu prends le flacon. Il ne voit rien. Tu as volé. Tu ne l'avais jamais fait. Ça laisse une tache. | Il te prend la main sur le flacon. « Tss. » Il te le donne quand même, contre un souvenir, un petit, que tu ne retrouveras plus. | +flag:pn_mar encre+1 | +flag:pn_mar encre+1
+* pnc_hub ?encre<10 ?cauch==5 | Passer sans rien acheter | « Tu reviendras », dit-il. « Ils reviennent tous. » | |
+* pnc_hub ?encre<10 ?cauch==2 | Tendre les mains au Passeur | Il les lave dans une eau claire qu'il garde au fond de sa barque. L'encre part, un peu. Elle ne part pas toute. Il te regarde. « Je ne peux pas laver ce que tu as choisi. Seulement ce qui t'a éclaboussé. » | | encre-3 |
+* pnc_hub ?encre<10 ?cauch==2 | Garder tes mains comme elles sont | « Comme tu veux. » Il repousse sa barque. « Tu sais où me trouver. Non. Tu ne sais plus. » | |
+* pnc_hub ?encre<10 ?cauch==4 ?encre<7 | Garder le beau rêve sous ton bonnet, au chaud | Il se glisse sous ton bonnet. Il est tiède. Il ronronne un peu. C'est un rêve d'enfant : une cabane dans un arbre. Tu le gardes. | | +flag:pn_cabane coe+1 |
+* pnc_hub ?encre<10 ?cauch==4 | Le boire, pour te donner des forces | Tu le bois. Il a le goût d'une cabane dans un arbre. Il te donne des forces. Il ne reviendra pas. | | encre+1 |
+* pnc_pie ?encre<10 ?cauch>=6 | Descendre vers ce qui brille | La pente est raide. L'eau noire est épaisse comme du sirop. Ce qui brille se rapproche. Ça roule. | |
+
+@pnc_pie
+!title: La pièce d'or
+C'est une pièce d'or. Une seule, grande comme une roue, qui roule sur l'eau noire en faisant le tour de quelque chose qui n'est pas là. En roulant, elle compte. « Une. Deux. Cent. Une. Deux. Cent. »
+C'est un cauchemar. Pas n'importe lequel. Tu le reconnais à son goût de métal froid : c'est celui de Platine. Il s'est échappé de son rêve quand les bulles ont éclaté. Il cherche son propriétaire. Il ne sait plus où il habite.
+?flag:pn_piece_ecoutee Tu l'as écoutée. Tu sais ce qu'elle compte : les jours, au fond d'un coffre, quand il était petit.
+« Tu vas chez lui ? » dit la pièce, sans s'arrêter de rouler. « Emmène-moi. Je te montrerai le chemin. Je connais tous ses coins. Je suis ce qu'il a de plus profond. »
+* pno_00 | En faire ton alliée, et la suivre | Tu poses ta main noire sur elle. Elle s'arrête de compter. Elle roule devant toi, droit vers le fond, en brillant. Tu as un cauchemar en laisse. | | +flag:pn_piece encre+1 |
+* pnc_pie ?encre<7 ?!flag:pn_piece_ecoutee coe10 | L'écouter compter, jusqu'au bout | Tu écoutes. « Une. Deux. Cent. » Puis, plus bas, entre les chiffres : « Quand j'arrive à mille, quelqu'un vient. Quand j'arrive à mille, quelqu'un vient. » Personne n'est jamais venu. Elle compte depuis quarante ans. Ce n'est pas une pièce. C'est un enfant qui attend. | Tu écoutes. Elle compte trop vite. Tu n'entends que les chiffres. | +flag:pn_piece_ecoutee coe+1 |
+* pno_00 | La suivre sans la toucher | Elle roule devant toi. Elle ne t'appartient pas. Elle ne fait que passer par là, comme toi. | |
+
+# ---------------------------------------------------------------- ACTE III : L'ŒUVRE
+
+@pno_00
+!title: Le rêve de Platine
+Tout au fond, là où l'eau est froide, il y a une bulle dorée, énorme, lisse, sans une fêlure. Le rêve de Gédéon Platine. Elle ne laisse rien entrer.
+?flag:pn_piece La pièce d'or roule jusqu'à elle, et la bulle s'ouvre, comme une porte qui reconnaît sa clé. Tu entres derrière elle.
+?!flag:pn_piece Tu poses ta main noire sur la bulle. Elle résiste. Puis l'encre trouve une fente, minuscule, et tu te glisses dedans, en te pliant comme une lettre.
+Dedans, une salle immense, toute en or, vide. Des piscines sans personne. Des fenêtres sur rien. Et au milieu, un coffre fermé.
+Platine dort dans un lit d'or, au bord d'une piscine. Il a l'air très seul. Il a l'air de ne pas savoir qu'il l'est.
+Tu sais ce qu'il faut faire. Le Passeur l'a dit. Il faut qu'il ait peur de la Lune. Qu'il ait si peur qu'il la lâche. Il faut lui construire un cauchemar sur mesure, ici, dans son or.
+~bartho: Bartholomé regarde les piscines. « Toute cette eau, et pas une vague. »
+~melusine: Tante Mélusine regarde le lit d'or. « IL DORT TOUT SEUL DANS UN LIT POUR VINGT. C'EST TRISTE. NON. C'EST BIEN FAIT. NON. C'EST TRISTE. »
+~brisefer: Brisefer touche le coffre. Elle retire la main. « C'est lourd, là-dedans. Plus lourd que l'Axe. »
+~zouzou: Zouzou fait un tour de la salle, et revient. « C'est grand et c'est vide. Comme chez ma tante. »
+~brume: Brume-Lucie, tout bas : « Il rêve... de rien... »
+* pno_00b | Commencer par les fenêtres | Elles donnent sur rien. Tu vas leur donner quelque chose à montrer. | |
+* pno_00b | Commencer par les piscines | L'eau est immobile. Tu vas lui donner quelque chose à pleurer. | |
+
+@pno_01
+!title: Les fenêtres
+!fx: +flag:pn_e_yeux
+Il faut que, dans son rêve, la Lune le regarde. Partout. Par toutes les fenêtres. Toujours.
+?encre>=10 L'encre déborde de tes mains. Elle coule sur le sol d'or.
+* end_37 ?encre>=10 | Laisser l'encre faire la suite | Elle n'a plus besoin de toi. | |
+* pno_suite ?encre<10 ?flag:pn_pdn | Lâcher la Peur-du-Noir dans les fenêtres | La Peur-du-Noir éteint toutes les fenêtres d'un coup. Puis elle en rallume une, une seule, tout au fond. Dedans, un œil rond, gris, immense, qui regarde. La Lune. Platine se retourne dans son lit. Il a vu. Il ne sait pas ce qu'il a vu. | |
+* pno_suite ?encre<10 ?flag:pn_ins | Lâcher les Insomnies devant les fenêtres | Les Insomnies se collent aux vitres, des centaines, les yeux ronds grands ouverts. De loin, dans le noir, ça fait un seul œil, immense, qui ne cligne jamais. Platine se retourne dans son lit. Il ouvre un œil, lui aussi. Il le referme vite. | |
+* pno_suite ?encre<10 pan10 | Peindre toi-même la Lune dans chaque fenêtre, avec l'encre de tes mains | Tu peins. Une Lune par fenêtre, cent Lunes, mille Lunes, toutes tournées vers le lit. L'encre te quitte par les doigts, et revient plus épaisse. Platine gémit dans son sommeil. | Tu peins. Ta main tremble. Les Lunes coulent sur les vitres. Ça fait encore plus peur. Ça te fait peur à toi aussi. | encre+1 | encre+2
+* pno_suite ?encre<10 ?encre<7 | Dessiner dans une seule fenêtre une Lune qui le regarde, simplement, comme on regarde quelqu'un | Tu la dessines, avec ton doigt, sans encre. Une Lune qui le regarde. Pas qui le surveille. Qui le voit. Platine se retourne dans son lit. Il n'a pas peur. Il a quelque chose qui ressemble à de la gêne, comme quelqu'un qu'on regarde pour la première fois. | | coe+1 +flag:pn_doux |
+
+@pno_02
+!title: Les piscines
+!fx: +flag:pn_e_larmes
+Il faut que, dans son rêve, la Lune pleure dans ses piscines. Qu'il nage dans ses larmes. Qu'il ne puisse pas en sortir.
+?encre>=10 L'encre déborde de tes mains. Elle tombe dans les piscines, et les noircit.
+* end_37 ?encre>=10 | Laisser l'encre faire la suite | Elle n'a plus besoin de toi. | |
+* pno_suite ?encre<10 ?flag:pn_mar | Vider le flacon de larmes de Lune dans les piscines | Les larmes tombent, goutte à goutte. Elles sont vraies. Toutes les piscines se remplissent d'une eau grise et salée qui sanglote. Platine, dans son lit, se met à pleurer sans savoir pourquoi. | | -flag:pn_mar |
+* pno_suite ?encre<10 ?flag:obj_coquille_perline | Poser le coquillage de Perline au bord de la plus grande piscine | Le coquillage se met à chanter, avec la voix de Perline. Les piscines l'entendent. Elles se mettent à faire des vagues, des vraies, et à monter vers la fenêtre, comme la mer qui se lève pour dire bonjour à la Lune. Ce n'est pas un cauchemar. C'est une marée. Platine se retourne dans son lit. Il écoute. | | coe+1 +flag:pn_doux |
+* pno_suite ?encre<10 ?comp:bartho | Laisser Bartholomé pleurer dans les piscines | Bartholomé s'assoit au bord. Il pense à Perline. Il pleure. Chez un Marégrave, c'est de l'eau de mer. Les piscines deviennent salées, et tristes, et vivantes. Platine se tourne dans son lit vers le bruit de l'eau. | | coe+1 +flag:pn_doux |
+* pno_suite ?encre<10 rus10 | Faire pleurer les piscines toi-même, en y versant l'encre de tes mains | Tu trempes les mains. L'encre se dilue, et l'eau se met à pleurer, noire, épaisse, sans fin. Platine se débat dans son lit, comme quelqu'un qui se noie. | Tu trempes les mains. L'encre ne se dilue pas : elle remonte le long de tes bras. Les piscines pleurent quand même. | encre+1 | encre+2
+
+@pno_suite
+!title: L'œuvre avance
+?!flag:pn_e_yeux ?!flag:pn_e_larmes Il faut commencer quelque part. Les fenêtres, qui donnent sur rien. Ou les piscines, où l'eau ne bouge pas.
+?flag:pn_e_yeux ?flag:pn_e_larmes Les fenêtres regardent. Les piscines pleurent. Il ne manque plus que le coffre.
+?flag:pn_e_yeux ?!flag:pn_e_larmes Les fenêtres regardent. Il reste les piscines, et le coffre.
+?!flag:pn_e_yeux ?flag:pn_e_larmes Les piscines pleurent. Il reste les fenêtres, et le coffre.
+?encre>=7 Tes mains sont noires jusqu'aux épaules. Ton bonnet a perdu ses étoiles. Tu travailles bien. Tu n'as jamais si bien travaillé.
+?flag:pn_doux Quelque chose, dans ce que tu fais, n'est pas tout à fait un cauchemar. Tu le sens. Tu ne sais pas si c'est raté.
+* pno_02 ?!flag:pn_e_larmes | Passer aux piscines | L'eau t'attend. | |
+* pno_01 ?!flag:pn_e_yeux | Passer aux fenêtres | Elles t'attendent. | |
+* pno_03 ?flag:pn_e_yeux ?flag:pn_e_larmes | Ouvrir le coffre | Le couvercle est lourd. Il grince. Il n'a pas été ouvert depuis quarante ans. | |
+
+@pno_03
+!title: Le coffre
+!fx: +flag:pn_e_coffre
+Dans le coffre, il fait noir. Au fond, un petit garçon couvert de feuilles d'or, assis, compte des pièces. « Une. Deux. Cent. » Sur le couvercle, de l'intérieur, des rayures : une par jour. Il y en a beaucoup.
+Pour finir l'œuvre, il faut que, dans ce rêve, ce soit la Lune qui l'enferme là. Que la Lune soit le couvercle. Alors il aura peur d'elle pour toujours, et il la lâchera.
+?flag:pn_piece_ecoutee Tu sais ce que compte l'enfant. Il compte jusqu'à mille. Quand il arrive à mille, quelqu'un vient. Personne n'est jamais venu.
+?encre>=10 L'encre remplit le coffre jusqu'au bord.
+* end_37 ?encre>=10 | Laisser l'encre fermer le couvercle | Elle le ferme sur toi aussi. | |
+* pno_fin0 ?encre<10 ?flag:pn_piece | Remettre la pièce d'or dans le coffre, et poser la Lune dessus | La pièce roule dans le coffre et retombe dans les mains de l'enfant. Il recommence à compter. Tu fais descendre le couvercle, et sur le couvercle, de l'extérieur, tu dessines une Lune ronde, qui appuie. L'enfant lève la tête vers elle, dans le noir. Il a peur. Ça marche. | |
+* pno_fin0 ?encre<10 pan11 | Peser toi-même sur le couvercle, de tout ton poids d'encre, en forme de Lune | Tu montes sur le couvercle. Tu deviens rond, et lourd, et gris. Tu deviens la Lune, pour lui. Tu appuies. Dedans, l'enfant arrête de compter. Il a peur. Ça marche. Tu as un peu peur aussi, de ce que tu deviens. | Tu montes sur le couvercle. Tu deviens rond, lourd, gris. Le couvercle se ferme sur tes doigts. Tu ne les sens plus. | encre+1 | encre+2
+* pno_fin0 ?encre<10 ?flag:pn_cabane | Sortir le beau rêve de ton bonnet, et le laisser s'installer dans le coffre | Le petit rêve descend dans le coffre. Il se déplie. Il devient une cabane dans un arbre, toute petite, au fond du noir. L'enfant en feuilles d'or arrête de compter. Il la regarde. Le couvercle ne se ferme plus tout à fait : une branche dépasse. | | +flag:pn_doux coe+1 |
+* pno_fin0 ?encre<10 ?comp:brisefer | Demander à Brisefer de tenir le couvercle | Brisefer pose une main sur le couvercle. « Je l'ai fait pour la Terre. Je peux le faire pour un coffre. » Mais elle ne ferme pas. Elle tient, entrouvert. Juste assez pour qu'il entre un peu de lumière. Elle te regarde. « Tu feras ce que tu voudras. Moi, je tiens. » | | +flag:pn_doux |
+
+@pno_fin
+!title: L'œuvre
+Le cauchemar est prêt. Les fenêtres regardent. Les piscines pleurent. Le coffre attend. Platine, dans son lit d'or, dort encore. Dès que tu lâcheras l'œuvre, il la rêvera. Et il aura peur de la Lune pour toujours.
+?encre>=7 Tu es tout noir, maintenant. Tes étoiles sont éteintes. Tu es très fort. Tu n'as jamais été si fort, ni si seul.
+?flag:pn_doux Tu sens bien que ton œuvre n'est pas tout à fait noire. Il y a un endroit, quelque part dedans, où ça ressemble à de la tristesse plutôt qu'à de la peur.
+?flag:pn_piece_ecoutee Dans le coffre, l'enfant compte. « Neuf cent quatre-vingt-dix-huit. Neuf cent quatre-vingt-dix-neuf. »
+~bartho: Bartholomé t'attrape par l'épaule, de sa main d'eau. « Petit. Regarde-toi. Perline, elle t'aurait pas reconnu. Moi non plus, presque. »
+~melusine: Tante Mélusine pose ses aiguilles, pour la deuxième fois en mille ans. « PISTIL. » Elle ne crie pas. C'est pire. « Pistil. Tu étais un pyjama plié, avec trois étoiles. Tu habitais une tasse de thé. »
+~brisefer: Brisefer ne bouge pas. « Je n'aime pas les gens qui décident pour les autres, le pyjama. Tu es en train de décider pour lui. »
+~zouzou: Zouzou s'est posée sur ton bonnet, là où il y avait des étoiles. « T'étais plus drôle avant. »
+~brume: Brume-Lucie se condense devant toi, pour la première fois, presque solide. « Pistil... je vais... aller au bout... de ma phrase... Tu n'es pas... ça. »
+* end_37 ?encre>=10 | Ne plus rien entendre | Les voix s'éloignent. L'encre est plus forte. | |
+* end_35 ?encre<10 | Lâcher l'œuvre sur Platine | Tu ouvres les mains. | |
+* end_36 ?encre<10 ?encre<7 ?comps>=1 | Écouter ceux qui sont venus avec toi | Tu les écoutes. | |
+* pno_r1 ?encre<10 ?encre>=7 ?comps>=1 ?!flag:pn_sourd coe12 | Essayer d'écouter ceux qui sont venus avec toi, à travers l'encre | Leurs voix passent l'encre, une par une, comme de la lumière par un trou d'aiguille. | Leurs voix cognent contre l'encre. Tu les vois parler. Tu ne les entends pas. | | +flag:pn_sourd
+* end_38 ?encre<10 ?flag:pn_piece_ecoutee | Entrer dans le coffre, prendre l'enfant par la main, et garder son cauchemar pour toi | Tu descends dans le coffre. | |
+
+@pno_r1
+?last:ok Tu les entends. Ils t'appellent par ton nom. Tu l'avais presque oublié.
+?last:ko Ils parlent. Tu ne les entends plus. L'encre est trop épaisse.
+* end_36 ?last:ok | Revenir vers eux | Tu reviens. | |
+* pno_fin ?last:ko | Regarder ton œuvre | Elle est prête. Elle t'attend. | |
+
+# ---------------------------------------------------------------- FINS
+
+@end_35
+!end: 35
+!title: Le roi de la Nuit d'encre
+Tu lâches l'œuvre. Elle tombe dans le sommeil de Platine comme une pierre dans un puits.
+Il rêve. Les fenêtres le regardent. Les piscines pleurent. Le coffre se referme, et c'est la Lune qui le ferme. Il se réveille en hurlant, au milieu de la nuit, dans son bureau du Promontoire. Il regarde par la baie vitrée. La Lune est là, énorme, grise, tout près. Elle le regarde. Il le sait, maintenant : elle le regarde.
+Il appuie sur le bouton rouge. Pas pour la sauver. Pour qu'elle s'en aille de sa fenêtre. Les moteurs s'arrêtent. Il fait décrocher le crochet avant l'aube, en tremblant, et il repart vers Aldébaran sans prendre son café. Il ne regardera plus jamais une lune en face.
+La Lune reste. Les marées reviennent. La Terre se redresse.
+Toi, tu ne remontes pas. Tu restes au fond du Fleuve des Dormeurs, sur l'eau noire, avec tes cauchemars dans les poches, tes Insomnies en file, tes alliés derrière toi. Tu es fort. Tu règnes. Les cauchemars de la Terre t'obéissent, tous.
+Et parce qu'ils t'obéissent, ils viennent quand tu les appelles. Et tu les appelles souvent. Tu ne sais plus faire autre chose.
+Sur la Terre, on garde la Lune. Mais plus personne, plus jamais, ne fait de beaux rêves. On dort mal. On se réveille fatigué. Les enfants laissent la lumière allumée.
+?flag:promesse_lune Tu avais promis de dire aux autres qu'elle ne voulait pas partir. Elle est restée. Tu ne leur as rien dit. Tu ne parles plus aux beaux rêves.
+?flag:pn_pdn La Peur-du-Noir a retrouvé du travail. Beaucoup.
+La Lune, la nuit, se penche sur les dormeurs. Elle les trouve agités. Elle ne sait pas pourquoi. Elle garde une fenêtre ouverte, dans un de ses rêves, pour quelqu'un qui ne vient plus.
+
+@end_36
+!end: 36
+!title: La veilleuse
+Tu les écoutes.
+?comp:brume Brume-Lucie, d'abord. Elle va au bout de sa phrase, pour la première fois de sa vie. « Tu es Pistil. Tu habites une tasse. Tu as trois étoiles d'occasion. Tu as promis quelque chose à ma cousine, la Lune. Tu n'as pas promis de devenir ça. »
+?comp:bartho Bartholomé, la main sur ton épaule : « On fait peur à personne pour lui apprendre à aimer, petit. Perline m'a pas appris comme ça. »
+?comp:melusine Tante Mélusine, tout bas, ce qui est terrible : « Les trous, ça se reprend. Une maille. Une seule. »
+?comp:brisefer Brisefer : « Tu portes trop lourd, le pyjama. Ce qu'on porte trop longtemps, on finit par croire que c'est nous. Pose. »
+?comp:zouzou Zouzou : « T'étais plus drôle avant. On peut revenir sans rester, tu sais. Moi, je fais ça tout le temps. »
+L'encre recule. Pas toute. Assez. Tes mains redeviennent grises, puis bleu nuit, puis presque de la flanelle.
+Tu regardes ton œuvre. Tu ne la lâches pas comme elle est. Tu la reprends, une maille à la fois. Les fenêtres ne surveillent plus : elles regardent, simplement, comme on regarde quelqu'un qu'on voit. Les piscines ne pleurent plus de peur : elles pleurent de tristesse, et la tristesse fait des vagues. Le coffre, tu ne le fermes pas. Tu laisses le couvercle entrouvert, et tu poses dans la fente une toute petite lumière : une de tes étoiles d'occasion. Une veilleuse.
+Platine rêve. Il ne fait pas un cauchemar. Il fait un rêve triste, le premier de sa vie. Dans son rêve, la Lune le regarde par la fenêtre, et elle a l'air de quelqu'un qui ne veut pas partir. Et dans le coffre, quelqu'un a laissé une lumière.
+Il se réveille avant l'aube. Il ne hurle pas. Il pleure, longtemps, dans son bureau doré, sans savoir pourquoi. Puis il appuie sur le bouton rouge. Doucement. Pas par peur. Par chagrin. Il ne veut pas lui faire ça. Il ne sait pas encore qu'il ne veut pas se le faire à lui.
+Les moteurs s'arrêtent. Le crochet se détache. La Lune remonte à sa place.
+Toi, tu remontes aussi. Le Passeur de paupières t'attend avec sa barque, au bord de l'eau noire. Il ne dit rien. Il te ramène.
+Tu rentres dans ta tasse de thé, dans le rêve du vieux Gravitaire qui dort depuis deux cents ans. Tu as encore un peu d'encre au bout des doigts. Elle ne partira pas. Tu t'en sers pour écrire, sur le bord de la tasse, en tout petit, le nom de ceux qui sont venus te chercher.
+La Lune, la nuit, garde une fenêtre ouverte. Tu y passes, parfois.
+
+@end_37
+!end: 37
+!title: Perdu dans l'encre
+L'encre monte. Elle monte depuis le début. Tu croyais la tenir. C'est elle qui te tenait.
+Elle te passe les épaules, le cou, le bonnet. Tes étoiles s'éteignent, une par une. Tu essaies de te souvenir de ta tasse de thé. Tu te souviens d'une tasse. Tu ne sais plus de qui. Tu essaies de te souvenir de ton nom. Il commence par quelque chose. Il ne finit pas.
+Tu deviens un cauchemar. Pas celui de quelqu'un. Un cauchemar sans dormeur, sans nom, sans forme, qui flotte sur l'eau noire et qui cherche quelqu'un à qui faire peur. N'importe qui. Il en trouve beaucoup, cette nuit-là.
+?comps>=1 Ceux qui étaient venus avec toi t'appellent. Tu entends des voix. Tu ne sais plus que ce sont des noms. Ils remontent sans toi, en pleurant, chacun dans son rêve. Au matin, ils ne s'en souviendront pas. Ils se réveilleront avec un poids sur la poitrine, comme quand on a oublié quelqu'un.
+Personne ne descend dans le rêve de Platine. Il dort bien, cette nuit-là, au fond de son or. À l'aube, les moteurs démarrent tout seuls. La Lune part, comme prévu, dans le silence.
+?flag:promesse_lune Tu lui avais promis quelque chose. Tu ne sais plus quoi.
+Dans les rêves de la Terre, maintenant, il y a quelque chose de noir qui passe, parfois, sans visage. Les enfants l'appellent l'Encre. Ils ne savent pas que c'était un pyjama, avec trois étoiles d'occasion, qui avait voulu bien faire.
+
+@end_38
+!end: 38
+!title: L'échange
+Tu descends dans le coffre. Il fait noir. L'enfant en feuilles d'or compte. « Neuf cent quatre-vingt-dix-neuf. »
+Tu t'assois à côté de lui. Il lève la tête. « Mille », dis-tu.
+Il te regarde. Quelqu'un est venu. Quarante ans qu'il attend. Il lâche ses pièces. Elles tombent, sans bruit.
+Tu lui prends la main. Et tu prends le reste aussi : le noir, le couvercle, les rayures, le compte. Tu prends son cauchemar, tout entier, et tu le mets en toi, à la place de l'œuvre que tu avais construite. L'œuvre, tu la laisses s'éteindre. Il n'en a plus besoin. Il n'a plus de coffre où avoir peur.
+L'enfant sort. Il marche dans la salle d'or. Il ouvre une fenêtre. Dehors, la Lune. Il la regarde comme on regarde quelqu'un, pas comme on regarde un achat.
+Platine dort. Il dort bien, pour la première fois depuis quarante ans. Il ne compte plus. Il se réveille à l'aube, reposé, étonné de l'être. Il regarde la Lune par la baie vitrée. Il n'a plus envie de l'avoir. Il n'a plus envie de rien avoir. Il a juste envie de prendre son café en la regardant.
+Il appuie sur le bouton rouge, distraitement, comme on éteint une lampe dont on n'a plus besoin. Les moteurs s'arrêtent. La Lune reste.
+Toi, tu remontes, avec un coffre en toi. Tu rentres dans ta tasse de thé, dans le rêve du vieux Gravitaire. Elle est douce, la tasse. Elle sent la camomille. Tu n'y dors plus. Toutes les nuits, au fond de toi, quelqu'un compte des pièces, et tu attends d'arriver à mille.
+?comps>=1 Ceux qui sont venus avec toi passent te voir, parfois, dans leurs rêves. Ils s'assoient au bord de la tasse. Ils ne te demandent pas comment tu vas. Ils restent là, c'est tout. Ça aide.
+La Lune, la nuit, se penche sur ta tasse. Elle ne dit rien. Elle laisse sa lumière un peu plus longtemps sur toi que sur les autres.
+
+# ---------------------------------------------------------------- SCÈNES AJOUTÉES
+
+@pne_01b
+!title: Le péage
+Le Passeur tend la main, paume ouverte. « On ne descend pas le fleuve sans payer. Ce n'est pas moi qui l'ai décidé. C'est le fleuve. Il prend un peu de chaque rêveur qui passe. »
+Tu n'as rien. Tu as un pyjama, un bonnet, et trois étoiles d'occasion qui brillent dessus.
+* pne_02 | Lui donner une de tes trois étoiles | Tu la décroches. Elle brille dans sa paume, toute petite. Il la regarde longtemps. « Elle est d'occasion. Elles sont toutes d'occasion. Celle-là a servi à un enfant qui avait peur du noir, en 1987. » Il la jette dans le fleuve. Elle descend devant vous, comme une lanterne. Il te reste deux étoiles. | | +flag:pn_etoile_donnee coe+1 |
+* pne_02 coe10 | Lui donner un souvenir : le goût du thé de ta tasse | Tu le lui donnes. Il le goûte. Il ferme les yeux. « Camomille. Un peu de poussière d'étoile. » Il sourit pour la première fois. « Je garde. » Tu ne te souviens plus très bien du goût de ta tasse. Ça reviendra peut-être. | Tu essaies de le lui donner. Le souvenir ne veut pas partir. Le Passeur hausse les épaules. « Il y tient. Bon. Tu paieras plus tard. Tout le monde paie plus tard. » | |
+
+@pne_route
+!title: Sur le fleuve, entre deux rêves
+?beaux==1 Entre deux lanternes, une bulle crevée flotte à la dérive. Dedans, il reste un morceau de rêve : une porte, seule, au milieu de rien, qui s'ouvre et se ferme.
+?beaux==2 Le fleuve passe sous un pont de sommeil. Sur le pont, des dormeurs marchent sans se réveiller, en file, vers l'autre rive. Ils vont vers des rêves qui n'existent plus.
+?beaux==3 Une pluie fine tombe sur le fleuve. Ce sont des larmes de dormeurs. Elles font des ronds sur l'eau, et chaque rond montre, une seconde, le visage de quelqu'un qui pleure en dormant.
+?beaux>=4 Le fleuve ralentit. Les quatre lanternes brillent derrière toi. Devant, il commence à faire très sombre.
+~bartho: Bartholomé regarde l'eau. « Ça coule pas comme la mer. Ça coule comme le temps. »
+~melusine: Tante Mélusine tricote sans fil. « JE ME TIENS LES MAINS OCCUPÉES. SINON, JE PLEURE. NON. »
+~brisefer: Brisefer, à l'arrière, ne dit rien. La barque penche de son côté.
+~zouzou: Zouzou fait la course avec la barque, et gagne, et s'ennuie.
+* pne_hub ?beaux==1 | Fermer la porte, doucement, pour qu'elle arrête de battre | Tu la fermes. Elle reste fermée. On n'entend plus que le fleuve. | | coe+1 |
+* pne_hub ?beaux==1 | La laisser battre, et passer | Elle claque derrière toi, longtemps. | |
+* pne_hub ?beaux==2 coe10 | Appeler un des dormeurs, pour le ramener vers un rêve qui existe | Tu l'appelles. Il s'arrête. Il se retourne. Il descend du pont et entre dans une bulle, juste à côté, un rêve de jardin. Les autres continuent. Un, c'est déjà ça. | Tu l'appelles. Il ne t'entend pas. Ils ne t'entendent jamais, les dormeurs, quand ils marchent. | coe+1 |
+* pne_hub ?beaux==2 | Les regarder passer | Ils passent. Le pont s'efface derrière eux. | |
+* pne_hub ?beaux==3 | Tendre ton bonnet, pour recueillir quelques larmes | Ton bonnet se remplit. Les larmes brillent dedans. Tu les reverses dans le fleuve, un peu plus loin, là où l'eau est claire. Les visages sourient, une seconde, avant de disparaître. | | coe+1 |
+* pne_hub ?beaux==3 | Rester sous la pluie | Elle mouille, mais elle ne refroidit pas. | |
+* pne_hub ?beaux>=4 | Regarder en arrière une dernière fois | Les quatre lanternes brillent. Tu ne les reverras peut-être pas. | |
+
+@pnc_a1b
+!title: Les Insomnies qui tombent
+Autour de vous, des Insomnies tombent aussi, en riant. Elles ne crient pas. Elles adorent tomber. Elles tombent depuis qu'elles sont nées, c'est-à-dire depuis cinq minutes.
+Elles tournent autour du petit Gravitaire. Plus elles rient, plus il a peur. Plus il a peur, plus la chute est longue.
+* pnc_a2 coe10 ?encre<7 | Les chasser, gentiment, avec ton bonnet | Tu agites ton bonnet. Elles s'éparpillent, vexées, et tombent plus loin. Le petit Gravitaire t'entend rire, toi aussi, d'un rire de pyjama. Ça le surprend. Il a un peu moins peur. | Tu agites ton bonnet. Elles l'attrapent et jouent avec. Tu le récupères en tombant. | coe+1 |
+* pnc_a2 | Rire avec elles | Tu ris. C'est facile, de rire en tombant, quand ce n'est pas toi qui as peur. Les Insomnies t'adorent, tout d'un coup. Le petit Gravitaire te regarde rire. Il ne comprend pas. | |
+
+@pnc_b1b
+!title: La grande horloge
+Au fond de la salle, une horloge plus grande que les autres. Elle n'a pas d'heures : elle a des phases de Lune. Pleine, gibbeuse, quartier, croissant, nouvelle. Son aiguille unique est coincée sur la pleine Lune, et elle tremble. Elle voudrait avancer. Elle ne peut pas.
+C'est d'elle que dépendent toutes les autres.
+* pnc_b2 pan10 | Pousser l'aiguille d'un cran | Tu pousses. Elle résiste, puis passe. Gibbeuse. Toutes les horloges de la salle font un tic, ensemble, un seul. L'Horloger ouvre un œil. | Tu pousses. L'aiguille ne bouge pas. Elle est coincée par quelque chose qui n'est pas dans le rêve : un crochet, là-haut. | pan+1 |
+* pnc_b2 | Regarder l'aiguille trembler | Tu la regardes. Elle tremble comme une main qui voudrait dire au revoir et qui n'ose pas. | |
+
+@pnc_c1b
+!title: Les noyés
+La mer, en s'envolant, rend ce qu'elle gardait au fond. Les noyés remontent. Ils ne font pas peur. Ce sont des marins, des baigneurs, des enfants d'autrefois, tout pâles, qui flottent doucement vers la Lune avec la mer. Ils ont l'air de rentrer chez eux.
+Les Marégraves les regardent passer. Ils connaissent des noms.
+~bartho: Bartholomé cherche, parmi eux. Il ne trouve pas. « Elle, elle s'est pas noyée. Elle est partie. C'est pas pareil. »
+* pnc_c2 coe10 ?encre<7 | Dire leurs noms avec les Marégraves, à mesure qu'ils passent | Tu répètes les noms. Chaque noyé nommé se retourne, sourit, et redescend un peu. Pas tous. Quelques-uns. Ceux qu'on a appelés. | Tu essaies. Les noms sont trop nombreux. Tu en oublies. Ils passent. | coe+1 |
+* pnc_c2 | Les regarder monter | Ils montent. Le ciel du cauchemar est plein de gens qui rentrent. | |
+
+@pnc_d1b
+!title: Les autres enfants
+Dans le champ, il n'y a pas qu'un enfant. Il y en a d'autres, couchés dans l'herbe, endormis, partout. Chacun fait le même cauchemar : le ciel vide. Ils se sont tous retrouvés dans le même, sans le savoir. Un cauchemar partagé, c'est plus lourd.
+* pnc_d2 coe10 | Les réveiller un peu, juste assez pour qu'ils se voient | Tu passes de l'un à l'autre, tu touches les épaules. Ils ouvrent les yeux, dans le rêve. Ils se voient. Ils ne sont pas seuls sous le ciel vide. Ils se rapprochent. Ça ne remplit pas le ciel. Ça remplit le champ. | Tu les touches. Ils ne se réveillent pas. Ils sont trop loin dans le noir. | coe+1 |
+* pnc_d2 | Les laisser dormir, et rester près du premier | Tu restes près du premier. Les autres, tu ne peux pas tous les porter. | |
+
+@pnc_e1
+!title: Le cauchemar qui sent la lessive
+!fx: +flag:vis_pnc_e
+Une immense armoire, dans le noir. Dedans, sur des étagères, des pyjamas pliés. Des milliers. Chacun a un bonnet, et sur chaque bonnet, des étoiles éteintes. Ce sont des Somnambules. Tes cousins, tes voisins, tes semblables.
+C'est leur cauchemar à tous : la lumière de Lune s'éteint, et ils redeviennent des pyjamas. Juste des pyjamas. Pliés. Rangés. Pour toujours.
+L'armoire se referme, doucement, une porte après l'autre.
+~brume: Brume-Lucie frissonne. « Je connais... ce placard... toutes les brumes... ont peur de la même chose... »
+* pnc_e1b | Ouvrir une porte avant qu'elle se ferme | Tu glisses ta main. La porte se referme sur tes doigts de flanelle. Tu tiens. | |
+* pnc_e1b coe10 | Appeler les pyjamas par leurs noms de Somnambules | Tu les appelles. Taffetas. Chaussette. Molleton. Plume-de-Nuit. Quelques étoiles se rallument, une seconde, sur quelques bonnets. | Tu les appelles. Personne ne répond. Ce sont des pyjamas. | coe+1 |
+
+@pnc_e1b
+!title: L'armoire
+Dans l'armoire, sur l'étagère du milieu, il y a une place vide. Juste ta taille. Elle t'attend. Une petite étiquette, cousue : « PISTIL ».
+Tu sens que si tu t'allongeais là, ce serait reposant. Plus de promesse. Plus d'encre. Juste être plié.
+* pnc_e2 | Ne pas regarder la place vide | Tu regardes ailleurs. Elle est là quand même. Elle sera toujours là. | |
+* pnc_e2 | Arracher l'étiquette | Tu l'arraches. Ce n'est plus ta place. Ce n'est la place de personne. Tu la mets dans ta poche, à côté des cauchemars. | |
+
+@pnc_e2
+!title: Les pyjamas
+L'armoire est presque fermée. Il reste une fente de lumière.
+* pnc_route ?comp:brume | Laisser Brume-Lucie entrer dans l'armoire | Brume-Lucie se glisse par la fente. Elle remplit l'armoire, toute, en brouillard tiède. Dans la brume, on ne sait plus ce qui est plié et ce qui est debout. Les pyjamas se lèvent, un par un, comme des gens qui se réveillent un dimanche. | | cauch+1 coe+1 |
+* pnc_route coe11 ?encre<7 | Leur raconter la Lune, petite, assise par terre, que tu as vue | Tu racontes. La maison aux mille fenêtres. La Lune en chemise de nuit. Elle garde tout, même les dessins. Les pyjamas écoutent. Leurs étoiles se rallument, une à une. Ils ne sont pas éteints. Ils ont juste eu peur. | Tu racontes. Ta voix se perd dans les plis. Un Somnambule, quelque part, se réveille dans un vrai rêve, ailleurs, et se demande pourquoi il a pensé à toi. Le cauchemar s'éteint sans toi. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Fermer l'armoire toi-même, et garder la clé | Tu fermes les portes, toutes, et tu gardes la clé. Le cauchemar entre dans ta poche. Les Somnambules, ailleurs, se réveillent dans leurs rêves sans savoir qu'ils ont eu peur. Toi, tu as une armoire dedans, maintenant, avec une place vide. | Tu fermes. Une porte résiste. Tu la claques. La clé te brûle la main. | encre+1 cauch+1 | encre+1 cauch+1
+
+@pnc_f1
+!title: Le cauchemar qui fait des tampons
+!fx: +flag:vis_pnc_f
+Un guichet, dans le noir. Derrière, un petit lichen gris, avec des lunettes, signe un papier. Clac, un tampon. Il le pose. Un autre papier arrive. Le même. Il signe. Clac. Sur chaque papier, en lettres dorées : « ACTE DE VENTE. LA LUNE. »
+Il ne peut pas s'arrêter. Il signe la vente de la Lune, encore et encore, depuis le début de la nuit. Ses mains tremblent. Les tampons pleuvent du plafond.
+« Je n'ai pas fait exprès. Je n'ai pas lu. Personne ne lit. Je n'ai pas fait exprès. » Clac.
+* pnc_f1b coe10 | Lui demander son nom | « Xanthin. Guichetier. Tamponville. » Clac. « Je suis celui qui l'a vendue. » Clac. Il te regarde, pour la première fois. « Tu es venu me punir ? » | « Je n'ai pas de nom. J'ai un numéro de guichet. » Clac. | coe+1 |
+* pnc_f1b | Ramasser un des papiers | Tu le ramasses. Il est tiède. En bas, une signature tremblée. Et, plus bas encore, en tout petit : « Offre non remboursable. » | |
+
+@pnc_f1b
+!title: La pile
+Les papiers s'empilent. La pile monte. Elle va écraser le guichet, et le petit lichen dessous. Lui continue à signer. Il ne sait plus faire autre chose.
+* pnc_f2 pan10 | Retenir la pile avec ton dos | Tu te mets dessous. Elle pèse. Tu tiens. Le petit lichen te regarde tenir. Il s'arrête de signer, une seconde, pour te regarder. | Tu te mets dessous. Elle t'écrase un peu. Tu es plat. Tu étais déjà plié, tu es maintenant plat. | pan+1 |
+* pnc_f2 | Lui prendre le stylo des mains | Tu tires. Il ne lâche pas. Il a les doigts collés au stylo par le cauchemar. | |
+
+@pnc_f2
+!title: Clac
+Le petit lichen lève son tampon pour la millième fois.
+* pnc_route ?comp:brisefer | Laisser Brisefer lui tenir le bras | Brisefer pose un doigt sur le bras du lichen. Un seul. Il ne peut plus bouger. « Moi, je n'aime pas les gens qui décident pour les autres. Mais toi, tu n'as rien décidé. Arrête. » Il arrête. Les papiers cessent de tomber. Il s'endort sur son guichet. | | cauch+1 |
+* pnc_route coe11 ?encre<7 | Lui dire qu'ici, dans le rêve, il a le droit de ne pas signer | Il te regarde. Il regarde le papier. Il pose le tampon, à côté, sans tamponner. Rien ne se passe. Le monde ne s'écroule pas. Il pleure, longtemps, sur un papier blanc. Puis il s'endort, la joue dessus. | Il te regarde. Il ne te croit pas. Il se réveille en sursaut, quelque part sur Terre, et vérifie qu'il n'a rien signé cette nuit. Le cauchemar s'éteint sans toi. | cauch+1 | cauch+1
+* pnc_route rus9 | Prendre le cauchemar. Lui prendre le tampon, et le garder | Tu lui arraches le tampon. Le cauchemar te suit dans la main, avec tous les papiers. Le petit lichen s'endort, soulagé. Toi, tu as un tampon dans la poche, maintenant, qui veut tamponner. | Tu arraches le tampon. Il te tamponne la main au passage. « VENDU. » Ça ne part pas. | encre+1 cauch+1 | encre+1 cauch+1
+
+@pno_00b
+!title: Les gardiens du sommeil
+Dans l'entrée du rêve de Platine, deux vigiles dorés montent la garde, en rêve, devant un rideau d'or. Ils dorment debout, les yeux ouverts. Ce sont les gardiens de son sommeil. Personne n'entre dans les rêves de Platine. Personne n'y est jamais entré.
+* pno_00c ?flag:pn_piece | Laisser la pièce d'or passer devant | La pièce roule entre eux. Ils la reconnaissent : elle est d'ici. Ils s'écartent. Tu passes dans son ombre, qui est dorée. | |
+* pno_00c ?flag:pn_pdn | Lâcher la Peur-du-Noir sur eux | La Peur-du-Noir se glisse derrière eux. Ils sentent quelque chose dans leur dos. Ils ne se retournent pas. Ils ont peur de se retourner. Tu passes devant eux. Ils ne te voient pas. Ils regardent fixement devant, très droits. | | encre+1 |
+* pno_00c coe10 | Leur chanter tout bas une berceuse de Somnambule | Tu chantes. Ils dorment déjà, mais ils s'endorment un peu plus. Leurs yeux se ferment. Tu passes entre eux, sur la pointe des chaussons. | Tu chantes faux. Un vigile ouvre un œil plus grand. Tu passes quand même, très vite, sous son bras. | coe+1 |
+* pno_00c pan10 | Te glisser sous le rideau | Tu t'aplatis. Tu es un pyjama : tu sais être plat. Tu passes sous le rideau sans un pli. | Tu t'aplatis. Ton bonnet reste coincé. Tu le récupères en tirant. Les vigiles n'ont rien vu. Ils ne voient rien, de toute façon. | |
+
+@pno_00c
+!title: La Salle des choses seules, en rêve
+Avant la grande salle d'or, une galerie de vitrines. Dans son rêve, Platine a rangé ici ce qu'il a de plus précieux : le dernier flocon d'un hiver, une chanson en bocal, un coucher de soleil plié en huit. Au milieu, un socle vide, rond, qui attend la Lune.
+Dans le rêve, les objets parlent. Tout bas. Ils disent tous la même chose : « On nous a achetés pour ne pas être seuls. On est seuls. »
+* pno_suite ?encre<7 coe10 | Ouvrir la chanson en bocal | La chanson sort, très douce, dans une langue que personne ne parle plus. Elle remplit la galerie, puis la grande salle, puis tout le rêve. Platine, dans son lit d'or, se retourne. Il ne s'est jamais entendu rêver avec de la musique. | Tu ouvres le bocal. La chanson ne sort pas. Elle a peur, elle aussi. | coe+1 +flag:pn_doux |
+* pno_suite | Toucher le socle vide | Il est froid. Il attend depuis vingt ans. Tu sens, en le touchant, à quel point il le veut, la Lune. Et à quel point il ne sait pas pourquoi. | |
+* pno_suite | Casser une vitrine, pour que la peur commence ici | Le verre éclate sans bruit. Le flocon tombe, fond. Dans son lit, Platine sursaute. Le cauchemar a commencé, déjà, un peu. | | encre+1 |
+
+@pno_fin0
+!title: Le dormeur
+Avant de lâcher quoi que ce soit, tu t'approches du lit d'or. Platine dort sur le dos, les mains croisées, comme quelqu'un qui a peur de déranger. Il a des feuilles d'or jusque sur les paupières. Il ressemble à une statue qui ferait un mauvais rêve.
+* pno_fin coe11 ?!flag:pn_piece_ecoutee | Poser ta main sur son front, et écouter ce qu'il pense en dormant | Tu poses ta main. Tu entends. « Une. Deux. Cent. » Puis : « Quand j'arrive à mille, quelqu'un vient. » Tu comprends ce qu'il compte, depuis quarante ans, et ce qu'il attend. | Tu poses ta main. Tu n'entends que de l'or, qui ne dit rien. | +flag:pn_piece_ecoutee coe+1 |
+* pno_fin | Le regarder dormir | Il dort. Il ne sait pas que tu es là. Personne n'a jamais été là. | |
+* pno_fin | Ne pas le regarder. Te retourner vers ton œuvre | Elle t'attend. Elle est prête, presque. | |
