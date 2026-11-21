@@ -287,6 +287,56 @@
    "nom": "Au pied du crochet",
    "scenes": "cha_48, cha_61, cha_68",
    "correction": true
+  },
+  {
+   "image": "37",
+   "nom": "La Lyre",
+   "scenes": "ply_01, ply_02, ply_02b, ply_03, ply_03b, ply_04, ply_04b, ply_05"
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "ply_05b, ply_06, ply_06b, ply_07, ply_07b"
+  },
+  {
+   "image": "38",
+   "nom": "Le Tortillard des Espèces, train de nuit",
+   "scenes": "gtr_01, gtr_01b, gtr_01c, gtr_02, gtr_02b, gtr_03"
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "gtr_03b"
+  },
+  {
+   "image": "03",
+   "nom": "Sous les paupières",
+   "scenes": "pne_00, pne_00b"
+  },
+  {
+   "image": "39",
+   "nom": "Le Fleuve des Dormeurs",
+   "scenes": "pne_01"
+  },
+  {
+   "image": "40",
+   "nom": "L'eau noire",
+   "scenes": "pnc_00"
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "pno_00, pno_00d"
+  },
+  {
+   "image": "42",
+   "nom": "La Salle des choses seules",
+   "scenes": "pla_01b, plf_01f, pmo_02, pmo_chanson, pno_00c"
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "pla_01c, plf_02, pmo_02b"
   }
  ],
  "defauts": {
@@ -332,12 +382,12 @@
   "pla": "35-doux",
   "pcr": "31",
   "gpa": "24",
-  "gtr": "24",
+  "gtr": "38",
   "gfo": "16",
   "gpr": "21",
-  "ply": "32",
-  "pne": "03",
-  "pnc": "19",
-  "pno": "35-doux"
+  "ply": "37",
+  "pne": "39",
+  "pnc": "40",
+  "pno": "41"
  }
 }
