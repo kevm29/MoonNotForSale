@@ -336,7 +336,7 @@ La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves,
 ?pc:ondine Elle garde une boîte à chaussures pleine de lettres. Les tiennes. Elle les relit. Maintenant, elle t'écrit, toutes les nuits. Ses lettres mettent quarante ans à arriver jusqu'à Aldébaran. Tu les reçois. Tu les gardes.
 ?comp:bartho Bartholomé lève les yeux tous les soirs vers le ciel, à l'endroit où tu es partie. Il râle. Il râle contre toi, contre la Lune, contre l'univers. Il ne s'arrête jamais. C'est sa façon de t'aimer.
 Platine habite ta Tour. Il te dit bonjour tous les matins. Il te dit merci tous les soirs. Personne ne lui avait demandé. Il le fait quand même.
-Tu tournes. Tu brilles. Tu es seule, et tu ne l'es pas.
+Tu tournes. Tu brilles. Tu es seul·e, et tu ne l'es pas.
 
 @end_13
 !end: 13

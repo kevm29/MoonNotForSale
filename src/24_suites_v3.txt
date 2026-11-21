@@ -150,7 +150,7 @@ Tu ouvres l'herbier dans la lumière de la Lune. Sept cent vingt belles-de-nuit,
 Platine se penche. Il ne dit rien pendant longtemps. « Elles bougent », dit-il enfin. « Elles sont mortes, et elles bougent. »
 « Elles ne s'ouvrent que pour elle. Depuis toujours. Même séchées. Si elle part, plus aucune ne s'ouvrira, nulle part. Ni ici, ni chez vous. »
 Il tend un doigt d'or vers une fleur, sans oser la toucher. « On ne m'avait pas dit qu'elle avait des fleurs. On m'a vendu un satellite. Pas un satellite avec des fleurs. »
-* neg_21 coe11 | Lui laisser une fleur | Tu détaches la plus belle, celle de la nuit où tu as eu cinquante ans, et tu la poses dans sa paume. Elle se déplie encore un peu. Il la regarde comme on regarde quelqu'un qui vous a reconnu. « Elle a quelqu'un », murmure-t-il. « Elle a même des fleurs. » | Tu lui tends une fleur. Il n'ose pas la prendre. Tu la poses sur le bureau, devant lui. Il ne la quitte plus des yeux. | -flag:obj_herbier +flag:platine_emu +flag:platine_faille mor+2 | -flag:obj_herbier +flag:platine_emu
+* neg_21 coe11 | Lui laisser une fleur | Tu détaches la plus belle, celle de la nuit où tu as eu cinquante ans, et tu la poses dans sa paume. Elle se déplie encore un peu. Il la regarde comme on regarde quelqu'un qui vous a reconnu. « Elle a quelqu'un », murmure-t-il. « Elle a même des fleurs. » | Tu lui tends une fleur. Il n'ose pas la prendre. Tu la poses sur le bureau, devant lui. Il ne la quitte plus des yeux. | +flag:fleur_donnee +flag:platine_emu +flag:platine_faille mor+2 | +flag:fleur_donnee +flag:platine_emu
 
 @neg_44
 !title: Une visite de famille

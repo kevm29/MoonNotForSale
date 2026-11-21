@@ -37,7 +37,7 @@ Ton discours a fait un effet étrange. Les Lichenautes se sont mis à pousser pl
 
 @for_06
 Une petite lumière entre les branches. Elle clignote faiblement, comme une ampoule fatiguée. Tu t'approches. C'est une luciole. Une seule. Elle est assise sur une branche, devant un minuscule bureau en écorce, avec une minuscule machine à écrire. Elle tape une lettre de réclamation.
-?pc:anatole Tu la reconnais avant qu'elle parle. Tu as tourné autour d'elle, une nuit de brouillard, en 1987. Elle t'a verbalisé.
+?pc:anatole Tu le reconnais avant qu'il ouvre la bouche. Tu as tourné autour de lui, une nuit de brouillard, en 1987. Il t'a verbalisé.
 « Bonsoir. Fernand. Dernière luciole de la Forêt-Réseau. Ancien agent du Bureau des Éclairages Nocturnes. Licencié la semaine dernière. Vous êtes là pour une réclamation ? Il y a une file d'attente. Elle est vide. Je suis toute la file. »
 ?pc:anatole Il te regarde par-dessus ses lunettes. « Duvet. Le papillon de nuit. Onze procès-verbaux pour stationnement prolongé autour d'un lampadaire. » Il soupire. « Ils me manquent. Plus personne ne tourne autour de rien. »
 * for_08 coe11 | Lui demander pourquoi il a été licencié | « L'éclairage public numéro un, la Lune, a été privatisé. Le service n'a plus de raison d'exister. Nous étions trois mille lucioles. Les autres ont émigré vers des lampadaires. Moi, je reste. Par principe. Et par manque de lumière. » | « Restructuration. » Il tape plus fort. | coe+1 |
@@ -138,7 +138,7 @@ Au nord, une lumière blanche brille au sommet d'une colline. On y entend des ch
 
 @for_20
 Tante Mélusine se mouche. « Tu sais, enfant, je tricote la lumière de la Lune depuis mille ans. Chaque nuit, elle m'en donne un peu. Je tricote des écharpes pour les gens qui ont froid. Pour les veuves, les marins, les insomniaques. Elle donne, je tricote, ils ont chaud. » Elle renifle. « C'est la seule chose utile que j'aie jamais faite. Et on va me la prendre. »
-* for_21 coe11 | Lui dire que c'est beaucoup | « BEAUCOUP ? » Elle te regarde. Puis, plus bas : « Tu le penses ? » « Oui. » « Alors tu es aussi folle que moi. Bienvenue. » | | coe+1 |
+* for_21 coe11 | Lui dire que c'est beaucoup | « BEAUCOUP ? » Elle te regarde. Puis, plus bas : « Tu le penses ? » « Oui. » « Alors tu as perdu la tête, comme moi. Bienvenue. » | | coe+1 |
 * for_21 rus10 | Lui demander si on pourrait tricoter autre chose | Elle te regarde. « Autre chose ? » Une étincelle s'allume derrière ses lunettes. | |
 
 @for_21
