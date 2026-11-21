@@ -1,0 +1,241 @@
+# ================================================================
+# CORRECTIONS ET AJOUTS — LORD BARNABÉ (test du 21/11)
+# 1. Suites des choix du prologue (louveteaux, médaille, hurlements, Vespérine)
+# 2. Le hurlement juste, au bout de trente secondes
+# 3. Épilogues de Barnabé
+# 4. La dernière nuit au camp (nui_) : répliques de chaque compagnon et duos
+# ================================================================
+
+# ---------------------------------------------------------------- 1. suites du prologue
+
+@+hub_01
+?pc:barnabe ?flag:louveteaux Au bord de la plaine, trois culottes courtes se cachent derrière une tente : les louveteaux du fossé t'ont suivi. Anselme te fait un petit signe. Tu fais semblant de ne pas les voir, pour leur dignité.
+
+@+foi_06
+?pc:barnabe ?flag:vesperine_renvoyee Au bout de l'allée, une silhouette de dentelle s'éloigne sans se retourner. Tu l'entends quand même, très nettement : « Trois siècles, Frissepoil. Pour un coq. »
+
+@+nua_18
+!fx: pc:barnabe=>+flag:hurle_nuages
+
+@+cha_11
+?flag:obj_croc_argent Dans ta poche de poitrine, le croc d'argent s'est mis à vibrer tout seul, comme un diapason qu'on approche d'un piano. Il a reconnu quelque chose : l'or du crochet, ou la Lune juste dessous. Il mordrait volontiers.
+
+@+neg_16
+* neg_59 ?flag:obj_medaille_club | Poser la médaille du Club sur le bureau | Tu décroches la médaille de ton cou et tu la poses sur le marbre doré. | |
+
+@neg_59
+!title: La médaille du Club
+Une tête de loup en argent noirci, au bout d'un ruban usé, au milieu de tout cet or neuf. Platine la regarde. « Qu'est-ce que c'est ? Elle n'a aucune valeur. »
+« Quarante gentlemen et ladies l'ont portée depuis 1611. Ils se transformaient tous les mois, à vingt-deux heures précises, pour elle. » Tu montres la Lune, par la baie vitrée. « Ce soir, ils attendent vingt-deux heures dans une lande, en smoking, pour rien. Un club de quatre siècles vous demande de la rendre. »
+* neg_21 coe11 | « Le plus vieux d'entre nous est mort de ne plus la voir. » | Platine touche la médaille du bout d'une feuille d'or, et la retire aussitôt, comme si elle était chaude. « Je ne savais pas qu'on pouvait mourir de ça. » Il ne la rend pas tout de suite. | Platine repousse la médaille, très poliment. « Je suis désolé pour votre club. » Mais quand tu la ranges, il la suit des yeux jusqu'à ta poche. | -flag:obj_medaille_club +flag:platine_emu mor+1 |
+
+# ---------------------------------------------------------------- 2. le hurlement juste (trente secondes)
+
+@+fin_01
+* fin_41 pan10 ?pc:barnabe ?flag:hurlement_juste,flag:hurlement_lune ?!flag:essai_hurl | Hurler juste, pour une fois | Tu ne dis rien à Platine. Tu ouvres la baie vitrée. | |
+
+@fin_41
+!title: Hurler juste
+La poussière de Lune entre dans le bureau, doucement, comme une respiration. Platine recule. Tu prends ton souffle.
+?flag:hurlement_juste Et tu hurles. Pas en fausset. Pas en loup non plus : tu n'en es plus un. Tu hurles comme toute la lande a hurlé sur la tombe de Sir Hector, avec le ventre, avec le chagrin, avec la joie. Juste, pour une fois.
+?!flag:hurlement_juste Et tu hurles. Pas en fausset. Pas en loup non plus : tu n'en es plus un. Tu hurles comme sur la colline, la dernière nuit, mais plus fort encore, avec le ventre, avec le chagrin, avec la joie. Juste, pour une fois.
+?flag:louveteaux Très loin, en bas, sur la Terre, trois petites voix te répondent, de travers. Anselme hurle le plus fort.
+?comp:vesperine Vespérine ferme les yeux. Puis elle hurle avec toi : une vampire et un loup sans loup, dans un bureau en or.
+Et la Lune répond. Pas avec des mots, d'abord. Elle frémit toute, de la poussière jusqu'au crochet. Puis une voix minuscule emplit la pièce : « Encore. »
+Platine a lâché le bouton rouge. « Elle... elle vous répond ? » Il n'a jamais entendu une chose qu'il possède répondre à quelqu'un d'autre.
+* fin_11 coe11 ?equ>=30 | « Elle répond à tout le monde. Il suffisait de l'appeler. » | Platine regarde la Lune. Pour la première fois, il ne la regarde pas comme un bien. « Bonjour ? » dit-il, tout bas. | Platine ouvre la bouche et la referme. Il regarde la Lune comme on regarde quelqu'un qu'on vient de rencontrer. | +flag:parle_lune +flag:platine_faille +flag:essai_hurl mor+2 | +flag:parle_lune +flag:essai_hurl |
+* fin_01 coe10 ?equ<30 | Te taire, en voyant la Terre pencher | Ton hurlement se casse. En bas, la Terre penche beaucoup trop. Ce n'est pas le moment de faire trembler la Lune. Tu refermes la baie vitrée. | | +flag:essai_hurl |
+
+# ---------------------------------------------------------------- 3. épilogues de Barnabé
+
+@+end_01
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_02
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_03
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_05
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_06
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_07
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_09
+?pc:barnabe ?flag:louveteaux Les trois louveteaux du fossé viennent au Club les soirs de pleine lune. Ils obtiennent des oreilles, rien de plus, comme tout le monde. Anselme hurle juste quand même.
+?pc:barnabe ?flag:obj_medaille_club La Duchesse Grisemuffle t'a laissé la médaille. « Tant que le procès dure, la mission dure. Donc longtemps. »
+
+@+end_13
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+@+end_14
+?pc:barnabe ?flag:louveteaux Le premier soir de pleine lune, trois louveteaux en culottes courtes ont frappé à la porte du Club. Anselme s'est transformé le premier, en vrai loup, et il a hurlé juste.
+?pc:barnabe ?flag:obj_medaille_club Tu as voulu rendre la médaille à la Duchesse Grisemuffle. Elle te l'a remise au cou. « Garde-la. Une mission, ça ne finit jamais tout à fait. »
+?pc:barnabe ?!flag:amour_barnabe Le mur mitoyen est toujours debout. Une fois par an, à la date de la valse de 1702, tu y poses une branche de mûrier. Le lendemain, elle a disparu.
+
+# ---------------------------------------------------------------- 4. la dernière nuit au camp
+# Règle : les répliques à condition passent avant les générales du même compagnon (le moteur prend la première qui colle).
+
+# --- l'arrivée au camp (nui_01) : ceux qui n'avaient rien à dire
+@+nui_01
+~melusine ?comp:plumard: « LA MARÉE MONTE ! » Tante Mélusine s'accroche au bras du Colonel Plumard, qui se raidit au garde-à-vous et ne retire pas son bras.
+~melusine: « LA PLUS HAUTE MARÉE DEPUIS LE DÉBUT DES TEMPS ! ET JE N'AI MÊME PAS MES BONNES LUNETTES ! » Elle met les trois paires l'une sur l'autre.
+~quartz ?comp:pardon: Le Docteur Quartz calcule la hauteur de la marée à voix haute. Pardon la mesure, en silence. Ils ne trouvent pas le même chiffre. Ils sont ravis tous les deux.
+~quartz: « La marée monte de onze centimètres à la minute. Ou de onze mètres. Je ne suis jamais sûre de l'unité. » Elle note les deux.
+~brume: « La mer monte... vers elle... comme moi, quand j'étais... » Brume-Lucie n'ose pas finir. Elle s'épaissit un peu, au ras de l'eau.
+~vesperine ?comp:plumard: Vespérine regarde le Colonel Plumard s'installer pour la nuit. « Il va chanter à l'aube, n'est-ce pas ? » Plumard : « À cinq heures douze, madame. » « Alors je partirai à cinq heures onze. »
+~vesperine: Vespérine sort de ton ombre dès que le soleil disparaît, s'étire, et regarde la Lune énorme. « Une nuit entière. La dernière, peut-être. Il faut la porter comme une robe de bal. »
+~ondee ?comp:fernand: Dame Ondée se tasse au-dessus du camp. Fernand allume sa lumière sous elle, pour qu'on la voie. « Vous êtes un phare, monsieur Fernand. » « Je suis une luciole licenciée, madame. » Il reste.
+~ondee: Dame Ondée regarde la marée géante. « Toutes ces mers que je connais par leur prénom. Elles montent sans moi. » Elle laisse tomber trois gouttes. Elle s'excuse.
+~fulgence ?comp:ysaline: Fulgence prend la forme d'un mâle mante très séduisant pour saluer Ysaline. Elle le regarde de haut en bas. « Je ne mange plus personne depuis trente ans. Ne me tentez pas. »
+~fulgence: Fulgence prend la forme d'une marée, pour voir. Il se ravise : il n'aime pas avoir les pieds mouillés, même quand il n'a pas de pieds.
+~pardon ?comp:penelope: Pardon et Pénélope regardent la marée sans rien dire, côte à côte, comme deux anciens employés le premier jour de leur retraite.
+~pardon: « Pardon. La marée est à quatre cent douze mètres. Quatre cent onze. Pardon. Elle avance pendant que je mesure. »
+~pli ?comp:taupinel: Monsieur Pli demande à Taupinel de ne pas citer ses paroles de ce soir. Taupinel les note quand même, « off ». Pli se replie de moitié.
+~pli: Monsieur Pli recule de trois pas devant la marée. « L'eau, le feu et les ciseaux. Ce soir, il y a de l'eau partout et des feux partout. Il ne manque que les ciseaux. »
+~plumard ?comp:remontoir: Le Colonel Plumard vérifie l'heure auprès de Grand-Père Remontoir. « À quelle heure, l'aube, demain ? » « Comme d'habitude. » « Et c'est quand, d'habitude ? » Ils réfléchissent longtemps tous les deux.
+~plumard: « Garde montée à vingt-deux heures ! Réveil à l'aube ! Départ juste après ! » Il fait le tour du camp en comptant les feux. Il se trompe. Il recommence.
+~remontoir: Grand-Père Remontoir s'assoit devant la marée. « J'ai vu la première, tu sais. Elle était beaucoup plus petite. Moi aussi. » Son tic-tac est lent, ce soir. Très lent.
+~bartho: Bartholomé regarde monter la marée géante, la casquette à la main. « Vingt ans que j'attends qu'elle revienne. Elle revient le soir où on part. C'est bien elle. »
+~meduses: « LA MARÉE ! LA MARÉE ! » Le bocal du Chœur s'illumine d'un coup. « NOUS NE SAUTERONS PAS DEDANS. NOUS SOMMES DISCIPLINÉES. NOUS Y PENSONS TRÈS FORT. »
+~zouzou: Zouzou fait un grand huit au-dessus de la marée, juste pour voir l'écume la suivre. « Elle me court après ! Une mer entière ! C'est la première fois que quelqu'un me court après sans vouloir me ramener à la maison. »
+~gaspard: Gaspard flotte au-dessus de la marée, plus visible que d'habitude. « La nuit me va bien. Je suis presque quelqu'un. »
+
+# --- le camp (nui_02), après la première conversation de la nuit
+@+nui_02
+~vesperine ?nuit>=1 ?comp:remontoir: Vespérine s'est assise à côté de Grand-Père Remontoir. « Neuf cents ans, et vous mille. Vous êtes le premier homme de ma vie qui soit plus vieux que moi. » « Et le plus lent. » « C'est un avantage. On a le temps de vous regarder. »
+~vesperine ?nuit>=1 ?comp:coquille: Vespérine contemple Madame Coquille. « Trois cents ans pour un seul enfant. Moi, je n'ai jamais eu la patience pour rien. » « Vous avez eu neuf cents ans de patience, ma fille. Vous ne l'avez juste pas mise au bon endroit. »
+~vesperine ?nuit>=1 ?comp:pli: Monsieur Pli s'éloigne poliment de Vespérine. « Pardonnez-moi, Comtesse. Vous avez des ongles très... coupants. » Elle les regarde. « Personne ne m'avait jamais trouvée dangereuse pour mes ongles. »
+~vesperine ?nuit>=1 ?comp:zouzou: Zouzou tourne autour de Vespérine. « T'es vieille comment ? » « Neuf cents ans. » « Moi, quatorze mille. » Vespérine, glaciale : « Alors tenez-vous droite, mademoiselle. À votre âge. »
+~vesperine ?nuit>=1 ?comp:taupinel: Taupinel veut interviewer Vespérine. « Votre plus vieux souvenir ? » Elle réfléchit. « Un journaliste. Je l'ai mordu. » Taupinel referme son carnet, très lentement.
+~vesperine ?nuit>=1 ?comp:echo: Vespérine murmure quelque chose à Écho, que personne d'autre n'entend. Écho répète « ... toujours... toujours... », et la Comtesse détourne la tête.
+~vesperine ?nuit>=1 ?comp:melusine: Tante Mélusine et Vespérine comparent leurs châles. « LE MIEN EST EN LUMIÈRE DE LUNE ! » « Le mien est en nuit. » Elles se trouvent ridicules toutes les deux, et s'admirent en secret.
+~vesperine ?nuit>=1 ?pc:barnabe: Vespérine te regarde par-dessus le feu, sans rien dire. Elle ne détourne pas les yeux quand tu la regardes aussi. En trois siècles, c'est la première fois.
+~vesperine ?nuit>=1: Vespérine compte les étoiles qui restent autour de la Lune. Elle s'arrête à onze. « Les autres se cachent. Elles ont raison. »
+~melusine ?nuit>=1 ?comp:quartz: Tante Mélusine explique au Docteur Quartz que la Lune est faite de lumière tricotée. Quartz explique que la Lune est faite de roche. Elles ont tort toutes les deux, et se tricotent une écharpe en se disputant.
+~melusine ?nuit>=1: Tante Mélusine tricote près du feu, très vite, en pleurant un peu. « JE TRICOTE POUR DEMAIN ! JE NE SAIS PAS QUOI ! ON VERRA BIEN CE QUE ÇA DONNE ! »
+~quartz ?nuit>=1 ?comp:zouzou: Le Docteur Quartz mesure la traînée de Zouzou. « Ta queue fait onze kilomètres. » « Douze. » « Onze virgule neuf. » Zouzou rallonge exprès.
+~quartz ?nuit>=1: Le Docteur Quartz a calculé que demain avait soixante pour cent de chances de réussir. Elle refait le calcul. Ça fait quarante. Elle décide de garder le premier.
+~brume ?nuit>=1 ?comp:gaspard: Brume-Lucie et Gaspard se tiennent compagnie, un brouillard et un fantôme, presque transparents tous les deux. « On nous voit... à peine... » « C'est très reposant », dit Gaspard.
+~brume ?nuit>=1: Brume-Lucie flotte au-dessus des dormeurs, et leurs rêves sortent un peu d'eux pour lui dire bonsoir. « Ils rêvent encore... un peu... grâce à elle... là-haut... »
+~zouzou ?nuit>=1 ?comp:plumard: Zouzou demande au Colonel Plumard de chanter maintenant, pour voir si l'aube vient plus vite. « Négatif ! » Il chante quand même, un tout petit peu, dans son col. L'aube ne vient pas. Zouzou est déçue. Lui aussi.
+~zouzou ?nuit>=1: Zouzou s'est posée. C'est rare. Elle regarde vers l'est, là où passe sa famille cette nuit, très loin. Elle ne dit rien, pour une fois.
+~coquille ?nuit>=1: Madame Coquille mâche une fraise. Ça prend un quart d'heure. « La vitesse, mon petit, c'est pour ceux qui ont peur de rater quelque chose. Moi, j'attends que les choses viennent. »
+~ondee ?nuit>=1 ?comp:bartho: Dame Ondée pleut, toute petite, dans la casquette de Bartholomé. « Pardon. » « Laisse. De l'eau douce. Ça me fera du bien. » Il se la remet sur la tête, mouillée.
+~ondee ?nuit>=1: Dame Ondée s'est faite toute petite au-dessus du feu, pour ne pas l'éteindre. Elle grésille un peu quand même. Elle s'excuse auprès des braises.
+~gaspard ?nuit>=1 ?comp:zouzou: Gaspard demande à Zouzou comment on va jusqu'à la Lune. « Vite. » « J'ai essayé lentement. » « Ben voilà. » Gaspard prend des notes, pour la prochaine fois.
+~gaspard ?nuit>=1: Gaspard essaie de prendre une tasse de thé. Elle passe à travers sa main. Il s'excuse auprès de la tasse.
+~ysaline ?nuit>=1 ?comp:plumard: Ysaline explique au Colonel Plumard que le Régiment des Basses-Cours n'a jamais eu de colonelle. « Les poules se lèvent avant vous, Colonel. » Plumard rougit jusqu'à la crête. Il ne dit pas non.
+~ysaline ?nuit>=1: Ysaline rédige des motions à la lueur du feu, une par une, très vite. Elle en lit une à voix haute. Trois personnes applaudissent en dormant.
+~pardon ?nuit>=1 ?comp:rocambole ?flag:rocambole_pardon_amis: Pardon recoud la manche de Rocambole, au point de géomètre. Rocambole fait semblant de dormir pour ne pas avoir à dire merci.
+~pardon ?nuit>=1: Pardon a mesuré tout le camp. Il connaît la distance exacte entre chaque feu. « Pardon. Ça me rassure. »
+~pli ?nuit>=1 ?comp:fulgence: Fulgence prend la forme de Monsieur Pli pour lui faire une farce. Pli se plie en deux, outré. Fulgence se plie en deux aussi, trop tard, mal. Il se froisse. Pli le défroisse, très poliment.
+~pli ?nuit>=1: Monsieur Pli s'est plié en petite tente au-dessus de lui-même. On voit dépasser un coin. Il négocie avec le sommeil.
+~plumard ?nuit>=1 ?comp:vesperine: Le Colonel Plumard fait sa ronde en passant très loin de Vespérine. Vespérine, sans lever les yeux : « Je vous entends, Colonel. Vous marchez comme une aube. » Plumard accélère.
+~plumard ?nuit>=1: Le Colonel Plumard fait sa ronde au pas, la crête droite, en saluant chaque dormeur. Il salue aussi un Lichenaute, qui ne s'en aperçoit que vers trois heures.
+~remontoir ?nuit>=1 ?flag:remontoir_remonte: Grand-Père Remontoir pose des devinettes à tout le camp, très vite, beaucoup trop vite. Personne ne trouve. Il donne les réponses avant qu'on ait fini de réfléchir. Il rattrape mille ans.
+~meduses ?nuit>=1 ?comp:echo: « NOUS CHANTONS. » « ... chantons... » « ELLE NOUS RÉPÈTE ! NOUS SOMMES DEUX FOIS PLUS NOMBREUSES ! » Le camp entier les supplie de se taire, en chuchotant.
+~meduses ?nuit>=1: Le Chœur des Méduses s'est mis en veilleuse. Mille petites lueurs bleues dans un bocal, qui respirent ensemble. « NOUS DORMONS. NOUS N'Y ARRIVONS PAS. »
+~rocambole ?nuit>=1: Rocambole compte ses lunes-crédits avec ses quatre mains, puis les recompte, puis les range dans quatre poches différentes. « On ne sait jamais. Si demain on gagne, il faudra payer quelqu'un. »
+
+# --- la naissance de Croissant (nui_10, nui_11)
+@+nui_10
+~vesperine: Vespérine se tient en retrait, les mains jointes. « J'ai vu naître beaucoup de gens. D'habitude, je repartais avant qu'ils grandissent. »
+~bartho: Bartholomé retire sa casquette. « Une naissance à marée haute. Perline aurait écrit un poème. Moi, je vais juste rester là. »
+~zouzou: Zouzou s'est posée sans bruit, ce qui ne lui est jamais arrivé. « Elle va s'en sortir ? Dites-moi qu'elle va s'en sortir. »
+~melusine: Tante Mélusine s'agenouille dans le sable, ce qui prend du temps, et des châles. « RESPIREZ, MA CHÉRIE ! COMME LA MARÉE ! DEDANS ! DEHORS ! » Pour une fois, elle chuchote ses majuscules.
+~ondee: Dame Ondée se met au-dessus de Madame Coquille et ne pleut pas. Elle retient tout. Ça se voit à sa couleur.
+~ysaline: Ysaline écarte les curieux de ses deux bras de mante. « Une femelle accouche. On recule. Tous. Les mâles, plus loin encore. »
+~fernand: Fernand se pose au bord de la carapace et allume sa lumière, sans qu'on le lui demande. « Il faut bien que quelqu'un éclaire. C'était mon métier. »
+~pardon: Pardon tend son mètre ruban, puis le range. « Pardon. On ne mesure pas ça. »
+
+@+nui_11
+~vesperine ?flag:coquille_sauvee: Vespérine se penche sur le petit Croissant. Il la regarde avec des yeux énormes, sans peur. « Le premier qui ne crie pas en me voyant. Je l'adopte. Ne dites rien à sa mère. »
+~vesperine ?flag:mort_coquille: Vespérine pose sa cape sur la carapace vide. Elle ne dit rien. Elle a vu partir beaucoup de gens. Elle ne s'y est jamais habituée.
+~zouzou ?flag:coquille_sauvee: Zouzou fait un tout petit tour au-dessus du nouveau-né, très lentement, pour ne pas l'éblouir. « Salut, Croissant. Moi, c'est Zouzou. Ta mère dit que je vais trop vite. Elle a raison. »
+~zouzou ?flag:mort_coquille: Zouzou se pose à côté du petit Croissant et ne bouge plus. « Je reste avec lui. Jusqu'au matin. Je sais ce que c'est, être tout seul dans le ciel. »
+~bartho ?flag:mort_coquille: Bartholomé ramasse un peu de sable mouillé, le serre, le laisse retomber. « La mer donne, la mer reprend. Je déteste ce proverbe. »
+~bartho: Bartholomé s'essuie les yeux avec sa casquette. « C'est l'eau douce. J'en ai trop bu. »
+~melusine: « UN BÉBÉ ! UN BÉBÉ À MARÉE HAUTE ! » Tante Mélusine pleure, rit, sanglote et tricote un minuscule bonnet en lumière de Lune, en même temps.
+
+# --- Grand-Père Remontoir (nui_15, nui_30)
+@+nui_15
+~zouzou ?flag:mort_remontoir: Zouzou s'est posée sur l'épaule de Grand-Père Remontoir, et n'en bouge plus. Pour une fois, elle ne brille presque pas. Elle attend qu'il fasse tic.
+~zouzou ?flag:remontoir_remonte: Zouzou fait la course avec Grand-Père Remontoir autour du feu. Il perd. Il perd de beaucoup moins qu'avant.
+~vesperine ?flag:mort_remontoir: Vespérine ferme les paupières de Grand-Père Remontoir, d'un doigt ganté. « Mille ans. Je ne savais pas qu'on pouvait vieillir aussi bien. »
+~vesperine ?flag:remontoir_remonte: « Cent ans de plus », dit Vespérine. « Vous m'en devez au moins une danse par siècle, Monsieur Remontoir. » Il accepte la première tout de suite, à son rythme.
+~plumard ?flag:mort_remontoir: Le Colonel Plumard se met au garde-à-vous devant Grand-Père Remontoir, et ne chante pas. Pour la première fois en soixante ans, il reste muet à l'heure où il aurait pu chanter.
+~plumard ?flag:remontoir_remonte: Le Colonel Plumard demande l'heure à Grand-Père Remontoir. Elle est exacte. Ils se serrent la main, très émus, comme deux vieux soldats.
+~quartz ?flag:remontoir_repare: Le Docteur Quartz écoute le ressort neuf avec un stéthoscope en cristal. « Il boite. C'est voulu. Enfin, c'est voulu maintenant. »
+~melusine ?flag:mort_remontoir: Tante Mélusine pleure en majuscules, puis en minuscules, puis plus du tout. Elle tricote une petite couverture de lumière et la pose sur lui.
+~bartho ?flag:mort_remontoir: Bartholomé arrête sa propre montre, qui n'a jamais marché. « Comme ça, c'est juste. »
+
+@+nui_30
+~zouzou: Zouzou ne vole pas. Elle reste assise à côté de lui, la queue enroulée autour des genoux, et elle n'éclaire presque rien.
+~vesperine: Vespérine arrive juste avant l'aube et s'agenouille, sa cape dans la poussière. « Vous êtes parti pendant que je dormais. C'est d'une impolitesse. » Sa voix ne tient pas jusqu'au bout.
+~plumard: Le Colonel Plumard se tient au garde-à-vous devant le vieil Horloger. L'aube arrive. Il ne chante pas. C'est la seule aube qu'il ait jamais laissée passer.
+~quartz: Le Docteur Quartz a la main sur le ressort, sans oser la retirer. « Il restait onze tours. J'en suis sûre à quarante pour cent. »
+~melusine: Tante Mélusine n'arrive pas à crier. C'est la première fois de sa vie. Elle reste là, avec sa bouche ouverte et ses trois paires de lunettes embuées.
+~echo: « ... tic... » Écho répète le dernier tic-tac du camp, tout bas, longtemps, pour qu'il ne s'arrête pas tout de suite.
+
+# --- l'affaire derrière la tente (nui_20)
+@+nui_20
+~ysaline: Ysaline se plante devant les éclaireurs de la Compagnie. « Vous achetez des employés, maintenant ? Le Syndicat va adorer. »
+~taupinel: Taupinel prend des notes à toute vitesse. « Vente d'un déserteur, au marché noir, la veille de l'assaut. C'est ma une. »
+~vesperine: Vespérine regarde la ficelle, puis Rocambole. « On n'attache pas un ami avec un nœud aussi laid, Capitaine. Même pour le vendre. »
+~fulgence: Fulgence prend la forme d'un éclaireur de la Compagnie et se glisse à côté des deux autres. Personne ne remarque qu'ils sont trois.
+
+# --- autour du feu (nui_60) et au bord du camp (nui_61)
+@+nui_60
+~vesperine ?pc:barnabe ?flag:amour_barnabe: Vespérine danse avec toi autour du feu, et pour une fois tu ne lui marches pas sur le pied. Elle le remarque. Elle ne dit rien. Elle sourit.
+~vesperine: Vespérine ne chante pas. Elle bat la mesure avec un doigt ganté, en retard d'un siècle, et c'est quand même elle qu'on regarde.
+~plumard ?comp:vesperine: Le Colonel Plumard chante une marche militaire. Vespérine lève les yeux au ciel. Puis, au deuxième couplet, elle bat la mesure malgré elle.
+~plumard: Le Colonel Plumard chante une marche du Régiment des Basses-Cours. Tout le camp reprend le refrain : « Cocorico ! » Ce n'est pas le refrain. Il ne corrige personne.
+~zouzou: Zouzou danse au-dessus du feu en faisant des étincelles. Les enfants du camp essaient de les attraper. Elle en laisse tomber exprès.
+~bartho: Bartholomé chante faux, fort, en serrant sa casquette contre son cœur. Une chanson de pêcheur. Ça parle d'une femme. Tout le monde sait laquelle.
+~quartz: Le Docteur Quartz joue de la flûte de Lichenaute à toute vitesse. C'est la première fois que l'instrument joue plus d'une note par heure. Les Lichenautes sont scandalisés, et ravis.
+~gaspard: Gaspard chante une romance de 1803, de sa voix de fantôme. Elle traverse les tentes. Les dormeurs sourient sans savoir pourquoi.
+~ondee: Dame Ondée pleut en rythme, doucement, sur les tambours. Ça fait un très joli bruit. Elle est presque contente. Presque.
+~coquille: Madame Coquille hoche la tête en rythme. Elle a une mesure de retard. Elle trouve que c'est la bonne.
+~pli: Monsieur Pli se plie en éventail et évente les musiciens, très poliment, en mesure.
+~taupinel: Taupinel tape le rythme sur sa machine à écrire. Il écrit en même temps la critique du concert : « Aucun talent. Beaucoup de cœur. Je reviendrai. »
+~fernand: Fernand clignote en mesure au-dessus des musiciens. Il fait semblant que c'est un accident de machine. C'est un accident de joie.
+~brume: Brume-Lucie chante un demi-couplet, puis s'évapore de timidité. On l'applaudit dans le vide. Elle réapparaît, toute rose.
+~fulgence: Fulgence prend la forme de chaque chanteur à tour de rôle. À la fin, il prend la tienne, et il chante mieux que toi.
+
+@+nui_61
+~vesperine ?pc:barnabe: Vespérine s'assoit dans l'herbe à côté de toi, à un mètre exactement. Puis à cinquante centimètres. Elle regarde la Lune. « Elle s'en va, ou elle nous attend ? » « Je ne sais pas. » « Moi non plus. C'est bien. On ne sait pas ensemble. »
+~vesperine: Vespérine reste debout derrière toi, très droite. « Je l'ai regardée tous les soirs pendant neuf cents ans. Je n'avais jamais remarqué qu'elle avait l'air fatiguée. »
+~pardon: Pardon s'assoit à côté de toi, et pour une fois il ne mesure rien. « Pardon. Elle est trop loin pour mon mètre. C'est la première chose que je ne peux pas mesurer. Ça me plaît. »
+~melusine: Tante Mélusine pose une main énorme sur ton épaule. Elle ne crie pas. Elle chuchote, en minuscules : « Elle t'écoute. Elle a toujours écouté. »
+~bartho: Bartholomé se plante à côté de toi, les mains dans les poches. « Moi aussi, je parle à la mer, le soir. Elle ne répond pas. Ça n'empêche pas. »
+~plumard: Le Colonel Plumard se met au garde-à-vous face à la Lune, et la salue. « Vous m'avez volé mon métier, madame. Mais vous étiez une bonne nuit. »
+
+# --- les rencontres à deux de la nuit
+@+nui_43
+~ysaline: Ysaline se penche vers toi : « Mille ans et soixante. Elle a l'air de savoir ce qu'elle fait. Lui, pas du tout. C'est la bonne répartition. »
+~vesperine: Vespérine regarde la scène, un mouchoir de dentelle à la main. « Une Lunatique et un coq. J'ai vu des mariages plus absurdes. Le mien, par exemple. »
+~fulgence: Fulgence prend la forme d'un prêtre, pour aider. Mélusine hurle : « PAS DE DÉGUISEMENT À MON MARIAGE ! » Il redevient lui-même, et pleure au premier rang.
+
+@+nui_55
+~vesperine ?flag:n_ves: Vespérine t'a suivi jusqu'au pied de la colline. Elle ne monte pas. « Hurle. Je garde l'ombre. »
+~vesperine: Vespérine reste en bas, près du feu. Elle ne te suit pas. Mais elle ne te quitte pas des yeux.

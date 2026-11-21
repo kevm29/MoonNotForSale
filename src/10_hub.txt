@@ -13,7 +13,7 @@ Au-dessus de tout, la Lune pend à son crochet comme une lanterne qu'on décroch
 ?pc:zephyrin Tu baisses les élytres. Ici, tout le monde a perdu quelque chose. Toi, tu as touché une commission dessus.
 ?pc:griselidis Ta sacoche est encore pleine. Les gens te tendent des enveloppes par réflexe, pour la Lune, pour leur mère, pour personne. Tu les prends toutes. Une factrice ne refuse pas le courrier, même suspendue.
 ?pc:pelagie Nous bourdonnons au-dessus de la foule, en formation serrée. Quelqu'un crie « Une sage-femme ! » et nous nous retournons toutes. Ce n'était qu'une façon de parler. Nous restons vexées quatre secondes.
-?pc:barnabe Ta queue frétille malgré toi. Un loup-garou dans une foule paniquée, ça se tient droit, ça s'excuse et ça ne mord personne. Tu tiens droit. Tu t'excuses beaucoup.
+?pc:barnabe Ta main cherche ta queue, par réflexe. Il n'y en a plus. Un loup-garou dans une foule paniquée, ça se tient droit, ça s'excuse et ça ne mord personne. Tu tiens droit. Tu t'excuses beaucoup.
 ?pc:anatole Des lampions partout. Tu gardes les yeux sur la Lune, là-haut, à son crochet. Tu te cognes à un Gravitaire, qui ne s'en aperçoit pas, et à un Horloger, qui te donne l'heure pour se venger.
 ?comp:zouzou Zouzou fait trois fois le tour de la plaine en hurlant « C'EST TROP BIEN ICI » et revient se poser sur ton épaule, essoufflée de lumière.
 * hub_02 pan10 | Te frayer un chemin vers la grande tribune | Tu avances. La foule t'avale, puis te recrache devant la tribune, un peu froissé·e mais au premier rang. | Tu avances à contre-courant d'une procession de Lichenautes. Ça prend une heure. Tu arrives au dernier rang. | equ+2 |
