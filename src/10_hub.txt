@@ -113,5 +113,5 @@ Le Conseil des Espèces a griffonné sur la carte les régions déjà visitées.
 Au milieu de la nuit, la Lune pousse un cri. Pas un cri qu'on entend : un cri qu'on sent. Toutes les mers du monde se soulèvent d'un coup, tous les dormeurs se réveillent, toutes les horloges sautent une heure. Le crochet a tiré plus fort. La Lune a quitté son orbite d'un cheveu.
 Le Carrefour se tait. Puis quelqu'un dit, très simplement : « Il faut que quelqu'un monte. »
 Tout le monde te regarde.
-* nui_01 pan11 | « J'y vais. » | Tu le dis sans trembler. Tu trembles après, mais personne ne le voit, ou tout le monde fait semblant. | Ta voix tremble. Mais tu l'as dit. Le Carrefour applaudit ta voix qui tremble. | pan+1 mor+1 | mor+1
+* nui_01 pan11 ?!pc:pelagie | « J'y vais. » | Tu le dis sans trembler. Tu trembles après, mais personne ne le voit, ou tout le monde fait semblant. | Ta voix tremble. Mais tu l'as dit. Le Carrefour applaudit ta voix qui tremble. | pan+1 mor+1 | mor+1
 * nui_01 coe11 | « On y va. Tous ensemble. » | Un murmure, puis un grondement. Des centaines de volontaires se lèvent. Tu ne seras pas seul·e. | Personne ne se lève. Puis un vieux Lichenaute se lève, lentement. Puis tout le monde. | equ+3 | equ+1

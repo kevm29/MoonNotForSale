@@ -21,7 +21,7 @@ Le bureau de Platine. Une pièce ronde, dorée, avec une baie vitrée sur la Lun
 
 @neg_03
 La porte s'ouvre sur un bureau doré. Gédéon Platine se lève derrière son bureau de marbre. Il a l'air ravi. « Vous avez frappé ! Personne ne frappe jamais. Les gens entrent pour vendre, ou pour acheter. Vous, vous avez frappé. » Il s'incline. « Gédéon Platine. Promoteur. Poète, à mes heures. Que puis-je pour vous ? »
-* neg_04 coe10 ?!pc:brisefer | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
+* neg_04 coe10 ?!pc:brisefer ?!pc:pelagie | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
 * neg_04 coe10 ?pc:brisefer | T'asseoir par terre, face à lui | Il n'y a pas de fauteuil pour onze tonnes. Tu t'assois sur la moquette. Le Promontoire tout entier penche d'un degré. Platine se tient à son bureau et sourit, poli jusqu'au bout. « Mettez-vous à l'aise. » | |
 
 @neg_04

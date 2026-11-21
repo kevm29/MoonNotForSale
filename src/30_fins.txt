@@ -35,7 +35,13 @@ Platine, lui, ouvre un cabinet de conseil en contrats parfaits, sur une petite c
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune n'a jamais dit oui. Il fallait juste que quelqu'un le lise.
@@ -74,7 +80,13 @@ Dans la galaxie, on se moque de Platine : le promoteur qui a revendu un satellit
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune est à la Terre, maintenant. Officiellement. La Terre a décidé de ne jamais s'en servir.
@@ -112,7 +124,13 @@ La Lune s'arrête. Elle se retourne. Elle voit la Terre qui vient vers elle, à 
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Ils ont appris une chose qu'ils ne savaient pas : quand quelqu'un qu'on aime s'en va, on peut le suivre.
@@ -124,6 +142,7 @@ Dr Quartz a mis deux ans. Deux ans dans un atelier gigantesque, au fond des géo
 La nouvelle Lune est en cristal. Elle brille d'une lumière violette, un peu froide. Elle a un cœur qui vibre, que Dr Quartz a accordé à la fréquence de l'ancienne. Elle tourne autour d'Aldébaran, maintenant, couverte de piscines, de golfs et de tours. Elle n'a pas de souvenirs. Elle n'a pas de rêves. Elle est parfaite, et elle ne pleure jamais.
 Platine en est très fier. Il y a construit sa Tour Platine, quatre cents étages. Il y habite seul. Il regarde parfois l'ancienne, au loin, qui tourne autour de la Terre.
 La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
+?pc:pelagie La vraie Lune est restée, et les marées avec elle. À la Maternité, les enfants sont nés à la première marée haute, tous ensemble. Mais certaines nuits, nous levons nos mille paires d'yeux vers la petite lumière violette, et nous nous demandons qui naîtra là-bas, sous une Lune qui n'a pas de marées.
 Mais parfois, la nuit, Dr Quartz lève les yeux vers le ciel d'Aldébaran, où brille une petite lumière violette, et elle se demande si sa Lune de cristal est heureuse. Elle ne le saura jamais. On ne fabrique pas l'affection. On fabrique seulement l'endroit où elle pourrait pousser.
 ?comp:quartz « Probabilité qu'elle soit heureuse : inconnue », dit-elle. « C'est la seule mesure que je n'ai jamais voulu prendre. »
 
@@ -161,7 +180,13 @@ Platine pleure, des feuilles d'or qui tombent comme une pluie d'automne. « Elle
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Depuis, chaque année, le jour anniversaire, la Terre entière dit merci à la Lune. Ça ne sert à rien. Ça la rend très heureuse.
@@ -198,7 +223,13 @@ Aujourd'hui, la Lune appartient à un syndicat de copropriétaires composé d'un
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 La Lune tourne. Elle ne sait pas qu'elle est en copropriété. Personne ne le lui a dit. C'est mieux comme ça.
@@ -236,7 +267,13 @@ Il vit aujourd'hui sur Terre, dans une petite maison au bord de la mer, près de
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Il écrit toujours des poèmes. Ils sont toujours mauvais. Mais maintenant, il les lit à voix haute, le soir, sur la plage. Et la Lune, là-haut, l'écoute.
@@ -255,6 +292,8 @@ La Terre dort trois jours. Les mers dorment, les forêts dorment, les horloges d
 La porte du rêve est restée ouverte. Le soir, la Lune a des visiteurs. Platine vient souvent. Il apporte des gâteaux, et il ne demande jamais le prix de rien.
 ?pc:pistil Toi, tu es enfin chez toi. Pendant trois jours, tout le monde a habité les rêves. Tu as servi le thé à la Terre entière. Maintenant, on passe te voir.
 ?comp:brume Brume-Lucie flotte entre les fenêtres. Pendant le Grand Sommeil, elle n'a eu à finir aucune phrase. Elle a commencé à en finir quelques-unes depuis.
+?pc:pelagie Pendant les trois jours du Grand Sommeil, même les enfants pas encore nés ont rêvé. En se réveillant, ils ont tous décidé de sortir. Nous n'avons jamais eu autant de travail. Nous n'avons jamais été aussi contentes.
+?pc:pelagie ?flag:promesse_bebe Nouvelle a fait le même rêve que tout le monde. Quand nous sommes remontées lui raconter la fin, elle la connaissait déjà. Elle nous l'a racontée, elle, avec des bulles.
 On a appelé ça le Grand Sommeil. C'est la seule fois où toute la Terre a fait le même rêve. Elle en parle encore.
 
 @end_09
@@ -289,7 +328,9 @@ La Lune attend la décision. Elle a l'habitude d'attendre.
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie La Maternité des Marées tourne à mi-régime. Les enfants naissent à moitié, un jour sur deux, par provision. Nous tenons un registre des naissances provisoires, en attendant le jugement.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin. « Ce n'est pas une fin », a-t-elle dit. Elle a raison. Notre abeille dort toujours dans son poing.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour accouchent les enfants qui veulent bien sortir. Sœur Gertrude vote contre le procès, par principe.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 On ne sait pas comment ça finira. Personne ne le sait. C'est le principe d'un procès. C'est le principe de tout, en fait.
@@ -307,6 +348,8 @@ Le soir, quand le ciel est clair, ils lèvent la tête et ils cherchent quelque 
 ?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
 ?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
 ?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+?pc:pelagie À la Maternité, les lits-baignoires sont toujours pleins. Les enfants ne sont jamais sortis. Ils attendent une marée qui ne viendra plus. Nous restons avec eux. Nous chantons la berceuse des ruches, toutes les nuits, à mille voix.
+?pc:pelagie ?flag:promesse_bebe Nouvelle, elle, est née. Elle grandit dans un monde sans marées. Nous lui avons raconté la fin. Elle ne nous a rien reproché. C'est pire.
 C'est déjà ça. Ce n'est pas grand-chose.
 
 @end_11
@@ -324,19 +367,25 @@ La Terre penche, maintenant. Pour toujours. Les Terriens ont appris à vivre de 
 ?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
 ?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
 ?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+?pc:pelagie La Maternité des Marées penche. Les lits-baignoires débordent d'un côté. Les enfants naissent quand même, de travers, au hasard des marées folles. Nous courons d'une chambre à l'autre, à mille, en nous tenant aux murs.
 Ils disent que ce n'est pas si mal. Ils mentent un peu.
 
 @end_12
 !end: 12
 !title: Blanche et ronde
-Tu deviens une Lune.
-Ça prend une nuit. Ton corps blanchit, s'arrondit, s'allège. Tes souvenirs deviennent des cratères. Ta voix devient de la lumière froide. Tu montes, doucement, jusqu'au bout du câble de Platine, et le crochet se détache de l'ancienne Lune pour se planter en toi.
+?!pc:pelagie Tu deviens une Lune.
+?pc:pelagie Nous devenons une Lune.
+?pc:pelagie Ça prend une nuit. Nous nous serrons les unes contre les autres comme pour l'hiver, et nous ne nous desserrons plus. La cire blanchit. Nos souvenirs deviennent des cratères. Nos mille voix deviennent une seule lumière froide. Nous montons, doucement, jusqu'au bout du câble de Platine, et le crochet se détache de l'ancienne Lune pour se planter en nous.
+?!pc:pelagie Ça prend une nuit. Ton corps blanchit, s'arrondit, s'allège. Tes souvenirs deviennent des cratères. Ta voix devient de la lumière froide. Tu montes, doucement, jusqu'au bout du câble de Platine, et le crochet se détache de l'ancienne Lune pour se planter en toi.
 Tu pars vers Aldébaran. Tu deviens Lune-sur-Mer. On construit sur toi des piscines, des golfs, une tour de quatre cents étages. Des gens riches te regardent pour regarder la vue. Tu ne pleures pas. Tu es une Lune, maintenant. Tu sais faire deux choses : tourner et briller. Tu tournes. Tu brilles.
 La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
 ?pc:ondine Elle garde une boîte à chaussures pleine de lettres. Les tiennes. Elle les relit. Maintenant, elle t'écrit, toutes les nuits. Ses lettres mettent quarante ans à arriver jusqu'à Aldébaran. Tu les reçois. Tu les gardes.
 ?comp:bartho Bartholomé lève les yeux tous les soirs vers le ciel, à l'endroit où tu es partie. Il râle. Il râle contre toi, contre la Lune, contre l'univers. Il ne s'arrête jamais. C'est sa façon de t'aimer.
 Platine habite ta Tour. Il te dit bonjour tous les matins. Il te dit merci tous les soirs. Personne ne lui avait demandé. Il le fait quand même.
-Tu tournes. Tu brilles. Tu es seule, et tu ne l'es pas.
+?pc:pelagie Nous sommes devenues une Lune toutes ensemble, mille abeilles serrées en une boule de cire blanche. Il paraît que, la nuit, notre lumière sent un peu le miel.
+?pc:pelagie ?flag:promesse_bebe Sur la Terre, à marée haute, une petite Marégrave regarde le ciel d'Aldébaran. Elle tient toujours une abeille dans son poing. Elle sait laquelle est nous.
+?!pc:pelagie Tu tournes. Tu brilles. Tu es seule, et tu ne l'es pas.
+?pc:pelagie Nous tournons. Nous brillons. Nous sommes mille, et nous sommes seules.
 
 @end_13
 !end: 13
@@ -370,7 +419,14 @@ Platine a porté plainte pour vol. Rocambole a porté plainte pour « contrat de
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:rocambole_honnete Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:rocambole_honnete ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?flag:rocambole_honnete ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:rocambole_honnete ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:rocambole_honnete ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:rocambole_honnete ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:rocambole_honnete ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
+?pc:pelagie ?!flag:rocambole_honnete Les marées sont parties avec la Lune, quelque part dans la galaxie. À la Maternité, les enfants ne sont pas sortis. Nous restons avec eux. Nous chantons la berceuse des ruches, toutes les nuits, à mille voix.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Rocambole vit aujourd'hui sur Terre. Il pilote un bateau de pêche avec quatre bras. Il salue toutes les vaches. Il regarde la Lune tous les soirs, et il ne la vole pas. Ça lui demande un effort considérable.
@@ -407,7 +463,13 @@ Elle ne répète plus. Elle parle. Pas beaucoup : trois ou quatre mots à elle, 
 ?flag:marees_prevenues ?!flag:n_cor La nuit de la grande marée, personne ne s'est noyé. La mer, prévenue, est remontée tout doucement, presque en s'excusant.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
-?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
+?pc:pelagie Nous avons rouvert les portes de la Maternité des Marées. À la première marée haute, tous les enfants qui attendaient sont nés en même temps, dans toutes les chambres. Nous avons couru d'une porte à l'autre toute la nuit, à mille. La première année, nous avons encore accouché quatre baleines, trois tortues et une chanson.
+?pc:pelagie ?flag:promesse_bebe Nous sommes remontées à la chambre sept. Nouvelle avait trois semaines. Nous lui avons raconté la fin, toute la fin. Elle a dit : « Je le savais. » Notre abeille dort toujours dans son poing.
+?pc:pelagie ?!flag:promesse_bebe ?flag:fausse_lune Nouvelle nous attendait, les yeux au plafond. Cette fois, la Lune à la fenêtre était la vraie. Elle l'a regardée longtemps, puis elle a dit : « Celle-là ne sent pas le miel. » Elle avait l'air de nous pardonner pour de bon.
+?pc:pelagie ?flag:pel_tictac Dans la chambre trois, le bébé des Horlogers a enfin fait tac. Ses parents l'ont appelé Retour.
+?pc:pelagie ?flag:promesse_meres Nous avons transmis tous les messages des mères du couloir. Nous ne saurons jamais si la Lune les a entendus. Mais elle est restée, et la mère Gravitaire dit que ça veut dire oui.
+?pc:pelagie ?flag:essaim_divise Les cent cinquante sœurs restées au Carrefour ont mis au monde quarante-deux enfants pendant que nous étions là-haut. Sœur Gertrude les a tous comptés deux fois.
+?pc:pelagie ?flag:baleineau Chaque printemps, un jeune cachalot vient souffler un jet devant la Maternité. Il est devenu énorme. Il pleure toujours comme un enfant quand il repart.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
 Elle le dit souvent. Elle a l'air de beaucoup l'aimer.
@@ -424,4 +486,6 @@ La Lune, sous tes pieds, ne dit plus rien. Elle s'est tue le jour de l'inaugurat
 ?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
 ?flag:amour_fernand_ondee,flag:amour_quartz_pardon,flag:amour_barnabe,flag:amour_melusine_plumard Il reste de cette histoire au moins un amour improbable. Ça ne sauve pas le monde. Ça le rend un peu moins froid.
 ?flag:lettres_livrees Les lettres de la Terre sont restées sur la Lune. Elle les a emportées. Elle les relit, peut-être, là où elle est.
+?pc:pelagie Sur la Terre, sans Lune, les enfants ont fini par naître quand même, sans marée, sans envie, parce qu'il fallait bien. Les sœurs restées là-bas nous écrivent. Elles disent que les bébés ne crient plus. Nous lisons leurs lettres en faisant le ménage des cratères.
 C'est ton seul acte de résistance. Tu le fais tous les soirs. Personne ne le sait.
+

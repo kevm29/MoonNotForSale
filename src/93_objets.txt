@@ -63,6 +63,7 @@ Un vieux crabe, sur un rocher, hausse les pinces. « C'est un coquillage à l'en
 @cot_41
 !title: La lanterne-méduse
 Elle est grosse comme un dé à coudre, et elle a trop chanté. Tu la prends dans tes mains en coupe, avec un peu d'eau de mer. À sa lumière, tu vois des choses que tu ne voyais pas : un visage triste dans le rocher, le sourire du vieux crabe, une ride sur la vague immobile.
+?pc:pelagie Nous savons où la mettre. Dans notre sacoche, il y a un petit bocal vide, « pour les cas où l'enfant veut emporter quelque chose ». Il attendait depuis toujours. Il attendait elle.
 « ELLE NE PEUT PLUS TENIR LA VAGUE », chante le Chœur. « GARDE-LA. ELLE ÉCLAIRE LES VISAGES QUI SE CACHENT. C'EST TOUT CE QU'ELLE SAIT FAIRE, MAINTENANT. ET C'EST BEAUCOUP. »
 * cot_10 | La mettre dans un bocal d'eau de mer, et promettre au Chœur de revenir avant trois jours | Elle tourne trois fois dans son bocal, puis elle s'installe et brille, contente. Le Chœur chante un accord grave, qui veut dire « nous t'attendrons ». | | +flag:obj_lanterne coe+1 |
 
@@ -257,6 +258,17 @@ Sur le velours noir, rangées par taille, des éclipses. Des grandes, pour les c
 @foi_15
 !title: Les objets trouvés
 !fx: +flag:stand_obj foire+1
+# répliques et duos (thread Pélagie, région Foire)
+~coquille: Madame Coquille regarde l'escargot. Il la regarde. Ils se comprennent. C'est la seule rencontre de la Foire où personne n'est pressé.
+~bartho: « Vous n'auriez pas une femme perdue, dans le tas ? Perline. Partie avec la grande marée. » L'escargot cherche longtemps. « Non. Mais j'ai son chapeau. » Bartholomé ne le prend pas. Il le regarde.
+~penelope: Pénélope classe les objets de l'escargot en trois piles, par réflexe. L'escargot la regarde faire. « Vous cherchez du travail ? »
+~zouzou: Zouzou fouille le tas. Elle trouve une queue de comète. « C'est à ma cousine ! » Elle la remet en place. « Elle viendra la chercher dans soixante-seize ans. »
+~brume: « Je cherche... une fin de phrase... que j'ai perdue... » L'escargot fouille. Il en a des centaines. Aucune n'est à elle.
+~echo: Écho répète « ... perdu ». L'escargot lève la tête. « Celle-là, je l'ai aussi. Une voix d'enfant, il y a très longtemps, dans une grotte. » Écho se tait.
+~rocambole: Rocambole regarde les objets trouvés avec une émotion professionnelle. « Tout ça, c'est des choses que personne n'a volées. Quel gâchis. »
+~vesperine: Vespérine trouve un éventail noir dans le tas. « Le mien. Perdu en 1702, à un bal sur la lande. » Elle ne le reprend pas. « Laissez-le ici. Il était bien, avec vous. »
+~gaspard: Gaspard traverse le comptoir. « Je cherche un ballon d'osier, perdu à mi-chemin de la Lune. » L'escargot : « Les choses perdues en l'air ne descendent jamais jusqu'ici, monsieur. »
+~coquille ?pc:pelagie: Madame Coquille pousse vers nous un petit lange, plié, perdu il y a cent ans à la Maternité. Nous le reconnaissons à son point de couture. Nous le rangeons dans la sacoche.
 Derrière le comptoir, un vieil escargot en blouse classe des choses que personne n'est venu réclamer : des parapluies, des dents de lait, un gant gauche, la moitié d'un serment, un dimanche entier.
 « Tout ce qui se perd finit ici », dit l'escargot. « Sauf ce qui se perd ici. Ça, je ne sais pas où ça va. » Il pose sur le comptoir une boussole en laiton. Son aiguille tourne, hésite, et pointe vers le ciel. « Elle n'indique pas le nord. Elle indique ce qui est sur le point de se perdre. Depuis trois jours, elle montre la Lune. »
 * foi_02 | La prendre | « Ramenez-la quand elle indiquera autre chose », dit l'escargot. « Ou ne la ramenez pas. Elle se retrouvera ici de toute façon. » | | +flag:obj_boussole |
