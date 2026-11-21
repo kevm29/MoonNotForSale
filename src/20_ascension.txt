@@ -18,7 +18,7 @@ Il faut monter. La Lune est à trois cent quatre-vingt-quatre mille kilomètres,
 * asc_06 pan12 ?flag:gravitaires_allies,flag:gravitaires_suivent,pc:brisefer | Te faire lancer par les Gravitaires | Les Gravitaires forment une catapulte de leurs bras croisés. Tu montes dans le creux. « À trois. » Ils lancent à deux. | Tu montes dans la catapulte. Ils comptent jusqu'à quatre, par excès de prudence. |  |
 * asc_10 coe11 ?flag:vis_cot,pc:ondine | Monter par la Trombe des Partis | La colonne d'eau t'accueille. Tu es aspiré·e vers le haut dans un tourbillon de voix salées. | La Trombe t'aspire de travers. Tu montes la tête en bas. | |
 * asc_14 rus12 ?!pc:brisefer | Te glisser dans l'ascenseur de service du chantier | Le chantier a planté un câble-ascenseur jusqu'au sol pour livrer les matériaux. Tu te faufiles entre deux caisses de marbre. | Tu te faufiles dans la mauvaise caisse. Elle contient des bidets. Tu montes quand même. | rus+1 comp:zouzou=>+flag:zouzou_devant comp:zouzou=>-comp:zouzou | comp:zouzou=>+flag:zouzou_devant comp:zouzou=>-comp:zouzou
-* asc_18 coe12 ?flag:sommeil_lune,flag:reve_ouvert,flag:reve_lune,pc:pistil | Monter par le rêve | Tu t'endors en pensant très fort à elle. Le rêve est une route comme une autre, en plus doux. | Tu t'endors et tu rêves d'abord d'un examen de mathématiques. Puis de la Lune. | |
+* asc_18 coe12 ?flag:sommeil_lune,flag:reve_ouvert,flag:reve_lune,pc:pistil | Monter par le rêve | Tu fermes les yeux en pensant très fort à elle. Le rêve est une route comme une autre, en plus doux. | Le rêve passe d'abord par un examen de mathématiques. Puis par la Lune. | |
 
 @asc_02
 Le Pied-de-Nez grimpe dans le ciel en grinçant de partout. La figure de proue tire la langue aux nuages. Dans la cabine, ça sent le café de comète, le vieux cuir et la peur bien rangée.
@@ -117,9 +117,10 @@ La cabine arrive sur le quai de livraison du chantier lunaire. Des ouvriers déc
 * asc_22 pan11 | Sortir en courant | Tu cours. Bobinot crie : « Hé ! Toi ! » Tu cours plus vite. Tu es sur la Lune. | | equ+1 comp:remontoir=>+flag:remontoir_cabine comp:remontoir=>-comp:remontoir |
 
 @asc_18
-Tu t'endors. Tu rêves. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.
+?pc:pistil Tu fermes les yeux. Tu n'as pas besoin de dormir : tu rentres dans le rêve comme on rentre chez soi, et tu montes. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.
+?!pc:pistil Tu t'endors. Tu rêves. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.
 ?flag:reve_ouvert La porte que quelqu'un a laissée ouverte dans le rêve de la Lune est là. Elle t'attend. Elle grince doucement.
-?pc:pistil ?comps>=1 Avant de t'endormir, tu tends les pans de ton pyjama. Tous ceux qui s'y accrochent rêvent le même rêve que toi : c'est le vieux truc des Somnambules. Tes compagnons s'allongent autour de toi et ferment les yeux, chacun un bout de flanelle serré dans le poing. Tu montes, et toute ta troupe monte avec toi, comme une traîne.
+?pc:pistil ?comps>=1 Avant de partir, tu tends les pans de ton pyjama. Tous ceux qui s'y accrochent rêvent le même rêve que toi : c'est le vieux truc des Somnambules. Tes compagnons s'allongent autour de toi et ferment les yeux, chacun un bout de flanelle serré dans le poing. Tu montes, et toute ta troupe monte avec toi, comme une traîne.
 ?!pc:pistil ?comps>=1 ?flag:sommeil_lune Tu partages ce qu'il te reste de sommeil de Lune, un grain chacun, et vous vous endormez main dans la main. Le rêve vous prend tous ensemble.
 ?!pc:pistil ?comps>=1 ?!flag:sommeil_lune Tes compagnons s'endorment en te tenant la main, en chaîne. Quand on rêve de la même personne au même moment, on finit par rêver ensemble.
 ?comp:brume Brume-Lucie t'enveloppe. « Je connais le chemin. C'est le chemin vers ma cousine. »

@@ -61,9 +61,9 @@ Il te tend la perche. « Tu entres où tu veux. Tu sors quand c'est réglé. »
 @pne_ba1
 !title: La mer de Bartholomé
 !fx: +flag:vis_pne_ba beaux+1
-Tu es dans une barque, sur une mer verte. Un Marégrave rame, jeune encore, fait d'eau claire. Au loin, sur l'horizon, une silhouette lui fait signe : une Marégrave aux cheveux d'écume. Perline. Il rame vers elle. Elle ne se rapproche jamais.
+Tu es dans une barque, sur une mer verte. Un Marégrave rame, jeune encore, fait d'eau claire. Au loin, sur l'horizon, une silhouette lui fait signe : une Marégrave aux cheveux d'écume. Il rame vers elle. Elle ne se rapproche jamais.
 Et la mer se vide. Le crochet tire, là-haut, et la marée du rêve s'en va, par le fond, comme une baignoire. La barque racle déjà le sable.
-« Pas encore », dit le Marégrave. « Je ne l'ai pas encore rejointe. Pas encore. »
+« Pas encore, Perline », dit le Marégrave. « Je ne t'ai pas encore rejointe. Pas encore. »
 * pne_ba1b pan10 | Ramer avec lui, de toutes tes petites forces | Tu rames. La barque avance d'un mètre, puis de deux. Perline ne se rapproche pas, mais elle ne s'éloigne plus. Le Marégrave te regarde. « T'es qui, toi ? Peu importe. Rame. » | Tu rames. La rame est plus grande que toi. Tu tombes dans ce qui reste de la mer. Il te repêche d'une main, sans s'arrêter. | pan+1 |
 * pne_ba1b | T'asseoir à l'avant, et regarder Perline | Tu la regardes. Elle a l'air de vouloir dire quelque chose. Elle n'a pas de voix, dans ce rêve. Il ne s'est jamais souvenu de sa voix. | |
 
@@ -300,7 +300,10 @@ Le ciel vide pèse. Il descend un peu. L'herbe du champ se couche, comme sous un
 ~melusine ?cauch==1,cauch==3,cauch==5: Tante Mélusine pince les lèvres. « JE NE DIS RIEN. JE PENSE TRÈS FORT. »
 ~brisefer ?cauch==1,cauch==3,cauch==5: Brisefer croise les bras. « Les gens qui décident pour les autres, je les aime pas. Ceux-là décident pour tout le monde. »
 ~zouzou ?cauch==1,cauch==3,cauch==5: Zouzou siffle. « Il a des clients louches, le pyjama. »
-~brume: Brume-Lucie disparaît à moitié. Elle a peur.
+~brume ?cauch==1,cauch==3,cauch==5: Brume-Lucie disparaît à moitié. Elle a peur. « Ceux-là... ils ne sont pas... de notre côté... »
+~brume ?cauch==2: Brume-Lucie reconnaît le Passeur. Elle s'incline, ce qui chez du brouillard fait une petite vague. « Il m'a portée... une fois... quand j'étais... une rosée... »
+~brume ?cauch==4: Brume-Lucie se penche sur le petit beau rêve. « Oh... il a froid... comme moi... au début... »
+~brume: Brume-Lucie se pose sur ton épaule, le temps de reprendre son souffle de brume. « Encore un... de traversé... »
 * end_37 ?encre>=10 | Ne plus savoir qui tu étais | Tu cherches ton nom. Tu ne le trouves pas. | |
 * pnc_hub ?encre<10 ?cauch==1 | Prendre les Insomnies avec toi | Elles se rangent derrière toi en file, les yeux ouverts. Tu te sens suivi. C'est la première fois qu'on te suit. Ce n'est pas comme tu imaginais. | | +flag:pn_ins encre+1 |
 * pnc_hub ?encre<10 ?cauch==1 ?encre<7 coe10 | Les renvoyer, une par une, dans des rêves qui ne sont pas cassés | Tu en prends une. Tu la poses dans une bulle intacte. Elle ferme les yeux. Elle dort. Puis une autre. Ça prend longtemps. À la fin, il n'en reste aucune, et toi, tu es fatigué d'une bonne fatigue. | Tu en prends une. Elle te mord. Elles s'enfuient toutes, dans le noir, les yeux ouverts. | coe+1 |
@@ -321,7 +324,7 @@ C'est une pièce d'or. Une seule, grande comme une roue, qui roule sur l'eau noi
 C'est un cauchemar. Pas n'importe lequel. Tu le reconnais à son goût de métal froid : c'est celui de Platine. Il s'est échappé de son rêve quand les bulles ont éclaté. Il cherche son propriétaire. Il ne sait plus où il habite.
 ?flag:pn_piece_ecoutee Tu l'as écoutée. Tu sais ce qu'elle compte : les jours, au fond d'un coffre, quand il était petit.
 « Tu vas chez lui ? » dit la pièce, sans s'arrêter de rouler. « Emmène-moi. Je te montrerai le chemin. Je connais tous ses coins. Je suis ce qu'il a de plus profond. »
-* pnc_pie2 | En faire ton alliée, et la suivre | Tu poses ta main noire sur elle. Elle s'arrête de compter. Elle roule devant toi, droit vers le fond, en brillant. Tu as un cauchemar en laisse. | | +flag:pn_piece encre+1 |
+* pnc_pie2 | En faire ton alliée, et la suivre | Tu poses la main sur elle. Elle s'arrête de compter. Elle roule devant toi, droit vers le fond, en brillant. Tu as un cauchemar en laisse. | | +flag:pn_piece encre+1 |
 * pnc_pie ?encre<7 ?!flag:pn_piece_ecoutee coe10 | L'écouter compter, jusqu'au bout | Tu écoutes. « Une. Deux. Cent. » Puis, plus bas, entre les chiffres : « Quand j'arrive à mille, quelqu'un vient. Quand j'arrive à mille, quelqu'un vient. » Personne n'est jamais venu. Elle compte depuis quarante ans. Ce n'est pas une pièce. C'est un enfant qui attend. | Tu écoutes. Elle compte trop vite. Tu n'entends que les chiffres. | +flag:pn_piece_ecoutee coe+1 |
 * pnc_pie2 | La suivre sans la toucher | Elle roule devant toi. Elle ne t'appartient pas. Elle ne fait que passer par là, comme toi. | |
 
@@ -331,7 +334,8 @@ C'est un cauchemar. Pas n'importe lequel. Tu le reconnais à son goût de métal
 !title: Le rêve de Platine
 Tout au fond, là où l'eau est froide, il y a une bulle dorée, énorme, lisse, sans une fêlure. Le rêve de Gédéon Platine. Elle ne laisse rien entrer.
 ?flag:pn_piece La pièce d'or roule jusqu'à elle, et la bulle s'ouvre, comme une porte qui reconnaît sa clé. Tu entres derrière elle.
-?!flag:pn_piece Tu poses ta main noire sur la bulle. Elle résiste. Puis l'encre trouve une fente, minuscule, et tu te glisses dedans, en te pliant comme une lettre.
+?!flag:pn_piece ?encre>=4 Tu poses ta main noire sur la bulle. Elle résiste. Puis l'encre trouve une fente, minuscule, et tu te glisses dedans, en te pliant comme une lettre.
+?!flag:pn_piece ?encre<4 Tu poses ta main de flanelle sur la bulle. Elle résiste. Alors tu cherches, tout autour, la seule fente qu'aucun rêve ne peut fermer : celle par où sortent les soupirs. Tu te plies comme une lettre, et tu passes.
 Dedans, une salle immense, toute en or, vide. Des piscines sans personne. Des fenêtres sur rien. Et au milieu, un coffre fermé.
 Platine dort dans un lit d'or, au bord d'une piscine. Il a l'air très seul. Il a l'air de ne pas savoir qu'il l'est.
 Tu sais ce qu'il faut faire. Le Passeur l'a dit. Il faut qu'il ait peur de la Lune. Qu'il ait si peur qu'il la lâche. Il faut lui construire un cauchemar sur mesure, ici, dans son or.
@@ -340,8 +344,8 @@ Tu sais ce qu'il faut faire. Le Passeur l'a dit. Il faut qu'il ait peur de la Lu
 ~brisefer: Brisefer touche le coffre. Elle retire la main. « C'est lourd, là-dedans. Plus lourd que l'Axe. »
 ~zouzou: Zouzou fait un tour de la salle, et revient. « C'est grand et c'est vide. Comme chez ma tante. »
 ~brume: Brume-Lucie, tout bas : « Il rêve... de rien... »
-* pno_00b | Commencer par les fenêtres | Elles donnent sur rien. Tu vas leur donner quelque chose à montrer. | |
-* pno_00b | Commencer par les piscines | L'eau est immobile. Tu vas lui donner quelque chose à pleurer. | |
+* pno_00b | Entrer sans bruit, à pas de pyjama | Tu entres. L'or ne craque pas sous les chaussons. Rien ne craque, ici. | |
+* pno_00b | Faire d'abord le tour de la bulle, par le bord des piscines | Tu longes l'eau immobile. Elle ne reflète rien, même pas toi. Puis tu arrives à l'entrée. | |
 
 @pno_01
 !title: Les fenêtres
@@ -402,8 +406,9 @@ Le cauchemar est prêt. Les fenêtres regardent. Les piscines pleurent. Le coffr
 ~zouzou: Zouzou s'est posée sur ton bonnet, là où il y avait des étoiles. « T'étais plus drôle avant. »
 ~brume: Brume-Lucie se condense devant toi, pour la première fois, presque solide. « Pistil... je vais... aller au bout... de ma phrase... Tu n'es pas... ça. »
 * end_37 ?encre>=10 | Ne plus rien entendre | Les voix s'éloignent. L'encre est plus forte. | |
-* end_35 ?encre<10 | Lâcher l'œuvre sur Platine | Tu ouvres les mains. | |
+* end_35 ?encre<10 ?encre>=4 | Lâcher l'œuvre sur Platine | Tu ouvres les mains. | |
 * end_36 ?encre<10 ?encre<7 ?comps>=1 | Écouter ceux qui sont venus avec toi | Tu les écoutes. | |
+* end_36 ?encre<4 ?comps==0 | Écouter la seule voix qui reste : la tienne, toute petite | Tu l'écoutes. | |
 * pno_r1 ?encre<10 ?encre>=7 ?comps>=1 ?!flag:pn_sourd coe12 | Essayer d'écouter ceux qui sont venus avec toi, à travers l'encre | Leurs voix passent l'encre, une par une, comme de la lumière par un trou d'aiguille. | Leurs voix cognent contre l'encre. Tu les vois parler. Tu ne les entends pas. | | +flag:pn_sourd
 * end_38 ?encre<10 ?flag:pn_piece_ecoutee | Entrer dans le coffre, prendre l'enfant par la main, et garder son cauchemar pour toi | Tu descends dans le coffre. | |
 
@@ -422,7 +427,8 @@ Tu lâches l'œuvre. Elle tombe dans le sommeil de Platine comme une pierre dans
 Il rêve. Les fenêtres le regardent. Les piscines pleurent. Le coffre se referme, et c'est la Lune qui le ferme. Il se réveille en hurlant, au milieu de la nuit, dans son bureau du Promontoire. Il regarde par la baie vitrée. La Lune est là, énorme, grise, tout près. Elle le regarde. Il le sait, maintenant : elle le regarde.
 Il appuie sur le bouton rouge. Pas pour la sauver. Pour qu'elle s'en aille de sa fenêtre. Les moteurs s'arrêtent. Il fait décrocher le crochet avant l'aube, en tremblant, et il repart vers Aldébaran sans prendre son café. Il ne regardera plus jamais une lune en face.
 La Lune reste. Les marées reviennent. La Terre se redresse.
-Toi, tu ne remontes pas. Tu restes au fond du Fleuve des Dormeurs, sur l'eau noire, avec tes cauchemars dans les poches, tes Insomnies en file, tes alliés derrière toi. Tu es fort. Tu règnes. Les cauchemars de la Terre t'obéissent, tous.
+Toi, tu ne remontes pas. Tu restes au fond du Fleuve des Dormeurs, sur l'eau noire, avec ce que tu as pris aux cauchemars, qui te pèse dans les poches. Tu es fort. Tu règnes. Les cauchemars de la Terre t'obéissent, tous.
+?flag:pn_ins Tes Insomnies te suivent en file, les yeux grands ouverts. Elles ne dormiront jamais. Toi non plus.
 Et parce qu'ils t'obéissent, ils viennent quand tu les appelles. Et tu les appelles souvent. Tu ne sais plus faire autre chose.
 Sur la Terre, on garde la Lune. Mais plus personne, plus jamais, ne fait de beaux rêves. On dort mal. On se réveille fatigué. Les enfants laissent la lumière allumée.
 ?flag:promesse_lune Tu avais promis de dire aux autres qu'elle ne voulait pas partir. Elle est restée. Tu ne leur as rien dit. Tu ne parles plus aux beaux rêves.
@@ -432,7 +438,8 @@ La Lune, la nuit, se penche sur les dormeurs. Elle les trouve agités. Elle ne s
 @end_36
 !end: 36
 !title: La veilleuse
-Tu les écoutes.
+?comps>=1 Tu les écoutes.
+?comps==0 Personne n'est venu avec toi. Alors tu écoutes la seule voix qui reste : la tienne, toute petite, celle qui chantait des berceuses au vieux Gravitaire dont c'était le rêve. Elle chante encore. Faux, un peu. Mais elle chante.
 ?comp:brume Brume-Lucie, d'abord. Elle va au bout de sa phrase, pour la première fois de sa vie. « Tu es Pistil. Tu habites une tasse. Tu as trois étoiles d'occasion. Tu as promis quelque chose à ma cousine, la Lune. Tu n'as pas promis de devenir ça. »
 ?comp:bartho Bartholomé, la main sur ton épaule : « On fait peur à personne pour lui apprendre à aimer, petit. Perline m'a pas appris comme ça. »
 ?comp:melusine Tante Mélusine, tout bas, ce qui est terrible : « Les trous, ça se reprend. Une maille. Une seule. »
