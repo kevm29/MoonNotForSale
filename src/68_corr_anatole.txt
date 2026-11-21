@@ -1,0 +1,210 @@
+# ================================================================
+# CORRECTIONS ANATOLE (rapport de test du 21/11)
+# 1. Suites du prologue dans le reste du jeu (Fente, colonelle, vol droit)
+# 2. Capacités d'un papillon de la taille d'un parapluie plié
+# 3. Animal de nuit, lampes : rappels dans les régions
+# 4. Forêt-Réseau : répliques de compagnons, duos et frictions (région confiée)
+# ================================================================
+
+# ---------- 1. La Fente, la Faille et la colonelle ----------
+
+@+pro_10
+?pc:anatole ?flag:bouton_offert « Et merci pour le bouton, l'autre soir. Un bouton fermé, vert, le premier qui n'était pas fané. Je ne l'ai pas séché. Je le garde pour la petite, quand elle redescendra. »
+
+@+pro_15
+!fx: pc:anatole=>+flag:faille_colonelle
+
+@+nui_02
+* nui_75 ?nuit<3 ?pc:anatole ?flag:faille_colonelle ?!flag:n_col | Aller vers la Gravitaire en granit assise seule, loin des feux, une boîte en fer sur les genoux | Elle est assise sur un rocher qui est peut-être un morceau d'elle-même. Elle ne lève pas les yeux quand tu approches. |  |
+
+@nui_75
+!title: La colonelle
+!fx: +flag:n_col +flag:colonelle_vue nuit+1
+Une Gravitaire. Onze tonnes de granit gris, un vieux casque cabossé posé à côté d'elle, et sur ses genoux une boîte en fer-blanc, de celles où l'on range les biscuits. Elle ne sourit pas. Grand-Mère Faille avait raison : elle ne sourit pas.
+« Colonelle Agathe Brisefer », dit-elle sans tourner la tête. « Trois mille ans sur l'Axe. Remontée à la surface cette semaine, comme tout le monde. Si c'est pour un autographe, non. Si c'est pour la Lune, moi aussi. »
+Tu lui dis que tu viens de la part de Grand-Mère Faille, et qu'elle te charge de lui dire bonjour. Elle se tourne, enfin. Lentement : chez une Gravitaire, tourner la tête, c'est un petit séisme.
+* nui_76 coe13 | Lui avouer que c'est toi qui balaies les fleurs fanées dans la Fente, chaque matin, depuis soixante ans | Elle te regarde longtemps. Puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Pour la gardienne du dessous », dit-elle. « C'est ce qui est écrit sur la carte, chaque fois. Cinquante ans que je me demande qui. » Elle ne sourit toujours pas. Mais son menton tremble, et chez une Gravitaire, c'est un tremblement de terre. | Tu bafouilles. « Les fleurs... la Fente... c'est moi qui... » Elle fronce les sourcils, et tu as peur, puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs. « Toi ? Un papillon ? » Elle met longtemps à te croire. Elle finit par te croire. | +flag:colonelle_sait mor+2 | +flag:colonelle_sait
+* nui_76 rus11 | Lui demander, poliment, ce qu'il y a dans la boîte | « Des fleurs. » Un silence de granit. Puis elle ouvre la boîte : des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Quelqu'un me les envoie depuis cinquante ans. Je ne sais pas qui. » Tu reconnais tes fleurs. Tu reconnais même le petit pli que fait ton balai. | « Ça ne vous regarde pas. » Puis, comme tu ne pars pas, elle ouvre la boîte. Des belles-de-nuit séchées. Les tiennes. Tu les reconnais au petit pli que fait ton balai. | +flag:colonelle_sait |
+
+@nui_76
+!title: La gardienne du dessous
+?flag:colonelle_sait La colonelle referme la boîte avec une précaution qu'on n'attendrait pas d'onze tonnes. « Je n'ai jamais vu une fleur vivante. Jamais. Elles arrivent toutes fanées. » Elle regarde ses mains. « Les tiennes ont l'air contentes, même sèches. »
+« Elles ne s'ouvrent que pour la Lune, madame. Si la Lune revient, je vous en enverrai une ouverte. »
+« Colonelle. Pas madame. » Elle se tait. « Une ouverte. Ça marche. »
+?flag:bouton_garde Tu sens, dans la petite poche de ton gilet, le bouton fermé que tu as coupé au bord de la Fente. Tu ne le sors pas. Pas encore.
+* nui_02 coe12 | Lui dire que la Faille l'appelle « la petite », et qu'elle a l'air de l'aimer beaucoup | « La petite. » Elle grogne, très bas. « Trois mille ans, onze tonnes, et elle m'appelle la petite. » Elle se détourne pour que tu ne voies pas son visage. Tu le vois quand même : il a l'air d'avoir cinq ans. | Elle grogne. « Elle radote. » Mais elle serre la boîte contre sa cuirasse un peu plus fort. | mor+1 |
+* nui_02 | La saluer, et la laisser à ses fleurs | Tu la salues comme on salue une colonelle, une aile sur le front. Elle te rend le salut. Ça fait trembler le feu d'à côté. | | mor+1 |
+
+# ---------- Le vol droit : la grande scène d'Anatole au camp ----------
+
+@+nui_59
+* nui_59b ?flag:bouton_garde ?!flag:bouton_ouvert | Sortir de ton gilet le bouton coupé au bord de la Fente, ici, si près d'elle | Tu déplies le mouchoir. Le bouton est toujours vert, toujours serré. Tu le tiens à bout de patte, vers la Lune. | | +flag:bouton_ouvert |
+* nui_59c | Monter encore, jusqu'à voir le crochet de près | Tu montes encore. L'air devient fin comme du papier à cigarette. Tes ailes font un bruit de vieux livre. | |
+
+@nui_59b
+!title: La belle-de-nuit
+Il ne se passe rien, d'abord. Puis le bouton frémit. Un pétale se décolle, puis un autre. Ici, si haut, la Lune est assez près pour qu'une belle-de-nuit la croie revenue. La fleur s'ouvre tout entière, blanche, dans ta patte, au-dessus de mille lampions qui ne comptent plus.
+C'est la première de la semaine. C'est peut-être la dernière.
+?flag:obj_herbier L'herbier est contre ta poitrine. Il y reste une page blanche, la sept cent vingt et unième.
+?flag:colonelle_vue En bas, loin des feux, une Gravitaire en granit attend une fleur ouverte. Tu le lui as promis pour plus tard. Plus tard, c'est peut-être maintenant.
+* nui_02 coe13 ?flag:obj_herbier | La presser dans l'herbier, à l'heure exacte, comme depuis soixante ans | Tu ouvres l'herbier contre le vent, tu poses la fleur sur la page sept cent vingt et un, tu refermes. Tu notes l'heure de mémoire : il est minuit douze, au-dessus du Carrefour des Espèces, à mi-chemin du ciel. | Le vent tourne les pages, la fleur glisse, tu la rattrapes du bout de l'aile et tu la presses de travers. Elle sera un peu froissée. Elle est quand même là. | +flag:fleur_721 mor+2 | +flag:fleur_721 mor+1
+* nui_02 ?flag:colonelle_vue | Redescendre la porter, ouverte, à la colonelle | Tu redescends en piqué, la fleur serrée contre toi pour qu'elle ne se referme pas. La colonelle la prend entre deux doigts de granit. Elle la regarde. Pour la première fois en trois mille ans, quelqu'un voit Agathe Brisefer sourire. C'est toi. Tu ne le diras à personne. | | +flag:fleur_colonelle mor+3 |
+* nui_02 | La laisser à la Lune : la lâcher là, en plein ciel | Tu ouvres la patte. La fleur monte un peu, portée par l'air chaud du camp, puis elle reste là, suspendue, blanche, entre toi et la Lune. Tu redescends sans la quitter des yeux. | | mor+1 |
+
+@nui_59c
+!title: Le crochet, de près
+Le crochet est plus grand que tout ce que tu as jamais vu, plus grand que la station-service, plus grand que ta forêt. Il est planté dans le flanc de la Lune comme un hameçon dans une joue. Autour de la plaie, la poussière a pâli. Le câble d'or part vers le haut, vers un point carré qui brille : là où quelqu'un tient l'autre bout.
+De si près, tu entends quelque chose. Pas un bruit : une respiration lente, fatiguée, comme celle de la Fente avant de dormir.
+* nui_02 coe13 | Lui parler, tout bas, d'aussi près qu'aucune Noctuelle ne l'a jamais fait | « On vient. Demain. Tiens bon. » Tu ne sais pas si elle a entendu. Mais la respiration change, un tout petit peu, comme quand quelqu'un qui dormait mal se retourne et s'apaise. | Tu ouvres la bouche, et le vent froid de la haute nuit t'emporte les mots. Tu redescends sans savoir si elle t'a entendu. | +flag:parle_lune +flag:crochet_vu mor+1 | +flag:crochet_vu
+* nui_02 rus12 | Regarder comment le câble est accroché, pour t'en souvenir là-haut | Tu fais trois fois le tour du crochet, exprès cette fois, et tu retiens tout : l'angle, les plaques, l'endroit où l'or a l'air fatigué. | Tu fais trois fois le tour du crochet, mais c'est lui qui t'attire, comme une lampe. Tu en retiens surtout le vertige. | +flag:crochet_vu rus+1 |
+
+@+asc_01
+?pc:anatole ?flag:n_noc Tu as volé vers elle, cette nuit. Tes ailes s'en souviennent, et elles savent qu'elles n'iront pas plus haut. Il faudra autre chose que des ailes.
+?pc:anatole ?!flag:n_noc Tu ouvres les ailes, par habitude. Trois cent quatre-vingt-quatre mille kilomètres. Tu les refermes.
+~gaspard ?pc:anatole ?flag:n_noc: « Vous et moi, Duvet, sommes les deux seuls ici à avoir déjà essayé de monter jusqu'à elle par nos propres moyens. Moi, j'en suis mort. Vous, vous avez eu le bon sens de redescendre. »
+
+@+fin_01
+?pc:anatole ?flag:crochet_vu Tu as vu le crochet de près, cette nuit, d'aussi près qu'une Noctuelle peut voler. Tu sais où il fait mal.
+
+# ---------- 2. Capacités : un papillon ne soulève pas le granit ----------
+
+@+hub_11
+* hub_05 rus10 ?pc:anatole | La plier en tout petit, dans le bon sens, et la glisser dans la grande poche de ton gilet | Tu la plies en quatre, puis en huit, puis en seize. Le granit est souple quand on le plie dans le sens de la maille. Elle rentre dans la grande poche, à côté de l'herbier. Ton gilet a été cousu pour les choses lourdes ; tu ne l'avais jamais remarqué. | Tu la plies en huit, elle se déplie en quatre. La vieille Gravitaire la reprend doucement. « Garde tes ailes pour voler, petit. Je la garderai pour les nuits froides. » | +flag:obj_couverture rus+1 |
+
+@+nua_03
+* nua_05 rus13 ?pc:anatole | Te faufiler par la grille d'aération jusqu'au tableau de commande | Dedans, mille voyants qui clignotent. Tu fermes les yeux pour ne pas tourner autour, et tu marches sur les boutons, un par un, à tâtons. Les pompes hoquettent, crachent un arc-en-ciel et s'arrêtent. Une sirène se met à sonner, très poliment. | Les voyants clignotent, et tu fais trois tours du plus gros avant de t'écraser dessus par accident. Les pompes s'arrêtent quand même, dans un vacarme épouvantable. | rus+1 +flag:pompes_sabotees | +flag:pompes_sabotees
+
+@+nua_18
+* hub_ret ?pc:anatole | Redescendre en vol plané, la Lune dans le dos | Tu te laisses glisser, ailes ouvertes, en grandes spirales. En bas, le Carrefour t'attend, avec sa poussière, ses beignets et ses lampions, que tu évites un par un. | | mor+1 |
+
+@+com_17
+* com_18 rus12 ?pc:anatole | Faire rouler la météorite jusqu'au bord de la comète, et la laisser repartir d'elle-même | Tu ne la soulèves pas : tu la pousses, de tout ton petit poids, jusqu'à la pente. Elle roule, prend de la vitesse et repart vers le ciel toute seule. Les deux marchands se regardent, puis se serrent la main. Pli est horrifié, puis ravi. | Tu pousses, elle ne bouge pas. Toi si : tu glisses dessous. Les marchands éclatent de rire. Pli en profite pour faire signer un traité. | rus+1 | mor-1
+
+@+fin_19
+* end_11 ?pc:anatole ?equ<30 | Foncer dans les commandes du câble, encore et encore | Tu fonces dedans comme dans toutes les lampes de ta vie. Les leviers cèdent un par un sous tes coups d'ailes. Le câble se décroche d'un coup. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
+* end_11 ?pc:anatole ?equ>=30 | Foncer dans les commandes quand même | Tu fonces, encore, comme sur toutes les lampes de ta vie. Les leviers lâchent. Le câble se décroche. Et tout se rompt avec lui. | |
+
+# ---------- 3. Animal de nuit et lampes, dans les régions ----------
+
+@+cot_01
+?pc:anatole Le soleil tape sur les Côtes. Tu avances d'ombre en ombre, de rocher en rocher, en t'excusant auprès des crabes de leur prendre la leur. Pour une Noctuelle, le grand jour, c'est une grippe qui dure jusqu'au soir.
+
+@+cap_01
+?pc:anatole Tamponville travaille de jour, toutes lampes allumées. Tu plisses les yeux sous les néons des guichets, et tu fais un tour de chaque plafonnier avant de trouver la bonne porte.
+
+@+com_01
+?pc:anatole Il fait grand jour sur le Marché. Tes yeux piquent, tes ailes pèsent, et tu marches à l'ombre des étals comme un voleur.
+
+@+pro_01
+?pc:anatole Sous terre, pas de soleil et pas de lampes : enfin un endroit où l'on peut garder les yeux ouverts. Pas de Lune non plus. Tu avances au toucher, les antennes devant, comme un aveugle très poli.
+
+@+cha_01
+?pc:anatole Partout, des projecteurs. Ils ont éclairé la Lune. Tu fais deux fois le tour du premier avant de te rappeler pourquoi tu es venu.
+
+@+cha_27
+?pc:anatole Les projecteurs te happent. Un tour, deux tours. Bobinot attend, poliment, que tu aies fini.
+
+@+hub_07
+~fulgence ?pc:anatole: Fulgence prend la forme d'un lampadaire, pour détendre l'atmosphère. Tu en fais deux fois le tour avant de comprendre. Il redevient lui-même, un peu honteux. « Pardon. C'était trop facile. »
+
+@+asc_24
+~ondee ?pc:anatole: « Repliez bien vos ailes, monsieur Duvet. Dans un nuage, une aile mouillée, c'est une aile perdue. Je le sais : je mouille tout. »
+
+@+cha_07
+~pardon ?pc:anatole: « J'ai mesuré ce crochet : quatre cents mètres. Et vous, monsieur Duvet, un mètre vingt d'envergure. Pardon. Ça ne veut rien dire. Vous êtes venu quand même. »
+
+# ---------- 4. FORÊT-RÉSEAU : chez Anatole ----------
+
+@+for_01
+~fulgence ?pc:anatole: Fulgence prend la forme d'une lanterne, pour te taquiner. Tu fais un tour avant de t'en apercevoir. Il s'excuse. Un peu.
+~ondee ?pc:anatole: Dame Ondée reste loin de tes ailes. « Ici, c'est chez vous. Je ne voudrais pas pleuvoir sur votre forêt. Enfin, pas tout de suite. »
+
+@+for_02
+?pc:anatole Tu connais les Lichenautes de vue, depuis le temps que tu passes au-dessus de leur souche. Ils ne t'ont jamais vu : tu passais trop vite. Pour eux, tu es un courant d'air gris, une fois par nuit, depuis soixante ans.
+~coquille: Madame Coquille écoute le Conseil avec un plaisir évident. « Enfin des gens qui ne sont pas pressés. » Elle trouve même qu'ils parlent un peu vite.
+~pli ?comp:fulgence: Fulgence prend la forme de Monsieur Pli, en plus froissé. Pli se déplie de colère. « Monsieur, on ne plie pas un diplomate sans son accord ! » « Je ne t'ai pas plié, je t'ai cité. »
+~pli: Monsieur Pli s'assoit devant le Conseil, ravi. « Enfin une assemblée à mon rythme. J'ai le temps de relire chaque phrase avant qu'elle soit finie. »
+~bartho: « Une phrase par heure. Ma femme parlait comme ça, à la fin. Elle pesait chaque mot. » Bartholomé boit une gorgée d'eau douce. « Elle est partie avec la marée avant d'avoir fini la sienne. »
+~ysaline: « Deux cents mousses, et c'est une doyenne qui préside. Bien. » Ysaline prend une note. « Je leur parlerai quand même de la parité. Dans dix ou douze ans, quand elles auront fini la phrase. »
+~remontoir ?comp:plumard: « Pressez-les, Grand-Père, c'est insupportable ! » piaffe Plumard. Remontoir sourit. « Colonel, à mon âge, la lenteur n'est pas un défaut. C'est une politesse. »
+~remontoir: Grand-Père Remontoir s'assoit avec les Lichenautes et ferme les yeux. « Pour une fois, je suis le plus rapide de la pièce. Je savoure. »
+
+@+for_03
+~quartz ?comp:echo: « Statistiquement, cet arbre a quatre cents ans. » « ... quatre cents ans... » répète Écho. « Ou six cents. » « ... six cents... » Le Docteur Quartz est ravie : quelqu'un retient ses chiffres, même les faux.
+~quartz: Le Docteur Quartz pose un appareil contre un tronc. « Inclinaison : trente-deux degrés vers la Lune, onze vers le soleil. Les arbres ont raison d'être perdus. Mes calculs aussi. »
+~echo: « ... vers quoi... vers quoi... » Écho répète la question de l'arbre. Les arbres alentour la reprennent, en chœur de feuilles.
+~meduses: « NOUS SAVONS VERS QUOI POUSSER », chante le bocal. « VERS LA LUNE. C'EST TOUJOURS VERS LA LUNE. » Les arbres frissonnent. Ils n'avaient jamais entendu une méduse.
+* for_04 rus12 ?pc:anatole | Lui donner le cap des Noctuelles : « La Lune à deux heures de votre branche gauche, et tout droit » | L'arbre ne sait pas ce que veut dire « deux heures ». Tu lui montres l'angle exact avec ton aile. Il se redresse d'un cran, puis son voisin, puis tout le bosquet. Les racines font passer le message plus loin. Quelque part, une forêt entière se tourne d'un millimètre vers le bon côté du ciel. | Tu montres l'angle avec ton aile ; l'arbre le copie, mais à l'envers. Il pousse maintenant vers la station-service. Il a l'air content quand même. | rus+1 equ+2 +flag:arbres_cap |
+
+@+for_07
+?pc:anatole Un géomètre s'approche de toi avec son mètre ruban, te mesure d'un bout d'aile à l'autre et note dans son carnet : « Papillon. Envergure : un mètre vingt. Lampe : aucune. » Il s'excuse.
+~pardon ?comp:fulgence: « Ne prenez pas ma forme, s'il vous plaît », chuchote Pardon à Fulgence. « Ils me reconnaîtraient. » Fulgence prend la forme d'un champignon. Personne ne mesure les champignons.
+~pardon: Pardon se cache derrière toi. « Ce sont mes collègues. Équipe Racines. Pardon. Je mesurais avec eux, avant. » Il jette un œil. « Ils ne m'ont pas reconnu. On ne reconnaît jamais un géomètre. »
+~penelope: Pénélope cache ses tampons derrière son dos. « J'ai signé leurs ordres de mission. APPROUVÉ, APPROUVÉ, APPROUVÉ. » Elle regarde sa main gauche comme celle d'une inconnue.
+~fulgence: Fulgence prend la forme d'un géomètre doré et s'excuse auprès d'un arbre. Les vrais géomètres le saluent. « Facile. Ils se ressemblent tous, et ils s'excusent tous. »
+~remontoir: Grand-Père Remontoir pose l'oreille contre le Chêne. « Il bat. Lentement. Plus lentement que moi. Ça fait du bien de rencontrer plus vieux que soi. »
+~zouzou: « Un arbre noué ! » Zouzou fait trois fois le tour du Chêne pour voir le nœud de tous les côtés. Elle roussit une feuille. Elle souffle dessus. Ça empire.
+~rocambole: Rocambole compte les géomètres sur ses quatre mains. « Douze. J'en ai volé un, une fois. Il s'excusait tellement que je l'ai rendu. »
+
+@+for_12
+~fernand ?pc:anatole: « Je vous préviens, Duvet : si vous tournez autour de moi, je vous verbalise. Douzième procès-verbal. » Il clignote. Tu ne tournes pas. Il a l'air presque déçu.
+~vesperine ?comp:fernand: Vespérine ouvre son ombrelle au-dessus de Fernand. « Ne le prenez pas mal, petite luciole. Je suis allergique aux gens qui brillent. » « Je ne brille plus, madame. » « Alors nous allons très bien nous entendre. »
+
+@+for_13
+?pc:anatole Elle plisse les yeux derrière ses trois paires de lunettes. « TOI ! LE PAPILLON DE LA SERRE ! TU VIENS TOURNER AUTOUR DE NOS CIERGES TOUS LES SOIRS DE PLEINE LUNE ! » C'est vrai. Tu espérais qu'elle n'avait rien remarqué.
+~fernand: « Je verbalisais le Temple tous les mois », souffle Fernand. « Éclairage excessif de cierges. Ils payaient en écharpes. J'en ai quarante. »
+~vesperine: Vespérine s'arrête au bord du cercle, sous son ombrelle. « Des gens qui pleurent la Lune en tricotant. Enfin une compagnie convenable. »
+~gaspard: Gaspard ôte son chapeau transparent devant les Lunatiques. « En 1803, avant de partir de Lyon, j'ai allumé un cierge pour la Lune. Je ne savais pas qu'il fallait revenir l'éteindre. »
+~plumard: « Un temple qui pleure toute la nuit ! Garde-à-vous, mesdames ! » Personne ne se met au garde-à-vous. Une Lunatique lui tricote une écharpe pour le faire taire. Ça marche.
+~brume: « Les écharpes de lumière... comme mes... » Brume-Lucie n'ose pas finir et se cache dans une écharpe. On ne la distingue plus des fils.
+~ondee: Dame Ondée se fait toute petite au-dessus du cercle. « Si je pleure ici, je mouille mille ans de tricot. Alors je ne pleure pas. C'est très difficile. »
+
+@+for_19
+~ondee ?comp:fernand: Dame Ondée s'approche de Fernand, prudemment. « Si je pleus, vous vous éteignez ? » « Je suis déjà éteint, madame. Pleuvez. » Elle ne pleut pas. Elle reste au-dessus de lui, comme un parapluie qui hésite.
+~fernand: Fernand se pose sur une racine du Chêne et regarde sa propre lumière, perplexe. « Si quelqu'un me demande, c'est le reflet. »
+
+@+for_23
+~melusine ?pc:anatole: « TOI, LE PAPILLON ! TU TOURNES AUTOUR DE L'ÉCHARPE ! ARRÊTE ! » Tu arrêtes. Elle brille trop. Tu recommences.
+~gaspard: Gaspard tient un bout de l'écharpe entre deux doigts transparents. « Si on la noue au bout de mon ballon, elle montera peut-être plus haut que moi. »
+~pli: Monsieur Pli tricote très bien, à la manière des origamis : chaque maille est un petit pli. Tante Mélusine le regarde, interdite, puis hurle : « UN PROFESSIONNEL ! »
+
+@+for_27
+~fernand ?comp:melusine: « Madame Mélusine. Quarante écharpes, quarante amendes. » « FERNAND ! TU AS ENCORE MAIGRI ! TU BRILLES COMME UNE ALLUMETTE MOUILLÉE ! » Il clignote, vexé. Un peu plus fort qu'avant.
+
+@+for_29
+~plumard ?comp:remontoir: « Grand-Père, vous traînez ! Une, deux ! » « Colonel, à mon âge, une, c'est déjà beaucoup. Deux, c'est demain. »
+~zouzou ?comp:ondee: Zouzou passe en trombe sous Dame Ondée, qui lui pleut dessus par réflexe. La comète grésille et fume. « Tu l'as fait exprès ! » « Pardon. Je pleus quand j'ai peur. Et toi, tu vas trop vite. »
+~melusine ?comp:plumard: « COLONEL ! VOTRE CRÊTE EST DE TRAVERS ! » Mélusine la lui redresse d'une main immense. Plumard rougit jusqu'aux ergots. « Madame... en public... »
+~melusine: Tante Mélusine se retourne vers le Temple toutes les dix marches. « JE NE PLEURE PAS ! C'EST LE VENT ! IL N'Y A PAS DE VENT ! »
+
+@+for_30
+~pli ?comp:pardon: Monsieur Pli se replie derrière Pardon, loin des flammes. « Le feu et moi, nous avons un différend ancien. » Pardon se met devant lui, tout petit, tout doré. « Pardon. Je vous protège. » Ça ne protège pas grand-chose, mais Pli se défroisse un peu.
+~pli: Monsieur Pli recule jusqu'au dernier arbre, plié en quatre. « Je négocie avec n'importe qui. Pas avec le feu. Le feu ne relit jamais. »
+~ondee: Dame Ondée se gonfle tant qu'elle peut et pleut sur les flammes. Ce n'est pas assez pour les éteindre. C'est assez pour qu'elles fument en s'excusant.
+~melusine: « ILS BRÛLENT LA FORÊT OÙ J'AI APPRIS À TRICOTER ! » Tante Mélusine brandit son aiguille de deux mètres. Les géomètres reculent d'un pas, poliment.
+
+@+for_31
+~pardon: « Ils ne brûlent pas par méchanceté », murmure Pardon. « Ils brûlent parce que c'est écrit sur la fiche. Pardon. C'est pire. »
+~taupinel: Taupinel renifle la fumée. « Un câble touristique en fibre de racine. Ça, c'est un scandale. Première page. » Il prend des notes à l'aveugle, sur sa manche.
+~fernand: « Article un : on ne brûle pas une forêt », siffle Fernand. « Il n'y a pas d'article deux. Il n'en faut pas. »
+~pli ?comp:pardon: Monsieur Pli se cache derrière Pardon, loin du feu. Pardon ne dit rien. Il reste devant lui, tout doré, en tremblant.
+
+@+for_35
+?pc:anatole ?flag:serre_confiee Avant de quitter l'orée, tu passes devant ta serre. Par la vitre, Gluette arrose le troisième pot du premier rang. Elle ne te voit pas. Elle a l'air très occupée, et très fière.
+?pc:anatole ?flag:ecriteau Avant de quitter l'orée, tu passes devant ta serre. L'écriteau se balance sur la porte. Au pied, quelqu'un a laissé un arrosoir plein. Tu ne sais pas qui.
+?pc:anatole ?flag:arbres_cap Les arbres de l'orée poussent tous du même côté, maintenant, la Lune à deux heures de la branche gauche. Les autres forêts commencent à les copier.
+~fernand ?comp:melusine: Fernand vole au-dessus de la pelote de Mélusine pour éclairer le chemin. « Ne vous y habituez pas », dit-il. Elle ne l'écoute pas : elle chante.
+~fernand ?comp:vesperine: « Madame la Comtesse, puis-je rester dans votre ombre ? » demande Fernand. « Pour me reposer. Briller, ça fatigue, quand on a perdu l'habitude. » Vespérine lui fait une place, sans un mot.
+~pardon ?comp:pli: Pardon a ramassé un bout de câble brûlé. Monsieur Pli le roule dans un traité. « Pièce à conviction », dit Pli. « Pardon », dit Pardon, qui veut dire merci.
+~fulgence ?comp:pardon: Fulgence prend la forme d'un géomètre et fait une révérence à Pardon. Pardon ne trouve pas ça drôle. Fulgence redevient lui-même. « Pardon », dit Fulgence. Pardon le regarde, surpris. Personne ne lui avait jamais dit pardon.
+~quartz: « Résultat de mes mesures : cette forêt va mieux de onze pour cent. » Le Docteur Quartz réfléchit. « Ou de cent dix. Je n'ai pas pris le bon appareil. »
+~echo: « ... plus calme... plus calme... » Écho répète la Toile, qui répète la forêt.
+~bartho: « Des arbres qui se tiennent par la branche. » Bartholomé renifle. « C'est bien. C'est pas la mer. Mais c'est bien. »
+~coquille: Madame Coquille se retourne vers la forêt, très lentement. Le temps qu'elle finisse, les arbres ont poussé d'un centimètre. Elle trouve que c'est raisonnable.
+~ysaline: « Une Lichenaute présidente, une prêtresse en majuscules, une forêt qui se tient la main. » Ysaline hoche la tête. « On progresse. »
+~gaspard: Gaspard regarde les arbres se pencher les uns vers les autres. « En 1803, cette forêt ne parlait à personne. Elle a fait des progrès. Moi, je suis mort. Chacun son rythme. »
+~zouzou: « C'était long. C'était lent. C'était vert. » Zouzou réfléchit. « C'était pas mal. Dis-le à personne. »
+~taupinel: Taupinel tâte le sol, satisfait. « La Toile parle plus vite que mes galeries. Je vais lui demander un emploi. »
+~vesperine: Vespérine regarde la forêt qui s'éloigne. « Une belle forêt. Elle ferait une excellente nuit, avec une Lune. »
+~plumard: « Forêt nettoyée ! Rompez ! » Plumard salue les arbres. Un arbre lui rend le salut, d'une branche. Il est très ému.
+~remontoir: « J'ai une devinette pour la forêt », dit Grand-Père Remontoir. « Qu'est-ce qui pousse vers ce qu'il aime ? » Il attend. « Tout le monde. »
