@@ -163,7 +163,7 @@ Elle te regarde, comme un enfant qui attend la suite.
 ~pardon: Pardon sort son mètre ruban, le regarde, et le range. « Pardon. On ne mesure pas un rêve. Je l'ai lu quelque part. Je crois que c'était dans un rêve. »
 ~pli: Monsieur Pli se déplie dans l'air mou de la ville. « On flotte. C'est très diplomatique, de flotter. On ne prend pas parti pour le sol. »
 ~taupinel: Archibald Taupinel colle son museau contre une tour de souvenirs. « Il y a un scandale là-dedans. Je le sens. Tous les souvenirs sont des scandales, de près. »
-~plumard: Le Colonel Plumard bombe le torse. « Une ville entière qui dort ! Un scandale ! Si je chantais l'aube, ici... » Brume-Lucie, ou n'importe qui, lui met la main sur le bec.
+~plumard: Le Colonel Plumard bombe le torse. « Une ville entière qui dort ! Un scandale ! Si je chantais l'aube, ici... » Quelqu'un, très vite, lui met la main sur le bec.
 ~remontoir: Grand-Père Remontoir s'assoit sur une idée vague. « Ici, le temps ne compte pas. Mon ressort se repose. C'est la première fois en mille ans que je n'ai pas peur de ralentir. »
 ~rocambole: Le Capitaine Rocambole compte les tours de souvenirs avec ses quatre mains. « On pourrait en emporter une. Une petite. Personne ne s'en souviendrait. C'est le principe. »
 

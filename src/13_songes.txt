@@ -41,6 +41,8 @@ La ville s'effondre par morceaux. Des rêves de Marégraves, où la mer refuse d
 
 @son_06
 ?comp:brume Brume-Lucie flotte autour de toi. « La ville s'éteint plus vite que la dernière fois. Avant, j'enveloppais seule les rêves qui tombent. Maintenant on est deux. » Elle n'ose pas dire que ça lui fait plaisir. Elle le dit quand même, en rosée.
+?!comp:brume ?from:son_03 ?!flag:brume_vue Le brouillard prend une forme vague : une jeune femme floue, aux cheveux de vapeur. « Oh. Pardon. Je suis Brume-Lucie. Une Brumeuse. Je vis entre le rêve et l'éveil, là où les choses sont... enfin. Floues. »
+?!comp:brume ?from:son_03 ?flag:brume_vue Le brouillard, c'est elle. Elle se reforme devant toi, gênée de s'être précipitée. « Pistil ! Tu es revenu ! »
 ?!comp:brume Brume-Lucie flotte autour de toi. Elle parle en demi-vers, comme si elle avait peur d'aller au bout des phrases. « La ville s'éteint. Les rêves tombent. La Lune s'en... » Elle n'aime pas les fins. « Je fais ce que je peux. J'enveloppe les rêves qui tombent. Mais je suis seule. Et je suis du brouillard. Je n'ai pas de mains. »
 * son_08 coe12 ?comp:brume | Envelopper les rêves avec elle | Vous vous y mettez à deux. Elle enveloppe, tu remets en place. Elle chantonne. | Tu en fais tomber un. Elle le rattrape, de justesse, et fait semblant de rien. | coe+1 |
 * son_08 coe12 ?!comp:brume | Lui proposer de l'aider | « Toi ? » Elle s'illumine. Un brouillard qui s'illumine, c'est un lever de soleil dans une salle de bains. « D'accord. Enfin. Oui. D'accord. » | Elle hésite, disparaît, revient. « Oui. Peut-être. Oui. » | coe+1 |
