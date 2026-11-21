@@ -297,8 +297,10 @@ On ne sait pas comment ça finira. Personne ne le sait. C'est le principe d'un p
 @end_10
 !end: 10
 !title: Marée basse
-Les moteurs se sont arrêtés, ou ils ont continué, ça n'a plus d'importance. La Terre penchait trop. Elle a trop basculé, trop vite, pendant trop longtemps. Le monde était trop lourd.
-La Lune est restée, ou elle est partie. Mais la mer, elle, s'est arrêtée.
+?!flag:marees_cedees Les moteurs se sont arrêtés, ou ils ont continué, ça n'a plus d'importance. La Terre penchait trop. Elle a trop basculé, trop vite, pendant trop longtemps. Le monde était trop lourd.
+?!flag:marees_cedees La Lune est restée, ou elle est partie. Mais la mer, elle, s'est arrêtée.
+?flag:marees_cedees Les moteurs se sont arrêtés. La Lune est restée. Platine a tenu parole, à la lettre, comme toujours : il n'a emporté que les marées, mises en bouteilles par l'article 14, pour ses piscines d'Aldébaran.
+?flag:marees_cedees La Lune est là, ronde, à sa place. Mais la mer, elle, s'est arrêtée.
 Elle ne monte plus. Elle ne descend plus. Elle est immobile, plate, grise, comme une flaque de la taille d'une planète. Les vagues ont cessé. Les ports se sont tus. Les poissons font la queue devant des flaques qui ne bougeront jamais plus.
 ?pc:ondine Tu mesures un mètre quatre-vingt-six. Toujours. Tu ne montes plus, tu ne descends plus. Tu es une Marégrave immobile, une marée qui ne vient pas. Tu écris toujours des lettres. Tu ne les envoies plus.
 Les Terriens se sont habitués. C'est ce qu'ils font de mieux, s'habituer. Ils ont inventé des marées mécaniques, des rêves en conserve, des horloges à piles. Ça marche presque.

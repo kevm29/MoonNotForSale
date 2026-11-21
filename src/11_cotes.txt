@@ -6,13 +6,13 @@
 !title: Les Côtes Hagardes
 !fx: +flag:vis_cot regions+1
 Les Côtes Hagardes. Ici, la mer ne sait plus où elle habite. D'un côté de la plage, elle est montée jusqu'aux toits ; de l'autre, elle a reculé si loin qu'on voit le fond, avec ses épaves étonnées et ses poissons qui font semblant de respirer.
-?pc:ondine Tu reconnais les rochers. Tu es à trois criques de Grève-Molle. La mer te reconnaît aussi : elle te lèche les pieds comme un chien qui a peur de l'orage.
+?pc:ondine Tu reconnais les rochers. Grève-Molle est juste derrière la pointe : tu vois d'ici le phare, éteint. La mer te reconnaît aussi : elle te lèche les pieds comme un chien qui a peur de l'orage.
 * cot_02 pan11 | Descendre sur le fond découvert | Tu marches sur le fond de la mer. Le sable est mou, plein de coquillages qui chuchotent. Tu marches où personne n'a jamais marché sans se noyer. | Tu t'enfonces jusqu'aux genoux. Un crabe t'aide à sortir, par pitié. | pan+1 |
 * cot_03 rus10 | Monter sur la falaise pour comprendre le désordre | De là-haut, tu vois : la mer forme une vague immobile, haute comme une cathédrale, qui attend que quelqu'un lui dise de retomber. | Le vent te pousse, tu t'accroches, tu ne vois rien d'autre que tes mains. | rus+1 |
 
 @cot_02
 Sur le fond découvert, des centaines de poissons font la queue devant une flaque. Un mérou en uniforme distribue des tickets : « Une gorgée par personne. Les baleines, deux. Les sardines, en groupe. »
-?pc:ondine,flag:ticket Tu reconnais le mérou à lunettes. Il te reconnaît aussi. « Votre place est toujours gardée, madame. On en est au numéro 9. »
+?pc:ondine ?flag:ticket Tu reconnais le mérou à lunettes. Il te reconnaît aussi. « Votre place est toujours gardée, madame. On en est au numéro 9. »
 Une petite raie te tire par la manche. « Monsieur, madame, chose... La mer va revenir ? »
 * cot_04 coe11 | Lui répondre « oui » | Elle te croit. Elle va s'asseoir dans la flaque, confiante. Tu as menti à une raie. Tu feras en sorte que ce ne soit pas un mensonge. | Elle ne te croit pas. Les raies sont plus lucides qu'on ne le pense. | mor+1 |
 * cot_05 pan11 | Creuser un chenal pour amener l'eau jusqu'à eux | Tu creuses. D'autres viennent creuser avec toi : des Gravitaires, des crabes, une famille de Lichenautes très lente. L'eau arrive. Les poissons applaudissent avec leurs nageoires. | Tu creuses et l'eau arrive, mais dans la mauvaise direction. Tu as inondé un parking à crabes. | equ+3 | equ-1
@@ -73,8 +73,10 @@ Les Méduses chantent un air triste, un air ancien, qui parle d'une Lune qui pas
 * cot_08 rus10 ?!flag:idee_perles | Leur demander s'il existe un moyen de sauver la Lune | Elles cessent de chanter le vieil air. « UN MOYEN ? NOUS SOMMES MILLE. NOUS AVONS TOUJOURS MILLE IDÉES. » | « NON », chantent-elles. Puis, après un long silence : « PEUT-ÊTRE. » | |
 
 @cot_12
-?comp:meduses Avec le Chœur sur ton épaule, tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
-?!comp:meduses Derrière toi, le Chœur chante au large, faux et fort. Tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
+?pc:ondine Tu passes la pointe. Grève-Molle. Les maisons sur pilotis ont de l'eau jusqu'aux fenêtres, le phare est éteint, et le Ressac Triste est toujours penché au bout du port. Il est ouvert. Il a toujours été ouvert. Tu as l'impression d'être partie il y a dix ans.
+?pc:ondine ?comp:meduses Le Chœur, dans son bocal, se met à chanter très fort, très faux, pour saluer le port. Tout Grève-Molle se retourne.
+?!pc:ondine ?comp:meduses Avec le Chœur sur ton épaule, tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
+?!pc:ondine ?!comp:meduses Derrière toi, le Chœur chante au large, faux et fort. Tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
 ?comp:bartho Bartholomé, à côté de toi, retire sa casquette. « Mon bistrot. Enfin, le bistrot. Je n'y ai jamais payé, alors il est un peu à moi. »
 ?!comp:bartho À l'intérieur, un vieux pêcheur Marégrave boit de l'eau douce en regardant la Lune par la fenêtre.
 * cot_14 coe10 | Entrer | Tu entres. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce. |  |
@@ -89,7 +91,8 @@ Une huître doyenne, grosse comme une armoire, entrouvre sa coquille d'un millim
 @cot_14
 ?!comp:bartho Le Ressac Triste. Au comptoir, Bartholomé Vasequeuse, le vieux pêcheur, regarde son verre d'eau douce. Il est dilué, sentimental, la casquette de travers.
 ?comp:bartho Le Ressac Triste. Bartholomé reprend son tabouret au comptoir, comme s'il ne l'avait jamais quitté. Le patron lui sert son eau douce sans rien dire.
-?pc:ondine ?!comp:bartho « Ondine. Tu es revenue. Je t'ai gardé le village, comme promis. Mal, mais gardé. »
+?pc:ondine ?!comp:bartho ?flag:bartho_garde « Ondine. Tu es revenue. Je t'ai gardé le village, comme promis. Mal, mais gardé. »
+?pc:ondine ?!comp:bartho ?!flag:bartho_garde « Ondine. Tu es revenue. Tu vois, moi, je n'ai pas bougé. Ça, je sais faire. »
 ?!pc:ondine ?!comp:bartho « Encore un qui vient sauver la Lune. Assieds-toi. Ça te passera. »
 ?comp:bartho Il trinque avec son propre reflet dans la vitre. « À nous, vieux bulot. »
 * cot_18 coe11 | Lui demander pourquoi il boit de l'eau douce | « Parce que ça me dilue. Et dilué, je suis moins triste. Enfin, je suis triste en plus grand. » Il te regarde. « Ma femme est partie avec la Lune. Il y a vingt ans. Perline. » | « Parce que l'eau salée me rappelle tout. » | coe+1 |
@@ -127,7 +130,7 @@ Il essuie une larme. Elle fait une petite fumée sur le comptoir.
 ?!comp:bartho Bartholomé finit son verre. Il le pose. Il le regarde. « Bon. Puisque tout le monde va mourir, autant mourir quelque part de joli. Là-haut, par exemple. »
 ?!comp:bartho Il se lève. Ses genoux craquent comme une coque. « Je viens. Mais je râle. Je râle tout le temps. C'est le prix. »
 ?comp:bartho Bartholomé finit son verre. « Je t'ai suivi jusqu'ici sans trop savoir pourquoi. Maintenant je sais. On va la chercher. » Il se lève. Ses genoux craquent comme une coque.
-* cot_22 coe10 ?!comp:bartho | Accepter le prix | Il enfile sa casquette, prend son filet et une bouteille d'eau douce pour les urgences sentimentales. Vous sortez. | Il compte ce que tu lui proposes, trois fois. « Non. Ce n'est pas assez. Pas pour quitter ce bistrot. » Il recommande une eau douce. Tu sors seul. | +comp:bartho mor+1 |
+* cot_22 coe10 ?!comp:bartho | Accepter le prix | Il enfile sa casquette, prend son filet et une bouteille d'eau douce pour les urgences sentimentales. Vous sortez. | Il réfléchit au prix, trois fois. « Non. Râler ici ou râler là-haut, c'est pareil, et ici il y a un tabouret. » Il recommande une eau douce. Tu sors sans lui. | +comp:bartho mor+1 |
 * cot_22 coe10 ?comp:bartho | Repartir avec lui | Il laisse un pourboire pour la première fois de sa vie. Le patron en pleure. | Il oublie sa bouteille d'eau douce. Il retourne la chercher. Il râle. | mor+1 +flag:bartho_decide |
 * cot_22 rus11 ?!comp:bartho | Lui demander plutôt de garder la côte | Il hoche la tête. « Je garderai. Je râlerai en gardant. » Il reste. Mais il te donne sa vieille boussole. « Elle indique toujours la Lune. Toujours. » | Il reste. Il ne dit rien de plus. | +flag:boussole_bartho | +flag:boussole_bartho
 

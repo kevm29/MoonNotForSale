@@ -62,7 +62,7 @@
 # ---------------------------------------------------------------- régions
 
 @+cot_01
-~bartho ?pc:ondine: « Grève-Molle est à trois criques. Si tu veux passer voir le phare, je t'attends dehors. Je ne rentre plus dans les phares. »
+~bartho ?pc:ondine: « Grève-Molle est juste derrière la pointe. Si tu veux passer voir le phare, je t'attends dehors. Je ne rentre plus dans les phares. »
 ~bartho: « La mer est saoule. Je la reconnais, on a bu ensemble. »
 ~penelope: « Il y a de l'eau partout. Mes tampons vont baver. » Elle les tient en l'air, comme une chirurgienne.
 ~quartz: « La marée est à la fois haute et basse. C'est impossible. J'adore. »
