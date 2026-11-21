@@ -1,0 +1,363 @@
+objet	nom	usage	noeud	ligne	detail
+obj_aiguille	L'aiguille de Mélusine	donné	for_40	93_objets.txt:89	réussite
+obj_aiguille	L'aiguille de Mélusine	requis	cha_15	93_objets.txt:390	flag:obj_aiguille
+obj_aiguille	L'aiguille de Mélusine	requis	for_17	93_objets.txt:82	!flag:obj_aiguille
+obj_aurore	Une aurore pliée en huit	donné	com_41	93_objets.txt:229	réussite
+obj_aurore	Une aurore pliée en huit	requis	cha_15	93_objets.txt:392	flag:obj_aurore
+obj_aurore	Une aurore pliée en huit	requis	com_03	93_objets.txt:223	!flag:obj_aurore
+obj_aurore	Une aurore pliée en huit	retiré	cha_67	93_objets.txt:419	réussite
+obj_aurore	Une aurore pliée en huit	retiré	cha_67	93_objets.txt:419	échec
+obj_ballon	Le ballon de soie de Gaspard	donné	gnu_08	45_president_regions2.txt:231	réussite
+obj_ballon	Le ballon de soie de Gaspard	donné	gnu_08	45_president_regions2.txt:232	réussite
+obj_ballon	Le ballon de soie de Gaspard	donné	nua_41	93_objets.txt:208	réussite
+obj_ballon	Le ballon de soie de Gaspard	donné	nua_41	93_objets.txt:209	réussite
+obj_ballon	Le ballon de soie de Gaspard	requis	asc_01	93_objets.txt:328	flag:obj_ballon
+obj_ballon	Le ballon de soie de Gaspard	requis	gal_vei	40_president.txt:354	flag:obj_ballon
+obj_ballon	Le ballon de soie de Gaspard	requis	gfi_01	44_president_fin.txt:17	flag:obj_ballon
+obj_ballon	Le ballon de soie de Gaspard	requis	gfi_01	44_president_fin.txt:32	flag:obj_ballon
+obj_ballon	Le ballon de soie de Gaspard	retiré	asc_32	93_objets.txt:340	réussite
+obj_ballon	Le ballon de soie de Gaspard	retiré	asc_32	93_objets.txt:340	échec
+obj_ballon	Le ballon de soie de Gaspard	retiré	gmo_bal	44_president_fin.txt:287	réussite
+obj_ballon	Le ballon de soie de Gaspard	retiré	gmo_bal	44_president_fin.txt:287	échec
+obj_beignet	Le beignet perpétuel	donné	hub_10	93_objets.txt:17	réussite
+obj_beignet	Le beignet perpétuel	donné	hub_10	93_objets.txt:18	réussite
+obj_beignet	Le beignet perpétuel	requis	hub_03	93_objets.txt:11	!flag:obj_beignet
+obj_beignet	Le beignet perpétuel	requis	nui_02	93_objets.txt:268	flag:obj_beignet
+obj_berceau_nuage	Un berceau de nuage	donné	nua_13	16_nuages.txt:102	réussite
+obj_berceau_nuage	Un berceau de nuage	donné	nua_13	16_nuages.txt:103	réussite
+obj_berceau_nuage	Un berceau de nuage	requis	nui_10	19_nuit.txt:62	flag:obj_berceau_nuage
+obj_berceau_nuage	Un berceau de nuage	requis	nui_10	19_nuit.txt:64	flag:obj_berceau_nuage
+obj_berceau_nuage	Un berceau de nuage	requis	nui_10	19_nuit.txt:65	!flag:obj_berceau_nuage
+obj_berceau_nuage	Un berceau de nuage	requis	nui_10	19_nuit.txt:66	!flag:obj_berceau_nuage
+obj_berceau_nuage	Un berceau de nuage	requis	nui_10	93_objets.txt:314	!flag:obj_berceau_nuage
+obj_berceau_nuage	Un berceau de nuage	retiré	nui_10	19_nuit.txt:64	réussite
+obj_berceau_nuage	Un berceau de nuage	retiré	nui_10	19_nuit.txt:64	échec
+obj_berceuse	Le coquillage à berceuse	donné	pso_07	48_ploum_long.txt:169	réussite
+obj_berceuse	Le coquillage à berceuse	requis	pmo_bur	42_ploum.txt:429	flag:obj_berceuse
+obj_berceuse	Le coquillage à berceuse	requis	pmo_bur	42_ploum.txt:433	!flag:obj_berceuse
+obj_berceuse	Le coquillage à berceuse	requis	pmo_rate	42_ploum.txt:452	flag:obj_berceuse
+obj_berceuse	Le coquillage à berceuse	requis	pmo_rate	42_ploum.txt:454	flag:pm_essai_berc,!flag:obj_berceuse
+obj_berceuse	Le coquillage à berceuse	requis	pmo_rate	42_ploum.txt:455	flag:pm_essai_berc,!flag:obj_berceuse
+obj_bille	La bille qui tombe vers le haut	donné	pro_40	93_objets.txt:136	réussite
+obj_bille	La bille qui tombe vers le haut	requis	asc_01	93_objets.txt:327	flag:obj_bille
+obj_bille	La bille qui tombe vers le haut	requis	pro_04	93_objets.txt:130	!flag:obj_bille
+obj_bille	La bille qui tombe vers le haut	retiré	asc_30	93_objets.txt:334	réussite
+obj_bille	La bille qui tombe vers le haut	retiré	asc_30	93_objets.txt:334	échec
+obj_boussole	La boussole des choses perdues	donné	foi_15	93_objets.txt:262	réussite
+obj_boussole	La boussole des choses perdues	donné	foi_15	93_objets.txt:263	réussite
+obj_boussole	La boussole des choses perdues	donné	gal_03	40_president.txt:240	réussite
+obj_boussole	La boussole des choses perdues	requis	cha_15	93_objets.txt:393	flag:obj_boussole
+obj_boussole	La boussole des choses perdues	requis	gal_renv	40_president.txt:372	flag:obj_boussole
+obj_boussole	La boussole des choses perdues	retiré	gal_renv	40_president.txt:372	réussite
+obj_bouteille_mer	Une bouteille à la mer	donné	gco_02b	43_president_regions.txt:64	réussite
+obj_bouteille_mer	Une bouteille à la mer	donné	gco_02b	43_president_regions.txt:65	réussite
+obj_bouteille_mer	Une bouteille à la mer	requis	gco_02c	43_president_regions.txt:72	flag:obj_bouteille_mer
+obj_bouteille_mer	Une bouteille à la mer	requis	gco_03	43_president_regions.txt:89	flag:obj_bouteille_mer
+obj_bouteille_mer	Une bouteille à la mer	retiré	gco_03	43_president_regions.txt:89	réussite
+obj_braise	Une braise du dernier feu	donné	nui_60	93_objets.txt:322	réussite
+obj_braise	Une braise du dernier feu	requis	asc_22	93_objets.txt:349	flag:obj_braise
+obj_braise	Une braise du dernier feu	requis	nui_60	93_objets.txt:322	!flag:obj_braise
+obj_braise	Une braise du dernier feu	retiré	cha_70	93_objets.txt:356	réussite
+obj_braise	Une braise du dernier feu	retiré	cha_70	93_objets.txt:356	échec
+obj_brin_toile	Un brin de la Toile	donné	for_41	93_objets.txt:98	réussite
+obj_brin_toile	Un brin de la Toile	requis	for_22	93_objets.txt:92	!flag:obj_brin_toile
+obj_brin_toile	Un brin de la Toile	requis	nui_02	93_objets.txt:270	flag:obj_brin_toile
+obj_caillou_lune	Un caillou de Lune	donné	pla_04b	47_platine_long.txt:37	réussite
+obj_caillou_lune	Un caillou de Lune	requis	pla_06b	47_platine_long.txt:53	!flag:obj_caillou_lune
+obj_caillou_lune	Un caillou de Lune	requis	pla_06b	47_platine_long.txt:54	flag:obj_caillou_lune
+obj_caillou_lune	Un caillou de Lune	requis	plt_ana_c	47_platine_long.txt:249	flag:obj_caillou_lune
+obj_caillou_lune	Un caillou de Lune	retiré	plt_ana_c	47_platine_long.txt:249	réussite
+obj_carte	Une carte postale d'avant	donné	gal_04	40_president.txt:247	réussite
+obj_carte	Une carte postale d'avant	donné	hub_12	93_objets.txt:43	réussite
+obj_carte	Une carte postale d'avant	donné	hub_12	93_objets.txt:44	réussite
+obj_carte	Une carte postale d'avant	donné	hub_12	93_objets.txt:45	réussite
+obj_carte	Une carte postale d'avant	donné	plt_car3	47_platine_long.txt:314	réussite
+obj_carte	Une carte postale d'avant	requis	end_21	44_president_fin.txt:225	flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	end_21	44_president_fin.txt:226	!flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	gfo_03b	43_president_regions.txt:225	flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	hub_ret	93_objets.txt:36	!flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	neg_06	93_objets.txt:455	flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	plf_02	41_platine.txt:249	flag:obj_carte
+obj_carte	Une carte postale d'avant	requis	plt_car3	47_platine_long.txt:315	!flag:obj_carte
+obj_carte	Une carte postale d'avant	retiré	gfo_03b	43_president_regions.txt:225	réussite
+obj_carte	Une carte postale d'avant	retiré	neg_58	93_objets.txt:461	réussite
+obj_carte	Une carte postale d'avant	retiré	neg_58	93_objets.txt:461	échec
+obj_carte	Une carte postale d'avant	retiré	plf_02	41_platine.txt:249	réussite
+obj_casque	Un casque doré d'ouvrier	donné	asc_17	20_ascension.txt:116	réussite
+obj_casque	Un casque doré d'ouvrier	requis	cha_03	93_objets.txt:359	flag:obj_casque
+obj_cauchemar	Le cauchemar de Platine, en bocal	donné	pso_cauch	42_ploum.txt:277	arrivée
+obj_cauchemar	Le cauchemar de Platine, en bocal	donné	son_42	93_objets.txt:115	réussite
+obj_cauchemar	Le cauchemar de Platine, en bocal	requis	neg_16	93_objets.txt:465	flag:obj_cauchemar
+obj_cauchemar	Le cauchemar de Platine, en bocal	requis	pcm_vendu	42_ploum.txt:155	flag:obj_cauchemar
+obj_cauchemar	Le cauchemar de Platine, en bocal	requis	pso_04	42_ploum.txt:251	flag:obj_cauchemar
+obj_cauchemar	Le cauchemar de Platine, en bocal	requis	pso_04	42_ploum.txt:253	!flag:obj_cauchemar
+obj_cauchemar	Le cauchemar de Platine, en bocal	requis	son_32	93_objets.txt:109	!flag:obj_cauchemar
+obj_cauchemar	Le cauchemar de Platine, en bocal	retiré	neg_52	93_objets.txt:480	réussite
+obj_cauchemar	Le cauchemar de Platine, en bocal	retiré	neg_52	93_objets.txt:480	échec
+obj_cauchemar	Le cauchemar de Platine, en bocal	retiré	pcm_vendu	42_ploum.txt:155	réussite
+obj_cle_grue	La clé de la grue numéro 14	donné	cha_12	93_objets.txt:386	réussite
+obj_cle_grue	La clé de la grue numéro 14	requis	cha_12	93_objets.txt:386	!flag:obj_cle_grue
+obj_cle_grue	La clé de la grue numéro 14	requis	cha_15	93_objets.txt:394	flag:obj_cle_grue
+obj_cle_grue	La clé de la grue numéro 14	retiré	cha_69	93_objets.txt:432	réussite
+obj_cle_grue	La clé de la grue numéro 14	retiré	cha_69	93_objets.txt:432	échec
+obj_cle_remontage	Une clé de remontage	donné	com_15	17_comete.txt:120	réussite
+obj_cle_remontage	Une clé de remontage	donné	com_15	17_comete.txt:121	réussite
+obj_cle_remontage	Une clé de remontage	donné	com_15	17_comete.txt:122	réussite
+obj_cle_remontage	Une clé de remontage	requis	com_16	17_comete.txt:125	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	com_16	17_comete.txt:126	!flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	com_19	17_comete.txt:150	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	foi_09	18_foire.txt:80	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	nui_14	19_nuit.txt:100	!flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	nui_14	19_nuit.txt:97	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	nui_14	19_nuit.txt:99	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	nui_30	19_nuit.txt:114	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	requis	nui_30	19_nuit.txt:115	flag:obj_cle_remontage
+obj_cle_remontage	Une clé de remontage	retiré	nui_14	19_nuit.txt:99	réussite
+obj_cle_remontage	Une clé de remontage	retiré	nui_14	19_nuit.txt:99	échec
+obj_cle_remontage	Une clé de remontage	retiré	nui_30	19_nuit.txt:115	réussite
+obj_cle_remontage	Une clé de remontage	retiré	nui_30	19_nuit.txt:115	échec
+obj_coquillage	Le coquillage à l'envers	donné	cot_40	93_objets.txt:57	réussite
+obj_coquillage	Le coquillage à l'envers	donné	cot_40	93_objets.txt:58	réussite
+obj_coquillage	Le coquillage à l'envers	requis	cot_02	93_objets.txt:50	!flag:obj_coquillage
+obj_coquillage	Le coquillage à l'envers	requis	nui_02	93_objets.txt:269	flag:obj_coquillage
+obj_coquille	Un éclat de la coquille de Croissant	donné	nui_11	93_objets.txt:317	arrivée
+obj_coquille	Un éclat de la coquille de Croissant	requis	neg_16	93_objets.txt:468	flag:obj_coquille
+obj_coquille	Un éclat de la coquille de Croissant	retiré	neg_57	93_objets.txt:498	réussite
+obj_coquille	Un éclat de la coquille de Croissant	retiré	neg_57	93_objets.txt:498	échec
+obj_coquille_perline	Le coquillage de Perline	donné	pne_ba2	49_pistil_encre.txt:76	réussite
+obj_coquille_perline	Le coquillage de Perline	requis	pne_ba3	49_pistil_encre.txt:81	flag:obj_coquille_perline
+obj_coquille_perline	Le coquillage de Perline	requis	pno_02	49_pistil_encre.txt:364	flag:obj_coquille_perline
+obj_corde_lyre	La corde basse de la Lyre	donné	ply_03	48_ploum_long.txt:33	réussite
+obj_corde_lyre	La corde basse de la Lyre	requis	pcm_09	48_ploum_long.txt:151	flag:obj_corde_lyre
+obj_corde_lyre	La corde basse de la Lyre	requis	pha_05	48_ploum_long.txt:277	flag:obj_corde_lyre
+obj_corde_lyre	La corde basse de la Lyre	requis	ply_06	48_ploum_long.txt:59	flag:obj_corde_lyre
+obj_corde_lyre	La corde basse de la Lyre	requis	ply_07	48_ploum_long.txt:67	flag:obj_corde_lyre
+obj_corde_lyre	La corde basse de la Lyre	retiré	pha_05	48_ploum_long.txt:277	réussite
+obj_corne_brume	La corne de brume	donné	nua_17	16_nuages.txt:146	réussite
+obj_corne_brume	La corne de brume	requis	nui_02	19_nuit.txt:43	flag:obj_corne_brume
+obj_couverture	La couverture de pierre	donné	hub_11	93_objets.txt:32	réussite
+obj_couverture	La couverture de pierre	requis	hub_04	93_objets.txt:21	!flag:obj_couverture
+obj_couverture	La couverture de pierre	requis	nui_10	93_objets.txt:313	flag:obj_couverture
+obj_couverture	La couverture de pierre	requis	nui_10	93_objets.txt:314	flag:obj_couverture
+obj_couverture	La couverture de pierre	retiré	nui_10	93_objets.txt:314	réussite
+obj_couverture	La couverture de pierre	retiré	nui_10	93_objets.txt:314	échec
+obj_croc_argent	Le croc d'argent	donné	lyc_07	08_barnabe.txt:43	arrivée
+obj_croc_argent	Le croc d'argent	requis	fin_01	23_final.txt:15	flag:obj_croc_argent
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	donné	plu_06	48_ploum_long.txt:100	réussite
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	donné	plu_06	48_ploum_long.txt:101	réussite
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	requis	pch_01	51_ploum_repliques.txt:235	flag:obj_dessin_lune
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	requis	pmo_bur	42_ploum.txt:425	flag:obj_dessin_lune
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	requis	pnu_00d	50_ploum_long2.txt:192	flag:obj_dessin_lune
+obj_dessin_lune	Le dessin de l'enfant Lichenaute	requis	pnu_00d	50_ploum_long2.txt:193	flag:obj_dessin_lune
+obj_echarpe	Une écharpe de lumière de Lune	donné	plt_ana_b	47_platine_long.txt:242	réussite
+obj_echarpe	Une écharpe de lumière de Lune	requis	plf_01b	47_platine_long.txt:333	flag:obj_echarpe
+obj_echarpe	Une écharpe de lumière de Lune	requis	plt_nuit	41_platine.txt:97	flag:obj_echarpe
+obj_echo	Un écho en bouteille	donné	gpr_06	45_president_regions2.txt:75	réussite
+obj_echo	Un écho en bouteille	donné	gpr_06	45_president_regions2.txt:76	réussite
+obj_echo	Un écho en bouteille	donné	pcm_02	42_ploum.txt:97	réussite
+obj_echo	Un écho en bouteille	donné	pro_41	93_objets.txt:149	réussite
+obj_echo	Un écho en bouteille	requis	cha_27	93_objets.txt:435	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	gmo_02	44_president_fin.txt:315	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	pcm_03	42_ploum.txt:102	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	pcm_03	42_ploum.txt:106	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	pcm_06	42_ploum.txt:144	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	pcm_vendu	42_ploum.txt:154	flag:obj_echo
+obj_echo	Un écho en bouteille	requis	pro_33	93_objets.txt:142	!flag:obj_echo
+obj_echo	Un écho en bouteille	retiré	cha_64	93_objets.txt:440	réussite
+obj_echo	Un écho en bouteille	retiré	cha_64	93_objets.txt:440	échec
+obj_echo	Un écho en bouteille	retiré	gmo_02	44_president_fin.txt:315	réussite
+obj_echo	Un écho en bouteille	retiré	pcm_vendu	42_ploum.txt:154	réussite
+obj_eclipse	Un éclat d'éclipse	donné	com_40	93_objets.txt:243	réussite
+obj_eclipse	Un éclat d'éclipse	donné	pcm_07	48_ploum_long.txt:138	réussite
+obj_eclipse	Un éclat d'éclipse	requis	asc_01	94_vesperine.txt:26	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	asc_04	93_objets.txt:343	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	cap_01	94_vesperine.txt:20	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	com_13	93_objets.txt:232	!flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	com_14	93_objets.txt:235	!flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	com_15	93_objets.txt:247	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	cot_01	94_vesperine.txt:14	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	for_01	94_vesperine.txt:17	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	hub_ret	94_vesperine.txt:11	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	nua_01	94_vesperine.txt:23	flag:obj_eclipse
+obj_eclipse	Un éclat d'éclipse	requis	pch_01	42_ploum.txt:383	flag:obj_eclipse
+obj_etoile	Une étoile filante d'occasion	donné	com_19	93_objets.txt:250	réussite
+obj_etoile	Une étoile filante d'occasion	requis	com_19	93_objets.txt:250	!flag:obj_etoile
+obj_etoile	Une étoile filante d'occasion	requis	fin_01	93_objets.txt:504	flag:obj_etoile
+obj_etoile	Une étoile filante d'occasion	retiré	fin_32	93_objets.txt:516	réussite
+obj_etoile	Une étoile filante d'occasion	retiré	fin_32	93_objets.txt:516	échec
+obj_etoile	Une étoile filante d'occasion	retiré	fin_32	93_objets.txt:517	réussite
+obj_facette	Une facette du Docteur Quartz	donné	gpr_09	45_president_regions2.txt:108	réussite
+obj_facette	Une facette du Docteur Quartz	donné	gpr_09	45_president_regions2.txt:108	échec
+obj_facette	Une facette du Docteur Quartz	donné	gpr_09	45_president_regions2.txt:109	réussite
+obj_facette	Une facette du Docteur Quartz	donné	plt_bri_d	47_platine_long.txt:218	réussite
+obj_facette	Une facette du Docteur Quartz	donné	pro_20	93_objets.txt:139	réussite
+obj_facette	Une facette du Docteur Quartz	requis	cha_11	93_objets.txt:377	flag:obj_facette
+obj_facette	Une facette du Docteur Quartz	requis	gmo_02	44_president_fin.txt:316	flag:obj_facette
+obj_facette	Une facette du Docteur Quartz	requis	plf_02	41_platine.txt:248	flag:obj_facette
+obj_facette	Une facette du Docteur Quartz	requis	pro_20	93_objets.txt:139	!flag:obj_facette
+obj_facette	Une facette du Docteur Quartz	retiré	gmo_02	44_president_fin.txt:316	réussite
+obj_facette	Une facette du Docteur Quartz	retiré	plf_02	41_platine.txt:248	réussite
+obj_fil_lune	Un fil de lumière de Lune	donné	gal_01b	46_president_ajouts.txt:52	réussite
+obj_fil_lune	Un fil de lumière de Lune	donné	gal_01b	46_president_ajouts.txt:53	réussite
+obj_fil_lune	Un fil de lumière de Lune	donné	gal_01b	46_president_ajouts.txt:53	échec
+obj_fil_lune	Un fil de lumière de Lune	requis	gal_nuit2	46_president_ajouts.txt:114	flag:obj_fil_lune
+obj_fil_lune	Un fil de lumière de Lune	requis	gfo_03b	43_president_regions.txt:226	flag:obj_fil_lune
+obj_fil_lune	Un fil de lumière de Lune	requis	gmo_01	44_president_fin.txt:304	flag:obj_fil_lune
+obj_fil_lune	Un fil de lumière de Lune	retiré	gfo_03b	43_president_regions.txt:226	réussite
+obj_fil_lune	Un fil de lumière de Lune	retiré	gmo_01	44_president_fin.txt:304	réussite
+obj_fleur_epine	La fleur de Madame Épine	donné	cap_12	93_objets.txt:179	réussite
+obj_fleur_epine	La fleur de Madame Épine	requis	cap_12	93_objets.txt:179	!flag:obj_fleur_epine
+obj_fleur_epine	La fleur de Madame Épine	requis	neg_16	93_objets.txt:467	flag:obj_fleur_epine
+obj_fleur_epine	La fleur de Madame Épine	retiré	neg_56	93_objets.txt:492	réussite
+obj_fleur_epine	La fleur de Madame Épine	retiré	neg_56	93_objets.txt:492	échec
+obj_gamelle	Une gamelle de soupe de comète	donné	plu_05	48_ploum_long.txt:93	réussite
+obj_gamelle	Une gamelle de soupe de comète	requis	plu_07	51_ploum_repliques.txt:8	flag:obj_gamelle
+obj_gamelle	Une gamelle de soupe de comète	requis	pnu_00	48_ploum_long.txt:315	flag:obj_gamelle
+obj_gamelle	Une gamelle de soupe de comète	requis	pnu_00	48_ploum_long.txt:320	flag:obj_gamelle
+obj_gamelle	Une gamelle de soupe de comète	requis	pnu_00	51_ploum_repliques.txt:198	flag:obj_gamelle
+obj_gamelle	Une gamelle de soupe de comète	retiré	pnu_00	48_ploum_long.txt:320	réussite
+obj_goutte	La dernière goutte de Dame Ondée	donné	nua_40	93_objets.txt:199	réussite
+obj_goutte	La dernière goutte de Dame Ondée	requis	cha_15	93_objets.txt:391	flag:obj_goutte
+obj_goutte	La dernière goutte de Dame Ondée	requis	nua_07	93_objets.txt:193	!flag:obj_goutte
+obj_goutte	La dernière goutte de Dame Ondée	retiré	cha_66	93_objets.txt:413	réussite
+obj_goutte	La dernière goutte de Dame Ondée	retiré	cha_66	93_objets.txt:413	échec
+obj_goutte_ondee	La dernière goutte de Dame Ondée	donné	pha_goutte	48_ploum_long.txt:242	réussite
+obj_goutte_ondee	La dernière goutte de Dame Ondée	requis	pch_01	42_ploum.txt:382	flag:obj_goutte_ondee
+obj_goutte_ondee	La dernière goutte de Dame Ondée	retiré	pch_01	42_ploum.txt:382	réussite
+obj_grain_axe	Un grain de l'Axe	donné	pne_br3	49_pistil_encre.txt:138	réussite
+obj_grain_axe	Un grain de l'Axe	donné	pne_br3	49_pistil_encre.txt:139	réussite
+obj_grain_axe	Un grain de l'Axe	requis	pnc_c2	49_pistil_encre.txt:265	flag:obj_grain_axe
+obj_grain_axe	Un grain de l'Axe	retiré	pnc_c2	49_pistil_encre.txt:265	réussite
+obj_graine_lune	Une graine de chêne	donné	for_36	12_foret.txt:240	réussite
+obj_graine_lune	Une graine de chêne	requis	cha_15	21_chantier.txt:111	flag:obj_graine_lune
+obj_graine_lune	Une graine de chêne	retiré	cha_52	24_suites_v3.txt:109	réussite
+obj_graine_lune	Une graine de chêne	retiré	cha_52	24_suites_v3.txt:109	échec
+obj_herbier	L'herbier des Belles-de-Nuit	donné	ana_10	09_anatole.txt:66	arrivée
+obj_herbier	L'herbier des Belles-de-Nuit	requis	neg_16	22_negociation.txt:137	flag:obj_herbier
+obj_herbier	L'herbier des Belles-de-Nuit	requis	nua_18	16_nuages.txt:156	flag:obj_herbier
+obj_herbier	L'herbier des Belles-de-Nuit	requis	nui_59	19_nuit.txt:278	flag:obj_herbier
+obj_herbier	L'herbier des Belles-de-Nuit	retiré	neg_46	24_suites_v3.txt:153	réussite
+obj_herbier	L'herbier des Belles-de-Nuit	retiré	neg_46	24_suites_v3.txt:153	échec
+obj_laissez_passer	Le laissez-passer du Conseil	donné	plu_03b	48_ploum_long.txt:402	réussite
+obj_laissez_passer	Le laissez-passer du Conseil	donné	plu_lp	48_ploum_long.txt:409	réussite
+obj_laissez_passer	Le laissez-passer du Conseil	requis	pha_03	48_ploum_long.txt:252	flag:obj_laissez_passer
+obj_laissez_passer	Le laissez-passer du Conseil	requis	pmo_03	48_ploum_long.txt:497	flag:obj_laissez_passer
+obj_lanterne	La lanterne-méduse	donné	cot_41	93_objets.txt:67	réussite
+obj_lanterne	La lanterne-méduse	requis	cha_15	93_objets.txt:389	flag:obj_lanterne
+obj_lanterne	La lanterne-méduse	requis	cot_09	93_objets.txt:61	!flag:obj_lanterne
+obj_lettre_platine	Une lettre à la Lune	donné	plt_cot_e	47_platine_long.txt:124	réussite
+obj_lettre_platine	Une lettre à la Lune	requis	plf_02	41_platine.txt:246	flag:obj_lettre_platine
+obj_lettre_platine	Une lettre à la Lune	retiré	plf_02	41_platine.txt:246	réussite
+obj_lettre_vent	La lettre du Vent	donné	gnu_02b	46_president_ajouts.txt:90	réussite
+obj_lettre_vent	La lettre du Vent	donné	gri_01	06_griselidis.txt:7	arrivée
+obj_lettre_vent	La lettre du Vent	requis	fin_01	23_final.txt:14	flag:obj_lettre_vent
+obj_lettre_vent	La lettre du Vent	requis	gal_nuit2	46_president_ajouts.txt:115	flag:obj_lettre_vent
+obj_lettre_vent	La lettre du Vent	requis	gmo_01	44_president_fin.txt:303	flag:obj_lettre_vent
+obj_lettre_vent	La lettre du Vent	requis	nui_02	19_nuit.txt:44	flag:obj_lettre_vent
+obj_lettre_vent	La lettre du Vent	retiré	fin_24	24_suites_v3.txt:187	réussite
+obj_lettre_vent	La lettre du Vent	retiré	fin_24	24_suites_v3.txt:187	échec
+obj_lettre_vent	La lettre du Vent	retiré	gmo_01	44_president_fin.txt:303	réussite
+obj_longue_vue	La longue-vue de la mouette	donné	gnu_10b	46_president_ajouts.txt:169	réussite
+obj_longue_vue	La longue-vue de la mouette	donné	gnu_10b	46_president_ajouts.txt:170	réussite
+obj_longue_vue	La longue-vue de la mouette	donné	pct_05	48_ploum_long.txt:193	réussite
+obj_longue_vue	La longue-vue de la mouette	donné	pct_lv	48_ploum_long.txt:201	réussite
+obj_longue_vue	La longue-vue de la mouette	requis	gfi_01	44_president_fin.txt:23	flag:obj_longue_vue
+obj_longue_vue	La longue-vue de la mouette	requis	pnu_00b	48_ploum_long.txt:327	flag:obj_longue_vue
+obj_longue_vue	La longue-vue de la mouette	requis	pnu_00b	48_ploum_long.txt:328	!flag:obj_longue_vue
+obj_longue_vue	La longue-vue de la mouette	retiré	gfi_01	44_president_fin.txt:23	réussite
+obj_maille_lune	Une maille de lumière de Lune	donné	pne_me3	49_pistil_encre.txt:111	réussite
+obj_maille_lune	Une maille de lumière de Lune	donné	pne_me3	49_pistil_encre.txt:112	réussite
+obj_maille_lune	Une maille de lumière de Lune	requis	pnc_a2	49_pistil_encre.txt:229	flag:obj_maille_lune
+obj_maille_lune	Une maille de lumière de Lune	retiré	pnc_a2	49_pistil_encre.txt:229	réussite
+obj_metre	Le mètre ruban du petit robot	donné	for_33	93_objets.txt:101	réussite
+obj_metre	Le mètre ruban du petit robot	requis	cha_04	93_objets.txt:368	flag:obj_metre
+obj_metre	Le mètre ruban du petit robot	requis	for_33	93_objets.txt:101	!flag:obj_metre
+obj_miroir_platine	Le miroir d'enfant de Platine	donné	com_12	17_comete.txt:97	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	donné	com_12	17_comete.txt:98	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	donné	com_12	17_comete.txt:99	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	donné	pcm_04	42_ploum.txt:125	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	donné	pcr_01	42_ploum.txt:177	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_13	17_comete.txt:102	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_13	17_comete.txt:103	!flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_14	17_comete.txt:110	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_14	17_comete.txt:111	!flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_15	17_comete.txt:119	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_15	17_comete.txt:121	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_19	17_comete.txt:150	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	neg_16	22_negociation.txt:134	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	neg_42	24_suites_v3.txt:137	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	nui_48	19_nuit.txt:187	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	nui_49	19_nuit.txt:195	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	pcr_01	42_ploum.txt:177	!flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	pmo_bur	42_ploum.txt:423	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	retiré	com_15	17_comete.txt:121	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	retiré	neg_43	24_suites_v3.txt:145	réussite
+obj_miroir_platine	Le miroir d'enfant de Platine	retiré	neg_43	24_suites_v3.txt:145	échec
+obj_mouton	Le mouton numéro un	donné	son_41	93_objets.txt:124	réussite
+obj_mouton	Le mouton numéro un	donné	son_41	93_objets.txt:125	réussite
+obj_mouton	Le mouton numéro un	requis	nui_02	93_objets.txt:271	flag:obj_mouton
+obj_mouton	Le mouton numéro un	requis	son_35	93_objets.txt:118	!flag:obj_mouton
+obj_neveu_galet	Le neveu du Président	donné	cap_42	93_objets.txt:188	réussite
+obj_neveu_galet	Le neveu du Président	donné	gpa_12	40_president.txt:129	réussite
+obj_neveu_galet	Le neveu du Président	requis	cap_17	93_objets.txt:182	!flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	end_20	44_president_fin.txt:217	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	end_21	44_president_fin.txt:227	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	end_22	44_president_fin.txt:245	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	end_33	44_president_fin.txt:396	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	end_34	44_president_fin.txt:412	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	gfi_mar	44_president_fin.txt:77	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	pro_18	93_objets.txt:152	flag:obj_neveu_galet
+obj_neveu_galet	Le neveu du Président	requis	pro_19	93_objets.txt:155	flag:obj_neveu_galet
+obj_oreiller	L'oreiller du Marchand de Sommeil	donné	son_21	93_objets.txt:106	réussite
+obj_oreiller	L'oreiller du Marchand de Sommeil	requis	fin_01	93_objets.txt:503	flag:obj_oreiller
+obj_oreiller	L'oreiller du Marchand de Sommeil	retiré	fin_30	93_objets.txt:509	réussite
+obj_oreiller	L'oreiller du Marchand de Sommeil	retiré	fin_30	93_objets.txt:510	réussite
+obj_piquet	Le piquet de la parcelle 412	donné	plt_cot_g	47_platine_long.txt:107	réussite
+obj_piquet	Le piquet de la parcelle 412	requis	plf_02	41_platine.txt:247	flag:obj_piquet
+obj_piquet	Le piquet de la parcelle 412	retiré	plf_02	41_platine.txt:247	réussite
+obj_plume	Une plume du héron du phare	donné	nua_42	93_objets.txt:218	réussite
+obj_plume	Une plume du héron du phare	requis	nua_18	93_objets.txt:212	!flag:obj_plume
+obj_plume	Une plume du héron du phare	requis	nui_02	93_objets.txt:272	flag:obj_plume
+obj_portrait	Le portrait de face	donné	gfo_02b	46_president_ajouts.txt:151	réussite
+obj_portrait	Le portrait de face	requis	gfi_ech	44_president_fin.txt:112	flag:obj_portrait
+obj_portrait	Le portrait de face	retiré	gfi_ech	44_president_fin.txt:112	réussite
+obj_poussiere_comete	Une poignée de poussière de comète	donné	pne_zo3	49_pistil_encre.txt:165	réussite
+obj_poussiere_comete	Une poignée de poussière de comète	donné	pne_zo3	49_pistil_encre.txt:166	réussite
+obj_poussiere_comete	Une poignée de poussière de comète	requis	pnc_d2	49_pistil_encre.txt:283	flag:obj_poussiere_comete
+obj_poussiere_comete	Une poignée de poussière de comète	retiré	pnc_d2	49_pistil_encre.txt:283	réussite
+obj_registre_pluie	La page du registre	donné	gnu_06	45_president_regions2.txt:211	réussite
+obj_registre_pluie	La page du registre	donné	gnu_06	45_president_regions2.txt:212	réussite
+obj_registre_pluie	La page du registre	requis	gnu_09	45_president_regions2.txt:238	flag:obj_registre_pluie
+obj_registre_pluie	La page du registre	requis	gnu_09	45_president_regions2.txt:242	flag:obj_registre_pluie
+obj_registre_pluie	La page du registre	retiré	gnu_09	45_president_regions2.txt:242	réussite
+obj_registre_pluie	La page du registre	retiré	gnu_09	45_president_regions2.txt:242	échec
+obj_sablier	Le sablier qui remonte	donné	cot_42	93_objets.txt:76	réussite
+obj_sablier	Le sablier qui remonte	requis	cot_36	93_objets.txt:70	!flag:obj_sablier
+obj_sablier	Le sablier qui remonte	requis	neg_16	93_objets.txt:464	flag:obj_sablier
+obj_sablier	Le sablier qui remonte	retiré	neg_50	93_objets.txt:474	réussite
+obj_sablier	Le sablier qui remonte	retiré	neg_50	93_objets.txt:474	échec
+obj_tampon_vu	Le tampon « VU »	donné	cap_40	93_objets.txt:176	réussite
+obj_tampon_vu	Le tampon « VU »	donné	gpa_14	40_president.txt:147	réussite
+obj_tampon_vu	Le tampon « VU »	requis	cap_03	93_objets.txt:169	!flag:obj_tampon_vu
+obj_tampon_vu	Le tampon « VU »	requis	gal_renv	40_president.txt:371	flag:obj_tampon_vu
+obj_tampon_vu	Le tampon « VU »	requis	neg_16	93_objets.txt:466	flag:obj_tampon_vu
+obj_tampon_vu	Le tampon « VU »	retiré	gal_renv	40_president.txt:371	réussite
+obj_tampon_vu	Le tampon « VU »	retiré	neg_54	93_objets.txt:486	réussite
+obj_tampon_vu	Le tampon « VU »	retiré	neg_54	93_objets.txt:486	échec
+obj_ticket_trouve	Ticket des objets trouvés n°1200	donné	plu_04	48_ploum_long.txt:78	réussite
+obj_ticket_trouve	Ticket des objets trouvés n°1200	donné	plu_04	48_ploum_long.txt:79	réussite
+obj_ticket_trouve	Ticket des objets trouvés n°1200	requis	pcm_vendu	42_ploum.txt:156	flag:obj_ticket_trouve
+obj_ticket_trouve	Ticket des objets trouvés n°1200	requis	plu_route	51_ploum_repliques.txt:22	flag:obj_ticket_trouve
+obj_ticket_zero	Le ticket numéro zéro	donné	cap_41	93_objets.txt:166	réussite
+obj_ticket_zero	Le ticket numéro zéro	donné	gpa_13	40_president.txt:140	réussite
+obj_ticket_zero	Le ticket numéro zéro	requis	cap_02	93_objets.txt:160	!flag:obj_ticket_zero
+obj_ticket_zero	Le ticket numéro zéro	requis	gal_renv	40_president.txt:370	flag:obj_ticket_zero
+obj_ticket_zero	Le ticket numéro zéro	requis	gpa_13	40_president.txt:138	!flag:obj_ticket_zero
+obj_ticket_zero	Le ticket numéro zéro	requis	gpa_13	40_president.txt:140	!flag:obj_ticket_zero
+obj_ticket_zero	Le ticket numéro zéro	requis	neg_01	93_objets.txt:445	flag:obj_ticket_zero
+obj_ticket_zero	Le ticket numéro zéro	retiré	gal_renv	40_president.txt:370	réussite
+obj_ticket_zero	Le ticket numéro zéro	retiré	neg_55	93_objets.txt:452	réussite
+obj_voeu_occasion	Un vœu d'occasion	donné	pcm_08b	50_ploum_long2.txt:46	réussite
+obj_voeu_occasion	Un vœu d'occasion	requis	pnu_01d	50_ploum_long2.txt:101	flag:obj_voeu_occasion
+obj_voeu_occasion	Un vœu d'occasion	requis	pnu_01d	50_ploum_long2.txt:102	flag:obj_voeu_occasion
+obj_voeu_occasion	Un vœu d'occasion	retiré	pnu_01d	50_ploum_long2.txt:102	réussite
