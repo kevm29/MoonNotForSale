@@ -31,7 +31,7 @@ C'est un dessin d'enfant. Une Lune ronde et jaune, dans un ciel bleu, au-dessus 
 
 @pla_04b
 !title: Sur la Lune
-Avant le crochet, tu veux voir. Tu descends sur la Lune avec Bobinot, dans une navette de chantier qui sent l'huile. Tu poses le pied dans la poussière. Elle est blanche, fine comme de la farine, et froide. Elle ne fait aucun bruit sous ta chaussure vernie.
+Le jour du crochet, tu veux voir. Tu descends sur la Lune avec Bobinot, dans une navette de chantier qui sent l'huile. Tu poses le pied dans la poussière. Elle est blanche, fine comme de la farine, et froide. Elle ne fait aucun bruit sous ta chaussure vernie.
 Au-dessus, la Terre. Bleue, énorme, qui te regarde. Tu ne l'avais jamais vue d'ici. D'ici, ce n'est plus un marché. C'est une boule.
 Bobinot plante un piquet. « Ici, Monsieur, le crochet. » Ses ouvriers déroulent des câbles. Tu te baisses. Tu ramasses un petit caillou blanc, rond, léger. Personne ne te voit faire. Tu ne sais pas pourquoi tu l'as fait. Tu n'as jamais rien ramassé : tu achètes.
 * pla_04c coe9 | Garder le caillou dans ta poche, sans le déclarer | Tu le glisses dans ta poche de gilet. Il est froid contre toi. Krâmm, s'il était là, te dirait qu'il faut l'inscrire à l'inventaire. Il n'est pas là. Tu gardes le caillou. C'est la première chose que tu possèdes sans l'avoir payée. | Tu le glisses dans ta poche, puis tu le ressors, puis tu le reposes par terre. On ne prend pas sans payer. Tu remontes dans la navette les mains vides. | +flag:obj_caillou_lune coe+1 |
@@ -49,7 +49,7 @@ Zéphyrin reste après la réunion, ses moustaches à ressort qui frémissent. I
 Le soir, tu dînes seul, comme toujours, à une table de quarante couverts. Les trente-neuf autres assiettes sont dressées aussi. On ne sait jamais. Personne ne vient. Personne n'est jamais venu.
 Le grand miroir d'or au bout de la salle s'allume : le conseil d'administration, douze Aldébaraniens qui bruissent, vient te féliciter. « Une Lune, Monsieur le Président ! Les actions montent ! » Ils brillent beaucoup. Tu brilles aussi, par politesse.
 Puis ils s'éteignent, et tu es seul avec trente-neuf assiettes.
-* pla_06c coe9 | Mettre le caillou de Lune sur l'assiette d'en face | Tu sors le petit caillou blanc de ta poche et tu le poses sur l'assiette d'en face, comme un invité. Tu dînes avec lui. Il ne dit rien. C'est le meilleur dîner que tu aies fait depuis des années. Tu te trouves ridicule. Tu continues. | Tu poses le caillou en face de toi, puis tu as honte, et tu le remets dans ta poche. | coe+1 |
+* pla_06c coe9 ?flag:obj_caillou_lune | Mettre le caillou de Lune sur l'assiette d'en face | Tu sors le petit caillou blanc de ta poche et tu le poses sur l'assiette d'en face, comme un invité. Tu dînes avec lui. Il ne dit rien. C'est le meilleur dîner que tu aies fait depuis des années. Tu te trouves ridicule. Tu continues. | Tu poses le caillou en face de toi, puis tu as honte, et tu le remets dans ta poche. | coe+1 |
 * pla_06c ?!flag:obj_caillou_lune | Compter les assiettes vides | Trente-neuf. Il y en a toujours trente-neuf. Tu pourrais en faire enlever. Tu ne le fais jamais. | |
 * pla_06c ?flag:obj_caillou_lune | Compter les assiettes vides | Trente-neuf. Dans ta poche, le petit caillou de Lune pèse un peu. Tu ne le sors pas. | |
 
@@ -82,7 +82,7 @@ Le trou est rond. Il n'est pas très grand.
 
 @plt_cot_b
 !title: Le Ressac Triste
-Au bout de la plage, un bistrot sur pilotis, à moitié dans le vide puisque la mer est partie. Au comptoir, un vieux pêcheur fait d'eau de mer trouble boit de l'eau douce pour se diluer. Bartholomé Vasequeuse. Il voit tes feuilles d'or.
+Au comptoir du Ressac Triste, à moitié dans le vide puisque la mer est partie, un vieux pêcheur fait d'eau de mer trouble boit de l'eau douce pour se diluer. Bartholomé Vasequeuse. Il voit tes feuilles d'or.
 « Un Aldébaranien. Ici. » Il crache dans sa soucoupe. « C'est vous qui nous prenez la Lune ? » Tu dis que non. C'est ton deuxième mensonge. Il est plus facile que le premier. Ça t'inquiète.
 « Ma femme est partie avec la grande marée, il y a vingt ans. Perline. Elle est là-haut, en poussière d'écume. Si la Lune part, elle part avec. »
 ?flag:pl_ecope Il regarde ton costume trempé, tes manches pleines de sable. « Vous avez écopé, vous ? » Il te pousse un verre d'eau douce, sans rien dire.
@@ -91,11 +91,10 @@ Au bout de la plage, un bistrot sur pilotis, à moitié dans le vide puisque la 
 
 @plt_cot_c
 !title: Le Chœur des Méduses
-Au pied de la vague immense qui ne retombe pas, des milliers de méduses lumineuses se tiennent par les filaments. Elles retiennent la vague de toutes leurs forces, et elles chantent d'une seule voix.
+Au pied de la vague, des milliers de méduses lumineuses se tiennent par les filaments. Elles retiennent la vague de toutes leurs forces, et elles chantent d'une seule voix.
 « ELLE NE VEUT PAS PARTIR. ELLE NOUS L'A DIT, À NOUS, LA MER. ELLE NE VEUT PAS PARTIR. »
 Tu es fait de feuilles d'or. L'or vibre aux chansons. Tu les sens chanter dans tout ton corps, de la plante des pieds jusqu'au chapeau.
 ~bartho: Bartholomé enlève son bonnet. Il ne dit rien. Il est fait d'eau : il chante un peu avec elles, sans le vouloir.
-~ondine: Ondine écoute, les yeux fermés. « Je les entendais de mon phare, la nuit. Je croyais qu'elles chantaient pour moi. »
 * plt_cot_i coe9 | Écouter jusqu'au bout, sans bouger | La chanson ne finit pas. Elle recommence. Tu restes. Tes feuilles vibrent tant que tu as l'impression de chanter avec elles. Tu n'as jamais chanté. Tu repars avec la chanson dedans. Tu ne pourras plus la sortir. | Tu écoutes, mais une vibration trop forte détache une feuille de ton épaule. Elle tombe dans l'eau. Une méduse l'attrape et la garde. Tu repars un peu moins doré. | +flag:pl_emo_meduses |
 * plt_cot_i rus9 | Te boucher les oreilles | Tu te les bouches. Ça ne sert à rien : tu n'entends pas avec tes oreilles, tu entends avec ton or. Tu chantes de partout. Tu pars en courant, et la chanson court avec toi. | Tu te bouches les oreilles. La chanson passe quand même, plus fort. | +flag:pl_emo_meduses |
 
@@ -104,8 +103,8 @@ Tu es fait de feuilles d'or. L'or vibre aux chansons. Tu les sens chanter dans t
 Là où la mer devrait être, s'étend le fond. Personne ne l'avait jamais vu au soleil. Des forêts d'algues couchées, des villes de crabes vides, des épaves si vieilles qu'elles ont oublié leur nom.
 Et des piquets dorés, partout, avec des fanions : « Parcelle 412. Réservée. Compagnie Foncière d'Aldébaran. Lune-sur-Mer, résidence. Vue sur rien. »
 Ce sont tes piquets. Tu as signé le plan. Tu ne savais pas qu'il y avait des crabes.
-* plt_cot_k coe9 | Arracher le piquet de la parcelle 412 | Tu l'arraches. Il vient facilement : il n'y a rien pour le retenir, dans le sable sec. Un crabe sort de dessous, te regarde, et rentre dans sa coquille vide. Tu tiens ton propre piquet dans la main. Tu le gardes. Tu ne sais pas pourquoi. | Tu tires. Le piquet résiste : tes ouvriers l'ont bien planté. Tu le laisses. Tu as été bien servi. | +flag:obj_piquet coe+1 |
-* plt_cot_k | Compter les parcelles | Tu comptes. Quatre cent douze. Tu les as toutes vendues sur plan, avant de les voir. Tu continues de compter, par habitude. Tu t'arrêtes à un crabe. | |
+* plt_cot_d coe9 | Arracher le piquet de la parcelle 412 | Tu l'arraches. Il vient facilement : il n'y a rien pour le retenir, dans le sable sec. Un crabe sort de dessous, te regarde, et rentre dans sa coquille vide. Tu tiens ton propre piquet dans la main. Tu le gardes. Tu ne sais pas pourquoi. | Tu tires. Le piquet résiste : tes ouvriers l'ont bien planté. Tu le laisses. Tu as été bien servi. | +flag:obj_piquet coe+1 |
+* plt_cot_d | Compter les parcelles | Tu comptes. Quatre cent douze. Tu les as toutes vendues sur plan, avant de les voir. Tu continues de compter, par habitude. Tu t'arrêtes à un crabe. | |
 
 @plt_cot_d
 !title: La criée
@@ -121,7 +120,7 @@ En redescendant du phare, tu t'assois sur la dernière marche. Tu as un stylo. T
 Tu prends une feuille de ton carnet de poèmes. Tu écris, en haut : « Chère Lune. » Tu t'arrêtes. Tu n'as jamais écrit à quelqu'un qui ne te devait rien.
 ~ondine: Ondine te regarde écrire, par-dessus ton épaule. Elle ne lit pas. Elle sourit seulement. « On commence tous comme ça. »
 ~bartho: Bartholomé, assis plus bas, fait semblant de ne pas regarder. Il regarde.
-* plt_cot_j coe10 | Écrire ce que tu penses vraiment | « Chère Lune. Je t'ai achetée. Je ne savais pas que tu avais des gens. Je ne sais pas quoi faire. Est-ce que tu as froid, la nuit ? Moi aussi. G. » Tu relis. Ce n'est pas un poème. C'est la première chose que tu écris qui ne soit pas mauvaise. Tu la plies et tu la ranges contre ton caillou. | Tu écris trois lignes. Tu les barres. Tu écris un poème. Il est mauvais. Tu le ranges avec les autres. | +flag:obj_lettre_platine coe+1 |
+* plt_cot_j coe10 | Écrire ce que tu penses vraiment | « Chère Lune. Je t'ai achetée. Je ne savais pas que tu avais des gens. Je ne sais pas quoi faire. Est-ce que tu as froid, la nuit ? Moi aussi. G. » Tu relis. Ce n'est pas un poème. C'est la première chose que tu écris qui ne soit pas mauvaise. Tu la plies et tu la ranges dans ta poche de gilet. | Tu écris trois lignes. Tu les barres. Tu écris un poème. Il est mauvais. Tu le ranges avec les autres. | +flag:obj_lettre_platine coe+1 |
 * plt_cot_j | Ranger le stylo | Tu ranges le stylo. Tu n'as rien à lui dire. Enfin, tu as tout à lui dire, et tu ne sais pas par où commencer. | |
 
 # ---------------------------------------------------------------- TAMPONVILLE
@@ -136,17 +135,21 @@ Une vieille Horlogère te tend un beignet. « Vous avez l'air d'avoir faim, mons
 
 @plt_cap_a
 !title: Le Palais de la Présidence
-La file passe sous les fenêtres du Palais de la Présidence, une aile du Cadastre qu'on a oublié de rendre. Au dernier étage, une fenêtre ronde. Derrière la vitre, un coussin de velours. Sur le coussin, un petit galet gris clair.
-?flag:pl_vu_galet C'est lui. Celui du télescope. De près, il est plus petit. Il a l'air de regarder dehors.
-À côté, un homme replet en redingote parle très fort à la fenêtre, pour les gens d'en bas : « Le Président est serein ! Le Président vous salue ! » Le galet ne bouge pas. Mais, du côté tourné vers le ciel, vers ta Lune et son crochet d'or, il est un peu plus blanc que de l'autre.
-* plt_cap_b coe9 | Regarder le galet, longtemps, jusqu'à ce qu'il te voie | Tu le regardes. Tu ne sais pas s'il te voit : il n'a pas d'yeux. Mais il pâlit encore un peu, du côté de la Lune, et tu as l'impression très nette qu'il sait ce que tu as fait. Personne ne t'avait jamais regardé comme ça. Sans rien dire. Sans rien vouloir. | Tu le regardes, mais l'homme en redingote se met devant la fenêtre pour saluer, et tu ne vois plus que lui. | +flag:pl_emo_galet coe+1 |
-* plt_cap_b | Écouter l'homme en redingote | « Le Président est serein ! » Il le dit trois fois. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | |
+La file passe sous les fenêtres du Palais de la Présidence, une aile du Cadastre qu'on a oublié de rendre. Au dernier étage, une fenêtre ronde.
+?flag:pl_train Derrière la vitre, un coussin de velours, vide. Tu sais où est le galet : tu l'as vu dans le Tortillard, contre un pot de moutarde, en route vers le Carrefour. À la fenêtre, un huissier en livrée annonce aux gens d'en bas : « Le Président est en déplacement ! Le Président vous salue de loin ! »
+?!flag:pl_train Derrière la vitre, un coussin de velours. Sur le coussin, un petit galet gris clair.
+?!flag:pl_train ?flag:pl_vu_galet C'est lui. Celui du télescope. De près, il est plus petit. Il a l'air de regarder dehors.
+?!flag:pl_train À côté, un homme replet en redingote parle très fort à la fenêtre, pour les gens d'en bas : « Le Président est serein ! Le Président vous salue ! » Le galet ne bouge pas. Mais, du côté tourné vers le ciel, vers ta Lune et son crochet d'or, il est un peu plus blanc que de l'autre.
+* plt_cap_b coe9 ?!flag:pl_train | Regarder le galet, longtemps, jusqu'à ce qu'il te voie | Tu le regardes. Tu ne sais pas s'il te voit : il n'a pas d'yeux. Mais il pâlit encore un peu, du côté de la Lune, et tu as l'impression très nette qu'il sait ce que tu as fait. Personne ne t'avait jamais regardé comme ça. Sans rien dire. Sans rien vouloir. | Tu le regardes, mais l'homme en redingote se met devant la fenêtre pour saluer, et tu ne vois plus que lui. | +flag:pl_emo_galet coe+1 |
+* plt_cap_b ?!flag:pl_train | Écouter l'homme en redingote |
+* plt_cap_b ?flag:pl_train | Regarder le coussin vide | Il y a encore le creux du galet dans le velours. Huit cents ans de creux. Tu sais ce que c'est, un creux au milieu. | |
+* plt_cap_b ?flag:pl_train | Écouter l'huissier | « Le Président vous salue de loin ! » Il le dit trois fois, à une fenêtre vide. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | | « Le Président est serein ! » Il le dit trois fois. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | |
 
 @plt_cap_b
 !title: Madame Épine
 Dans le hall du Cadastre, une grande plante dans un pot de marbre te barre le passage : un cactus de deux mètres, en tailleur, qui ne cligne jamais des yeux faute d'en avoir. Madame Épine, Sous-Directrice.
 « Vous êtes d'Aldébaran. » Ce n'est pas une question. « Je les reconnais. Ils viennent tous voir la file. Ils la trouvent pittoresque. » Elle se penche. « Article douze, alinéa trois. Toute cession est suspendue si le cédant n'a pas été entendu. Le cédant, ici, n'a jamais rien dit. Vous le direz à votre patron, n'est-ce pas ? »
-* plt_cap_b2 rus10 | « Je n'ai pas de patron, Madame. » | Elle te regarde longtemps, sans cligner. « Alors c'est pire. » Elle s'écarte. Tu passes. Tu sens ses épines dans ton dos jusqu'au bout du couloir. Elle sait. Elle ne dira rien. Elle attend de voir ce que tu feras. | Tu le dis trop vite. Elle ne s'écarte pas. Tu fais le tour du pot de marbre, ce qui prend du temps : il est grand. | +flag:pl_epine |
+* plt_cap_b2 rus10 | « Je n'ai pas de patron, Madame. » | Elle te regarde longtemps, sans cligner. « Alors c'est pire. » Elle s'écarte. Tu passes. Tu sens ses épines dans ton dos jusqu'au bout du couloir. Elle se doute de quelque chose. Elle ne sait pas quoi. Elle attend de voir ce que tu feras. | Tu le dis trop vite. Elle ne s'écarte pas. Tu fais le tour du pot de marbre, ce qui prend du temps : il est grand. | +flag:pl_epine |
 * plt_cap_b2 coe9 | « Je le lui dirai. » | Tu le diras. Tu te le dis déjà. Article douze, alinéa trois. Tu le notes au dos de ton ticket. Madame Épine s'écarte, très légèrement. C'est énorme, pour un cactus. | Elle ne te croit pas. Elle a raison. Tu passes quand même. | +flag:pl_article_douze |
 
 @plt_cap_c
@@ -177,6 +180,7 @@ Un pinceau traîne dans un pot, au pied du mur.
 @plt_bri_a
 !title: L'Ascenseur des Taupes
 On descend aux Profondeurs par le Grand Puits, puis par l'Ascenseur des Taupes : une cage de bois tirée par des taupes en salopette, qui ne voient rien et n'ont besoin de rien voir. Il fait chaud. Tes feuilles d'or se recroquevillent sur les bords.
+?comp:ondine Ondine fume légèrement, comme une casserole. Elle boit à chaque flaque. « Ce n'est rien. Je m'évapore un peu, c'est tout. »
 Une taupe tire plus lentement que les autres. Elle est vieille. Elle s'arrête pour souffler à chaque étage.
 « Le sol penche », dit-elle, sans se retourner. « Depuis trois jours. La corde tire de travers. On tire de travers aussi. Ça fatigue. »
 * plt_bri_b coe9 | Prendre la corde, et tirer avec elles | Tu prends la corde. Tes mains d'or glissent. Tu tires quand même. La vieille taupe sent la corde s'alléger. Elle ne sait pas qui l'aide, elle ne voit rien. « Merci, qui que vous soyez. » Personne ne t'avait jamais remercié sans savoir qui tu étais. C'est le seul merci qui compte, peut-être. | Tu prends la corde, mais tu tires dans le mauvais sens. La cage remonte d'un mètre. Les taupes soupirent. Tu lâches. | +flag:pl_corde coe+1 |
@@ -209,7 +213,7 @@ Plus loin, des grottes où chaque bruit revient dix fois. On y parle bas. Une cr
 En entrant, tu trébuches, et tu jures. Tu jures toujours la même chose, depuis l'enfance, quand tu te cognes : ton propre nom. « Platine ! »
 La grotte le répète. « Platine ! Platine ! Platine ! » Le nom part dans les galeries, vers les Magmas, vers tout le monde.
 * plt_bri_d rus10 | Dire autre chose, vite, plus fort, pour couvrir ton nom | Tu cries : « Patience ! » Écho, ravie, répète le dernier mot : « Patience ! Patience ! » Le nom se perd dessous. Dans les galeries, on n'entend plus que « patience ». Les Gravitaires, sur l'Axe, trouvent le message très à propos. | Tu cries autre chose, mais trop tard : ton nom a pris de l'avance. On l'entend jusqu'aux Magmas. Là-bas, une Gravitaire de onze tonnes lève la tête de son livre. | | +flag:pl_nom_echo
-* plt_bri_d coe9 | Ne plus rien dire, et attendre qu'Écho se taise | Tu te tais. Écho répète ton nom de plus en plus bas, puis ton silence. Puis, toute seule, très bas, un mot qui n'est à personne : « ...seul. » Tu ne sais pas si elle parle d'elle ou de toi. | Tu te tais, mais ton nom court déjà dans les galeries. On l'entend jusqu'aux Magmas. | | +flag:pl_nom_echo
+* plt_bri_d coe9 | Ne plus rien dire, et attendre qu'Écho se taise | Tu te tais. Écho répète ton nom de plus en plus bas, puis ton silence. Puis, toute seule, très bas, un mot qui n'est à personne : « ...seul. » Tu ne sais pas si elle parle d'elle ou de toi. Ton nom, lui, est déjà loin dans les galeries. | Tu te tais, mais ton nom court déjà dans les galeries. On l'entend jusqu'aux Magmas. | +flag:pl_nom_echo equ+2 | +flag:pl_nom_echo
 
 @plt_bri_d
 !title: La géode
@@ -260,7 +264,7 @@ Quand tu passes, toutes les taches frémissent ensemble. Une vieille lichen gris
 
 @plt_ana_d
 !title: La fente
-Au bord de la serre, la fente dans laquelle Anatole jette les fleurs fanées, chaque matin. Elle est si étroite qu'on la prend pour une ride du sol. Tu te penches. Il en monte un peu de chaleur, et une odeur de pierre et de soupe.
+Au bord de la serre, la fente dans laquelle Anatole jette les fleurs fanées, chaque matin. Il te l'a montrée du bout de l'aile, en passant. Elle est si étroite qu'on la prend pour une ride du sol. Tu te penches. Il en monte un peu de chaleur, et une odeur de pierre et de soupe.
 ?flag:pl_vu_bri Tu reconnais l'odeur. La soupe de lave tiède des Magmas Paisibles. La fente descend jusque là. Les fleurs fanées tombent quatre cents kilomètres, et une Gravitaire de onze tonnes les ramasse et les presse dans un livre, sans savoir d'où elles viennent.
 ?!flag:pl_vu_bri Tu ne sais pas où elle mène. Quelque part, très bas, quelqu'un reçoit les fleurs, peut-être.
 * plt_ana_h ?flag:pl_vu_bri ?flag:pl_fente | Jeter une fleur fanée dans la fente, toi aussi | Tu en ramasses une, au pied d'un pot, et tu la laisses tomber. Elle tourne longtemps dans le noir. Tu sais qui la recevra. Elle ne saura pas qui l'a envoyée. Tu as fait un cadeau sans signer. Tu ne l'avais jamais fait. | | +flag:pl_emo_fleurs coe+1 |
@@ -382,8 +386,8 @@ Zéphyrin, sur le seuil, se tord les moustaches. « Monsieur, les Terriens sont 
 ?comp:bartho Bartholomé t'emmène chez lui, une cabane de bois flotté au bout de la plage. Sur le mur, un portrait à l'aquarelle d'une femme faite d'écume, qui rit. « Perline. Elle riait comme la mer qui se retire sur les galets. » Il ne te regarde pas en le disant.
 ?!comp:bartho En sortant du bistrot, tu passes devant une cabane de bois flotté. Par la fenêtre, un portrait à l'aquarelle d'une femme faite d'écume, qui rit. Une vieille voisine te dit : « Perline. Partie avec la grande marée. Son mari ne s'en remet pas. »
 Au-dessus de la cabane, ta Lune. Si basse qu'on voit la poussière blanche au bord des cratères. Quelque part dedans, de l'écume qui a été quelqu'un. Tu l'as achetée aussi. Krâmm l'a sûrement inscrite.
-* plt_cot_c coe9 | Retirer ton chapeau devant le portrait | Tu le retires. Tes feuilles d'or brillent dans la cabane sombre. Tu ne sais pas pourquoi tu as fait ça. On le fait, paraît-il, devant les gens qu'on a fait souffrir. Tu l'avais lu quelque part. | Tu lèves la main vers ton chapeau. Tu la baisses. Si tu l'enlèves, on verra ton or. | +flag:pl_emo_perline coe+1 |
-* plt_cot_c | Continuer vers la vague | Tu continues. Le portrait rit derrière toi. | |
+* plt_cot_k coe9 | Retirer ton chapeau devant le portrait | Tu le retires. Tes feuilles d'or brillent dans la cabane sombre. Tu ne sais pas pourquoi tu as fait ça. On le fait, paraît-il, devant les gens qu'on a fait souffrir. Tu l'avais lu quelque part. | Tu lèves la main vers ton chapeau. Tu la baisses. Si tu l'enlèves, on verra ton or. | +flag:pl_emo_perline coe+1 |
+* plt_cot_k | Continuer vers la vague | Tu continues. Le portrait rit derrière toi. | |
 
 @plt_cot_i
 !title: Le poisson-lune
@@ -398,7 +402,7 @@ Tu quittes Grève-Molle à l'aube. Derrière toi, la plage, le phare, la vague i
 ?flag:pl_emo_digue Devant la digue, la petite Marégrave te fait un signe de la main. Ta feuille d'or tient toujours, dans le trou. Elle brille un peu au soleil levant. Tu as laissé un morceau de toi dans une digue. Tu ne sais pas si c'est un investissement.
 ?flag:pl_criee Sur la plage, il n'y a plus de géomètre doré. Les Marégraves récupèrent leurs affaires. Personne ne sait pourquoi la Compagnie a cessé d'acheter.
 ?flag:pl_poisson_lune Le vieux poisson-lune nage encore en rond dans ta petite flaque, tout seul. Elle sèche. Il le sait. Il en profite.
-~ondine: Ondine se retourne vers son phare. Elle ne l'avait jamais quitté. « Il tiendra », dit-elle. « Il a l'habitude d'attendre. »
+~ondine: Ondine se retourne vers son phare. Elle ne l'avait jamais quitté. Au loin, le Chœur des Méduses chante encore. « Je les entendais de là-haut, la nuit. Je croyais qu'elles chantaient pour moi. » Puis : « Il tiendra, le phare. Il a l'habitude d'attendre. »
 ~bartho: Bartholomé ferme sa cabane à clé. « Perline fermait toujours. »
 * plt_route | Reprendre la route | La route monte. La mer, derrière, ne te regarde pas partir. Elle a autre chose à faire. | |
 
@@ -420,7 +424,7 @@ Tu as acheté la Lune. Personne n'a demandé sa signature à elle.
 @plt_bri_g
 !title: Le dortoir
 Après le repas, Brisefer te montre le dortoir des Magmas Paisibles : des lits de pierre, longs comme des barques, où dorment les vieux Gravitaires qui ont tenu l'Axe autrefois. Ils dorment mal. Le lit glisse vers l'est. Ils se réveillent au bout de la salle, et ils remontent, et ils se rendorment.
-Un très vieux Gravitaire, plus gris que les autres, te regarde passer. « Un doré. Ici. » Il rit, un rire de carrière. « Vous venez voir ce que ça pèse, la Lune ? Asseyez-vous sur mon lit. Vous verrez. »
+Un très vieux Gravitaire, plus gris que les autres, te regarde passer. « Tiens. Un qui brille. » Il rit, un rire de carrière. « Vous venez voir ce que ça pèse, la Lune ? Asseyez-vous sur mon lit. Vous verrez. »
 * plt_bri_h coe9 | T'asseoir sur son lit | Tu t'assois. Le lit glisse. Tu glisses avec. Tu te retrouves au bout du dortoir, contre le mur, avec un vieux Gravitaire qui rit sur toi. « Voilà. C'est ça, toute la nuit. Tous les soirs, depuis trois jours. » Tu remontes le lit avec lui. C'est lourd. | Tu t'assois. Le lit glisse, tu tombes. Le vieux rit si fort que tout le dortoir se réveille. Personne n'est fâché : personne ne dormait. | +flag:pl_lit flag:pl_tours=>+flag:pl_emo_axe |
 * plt_bri_h | Le saluer, et continuer | Il te salue d'une main de trois tonnes. Le lit glisse sous lui. Il ne se retourne pas. | |
 
@@ -493,7 +497,7 @@ Et dans le coin, sous sa housse, le coffre.
 
 @pla_01e
 !title: L'ordre de démarrage
-Pénélope apporte le dernier document de la vente : l'ordre de démarrage des moteurs. Le Promontoire tirera la Lune avec sa chaîne d'or. Les moteurs démarreront tout seuls, à l'aube du troisième jour, à l'heure prévue. Pour les arrêter, il n'y aura qu'un moyen : le bouton rouge, sur ton bureau. Celui qui arrête tout.
+Pénélope apporte le dernier document de la vente : l'ordre de démarrage des moteurs. Le Promontoire tirera la Lune avec sa chaîne d'or. Les moteurs démarreront tout seuls, à l'aube, trois jours après que le câble sera tendu. Pour les arrêter, il n'y aura qu'un moyen : le bouton rouge, sur ton bureau. Celui qui arrête tout.
 « C'est l'usage, Monsieur », dit Pénélope. « On programme le départ. On garde un bouton pour les regrets. Personne ne s'en sert jamais. »
 * pla_01f rus9 | Signer l'ordre, et demander qu'on retire le bouton | Tu signes. « Retirez le bouton, Pénélope. Je n'ai pas de regrets. » Pénélope ne bouge pas. « C'est le règlement, Monsieur. Le bouton reste. » Tu ne savais pas qu'il y avait un règlement au-dessus de toi. Le bouton reste, rouge, sur ton bureau. Tu le regardes de travers. | Tu signes, et tu oublies de parler du bouton. Il reste là. | rus+1 |
 * pla_01f coe9 | Signer l'ordre, et regarder le bouton longtemps | Tu signes. Puis tu regardes le bouton rouge, à côté de ton encrier. Il est petit, rond, propre. Personne ne s'en sert jamais. Tu ne sais pas pourquoi tu le regardes si longtemps. | Tu signes sans regarder. Le bouton te regarde, lui. | +flag:pl_bouton coe+1 |
@@ -509,20 +513,22 @@ Au bout du champ, une ferme. Une lanterne s'approche. C'est une vieille fermièr
 !title: La vague immobile
 Tu marches jusqu'au pied de la vague. Elle est immense, haute comme dix phares, figée en plein élan. Elle ne retombe pas. Elle hésite. Elle ne sait pas si elle doit suivre la Lune ou rester avec la plage.
 Tu poses la main sur l'eau, à sa base. Elle est froide, dure comme du verre à force de se retenir. Elle tremble sous ta paume.
-* plt_cot_d coe9 | Laisser ta main sur la vague, longtemps | Tu laisses ta main. Tu sens la vague hésiter, retenue entre deux amours. Tu connais ça. Tu as hésité toute ta vie entre avoir les choses et les laisser tranquilles. Tu as toujours choisi de les avoir. La vague, elle, ne choisit pas. Elle tient. Tu retires ta main. Elle est mouillée jusqu'au coude. | Tu poses la main. La vague frémit, et une goutte, une seule, s'en détache et t'éclabousse le visage. Tu recules. | coe+1 |
-* plt_cot_d | Reculer, et la regarder de loin | De loin, elle a l'air d'un mur. De près, d'une question. | |
+* plt_cot_c coe9 | Laisser ta main sur la vague, longtemps | Tu laisses ta main. Tu sens la vague hésiter, retenue entre deux amours. Tu connais ça. Tu as hésité toute ta vie entre avoir les choses et les laisser tranquilles. Tu as toujours choisi de les avoir. La vague, elle, ne choisit pas. Elle tient. Tu retires ta main. Elle est mouillée jusqu'au coude. | Tu poses la main. La vague frémit, et une goutte, une seule, s'en détache et t'éclabousse le visage. Tu recules. | coe+1 |
+* plt_cot_c | Reculer, et la regarder de loin | De loin, elle a l'air d'un mur. De près, d'une question. | |
 
 @plt_cap_k
 !title: La gare de Tamponville
-Pour quitter la Capitale, tu passes par la gare. Sur le quai, un tableau d'affichage annonce les trains. Et en dessous, quelqu'un a ajouté une ligne à la craie : « LUNE : départ prévu après-demain, à l'aube. Voie céleste. Aller simple. »
+Pour quitter la Capitale, tu passes par la gare. Sur le quai, un tableau d'affichage annonce les trains. Et en dessous, quelqu'un a ajouté une ligne à la craie : « LUNE : départ prévu à l'aube. Voie céleste. Aller simple. »
 Des gens se sont arrêtés devant. Ils ne disent rien. Un chef de gare, un vieil Horloger, essaie d'effacer la ligne avec sa manche. Elle revient : quelqu'un la réécrit chaque fois qu'il a le dos tourné.
 * plt_route coe9 | Effacer « aller simple », et écrire « retard » à la place | Tu prends la craie. Tu effaces « aller simple ». Tu écris « retard ». Le chef de gare te regarde faire. Il ne dit rien. Puis il hoche la tête, lentement, comme quelqu'un qui connaît bien les retards. « C'est souvent comme ça, avec les grands départs. » | Tu prends la craie, puis tu la reposes. Tu ne sais pas encore si c'est un retard. | +flag:pl_retard coe+1 |
-* plt_route | Monter dans ton train | Le train part. La ligne à la craie reste. Elle part à l'aube après-demain. Toi aussi, peut-être. | |
+* plt_route | Monter dans ton train | Le train part. La ligne à la craie reste. Elle part bientôt, à l'aube. Toi aussi, peut-être. | |
 
 @plt_bri_k
 !title: La remontée
-On remonte des Profondeurs par le Grand Puits. Dans la benne, à côté de toi, une Gravitaire de garde, large comme une porte de grange, te regarde du coin de l'œil.
-« Vous êtes léger, vous », dit-elle. « Trop léger. Un doré, ça pèse rien. Comment vous faites, pour rester par terre ? »
+?comp:brisefer En haut du Grand Puits, une Gravitaire de garde, large comme une porte de grange, salue Brisefer très droite, la main au front. Puis elle te regarde du coin de l'œil.
+?!comp:brisefer On remonte des Profondeurs par le Grand Puits. Dans la benne, à côté de toi, une Gravitaire de garde, large comme une porte de grange, te regarde du coin de l'œil.
+« Vous flottez, vous », dit-elle. « Un doré, ça pèse rien. Comment vous faites, pour rester par terre ? »
+~brisefer: Brisefer, à la garde : « Repos, soldat. Il est avec moi. » La garde se détend d'un millimètre. C'est beaucoup, pour du basalte.
 Tu ne sais pas. Tu n'y avais jamais pensé. Tu as toujours été posé dans des coffres, sur des coussins, dans des bureaux. Jamais par terre.
 ?flag:pl_emo_axe Tu repenses aux milliers de Gravitaires assis sur l'Axe. Eux, ils savent rester par terre. Ils ne savent faire que ça. Et ça tient le monde.
 * plt_route coe9 | « Je ne sais pas, Madame. Je crois que je n'y suis jamais vraiment resté. » | Elle hoche la tête, sérieusement. Puis elle sort de sa poche un petit caillou de basalte, noir, lourd, et elle le glisse dans la tienne. « Tenez. Pour le lest. » Tu le gardes. Tu pèses un caillou de plus. C'est peu. C'est beaucoup. | Elle hausse les épaules. « Vous apprendrez. » | +flag:pl_lest coe+1 |

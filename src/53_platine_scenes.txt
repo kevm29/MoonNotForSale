@@ -18,7 +18,7 @@ Tu penses : quand j'étais petit, on m'a dit que l'or, ça protège. Je l'ai cru
 @pla_04d
 !title: Bobinot, au retour
 Dans la navette de chantier qui vous ramène au Promontoire, Bobinot enlève son casque. Sans, il a l'air beaucoup plus jeune. Il a des cheveux d'or tout aplatis.
-« Je peux vous demander une chose, Monsieur ? Ma fille m'a demandé, au téléphone, si la Lune avait des parents. Je n'ai pas su quoi répondre. Vous, vous savez ? »
+« Je peux vous demander une chose, Monsieur ? Les gars se demandaient, au casse-croûte, si la Lune avait des parents. Je n'ai pas su quoi répondre. Vous, vous savez ? »
 * pla_05 | « La Terre, je suppose. » | Bobinot hoche la tête, très sérieusement. « Alors on l'enlève à sa mère. » Il remet son casque. Il ne dit plus rien jusqu'au Promontoire. | |
 * pla_05 | « Ce n'est pas une question de chantier, Bobinot. » | « Non, Monsieur. Pardon, Monsieur. » Il remet son casque. Il le remet un peu de travers, comme quelqu'un qui pense à autre chose. | |
 * pla_05 | Ne pas répondre, et regarder la Lune s'éloigner par le hublot | Elle est grise, et douce, et elle ne se débat pas. Bobinot regarde avec toi. Vous ne dites rien. C'est la première fois que tu partages un silence avec un employé. | |
@@ -95,12 +95,15 @@ Au mur, une photo jaunie : un bal au bord de la mer, des lampions, et la Lune, t
 @plt_cot3b
 !title: Les lettres d'Ondine
 Pendant qu'Ondine écrit, tu regardes ses lettres, empilées partout dans la lanterne du phare. Des milliers. Chacune commence de la même façon : « Chère Lune ».
-Elle te voit regarder. « Vous pouvez en lire une. Elle ne les lit pas, de toute façon. »
+?last:ok Elle te voit regarder. « Vous pouvez en lire une autre. Elle ne les lit pas, de toute façon. »
+?last:ko Elle ne te propose rien. Elle écrit. Tu regardes la pile quand même, de loin, sans y toucher.
 ?comp:bartho Bartholomé se tient en bas de l'escalier, la casquette à la main. Il ne monte pas. Il ne monte jamais au phare. C'est de là-haut qu'on a vu partir Perline.
 ~basile: Basile regarde la pile de lettres, une ligne par minute. « Personne... ne les a... tamponnées. » Ondine : « Il faudrait ? » « Non... C'est... pour ça... qu'elles sont... belles. »
 ~brisefer: Brisefer s'est arrêtée à mi-hauteur de l'escalier : il ne la supporterait pas plus haut. Elle crie, d'en bas : « Elle écrit à qui, la grande mouillée ? » « À la Lune. » « Ah. Moi, je lui parlais. C'est moins long. »
-* plt_cot3 | Lire une lettre, au hasard | « Chère Lune. Aujourd'hui, la mer est descendue de trois mètres. J'ai pensé que tu étais fâchée. Si c'est à cause de moi, dis-le-moi. Ondine. » Tu la replies. Ce n'est pas à cause d'elle. | |
-* plt_cot3 | Refuser poliment | « Ce n'est pas à moi qu'elles sont adressées. » Ondine te regarde, surprise. Puis touchée. Personne n'avait jamais respecté son courrier. | |
+* plt_cot3 ?last:ok | Lire une lettre, au hasard | « Chère Lune. Aujourd'hui, la mer est descendue de trois mètres. J'ai pensé que tu étais fâchée. Si c'est à cause de moi, dis-le-moi. Ondine. » Tu la replies. Ce n'est pas à cause d'elle. | |
+* plt_cot3 ?last:ok | Refuser poliment |
+* plt_cot3 ?last:ko | Attendre qu'elle ait fini sa lettre | Elle finit. Elle signe : « Ondine. » Elle plie. Elle ne se retourne pas tout de suite. | |
+* plt_cot3 ?last:ko | Lui demander pardon d'avoir été maladroit | Elle lève les yeux. « Vous n'êtes pas maladroit. Vous êtes doré. Ce n'est pas pareil. » Mais elle te sourit un peu. | | « Ce n'est pas à moi qu'elles sont adressées. » Ondine te regarde, surprise. Puis touchée. Personne n'avait jamais respecté son courrier. | |
 
 # ---------- Tamponville ----------
 
@@ -189,11 +192,11 @@ Plus loin, sous une tente-école, un vieux Lichenaute fait la classe. Au tableau
 Au bord de la plaine, avant la navette, tu te retournes une dernière fois vers le Carrefour. Mille feux. Des chansons, en vingt langues. Quelqu'un rit, quelque part. On rit, ici, même la dernière nuit.
 ?comps>=1 Ceux qui t'ont suivi sont là, autour de toi. Ils ne savent pas où tu vas. Ils viennent quand même.
 ~ondine: Ondine regarde la navette. « C'est à vous, ça ? » Tu dis que c'est à ton employeur. C'est presque vrai. Elle hoche la tête. « Je monte quand même. J'ai une lettre à porter. »
-~basile: Basile, sur ton épaule, une phrase par minute : « Je crois... que je sais... qui vous êtes. » Une minute. « Je ne dirai... rien. Je n'ai jamais... rien dit. Je suis... doué. »
+~basile: Basile, sur ton épaule, une phrase par minute : « Vous regardez... la navette... comme quelqu'un... qui rentre... chez lui. » Une minute. « C'est... bien... d'avoir... un chez-soi. »
 ~brisefer: Brisefer regarde la navette, puis toi. Ses yeux de silex se plissent. Elle ne dit rien. Elle réfléchit, ce qui chez une géante prend du temps et fait du bruit.
 ~anatole: Anatole tourne une dernière fois la tête vers la Lune. « Si on monte, je la verrai de près. Je n'ai jamais vu une lune de près. Juste les fleurs qui la regardent. »
 ~bartho: Bartholomé met sa casquette. « Une navette. Ça flotte, au moins ? » « Ça vole. » « C'est pire. »
-~pistil ?comp:basile: Pistil et Basile se regardent par-dessus ton col. Ils savent tous les deux. Ils échangent un signe de tête. C'est un club très fermé.
+~pistil ?comp:basile: Pistil regarde Basile lire le nom sur la navette, une lettre par minute. Il croise les doigts, dans ses manches de pyjama. Il espère que Basile lit lentement.
 * plf_01 | Monter le premier | Tu montes. Tu as l'habitude de passer devant. Pour une fois, tu te retournes pour voir si les autres suivent. | |
 * plf_01 | Laisser monter les autres d'abord | Tu attends au bas de la passerelle. Tu n'avais jamais laissé passer personne. C'est étrange : on voit mieux les gens de derrière. | |
 
@@ -204,7 +207,8 @@ Au bord de la plaine, avant la navette, tu te retournes une dernière fois vers 
 Dans le couloir, après Zéphyrin, Pénélope t'attend. Elle tient un plateau. Dessus, ton thé. Elle le tient comme d'habitude, au même endroit, au même angle.
 « Monsieur. Je voulais vous dire. » Elle ne dit rien d'autre pendant un moment. Puis : « Pendant votre absence, j'ai lu les lettres. Celles de la Terre. Les réclamations. On en a reçu quatre millions. Je les ai toutes lues. » Elle pose le thé. « Je n'en ai tamponné aucune. »
 ?comp:ondine Ondine regarde Pénélope, puis le plateau, puis toi. Elle comprend quelque chose. Elle ne dit rien. Elle serre son sac de lettres contre elle.
-?comp:brisefer Brisefer regarde Pénélope de haut en bas. « Elle, au moins, elle lit. »
+?comp:brisefer Brisefer, restée au bout du quai parce que le couloir craque sous elle, regarde Pénélope de loin. « Elle, au moins, elle lit. »
+?flag:pl_reclam_enfant Tu sors de ta poche la réclamation de Tamponville, celle de l'enfant, que tu n'avais jamais ouverte. Tu la lis enfin. « Monsieur. Rendez-la. Elle n'est pas à vous, elle est à la nuit. Signé : Mirabelle, 7 ans. » Pénélope la regarde par-dessus ton épaule. « Celle-là, je ne l'avais pas. »
 * plf_01f | « Merci, Pénélope. » | Elle te regarde comme si tu venais de dire un mot d'une langue étrangère. Puis elle hoche la tête, très vite, et repart. Le thé est chaud. Il l'est toujours. Tu ne l'avais jamais remarqué. | |
 * plf_01f | « Qu'en avez-vous pensé ? » | « Que vous devriez les lire aussi, Monsieur. » Elle repart. Elle n'avait jamais rien répondu d'autre que « Bien, Monsieur ». | |
 * plf_01f | Prendre le thé, sans rien dire | Tu prends le thé. Elle attend une seconde de trop. Puis elle repart. Tu bois. Il a un goût de quatre millions de lettres. | |
