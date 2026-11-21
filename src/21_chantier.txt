@@ -199,7 +199,7 @@ Elle te regarde, les yeux brillants. « Ses fonctions habituelles. Les marées. 
 * cha_29 rus12 ?!comp:coquille | T'enfuir dans le chantier | Tu cours entre les grues, les cloisons, les piscines. Les vigiles s'excusent en te poursuivant. | Tu cours, mais tu tombes dans une piscine à marées. Tu en ressors trempé·e et capturé·e. | rus+1 comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard | comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard
 
 @cha_28
-Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Terrien. Je ne sais pas. Ça veut vous voir. » Une voix douce, polie, fatiguée, répond : « Faites-le monter, Bobinot. J'aime recevoir. Ça fait si longtemps qu'on ne m'a pas rendu visite. »
+?!pc:zephyrin Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Terrien. Je ne sais pas. Ça veut vous voir. » Une voix douce, polie, fatiguée, répond : « Faites-le monter, Bobinot. J'aime recevoir. Ça fait si longtemps qu'on ne m'a pas rendu visite. »
 * cha_30 coe10 | Attendre qu'on t'escorte | Tu attends. Un vigile t'offre un café. Il est mauvais. Il s'excuse. | |
 
 @cha_29
@@ -235,7 +235,7 @@ Pendant le trajet, il ne dit rien. Puis, juste avant d'arriver : « Article... J
 ?from:cha_31 ?pc:brisefer Krâmm t'emmène ensuite au pied du câble, sans un mot. L'ascenseur est trop petit pour toi : tu grimpes le long du câble, une main après l'autre, et Krâmm monte à côté, dans sa cabine, à ta vitesse.
 ?pc:brisefer Toi, tu regardes par la vitre de la cabine de Krâmm, en grimpant à côté, le vide sous les bottes.
 L'ascenseur doré monte le long du câble. Par la vitre, la Lune s'éloigne en dessous, couverte de chantiers. La Terre, au loin, bleue et bancale. Et devant, le Promontoire : un vaisseau carré, gris et doré, qui ressemble à un bureau qui aurait appris à voler.
-Tu vas rencontrer celui qui a acheté la Lune.
+?!pc:zephyrin Tu vas rencontrer celui qui a acheté la Lune.
 ?comp:penelope Pénélope serre ses tampons. « Je vais le revoir. Je vais lui dire non. Je crois. »
 ?pc:zephyrin Tu vas revoir Platine. Ton ancien patron. Ton ancien ami, peut-être. Ton ressort fait tic... tac.
 * cha_34 coe11 | Te préparer intérieurement | Tu respires. Tu penses à tout ce que tu as vu. Tu sais ce que tu vas dire. Enfin, à peu près. | | mor+1 |
