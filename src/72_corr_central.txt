@@ -40,3 +40,14 @@ Il tape sur sa poche. « La serrure était mauvaise. L'or, ça plie. Alors je ve
 @+asc_01
 ~brisefer ?comp:zouzou: Brisefer essaie de monter sur Zouzou avant tout le monde. Zouzou le laisse faire, puis souffle, doucement : le petit se retrouve assis sur son nez. « Je n'ai pas dit que tu pouvais. » « Je n'ai pas demandé. »
 ~plumard ?comp:vesperine: Le Colonel Plumard propose son bras à la Comtesse pour monter. « Merci, Colonel. Je monte seule. » « Je vous accompagnerai à distance réglementaire. » « Ce sera parfait. »
+
+# A8 : second usage de l'éclat d'éclipse au chantier
+
+@+cha_15
+* cha_80 ?flag:obj_eclipse | Accrocher l'éclat d'éclipse à ton col, et traverser le chantier dans l'ombre | Le cercle de nuit s'ouvre autour de toi. | | |
+
+@cha_80
+!title: Un petit morceau de nuit
+Tu accroches l'éclat à ton col. Autour de toi s'ouvre un cercle de nuit, avec trois étoiles dedans. Les ouvriers lèvent la tête, voient tomber le soir en plein midi, regardent leur montre et posent leurs outils. Les vigiles se mettent au garde-à-vous devant un crépuscule qu'ils croient officiel.
+Tu traverses le chantier sans un regard sur toi, jusqu'au pied du crochet. L'éclat refroidit dans ton col : il ne servira plus.
+* cha_27 | Continuer vers le crochet et le Promontoire | Tu lèves le pied hors de l'ombre, au pied du crochet. | | -flag:obj_eclipse +flag:acces_crochet |
