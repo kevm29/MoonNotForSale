@@ -37,7 +37,20 @@ Platine, lui, ouvre un cabinet de conseil en contrats parfaits, sur une petite c
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, le soir même, à l'heure exacte où la Lune se lève. Mille fleurs en même temps. Ça fait un bruit de papier qu'on déplie.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 La Lune n'a jamais dit oui. Il fallait juste que quelqu'un le lise.
 
 @end_02
@@ -76,7 +89,20 @@ Dans la galaxie, on se moque de Platine : le promoteur qui a revendu un satellit
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole La Lune a coûté tout ce que la Terre avait. Les belles-de-nuit, elles, s'ouvrent gratuitement, chaque soir, à l'heure exacte où elle se lève.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 La Lune est à la Terre, maintenant. Officiellement. La Terre a décidé de ne jamais s'en servir.
 
 @end_03
@@ -114,7 +140,20 @@ La Lune s'arrête. Elle se retourne. Elle voit la Terre qui vient vers elle, à 
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole Ta serre a fait trois pas avec le reste du monde. Les belles-de-nuit n'ont rien remarqué : elles s'ouvrent chaque soir, à l'heure exacte où la Lune se lève, un peu plus près qu'avant.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 Ils ont appris une chose qu'ils ne savaient pas : quand quelqu'un qu'on aime s'en va, on peut le suivre.
 
 @end_04
@@ -124,6 +163,20 @@ Dr Quartz a mis deux ans. Deux ans dans un atelier gigantesque, au fond des géo
 La nouvelle Lune est en cristal. Elle brille d'une lumière violette, un peu froide. Elle a un cœur qui vibre, que Dr Quartz a accordé à la fréquence de l'ancienne. Elle tourne autour d'Aldébaran, maintenant, couverte de piscines, de golfs et de tours. Elle n'a pas de souvenirs. Elle n'a pas de rêves. Elle est parfaite, et elle ne pleure jamais.
 Platine en est très fier. Il y a construit sa Tour Platine, quatre cents étages. Il y habite seul. Il regarde parfois l'ancienne, au loin, qui tourne autour de la Terre.
 La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
+?pc:anatole La vraie Lune est restée, et les belles-de-nuit s'ouvrent de nouveau pour elle, chaque soir. Une nuit, par curiosité, tu en as montré une à la Lune de cristal, petite et violette au fond du ciel. La fleur est restée fermée. Elles ont leur fierté.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 Mais parfois, la nuit, Dr Quartz lève les yeux vers le ciel d'Aldébaran, où brille une petite lumière violette, et elle se demande si sa Lune de cristal est heureuse. Elle ne le saura jamais. On ne fabrique pas l'affection. On fabrique seulement l'endroit où elle pourrait pousser.
 ?comp:quartz « Probabilité qu'elle soit heureuse : inconnue », dit-elle. « C'est la seule mesure que je n'ai jamais voulu prendre. »
 
@@ -163,7 +216,20 @@ Platine pleure, des feuilles d'or qui tombent comme une pluie d'automne. « Elle
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque soir. Tu as l'impression que les fleurs s'ouvrent un peu plus grand qu'avant. Maintenant, la Lune reste parce qu'elle le veut, et ça se voit jusque dans les fleurs.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 Depuis, chaque année, le jour anniversaire, la Terre entière dit merci à la Lune. Ça ne sert à rien. Ça la rend très heureuse.
 
 @end_06
@@ -200,7 +266,20 @@ Aujourd'hui, la Lune appartient à un syndicat de copropriétaires composé d'un
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole Entre deux assemblées générales, tu rentres arroser la serre. Les belles-de-nuit s'ouvrent chaque soir, à l'heure exacte où la Lune se lève, en attendant elles aussi une décision unanime qui ne viendra jamais.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 La Lune tourne. Elle ne sait pas qu'elle est en copropriété. Personne ne le lui a dit. C'est mieux comme ça.
 
 @end_07
@@ -238,7 +317,20 @@ Il vit aujourd'hui sur Terre, dans une petite maison au bord de la mer, près de
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau. Parfois, une feuille d'or tombe du ciel, très lentement, dans la serre. Tu la ranges dans l'herbier, entre deux fleurs.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 Il écrit toujours des poèmes. Ils sont toujours mauvais. Mais maintenant, il les lit à voix haute, le soir, sur la plage. Et la Lune, là-haut, l'écoute.
 
 @end_08
@@ -255,6 +347,20 @@ La Terre dort trois jours. Les mers dorment, les forêts dorment, les horloges d
 La porte du rêve est restée ouverte. Le soir, la Lune a des visiteurs. Platine vient souvent. Il apporte des gâteaux, et il ne demande jamais le prix de rien.
 ?pc:pistil Toi, tu es enfin chez toi. Pendant trois jours, tout le monde a habité les rêves. Tu as servi le thé à la Terre entière. Maintenant, on passe te voir.
 ?comp:brume Brume-Lucie flotte entre les fenêtres. Pendant le Grand Sommeil, elle n'a eu à finir aucune phrase. Elle a commencé à en finir quelques-unes depuis.
+?pc:anatole Pendant trois jours, ta serre a dormi elle aussi. Le quatrième soir, les mille belles-de-nuit se sont ouvertes ensemble, comme des gens qui bâillent.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 On a appelé ça le Grand Sommeil. C'est la seule fois où toute la Terre a fait le même rêve. Elle en parle encore.
 
 @end_09
@@ -291,7 +397,14 @@ La Lune attend la décision. Elle a l'habitude d'attendre.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole Les belles-de-nuit s'ouvrent à moitié, une nuit sur deux, en attendant le jugement. Tu les arroses quand même tous les soirs. Une fleur qui attend, ça se soigne aussi.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
 On ne sait pas comment ça finira. Personne ne le sait. C'est le principe d'un procès. C'est le principe de tout, en fait.
 
 @end_10
@@ -301,6 +414,10 @@ Les moteurs se sont arrêtés, ou ils ont continué, ça n'a plus d'importance. 
 La Lune est restée, ou elle est partie. Mais la mer, elle, s'est arrêtée.
 Elle ne monte plus. Elle ne descend plus. Elle est immobile, plate, grise, comme une flaque de la taille d'une planète. Les vagues ont cessé. Les ports se sont tus. Les poissons font la queue devant des flaques qui ne bougeront jamais plus.
 ?pc:ondine Tu mesures un mètre quatre-vingt-six. Toujours. Tu ne montes plus, tu ne descends plus. Tu es une Marégrave immobile, une marée qui ne vient pas. Tu écris toujours des lettres. Tu ne les envoies plus.
+?pc:anatole Les belles-de-nuit ne savent plus si elles doivent s'ouvrir. Certaines nuits, elles s'entrouvrent, puis se referment, comme quelqu'un qui hésite sur le pas d'une porte. Tu les arroses quand même. Et toi, tu tournes autour des lampadaires, maintenant, comme les autres. Tu n'as plus honte.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit fanée, faute de mieux, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
 Les Terriens se sont habitués. C'est ce qu'ils font de mieux, s'habituer. Ils ont inventé des marées mécaniques, des rêves en conserve, des horloges à piles. Ça marche presque.
 Le soir, quand le ciel est clair, ils lèvent la tête et ils cherchent quelque chose qu'ils ont oublié. Ils ne savent plus quoi. Mais ils continuent de chercher.
 ?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.
@@ -319,6 +436,10 @@ La Terre bascule. Pas beaucoup : vingt degrés. Assez pour tout changer. Les pô
 La Lune tourne toujours autour de la Terre. Mais de travers. Elle passe parfois très près, parfois très loin. Elle a l'air de chercher sa place. Elle ne la trouve plus.
 ?pc:brisefer Là-haut, sur le Promontoire, tu as senti l'Axe craquer jusque dans tes os. Tu es redescendue en trois jours, sans dormir. Tu t'es assise sur l'Axe brisé, et tu n'en as plus bougé. On t'y a retrouvée des années plus tard, onze tonnes de granit fendu, les mains posées à plat sur le fer, comme pour le tenir encore.
 ?pc:brisefer ?flag:galene Galène t'a fait un tombeau en forme de fauteuil. Il dit que tu aurais détesté ça. Il a raison.
+?pc:anatole Quand la Lune passe tout près, les belles-de-nuit de ta serre s'ouvrent toutes d'un coup, de travers. Quand elle passe loin, elles boudent des semaines. Les Noctuelles ne savent plus à quel angle de l'aile la tenir. Tu leur apprends à voler de biais.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit fanée, faute de mieux, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
 La Terre penche, maintenant. Pour toujours. Les Terriens ont appris à vivre de biais. Ils marchent penchés. Ils dorment penchés. Ils aiment penchés.
 ?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.
 ?flag:mort_coquille,flag:mort_remontoir Tu penses souvent à ceux qui sont morts pendant la dernière nuit. Au moins, eux, ils ont vu la Lune encore à sa place.
@@ -335,8 +456,12 @@ Tu pars vers Aldébaran. Tu deviens Lune-sur-Mer. On construit sur toi des pisci
 La vraie Lune est restée. Elle a retrouvé son orbite, ses marées, ses rêves, ses lettres. Elle va bien.
 ?pc:ondine Elle garde une boîte à chaussures pleine de lettres. Les tiennes. Elle les relit. Maintenant, elle t'écrit, toutes les nuits. Ses lettres mettent quarante ans à arriver jusqu'à Aldébaran. Tu les reçois. Tu les gardes.
 ?comp:bartho Bartholomé lève les yeux tous les soirs vers le ciel, à l'endroit où tu es partie. Il râle. Il râle contre toi, contre la Lune, contre l'univers. Il ne s'arrête jamais. C'est sa façon de t'aimer.
+?pc:anatole Sur Terre, dans une serre de verre, mille belles-de-nuit s'ouvrent chaque soir pour l'ancienne Lune, qui est revenue. Toutes les Noctuelles du monde volent droit, enfin, la Lune à deux heures de l'aile gauche. Aucune ne sait qu'un papillon de nuit est parti de l'autre côté du ciel pour qu'elles puissent voler droit.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
 Platine habite ta Tour. Il te dit bonjour tous les matins. Il te dit merci tous les soirs. Personne ne lui avait demandé. Il le fait quand même.
-Tu tournes. Tu brilles. Tu es seule, et tu ne l'es pas.
+Tu tournes. Tu brilles. Tu es seul·e, et tu ne l'es pas.
 
 @end_13
 !end: 13
@@ -372,7 +497,14 @@ Platine a porté plainte pour vol. Rocambole a porté plainte pour « contrat de
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole ?flag:rocambole_honnete La Serre des Belles-de-Nuit s'ouvre de nouveau, le soir où la Lune revient, un peu essoufflée, avec une odeur de tabac de Bételgeuse.
+?pc:anatole ?!flag:rocambole_honnete Les belles-de-nuit ne s'ouvrent plus. Tu les arroses quand même. Chaque soir, tu laisses la porte de la serre ouverte, au cas où.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit fanée, faute de mieux, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
 Rocambole vit aujourd'hui sur Terre. Il pilote un bateau de pêche avec quatre bras. Il salue toutes les vaches. Il regarde la Lune tous les soirs, et il ne la vole pas. Ça lui demande un effort considérable.
 
 @end_14
@@ -409,7 +541,20 @@ Elle ne répète plus. Elle parle. Pas beaucoup : trois ou quatre mots à elle, 
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
 ?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
-?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau, chaque nuit, à l'heure exacte où la Lune se lève. Tu voles droit. Chaque matin, tu balaies les fleurs fanées dans la Fente, et quelque part, tout en bas, quelqu'un les attend.
+?pc:anatole La Serre des Belles-de-Nuit s'ouvre de nouveau. La première nuit, toutes les fleurs se tournent vers le ciel en même temps, comme pour répéter le mot : reste.
+?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
+?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
+?pc:anatole ?!flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu ne sais toujours pas où elles vont. Elles vont quelque part, et c'est déjà beaucoup.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:lecon_cap Les petits de Séraphine volent droit, maintenant, la Lune à deux heures de l'aile gauche. Un peu trop droit : ils se cognent aux arbres. Ils s'excusent, comme toi.
+?pc:anatole ?flag:seraphine ?!flag:lecon_cap Séraphine apprend aux petits où est le haut. Elle leur dit que c'est toi qui le lui as appris. Ce n'est pas tout à fait vrai. Tu ne la contredis pas.
+?pc:anatole ?flag:noctuelles_attendent Le soir où la Lune est revenue, toutes les Noctuelles de la forêt étaient posées sur les branches, à la regarder. Comme promis.
+?pc:anatole ?flag:fleur_colonelle Une fois par mois, par la Fente, remonte une boîte en fer-blanc. Dedans, toujours la même belle-de-nuit, ouverte, que quelqu'un garde vivante on ne sait comment, et un mot d'une écriture de granit : « Toujours là. B. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit ouverte, pas fanée, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
+?pc:anatole ?flag:fleur_donnee Dans l'herbier, il manque la fleur de tes cinquante ans. Quelque part, sur un bureau de marbre, elle se déplie encore un peu chaque nuit.
+?pc:anatole ?flag:fleur_721 Page sept cent vingt et un : une belle-de-nuit ouverte en plein ciel, au-dessus du Carrefour, la dernière nuit. C'est la plus belle de l'herbier. Personne ne te croit quand tu racontes où tu l'as cueillie.
+?pc:anatole ?flag:vol_droit ?!flag:fleur_721 Les jeunes Noctuelles racontent qu'un vieux jardinier est monté si haut, une nuit, qu'il a vu le crochet de près. Tu les laisses dire. C'est vrai.
 Elle le dit souvent. Elle a l'air de beaucoup l'aimer.
 
 @end_15
@@ -418,6 +563,10 @@ Elle le dit souvent. Elle a l'air de beaucoup l'aimer.
 Ta signature est petite, penchée. Platine la regarde sécher avec tendresse. « Bienvenue dans la Compagnie. »
 L'inauguration de Lune-sur-Mer a lieu six mois plus tard, en orbite autour d'Aldébaran. Il y a des feux d'artifice, des discours, un orchestre de satellites. La Tour Platine brille de ses quatre cents étages. Les piscines à marées montent et descendent toutes les six heures, mécaniquement.
 Tu es concierge en chef. Tu as un uniforme doré et un trousseau de mille clés. Tu arroses les plantes en plastique. Tu changes les ampoules des cratères. Tu accueilles les résidents. Ils sont riches, polis, et ils ne regardent jamais la vue.
+?pc:anatole Tu arroses les plantes en plastique comme tu arrosais les belles-de-nuit : à l'heure exacte où la Lune se levait. Il n'y a plus de Lune à la fenêtre. Il y a des lampes partout, et tu fais trois fois le tour de chacune avant de changer l'ampoule. Les résidents trouvent que le concierge a des manies.
+?pc:anatole ?flag:serre_confiee Gluette a fini le premier rang à Noël, comme promis. Elle a gardé l'arrosoir de cuivre. Tu ne lui as pas demandé de le rendre.
+?pc:anatole ?flag:ecriteau L'écriteau est toujours sur la porte. Dessous, d'une autre écriture, très lente, quelqu'un a ajouté : « Arrosées. »
+?pc:anatole ?flag:colonelle_vue ?!flag:fleur_colonelle Une fois par mois, tu glisses dans la Fente une belle-de-nuit fanée, faute de mieux, avec une carte : « Pour la colonelle du dessous. » Elle ne répond jamais. La Faille dit qu'elle sourit.
 Toi, tu la regardes. Tous les soirs, après ton service, tu montes au sommet de la Tour, et tu regardes, très loin, un petit point bleu qui penche. La Terre. Ta Terre. Sans Lune.
 La Lune, sous tes pieds, ne dit plus rien. Elle s'est tue le jour de l'inauguration. Parfois, la nuit, tu crois l'entendre pleurer, tout bas, dans les fondations. Tu poses ta main sur le sol. Tu dis : « Je suis là. » Ça ne change rien. Tu le fais quand même.
 ?flag:croissant Quelque part, un petit Croissant attend une marée haute qui ne revient pas. Il est patient. C'est de famille.

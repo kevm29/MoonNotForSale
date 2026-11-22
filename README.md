@@ -27,6 +27,7 @@ Hors ligne : ouvrez `docs/index.html` dans un navigateur. Le fichier est autonom
 | `docs/` | Ce que publie GitHub Pages : `index.html` (le jeu) et `carte.html` |
 | `vendor_cytoscape.min.js` | Cytoscape.js 3.28.1 (licence MIT), pour la carte hors ligne |
 | `tools/` | Outils d'audit et de relecture |
+| `index/` | Index des scènes, régénéré par `tools/index.py` (voir « Trouver une scène ») |
 | `tests/` | Tests Playwright dans le navigateur |
 
 ## Construire
@@ -53,6 +54,32 @@ node tests/parties_hasard.js "$PWD"   # 9 parties au hasard jusqu'à une fin
 node tests/parties_ecrans.js "$PWD"   # une partie à 1200 px et une à 390 px
 node tests/carte.js "$PWD"            # la carte, sur grand et petit écran
 ```
+
+## Trouver une scène
+
+`python3 tools/index.py` régénère `index/` (à relancer après toute modification de `src/`). Il ne touche pas à l'histoire.
+
+| Fichier | Une ligne par… |
+|---|---|
+| `index/scenes.tsv` | nœud : fichier et lignes de chaque morceau (`@` puis `@+`), section, héros, lieu (image), titre, fin, compagnons, objets (`+donné -retiré ?requis`), suites, début du texte |
+| `index/scenes.json` | nœud, en détail (une fiche par ligne) : chaque ligne de texte, choix et réplique avec son numéro de ligne, drapeaux posés et testés, d'où l'on vient |
+| `index/repliques.tsv` | réplique de compagnon : ligne, nœud, lieu, compagnon, duo (autre compagnon requis), conditions |
+| `index/objets.tsv` | usage d'un objet : donné, retiré ou requis, où |
+| `index/drapeaux.tsv` | drapeau : posé où, testé où, « jamais testé » / « jamais posé » |
+| `index/sections.md` | préfixe d'identifiant → héros, section, lieu par défaut, fichiers |
+
+Pour éditer sans relire les fichiers entiers :
+
+```sh
+grep -P '^cot_05\t' index/scenes.tsv            # où est le nœud : 11_cotes.txt:30-34 (+ morceaux @+)
+sed -n '30,34p' src/11_cotes.txt                 # lire seulement ces lignes
+grep '"id": "cot_05"' index/scenes.json          # la fiche détaillée
+awk -F'\t' '$6=="bartho" && $3=="cot"' index/repliques.tsv   # répliques de Bartholomé aux Côtes
+awk -F'\t' '$7!=""' index/repliques.tsv         # tous les duos de compagnons
+grep obj_gamelle index/objets.tsv                # où l'objet est donné, requis, retiré
+```
+
+Les numéros de ligne valent pour l'état des fichiers au moment de la génération : après une modification, relancer `tools/index.py`.
 
 ## Le langage de l'histoire
 

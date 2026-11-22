@@ -1,0 +1,290 @@
+# ================================================================
+# CORRECTIONS ZÉPHYRIN (tests du 21/11) : suite du prologue dans le jeu commun,
+# répliques et duos du Marché des Comètes (région confiée), épilogues.
+# ================================================================
+
+# ---------------------------------------------------------------- Carrefour
+
+@+hub_01
+~rocambole ?pc:zephyrin: « Tout ce monde ! Et personne ne sait que c'est toi, petit. » Il te fait un clin d'œil énorme. « Moi, je ne dirai rien. Pour l'instant. »
+~penelope ?pc:zephyrin: « Ils campent. Tous. Monsieur Platine avait écrit dans son rapport : "population locale, peu nombreuse". » Elle range le rapport dans la case « faux ».
+~rocambole ?comp:penelope: Rocambole a hissé Pénélope sur ses épaules pour qu'elle voie la foule. Elle tamponne les têtes qui passent, APPROUVÉ, APPROUVÉ, sans s'en rendre compte.
+
+@+hub_04
+?pc:zephyrin L'Horloger parle lentement. Entre deux mots, il y a la place d'un troisième. Les jeunes Horlogers ralentissent, les vieux se figent. Toi, tu es entre les deux. Tu écoutes ton tic-tac : il a un peu de retard sur le sien.
+
+@+hub_05
+?pc:zephyrin Un vieux Gravitaire du Conseil te regarde longtemps. Il sait qui tu es. Il t'envoie quand même. « Celui qui a vendu sait mieux que personne ce qu'on a perdu. »
+
+@+hub_ret
+?pc:zephyrin Ton ressort a perdu un tic depuis ton départ. Tu le sens à chaque pas : un pas, un tic ; un pas, rien ; un pas, un tac.
+
+@+hub_07
+?pc:zephyrin ?flag:grand_mere Ton ressort saute. Pas un tic : une heure entière. Pendant une heure, tu restes figé, la bouche ouverte, comme ta grand-mère sur son banc. Quand tu te remets à battre, quelqu'un a posé une couverture sur tes épaules.
+?pc:zephyrin ?!flag:grand_mere Ton ressort saute. Pas un tic : une heure entière. Pendant une heure, tu restes figé, la bouche ouverte, comme une horloge en panne. Quand tu te remets à battre, quelqu'un a posé une couverture sur tes épaules.
+~rocambole ?pc:zephyrin: « Petit ! Ton ressort ! Je l'ai entendu s'arrêter. » Il te secoue doucement de ses quatre bras. « Ne me refais jamais ça. »
+~penelope ?pc:zephyrin: « Monsieur Clopin, vous vous êtes arrêté une heure. Je vous ai chronométré. Je n'aurais pas dû. C'était long. »
+~remontoir ?pc:zephyrin: Le tic-tac de Remontoir s'est emballé. Il pose une main sur ta poitrine. « Toi aussi, tu as sauté l'heure. Bienvenue chez les vieux, petit. Tu es en avance. »
+
+# ---------------------------------------------------------------- Foire
+
+@+foi_09
+?pc:zephyrin Remontoir te regarde, lentement. « Un jeune Horloger. Toi aussi, tu ralentis. Je l'entends d'ici : un tic sur trois boite. » Il sourit. « À ton âge, je courais. Profite. Cours un peu. »
+
+# ---------------------------------------------------------------- Capitale
+
+@+cap_22
+?!comp:penelope ?pc:zephyrin ?flag:penelope_aide Sur un palier, une silhouette que tu connais : Pénélope Tampon, un porte-documents doré sous le bras. Elle s'arrête net. « Monsieur Clopin ! Vous êtes vivant. Moi aussi. Ils ne m'ont pas renvoyée : personne n'a imaginé qu'une assistante puisse trahir. Ça m'a presque vexée. » Elle baisse la voix. « On m'envoie chercher l'original de l'acte de vente. Je n'ai pas encore décidé si je le rapporterai. »
+?!comp:penelope ?pc:zephyrin ?!flag:penelope_aide Sur un palier, une silhouette que tu connais : Pénélope Tampon, un porte-documents doré sous le bras. Elle s'arrête. « Monsieur Clopin. Vous êtes parti si vite, le soir du cocktail. On m'envoie chercher l'original de l'acte de vente. Je suis désolée. C'est encore mon travail. »
+
+# ---------------------------------------------------------------- Marché des Comètes (région confiée)
+
+@+com_01
+?pc:zephyrin Tu connais ce marché. Tu y as vendu des orbites, des éclipses rayées et, une fois, un dimanche qui ne t'appartenait pas. La banderole des lots de Lune, c'est toi qui en as choisi les lettres. Un marchand te reconnaît et lève son chapeau : « Monsieur Clopin ! Il vous reste des lots ? » Tu fais semblant de ne pas entendre.
+~penelope ?comp:rocambole: Pénélope montre la banderole. « C'est moi qui ai imprimé les étiquettes des lots. » Rocambole : « Je les décollerai cette nuit, ma petite. Toutes. Par principe. » Elle tamponne son bras : APPROUVÉ.
+~zouzou ?comp:rocambole: « Toi, le pirate, t'as déjà vendu des bouts de comète ici ? » Rocambole lisse sa moustache. « Jamais de ta famille, petite. Promis. » Elle ne le croit pas. Elle reste près de lui quand même.
+~melusine ?comp:plumard: « COLONEL ! DES AURORES AU MÈTRE ! OFFREZ-M'EN UN MÈTRE ! » Le Colonel fouille ses poches. Il n'a que des médailles. Il en tend une au marchand, très digne.
+~remontoir ?comp:coquille: Grand-Père Remontoir et Madame Coquille arrivent à l'entrée en même temps. « Après vous. » « Non, après vous. » Le marché aura peut-être fermé avant qu'ils entrent. Ils ont l'air ravis.
+~ysaline ?comp:vesperine: « Comtesse, vous restez dans l'ombre pendant qu'on fait les courses ? » Du fond de ton ombre : « Je fais mes courses depuis neuf cents ans, très chère. La nuit. »
+~taupinel ?comp:quartz: « Docteur, une comète de quatre milliards d'années, c'est un scoop ? » « Non. C'est une banalité très ancienne. » Taupinel note « scoop » quand même.
+~bartho ?comp:meduses: Bartholomé regarde son bocal. « On paie en souvenirs ? Les bestioles en ont mille chacune. » Les Méduses : « NOUS NE PRÊTONS PAS. MÊME À TOI, VIEUX BULOT. »
+~fernand ?comp:ondee: Fernand se pose sur Dame Ondée pour mieux voir. « Ils vendent de la pluie en bouteille. » Ondée frissonne. Fernand s'allume plus fort, pour la réchauffer.
+~gaspard ?comp:echo: « On m'a vendu un ballon ici, en 1803. » Écho : « ... ballon. Ballon. » Un marchand de ballons accourt. Gaspard se cache derrière toi, gêné d'être vu.
+
+@+com_02
+~rocambole ?pc:zephyrin: « Deux toi ! Je préfère l'original, petit. Il est moins bien coiffé, mais c'est lui qui a ouvert ma cage. »
+~penelope: « Il y en a deux. » Elle tamponne les deux, APPROUVÉ, par prudence.
+~echo: « ... toi. Toi. » Écho regarde les deux, puis prend ta main à toi. Elle ne se trompe jamais de main.
+~plumard: « Un imposteur ! Halte-là ! » Le Colonel met en joue le mauvais. Puis le bon. Puis il baisse son aile, perplexe.
+~quartz: « Probabilité que ce soit toi : cinquante pour cent. » Elle te regarde, puis lui. « Soixante. Tu te tiens plus mal. »
+
+@+com_03
+~penelope: « Un robot de la Compagnie, sous un comptoir ? » Elle chuchote : « Il est en arrêt maladie, ou en fuite. Les deux, j'espère. »
+~rocambole: Rocambole s'accoude au comptoir. « Vous avez quelque chose de doré sous votre comptoir, mon ami. Ça se revend combien ? » Le hibou fait semblant de ne pas comprendre.
+~quartz: « Il y a un robot sous ce comptoir. Probabilité qu'il ait peur : quatre-vingt-dix pour cent. Je ne me trompe jamais sur la peur. Seulement sur le reste. »
+
+@+com_06
+?pc:zephyrin Le petit robot te regarde. Puis il te regarde encore. « Pardon. Vous êtes Monsieur Clopin. L'intermédiaire. J'ai mesuré votre commission, une fois. Elle était trop grande de deux pour cent. Pardon. »
+~penelope: Pénélope se penche vers le petit robot. « Matricule zéro ? Je me souviens de vous. Vous vous excusiez auprès des ascenseurs. » « Pardon. Ils avaient l'air tristes. »
+~rocambole: Rocambole regarde les deux gardes dorés, puis le petit robot. Il fait un rapide calcul sur ses quatre mains. Tu n'aimes pas ce calcul.
+~plumard: « Deux gardes, un fuyard, un marché couvert. Situation classique, soldat. Je fais diversion. » Il chante l'aube. À trois heures de l'après-midi. Tout le marché se retourne.
+~ysaline: Ysaline se place devant le robot, pattes croisées. « Un ouvrier qui refuse un ordre injuste. Il est sous ma protection syndicale. Qu'ils viennent. »
+~taupinel: « Un déserteur de la Compagnie ! » Taupinel sort son carnet. « Votre nom ? » « Pardon. » « Pas de quoi. Votre nom ? »
+~vesperine: Du fond de ton ombre : « Cachez-le dans votre ombre, à côté de moi. Il y a de la place. Je ne mords plus. »
+
+@+com_07
+?pc:zephyrin La vendeuse en tailleur d'or te reconnaît. Elle pâlit, puis elle sourit, très professionnelle. « Monsieur Clopin ! Vos lots partent très bien. Copernic est parti ce matin. Vous touchez toujours vos deux pour cent, vous savez ? » Tu le sais. Ça ne te fait plus plaisir. Ça te fait mal.
+~penelope: « Les étiquettes "VENDU", c'est moi qui les ai imprimées. En lettres dorées. » Elle regarde la carte découpée. « Je m'excuse auprès de chaque carré. »
+~rocambole: Rocambole compte les carrés de Lune. « Il en manque un. Celui-là, je l'avais repéré avant eux. »
+~ysaline: « Des lots sur la Lune. Aucune locataire consultée. Je note. »
+
+@+com_08
+~penelope: « Un métamorphe. Il pourrait se faire passer pour Monsieur Platine. » Elle frissonne. « Ce serait pire. Ou mieux. Je ne sais pas. »
+~vesperine: Du fond de ton ombre : « Un séducteur. J'en ai connu de plus doués. Ils sont tous morts. Prenez-le, il me distraira. »
+~rocambole: « Un type qui peut être n'importe qui. » Rocambole se gratte la moustache. « Il me le faut dans l'équipe. Ou sous clé. »
+
+@+com_11
+~rocambole ?comp:penelope: Pénélope se place entre Rocambole et Pardon, ses tampons levés. « Monsieur Rocambole. Si vous comptez ses vis, je compte vos dents. » Rocambole lève ses quatre mains. « Je comptais pour passer le temps, ma petite. »
+~penelope: « Venez. Ici, on a tous déserté quelque chose. Moi, un bureau. » Elle lui tend un tampon. Il le serre comme une main.
+~remontoir: « Petit, tu as l'âge de te sauver. Moi, j'ai l'âge de te conseiller de le faire. »
+~coquille: « Viens avec nous, petit. Nous allons lentement. On ne nous rattrape jamais. »
+~bartho: « Un robot qui s'excuse. J'en ai connu un, au port. Il s'excusait auprès des vagues. Il a rouillé. Viens, toi, avant de rouiller. »
+
+@+com_12
+?pc:zephyrin Tu as connu Platine adulte, poli, généreux, avec une coupe dans chaque main. Tu n'avais jamais pensé qu'il avait été petit. Ça te fait une drôle de pitié, mal rangée, entre deux engrenages.
+?pc:zephyrin ?flag:zep_poemes Les cahiers d'écolier : tu reconnais l'écriture. Ce sont les mêmes poèmes que dans son bureau. Il les écrivait déjà à huit ans. Ils étaient déjà mauvais.
+~penelope: « Monsieur Platine n'a jamais parlé de son enfance. Il dit qu'il est né adulte, avec une cravate. » Elle regarde le coffre. « Je comprends pourquoi. »
+~rocambole: « Vendre les jouets d'un gamin qui n'est même pas mort. Même moi, je trouve ça bas. » Il enchérit quand même sur l'ours, pour voir. Tu lui donnes un coup de coude.
+~remontoir: Le commissaire-priseur est une horloge de parquet. Grand-Père Remontoir lui fait un petit signe. Elle lui répond en sonnant la demie. « Une cousine », chuchote-t-il.
+~coquille: « Un enfant dans un coffre. » Madame Coquille pose une patte sur son ventre. « Le mien, au moins, a choisi d'attendre. »
+~vesperine: Du fond de ton ombre : « J'ai grandi dans un caveau. On s'en remet. Pas tout à fait. »
+~taupinel: « Souvenirs d'enfance d'un grand homme. Je titre : "Le promoteur avait un ours." » Personne ne rit. Il raye le titre.
+~plumard: « Un ours borgne. J'avais le même. Je l'ai décoré pour bravoure. » Il se racle la gorge très fort.
+~echo: « ... personne. Personne. » Écho a entendu le mot dans la salle et ne le lâche plus.
+
+@+com_13
+~penelope ?flag:obj_miroir_platine: Pénélope regarde le miroir par-dessus ton épaule. « Il en a un grand, dans son bureau. Il ne s'y regarde jamais. Maintenant je sais pourquoi. »
+~rocambole ?flag:obj_miroir_platine: « Un miroir où l'on voit un enfant qui attend. Ça, petit, ça ne se revend pas. Ça se rend. »
+
+@+com_15
+?pc:zephyrin Le vieil Horloger lève les yeux vers toi, très lentement. Il écoute ta poitrine sans la toucher. « Tu ralentis aussi, petit. Un tic sur trois boite. » Il pousse la cloche de verre un peu vers toi. « Un tour peut sauver un ressort. Le tien, ou celui d'un autre. À toi de voir. »
+~remontoir: Grand-Père Remontoir et le vieil Horloger se regardent longtemps. « Toi ? » « Toi. » Ils n'en disent pas plus. Le marchand pousse la cloche vers toi, pas vers lui. « Lui, il refuserait. Il a toujours refusé. »
+~penelope: « C'est la seule boutique du marché qui ne vend pas la Lune. Je trouve ça reposant. »
+~rocambole: Rocambole regarde la grande clé sous sa cloche comme il a regardé la Lune : longtemps, les quatre mains dans les poches. Il ne la vole pas. Ça lui demande un effort.
+~coquille: « Un tour, cent ans. » Madame Coquille sourit. « C'est à peu près ma vitesse. »
+~quartz: « Une clé universelle. C'est impossible. » Elle la regarde encore. « J'ai eu tort trois fois aujourd'hui. Pourquoi pas quatre. »
+~zouzou: « Cent ans pour un tour ? Moi je fais un tour en soixante-seize ans. Je suis plus rapide qu'une clé. Je suis vexée de devoir le dire. »
+
+@+com_17
+~ysaline: « Deux marchands, une météorite. Proposez-leur une coopérative. » Pli : « Madame, ils se tapent dessus. » « C'est comme ça que commencent les coopératives. »
+~plumard: « Une bagarre ! Rangs serrés, soldat ! » Il ne bouge pas. Il trouve que la bagarre manque de discipline.
+~rocambole: « Une météorite tombée entre deux étals ? Elle est à celui qui l'emporte, mon ami. » Il fait un pas. Tu le retiens par un bras. Il lui en reste trois.
+~penelope: « Je peux leur tamponner un partage. APPROUVÉ des deux côtés. » Elle hésite. « Ce serait plus juste avec l'autre tampon. Mais je ne m'en sers pas. »
+~taupinel: « Une rixe au marché ! Enfin une vraie nouvelle ! » Il se met au premier rang. Il prend un coup d'étoile filante. Il note : « témoin blessé ».
+
+@+com_19
+~penelope ?comp:pardon: Pardon mesure le pas de Pénélope. « Vous faites des pas de quarante et un centimètres. » « C'est réglementaire. » « Plus maintenant. Pardon. » Elle allonge le pas. Elle a l'air contente.
+~fulgence ?comp:taupinel: Taupinel interviewe Fulgence. À chaque question, Fulgence change de visage. Taupinel, myope, croit interroger une foule. Il est ravi de la participation.
+~pli ?comp:penelope: Monsieur Pli et Pénélope échangent leurs cartes de visite. Celle de Pli est pliée en Lune. Celle de Pénélope est tamponnée. Ils sont tous les deux très émus.
+~rocambole: « Je n'ai rien volé. Enfin, une étiquette. Une seule. » Il te la montre : « LOT VENDU ». Il l'a collée sur son chapeau.
+~penelope: « J'ai décollé toutes les étiquettes "VENDU" de la carte des lots. Elles sont dans ma poche. Ce n'est pas du vol, c'est de l'archivage. »
+~bartho: « J'ai échangé un mauvais souvenir contre rien du tout. Le marchand n'en a pas voulu. Même ici, mes souvenirs ne valent rien. »
+~meduses: « NOUS N'AVONS RIEN VENDU. NOUS N'AVONS RIEN ACHETÉ. NOUS SOMMES TRÈS FIÈRES. »
+~quartz: « La comète s'est retournée deux fois dans son sommeil. Probabilité qu'elle se réveille ce soir : nulle. Reculons quand même. »
+~brume: « Ils vendaient... la nuit tombante... pas cher... je n'ai pas osé... »
+~echo: « ... fermé. Fermé. » Écho le répète devant chaque étal qui baisse son rideau. Les marchands finissent par lui dire au revoir.
+~fernand: « Ils rangent les étoiles filantes dans des boîtes à œufs. Moi, on m'a rangé dans un tiroir. On a des choses en commun. »
+~melusine: « ILS M'ONT REFUSÉ UN SOUVENIR DE 1412 ! TROP VIEUX ! JE SUIS TROP VIEILLE POUR LEUR MARCHÉ ! TANT MIEUX ! »
+~zouzou: « J'ai vu un bout de queue de mon oncle sur un étal. Je l'ai pas acheté. Il était moche, mon oncle. »
+~coquille: Madame Coquille arrive à l'entrée du marché. « C'est fini ? Parfait. Je n'aime pas la foule. Je reviendrai le visiter quand il n'y aura plus personne. »
+~vesperine: Du fond de ton ombre : « Enfin, le soir. Les vrais marchands vont sortir. Dommage qu'on parte. »
+~ondee: Dame Ondée laisse tomber trois gouttes sur l'étal du marchand de pluie en bouteille. Gratuites. Il ne les vend pas. Il les regarde, ému.
+~gaspard: « Je n'ai pas récupéré mon ballon. Mais on m'a remboursé en souvenirs. Ceux de quelqu'un d'autre. C'est mieux que rien. »
+~ysaline: « Sur quarante étals, trente-deux tenus par des marchandes. Une seule a son nom sur l'enseigne. On reviendra. »
+~taupinel: « Trois scoops, deux rumeurs, une bagarre. L'édition du soir est prête. Il manque l'imprimerie. Et les lecteurs. »
+~plumard: « Fin de l'opération Marché. Pertes : aucune. Achats : inutiles. Moral : excellent. Rompez. »
+~remontoir: « Toutes les horloges du marché avançaient. Moi, je retarde. Ça m'a fait de la compagnie quand même. »
+
+@+nui_02
+~remontoir ?nuit>=1 ?pc:zephyrin: Grand-Père Remontoir pose son oreille contre ta poitrine. « Ton ressort retarde de onze secondes. Le mien, de trois heures. Tu as de l'avenir, petit. »
+* nui_75 ?nuit<3 ?pc:zephyrin ?!flag:n_zep | T'éloigner du feu pour écouter ton ressort | Tu t'éloignes. Le bruit du camp baisse. Le tien monte. | | |
+
+@nui_75
+!title: Ton ressort
+!fx: +flag:n_zep nuit+1
+Tu t'assois à l'écart, loin du feu, là où le bruit du camp ne couvre pas le tien. Tu ouvres ta poitrine. Les rouages tournent. Le grand ressort se détend, un peu plus à chaque tic. Entre deux tac, tu as maintenant le temps de penser une phrase entière.
+?flag:grand_mere Tu penses à ta grand-mère, sur son banc, la main levée vers la Lune. Elle attend. Les vieux Horlogers savent attendre. C'est tout ce qui leur reste.
+?comp:remontoir Plus loin, tu entends le tic-tac de Grand-Père Remontoir. Plus lent que le tien. Beaucoup plus lent.
+?flag:obj_cle_remontage Dans ta poche, la clé de laiton fait tic-tac, comme si elle t'avait reconnu. Un seul tour. Cent ans, peut-être.
+* nui_02 ?flag:obj_cle_remontage | Te remonter toi-même, d'un tour de clé | Tu enfonces la clé dans ta poitrine. Tu tournes. Clic. Ton ressort se tend d'un coup, comme un arc. Tic-tac-tic-tac : tu bats si vite que tu ris tout seul. Tu as cent ans devant toi. Tu as aussi un peu honte de les avoir pris pour toi. | | -flag:obj_cle_remontage +flag:zep_remonte mor+3 |
+* nui_02 ?flag:obj_cle_remontage ?flag:grand_mere | Garder la clé pour ta grand-mère | Tu refermes ta poitrine. La clé reste dans ta poche. Si la Lune ne revient pas, tu iras au village, et tu donneras à ta grand-mère le tour que tu n'as pas pris. C'est la première fois que tu gardes quelque chose pour quelqu'un d'autre. | | +flag:cle_grand_mere coe+1 mor+1 |
+* nui_02 coe12 | Écouter ton ressort jusqu'à t'endormir | Tic... tac... Tu comptes. Tu t'endors au trois cent douzième tic, la main sur la poitrine, comme on garde une montre au chaud. | Tu comptes, tu perds le compte, tu recommences. Tu ne dors pas. Mais tu as compté jusqu'au bout. | mor+1 |
+
+@+nui_20
+?pc:zephyrin ?flag:pacte_rocambole Rocambole te voit. Il ne sourit plus. « Petit... On avait dit moitié-moitié sur rien. Ça, c'était quelque chose. Je sais. » Sa main tremble sur la ficelle.
+
+# ---------------------------------------------------------------- Montée : le sifflet
+
+@+asc_01
+?pc:zephyrin ?!comp:rocambole ?!flag:rocambole_chasse ?!flag:pardon_vendu Tu te souviens d'un pirate à quatre bras, à côté de son vaisseau cabossé : « Si tu as besoin d'un pirate, siffle. Fort. »
+* asc_02 pan11 ?pc:zephyrin ?!comp:rocambole ?!flag:rocambole_chasse ?!flag:pardon_vendu | Siffler, fort | Tu siffles. Les Horlogers sifflent mal : ça fait un bruit de bouilloire. Une minute. Deux. Puis un vieux cargo rouge et vert surgit au-dessus des tentes, la figure de proue tirant la langue. « On m'a sifflé ? » crie Rocambole. « Monte, petit ! » | Tu siffles. Rien. Tu siffles plus fort, avec tes moustaches. Au bout d'un long moment, le Pied-de-Nez arrive en toussant, à reculons. « Tu siffles comme une bouilloire, petit. J'ai cru que c'était l'heure du thé. » | +comp:rocambole mor+1 | +comp:rocambole
+
+# ---------------------------------------------------------------- Chantier et Promontoire
+
+@+cha_28
+?pc:zephyrin Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Un petit insecte en laiton, avec des moustaches à ressort. Il dit qu'il vous connaît. » Un silence. Puis la voix de Platine, douce, très émue : « Zéphyrin. Faites-le monter, Bobinot. Doucement. Il est fragile, même s'il ne le sait pas. »
+
+@+cha_30
+?pc:zephyrin ?flag:accessoire_zeph ?!flag:kramm_demission Accessoire. Tu souris malgré toi. Article 15. Tu le connais par cœur.
+
+@+cha_33
+~rocambole ?pc:zephyrin: « Le Promontoire. La dernière fois, on en sortait par la fourrière, petit. Cette fois, on entre par la grande porte. J'aime moins. »
+~penelope ?pc:zephyrin: « Je vais revoir mon bureau. » Pénélope serre ses tampons. « Et vous, votre patron. On est deux à avoir peur. C'est mieux qu'un. »
+
+@+neg_01
+?pc:zephyrin Tu connais chaque tapis. Les petits robots de ménage te reconnaissent. Ils s'inclinent quand même, un peu moins bas qu'avant. Ton ressort fait tic... tac.
+~rocambole ?pc:zephyrin: « Je reconnais le couloir. Ma cage était juste en dessous. » Il tapote le sol du pied. « Elle me manque presque. »
+
+@+neg_02
+~rocambole ?pc:zephyrin: Platine aperçoit Rocambole. « Mon prisonnier. Et mon intermédiaire. Ensemble. » Il a l'air blessé, comme un poète qui découvre une rime pauvre.
+
+@+neg_04
+?pc:zephyrin Il se tourne vers toi. « Et vous, Zéphyrin. Vous avez ouvert ma cage et vidé ma fourrière. » Il soupire. « Je ne vous en veux pas. Je vous en veux un peu. »
+
+@+neg_15
+?pc:zephyrin ?flag:accessoire_zeph Tu ajoutes : « Et moi, Président. D'après votre article 15, je suis un accessoire. Regardez-moi bien. Un accessoire qui parle. »
+
+@+neg_21
+?pc:zephyrin ?flag:calendrier Jour sept. Tu le savais. Tu l'as compté, tic après tic, depuis le soir du cocktail.
+
+@+neg_23
+* neg_24 ?pc:zephyrin ?flag:zep_poemes | « Je les ai déjà lus, Président. Dans votre bureau, le soir du cocktail. » | Platine rougit d'or. « Vous... Et alors ? » « Ils sont mauvais. Je les ai relus trois fois. » Il ne sait pas s'il doit appeler la sécurité ou te serrer dans ses bras. Il fait les deux, à moitié. | | +flag:platine_emu +flag:platine_faille coe+1 |
+
+@+neg_24
+?pc:zephyrin Il ajoute, plus bas, pour toi seul : « Ou bien revenez. Je raye l'article 15. Je double votre commission. Quatre pour cent, Zéphyrin. »
+
+# ---------------------------------------------------------------- Final : à ta façon d'Horloger
+
+@+fin_01
+* fin_19 ?!flag:essai_casse ?pc:zephyrin | Tout arrêter, à ta façon d'Horloger | Tu plonges sous le bureau de marbre, vers le boîtier du treuil. Tu sais exactement quelle petite vis arrête tout. | | equ+1 |
+
+@+fin_19
+?pc:zephyrin Tu ouvres le boîtier du treuil avec la pointe de ta moustache. Ta grand-mère te l'a appris : « Zéphyrin, si tu sais réparer une horloge, tu sais l'arrêter. » Tu retires la petite vis. Le treuil se bloque d'un coup. Le câble claque comme une corde de violon. Platine crie. Les alarmes hurlent. Tout s'arrête trop vite, beaucoup trop vite.
+* end_11 ?equ<30 ?pc:zephyrin | Laisser tout s'arrêter | Le câble se rompt d'un coup. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
+* end_11 pan11 ?equ>=30 ?pc:zephyrin | Retirer la deuxième vis, pour être sûr | Tu retires la deuxième vis. Le câble se rompt. Et tout se rompt avec lui. | |
+
+# ---------------------------------------------------------------- Épilogues
+
+@+end_01
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même, quand la Lune a retrouvé son orbite. Un peu boiteux. Tu dis que ça te donne du charme.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Tu as cent ans devant toi. Tu as déjà essayé d'en revendre quelques-uns, par habitude. Tu les as repris le lendemain.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_02
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même, quand la Lune a retrouvé son orbite. Un peu boiteux. Tu dis que ça te donne du charme.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Tu as cent ans devant toi. Tu as déjà essayé d'en revendre quelques-uns, par habitude. Tu les as repris le lendemain.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_03
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même où la Lune est revenue. Un peu boiteux, au rythme des pas de la Terre. Tu dis que ça te donne du charme.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Tu as cent ans devant toi. Tu les passes à donner la cadence aux Gravitaires qui poussent.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_04
+?pc:zephyrin Et toi, Zéphyrin ? La vraie Lune est restée, et ton ressort avec elle. Il bat. Parfois, tu lèves les yeux vers la petite lumière violette, très loin, et tu te demandes combien tu l'aurais vendue. Puis tu as honte. Puis tu te demandes encore.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère s'est remise à battre. Elle te donne l'heure, fausse. Tu la remercies quand même.
+
+@+end_05
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même, quand la Lune a dit non. Un peu boiteux. Tu dis que ça te donne du charme.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Tu as cent ans devant toi, et une Lune qui sait dire non. Tu t'entraînes, toi aussi. C'est difficile, pour un ancien vendeur.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_06
+?pc:zephyrin ?!flag:zep_actions Tu n'as plus tes deux pour cent, mais tu as appris à retarder. Ton ressort fait tic-tac, la Lune est restée, et tu assistes à toutes les assemblées, au fond, avec un sablier. Personne n'ose te demander de partir.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère vient parfois aux assemblées. Elle vote contre tout, elle aussi. C'est de famille.
+
+@+end_07
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même. Un peu boiteux. Platine t'écrit tous les mois. Tu lui réponds avec des poèmes encore plus mauvais que les siens, pour qu'il se sente moins seul.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Platine t'écrit tous les mois. Tu lui réponds avec des poèmes encore plus mauvais que les siens, pour qu'il se sente moins seul.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_08
+?pc:zephyrin Et toi, Zéphyrin ? Pendant le Grand Sommeil, ton ressort s'est arrêté, comme toutes les horloges. Au réveil, il est reparti, plus régulier qu'avant. Tu as dormi trois jours. C'est la première fois que tu n'as rien vendu pendant trois jours.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère s'est réveillée en même temps que toi. Elle t'a dit qu'elle avait rêvé d'une maison pleine de fenêtres. Toi aussi.
+
+@+end_09
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort fait tic-tac pendant les audiences. On t'a demandé de le faire taire. Tu as répondu que c'était une pièce à conviction.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, te donne cent ans de procès devant toi. Tu as l'intention de tous les gagner, en retardant.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère assiste aux audiences, au premier rang. Elle s'est remise à battre en même temps que la Lune. Elle tricote. Elle compte les mailles en tic-tac.
+
+@+end_10
+?pc:zephyrin Et toi, Zéphyrin ? Ton ressort ne s'est pas arrêté. Il hésite, entre chaque tic, comme la mer entre deux marées qui ne viennent plus. Tu vis entre deux secondes. Tu t'y es fait une petite chambre.
+?pc:zephyrin ?flag:cle_grand_mere Tu es allé au village. Tu as donné à ta grand-mère le tour de clé que tu avais gardé. Elle a cligné des yeux, elle t'a vu, elle a souri. Elle a cent ans devant elle, dans un monde qui ne bouge plus. Elle dit que c'est mieux que rien.
+
+@+end_11
+?pc:zephyrin Et toi, Zéphyrin ? Ton ressort bat de travers, comme la Lune : un tic court, un tac long. Tous les Horlogers ont appris à boiter du cœur. Tu as été le premier.
+
+@+end_12
+?pc:zephyrin Ton ressort s'est arrêté la nuit où tu es devenu Lune. Tu n'en as plus besoin. Sur Terre, les Horlogers comptent leurs mois sur l'autre, la vraie, et ils battent tous.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère, sur son banc, lève parfois la main vers le ciel d'Aldébaran. Elle ne sait pas pourquoi. Toi, si.
+
+@+end_13
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Pendant les trois mois où la Lune voyageait avec Rocambole, ton ressort a ralenti, ralenti... puis il est reparti le jour où elle est revenue. Rocambole s'est excusé. Avec des fleurs volées.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, a tenu bon pendant les trois mois où la Lune voyageait avec Rocambole. Heureusement : tu avais des choses à lui dire, à son retour.
+?pc:zephyrin ?flag:grand_mere Ta grand-mère s'est remise à battre quand la Lune est revenue. Elle a demandé à rencontrer le pirate. Elle lui a donné une gifle, puis une part de gâteau.
+
+@+end_14
+?pc:zephyrin ?!flag:zep_remonte Et toi, Zéphyrin ? Ton ressort a repris son tic-tac le soir même. Un peu boiteux. Tu dis que ça te donne du charme.
+?pc:zephyrin ?flag:zep_remonte Et toi, Zéphyrin ? Ton ressort, remonté d'un tour de clé, bat plus fort que jamais. Tu as cent ans devant toi pour apprendre ce premier mot, toi aussi.
+?pc:zephyrin ?flag:grand_mere Tu es retourné au village des Horlogers. Ta grand-mère s'est remise à battre en même temps que la Lune. Elle t'a demandé l'heure. Tu lui as donné la vraie. C'était la première fois.
+?pc:zephyrin ?flag:cle_grand_mere Tu lui as offert la clé de laiton quand même. Elle l'a accrochée au-dessus de sa cheminée. « Pour le jour où tu feras une bêtise. »
+
+@+end_15
+?pc:zephyrin ?!flag:zep_remonte Ton ressort aurait dû s'arrêter le jour du départ. Platine t'a fait poser une pile, à la place. Tu fais tic-tac en courant continu, garanti dix ans. Il ne t'a jamais dit ce qui se passerait après.
+?pc:zephyrin ?flag:zep_remonte Ton ressort, remonté d'un tour de clé, bat toujours. Cent ans de tic-tac, loin de la Lune qui te les a donnés. C'est long, cent ans, en concierge.
+?pc:zephyrin ?flag:grand_mere En bas, sur Terre, ta grand-mère ne bat plus. Tu le sais. Tu le sens, le soir, entre deux tics.

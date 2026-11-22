@@ -12,7 +12,8 @@ On partira à l'aube. Personne ne sait encore comment, mais tout le monde sait q
 Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les mers du monde se soulèvent vers elle. Une marée immense, la plus haute depuis le début des temps, monte doucement jusqu'au bord de la plaine. On l'entend respirer dans le noir.
 ?comp:coquille Madame Coquille s'arrête net. Elle lève la tête vers la marée. Elle ne bouge plus. Puis elle dit, très calmement : « Ah. C'est maintenant. »
 ?comp:rocambole ?comp:pardon ?!comp:coquille Rocambole a disparu de ton feu de camp. Pardon aussi. Tu entends, derrière une tente, une voix qui marchande et une petite voix qui dit « pardon ».
-* nui_10 ?comp:coquille | Courir auprès de Madame Coquille | Tu cours. Tout le camp court. Une naissance, cette nuit, c'est la meilleure nouvelle qu'on puisse imaginer, et la plus inquiétante. |  |
+* nui_10 ?comp:coquille ?pc:basile | Aller auprès de Madame Coquille, à ta vitesse | Tout le camp court. Toi, tu avances. Tu arrives après tout le monde, mais Madame Coquille t'attendait : « Enfin quelqu'un qui ne court pas. Reste près de moi. Tu as le bon rythme. » |  |
+* nui_10 ?comp:coquille ?!pc:basile | Courir auprès de Madame Coquille | Tu cours. Tout le camp court. Une naissance, cette nuit, c'est la meilleure nouvelle qu'on puisse imaginer, et la plus inquiétante. |  |
 * nui_20 ?!comp:coquille ?comp:rocambole ?comp:pardon | Aller voir derrière la tente | Tu fais le tour de la tente, sans bruit. Ce que tu vois ne te plaît pas. |  |
 * nui_02 ?!comp:coquille ?!comp:rocambole | T'installer près du feu | Tu t'assois. Le feu crépite. La nuit peut commencer. |  |
 * nui_02 ?!comp:coquille ?comp:rocambole ?!comp:pardon | T'installer près du feu | Tu t'assois. Le feu crépite. La nuit peut commencer. |  |
@@ -48,8 +49,8 @@ Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les
 * nui_59 ?nuit<3 ?pc:anatole ?!flag:n_noc | Voler vers la Lune, tout droit, aussi haut que tu peux | Tu ouvres les ailes au-dessus du camp. En bas, mille lampions t'appellent. Tu ne regardes que la Lune. |  |
 * nui_60 ?nuit<3 ?!flag:n_feu | Rester au feu, et chanter avec ceux qui ne dorment pas | Quelqu'un a sorti un accordéon. Quelqu'un d'autre a sorti un deuxième accordéon. C'est une catastrophe, et c'est merveilleux. |  |
 * nui_61 ?nuit<3 ?!flag:n_reg | Marcher seul·e jusqu'au bord du camp, pour regarder la Lune | Tu t'éloignes. Le bruit du camp s'efface. Il reste la Lune et toi. |  |
-* nui_30 ?comp:remontoir ?!flag:n_rem | Dormir enfin, jusqu'à l'aube | Tu t'allonges. Tu fermes les yeux. Le dernier son que tu entends, c'est un tic-tac, très lent. |  |
-* asc_01 ?flag:n_rem,!comp:remontoir | Dormir enfin, jusqu'à l'aube | Tu t'allonges. Tu fermes les yeux. Tu dors une heure, peut-être deux. Quand tu te réveilles, le ciel est rose et tout le monde te regarde. C'est l'heure. |  |
+* nui_30 ?!pc:pistil ?comp:remontoir ?!flag:n_rem | Dormir enfin, jusqu'à l'aube | Tu t'allonges. Tu fermes les yeux. Le dernier son que tu entends, c'est un tic-tac, très lent. |  |
+* asc_01 ?!pc:pistil ?flag:n_rem,!comp:remontoir | Dormir enfin, jusqu'à l'aube | Tu t'allonges. Tu fermes les yeux. Tu dors une heure, peut-être deux. Quand tu te réveilles, le ciel est rose et tout le monde te regarde. C'est l'heure. |  |
 
 # ---------------------------------------------------------------- naissance
 
@@ -275,8 +276,8 @@ Sur la colline, tu lèves la tête. La Lune est si proche. Ton poil se dresse. T
 !title: Le vol droit
 !fx: +flag:n_noc nuit+1
 Tu montes. Les lampions du Carrefour rapetissent, deviennent des miettes, puis plus rien. Il ne reste que la Lune, énorme, penchée, avec son crochet d'or dans le flanc. Tu ne l'as jamais vue de si près. Aucune Noctuelle ne l'a jamais vue de si près.
-?flag:obj_herbier L'herbier pèse contre ta poitrine. Tu pourrais y presser une dernière belle-de-nuit, si tu en avais une. Tu n'en as pas. Tu as la Lune.
-?flag:noctuelles_guidees Autour de toi, des points gris montent aussi, de tous les côtés de la plaine. Les Noctuelles du réverbère. Elles t'ont suivi.
+?flag:obj_herbier ?!flag:bouton_garde L'herbier pèse contre ta poitrine. Tu pourrais y presser une dernière belle-de-nuit, si tu en avais une. Tu n'en as pas. Tu as la Lune.
+?flag:noctuelles_suivent Autour de toi, des points gris montent aussi, de tous les côtés de la plaine. Les Noctuelles du réverbère. Elles t'ont suivi.
 * nui_02 rus11 | Tenir le cap jusqu'au bout de tes forces | Tu montes encore, la Lune à deux heures de l'aile gauche, jusqu'à ce que l'air devienne trop mince pour porter une aile. Là, une seconde, tu la touches presque. Elle a une odeur : celle de ta serre, une nuit d'été. Tu redescends en planant, lentement, et tu sais exactement où tu vas, pour la première fois depuis des jours. | Le vent te renverse à mi-hauteur. Tu tournes, tu tombes, tu te rattrapes au-dessus d'un brasero, et tu en fais trois fois le tour. Puis tu relèves la tête, tu retrouves la Lune, et tu rentres. C'est un vol droit avec des détours. Il compte aussi. | +flag:vol_droit mor+2 rus+1 | mor+1
 
 # ---------------------------------------------------------------- pour tous

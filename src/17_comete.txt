@@ -56,7 +56,8 @@ Fulgence a décidé que tu étais l'aventure de sa semaine. « Emmène-moi. Je p
 ?from:com_03 Le petit robot doré sort de sous le comptoir, en tremblant de toutes ses vis.
 C'est un géomètre de la Compagnie Foncière : un de ces robots qui mesurent les racines de la Forêt et les cratères de la Lune. Il porte un mètre ruban à la ceinture et une plaque gravée : « PARDON — Matricule 0. » « Ce n'est pas mon nom. C'est le mot que je disais le plus souvent. Ils l'ont gravé pour se moquer. Je l'ai gardé. »
 « J'ai déserté. On m'a demandé de mesurer une voix. Une voix de Lune. Je n'ai pas pu. Une voix, ça ne se mesure pas, pardon. » Au bout de l'allée, deux gardes dorés approchent, en s'excusant auprès de chaque passant.
-* com_09 pan11 | Le cacher sous ton manteau | Tu le caches. Les gardes passent, s'excusent de te déranger, regardent ton manteau qui dit « pardon » tout bas. Ils passent quand même. | Tu le caches mal : une jambe dépasse. Tu cours. Il court sous ton manteau. Vous avez l'air d'un animal mal assemblé. | pan+1 |
+* com_09 pan11 ?pc:basile | T'étaler sur lui, comme un tapis | Tu t'étales sur le petit robot. Les gardes passent, s'excusent de marcher à côté d'un tapis, et entendent le tapis dire « pardon » tout bas. Ils passent quand même. | Tu t'étales, mais une jambe dépasse. Les gardes la regardent. Le tapis et la jambe s'en vont, très lentement, ensemble. Les gardes, polis, attendent qu'ils aient tourné le coin. | pan+1 |
+* com_09 pan11 ?!pc:basile | Le cacher sous ton manteau | Tu le caches. Les gardes passent, s'excusent de te déranger, regardent ton manteau qui dit « pardon » tout bas. Ils passent quand même. | Tu le caches mal : une jambe dépasse. Tu cours. Il court sous ton manteau. Vous avez l'air d'un animal mal assemblé. | pan+1 |
 * com_10 rus11 | Envoyer les gardes sur une fausse piste | « Un petit robot doré ? Il est parti par là, vers les éclipses. » Les gardes te remercient, s'excusent, et partent par là. | « Par là ! » Tu montres la direction où se cache le robot. Il te regarde avec reproche. Tu cours avec lui. | rus+1 |
 
 @com_07
@@ -106,7 +107,8 @@ Les enchères commencent. On paie en souvenirs. L'ours part pour un premier jour
 * com_15 rus10 | Rester une minute, pour regarder le coffre vide | Tu regardes le coffre. Il y a des griffures à l'intérieur. De petites griffures, à hauteur d'enfant. Tu ne regardes plus. | | coe+1 |
 
 @com_14
-Tu cours entre les étals, le cœur battant. Derrière toi, l'horloge de parquet sonne toutes les heures à la fois.
+?pc:basile Tu files entre les étals, aussi vite qu'un lichen peut filer, le cœur battant. Personne ne te poursuit : personne ne pense à poursuivre une mousse.
+?!pc:basile Tu cours entre les étals, le cœur battant. Derrière toi, l'horloge de parquet sonne toutes les heures à la fois.
 ?flag:obj_miroir_platine Tu t'arrêtes derrière un étal d'éclipses. Tu ouvres la main. Le miroir est là. Dedans, un enfant en feuilles d'or te regarde, assis dans un coffre. Il a l'air d'attendre quelqu'un depuis très longtemps.
 ?!flag:obj_miroir_platine Tu t'arrêtes derrière un étal d'éclipses, les mains vides. Tu as quand même vu le miroir de près, une seconde : dedans, un enfant attendait.
 * com_15 coe10 | Reprendre ton souffle, et continuer | Tu respires. Le marché continue, comme si rien n'était arrivé. Les marchés font toujours ça. | |
@@ -133,7 +135,7 @@ Plus loin, une dispute éclate : deux marchands de comètes se disputent une mé
 Les deux marchands se tapent dessus avec des étoiles filantes.
 ?comp:ondee Monsieur Pli aperçoit Dame Ondée, au-dessus de toi. Il se replie d'un coup, en tout petit carré, et murmure depuis l'intérieur : « Madame, je vous en supplie, ne pleuvez pas. Je suis du papier. Je vous admire de loin. De très loin. »
 * com_18 coe11 | L'aider à négocier | Tu proposes de couper la météorite en deux. Pli s'offusque : « On ne coupe pas une météorite ! » Puis il propose de la partager une semaine sur deux. Les marchands acceptent. Pli se déplie de fierté. | Tu proposes de la couper en deux. Les marchands trouvent ça si stupide qu'ils arrêtent de se battre pour se moquer de toi. Pli te remercie, gêné. | coe+1 equ+1 |
-* com_18 pan11 | Prendre la météorite et la rendre au ciel | Tu la soulèves et tu la lances vers le haut. Elle repart. Les deux marchands se regardent, puis se serrent la main : ils n'ont plus de raison de se battre. Pli est horrifié, puis ravi. | Tu la soulèves, tu la lâches sur ton pied. Les marchands éclatent de rire. Pli en profite pour faire signer un traité. | pan+1 | mor-1
+* com_18 pan11 ?!pc:anatole | Prendre la météorite et la rendre au ciel | Tu la soulèves et tu la lances vers le haut. Elle repart. Les deux marchands se regardent, puis se serrent la main : ils n'ont plus de raison de se battre. Pli est horrifié, puis ravi. | Tu la soulèves, tu la lâches sur ton pied. Les marchands éclatent de rire. Pli en profite pour faire signer un traité. | pan+1 | mor-1
 
 @com_18
 Pli se défroisse avec soin. « Vous êtes quelqu'un d'inhabituel. Vous allez là-haut, je le sens. Moi, l'ambassade m'a envoyé négocier "avec n'importe qui, sur n'importe quoi". La Lune, c'est n'importe quoi, et Platine, c'est n'importe qui. Emmenez-moi : je négocierai. »

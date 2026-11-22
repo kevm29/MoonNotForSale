@@ -85,7 +85,7 @@
 ~remontoir: « La marée retarde de six heures. Même elle, elle ralentit. Je me sens moins seul. »
 
 @+for_01
-~melusine ?pc:basile: « UN LICHEN ! DANS LA FORÊT ! TU ES CHEZ TOI, MON PETIT ! » Elle ne connaît pas encore Basile, mais elle l'embrasse quand même.
+~melusine ?pc:basile: « UN LICHEN ! DANS LA FORÊT ! TU ES CHEZ TOI, MON PETIT ! » Elle ne te connaît pas encore, mais elle t'embrasse quand même.
 ~bartho: « Des arbres. Ça ne bouge pas, ça ne parle pas, ça ne boit pas. Je les trouve sympathiques. »
 ~penelope: « La Compagnie a mesuré cette forêt pour en faire des parquets. Je l'ai tamponné moi-même. » Elle regarde ses tampons sans rien dire.
 ~quartz: « Une forêt qui a une administration ! Je veux voir leurs archives. Elles doivent être en écorce. »
@@ -199,7 +199,7 @@
 ~remontoir: « Une échelle. Je compte les barreaux. Ça m'occupe. Il y en a quatre cent douze. Il m'en reste trois cent quatre-vingt-dix. »
 
 @+com_01
-~rocambole ?pc:zephyrin: « Ah, le Marché ! On s'y est connus, toi et moi, tu te souviens ? Tu achetais des orbites, je vendais des trous noirs. »
+~rocambole ?pc:zephyrin: « Le Marché ! Tu y vendais des orbites, petit, je parie. Moi, j'y volais les étiquettes. On aurait dû se rencontrer ici plutôt que dans une cage. »
 ~rocambole: « Le Marché des Comètes. Je connais tous les marchands. Ils me doivent tous de l'argent. Ou l'inverse. »
 ~bartho: « On paie en souvenirs, ici ? J'en ai plein de mauvais. Ils valent quelque chose ? »
 ~penelope: « La Compagnie a un stand ici. Celui des lots de Lune. C'est moi qui ai imprimé les étiquettes. »

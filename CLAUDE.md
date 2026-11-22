@@ -1,0 +1,4 @@
+- ne jamais lire ni chercher dans docs/, out/ et vendor_cytoscape.min.js ;
+- utiliser tools/dump.py pour afficher un nœud plutôt que lire un fichier entier ;
+- pour une retouche de texte, ne lancer que build.py et pack.py, sans tests ni captures.
+- Merci de ne lancer aucun test tant que l'utilisateur ne l'a pas formulé explicitement

@@ -1,0 +1,303 @@
+# ================================================================
+# PISTIL : corrections du test du 21/11 (thread Pistil)
+# - une scène de plus dans le rêve de la Lune (pis_34b)
+# - Brume-Lucie parle dans le prologue et à l'éveil
+# - Pistil ne dort pas, ne porte pas seul du granit (variantes ?pc:pistil)
+# - fin 1 accessible par ce que la Lune a dit dans son rêve (neg_16)
+# - la ficelle du petit Gravitaire revient dans les fins lumineuses
+# - Nuit d'encre : choix en plus, duos et frictions entre compagnons
+# - Pays des Songes (son_) : répliques de chaque compagnon, duos
+# ================================================================
+
+# ---------------------------------------------------------------- PROLOGUE
+
+@pis_34b
+!title: Une histoire pour la Lune
+La Lune pose son menton sur ses genoux. « Tu sais ce que personne n'a jamais fait ? On m'a écrit des lettres. On m'a fait des dessins. Mais personne ne m'a jamais raconté un rêve. Je les éclaire tous, et je n'en connais aucun de l'intérieur. »
+Elle te regarde, comme un enfant qui attend la suite.
+~brume: Brume-Lucie s'installe sur le rebord d'une fenêtre, les genoux de brume ramenés contre elle, exactement comme la Lune. « Moi aussi... je veux bien... une histoire... »
+* pis_36 coe11 | Lui raconter le rêve du vieux Gravitaire, ta maison, avec la tasse et les collines de laine | Tu racontes : les collines de laine, le thé tiède, le Gravitaire qui ronfle comme un éboulement heureux. La Lune ferme les yeux. « C'est là que tu habites ? » « Oui. » « C'est moi qui l'éclaire ? » « Toutes les nuits. » Elle sourit. Elle ne savait pas qu'elle éclairait des tasses. | Tu racontes, mais tu mélanges tout : le thé, la laine, une girafe. La Lune rit quand même. « Tes rêves ont des girafes. » « Ce soir, oui. » | coe+1 mor+1 |
+* pis_36 coe10 ?flag:ficelle | Lui raconter le petit Gravitaire qui pleurait son ballon-Lune, et lui montrer la ficelle | Tu sors la ficelle. Tu racontes le ballon, l'enfant, la promesse. La Lune prend le bout de la ficelle entre deux doigts. « Il croit que je suis un ballon ? » « Il croit que tu peux revenir. » Elle garde la ficelle un moment, puis te la rend. « Alors il faudra la lui rendre. Avec quelque chose au bout. » | | coe+1 +flag:lune_ficelle |
+* pis_36 rus11 | Lui raconter la nuit où tu es tombé dans le sucrier | Tu racontes. Le sucrier, la chute, les grains de sucre collés au bonnet pendant trois rêves. La Lune éclate de rire. Un rire de Lune, ça fait un petit clair de lune dans la pièce. « Personne ne m'avait jamais fait rire de l'intérieur. » | Tu racontes, mais tu ris trop tôt et tu gâches la fin. La Lune rit quand même, de te voir rire. | rus+1 |
+
+@+pis_18
+~brume: Brume-Lucie se cache derrière ton bonnet. « Il sent la lavande... et l'argent... je n'aime pas... l'odeur de l'argent... »
+
+@+pis_20
+~brume: Brume-Lucie te souffle à l'oreille, à peine visible : « Riche tout seul... ça ne veut rien dire... comme une rime... sans l'autre vers... »
+
+@+pis_21
+~brume: Brume-Lucie se condense un peu, inquiète. « Ne lui donne pas... ton nom... Les marchands... gardent tout... »
+
+@+pis_23
+~brume: Brume-Lucie, qui avait peur du Marchand, s'approche de lui sans le vouloir. Un vieux rêve triste, ça attire la brume.
+
+@+pis_25
+~brume: Brume-Lucie se retourne sur le seuil. « Il n'est pas... tout à fait... méchant... Il est... fatigué... »
+
+@+pis_29
+~brume: Brume-Lucie reste sur le pas de la porte, intimidée. Elle n'a jamais vu sa cousine de si près. Elle n'ose pas entrer. Puis elle entre.
+
+@+pis_30
+~brume: Brume-Lucie lit par-dessus ton épaule. « Ma très chère... » Elle pleure de la rosée sur une lettre. Elle l'essuie très vite, avec un coin d'elle-même.
+
+@+pis_33
+~brume: Brume-Lucie regarde le dessin longtemps. « Elle garde tout... même les dessins mal coloriés... surtout ceux-là... »
+
+@+pis_35
+~brume: Brume-Lucie frissonne. « Une porte ouverte... ça laisse passer... les courants d'air... Je le sais... je suis... un courant d'air... »
+
+@+pis_36
+~brume: Brume-Lucie s'enroule autour de vos deux mains. Elle ne dit rien. Pour une fois, ce n'est pas par peur de finir sa phrase : il n'y a rien à ajouter.
+
+@+pis_37
+~brume: Brume-Lucie te tire par le bonnet. « Pistil... le rêve se... il se... » Elle n'arrive pas à dire « défait ». Elle n'a jamais pu.
+
+@+pis_39
+~brume: Brume-Lucie sort du bâillement juste après toi, en tire-bouchon. Elle se recoiffe. « On ne dira à personne... qu'on est sortis... par là... »
+
+@+pis_40
+~brume: Brume-Lucie pâlit au soleil. « L'éveil... ça pique... un peu... Tu t'y fais, toi ? » Tu ne sais pas encore.
+
+@+pis_41
+~brume: Brume-Lucie se met devant toi, pour que l'enfant ne te voie pas trop. Puis elle se pousse : il t'a déjà vu, et il sourit.
+
+@+pis_43
+~brume: Brume-Lucie s'allonge dans un creux d'herbe, pour la nuit. « Ici... la nuit... ressemble à chez nous... un peu... Ne rentre pas. Moi non plus... je ne rentre pas. »
+
+@+pis_44
+~brume: Brume-Lucie regarde la foule, en bas, et devient toute transparente. « Ils sont... tellement... nets... »
+
+@+pis_46
+~brume: Brume-Lucie se cache dans ton col. « Personne ne nous connaît... C'est reposant... enfin... C'est terrifiant... »
+
+# ---------------------------------------------------------------- PISTIL DANS LE JEU COMMUN
+
+@+son_01
+* son_02 coe10 ?pc:pistil | Rentrer en pensant à la Lune | Tu fermes les yeux. Tu n'as pas besoin de t'endormir : tu n'as qu'à rentrer. Tu tombes. Doucement. Vers le haut. | Tu fermes les yeux. Tu penses à la Lune, puis à ta tasse, puis à la Lune. Tu rentres quand même, de travers. | mor+1 |
+* son_03 rus11 ?pc:pistil | Rentrer par le rêve d'un dormeur qui compte les moutons | Sur le lit d'à côté, un dormeur compte les moutons. Tu entres par son rêve. Le quatorzième mouton est défait, à moitié détricoté. Il te fait signe de le suivre. | Les moutons du dormeur font grève, ils refusent de sauter. Seul le quatorzième, à moitié détricoté, te fait signe de le suivre. | |
+
+@+nui_02
+* nui_30 ?pc:pistil ?comp:remontoir ?!flag:n_rem | Passer la fin de la nuit dans les rêves du camp | Tu ne dors pas : un Somnambule ne dort pas. Tu passes de rêve en rêve, dans le camp, à lisser les draps de ceux qui dorment mal. Le dernier rêve que tu visites fait tic-tac, très lentement. |  |
+* asc_01 ?pc:pistil ?flag:n_rem,!comp:remontoir | Passer la fin de la nuit dans les rêves du camp | Tu ne dors pas : un Somnambule ne dort pas. Tu passes de rêve en rêve, à lisser les draps de ceux qui dorment mal. À l'aube, tu ressors par le bâillement d'un Gravitaire. Le ciel est rose, et tout le monde te regarde. C'est l'heure. |  |
+
+@+neg_16
+* neg_21 coe11 ?pc:pistil ?flag:indice_consentement,flag:lune_veut_rester ?!flag:contrat_vice | Lui dire ce que la Lune t'a dit, dans son rêve : elle n'a jamais dit oui | Platine se fige. « Dans son rêve ? Vous êtes entré dans... » Tu lui racontes la maison aux mille fenêtres, le papier « VENDU » sur chaque rebord, la petite Lune assise par terre, qui disait que personne ne lui avait demandé. Platine pâlit. « Un bien vendu sans son accord. » Il le répète, tout bas. « C'est un vice de forme. » Et c'est à ce moment-là que l'alarme se met à sonner. | Tu racontes, mais un rêve se raconte mal. Platine hausse un sourcil d'or. « Un rêve n'est pas une pièce de dossier. » Il le note quand même, dans la marge. Et c'est à ce moment-là que l'alarme se met à sonner. | +flag:contrat_vice +flag:temoin_lune |
+
+# La ficelle du petit Gravitaire (pis_13), rendue dans les fins où la Lune reste
+@+end_01
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_02
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_03
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_05
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_07
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_08
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_14
+?pc:pistil ?flag:ficelle La nuit d'après, tu retrouves le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_36
+?flag:ficelle Avant de rentrer, tu fais un détour par le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, cette fois, il y a la vraie.
+@+end_38
+?flag:ficelle Sur le chemin, tu passes par le rêve du petit Gravitaire. Tu lui rends la ficelle de son ballon. Il tire dessus. Au bout, il y a la vraie Lune. Tu ne lui dis pas ce que ça t'a coûté.
+
+# Brume-Lucie dans l'éveil, avec « son » Somnambule
+@+hub_01
+~brume ?pc:pistil: Brume-Lucie se colle à toi, au milieu de la foule. « Personne ne nous voit bien... Toi, tu es un rêve... moi, je suis du flou... On est... la même tache... sur la photo... »
+@+asc_01
+~brume ?pc:pistil: Brume-Lucie regarde la Lune, là-haut. « Tu lui as promis... Je me souviens... Les brumes se souviennent... de tout ce qui est doux... »
+@+nui_02
+~brume ?pc:pistil: Brume-Lucie flotte au-dessus des dormeurs du camp, et rentre un peu dans leurs rêves, en voisine. « Ils rêvent tous... d'elle... Tu entends ? »
+
+# ---------------------------------------------------------------- NUIT D'ENCRE
+
+@+pne_02
+* pne_02b | Demander au Passeur de choisir pour toi | Il hausse les épaules. « Je passe. Je ne choisis pas. » Il te tend la perche quand même. « Toi, tu choisis. C'est pour ça que tu es resté. » | |
+
+@+pnc_00
+* pnc_00b | Demander au Passeur de rester encore un peu | Il ne répond pas. Mais il ne repousse pas sa barque tout de suite. Il reste là, une minute, le temps que tu aies moins froid. Puis tu descends. | |
+
+@+pne_hub
+~brume ?comp:melusine: Brume-Lucie se faufile entre les aiguilles de Tante Mélusine. « Vous tricotez... la lumière de ma cousine ? » « OUI. TU ES DANS MA MAILLE, PETITE. NON. RESTE. TU TIENS CHAUD. »
+~zouzou ?comp:brisefer: Zouzou se pose sur la tête de Brisefer. « T'es lourde, toi. » « Et toi, tu ne restes jamais nulle part. » « C'est pour pas devenir lourde. » Brisefer ne répond pas. Ça la fait réfléchir.
+
+@+pnc_hub
+~zouzou ?comp:brisefer ?encre>=4: Zouzou éclaire tes mains, puis éteint sa queue d'un coup. « Je préfère pas voir. » Brisefer, derrière : « Regarde. Quand on porte quelque chose, on regarde ce que c'est. » Elles se fâchent à voix basse.
+~melusine ?comp:bartho ?encre>=4: Tante Mélusine et Bartholomé se disputent tout bas. « IL FAUT LUI DIRE. » « Il le sait, la prêtresse. Il a des yeux. » « DES YEUX, ÇA NE SUFFIT PAS. NON. ÇA SUFFIT. JE NE SAIS PAS. »
+
+@+pnc_route
+~brisefer ?comp:zouzou ?cauch==1: Brisefer et Zouzou regardent les Insomnies. « Renvoie-les, le pyjama. » « Garde-les, elles sont rigolotes ! » « Rien de ce qui ne dort jamais n'est rigolo, la comète. » « Toi, tu dors debout depuis trois mille ans, c'est pas mieux. » Elles ne se parlent plus pendant un cauchemar entier.
+~bartho ?comp:melusine ?cauch==3: Bartholomé regarde la Peur-du-Noir et son curriculum. « Engage-la pas, petit. » Tante Mélusine, tout bas : « ELLE A L'AIR SI SEULE. » « Tout le monde a l'air seul, ici. C'est pas une raison. » Ils se tournent le dos. Mélusine tricote plus vite.
+~zouzou ?comp:bartho ?cauch==5: Zouzou fait le tour de la boutique du Marchand en sifflant. « Ses larmes de Lune, elles sont fausses, je parie. » Bartholomé renifle le flacon. « Non. Elles sont vraies. C'est ça qui est grave. »
+
+@+pnc_c2
+~brume ?comp:bartho: Brume-Lucie se pose sur l'épaule de Bartholomé pendant qu'il regarde la mer en l'air. « Elle reviendra... la mer... et peut-être... » Il la coupe, doucement : « Finis pas, petite. Pour une fois, c'est mieux. »
+
+@+pnc_d2
+~zouzou ?comp:brume: Zouzou passe et repasse dans le ciel vide. Brume-Lucie s'étire derrière elle, pour faire une traînée plus longue. Pour une fois, elles font quelque chose ensemble, et elles ne se le disent pas.
+
+@+pno_00
+~brisefer ?comp:bartho: Brisefer regarde l'or partout. « Tout ça pour un seul dormeur. » Bartholomé crache dans une piscine, en rêve. « J'ai connu des marins qui avaient moins que rien et qui dormaient mieux. » « Moi aussi. Ils sont tous morts. » « Ben oui. Mais bien reposés. »
+
+# ---------------------------------------------------------------- PAYS DES SONGES (son_) : répliques et duos
+
+# --- L'arrivée dans la ville des rêves
+@+son_02
+~brume: Brume-Lucie respire la ville à pleins poumons de brume. « Chez moi... enfin... à côté de chez moi... Ça s'effrite... »
+~bartho: Bartholomé regarde les gens se promener en pyjama. « J'ai jamais eu de pyjama. Je dors en ciré. » Il a l'air un peu jaloux.
+~penelope: Pénélope Tampon cherche un guichet du regard. Il n'y en a pas. « Une ville sans guichet. Comment savent-ils où ils vont ? »
+~quartz: Le Dr Quartz mesure un nuage de coton entre deux facettes. « Densité nulle, résistance infinie. C'est impossible. J'adore. »
+~melusine: Tante Mélusine tâte un pont d'idées vagues. « C'EST TRICOTÉ. TRÈS MAL TRICOTÉ. QUI A FAIT ÇA ? NON. NE ME DITES PAS. »
+~echo: Écho écoute la ville. « ...vague... vague... » Elle répète les idées vagues. C'est la première fois qu'un mot lui va si bien.
+~fernand: Fernand allume son abdomen, par habitude. Ici, personne n'a besoin de lui. « Une ville éclairée par les rêves. Encore un emploi qui disparaît. »
+~zouzou: Zouzou fait un tour au-dessus des tours de souvenirs, et revient déçue. « Tout est flou. Même moi, je suis floue, ici. »
+~coquille: Madame Coquille s'installe sur un nuage de coton. « Enfin quelque chose de mou. Mon dos vous remercie. Mon enfant aussi, je crois. »
+~vesperine: La Comtesse Vespérine retire son ombrelle. « Dans les rêves, il fait toujours nuit quelque part. Je me sens chez moi, en plus confortable. »
+~ondee: Dame Ondée pleut un peu, de soulagement. Ici, la pluie tombe vers le haut. Elle ne mouille personne. Elle n'en revient pas.
+~gaspard: Sire Gaspard ôte son chapeau. « J'ai passé deux siècles à mi-chemin du ciel. Ici, au moins, on est à mi-chemin de tout. C'est plus sociable. »
+~fulgence: Fulgence prend l'apparence d'un rêve, pour voir. Il ressemble vaguement à tout le monde. Personne ne le remarque. Il en est vexé.
+~ysaline: Ysaline Mante regarde les places publiques. « Pas un seul banc réservé aux femelles. Même en rêve, il y a du travail. »
+~pardon: Pardon sort son mètre ruban, le regarde, et le range. « Pardon. On ne mesure pas un rêve. Je l'ai lu quelque part. Je crois que c'était dans un rêve. »
+~pli: Monsieur Pli se déplie dans l'air mou de la ville. « On flotte. C'est très diplomatique, de flotter. On ne prend pas parti pour le sol. »
+~taupinel: Archibald Taupinel colle son museau contre une tour de souvenirs. « Il y a un scandale là-dedans. Je le sens. Tous les souvenirs sont des scandales, de près. »
+~plumard: Le Colonel Plumard bombe le torse. « Une ville entière qui dort ! Un scandale ! Si je chantais l'aube, ici... » Quelqu'un, très vite, lui met la main sur le bec.
+~remontoir: Grand-Père Remontoir s'assoit sur une idée vague. « Ici, le temps ne compte pas. Mon ressort se repose. C'est la première fois en mille ans que je n'ai pas peur de ralentir. »
+~rocambole: Le Capitaine Rocambole compte les tours de souvenirs avec ses quatre mains. « On pourrait en emporter une. Une petite. Personne ne s'en souviendrait. C'est le principe. »
+
+# --- Duos à l'arrivée (paires qui voyagent souvent ensemble)
+@+son_02
+~fulgence ?comp:pli: Fulgence prend la forme d'une feuille pliée, pour amuser Monsieur Pli. Il se plie mal. Monsieur Pli le regarde, froissé. « Monsieur. On ne se plie pas en trois. C'est vulgaire. »
+~pardon ?comp:pli: Pardon voudrait demander son chemin. Monsieur Pli se déplie devant lui et négocie à sa place avec un passant en pyjama. Le passant n'avait rien demandé. Pardon dit pardon pour les deux.
+~echo ?comp:quartz: Le Dr Quartz annonce : « Ce nuage pèse trois grammes et demi. » Écho répète : « ...et demi... et demi... » Quartz vérifie. Il pèse quatre grammes. Écho a l'air satisfaite.
+~ondee ?comp:zouzou: Zouzou passe sous Dame Ondée et s'éteint à moitié, sous la bruine. « Arrête de pleuvoir sur moi ! » « JE NE PLEUS PAS SUR TOI, JE PLEUS. » Elles se fâchent. Elles font la paix trois tours de souvenirs plus loin.
+~vesperine ?comp:zouzou: Zouzou éclaire la ville en passant. La Comtesse Vespérine plisse les yeux. « Mademoiselle, vous pourriez briller moins fort ? » « Et vous, vous pourriez être moins sombre ? » Elles s'évitent jusqu'au bout de la place.
+~plumard ?comp:remontoir: Le Colonel Plumard tape du pied. « On perd du temps ! » Grand-Père Remontoir, tout doucement : « Ici, Colonel, on n'en perd pas. On en retrouve. » Plumard ne sait pas quoi répondre. Ça ne lui arrive jamais.
+~fernand ?comp:melusine: Fernand reconnaît Tante Mélusine. « La prêtresse du Temple. On était voisins, en forêt. Vous ne m'avez jamais dit bonjour. » « JE NE VOUS VOYAIS PAS. VOUS ÉTIEZ TROP PETIT. NON. VOUS ÉTIEZ TROP LUMINEUX. »
+~penelope ?comp:fernand: Pénélope reconnaît Fernand, la luciole licenciée. Elle regarde son tampon APPROUVÉ, celui de la privatisation de l'éclairage. « Je... C'est moi qui ai tamponné. » Fernand hausse les ailes. « Je sais. Ici, on s'en fiche. Demain, on verra. »
+
+# --- La ville qui s'effondre
+@+son_04
+~brume: Brume-Lucie tend la main vers un rêve qui tombe, le manque, le rattrape au vol avec un autre bout d'elle-même. « Je ne peux pas... tous les... »
+~ondee: Dame Ondée pleure sur un rêve de Marégrave où la mer refuse de monter. Ses gouttes remplissent un peu la mer du rêve. Un peu. Elle continue.
+~remontoir: Grand-Père Remontoir regarde un rêve d'Horloger où toutes les horloges fondent. « C'est mon cousin. Il ralentit, lui aussi. » Il touche le rêve du bout du doigt, très doucement, comme on remonte une montre.
+~gaspard: Sire Gaspard regarde les morceaux de rêves tomber à travers lui. « C'est désagréable. On sent passer la tristesse des autres. »
+~pardon: Pardon ramasse un morceau de rêve et le recolle à l'envers. « Pardon. Pardon. Pardon. » Le rêve se remet en place. À l'envers, mais en place.
+~coquille: Madame Coquille pose une patte sur son ventre. « Mon enfant rêve, lui aussi. J'espère que son rêve tient. » Elle regarde la ville tomber, et elle se tait.
+
+# --- La boutique du Marchand
+@+son_07
+~brume: Brume-Lucie s'arrête devant la vitrine. « Il sent le café... Il sent toujours le café... ici... » Elle n'aime pas cet endroit.
+~taupinel: Archibald Taupinel colle son museau à la vitrine. « "Partenaire officiel". Je le savais. Tout le monde a un partenaire officiel, quand il y a un scandale. »
+~fulgence: Fulgence se regarde dans la vitrine, et prend l'air d'un client fortuné. « Laissez-moi entrer le premier. Les marchands adorent les gens riches. Je suis très convaincant, en gens riches. »
+~ysaline: Ysaline Mante lit les étiquettes. « Sieste, épuisé. Évidemment. Les siestes, c'est toujours les mères qui n'en ont pas. »
+~rocambole: Le Capitaine Rocambole siffle entre ses dents. « Une boutique pleine de choses qui ne pèsent rien et qui valent une fortune. C'est le rêve de tout contrebandier. »
+
+@+son_09
+~brume: Brume-Lucie se cache derrière toi, entièrement. Seul un demi-vers dépasse : « Lui... je le connais... il met les rêves... en... »
+~penelope: Pénélope Tampon reconnaît le papier à en-tête doré sur le comptoir. « La Compagnie. Il a un contrat avec Monsieur Platine. J'ai tamponné celui-là. APPROUVÉ. » Elle baisse les yeux.
+~pardon: Pardon reconnaît la balance dorée : le même modèle que celles de la Compagnie. « Pardon, monsieur. Vous pesez aussi les racines ? » Le Marchand ne comprend pas la question. Pardon non plus, à vrai dire.
+~fernand: Fernand ricane. « Vendre du sommeil. Après la lumière de la Lune, le sommeil. Ils vont finir par vendre le noir. »
+~plumard: Le Colonel Plumard regarde les bocaux de sommeil avec une méfiance de militaire. « Du sommeil en conserve ! Moi, je réveille gratuitement ! »
+~vesperine: La Comtesse Vespérine tend un doigt ganté vers un bocal. « Vous vendez la nuit au gramme ? J'ai neuf cents ans de nuits. Je pourrais vous faire concurrence. »
+
+# --- L'arrière-boutique et les rêves volés
+@+son_10
+?pc:pistil Tu connais ces étagères. Elles sont encore plus hautes qu'avant. Les boutiques de rêve grandissent quand elles font des affaires, et le Marchand fait de très bonnes affaires, ces nuits-ci.
+~brume: Brume-Lucie fait le tour des bocaux de la Lune sans les toucher. « Ses rêves... en conserve... Elle ne le sait pas... qu'on la récolte... »
+~echo: Écho colle son oreille contre un bocal. « ...seule... » Elle sursaute. Ce n'est pas elle qui l'a dit. C'est la Lune, dans son rêve.
+~zouzou: Zouzou éclaire les étiquettes une par une. « Rêves de la Lune, nuit 1, nuit 2, nuit 3... Elle rêve tous les soirs, et lui, il ramasse tous les matins. »
+~taupinel: Archibald Taupinel prend des notes, le museau contre les étiquettes. « Collection complète. Ce mot-là va faire la une. »
+~quartz: Le Dr Quartz examine un bocal. « La lumière tourne en rond à cinq tours par minute. Comme quelqu'un qui marche dans une maison vide. » Elle se tait. Pour une fois, elle n'explique pas.
+
+# --- Le Marchand parle d'argent
+@+son_12
+~brume: Brume-Lucie murmure : « Riche... reposé... c'est pareil... Non... ce n'est pas... pareil... » Elle finit sa phrase. Elle a été trop fâchée pour avoir peur.
+~fulgence: Fulgence prend l'apparence du Marchand, pour lui montrer de quoi il a l'air. Le Marchand se voit, cerné, bâillant. Il se détourne.
+~coquille: Madame Coquille, calmement : « Moi, je dors trois cents ans quand je veux. Vous ne me vendrez jamais rien, monsieur. » Le Marchand la regarde avec une profonde jalousie.
+
+# --- Le Marchand se souvient qu'il était un rêve
+@+son_16
+~brume: Brume-Lucie s'approche du Marchand sans le vouloir. Un vieux rêve triste, ça attire la brume. Elle se pose sur son épaule. Il ne la chasse pas.
+~gaspard: Sire Gaspard pose une main transparente sur l'épaule du Marchand. « Moi aussi, on m'a rêvé héroïque. Et puis on m'a oublié à mi-chemin. On reste ce qu'on reste, monsieur. Mais on choisit comment. »
+~remontoir: Grand-Père Remontoir tend un pot de confiture au Marchand, sorti d'on ne sait où. « Tenez. Ça ne fait pas dormir. Mais ça console. »
+
+# --- Le rêve de la Lune
+@+son_20
+?pc:pistil Sur le rebord des fenêtres, les petits papiers « VENDU » sont toujours là. Certains se sont décollés, depuis ta dernière visite. Elle les a retournés face contre le mur.
+~brume: Brume-Lucie, tout bas : « Ma cousine... Elle est encore plus petite... qu'avant... »
+~bartho: Bartholomé ôte sa casquette sur le seuil. Il ne dit rien. Il cherche une boîte à chaussures du regard, sans savoir pourquoi.
+~melusine: Tante Mélusine se met à genoux, ce qui prend du temps. « MADAME LA LUNE. C'EST MOI QUI TRICOTE VOTRE LUMIÈRE. DEPUIS MILLE ANS. VOUS NE ME CONNAISSEZ PAS. C'EST NORMAL. » Elle sanglote.
+~echo: Écho regarde la Lune assise par terre. Elle a vécu seule si longtemps qu'elle reconnaît la posture. Elle ne répète rien. Elle s'assoit à côté, dans la même position.
+~zouzou: Zouzou, pour une fois, ne file pas. Elle reste sur le seuil, toute petite, sa queue entre les jambes, si une comète avait des jambes.
+~coquille: Madame Coquille regarde la Lune longtemps. « C'est pour vous qu'il ne naît pas, mon enfant. Il vous attend. » La Lune ne comprend pas. Puis elle comprend.
+~ondee: Dame Ondée pleut tout doucement sur le parquet. La Lune la regarde. « Une pluie. Il n'y avait jamais eu de pluie, ici. » Dame Ondée s'excuse. La Lune lui dit de continuer.
+~gaspard: Sire Gaspard s'incline très bas. « Madame. J'ai essayé de vous rejoindre en 1803. Je suis arrivé à mi-chemin. C'est un honneur de faire enfin le reste du trajet. »
+~vesperine: La Comtesse Vespérine fait une révérence de neuf cents ans. « Madame. Vous éclairez mes nuits depuis toujours. Je ne vous ai jamais remerciée. Je suis une vieille ingrate. »
+~fernand: Fernand, la luciole, éteint son abdomen par politesse. Devant la lumière de la Lune, même petite, la sienne lui semble ridicule. « C'est elle, mon ancienne patronne. Elle ne m'a jamais licencié, elle. »
+~plumard: Le Colonel Plumard se tait. Il retire son képi. « Madame. Je vous ai toujours détestée. Vous empêchiez l'aube de venir. Je retire tout. »
+~remontoir: Grand-Père Remontoir regarde les dates sur les murs. « Quatre milliards et demi d'années, et pas un seul goûter. » Il pose un pot de confiture près d'elle.
+~pardon: Pardon reste à la porte. « Pardon. Je suis de la Compagnie. Enfin, j'étais. » La Lune le regarde. « Tu as l'air gentil, pour quelqu'un de la Compagnie. » Pardon s'éteint presque, de bonheur.
+~pli: Monsieur Pli se déplie jusqu'au bout de lui-même, ce qu'il ne fait jamais. « Madame. Je suis diplomate. Je n'ai jamais rencontré quelqu'un qui n'avait signé aucun traité. »
+~quartz: Le Dr Quartz mesure la pièce, puis s'arrête. « Je pourrais vous expliquer pourquoi vous êtes triste. J'aurais tort six fois sur dix. Je préfère me taire. »
+~ysaline: Ysaline Mante s'assoit en face de la Lune, très droite. « On vous a vendue sans vous demander. Je connais ça. Je vais m'en occuper. »
+~fulgence: Fulgence ne prend aucune autre forme. Il reste lui-même, gauche, devant la Lune. C'est la première fois depuis longtemps.
+~taupinel: Archibald Taupinel range son carnet. « Celle-là, je ne l'écrirai pas. Il y a des choses qu'on ne publie pas. »
+~penelope: Pénélope Tampon regarde ses deux tampons. APPROUVÉ. REFUSÉ. Elle les cache derrière son dos, devant la Lune.
+~rocambole: Le Capitaine Rocambole se découvre, ses quatre mains sur son chapeau. « C'est elle. J'ai voulu la voler, une fois. Elle était trop belle. Elle l'est encore plus de près. »
+
+# --- Duos dans le rêve de la Lune
+@+son_20
+~brume ?comp:melusine: Tante Mélusine et Brume-Lucie entourent la Lune, l'une avec un châle, l'autre avec elle-même. « VOUS ÊTES DE LA FAMILLE ? » « Sa cousine... » « MOI, JE SUIS SA TRICOTEUSE. C'EST PRESQUE PAREIL. »
+~coquille ?comp:zouzou: Zouzou se blottit contre la carapace de Madame Coquille. « Toi aussi, t'attends quelqu'un ? » « Mon enfant. Et toi ? » « Personne. » Madame Coquille la regarde. « Ce n'est pas vrai. » Zouzou ne répond pas.
+~vesperine ?comp:remontoir: La Comtesse Vespérine et Grand-Père Remontoir s'assoient côte à côte, les deux plus vieux de la troupe. « Neuf cents ans, Comtesse ? » « Et vous, mille ? Vous êtes un gamin. » Ils rient, à voix basse, pour ne pas déranger.
+
+# --- Le rêve de Platine
+@+son_25
+~brume: Brume-Lucie frissonne. « C'est froid... ici... L'or, ça ne garde pas... la chaleur... »
+~penelope: Pénélope Tampon reconnaît son patron, minuscule, sur la table. « Monsieur Platine ? Mais... vous êtes si petit. » Elle n'a jamais osé le penser. Elle vient de le dire.
+~fulgence: Fulgence voudrait prendre l'apparence de quelqu'un qui consolerait Platine. Il ne trouve personne. Il reste lui-même, bras ballants.
+~coquille: Madame Coquille regarde la petite pièce. « On ne garde pas un enfant dans un coffre. On le garde contre soi. » Elle ne dit pas ça pour lui. Elle le dit quand même.
+~rocambole: Le Capitaine Rocambole regarde les coffres, puis la pièce qui pleure. Il ne prend rien. Ses quatre mains restent dans ses poches. Il ne comprend pas ce qui lui arrive.
+
+# --- Le départ du rêve de la Lune
+@+son_30
+~brume: Brume-Lucie embrasse sa cousine, ce qui fait un peu de rosée sur la joue de la Lune. « À bientôt... vraiment... bientôt... » Elle a dit « bientôt » deux fois, pour être sûre.
+~bartho: Bartholomé remet sa casquette. « Tenez bon, madame. Moi, j'ai attendu vingt ans. C'est long, mais ça se fait. »
+~melusine: Tante Mélusine se retourne trois fois sur le seuil. « JE VOUS TRICOTERAI DES MITAINES. NON. UN CHÂLE. NON. LES DEUX. »
+~echo: Écho, sur le seuil, dit doucement : « ...bientôt... » La Lune l'entend. Elle répète, à son tour : « ...bientôt. » Écho n'avait jamais été répétée.
+~zouzou: Zouzou file la première, puis revient faire un dernier tour autour de la Lune. « On revient sans rester, hein ? Mais on revient. »
+~gaspard: Sire Gaspard se retourne une dernière fois. « Cette fois, je finirai le voyage, madame. Pour de vrai. »
+
+# --- Le réveil au Dortoir
+@+son_33
+~brume ?pc:pistil: Brume-Lucie se pose sur toi, toute légère. « On était... chez nous... et chez elle... C'était... la même maison... un peu... »
+~brume: Brume-Lucie flotte entre les lits, encore pleine de la maison aux fenêtres. « Je l'ai vue... ma cousine... de si près... »
+~bartho: Bartholomé se frotte les yeux. « J'ai rêvé d'une Lune qui gardait des lettres. Ça me rappelle quelqu'un. » Il ne dit pas qui.
+~penelope: Pénélope Tampon se réveille et tamponne son oreiller, par réflexe. REFUSÉ. Elle regarde le tampon, stupéfaite. C'est la première fois qu'il sert.
+~quartz: Le Dr Quartz se réveille en parlant. « ... et c'est pourquoi les rêves ont une masse. » Elle regarde autour d'elle. « J'ai rêvé que j'avais raison. C'était très reposant. »
+~melusine: Tante Mélusine se réveille en larmes. « J'AI VU MA LUNE. ELLE EST TOUTE PETITE. NON. ELLE EST IMMENSE. LES DEUX. »
+~echo: Écho se réveille en répétant le dernier mot de la Lune. « ...partir... ne veux pas partir... » Elle n'a jamais répété autant de mots d'un coup.
+~fernand: Fernand se réveille et tape une réclamation, très vite, sur sa machine. Puis il la déchire. « Pour une fois, je n'ai pas à me plaindre. C'est très désagréable. »
+~zouzou: Zouzou se réveille d'un bond, et s'éteint à moitié de gêne. « J'ai pleuré dans un rêve. Vous direz rien. »
+~coquille: Madame Coquille ouvre un œil, puis l'autre, très lentement. « Mon enfant a bougé. Pendant le rêve. Il a entendu quelque chose. »
+~vesperine: La Comtesse Vespérine s'étire sur son lit de camp. « Un rêve sans un seul vampire. Je n'en avais pas fait depuis l'an mille. »
+~ondee: Dame Ondée a plu sur tout le Dortoir pendant la nuit. Elle s'excuse auprès de chaque dormeur. Ils lui disent qu'ils ont rêvé de la mer.
+~gaspard: Sire Gaspard flotte au-dessus des lits, un peu plus net que d'habitude. « J'ai fait le reste du trajet, en rêve. C'est déjà quelque chose. »
+~fulgence: Fulgence se réveille sous la forme de la Lune, en petit. Il reprend vite la sienne, gêné. Personne n'a rien vu. Presque personne.
+~ysaline: Ysaline Mante se réveille déjà debout. « On l'a vendue sans son avis. J'ai rédigé la motion en dormant. Elle est très bonne. »
+~pardon: Pardon se réveille et s'excuse auprès de son oreiller. Puis auprès de toi. « Pardon. J'ai rêvé que je mesurais quelque chose d'immense, et que je n'avais pas besoin du chiffre. »
+~pli: Monsieur Pli se réveille tout froissé. Il se lisse avec dignité. « J'ai rêvé d'un traité sans signature. Le plus beau que j'aie jamais lu. »
+~taupinel: Archibald Taupinel se réveille et cherche son carnet. Il n'a rien noté. Il est soulagé, sans savoir pourquoi.
+~plumard: Le Colonel Plumard se réveille d'un coup et chante l'aube. Il fait encore nuit. Tout le Dortoir lui jette des oreillers. Il considère que c'est une victoire.
+~remontoir: Grand-Père Remontoir se réveille le dernier, tic... tac... « J'ai dormi sans compter. Mon ressort ne s'en est même pas aperçu. »
+~rocambole: Le Capitaine Rocambole se réveille en vérifiant ses poches, ses quatre poches. Il n'a rien volé dans le rêve. Il ne sait pas s'il est fier ou déçu.
+
+# --- Duos au réveil
+@+son_33
+~fulgence ?comp:pardon: Fulgence se penche sur Pardon, qui s'excuse encore. « Tu sais que tu as le droit de ne pas t'excuser, le petit ? » « Pardon. Je ne savais pas. » Fulgence soupire, et lui tapote la tête.
+~echo ?comp:plumard: Le Colonel Plumard chante « COCORICO ». Écho répète « ...rico... rico... ». Plumard s'arrête, vexé : « Pas "rico". COCO-RICO. » « ...rico... » Ils recommencent, et toute la tente rit.
+~zouzou ?comp:plumard: Zouzou fait le tour du Colonel Plumard en traînée lumineuse. « Ça c'est une aube, mon colonel. » Plumard la regarde passer, très ému, et fait semblant d'avoir une poussière dans l'œil.
+~fernand ?comp:vesperine: Fernand allume son abdomen pour éclairer le Dortoir. La Comtesse Vespérine se cache sous sa couverture. « Monsieur, éteignez-vous. » « Madame, réveillez-vous. » Ils ne s'aiment pas. Ils le savent depuis le premier jour.
