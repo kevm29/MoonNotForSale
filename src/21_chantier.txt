@@ -73,7 +73,8 @@ Bobinot, le contremaître, retire son casque. « Je... je ne savais pas. »
 Le crochet. Tu es au pied. Il est immense, en or massif, gravé de la devise de la Compagnie : « Nous donnons un prix à ce qui n'en a pas. » Autour, la roche est fissurée. Des fissures fines, profondes, qui ressemblent à des rides de chagrin.
 Tu poses ta main sur la roche, à côté du crochet. Elle est brûlante.
 * cha_16 rus12 ?comp:quartz | Demander au Dr Quartz d'analyser la roche | Dr Quartz pose ses doigts de cristal sur la fissure. Ses facettes clignotent. « Fascinant ! La Lune a un cœur. Un cœur de cristal. Exactement comme ceux que je fabrique ! Enfin, en mieux. » | Elle analyse et se trompe trois fois. La quatrième, elle trouve. | |
-* cha_17 pan12 | Essayer d'arracher le crochet | Tu tires. Tu tires de toutes tes forces. Le crochet ne bouge pas. Mais le câble, là-haut, vibre. Quelque chose a craqué. | Tu tires et la Lune crie. Tu lâches tout de suite. Tu lui as fait mal. | |
+* cha_17 pan12 ?!pc:pistil | Essayer d'arracher le crochet | Tu tires. Tu tires de toutes tes forces. Le crochet ne bouge pas. Mais le câble, là-haut, vibre. Quelque chose a craqué. | Tu tires et la Lune crie. Tu lâches tout de suite. Tu lui as fait mal. | |
+* cha_17 pan12 ?pc:pistil ?comp:zouzou | Demander à Zouzou d'arracher le crochet | Toi, tu ne ferais pas bouger une plume. Zouzou, si. Elle recule, prend son élan de comète et fonce sur le crochet, de toutes ses forces. Le crochet ne bouge pas. Mais le câble, là-haut, vibre. Quelque chose a craqué. | Zouzou fonce, trop fort, trop vite, et la Lune crie. Tu lui hurles de lâcher. Elle lâche, mais le mal est fait. | |
 * cha_15 coe10 | Rester avec elle un moment | Tu restes. Tu ne peux rien faire d'autre. Parfois, c'est déjà quelque chose. | | mor+1 |
 
 @cha_12

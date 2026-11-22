@@ -202,6 +202,7 @@ Les vraies ont été renvoyées par la Compagnie, tamponnées « retour à l'exp
 
 @pis_32
 « À qui j'appartenais ? » répète la Lune. « À personne. À la Terre ? Non. La Terre ne m'a jamais possédée. Elle m'a juste... gardée près d'elle. Comme on garde une amie. »
+« Celui qui m'a achetée, lui, ne m'a jamais vue. Un monsieur tout en or, qui s'appelle Gédéon Platine. Je ne connais de lui que sa signature, tout en bas des papiers que la Compagnie laisse tomber dans mes rêves. Il ne m'a jamais regardée, je crois. Il m'a seulement comptée. »
 Elle se lève. Elle va à une fenêtre. Dehors, la Terre, bleue, bancale, inquiète. « Ils ont l'air perdus sans moi. »
 * pis_34 coe11 | « Ils le sont. » | Elle pose sa main sur la vitre. « Alors je ne veux pas partir. » Elle le dit pour la première fois. Ça résonne dans toute la maison. | Elle hoche la tête mais ne dit rien. | +flag:lune_veut_rester |
 * pis_35 rus12 | « Il faut que tu le dises à tout le monde. » | « Comment ? Je ne parle qu'en rêve. » Tu réfléchis. Si tu pouvais garder une porte ouverte entre son rêve et le monde... | « Je ne sais pas parler aux éveillés. » | +flag:idee_porte |

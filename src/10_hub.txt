@@ -71,7 +71,9 @@ Un galet gris, qu'on dit Président de la Terre, est posé au centre de la carte
 !title: Retour au Carrefour
 ?regions<2 Tu reviens au Carrefour des Espèces. Les tentes ont doublé.
 ?regions>=2 Tu reviens au Carrefour des Espèces pour la deuxième fois. Les tentes ont encore doublé ; certaines sont déjà repliées, prêtes pour une fuite que personne n'ose organiser.
-La Lune a grossi dans le ciel, ou elle s'est rapprochée pour mieux partir. Les gens te regardent revenir comme on regarde quelqu'un qui revient d'un enterrement : avec l'espoir qu'il ait vu quelque chose de beau quand même.
+La Lune a grossi dans le ciel, ou elle s'est rapprochée pour mieux partir.
+?regions<2 Les gens te regardent revenir comme on regarde quelqu'un qui rentre d'un long voyage : avec l'espoir qu'il ait vu quelque chose de beau.
+?regions>=2 Cette fois, personne ne te demande rien. On te fait de la place près du feu, et on regarde la Lune avec toi.
 ?flag:perles_chargees Derrière toi, des pêcheurs tirent jusqu'au Carrefour des filets pleins de perles. On leur fait une haie d'honneur.
 ?flag:gravitaires_allies Sous tes pieds, le sol frémit de temps en temps. Les Gravitaires de l'Assemblée attendent ton signal.
 ?flag:reve_ouvert Des dormeurs, sous les tentes, sourient dans leur sommeil. Ils entendent une voix qu'ils ne connaissent pas encore.
