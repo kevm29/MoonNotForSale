@@ -88,8 +88,8 @@ Les Méduses chantent un air triste, un air ancien, qui parle d'une Lune qui pas
 @cot_13
 Les Méduses lancent l'appel. Toute la mer l'entend. Et dans les profondeurs, il ne se passe rien. Les huîtres restent fermées. Elles n'ont jamais rien donné à personne : c'est leur façon d'exister.
 Une huître doyenne, grosse comme une armoire, entrouvre sa coquille d'un millimètre. « Une perle, c'est vingt ans de patience autour d'un grain de sable qui nous gênait. Pourquoi est-ce qu'on donnerait vingt ans de patience à un promoteur ? »
-* cot_16 coe12 | Lui promettre qu'on rachètera la Lune, et qu'on rendra les perles si ça échoue | La doyenne réfléchit vingt minutes, ce qui est rapide pour une huître. Puis elle s'ouvre. Et les autres l'imitent, une par une, comme des portes qu'on ouvre à des voisins. | La doyenne ne te croit pas. Elle s'ouvre quand même, un peu, par lassitude. Seules les plus vieilles la suivent. | equ+3 +flag:cagnotte | +flag:cagnotte mor-1
-* cot_17 rus12 | Lui proposer un reçu en bonne et due forme, tamponné par les crabes | Un reçu ! Les huîtres adorent les reçus : c'est fermé, c'est officiel, ça se range. Elles signent, elles s'ouvrent, et les crabes tamponnent toute la nuit. | Le reçu est mal rédigé. Les huîtres exigent des avenants, des annexes, un notaire. À l'aube, la moitié seulement a signé. | rus+1 +flag:cagnotte +flag:cagnotte_pleine | +flag:cagnotte
+* cot_16 coe12 | Lui promettre qu'on rachètera la Lune, et qu'on rendra les perles si ça échoue | La doyenne réfléchit vingt minutes, ce qui est rapide pour une huître. Puis elle s'ouvre. Et les autres l'imitent, une par une, comme des portes qu'on ouvre à des voisins. | La doyenne ne te croit pas. Elle s'ouvre quand même, un peu, par lassitude. Seules les plus vieilles la suivent. | equ+3 +flag:cagnotte_perles | +flag:cagnotte_perles mor-1
+* cot_17 rus12 | Lui proposer un reçu en bonne et due forme, tamponné par les crabes | Un reçu ! Les huîtres adorent les reçus : c'est fermé, c'est officiel, ça se range. Elles signent, elles s'ouvrent, et les crabes tamponnent toute la nuit. | Le reçu est mal rédigé. Les huîtres exigent des avenants, des annexes, un notaire. À l'aube, la moitié seulement a signé. | rus+1 +flag:cagnotte_perles +flag:cagnotte_pleine | +flag:cagnotte_perles
 
 @cot_14
 ?!comp:bartho Le Ressac Triste. Au comptoir, Bartholomé Vasequeuse, le vieux pêcheur, regarde son verre d'eau douce. Il est dilué, sentimental, la casquette de travers.
@@ -229,7 +229,7 @@ Tu as maintenant une autre raison de monter. Il y a des gens sur la Lune. Des ge
 
 @cot_35
 Tu quittes les Côtes Hagardes. Derrière toi, la vague immobile tient toujours, grâce aux Méduses. La mer s'est calmée, un peu.
-?flag:cagnotte Les perles brillent dans les filets des pêcheurs.
+?flag:cagnotte_perles Les perles brillent dans les filets des pêcheurs.
 ?flag:marees_prevenues La mer attend ton signal, comme une danseuse en coulisse.
 Tu reprends la route du Carrefour, les pieds mouillés, la tête pleine de chansons fausses.
 * hub_ret coe10 | Retourner au Carrefour des Espèces | Tu marches. Le sel sèche sur toi. Tu le gardes. C'est un souvenir. |  | mor+1

@@ -70,7 +70,7 @@ Une vieille poule en tablier, à l'entrée, te prévient : « Minuit, c'est dans
 @foi_08
 ?comp:taupinel Taupinel trottine à côté de toi en dictant à voix haute : « Le témoin, visiblement épuisé·e, traverse la Foire... » Tu lui demandes d'arrêter. Il note : « Le témoin demande d'arrêter. »
 ?!comp:taupinel Derrière toi, la machine à écrire de Taupinel crépite à nouveau. Tu entends ton nom, mal orthographié.
-* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Quelqu'un t'a reconnu·e grâce à l'interview qui n'est pas encore parue. | |
+* foi_02 coe10 | Revenir dans l'allée | Tu reviens dans l'allée. Quelqu'un t'a reconnu·e : on dirait que ta réputation te précède. | |
 
 @foi_09
 !title: Grand-Père Remontoir

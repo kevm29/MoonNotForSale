@@ -44,7 +44,8 @@
 ~rocambole: Rocambole regarde la Lune et lisse sa moustache-nébuleuse. « J'aurais pu la voler, vous savez. » Il ne finit pas. Personne ne lui demande la fin.
 ~penelope: « Dans le bureau de Monsieur Platine, il n'y avait pas de nuit. Je ne savais pas que c'était si grand. »
 ~fernand: Fernand éteint sa lumière, pour mieux voir la Lune. C'est la première fois qu'il le fait de sa vie.
-~echo: « ... maintenant... » Écho a entendu Madame Coquille, ou quelqu'un d'autre. Elle répète le mot comme on serre une main.
+~echo ?comp:coquille: « ... maintenant... » Écho a entendu Madame Coquille, ou quelqu'un d'autre. Elle répète le mot comme on serre une main.
+~echo: « ... maintenant... » Écho a entendu quelqu'un dire « maintenant », près de la marée. Elle répète le mot comme on serre une main.
 ~ysaline: « Une marée immense, et personne ne demande leur avis aux poissons. Je note pour le prochain congrès. »
 ~taupinel: Taupinel colle son museau à la marée. « Elle sent la fin du monde. Et le sel. Surtout le sel. »
 

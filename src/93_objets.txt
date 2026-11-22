@@ -343,7 +343,7 @@ C'est la nuit sans Lune, celle qui va peut-être durer toujours. Tu trempes la p
 
 @+asc_01
 * asc_30 ?flag:obj_bille | Lâcher la bille qui tombe vers le haut, sans la lâcher | Tu serres la bille de la petite Gravitaire à deux mains. Elle tire vers le ciel. | | |
-* asc_32 ?flag:obj_ballon ?!pc:brisefer | Gonfler le ballon de soie de Gaspard | Tu déplies le ballon au milieu du Carrefour. La soie est fine comme de la peau. | | |
+* asc_32 ?flag:obj_ballon ?!pc:brisefer | Gonfler le ballon de soie | Tu déplies le ballon au milieu du Carrefour. La soie est fine comme de la peau. | | |
 
 @asc_30
 !title: Tomber vers le haut
@@ -392,7 +392,7 @@ Le mètre ne sait pas mentir. C'est un mètre de géomètre. Il mesure tout, mê
 * cha_07 rus11 | Noter chaque mesure, chiffre par chiffre | Tu remplis trois pages. À la fin, c'est clair : la Compagnie a vendu une surface. La Lune, c'est beaucoup plus que ça. Ce qui n'a pas été mesuré n'a pas été vendu. | Tu notes trop vite, tu mélanges les colonnes. Il te reste une seule page lisible, et une seule ligne qui compte : « non cessible ». | +flag:dossier +flag:mesures_lune rus+1 | +flag:dossier
 
 @+cha_11
-* cha_63 ?flag:obj_facette ?!comp:quartz | Poser la facette du Docteur Quartz contre le crochet | Tu poses la facette violette contre la roche, au pied du crochet. | | |
+* cha_63 ?flag:obj_facette ?!comp:quartz | Poser la facette de quartz contre le crochet | Tu poses la facette violette contre la roche, au pied du crochet. | | |
 
 @cha_63
 !title: La fréquence de la Lune
@@ -405,7 +405,7 @@ Dans la note, il y a tout : son poids, son âge, et son cœur, qui bat de traver
 
 @+cha_15
 * cha_60 ?flag:obj_lanterne | Allumer la lanterne-méduse au milieu du chantier | Tu sors le bocal. La petite méduse se réveille et regarde autour d'elle. | | |
-* cha_61 ?flag:obj_aiguille | Repriser le ciel autour du crochet avec l'aiguille de Mélusine | Tu sors l'aiguille. Elle s'allume toute seule, et s'allonge juste ce qu'il faut pour le ciel. | | |
+* cha_61 ?flag:obj_aiguille | Repriser le ciel autour du crochet avec la vieille aiguille | Tu sors l'aiguille. Elle s'allume toute seule, et s'allonge juste ce qu'il faut pour le ciel. | | |
 * cha_66 ?flag:obj_goutte ?!comp:ondee | Laisser tomber la dernière goutte de Dame Ondée sur la Lune | Tu ouvres le dé à coudre. | | |
 * cha_67 ?flag:obj_aurore | Déplier l'aurore au-dessus du chantier | Un pli, deux plis, huit plis. | | |
 * cha_68 ?flag:obj_boussole | Suivre l'aiguille de la boussole des choses perdues | Sur la Lune, l'aiguille de la boussole s'affole. | | |

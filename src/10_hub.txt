@@ -47,7 +47,7 @@ Une vieille Gravitaire tend une couverture à un Marégrave qui gèle. Un Horlog
 
 @hub_05
 On sonne une cloche. Le Conseil des Espèces se réunit pour la première fois de l'histoire de la Terre. Il a duré quatre minutes. Il a décidé une seule chose : envoyer des volontaires dans les régions du monde qui souffrent le plus, pour trouver de l'aide, des alliés, des idées. Ensuite, il faudra monter là-haut.
-Le Président galet est posé au centre de la carte. Il ne dit rien. C'est un accord.
+Un galet gris, qu'on dit Président de la Terre, est posé au centre de la carte. Il ne dit rien. C'est un accord.
 ?flag:voie_tri Le galet a été posé sur la carte du côté des affaires de papier : le Conseil te propose les régions où l'on signe, où l'on vend et où l'on décide.
 ?flag:voie_rum Le marchand de beignets s'est invité au Conseil. Il pointe sur la carte les régions dont parlent ses rumeurs, et seulement celles-là.
 ?flag:voie_peu Les peuples que tu as écoutés autour des feux ont chacun montré leur pays. Le Conseil t'envoie là où ils ont besoin de toi.

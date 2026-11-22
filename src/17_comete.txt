@@ -39,7 +39,7 @@ Il prétend qu'il a séduit une montagne, trois reines et un phare. La montagne 
 Fulgence se recoiffe. Il a pris l'apparence d'un vieux colonel à monocle pour avoir l'air digne. Ça ne marche pas : le monocle est à l'envers.
 « Fulgence Mille-Formes. Métamorphe, poète, séducteur à temps partiel. Tu m'as attrapé, je suis à toi. Façon de parler. Ou pas. » Il te regarde par en dessous. « Tu vas où, avec cette tête de quelqu'un qui sauve le monde ? »
 * com_08 coe11 | « Sur la Lune. » | Il cesse de sourire une seconde. « La Lune. » Il devient un vieillard, très bref. Puis lui-même. « Ma mère me la montrait, quand j'avais encore une forme fixe. » | Il rit. « Bien sûr. Et moi je vais épouser une étoile. » Puis il voit que tu ne plaisantes pas. | coe+1 |
-* com_08 rus10 | « Ça ne te regarde pas. » | « Tout me regarde. C'est ma malédiction. » Il te suit quand même, en changeant de chapeau tous les dix pas. | |
+* com_08 rus10 | « Ça ne te regarde pas. » | « Tout me regarde. C'est ma malédiction. » Il te regarde partir, en changeant de chapeau tous les dix pas. | |
 
 @com_08
 Fulgence a décidé que tu étais l'aventure de sa semaine. « Emmène-moi. Je peux être n'importe qui. Un garde, un ministre, ta grand-mère. Je peux ouvrir toutes les portes qu'on ouvre aux autres. » Il baisse la voix. « Et je suis seul depuis très longtemps, sous toutes mes formes. »
