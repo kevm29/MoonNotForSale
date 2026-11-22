@@ -44,7 +44,8 @@
 ~rocambole: Rocambole regarde la Lune et lisse sa moustache-nébuleuse. « J'aurais pu la voler, vous savez. » Il ne finit pas. Personne ne lui demande la fin.
 ~penelope: « Dans le bureau de Monsieur Platine, il n'y avait pas de nuit. Je ne savais pas que c'était si grand. »
 ~fernand: Fernand éteint sa lumière, pour mieux voir la Lune. C'est la première fois qu'il le fait de sa vie.
-~echo: « ... maintenant... » Écho a entendu Madame Coquille, ou quelqu'un d'autre. Elle répète le mot comme on serre une main.
+~echo ?comp:coquille: « ... maintenant... » Écho a entendu Madame Coquille, ou quelqu'un d'autre. Elle répète le mot comme on serre une main.
+~echo: « ... maintenant... » Écho a entendu quelqu'un dire « maintenant », près de la marée. Elle répète le mot comme on serre une main.
 ~ysaline: « Une marée immense, et personne ne demande leur avis aux poissons. Je note pour le prochain congrès. »
 ~taupinel: Taupinel colle son museau à la marée. « Elle sent la fin du monde. Et le sel. Surtout le sel. »
 
@@ -138,7 +139,7 @@
 ~zouzou ?comp:coquille: Zouzou tourne autour de Madame Coquille. « Qu'est-ce que tu vas faire, toi ? » « Moi ? Rien. Je suis venue. C'est déjà beaucoup, à ma vitesse. »
 ~bartho ?comp:meduses: Bartholomé ouvre son bocal. « C'est le moment, les bestioles ? » « C'EST LE MOMENT, VIEUX BULOT. » Il ne referme pas le couvercle. Il ne le referme plus.
 ~plumard ?comp:melusine: Le Colonel Plumard ajuste sa crête. Tante Mélusine lui noue une écharpe de lumière autour du cou, sans rien dire, ce qui chez elle est un hurlement.
-~gaspard: « J'y suis. Après cent quarante ans. » Gaspard ne bouge plus. Il a peur d'avoir à repartir.
+~gaspard: « J'y suis. Après deux cents ans. » Gaspard ne bouge plus. Il a peur d'avoir à repartir.
 
 @+cha_28
 ~penelope: Pénélope reconnaît la voix dans la radio. Elle devient blanche, pour une femme de bureau, c'est beaucoup. « C'est lui. Il dit toujours "J'aime recevoir". Il n'a jamais reçu personne. »
@@ -250,7 +251,7 @@
 ~ysaline: Ysaline a obtenu que les danseuses mènent la danse. Les danseurs suivent. Ils ont l'air soulagés.
 
 @+nui_61
-~gaspard: Gaspard s'assoit à côté de toi, un peu au-dessus de l'herbe. « Moi aussi, je lui ai dit que j'arrivais. Il y a cent quarante ans. Toi, arrive pour de vrai. »
+~gaspard: Gaspard s'assoit à côté de toi, un peu au-dessus de l'herbe. « Moi aussi, je lui ai dit que j'arrivais. Il y a deux cents ans. Toi, arrive pour de vrai. »
 ~ondee: Dame Ondée flotte au-dessus de vous deux et pleut, très doucement, ce qui chez elle veut dire « moi aussi ».
 ~zouzou: Zouzou s'allonge dans l'herbe. Elle ne brille presque plus. « Elle a l'air fatiguée. Comme ma mère quand je partais. »
 ~echo: Écho s'assoit contre toi. Tu dis quelque chose à la Lune. Elle le répète, plus bas, pour que ça monte plus loin.

@@ -21,7 +21,7 @@ Le bureau de Platine. Une pièce ronde, dorée, avec une baie vitrée sur la Lun
 
 @neg_03
 La porte s'ouvre sur un bureau doré. Gédéon Platine se lève derrière son bureau de marbre. Il a l'air ravi. « Vous avez frappé ! Personne ne frappe jamais. Les gens entrent pour vendre, ou pour acheter. Vous, vous avez frappé. » Il s'incline. « Gédéon Platine. Promoteur. Poète, à mes heures. Que puis-je pour vous ? »
-* neg_04 coe10 ?!pc:brisefer | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
+* neg_04 coe10 ?!pc:brisefer ?!pc:pelagie | T'asseoir face à lui | Tu t'assois. Le fauteuil est moelleux. Trop moelleux. On s'y enfonce comme dans une proposition commerciale. | |
 * neg_04 coe10 ?pc:brisefer | T'asseoir par terre, face à lui | Il n'y a pas de fauteuil pour onze tonnes. Tu t'assois sur la moquette. Le Promontoire tout entier penche d'un degré. Platine se tient à son bureau et sourit, poli jusqu'au bout. « Mettez-vous à l'aise. » | |
 
 @neg_04
@@ -47,7 +47,7 @@ Il te regarde avec une bienveillance terrible. « Dites-moi. Pourquoi devrais-je
 
 @neg_07
 « L'argent », dit Platine, rayonnant. « Quarante-deux milliards de lunes-crédits. Plus les frais de chantier, plus les intérêts. Si vous voulez la racheter, il faudrait... » Il calcule. « Cinquante-huit milliards. Environ. Vous les avez ? » Il rit gentiment. « Personne ne les a. »
-* neg_13 coe12 ?flag:cagnotte,flag:souscription,flag:perles_chargees | Poser sur son bureau ce que la Terre a donné | Tu poses tout ce que la Terre t'a confié. Platine regarde. Il ne dit rien. | Tu poses tout, maladroitement. Des boutons roulent sous le bureau. Il les regarde rouler. | |
+* neg_13 coe12 ?flag:cagnotte,flag:souscription,flag:perles_chargees,flag:cagnotte_perles | Poser sur son bureau ce que la Terre a donné | Tu poses tout ce que la Terre t'a confié. Platine regarde. Il ne dit rien. | Tu poses tout, maladroitement. Des boutons roulent sous le bureau. Il les regarde rouler. | |
 * neg_14 rus12 ?flag:zep_actions,flag:reglement_copro,flag:golf_or | Parler de la copropriété | Platine se raidit. « La copropriété ? » Il sait de quoi tu parles. Il a écrit le règlement lui-même. Il le regrette déjà. | |
 * neg_15 pan11 | Lui dire que vous n'avez pas l'argent, mais que vous avez autre chose | « Autre chose ? » Il penche la tête. « Quoi donc ? » | |
 
@@ -198,7 +198,13 @@ Platine se redresse. Il redevient promoteur, un instant. « Je vais vous faire u
 
 @neg_25
 Platine regarde la Lune. Longtemps. Puis : « Vous savez ce qu'elle est, vous ? »
-Tu réfléchis. Tu penses à tout ce que tu as vu : la maison pleine de fenêtres, les lettres gardées, la marée qui se lève pour la saluer, les Marégraves partis devenus poussière, la petite voix dans la roche qui demandait si elle avait le droit de vouloir.
+Tu réfléchis. Tu penses à tout ce que tu as vu.
+?flag:reve_lune La maison pleine de fenêtres, où la Lune était assise par terre.
+?flag:lettres_bartho Les lettres gardées, jamais envoyées.
+?flag:vis_cot La marée qui se lève pour saluer la Lune.
+?flag:perline_message Les Marégraves partis, devenus poussière, et le message qu'ils ont laissé.
+?flag:lune_veut_rester La petite voix dans la roche, qui demandait si elle avait le droit de vouloir.
+?!flag:reve_lune ?!flag:lettres_bartho ?!flag:vis_cot ?!flag:perline_message ?!flag:lune_veut_rester La Terre qui penche, les gens qui donnent ce qu'ils ont, et la Lune, là-haut, qui n'a rien demandé à personne.
 * neg_26 coe12 | « Elle est quelqu'un. » | Platine ferme les yeux. « Quelqu'un. » Il répète. « J'ai acheté quelqu'un. » | | coe+1 +flag:platine_emu |
 
 @neg_26

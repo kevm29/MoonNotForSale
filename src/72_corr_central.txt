@@ -1,0 +1,53 @@
+# Corrections du thread central (21-22/11) : Rocambole rencontrable au Marché des Comètes pour les héros autres que Zéphyrin (A1, décision C1)
+
+@+com_19
+* com_20 ?!pc:zephyrin ?!comp:rocambole ?!flag:rocambole_vu | Suivre l'homme bleu qui liquide des cratères derrière la comète | Tu le suis entre deux étals qui se replient, par l'allée où l'on ne vend que ce qu'on n'a pas le droit de vendre. | | |
+
+@com_20
+!title: Le Capitaine Rocambole
+!fx: +flag:rocambole_vu
+Derrière la comète endormie, à l'abri des gardes dorés, un homme bleu à quatre bras vend des cratères par la fenêtre d'une cabane faite de caisses. Sa moustache est une petite nébuleuse qui tourne. Il fume une pipe vide.
+« Lots de Lune, d'occasion, à saisir avant la fermeture ! Cratères à l'unité, mers à la louche ! » Il te voit, et ne s'arrête pas. « Capitaine Rocambole, contrebandier de comètes, pour quelques minutes encore. Je devais voler la Lune avant le promoteur. Je l'ai trouvée trop belle, j'ai hésité, et on m'a mis dans une cage dorée. »
+Il tape sur sa poche. « La serrure était mauvaise. L'or, ça plie. Alors je vends ce que je n'ai pas volé. C'est la même chose, avec moins de risque. »
+« Mon vaisseau, le Pied-de-Nez, est garé là-bas, au bout de l'allée, avec une aile en moins. Une aile décorative. » Il te regarde enfin. « Toi, tu as l'air d'avoir besoin d'un pirate. Ou d'un cratère. »
+* com_21 coe10 | « Capitaine, venez avec moi. Je vais chercher la Lune, et je n'ai pas de vaisseau. » | Il range ses cratères en deux secondes, d'un bras, pendant que les trois autres saluent. « J'adore les causes perdues. Elles paient mal, mais elles finissent bien. Parfois. » | Il tire sur sa pipe vide. « Chercher la Lune, avec moi ? La dernière fois, elle m'a coûté une cage. » Il hésite. Le gardien du marché siffle, au loin. « Non. Pas ce soir. » | +comp:rocambole mor+1 |
+* hub_ret | Le laisser à ses cratères, et retourner au Carrefour | Il te fait un signe de ses quatre mains. « Siffle si tu changes d'avis. Fort. » | | |
+
+@com_21
+?last:ok « Le Pied-de-Nez est là-bas, petit. Un pirate sans vaisseau, c'est un monsieur qui parle fort. Un pirate avec un vaisseau, c'est un danger public. Allons voir si l'aile décorative tient encore. » Il te suit en sifflotant, une pipe vide à chaque main.
+?last:ko Rocambole retourne à ses cratères, et te lance par-dessus l'épaule : « Si tu as besoin d'un pirate, siffle. Fort. Mais pas ce soir, il y a les gardes. »
+* hub_ret | Retourner au Carrefour | Tu rejoins le Carrefour par l'allée des étals qui ferment. | | |
+
+# Duos et frictions entre compagnons sur les nœuds centraux (22/11)
+
+@+cha_01
+~fulgence ?comp:pli: Fulgence note le nombre de vigiles. Monsieur Pli, à mi-voix : « Quatre. Il y en a un en carton. » « Lequel ? » « Celui qui travaille le plus. »
+~pardon ?comp:pli: Pardon salue les ouvriers un à un. Monsieur Pli lui glisse un papier : « Vous vous excusez pour la grue, là. Elle n'était pas à vous. » « Elle est à tout le monde, maintenant que je l'ai saluée. »
+~plumard ?comp:remontoir: Le Colonel Plumard inspecte la grue. Grand-Père Remontoir pose la main sur le pied : « Elle bat à contretemps. » « Elle est au garde-à-vous, monsieur. » « Elle a un rythme de malade. »
+~vesperine ?comp:zouzou: Zouzou secoue de la poussière dorée sur la robe de Vespérine. « C'est du Zouzou, Comtesse. » « C'est de la poussière. » « C'est du Zouzou. » Vespérine garde la tache toute la journée.
+
+@+neg_01
+~fernand ?comp:melusine: Fernand redresse sa cravate devant la porte. Tante Mélusine lui noue l'écharpe autour du cou : « Pour ne pas t'enrhumer devant les puissants. » « Je suis une pierre, tante. » « Raison de plus. »
+~penelope ?comp:fernand: Pénélope tamponne la porte, par réflexe. Fernand, sombre : « On ne tamponne pas ce qu'on ne peut pas ouvrir. » « Alors ouvrons-la. » Il hoche la tête, ce qui, chez lui, est un discours.
+~ysaline ?comp:quartz: Ysaline répète son discours à voix haute. Le Docteur Quartz, sans lever le nez : « Trop long. Trente secondes. » « Je n'en ai pas besoin de trente. » « Alors vous en gagnerez. »
+~echo ?comp:quartz: Écho répète les mots de la porte. Le Docteur Quartz note : « Intéressant. Elle dit toujours la même chose, mais plus doucement qu'à l'arrivée. »
+
+@+fin_01
+~fulgence ?comp:pardon: Fulgence regarde le visage fermé de Pardon. « Tu n'as pas à t'excuser. » « Je sais. C'est pour ça que je le fais d'avance. »
+~vesperine ?comp:remontoir: Grand-Père Remontoir sort sa montre et la pose dans la main de la Comtesse. « Elle est à l'heure, aujourd'hui. » Vespérine la serre sans rien dire.
+~vesperine ?comp:coquille: Madame Coquille arrive pile à l'heure, pour une fois. Vespérine hausse un sourcil. « Ne dites rien. » « Je ne dirai rien, Madame. Je suis émue. »
+
+@+asc_01
+~brisefer ?comp:zouzou: Brisefer essaie de monter sur Zouzou avant tout le monde. Zouzou le laisse faire, puis souffle, doucement : le petit se retrouve assis sur son nez. « Je n'ai pas dit que tu pouvais. » « Je n'ai pas demandé. »
+~plumard ?comp:vesperine: Le Colonel Plumard propose son bras à la Comtesse pour monter. « Merci, Colonel. Je monte seule. » « Je vous accompagnerai à distance réglementaire. » « Ce sera parfait. »
+
+# A8 : second usage de l'éclat d'éclipse au chantier
+
+@+cha_15
+* cha_80 ?flag:obj_eclipse | Accrocher l'éclat d'éclipse à ton col, et traverser le chantier dans l'ombre | Le cercle de nuit s'ouvre autour de toi. | | |
+
+@cha_80
+!title: Un petit morceau de nuit
+Tu accroches l'éclat à ton col. Autour de toi s'ouvre un cercle de nuit, avec trois étoiles dedans. Les ouvriers lèvent la tête, voient tomber le soir en plein midi, regardent leur montre et posent leurs outils. Les vigiles se mettent au garde-à-vous devant un crépuscule qu'ils croient officiel.
+Tu traverses le chantier sans un regard sur toi, jusqu'au pied du crochet. L'éclat refroidit dans ton col : il ne servira plus.
+* cha_27 | Continuer vers le crochet et le Promontoire | Tu lèves le pied hors de l'ombre, au pied du crochet. | | -flag:obj_eclipse +flag:acces_crochet |

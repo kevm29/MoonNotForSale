@@ -1,0 +1,317 @@
+# ================================================================
+# CORRECTIONS DU 21/11 — ONDINE (rapport de test rapports-test/ondine.md)
+# Lignes ?pc:ondine dans les nœuds communs, retrouvailles avec la Lune,
+# détour au phare de Grève-Molle, fin 10 par un choix, répliques et duos
+# de compagnons dans les Côtes (région confiée à ce fichier).
+# ================================================================
+
+# ---------- Les indices du prologue retrouvent une suite ----------
+
+@+hub_02
+?pc:ondine ?flag:president_galet Les galets de ta plage avaient raison : leur Président ne dit rien, et c'est pour ça qu'on l'écoute.
+
+@+cap_01
+?pc:ondine ?flag:guichet_zero Krâmm l'a dit sur ta plage : « Personne ne va au guichet zéro. » Tu as répondu que tu serais la première. Te voilà à Tamponville.
+
+@+cap_02
+?pc:ondine ?flag:ticket Tu as déjà un ticket, le 4 007 812, celui des poissons. Il n'est pas valable ici. Tu le gardes quand même : c'est le seul papier que tu aies jamais obtenu sans faire la queue.
+
+@+cap_06
+?pc:ondine ?flag:guichet_zero Tu as tenu parole à l'Huissier. Personne n'est là pour le voir. Pour une promesse faite à un classeur, c'est peut-être mieux.
+
+@+asc_22
+?pc:ondine ?flag:lune_touchee_phare La dernière fois, depuis le vieux phare de l'îlot, il te manquait trois centimètres. Il ne te manque plus rien.
+?pc:ondine ?!flag:lune_touchee_phare Tu as passé trente ans à lui écrire d'en bas. Tu es sur elle. Tu ne sais pas quoi faire de tes mains.
+
+@+cha_01
+?pc:ondine ?flag:plan_chantier Tu reconnais tout : tu l'as appris par cœur depuis un vieux phare, la nuit où elle passait si bas. Les grues, les câbles, le grand crochet. Tu sais déjà où tourner.
+?pc:ondine ?flag:vu_enseigne ?!flag:plan_chantier Tu reconnais les lettres de douze kilomètres vues dans ta longue-vue : « Bientôt : Lune-sur-Mer, résidences de standing. » De près, le standing a des échafaudages.
+
+@+neg_01
+?pc:ondine ?flag:adresse_promoteur « Promontoire, orbite haute, sonner deux fois. » Il y a bien une sonnette. Tu sonnes trois fois, par principe, comme tu te l'étais promis sur ta plage.
+
+@+neg_02
+?pc:ondine ?flag:petition Sur un coin du bureau, une bouteille débouchée : la pétition de Grève-Molle, quatre cents signatures et un dessin de poisson. Elle est arrivée. Le dessin a été encadré.
+
+@+neg_04
+?pc:ondine ?flag:article15 Tu penses à l'article 15. D'après son contrat, tu lui appartiens aussi. C'est le moment ou jamais de s'en servir.
+* neg_06 ?pc:ondine ?flag:article15 | « Article 15 : je suis un accessoire du satellite. Alors l'accessoire va vous dire ce qu'est le satellite. » | Platine cligne des yeux. Personne ne lit jamais l'article 15. Lui non plus. Il pose son stylo et t'écoute, comme on écoute un meuble qui se met à parler. |  | coe+1 mor+1
+
+@+neg_05
+* neg_10 ?pc:ondine ?flag:inventaire,flag:papiers_kramm | Poser sur le marbre les papiers de l'Huissier Krâmm | Platine lit l'inventaire de Grève-Molle. « 412 Marégraves (accessoires). » Il fronce les sourcils d'or. On ne vend pas des habitants avec un satellite. Pas sans leur signature. Pas même à Aldébaran. |  | +flag:platine_inquiet
+* neg_10 ?pc:ondine ?flag:tampon_kramm | Tamponner le verre du cadre avec le tampon volé à Krâmm | Le tampon laisse sur le verre, en violet : « INVENTAIRE EN COURS — NE PAS DÉPLACER ». Platine pâlit. Chez lui, on ne déplace jamais un bien dont l'inventaire n'est pas clos. C'est son propre règlement. |  | +flag:platine_inquiet -flag:tampon_kramm
+
+# ---------- Côtes : Ondine chez elle ----------
+
+@+cot_06
+?pc:ondine Tu as grandi avec ce chant sous tes fenêtres. Tu croyais que c'était le vent.
+
+@+cot_15
+?pc:ondine Tu restes longtemps devant les bouteilles. Toi aussi, tu écris à quelqu'un dans la Lune. Toi, au moins, tu les envoyais.
+~bartho ?pc:ondine: Bartholomé arrive derrière toi. Il regarde ses bouteilles, puis toi. « Toi, tu les envoyais. Moi, je les gardais. On a perdu pareil, petite. » Un temps. « Ou gagné pareil. On verra là-haut. »
+
+@+cot_18
+?pc:ondine Tu connais l'histoire par cœur. Tu le laisses la raconter quand même : chez Bartho, Perline revient chaque fois un peu plus belle.
+
+@+cot_25
+?pc:ondine ?regions>=2 Tu lui racontes aussi ce que tu as vu ailleurs. La mer t'écoute mieux qu'avant. L'interprète du galet avait raison.
+
+@+cot_29
+?pc:ondine Tu la connais depuis l'enfance. Ta mère t'interdisait d'y aller. Tu y es allée une fois, à neuf ans, et tu es revenue avec deux centimètres de trop et un secret.
+
+@+cot_31
+?pc:ondine Elle écrit comme toi : vite, penchée, sans rature. Une Marégrave qui écrit à quelqu'un qui ne répond pas.
+
+@+cot_22
+* cot_43 ?pc:ondine ?!flag:phare_revu | Remonter au phare de Grève-Molle, au bout du port | Tu prends le chemin de la jetée. Tu le connais les yeux fermés. Ce soir, tu les gardes ouverts. |  |
+
+@cot_43
+!title: Le phare de Grève-Molle
+!fx: +flag:phare_revu
+Ton phare. Éteint. La porte bat, la rambarde pend de travers, et l'escalier sent le sel froid. Personne n'a allumé la lanterne depuis ton départ.
+?flag:enveloppes_vides Au pied des marches, tes bouteilles, alignées. Quelqu'un les a rangées et a remis chaque enveloppe vide dans sa bouteille, avec soin.
+?comp:bartho Bartholomé s'arrête sur le seuil. « Je t'attends dehors. Je ne rentre plus dans les phares. » Il s'assoit sur une borne et se met à râler contre la jetée, tout bas, pour se tenir compagnie.
+* cot_44 pan11 | Monter rallumer la lanterne | Deux cents marches. Tu les montes en comptant, comme avant. En haut, la mèche est sèche, mais elle prend. | Tu montes trop vite et tu glisses sur la marche quarante, celle qui a toujours été mouillée. Tu finis la montée à genoux. | pan+1 |
+* cot_45 coe10 | T'asseoir d'abord à ton bureau, en bas | Ton bureau. Ton encrier. Ton papier à lettres, gondolé d'humidité. Rien n'a bougé. C'est toi qui as bougé. |  | mor+1
+
+@cot_44
+La lanterne tourne. Une fois, deux fois. Le faisceau passe sur la mer qui hésite, sur la vague immobile au loin, sur les maisons noyées jusqu'aux fenêtres. Une à une, des lucarnes s'allument dans le village : on a vu le phare.
+?comp:meduses Dans le bocal, le Chœur suit le faisceau des yeux, s'ils ont des yeux, et chante une note de plus à chaque tour.
+* cot_45 coe10 | Redescendre à ton bureau | Tu redescends. La lumière continue de tourner sans toi. Elle sait faire. Tu lui as appris. |  | equ+2
+* cot_46 rus11 | Bloquer le mécanisme pour que la lumière reste tournée vers le haut | Tu cales la lanterne avec ta vieille longue-vue. Le faisceau ne balaie plus la mer : il monte, tout droit, vers la Lune. Un phare qui éclaire le ciel. Ça ne sert à rien. Tu trouves que c'est la meilleure idée de ta vie. | La lanterne refuse de rester en l'air et retombe vers la mer. Un phare a ses habitudes. | +flag:phare_vers_lune equ+2 |
+
+@cot_45
+Tu poses une feuille sur le bureau. Ta main sait la première ligne avant toi : « Ma très chère. »
+?flag:lettres_ondine Puis tu t'arrêtes. Tu sais maintenant qu'elle les a gardées. Écrire, ce n'est plus parler dans le vide. C'est plus difficile.
+* cot_46 coe11 | Écrire : « Je monte. Attends-moi. » | Trois mots. Tu n'as jamais écrit une lettre aussi courte. Tu la plies et tu la gardes contre toi, avec l'autre. | Tu écris une page, puis deux, puis tu barres tout et tu gardes les trois premiers mots. Ce sont les bons. | +flag:lettre_phare coe+1 | +flag:lettre_phare
+* cot_46 rus10 | Laisser un mot à Madame Lagune pour qu'elle garde le phare allumé | « Madame Lagune, le phare reste allumé jusqu'à mon retour. Merci. P.-S. : la marche quarante glisse. » Elle saura. Les voisines savent toujours. |  | +flag:phare_garde equ+1
+
+@cot_46
+En bas de la jetée, Madame Lagune, ta voisine, t'attend en pantoufles, dans une bassine pour ne pas se répandre. Elle a tout vu, évidemment.
+« Ondine. Tu repars ? » Elle ne demande pas où. Elle regarde le ciel. « Dis-lui qu'on l'attend, en bas. Et qu'elle nous doit une marée. »
+?flag:phare_vers_lune Derrière vous, le faisceau monte droit vers la Lune. Madame Lagune le suit des yeux. « Elle va le voir. Tout le monde va le voir. »
+?comp:bartho Bartholomé soulève sa casquette pour Madame Lagune. Elle soulève sa bassine. Ils ne se sont pas parlé depuis vingt ans, pour une histoire de filet.
+* cot_20 coe10 | L'embrasser, et reprendre la côte vers le nord | Elle sent l'eau de vaisselle et la marée basse. Tu la serres quand même. Elle fusionne un peu avec toi, par politesse. |  | mor+2
+* cot_25 rus10 | Lui demander comment va la mer, ces jours-ci | « Elle hésite. Elle fait semblant de danser. Va lui parler, toi qui sais. » |  | mor+1
+
+# ---------- Les retrouvailles avec la Lune (Pays des Songes) ----------
+
+@+son_23
+* son_o1 ?pc:ondine | « C'est moi. Les lettres. C'est moi qui les écris. » | Elle lève les yeux vers toi. Elle te regarde comme on regarde une écriture qu'on connaît par cœur et un visage qu'on n'a jamais vu. |  |
+
+@son_o1
+!title: Ma très chère
+La Lune serre la boîte contre elle. « Ondine. » Elle dit ton nom lentement, comme un mot qu'elle aurait souvent lu et jamais prononcé. « Tu es plus grande que je croyais. Et plus mouillée. »
+Elle sort une lettre au hasard. Elle la connaît, tu le vois à ses doigts : elle sait où sont les plis.
+« Je ne t'ai jamais répondu. Je ne savais pas comment on fait. Personne ne m'a jamais appris à écrire. On m'a seulement appris à briller. »
+* son_o2 coe11 | Lui lire une de tes lettres à voix haute | Tu lis : « Ma très chère, ce soir encore, la mer a fait semblant de ne pas t'attendre. » La Lune ferme les yeux. Par les mille fenêtres, très loin, la mer monte d'un centimètre. | Ta voix se casse sur « Ma très chère ». La Lune finit la phrase à ta place. Elle la connaît par cœur. | mor+2 coe+1 | mor+1
+* son_o2 rus11 | Lui demander pourquoi elle les a gardées | « Parce qu'elles étaient à moi. C'est la seule chose qui ait jamais été à moi. » Elle rit, tout bas. « Le promoteur dit que je suis à lui. Mais tes lettres, il ne les a pas eues. » | « Je ne sais pas », dit-elle. Puis, après un long silence : « Si. Je sais. Mais c'est gênant. » | rus+1 |
+
+@son_o2
+La Lune range la lettre dans la boîte, au bon endroit, entre l'hiver d'il y a douze ans et le printemps d'après.
+« Je ne veux pas partir », dit-elle. « Et pour une fois, quelqu'un m'a demandé mon avis avant. Toi. Dix mille neuf cent cinquante fois. »
+* son_26 coe11 | Lui apprendre à répondre : on commence par « Ma très chère », et on dit la vérité | Elle répète : « Ma très chère. » Elle cherche la suite. Elle la trouve. Elle ne te la dit pas : elle la garde pour la vraie, celle qu'elle t'écrira, en bas. | Elle répète : « Ma très chère. » Puis elle s'arrête, intimidée. « Je finirai plus tard. Là-haut. Dans le vrai. » | +flag:lune_repond +flag:reve_lune +flag:promesse_lune coe+1 | +flag:lune_repond +flag:reve_lune +flag:promesse_lune
+* son_26 coe10 | Lui dire qu'elle n'a pas besoin de répondre : qu'elle reste, ça suffira | « Rester, je sais faire », dit-elle. « C'est partir qu'on m'oblige à faire. » Elle te prend la main. Elle est froide et douce. |  | +flag:reve_lune +flag:promesse_lune +flag:lune_veut_rester mor+1
+
+# ---------- Fin 10 « Marée basse » : un marché que seule Ondine peut entendre ----------
+
+@+fin_01
+* fin_o1 ?pc:ondine ?!flag:essai_marees | « Gardez les marées, s'il le faut. Laissez-nous la Lune. » | Platine se fige. Il ouvre un tiroir, en sort l'acte, et cherche du doigt l'article 14. |  |
+
+@fin_o1
+!title: L'article 14
+« Article 14 », lit Platine. « Les marées, courants et humeurs maritimes sont accessoires du satellite et suivent le bien vendu. » Il lève les yeux. « Vous me proposez de séparer l'accessoire du principal. »
+?flag:article15 Tu connais la suite. L'article 15, c'est toi. Si les marées partent sans la Lune, tu restes ici, mais tu ne monteras plus jamais, et tu ne descendras plus jamais.
+?!flag:article15 Il ne te lit pas l'article suivant. Tu n'as pas besoin de le lire : tu es faite de marée. Tu sais ce que ça veut dire, une mer sans marée.
+« La Lune reste. Je repars avec les marées, en bouteilles, pour mes piscines. Mes résidents auront des vagues. Vous aurez votre Lune. » Il tend la main au-dessus du bouton rouge. « C'est un bon contrat. Il est même juste. »
+~bartho: Bartholomé a cessé de râler. « Petite. Une mer qui ne bouge plus, c'est une flaque. Perline, elle est partie avec une marée. » Il ne dit pas la suite. Il n'en a pas besoin.
+~meduses: Le Chœur, dans son bocal, s'est tu d'un coup. « SANS MARÉE, NOUS NE TENONS PLUS RIEN. MAIS TU DÉCIDES. TU ES LA MARÉE. »
+* end_10 coe10 | Serrer la main de Platine : la Lune reste, la mer s'arrête | Tu serres sa main d'or. Elle est tiède. Le crochet se détache. Et sous ta peau, très loin, tu sens ta marée qui s'en va. | Ta main tremble. Platine la serre quand même, doucement, et attend que tu aies fini de trembler. Le crochet se détache. Ta marée s'en va. | +flag:marees_cedees | +flag:marees_cedees
+* fin_01 | « Non. La mer n'est pas à vendre non plus. » | Platine range l'acte. « Je m'en doutais. Personne ne vend jamais la mer. Ils la donnent, parfois, sans s'en apercevoir. » |  | +flag:essai_marees
+
+# ---------- Épilogues d'Ondine ----------
+
+@+end_01
+?pc:ondine ?flag:lune_repond Les nuits suivantes, l'écume de Grève-Molle porte d'autres mots de lumière. Elle a appris à répondre. Elle fait encore des fautes. Tu ne les corriges pas.
+
+@+end_02
+?pc:ondine Tu rentres au phare de Grève-Molle. La marée revient le soir même, à l'heure. Tu remontes à deux mètres douze, et tu écris une lettre de remerciement pour les boutons. Tu ne sais pas à qui l'envoyer. Tu l'envoies à la Lune : elle saura faire suivre.
+?pc:ondine ?flag:lune_repond Elle te répond, maintenant. Une ligne par nuit, sur l'écume. Elle commence toujours par « Ma très chère ».
+
+@+end_03
+?pc:ondine Tu marches avec la mer. Pas devant, pas derrière : avec. Tu montes et tu descends au rythme d'une planète qui avance. Tu n'as jamais été aussi grande. Deux mètres quarante, un mardi.
+
+@+end_04
+?pc:ondine La vraie Lune est restée. Tes lettres aussi, dans leur boîte à chaussures. Tu en écris une de plus pour la Lune de cristal, là-bas, à Aldébaran. Personne ne lui a jamais écrit. Tu trouves ça injuste.
+
+@+end_06
+?pc:ondine Tu siégeras à toutes les assemblées. Tu y écris tes lettres pendant les débats. La Lune les reçoit le soir même : tu n'as plus besoin de bouteilles, tu es copropriétaire.
+
+@+end_07
+?pc:ondine Tu passes le voir le dimanche. Tu lui apprends les horaires des marées. Il les note dans un carnet doré. Il se trompe toujours d'un quart d'heure. Tu lui écris pour le corriger. Il te répond. C'est la première fois que quelqu'un te répond par la poste.
+?pc:ondine ?flag:lune_repond Et chaque nuit, la Lune t'écrit aussi, sur l'écume. Ça fait deux correspondants. Tu ne sais plus où donner de la marée.
+
+@+end_08
+?pc:ondine Dans le rêve, tu étais là aussi, assise à côté de la boîte à chaussures. Platine t'a demandé si c'était toi, les lettres. Tu as dit oui. Il a eu l'air de trouver ça plus impressionnant que tout le reste.
+
+@+end_09
+?pc:ondine La mer monte un peu, la mer descend un peu. Toi aussi : deux mètres cinq, un mètre quatre-vingt-dix-huit. Tu joins chaque soir une lettre au dossier, en pièce à conviction. Le dossier fait maintenant onze mille pages. Le tribunal les lira. Il a quatre cents ans pour ça.
+
+@+end_11
+?pc:ondine Tes marées sont de travers, elles aussi. Tu mesures deux mètres douze à gauche et un mètre soixante à droite, pour toujours, comme une phrase penchée. Tu écris penchée. La Lune lit penchée. Vous vous comprenez.
+
+@+end_14
+?pc:ondine Le soir, Écho vient s'asseoir au bord de ton phare. Tu lui lis tes lettres. Elle n'en répète aucune. Elle dit seulement, à la fin : « Reçu. »
+
+@+end_15
+?pc:ondine Tu es une Marégrave loin de toute mer. Les piscines à marées de la Tour montent et descendent toutes les six heures, et toi avec, un peu, par réflexe. C'est la seule chose ici qui te ressemble.
+?pc:ondine ?flag:lettre_phare Dans ta poche d'uniforme, la lettre écrite au phare de Grève-Molle : « Je monte. Attends-moi. » Tu ne l'as jamais envoyée. Tu es montée. C'est elle qui n'a pas pu attendre.
+
+# ---------- Ondine et ses compagnons, hors des Côtes ----------
+
+@+pro_34
+~echo ?pc:ondine: Écho se pose sur ton épaule. Elle a entendu quelque chose, quelque part, il y a longtemps. « ... ma très chère... ma très chère... » Tu ne lui as jamais dit ces mots. Les grottes les ont gardés, ceux de toutes les Marégraves qui écrivent.
+
+@+asc_12
+?pc:ondine Tu sors de la Trombe avec un peu de mer en trop. La poussière boit ce que tu perds, goutte à goutte. Tu mesures un mètre quatre-vingt-dix. Tu remonteras.
+
+# ---------- Côtes : répliques des compagnons et duos ----------
+# Arrivée (cot_01, déjà fournie par 90_repliques_monde), villages (cot_04),
+# Méduses (cot_06), perles (cot_13 / cot_16), Krâmm (cot_20), Trombe (cot_29),
+# départ (cot_35). Les duos passent devant les répliques simples.
+
+@+cot_04
+~bartho ?comp:ondee: Bartholomé et Dame Ondée regardent les gens écoper. « Tu pourrais pleuvoir moins, toi ? » « Je ne pleus pas. Je pleure. » « Ah. Alors continue. »
+~pli ?comp:bartho: Monsieur Pli se tient très loin de l'eau, sur un rocher sec. Bartholomé l'éclabousse en passant, sans faire exprès. Pli se replie en cocotte et ne vous adresse plus la parole pendant un kilomètre.
+~bartho: Bartholomé prend un seau et écope avec eux, sans un mot. Il connaît ces gens. Il connaît ces maisons. Il ne dit pas lesquelles sont vides.
+~penelope: Pénélope tamponne chaque seau qu'on vide : APPROUVÉ, APPROUVÉ, APPROUVÉ. Ça ne sert à rien. Les Marégraves trouvent ça très encourageant.
+~melusine: Tante Mélusine retrousse ses châles et écope en hurlant des cantiques. « UN SEAU POUR LA LUNE ! UN SEAU POUR LA MER ! UN SEAU POUR MOI, J'AI LES PIEDS MOUILLÉS ! »
+~echo: Écho répète le bruit des seaux qu'on vide, en rythme. Les Marégraves se mettent à écoper en mesure. Ça va plus vite.
+~quartz: Dr Quartz calcule à voix haute : « À ce rythme, ils auront vidé la mer dans quatre cent douze ans. » Puis, plus bas : « Si je me suis trompée de six sur dix, c'est plus long. »
+~brume: Brume-Lucie se tient à l'écart, au ras de l'eau. « Ils écopent... ce qu'ils sont... c'est beau, et... » Elle disparaît avant la fin de la phrase.
+~rocambole: Rocambole écope avec ses quatre bras, ce qui fait quatre seaux à la fois. Il compte tout haut pour qu'on l'admire. On l'admire.
+~fernand: Fernand s'éclaire un peu pour qu'on voie où mettre les seaux. « Pas de Lune, pas d'éclairage. Je ne suis pas payé pour ça. » Il continue quand même.
+~zouzou: Zouzou passe au ras de l'eau et en fait évaporer un bon mètre. « Voilà. De rien. » Les Marégraves applaudissent. Un petit Marégrave s'est évaporé avec. On le rattrape.
+~coquille: Madame Coquille regarde la mer qui monte jusqu'aux toits. « Une marée haute. Enfin. » Elle se tâte la carapace. « Ce n'est pas la bonne. Il ne bouge pas. Il attend la vraie. »
+~vesperine: La Comtesse Vespérine refuse d'écoper. « Je n'ai pas traversé neuf siècles pour mouiller mes dentelles. » Elle tient la lanterne. C'est déjà beaucoup, pour elle.
+~ondee: Dame Ondée flotte au-dessus des maisons noyées. « Je connais cette mer. Elle s'appelle Hortense. Elle n'a jamais été aussi haute. Elle a peur. »
+~gaspard: Gaspard traverse une maison noyée et ressort de l'autre côté, sec. « Pardon, madame. Je n'ai fait que passer. » La dame, dans la maison, ne l'avait pas vu entrer.
+~fulgence: Fulgence prend l'apparence d'un vieux Marégrave pour aider. Il fond à moitié. « C'est plus difficile qu'il n'y paraît, d'être fait d'eau. » Il reprend sa forme, trempé.
+~ysaline: Ysaline organise les écopeurs en équipes, avec des pauses. « Écoper, c'est un travail. Un travail, ça se syndique. » Les Marégraves ne savaient pas qu'ils avaient des droits.
+~pardon: Pardon mesure le niveau de l'eau dans chaque maison. « Pardon. Un mètre quarante. Pardon. Un mètre cinquante. » Il s'excuse à chaque centimètre.
+~pli: Monsieur Pli reste sur un rocher, très droit, très sec. « L'eau est la seule chose avec laquelle je ne négocie pas. » Il le dit poliment. Il tremble.
+~taupinel: Taupinel prend des notes, le nez contre son carnet. « Titre : « La mer monte, les Marégraves écopent. » Non. Trop évident. « Ils écopent ce qu'ils sont. » Voilà. »
+~plumard: Le Colonel Plumard prend le commandement des seaux. « UN, DEUX ! UN, DEUX ! » Personne ne lui a demandé. Ça marche mieux avec lui.
+~remontoir: Grand-Père Remontoir s'assoit sur une marche sèche. « Je vous regarde écoper. Moi, je ralentis, vous, vous recommencez. On est quittes, au fond. »
+
+@+cot_06
+~meduses ?comp:bartho: Le Chœur, dans son bocal, se colle à la vitre. Bartholomé retire sa casquette. « Mesdames. Vous chantiez avec Perline, autrefois. » « NOUS NE PARLONS PAS DE PERLINE. NOUS LA CHANTONS. »
+~pli ?comp:ondee: Monsieur Pli se réfugie sous Dame Ondée, qui s'efforce de ne pas pleuvoir. Elle tient trois minutes. Pli se déplie, un peu mouillé, et la remercie avec une révérence de papier.
+~bartho: Bartholomé regarde les Méduses tenir la vague. Il ne râle pas. C'est rare. « Elles font ça depuis trois jours. Moi, je ne tiens pas un verre trois heures. »
+~penelope: Pénélope essaie de tamponner une méduse. Le tampon glisse. « Il n'y a pas de formulaire pour les êtres collectifs », s'inquiète-t-elle. « Je vais en créer un. »
+~melusine: Tante Mélusine écoute le chœur, les larmes aux yeux. « ELLES CHANTENT FAUX ! COMME MOI ! ENFIN DES GENS COMME MOI ! »
+~echo: Écho essaie de répéter le chœur. Mille voix à la fois, c'est trop. Elle se tait, impressionnée, pour la première fois de sa vie.
+~quartz: Dr Quartz mesure la vague. « Elle devrait retomber. Elle ne retombe pas. Le chant la tient. Le chant n'a aucune propriété mécanique. » Elle est ravie. « C'est merveilleux. C'est faux. »
+~brume: Brume-Lucie s'approche des Méduses. « Vous chantez... comme on retient... quelqu'un... » Les Méduses lui répondent en chœur : « … QUI S'EN VA. » Elle finit sa phrase grâce à elles, et en rougit.
+~rocambole: Rocambole regarde la vague immobile. « J'ai vu des trous noirs moins impressionnants. » Puis, à voix basse : « Et ils chantaient mieux. »
+~fernand: Fernand regarde les méduses briller. Il s'éteint un peu, par pudeur. « Elles brillent gratuitement. Ça me vexe. Ça me fait du bien aussi. »
+~zouzou: Zouzou fait un tour au-dessus de la vague. « Elles tiennent ça depuis TROIS JOURS ? Moi je tiens trois secondes sur place, et j'ai mal partout. »
+~coquille: Madame Coquille écoute le chant, très lentement. « Si elles lâchent, la mer descend d'un coup. Mon petit n'aime pas les marées brusques. Chantez, mesdames. Chantez. »
+~vesperine: Vespérine ferme les yeux. « J'ai entendu les castrats de Venise. Ils chantaient juste. Je préfère celles-ci. »
+~ondee: Dame Ondée salue le chœur d'une petite pluie. « Je les connais. Elles sont nées d'une averse que j'ai faite sur la mer, il y a très longtemps. » Les Méduses : « MAMAN ? » Ondée se cache derrière un rocher.
+~gaspard: Gaspard ôte son chapeau. « En 1803, une méduse m'a piqué à Marseille. Je ne lui en veux plus. » Il hésite. « Enfin, moins. »
+~fulgence: Fulgence prend la forme d'une méduse pour se joindre au chœur. Le chœur le démasque en une note. « TOI. TU CHANTES JUSTE. VA-T'EN. »
+~ysaline: Ysaline : « Mille corps, une seule voix, et c'est elles qui tiennent la mer pendant que les pêcheurs dorment. » Elle prend une note dans son carnet syndical.
+~pardon: Pardon déroule son mètre ruban vers la vague, puis le range. « Pardon. On ne mesure pas une chose qu'on retient. »
+~pli: Monsieur Pli regarde la vague d'eau suspendue au-dessus de lui. Il se plie, se replie, se replie encore, jusqu'à tenir dans ta poche. Tu le sens trembler contre toi.
+~taupinel: Taupinel tend l'oreille, faute d'yeux. « Une vague qui tient par la chanson. Si c'est faux, c'est un scoop. Si c'est vrai, c'est un scoop plus grand. »
+~plumard: Le Colonel Plumard bombe le torse face à la vague. « Garde-à-vous, la mer ! » La vague ne bouge pas. Il considère ça comme une victoire.
+~remontoir: Grand-Père Remontoir écoute le chœur, une aiguille levée. « Elles chantent en retard d'un temps. Comme moi. C'est ça qui tient la vague, sûrement : un peu de retard. »
+
+@+cot_13
+~meduses ?comp:penelope: Pénélope tend un formulaire à l'huître doyenne. Le Chœur chante : « ELLE NE SAIT PAS LIRE. » Pénélope : « Alors je tamponne pour elle. Discrètement. » APPROUVÉ.
+~meduses: Le Chœur, dans son bocal, chante l'appel avec l'autre moitié restée au large. Deux voix d'une seule bouche, à deux kilomètres l'une de l'autre. Ça donne la chair de poule aux crabes.
+~bartho: Bartholomé se penche vers l'huître doyenne. « Je te connais, toi. Tu m'as pincé un doigt en 1987. » L'huître ne répond pas. Elle s'en souvient très bien.
+~quartz: Dr Quartz se penche sur la doyenne. « Une perle par grain de sable, vingt ans par perle. Pour quarante-deux milliards, il faudrait... » Elle s'arrête. « Il faudrait des huîtres très généreuses. »
+~ysaline: Ysaline croise les pinces. « Vingt ans de patience, et elle n'a jamais été payée. Je la comprends. » Elle tend sa carte du syndicat à l'huître. L'huître la garde.
+~rocambole: Rocambole regarde les huîtres d'un air professionnel. « Je pourrais en voler trois ou quatre... » Tout le monde le regarde. « Je disais ça pour la forme. »
+~pli: Monsieur Pli se déplie face à l'huître doyenne. « Puis-je proposer une clause de restitution ? » L'huître s'entrouvre d'un millimètre. Il a négocié avec des volcans : une huître, c'est du repos.
+
+@+cot_16
+~meduses ?comp:bartho: Le Chœur chante si fort que Bartholomé se met à fredonner avec lui. Faux. Les Méduses : « ENFIN UN HOMME QUI CHANTE AUSSI MAL QUE NOUS. » Bartholomé : « Merci. Je crois. »
+~bartho: Bartholomé plonge la main dans les perles. Elles roulent entre ses doigts d'eau. « Perline en portait une, une seule, à l'oreille gauche. La droite, elle l'avait perdue en dansant. »
+~fulgence: Fulgence prend la forme d'un banquier en voyant les perles, par réflexe. Puis celle d'un pêcheur, par décence. « Pardon. L'argent me fait toujours cet effet. »
+~penelope: Pénélope compte les perles, puis s'arrête. « Je n'ai pas de case pour « tout le monde a donné ». » Elle en dessine une, à la main, sur le formulaire.
+
+@+cot_20
+~pardon ?comp:penelope: Pardon se cache derrière Pénélope en voyant Krâmm. « Pardon. C'est un collègue. Il compte, moi je mesure. On ne s'est jamais aimés. » Pénélope : « Moi, je lui envoie ses ordres de mission. Il ne m'a jamais dit merci. »
+~bartho ?pc:ondine: Bartholomé serre les poings. « L'Huissier. C'est lui qui est venu inventorier le village, la première nuit. Je l'ai regardé faire par la fenêtre du bistrot. Je n'ai rien dit. » Il ne dit rien non plus maintenant. Mais il se met entre toi et lui.
+~bartho: Bartholomé regarde Krâmm compter les vagues. « Un classeur qui compte la mer. On aura tout vu. » Puis, plus bas : « Il a l'air aussi fatigué que moi. »
+~penelope: Pénélope reconnaît Krâmm. Ses tampons tremblent. « Matricule 7. Huissier. Il a demandé un congé, l'an dernier. Je l'ai tamponné REFUSÉ. » Elle regarde sa main droite, longtemps.
+~pardon: Pardon se fait tout petit. « Pardon. C'est quelqu'un de la Compagnie. S'il me voit, il m'inventorie. » Il se cache derrière ta jambe.
+~melusine: Tante Mélusine pointe une aiguille vers Krâmm. « VOUS ! VOUS COMPTEZ LA MER ? ON NE COMPTE PAS LA MER ! ON LA TRICOTE ! » Krâmm note : « Lunatique. Une. Bruyante. »
+~echo: Écho répète les chiffres de Krâmm, mais pas dans le même ordre. Krâmm perd le compte. Il recommence. Écho aussi.
+~quartz: Dr Quartz regarde le registre de Krâmm par-dessus son épaule. « Vous avez compté deux fois la vague quatre millions six. » Krâmm la regarde avec quelque chose qui ressemble à de la gratitude.
+~brume: Brume-Lucie se faufile entre les tiroirs de Krâmm. Ils se ferment tout seuls, gênés. « Il est... très rangé... et très... seul... »
+~rocambole: Rocambole lisse sa moustache-nébuleuse. « Un huissier d'Aldébaran. Ils m'ont saisi deux vaisseaux et une comète. » Il recule d'un pas, puis de deux. « Je vous attends derrière ce rocher. »
+~fernand: Fernand sort sa machine à écrire. « Un huissier. Enfin un interlocuteur à ma hauteur. » Il commence une réclamation de trois pages contre l'inventaire de la mer.
+~zouzou: Zouzou tourne autour de Krâmm en sifflant. « Il compte les vagues ? Moi je vais lui en faire, des vagues. » Elle frôle la mer. Elle en fait. Krâmm doit tout recommencer.
+~coquille: Madame Coquille regarde Krâmm passer, sans bouger. « Il va vite, ce classeur. C'est vulgaire. »
+~vesperine: Vespérine toise Krâmm. « Un huissier. Au XIIe siècle, on en avait un au château. Il comptait les chauves-souris. On ne l'a jamais revu. » Elle sourit. Krâmm recule d'un tiroir.
+~ondee: Dame Ondée flotte au-dessus de Krâmm et lui pleut dessus, juste un peu. « Pardon. C'est nerveux. » Les papiers du registre gondolent. Krâmm les sèche un par un, avec résignation.
+~gaspard: Gaspard s'incline devant Krâmm. « Monsieur. » Krâmm ouvre un tiroir, cherche une case pour un fantôme, n'en trouve pas, et le referme, troublé.
+~fulgence: Fulgence prend l'apparence de Monsieur Platine pour impressionner Krâmm. Krâmm ne bouge pas. « Article neuf : Monsieur Platine ne se déplace jamais. » Fulgence reprend sa forme, vexé.
+~ysaline: Ysaline va droit sur Krâmm. « Vous êtes payé à la vague ou à l'heure ? » Il hésite. « À l'heure. » « Et les heures supplémentaires ? » Krâmm ouvre un tiroir. Il est vide.
+~pli: Monsieur Pli s'avance, se déplie, s'incline. « Cher confrère. » Krâmm s'incline aussi. Ils échangent leurs cartes. C'est la conversation la plus polie de toute la côte.
+~taupinel: Taupinel renifle Krâmm, très près. « Ça sent le classement vertical et la mauvaise conscience. » Il note. Krâmm note aussi : « Taupe. Une. Journaliste. Danger. »
+~plumard: Le Colonel Plumard salue Krâmm. « Un fonctionnaire, c'est un militaire sans uniforme. » Krâmm salue en retour, avec un tiroir. Ils se comprennent.
+~remontoir: Grand-Père Remontoir regarde Krâmm compter. « Il compte comme on remonte une montre. Sans fin. » Puis, tendre : « Il faudrait que quelqu'un lui dise qu'il a le droit de s'arrêter. »
+
+@+cot_29
+~meduses ?comp:bartho: Le Chœur se tait d'un coup dans le bocal de Bartholomé. « C'EST LÀ QU'ELLE CHANTAIT AVEC NOUS. LA DERNIÈRE FOIS. » Bartholomé serre le bocal contre lui, sans rien dire.
+~coquille ?comp:zouzou: Zouzou veut foncer dans la Trombe. Madame Coquille, lentement : « Tout ce qui monte trop vite ne redescend pas. » Zouzou ralentit. Un peu. Pour la première fois de sa vie.
+~meduses: Le Chœur chante tout bas, vers la Trombe. « ILS NOUS ENTENDENT. ILS ONT TOUJOURS ENTENDU. »
+~penelope: Pénélope range ses tampons dans son chignon. « Je ne tamponne pas les départs. Je ne veux pas savoir combien sont partis. »
+~melusine: Tante Mélusine se tait. Complètement. Puis, à voix presque basse : « Ceux qui montent par là, je les vois passer, au Temple. Ils me font signe. »
+~echo: Écho écoute les voix dans la Trombe. Pour une fois, elle ne répète rien. Elle garde ces voix pour elle.
+~quartz: Dr Quartz sort un instrument, puis le range. « Je pourrais mesurer. Je ne vais pas mesurer. Certaines choses ne doivent pas avoir de chiffre. » Elle a l'air surprise d'elle-même.
+~brume: Brume-Lucie s'approche de la Trombe. « Je pourrais... monter avec eux... » Tu la retiens. Elle se laisse retenir. Elle avait peur qu'on la laisse partir.
+~rocambole: Rocambole regarde la colonne d'eau qui monte vers la Lune. « J'ai passé ma vie à chercher un chemin gratuit vers la Lune. » Il ne bouge pas. « Pas celui-là. Celui-là coûte trop cher. »
+~fernand: Fernand s'allume tout seul, sans le vouloir. « Je ne fais pas exprès. C'est eux. Ils brillent, là-dedans. »
+~zouzou: Zouzou fait un tour de la Trombe, très vite, puis revient se poser. « Il y a des gens dedans. Des gens qui montent lentement. » Elle reste posée longtemps.
+~coquille: Madame Coquille regarde la Trombe. « Les tortues des sables ne montent jamais. Nous attendons que la mer redescende. C'est plus long. C'est plus sûr. »
+~vesperine: La Comtesse Vespérine reste à distance. « Les morts qui chantent, je connais. Ceux-là ne sont pas morts. Ils sont en voyage. Ça se voit à leurs voix. »
+~ondee: Dame Ondée regarde l'eau monter vers le ciel. « C'est le contraire de moi. Moi je descends. Eux, ils montent. On se croise, parfois. »
+~gaspard: Gaspard ôte son chapeau. « Ils montent comme je montais. Mais eux, ils ont une raison. » Il remet son chapeau. « Moi aussi, j'en avais une. Elle s'appelait la Lune. »
+~fulgence: Fulgence ne se transforme pas. Pour une fois. « Il y a des visages qu'on ne prend pas. »
+~ysaline: Ysaline regarde longtemps. « Combien de femmes, là-dedans, sont parties sans qu'on leur demande si elles voulaient ? » Personne ne répond. Elle le note quand même.
+~pardon: Pardon recule. « Pardon. Je ne veux pas savoir combien il y en a. Pour une fois, je ne veux pas savoir. »
+~pli: Monsieur Pli s'est entièrement replié au fond de ta poche. Toute cette eau qui monte, c'est trop pour du papier.
+~taupinel: Taupinel range son carnet. « Pas d'article là-dessus. Il y a des choses qu'on n'imprime pas. »
+~plumard: Le Colonel Plumard se met au garde-à-vous devant la Trombe. Il ne chante pas. Un militaire salue les départs en silence.
+~remontoir: Grand-Père Remontoir s'assoit au bord de la Trombe. « Un jour, ce sera mon tour de partir. J'espère que ce sera par un chemin aussi joli. »
+
+@+cot_35
+~meduses ?comp:bartho: « ON REVIENDRA ? » chante le Chœur. Bartholomé : « On revient toujours. C'est ça, une marée. » Le Chœur, ravi : « TU AS DIT UNE CHOSE GENTILLE. » « Ça m'a échappé. »
+~ondee ?comp:coquille: Dame Ondée pleut un tout petit peu sur la carapace de Madame Coquille, pour la rafraîchir avant la route. La tortue ferme les yeux. « Merci, nuage. Lentement. Toujours lentement. »
+~meduses: Le Chœur, dans son bocal, chante un adieu à l'autre moitié, restée au large. Au loin, la vague immobile répond par une petite ondulation.
+~bartho: Bartholomé regarde la côte une dernière fois. « Le bistrot va s'ennuyer. Tant mieux. Il saura ce que c'est. »
+~penelope: Pénélope tamponne la plage avant de partir : VU. « Pour qu'on se souvienne qu'on est passés. »
+~melusine: Tante Mélusine hurle un au revoir à la mer, qui lui renvoie une vague. « ELLE M'A RÉPONDU ! VOUS AVEZ VU ? »
+~echo: Écho répète le bruit des vagues, doucement, pour l'emporter avec elle.
+~quartz: Dr Quartz glisse un caillou de la plage dans sa poche. « Un échantillon. Pour la science. » Puis, plus bas : « Pour moi. »
+~brume: Brume-Lucie s'attarde au-dessus des vagues. « La mer et moi... on se ressemble... on ne sait jamais... où s'arrêter... »
+~rocambole: Rocambole jette une pièce dans la mer. « Pour revenir. C'est une superstition de Bételgeuse. Ou de Rome. Je ne sais plus. »
+~fernand: Fernand éteint sa lumière en partant. « Je n'éclaire pas les adieux. C'est une règle du Bureau. Je viens de l'inventer. »
+~zouzou: Zouzou fait un looping au-dessus de la mer. « Elle est cool, ta côte. Un peu lente. Tout est un peu lent, sur votre planète. »
+~coquille: Madame Coquille marche vers le Carrefour, à son rythme. Elle se retourne une seule fois vers la mer. « À bientôt, ma marée. Il t'attend. »
+~vesperine: La Comtesse Vespérine secoue le sable de ses jupes. « Le sable, c'est comme les amants : on en retrouve partout pendant des semaines. »
+~ondee: Dame Ondée laisse tomber une seule goutte dans la mer, en partant. « Pour qu'elle sache que je reviendrai. »
+~gaspard: Gaspard regarde la mer s'éloigner derrière vous. « Je suis parti de Lyon, j'ai traversé la mer, j'ai raté la Lune. » Il sourit. « Cette fois, je suis en bonne compagnie. »
+~fulgence: Fulgence prend la forme d'une mouette pour faire un dernier tour au-dessus de la côte. Il revient avec une plume de trop et un air rêveur.
+~ysaline: Ysaline salue les écopeurs. « Je reviendrai pour l'assemblée constitutive du syndicat des écopeurs. Préparez les motions. »
+~pardon: Pardon range son mètre ruban. « Pardon. Je n'ai rien mesuré, ici. C'est la première fois. C'était bien. »
+~pli: Monsieur Pli se déplie enfin, loin de l'eau, et lisse ses coins un par un. « La mer et moi, nous nous sommes respectés à distance. C'est la base de toute diplomatie. »
+~taupinel: Taupinel tape la dernière ligne de son article. « Titre : « La mer est perdue, pas en colère. » C'est une vieille dame qui me l'a dit. »
+~plumard: Le Colonel Plumard lance un cocorico vers la mer. Elle ne répond pas. « Elle est de la marine. Elle ne répond pas à l'armée de terre. »
+~remontoir: Grand-Père Remontoir se lève de sa marche, un rouage après l'autre. « Allons-y. La mer attendra. Elle sait attendre, elle aussi. »

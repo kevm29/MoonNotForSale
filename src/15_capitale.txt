@@ -43,8 +43,9 @@ Le guichet zéro. Sous-sol moins quatre. Un bureau vide, une chaise vide, une ta
 ?!pc:basile Une plaque sur le bureau : « Basile Grumeau, greffier. » Une autre, plus récente, gravée en or : « Sans qui rien n'aurait été possible. — Compagnie Foncière d'Aldébaran. »
 * cap_10 rus11 ?!pc:basile | Fouiller le bureau | Tu trouves le registre des cessions. Page une, ligne une : « Lune. Cédée. » Et une note : « Pour non-paiement de la taxe d'orbite. » | | +flag:taxe_orbite |
 * cap_10 rus11 ?pc:basile | Rouvrir ton registre des cessions | Page une, ligne une, toujours ton écriture : « Lune. Cédée. » Et la note au crayon : « Pour non-paiement de la taxe d'orbite. » Tu la recopies, cette fois. Pour le dossier. | | +flag:taxe_orbite |
-* cap_09 coe10 ?!pc:basile | T'asseoir un instant sur la chaise | Tu t'assois. Tu imagines le greffier qui a signé. Un mardi, avec un mille-feuille. Tu as presque de la peine pour lui. | | coe+1 |
 * cap_09 coe10 ?pc:basile | T'asseoir un instant sur ta chaise | Elle a gardé ta forme. Tu t'assois dedans. Tu as de la peine pour le greffier qui a signé, et c'est toi. C'est nouveau, d'avoir de la peine pour soi. | | coe+1 |
+* cap_09 coe10 ?pc:brisefer | T'asseoir par terre, à côté de la chaise | La chaise est trop petite pour toi de quelques tonnes. Tu t'assois par terre, à côté. Tu imagines le greffier qui a signé. Un mardi, avec un mille-feuille. Tu as presque de la peine pour lui. | | coe+1 |
+* cap_09 coe10 ?!pc:basile ?!pc:brisefer | T'asseoir un instant sur la chaise | Tu t'assois. Tu imagines le greffier qui a signé. Un mardi, avec un mille-feuille. Tu as presque de la peine pour lui. | | coe+1 |
 
 @cap_07
 La vieille Horlogère range ton don dans sa boîte à biscuits. Elle ferme le couvercle. « Vous savez, on n'arrivera jamais à quarante-deux milliards. Mais ce n'est pas ça qui compte. Ce qui compte, c'est qu'à la fin, quand on lui montrera la boîte, à la Lune, elle verra que tout le monde a donné. »
@@ -168,7 +169,8 @@ Ta note juridique est prête. Trois lignes, un tampon, une preuve. Tu la relis. 
 ?!comp:penelope Une alarme sonne au loin. Des pas dans l'escalier : clac, tamp, clac, tamp.
 ?comp:penelope Une alarme sonne au loin. Pénélope se raidit : « Ils ont remarqué quelque chose. On ferait mieux de remonter. »
 * cap_22 pan10 | Remonter l'escalier | Tu remontes l'escalier. | |
-* cap_27 rus11 ?!comp:penelope | Te cacher dans les archives | Tu te glisses entre deux étagères. Les pas approchent. | | rus+1 |
+* cap_27 rus11 ?!comp:penelope ?pc:brisefer | Faire la statue entre deux étagères | Tu ne te caches pas : tu ne bouges plus. Trois mille ans d'Axe, ça entraîne. Les pas approchent et passent devant toi sans s'arrêter. Une statue de plus, aux archives, personne ne la remarque. | | rus+1 |
+* cap_27 rus11 ?!comp:penelope ?!pc:brisefer | Te cacher dans les archives | Tu te glisses entre deux étagères. Les pas approchent. | | rus+1 |
 
 @cap_24
 ?from:cap_19 Une alarme sonne dans tout le Cadastre. Des pas descendent : lourds, réguliers, accompagnés d'un claquement de tiroirs. L'Huissier Krâmm. Il apparaît au bout de l'allée, grand comme un phare couché, fait de classeurs gris qui s'ouvrent quand il respire.

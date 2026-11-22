@@ -62,7 +62,7 @@
 # ---------------------------------------------------------------- régions
 
 @+cot_01
-~bartho ?pc:ondine: « Grève-Molle est à trois criques. Si tu veux passer voir le phare, je t'attends dehors. Je ne rentre plus dans les phares. »
+~bartho ?pc:ondine: « Grève-Molle est juste derrière la pointe. Si tu veux passer voir le phare, je t'attends dehors. Je ne rentre plus dans les phares. »
 ~bartho: « La mer est saoule. Je la reconnais, on a bu ensemble. »
 ~penelope: « Il y a de l'eau partout. Mes tampons vont baver. » Elle les tient en l'air, comme une chirurgienne.
 ~quartz: « La marée est à la fois haute et basse. C'est impossible. J'adore. »
@@ -142,7 +142,7 @@
 ~zouzou: « Pas de ciel ? Vraiment aucun ciel ? Je vais étouffer. Je vous attends en haut ? Non ? D'accord. »
 ~coquille: « Un tunnel, c'est une carapace qu'on partage. »
 ~vesperine: Vespérine sort de ton ombre dès que le jour disparaît au-dessus du Puits, et s'étire comme un chat. « Le noir absolu. Enfin un endroit civilisé. »
-~ondee: « Je ne passe pas. Je suis trop grande. » Elle reste en haut, au-dessus du puits, et tu l'entends gronder doucement tout le long de la descente.
+~ondee: « Un nuage sous la terre, ça s'appelle de la buée. Et la buée ne remonte jamais. » Elle reste en haut, au-dessus du Puits, et tu l'entends pleuvoir doucement tout le long de la descente.
 ~gaspard: « Les morts n'aiment pas descendre. Nous préférons monter. Mais je vous suis. »
 ~fulgence: Fulgence prend la forme d'une Gravitaire pour avoir l'air plus solide. Il est trop léger. Personne n'est dupe.
 ~ysaline: « Les Gravitaires ont un Commandant mâle depuis quatre mille ans. Il serait temps d'en discuter. »
@@ -224,7 +224,7 @@
 @+foi_02
 ~ysaline ?foire<1 ?comp:fulgence: Fulgence passe devant le stand du Syndicat en prenant la forme d'un chat. Il ne veut pas être reconnu. Tu ne comprends pas encore pourquoi.
 ~melusine ?foire<1 ?pc:anatole: « UN PAPILLON DE NUIT ! TU VEUX UNE ÉCHARPE EN LUMIÈRE DE LUNE ? NON ! TU LA MANGERAIS ! JE TE CONNAIS ! » Elle t'en tricote une quand même.
-~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Vous m'invitez à la tente noire, Lord Frissepoil ? »
+~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Tu m'invites à la tente noire, Frissepoil ? »
 ~bartho ?foire<1: « Une foire. On va recruter des gens comme on achète du poisson. Je préviens : moi j'ai été pêché d'abord. »
 ~penelope ?foire<1: « J'ai envie de tamponner tous les stands. APPROUVÉ, APPROUVÉ, APPROUVÉ. Je me retiens. »
 ~quartz ?foire<1: « Trois stands en trois heures. Si je calcule bien, on aura le temps d'en voir cinq. Je calcule mal. »

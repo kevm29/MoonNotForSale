@@ -14,6 +14,7 @@ Nous sommes Sœur Pélagie Bourdon. Nous sommes mille abeilles dans une robe de 
 Chambre un : une mère Gravitaire, assise sur un œuf de granit qui ne bouge pas. Chambre deux : une Somnambule qui attend un rêve, et le rêve ne vient pas. Chambre trois : deux Horlogers dont le bébé fait tic, mais refuse de faire tac. Chambre quatre : une Lichenaute, qui attend depuis onze ans, ce qui est normal pour elle, mais qui s'inquiète quand même.
 Chambre sept : Armelle, une jeune Marégrave, en travail depuis trois jours. Elle est épuisée. Elle rit quand même, parce qu'elle est comme ça.
 * pel_04 coe10 | Entrer dans la chambre sept | Nous entrons. Armelle nous tend la main. Nous la prenons, avec deux cents abeilles à la fois. | |
+* pel_23 rus10 | Passer d'abord à la chambre trois, chez les Horlogers | Nous poussons la porte de la chambre trois. Ça sent l'huile fine et l'inquiétude. | |
 
 @pel_03
 Le registre des marées. Chaque nuit, une ligne : hauteur de la marée, nombre de naissances. Depuis cent ans, les deux colonnes montent et descendent ensemble, comme deux danseurs. Depuis une semaine, la marée baisse un peu chaque nuit. Et la colonne des naissances est vide.
@@ -41,10 +42,11 @@ L'examen est parfait. Le bébé est en bonne santé, bien placé, prêt. Elle re
 
 @pel_07
 Il y a trois façons de faire naître un enfant qui ne veut pas, disent les vieux manuels : la promesse, la ruse et l'autorité. Les vieux manuels ne disent pas laquelle marche.
+Nous votons. Neuf cent quatre-vingt-dix-neuf abeilles votent pour quelque chose. Sœur Gertrude, notre doyenne, vote contre. Elle a quarante jours, ce qui est très vieux pour une abeille, et elle vote toujours contre, par principe, pour que la ruche reste honnête.
 Armelle nous regarde. Elle est très fatiguée. Si la petite ne sort pas bientôt, ce sera dangereux pour toutes les deux.
 * pel_08 coe12 | Lui promettre de ramener la Lune | « Nous te promettons d'aller la chercher. » La petite voix se tait. Longtemps. | « Nous te promettons... » Notre voix tremble, mille fois. La petite voix l'entend. | coe+1 |
 * pel_09 rus12 | Fabriquer une fausse lumière de Lune | Nous ordonnons aux abeilles de la ruche de produire leur lumière de cire, la plus pâle. Avec un miroir et un bocal de miel, nous fabriquons une petite Lune. Elle est presque parfaite. | Notre fausse Lune est un peu jaune. Elle sent le miel. Mais dans le noir, ça peut passer. | rus+1 |
-* pel_10 pan11 | Lui ordonner de sortir | « Petite. Tu sors. Maintenant. » C'est notre voix de sage-femme, celle qui a fait sortir un volcan. | « Petite. Tu sors. » Elle ne sort pas. | pan+1 |
+* pel_10 pan11 | Lui ordonner de sortir | « Petite. Tu sors. Maintenant. » C'est notre voix de sage-femme, celle qui a fait sortir un volcan. Il y a un silence. Puis, de l'intérieur du ventre, un tout petit rire. | | pan+1 |
 
 @pel_08
 ?from:pel_10 « Pas d'ordre, alors. » Nous respirons. « Une promesse. »
@@ -59,7 +61,7 @@ Nous éteignons toutes les lampes de la chambre. Dans le noir, notre fausse Lune
 ?last:ko Elle est un peu jaune, et elle sent le miel. Nous prions pour que les bébés n'aient pas d'odorat.
 La petite voix murmure : « Oh. Elle est revenue ? »
 Nous ne répondons pas. Nous ne mentons jamais. Nous laissons juste la lumière mentir pour nous.
-* pel_11 rus11 | Aider Armelle à accoucher pendant que ça marche | La petite se décide. Armelle pousse. C'est rapide, une fois qu'on s'y met. | La petite hésite, puis se décide. C'est long, mais elle vient. | +flag:fausse_lune |
+* pel_11 rus11 | Aider Armelle à accoucher pendant que ça marche | La petite se décide. Armelle pousse. C'est rapide, une fois qu'on s'y met. | La petite hésite, puis se décide. C'est long, mais elle vient. | +flag:fausse_lune | +flag:fausse_lune
 
 @pel_10
 La petite voix rit. Un tout petit rire, insolent, adorable. « Tu n'es pas ma mère. »
@@ -79,15 +81,15 @@ Dans toute la Maternité, on applaudit. Les autres bébés, dans les autres vent
 @pel_12
 Dans le couloir de la Maternité, les autres mères nous attendent. Elles ont entendu. Elles nous regardent avec un espoir terrible. Une seule naissance, en une semaine. Il y en a des milliers qui attendent, partout sur la Terre.
 Et au bout du couloir, quelque chose avance. Très lentement. Une tortue énorme, avec une carapace couverte de coquillages et de mousse, qui s'arrête tous les trois pas pour souffler.
-* pel_13 coe10 | Attendre qu'elle arrive | Nous attendons. Cela prend vingt minutes. Personne ne s'impatiente : à la Maternité, on sait attendre. | |
+* pel_13 coe10 | Attendre qu'elle arrive | Nous attendons. Cela prend vingt minutes. Personne ne s'impatiente : à la Maternité, on sait attendre. | | mor+1 |
 * pel_13 rus10 | Aller à sa rencontre | Nous volons jusqu'à elle. Elle nous remercie d'avoir abrégé le voyage. | |
 
 @pel_13
 !title: Madame Coquille
 « Madame Coquille. Tortue des sables. Trois cent douze ans. Enceinte depuis trois cents. » Elle dit tout cela avec une grande dignité, en grignotant une feuille de salade. « J'ai entendu qu'un bébé était né cette nuit. Je viens vous féliciter. Et vous dire une chose. »
 Elle pose une patte sur sa carapace. « Chez nous, on naît à marée haute, quand la Lune est pleine. Mon petit attend depuis trois siècles le bon moment. Si la Lune s'en va, il n'y aura plus jamais de bon moment. » Elle nous regarde. « Alors je vais monter. Je vais aller dire deux mots à ce monsieur en or. »
-* pel_14 coe11 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | Elle réfléchit si longtemps que nous croyons qu'elle s'est endormie. Elle s'est endormie. Nous n'osons pas la réveiller. Nous partons sans elle, sur la pointe de nos mille pattes. | +comp:coquille mor+1 |
-* pel_15 rus11 | Lui conseiller de rester ici, à l'abri | « Le voyage sera long, Madame. Et rapide, par moments. » Elle soupire. « La vitesse. Quelle vulgarité. » Elle reste. | | |
+* pel_14 coe11 | Lui proposer de faire la route ensemble | « Nous montons aussi. Venez avec nous. » Elle hoche la tête, très lentement. C'est un oui enthousiaste, pour une tortue. | Elle réfléchit si longtemps que nous croyons qu'elle s'est endormie. Elle s'est endormie. Nous n'osons pas la réveiller. Nous partons sans elle, sur la pointe de nos mille pattes. | +comp:coquille mor+1 | +flag:coquille_endormie
+* pel_15 rus11 | Lui conseiller de rester ici, à l'abri | « Le voyage sera long, Madame. Et rapide, par moments. » Elle soupire. « La vitesse. Quelle vulgarité. » Elle reste. | | +flag:coquille_conseillee |
 
 @pel_14
 ?comp:coquille Madame Coquille range sa salade dans sa carapace et se met en route à côté de nous. Elle avance d'un pas, puis d'un autre. Nous ralentissons. Les mille abeilles ralentissent. C'est très reposant.
@@ -100,14 +102,15 @@ Madame Coquille hoche la tête. « Vous avez raison. Je vous attendrai. J'ai l'h
 * pel_16 coe10 | Préparer le départ | Nous retournons préparer nos affaires. | |
 
 @pel_16
-Nous ne pouvons pas rester. Il y a des milliers d'enfants qui attendent, partout, et une seule Lune qui s'en va. Il faut monter. Il faut aller voir ce promoteur, ce crochet, ce chantier. Une sage-femme sait que certaines choses ne se règlent pas en attendant.
-* pel_17 rus11 | Préparer la sacoche de sage-femme | Nous ouvrons la vieille sacoche de cuir. | | rus+1 |
-* pel_18 coe11 | Dire au revoir à Armelle et à Nouvelle | Nous remontons à la chambre sept. | |
+Nous ne pouvons pas rester. Il y a des milliers d'enfants qui attendent, partout, et une seule Lune qui s'en va. Il faut monter. Il faut aller voir ce promoteur, ce crochet, cette Lune qu'on emporte. Une sage-femme sait que certaines choses ne se règlent pas en attendant.
+* pel_24 coe11 | Réunir les sœurs dans le couloir, avant de partir | Nous nous rassemblons au plafond du couloir, en grappe, comme pour l'hiver. Les mères lèvent la tête. | |
+* pel_24 rus10 | Faire d'abord le compte de l'essaim | Nous nous comptons. C'est long : chacune veut être comptée deux fois, pour se rassurer. | | rus+1 |
 
 @pel_17
 La sacoche. Des forceps en bois de saule, du fil de soie d'araignée, un pot de miel de ruche royale, une cuillère en argent, des langes, une berceuse écrite sur un vieux papier, et un petit bocal vide « pour les cas où l'enfant veut emporter quelque chose ». Tout ce qu'il faut pour aider quelqu'un à arriver dans le monde.
 Nous ajoutons un pull. Le ciel, paraît-il, est froid.
-* pel_19 coe10 | Partir | Nous fermons la sacoche et nous partons. | | |
+Mille abeilles ne portent rien, ou presque. Une sacoche, si. Tout ce que nous trouverons en route, nous le porterons là-dedans, à cent vingt, par les deux anses, en bourdonnant fort pour se donner du courage.
+* pel_18 coe10 | Mettre le pot de miel royal sur le dessus, et fermer la sacoche | Nous fermons la sacoche. Le pot de miel royal est sur le dessus : une sage-femme garde toujours le miel à portée. On ne sait jamais qui aura besoin d'une douceur. | | +flag:obj_miel |
 
 @pel_18
 Armelle dort. Nouvelle ne dort pas. Elle nous regarde avec ses yeux d'eau de mer.
@@ -120,12 +123,12 @@ Nous partons le long de la côte, vers l'intérieur des terres, vers le Carrefou
 ?comp:coquille Madame Coquille avance à côté de nous, imperturbable, en commentant les coquillages.
 Sur le sable, au loin, une forme sombre et immense. Elle bouge un peu. Elle gémit.
 * pel_20 pan11 | Courir voir ce que c'est | Nous fonçons, en essaim. | Nous fonçons, et la moitié de l'essaim part dans la mauvaise direction. Nous nous rassemblons en route. | pan+1 |
-* pel_21 rus10 | Continuer : on ne peut pas sauver tout le monde | Nous continuons. Le gémissement nous suit longtemps. | Nous continuons. Puis nous nous arrêtons. Puis nous continuons. Le gémissement nous suit longtemps. | | mor-1
+* pel_21 rus10 | Continuer : on ne peut pas sauver tout le monde | Nous continuons. Le gémissement nous suit longtemps. | Nous continuons. Puis nous nous arrêtons. Puis nous continuons. Le gémissement nous suit longtemps. | mor-1 | mor-2
 
 @pel_20
 Un baleineau. Échoué. La mer est partie sans lui, la nuit dernière, en reculant plus loin que d'habitude. Il est grand comme une maison et il pleure comme un enfant.
-* pel_21 pan12 | Le pousser jusqu'à la mer | Nous poussons. Mille abeilles qui poussent, c'est peu. Mais nous bourdonnons si fort que des pêcheurs accourent, puis des crabes, puis des mouettes. Ensemble, centimètre par centimètre, le baleineau regagne l'eau. Il souffle un jet de joie. | Nous poussons. Ça ne suffit pas. Puis des pêcheurs accourent, alertés par le bourdonnement. Ensemble, à la fin de la nuit, le baleineau regagne l'eau. | equ+3 coe+1 +flag:baleineau | equ+1 +flag:baleineau
-* pel_21 coe11 | Lui chanter la berceuse des ruches en attendant la marée | Nous chantons. Le baleineau se calme. À l'aube, la marée revient, juste assez, et l'emporte. Il ne nous a jamais quittées des yeux. | Nous chantons faux, de fatigue. Il se calme quand même. La marée l'emporte au matin. | mor+1 +flag:baleineau |
+* pel_25 pan12 | Le pousser jusqu'à la mer | Nous poussons. Mille abeilles qui poussent, c'est peu. Mais nous bourdonnons si fort que des pêcheurs accourent, puis des crabes, puis des mouettes. Ensemble, centimètre par centimètre, le baleineau regagne l'eau. Il souffle un jet de joie. | Nous poussons. Ça ne suffit pas. Puis des pêcheurs accourent, alertés par le bourdonnement. Ensemble, à la fin de la nuit, le baleineau regagne l'eau. | equ+3 coe+1 +flag:baleineau | equ+1 +flag:baleineau
+* pel_25 coe11 | Lui chanter la berceuse des ruches en attendant la marée | Nous chantons. Le baleineau se calme. À l'aube, la marée revient, juste assez, et l'emporte. Il ne nous a jamais quittées des yeux. | Nous chantons faux, de fatigue. Il se calme quand même. La marée l'emporte au matin. | mor+1 +flag:baleineau |
 
 @pel_21
 La nuit, sur la route du Carrefour. Nous nous posons dans un champ. Les abeilles se serrent les unes contre les autres pour avoir chaud, et pour la première fois depuis longtemps, nous avons peur. Toutes les mille. C'est beaucoup de peur pour une seule personne.
@@ -137,5 +140,33 @@ La nuit, sur la route du Carrefour. Nous nous posons dans un champ. Les abeilles
 @pel_22
 Le Carrefour des Espèces, à l'aube. Une plaine immense, couverte de tentes, de feux, de drapeaux de toutes les espèces. Des milliers de créatures qui attendent quelque chose.
 Parmi elles, nous voyons des mères. Beaucoup de mères. Elles sont venues de partout, avec leurs ventres ronds et leurs œufs immobiles, parce qu'elles ont entendu dire qu'ici, peut-être, quelqu'un ferait quelque chose.
+À partir d'ici, on nous dira « tu ». Les gens ne savent pas parler à mille : ils choisissent une abeille au hasard et ils lui parlent, à elle. Nous les laissons faire. Elle nous répète tout.
 * hub_01 coe11 | Descendre vers elles | Nous descendons. Une mère Gravitaire nous reconnaît : « Sœur Pélagie ! » Le mot se répand. Les mères se lèvent. | Nous descendons. Personne ne nous reconnaît. Une sage-femme, c'est quelqu'un qu'on oublie dès que l'enfant est né. C'est normal. | mor+1 |
 * hub_01 pan10 | Aller droit au centre de la plaine | Nous fendons la foule en essaim. On s'écarte. On a toujours un peu peur d'un essaim, même en robe. | |
+
+# ---------------------------------------------------------------- scènes ajoutées (chambre trois, couloir, pêcheurs)
+
+@pel_23
+!title: Chambre trois
+Deux Horlogers, le père et la mère, assis de part et d'autre d'un berceau en laiton. Ils vont plus lentement que d'habitude : depuis que la Lune s'en va, tous les Horlogers ralentissent. Entre deux de leurs phrases, on pourrait faire la vaisselle.
+Dans le ventre de la mère, on entend le bébé : tic. Puis rien. Puis, très longtemps après : tic.
+« Il ne fait pas tac », dit le père. « Un Horloger qui fait tic sans tac, ma Sœur, ce n'est pas un enfant. C'est une question. »
+* pel_04 rus11 | Coller une abeille contre le ventre, et écouter | L'abeille écoute longtemps. Le tac est là, tout au fond, rangé, qui attend. « Il le garde pour plus tard », traduisons-nous. « Pour quand la marée reviendra. » La mère respire mieux. | Nous écoutons, mais le tic-tac du berceau couvre tout. Nous ressortons sans savoir. La mère fait semblant de ne pas l'avoir vu. | +flag:pel_tictac rus+1 | +flag:pel_tictac
+* pel_04 coe11 | Leur promettre que le tac viendra | « Le tac viendra. » Les deux Horlogers se regardent, très lentement. Puis le père remonte le berceau, d'un tour de clé, pour avoir quelque chose à faire de ses mains. | « Le tac... » Notre voix hésite, mille fois. Le père hoche la tête quand même. Les Horlogers sont polis jusque dans l'inquiétude. | +flag:pel_tictac mor+1 | +flag:pel_tictac
+
+@pel_24
+!title: Le couloir
+Les mères nous regardent nous rassembler. Une mère Gravitaire, assise sur son œuf de granit, nous parle la première : « Vous montez, ma Sœur ? Alors dites-lui. À la Lune. Dites-lui qu'on l'attend, ici, pour accoucher. »
+Puis toutes parlent en même temps. Une Somnambule veut qu'on lui dise qu'elle rêve d'elle. La Lichenaute de la chambre quatre veut qu'on lui dise de prendre son temps, mais pas trop. Les Horlogers veulent l'heure exacte de son retour.
+Sœur Gertrude, au premier rang de l'essaim, compte les demandes sur ses pattes. Elle n'a pas assez de pattes.
+* pel_17 coe11 | Promettre à toutes les mères de porter leurs messages | « Nous lui dirons tout. À toutes, nous le promettons. » Le couloir se tait. Puis la mère Gravitaire pose sa grosse main de pierre contre le mur, ce qui, chez elle, veut dire merci. | « Nous lui dirons... » Il y a trop de messages. Nous en oublions trois avant la fin de la phrase. Les mères nous les répètent, patiemment, et nous les apprenons par cœur, à mille. | +flag:promesse_meres mor+1 | +flag:promesse_meres
+* pel_17 rus10 ?!flag:promesse_bebe | Ne rien promettre : cette nuit, nous avons déjà fait mentir une Lune de cire | « Nous ne promettons rien. Cette nuit, nous avons déjà laissé mentir une lumière, et c'était une de trop. » Les mères comprennent. Elles nous donnent des fraises pour la route, à la place. | | |
+* pel_17 rus10 ?flag:promesse_bebe | Ne rien promettre : nous ne promettons qu'une fois, et c'est fait | « Nous avons déjà promis à Nouvelle. Une promesse, c'est lourd. Deux, nous ne pourrions pas voler. » Les mères comprennent. Elles nous donnent des fraises pour la route, à la place. | | |
+
+@pel_25
+!title: Les pêcheurs
+Le baleineau est reparti. Sur la plage, il reste des traces énormes dans le sable, des pêcheurs trempés, des crabes fiers d'eux et des mouettes qui font semblant d'avoir tout fait.
+Le plus vieux des pêcheurs s'assoit sur une barque renversée. « Ça fait une semaine que la mer recule comme ça, ma Sœur. Toutes les nuits un peu plus. Les vieux disent que la mer a peur. Moi, je dis qu'elle suit quelqu'un. »
+Il montre le ciel, du menton. La Lune, à son crochet, a l'air plus petite que la veille.
+* pel_21 rus11 | Lui demander ce qu'on dit sur la côte | « On dit qu'au Carrefour des Espèces, tous les peuples se sont réunis. Et que là-bas, il y a un galet qui ne ment jamais. » Il crache dans le sable, pour la chance. « Allez-y. Nous, on garde la mer. Ce qu'il en reste. » | « On dit des bêtises. » Il n'en dit pas plus. Mais il nous donne un morceau de pain, et ça veut dire la même chose. | +flag:pel_pecheurs rus+1 | +flag:pel_pecheurs
+* pel_21 coe10 | Remercier les crabes, un par un | Nous remercions chaque crabe. Il y en a quatre cent douze. Ils lèvent tous la pince. C'est très émouvant, et assez long. | | mor+1 |

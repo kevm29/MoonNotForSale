@@ -7,7 +7,7 @@
 !fx: +flag:vis_pro regions+1
 On descend aux Profondeurs par le Grand Puits, un trou rond qui s'enfonce sous le Carrefour. Une Gravitaire de garde te tend un casque, une lampe et un sandwich de basalte. « Pour le voyage. Il est dur, mais il tient au corps. »
 ?pc:brisefer La garde se met au garde-à-vous en te voyant. « Colonelle ! On vous croyait remontée pour de bon ! » « Je redescends. On ne tient pas l'Axe à distance. »
-* pro_02 pan11 | Descendre par l'échelle de fer | Tu descends. Mille échelons, puis mille autres. Tes bras brûlent. Tu continues. | L'échelle grince, tu glisses de dix échelons, tu te rattrapes. Ton cœur remonte tout seul. | pan+1 |
+* pro_02 pan11 ?!pc:pelagie | Descendre par l'échelle de fer | Tu descends. Mille échelons, puis mille autres. Tes bras brûlent. Tu continues. | L'échelle grince, tu glisses de dix échelons, tu te rattrapes. Ton cœur remonte tout seul. | pan+1 |
 * pro_03 rus10 | Prendre l'Ascenseur des Taupes | Les taupes te saluent en chantant faux. L'Ascenseur descend, une fois sur deux. Cette fois, c'est la bonne. | L'Ascenseur s'arrête à mi-chemin. Une taupe te propose un jeu de cartes en attendant. Vous jouez trois heures. | rus+1 |
 
 @pro_02
@@ -43,11 +43,11 @@ Tu es assis·e sur l'Axe de la Terre. Tu sens tout : le monde qui veut basculer,
 * pro_09 rus10 | Lui demander depuis combien de temps il est là | Il ouvre un œil. « Trois jours. Ou trois ans. Je ne sais plus. » Il referme l'œil. | |
 
 @pro_07
-Tu te lèves et tu cries : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, se tourne vers toi. « Grrm. Qui parle ? »
+?!pc:pelagie Tu te lèves et tu cries : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, se tourne vers toi. « Grrm. Qui parle ? »
 ?pc:brisefer « Moi, Commandant. Brisefer. » « Grrm. Brisefer. Répartissez-vous, tout le monde. En étoile. Grrm. » Ils obéissent.
 * pro_09 pan10 ?pc:brisefer | Vérifier que l'ordre est suivi jusqu'au bout | Tu passes entre les rangs. Les Gravitaires se répartissent sous tes yeux, en étoile. L'Axe se stabilise. | Les vieux traînent. Tu dois répéter l'ordre trois fois, et la troisième fois tu l'aboies. Ils finissent par obéir. | equ+3 +flag:etoile | equ+2 +flag:etoile
 * pro_09 pan12 ?!pc:brisefer | Insister | « Si vous restez d'un seul côté, l'Axe tombe de l'autre ! » Le Commandant te regarde. « Grrm. Logique. » Il donne l'ordre. Les Gravitaires se répartissent. L'Axe se stabilise. | Le Commandant grogne. Il ne donne pas l'ordre. Alors tu vas t'asseoir de l'autre côté, seul·e, et tu attends. Au bout d'une heure, des jeunes te rejoignent, puis des vieux, en grognant. Le Commandant finit par grogner l'ordre, pour avoir l'air de l'avoir donné. | equ+3 +flag:etoile | equ+2 +flag:etoile
-* pro_08 coe11 ?!pc:brisefer | T'asseoir et montrer l'exemple | Tu t'assois de l'autre côté. Seul·e. Puis un autre te rejoint. Puis dix. Puis cent. | | equ+2 +flag:etoile |
+* pro_08 coe11 ?!pc:brisefer ?!pc:pelagie | T'asseoir et montrer l'exemple | Tu t'assois de l'autre côté. Seul·e. Puis un autre te rejoint. Puis dix. Puis cent. | | equ+2 +flag:etoile |
 
 @pro_08
 L'Axe tient un peu mieux. Mais tout le monde sait que ça ne suffira pas. Tant que la Lune s'éloigne, l'Axe penchera. On peut gagner des jours. Pas des années.
@@ -215,7 +215,8 @@ Tu remontes des Profondeurs. L'Axe tient, pour l'instant. Derrière toi, le gém
 @pro_32
 Les Grottes des Échos. Des milliers de cavités qui résonnent. Au milieu, une silhouette de son, tremblante, à peine visible, répète doucement : « Seul. Seul. »
 ?!comp:echo ?!pc:brisefer C'est un Échotier. Une créature faite de son, qui ne peut dire que ce qu'on vient de lui dire. Les Gravitaires l'appellent Écho.
-?!comp:echo ?pc:brisefer Tu la reconnais : c'est Écho, que tu avais laissée ici. Depuis ton départ, elle est revenue à son vieux mot. Elle te reconnaît aussi, et répète ton pas, celui avec le genou qui craque.
+?!comp:echo ?pc:brisefer ?!flag:echo_vue C'est un Échotier. Une créature faite de son, qui ne peut dire que ce qu'on vient de lui dire. Tu en avais entendu parler, gamine, dans les histoires de garde. Tu croyais que c'était une légende.
+?!comp:echo ?pc:brisefer ?flag:echo_vue Tu la reconnais : c'est Écho, que tu avais laissée ici. Depuis ton départ, elle est revenue à son vieux mot. Elle te reconnaît aussi, et répète ton pas, celui avec le genou qui craque.
 ?comp:echo C'est un autre Échotier, plus petit, plus pâle que ton Écho. Écho, à côté de toi, s'arrête. Elle regarde la silhouette. Elle répète : « Seul. » Puis elle te regarde. Elle ne savait pas qu'il y en avait d'autres.
 * pro_34 coe12 ?!comp:echo | Lui dire « Pas seul » | « ... pas seul ? ... pas seul. » Elle répète. Elle répète autre chose que « seul ». Ça lui avait manqué. | « ... pas... seul. Seul. » Elle n'y arrive pas tout à fait du premier coup. Au cinquième, si. | coe+1 +flag:echo_pas_seul | +flag:echo_pas_seul
 * pro_35 rus11 ?!comp:echo | Essayer de lui faire dire autre chose | Tu dis « Lune ». Elle répète « Lune ». Tu dis « avec moi ». Elle répète « avec moi », et elle te suit. Tu as une conversation, en quelque sorte, et une compagne de route. | Elle répète tout dans le désordre. « Moi Lune avec seul. » Puis elle se tait, perdue dans ses propres mots, et ne te suit pas. | rus+1 +comp:echo |
@@ -238,7 +239,8 @@ La garde Gravitaire t'attend. « Alors ? »
 ?!comp:echo Écho est restée dans sa grotte, à répéter ses mots dans le désordre. Tu les entends encore un moment, puis plus rien.
 ?comp:quartz ?comp:echo Elle répète aussi le Docteur Quartz, qui ne s'arrête jamais de parler. Le Docteur Quartz est enchantée : « Enfin quelqu'un qui écoute tout ce que je dis ! »
 * pro_33 coe10 ?comp:echo | Remonter avec elle | Vous remontez. Écho répète le bruit de la surface qui approche. C'est un bruit qu'elle n'a jamais entendu. | |
-* pro_33 ?!comp:echo | Remonter | Tu remontes seul. Les grottes répètent tes pas, pour la forme. | |
+* pro_33 ?!comp:echo ?pc:brisefer | Remonter | Tu remontes seule. Les grottes répètent tes pas, et ton genou qui craque, pour la forme. | |
+* pro_33 ?!comp:echo ?!pc:brisefer | Remonter | Tu remontes seul. Les grottes répètent tes pas, pour la forme. | |
 
 @pro_36
 Tu sors du Grand Puits. Le Carrefour est là, avec ses tentes, ses feux, sa foule. La Lune est plus grosse dans le ciel, plus penchée. Elle s'éloigne.

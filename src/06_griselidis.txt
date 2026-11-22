@@ -4,7 +4,7 @@
 
 @gri_01
 !title: Le Centre de tri des Vents
-!fx: +flag:obj_lettre_vent
+!fx: +flag:obj_lettre_vent +flag:lettre_a_livrer
 Les Hauts-Nuages, au-dessus de tout. Le Centre de tri du Grand Vent Postal est une gare immense taillée dans un cumulus, où des milliers de courants d'air en casquette trient le courrier du monde. Les lettres d'amour partent par la brise. Les factures, par le mistral. Les mauvaises nouvelles, par la tempête, parce qu'elle arrive toujours trop tôt.
 Tu t'appelles Grisélidis Cornemuse. Tu es une Éolienne : un courant d'air qui a pris un uniforme. Deux cents ans de service, pas un retard. Et depuis trois jours, une lettre te brûle la sacoche.
 Une enveloppe bleue. L'adresse dit : « À la Lune, en mains propres. »
@@ -14,10 +14,12 @@ Une enveloppe bleue. L'adresse dit : « À la Lune, en mains propres. »
 @gri_02
 Pas de timbre. Pas d'expéditeur. Une écriture ronde, appliquée, comme celle de quelqu'un qui a appris à écrire très tard ou il y a très longtemps. L'enveloppe sent le sel, la terre mouillée et le pain chaud.
 Le règlement est clair : une lettre qu'on ne peut pas livrer retourne à l'expéditeur. Mais il n'y a pas d'expéditeur. Le règlement ne prévoit pas ce cas. Tu as relu le règlement trois fois. Il ne prévoit pas grand-chose.
+Tu la ranges dans la poche intérieure de ta sacoche, celle des lettres en souffrance. Elle n'y est pas seule : il y dort des enveloppes que personne n'a jamais su livrer. La plus vieille a deux cents ans, comme ton service.
 * gri_04 pan10 | Aller voir le Directeur pour qu'il trouve une solution | Tu fonces vers le bureau du Directeur. Tu claques la porte en entrant. Tu claques toutes les portes, c'est ta nature. | Tu fonces, et le Directeur te trouve avant que tu le trouves. | |
 * gri_03 coe10 | En parler d'abord aux collègues | Tu te tournes vers le guichet voisin. | |
 
 @gri_03
+!fx: +flag:bise_vue
 ?from:gri_02 Au guichet voisin, deux vieilles connaissances lèvent la tête.
 Bise, une vieille brise du nord qui trie les cartes postales depuis le Moyen Âge, et Zéphyrette, une petite stagiaire qui fait encore des tourbillons quand elle est contente. Elles regardent l'enveloppe bleue.
 « À la Lune ? » dit Bise. « Ma pauvre. Tu n'as pas entendu ? La Lune est vendue. Elle déménage. »
@@ -28,30 +30,33 @@ Bise, une vieille brise du nord qui trie les cartes postales depuis le Moyen Âg
 @gri_04
 !title: Le Directeur Aquilon
 Le Directeur Aquilon. Un vieux vent du nord, énorme, gris, avec une moustache de givre et une casquette à galons. Il ne marche pas : il souffle d'un endroit à l'autre, et les papiers se rangent tout seuls sur son passage, par peur.
+?from:gri_03 Un souffle glacé traverse le tri. Les papiers se rangent tout seuls, par peur : le Directeur t'a fait appeler.
 ?from:gri_02 ?last:ko Il te trouve dans le couloir avant que tu aies trouvé son bureau. Il a l'air d'avoir attendu.
 ?flag:taxe_vent Tu repenses à ce que Bise a dit sur la taxe de vent. Tu le regardes autrement.
 « Cornemuse. Cette lettre bleue. Ça fait trois jours. Retour à l'expéditeur, immédiatement. »
 « Il n'y a pas d'expéditeur, Directeur. »
 « Alors au rebut. On ne livre pas la Lune. La Lune n'est plus une adresse. C'est un chantier. »
 * gri_05 pan11 | Refuser net | « Non. » Le mot sort comme une rafale. Toutes les lettres du bureau s'envolent. | « Non », dis-tu, mais ça sort comme un courant d'air timide. Il l'entend quand même. | pan+1 |
-* gri_06 rus11 | Faire semblant d'obéir | Tu tends l'enveloppe vers la corbeille du rebut, et tu la glisses dans ta manche au dernier moment. Il ne voit rien. | Tu tends l'enveloppe, tu la glisses dans ta manche, et il voit tout. | rus+1 |
+* gri_06 rus11 | Faire semblant d'obéir | Tu tends l'enveloppe vers la corbeille du rebut, et tu la glisses dans ta manche au dernier moment. Il ne voit rien. | Tu tends l'enveloppe, tu la glisses dans ta manche, et il voit tout. | rus+1 | +flag:suspendue
 
 @gri_05
 Le Directeur Aquilon gonfle. Il devient une petite tempête de bureau : les tiroirs claquent, les tampons volent, une plante verte part en orbite. « TU REFUSES ? DEUX CENTS ANS DE SERVICE ET TU REFUSES ? »
 « Deux cents ans sans retard, Directeur. Je ne vais pas commencer par la Lune. »
 Il se dégonfle d'un coup. « Suspendue. Jusqu'à nouvel ordre. Rends ta casquette. »
 * gri_07 pan10 | Lui rendre la casquette et garder la lettre | Tu poses ta casquette sur son bureau. Tu gardes la sacoche. Il ne la réclame pas. Il ne voit pas la différence entre une factrice et sa sacoche. | Tu poses la casquette. Elle s'envole. Tu sors avant qu'il te demande de la rattraper. | +flag:suspendue |
-* gri_07 coe11 | Lui demander s'il croit vraiment ce qu'il dit | Il hésite. Une seconde. « Je crois ce qu'on me paie pour croire. » Puis : « Suspendue. Va-t'en. » Tu pars avec ta casquette. Il a oublié de la reprendre. | « Je ne crois rien. Je souffle. » Suspendue quand même. | +flag:suspendue +flag:aquilon_doute | +flag:suspendue
+* gri_07 coe11 | Lui demander s'il croit vraiment ce qu'il dit | Il hésite. Une seconde. « Je crois ce qu'on me paie pour croire. » Puis : « Suspendue. Va-t'en. » Tu pars avec ta casquette. Il a oublié de la reprendre. | « Je ne crois rien. Je souffle. » Suspendue quand même. | +flag:suspendue +flag:aquilon_doute +flag:casquette_gardee | +flag:suspendue
 
 @gri_06
 ?last:ok Le Directeur Aquilon regarde la corbeille, satisfait. « Bien. Le règlement, Cornemuse. Toujours le règlement. » Tu sens l'enveloppe contre ton poignet. Elle est tiède.
 ?last:ko Le Directeur Aquilon tend la main. « Ta manche, Cornemuse. » Tu ne bouges pas. Il soupire, un long soupir glacé. « Très bien. Garde-la. Mais tu es suspendue. Rends ta casquette. »
 ?last:ko Tu rends ta casquette. Tu gardes la lettre. Il te regarde partir sans rien ajouter. Tu jurerais qu'il a l'air soulagé.
-* gri_07 rus10 | Retourner à ton poste comme si de rien n'était | Tu retournes à ton guichet. Tu tries trois sacs de cartes postales en sifflotant. Puis tu disparais par une bouche d'aération. | Tu sors par la grande porte, sans casquette, la tête haute. | | +flag:suspendue
+* gri_07 rus10 ?last:ok | Retourner à ton poste comme si de rien n'était | Tu retournes à ton guichet. Tu tries trois sacs de cartes postales en sifflotant. Puis tu disparais par une bouche d'aération. | Tu tries trois sacs en sifflotant, puis tu files par une bouche d'aération. Un collègue t'a vue. Il le dit au Directeur avant le soir. Suspendue. On viendra chercher ta casquette demain. | | +flag:suspendue
+* gri_07 ?last:ko | Partir sans casquette, la lettre contre toi | Tu sors par la grande porte, sans casquette, la tête haute. Personne n'ose te regarder. Tout le monde te regarde. | | |
 
 @gri_07
 Le quai des nuages, devant le Centre de tri. Des facteurs partent et arrivent en sifflant, les sacoches pleines. Au-dessus de toi, très haut, la Lune. Elle penche. Un crochet doré est planté dedans, et un câble la relie à un vaisseau carré qui ressemble à un bureau.
-?flag:suspendue Tu n'as plus de casquette. Tu as l'impression d'avoir un courant d'air sur la tête. C'est ironique, pour un courant d'air.
+?flag:suspendue ?!flag:casquette_gardee Tu n'as plus de casquette. Tu as l'impression d'avoir un courant d'air sur la tête. C'est ironique, pour un courant d'air.
+?flag:casquette_gardee Tu as encore ta casquette. Suspendue, mais coiffée. Le Directeur a oublié de la reprendre, ou il a fait semblant.
 ?!flag:suspendue Personne ne sait encore que tu as gardé la lettre. Ça ne durera pas.
 « En mains propres », tu te répètes. Il faudrait monter.
 * gri_08 pan11 | Monter tout droit vers la Lune | Tu prends ton élan et tu fonces vers le haut, comme une rafale qui a quelque chose à prouver. | Tu prends ton élan, tu fonces, tu t'essouffles. Tu continues quand même. | pan+1 |
@@ -71,7 +76,7 @@ Une petite note épinglée ce matin : « Incident : comète mineure encastrée d
 
 @gri_10
 !title: Zouzou
-Dans le Plafond, une comète. Une petite, de la taille d'une baleine, avec une tête brillante et une longue queue de poussière coincée dans la couche grise comme une écharpe dans une porte. Elle tire. Elle jure. Elle a une voix d'adolescente qui en a assez de tout.
+Dans le Plafond, une comète. Une petite : de la taille d'une baleine quand elle se gonfle, d'un chat quand elle boude. Elle a une tête brillante et une longue queue de poussière coincée dans la couche grise comme une écharpe dans une porte. Elle tire. Elle jure. Elle a une voix d'adolescente qui en a assez de tout.
 « Quoi ? Tu veux une photo ? Ça va, j'ai l'habitude, on me regarde depuis quatorze mille ans. »
 * gri_11 coe11 | L'aider à dégager sa queue | Tu souffles, tu tires, tu démêles. La queue se libère d'un coup, dans une gerbe d'étincelles. | Tu souffles trop fort. La queue se libère, et la comète fait trois tonneaux avant de se stabiliser. Elle te fusille du regard. | coe+1 |
 * gri_12 rus11 | Lui proposer un marché d'abord | « Je te libère si tu m'emmènes là-haut. » Elle te regarde comme on regarde une limace qui propose un duel. Puis elle éclate de rire. | « Je te libère si... » « Si rien du tout. » Elle se débat. Tu la libères quand même, parce qu'elle va se casser la queue. | rus+1 |
@@ -124,21 +129,22 @@ Zouzou te regarde. « Bon. Tu vas pleurer ou tu vas faire un truc ? »
 Le bureau du Directeur Aquilon. Tu entres sans frapper. Zouzou entre par la fenêtre, en brûlant le rideau.
 « Vous avez distribué la vente de la Lune. »
 Aquilon se lève. Il ne gonfle pas. Il a l'air fatigué, soudain, très vieux. « On m'a payé. Une taxe de vent. Assez pour réparer toutes les toitures du Centre. Le Grand Vent Postal était en faillite, Cornemuse. On ne livre plus de lettres. Les gens s'écrivent par d'autres moyens. On livre des prospectus, ou on disparaît. »
-?flag:aquilon_doute Il ajoute, plus bas : « Je t'ai dit que je soufflais sans croire. Je mentais. Je crois encore un peu. C'est le pire. »
-* gri_20 coe12 | « Alors aidez-moi à réparer ça. » | Il te regarde longtemps. Puis il ouvre un tiroir et te tend un papier : un ordre de mission, signé, tamponné. « Livraison exceptionnelle. Destinataire : la Lune. Tous les vents doivent aider la porteuse. » | Il secoue la tête. « Je ne peux pas. » Mais il ne te retient pas, et il ne rappelle pas les vents qui te suivent. | +flag:ordre_mission coe+1 |
-* gri_20 pan11 | Lui jeter ta démission à la figure | Tu écris « JE DÉMISSIONNE » sur un prospectus et tu le lui souffles au visage. Il le rattrape. Il le plie. Il le range dans sa poche, comme une lettre. | Tu écris ta démission, mais tes mains tremblent. Il la lit quand même. Il hoche la tête. | +flag:demission |
+?flag:aquilon_doute Il ajoute, plus bas : « Je t'ai dit que je croyais ce qu'on me payait pour croire. On ne me paie plus. Et je crois encore un peu. C'est le pire. »
+* gri_27 coe12 | « Alors aidez-moi à réparer ça. » | Il te regarde longtemps. Puis il ouvre un tiroir et te tend un papier : un ordre de mission, signé, tamponné. « Livraison exceptionnelle. Destinataire : la Lune. Tous les vents doivent aider la porteuse. » | Il secoue la tête. « Je ne peux pas. » Mais il ne te retient pas, et il ne rappelle pas les vents qui te suivent. | +flag:ordre_mission coe+1 |
+* gri_27 pan11 | Lui jeter ta démission à la figure | Tu écris « JE DÉMISSIONNE » sur un prospectus et tu le lui souffles au visage. Il le rattrape. Il le plie. Il le range dans sa poche, comme une lettre. | Tu écris ta démission, mais tes mains tremblent. Il la lit quand même. Il hoche la tête. | +flag:demission |
 
 @gri_19
 L'entrepôt des prospectus. Trois tonnes de papier glacé : « LUNE-SUR-MER. Vivez la Lune autrement. » Tu prends un crayon. Zouzou prend un tison. Toute la nuit, vous corrigez.
 « Vivez la Lune autrement » devient « Vivez la Lune AUTREMENT QU'EN LA VENDANT ». Les piscines deviennent des larmes. La tour devient un doigt d'honneur. Zouzou est très douée pour les dessins obscènes.
-* gri_20 rus11 | Lâcher les trois tonnes dans tous les vents du monde | Tu ouvres les portes de l'entrepôt. Le vent emporte tout. Demain matin, sur toute la Terre, il pleuvra des prospectus corrigés. | Tu ouvres les portes, mais la moitié du papier s'envole vers la mer. L'autre moitié suffira. | +flag:prospectus_detournes equ+3 | +flag:prospectus_detournes equ+1
+* gri_27 rus11 | Lâcher les trois tonnes dans tous les vents du monde | Tu ouvres les portes de l'entrepôt. Le vent emporte tout. Demain matin, sur toute la Terre, il pleuvra des prospectus corrigés. | Tu ouvres les portes, mais la moitié du papier s'envole vers la mer. L'autre moitié suffira. | +flag:prospectus_detournes equ+3 | +flag:prospectus_detournes equ+1
 
 @gri_20
-Tu sors du Centre de tri. Le soleil se couche sur les Hauts-Nuages. Plus bas, très loin, sur la Terre, tu vois des feux qui s'allument, des milliers, autour d'une grande plaine : le Carrefour des Espèces. Tous les peuples s'y rassemblent.
+Tu quittes le quai. Le soleil se couche sur les Hauts-Nuages. Plus bas, très loin, sur la Terre, tu vois des feux qui s'allument, des milliers, autour d'une grande plaine : le Carrefour des Espèces. Tous les peuples s'y rassemblent.
 ?flag:ordre_mission Derrière toi, les vents du Centre te suivent, en formation, avec leurs sacoches. Ils ne savent pas où tu vas. Ils viennent quand même.
 ?flag:prospectus_detournes Au-dessus de toi, des tonnes de papier corrigé partent vers tous les horizons.
 Zouzou flotte à côté de toi. « Bon. Tu descends là-bas ? Chez les lents ? »
-* gri_21 coe11 | « Viens avec moi. On ne monte pas à deux. On monte à des milliers. » | Zouzou te regarde. Elle fait semblant de réfléchir. « Je viens. Mais c'est parce que je n'ai rien de mieux à faire. Que ce soit clair. » | Zouzou hausse sa queue. « Bof. Les milliers, c'est pas mon truc. » Elle file vers le haut sans se retourner, en laissant une traînée vexée. | +comp:zouzou mor+1 |
+* gri_21 ?flag:marche_zouzou | « Un marché est un marché, Zouzou. Je t'ai libérée. Tu m'emmènes. » | Zouzou lève sa queue au ciel. « T'as une mémoire de facteur, toi. » Elle fait semblant de réfléchir. « Bon. Je viens. Mais c'est parce que je n'ai rien de mieux à faire. Que ce soit clair. » | | +comp:zouzou mor+1 |
+* gri_21 coe9 ?!flag:marche_zouzou | « Viens avec moi. On ne monte pas à deux. On monte à des milliers. » | Zouzou te regarde. Elle fait semblant de réfléchir. « Je viens. Mais c'est parce que je n'ai rien de mieux à faire. Que ce soit clair. » | Zouzou hausse sa queue. « Bof. Les milliers, c'est pas mon truc. » Elle file vers le haut sans se retourner, en laissant une traînée vexée. | +comp:zouzou mor+1 |
 * gri_22 pan10 | « Merci, Zouzou. Je vais finir seule. » | Zouzou te regarde. Une seconde, elle a l'air blessée. Puis elle hausse sa queue. « Comme tu veux, la factrice. Le ciel est grand. » Elle file vers les nuages. | | |
 
 @gri_21
@@ -176,3 +182,16 @@ Tu poses la main sur ta sacoche. La lettre bleue est là. « En mains propres. �
 Tu écoutes la foule. On parle d'un Conseil des Espèces, d'un Président galet, de volontaires qu'on enverrait dans les régions du monde. On parle d'une Marégrave, d'un greffier, d'une colonelle de granit, d'un pyjama qui marche et d'un Horloger qui aurait travaillé pour le promoteur.
 Tu te dis que tu n'es pas la seule à porter quelque chose de trop lourd.
 * hub_01 coe10 | Rejoindre les autres | Tu te mêles à la foule. Ta sacoche te tient chaud. | | mor+1 |
+
+@gri_27
+!title: Le quai du départ
+Sur le quai des nuages, devant le Centre de tri, deux silhouettes t'attendent : une vieille brise qui ne se presse jamais, et une petite stagiaire qui tourbillonne sur place.
+?!flag:bise_vue « Bise », dit la vieille. « Je trie les cartes postales depuis le Moyen Âge. Et elle, c'est Zéphyrette, notre stagiaire. Elle a quelque chose à te dire. »
+?flag:bise_vue Bise et Zéphyrette, tes voisines de guichet. Pour une fois, Zéphyrette ne fait pas de tourbillon. Elle a quelque chose à te dire.
+« Les prospectus de la Lune », dit Zéphyrette. « J'en ai distribué trois mille. J'étais fière. Je faisais des tourbillons dessus pour qu'ils tombent joliment. » Elle enfonce sa casquette jusqu'aux yeux. « Je ne savais pas que c'était elle qu'on vendait. »
+?flag:prospectus_detournes Bise regarde passer, très haut, les tonnes de papier corrigé que tu viens de lâcher. « Celles-là, au moins, elles disent vrai », dit-elle. Elle n'a pas l'air de désapprouver.
+?flag:ordre_mission Derrière elles, des vents du Centre attendent en rang, sacoche à l'épaule. Ils ont lu l'ordre de mission. Ils attendent la porteuse.
+?flag:demission Bise a vu ta démission voler jusqu'au bureau du Directeur. « Deux cents ans sans un retard », soupire-t-elle. « Et tu pars en claquant la porte. C'est bien toi. »
+Zouzou, qui flotte derrière toi, fait semblant de ne pas écouter. Elle écoute de toute sa queue.
+* gri_20 coe10 | « Moi aussi, j'en ai distribué. On répare ensemble. » | Zéphyrette relève sa casquette. Elle refait un tourbillon, un petit, prudent. « Ensemble. » Bise hoche la tête, ce qui, chez une vieille brise, déplace trois nuages. | Ta voix tremble. Zéphyrette la prend pour de la colère et se cache derrière Bise. Bise te fait signe que ça passera, et ça passe, un peu. | coe+1 +flag:zephyrette_pardonnee |
+* gri_20 rus10 | Demander à Bise comment un vent pourrait passer le Plafond | « Un vent ne passe pas le Plafond, ma petite. Il n'y a rien à souffler, là-haut. » Elle tapote ta sacoche. « Mais une lettre, si. Une lettre va toujours où on l'adresse. Ce n'est pas toi qui la portes. C'est elle qui t'emmène. » | Bise réfléchit si longtemps que Zouzou s'endort. « Je ne sais pas, ma petite. Mais je sais que tu passeras. Tu passes toujours. » | rus+1 +flag:conseil_bise |

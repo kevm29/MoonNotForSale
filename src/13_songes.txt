@@ -155,7 +155,8 @@ Il ouvre la porte. Une lumière dorée en sort, froide.
 
 @son_23
 Vous restez longtemps assis·es, la Lune et toi, à regarder la Terre par la fenêtre. Elle te raconte. Les premiers poissons. Les premières mousses. Les premières marées, qui montaient vers elle comme des enfants vers une mère.
-?flag:lettres_ondine,pc:ondine Elle te montre une boîte à chaussures. « Les lettres. Une Marégrave m'écrit tous les soirs. Je les garde. Je n'ai jamais su lui répondre. »
+?flag:lettres_ondine ?!pc:ondine Elle te montre une boîte à chaussures. « Les lettres. Une Marégrave m'écrit tous les soirs. Je les garde. Je n'ai jamais su lui répondre. »
+?pc:ondine Elle se lève et va chercher, sous son lit, une boîte à chaussures. Elle l'ouvre. Dedans, ton écriture. Dix mille neuf cent cinquante fois ton écriture, rangée par saison. Elle ne te regarde pas. « On m'a renvoyé les enveloppes. Les lettres, je les ai cachées. Je n'ai jamais su quoi répondre. Personne ne m'avait jamais écrit. »
 « Je ne veux pas partir », dit-elle enfin. « Mais je ne sais pas comment le dire à ceux qui ne rêvent pas. »
 * son_26 coe11 | Lui promettre de le dire pour elle | Elle te prend la main. Sa main est froide et douce. « Merci. » Le mot fait un petit clair de lune dans la pièce. | | +flag:reve_lune +flag:promesse_lune coe+1 |
 * son_27 rus12 ?flag:cle_porte,flag:porte_marchand | Lui proposer d'ouvrir une porte pour qu'elle parle elle-même | Tu sors la clé du Marchand et tu la lui montres. Elle la regarde comme on regarde une fenêtre ouverte en hiver. 

@@ -337,6 +337,372 @@
    "image": "35-doux",
    "nom": "Le bureau de Platine, avant l'alarme et après",
    "scenes": "pla_01c, plf_02, pmo_02b"
+  },
+  {
+   "image": "37",
+   "nom": "La Lyre",
+   "scenes": "ply_05b, ply_06, ply_06b, ply_07",
+   "correction": true
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "ply_07b",
+   "correction": true
+  },
+  {
+   "image": "31",
+   "nom": "La vente aux enchères",
+   "scenes": "pcm_04, pcm_r2, pcm_r3, pcm_vendu, pcm_libre, pcm_ticket, pcm_06",
+   "correction": true
+  },
+  {
+   "image": "30",
+   "nom": "Le Marché des Comètes",
+   "scenes": "pcm_05, pcm_07",
+   "correction": true
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "pcr_08, pcr_08b",
+   "correction": true
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "pcr_09, pcr_09b",
+   "correction": true
+  },
+  {
+   "image": "11",
+   "nom": "La dernière nuit, le camp",
+   "scenes": "pcr_fuite",
+   "correction": true
+  },
+  {
+   "image": "20",
+   "nom": "La boutique du Marchand de Sommeil",
+   "scenes": "pso_03, pso_r2, pso_04, pso_05, pso_reve, pso_cauch",
+   "correction": true
+  },
+  {
+   "image": "19",
+   "nom": "Le Pays des Songes",
+   "scenes": "pso_02, pso_10",
+   "correction": true
+  },
+  {
+   "image": "01",
+   "nom": "Le phare de Grève-Molle",
+   "scenes": "pct_02, pct_r1, pct_03, pct_lettre, pct_04, pct_06b",
+   "correction": true
+  },
+  {
+   "image": "13",
+   "nom": "Les Côtes Hagardes",
+   "scenes": "pct_04b, pct_07",
+   "correction": true
+  },
+  {
+   "image": "28",
+   "nom": "La station de pompage et la nacelle",
+   "scenes": "pha_03, pha_r2, pha_04, pha_04b, pha_05, pha_05b",
+   "correction": true
+  },
+  {
+   "image": "29",
+   "nom": "Le Phare des Nuages",
+   "scenes": "pha_05c",
+   "correction": true
+  },
+  {
+   "image": "27",
+   "nom": "Les Hauts-Nuages",
+   "scenes": "pha_06",
+   "correction": true
+  },
+  {
+   "image": "12",
+   "nom": "L'heure de monter",
+   "scenes": "pnu_02",
+   "correction": true
+  },
+  {
+   "image": "34",
+   "nom": "Le crochet dans la mer de la Tranquillité",
+   "scenes": "pmo_r2",
+   "correction": true
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "pmo_bur, pmo_parle, pmo_decide, pmo_r1, pmo_r3, pmo_rate, pmo_dort",
+   "correction": true
+  },
+  {
+   "image": "13",
+   "nom": "Les Côtes Hagardes",
+   "scenes": "end_28",
+   "correction": true
+  },
+  {
+   "image": "34",
+   "nom": "Le crochet dans la mer de la Tranquillité",
+   "scenes": "end_29",
+   "correction": true
+  },
+  {
+   "image": "37",
+   "nom": "La Lyre",
+   "scenes": "end_30, end_31",
+   "correction": true
+  },
+  {
+   "image": "20",
+   "nom": "La boutique du Marchand de Sommeil",
+   "scenes": "pis_17 à pis_26",
+   "correction": true
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "pne_ba1, pne_ba2, pne_ba3",
+   "correction": true
+  },
+  {
+   "image": "18",
+   "nom": "Le Temple de la Pleine Lune",
+   "scenes": "pne_me1, pne_me2, pne_me3, pne_me1b",
+   "correction": true
+  },
+  {
+   "image": "21",
+   "nom": "Les Profondeurs et l'Axe de la Terre",
+   "scenes": "pne_br1, pne_br2, pne_br3, pne_br1b, bri_09 à bri_40",
+   "correction": true
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "pne_zo1, pne_zo2, pne_zo3, pne_zo1b",
+   "correction": true
+  },
+  {
+   "image": "02",
+   "nom": "Le guichet zéro",
+   "scenes": "pnc_f1, pnc_f1b, pnc_f1c, pnc_f2",
+   "correction": true
+  },
+  {
+   "image": "39",
+   "nom": "Le Fleuve des Dormeurs",
+   "scenes": "end_36",
+   "correction": true
+  },
+  {
+   "image": "40",
+   "nom": "L'eau noire",
+   "scenes": "end_37",
+   "correction": true
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "end_38",
+   "correction": true
+  },
+  {
+   "image": "26",
+   "nom": "Le bureau de la Sous-Directrice et le Président",
+   "scenes": "bas_09 à bas_15",
+   "correction": true
+  },
+  {
+   "image": "25",
+   "nom": "Les archives, sous-sol moins onze",
+   "scenes": "bas_16 à bas_34",
+   "correction": true
+  },
+  {
+   "image": "17",
+   "nom": "Le Grand Chêne Noué et la Toile",
+   "scenes": "bas_35 à bas_39, bas_47 à bas_49",
+   "correction": true
+  },
+  {
+   "image": "16",
+   "nom": "La Forêt-Réseau",
+   "scenes": "bas_40, bas_41, for_12",
+   "correction": true
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "bas_42, bas_43, zep_42",
+   "correction": true
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "zep_16",
+   "correction": true
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "zep_32 à zep_39",
+   "correction": true
+  },
+  {
+   "image": "27",
+   "nom": "Les Hauts-Nuages",
+   "scenes": "gri_07 à gri_13, gri_15 à gri_17, gri_20 à gri_24, gri_27",
+   "correction": true
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "gri_14",
+   "correction": true
+  },
+  {
+   "image": "06",
+   "nom": "Le Centre de tri des Vents",
+   "scenes": "nua_gri1, nua_gri2",
+   "correction": true
+  },
+  {
+   "image": "33",
+   "nom": "Le chantier lunaire",
+   "scenes": "cha_gri1, cha_gri2",
+   "correction": true
+  },
+  {
+   "image": "17",
+   "nom": "Le Grand Chêne Noué et la Toile",
+   "scenes": "for_15, for_16",
+   "correction": true
+  },
+  {
+   "image": "43",
+   "nom": "La Faille",
+   "scenes": "bri_19, bri_21 à bri_28, pro_10, pro_12, pro_14, pro_15"
+  },
+  {
+   "image": "44",
+   "nom": "Le champ à l'aube",
+   "scenes": "bri_41 à bri_44, bri_47"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "pis_28 à pis_37, pis_34b, son_20 à son_30"
+  },
+  {
+   "image": "46",
+   "nom": "Premier matin dans l'éveil",
+   "scenes": "pis_38 à pis_43"
+  },
+  {
+   "image": "47",
+   "nom": "La cale du Promontoire",
+   "scenes": "zep_20, zep_22 à zep_29"
+  },
+  {
+   "image": "48",
+   "nom": "La fourrière et le Pied-de-Nez",
+   "scenes": "zep_30, zep_33"
+  },
+  {
+   "image": "49",
+   "nom": "L'étang aux canards",
+   "scenes": "zep_38, zep_40, zep_41"
+  },
+  {
+   "image": "50",
+   "nom": "Le village des Horlogers",
+   "scenes": "zep_43"
+  },
+  {
+   "image": "51",
+   "nom": "Enterrement sur la lande",
+   "scenes": "lyc_11 à lyc_18, lyc_13b"
+  },
+  {
+   "image": "52",
+   "nom": "La lande à l'aube",
+   "scenes": "lyc_19, lyc_19c, lyc_20b, lyc_21, lyc_21b"
+  },
+  {
+   "image": "53",
+   "nom": "Le vol de nuit",
+   "scenes": "ana_13 à ana_16, ana_14b, ana_15b, ana_16b"
+  },
+  {
+   "image": "54",
+   "nom": "Le Plafond du ciel",
+   "scenes": "gri_08 à gri_13, gri_15 à gri_17"
+  },
+  {
+   "image": "55",
+   "nom": "La réserve du Promontoire",
+   "scenes": "pcr_05, pcr_ours, pcr_06, pcr_06b, pcr_10"
+  },
+  {
+   "image": "56",
+   "nom": "Le Dortoir des Voyageurs",
+   "scenes": "pso_01, pso_avale, pso_r1, pso_06, pso_07, pso_oreiller, pso_07b, pso_08, pso_08b, pso_09"
+  },
+  {
+   "image": "57",
+   "nom": "La ferme",
+   "scenes": "plt_00, plt_00b, plt_01"
+  },
+  {
+   "image": "58",
+   "nom": "L'îlot des phares échoués",
+   "scenes": "ond_31, ond_32, ond_34"
+  },
+  {
+   "image": "59",
+   "nom": "La route de nuit vers le Carrefour",
+   "scenes": "pel_21"
+  },
+  {
+   "image": "60",
+   "nom": "Le couloir des planètes vendues",
+   "scenes": "pmo_01, pmo_01b"
+  },
+  {
+   "image": "61",
+   "nom": "La plage des pêcheurs",
+   "scenes": "pel_25"
+  },
+  {
+   "image": "62",
+   "nom": "Chambre trois, les Horlogers",
+   "scenes": "pel_23"
+  },
+  {
+   "image": "63",
+   "nom": "Le couloir des mères",
+   "scenes": "pel_24"
+  },
+  {
+   "image": "64",
+   "nom": "L'essaim dans le ciel",
+   "scenes": "asc_pel1"
+  },
+  {
+   "image": "65",
+   "nom": "Les fins sur la Lune",
+   "scenes": "end_33, end_34"
+  },
+  {
+   "image": "66",
+   "nom": "Le bureau de Platine en rouge",
+   "scenes": "gpa_15, gpa_15b"
   }
  ],
  "defauts": {

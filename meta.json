@@ -28,6 +28,7 @@
   {
    "id": "ondine",
    "name": "Ondine Salmigondis",
+   "genre": "f",
    "species": "Marégrave",
    "start": "ond_01",
    "stats": [
@@ -42,6 +43,7 @@
   {
    "id": "basile",
    "name": "Basile Grumeau",
+   "genre": "m",
    "species": "Lichenaute",
    "start": "bas_01",
    "stats": [
@@ -56,6 +58,7 @@
   {
    "id": "pistil",
    "name": "Pistil",
+   "genre": "m",
    "species": "Somnambule",
    "start": "pis_01",
    "stats": [
@@ -70,6 +73,7 @@
   {
    "id": "brisefer",
    "name": "Colonelle Agathe Brisefer",
+   "genre": "f",
    "species": "Gravitaire",
    "start": "bri_01",
    "stats": [
@@ -84,6 +88,7 @@
   {
    "id": "zephyrin",
    "name": "Zéphyrin Clopin",
+   "genre": "m",
    "species": "Horloger",
    "start": "zep_01",
    "stats": [
@@ -98,6 +103,7 @@
   {
    "id": "griselidis",
    "name": "Grisélidis Cornemuse",
+   "genre": "f",
    "species": "Éolienne",
    "start": "gri_01",
    "stats": [
@@ -112,6 +118,7 @@
   {
    "id": "pelagie",
    "name": "Sœur Pélagie Bourdon",
+   "genre": "f",
    "species": "Abeillère",
    "start": "pel_01",
    "stats": [
@@ -126,6 +133,7 @@
   {
    "id": "barnabe",
    "name": "Lord Barnabé Frissepoil",
+   "genre": "m",
    "species": "Loup-garou",
    "start": "lyc_01",
    "stats": [
@@ -133,13 +141,14 @@
     1,
     2
    ],
-   "tagline": "Lycanthrope distingué qui perd son loup un peu plus chaque nuit où la Lune s'éloigne.",
-   "bio": "Barnabé a été loup trois nuits par mois pendant deux siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
+   "tagline": "Lycanthrope distingué qui a perdu son loup le soir où la Lune a commencé à partir.",
+   "bio": "Barnabé a été loup trois nuits par mois pendant plus de trois siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
    "debut": "Commence au Club des Lycanthropes Distingués, le soir de ce qui devrait être la dernière pleine lune."
   },
   {
    "id": "anatole",
    "name": "Anatole Duvet",
+   "genre": "m",
    "species": "Noctuelle",
    "start": "ana_01",
    "stats": [
@@ -154,6 +163,7 @@
   {
    "id": "president",
    "name": "Le Président de la Terre",
+   "genre": "m",
    "species": "Galet",
    "start": "gpa_01",
    "stats": [
@@ -170,6 +180,7 @@
   {
    "id": "platine",
    "name": "Platine",
+   "genre": "m",
    "species": "Aldébaranien",
    "start": "pla_01",
    "stats": [
@@ -185,6 +196,7 @@
   {
    "id": "ploum",
    "name": "Ploum",
+   "genre": "m",
    "species": "Bullimaçon",
    "start": "ply_01",
    "stats": [
@@ -455,7 +467,7 @@
    "name": "Dame Ondée",
    "species": "Nuage de pluie",
    "stat": "coe",
-   "bio": "Un petit nuage gris, dépressif, qui pleut quand il est triste, c'est-à-dire souvent. Elle s'excuse de mouiller tout le monde. Elle connaît toutes les mers par leur prénom, parce que c'est d'elles qu'elle vient. Quand elle est heureuse, elle fait des arcs-en-ciel, mais ça ne lui est arrivé que deux fois.",
+   "bio": "Un petit nuage gris, dépressif, qui pleut quand il est triste, c'est-à-dire souvent. Elle fut autrefois la grande nuée violette qui a plu sur la première mer. Elle s'excuse de mouiller tout le monde. Elle connaît toutes les mers par leur prénom, parce que c'est d'elles qu'elle vient. Quand elle est heureuse, elle fait des arcs-en-ciel, mais ça ne lui est arrivé que deux fois.",
    "ok": [
     "Dame Ondée fait un petit arc-en-ciel, gênée.",
     "Dame Ondée : « Oh. C'était bien. Je crois que je vais pleurer. » Elle pleure.",
@@ -476,7 +488,7 @@
    "name": "Sire Gaspard Ombrelune",
    "species": "Fantôme d'aéronaute",
    "stat": "coe",
-   "bio": "Un aéronaute mort il y a cent quarante ans en essayant d'atteindre la Lune en montgolfière. Il est arrivé à mi-chemin, ce qui, pour un fantôme, est un endroit très inconfortable pour rester. Courtois, un peu transparent, il traverse les murs par distraction et s'excuse auprès d'eux. Il voudrait finir son voyage, et ensuite se reposer.",
+   "bio": "Un aéronaute parti de Lyon en 1803 pour atteindre la Lune en montgolfière, mort depuis deux cents ans. Il est arrivé à mi-chemin, ce qui, pour un fantôme, est un endroit très inconfortable pour rester. Courtois, un peu transparent, il traverse les murs par distraction et s'excuse auprès d'eux. Il voudrait finir son voyage, et ensuite se reposer.",
    "ok": [
     "Gaspard soulève son chapeau, qui passe à travers sa main.",
     "Gaspard : « Bravo ! On aurait dit mon équipage, en plus vivant. »",
@@ -1094,7 +1106,11 @@
   },
   "obj_croc_argent": {
    "name": "Le croc d'argent",
-   "desc": "Le dernier croc de loup de Lord Barnabé. C'est la Lune qui l'a fait pousser, deux siècles de pleines lunes : un petit morceau d'elle, qui mord encore."
+   "desc": "Le dernier croc de loup de Lord Barnabé. C'est la Lune qui l'a fait pousser, trois siècles de pleines lunes : un petit morceau d'elle, qui mord encore."
+  },
+  "obj_medaille_club": {
+   "name": "La médaille du Club",
+   "desc": "Une tête de loup en argent noirci, au bout d'un ruban usé. La Duchesse Grisemuffle te l'a passée au cou sur la tombe de Sir Hector : le Club n'est pas dissous, il est en mission. Elle sent la fourrure et le vieux cognac."
   },
   "obj_beignet": {
    "name": "Le beignet perpétuel",
@@ -1203,6 +1219,10 @@
   "obj_coquille": {
    "name": "Un éclat de la coquille de Croissant",
    "desc": "Un morceau de coquille encore tiède. Croissant est né cette nuit, sur la Terre, sous une Lune qui s'en va."
+  },
+  "obj_miel": {
+   "name": "Le pot de miel royal",
+   "desc": "Le miel de ruche royale de la sacoche de sage-femme. Mille abeilles y ont travaillé toute une vie, pour rien, pour quelqu'un qu'elles ne connaîtront jamais."
   },
   "obj_braise": {
    "name": "Une braise du dernier feu",

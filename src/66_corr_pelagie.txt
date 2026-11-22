@@ -1,0 +1,249 @@
+# ================================================================
+# CORRECTIONS DU 21/11 — SŒUR PÉLAGIE (variantes « nous » de l'essaim)
+# et RÉPLIQUES DE LA FOIRE (région confiée au thread de Pélagie)
+# ================================================================
+
+# ---------------------------------------------------------------- Carrefour : la réplique dite à voix haute
+
+@+hub_07
+* nui_01 pan11 ?pc:pelagie | « Nous y allons. » | Nous le disons à mille voix, sans trembler. Nous tremblons après, toutes, mais un essaim qui tremble, de loin, on dirait qu'il bourdonne. | Nos voix tremblent, mille fois. Mais nous l'avons dit. Le Carrefour applaudit chaque abeille, une par une. Ça prend du temps. | pan+1 mor+1 | mor+1
+
+# ---------------------------------------------------------------- Profondeurs : un essaim ne prend pas l'échelle et ne pèse rien
+
+@+pro_01
+?pc:pelagie La Gravitaire de garde regarde notre essaim, puis son casque, puis notre essaim. Elle range le casque.
+* pro_02 pan11 ?pc:pelagie | Descendre en spirale dans le Puits, sans toucher l'échelle | Nous descendons en spirale, serrées, autour du vide. Mille échelons défilent sans nous. Il fait de plus en plus chaud. Les abeilles du bord ont peur du noir ; celles du centre leur racontent des fleurs. | Un courant d'air chaud remonte le Puits et nous éparpille sur trois étages. Nous nous rassemblons en bas, en nous comptant deux fois. | pan+1 |
+
+@+pro_07
+?pc:pelagie Nous bourdonnons, très fort, pour couvrir le gémissement de l'Axe : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, lève la tête vers notre nuage. « Grrm. Qui bourdonne ? »
+* pro_08 coe11 ?pc:pelagie | Battre la cadence, pour qu'ils se déplacent ensemble | Nous ne pesons rien. Alors nous faisons ce que nous savons faire : donner le rythme, comme pour une mère qui pousse. Un temps, un souffle, un pas. Les Gravitaires se déplacent en mesure, d'un seul côté à l'autre, comme une procession. L'Axe se redresse d'un cheveu. | | equ+2 +flag:etoile |
+
+# ---------------------------------------------------------------- Côtes Hagardes : la côte de Pélagie
+
+@+cot_01
+?pc:pelagie Au loin, sur la plage, la Maternité des Marées. Ses fenêtres sont allumées. Il y a toujours autant de mères, et toujours aucun cri. Nous ne nous arrêtons pas. Nous reviendrons quand nous aurons quelque chose à leur dire.
+?pc:pelagie ?flag:pel_pecheurs Sur une barque renversée, le vieux pêcheur du baleineau nous reconnaît et lève sa casquette. La mer a encore reculé depuis.
+
+@+cot_02
+?pc:pelagie La petite raie nous regarde mieux. « Oh. C'est vous qui m'avez sortie de l'œuf. Vous étiez plus nombreuses. » Nous ne l'étions pas. Elle était plus petite.
+
+@+cot_05
+* cot_06 pan10 ?pc:pelagie | Survoler l'eau jusqu'à la vague | Nous volons au ras de l'eau, vers la vague immobile. Les embruns nous alourdissent les ailes. Nous volons plus haut. | Une rafale nous rabat vers l'eau. Trois abeilles se mouillent et doivent être portées par les autres jusqu'à la vague. | |
+
+@+cot_06
+?pc:pelagie « NOUS ? » chantent les Méduses en nous voyant. « NOUS », bourdonnons-nous. Il y a un long silence entre deux foules qui se reconnaissent. Puis les Méduses chantent un peu moins faux, par politesse.
+
+@+cot_07
+?pc:pelagie Puis elle plisse les yeux. « Mais... Sœur Pélagie ? C'est vous qui avez sorti mon arrière-petit-fils, à la Maternité. Pardon, ma Sœur. Je vous ai prise pour un nuage d'orage. »
+
+@+cot_10
+?pc:pelagie Nous comprenons mieux que personne. Être une même quand on est loin les unes des autres, c'est notre métier aussi.
+
+# ---------------------------------------------------------------- Montée : l'essaim vole, mais ne porte personne
+
+@+asc_01
+?pc:pelagie ?comps<1 Nous pourrions monter en volant. C'est loin, c'est froid, et trois d'entre nous ont le vertige. Mais nous sommes seules : nous ne laissons personne en bas.
+?pc:pelagie ?comps>=1 Nous pourrions monter en volant. Mais nos compagnons n'ont pas d'ailes, et mille abeilles ne portent personne. Nous ne laissons personne en bas.
+* asc_pel1 pan12 ?pc:pelagie ?comps<1 | Monter en essaim, toutes ensemble | Nous décollons du Carrefour en une seule colonne. Les gens lèvent la tête : on dirait une fumée qui monte à l'envers. | Nous décollons, puis nous redescendons chercher Sœur Gertrude, qui n'avait pas entendu le signal. Nous redécollons. | pan+1 |
+
+@asc_pel1
+!title: L'essaim dans le ciel
+Le ciel devient froid, puis très froid. Nous mettons le pull de la sacoche : cinquante abeilles dedans, les autres autour, serrées comme pour l'hiver. La Terre rapetisse sous nous. Les abeilles qui ont le vertige ferment les yeux et se laissent porter par les autres.
+À mi-chemin, nous croisons des drones de politesse qui s'excusent de ne pas savoir où nous ranger.
+La Lune grandit. Elle est blanche, ronde, et pour la première fois de notre vie, elle n'est pas au-dessus de nous : elle est devant.
+* asc_22 coe12 | Se poser doucement, comme sur une fleur | Nous nous posons sur la poussière grise, toutes ensemble, sans bruit. La Lune ne sent rien. Les fleurs non plus, d'habitude. | Nous nous posons en désordre, dans un cratère, en nous excusant les unes auprès des autres. | mor+1 |
+* asc_22 rus12 | Se poser loin du chantier, pour ne pas être vues | Nous descendons derrière une colline grise, à l'abri des grues. Personne ne nous a vues. Un essaim, sur la Lune, ça ne fait pas partie des choses qu'on surveille. | Un projecteur du chantier nous suit un instant. Puis il nous prend pour de la poussière et nous oublie. | rus+1 |
+
+# ---------------------------------------------------------------- Chantier : l'essaim après le vote de la dernière nuit
+
+@+cha_01
+?pc:pelagie ?flag:essaim_divise Nous sommes moins nombreuses. Sur le chantier, ça se voit : nous faisons moins de bruit, et personne ne nous remarque. Les cent cinquante sœurs restées en bas nous manquent comme une aile.
+?pc:pelagie ?flag:essaim_entier Huit cents ailes, et quelques-unes de plus. Sur le chantier, notre bourdonnement couvre les marteaux. Les ouvriers dorés lèvent la tête, inquiets, puis contents : enfin un bruit qui n'est pas le leur.
+
+@+cha_28
+?pc:pelagie Bobinot rappelle presque aussitôt : « Patron ? Correction. C'est un essaim. En robe. Il dit "nous". » Un silence à l'autre bout. « Faites-les monter, Bobinot. Toutes. »
+
+# ---------------------------------------------------------------- Bureau de Platine
+
+@+neg_03
+* neg_04 coe10 ?pc:pelagie | Nous poser sur le dossier du fauteuil, face à lui | Nous nous posons sur le dossier, toutes, en rang. Le fauteuil est trop moelleux pour un essaim : il ne s'enfonce même pas. Platine nous regarde, fasciné, comme on regarde une fortune qu'on ne sait pas compter. | |
+
+@+neg_16
+* neg_pel1 ?flag:obj_miel | Ouvrir la sacoche, et poser le pot de miel royal sur le marbre | Nous posons le pot sur le bureau de marbre. Il est petit, doré, un peu collant. À côté de tout cet or, c'est le seul qui se mange. | | |
+
+@neg_pel1
+!title: Le miel royal
+Platine regarde le pot. « Qu'est-ce que c'est ? » « Du miel. Mille abeilles y ont travaillé toute leur vie. Sans salaire. Sans contrat. Pour quelqu'un qu'elles ne connaîtraient jamais. »
+Il ouvre le pot. Il trempe un doigt d'or. Il goûte. Il ne dit rien pendant très longtemps. Par la baie vitrée, on voit ses ouvriers dorés qui travaillent sur la Lune, et qui ne chantent pas.
+* neg_21 coe11 | « Vos ouvriers, eux, ne font pas de miel. » | Platine regarde ses ouvriers. Puis le pot. « Non », dit-il. « Ils font des piscines. » Il referme le pot, très doucement, et le garde contre lui. | Platine repose le pot. « Délicieux. Inutile. » Mais il se lèche le doigt quand il croit que nous ne le voyons pas. | -flag:obj_miel +flag:platine_emu +flag:platine_faille | -flag:obj_miel +flag:platine_question
+
+# ---------------------------------------------------------------- Répliques des compagnons avec Pélagie (là où ils peuvent être)
+
+@+hub_ret
+~coquille ?pc:pelagie: « Vous bourdonnez plus vite que d'habitude, mes petites. Vous avez peur. Moi aussi. Mais lentement. »
+~meduses ?pc:pelagie: « VOUS ÊTES MILLE ET NOUS SOMMES MILLE. ENSEMBLE, NOUS SOMMES DEUX. C'EST PEU. C'EST BIEN. »
+~fulgence ?pc:pelagie: Fulgence redevient une ruche en vous voyant revenir. Une très belle ruche, avec des volets. Sœur Gertrude ne rougit plus : elle soupire.
+~plumard ?pc:pelagie: « Mille soldats, ma Sœur ! Et pas une qui marche au pas ! » « Nous volons, Colonel. » « Ce n'est pas une excuse. »
+~bartho ?pc:pelagie: « C'est vous qui avez sorti le fils de ma sœur, à la Maternité. Il a crié pendant trois jours. Vous aviez dit que c'était bon signe. Il crie toujours. »
+~taupinel ?pc:pelagie: Taupinel nous interviewe une par une. Il en est à la quatre-vingt-septième. « Et vous, ma Sœur ? Même réponse ? » « Même réponse. » Il note.
+~penelope ?pc:pelagie: Pénélope essaie de nous tamponner APPROUVÉ, une par une. Elle abandonne à la deux-centième. « Il faudrait un tampon en forme de ruche. »
+~vesperine ?pc:pelagie: « Des abeilles qui ne dorment pas la nuit, mes chères. Vous finirez comme moi. » Elle nous offre un jus de mûre. Nous le transformons en miel, par politesse.
+~remontoir ?pc:pelagie ?flag:pel_tictac: « Un bébé Horloger qui fait tic sans faire tac ? Ça m'est arrivé, à ma naissance. Le tac est venu cent ans après. Dites aux parents de faire de la confiture en attendant. »
+~ondee ?pc:pelagie: « Vous vouliez m'accoucher, mes chéries. » Elle pleut un tout petit peu, juste sur nous. « Voilà. C'est fait. »
+
+@+nui_02
+~coquille ?pc:pelagie ?!flag:croissant: Madame Coquille pose une patte sur son ventre et nous regarde. « S'il vient cette nuit, mes petites, vous serez là ? » « Nous sommes toujours là. » « Je sais. C'est pour ça que je demande. »
+~ysaline ?pc:pelagie ?flag:essaim_divise: « Un vote à mains levées, à mille, sans fraude, avec une minorité respectée. » Ysaline essuie une larme. « Vous êtes le Syndicat dont je rêvais. »
+~meduses ?pc:pelagie ?flag:essaim_divise: « VOUS AUSSI, VOUS VOUS ÊTES COUPÉES EN DEUX. ÇA NE FAIT PAS MAL. ÇA FAIT LOIN. »
+
+@+nui_54
+~ysaline: Ysaline se poste au pied de la branche. « Un vote ? Je compte. » Elle compte. Elle trouve mille. Elle recompte. Elle trouve mille. Elle est ravie.
+~meduses: Les Méduses chantent tout bas, depuis leur bocal : « NOUS AVONS FAIT PAREIL, AU PIED DE LA VAGUE. UNE MOITIÉ RESTE. L'AUTRE VIENT. NOUS SOMMES TOUJOURS UNE. »
+~coquille: Madame Coquille s'est arrêtée sous la branche. « Laissez-en quelques-unes ici, mes petites. Les naissances n'attendent pas que la Lune revienne. Enfin, pas toutes. »
+
+@+asc_22
+~coquille ?pc:pelagie: « Vous avez sorti un volcan, mes petites. Sur la Lune, je ne vous demande qu'une tortue. »
+~meduses ?pc:pelagie: « LA LUNE. NOUS LA TIRIONS DEPUIS EN BAS. NOUS NE SAVIONS PAS QU'ELLE ÉTAIT SI PETITE, VUE DE PRÈS. »
+
+@+neg_03
+~fulgence ?pc:pelagie: Fulgence devient une ruche dorée, pour plaire à Platine et à nous en même temps. Ça ne plaît à personne.
+
+# ================================================================
+# LA FOIRE AUX RENCONTRES — répliques et duos (région confiée)
+# ================================================================
+
+# ---------------------------------------------------------------- entrée et allée
+
+@+foi_01
+~coquille: Madame Coquille regarde l'arche, puis l'allée, puis l'arche. « Minuit ? Je serai au deuxième stand. Peut-être. »
+~zouzou: « Trois stands ? J'en fais trente en une minute. » La vieille poule la regarde par-dessus ses lunettes. Zouzou se pose. « Trois. D'accord. »
+~bartho: « Une foire pour trouver des amis. De mon temps, on les trouvait au bistrot, et on les gardait. »
+~penelope: « Trois stands au maximum. C'est le règlement ? » La poule hoche la tête. Pénélope est rassurée : il y a un règlement.
+~vesperine: « Fermeture à minuit. Comme c'est commode : c'est l'heure à laquelle je me réveille. »
+~brume: « Une foire... aux... » Elle n'ose pas dire « rencontres ». Elle se cache derrière toi.
+~echo: « ... choisis. Choisis. » Écho répète la poule, et elle a l'air de te le conseiller vraiment.
+~rocambole: Rocambole lit l'arche. « Trouvez votre équipe. » Il te serre l'épaule, de deux bras sur quatre. « C'est fait, non ? »
+~meduses: « NOUS SOMMES DÉJÀ UNE ÉQUIPE À NOUS TOUTES SEULES. NOUS ENTRONS QUAND MÊME. »
+~ondee: « Des lampions. Je vais essayer de ne pas pleuvoir dessus. »
+
+# ---------------------------------------------------------------- Ysaline (foi_03, foi_04)
+
+@+foi_03
+~coquille: Madame Coquille prend un tract, le lit pendant quatre minutes, et le rend. « Le droit de vote des tortues ? Je voterai. Laissez-moi un peu de temps. »
+~penelope: Pénélope regarde le mégaphone avec envie. « Dans la Compagnie, on n'avait pas le droit de parler plus fort que le patron. » Ysaline : « Ici, on a le devoir. »
+~bartho: Bartholomé recule d'un pas. « Une mante. Ma Perline disait de ne jamais tourner le dos à une mante. » Ysaline : « Votre Perline avait raison. Et c'était une femme de tête. »
+~vesperine: Vespérine incline la tête vers Ysaline. « Madame la Présidente. Neuf cents ans de bals, et pas une seule cavalière qui ait voté. Vous avez fait du travail. »
+~zouzou: « C'est quoi, un syndicat ? » Ysaline : « C'est quand les petites cessent d'obéir aux grandes. » Zouzou réfléchit. « Je suis syndiquée depuis toujours, alors. »
+~brume: « Je voudrais... signer... mais si je finis... la signature... » Ysaline lui tend un stylo. « Signez à moitié. Ça compte. »
+~echo: Écho répète le slogan d'Ysaline : « ... pas une marchandise. » Ysaline la regarde, émue. « Enfin quelqu'un qui retient l'essentiel. »
+~meduses: « NOUS SOMMES TOUTES DES FEMELLES. MILLE. NOUS VOULONS MILLE CARTES. » Ysaline commence à les remplir.
+~rocambole: Rocambole fait les poches du stand pendant qu'Ysaline parle. Elle lui saisit un poignet sans le regarder. « Celui-là aussi. Et les trois autres. » Il rend tout.
+~quartz: Le Docteur Quartz : « La Lune est une femelle ? D'un point de vue géologique, c'est discutable. » Ysaline : « D'un point de vue syndical, c'est réglé. »
+~ondee: « J'ai plu sur des femmes qui n'avaient pas le droit de sortir sous la pluie », dit Dame Ondée. « Je m'en excuse encore. » Ysaline : « Ce n'était pas votre faute. Adhérez. »
+~ysaline ?pc:pelagie: Ysaline regarde l'essaim. « Mille sœurs, et pas une reine ? » « Pas une. Nous votons. » Ysaline met la main sur son cœur, qui est assez loin, chez une mante.
+
+@+foi_04
+~ysaline ?comp:fulgence: Ysaline ne regarde pas Fulgence. Fulgence, lui, essaie d'être une plante verte. Ça tiendra jusqu'à minuit, pas plus.
+~ysaline ?comp:penelope: « Vous êtes l'ancienne assistante de Platine ? » Pénélope baisse les tampons. Ysaline lui serre la main gauche, celle qui dit APPROUVÉ. « Bienvenue au Syndicat. Les démissionnaires d'abord. »
+~ysaline ?comp:bartho: Ysaline marche à côté de Bartholomé. « Vous râlez beaucoup. » « C'est mon droit. » « C'est votre droit. Continuez. » Il ne sait plus quoi dire.
+~ysaline ?comp:coquille: « Madame Coquille, trois cents ans de grossesse : avez-vous eu un congé ? » « Je suis en congé depuis trois cents ans, ma chère. » Ysaline le note pour la prochaine motion.
+~ysaline ?comp:vesperine: Ysaline et la Comtesse marchent bras dessus, bras dessous. Elles parlent de la nuit, des bals, et des hommes qui marchent sur les pieds.
+~ysaline ?comp:zouzou: Zouzou porte le mégaphone d'Ysaline. Elle crie dedans « LA LUNE N'EST PAS À VENDRE ». C'est la première fois qu'elle crie quelque chose qui a un sens.
+~fulgence ?comp:ysaline: Fulgence passe en vieille dame, en chat, en lampion. Ysaline le reconnaît à chaque fois. Il ne comprend pas comment. « Vous marchez toujours pareil », dit-elle.
+
+# ---------------------------------------------------------------- Plumard (foi_05, foi_06)
+
+@+foi_05
+~coquille: Madame Coquille regarde le coq. « Vous réveillez la Terre tous les matins ? » « Tous ! » « Moi, ça fait trois siècles que je ne me lève pas avant midi. Je ne vous en veux pas. »
+~bartho: « Un coq. Ça me réveillait sur le bateau. Je l'ai jamais aimé. » Plumard, au garde-à-vous : « On ne demande pas aux gens de m'aimer. On leur demande de se lever ! »
+~penelope: Pénélope tamponne la feuille de service du Colonel. APPROUVÉ. Il rougit sous ses plumes. « Personne ne m'avait jamais approuvé. »
+~zouzou: Zouzou fait un tour au-dessus du stand. « Tu chantes quand le soleil arrive ? Moi aussi, je passe quand je veux. On est pareils. » « Je passe à l'heure, moi, mademoiselle ! »
+~brume: Le Colonel crie « GARDE-À-VOUS ! ». Brume-Lucie disparaît. Il faut deux minutes pour la faire revenir. Plumard s'excuse, très bas, ce qui ne lui arrive jamais.
+~echo: « ... soldat ! Soldat ! » Écho répète le Colonel. Il se tourne vers elle, ravi. « Enfin une recrue qui répond ! »
+~rocambole: « Un coq militaire ? » Rocambole tire sur sa pipe vide. « J'ai mangé un amiral, une fois. » Plumard se hérisse. Rocambole : « Je plaisante. C'était un capitaine. »
+~meduses: « NOUS CHANTONS FAUX. VOUS CHANTEZ FAUX. NOUS POURRIONS CHANTER ENSEMBLE. » Plumard hésite. « Pas avant l'aube. »
+~melusine: Tante Mélusine regarde le Colonel par-dessus ses trois paires de lunettes. Elle ne dit rien. Pour la première fois de la soirée, elle ne dit rien. Plumard redresse sa crête.
+~quartz: « Vous ne déclenchez pas l'aube, Colonel. C'est l'aube qui vous déclenche. » Plumard la regarde longtemps. « Madame, vous êtes une insolente. Et vous avez tort. »
+~plumard ?pc:pelagie: Le Colonel nous passe en revue. « Mille ! Un bataillon entier ! » Il fait les cent pas devant nous. Ça ne suffit pas pour toutes. Il fait les mille pas.
+
+@+foi_06
+~plumard ?comp:melusine: Le Colonel marche à côté de Tante Mélusine en bombant le torse. Elle sanglote un peu, de bonheur ou d'autre chose. Il lui tend un mouchoir de son paquetage. « Réglementaire. »
+~plumard ?comp:zouzou: Zouzou se pose sur la crête du Colonel. « Avance, le coq. » Il avance. Il ne sait pas pourquoi il obéit à une comète. Personne ne le sait.
+~plumard ?comp:bartho: Plumard et Bartholomé marchent côte à côte, en silence, deux vieux qui se sont levés tôt toute leur vie. « Café ? » « Café. »
+~plumard ?comp:coquille: Le Colonel ralentit pour Madame Coquille. Il ralentit tellement qu'il fait du sur-place, au garde-à-vous. « On ne laisse personne derrière. »
+~plumard ?comp:brume: Le Colonel chuchote, pour Brume-Lucie. Un coq qui chuchote, c'est un bruit étrange, comme une trompette sous un oreiller.
+~plumard ?comp:remontoir: « Grand-Père ! Mille ans de service ? » « De service, non. De retard, oui. » Le Colonel le salue quand même.
+
+# ---------------------------------------------------------------- Taupinel (foi_07, foi_08)
+
+@+foi_07
+~coquille: Madame Coquille dicte une déclaration à Taupinel. Il note. Au bout de dix minutes, elle en est au deuxième mot. Il note très bien.
+~bartho: « Un journal ? Personne ne lit. » Taupinel : « Moi, je lis. » « Tu vois même pas. » « Je lis quand même. »
+~zouzou: Zouzou tape trois lettres sur la machine à écrire. Taupinel les garde. « Le scoop de demain, peut-être. »
+~brume: « Si vous écrivez... mon nom... écrivez-le... à moitié... » Taupinel note « Brume- ». C'est la première fois qu'on la comprend du premier coup.
+~echo: Écho répète tout ce que dit Taupinel. Taupinel est ravi : enfin quelqu'un qui relit à voix haute.
+~vesperine: « Un journaliste qui travaille la nuit », dit Vespérine. « Vous êtes un collègue. » Taupinel renifle. « Vous sentez la mûre. C'est noté. »
+~rocambole: Rocambole s'approche du kiosque, l'air de rien. « Vous n'écririez pas sur un capitaine bleu, quatre bras, très beau ? » « Si. J'ai un dossier. » Rocambole recule.
+~meduses: « ÉCRIVEZ QUE NOUS CHANTONS FAUX. ON NE NOUS CROIT JAMAIS. » Taupinel écrit. Il souligne deux fois.
+~fernand: Fernand et Taupinel parlent de réclamations. Ils en ont chacun trois mille. Ils se regardent avec un respect immense.
+~quartz: « Votre flair est statistiquement impossible », dit le Docteur Quartz. Taupinel renifle : « Vous vous êtes trompée six fois sur dix aujourd'hui. » Elle vérifie. C'est vrai.
+~taupinel ?pc:pelagie: Taupinel renifle l'essaim. « Je sens du miel. Et mille sources. Ma Sœur, c'est le plus beau jour de ma carrière. »
+
+@+foi_08
+~taupinel ?comp:penelope: Taupinel trottine à côté de Pénélope. « Une seule question, madame. » « Non. » « Une demi-question. » « ... Une demi. »
+~taupinel ?comp:rocambole: Taupinel tient son carnet hors de portée des quatre bras de Rocambole. Il ne voit rien, mais il sait exactement où sont les mains.
+~taupinel ?comp:echo: Écho répète les titres de Taupinel, un par un. Il en a enfin un qu'il aime : « ... seul. Seul lecteur. » Il le raye. Il n'est plus seul.
+~taupinel ?comp:fernand: Fernand éclaire la machine à écrire de Taupinel. Taupinel n'en a pas besoin. Il le remercie quand même. Fernand ne s'en remet pas.
+
+# ---------------------------------------------------------------- Remontoir (foi_09, foi_10)
+
+@+foi_09
+~coquille: Madame Coquille et Grand-Père Remontoir se regardent. Ils ne disent rien, très longtemps. C'est la conversation la plus calme de la Foire.
+~zouzou: « Mille ans ? C'est rien. J'en ai quatorze mille. » Remontoir sourit, lentement. « Alors c'est toi, la vieille. » Zouzou se vexe. Il rit.
+~bartho: « Une devinette ? J'ai pas le temps. » « Moi non plus », dit Remontoir. « C'est pour ça que je les pose vite. »
+~penelope: Pénélope regarde le ressort de Remontoir. « Ça se remonte ? » « Une fois. » Elle tamponne son établi, doucement, APPROUVÉ. Il la remercie d'un tic.
+~brume: « Une devinette... dont on ne connaît pas... la fin... » Remontoir hoche la tête. « Ce sont les meilleures. »
+~echo: Remontoir pose sa devinette. Écho répète la dernière moitié : « ... sans jamais avoir de contrat. » C'est presque une réponse.
+~rocambole: Rocambole regarde les montres de l'établi avec beaucoup d'intérêt. Remontoir : « Elles sont toutes en retard, capitaine. Vous ne pourriez pas les revendre. » Rocambole les repose.
+~quartz: « Votre ressort perd 0,3 seconde par siècle », dit le Docteur Quartz. « 0,4 », dit Remontoir. Elle vérifie. Il a raison.
+~meduses: « NOUS AIMONS LES DEVINETTES. NOUS NE TROUVONS JAMAIS. NOUS CHANTONS LA QUESTION À LA PLACE. »
+~remontoir ?pc:pelagie ?flag:pel_tictac: Remontoir nous écoute parler des jumeaux de la chambre trois. « Un tic sans tac ? Je connais. Le tac vient toujours. Parfois cent ans après. »
+
+@+foi_10
+~remontoir ?comp:coquille: Remontoir et Madame Coquille marchent ensemble, enfin à la bonne vitesse. Tout le monde les dépasse. Ils ne remarquent rien.
+~remontoir ?comp:zouzou: Zouzou tourne autour de Remontoir. « Tu vas jamais arriver. » « J'arrive toujours. Toi, tu repars toujours. » Zouzou s'arrête de tourner.
+~remontoir ?comp:penelope: Remontoir pose une devinette à Pénélope. Elle la tamponne au lieu d'y répondre. Il trouve que c'est une excellente réponse.
+~remontoir ?comp:bartho: Bartholomé porte la canne de Remontoir sans qu'on le lui demande. Il râle pendant tout le trajet. Il ne la rend pas.
+
+# ---------------------------------------------------------------- Madame Coquille (foi_11, foi_12)
+
+@+foi_11
+~zouzou: Zouzou regarde la tortue. « Tu vas jamais nulle part, toi. » Madame Coquille ne lève pas la tête. « J'y vais. Lentement. »
+~bartho: « Trois cents ans pour un œuf ? Ma Perline aurait jamais tenu. » Madame Coquille : « Votre Perline n'était pas une tortue. Elle a eu de la chance. »
+~penelope: Pénélope regarde la tente blanche. « Une maternité de campagne ? Il y a un formulaire ? » « Il y en avait un. Je l'ai mangé », dit Madame Coquille.
+~brume: Brume-Lucie se glisse sous la carapace, à l'ombre. « C'est... chaud... là-dessous... » Madame Coquille la laisse faire.
+~echo: Écho répète le souffle lent de la tortue. Ça fait une respiration à deux. Madame Coquille sourit.
+~rocambole: Rocambole fait semblant de ne pas regarder les fraises. Madame Coquille lui en tend une. Il n'a jamais rien reçu sans voler. Il la mange en silence.
+~vesperine: « Trois cents ans d'attente », dit Vespérine. « Je connais. J'ai attendu une valse pendant deux siècles. » « Elle est venue ? » « Elle vient ce soir, peut-être. »
+~meduses: « NOUS AUSSI, NOUS ATTENDONS QUELQUE CHOSE. NOUS NE SAVONS PAS QUOI. NOUS CHANTONS EN ATTENDANT. »
+~ondee: Dame Ondée flotte au-dessus de la tente blanche, sans pleuvoir. « Les tortues des sables naissent quand la mer monte. Je le sais. J'étais là, la première fois. »
+
+@+foi_12
+~coquille ?comp:zouzou: Zouzou fait le tour de Madame Coquille, trois fois. « Je te porte ? » « Non. » « Je te pousse ? » « Non. » « Je t'attends ? » « Oui. »
+~coquille ?comp:bartho: Bartholomé offre son bras à la tortue. Elle ne peut pas le prendre. Il le garde tendu quand même, pendant tout le trajet.
+~coquille ?comp:brume: Brume-Lucie flotte au-dessus de Madame Coquille, comme une ombrelle. « Merci, ma petite. » « De... rien... »
+~coquille ?comp:quartz: Le Docteur Quartz marche à côté de la tortue en calculant la date de la naissance. Elle trouve dix dates. Madame Coquille les écoute toutes, poliment.
+
+# ---------------------------------------------------------------- Vespérine (foi_13, foi_14)
+
+@+foi_13
+~coquille: Madame Coquille regarde la Comtesse danser. « Je dansais, moi aussi. Il y a deux cents ans. Un pas tous les quarts d'heure. »
+~zouzou: « Tu bois du sang ? » « Du jus de mûre, mademoiselle. » « C'est pareil en couleur. » Vespérine sourit. « C'est tout l'intérêt. »
+~bartho: « Une vampire. Ma Perline lisait des histoires de vampires. Elle disait qu'ils étaient tristes. » Vespérine : « Votre Perline était une femme qui comprenait. »
+~penelope: Pénélope reste à l'entrée. « Une tente noire, pas d'horaires, pas de formulaire. » Elle tremble un peu. Vespérine lui tend la main. « Venez danser, ma chère. Vous verrez. »
+~brume: Brume-Lucie se sent bien sous la tente noire. Dans le noir, on ne la voit pas disparaître. Elle reste entière, pour une fois.
+~echo: Écho répète la valse, note par note, avec sa voix. Vespérine danse dessus, les yeux fermés.
+~rocambole: Rocambole fait une révérence de ses quatre bras. « Comtesse. » « Capitaine. Vous m'avez volé une bague, en 1740. » « Je vous l'ai rendue ? » « Non. » « Ah. »
+~meduses: « NOUS BRILLONS DANS LE NOIR », chantent les Méduses. Vespérine plisse les yeux. « Pas trop fort, mes chéries. Je suis une dame de la nuit, pas de la plage. »
+~fernand: Fernand s'allume. Vespérine lui demande, avec beaucoup de douceur, de s'éteindre. Il s'éteint. Il dépose une réclamation, à voix basse.
+~vesperine ?pc:pelagie: Vespérine regarde notre essaim danser à mille, chacune à sa façon. « Mille cavalières, et aucune qui me marche sur les pieds. Mes chères, vous êtes un bal à vous toutes seules. »
