@@ -46,12 +46,12 @@ La voix reprend, plus près, ou plus fort :
 « Quelqu'un en bas les attend, tes fleurs. Depuis longtemps. Elle ne dit jamais merci, elle ne sait pas comment on fait. Mais elle les attend. »
 Tu demandes qui. Tu demandes où. La Fente souffle encore un peu, comme on soupire avant de dormir, puis elle se tait. Une Fente, ça ne fait pas la conversation. Ça dit une chose, et ça se referme.
 Tu restes à genoux au bord, l'arrosoir à la main. Soixante ans que tu balaies des fleurs dans un trou. Soixante ans que quelqu'un les attend.
-* ana_09 coe10 | Te relever, le cœur battant | Tu te relèves. Tu as les genoux pleins de terreau et la tête pleine de questions. | | +flag:fente_voix mor+1 |
+* ana_07b coe10 | Te relever, le cœur battant | Tu te relèves. Tu as les genoux pleins de terreau et la tête pleine de questions. | | +flag:fente_voix mor+1 |
 
 @ana_08
 Séraphine reprend son souffle, couverte de poudre grise. « Tout le monde tourne, Anatole. Les vieux, les petits. L'oncle Ferdinand a fait six cents fois le tour d'une enseigne de pharmacie. Il est vert. » Elle te regarde avec des yeux immenses. « Il paraît qu'on vend la Lune. Il paraît qu'un monsieur en or l'emporte. Qu'est-ce qu'on va devenir ? »
-* ana_09 coe11 | La rassurer | « On va la suivre, Séraphine. Jusqu'au bout. Les Noctuelles vont toujours tout droit vers la Lune. Même quand elle s'en va. Surtout quand elle s'en va. » | Tu cherches une phrase rassurante. Tu trouves « ça va aller ». Ça ne rassure personne, mais elle hoche la tête. | mor+1 |
-* ana_09 rus10 | Lui demander où se réunissent les autres peuples | « Au Carrefour des Espèces, dit-on. Le Conseil va se réunir. Mais c'est loin, et il y a des lampadaires partout sur la route. » | | |
+* ana_08b coe11 | La rassurer | « On va la suivre, Séraphine. Jusqu'au bout. Les Noctuelles vont toujours tout droit vers la Lune. Même quand elle s'en va. Surtout quand elle s'en va. » | Tu cherches une phrase rassurante. Tu trouves « ça va aller ». Ça ne rassure personne, mais elle hoche la tête. | mor+1 |
+* ana_08b rus10 | Lui demander où se réunissent les autres peuples | « Au Carrefour des Espèces, dit-on. Le Conseil va se réunir. Mais c'est loin, et il y a des lampadaires partout sur la route. » | | |
 
 @ana_09
 !title: L'herbier
@@ -89,20 +89,22 @@ La Lune, elle, ne t'appelle plus. Elle s'en va. Il faut la suivre sans qu'elle l
 
 @ana_14
 Au-dessus du dernier village, un grand réverbère. Autour de lui, un nuage gris qui tourne : des centaines de Noctuelles, étourdies, qui ne mangent plus et ne dorment plus. Elles tournent depuis trois nuits. Certaines sont si fatiguées qu'elles tournent en dormant.
-* ana_16 rus11 | Éteindre le réverbère | Tu trouves l'interrupteur, derrière une petite trappe municipale. Clac. Le noir. Les Noctuelles s'arrêtent, se cognent un peu, puis lèvent la tête et voient la Lune. Petite, mais seule. Elles partent vers elle, en file. | Il n'y a pas d'interrupteur. C'est un réverbère municipal : il ne s'éteint que par délibération. Tu dévisses l'ampoule, et tu te brûles les pattes. Le résultat est le même, en plus douloureux. | equ+1 +flag:reverbere_eteint | +flag:reverbere_eteint
-* ana_16 coe11 | Leur ouvrir l'herbier, sous la Lune | Tu ouvres le cahier en plein ciel. Les belles-de-nuit pressées se déplient un peu, et l'odeur de la vraie nuit se répand. Une à une, les Noctuelles cessent de tourner. Elles se posent sur les pages, reprennent leur souffle, et repartent, la Lune à deux heures de l'aile gauche. | L'odeur est faible. Quelques Noctuelles seulement s'arrêtent. Elles appellent les autres. Ça finit par marcher, de bouche à antenne. | mor+2 +flag:noctuelles_guidees | mor+1 +flag:noctuelles_guidees
+* ana_14b rus11 | Éteindre le réverbère | Tu trouves l'interrupteur, derrière une petite trappe municipale. Clac. Le noir. Les Noctuelles s'arrêtent, se cognent un peu, puis lèvent la tête et voient la Lune. Petite, mais seule. Elles partent vers elle, en file. | Il n'y a pas d'interrupteur. C'est un réverbère municipal : il ne s'éteint que par délibération. Tu dévisses l'ampoule, et tu te brûles les pattes. Le résultat est le même, en plus douloureux. | equ+1 +flag:reverbere_eteint | +flag:reverbere_eteint
+* ana_14b coe11 | Leur ouvrir l'herbier, sous la Lune | Tu ouvres le cahier en plein ciel. Les belles-de-nuit pressées se déplient un peu, et l'odeur de la vraie nuit se répand. Une à une, les Noctuelles cessent de tourner. Elles se posent sur les pages, reprennent leur souffle, et repartent, la Lune à deux heures de l'aile gauche. | L'odeur est faible. Quelques Noctuelles seulement s'arrêtent. Elles appellent les autres. Ça finit par marcher, de bouche à antenne. | mor+2 +flag:noctuelles_guidees | mor+1 +flag:noctuelles_guidees
 
 @ana_15
 Tu marches toute la nuit sur la route. Tu n'es pas seul. Des voyageurs de toutes les espèces avancent dans le même sens que toi : une Marégrave qui dégouline à chaque pas, deux Horlogers qui boitent en mesure, un Lichenaute porté sur une civière parce qu'il avance trop lentement pour arriver avant la fin du monde.
 « On va au Carrefour des Espèces », te dit un Horloger. « Le Conseil se réunit. C'est la première fois de l'histoire. Il était temps. Il était même un peu plus tard que temps. »
-* ana_16 coe10 | Marcher avec eux | Tu marches avec eux. Personne ne te demande pourquoi un papillon de nuit marche à pied. Tout le monde, ce soir, avance comme il peut. | | mor+1 |
+* ana_15b coe10 | Marcher avec eux | Tu marches avec eux. Personne ne te demande pourquoi un papillon de nuit marche à pied. Tout le monde, ce soir, avance comme il peut. | | mor+1 |
 
 @ana_16
 !title: L'aube
 Le ciel pâlit. Pour une Noctuelle, le jour est une maladie bénigne : les yeux piquent, les ailes s'alourdissent, on se cogne aux choses qui ne bougent pas. Tu as sommeil comme on a faim.
-?flag:noctuelles_guidees Derrière toi, très loin, des centaines de points gris rentrent vers les forêts. Elles ont tenu leur cap. Tu as envie de pleurer, mais les Noctuelles pleurent de la poudre, et tu n'en as plus beaucoup.
-?flag:reverbere_eteint ?!flag:noctuelles_guidees Derrière toi, le village est resté dans le noir. Quelqu'un va écrire au maire. Les Noctuelles, elles, sont rentrées chez elles.
-* ana_17 coe10 | Dormir quelques heures sous un pont | Tu t'accroches sous l'arche d'un vieux pont, tête en bas, et tu dors jusqu'à midi. Un troll te réveille poliment pour te dire que tu ronfles. | | mor+1 |
+?flag:noctuelles_guidees ?!flag:noctuelles_suivent Derrière toi, très loin, des centaines de points gris rentrent vers les forêts. Elles ont tenu leur cap. Tu as envie de pleurer, mais les Noctuelles pleurent de la poudre, et tu n'en as plus beaucoup.
+?flag:reverbere_eteint ?!flag:noctuelles_guidees ?!flag:noctuelles_suivent Derrière toi, le village est resté dans le noir. Quelqu'un va écrire au maire. Les Noctuelles, elles, sont rentrées chez elles.
+?flag:noctuelles_suivent Derrière toi, très loin, des points gris suivent ta route sans s'approcher. De loin, comme promis.
+?from:ana_15b À l'aube, le Lichenaute termine enfin sa phrase. Elle disait : « Belle nuit, n'est-ce pas ? » Tout le monde est d'accord, après coup.
+* ana_16b coe10 | Dormir quelques heures sous un pont | Tu t'accroches sous l'arche d'un vieux pont, tête en bas, et tu dors jusqu'à midi. Un troll te réveille poliment pour te dire que tu ronfles. | | mor+1 |
 * ana_17 pan11 | Continuer, en clignant des yeux | Tu continues. Tu te cognes à un arbre, puis à un autre arbre, puis à un panneau. Le panneau dit « CARREFOUR DES ESPÈCES →». C'est déjà ça. | Tu continues. Tu te cognes à tout. Tu t'excuses auprès de chaque chose. Les choses ne répondent pas, mais tu restes poli. | pan+1 |
 
 @ana_17
@@ -112,3 +114,45 @@ Tu poses la patte sur ton gilet. L'herbier est là, contre ta poitrine.
 ?!flag:fente_voix Tu repenses à la Fente, au fond de la serre, qui avale tes fleurs fanées tous les matins depuis soixante ans. Tu ne lui as jamais demandé où elles allaient.
 * hub_01 rus11 | Entrer en gardant les yeux sur la Lune, pas sur les lampions | Tu entres. Tu ne regardes que la Lune. Tu te cognes à onze personnes, mais tu ne tournes autour d'aucune lanterne. Tu es très fier. Personne ne sait pourquoi. | Tu entres, et un lampion te happe. Trois tours. Un enfant applaudit. Tu salues. | rus+1 |
 * hub_01 coe10 | Entrer doucement, en écoutant | Tu entres en écoutant. Tout le monde a perdu quelque chose. Les Noctuelles ne sont pas les seules à tourner en rond, ce soir. | | mor+1 |
+
+# ---------- Scènes ajoutées (rapport de test du 21/11) ----------
+
+@ana_07b
+!title: Le dernier bouton
+Au bord de la Fente, une belle-de-nuit a poussé de travers, penchée au-dessus du trou comme pour écouter, elle aussi. Elle est en bouton, serrée, verte. Elle ne s'ouvrira pas ce soir. Peut-être plus jamais.
+Tu connais le règlement des jardiniers : on ne coupe pas ce qui n'a pas fleuri. Mais le règlement n'a pas prévu une Lune qui s'en va.
+* ana_09 coe11 | Couper le bouton et le laisser tomber dans la Fente, pour celle qui attend | Tu le coupes au ras de la tige, très doucement, et tu le laisses tomber. Il met longtemps à arriver. Tout au fond, très loin, quelque chose fait « oh ». | Tes pattes tremblent ; le bouton rebondit sur le bord, hésite, puis tombe quand même. Tout au fond, très loin, quelque chose fait « oh ». | +flag:bouton_offert mor+1 | +flag:bouton_offert
+* ana_09 | Le couper et le garder dans ton gilet : une fleur fermée, c'est encore une promesse | Tu l'enveloppes dans ton mouchoir et tu le ranges dans la petite poche du haut, contre ton cœur. Le règlement ne dit rien des promesses. | | +flag:bouton_garde |
+
+@ana_08b
+!title: Les petits
+Séraphine n'est pas venue seule. Accrochés à la gouttière, une vingtaine de petits te regardent avec des yeux ronds : des Noctuelles pas plus grandes que des feuilles de chêne, qui ont fait tant de tours de réverbère qu'elles ne savent plus dans quel sens on tient une branche.
+« Les petits de l'oncle Ferdinand, ceux des voisins, et deux qu'on a trouvés en route », dit Séraphine. « Ils n'ont jamais appris à voler à la Lune. Et maintenant qu'elle est si loin, personne ne peut leur montrer. »
+Le plus petit lève une patte : « Monsieur, c'est vrai que la Lune, c'est une lampe qui ne chauffe pas ? »
+* ana_09 rus11 | Leur faire une leçon de cap, avec un pot de fleurs retourné pour Lune | Tu poses un pot retourné sur l'étagère du fond, et tu leur montres : le pot à deux heures de l'aile gauche, et tout droit. Ils traversent la serre en file, sans faire un seul tour de la lanterne. Le plus petit pleure de fierté. | Tu poses le pot, tu montres l'angle, et la moitié des petits fait le tour de la lanterne. L'autre moitié fait le tour du pot. Séraphine dit que c'est un début. | rus+1 +flag:lecon_cap | +flag:lecon_cap
+* ana_09 coe10 | Lui répondre que non : la Lune, c'est quelqu'un | « Non. Une lampe brille pour qu'on la regarde. La Lune brille pour qu'on puisse regarder autre chose. » Ils ne comprennent pas. Ils retiennent quand même, par politesse. | | mor+1 |
+
+@ana_14b
+!title: Le nuage gris
+?flag:noctuelles_guidees Les Noctuelles du réverbère ne repartent pas toutes. Une centaine reste autour de toi, en essaim, à attendre. Une vieille aux ailes usées jusqu'à la trame vole à ta hauteur.
+?!flag:noctuelles_guidees Dans le noir revenu, les Noctuelles se posent sur les toits, sur les fils, sur le clocher. Une vieille aux ailes usées jusqu'à la trame vient se poser à côté de toi, sur le rebord de la gouttière.
+« Tu sais où tu vas, toi. Ça se voit à ta façon de ne pas tourner. Emmène-nous. »
+« Je vais au Carrefour des Espèces, madame. Et après, je crois, plus haut. »
+« Plus haut, ça nous va. On n'a plus rien à faire en bas. »
+* ana_16 coe11 | « Rentrez chez vous. Si je la ramène, il faudra quelqu'un pour la regarder. » | Elle te regarde longtemps. Puis elle hoche les antennes et elle siffle. Les Noctuelles repartent vers les forêts, en file, la Lune à deux heures de l'aile gauche. « On la regardera. Ramène-la bien. » | Elle secoue la tête. « On ne regarde pas une Lune qui part. Ça fait trop mal. » Mais elles rentrent quand même, en traînant les ailes. | mor+1 +flag:noctuelles_attendent | +flag:noctuelles_attendent
+* ana_16 rus11 | « Suivez-moi de loin. Et quand je monterai, montez aussi. » | « De loin. D'accord. On a l'habitude de suivre ce qui s'éloigne. » Le nuage gris se disperse dans les champs, en silence. | Elle ne comprend pas « de loin ». La moitié te suit de près, en tournant autour de toi comme d'une lampe. Tu finis par les convaincre de rester à distance. Très à distance. | +flag:noctuelles_suivent | +flag:noctuelles_suivent
+
+@ana_15b
+!title: Les voyageurs
+La route est longue, et les voyageurs parlent pour la raccourcir. L'Horloger de gauche donne l'heure toutes les dix minutes ; celui de droite le contredit d'une seconde. La Marégrave laisse une petite flaque à chaque pas et s'excuse auprès de chaque flaque. Le Lichenaute, sur sa civière, a commencé une phrase au départ du village. Il en est au deuxième mot.
+« Et toi, papillon », demande la Marégrave, « pourquoi tu ne voles pas ? »
+* ana_16 coe11 | Lui avouer la vérité : en l'air, tu tournerais autour de la station-service | Elle rit, une petite vague qui déborde. « Moi, les soirs de pleine lune, je monte jusqu'au deuxième étage des maisons. Chacun sa honte. » Vous marchez côte à côte, deux espèces que la Lune tire par le bout du nez. | Tu bafouilles quelque chose sur les courants d'air. Elle hoche la tête, poliment, sans te croire. | coe+1 mor+1 |
+* ana_16 rus10 | Proposer de porter les lanternes du cortège, derrière ton dos, pour qu'aucune ne te happe | Tu prends les trois lanternes et tu les tiens dans ton dos, à bout de patte, sans les regarder. Les Horlogers trouvent ça très efficace. Ils te donnent l'heure, gratuitement, deux fois. | | rus+1 |
+
+@ana_16b
+!title: Le troll du pont
+?flag:seraphine Le troll est poli, moussu, pas plus grand qu'une armoire. Une lanterne pend à sa ceinture, éteinte, par égard pour toi. « Je ne réveille jamais personne. Mais vous ronfliez en morse. Et vous avez dit "Séraphine, où est le haut ?" quatre-vingt-trois fois. »
+?!flag:seraphine Le troll est poli, moussu, pas plus grand qu'une armoire. Une lanterne pend à sa ceinture, éteinte, par égard pour toi. « Je ne réveille jamais personne. Mais vous ronfliez en morse. Et vous parliez à une limace, en dormant. Très poliment. »
+Il s'assoit sur la rive. « Normalement, pour dormir sous mon pont, on paie. Une devinette ou une histoire. C'est le règlement des trolls. On ne l'a pas changé depuis l'invention des ponts. »
+* ana_17 rus11 | Lui proposer une devinette | « Qu'est-ce qui s'ouvre la nuit, se ferme le jour, et ne s'ouvre plus du tout cette semaine ? » Il réfléchit jusqu'à midi. « Une belle-de-nuit ? » « Oui. » « C'est triste, comme devinette. » Il te montre quand même le chemin du Carrefour. | Il trouve la réponse avant la fin de ta question, et il en est désolé pour toi. « Le règlement ne dit pas qu'il faut gagner. » Il te montre le chemin du Carrefour. | rus+1 |
+* ana_17 coe10 | Lui raconter la serre, la Fente et la Lune qui s'en va | Tu racontes. Le troll écoute comme écoutent les trolls : en hochant toute la tête, et un peu le pont avec. À la fin, il éteint encore un peu plus sa lanterne, si c'est possible. « Bonne route. Ne regardez que la Lune. » | | mor+1 |

@@ -276,8 +276,8 @@ Sur la colline, tu lèves la tête. La Lune est si proche. Ton poil se dresse. T
 !title: Le vol droit
 !fx: +flag:n_noc nuit+1
 Tu montes. Les lampions du Carrefour rapetissent, deviennent des miettes, puis plus rien. Il ne reste que la Lune, énorme, penchée, avec son crochet d'or dans le flanc. Tu ne l'as jamais vue de si près. Aucune Noctuelle ne l'a jamais vue de si près.
-?flag:obj_herbier L'herbier pèse contre ta poitrine. Tu pourrais y presser une dernière belle-de-nuit, si tu en avais une. Tu n'en as pas. Tu as la Lune.
-?flag:noctuelles_guidees Autour de toi, des points gris montent aussi, de tous les côtés de la plaine. Les Noctuelles du réverbère. Elles t'ont suivi.
+?flag:obj_herbier ?!flag:bouton_garde L'herbier pèse contre ta poitrine. Tu pourrais y presser une dernière belle-de-nuit, si tu en avais une. Tu n'en as pas. Tu as la Lune.
+?flag:noctuelles_suivent Autour de toi, des points gris montent aussi, de tous les côtés de la plaine. Les Noctuelles du réverbère. Elles t'ont suivi.
 * nui_02 rus11 | Tenir le cap jusqu'au bout de tes forces | Tu montes encore, la Lune à deux heures de l'aile gauche, jusqu'à ce que l'air devienne trop mince pour porter une aile. Là, une seconde, tu la touches presque. Elle a une odeur : celle de ta serre, une nuit d'été. Tu redescends en planant, lentement, et tu sais exactement où tu vas, pour la première fois depuis des jours. | Le vent te renverse à mi-hauteur. Tu tournes, tu tombes, tu te rattrapes au-dessus d'un brasero, et tu en fais trois fois le tour. Puis tu relèves la tête, tu retrouves la Lune, et tu rentres. C'est un vol droit avec des détours. Il compte aussi. | +flag:vol_droit mor+2 rus+1 | mor+1
 
 # ---------------------------------------------------------------- pour tous

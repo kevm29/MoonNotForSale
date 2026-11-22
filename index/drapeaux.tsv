@@ -1,675 +1,742 @@
 drapeau	etat	nb_poses	nb_testes	poses	retires	testes
-acces_crochet	ok	3	1	cha_48 24_suites_v3.txt:83 ; cha_48 24_suites_v3.txt:83 ; cha_68 93_objets.txt:425		fin_01 23_final.txt:16
-accessoire_zeph	jamais testé	3	0	zep_15 05_zephyrin.txt:97 ; zep_15 05_zephyrin.txt:97 ; zep_18 05_zephyrin.txt:115		
-acte_cache	ok	3	3	cap_30 15_capitale.txt:204 ; cap_34 15_capitale.txt:230 ; cap_34 15_capitale.txt:231		neg_05 22_negociation.txt:36 ; neg_05 22_negociation.txt:37 ; neg_16 93_objets.txt:466
-acte_vente	ok	5	17	bas_18 02_basile.txt:120 ; bas_18 02_basile.txt:120 ; bas_25 02_basile.txt:166 ; bas_25 02_basile.txt:166 ; cap_19 15_capitale.txt:128		bas_21 02_basile.txt:138 ; bas_25 02_basile.txt:161 ; bas_25 02_basile.txt:162 ; bas_25 02_basile.txt:166 ; bas_25 02_basile.txt:167 ; cap_14 15_capitale.txt:89 ; cap_14 15_capitale.txt:90 ; cap_14 15_capitale.txt:92 ; cap_14 15_capitale.txt:93 ; cap_19 15_capitale.txt:128 ; cap_19 15_capitale.txt:129 ; cap_30 15_capitale.txt:204 ; cap_34 15_capitale.txt:230 ; cap_34 15_capitale.txt:231 ; neg_05 22_negociation.txt:36 ; neg_05 22_negociation.txt:37 ; neg_16 93_objets.txt:466
+acces_crochet	ok	3	1	cha_48 24_suites_v3.txt:83 ; cha_48 24_suites_v3.txt:83 ; cha_68 93_objets.txt:429		fin_01 23_final.txt:16
+accessoire_zeph	ok	3	5	zep_15 05_zephyrin.txt:97 ; zep_15 05_zephyrin.txt:97 ; zep_18 05_zephyrin.txt:118		zep_32 05_zephyrin.txt:211 ; zep_32 05_zephyrin.txt:212 ; zep_41 05_zephyrin.txt:270 ; cha_30 64_corr_zephyrin.txt:178 ; neg_15 64_corr_zephyrin.txt:195
+acte_cache	ok	3	3	cap_30 15_capitale.txt:221 ; cap_34 15_capitale.txt:247 ; cap_34 15_capitale.txt:248		neg_05 22_negociation.txt:36 ; neg_05 22_negociation.txt:37 ; neg_16 93_objets.txt:470
+acte_montre	ok	2	1	neg_05 61_corr_basile.txt:14 ; neg_05 61_corr_basile.txt:14		neg_09 22_negociation.txt:67
+acte_vente	ok	5	18	bas_18 02_basile.txt:123 ; bas_18 02_basile.txt:123 ; bas_25 02_basile.txt:169 ; bas_25 02_basile.txt:169 ; cap_19 15_capitale.txt:139		bas_21 02_basile.txt:141 ; bas_25 02_basile.txt:164 ; bas_25 02_basile.txt:165 ; bas_25 02_basile.txt:169 ; bas_25 02_basile.txt:170 ; cap_14 15_capitale.txt:97 ; cap_14 15_capitale.txt:98 ; cap_14 15_capitale.txt:102 ; cap_14 15_capitale.txt:103 ; cap_19 15_capitale.txt:139 ; cap_19 15_capitale.txt:140 ; cap_30 15_capitale.txt:221 ; cap_34 15_capitale.txt:247 ; cap_34 15_capitale.txt:248 ; neg_05 22_negociation.txt:36 ; neg_05 22_negociation.txt:37 ; neg_05 61_corr_basile.txt:14 ; neg_16 93_objets.txt:470
 adresse_promoteur	jamais testé	1	0	ond_06 01_ondine.txt:43		
-affection	ok	2	1	bas_18 02_basile.txt:119 ; cap_14 15_capitale.txt:91		fin_02 23_final.txt:36
-amour_barnabe	ok	3	13	nui_44 19_nuit.txt:150 ; nui_44 19_nuit.txt:150 ; nui_44 19_nuit.txt:151		cha_45 24_suites_v3.txt:62 ; end_01 30_fins.txt:27 ; end_02 30_fins.txt:66 ; end_03 30_fins.txt:104 ; end_05 30_fins.txt:153 ; end_06 30_fins.txt:190 ; end_07 30_fins.txt:228 ; end_09 30_fins.txt:281 ; end_10 30_fins.txt:308 ; end_11 30_fins.txt:325 ; end_13 30_fins.txt:362 ; end_14 30_fins.txt:399 ; end_15 30_fins.txt:425
-amour_fernand_ondee	ok	3	13	nui_41 19_nuit.txt:125 ; nui_41 19_nuit.txt:125 ; nui_41 19_nuit.txt:126		asc_24 24_suites_v3.txt:19 ; end_01 30_fins.txt:23 ; end_02 30_fins.txt:62 ; end_03 30_fins.txt:100 ; end_05 30_fins.txt:149 ; end_06 30_fins.txt:186 ; end_07 30_fins.txt:224 ; end_09 30_fins.txt:277 ; end_10 30_fins.txt:308 ; end_11 30_fins.txt:325 ; end_13 30_fins.txt:358 ; end_14 30_fins.txt:395 ; end_15 30_fins.txt:425
-amour_melusine_plumard	ok	3	12	nui_43 19_nuit.txt:141 ; nui_43 19_nuit.txt:141 ; nui_43 19_nuit.txt:142		end_01 30_fins.txt:26 ; end_02 30_fins.txt:65 ; end_03 30_fins.txt:103 ; end_05 30_fins.txt:152 ; end_06 30_fins.txt:189 ; end_07 30_fins.txt:227 ; end_09 30_fins.txt:280 ; end_10 30_fins.txt:308 ; end_11 30_fins.txt:325 ; end_13 30_fins.txt:361 ; end_14 30_fins.txt:398 ; end_15 30_fins.txt:425
-amour_quartz_pardon	ok	3	12	nui_42 19_nuit.txt:133 ; nui_42 19_nuit.txt:133 ; nui_42 19_nuit.txt:134		end_01 30_fins.txt:24 ; end_02 30_fins.txt:63 ; end_03 30_fins.txt:101 ; end_05 30_fins.txt:150 ; end_06 30_fins.txt:187 ; end_07 30_fins.txt:225 ; end_09 30_fins.txt:278 ; end_10 30_fins.txt:308 ; end_11 30_fins.txt:325 ; end_13 30_fins.txt:359 ; end_14 30_fins.txt:396 ; end_15 30_fins.txt:425
+affection	ok	2	1	bas_18 02_basile.txt:122 ; cap_14 15_capitale.txt:101		fin_02 23_final.txt:36
+amour_barnabe	ok	3	13	nui_44 19_nuit.txt:151 ; nui_44 19_nuit.txt:151 ; nui_44 19_nuit.txt:152		cha_45 24_suites_v3.txt:62 ; end_01 30_fins.txt:27 ; end_02 30_fins.txt:79 ; end_03 30_fins.txt:130 ; end_05 30_fins.txt:206 ; end_06 30_fins.txt:256 ; end_07 30_fins.txt:307 ; end_09 30_fins.txt:387 ; end_10 30_fins.txt:425 ; end_11 30_fins.txt:446 ; end_13 30_fins.txt:487 ; end_14 30_fins.txt:531 ; end_15 30_fins.txt:574
+amour_fernand_ondee	ok	3	13	nui_41 19_nuit.txt:126 ; nui_41 19_nuit.txt:126 ; nui_41 19_nuit.txt:127		asc_24 24_suites_v3.txt:19 ; end_01 30_fins.txt:23 ; end_02 30_fins.txt:75 ; end_03 30_fins.txt:126 ; end_05 30_fins.txt:202 ; end_06 30_fins.txt:252 ; end_07 30_fins.txt:303 ; end_09 30_fins.txt:383 ; end_10 30_fins.txt:425 ; end_11 30_fins.txt:446 ; end_13 30_fins.txt:483 ; end_14 30_fins.txt:527 ; end_15 30_fins.txt:574
+amour_melusine_plumard	ok	3	12	nui_43 19_nuit.txt:142 ; nui_43 19_nuit.txt:142 ; nui_43 19_nuit.txt:143		end_01 30_fins.txt:26 ; end_02 30_fins.txt:78 ; end_03 30_fins.txt:129 ; end_05 30_fins.txt:205 ; end_06 30_fins.txt:255 ; end_07 30_fins.txt:306 ; end_09 30_fins.txt:386 ; end_10 30_fins.txt:425 ; end_11 30_fins.txt:446 ; end_13 30_fins.txt:486 ; end_14 30_fins.txt:530 ; end_15 30_fins.txt:574
+amour_quartz_pardon	ok	3	12	nui_42 19_nuit.txt:134 ; nui_42 19_nuit.txt:134 ; nui_42 19_nuit.txt:135		end_01 30_fins.txt:24 ; end_02 30_fins.txt:76 ; end_03 30_fins.txt:127 ; end_05 30_fins.txt:203 ; end_06 30_fins.txt:253 ; end_07 30_fins.txt:304 ; end_09 30_fins.txt:384 ; end_10 30_fins.txt:425 ; end_11 30_fins.txt:446 ; end_13 30_fins.txt:484 ; end_14 30_fins.txt:528 ; end_15 30_fins.txt:574
 aquilon_doute	ok	1	1	gri_05 06_griselidis.txt:44		gri_18 06_griselidis.txt:127
-article	ok	4	10	nui_47 19_nuit.txt:179 ; nui_47 19_nuit.txt:179 ; cha_46 24_suites_v3.txt:70 ; cha_46 24_suites_v3.txt:70		neg_16 22_negociation.txt:132 ; end_01 30_fins.txt:30 ; end_02 30_fins.txt:69 ; end_03 30_fins.txt:107 ; end_05 30_fins.txt:156 ; end_06 30_fins.txt:193 ; end_07 30_fins.txt:231 ; end_09 30_fins.txt:284 ; end_13 30_fins.txt:365 ; end_14 30_fins.txt:402
+arbres_cap	ok	1	1	for_03 68_corr_anatole.txt:134		for_35 68_corr_anatole.txt:192
+article	ok	4	10	nui_47 19_nuit.txt:180 ; nui_47 19_nuit.txt:180 ; cha_46 24_suites_v3.txt:70 ; cha_46 24_suites_v3.txt:70		neg_16 22_negociation.txt:133 ; end_01 30_fins.txt:30 ; end_02 30_fins.txt:82 ; end_03 30_fins.txt:133 ; end_05 30_fins.txt:209 ; end_06 30_fins.txt:259 ; end_07 30_fins.txt:310 ; end_09 30_fins.txt:390 ; end_13 30_fins.txt:490 ; end_14 30_fins.txt:534
 article15	jamais testé	2	0	ond_20 01_ondine.txt:138 ; ond_20 01_ondine.txt:138		
-article_attente	jamais testé	1	0	nui_47 19_nuit.txt:180		
-assemblee_femmes	ok	3	10	nui_46 19_nuit.txt:169 ; nui_46 19_nuit.txt:169 ; nui_46 19_nuit.txt:170		neg_16 22_negociation.txt:136 ; end_01 30_fins.txt:31 ; end_02 30_fins.txt:70 ; end_03 30_fins.txt:108 ; end_05 30_fins.txt:157 ; end_06 30_fins.txt:194 ; end_07 30_fins.txt:232 ; end_09 30_fins.txt:285 ; end_13 30_fins.txt:366 ; end_14 30_fins.txt:403
-au_dessus_prix	jamais testé	1	0	zep_34 05_zephyrin.txt:214		
+article_attente	jamais testé	1	0	nui_47 19_nuit.txt:181		
+assemblee_femmes	ok	3	10	nui_46 19_nuit.txt:170 ; nui_46 19_nuit.txt:170 ; nui_46 19_nuit.txt:171		neg_16 22_negociation.txt:137 ; end_01 30_fins.txt:31 ; end_02 30_fins.txt:83 ; end_03 30_fins.txt:134 ; end_05 30_fins.txt:210 ; end_06 30_fins.txt:260 ; end_07 30_fins.txt:311 ; end_09 30_fins.txt:391 ; end_13 30_fins.txt:491 ; end_14 30_fins.txt:535
+au_dessus_prix	jamais testé	1	0	zep_34 05_zephyrin.txt:223		
 au_revoir_nouvelle	jamais testé	1	0	pel_18 07_pelagie.txt:116		
 aube_lune	jamais testé	2	0	cha_44 24_suites_v3.txt:57 ; cha_44 24_suites_v3.txt:57		
-badge_bureau	ok	1	2	zep_12 05_zephyrin.txt:81		zep_16 05_zephyrin.txt:102 ; zep_16 05_zephyrin.txt:103
+aveu_basile	ok	4	2	bas_42 02_basile.txt:276 ; bas_42 02_basile.txt:276 ; bas_47 02_basile.txt:313 ; bas_47 02_basile.txt:313		bas_47 02_basile.txt:310 ; cap_01 61_corr_basile.txt:51
+badge_bureau	ok	1	2	zep_12 05_zephyrin.txt:81		zep_16 05_zephyrin.txt:103 ; zep_16 05_zephyrin.txt:104
 baleineau	ok	3	1	pel_20 07_pelagie.txt:127 ; pel_20 07_pelagie.txt:127 ; pel_20 07_pelagie.txt:128		pel_21 07_pelagie.txt:132
-ballon_arrive	ok	2	2	asc_32 93_objets.txt:340 ; asc_32 93_objets.txt:340		asc_22 93_objets.txt:347 ; asc_22 93_objets.txt:348
-bartho_decide	jamais testé	1	0	cot_19 11_cotes.txt:131		
-bille_lune	ok	2	1	asc_30 93_objets.txt:334 ; asc_30 93_objets.txt:334		asc_22 93_objets.txt:346
+ballon_arrive	ok	2	2	asc_32 93_objets.txt:344 ; asc_32 93_objets.txt:344		asc_22 93_objets.txt:351 ; asc_22 93_objets.txt:352
+bartho_decide	jamais testé	1	0	cot_19 11_cotes.txt:132		
+bille_lune	ok	2	1	asc_30 93_objets.txt:338 ; asc_30 93_objets.txt:338		asc_22 93_objets.txt:350
 bobinot	ok	1	2	cha_03 21_chantier.txt:19		cha_27 21_chantier.txt:192 ; cha_27 21_chantier.txt:193
-boite_biscuits	ok	1	5	cap_07 15_capitale.txt:46		neg_13 22_negociation.txt:95 ; fin_04 23_final.txt:58 ; fin_04 23_final.txt:59 ; end_02 30_fins.txt:51 ; end_02 30_fins.txt:52
-boulon_fele	ok	10	1	com_09 17_comete.txt:75 ; com_09 17_comete.txt:75 ; com_10 17_comete.txt:80 ; com_10 17_comete.txt:80 ; com_10 17_comete.txt:81 ; nui_50 19_nuit.txt:208 ; cha_48 24_suites_v3.txt:83 ; cha_48 24_suites_v3.txt:83 ; cha_68 93_objets.txt:425 ; cha_68 93_objets.txt:425		nui_20 19_nuit.txt:85
-boussole_bartho	jamais testé	2	0	cot_19 11_cotes.txt:132 ; cot_19 11_cotes.txt:132		
-boussole_boulon	ok	1	4	cha_68 93_objets.txt:425		fin_27 24_suites_v3.txt:207 ; fin_27 24_suites_v3.txt:208 ; fin_27 24_suites_v3.txt:211 ; fin_27 24_suites_v3.txt:212
-brume_espoir	jamais testé	1	0	pis_16 03_pistil.txt:100		
+boite_biscuits	ok	1	5	cap_07 15_capitale.txt:52		neg_13 22_negociation.txt:96 ; fin_04 23_final.txt:60 ; fin_04 23_final.txt:61 ; end_02 30_fins.txt:64 ; end_02 30_fins.txt:65
+boulon_fele	ok	10	1	com_09 17_comete.txt:76 ; com_09 17_comete.txt:76 ; com_10 17_comete.txt:81 ; com_10 17_comete.txt:81 ; com_10 17_comete.txt:82 ; nui_50 19_nuit.txt:209 ; cha_48 24_suites_v3.txt:83 ; cha_48 24_suites_v3.txt:83 ; cha_68 93_objets.txt:429 ; cha_68 93_objets.txt:429		nui_20 19_nuit.txt:86
+boussole_bartho	jamais testé	2	0	cot_19 11_cotes.txt:133 ; cot_19 11_cotes.txt:133		
+boussole_boulon	ok	1	4	cha_68 93_objets.txt:429		fin_27 24_suites_v3.txt:207 ; fin_27 24_suites_v3.txt:208 ; fin_27 24_suites_v3.txt:211 ; fin_27 24_suites_v3.txt:212
+bouton_garde	ok	1	3	ana_07b 09_anatole.txt:125		nui_59 19_nuit.txt:279 ; nui_59 68_corr_anatole.txt:41 ; nui_78 68_corr_anatole.txt:34
+bouton_offert	ok	2	1	ana_07b 09_anatole.txt:124 ; ana_07b 09_anatole.txt:124		pro_10 68_corr_anatole.txt:12
+bouton_ouvert	ok	1	1	nui_59 68_corr_anatole.txt:41		nui_59 68_corr_anatole.txt:41
+brume_espoir	jamais testé	1	0	pis_16 03_pistil.txt:104		
 brume_finit	jamais testé	1	0	cha_24 21_chantier.txt:178		
-brume_lune	jamais testé	1	0	pis_13 03_pistil.txt:81		
+brume_lune	jamais testé	1	0	pis_13 03_pistil.txt:83		
+brume_vue	ok	2	5	pis_13 03_pistil.txt:77 ; pis_15 03_pistil.txt:91		son_05 13_songes.txt:36 ; son_05 13_songes.txt:37 ; son_05 13_songes.txt:38 ; son_06 13_songes.txt:44 ; son_06 13_songes.txt:45
 cable_affaibli	jamais testé	2	0	cha_17 21_chantier.txt:134 ; cha_17 21_chantier.txt:135		
 cable_coupe	ok	4	3	fin_23 24_suites_v3.txt:178 ; fin_23 24_suites_v3.txt:178 ; fin_27 24_suites_v3.txt:213 ; fin_27 24_suites_v3.txt:213		fin_01 23_final.txt:11 ; fin_01 23_final.txt:15 ; fin_01 23_final.txt:16
 cable_sabote	jamais testé	1	0	for_31 12_foret.txt:205		
-cagnotte	ok	8	8	cot_13 11_cotes.txt:86 ; cot_13 11_cotes.txt:86 ; cot_13 11_cotes.txt:87 ; cot_13 11_cotes.txt:87 ; cap_08 15_capitale.txt:52 ; cap_08 15_capitale.txt:52 ; cap_08 15_capitale.txt:53 ; cap_08 15_capitale.txt:53		cot_35 11_cotes.txt:225 ; cap_35 15_capitale.txt:236 ; neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:94 ; neg_13 22_negociation.txt:96 ; fin_04 23_final.txt:59 ; fin_04 23_final.txt:60 ; end_02 30_fins.txt:52
-cagnotte_pleine	jamais testé	1	0	cot_13 11_cotes.txt:87		
-caillou_enfant	ok	3	2	pro_04 14_profondeurs.txt:25 ; pro_04 14_profondeurs.txt:26 ; pro_40 93_objets.txt:136		pro_06 14_profondeurs.txt:41 ; pro_06 14_profondeurs.txt:42
-calendrier	jamais testé	2	0	zep_17 05_zephyrin.txt:111 ; cha_12 21_chantier.txt:81		
-cap_40_vu	ok	1	1	cap_40 93_objets.txt:173		cap_03 93_objets.txt:169
-carbone	jamais testé	1	0	bas_07 02_basile.txt:46		
+cagnotte	ok	8	8	cot_13 11_cotes.txt:87 ; cot_13 11_cotes.txt:87 ; cot_13 11_cotes.txt:88 ; cot_13 11_cotes.txt:88 ; cap_08 15_capitale.txt:59 ; cap_08 15_capitale.txt:59 ; cap_08 15_capitale.txt:60 ; cap_08 15_capitale.txt:60		cot_35 11_cotes.txt:227 ; cap_35 15_capitale.txt:253 ; neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:95 ; neg_13 22_negociation.txt:97 ; fin_04 23_final.txt:61 ; fin_04 23_final.txt:62 ; end_02 30_fins.txt:65
+cagnotte_pleine	jamais testé	1	0	cot_13 11_cotes.txt:88		
+caillou_enfant	ok	3	2	pro_04 14_profondeurs.txt:25 ; pro_04 14_profondeurs.txt:26 ; pro_40 93_objets.txt:140		pro_06 14_profondeurs.txt:41 ; pro_06 14_profondeurs.txt:42
+calendrier	ok	2	1	zep_17 05_zephyrin.txt:114 ; cha_12 21_chantier.txt:81		neg_21 64_corr_zephyrin.txt:198
+cap_40_vu	ok	1	1	cap_40 93_objets.txt:177		cap_03 93_objets.txt:173
+carbone	jamais testé	1	0	bas_07 02_basile.txt:47		
 casque	ok	3	1	bri_04 04_brisefer.txt:30 ; bri_05 04_brisefer.txt:36 ; bri_05 04_brisefer.txt:36		bri_18 04_brisefer.txt:121
-casque_galene	ok	1	2	bri_18 04_brisefer.txt:121		end_03 30_fins.txt:89 ; end_03 30_fins.txt:90
-chante_meduses	jamais testé	1	0	cot_06 11_cotes.txt:40		
+casque_galene	ok	1	2	bri_18 04_brisefer.txt:121		end_03 30_fins.txt:115 ; end_03 30_fins.txt:116
+chante_meduses	jamais testé	1	0	cot_06 11_cotes.txt:41		
 chene_vu	ok	1	2	for_07 12_foret.txt:47		for_10 12_foret.txt:74 ; for_10 12_foret.txt:75
 chouchou	jamais testé	3	0	zep_04 05_zephyrin.txt:27 ; zep_07 05_zephyrin.txt:48 ; zep_10 05_zephyrin.txt:66		
-ciel_reprise	jamais testé	1	0	cha_61 93_objets.txt:407		
+ciel_reprise	jamais testé	1	0	cha_61 93_objets.txt:411		
 ciment_mouille	jamais testé	2	0	cha_40 24_suites_v3.txt:29 ; cha_40 24_suites_v3.txt:29		
-clause_affection	ok	2	3	bas_18 02_basile.txt:119 ; cap_14 15_capitale.txt:91		for_11 12_foret.txt:83 ; neg_09 22_negociation.txt:63 ; fin_02 23_final.txt:36
-cle_porte	ok	1	2	son_18 13_songes.txt:123		son_23 13_songes.txt:159 ; son_24 13_songes.txt:164
-codes_voles	ok	3	1	nui_20 19_nuit.txt:86 ; nui_20 19_nuit.txt:87 ; nui_20 19_nuit.txt:88		cha_48 24_suites_v3.txt:82
+clause_affection	ok	2	5	bas_18 02_basile.txt:122 ; cap_14 15_capitale.txt:101		for_11 12_foret.txt:83 ; cap_14 15_capitale.txt:100 ; cap_14 15_capitale.txt:101 ; neg_09 22_negociation.txt:63 ; fin_02 23_final.txt:36
+cle_grand_mere	ok	1	7	nui_75 64_corr_zephyrin.txt:160		end_01 64_corr_zephyrin.txt:222 ; end_02 64_corr_zephyrin.txt:228 ; end_03 64_corr_zephyrin.txt:234 ; end_05 64_corr_zephyrin.txt:244 ; end_07 64_corr_zephyrin.txt:254 ; end_10 64_corr_zephyrin.txt:267 ; end_14 64_corr_zephyrin.txt:285
+cle_porte	ok	1	2	son_18 13_songes.txt:125		son_23 13_songes.txt:161 ; son_24 13_songes.txt:166
+codes_voles	ok	3	1	nui_20 19_nuit.txt:87 ; nui_20 19_nuit.txt:88 ; nui_20 19_nuit.txt:89		cha_48 24_suites_v3.txt:82
 coeur_toile	jamais testé	3	0	for_04 12_foret.txt:30 ; for_04 12_foret.txt:30 ; for_05 12_foret.txt:35		
-com_40_vu	ok	1	2	com_40 93_objets.txt:239		com_13 93_objets.txt:232 ; com_14 93_objets.txt:235
+colonelle_sait	ok	3	1	nui_77 68_corr_anatole.txt:26 ; nui_77 68_corr_anatole.txt:26 ; nui_77 68_corr_anatole.txt:27		nui_78 68_corr_anatole.txt:31
+colonelle_vue	ok	1	16	nui_77 68_corr_anatole.txt:22		end_01 30_fins.txt:50 ; end_02 30_fins.txt:102 ; end_03 30_fins.txt:153 ; end_04 30_fins.txt:176 ; end_05 30_fins.txt:229 ; end_06 30_fins.txt:279 ; end_07 30_fins.txt:330 ; end_08 30_fins.txt:360 ; end_09 30_fins.txt:407 ; end_10 30_fins.txt:420 ; end_11 30_fins.txt:442 ; end_13 30_fins.txt:507 ; end_14 30_fins.txt:554 ; end_15 30_fins.txt:569 ; nui_59b 68_corr_anatole.txt:49 ; nui_59b 68_corr_anatole.txt:51
+com_40_vu	ok	1	2	com_40 93_objets.txt:243		com_13 93_objets.txt:236 ; com_14 93_objets.txt:239
 commandant	ok	1	1	bri_13 04_brisefer.txt:83		bri_16 04_brisefer.txt:106
 commandant_lune	jamais testé	1	0	pro_11 14_profondeurs.txt:82		
-connait_platine	jamais testé	1	0	bas_24 02_basile.txt:158		
-contrat_livraison	ok	1	2	cha_26 21_chantier.txt:189		neg_09 22_negociation.txt:65 ; fin_02 23_final.txt:40
-contrat_originel	jamais testé	2	0	bas_10 02_basile.txt:66 ; bas_20 02_basile.txt:132		
-contrat_vice	ok	3	3	neg_09 22_negociation.txt:68 ; neg_09 22_negociation.txt:68 ; neg_09 22_negociation.txt:69		fin_01 23_final.txt:19 ; fin_03 23_final.txt:52 ; fin_03 23_final.txt:54
-copro	ok	1	1	neg_14 22_negociation.txt:107		fin_01 23_final.txt:24
+connait_platine	jamais testé	1	0	bas_24 02_basile.txt:161		
+contrat_livraison	ok	1	2	cha_26 21_chantier.txt:189		neg_09 22_negociation.txt:65 ; fin_02 23_final.txt:42
+contrat_originel	ok	1	1	bas_20 02_basile.txt:135		cap_14 15_capitale.txt:99
+contrat_vice	ok	8	5	neg_09 22_negociation.txt:69 ; neg_09 22_negociation.txt:69 ; neg_09 22_negociation.txt:70 ; neg_16 62_corr_pistil.txt:85 ; fin_02 61_corr_basile.txt:32 ; fin_02 61_corr_basile.txt:32 ; neg_bas1 61_corr_basile.txt:22 ; neg_bas1 61_corr_basile.txt:22		neg_16 62_corr_pistil.txt:85 ; fin_01 23_final.txt:19 ; fin_02 61_corr_basile.txt:32 ; fin_03 23_final.txt:54 ; fin_03 23_final.txt:56
+copro	ok	1	1	neg_14 22_negociation.txt:108		fin_01 23_final.txt:24
 coquille_reste	ok	1	1	asc_01 20_ascension.txt:15		asc_23 24_suites_v3.txt:10
-coquille_sauvee	ok	7	3	nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 93_objets.txt:314 ; nui_10 93_objets.txt:314		nui_11 19_nuit.txt:69 ; nui_11 19_nuit.txt:70 ; nui_11 93_objets.txt:318
-cot_40_vu	ok	1	1	cot_40 93_objets.txt:54		cot_02 93_objets.txt:50
+coquille_sauvee	ok	7	3	nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:67 ; nui_10 93_objets.txt:318 ; nui_10 93_objets.txt:318		nui_11 19_nuit.txt:70 ; nui_11 19_nuit.txt:71 ; nui_11 93_objets.txt:322
+cot_40_vu	ok	1	1	cot_40 93_objets.txt:58		cot_02 93_objets.txt:54
 cri_terre	jamais testé	1	0	for_11 12_foret.txt:85		
-croissant	ok	8	20	nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:66 ; nui_10 93_objets.txt:314 ; nui_10 93_objets.txt:314		hub_ret 90_repliques_monde.txt:25 ; hub_07 90_repliques_monde.txt:50 ; son_01 90_repliques_monde.txt:120 ; nui_02 19_nuit.txt:25 ; nui_02 90_repliques_monde.txt:257 ; nui_11 93_objets.txt:317 ; cha_15 21_chantier.txt:102 ; fin_01 91_repliques_lune.txt:128 ; end_01 30_fins.txt:15 ; end_02 30_fins.txt:54 ; end_03 30_fins.txt:92 ; end_05 30_fins.txt:141 ; end_06 30_fins.txt:178 ; end_07 30_fins.txt:216 ; end_09 30_fins.txt:269 ; end_10 30_fins.txt:306 ; end_11 30_fins.txt:323 ; end_13 30_fins.txt:350 ; end_14 30_fins.txt:387 ; end_15 30_fins.txt:423
+crochet_vu	ok	3	1	nui_59c 68_corr_anatole.txt:58 ; nui_59c 68_corr_anatole.txt:58 ; nui_59c 68_corr_anatole.txt:59		fin_01 68_corr_anatole.txt:67
+croissant	ok	8	20	nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:67 ; nui_10 19_nuit.txt:67 ; nui_10 93_objets.txt:318 ; nui_10 93_objets.txt:318		hub_ret 90_repliques_monde.txt:25 ; hub_07 90_repliques_monde.txt:50 ; son_01 90_repliques_monde.txt:120 ; nui_02 19_nuit.txt:26 ; nui_02 90_repliques_monde.txt:257 ; nui_11 93_objets.txt:321 ; cha_15 21_chantier.txt:102 ; fin_01 91_repliques_lune.txt:128 ; end_01 30_fins.txt:15 ; end_02 30_fins.txt:67 ; end_03 30_fins.txt:118 ; end_05 30_fins.txt:194 ; end_06 30_fins.txt:244 ; end_07 30_fins.txt:295 ; end_09 30_fins.txt:375 ; end_10 30_fins.txt:423 ; end_11 30_fins.txt:444 ; end_13 30_fins.txt:475 ; end_14 30_fins.txt:519 ; end_15 30_fins.txt:572
 croissant_lune	jamais testé	2	0	cha_43 24_suites_v3.txt:50 ; cha_43 24_suites_v3.txt:50		
+date_donnee	ok	3	1	bas_43 02_basile.txt:282 ; bas_43 02_basile.txt:283 ; bas_43 02_basile.txt:283		cap_04 61_corr_basile.txt:9
 deguise	ok	1	1	asc_17 20_ascension.txt:116		cha_01 21_chantier.txt:9
-deguisement_fulgence	ok	3	1	nui_49 19_nuit.txt:197 ; nui_49 19_nuit.txt:197 ; nui_49 19_nuit.txt:198		neg_16 22_negociation.txt:135
+deguisement_fulgence	ok	3	1	nui_49 19_nuit.txt:198 ; nui_49 19_nuit.txt:198 ; nui_49 19_nuit.txt:199		neg_16 22_negociation.txt:136
 demission	jamais testé	1	0	gri_18 06_griselidis.txt:129		
-dessin_kramm	ok	2	3	bas_34 02_basile.txt:223 ; bas_34 02_basile.txt:223		cap_28 15_capitale.txt:189 ; cap_28 15_capitale.txt:190 ; cap_28 15_capitale.txt:191
-dossier	ok	11	6	bas_20 02_basile.txt:131 ; bas_20 02_basile.txt:131 ; bas_44 02_basile.txt:286 ; bas_44 02_basile.txt:286 ; cot_24 11_cotes.txt:162 ; cap_18 15_capitale.txt:120 ; cap_18 15_capitale.txt:120 ; cap_19 15_capitale.txt:127 ; cha_26 21_chantier.txt:189 ; cha_62 93_objets.txt:374 ; cha_62 93_objets.txt:374		cap_22 15_capitale.txt:151 ; cap_25 15_capitale.txt:172 ; cap_35 15_capitale.txt:235 ; neg_05 22_negociation.txt:40 ; fin_01 23_final.txt:19 ; fin_02 23_final.txt:46
+dessin_kramm	ok	2	5	bas_34 02_basile.txt:226 ; bas_34 02_basile.txt:226	cha_31 21_chantier.txt:229 ; cha_31 21_chantier.txt:229	cap_28 15_capitale.txt:205 ; cap_28 15_capitale.txt:208 ; cha_31 21_chantier.txt:225 ; cha_31 21_chantier.txt:226 ; cha_31 21_chantier.txt:229
+dossier	ok	15	6	bas_20 02_basile.txt:134 ; bas_20 02_basile.txt:134 ; bas_44 02_basile.txt:289 ; bas_44 02_basile.txt:289 ; bas_48 02_basile.txt:322 ; bas_48 02_basile.txt:322 ; cot_24 11_cotes.txt:164 ; cap_18 15_capitale.txt:130 ; cap_18 15_capitale.txt:130 ; cap_19 15_capitale.txt:138 ; cha_26 21_chantier.txt:189 ; neg_05 61_corr_basile.txt:14 ; neg_05 61_corr_basile.txt:14 ; cha_62 93_objets.txt:378 ; cha_62 93_objets.txt:378		cap_22 15_capitale.txt:164 ; cap_25 15_capitale.txt:188 ; cap_35 15_capitale.txt:252 ; neg_05 22_negociation.txt:40 ; fin_01 23_final.txt:19 ; fin_02 23_final.txt:48
 echarpe	ok	3	1	for_21 12_foret.txt:147 ; for_21 12_foret.txt:147 ; for_24 12_foret.txt:165		cha_20 21_chantier.txt:153
-echarpe_nouee	ok	2	3	cha_20 21_chantier.txt:155 ; cha_20 21_chantier.txt:155		cha_34 21_chantier.txt:246 ; neg_26 22_negociation.txt:207 ; neg_26 22_negociation.txt:208
+echarpe_nouee	ok	2	3	cha_20 21_chantier.txt:155 ; cha_20 21_chantier.txt:155		cha_34 21_chantier.txt:251 ; neg_26 22_negociation.txt:208 ; neg_26 22_negociation.txt:209
 echeance	jamais testé	1	0	bas_04 02_basile.txt:27		
-echo_parle	ok	2	4	cha_19 21_chantier.txt:149 ; cha_19 21_chantier.txt:149		cha_34 21_chantier.txt:247 ; cha_34 95_repliques_scenes.txt:174 ; fin_01 91_repliques_lune.txt:126 ; fin_01 23_final.txt:28
+echo_parle	ok	2	4	cha_19 21_chantier.txt:149 ; cha_19 21_chantier.txt:149		cha_34 21_chantier.txt:252 ; cha_34 95_repliques_scenes.txt:174 ; fin_01 91_repliques_lune.txt:126 ; fin_01 23_final.txt:28
 echo_pas_seul	jamais testé	4	0	bri_30 04_brisefer.txt:192 ; pro_32 14_profondeurs.txt:220 ; pro_32 14_profondeurs.txt:220 ; pro_37 14_profondeurs.txt:251		
 echo_phrases	jamais testé	1	0	bri_32 04_brisefer.txt:205		
 echo_sons	jamais testé	1	0	bri_40 04_brisefer.txt:253		
-ecoute_galet	jamais testé	2	0	cap_13 15_capitale.txt:84 ; cap_13 15_capitale.txt:84		
-ecriteau	jamais testé	1	0	ana_10 09_anatole.txt:70		
-epine_alliee	jamais testé	3	0	cap_12 15_capitale.txt:76 ; cap_12 15_capitale.txt:77 ; cap_12 93_objets.txt:179		
-epine_vue	ok	3	2	cap_08 15_capitale.txt:49 ; cap_09 15_capitale.txt:56 ; cap_20 15_capitale.txt:133		cap_34 15_capitale.txt:225 ; cap_34 15_capitale.txt:226
+ecoute_galet	jamais testé	4	0	cap_13 15_capitale.txt:91 ; cap_13 15_capitale.txt:91 ; cap_13 15_capitale.txt:92 ; cap_13 15_capitale.txt:92		
+ecriteau	ok	1	16	ana_10 09_anatole.txt:70		for_35 68_corr_anatole.txt:191 ; end_01 30_fins.txt:45 ; end_02 30_fins.txt:97 ; end_03 30_fins.txt:148 ; end_04 30_fins.txt:171 ; end_05 30_fins.txt:224 ; end_06 30_fins.txt:274 ; end_07 30_fins.txt:325 ; end_08 30_fins.txt:355 ; end_09 30_fins.txt:405 ; end_10 30_fins.txt:419 ; end_11 30_fins.txt:441 ; end_12 30_fins.txt:461 ; end_13 30_fins.txt:506 ; end_14 30_fins.txt:549 ; end_15 30_fins.txt:568
+epine_alliee	jamais testé	3	0	cap_12 15_capitale.txt:83 ; cap_12 15_capitale.txt:84 ; cap_12 93_objets.txt:183		
+epine_vue	ok	3	2	cap_08 15_capitale.txt:55 ; cap_09 15_capitale.txt:63 ; cap_20 15_capitale.txt:144		cap_34 15_capitale.txt:242 ; cap_34 15_capitale.txt:243
 essai_aube	ok	1	1	fin_25 24_suites_v3.txt:195		fin_01 23_final.txt:17
 essai_boulon	ok	1	1	fin_27 24_suites_v3.txt:214		fin_01 23_final.txt:16
-essai_casse	ok	2	1	fin_19 23_final.txt:163 ; fin_19 23_final.txt:163		fin_01 23_final.txt:30
+essai_casse	ok	2	2	fin_19 23_final.txt:166 ; fin_19 23_final.txt:166		fin_01 23_final.txt:30 ; fin_01 64_corr_zephyrin.txt:209
 essai_croc	ok	1	1	fin_23 24_suites_v3.txt:179		fin_01 23_final.txt:15
-essai_lune	ok	1	1	fin_11 23_final.txt:113		fin_01 23_final.txt:23
-essai_main	ok	1	1	fin_13 23_final.txt:126		fin_01 23_final.txt:25
-essai_quartz	ok	1	1	fin_08 23_final.txt:93		fin_01 23_final.txt:22
-essaim_divise	jamais testé	1	0	nui_54 19_nuit.txt:263		
-essaim_entier	jamais testé	1	0	nui_54 19_nuit.txt:264		
+essai_lune	ok	1	1	fin_11 23_final.txt:115		fin_01 23_final.txt:23
+essai_main	ok	1	1	fin_13 23_final.txt:128		fin_01 23_final.txt:25
+essai_quartz	ok	1	1	fin_08 23_final.txt:95		fin_01 23_final.txt:22
+essaim_divise	jamais testé	1	0	nui_54 19_nuit.txt:264		
+essaim_entier	jamais testé	1	0	nui_54 19_nuit.txt:265		
+etiquette_contrat	ok	1	2	bas_10 02_basile.txt:67		bas_12 02_basile.txt:78 ; bas_12 02_basile.txt:79
 etoile	ok	7	10	bri_12 04_brisefer.txt:79 ; bri_12 04_brisefer.txt:80 ; pro_07 14_profondeurs.txt:48 ; pro_07 14_profondeurs.txt:48 ; pro_07 14_profondeurs.txt:49 ; pro_07 14_profondeurs.txt:49 ; pro_07 14_profondeurs.txt:50		pro_05 14_profondeurs.txt:30 ; pro_05 14_profondeurs.txt:31 ; pro_05 14_profondeurs.txt:32 ; pro_05 14_profondeurs.txt:33 ; pro_05 14_profondeurs.txt:35 ; pro_05 14_profondeurs.txt:36 ; pro_09 14_profondeurs.txt:61 ; pro_09 14_profondeurs.txt:62 ; pro_09 14_profondeurs.txt:65 ; pro_09 14_profondeurs.txt:66
+faille_colonelle	ok	1	34	pro_15 68_corr_anatole.txt:15		nui_02 68_corr_anatole.txt:18 ; end_01 30_fins.txt:41 ; end_01 30_fins.txt:42 ; end_01 30_fins.txt:43 ; end_02 30_fins.txt:93 ; end_02 30_fins.txt:94 ; end_02 30_fins.txt:95 ; end_03 30_fins.txt:144 ; end_03 30_fins.txt:145 ; end_03 30_fins.txt:146 ; end_04 30_fins.txt:167 ; end_04 30_fins.txt:168 ; end_04 30_fins.txt:169 ; end_05 30_fins.txt:220 ; end_05 30_fins.txt:221 ; end_05 30_fins.txt:222 ; end_06 30_fins.txt:270 ; end_06 30_fins.txt:271 ; end_06 30_fins.txt:272 ; end_07 30_fins.txt:321 ; end_07 30_fins.txt:322 ; end_07 30_fins.txt:323 ; end_08 30_fins.txt:351 ; end_08 30_fins.txt:352 ; end_08 30_fins.txt:353 ; end_09 30_fins.txt:401 ; end_09 30_fins.txt:402 ; end_09 30_fins.txt:403 ; end_13 30_fins.txt:502 ; end_13 30_fins.txt:503 ; end_13 30_fins.txt:504 ; end_14 30_fins.txt:545 ; end_14 30_fins.txt:546 ; end_14 30_fins.txt:547
 fausse_lune	ok	1	2	pel_09 07_pelagie.txt:62		pel_11 07_pelagie.txt:73 ; pel_18 07_pelagie.txt:115
-faux_nom	jamais testé	1	0	zep_18 05_zephyrin.txt:120		
-fente_voix	ok	1	3	ana_07 09_anatole.txt:49		ana_09 09_anatole.txt:60 ; ana_17 09_anatole.txt:111 ; ana_17 09_anatole.txt:112
+faux_nom	jamais testé	1	0	zep_18 05_zephyrin.txt:123		
+fente_voix	ok	1	25	ana_07 09_anatole.txt:49		ana_09 09_anatole.txt:60 ; ana_17 09_anatole.txt:113 ; ana_17 09_anatole.txt:114 ; end_01 30_fins.txt:42 ; end_01 30_fins.txt:43 ; end_02 30_fins.txt:94 ; end_02 30_fins.txt:95 ; end_03 30_fins.txt:145 ; end_03 30_fins.txt:146 ; end_04 30_fins.txt:168 ; end_04 30_fins.txt:169 ; end_05 30_fins.txt:221 ; end_05 30_fins.txt:222 ; end_06 30_fins.txt:271 ; end_06 30_fins.txt:272 ; end_07 30_fins.txt:322 ; end_07 30_fins.txt:323 ; end_08 30_fins.txt:352 ; end_08 30_fins.txt:353 ; end_09 30_fins.txt:402 ; end_09 30_fins.txt:403 ; end_13 30_fins.txt:503 ; end_13 30_fins.txt:504 ; end_14 30_fins.txt:546 ; end_14 30_fins.txt:547
 fernand_brille	jamais testé	2	0	for_08 12_foret.txt:57 ; cha_23 21_chantier.txt:173		
-ficelle	jamais testé	1	0	pis_12 03_pistil.txt:72		
+ficelle	ok	1	10	pis_12 03_pistil.txt:73		end_01 62_corr_pistil.txt:89 ; end_02 62_corr_pistil.txt:91 ; end_03 62_corr_pistil.txt:93 ; end_05 62_corr_pistil.txt:95 ; end_07 62_corr_pistil.txt:97 ; end_08 62_corr_pistil.txt:99 ; end_14 62_corr_pistil.txt:101 ; end_36 62_corr_pistil.txt:103 ; end_38 62_corr_pistil.txt:105 ; pis_34b 62_corr_pistil.txt:20
 fissure	jamais testé	3	0	bri_14 04_brisefer.txt:93 ; bri_14 04_brisefer.txt:93 ; bri_14 04_brisefer.txt:94		
+fleur_721	ok	2	18	nui_59b 68_corr_anatole.txt:50 ; nui_59b 68_corr_anatole.txt:50		end_01 30_fins.txt:52 ; end_01 30_fins.txt:53 ; end_02 30_fins.txt:104 ; end_02 30_fins.txt:105 ; end_03 30_fins.txt:155 ; end_03 30_fins.txt:156 ; end_04 30_fins.txt:178 ; end_04 30_fins.txt:179 ; end_05 30_fins.txt:231 ; end_05 30_fins.txt:232 ; end_06 30_fins.txt:281 ; end_06 30_fins.txt:282 ; end_07 30_fins.txt:332 ; end_07 30_fins.txt:333 ; end_08 30_fins.txt:362 ; end_08 30_fins.txt:363 ; end_14 30_fins.txt:556 ; end_14 30_fins.txt:557
+fleur_colonelle	ok	1	24	nui_59b 68_corr_anatole.txt:51		end_01 30_fins.txt:49 ; end_01 30_fins.txt:50 ; end_02 30_fins.txt:101 ; end_02 30_fins.txt:102 ; end_03 30_fins.txt:152 ; end_03 30_fins.txt:153 ; end_04 30_fins.txt:175 ; end_04 30_fins.txt:176 ; end_05 30_fins.txt:228 ; end_05 30_fins.txt:229 ; end_06 30_fins.txt:278 ; end_06 30_fins.txt:279 ; end_07 30_fins.txt:329 ; end_07 30_fins.txt:330 ; end_08 30_fins.txt:359 ; end_08 30_fins.txt:360 ; end_09 30_fins.txt:406 ; end_09 30_fins.txt:407 ; end_10 30_fins.txt:420 ; end_11 30_fins.txt:442 ; end_13 30_fins.txt:507 ; end_14 30_fins.txt:553 ; end_14 30_fins.txt:554 ; end_15 30_fins.txt:569
+fleur_donnee	ok	2	9	neg_46 24_suites_v3.txt:153 ; neg_46 24_suites_v3.txt:153		end_01 30_fins.txt:51 ; end_02 30_fins.txt:103 ; end_03 30_fins.txt:154 ; end_04 30_fins.txt:177 ; end_05 30_fins.txt:230 ; end_06 30_fins.txt:280 ; end_07 30_fins.txt:331 ; end_08 30_fins.txt:361 ; end_14 30_fins.txt:555
 fleurs	ok	1	3	bri_05 04_brisefer.txt:37		bri_26 04_brisefer.txt:166 ; bri_26 04_brisefer.txt:167 ; bri_46 04_brisefer.txt:286
 fleurs_faille	ok	2	3	bri_26 04_brisefer.txt:170 ; bri_26 04_brisefer.txt:170		bri_42 04_brisefer.txt:264 ; pro_15 14_profondeurs.txt:104 ; pro_15 14_profondeurs.txt:106
-for_40_vu	ok	1	1	for_40 93_objets.txt:86		for_17 93_objets.txt:82
-frequence_lune	jamais testé	3	0	cha_16 21_chantier.txt:127 ; cha_63 93_objets.txt:383 ; cha_63 93_objets.txt:383		
+for_40_vu	ok	1	1	for_40 93_objets.txt:90		for_17 93_objets.txt:86
+frequence_lune	jamais testé	3	0	cha_16 21_chantier.txt:127 ; cha_63 93_objets.txt:387 ; cha_63 93_objets.txt:387		
 fulgence_bureau	jamais testé	2	0	cha_49 24_suites_v3.txt:89 ; cha_49 24_suites_v3.txt:89		
-fulgence_renvoye	ok	1	4	foi_03 18_foire.txt:37		com_08 17_comete.txt:46 ; com_08 17_comete.txt:48 ; com_08 17_comete.txt:49 ; com_12 17_comete.txt:99
-fulgence_sincere	ok	1	2	nui_49 19_nuit.txt:198		neg_44 24_suites_v3.txt:159 ; neg_44 24_suites_v3.txt:160
-fulgence_tuyau	ok	1	1	com_04 17_comete.txt:36		com_12 17_comete.txt:94
-fulgence_vu	ok	5	2	com_08 17_comete.txt:48 ; com_08 17_comete.txt:49 ; com_08 17_comete.txt:50 ; com_12 17_comete.txt:99 ; com_12 17_comete.txt:99		com_12 17_comete.txt:95 ; com_12 17_comete.txt:99
-galene	ok	4	7	bri_07 04_brisefer.txt:48 ; bri_07 04_brisefer.txt:49 ; bri_10 04_brisefer.txt:63 ; bri_15 04_brisefer.txt:97		bri_18 04_brisefer.txt:119 ; bri_18 04_brisefer.txt:121 ; pro_05 14_profondeurs.txt:32 ; pro_05 14_profondeurs.txt:33 ; end_03 30_fins.txt:89 ; end_03 30_fins.txt:90 ; end_11 30_fins.txt:321
-galet_archives	ok	1	3	bas_13 02_basile.txt:89		bas_16 02_basile.txt:106 ; hub_02 10_hub.txt:26 ; hub_02 10_hub.txt:27
-galet_emporte	ok	1	1	cap_17 15_capitale.txt:115		neg_16 22_negociation.txt:129
-galet_fenetre	jamais testé	1	0	cap_13 15_capitale.txt:85		
-galet_pardon	jamais testé	1	0	bas_13 02_basile.txt:88		
-galet_parle	ok	3	2	cap_16 15_capitale.txt:108 ; cap_16 15_capitale.txt:109 ; neg_19 22_negociation.txt:158		cap_32 15_capitale.txt:214 ; cha_19 21_chantier.txt:147
-galet_promesse	jamais testé	2	0	cap_17 15_capitale.txt:114 ; cap_42 93_objets.txt:188		
-gaspard_hante	ok	4	1	nua_08 16_nuages.txt:68 ; nua_11 16_nuages.txt:117 ; nua_11 16_nuages.txt:117 ; nua_11 16_nuages.txt:118		nua_09 16_nuages.txt:73
-gaspard_lettre	ok	1	19	nui_50 19_nuit.txt:206		cha_41 24_suites_v3.txt:35 ; end_01 30_fins.txt:21 ; end_01 30_fins.txt:22 ; end_02 30_fins.txt:60 ; end_02 30_fins.txt:61 ; end_03 30_fins.txt:98 ; end_03 30_fins.txt:99 ; end_05 30_fins.txt:147 ; end_05 30_fins.txt:148 ; end_06 30_fins.txt:184 ; end_06 30_fins.txt:185 ; end_07 30_fins.txt:222 ; end_07 30_fins.txt:223 ; end_09 30_fins.txt:275 ; end_09 30_fins.txt:276 ; end_13 30_fins.txt:356 ; end_13 30_fins.txt:357 ; end_14 30_fins.txt:393 ; end_14 30_fins.txt:394
-gaspard_repose	ok	3	10	nua_15 16_nuages.txt:126 ; nua_15 16_nuages.txt:126 ; nua_41 93_objets.txt:209		nua_18 16_nuages.txt:154 ; end_01 30_fins.txt:20 ; end_02 30_fins.txt:59 ; end_03 30_fins.txt:97 ; end_05 30_fins.txt:146 ; end_06 30_fins.txt:183 ; end_07 30_fins.txt:221 ; end_09 30_fins.txt:274 ; end_13 30_fins.txt:355 ; end_14 30_fins.txt:392
-gaspard_vu	ok	2	4	nua_08 16_nuages.txt:65 ; nua_14 16_nuages.txt:110		nua_13 16_nuages.txt:102 ; nua_13 16_nuages.txt:103 ; nua_13 16_nuages.txt:104 ; nua_13 16_nuages.txt:105
-golf_or	ok	1	3	zep_14 05_zephyrin.txt:91		neg_07 22_negociation.txt:51 ; neg_14 22_negociation.txt:105 ; neg_14 22_negociation.txt:106
-graine_plantee	ok	2	9	cha_52 24_suites_v3.txt:109 ; cha_52 24_suites_v3.txt:109		end_01 30_fins.txt:33 ; end_02 30_fins.txt:72 ; end_03 30_fins.txt:110 ; end_05 30_fins.txt:159 ; end_06 30_fins.txt:196 ; end_07 30_fins.txt:234 ; end_09 30_fins.txt:287 ; end_13 30_fins.txt:368 ; end_14 30_fins.txt:405
-grand_mere	jamais testé	3	0	zep_43 05_zephyrin.txt:272 ; zep_43 05_zephyrin.txt:272 ; zep_43 05_zephyrin.txt:273		
-gravitaires_allies	ok	4	8	pro_26 14_profondeurs.txt:181 ; pro_26 14_profondeurs.txt:181 ; pro_26 14_profondeurs.txt:182 ; pro_27 14_profondeurs.txt:187		hub_ret 10_hub.txt:75 ; pro_31 14_profondeurs.txt:210 ; asc_01 20_ascension.txt:18 ; asc_06 20_ascension.txt:51 ; neg_08 22_negociation.txt:56 ; neg_26 22_negociation.txt:206 ; neg_26 22_negociation.txt:208 ; fin_01 23_final.txt:21
+fulgence_renvoye	ok	1	4	foi_03 18_foire.txt:37		com_08 17_comete.txt:46 ; com_08 17_comete.txt:48 ; com_08 17_comete.txt:49 ; com_12 17_comete.txt:100
+fulgence_sincere	ok	1	2	nui_49 19_nuit.txt:199		neg_44 24_suites_v3.txt:159 ; neg_44 24_suites_v3.txt:160
+fulgence_tuyau	ok	1	1	com_04 17_comete.txt:36		com_12 17_comete.txt:95
+fulgence_vu	ok	5	2	com_08 17_comete.txt:48 ; com_08 17_comete.txt:49 ; com_08 17_comete.txt:50 ; com_12 17_comete.txt:100 ; com_12 17_comete.txt:100		com_12 17_comete.txt:96 ; com_12 17_comete.txt:100
+galene	ok	4	7	bri_07 04_brisefer.txt:48 ; bri_07 04_brisefer.txt:49 ; bri_10 04_brisefer.txt:63 ; bri_15 04_brisefer.txt:97		bri_18 04_brisefer.txt:119 ; bri_18 04_brisefer.txt:121 ; pro_05 14_profondeurs.txt:32 ; pro_05 14_profondeurs.txt:33 ; end_03 30_fins.txt:115 ; end_03 30_fins.txt:116 ; end_11 30_fins.txt:438
+galet_archives	ok	3	3	bas_13 02_basile.txt:92 ; bas_14 02_basile.txt:98 ; bas_14 02_basile.txt:98		bas_16 02_basile.txt:109 ; hub_02 10_hub.txt:26 ; hub_02 10_hub.txt:27
+galet_emporte	ok	1	1	cap_17 15_capitale.txt:125		neg_16 22_negociation.txt:130
+galet_fenetre	jamais testé	1	0	cap_13 15_capitale.txt:93		
+galet_pardon	jamais testé	1	0	bas_13 02_basile.txt:91		
+galet_parle	ok	3	2	cap_16 15_capitale.txt:118 ; cap_16 15_capitale.txt:119 ; neg_19 22_negociation.txt:159		cap_32 15_capitale.txt:231 ; cha_19 21_chantier.txt:147
+galet_promesse	jamais testé	2	0	cap_17 15_capitale.txt:124 ; cap_42 93_objets.txt:192		
+gaspard_hante	ok	4	1	nua_08 16_nuages.txt:69 ; nua_11 16_nuages.txt:118 ; nua_11 16_nuages.txt:118 ; nua_11 16_nuages.txt:119		nua_09 16_nuages.txt:74
+gaspard_lettre	ok	1	19	nui_50 19_nuit.txt:207		cha_41 24_suites_v3.txt:35 ; end_01 30_fins.txt:21 ; end_01 30_fins.txt:22 ; end_02 30_fins.txt:73 ; end_02 30_fins.txt:74 ; end_03 30_fins.txt:124 ; end_03 30_fins.txt:125 ; end_05 30_fins.txt:200 ; end_05 30_fins.txt:201 ; end_06 30_fins.txt:250 ; end_06 30_fins.txt:251 ; end_07 30_fins.txt:301 ; end_07 30_fins.txt:302 ; end_09 30_fins.txt:381 ; end_09 30_fins.txt:382 ; end_13 30_fins.txt:481 ; end_13 30_fins.txt:482 ; end_14 30_fins.txt:525 ; end_14 30_fins.txt:526
+gaspard_repose	ok	3	10	nua_15 16_nuages.txt:127 ; nua_15 16_nuages.txt:127 ; nua_41 93_objets.txt:213		nua_18 16_nuages.txt:155 ; end_01 30_fins.txt:20 ; end_02 30_fins.txt:72 ; end_03 30_fins.txt:123 ; end_05 30_fins.txt:199 ; end_06 30_fins.txt:249 ; end_07 30_fins.txt:300 ; end_09 30_fins.txt:380 ; end_13 30_fins.txt:480 ; end_14 30_fins.txt:524
+gaspard_vu	ok	2	4	nua_08 16_nuages.txt:66 ; nua_14 16_nuages.txt:111		nua_13 16_nuages.txt:103 ; nua_13 16_nuages.txt:104 ; nua_13 16_nuages.txt:105 ; nua_13 16_nuages.txt:106
+golf_or	ok	1	3	zep_14 05_zephyrin.txt:91		neg_07 22_negociation.txt:51 ; neg_14 22_negociation.txt:106 ; neg_14 22_negociation.txt:107
+graine_plantee	ok	2	9	cha_52 24_suites_v3.txt:109 ; cha_52 24_suites_v3.txt:109		end_01 30_fins.txt:33 ; end_02 30_fins.txt:85 ; end_03 30_fins.txt:136 ; end_05 30_fins.txt:212 ; end_06 30_fins.txt:262 ; end_07 30_fins.txt:313 ; end_09 30_fins.txt:393 ; end_13 30_fins.txt:493 ; end_14 30_fins.txt:537
+grand_mere	ok	3	17	zep_43 05_zephyrin.txt:286 ; zep_43 05_zephyrin.txt:286 ; zep_43 05_zephyrin.txt:287		hub_07 64_corr_zephyrin.txt:23 ; hub_07 64_corr_zephyrin.txt:24 ; end_01 64_corr_zephyrin.txt:221 ; end_02 64_corr_zephyrin.txt:227 ; end_03 64_corr_zephyrin.txt:233 ; end_04 64_corr_zephyrin.txt:238 ; end_05 64_corr_zephyrin.txt:243 ; end_06 64_corr_zephyrin.txt:248 ; end_07 64_corr_zephyrin.txt:253 ; end_08 64_corr_zephyrin.txt:258 ; end_09 64_corr_zephyrin.txt:263 ; end_12 64_corr_zephyrin.txt:274 ; end_13 64_corr_zephyrin.txt:279 ; end_14 64_corr_zephyrin.txt:284 ; end_15 64_corr_zephyrin.txt:290 ; nui_75 64_corr_zephyrin.txt:156 ; nui_75 64_corr_zephyrin.txt:160
+gravitaires_allies	ok	4	8	pro_26 14_profondeurs.txt:181 ; pro_26 14_profondeurs.txt:181 ; pro_26 14_profondeurs.txt:182 ; pro_27 14_profondeurs.txt:187		hub_ret 10_hub.txt:75 ; pro_31 14_profondeurs.txt:210 ; asc_01 20_ascension.txt:18 ; asc_06 20_ascension.txt:51 ; neg_08 22_negociation.txt:56 ; neg_26 22_negociation.txt:207 ; neg_26 22_negociation.txt:209 ; fin_01 23_final.txt:21
 gravitaires_suivent	ok	4	2	bri_34 04_brisefer.txt:217 ; bri_38 04_brisefer.txt:241 ; bri_38 04_brisefer.txt:241 ; bri_38 04_brisefer.txt:242		bri_43 04_brisefer.txt:269 ; asc_01 20_ascension.txt:18
-greve	ok	9	6	cha_06 21_chantier.txt:42 ; cha_10 21_chantier.txt:70 ; cha_43 24_suites_v3.txt:50 ; cha_44 24_suites_v3.txt:57 ; cha_47 24_suites_v3.txt:76 ; cha_47 24_suites_v3.txt:76 ; cha_67 93_objets.txt:419 ; cha_69 93_objets.txt:432 ; cha_64 93_objets.txt:440		cha_27 21_chantier.txt:195 ; cha_27 91_repliques_lune.txt:55 ; cha_27 91_repliques_lune.txt:56 ; neg_08 22_negociation.txt:57 ; neg_26 22_negociation.txt:208 ; neg_26 22_negociation.txt:209
+greve	ok	9	6	cha_06 21_chantier.txt:42 ; cha_10 21_chantier.txt:70 ; cha_43 24_suites_v3.txt:50 ; cha_44 24_suites_v3.txt:57 ; cha_47 24_suites_v3.txt:76 ; cha_47 24_suites_v3.txt:76 ; cha_67 93_objets.txt:423 ; cha_69 93_objets.txt:436 ; cha_64 93_objets.txt:444		cha_27 21_chantier.txt:195 ; cha_27 91_repliques_lune.txt:55 ; cha_27 91_repliques_lune.txt:56 ; neg_08 22_negociation.txt:57 ; neg_26 22_negociation.txt:209 ; neg_26 22_negociation.txt:210
 greve_hesite	jamais testé	1	0	cha_06 21_chantier.txt:42		
 grues_brulees	jamais testé	3	0	cha_51 24_suites_v3.txt:101 ; cha_51 24_suites_v3.txt:101 ; cha_51 24_suites_v3.txt:102		
-gs_main	ok	3	2	fin_14 23_final.txt:135 ; fin_14 23_final.txt:135 ; fin_30 93_objets.txt:510		end_08 30_fins.txt:250 ; end_08 30_fins.txt:251
-gs_regret	jamais testé	3	0	fin_14 23_final.txt:134 ; fin_14 23_final.txt:134 ; fin_30 93_objets.txt:509		
+gs_main	ok	3	2	fin_14 23_final.txt:137 ; fin_14 23_final.txt:137 ; fin_30 93_objets.txt:514		end_08 30_fins.txt:342 ; end_08 30_fins.txt:343
+gs_regret	jamais testé	3	0	fin_14 23_final.txt:136 ; fin_14 23_final.txt:136 ; fin_30 93_objets.txt:513		
 guichet_zero	jamais testé	2	0	ond_26 01_ondine.txt:173 ; ond_26 01_ondine.txt:173		
 hub_11_vu	ok	1	1	hub_11 93_objets.txt:25		hub_04 93_objets.txt:21
-hub_12_vu	ok	1	1	hub_12 93_objets.txt:40		hub_ret 93_objets.txt:36
+hub_12_vu	ok	1	1	hub_12 93_objets.txt:44		hub_ret 93_objets.txt:40
 hurlement_juste	jamais testé	1	0	lyc_13 08_barnabe.txt:85		
-hurlement_lune	jamais testé	1	0	nui_55 19_nuit.txt:272		
-idee_perles	ok	8	3	cot_08 11_cotes.txt:52 ; cot_08 11_cotes.txt:52 ; cot_08 11_cotes.txt:53 ; cot_08 11_cotes.txt:53 ; cot_08 11_cotes.txt:54 ; cot_08 11_cotes.txt:54 ; cot_10 11_cotes.txt:66 ; cot_10 11_cotes.txt:66		cot_10 11_cotes.txt:64 ; cot_11 11_cotes.txt:72 ; cot_11 11_cotes.txt:73
-idee_porte	jamais testé	1	0	pis_32 03_pistil.txt:202		
+hurlement_lune	jamais testé	1	0	nui_55 19_nuit.txt:273		
+idee_perles	ok	8	3	cot_08 11_cotes.txt:53 ; cot_08 11_cotes.txt:53 ; cot_08 11_cotes.txt:54 ; cot_08 11_cotes.txt:54 ; cot_08 11_cotes.txt:55 ; cot_08 11_cotes.txt:55 ; cot_10 11_cotes.txt:67 ; cot_10 11_cotes.txt:67		cot_10 11_cotes.txt:65 ; cot_11 11_cotes.txt:73 ; cot_11 11_cotes.txt:74
+idee_porte	jamais testé	1	0	pis_32 03_pistil.txt:207		
 idee_pousser	jamais testé	5	0	bri_25 04_brisefer.txt:162 ; bri_25 04_brisefer.txt:162 ; bri_25 04_brisefer.txt:163 ; pro_12 14_profondeurs.txt:89 ; pro_12 14_profondeurs.txt:89		
-indice_consentement	jamais testé	1	0	pis_34 03_pistil.txt:213		
+indice_consentement	ok	1	1	pis_34 03_pistil.txt:218		neg_16 62_corr_pistil.txt:85
 indices_lune	jamais testé	1	0	cha_18 21_chantier.txt:141		
 interview	jamais testé	1	0	foi_07 18_foire.txt:68		
 inventaire	jamais testé	1	0	ond_27 01_ondine.txt:180		
-kramm_attend	jamais testé	5	0	bas_30 02_basile.txt:198 ; bas_31 02_basile.txt:205 ; bas_31 02_basile.txt:205 ; cap_24 15_capitale.txt:166 ; cap_24 15_capitale.txt:166		
-kramm_demission	ok	1	4	cap_29 15_capitale.txt:197		cap_33 15_capitale.txt:220 ; cha_30 21_chantier.txt:216 ; cha_30 21_chantier.txt:217 ; neg_16 22_negociation.txt:128
-kramm_dessin	ok	1	2	bas_30 02_basile.txt:199		cap_28 15_capitale.txt:190 ; cap_28 15_capitale.txt:191
-kramm_doute	ok	6	2	cot_23 11_cotes.txt:154 ; cot_24 11_cotes.txt:160 ; cap_24 15_capitale.txt:167 ; cap_28 15_capitale.txt:190 ; cap_28 15_capitale.txt:191 ; cap_29 15_capitale.txt:197		cap_24 15_capitale.txt:164 ; cap_24 15_capitale.txt:165
-kramm_refuse	ok	2	2	cha_31 21_chantier.txt:224 ; neg_18 22_negociation.txt:151		neg_16 22_negociation.txt:128 ; fin_02 23_final.txt:41
-kramm_regarde	jamais testé	1	0	cha_30 21_chantier.txt:218		
-laissez_passer	jamais testé	1	0	cap_34 15_capitale.txt:229		
+kramm_attend	ok	5	2	bas_30 02_basile.txt:201 ; bas_31 02_basile.txt:208 ; bas_31 02_basile.txt:208 ; cap_24 15_capitale.txt:180 ; cap_24 15_capitale.txt:180		cap_24 15_capitale.txt:179 ; cap_24 15_capitale.txt:180
+kramm_demission	ok	1	6	cap_29 15_capitale.txt:214		cap_33 15_capitale.txt:237 ; cha_30 21_chantier.txt:218 ; cha_30 21_chantier.txt:219 ; cha_30 21_chantier.txt:220 ; cha_30 64_corr_zephyrin.txt:178 ; neg_16 22_negociation.txt:129
+kramm_dessin	ok	1	3	bas_30 02_basile.txt:202		cap_28 15_capitale.txt:206 ; cap_28 15_capitale.txt:207 ; cap_28 15_capitale.txt:208
+kramm_doute	ok	7	2	cot_23 11_cotes.txt:156 ; cot_24 11_cotes.txt:162 ; cap_24 15_capitale.txt:181 ; cap_28 15_capitale.txt:206 ; cap_28 15_capitale.txt:207 ; cap_28 15_capitale.txt:208 ; cap_29 15_capitale.txt:214		cap_24 15_capitale.txt:177 ; cap_24 15_capitale.txt:178
+kramm_refuse	ok	3	2	cha_31 21_chantier.txt:228 ; cha_31 21_chantier.txt:229 ; neg_18 22_negociation.txt:152		neg_16 22_negociation.txt:129 ; fin_02 23_final.txt:43
+kramm_regarde	jamais testé	1	0	cha_30 21_chantier.txt:221		
+laissez_passer	jamais testé	1	0	cap_34 15_capitale.txt:246		
 lampe_rallumee	jamais testé	2	0	cha_45 24_suites_v3.txt:64 ; cha_45 24_suites_v3.txt:64		
 lanterne_soufflee	jamais testé	2	0	ana_04 09_anatole.txt:28 ; ana_04 09_anatole.txt:28		
-legende_marchand	jamais testé	2	0	pis_11 03_pistil.txt:65 ; pis_12 03_pistil.txt:73		
-lettre_intacte	ok	2	1	nui_52 19_nuit.txt:247 ; nui_52 19_nuit.txt:247		fin_24 24_suites_v3.txt:184
-lettre_lue	ok	2	1	nui_52 19_nuit.txt:248 ; nui_52 19_nuit.txt:248		fin_24 24_suites_v3.txt:185
-lettre_lune	ok	4	8	bas_19 02_basile.txt:125 ; bas_19 02_basile.txt:125 ; cap_15 15_capitale.txt:101 ; cap_15 15_capitale.txt:102		for_11 12_foret.txt:83 ; cap_15 15_capitale.txt:98 ; cap_15 15_capitale.txt:99 ; cap_15 15_capitale.txt:100 ; cap_15 15_capitale.txt:101 ; cap_15 15_capitale.txt:102 ; neg_09 22_negociation.txt:66 ; fin_02 23_final.txt:39
-lettre_tamponnee	ok	2	4	cap_15 15_capitale.txt:99 ; cap_15 15_capitale.txt:102		cap_15 15_capitale.txt:99 ; neg_09 22_negociation.txt:66 ; fin_02 23_final.txt:38 ; fin_02 23_final.txt:39
-lettres_bartho	jamais testé	2	0	cot_15 11_cotes.txt:102 ; cot_15 11_cotes.txt:103		
-lettres_livrees	ok	2	12	cha_53 24_suites_v3.txt:116 ; cha_53 24_suites_v3.txt:116		end_01 30_fins.txt:32 ; end_02 30_fins.txt:71 ; end_03 30_fins.txt:109 ; end_05 30_fins.txt:158 ; end_06 30_fins.txt:195 ; end_07 30_fins.txt:233 ; end_09 30_fins.txt:286 ; end_10 30_fins.txt:309 ; end_11 30_fins.txt:326 ; end_13 30_fins.txt:367 ; end_14 30_fins.txt:404 ; end_15 30_fins.txt:426
-lettres_ondine	ok	1	1	pis_30 03_pistil.txt:189		son_23 13_songes.txt:156
-louveteaux	ok	1	1	lyc_21 08_barnabe.txt:133		nui_55 19_nuit.txt:271
-lune_consent	ok	5	3	cha_13 21_chantier.txt:88 ; cha_13 21_chantier.txt:88 ; cha_13 21_chantier.txt:89 ; fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187		neg_16 22_negociation.txt:130 ; fin_11 23_final.txt:112 ; fin_11 23_final.txt:113
-lune_consultee	jamais testé	1	0	pis_35 03_pistil.txt:218		
-lune_merci	ok	3	2	pis_31 03_pistil.txt:195 ; son_26 13_songes.txt:177 ; son_26 13_songes.txt:177		son_26 13_songes.txt:175 ; son_26 13_songes.txt:176
+lecon_cap	ok	2	19	ana_08b 09_anatole.txt:132 ; ana_08b 09_anatole.txt:132		end_01 30_fins.txt:46 ; end_01 30_fins.txt:47 ; end_02 30_fins.txt:98 ; end_02 30_fins.txt:99 ; end_03 30_fins.txt:149 ; end_03 30_fins.txt:150 ; end_04 30_fins.txt:172 ; end_04 30_fins.txt:173 ; end_05 30_fins.txt:225 ; end_05 30_fins.txt:226 ; end_06 30_fins.txt:275 ; end_06 30_fins.txt:276 ; end_07 30_fins.txt:326 ; end_07 30_fins.txt:327 ; end_08 30_fins.txt:356 ; end_08 30_fins.txt:357 ; end_12 30_fins.txt:462 ; end_14 30_fins.txt:550 ; end_14 30_fins.txt:551
+legende_marchand	jamais testé	2	0	pis_11 03_pistil.txt:66 ; pis_12 03_pistil.txt:74		
+lettre_intacte	ok	2	1	nui_52 19_nuit.txt:248 ; nui_52 19_nuit.txt:248		fin_24 24_suites_v3.txt:184
+lettre_lue	ok	2	1	nui_52 19_nuit.txt:249 ; nui_52 19_nuit.txt:249		fin_24 24_suites_v3.txt:185
+lettre_lune	ok	4	8	bas_19 02_basile.txt:128 ; bas_19 02_basile.txt:128 ; cap_15 15_capitale.txt:111 ; cap_15 15_capitale.txt:112		for_11 12_foret.txt:83 ; cap_15 15_capitale.txt:108 ; cap_15 15_capitale.txt:109 ; cap_15 15_capitale.txt:110 ; cap_15 15_capitale.txt:111 ; cap_15 15_capitale.txt:112 ; neg_09 22_negociation.txt:66 ; fin_02 23_final.txt:40
+lettre_tamponnee	ok	2	4	cap_15 15_capitale.txt:109 ; cap_15 15_capitale.txt:112		cap_15 15_capitale.txt:109 ; neg_09 22_negociation.txt:66 ; fin_02 23_final.txt:39 ; fin_02 23_final.txt:40
+lettres_bartho	jamais testé	2	0	cot_15 11_cotes.txt:103 ; cot_15 11_cotes.txt:104		
+lettres_livrees	ok	2	12	cha_53 24_suites_v3.txt:116 ; cha_53 24_suites_v3.txt:116		end_01 30_fins.txt:32 ; end_02 30_fins.txt:84 ; end_03 30_fins.txt:135 ; end_05 30_fins.txt:211 ; end_06 30_fins.txt:261 ; end_07 30_fins.txt:312 ; end_09 30_fins.txt:392 ; end_10 30_fins.txt:426 ; end_11 30_fins.txt:447 ; end_13 30_fins.txt:492 ; end_14 30_fins.txt:536 ; end_15 30_fins.txt:575
+lettres_ondine	ok	1	1	pis_30 03_pistil.txt:194		son_23 13_songes.txt:158
+louveteaux	ok	1	1	lyc_21 08_barnabe.txt:133		nui_55 19_nuit.txt:272
+lune_consent	ok	5	3	cha_13 21_chantier.txt:88 ; cha_13 21_chantier.txt:88 ; cha_13 21_chantier.txt:89 ; fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187		neg_16 22_negociation.txt:131 ; fin_11 23_final.txt:114 ; fin_11 23_final.txt:115
+lune_consultee	jamais testé	1	0	pis_35 03_pistil.txt:223		
+lune_ficelle	jamais testé	1	0	pis_34b 62_corr_pistil.txt:20		
+lune_merci	ok	3	2	pis_31 03_pistil.txt:200 ; son_26 13_songes.txt:179 ; son_26 13_songes.txt:179		son_26 13_songes.txt:177 ; son_26 13_songes.txt:178
 lune_poche	ok	1	1	pro_24 14_profondeurs.txt:162		pro_21 14_profondeurs.txt:147
 lune_reglee	jamais testé	2	0	cha_42 24_suites_v3.txt:43 ; cha_42 24_suites_v3.txt:43		
-lune_veut_rester	ok	3	1	pis_32 03_pistil.txt:201 ; son_20 13_songes.txt:141 ; son_24 13_songes.txt:163		for_11 12_foret.txt:83
-marchand_coupable	jamais testé	1	0	son_06 13_songes.txt:47		
-marchand_doute	jamais testé	2	0	pis_20 03_pistil.txt:125 ; son_12 13_songes.txt:85		
-marchand_gentil	ok	5	1	pis_23 03_pistil.txt:145 ; pis_26 03_pistil.txt:164 ; son_16 13_songes.txt:110 ; son_16 13_songes.txt:110 ; son_19 13_songes.txt:130		son_09 13_songes.txt:66
-marchand_partenaire	jamais testé	1	0	pis_17 03_pistil.txt:109		
-marchand_traitre	jamais testé	1	0	pis_18 03_pistil.txt:115		
+lune_veut_rester	ok	3	2	pis_32 03_pistil.txt:206 ; son_20 13_songes.txt:143 ; son_24 13_songes.txt:165		for_11 12_foret.txt:83 ; neg_16 62_corr_pistil.txt:85
+marchand_coupable	jamais testé	1	0	son_06 13_songes.txt:49		
+marchand_doute	jamais testé	2	0	pis_20 03_pistil.txt:129 ; son_12 13_songes.txt:87		
+marchand_gentil	ok	5	1	pis_23 03_pistil.txt:149 ; pis_26 03_pistil.txt:168 ; son_16 13_songes.txt:112 ; son_16 13_songes.txt:112 ; son_19 13_songes.txt:132		son_09 13_songes.txt:68
+marchand_partenaire	jamais testé	1	0	pis_17 03_pistil.txt:113		
+marchand_traitre	jamais testé	1	0	pis_18 03_pistil.txt:119		
 marche_zouzou	jamais testé	1	0	gri_12 06_griselidis.txt:88		
 maree_lunaire	jamais testé	1	0	cha_22 21_chantier.txt:167		
-marees_non_cessibles	jamais testé	1	0	cot_26 11_cotes.txt:176		
-marees_prevenues	ok	7	16	cot_28 11_cotes.txt:185 ; cot_28 11_cotes.txt:185 ; nui_51 19_nuit.txt:239 ; nui_51 19_nuit.txt:239 ; nui_51 19_nuit.txt:240 ; cha_22 21_chantier.txt:167 ; nui_71 93_objets.txt:288		cot_35 11_cotes.txt:226 ; pro_30 14_profondeurs.txt:204 ; pro_30 14_profondeurs.txt:205 ; fin_07 23_final.txt:83 ; fin_07 23_final.txt:84 ; fin_07 23_final.txt:85 ; fin_07 23_final.txt:86 ; end_01 30_fins.txt:35 ; end_02 30_fins.txt:74 ; end_03 30_fins.txt:112 ; end_05 30_fins.txt:161 ; end_06 30_fins.txt:198 ; end_07 30_fins.txt:236 ; end_09 30_fins.txt:289 ; end_13 30_fins.txt:370 ; end_14 30_fins.txt:407
+marees_non_cessibles	jamais testé	1	0	cot_26 11_cotes.txt:178		
+marees_prevenues	ok	7	16	cot_28 11_cotes.txt:187 ; cot_28 11_cotes.txt:187 ; nui_51 19_nuit.txt:240 ; nui_51 19_nuit.txt:240 ; nui_51 19_nuit.txt:241 ; cha_22 21_chantier.txt:167 ; nui_71 93_objets.txt:292		cot_35 11_cotes.txt:228 ; pro_30 14_profondeurs.txt:204 ; pro_30 14_profondeurs.txt:205 ; fin_07 23_final.txt:85 ; fin_07 23_final.txt:86 ; fin_07 23_final.txt:87 ; fin_07 23_final.txt:88 ; end_01 30_fins.txt:35 ; end_02 30_fins.txt:87 ; end_03 30_fins.txt:138 ; end_05 30_fins.txt:214 ; end_06 30_fins.txt:264 ; end_07 30_fins.txt:315 ; end_09 30_fins.txt:395 ; end_13 30_fins.txt:495 ; end_14 30_fins.txt:539
 marguerite	ok	2	2	bri_42 04_brisefer.txt:264 ; bri_42 04_brisefer.txt:264		pro_15 14_profondeurs.txt:105 ; pro_15 14_profondeurs.txt:106
-mariage	ok	2	19	nui_43 19_nuit.txt:141 ; nui_43 19_nuit.txt:141		cha_44 24_suites_v3.txt:56 ; end_01 30_fins.txt:25 ; end_01 30_fins.txt:26 ; end_02 30_fins.txt:64 ; end_02 30_fins.txt:65 ; end_03 30_fins.txt:102 ; end_03 30_fins.txt:103 ; end_05 30_fins.txt:151 ; end_05 30_fins.txt:152 ; end_06 30_fins.txt:188 ; end_06 30_fins.txt:189 ; end_07 30_fins.txt:226 ; end_07 30_fins.txt:227 ; end_09 30_fins.txt:279 ; end_09 30_fins.txt:280 ; end_13 30_fins.txt:360 ; end_13 30_fins.txt:361 ; end_14 30_fins.txt:397 ; end_14 30_fins.txt:398
+mariage	ok	2	19	nui_43 19_nuit.txt:142 ; nui_43 19_nuit.txt:142		cha_44 24_suites_v3.txt:56 ; end_01 30_fins.txt:25 ; end_01 30_fins.txt:26 ; end_02 30_fins.txt:77 ; end_02 30_fins.txt:78 ; end_03 30_fins.txt:128 ; end_03 30_fins.txt:129 ; end_05 30_fins.txt:204 ; end_05 30_fins.txt:205 ; end_06 30_fins.txt:254 ; end_06 30_fins.txt:255 ; end_07 30_fins.txt:305 ; end_07 30_fins.txt:306 ; end_09 30_fins.txt:385 ; end_09 30_fins.txt:386 ; end_13 30_fins.txt:485 ; end_13 30_fins.txt:486 ; end_14 30_fins.txt:529 ; end_14 30_fins.txt:530
 medaille_axe	jamais testé	1	0	pro_09 14_profondeurs.txt:68		
 medaille_club	jamais testé	1	0	lyc_12 08_barnabe.txt:79		
-meduses_amies	ok	2	1	ond_30 01_ondine.txt:195 ; ond_30 01_ondine.txt:196		cot_06 11_cotes.txt:39
-mer_parle	jamais testé	1	0	cot_25 11_cotes.txt:169		
-message_gaspard	jamais testé	1	0	nui_50 19_nuit.txt:207		
-message_lune	ok	2	6	cha_18 21_chantier.txt:140 ; neg_20 22_negociation.txt:167		neg_16 22_negociation.txt:130 ; neg_20 22_negociation.txt:162 ; neg_20 22_negociation.txt:164 ; neg_20 22_negociation.txt:165 ; neg_20 22_negociation.txt:166 ; neg_20 22_negociation.txt:167
-mesures_lune	jamais testé	1	0	cha_62 93_objets.txt:374		
-mort_coquille	ok	1	25	nui_10 19_nuit.txt:66		nui_02 19_nuit.txt:26 ; nui_11 19_nuit.txt:71 ; nui_11 19_nuit.txt:72 ; nui_11 93_objets.txt:319 ; end_01 30_fins.txt:15 ; end_01 30_fins.txt:16 ; end_02 30_fins.txt:54 ; end_02 30_fins.txt:55 ; end_03 30_fins.txt:92 ; end_03 30_fins.txt:93 ; end_05 30_fins.txt:141 ; end_05 30_fins.txt:142 ; end_06 30_fins.txt:178 ; end_06 30_fins.txt:179 ; end_07 30_fins.txt:216 ; end_07 30_fins.txt:217 ; end_09 30_fins.txt:269 ; end_09 30_fins.txt:270 ; end_10 30_fins.txt:307 ; end_11 30_fins.txt:324 ; end_13 30_fins.txt:350 ; end_13 30_fins.txt:351 ; end_14 30_fins.txt:387 ; end_14 30_fins.txt:388 ; end_15 30_fins.txt:424
-mort_hector	ok	2	2	lyc_09 08_barnabe.txt:58 ; lyc_10 08_barnabe.txt:64		nui_44 19_nuit.txt:149 ; nui_55 19_nuit.txt:270
-mort_remontoir	ok	4	13	nui_14 19_nuit.txt:100 ; nui_14 19_nuit.txt:101 ; nui_14 19_nuit.txt:101 ; nui_30 19_nuit.txt:116		nui_15 19_nuit.txt:106 ; end_01 30_fins.txt:19 ; end_02 30_fins.txt:58 ; end_03 30_fins.txt:96 ; end_05 30_fins.txt:145 ; end_06 30_fins.txt:182 ; end_07 30_fins.txt:220 ; end_09 30_fins.txt:273 ; end_10 30_fins.txt:307 ; end_11 30_fins.txt:324 ; end_13 30_fins.txt:354 ; end_14 30_fins.txt:391 ; end_15 30_fins.txt:424
-n_bei	ok	1	1	nui_70 93_objets.txt:276		nui_02 93_objets.txt:268
-n_coq	ok	1	1	nui_71 93_objets.txt:286		nui_02 93_objets.txt:269
-n_cor	ok	1	19	nui_51 19_nuit.txt:236		nui_02 19_nuit.txt:43 ; end_01 30_fins.txt:34 ; end_01 30_fins.txt:35 ; end_02 30_fins.txt:73 ; end_02 30_fins.txt:74 ; end_03 30_fins.txt:111 ; end_03 30_fins.txt:112 ; end_05 30_fins.txt:160 ; end_05 30_fins.txt:161 ; end_06 30_fins.txt:197 ; end_06 30_fins.txt:198 ; end_07 30_fins.txt:235 ; end_07 30_fins.txt:236 ; end_09 30_fins.txt:288 ; end_09 30_fins.txt:289 ; end_13 30_fins.txt:369 ; end_13 30_fins.txt:370 ; end_14 30_fins.txt:406 ; end_14 30_fins.txt:407
-n_fer	ok	1	1	nui_41 19_nuit.txt:122		nui_02 19_nuit.txt:30
-n_feu	ok	1	1	nui_60 19_nuit.txt:286		nui_02 19_nuit.txt:49
-n_ful	ok	1	1	nui_49 19_nuit.txt:193		nui_02 19_nuit.txt:39
-n_gas	ok	1	1	nui_50 19_nuit.txt:202		nui_02 19_nuit.txt:40
-n_gri	ok	1	1	nui_53 19_nuit.txt:254		nui_02 19_nuit.txt:45
-n_let	ok	1	1	nui_52 19_nuit.txt:244		nui_02 19_nuit.txt:44
-n_lou	ok	1	1	nui_55 19_nuit.txt:268		nui_02 19_nuit.txt:47
-n_mel	ok	1	1	nui_43 19_nuit.txt:138		nui_02 19_nuit.txt:32
-n_mou	ok	1	1	nui_73 93_objets.txt:300		nui_02 93_objets.txt:271
-n_noc	ok	1	1	nui_59 19_nuit.txt:276		nui_02 19_nuit.txt:48
-n_ond	ok	1	1	nui_56 19_nuit.txt:212		nui_02 19_nuit.txt:41
-n_pel	ok	1	1	nui_54 19_nuit.txt:260		nui_02 19_nuit.txt:46
-n_pli	ok	1	1	nui_48 19_nuit.txt:184		nui_02 19_nuit.txt:38
-n_plm	ok	1	1	nui_74 93_objets.txt:307		nui_02 93_objets.txt:272
-n_plu	ok	1	1	nui_58 19_nuit.txt:226		nui_02 19_nuit.txt:42
-n_qua	ok	1	1	nui_42 19_nuit.txt:130		nui_02 19_nuit.txt:31
-n_reg	ok	1	1	nui_61 19_nuit.txt:299		nui_02 19_nuit.txt:50
-n_rem	ok	2	5	nui_14 19_nuit.txt:94 ; nui_30 19_nuit.txt:111		nui_02 19_nuit.txt:27 ; nui_02 90_repliques_monde.txt:272 ; nui_02 19_nuit.txt:29 ; nui_02 19_nuit.txt:51 ; nui_02 19_nuit.txt:52
-n_tau	ok	1	1	nui_47 19_nuit.txt:174		nui_02 19_nuit.txt:37
-n_toi	ok	1	1	nui_72 93_objets.txt:293		nui_02 93_objets.txt:270
-n_ves	ok	2	2	nui_44 19_nuit.txt:146 ; nui_57 19_nuit.txt:219		nui_02 19_nuit.txt:33 ; nui_02 19_nuit.txt:34
-n_ysa	ok	1	1	nui_46 19_nuit.txt:165		nui_02 19_nuit.txt:36
-n_zou	ok	1	1	nui_45 19_nuit.txt:157		nui_02 19_nuit.txt:35
-noctuelles_guidees	ok	2	3	ana_14 09_anatole.txt:93 ; ana_14 09_anatole.txt:93		ana_16 09_anatole.txt:103 ; ana_16 09_anatole.txt:104 ; nui_59 19_nuit.txt:279
-nuageon_berce	jamais testé	4	0	nua_13 16_nuages.txt:104 ; nua_13 16_nuages.txt:104 ; nua_13 16_nuages.txt:105 ; nua_13 16_nuages.txt:105		
+meduses_amies	ok	2	1	ond_30 01_ondine.txt:195 ; ond_30 01_ondine.txt:196		cot_06 11_cotes.txt:40
+mer_parle	jamais testé	1	0	cot_25 11_cotes.txt:171		
+message_gaspard	jamais testé	1	0	nui_50 19_nuit.txt:208		
+message_lune	ok	2	6	cha_18 21_chantier.txt:140 ; neg_20 22_negociation.txt:168		neg_16 22_negociation.txt:131 ; neg_20 22_negociation.txt:163 ; neg_20 22_negociation.txt:165 ; neg_20 22_negociation.txt:166 ; neg_20 22_negociation.txt:167 ; neg_20 22_negociation.txt:168
+mesures_lune	jamais testé	1	0	cha_62 93_objets.txt:378		
+mort_coquille	ok	1	25	nui_10 19_nuit.txt:67		nui_02 19_nuit.txt:27 ; nui_11 19_nuit.txt:72 ; nui_11 19_nuit.txt:73 ; nui_11 93_objets.txt:323 ; end_01 30_fins.txt:15 ; end_01 30_fins.txt:16 ; end_02 30_fins.txt:67 ; end_02 30_fins.txt:68 ; end_03 30_fins.txt:118 ; end_03 30_fins.txt:119 ; end_05 30_fins.txt:194 ; end_05 30_fins.txt:195 ; end_06 30_fins.txt:244 ; end_06 30_fins.txt:245 ; end_07 30_fins.txt:295 ; end_07 30_fins.txt:296 ; end_09 30_fins.txt:375 ; end_09 30_fins.txt:376 ; end_10 30_fins.txt:424 ; end_11 30_fins.txt:445 ; end_13 30_fins.txt:475 ; end_13 30_fins.txt:476 ; end_14 30_fins.txt:519 ; end_14 30_fins.txt:520 ; end_15 30_fins.txt:573
+mort_hector	ok	2	2	lyc_09 08_barnabe.txt:58 ; lyc_10 08_barnabe.txt:64		nui_44 19_nuit.txt:150 ; nui_55 19_nuit.txt:271
+mort_remontoir	ok	4	13	nui_14 19_nuit.txt:101 ; nui_14 19_nuit.txt:102 ; nui_14 19_nuit.txt:102 ; nui_30 19_nuit.txt:117		nui_15 19_nuit.txt:107 ; end_01 30_fins.txt:19 ; end_02 30_fins.txt:71 ; end_03 30_fins.txt:122 ; end_05 30_fins.txt:198 ; end_06 30_fins.txt:248 ; end_07 30_fins.txt:299 ; end_09 30_fins.txt:379 ; end_10 30_fins.txt:424 ; end_11 30_fins.txt:445 ; end_13 30_fins.txt:479 ; end_14 30_fins.txt:523 ; end_15 30_fins.txt:573
+n_bei	ok	1	1	nui_70 93_objets.txt:280		nui_02 93_objets.txt:272
+n_col	ok	1	1	nui_77 68_corr_anatole.txt:22		nui_02 68_corr_anatole.txt:18
+n_coq	ok	1	1	nui_71 93_objets.txt:290		nui_02 93_objets.txt:273
+n_cor	ok	1	19	nui_51 19_nuit.txt:237		nui_02 19_nuit.txt:44 ; end_01 30_fins.txt:34 ; end_01 30_fins.txt:35 ; end_02 30_fins.txt:86 ; end_02 30_fins.txt:87 ; end_03 30_fins.txt:137 ; end_03 30_fins.txt:138 ; end_05 30_fins.txt:213 ; end_05 30_fins.txt:214 ; end_06 30_fins.txt:263 ; end_06 30_fins.txt:264 ; end_07 30_fins.txt:314 ; end_07 30_fins.txt:315 ; end_09 30_fins.txt:394 ; end_09 30_fins.txt:395 ; end_13 30_fins.txt:494 ; end_13 30_fins.txt:495 ; end_14 30_fins.txt:538 ; end_14 30_fins.txt:539
+n_fer	ok	1	1	nui_41 19_nuit.txt:123		nui_02 19_nuit.txt:31
+n_feu	ok	1	1	nui_60 19_nuit.txt:287		nui_02 19_nuit.txt:50
+n_ful	ok	1	1	nui_49 19_nuit.txt:194		nui_02 19_nuit.txt:40
+n_gas	ok	1	1	nui_50 19_nuit.txt:203		nui_02 19_nuit.txt:41
+n_gri	ok	1	1	nui_53 19_nuit.txt:255		nui_02 19_nuit.txt:46
+n_let	ok	1	1	nui_52 19_nuit.txt:245		nui_02 19_nuit.txt:45
+n_lou	ok	1	1	nui_55 19_nuit.txt:269		nui_02 19_nuit.txt:48
+n_mel	ok	1	1	nui_43 19_nuit.txt:139		nui_02 19_nuit.txt:33
+n_mou	ok	1	1	nui_73 93_objets.txt:304		nui_02 93_objets.txt:275
+n_noc	ok	1	4	nui_59 19_nuit.txt:277		nui_02 19_nuit.txt:49 ; asc_01 68_corr_anatole.txt:62 ; asc_01 68_corr_anatole.txt:63 ; asc_01 68_corr_anatole.txt:64
+n_ond	ok	1	1	nui_56 19_nuit.txt:213		nui_02 19_nuit.txt:42
+n_pel	ok	1	1	nui_54 19_nuit.txt:261		nui_02 19_nuit.txt:47
+n_pli	ok	1	1	nui_48 19_nuit.txt:185		nui_02 19_nuit.txt:39
+n_plm	ok	1	1	nui_74 93_objets.txt:311		nui_02 93_objets.txt:276
+n_plu	ok	1	1	nui_58 19_nuit.txt:227		nui_02 19_nuit.txt:43
+n_qua	ok	1	1	nui_42 19_nuit.txt:131		nui_02 19_nuit.txt:32
+n_reg	ok	1	1	nui_61 19_nuit.txt:300		nui_02 19_nuit.txt:51
+n_rem	ok	2	7	nui_14 19_nuit.txt:95 ; nui_30 19_nuit.txt:112		nui_02 19_nuit.txt:28 ; nui_02 90_repliques_monde.txt:272 ; nui_02 19_nuit.txt:30 ; nui_02 19_nuit.txt:52 ; nui_02 19_nuit.txt:53 ; nui_02 62_corr_pistil.txt:81 ; nui_02 62_corr_pistil.txt:82
+n_tau	ok	1	1	nui_47 19_nuit.txt:175		nui_02 19_nuit.txt:38
+n_toi	ok	1	1	nui_72 93_objets.txt:297		nui_02 93_objets.txt:274
+n_ves	ok	2	2	nui_44 19_nuit.txt:147 ; nui_57 19_nuit.txt:220		nui_02 19_nuit.txt:34 ; nui_02 19_nuit.txt:35
+n_ysa	ok	1	1	nui_46 19_nuit.txt:166		nui_02 19_nuit.txt:37
+n_zep	ok	1	1	nui_75 64_corr_zephyrin.txt:154		nui_02 64_corr_zephyrin.txt:150
+n_zou	ok	1	1	nui_45 19_nuit.txt:158		nui_02 19_nuit.txt:36
+noctuelles_attendent	ok	2	9	ana_14b 09_anatole.txt:142 ; ana_14b 09_anatole.txt:142		end_01 30_fins.txt:48 ; end_02 30_fins.txt:100 ; end_03 30_fins.txt:151 ; end_04 30_fins.txt:174 ; end_05 30_fins.txt:227 ; end_06 30_fins.txt:277 ; end_07 30_fins.txt:328 ; end_08 30_fins.txt:358 ; end_14 30_fins.txt:552
+noctuelles_guidees	ok	2	4	ana_14 09_anatole.txt:93 ; ana_14 09_anatole.txt:93		ana_16 09_anatole.txt:103 ; ana_16 09_anatole.txt:104 ; ana_14b 09_anatole.txt:137 ; ana_14b 09_anatole.txt:138
+noctuelles_suivent	ok	2	4	ana_14b 09_anatole.txt:143 ; ana_14b 09_anatole.txt:143		ana_16 09_anatole.txt:103 ; ana_16 09_anatole.txt:104 ; ana_16 09_anatole.txt:105 ; nui_59 19_nuit.txt:280
+nuageon_berce	jamais testé	4	0	nua_13 16_nuages.txt:105 ; nua_13 16_nuages.txt:105 ; nua_13 16_nuages.txt:106 ; nua_13 16_nuages.txt:106		
 nuit_encre	jamais testé	1	0	pne_00 49_pistil_encre.txt:17		
-obj_aiguille	ok	1	2	for_40 93_objets.txt:89		for_17 93_objets.txt:82 ; cha_15 93_objets.txt:390
-obj_aurore	ok	1	2	com_41 93_objets.txt:229	cha_67 93_objets.txt:419 ; cha_67 93_objets.txt:419	com_03 93_objets.txt:223 ; cha_15 93_objets.txt:392
-obj_ballon	ok	4	4	gnu_08 45_president_regions2.txt:231 ; gnu_08 45_president_regions2.txt:232 ; nua_41 93_objets.txt:208 ; nua_41 93_objets.txt:209	gmo_bal 44_president_fin.txt:287 ; gmo_bal 44_president_fin.txt:287 ; asc_32 93_objets.txt:340 ; asc_32 93_objets.txt:340	asc_01 93_objets.txt:328 ; gal_vei 40_president.txt:354 ; gfi_01 44_president_fin.txt:17 ; gfi_01 44_president_fin.txt:32
-obj_beignet	ok	2	2	hub_10 93_objets.txt:17 ; hub_10 93_objets.txt:18		hub_03 93_objets.txt:11 ; nui_02 93_objets.txt:268
-obj_berceau_nuage	ok	2	5	nua_13 16_nuages.txt:102 ; nua_13 16_nuages.txt:103	nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:64	nui_10 19_nuit.txt:62 ; nui_10 19_nuit.txt:64 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 93_objets.txt:314
-obj_berceuse	ok	1	5	pso_07 48_ploum_long.txt:169		pmo_bur 42_ploum.txt:429 ; pmo_bur 42_ploum.txt:433 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455
-obj_bille	ok	1	2	pro_40 93_objets.txt:136	asc_30 93_objets.txt:334 ; asc_30 93_objets.txt:334	pro_04 93_objets.txt:130 ; asc_01 93_objets.txt:327
-obj_boussole	ok	3	2	gal_03 40_president.txt:240 ; foi_15 93_objets.txt:262 ; foi_15 93_objets.txt:263	gal_renv 40_president.txt:372	cha_15 93_objets.txt:393 ; gal_renv 40_president.txt:372
-obj_bouteille_mer	ok	2	2	gco_02b 43_president_regions.txt:64 ; gco_02b 43_president_regions.txt:65	gco_03 43_president_regions.txt:89	gco_02c 43_president_regions.txt:72 ; gco_03 43_president_regions.txt:89
-obj_braise	ok	1	2	nui_60 93_objets.txt:322	cha_70 93_objets.txt:356 ; cha_70 93_objets.txt:356	nui_60 93_objets.txt:322 ; asc_22 93_objets.txt:349
-obj_brin_toile	ok	1	2	for_41 93_objets.txt:98		for_22 93_objets.txt:92 ; nui_02 93_objets.txt:270
-obj_caillou_lune	ok	1	3	pla_04b 47_platine_long.txt:37	plt_ana_c 47_platine_long.txt:249	pla_06b 47_platine_long.txt:53 ; pla_06b 47_platine_long.txt:54 ; plt_ana_c 47_platine_long.txt:249
-obj_carte	ok	5	7	gal_04 40_president.txt:247 ; plt_car3 47_platine_long.txt:314 ; hub_12 93_objets.txt:43 ; hub_12 93_objets.txt:44 ; hub_12 93_objets.txt:45	plf_02 41_platine.txt:249 ; gfo_03b 43_president_regions.txt:225 ; neg_58 93_objets.txt:461 ; neg_58 93_objets.txt:461	hub_ret 93_objets.txt:36 ; neg_06 93_objets.txt:455 ; plf_02 41_platine.txt:249 ; gfo_03b 43_president_regions.txt:225 ; end_21 44_president_fin.txt:225 ; end_21 44_president_fin.txt:226 ; plt_car3 47_platine_long.txt:315
-obj_casque	ok	1	1	asc_17 20_ascension.txt:116		cha_03 93_objets.txt:359
-obj_cauchemar	ok	2	5	pso_cauch 42_ploum.txt:277 ; son_42 93_objets.txt:115	pcm_vendu 42_ploum.txt:155 ; neg_52 93_objets.txt:480 ; neg_52 93_objets.txt:480	son_32 93_objets.txt:109 ; neg_16 93_objets.txt:465 ; pcm_vendu 42_ploum.txt:155 ; pso_04 42_ploum.txt:251 ; pso_04 42_ploum.txt:253
-obj_cle_grue	ok	1	2	cha_12 93_objets.txt:386	cha_69 93_objets.txt:432 ; cha_69 93_objets.txt:432	cha_12 93_objets.txt:386 ; cha_15 93_objets.txt:394
-obj_cle_remontage	ok	3	9	com_15 17_comete.txt:120 ; com_15 17_comete.txt:121 ; com_15 17_comete.txt:122	nui_14 19_nuit.txt:99 ; nui_14 19_nuit.txt:99 ; nui_30 19_nuit.txt:115 ; nui_30 19_nuit.txt:115	com_16 17_comete.txt:125 ; com_16 17_comete.txt:126 ; com_19 17_comete.txt:150 ; foi_09 18_foire.txt:80 ; nui_14 19_nuit.txt:97 ; nui_14 19_nuit.txt:99 ; nui_14 19_nuit.txt:100 ; nui_30 19_nuit.txt:114 ; nui_30 19_nuit.txt:115
-obj_coquillage	ok	2	2	cot_40 93_objets.txt:57 ; cot_40 93_objets.txt:58		cot_02 93_objets.txt:50 ; nui_02 93_objets.txt:269
-obj_coquille	ok	1	1	nui_11 93_objets.txt:317	neg_57 93_objets.txt:498 ; neg_57 93_objets.txt:498	neg_16 93_objets.txt:468
-obj_coquille_perline	ok	1	2	pne_ba2 49_pistil_encre.txt:76		pne_ba3 49_pistil_encre.txt:81 ; pno_02 49_pistil_encre.txt:364
+obj_aiguille	ok	1	2	for_40 93_objets.txt:93		for_17 93_objets.txt:86 ; cha_15 93_objets.txt:394
+obj_aurore	ok	1	2	com_41 93_objets.txt:233	cha_67 93_objets.txt:423 ; cha_67 93_objets.txt:423	com_03 93_objets.txt:227 ; cha_15 93_objets.txt:396
+obj_ballon	ok	4	4	gnu_08 45_president_regions2.txt:231 ; gnu_08 45_president_regions2.txt:232 ; nua_41 93_objets.txt:212 ; nua_41 93_objets.txt:213	gmo_bal 44_president_fin.txt:303 ; gmo_bal 44_president_fin.txt:303 ; asc_32 93_objets.txt:344 ; asc_32 93_objets.txt:344	asc_01 93_objets.txt:332 ; gal_vei 40_president.txt:359 ; gfi_01 44_president_fin.txt:17 ; gfi_01 44_president_fin.txt:35
+obj_beignet	ok	2	2	hub_10 93_objets.txt:17 ; hub_10 93_objets.txt:18		hub_03 93_objets.txt:11 ; nui_02 93_objets.txt:272
+obj_berceau_nuage	ok	2	5	nua_13 16_nuages.txt:103 ; nua_13 16_nuages.txt:104	nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:65	nui_10 19_nuit.txt:63 ; nui_10 19_nuit.txt:65 ; nui_10 19_nuit.txt:66 ; nui_10 19_nuit.txt:67 ; nui_10 93_objets.txt:318
+obj_berceuse	ok	1	5	pso_07 48_ploum_long.txt:169		pmo_bur 42_ploum.txt:428 ; pmo_bur 42_ploum.txt:432 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454
+obj_bille	ok	1	2	pro_40 93_objets.txt:140	asc_30 93_objets.txt:338 ; asc_30 93_objets.txt:338	pro_04 93_objets.txt:134 ; asc_01 93_objets.txt:331
+obj_boussole	ok	3	2	gal_03 40_president.txt:242 ; foi_15 93_objets.txt:266 ; foi_15 93_objets.txt:267	gal_renv 40_president.txt:383	cha_15 93_objets.txt:397 ; gal_renv 40_president.txt:383
+obj_bouteille_mer	ok	2	2	gco_02b 43_president_regions.txt:67 ; gco_02b 43_president_regions.txt:68	gco_03 43_president_regions.txt:92	gco_02c 43_president_regions.txt:75 ; gco_03 43_president_regions.txt:92
+obj_braise	ok	1	2	nui_60 93_objets.txt:326	cha_70 93_objets.txt:360 ; cha_70 93_objets.txt:360	nui_60 93_objets.txt:326 ; asc_22 93_objets.txt:353
+obj_brin_toile	ok	1	2	for_41 93_objets.txt:102		for_22 93_objets.txt:96 ; nui_02 93_objets.txt:274
+obj_caillou_lune	ok	1	5	pla_04b 47_platine_long.txt:37	plt_ana_c 47_platine_long.txt:253	plf_ligue3 41_platine.txt:266 ; pla_06b 47_platine_long.txt:52 ; pla_06b 47_platine_long.txt:53 ; pla_06b 47_platine_long.txt:54 ; plt_ana_c 47_platine_long.txt:253
+obj_carte	ok	5	7	gal_04 40_president.txt:249 ; plt_car3 47_platine_long.txt:318 ; hub_12 93_objets.txt:47 ; hub_12 93_objets.txt:48 ; hub_12 93_objets.txt:49	plf_02 41_platine.txt:291 ; gfo_03b 43_president_regions.txt:228 ; neg_58 93_objets.txt:465 ; neg_58 93_objets.txt:465	hub_ret 93_objets.txt:40 ; neg_06 93_objets.txt:459 ; plf_02 41_platine.txt:291 ; gfo_03b 43_president_regions.txt:228 ; end_21 44_president_fin.txt:241 ; end_21 44_president_fin.txt:242 ; plt_car3 47_platine_long.txt:319
+obj_casque	ok	1	1	asc_17 20_ascension.txt:116		cha_03 93_objets.txt:363
+obj_cauchemar	ok	2	5	pso_cauch 42_ploum.txt:274 ; son_42 93_objets.txt:119	pcm_vendu 42_ploum.txt:154 ; neg_52 93_objets.txt:484 ; neg_52 93_objets.txt:484	son_32 93_objets.txt:113 ; neg_16 93_objets.txt:469 ; pcm_vendu 42_ploum.txt:154 ; pso_04 42_ploum.txt:246 ; pso_04 42_ploum.txt:248
+obj_cle_grue	ok	1	2	cha_12 93_objets.txt:390	cha_69 93_objets.txt:436 ; cha_69 93_objets.txt:436	cha_12 93_objets.txt:390 ; cha_15 93_objets.txt:398
+obj_cle_remontage	ok	3	12	com_15 17_comete.txt:122 ; com_15 17_comete.txt:123 ; com_15 17_comete.txt:124	nui_14 19_nuit.txt:100 ; nui_14 19_nuit.txt:100 ; nui_30 19_nuit.txt:116 ; nui_30 19_nuit.txt:116 ; nui_75 64_corr_zephyrin.txt:159	com_16 17_comete.txt:127 ; com_16 17_comete.txt:128 ; com_19 17_comete.txt:152 ; foi_09 18_foire.txt:80 ; nui_14 19_nuit.txt:98 ; nui_14 19_nuit.txt:100 ; nui_14 19_nuit.txt:101 ; nui_30 19_nuit.txt:115 ; nui_30 19_nuit.txt:116 ; nui_75 64_corr_zephyrin.txt:158 ; nui_75 64_corr_zephyrin.txt:159 ; nui_75 64_corr_zephyrin.txt:160
+obj_coquillage	ok	2	2	cot_40 93_objets.txt:61 ; cot_40 93_objets.txt:62		cot_02 93_objets.txt:54 ; nui_02 93_objets.txt:273
+obj_coquille	ok	1	1	nui_11 93_objets.txt:321	neg_57 93_objets.txt:502 ; neg_57 93_objets.txt:502	neg_16 93_objets.txt:472
+obj_coquille_perline	ok	1	2	pne_ba2 49_pistil_encre.txt:76		pne_ba3 49_pistil_encre.txt:81 ; pno_02 49_pistil_encre.txt:368
 obj_corde_lyre	ok	1	4	ply_03 48_ploum_long.txt:33	pha_05 48_ploum_long.txt:277	ply_06 48_ploum_long.txt:59 ; ply_07 48_ploum_long.txt:67 ; pcm_09 48_ploum_long.txt:151 ; pha_05 48_ploum_long.txt:277
-obj_corne_brume	ok	1	1	nua_17 16_nuages.txt:146		nui_02 19_nuit.txt:43
-obj_couverture	ok	1	3	hub_11 93_objets.txt:32	nui_10 93_objets.txt:314 ; nui_10 93_objets.txt:314	hub_04 93_objets.txt:21 ; nui_10 93_objets.txt:313 ; nui_10 93_objets.txt:314
+obj_corne_brume	ok	1	1	nua_17 16_nuages.txt:147		nui_02 19_nuit.txt:44
+obj_couverture	ok	5	3	hub_11 93_objets.txt:33 ; hub_11 93_objets.txt:34 ; hub_11 93_objets.txt:35 ; hub_11 93_objets.txt:36 ; hub_11 94_corr_anatole_hub.txt:2	nui_10 93_objets.txt:318 ; nui_10 93_objets.txt:318	hub_04 93_objets.txt:21 ; nui_10 93_objets.txt:317 ; nui_10 93_objets.txt:318
 obj_croc_argent	ok	1	1	lyc_07 08_barnabe.txt:43		fin_01 23_final.txt:15
-obj_dessin_lune	ok	2	4	plu_06 48_ploum_long.txt:100 ; plu_06 48_ploum_long.txt:101		pch_01 51_ploum_repliques.txt:235 ; pmo_bur 42_ploum.txt:425 ; pnu_00d 50_ploum_long2.txt:192 ; pnu_00d 50_ploum_long2.txt:193
-obj_echarpe	ok	1	2	plt_ana_b 47_platine_long.txt:242		plt_nuit 41_platine.txt:97 ; plf_01b 47_platine_long.txt:333
-obj_echo	ok	4	7	pcm_02 42_ploum.txt:97 ; gpr_06 45_president_regions2.txt:75 ; gpr_06 45_president_regions2.txt:76 ; pro_41 93_objets.txt:149	pcm_vendu 42_ploum.txt:154 ; gmo_02 44_president_fin.txt:315 ; cha_64 93_objets.txt:440 ; cha_64 93_objets.txt:440	pro_33 93_objets.txt:142 ; cha_27 93_objets.txt:435 ; pcm_03 42_ploum.txt:102 ; pcm_03 42_ploum.txt:106 ; pcm_06 42_ploum.txt:144 ; pcm_vendu 42_ploum.txt:154 ; gmo_02 44_president_fin.txt:315
-obj_eclipse	ok	2	11	pcm_07 48_ploum_long.txt:138 ; com_40 93_objets.txt:243		hub_ret 94_vesperine.txt:11 ; cot_01 94_vesperine.txt:14 ; for_01 94_vesperine.txt:17 ; cap_01 94_vesperine.txt:20 ; nua_01 94_vesperine.txt:23 ; com_13 93_objets.txt:232 ; com_14 93_objets.txt:235 ; com_15 93_objets.txt:247 ; asc_01 94_vesperine.txt:26 ; asc_04 93_objets.txt:343 ; pch_01 42_ploum.txt:383
-obj_etoile	ok	1	2	com_19 93_objets.txt:250	fin_32 93_objets.txt:516 ; fin_32 93_objets.txt:516 ; fin_32 93_objets.txt:517	com_19 93_objets.txt:250 ; fin_01 93_objets.txt:504
-obj_facette	ok	5	4	pro_20 93_objets.txt:139 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:109 ; plt_bri_d 47_platine_long.txt:218	plf_02 41_platine.txt:248 ; gmo_02 44_president_fin.txt:316	pro_20 93_objets.txt:139 ; cha_11 93_objets.txt:377 ; plf_02 41_platine.txt:248 ; gmo_02 44_president_fin.txt:316
-obj_fil_lune	ok	3	3	gal_01b 46_president_ajouts.txt:52 ; gal_01b 46_president_ajouts.txt:53 ; gal_01b 46_president_ajouts.txt:53	gfo_03b 43_president_regions.txt:226 ; gmo_01 44_president_fin.txt:304	gfo_03b 43_president_regions.txt:226 ; gmo_01 44_president_fin.txt:304 ; gal_nuit2 46_president_ajouts.txt:114
-obj_fleur_epine	ok	1	2	cap_12 93_objets.txt:179	neg_56 93_objets.txt:492 ; neg_56 93_objets.txt:492	cap_12 93_objets.txt:179 ; neg_16 93_objets.txt:467
-obj_gamelle	ok	1	4	plu_05 48_ploum_long.txt:93	pnu_00 48_ploum_long.txt:320	plu_07 51_ploum_repliques.txt:8 ; pnu_00 48_ploum_long.txt:315 ; pnu_00 51_ploum_repliques.txt:198 ; pnu_00 48_ploum_long.txt:320
-obj_goutte	ok	1	2	nua_40 93_objets.txt:199	cha_66 93_objets.txt:413 ; cha_66 93_objets.txt:413	nua_07 93_objets.txt:193 ; cha_15 93_objets.txt:391
-obj_goutte_ondee	ok	1	1	pha_goutte 48_ploum_long.txt:242	pch_01 42_ploum.txt:382	pch_01 42_ploum.txt:382
+obj_dessin_lune	ok	2	5	plu_06 48_ploum_long.txt:100 ; plu_06 48_ploum_long.txt:101		pch_01 51_ploum_repliques.txt:231 ; pmo_bur 42_ploum.txt:424 ; pnu_00d 50_ploum_long2.txt:192 ; pnu_00d 50_ploum_long2.txt:193 ; pnu_00d 50_ploum_long2.txt:194
+obj_echarpe	ok	1	4	plt_ana_b 47_platine_long.txt:246		plt_nuit 41_platine.txt:99 ; end_25 41_platine.txt:407 ; end_26 41_platine.txt:418 ; plf_01b 47_platine_long.txt:337
+obj_echo	ok	4	8	pcm_02 42_ploum.txt:95 ; gpr_06 45_president_regions2.txt:75 ; gpr_06 45_president_regions2.txt:76 ; pro_41 93_objets.txt:153	pcm_vendu 42_ploum.txt:153 ; gfi_tel 44_president_fin.txt:75 ; gmo_02 44_president_fin.txt:331 ; cha_64 93_objets.txt:444 ; cha_64 93_objets.txt:444	pro_33 93_objets.txt:146 ; cha_27 93_objets.txt:439 ; pcm_03 42_ploum.txt:100 ; pcm_03 42_ploum.txt:104 ; pcm_06 42_ploum.txt:142 ; pcm_vendu 42_ploum.txt:153 ; gfi_tel 44_president_fin.txt:75 ; gmo_02 44_president_fin.txt:331
+obj_eclipse	ok	2	11	pcm_07 48_ploum_long.txt:138 ; com_40 93_objets.txt:247		hub_ret 94_vesperine.txt:11 ; cot_01 94_vesperine.txt:14 ; for_01 94_vesperine.txt:17 ; cap_01 94_vesperine.txt:20 ; nua_01 94_vesperine.txt:23 ; com_13 93_objets.txt:236 ; com_14 93_objets.txt:239 ; com_15 93_objets.txt:251 ; asc_01 94_vesperine.txt:26 ; asc_04 93_objets.txt:347 ; pch_01 42_ploum.txt:382
+obj_etoile	ok	1	2	com_19 93_objets.txt:254	fin_32 93_objets.txt:520 ; fin_32 93_objets.txt:520 ; fin_32 93_objets.txt:521	com_19 93_objets.txt:254 ; fin_01 93_objets.txt:508
+obj_facette	ok	5	6	pro_20 93_objets.txt:143 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:109 ; plt_bri_d 47_platine_long.txt:222	plf_02 41_platine.txt:290 ; gfi_som 69_corr_president.txt:61 ; gfi_som 69_corr_president.txt:61 ; gmo_02 44_president_fin.txt:332	pro_20 93_objets.txt:143 ; cha_11 93_objets.txt:381 ; plf_02 41_platine.txt:290 ; gfi_01 44_president_fin.txt:28 ; gfi_som 69_corr_president.txt:61 ; gmo_02 44_president_fin.txt:332
+obj_fil_lune	ok	3	3	gal_01b 46_president_ajouts.txt:52 ; gal_01b 46_president_ajouts.txt:53 ; gal_01b 46_president_ajouts.txt:53	gfo_03b 43_president_regions.txt:229 ; gmo_01 44_president_fin.txt:320	gfo_03b 43_president_regions.txt:229 ; gmo_01 44_president_fin.txt:320 ; gal_nuit2 46_president_ajouts.txt:114
+obj_fleur_epine	ok	1	2	cap_12 93_objets.txt:183	neg_56 93_objets.txt:496 ; neg_56 93_objets.txt:496	cap_12 93_objets.txt:183 ; neg_16 93_objets.txt:471
+obj_gamelle	ok	1	4	plu_05 48_ploum_long.txt:93	pnu_00 48_ploum_long.txt:320	plu_07 51_ploum_repliques.txt:8 ; pnu_00 48_ploum_long.txt:315 ; pnu_00 51_ploum_repliques.txt:194 ; pnu_00 48_ploum_long.txt:320
+obj_goutte	ok	1	2	nua_40 93_objets.txt:203	cha_66 93_objets.txt:417 ; cha_66 93_objets.txt:417	nua_07 93_objets.txt:197 ; cha_15 93_objets.txt:395
+obj_goutte_ondee	ok	1	1	pha_goutte 48_ploum_long.txt:242	pch_01 42_ploum.txt:381	pch_01 42_ploum.txt:381
 obj_grain_axe	ok	2	1	pne_br3 49_pistil_encre.txt:138 ; pne_br3 49_pistil_encre.txt:139	pnc_c2 49_pistil_encre.txt:265	pnc_c2 49_pistil_encre.txt:265
 obj_graine_lune	ok	1	1	for_36 12_foret.txt:240	cha_52 24_suites_v3.txt:109 ; cha_52 24_suites_v3.txt:109	cha_15 21_chantier.txt:111
-obj_herbier	ok	1	3	ana_10 09_anatole.txt:66	neg_46 24_suites_v3.txt:153 ; neg_46 24_suites_v3.txt:153	nua_18 16_nuages.txt:156 ; nui_59 19_nuit.txt:278 ; neg_16 22_negociation.txt:137
-obj_laissez_passer	ok	2	2	plu_03b 48_ploum_long.txt:402 ; plu_lp 48_ploum_long.txt:409		pha_03 48_ploum_long.txt:252 ; pmo_03 48_ploum_long.txt:497
-obj_lanterne	ok	1	2	cot_41 93_objets.txt:67		cot_09 93_objets.txt:61 ; cha_15 93_objets.txt:389
-obj_lettre_platine	ok	1	1	plt_cot_e 47_platine_long.txt:124	plf_02 41_platine.txt:246	plf_02 41_platine.txt:246
-obj_lettre_vent	ok	2	4	gri_01 06_griselidis.txt:7 ; gnu_02b 46_president_ajouts.txt:90	fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187 ; gmo_01 44_president_fin.txt:303	nui_02 19_nuit.txt:44 ; fin_01 23_final.txt:14 ; gmo_01 44_president_fin.txt:303 ; gal_nuit2 46_president_ajouts.txt:115
+obj_herbier	ok	1	5	ana_10 09_anatole.txt:66		nua_18 16_nuages.txt:157 ; nui_59 19_nuit.txt:279 ; neg_16 22_negociation.txt:138 ; nui_59b 68_corr_anatole.txt:48 ; nui_59b 68_corr_anatole.txt:50
+obj_laissez_passer	ok	1	2	plu_03b 48_ploum_long.txt:402		pha_03 48_ploum_long.txt:252 ; pmo_03 48_ploum_long.txt:498
+obj_lanterne	ok	1	2	cot_41 93_objets.txt:71		cot_09 93_objets.txt:65 ; cha_15 93_objets.txt:393
+obj_lettre_platine	ok	1	1	plt_cot_e 47_platine_long.txt:123	plf_02 41_platine.txt:288	plf_02 41_platine.txt:288
+obj_lettre_vent	ok	2	5	gri_01 06_griselidis.txt:7 ; gnu_02b 46_president_ajouts.txt:90	fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187 ; gfi_som 69_corr_president.txt:60 ; gmo_01 44_president_fin.txt:319	nui_02 19_nuit.txt:45 ; fin_01 23_final.txt:14 ; gfi_som 69_corr_president.txt:60 ; gmo_01 44_president_fin.txt:319 ; gal_nuit2 46_president_ajouts.txt:115
 obj_longue_vue	ok	4	3	gnu_10b 46_president_ajouts.txt:169 ; gnu_10b 46_president_ajouts.txt:170 ; pct_05 48_ploum_long.txt:193 ; pct_lv 48_ploum_long.txt:201	gfi_01 44_president_fin.txt:23	gfi_01 44_president_fin.txt:23 ; pnu_00b 48_ploum_long.txt:327 ; pnu_00b 48_ploum_long.txt:328
 obj_maille_lune	ok	2	1	pne_me3 49_pistil_encre.txt:111 ; pne_me3 49_pistil_encre.txt:112	pnc_a2 49_pistil_encre.txt:229	pnc_a2 49_pistil_encre.txt:229
-obj_metre	ok	1	2	for_33 93_objets.txt:101		for_33 93_objets.txt:101 ; cha_04 93_objets.txt:368
-obj_miroir_platine	ok	5	13	com_12 17_comete.txt:97 ; com_12 17_comete.txt:98 ; com_12 17_comete.txt:99 ; pcm_04 42_ploum.txt:125 ; pcr_01 42_ploum.txt:177	com_15 17_comete.txt:121 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145	com_13 17_comete.txt:102 ; com_13 17_comete.txt:103 ; com_14 17_comete.txt:110 ; com_14 17_comete.txt:111 ; com_15 17_comete.txt:119 ; com_15 17_comete.txt:121 ; com_19 17_comete.txt:150 ; nui_48 19_nuit.txt:187 ; nui_49 19_nuit.txt:195 ; neg_16 22_negociation.txt:134 ; neg_42 24_suites_v3.txt:137 ; pcr_01 42_ploum.txt:177 ; pmo_bur 42_ploum.txt:423
-obj_mouton	ok	2	2	son_41 93_objets.txt:124 ; son_41 93_objets.txt:125		son_35 93_objets.txt:118 ; nui_02 93_objets.txt:271
-obj_neveu_galet	ok	2	9	gpa_12 40_president.txt:129 ; cap_42 93_objets.txt:188		pro_18 93_objets.txt:152 ; pro_19 93_objets.txt:155 ; cap_17 93_objets.txt:182 ; gfi_mar 44_president_fin.txt:77 ; end_20 44_president_fin.txt:217 ; end_21 44_president_fin.txt:227 ; end_22 44_president_fin.txt:245 ; end_33 44_president_fin.txt:396 ; end_34 44_president_fin.txt:412
-obj_oreiller	ok	1	1	son_21 93_objets.txt:106	fin_30 93_objets.txt:509 ; fin_30 93_objets.txt:510	fin_01 93_objets.txt:503
-obj_piquet	ok	1	1	plt_cot_g 47_platine_long.txt:107	plf_02 41_platine.txt:247	plf_02 41_platine.txt:247
-obj_plume	ok	1	2	nua_42 93_objets.txt:218		nua_18 93_objets.txt:212 ; nui_02 93_objets.txt:272
-obj_portrait	ok	1	1	gfo_02b 46_president_ajouts.txt:151	gfi_ech 44_president_fin.txt:112	gfi_ech 44_president_fin.txt:112
+obj_metre	ok	1	2	for_33 93_objets.txt:105		for_33 93_objets.txt:105 ; cha_04 93_objets.txt:372
+obj_miroir_platine	ok	5	15	com_12 17_comete.txt:98 ; com_12 17_comete.txt:99 ; com_12 17_comete.txt:100 ; pcm_04 42_ploum.txt:123 ; pcr_01 42_ploum.txt:179	com_15 17_comete.txt:123 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145	com_13 17_comete.txt:103 ; com_13 17_comete.txt:104 ; com_13 64_corr_zephyrin.txt:106 ; com_13 64_corr_zephyrin.txt:107 ; com_14 17_comete.txt:112 ; com_14 17_comete.txt:113 ; com_15 17_comete.txt:121 ; com_15 17_comete.txt:123 ; com_19 17_comete.txt:152 ; nui_48 19_nuit.txt:188 ; nui_49 19_nuit.txt:196 ; neg_16 22_negociation.txt:135 ; neg_42 24_suites_v3.txt:137 ; pcr_01 42_ploum.txt:179 ; pmo_bur 42_ploum.txt:422
+obj_mouton	ok	2	2	son_41 93_objets.txt:128 ; son_41 93_objets.txt:129		son_35 93_objets.txt:122 ; nui_02 93_objets.txt:275
+obj_neveu_galet	ok	2	14	gpa_12 40_president.txt:131 ; cap_42 93_objets.txt:192	hub_ret 61_corr_basile.txt:40 ; gco_01b 43_president_regions.txt:32 ; gco_01b 43_president_regions.txt:33	hub_ret 61_corr_basile.txt:40 ; pro_18 93_objets.txt:156 ; pro_19 93_objets.txt:159 ; cap_17 93_objets.txt:186 ; gco_01b 43_president_regions.txt:28 ; gco_01b 43_president_regions.txt:32 ; gco_01b 43_president_regions.txt:33 ; gfi_mar 44_president_fin.txt:86 ; gfi_mar 44_president_fin.txt:87 ; end_20 44_president_fin.txt:233 ; end_21 44_president_fin.txt:243 ; end_22 44_president_fin.txt:261 ; end_33 44_president_fin.txt:414 ; end_34 44_president_fin.txt:430
+obj_oreiller	ok	1	1	son_21 93_objets.txt:110	fin_30 93_objets.txt:513 ; fin_30 93_objets.txt:514	fin_01 93_objets.txt:507
+obj_piquet	ok	1	1	plt_cot_g 47_platine_long.txt:106	plf_02 41_platine.txt:289	plf_02 41_platine.txt:289
+obj_plume	ok	1	2	nua_42 93_objets.txt:222		nua_18 93_objets.txt:216 ; nui_02 93_objets.txt:276
+obj_portrait	ok	1	1	gfo_02b 46_president_ajouts.txt:151	gfi_ech 44_president_fin.txt:124	gfi_ech 44_president_fin.txt:124
 obj_poussiere_comete	ok	2	1	pne_zo3 49_pistil_encre.txt:165 ; pne_zo3 49_pistil_encre.txt:166	pnc_d2 49_pistil_encre.txt:283	pnc_d2 49_pistil_encre.txt:283
 obj_registre_pluie	ok	2	2	gnu_06 45_president_regions2.txt:211 ; gnu_06 45_president_regions2.txt:212	gnu_09 45_president_regions2.txt:242 ; gnu_09 45_president_regions2.txt:242	gnu_09 45_president_regions2.txt:238 ; gnu_09 45_president_regions2.txt:242
-obj_sablier	ok	1	2	cot_42 93_objets.txt:76	neg_50 93_objets.txt:474 ; neg_50 93_objets.txt:474	cot_36 93_objets.txt:70 ; neg_16 93_objets.txt:464
-obj_tampon_vu	ok	2	3	gpa_14 40_president.txt:147 ; cap_40 93_objets.txt:176	gal_renv 40_president.txt:371 ; neg_54 93_objets.txt:486 ; neg_54 93_objets.txt:486	cap_03 93_objets.txt:169 ; neg_16 93_objets.txt:466 ; gal_renv 40_president.txt:371
-obj_ticket_trouve	ok	2	2	plu_04 48_ploum_long.txt:78 ; plu_04 48_ploum_long.txt:79		pcm_vendu 42_ploum.txt:156 ; plu_route 51_ploum_repliques.txt:22
-obj_ticket_zero	ok	2	5	gpa_13 40_president.txt:140 ; cap_41 93_objets.txt:166	gal_renv 40_president.txt:370 ; neg_55 93_objets.txt:452	cap_02 93_objets.txt:160 ; neg_01 93_objets.txt:445 ; gpa_13 40_president.txt:138 ; gpa_13 40_president.txt:140 ; gal_renv 40_president.txt:370
+obj_sablier	ok	1	2	cot_42 93_objets.txt:80	neg_50 93_objets.txt:478 ; neg_50 93_objets.txt:478	cot_36 93_objets.txt:74 ; neg_16 93_objets.txt:468
+obj_tampon_vu	ok	2	4	gpa_14 40_president.txt:149 ; cap_40 93_objets.txt:180	gal_renv 40_president.txt:382 ; gfi_sig 69_corr_president.txt:70 ; neg_54 93_objets.txt:490 ; neg_54 93_objets.txt:490	cap_03 93_objets.txt:173 ; neg_16 93_objets.txt:470 ; gal_renv 40_president.txt:382 ; gfi_sig 69_corr_president.txt:70
+obj_ticket_trouve	ok	2	2	plu_04 48_ploum_long.txt:78 ; plu_04 48_ploum_long.txt:79		pcm_vendu 42_ploum.txt:155 ; plu_route 51_ploum_repliques.txt:22
+obj_ticket_zero	ok	2	5	gpa_13 40_president.txt:142 ; cap_41 93_objets.txt:170	gal_renv 40_president.txt:381 ; neg_55 93_objets.txt:456	cap_02 93_objets.txt:164 ; neg_01 93_objets.txt:449 ; gpa_13 40_president.txt:140 ; gpa_13 40_president.txt:142 ; gal_renv 40_president.txt:381
 obj_voeu_occasion	ok	1	2	pcm_08b 50_ploum_long2.txt:46	pnu_01d 50_ploum_long2.txt:102	pnu_01d 50_ploum_long2.txt:101 ; pnu_01d 50_ploum_long2.txt:102
-offre_concierge	ok	1	1	neg_24 22_negociation.txt:193		fin_22 23_final.txt:179
-offre_rachat	ok	3	1	neg_13 22_negociation.txt:99 ; neg_13 22_negociation.txt:99 ; neg_13 22_negociation.txt:100		fin_01 23_final.txt:20
-ondee_pleut	ok	3	1	nua_12 16_nuages.txt:94 ; nua_12 16_nuages.txt:94 ; com_18 17_comete.txt:143		nua_18 16_nuages.txt:153
-ondee_renvoyee	ok	1	3	com_18 17_comete.txt:143		nua_12 16_nuages.txt:89 ; nua_12 16_nuages.txt:92 ; nua_12 16_nuages.txt:93
-ondee_soulagee	ok	5	2	nua_07 16_nuages.txt:58 ; nua_07 16_nuages.txt:58 ; nua_07 16_nuages.txt:59 ; nua_07 16_nuages.txt:59 ; nua_40 93_objets.txt:199		nua_10 16_nuages.txt:81 ; nua_10 16_nuages.txt:82
-ondee_vue	ok	1	2	nua_04 16_nuages.txt:33		nua_10 16_nuages.txt:81 ; nua_10 16_nuages.txt:82
+offre_concierge	ok	1	1	neg_24 22_negociation.txt:194		fin_22 23_final.txt:182
+offre_rachat	ok	3	1	neg_13 22_negociation.txt:100 ; neg_13 22_negociation.txt:100 ; neg_13 22_negociation.txt:101		fin_01 23_final.txt:20
+ondee_pleut	ok	3	1	nua_12 16_nuages.txt:95 ; nua_12 16_nuages.txt:95 ; com_18 17_comete.txt:145		nua_18 16_nuages.txt:154
+ondee_renvoyee	ok	1	3	com_18 17_comete.txt:145		nua_12 16_nuages.txt:90 ; nua_12 16_nuages.txt:93 ; nua_12 16_nuages.txt:94
+ondee_soulagee	ok	5	2	nua_07 16_nuages.txt:59 ; nua_07 16_nuages.txt:59 ; nua_07 16_nuages.txt:60 ; nua_07 16_nuages.txt:60 ; nua_40 93_objets.txt:203		nua_10 16_nuages.txt:82 ; nua_10 16_nuages.txt:83
+ondee_vue	ok	1	2	nua_04 16_nuages.txt:34		nua_10 16_nuages.txt:82 ; nua_10 16_nuages.txt:83
 ordre_mission	ok	1	1	gri_18 06_griselidis.txt:128		gri_20 06_griselidis.txt:138
-ouvriers_entendent	jamais testé	9	0	cha_03 21_chantier.txt:22 ; cha_03 21_chantier.txt:22 ; cha_65 93_objets.txt:365 ; cha_65 93_objets.txt:365 ; cha_60 93_objets.txt:400 ; cha_60 93_objets.txt:400 ; cha_67 93_objets.txt:419 ; cha_64 93_objets.txt:440 ; cha_64 93_objets.txt:440		
+ouvriers_entendent	jamais testé	9	0	cha_03 21_chantier.txt:22 ; cha_03 21_chantier.txt:22 ; cha_65 93_objets.txt:369 ; cha_65 93_objets.txt:369 ; cha_60 93_objets.txt:404 ; cha_60 93_objets.txt:404 ; cha_67 93_objets.txt:423 ; cha_64 93_objets.txt:444 ; cha_64 93_objets.txt:444		
 ouvriers_mecontents	jamais testé	3	0	asc_14 20_ascension.txt:100 ; asc_15 20_ascension.txt:106 ; cha_46 24_suites_v3.txt:70		
 p_aller_simple	jamais testé	1	0	gtr_01b 46_president_ajouts.txt:189		
 p_annonce	ok	1	2	gpa_03 40_president.txt:42		gpa_08 40_president.txt:86 ; gpa_08b 46_president_ajouts.txt:20
-p_anselme	jamais testé	1	0	gpa_17 40_president.txt:177		
-p_aud_lune	ok	1	1	gpa_05 40_president.txt:63		gal_02 40_president.txt:230
+p_anselme	ok	1	8	gpa_17 40_president.txt:179		end_16 69_corr_president.txt:138 ; end_17 69_corr_president.txt:146 ; end_18 69_corr_president.txt:152 ; end_21 69_corr_president.txt:170 ; end_22 69_corr_president.txt:177 ; end_23 69_corr_president.txt:183 ; end_33 69_corr_president.txt:190 ; end_34 69_corr_president.txt:201
+p_aud_lune	ok	1	1	gpa_05 40_president.txt:63		gal_02 40_president.txt:232
 p_aud_peche	jamais testé	3	0	gpa_05 40_president.txt:62 ; gpa_05 40_president.txt:63 ; gpa_05 40_president.txt:64		
 p_aud_vibre	jamais testé	1	0	gpa_06 40_president.txt:73		
-p_augmente	jamais testé	1	0	gal_renv 40_president.txt:369		
-p_ballon	ok	2	2	gmo_bal 44_president_fin.txt:287 ; gmo_bal 44_president_fin.txt:287		gmo_01 44_president_fin.txt:295 ; gmo_04 44_president_fin.txt:337
-p_basalte	jamais testé	1	0	gpa_14b 46_president_ajouts.txt:180		
-p_basile_sait	jamais testé	1	0	gfo_04c 43_president_regions.txt:269		
-p_basile_sig	ok	1	4	gal_toile 40_president.txt:332		gal_toile 40_president.txt:332 ; gal_toile 40_president.txt:333 ; gal_toile 40_president.txt:334 ; gfi_01 44_president_fin.txt:29
-p_basile_vient	ok	1	4	gal_toile 40_president.txt:334		gal_ret 40_president.txt:308 ; gal_toile 40_president.txt:334 ; gal_vei 40_president.txt:341 ; gal_vei 40_president.txt:339
-p_beignet	ok	2	1	gpa_09 40_president.txt:100 ; gal_01 40_president.txt:220		gal_02 40_president.txt:228
+p_augmente	ok	1	1	gal_renv 40_president.txt:380		gal_renv 40_president.txt:380
+p_ballon	ok	2	2	gmo_bal 44_president_fin.txt:303 ; gmo_bal 44_president_fin.txt:303		gmo_01 44_president_fin.txt:311 ; gmo_04 44_president_fin.txt:353
+p_basalte	ok	1	1	gpa_14b 46_president_ajouts.txt:180		gmo_01 69_corr_president.txt:47
+p_basile_sait	jamais testé	1	0	gfo_04c 43_president_regions.txt:272		
+p_basile_sig	ok	1	4	gal_toile 40_president.txt:337		gal_toile 40_president.txt:337 ; gal_toile 40_president.txt:338 ; gal_toile 40_president.txt:339 ; gfi_01 44_president_fin.txt:31
+p_basile_vient	ok	1	4	gal_toile 40_president.txt:339		gal_ret 40_president.txt:313 ; gal_toile 40_president.txt:339 ; gal_vei 40_president.txt:346 ; gal_vei 40_president.txt:344
+p_beignet	ok	2	1	gpa_09 40_president.txt:100 ; gal_01 40_president.txt:222		gal_02 40_president.txt:230
 p_cale	ok	2	2	gpr_11 45_president_regions2.txt:130 ; gpr_11 45_president_regions2.txt:131		gpr_12 45_president_regions2.txt:137 ; gal_nuit2 46_president_ajouts.txt:116
 p_cantonnier	jamais testé	1	0	gpa_08b 46_president_ajouts.txt:22		
-p_carte_donnee	jamais testé	1	0	gfo_03b 43_president_regions.txt:225		
-p_champagne	ok	2	2	gfi_pro 44_president_fin.txt:97 ; gfi_pro 44_president_fin.txt:99		gfi_ech 44_president_fin.txt:105 ; gfi_ech 44_president_fin.txt:108
-p_code	ok	1	3	gco_04 43_president_regions.txt:116		gfi_01 44_president_fin.txt:26 ; gfi_01 44_president_fin.txt:30 ; gfi_sig 44_president_fin.txt:40
-p_conseil_essai	ok	2	1	gal_renv 40_president.txt:373 ; gal_renv 40_president.txt:373		gal_renv 40_president.txt:373
-p_constat_rate	ok	1	1	gmo_04 44_president_fin.txt:340		gmo_05 44_president_fin.txt:348
-p_court	ok	2	3	gfi_tel 44_president_fin.txt:69 ; gfi_tel 44_president_fin.txt:70		end_19 44_president_fin.txt:194 ; end_19 44_president_fin.txt:195 ; end_19 44_president_fin.txt:196
-p_dest_gco	ok	1	5	gal_05 40_president.txt:258		gal_dep2 40_president.txt:281 ; gal_dep2 40_president.txt:285 ; gal_route 54_president_scenes.txt:94 ; gal_route 54_president_scenes.txt:101 ; gal_route 54_president_scenes.txt:105
-p_dest_gfo	ok	1	5	gal_05 40_president.txt:260		gal_dep2 40_president.txt:283 ; gal_dep2 40_president.txt:287 ; gal_route 54_president_scenes.txt:96 ; gal_route 54_president_scenes.txt:103 ; gal_route 54_president_scenes.txt:107
-p_dest_gnu	ok	1	5	gal_05 40_president.txt:261		gal_dep2 40_president.txt:284 ; gal_dep2 40_president.txt:288 ; gal_route 54_president_scenes.txt:97 ; gal_route 54_president_scenes.txt:104 ; gal_route 54_president_scenes.txt:108
-p_dest_gpr	ok	1	5	gal_05 40_president.txt:259		gal_dep2 40_president.txt:282 ; gal_dep2 40_president.txt:286 ; gal_route 54_president_scenes.txt:95 ; gal_route 54_president_scenes.txt:102 ; gal_route 54_president_scenes.txt:106
-p_digue	ok	2	2	gco_01b 43_president_regions.txt:29 ; gco_01b 43_president_regions.txt:30		gco_01c 43_president_regions.txt:37 ; gco_07 43_president_regions.txt:154
-p_doute	ok	1	1	gal_02 40_president.txt:233		gal_05 40_president.txt:255
-p_echo_lache	ok	1	3	gmo_02 44_president_fin.txt:315		gmo_03 44_president_fin.txt:321 ; gmo_03 44_president_fin.txt:322 ; gmo_saisie 44_president_fin.txt:366
-p_echo_non	ok	1	1	gpr_06 45_president_regions2.txt:76		gmo_03 44_president_fin.txt:322
-p_fil_donne	jamais testé	1	0	gfo_03b 43_president_regions.txt:226		
-p_fil_rendu	jamais testé	1	0	gmo_01 44_president_fin.txt:304		
+p_carte_donnee	jamais testé	1	0	gfo_03b 43_president_regions.txt:228		
+p_champagne	ok	2	3	gfi_pro 44_president_fin.txt:107 ; gfi_pro 44_president_fin.txt:109		gfi_ech 44_president_fin.txt:116 ; gfi_ech 44_president_fin.txt:119 ; gfi_ech 44_president_fin.txt:120
+p_code	ok	1	4	gco_04 43_president_regions.txt:119		gfi_01 44_president_fin.txt:26 ; gfi_01 44_president_fin.txt:32 ; gfi_01 44_president_fin.txt:33 ; gfi_sig 44_president_fin.txt:44
+p_conseil_essai	ok	2	1	gal_renv 40_president.txt:384 ; gal_renv 40_president.txt:384		gal_renv 40_president.txt:384
+p_constat_rate	ok	1	1	gmo_04 44_president_fin.txt:357		gmo_05 44_president_fin.txt:365
+p_court	ok	5	4	gfi_som 69_corr_president.txt:59 ; gfi_som 69_corr_president.txt:61 ; gfi_tel 44_president_fin.txt:76 ; gfi_tel 44_president_fin.txt:77 ; gfi_tel 44_president_fin.txt:78		end_19 44_president_fin.txt:208 ; end_19 44_president_fin.txt:209 ; end_19 44_president_fin.txt:210 ; end_19 44_president_fin.txt:211
+p_dest_gco	ok	1	5	gal_05 40_president.txt:260		gal_dep2 40_president.txt:283 ; gal_dep2 40_president.txt:287 ; gal_route 54_president_scenes.txt:94 ; gal_route 54_president_scenes.txt:101 ; gal_route 54_president_scenes.txt:105
+p_dest_gfo	ok	1	5	gal_05 40_president.txt:262		gal_dep2 40_president.txt:285 ; gal_dep2 40_president.txt:289 ; gal_route 54_president_scenes.txt:96 ; gal_route 54_president_scenes.txt:103 ; gal_route 54_president_scenes.txt:107
+p_dest_gnu	ok	1	5	gal_05 40_president.txt:263		gal_dep2 40_president.txt:286 ; gal_dep2 40_president.txt:290 ; gal_route 54_president_scenes.txt:97 ; gal_route 54_president_scenes.txt:104 ; gal_route 54_president_scenes.txt:108
+p_dest_gpr	ok	1	5	gal_05 40_president.txt:261		gal_dep2 40_president.txt:284 ; gal_dep2 40_president.txt:288 ; gal_route 54_president_scenes.txt:95 ; gal_route 54_president_scenes.txt:102 ; gal_route 54_president_scenes.txt:106
+p_digue	ok	2	2	gco_01b 43_president_regions.txt:30 ; gco_01b 43_president_regions.txt:31		gco_01c 43_president_regions.txt:40 ; gco_07 43_president_regions.txt:157
+p_doute	ok	1	1	gal_02 40_president.txt:235		gal_05 40_president.txt:257
+p_echo_lache	ok	1	3	gmo_02 44_president_fin.txt:331		gmo_03 44_president_fin.txt:337 ; gmo_03 44_president_fin.txt:338 ; gmo_saisie 44_president_fin.txt:383
+p_echo_non	ok	1	2	gpr_06 45_president_regions2.txt:76		gfi_tel 44_president_fin.txt:75 ; gmo_03 44_president_fin.txt:338
+p_fil_donne	jamais testé	1	0	gfo_03b 43_president_regions.txt:229		
+p_fil_rendu	ok	1	1	gmo_01 44_president_fin.txt:320		end_33 69_corr_president.txt:193
 p_fleur_vue	jamais testé	2	0	gpa_07 40_president.txt:78 ; gpa_07 40_president.txt:79		
-p_fond	ok	2	1	gco_02c 43_president_regions.txt:75 ; gco_02c 43_president_regions.txt:76		gco_07 43_president_regions.txt:156
-p_formule	ok	3	2	gpa_12 40_president.txt:129 ; gpa_12 40_president.txt:129 ; gpa_12 40_president.txt:130		gfi_som 44_president_fin.txt:53 ; gfi_som 44_president_fin.txt:56
-p_gazette_vraie	ok	1	1	gal_int 40_president.txt:395		gal_nuit3 46_president_ajouts.txt:228
-p_gneiss	ok	1	2	gpr_02 45_president_regions2.txt:30		gpr_10 45_president_regions2.txt:114 ; gpr_10 45_president_regions2.txt:118
+p_fond	ok	2	1	gco_02c 43_president_regions.txt:78 ; gco_02c 43_president_regions.txt:79		gco_07 43_president_regions.txt:159
+p_formule	ok	1	4	gpa_11 40_president.txt:119		gpa_12 40_president.txt:125 ; gpa_12 40_president.txt:126 ; gfi_som 44_president_fin.txt:57 ; gfi_som 44_president_fin.txt:60
+p_gazette_vraie	ok	1	1	gal_int 40_president.txt:408		gal_nuit3 46_president_ajouts.txt:228
+p_gneiss	ok	1	3	gpr_02 45_president_regions2.txt:30		gpr_03 69_corr_president.txt:42 ; gpr_10 45_president_regions2.txt:114 ; gpr_10 45_president_regions2.txt:118
 p_gneiss_ok	ok	1	1	gpr_10 45_president_regions2.txt:118		gpr_12 45_president_regions2.txt:138
 p_gontran_aveu	jamais testé	1	0	gal_nuit3 46_president_ajouts.txt:230		
-p_gontran_compris	ok	1	1	gal_renv 40_president.txt:375		gal_nuit1 46_president_ajouts.txt:101
-p_gontran_parti	ok	6	1	gal_renv 40_president.txt:370 ; gal_renv 40_president.txt:371 ; gal_renv 40_president.txt:372 ; gal_renv 40_president.txt:373 ; gal_renv 40_president.txt:374 ; gal_renv 40_president.txt:375		gal_nuit1 46_president_ajouts.txt:100
-p_gontran_peur	ok	1	1	gtr_02 40_president.txt:203		gtr_03 40_president.txt:210
-p_gontran_tait	jamais testé	1	0	gal_nuit1 46_president_ajouts.txt:107		
-p_greve_lune	ok	1	1	gmo_03 44_president_fin.txt:327		gmo_saisie 44_president_fin.txt:361
-p_guerre	ok	1	1	gal_01 40_president.txt:221		gal_02 40_president.txt:229
-p_krfille	ok	3	2	gco_05 43_president_regions.txt:135 ; gco_05 43_president_regions.txt:135 ; gco_05 43_president_regions.txt:136		gco_07 43_president_regions.txt:155 ; gfi_sig 44_president_fin.txt:44
-p_lampadaire	ok	1	2	gpa_08 40_president.txt:87		gpa_09 40_president.txt:96 ; gpa_15 40_president.txt:156
-p_lettre_lue	jamais testé	1	0	gmo_01 44_president_fin.txt:303		
-p_lune_chante	ok	1	1	gmo_02 44_president_fin.txt:316		gmo_03 44_president_fin.txt:323
-p_lune_terre	ok	2	5	gmo_04 44_president_fin.txt:340 ; gmo_04 44_president_fin.txt:341		gfi_pro 44_president_fin.txt:88 ; gfi_pro 44_president_fin.txt:101 ; gmo_05 44_president_fin.txt:347 ; gmo_05 44_president_fin.txt:350 ; gmo_05 44_president_fin.txt:352
-p_mains	ok	3	2	gpa_10 40_president.txt:109 ; gpa_10 40_president.txt:109 ; gal_01 40_president.txt:223		gal_01 40_president.txt:222 ; gal_01 40_president.txt:223
-p_maree	ok	2	3	gco_03b 43_president_regions.txt:100 ; gco_04 43_president_regions.txt:116		gfi_01 44_president_fin.txt:18 ; gfi_01 44_president_fin.txt:26 ; gfi_01 44_president_fin.txt:30
-p_maree_promise	jamais testé	1	0	gco_06 43_president_regions.txt:148		
-p_navette	ok	3	3	gmo_nav 44_president_fin.txt:275 ; gmo_nav 44_president_fin.txt:276 ; gmo_nav 44_president_fin.txt:276		gmo_01 44_president_fin.txt:294 ; gmo_02 44_president_fin.txt:312 ; gmo_04 44_president_fin.txt:335
+p_gontran_compris	ok	1	1	gal_renv 40_president.txt:386		gal_nuit1 46_president_ajouts.txt:101
+p_gontran_merci	jamais testé	1	0	gal_adieu 69_corr_president.txt:36		
+p_gontran_parti	ok	6	1	gal_renv 40_president.txt:381 ; gal_renv 40_president.txt:382 ; gal_renv 40_president.txt:383 ; gal_renv 40_president.txt:384 ; gal_renv 40_president.txt:385 ; gal_renv 40_president.txt:386		gal_nuit1 46_president_ajouts.txt:100
+p_gontran_peur	ok	1	1	gtr_02 40_president.txt:205		gtr_03 40_president.txt:212
+p_gontran_tait	ok	1	2	gal_nuit1 46_president_ajouts.txt:107		gfi_som 69_corr_president.txt:55 ; gfi_som 69_corr_president.txt:59
+p_greve_lune	ok	1	1	gmo_03 44_president_fin.txt:343		gmo_saisie 44_president_fin.txt:378
+p_guerre	ok	1	1	gal_01 40_president.txt:223		gal_02 40_president.txt:231
+p_krfille	ok	3	2	gco_05 43_president_regions.txt:138 ; gco_05 43_president_regions.txt:138 ; gco_05 43_president_regions.txt:139		gco_07 43_president_regions.txt:158 ; gfi_sig 44_president_fin.txt:48
+p_krvu	ok	1	1	gco_05 43_president_regions.txt:138		gfi_r23 44_president_fin.txt:159
+p_lampadaire	ok	1	2	gpa_08 40_president.txt:87		gpa_09 40_president.txt:96 ; gpa_15 40_president.txt:158
+p_lettre_dorure	ok	1	1	gfi_som 69_corr_president.txt:60		end_18 69_corr_president.txt:149
+p_lettre_lue	ok	1	2	gmo_01 44_president_fin.txt:319		end_33 69_corr_president.txt:192 ; end_34 69_corr_president.txt:199
+p_lune_chante	ok	1	1	gmo_02 44_president_fin.txt:332		gmo_03 44_president_fin.txt:339
+p_lune_terre	ok	2	5	gmo_04 44_president_fin.txt:357 ; gmo_04 44_president_fin.txt:358		gfi_pro 44_president_fin.txt:98 ; gfi_pro 44_president_fin.txt:112 ; gmo_05 44_president_fin.txt:364 ; gmo_05 44_president_fin.txt:367 ; gmo_05 44_president_fin.txt:369
+p_mains	ok	3	2	gpa_10 40_president.txt:109 ; gpa_10 40_president.txt:109 ; gal_01 40_president.txt:225		gal_01 40_president.txt:224 ; gal_01 40_president.txt:225
+p_maree	ok	2	4	gco_03b 43_president_regions.txt:103 ; gco_04 43_president_regions.txt:119		gfi_01 44_president_fin.txt:18 ; gfi_01 44_president_fin.txt:26 ; gfi_01 44_president_fin.txt:32 ; gfi_01 44_president_fin.txt:33
+p_maree_promise	jamais testé	1	0	gco_06 43_president_regions.txt:151		
+p_navette	ok	3	3	gmo_nav 44_president_fin.txt:291 ; gmo_nav 44_president_fin.txt:292 ; gmo_nav 44_president_fin.txt:292		gmo_01 44_president_fin.txt:310 ; gmo_02 44_president_fin.txt:328 ; gmo_04 44_president_fin.txt:351
 p_nenuphar	jamais testé	2	0	gpa_04b 46_president_ajouts.txt:132 ; gpa_04b 46_president_ajouts.txt:133		
-p_nom	jamais testé	1	0	gal_dep 40_president.txt:276		
-p_nom_pense	jamais testé	2	0	gpa_17 40_president.txt:179 ; gpa_04b 46_president_ajouts.txt:133		
+p_neveu_digue	ok	2	8	gco_01b 43_president_regions.txt:32 ; gco_01b 43_president_regions.txt:33		end_17 69_corr_president.txt:145 ; end_18 69_corr_president.txt:153 ; end_20 69_corr_president.txt:163 ; end_21 69_corr_president.txt:169 ; end_22 69_corr_president.txt:176 ; end_23 69_corr_president.txt:184 ; end_33 69_corr_president.txt:191 ; end_34 69_corr_president.txt:200
+p_nom	ok	1	3	gal_dep 40_president.txt:278		gal_vei2 54_president_scenes.txt:139 ; gal_vei2 54_president_scenes.txt:140 ; gal_vei2 54_president_scenes.txt:141
+p_nom_pense	jamais testé	2	0	gpa_17 40_president.txt:181 ; gpa_04b 46_president_ajouts.txt:133		
+p_nom_permis	ok	1	5	gal_vei2 54_president_scenes.txt:141		end_18 69_corr_president.txt:151 ; end_20 69_corr_president.txt:162 ; end_22 69_corr_president.txt:175 ; end_23 69_corr_president.txt:182 ; end_33 69_corr_president.txt:189
 p_pas_signe	jamais testé	1	0	gnu_09 45_president_regions2.txt:241		
-p_pense_neveu	ok	1	1	gpa_06 40_president.txt:71		gpa_12 40_president.txt:127
-p_perline	ok	1	2	gco_03 43_president_regions.txt:89		gco_03c 43_president_regions.txt:106 ; gal_nuit2 46_president_ajouts.txt:117
-p_petit_lichen	ok	1	1	gtr_01 40_president.txt:196		gal_06 40_president.txt:267
-p_phare	jamais testé	1	0	gnu_10 45_president_regions2.txt:255		
+p_pense_neveu	ok	1	1	gpa_06 40_president.txt:71		gpa_12 40_president.txt:129
+p_perline	ok	1	2	gco_03 43_president_regions.txt:92		gco_03c 43_president_regions.txt:109 ; gal_nuit2 46_president_ajouts.txt:117
+p_petit_lichen	ok	1	1	gtr_01 40_president.txt:198		gal_06 40_president.txt:269
+p_phare	jamais testé	1	0	gnu_10 45_president_regions2.txt:256		
 p_pigeon	ok	1	1	gpa_16b 46_president_ajouts.txt:31		gal_01b 46_president_ajouts.txt:50
-p_piquets	ok	2	1	gfo_04b 43_president_regions.txt:258 ; gfo_04b 43_president_regions.txt:259		gfo_05 43_president_regions.txt:276
+p_piquets	ok	2	1	gfo_04b 43_president_regions.txt:261 ; gfo_04b 43_president_regions.txt:262		gfo_05 43_president_regions.txt:279
 p_plan	jamais testé	1	0	gpa_10 40_president.txt:108		
-p_pompes_arretees	ok	2	1	gnu_09 45_president_regions2.txt:242 ; gnu_09 45_president_regions2.txt:243		gnu_11 45_president_regions2.txt:261
-p_portrait_platine	jamais testé	1	0	gfi_ech 44_president_fin.txt:112		
-p_poteau	jamais testé	1	0	gal_int 40_president.txt:393		
-p_quartz_mesure	ok	1	2	gpr_07 45_president_regions2.txt:87		gal_ret 40_president.txt:310 ; gal_renv 40_president.txt:375
-p_quartz_preuve	jamais testé	1	0	gpr_08 45_president_regions2.txt:97		
-p_racines	ok	1	1	gfo_01 43_president_regions.txt:173		gfo_01b 43_president_regions.txt:179
-p_reconnu	jamais testé	1	0	gpa_15 40_president.txt:159		
-p_registre	ok	1	2	gal_toile 40_president.txt:333		gal_toile 40_president.txt:333 ; gal_renv 40_president.txt:374
+p_pompes_arretees	ok	2	1	gnu_09 45_president_regions2.txt:242 ; gnu_09 45_president_regions2.txt:243		gnu_11 45_president_regions2.txt:262
+p_portrait_platine	ok	1	1	gfi_ech 44_president_fin.txt:124		end_21 69_corr_president.txt:168
+p_poteau	jamais testé	1	0	gal_int 40_president.txt:406		
+p_quartz_mesure	ok	1	2	gpr_07 45_president_regions2.txt:87		gal_ret 40_president.txt:315 ; gal_renv 40_president.txt:386
+p_quartz_preuve	ok	1	1	gpr_08 45_president_regions2.txt:97		gal_renv 40_president.txt:371
+p_racines	ok	1	1	gfo_01 43_president_regions.txt:176		gfo_01b 43_president_regions.txt:182
+p_reconnu	jamais testé	1	0	gpa_15 40_president.txt:161		
+p_registre	ok	1	3	gal_toile 40_president.txt:338		gal_ret 69_corr_president.txt:106 ; gal_toile 40_president.txt:338 ; gal_renv 40_president.txt:385
 p_remords	jamais testé	1	0	gpa_09 40_president.txt:99		
-p_ricoche	ok	2	1	gco_03b 43_president_regions.txt:99 ; gco_03b 43_president_regions.txt:100		gco_04 43_president_regions.txt:120
-p_ricochet	ok	2	2	gfi_mar 44_president_fin.txt:81 ; gfi_mar 44_president_fin.txt:82		gfi_pro 44_president_fin.txt:86 ; gfi_pro 44_president_fin.txt:87
-p_sait	ok	5	1	gpa_11 40_president.txt:119 ; gco_02 43_president_regions.txt:54 ; gco_02 43_president_regions.txt:54 ; gco_02 43_president_regions.txt:55 ; gco_02 43_president_regions.txt:56		gfi_tel 44_president_fin.txt:69
+p_renv_boussole	ok	1	1	gal_renv 40_president.txt:383		gal_adieu 69_corr_president.txt:15
+p_renv_conseil	ok	1	1	gal_renv 40_president.txt:384		gal_adieu 69_corr_president.txt:16
+p_renv_quartz	ok	1	1	gal_renv 40_president.txt:386		gal_adieu 69_corr_president.txt:18
+p_renv_registre	ok	1	1	gal_renv 40_president.txt:385		gal_adieu 69_corr_president.txt:17
+p_renv_tampon	ok	1	1	gal_renv 40_president.txt:382		gal_adieu 69_corr_president.txt:14
+p_renv_ticket	ok	1	1	gal_renv 40_president.txt:381		gal_adieu 69_corr_president.txt:13
+p_ricoche	ok	2	1	gco_03b 43_president_regions.txt:102 ; gco_03b 43_president_regions.txt:103		gco_04 43_president_regions.txt:123
+p_ricochet	ok	2	2	gfi_mar 44_president_fin.txt:91 ; gfi_mar 44_president_fin.txt:92		gfi_pro 44_president_fin.txt:96 ; gfi_pro 44_president_fin.txt:97
+p_sait	ok	6	2	gpa_11 40_president.txt:119 ; gpa_11 40_president.txt:120 ; gco_02 43_president_regions.txt:57 ; gco_02 43_president_regions.txt:57 ; gco_02 43_president_regions.txt:58 ; gco_02 43_president_regions.txt:59		gfi_tel 44_president_fin.txt:76 ; gfi_tel 44_president_fin.txt:77
 p_saupiquet	ok	1	1	gpa_07b 46_president_ajouts.txt:13		gpa_17b 46_president_ajouts.txt:39
-p_signature	jamais testé	2	0	gpa_15 40_president.txt:152 ; gal_toile 40_president.txt:332		
+p_signature	jamais testé	2	0	gpa_15 40_president.txt:154 ; gal_toile 40_president.txt:337		
 p_soie	ok	2	4	gnu_07 45_president_regions2.txt:222 ; gnu_07 45_president_regions2.txt:223		gnu_08 45_president_regions2.txt:227 ; gnu_08 45_president_regions2.txt:228 ; gnu_08 45_president_regions2.txt:231 ; gnu_08 45_president_regions2.txt:232
 p_t_fenetre	jamais testé	1	0	gpa_04 40_president.txt:53		
 p_t_programme	jamais testé	1	0	gpa_04 40_president.txt:54		
 p_tampon_vu_faire	jamais testé	1	0	gpa_08 40_president.txt:88		
-p_taupe	jamais testé	2	0	gpa_10 40_president.txt:109 ; gal_01 40_president.txt:222		
-p_temoins	ok	1	6	gmo_saisie 44_president_fin.txt:366		gmo_r33 44_president_fin.txt:371 ; gmo_r33 44_president_fin.txt:372 ; gmo_r33 44_president_fin.txt:373 ; gmo_r33 44_president_fin.txt:374 ; gmo_r33 44_president_fin.txt:376 ; gmo_r33 44_president_fin.txt:377
-p_train_platine	ok	3	2	gtr_02b 46_president_ajouts.txt:142 ; gtr_02b 46_president_ajouts.txt:142 ; gtr_02b 46_president_ajouts.txt:143		gfi_pro 44_president_fin.txt:89 ; gnu_10b 46_president_ajouts.txt:167
+p_taupe	jamais testé	2	0	gpa_10 40_president.txt:109 ; gal_01 40_president.txt:224		
+p_temoins	ok	1	6	gmo_saisie 44_president_fin.txt:383		gmo_r33 44_president_fin.txt:389 ; gmo_r33 44_president_fin.txt:390 ; gmo_r33 44_president_fin.txt:391 ; gmo_r33 44_president_fin.txt:392 ; gmo_r33 44_president_fin.txt:394 ; gmo_r33 44_president_fin.txt:395
+p_train_platine	ok	3	2	gtr_02b 46_president_ajouts.txt:142 ; gtr_02b 46_president_ajouts.txt:142 ; gtr_02b 46_president_ajouts.txt:143		gfi_pro 44_president_fin.txt:99 ; gnu_10b 46_president_ajouts.txt:167
 p_visite	ok	1	1	gnu_03 45_president_regions2.txt:176		gnu_06 45_president_regions2.txt:207
-p_vu_crochet	ok	3	3	gpa_02 40_president.txt:33 ; gnu_10 45_president_regions2.txt:255 ; gnu_10 45_president_regions2.txt:256		gpa_03 40_president.txt:40 ; gpa_09 40_president.txt:97 ; gnu_10 45_president_regions2.txt:250
-p_vu_platine	ok	1	1	gfi_01 44_president_fin.txt:23		gfi_pro 44_president_fin.txt:90
-p_xan_arrive	ok	1	1	gal_ret 40_president.txt:307		gal_ret 40_president.txt:307
-p_xan_vu	ok	10	5	gal_06 40_president.txt:268 ; gal_06 40_president.txt:268 ; gal_xan 40_president.txt:322 ; gal_xan 40_president.txt:322 ; gco_02 43_president_regions.txt:54 ; gco_02 43_president_regions.txt:54 ; gfo_02 43_president_regions.txt:206 ; gfo_02 43_president_regions.txt:206 ; gpr_03 45_president_regions2.txt:42 ; gpr_03 45_president_regions2.txt:42		gal_xan 40_president.txt:319 ; gal_xan 40_president.txt:320 ; gfo_02 43_president_regions.txt:201 ; gfo_02 43_president_regions.txt:202 ; gfo_02 43_president_regions.txt:203
-pacte_rocambole	jamais testé	2	0	zep_25 05_zephyrin.txt:161 ; zep_26 05_zephyrin.txt:167		
+p_voix_facette	ok	3	1	gfi_01 44_president_fin.txt:28 ; gfi_som 69_corr_president.txt:61 ; gfi_som 69_corr_president.txt:61		end_18 69_corr_president.txt:150
+p_vu_crochet	ok	3	3	gpa_02 40_president.txt:33 ; gnu_10 45_president_regions2.txt:256 ; gnu_10 45_president_regions2.txt:257		gpa_03 40_president.txt:40 ; gpa_09 40_president.txt:97 ; gnu_10 45_president_regions2.txt:250
+p_vu_platine	ok	1	1	gfi_01 44_president_fin.txt:23		gfi_pro 44_president_fin.txt:100
+p_xan_arrive	ok	1	1	gal_ret 40_president.txt:312		gal_ret 40_president.txt:312
+p_xan_vu	ok	10	5	gal_06 40_president.txt:270 ; gal_06 40_president.txt:270 ; gal_xan 40_president.txt:327 ; gal_xan 40_president.txt:327 ; gco_02 43_president_regions.txt:57 ; gco_02 43_president_regions.txt:57 ; gfo_02 43_president_regions.txt:209 ; gfo_02 43_president_regions.txt:209 ; gpr_03 45_president_regions2.txt:42 ; gpr_03 45_president_regions2.txt:42		gal_xan 40_president.txt:324 ; gal_xan 40_president.txt:325 ; gfo_02 43_president_regions.txt:204 ; gfo_02 43_president_regions.txt:205 ; gfo_02 43_president_regions.txt:206
+pacte_rocambole	ok	2	1	zep_25 05_zephyrin.txt:165 ; zep_26 05_zephyrin.txt:171		nui_20 64_corr_zephyrin.txt:164
 papiers_kramm	jamais testé	1	0	ond_23 01_ondine.txt:155		
-pardon_cache	jamais testé	1	0	com_11 17_comete.txt:88		
-pardon_parti	jamais testé	2	0	nui_20 19_nuit.txt:88 ; nui_20 19_nuit.txt:88		
-pardon_vendu	ok	1	9	nui_20 19_nuit.txt:87		end_01 30_fins.txt:36 ; end_02 30_fins.txt:75 ; end_03 30_fins.txt:113 ; end_05 30_fins.txt:162 ; end_06 30_fins.txt:199 ; end_07 30_fins.txt:237 ; end_09 30_fins.txt:290 ; end_13 30_fins.txt:371 ; end_14 30_fins.txt:408
+pardon_cache	jamais testé	1	0	com_11 17_comete.txt:89		
+pardon_parti	jamais testé	2	0	nui_20 19_nuit.txt:89 ; nui_20 19_nuit.txt:89		
+pardon_vendu	ok	1	11	nui_20 19_nuit.txt:88		asc_01 64_corr_zephyrin.txt:169 ; asc_01 64_corr_zephyrin.txt:170 ; end_01 30_fins.txt:36 ; end_02 30_fins.txt:88 ; end_03 30_fins.txt:139 ; end_05 30_fins.txt:215 ; end_06 30_fins.txt:265 ; end_07 30_fins.txt:316 ; end_09 30_fins.txt:396 ; end_13 30_fins.txt:496 ; end_14 30_fins.txt:540
 pardon_violence	ok	2	1	asc_04 20_ascension.txt:39 ; asc_04 20_ascension.txt:39		asc_05 20_ascension.txt:43
-parle_lune	ok	14	1	cha_05 21_chantier.txt:36 ; cha_05 21_chantier.txt:36 ; cha_09 21_chantier.txt:62 ; cha_09 21_chantier.txt:62 ; cha_09 21_chantier.txt:63 ; cha_41 24_suites_v3.txt:36 ; cha_41 24_suites_v3.txt:36 ; cha_53 24_suites_v3.txt:116 ; cha_53 24_suites_v3.txt:116 ; neg_45 24_suites_v3.txt:169 ; neg_45 24_suites_v3.txt:169 ; fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187 ; cha_60 93_objets.txt:400		fin_01 23_final.txt:23
+parle_lune	ok	15	1	cha_05 21_chantier.txt:36 ; cha_05 21_chantier.txt:36 ; cha_09 21_chantier.txt:62 ; cha_09 21_chantier.txt:62 ; cha_09 21_chantier.txt:63 ; cha_41 24_suites_v3.txt:36 ; cha_41 24_suites_v3.txt:36 ; cha_53 24_suites_v3.txt:116 ; cha_53 24_suites_v3.txt:116 ; neg_45 24_suites_v3.txt:169 ; neg_45 24_suites_v3.txt:169 ; fin_24 24_suites_v3.txt:187 ; fin_24 24_suites_v3.txt:187 ; nui_59c 68_corr_anatole.txt:58 ; cha_60 93_objets.txt:404		fin_01 23_final.txt:23
 pelote_mouton	jamais testé	1	0	son_03 13_songes.txt:26		
 pelote_temple	ok	1	1	for_25 12_foret.txt:171		for_35 12_foret.txt:231
-penelope_aide	ok	2	1	zep_18 05_zephyrin.txt:119 ; zep_20 05_zephyrin.txt:132		zep_30 05_zephyrin.txt:191
-penelope_doute	jamais testé	9	0	bas_21 02_basile.txt:138 ; bas_23 02_basile.txt:150 ; bas_23 02_basile.txt:151 ; bas_24 02_basile.txt:157 ; bas_29 02_basile.txt:192 ; zep_15 05_zephyrin.txt:98 ; cap_22 15_capitale.txt:150 ; cap_25 15_capitale.txt:171 ; cap_26 15_capitale.txt:179		
-penelope_espionne	ok	3	1	bas_37 02_basile.txt:242 ; bas_37 02_basile.txt:242 ; cap_26 15_capitale.txt:180		bas_39 02_basile.txt:252
-penelope_libre	jamais testé	2	0	bas_32 02_basile.txt:210 ; bas_32 02_basile.txt:211		
-penelope_ment	jamais testé	1	0	bas_27 02_basile.txt:179		
-penelope_refuse	ok	4	2	cap_25 15_capitale.txt:171 ; neg_17 22_negociation.txt:144 ; neg_17 22_negociation.txt:144 ; neg_17 22_negociation.txt:145		fin_03 23_final.txt:49 ; fin_03 23_final.txt:50
-penelope_temoigne	jamais testé	2	0	cap_26 15_capitale.txt:178 ; cap_26 15_capitale.txt:178		
-perles_chargees	ok	2	4	cot_16 11_cotes.txt:110 ; cot_16 11_cotes.txt:110		hub_ret 10_hub.txt:74 ; neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:93 ; end_02 30_fins.txt:50
-perline	jamais testé	1	0	cot_18 11_cotes.txt:123		
-perline_message	ok	1	2	cot_31 11_cotes.txt:203		cot_34 11_cotes.txt:218 ; cot_34 11_cotes.txt:219
+penelope_aide	ok	2	6	zep_18 05_zephyrin.txt:122 ; zep_20 05_zephyrin.txt:135		zep_30 05_zephyrin.txt:195 ; zep_30 05_zephyrin.txt:196 ; zep_30 05_zephyrin.txt:197 ; zep_32 05_zephyrin.txt:209 ; cap_22 64_corr_zephyrin.txt:37 ; cap_22 64_corr_zephyrin.txt:38
+penelope_doute	jamais testé	9	0	bas_21 02_basile.txt:141 ; bas_23 02_basile.txt:153 ; bas_23 02_basile.txt:154 ; bas_24 02_basile.txt:160 ; bas_29 02_basile.txt:195 ; zep_15 05_zephyrin.txt:98 ; cap_22 15_capitale.txt:163 ; cap_25 15_capitale.txt:187 ; cap_26 15_capitale.txt:195		
+penelope_espionne	ok	3	6	bas_37 02_basile.txt:245 ; bas_37 02_basile.txt:245 ; cap_26 15_capitale.txt:196		bas_39 02_basile.txt:255 ; bas_47 02_basile.txt:311 ; bas_47 02_basile.txt:312 ; cap_22 15_capitale.txt:160 ; cap_22 15_capitale.txt:161 ; neg_16 61_corr_basile.txt:28
+penelope_essai_refus	jamais testé	1	0	cap_25 15_capitale.txt:187		
+penelope_libre	ok	3	1	bas_32 02_basile.txt:213 ; bas_32 02_basile.txt:214 ; bas_47 02_basile.txt:312		cap_22 15_capitale.txt:161
+penelope_ment	jamais testé	1	0	bas_27 02_basile.txt:182		
+penelope_refuse	ok	3	2	neg_17 22_negociation.txt:145 ; neg_17 22_negociation.txt:145 ; neg_17 22_negociation.txt:146		fin_03 23_final.txt:51 ; fin_03 23_final.txt:52
+penelope_temoigne	jamais testé	2	0	cap_26 15_capitale.txt:194 ; cap_26 15_capitale.txt:194		
+perles_chargees	ok	2	4	cot_16 11_cotes.txt:111 ; cot_16 11_cotes.txt:111		hub_ret 10_hub.txt:74 ; neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:94 ; end_02 30_fins.txt:63
+perline	jamais testé	1	0	cot_18 11_cotes.txt:124		
+perline_message	ok	1	2	cot_31 11_cotes.txt:205		cot_34 11_cotes.txt:220 ; cot_34 11_cotes.txt:221
 perline_trouvee	jamais testé	2	0	cha_21 21_chantier.txt:161 ; cha_21 21_chantier.txt:161		
-perline_vue	jamais testé	2	0	cot_33 11_cotes.txt:215 ; cot_33 11_cotes.txt:215		
+perline_vue	jamais testé	2	0	cot_33 11_cotes.txt:217 ; cot_33 11_cotes.txt:217		
 petition	jamais testé	2	0	ond_22 01_ondine.txt:148 ; ond_22 01_ondine.txt:149		
-pied_de_nez	jamais testé	1	0	zep_38 05_zephyrin.txt:238		
+pied_de_nez	jamais testé	2	0	zep_38 05_zephyrin.txt:247 ; zep_38 05_zephyrin.txt:249		
 pistes_toile	jamais testé	1	0	for_22 12_foret.txt:154		
 pistil_question	jamais testé	1	0	pis_03 03_pistil.txt:21		
-pl_agrafe	ok	3	1	pla_03b 47_platine_long.txt:29 ; pla_03b 47_platine_long.txt:29 ; pla_03b 47_platine_long.txt:30		plf_01d 47_platine_long.txt:470
-pl_article_douze	jamais testé	1	0	plt_cap_b 47_platine_long.txt:150		
-pl_basalte	jamais testé	1	0	plt_cap_g 47_platine_long.txt:164		
-pl_basile_idee	jamais testé	1	0	plt_cap2 41_platine.txt:149		
-pl_beignet	jamais testé	1	0	plt_cap_f 47_platine_long.txt:134		
+pl_agrafe	ok	3	1	pla_03b 47_platine_long.txt:29 ; pla_03b 47_platine_long.txt:29 ; pla_03b 47_platine_long.txt:30		plf_01d 47_platine_long.txt:474
+pl_article_douze	jamais testé	1	0	plt_cap_b 47_platine_long.txt:153		
+pl_basalte	jamais testé	1	0	plt_cap_g 47_platine_long.txt:167		
+pl_basile_idee	ok	1	2	plt_cap2 41_platine.txt:151		end_24 41_platine.txt:376 ; end_24 41_platine.txt:377
+pl_beignet	jamais testé	1	0	plt_cap_f 47_platine_long.txt:133		
 pl_bobinot	ok	1	1	pla_02 41_platine.txt:25		pla_04 41_platine.txt:38
-pl_bouton	jamais testé	1	0	pla_01e 47_platine_long.txt:499		
-pl_chanson	jamais testé	1	0	plf_01f 47_platine_long.txt:489		
-pl_chante	jamais testé	1	0	pla_04c 47_platine_long.txt:360		
-pl_coffre_vu	ok	1	1	pla_01b 47_platine_long.txt:14		plf_01f 47_platine_long.txt:486
-pl_contrat	jamais testé	1	0	plt_cap_i 47_platine_long.txt:417		
-pl_corde	jamais testé	1	0	plt_bri_a 47_platine_long.txt:182		
-pl_criee	ok	2	1	plt_cot_d 47_platine_long.txt:114 ; plt_cot_d 47_platine_long.txt:115		plt_cot_j 47_platine_long.txt:399
-pl_dominos	jamais testé	1	0	plt_bri_h 47_platine_long.txt:431		
+pl_bouton	jamais testé	1	0	pla_01e 47_platine_long.txt:503		
+pl_bouton_appuye	ok	1	2	plf_bouton 41_platine.txt:307		plf_vente 41_platine.txt:313 ; end_25 41_platine.txt:394
+pl_bouton_essai	ok	2	1	plf_02 41_platine.txt:285 ; plf_02b 41_platine.txt:366		plf_02b 41_platine.txt:366
+pl_carte_bouton	jamais testé	1	0	plf_02 41_platine.txt:291		
+pl_chanson	jamais testé	1	0	plf_01f 47_platine_long.txt:493		
+pl_chante	jamais testé	1	0	pla_04c 47_platine_long.txt:364		
+pl_coffre_vu	ok	1	1	pla_01b 47_platine_long.txt:14		plf_01f 47_platine_long.txt:490
+pl_contrat	jamais testé	1	0	plt_cap_i 47_platine_long.txt:421		
+pl_corde	jamais testé	1	0	plt_bri_a 47_platine_long.txt:186		
+pl_criee	ok	2	1	plt_cot_d 47_platine_long.txt:113 ; plt_cot_d 47_platine_long.txt:114		plt_cot_j 47_platine_long.txt:403
+pl_dominos	jamais testé	1	0	plt_bri_h 47_platine_long.txt:435		
 pl_doux	jamais testé	1	0	pla_04 41_platine.txt:40		
-pl_ecope	ok	1	1	plt_cot_a 47_platine_long.txt:71		plt_cot_b 47_platine_long.txt:88
-pl_emo_axe	ok	5	4	plt_bri 41_platine.txt:166 ; plt_bri_b 47_platine_long.txt:189 ; plt_bri_b 47_platine_long.txt:190 ; plt_bri_c 47_platine_long.txt:196 ; plt_bri_g 47_platine_long.txt:424		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278 ; plt_bri_k 47_platine_long.txt:527
-pl_emo_caillou	jamais testé	1	0	plt_ana_c 47_platine_long.txt:249		
-pl_emo_chantier	ok	1	3	plf_01c 47_platine_long.txt:342		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_coffre	ok	4	2	plt_nuit 41_platine.txt:96 ; plt_nuit 41_platine.txt:97 ; plt_bri_d 47_platine_long.txt:218 ; plf_01f 47_platine_long.txt:489		plf_02 41_platine.txt:245 ; plf_01f 47_platine_long.txt:487
-pl_emo_digue	ok	1	4	plt_cot_f 47_platine_long.txt:80		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278 ; plt_cot_j 47_platine_long.txt:398
-pl_emo_don	ok	1	3	plt_cap 41_platine.txt:140		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_echarpe	jamais testé	1	0	plt_ana_b 47_platine_long.txt:242		
-pl_emo_fleurs	ok	2	3	plt_bri 41_platine.txt:167 ; plt_ana_d 47_platine_long.txt:266		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_galet	ok	2	3	plt_cap_a 47_platine_long.txt:142 ; plt_car5 47_platine_long.txt:455		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_kramm	ok	3	1	pla_03 41_platine.txt:32 ; pla_03b 47_platine_long.txt:29 ; plf_01d 47_platine_long.txt:471		plf_02 41_platine.txt:245
-pl_emo_lampadaire	ok	1	3	plt_cap_c 47_platine_long.txt:157		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_lettres	ok	1	3	plt_cot2 41_platine.txt:124		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_maree	ok	2	3	plt_cot 41_platine.txt:115 ; plt_cot 41_platine.txt:116		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_meduses	ok	2	3	plt_cot_c 47_platine_long.txt:99 ; plt_cot_c 47_platine_long.txt:100		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_objet	ok	4	3	plf_02 41_platine.txt:246 ; plf_02 41_platine.txt:247 ; plf_02 41_platine.txt:248 ; plf_02 41_platine.txt:249		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_perline	ok	4	3	plt_cot_b 47_platine_long.txt:89 ; plt_cot_b 47_platine_long.txt:89 ; plt_cot_b 47_platine_long.txt:90 ; plt_cot_h 47_platine_long.txt:385		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_serre	ok	5	3	plt_ana 41_platine.txt:191 ; plt_ana 41_platine.txt:191 ; plt_ana_a 47_platine_long.txt:228 ; plt_ana_a 47_platine_long.txt:229 ; plt_ana_h 47_platine_long.txt:447		plf_02 41_platine.txt:244 ; plf_02 41_platine.txt:245 ; plf_02b 41_platine.txt:278
-pl_emo_signature	ok	1	1	plt_cap2 41_platine.txt:148		plf_02 41_platine.txt:245
-pl_enfants	jamais testé	1	0	plt_route 47_platine_long.txt:284		
-pl_epine	jamais testé	1	0	plt_cap_b 47_platine_long.txt:149		
-pl_fente	ok	1	2	plt_ana 41_platine.txt:192		plt_ana2 41_platine.txt:196 ; plt_ana_d 47_platine_long.txt:266
-pl_fermiere	ok	1	9	plt_00 47_platine_long.txt:505		plt_00b 53_platine_scenes.txt:37 ; plt_00b 53_platine_scenes.txt:38 ; plt_00b 53_platine_scenes.txt:39 ; plt_00b 53_platine_scenes.txt:40 ; plt_00b 53_platine_scenes.txt:41 ; plt_00b 53_platine_scenes.txt:42 ; plt_00b 53_platine_scenes.txt:43 ; plt_00b 53_platine_scenes.txt:44 ; plt_00b 53_platine_scenes.txt:45
-pl_feu_eteint	jamais testé	1	0	plt_ana_a 47_platine_long.txt:228		
-pl_fleurs_ouvertes	jamais testé	1	0	plt_ana_h 47_platine_long.txt:447		
-pl_formulaire	ok	1	1	plt_cap_b2 53_platine_scenes.txt:115		plf_01f 53_platine_scenes.txt:213
-pl_gazette	jamais testé	1	0	plt_car6 47_platine_long.txt:462		
-pl_gneiss	jamais testé	1	0	plt_bri_c 47_platine_long.txt:196		
-pl_golf	ok	1	4	pla_05 41_platine.txt:47		plt_ana 41_platine.txt:189 ; plt_ana 41_platine.txt:191 ; plt_ana_a 47_platine_long.txt:227 ; plt_ana_a 47_platine_long.txt:229
-pl_infirmerie	jamais testé	1	0	plt_car7 47_platine_long.txt:542		
-pl_kramm	jamais testé	1	0	pla_02 41_platine.txt:24		
-pl_kramm_dessin	jamais testé	1	0	plf_01d 47_platine_long.txt:471		
-pl_lest	jamais testé	1	0	plt_bri_k 47_platine_long.txt:528		
-pl_lettres_a_part	jamais testé	1	0	pla_06d 47_platine_long.txt:368		
-pl_ligue	ok	1	7	plt_bri3 41_platine.txt:180		plt_bri3 41_platine.txt:181 ; plf_01 41_platine.txt:207 ; plf_01 41_platine.txt:209 ; plf_01 41_platine.txt:210 ; plf_01 41_platine.txt:213 ; plf_01 41_platine.txt:214 ; plf_01 41_platine.txt:215
-pl_lingot	jamais testé	1	0	pla_01d 47_platine_long.txt:352		
-pl_lit	jamais testé	1	0	plt_bri_g 47_platine_long.txt:424		
-pl_mur	jamais testé	1	0	plt_cap_e 47_platine_long.txt:172		
-pl_nom_echo	jamais testé	2	0	plt_bri_f 47_platine_long.txt:211 ; plt_bri_f 47_platine_long.txt:212		
-pl_nuit	ok	1	2	plt_nuit 41_platine.txt:90		plt_hub 41_platine.txt:85 ; plt_hub 41_platine.txt:86
-pl_pardon	jamais testé	1	0	plt_car2 47_platine_long.txt:307		
-pl_penelope	ok	2	2	pla_01c 47_platine_long.txt:22 ; pla_06e 47_platine_long.txt:377		plf_01b 47_platine_long.txt:331 ; plf_01b 47_platine_long.txt:332
-pl_penelope_libre	jamais testé	1	0	plf_01b 47_platine_long.txt:334		
-pl_piscines	ok	1	4	pla_05 41_platine.txt:46		plt_cot 41_platine.txt:113 ; plt_cot 41_platine.txt:115 ; plt_cot 41_platine.txt:116 ; plt_cot_f 47_platine_long.txt:79
-pl_pistil_avant	ok	3	2	plt_nuit 41_platine.txt:95 ; plt_nuit 41_platine.txt:96 ; plt_nuit 41_platine.txt:97		plt_bri3 41_platine.txt:177 ; plt_bri3 41_platine.txt:180
-pl_poisson	jamais testé	1	0	plt_ana_e 47_platine_long.txt:235		
-pl_poisson_lune	ok	1	1	plt_cot_i 47_platine_long.txt:392		plt_cot_j 47_platine_long.txt:400
-pl_prix_bille	ok	4	1	plf_vente 41_platine.txt:264 ; plf_vente 41_platine.txt:264 ; plf_vente 41_platine.txt:265 ; plf_vente 41_platine.txt:265		end_25 41_platine.txt:306
-pl_prix_fleur	ok	2	1	plf_vente 41_platine.txt:261 ; plf_vente 41_platine.txt:261		end_25 41_platine.txt:303
-pl_prix_lettre	ok	2	1	plf_vente 41_platine.txt:260 ; plf_vente 41_platine.txt:260		end_25 41_platine.txt:302
-pl_prix_reve	ok	2	1	plf_vente 41_platine.txt:262 ; plf_vente 41_platine.txt:262		end_25 41_platine.txt:304
-pl_prix_tampon	ok	2	1	plf_vente 41_platine.txt:263 ; plf_vente 41_platine.txt:263		end_25 41_platine.txt:305
-pl_rendre	ok	1	1	pla_05b 47_platine_long.txt:44		plf_01e 47_platine_long.txt:478
-pl_retard	jamais testé	1	0	plt_cap_k 47_platine_long.txt:519		
-pl_rumeur	jamais testé	1	0	plt_cot 41_platine.txt:116		
-pl_sait_penche	jamais testé	1	0	plt_bri_a 47_platine_long.txt:183		
-pl_tente	jamais testé	1	0	plt_car4 47_platine_long.txt:323		
-pl_the	jamais testé	1	0	plf_01b 47_platine_long.txt:335		
-pl_tours	ok	1	6	pla_05 41_platine.txt:48		plt_bri 41_platine.txt:164 ; plt_bri 41_platine.txt:166 ; plt_bri_b 47_platine_long.txt:188 ; plt_bri_b 47_platine_long.txt:190 ; plf_01c 47_platine_long.txt:341 ; plt_bri_g 47_platine_long.txt:424
-pl_train	ok	3	1	plt_route 47_platine_long.txt:280 ; plt_route 47_platine_long.txt:280 ; plt_route 47_platine_long.txt:281		plt_car2 47_platine_long.txt:304
-pl_vu	jamais testé	1	0	plt_cap_h 47_platine_long.txt:409		
-pl_vu_ana	ok	1	1	plt_ana 41_platine.txt:187		plt_hub 41_platine.txt:84
-pl_vu_bri	ok	1	5	plt_bri 41_platine.txt:162		plt_hub 41_platine.txt:83 ; plt_ana2 41_platine.txt:196 ; plt_ana_d 47_platine_long.txt:264 ; plt_ana_d 47_platine_long.txt:265 ; plt_ana_d 47_platine_long.txt:266
-pl_vu_cap	ok	1	1	plt_cap 41_platine.txt:137		plt_hub 41_platine.txt:82
-pl_vu_cot	ok	1	1	plt_cot 41_platine.txt:111		plt_hub 41_platine.txt:81
-pl_vu_galet	ok	1	1	pla_06c 47_platine_long.txt:61		plt_cap_a 47_platine_long.txt:140
+pl_ecope	ok	1	2	plt_cot_a 47_platine_long.txt:71		plt_cot_b 47_platine_long.txt:88 ; plt_ana_a 70_corr_platine.txt:304
+pl_emo_axe	ok	5	2	plt_bri 41_platine.txt:170 ; plt_bri_b 47_platine_long.txt:193 ; plt_bri_b 47_platine_long.txt:194 ; plt_bri_c 47_platine_long.txt:200 ; plt_bri_g 47_platine_long.txt:428		plf_01f 70_corr_platine.txt:9 ; plt_bri_k 47_platine_long.txt:533
+pl_emo_caillou	ok	1	1	plt_ana_c 47_platine_long.txt:253		plf_01f 70_corr_platine.txt:9
+pl_emo_chantier	ok	1	1	plf_01c 47_platine_long.txt:346		plf_01f 70_corr_platine.txt:9
+pl_emo_coffre	ok	4	2	plt_nuit 41_platine.txt:98 ; plt_nuit 41_platine.txt:99 ; plt_bri_d 47_platine_long.txt:222 ; plf_01f 47_platine_long.txt:493		plf_01f 47_platine_long.txt:491 ; plf_01f 70_corr_platine.txt:9
+pl_emo_digue	ok	1	2	plt_cot_f 47_platine_long.txt:80		plt_cot_j 47_platine_long.txt:402 ; plf_01f 70_corr_platine.txt:9
+pl_emo_don	ok	1	1	plt_cap 41_platine.txt:142		plf_01f 70_corr_platine.txt:9
+pl_emo_echarpe	ok	1	1	plt_ana_b 47_platine_long.txt:246		plf_01f 70_corr_platine.txt:9
+pl_emo_fleurs	ok	2	1	plt_bri 41_platine.txt:171 ; plt_ana_d 47_platine_long.txt:270		plf_01f 70_corr_platine.txt:9
+pl_emo_galet	ok	2	1	plt_cap_a 47_platine_long.txt:143 ; plt_car5 47_platine_long.txt:459		plf_01f 70_corr_platine.txt:9
+pl_emo_kramm	ok	3	1	pla_03 41_platine.txt:32 ; pla_03b 47_platine_long.txt:29 ; plf_01d 47_platine_long.txt:475		plf_01f 70_corr_platine.txt:9
+pl_emo_lampadaire	ok	1	1	plt_cap_c 47_platine_long.txt:160		plf_01f 70_corr_platine.txt:9
+pl_emo_lettres	ok	1	1	plt_cot2 41_platine.txt:126		plf_01f 70_corr_platine.txt:9
+pl_emo_maree	ok	2	1	plt_cot 41_platine.txt:117 ; plt_cot 41_platine.txt:118		plf_01f 70_corr_platine.txt:9
+pl_emo_meduses	ok	2	1	plt_cot_c 47_platine_long.txt:98 ; plt_cot_c 47_platine_long.txt:99		plf_01f 70_corr_platine.txt:9
+pl_emo_objet	jamais testé	4	0	plf_02 41_platine.txt:288 ; plf_02 41_platine.txt:289 ; plf_02 41_platine.txt:290 ; plf_02 41_platine.txt:291		
+pl_emo_perline	ok	4	1	plt_cot_b 47_platine_long.txt:89 ; plt_cot_b 47_platine_long.txt:89 ; plt_cot_b 47_platine_long.txt:90 ; plt_cot_h 47_platine_long.txt:389		plf_01f 70_corr_platine.txt:9
+pl_emo_poids	ok	1	1	plf_02 41_platine.txt:287		plf_02 41_platine.txt:287
+pl_emo_serre	ok	5	1	plt_ana 41_platine.txt:201 ; plt_ana 41_platine.txt:201 ; plt_ana_a 47_platine_long.txt:232 ; plt_ana_a 47_platine_long.txt:233 ; plt_ana_h 47_platine_long.txt:451		plf_01f 70_corr_platine.txt:9
+pl_emo_signature	ok	1	1	plt_cap2 41_platine.txt:150		plf_01f 70_corr_platine.txt:9
+pl_enfants	jamais testé	1	0	plt_route 47_platine_long.txt:288		
+pl_epine	jamais testé	1	0	plt_cap_b 47_platine_long.txt:152		
+pl_fente	ok	1	2	plt_ana 41_platine.txt:202		plt_bri 41_platine.txt:168 ; plt_ana_d 47_platine_long.txt:270
+pl_fermiere	ok	1	9	plt_00 47_platine_long.txt:509		plt_00b 53_platine_scenes.txt:37 ; plt_00b 53_platine_scenes.txt:38 ; plt_00b 53_platine_scenes.txt:39 ; plt_00b 53_platine_scenes.txt:40 ; plt_00b 53_platine_scenes.txt:41 ; plt_00b 53_platine_scenes.txt:42 ; plt_00b 53_platine_scenes.txt:43 ; plt_00b 53_platine_scenes.txt:44 ; plt_00b 53_platine_scenes.txt:45
+pl_feu_eteint	jamais testé	1	0	plt_ana_a 47_platine_long.txt:232		
+pl_fleurs_ouvertes	jamais testé	1	0	plt_ana_h 47_platine_long.txt:451		
+pl_formulaire	ok	1	3	plt_cap_b2 53_platine_scenes.txt:118	plf_vente 41_platine.txt:330 ; plf_vente 41_platine.txt:330	plf_vente 41_platine.txt:320 ; plf_vente 41_platine.txt:330 ; plf_01f 53_platine_scenes.txt:217
+pl_gazette	jamais testé	1	0	plt_car6 47_platine_long.txt:466		
+pl_gneiss	jamais testé	1	0	plt_bri_c 47_platine_long.txt:200		
+pl_golf	ok	1	4	pla_05 41_platine.txt:48		plt_ana 41_platine.txt:199 ; plt_ana 41_platine.txt:201 ; plt_ana_a 47_platine_long.txt:231 ; plt_ana_a 47_platine_long.txt:233
+pl_infirmerie	jamais testé	1	0	plt_car7 47_platine_long.txt:548		
+pl_kramm	ok	1	1	pla_02 41_platine.txt:24		pla_05 41_platine.txt:44
+pl_kramm_dessin	ok	1	6	plf_01d 47_platine_long.txt:475		end_27 41_platine.txt:432 ; end_27 41_platine.txt:433 ; end_27 41_platine.txt:435 ; end_27 41_platine.txt:436 ; end_27 41_platine.txt:438 ; end_27 41_platine.txt:439
+pl_lest	jamais testé	1	0	plt_bri_k 47_platine_long.txt:534		
+pl_lettre_lue	jamais testé	1	0	plf_02 41_platine.txt:288		
+pl_lettres_a_part	jamais testé	1	0	pla_06d 47_platine_long.txt:372		
+pl_ligue	ok	2	8	plt_bri3 41_platine.txt:188 ; plt_bri3 41_platine.txt:189		plf_01 41_platine.txt:216 ; plf_01 41_platine.txt:218 ; plf_01 41_platine.txt:219 ; plf_01 41_platine.txt:220 ; plf_01 41_platine.txt:224 ; plf_01 41_platine.txt:225 ; plf_01 41_platine.txt:226 ; plf_01 41_platine.txt:227
+pl_lingot	jamais testé	1	0	pla_01d 47_platine_long.txt:356		
+pl_lit	jamais testé	1	0	plt_bri_g 47_platine_long.txt:428		
+pl_mur	jamais testé	1	0	plt_cap_e 47_platine_long.txt:175		
+pl_nom_echo	ok	3	7	plt_bri_f 47_platine_long.txt:215 ; plt_bri_f 47_platine_long.txt:216 ; plt_bri_f 47_platine_long.txt:216		plt_bri 41_platine.txt:169 ; plt_bri3 41_platine.txt:182 ; plt_bri3 41_platine.txt:184 ; plt_bri3 41_platine.txt:185 ; plt_bri3 41_platine.txt:188 ; plt_bri3 41_platine.txt:189 ; plt_bri3 41_platine.txt:190
+pl_nuit	ok	1	2	plt_nuit 41_platine.txt:92		plt_hub 41_platine.txt:87 ; plt_hub 41_platine.txt:88
+pl_parcelles	jamais testé	1	0	plf_02 41_platine.txt:289		
+pl_pardon	jamais testé	1	0	plt_car2 47_platine_long.txt:311		
+pl_penelope	ok	2	2	pla_01c 47_platine_long.txt:22 ; pla_06e 47_platine_long.txt:381		plf_01b 47_platine_long.txt:335 ; plf_01b 47_platine_long.txt:336
+pl_penelope_libre	ok	2	2	plf_ligue2 41_platine.txt:254 ; plf_01b 47_platine_long.txt:338		end_24 41_platine.txt:386 ; end_25 41_platine.txt:403
+pl_piscines	ok	1	4	pla_05 41_platine.txt:47		plt_cot 41_platine.txt:115 ; plt_cot 41_platine.txt:117 ; plt_cot 41_platine.txt:118 ; plt_cot_f 47_platine_long.txt:79
+pl_pistil_avant	jamais testé	3	0	plt_nuit 41_platine.txt:97 ; plt_nuit 41_platine.txt:98 ; plt_nuit 41_platine.txt:99		
+pl_poisson	jamais testé	1	0	plt_ana_e 47_platine_long.txt:239		
+pl_poisson_lune	ok	1	1	plt_cot_i 47_platine_long.txt:396		plt_cot_j 47_platine_long.txt:404
+pl_prix_bille	ok	4	1	plf_vente 41_platine.txt:331 ; plf_vente 41_platine.txt:331 ; plf_vente 41_platine.txt:332 ; plf_vente 41_platine.txt:332		end_25 41_platine.txt:402
+pl_prix_fleur	ok	2	1	plf_vente 41_platine.txt:325 ; plf_vente 41_platine.txt:325		end_25 41_platine.txt:396
+pl_prix_lettre	ok	2	1	plf_vente 41_platine.txt:324 ; plf_vente 41_platine.txt:324		end_25 41_platine.txt:395
+pl_prix_pressee	ok	2	1	plf_vente 41_platine.txt:328 ; plf_vente 41_platine.txt:328		end_25 41_platine.txt:399
+pl_prix_reve	ok	2	1	plf_vente 41_platine.txt:326 ; plf_vente 41_platine.txt:326		end_25 41_platine.txt:397
+pl_prix_tampon	ok	2	1	plf_vente 41_platine.txt:327 ; plf_vente 41_platine.txt:327		end_25 41_platine.txt:398
+pl_prix_terre	ok	2	1	plf_vente 41_platine.txt:330 ; plf_vente 41_platine.txt:330		end_25 41_platine.txt:401
+pl_prix_verre	ok	2	1	plf_vente 41_platine.txt:329 ; plf_vente 41_platine.txt:329		end_25 41_platine.txt:400
+pl_reclam_enfant	ok	1	1	plt_cap 41_platine.txt:143		plf_01e2 53_platine_scenes.txt:211
+pl_remords	ok	2	2	plf_02 41_platine.txt:293 ; plf_02b 41_platine.txt:365		end_26 41_platine.txt:414 ; end_26 41_platine.txt:415
+pl_rendre	ok	1	1	pla_05b 47_platine_long.txt:44		plf_01e 47_platine_long.txt:482
+pl_retard	jamais testé	1	0	plt_cap_k 47_platine_long.txt:523		
+pl_rumeur	jamais testé	1	0	plt_cot 41_platine.txt:118		
+pl_sait_penche	jamais testé	1	0	plt_bri_a 47_platine_long.txt:187		
+pl_tente	jamais testé	1	0	plt_car4 47_platine_long.txt:327		
+pl_the	jamais testé	1	0	plf_01b 47_platine_long.txt:339		
+pl_tours	ok	1	6	pla_05 41_platine.txt:49		plt_bri 41_platine.txt:166 ; plt_bri 41_platine.txt:170 ; plt_bri_b 47_platine_long.txt:192 ; plt_bri_b 47_platine_long.txt:194 ; plf_01c 47_platine_long.txt:345 ; plt_bri_g 47_platine_long.txt:428
+pl_train	ok	3	11	plt_route 47_platine_long.txt:284 ; plt_route 47_platine_long.txt:284 ; plt_route 47_platine_long.txt:285		plt_cap_a 47_platine_long.txt:139 ; plt_cap_a 47_platine_long.txt:140 ; plt_cap_a 47_platine_long.txt:141 ; plt_cap_a 47_platine_long.txt:142 ; plt_cap_a 70_corr_platine.txt:139 ; plt_cap_a 70_corr_platine.txt:143 ; plt_cap_a 47_platine_long.txt:143 ; plt_cap_a 47_platine_long.txt:144 ; plt_cap_a 47_platine_long.txt:145 ; plt_cap_a 47_platine_long.txt:146 ; plt_car2 47_platine_long.txt:308
+pl_vu	jamais testé	1	0	plt_cap_h 47_platine_long.txt:413		
+pl_vu_ana	ok	1	1	plt_ana 41_platine.txt:197		plt_hub 41_platine.txt:86
+pl_vu_bri	ok	1	4	plt_bri 41_platine.txt:164		plt_hub 41_platine.txt:85 ; plt_ana_d 47_platine_long.txt:268 ; plt_ana_d 47_platine_long.txt:269 ; plt_ana_d 47_platine_long.txt:270
+pl_vu_cap	ok	1	1	plt_cap 41_platine.txt:139		plt_hub 41_platine.txt:84
+pl_vu_cot	ok	1	1	plt_cot 41_platine.txt:113		plt_hub 41_platine.txt:83
+pl_vu_galet	ok	1	1	pla_06c 47_platine_long.txt:61		plt_cap_a 47_platine_long.txt:141
 pl_vu_signature	jamais testé	1	0	pla_01 41_platine.txt:17		
-pl_zephyrin_rend	jamais testé	1	0	plf_01e 47_platine_long.txt:479		
-plan_chantier	jamais testé	2	0	ond_38 01_ondine.txt:245 ; zep_16 05_zephyrin.txt:105		
-plans_chantier	ok	1	1	zep_16 05_zephyrin.txt:105		zep_41 05_zephyrin.txt:258
-plans_lune	ok	7	2	pro_21 14_profondeurs.txt:146 ; pro_21 14_profondeurs.txt:146 ; pro_25 14_profondeurs.txt:176 ; cha_16 21_chantier.txt:127 ; cha_16 21_chantier.txt:127 ; cha_16 21_chantier.txt:128 ; cha_63 93_objets.txt:383		fin_08 23_final.txt:92 ; fin_08 23_final.txt:93
-plaque	jamais testé	1	0	bas_06 02_basile.txt:40		
-platine_emu	ok	24	1	zep_32 05_zephyrin.txt:203 ; son_28 13_songes.txt:189 ; neg_11 22_negociation.txt:81 ; neg_11 22_negociation.txt:81 ; neg_13 22_negociation.txt:99 ; neg_17 22_negociation.txt:144 ; neg_19 22_negociation.txt:158 ; neg_20 22_negociation.txt:166 ; neg_20 22_negociation.txt:167 ; neg_20 22_negociation.txt:167 ; neg_23 22_negociation.txt:189 ; neg_25 22_negociation.txt:201 ; neg_28 22_negociation.txt:223 ; neg_40 24_suites_v3.txt:125 ; neg_42 24_suites_v3.txt:139 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145 ; neg_46 24_suites_v3.txt:153 ; neg_46 24_suites_v3.txt:153 ; neg_44 24_suites_v3.txt:162 ; neg_58 93_objets.txt:461 ; neg_52 93_objets.txt:480 ; neg_56 93_objets.txt:492 ; neg_57 93_objets.txt:498		fin_01 23_final.txt:25
-platine_faille	ok	25	5	bas_26 02_basile.txt:174 ; zep_16 05_zephyrin.txt:106 ; cot_27 11_cotes.txt:181 ; son_25 13_songes.txt:172 ; son_28 13_songes.txt:190 ; cap_26 15_capitale.txt:178 ; cap_26 15_capitale.txt:179 ; cap_26 15_capitale.txt:180 ; cha_32 21_chantier.txt:231 ; neg_23 22_negociation.txt:190 ; cha_49 24_suites_v3.txt:89 ; neg_40 24_suites_v3.txt:125 ; neg_40 24_suites_v3.txt:125 ; neg_42 24_suites_v3.txt:139 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145 ; neg_46 24_suites_v3.txt:153 ; neg_44 24_suites_v3.txt:162 ; neg_44 24_suites_v3.txt:162 ; neg_45 24_suites_v3.txt:169 ; neg_58 93_objets.txt:461 ; neg_50 93_objets.txt:474 ; neg_52 93_objets.txt:480 ; neg_52 93_objets.txt:480 ; fin_32 93_objets.txt:517		neg_06 22_negociation.txt:45 ; fin_13 23_final.txt:125 ; fin_13 23_final.txt:126 ; fin_25 24_suites_v3.txt:194 ; fin_25 24_suites_v3.txt:195
-platine_inquiet	jamais testé	8	0	neg_05 22_negociation.txt:41 ; neg_08 22_negociation.txt:58 ; neg_10 22_negociation.txt:75 ; neg_15 22_negociation.txt:120 ; neg_18 22_negociation.txt:151 ; neg_55 93_objets.txt:452 ; neg_54 93_objets.txt:486 ; neg_54 93_objets.txt:486		
-platine_jamais_vu	ok	2	1	cot_23 11_cotes.txt:155 ; cot_23 11_cotes.txt:155		neg_06 22_negociation.txt:45
-platine_question	jamais testé	8	0	zep_12 05_zephyrin.txt:80 ; neg_12 22_negociation.txt:88 ; neg_22 22_negociation.txt:179 ; neg_58 93_objets.txt:461 ; neg_50 93_objets.txt:474 ; neg_50 93_objets.txt:474 ; neg_56 93_objets.txt:492 ; neg_57 93_objets.txt:498		
-platine_reve	ok	3	1	son_25 13_songes.txt:171 ; son_25 13_songes.txt:171 ; son_25 13_songes.txt:172		neg_06 22_negociation.txt:45
+pl_zephyrin_rend	ok	1	1	plf_01e 47_platine_long.txt:483		end_25 41_platine.txt:404
+plan_chantier	jamais testé	2	0	ond_38 01_ondine.txt:245 ; zep_16 05_zephyrin.txt:107		
+plans_chantier	ok	1	1	zep_16 05_zephyrin.txt:107		zep_41 05_zephyrin.txt:272
+plans_lune	ok	7	2	pro_21 14_profondeurs.txt:146 ; pro_21 14_profondeurs.txt:146 ; pro_25 14_profondeurs.txt:176 ; cha_16 21_chantier.txt:127 ; cha_16 21_chantier.txt:127 ; cha_16 21_chantier.txt:128 ; cha_63 93_objets.txt:387		fin_08 23_final.txt:94 ; fin_08 23_final.txt:95
+plaque	jamais testé	1	0	bas_06 02_basile.txt:41		
+platine_emu	ok	28	1	zep_32 05_zephyrin.txt:211 ; zep_32 05_zephyrin.txt:212 ; son_28 13_songes.txt:191 ; neg_11 22_negociation.txt:82 ; neg_11 22_negociation.txt:82 ; neg_13 22_negociation.txt:100 ; neg_17 22_negociation.txt:145 ; neg_19 22_negociation.txt:159 ; neg_20 22_negociation.txt:167 ; neg_20 22_negociation.txt:168 ; neg_20 22_negociation.txt:168 ; neg_23 22_negociation.txt:190 ; neg_23 64_corr_zephyrin.txt:201 ; neg_25 22_negociation.txt:202 ; neg_28 22_negociation.txt:224 ; neg_40 24_suites_v3.txt:125 ; neg_42 24_suites_v3.txt:139 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145 ; neg_46 24_suites_v3.txt:153 ; neg_46 24_suites_v3.txt:153 ; neg_44 24_suites_v3.txt:162 ; neg_bas1 61_corr_basile.txt:23 ; neg_bas1 61_corr_basile.txt:24 ; neg_58 93_objets.txt:465 ; neg_52 93_objets.txt:484 ; neg_56 93_objets.txt:496 ; neg_57 93_objets.txt:502		fin_01 23_final.txt:25
+platine_faille	ok	26	5	bas_26 02_basile.txt:177 ; zep_16 05_zephyrin.txt:108 ; cot_27 11_cotes.txt:183 ; son_25 13_songes.txt:174 ; son_28 13_songes.txt:192 ; cap_26 15_capitale.txt:194 ; cap_26 15_capitale.txt:195 ; cap_26 15_capitale.txt:196 ; cha_32 21_chantier.txt:236 ; neg_23 22_negociation.txt:191 ; neg_23 64_corr_zephyrin.txt:201 ; cha_49 24_suites_v3.txt:89 ; neg_40 24_suites_v3.txt:125 ; neg_40 24_suites_v3.txt:125 ; neg_42 24_suites_v3.txt:139 ; neg_43 24_suites_v3.txt:145 ; neg_43 24_suites_v3.txt:145 ; neg_46 24_suites_v3.txt:153 ; neg_44 24_suites_v3.txt:162 ; neg_44 24_suites_v3.txt:162 ; neg_45 24_suites_v3.txt:169 ; neg_58 93_objets.txt:465 ; neg_50 93_objets.txt:478 ; neg_52 93_objets.txt:484 ; neg_52 93_objets.txt:484 ; fin_32 93_objets.txt:521		neg_06 22_negociation.txt:45 ; fin_13 23_final.txt:127 ; fin_13 23_final.txt:128 ; fin_25 24_suites_v3.txt:194 ; fin_25 24_suites_v3.txt:195
+platine_inquiet	jamais testé	10	0	neg_05 22_negociation.txt:41 ; neg_05 61_corr_basile.txt:13 ; neg_05 61_corr_basile.txt:13 ; neg_08 22_negociation.txt:58 ; neg_10 22_negociation.txt:76 ; neg_15 22_negociation.txt:121 ; neg_18 22_negociation.txt:152 ; neg_55 93_objets.txt:456 ; neg_54 93_objets.txt:490 ; neg_54 93_objets.txt:490		
+platine_jamais_vu	ok	2	1	cot_23 11_cotes.txt:157 ; cot_23 11_cotes.txt:157		neg_06 22_negociation.txt:45
+platine_question	jamais testé	8	0	zep_12 05_zephyrin.txt:80 ; neg_12 22_negociation.txt:89 ; neg_22 22_negociation.txt:180 ; neg_58 93_objets.txt:465 ; neg_50 93_objets.txt:478 ; neg_50 93_objets.txt:478 ; neg_56 93_objets.txt:496 ; neg_57 93_objets.txt:502		
+platine_reve	ok	3	1	son_25 13_songes.txt:173 ; son_25 13_songes.txt:173 ; son_25 13_songes.txt:174		neg_06 22_negociation.txt:45
 pli_part_asc	ok	2	1	asc_04 20_ascension.txt:39 ; asc_04 20_ascension.txt:39		asc_05 20_ascension.txt:42
 pli_part_fin	ok	1	1	fin_01 23_final.txt:30		fin_19 92_comportements.txt:12
-pli_part_nua	ok	2	4	nua_09 16_nuages.txt:75 ; nua_09 16_nuages.txt:75		nua_10 16_nuages.txt:78 ; com_18 92_comportements.txt:15 ; com_18 17_comete.txt:142 ; com_18 17_comete.txt:143
-pli_renvoye	ok	1	3	nua_12 16_nuages.txt:93		com_18 17_comete.txt:140 ; com_18 17_comete.txt:142 ; com_18 17_comete.txt:143
-pluie_lune	jamais testé	2	0	nui_56 19_nuit.txt:214 ; nui_56 19_nuit.txt:214		
-plumard_merci	jamais testé	1	0	nui_58 19_nuit.txt:229		
+pli_part_nua	ok	2	4	nua_09 16_nuages.txt:76 ; nua_09 16_nuages.txt:76		nua_10 16_nuages.txt:79 ; com_18 92_comportements.txt:15 ; com_18 17_comete.txt:144 ; com_18 17_comete.txt:145
+pli_renvoye	ok	1	3	nua_12 16_nuages.txt:94		com_18 17_comete.txt:142 ; com_18 17_comete.txt:144 ; com_18 17_comete.txt:145
+pluie_lune	jamais testé	2	0	nui_56 19_nuit.txt:215 ; nui_56 19_nuit.txt:215		
+plumard_merci	jamais testé	1	0	nui_58 19_nuit.txt:230		
 plumard_renvoye	jamais testé	1	0	foi_13 18_foire.txt:112		
-plumard_reste	ok	2	1	cha_27 21_chantier.txt:199 ; cha_27 21_chantier.txt:199		cha_29 21_chantier.txt:206
-pm_anniv	ok	2	2	pcm_08 48_ploum_long.txt:145 ; pcr_08 48_ploum_long.txt:504		pmo_bur 42_ploum.txt:426 ; pmo_03 48_ploum_long.txt:496
-pm_anniv_dit	ok	1	2	pmo_bur 42_ploum.txt:426		pmo_bur 42_ploum.txt:422 ; pmo_bur 42_ploum.txt:426
-pm_appel	ok	5	22	pcm_avale 42_ploum.txt:116 ; pso_reve 42_ploum.txt:267 ; pct_lettre 42_ploum.txt:330 ; pcr_06 48_ploum_long.txt:307 ; pch_lune 48_ploum_long.txt:350		plu_hub 42_ploum.txt:46 ; plu_hub 42_ploum.txt:47 ; pct_04 42_ploum.txt:338 ; pnu_01 42_ploum.txt:347 ; pnu_01 42_ploum.txt:348 ; pnu_01 42_ploum.txt:354 ; pnu_01 42_ploum.txt:355 ; pch_01 42_ploum.txt:375 ; pmo_bur 42_ploum.txt:417 ; pmo_dort 42_ploum.txt:469 ; end_29 42_ploum.txt:499 ; end_31 42_ploum.txt:518 ; end_31 42_ploum.txt:519 ; end_32 42_ploum.txt:533 ; pcr_06 48_ploum_long.txt:305 ; pcr_06 48_ploum_long.txt:306 ; pcr_06 48_ploum_long.txt:307 ; pch_00 48_ploum_long.txt:337 ; pch_00 48_ploum_long.txt:338 ; pmo_02b 50_ploum_long2.txt:201 ; pmo_02b 50_ploum_long2.txt:202 ; pmo_02b 51_ploum_repliques.txt:258
-pm_ballon	ok	1	1	pha_05 48_ploum_long.txt:277		pnu_02 42_ploum.txt:365
-pm_bartho_goutte	ok	1	3	pch_01 42_ploum.txt:382		pch_01 42_ploum.txt:378 ; pch_01 42_ploum.txt:379 ; pch_01 42_ploum.txt:382
-pm_berc_ok	ok	2	3	pmo_bur 42_ploum.txt:429 ; pmo_rate 42_ploum.txt:452		pmo_dort 42_ploum.txt:460 ; pmo_dort 42_ploum.txt:461 ; pmo_dort 42_ploum.txt:462
-pm_caisse	ok	1	4	pcm_vendu 42_ploum.txt:157		pmo_bur 42_ploum.txt:413 ; pmo_bur 42_ploum.txt:414 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455
-pm_chanson	ok	1	1	pmo_chanson 48_ploum_long.txt:367		pmo_bur 42_ploum.txt:427
-pm_chanson_rendue	ok	1	1	pmo_bur 42_ploum.txt:427		pmo_bur 42_ploum.txt:427
-pm_dessin_rendu	ok	1	3	pmo_bur 42_ploum.txt:425		pch_01 51_ploum_repliques.txt:235 ; pmo_bur 42_ploum.txt:425 ; pnu_00d 50_ploum_long2.txt:192
-pm_echo_avale	ok	1	3	pcm_avale 42_ploum.txt:116		pcm_03 42_ploum.txt:102 ; pcm_03 42_ploum.txt:103 ; pcm_03 42_ploum.txt:106
-pm_essai_berc	ok	4	4	pmo_bur 42_ploum.txt:429 ; pmo_bur 42_ploum.txt:429 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:452		pmo_bur 42_ploum.txt:429 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455
-pm_essai_crochet	ok	6	7	pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:432 ; pmo_bur 42_ploum.txt:432 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:453		pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:432 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455 ; pmo_rate 42_ploum.txt:455
-pm_essai_reve	ok	4	4	pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:430 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:451		pmo_bur 42_ploum.txt:430 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455
-pm_faille	ok	2	6	pnu_00b 48_ploum_long.txt:327 ; pnu_00b 48_ploum_long.txt:328		pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:432 ; pmo_bur 42_ploum.txt:433 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455
-pm_galet	ok	1	7	plu_01 42_ploum.txt:21		plu_02 42_ploum.txt:27 ; pmo_bur 42_ploum.txt:432 ; pmo_bur 42_ploum.txt:433 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455 ; plu_07 51_ploum_repliques.txt:7
-pm_lettre	ok	1	5	pct_lettre 42_ploum.txt:330		pct_04 42_ploum.txt:336 ; pct_04 42_ploum.txt:337 ; pct_04 42_ploum.txt:338 ; end_28 42_ploum.txt:482 ; end_31 42_ploum.txt:522
-pm_miroir_rendu	ok	1	2	pmo_bur 42_ploum.txt:423		pmo_bur 42_ploum.txt:415 ; pmo_bur 42_ploum.txt:423
-pm_ondee_parle	ok	1	6	pha_02 48_ploum_long.txt:234		pha_03 48_ploum_long.txt:248 ; pha_04 48_ploum_long.txt:265 ; pha_04 48_ploum_long.txt:266 ; pha_04 48_ploum_long.txt:268 ; pha_04 48_ploum_long.txt:269 ; pha_02b 48_ploum_long.txt:554
+plumard_reste	ok	4	1	cha_27 21_chantier.txt:199 ; cha_27 21_chantier.txt:199 ; cha_27 21_chantier.txt:200 ; cha_27 21_chantier.txt:200		cha_29 21_chantier.txt:207
+pm_anniv	ok	2	2	pcm_08 48_ploum_long.txt:145 ; pcr_08 48_ploum_long.txt:505		pmo_bur 42_ploum.txt:425 ; pmo_03 48_ploum_long.txt:497
+pm_anniv_dit	ok	1	2	pmo_bur 42_ploum.txt:425		pmo_bur 42_ploum.txt:421 ; pmo_bur 42_ploum.txt:425
+pm_appel	ok	5	25	pcm_avale 42_ploum.txt:114 ; pso_reve 42_ploum.txt:264 ; pct_lettre 42_ploum.txt:329 ; pcr_06 48_ploum_long.txt:307 ; pch_lune 48_ploum_long.txt:350		plu_hub 42_ploum.txt:47 ; plu_hub 42_ploum.txt:48 ; pct_04 42_ploum.txt:337 ; pnu_01 42_ploum.txt:346 ; pnu_01 42_ploum.txt:347 ; pnu_01 42_ploum.txt:353 ; pnu_01 42_ploum.txt:354 ; pch_01 42_ploum.txt:374 ; pmo_bur 42_ploum.txt:416 ; pmo_dort 42_ploum.txt:468 ; end_29 42_ploum.txt:499 ; end_31 42_ploum.txt:518 ; end_31 42_ploum.txt:519 ; end_32 42_ploum.txt:533 ; pcr_06 48_ploum_long.txt:305 ; pcr_06 48_ploum_long.txt:306 ; pcr_06 48_ploum_long.txt:307 ; pch_00 48_ploum_long.txt:337 ; pch_00 48_ploum_long.txt:338 ; pch_00 71_corr_ploum.txt:129 ; pch_03 48_ploum_long.txt:489 ; pch_03 48_ploum_long.txt:491 ; pmo_02b 50_ploum_long2.txt:202 ; pmo_02b 50_ploum_long2.txt:203 ; pmo_02b 51_ploum_repliques.txt:254
+pm_arbre	ok	1	1	pmo_01b 50_ploum_long2.txt:117		pmo_bur 71_corr_ploum.txt:175
+pm_arbre_dit	ok	1	1	pmo_bur 71_corr_ploum.txt:175		pmo_bur 71_corr_ploum.txt:175
+pm_av_bartho	ok	1	2	pcr_01 42_ploum.txt:173	pcr_fuite 71_corr_ploum.txt:23	pcr_01 42_ploum.txt:175 ; pcr_fuite 71_corr_ploum.txt:23
+pm_av_brume	ok	1	2	pcr_01 42_ploum.txt:173	pcr_fuite 71_corr_ploum.txt:23	pcr_01 42_ploum.txt:175 ; pcr_fuite 71_corr_ploum.txt:23
+pm_av_ondee	ok	1	2	pcr_01 42_ploum.txt:173	pcr_fuite 71_corr_ploum.txt:23	pcr_01 42_ploum.txt:175 ; pcr_fuite 71_corr_ploum.txt:23
+pm_av_pardon	ok	1	2	pcr_01 42_ploum.txt:173	pcr_fuite 71_corr_ploum.txt:23	pcr_01 42_ploum.txt:175 ; pcr_fuite 71_corr_ploum.txt:23
+pm_ballon	ok	1	1	pha_05 48_ploum_long.txt:277		pnu_02 42_ploum.txt:364
+pm_bartho_goutte	ok	1	3	pch_01 42_ploum.txt:381		pch_01 42_ploum.txt:377 ; pch_01 42_ploum.txt:378 ; pch_01 42_ploum.txt:381
+pm_berc_ok	ok	2	3	pmo_bur 42_ploum.txt:428 ; pmo_rate 42_ploum.txt:451		pmo_dort 42_ploum.txt:459 ; pmo_dort 42_ploum.txt:460 ; pmo_dort 42_ploum.txt:461
+pm_cache	ok	1	1	pcm_r3 71_corr_ploum.txt:12	pcr_fuite 71_corr_ploum.txt:23	pcr_01 71_corr_ploum.txt:16
+pm_caisse	ok	2	4	pcm_vendu 42_ploum.txt:156 ; pcm_r3 71_corr_ploum.txt:12	pcr_fuite 71_corr_ploum.txt:23	pmo_bur 42_ploum.txt:412 ; pmo_bur 42_ploum.txt:413 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454
+pm_chanson	ok	1	1	pmo_chanson 48_ploum_long.txt:367		pmo_bur 42_ploum.txt:426
+pm_chanson_rendue	ok	1	1	pmo_bur 42_ploum.txt:426		pmo_bur 42_ploum.txt:426
+pm_commission	ok	1	1	pct_04 71_corr_ploum.txt:166		pch_00 71_corr_ploum.txt:169
+pm_commission_dite	ok	1	1	pch_00 71_corr_ploum.txt:169		pch_00 71_corr_ploum.txt:169
+pm_decide	ok	1	4	pmo_decide 71_corr_ploum.txt:67		end_28 42_ploum.txt:475 ; end_28 42_ploum.txt:476 ; end_28 42_ploum.txt:479 ; end_28 42_ploum.txt:480
+pm_dessin_rendu	ok	1	3	pmo_bur 42_ploum.txt:424		pch_01 51_ploum_repliques.txt:231 ; pmo_bur 42_ploum.txt:424 ; pnu_00d 50_ploum_long2.txt:192
+pm_echo_avale	ok	1	3	pcm_avale 42_ploum.txt:114		pcm_03 42_ploum.txt:100 ; pcm_03 42_ploum.txt:101 ; pcm_03 42_ploum.txt:104
+pm_essai_berc	ok	4	4	pmo_bur 42_ploum.txt:428 ; pmo_bur 42_ploum.txt:428 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:451		pmo_bur 42_ploum.txt:428 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454
+pm_essai_crochet	ok	6	7	pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:431 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:452		pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:431 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:454
+pm_essai_reve	ok	4	4	pmo_bur 42_ploum.txt:429 ; pmo_bur 42_ploum.txt:429 ; pmo_rate 42_ploum.txt:450 ; pmo_rate 42_ploum.txt:450		pmo_bur 42_ploum.txt:429 ; pmo_rate 42_ploum.txt:450 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454
+pm_etiquette	jamais testé	1	0	pcm_vendu 42_ploum.txt:156	pcr_fuite 71_corr_ploum.txt:23	
+pm_etoile	ok	1	1	ply_05b 50_ploum_long2.txt:16		plu_03 71_corr_ploum.txt:172
+pm_etoile_dite	ok	1	1	plu_03 71_corr_ploum.txt:172		plu_03 71_corr_ploum.txt:172
+pm_faille	ok	2	6	pnu_00b 48_ploum_long.txt:327 ; pnu_00b 48_ploum_long.txt:328		pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:432 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454
+pm_firmin	ok	3	1	pch_03 48_ploum_long.txt:490 ; pch_03 48_ploum_long.txt:491 ; pch_03 71_corr_ploum.txt:41		pch_01 71_corr_ploum.txt:178
+pm_galet	ok	5	10	plu_01 42_ploum.txt:21 ; plu_05b 48_ploum_long.txt:415 ; plu_05b 48_ploum_long.txt:415 ; pnu_02b 48_ploum_long.txt:564 ; pnu_02b 48_ploum_long.txt:564		plu_02 42_ploum.txt:27 ; plu_03 42_ploum.txt:39 ; plu_03 42_ploum.txt:40 ; pmo_bur 42_ploum.txt:431 ; pmo_bur 42_ploum.txt:432 ; pmo_rate 42_ploum.txt:452 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; end_28 42_ploum.txt:486 ; plu_07 51_ploum_repliques.txt:7
+pm_lettre	ok	1	5	pct_lettre 42_ploum.txt:329		pct_04 42_ploum.txt:335 ; pct_04 42_ploum.txt:336 ; pct_04 42_ploum.txt:337 ; end_28 42_ploum.txt:482 ; end_31 42_ploum.txt:522
+pm_miroir_rendu	ok	1	3	pmo_bur 42_ploum.txt:422		pmo_bur 42_ploum.txt:414 ; pmo_bur 42_ploum.txt:422 ; pmo_parle 71_corr_ploum.txt:57
+pm_ondee_parle	ok	1	6	pha_02 48_ploum_long.txt:234		pha_03 48_ploum_long.txt:248 ; pha_04 48_ploum_long.txt:265 ; pha_04 48_ploum_long.txt:266 ; pha_04 48_ploum_long.txt:268 ; pha_04 48_ploum_long.txt:269 ; pha_02b 48_ploum_long.txt:555
 pm_oreiller	ok	1	1	pso_oreiller 48_ploum_long.txt:177		pnu_00 48_ploum_long.txt:321
-pm_ours	ok	1	1	pcr_ours 48_ploum_long.txt:300		pmo_bur 42_ploum.txt:428
-pm_ours_rendu	ok	1	1	pmo_bur 42_ploum.txt:428		pmo_bur 42_ploum.txt:428
-pm_pardon_vu	ok	2	1	pcm_03 42_ploum.txt:107 ; pcm_03 42_ploum.txt:107		pcm_03 42_ploum.txt:107
-pm_paye_cauch	ok	1	1	pcm_vendu 42_ploum.txt:155		pcm_libre 42_ploum.txt:165
-pm_paye_echo	ok	1	1	pcm_vendu 42_ploum.txt:154		pcm_libre 42_ploum.txt:164
-pm_poeme	ok	1	2	pcr_01 42_ploum.txt:178		pcr_01 42_ploum.txt:178 ; pmo_bur 42_ploum.txt:424
-pm_poeme_rendu	ok	1	2	pmo_bur 42_ploum.txt:424		pmo_bur 42_ploum.txt:416 ; pmo_bur 42_ploum.txt:424
+pm_ours	ok	1	1	pcr_ours 48_ploum_long.txt:300		pmo_bur 42_ploum.txt:427
+pm_ours_rendu	ok	1	2	pmo_bur 42_ploum.txt:427		pmo_bur 42_ploum.txt:427 ; pmo_parle 71_corr_ploum.txt:58
+pm_pardon_vu	ok	2	1	pcm_03 42_ploum.txt:105 ; pcm_03 42_ploum.txt:105		pcm_03 42_ploum.txt:105
+pm_parle	ok	3	1	pmo_parle 71_corr_ploum.txt:59 ; pmo_parle 71_corr_ploum.txt:59 ; pmo_parle 71_corr_ploum.txt:60		pmo_bur 71_corr_ploum.txt:49
+pm_paye_cauch	ok	1	1	pcm_vendu 42_ploum.txt:154		pcm_libre 42_ploum.txt:165
+pm_paye_echo	ok	1	1	pcm_vendu 42_ploum.txt:153		pcm_libre 42_ploum.txt:164
+pm_poeme	ok	1	2	pcr_01 42_ploum.txt:180		pcr_01 42_ploum.txt:180 ; pmo_bur 42_ploum.txt:423
+pm_poeme_rendu	ok	1	2	pmo_bur 42_ploum.txt:423		pmo_bur 42_ploum.txt:415 ; pmo_bur 42_ploum.txt:423
 pm_pompes	ok	3	1	pha_03 48_ploum_long.txt:251 ; pha_03 48_ploum_long.txt:252 ; pha_r2 48_ploum_long.txt:258		pha_05b 48_ploum_long.txt:455
-pm_pris	jamais testé	1	0	pcm_04 42_ploum.txt:125		
-pm_reve	ok	3	7	pcm_vendu 42_ploum.txt:155 ; pso_reve 42_ploum.txt:267 ; pso_cauch 42_ploum.txt:277	pcm_vendu 42_ploum.txt:155	pso_06 42_ploum.txt:286 ; pmo_bur 42_ploum.txt:430 ; pmo_bur 42_ploum.txt:433 ; pmo_rate 42_ploum.txt:451 ; pmo_rate 42_ploum.txt:454 ; pmo_rate 42_ploum.txt:455 ; pso_10 50_ploum_long2.txt:59
-pm_reve_lune	ok	1	5	pso_reve 42_ploum.txt:267		pcm_vendu 42_ploum.txt:155 ; pso_04 42_ploum.txt:251 ; pso_04 42_ploum.txt:252 ; pmo_dort 42_ploum.txt:462 ; end_28 42_ploum.txt:480
-pm_reve_platine	ok	1	4	pso_cauch 42_ploum.txt:277	pcm_vendu 42_ploum.txt:155	pmo_dort 42_ploum.txt:461 ; pmo_dort 42_ploum.txt:462 ; end_28 42_ploum.txt:479 ; end_28 42_ploum.txt:480
-pm_rumeur	ok	1	7	ply_04 48_ploum_long.txt:41		ply_05 48_ploum_long.txt:46 ; ply_05 48_ploum_long.txt:47 ; ply_05 48_ploum_long.txt:48 ; ply_05 48_ploum_long.txt:49 ; ply_07 48_ploum_long.txt:68 ; plu_06c 50_ploum_long2.txt:29 ; plu_06c 50_ploum_long2.txt:30
-pm_transp_son	ok	1	4	pso_03 42_ploum.txt:238		pso_reve 42_ploum.txt:272 ; pso_reve 42_ploum.txt:273 ; pso_cauch 42_ploum.txt:280 ; pso_cauch 42_ploum.txt:281
+pm_pris	jamais testé	1	0	pcm_04 42_ploum.txt:123		
+pm_prospectus	ok	1	2	ply_04 48_ploum_long.txt:42		ply_05 48_ploum_long.txt:48 ; ply_05 48_ploum_long.txt:49
+pm_reve	ok	3	8	pcm_vendu 42_ploum.txt:154 ; pso_reve 42_ploum.txt:264 ; pso_cauch 42_ploum.txt:274	pcm_vendu 42_ploum.txt:154	pso_06 42_ploum.txt:285 ; pmo_bur 42_ploum.txt:429 ; pmo_bur 42_ploum.txt:432 ; pmo_bur 71_corr_ploum.txt:50 ; pmo_rate 42_ploum.txt:450 ; pmo_rate 42_ploum.txt:453 ; pmo_rate 42_ploum.txt:454 ; pso_10 50_ploum_long2.txt:59
+pm_reve_lune	ok	1	5	pso_reve 42_ploum.txt:264		pcm_vendu 42_ploum.txt:154 ; pso_04 42_ploum.txt:246 ; pso_04 42_ploum.txt:247 ; pmo_dort 42_ploum.txt:461 ; end_28 42_ploum.txt:480
+pm_reve_platine	ok	1	4	pso_cauch 42_ploum.txt:274	pcm_vendu 42_ploum.txt:154	pmo_dort 42_ploum.txt:460 ; pmo_dort 42_ploum.txt:461 ; end_28 42_ploum.txt:479 ; end_28 42_ploum.txt:480
+pm_rumeur	ok	1	5	ply_04 48_ploum_long.txt:41		ply_05 48_ploum_long.txt:46 ; ply_05 48_ploum_long.txt:47 ; ply_07 48_ploum_long.txt:68 ; plu_06c 50_ploum_long2.txt:29 ; plu_06c 50_ploum_long2.txt:30
+pm_souv	ok	1	2	ply_02b 50_ploum_long2.txt:9		pso_05 42_ploum.txt:255 ; pso_05 42_ploum.txt:256
+pm_transp_son	ok	1	4	pso_03 42_ploum.txt:233		pso_reve 42_ploum.txt:269 ; pso_reve 42_ploum.txt:270 ; pso_cauch 42_ploum.txt:279 ; pso_cauch 42_ploum.txt:280
 pn_ba_ok	ok	3	5	pne_ba2 49_pistil_encre.txt:74 ; pne_ba2 49_pistil_encre.txt:75 ; pne_ba2 49_pistil_encre.txt:76		pne_ba3 49_pistil_encre.txt:80 ; pne_ba3 49_pistil_encre.txt:82 ; pne_ba3 49_pistil_encre.txt:83 ; pne_ba3 49_pistil_encre.txt:84 ; pne_ba3 49_pistil_encre.txt:86
 pn_br_ok	ok	2	6	pne_br2 49_pistil_encre.txt:130 ; pne_br2 49_pistil_encre.txt:131		pne_br3 49_pistil_encre.txt:135 ; pne_br3 49_pistil_encre.txt:136 ; pne_br3 49_pistil_encre.txt:137 ; pne_br3 49_pistil_encre.txt:138 ; pne_br3 49_pistil_encre.txt:139 ; pne_br3 49_pistil_encre.txt:140
-pn_cabane	ok	1	1	pnc_route 49_pistil_encre.txt:314		pno_03 49_pistil_encre.txt:390
-pn_doux	ok	6	2	pno_01 49_pistil_encre.txt:355 ; pno_02 49_pistil_encre.txt:364 ; pno_02 49_pistil_encre.txt:365 ; pno_03 49_pistil_encre.txt:390 ; pno_03 49_pistil_encre.txt:391 ; pno_00c 49_pistil_encre.txt:588		pno_suite 49_pistil_encre.txt:375 ; pno_fin 49_pistil_encre.txt:397
-pn_e_coffre	jamais testé	1	0	pno_03 49_pistil_encre.txt:382		
-pn_e_larmes	ok	1	6	pno_02 49_pistil_encre.txt:359		pno_suite 49_pistil_encre.txt:370 ; pno_suite 49_pistil_encre.txt:371 ; pno_suite 49_pistil_encre.txt:372 ; pno_suite 49_pistil_encre.txt:373 ; pno_suite 49_pistil_encre.txt:376 ; pno_suite 49_pistil_encre.txt:378
-pn_e_yeux	ok	1	6	pno_01 49_pistil_encre.txt:348		pno_suite 49_pistil_encre.txt:370 ; pno_suite 49_pistil_encre.txt:371 ; pno_suite 49_pistil_encre.txt:372 ; pno_suite 49_pistil_encre.txt:373 ; pno_suite 49_pistil_encre.txt:377 ; pno_suite 49_pistil_encre.txt:378
-pn_etoile_donnee	ok	1	2	pne_01b 49_pistil_encre.txt:481		pne_ba1b 52_encre_scenes.txt:31 ; pnc_pie2 52_encre_scenes.txt:156
-pn_ins	ok	1	2	pnc_route 49_pistil_encre.txt:305		pnc_hub 49_pistil_encre.txt:201 ; pno_01 49_pistil_encre.txt:353
-pn_mar	ok	3	1	pnc_route 49_pistil_encre.txt:309 ; pnc_route 49_pistil_encre.txt:310 ; pnc_route 49_pistil_encre.txt:310	pno_02 49_pistil_encre.txt:363	pno_02 49_pistil_encre.txt:363
+pn_cabane	ok	1	1	pnc_route 49_pistil_encre.txt:317		pno_03 49_pistil_encre.txt:394
+pn_doux	ok	6	2	pno_01 49_pistil_encre.txt:359 ; pno_02 49_pistil_encre.txt:368 ; pno_02 49_pistil_encre.txt:369 ; pno_03 49_pistil_encre.txt:394 ; pno_03 49_pistil_encre.txt:395 ; pno_00c 49_pistil_encre.txt:595		pno_suite 49_pistil_encre.txt:379 ; pno_fin 49_pistil_encre.txt:401
+pn_e_coffre	jamais testé	1	0	pno_03 49_pistil_encre.txt:386		
+pn_e_larmes	ok	1	6	pno_02 49_pistil_encre.txt:363		pno_suite 49_pistil_encre.txt:374 ; pno_suite 49_pistil_encre.txt:375 ; pno_suite 49_pistil_encre.txt:376 ; pno_suite 49_pistil_encre.txt:377 ; pno_suite 49_pistil_encre.txt:380 ; pno_suite 49_pistil_encre.txt:382
+pn_e_yeux	ok	1	6	pno_01 49_pistil_encre.txt:352		pno_suite 49_pistil_encre.txt:374 ; pno_suite 49_pistil_encre.txt:375 ; pno_suite 49_pistil_encre.txt:376 ; pno_suite 49_pistil_encre.txt:377 ; pno_suite 49_pistil_encre.txt:381 ; pno_suite 49_pistil_encre.txt:382
+pn_etoile_donnee	ok	1	2	pne_01b 49_pistil_encre.txt:488		pne_ba1b 52_encre_scenes.txt:31 ; pnc_pie2 52_encre_scenes.txt:156
+pn_ins	ok	1	3	pnc_route 49_pistil_encre.txt:308		pnc_hub 49_pistil_encre.txt:201 ; pno_01 49_pistil_encre.txt:357 ; end_35 49_pistil_encre.txt:431
+pn_mar	ok	3	1	pnc_route 49_pistil_encre.txt:312 ; pnc_route 49_pistil_encre.txt:313 ; pnc_route 49_pistil_encre.txt:313	pno_02 49_pistil_encre.txt:367	pno_02 49_pistil_encre.txt:367
 pn_me_ok	ok	2	6	pne_me2 49_pistil_encre.txt:103 ; pne_me2 49_pistil_encre.txt:104		pne_me3 49_pistil_encre.txt:108 ; pne_me3 49_pistil_encre.txt:109 ; pne_me3 49_pistil_encre.txt:110 ; pne_me3 49_pistil_encre.txt:111 ; pne_me3 49_pistil_encre.txt:112 ; pne_me3 49_pistil_encre.txt:113
-pn_pdn	ok	1	3	pnc_route 49_pistil_encre.txt:307		pno_01 49_pistil_encre.txt:352 ; end_35 49_pistil_encre.txt:429 ; pno_00b 49_pistil_encre.txt:580
-pn_piece	ok	1	4	pnc_pie 49_pistil_encre.txt:324		pno_00 49_pistil_encre.txt:333 ; pno_00 49_pistil_encre.txt:334 ; pno_03 49_pistil_encre.txt:388 ; pno_00b 49_pistil_encre.txt:579
-pn_piece_ecoutee	ok	2	6	pnc_pie 49_pistil_encre.txt:325 ; pno_fin0 49_pistil_encre.txt:595		pnc_pie 49_pistil_encre.txt:322 ; pnc_pie 49_pistil_encre.txt:325 ; pno_03 49_pistil_encre.txt:385 ; pno_fin 49_pistil_encre.txt:398 ; pno_fin 49_pistil_encre.txt:408 ; pno_fin0 49_pistil_encre.txt:595
-pn_sourd	ok	1	1	pno_fin 49_pistil_encre.txt:407		pno_fin 49_pistil_encre.txt:407
+pn_pdn	ok	1	3	pnc_route 49_pistil_encre.txt:310		pno_01 49_pistil_encre.txt:356 ; end_35 49_pistil_encre.txt:435 ; pno_00b 49_pistil_encre.txt:587
+pn_piece	ok	1	5	pnc_pie 49_pistil_encre.txt:327		pno_00 49_pistil_encre.txt:336 ; pno_00 49_pistil_encre.txt:337 ; pno_00 49_pistil_encre.txt:338 ; pno_03 49_pistil_encre.txt:392 ; pno_00b 49_pistil_encre.txt:586
+pn_piece_ecoutee	ok	2	6	pnc_pie 49_pistil_encre.txt:328 ; pno_fin0 49_pistil_encre.txt:602		pnc_pie 49_pistil_encre.txt:325 ; pnc_pie 49_pistil_encre.txt:328 ; pno_03 49_pistil_encre.txt:389 ; pno_fin 49_pistil_encre.txt:402 ; pno_fin 49_pistil_encre.txt:413 ; pno_fin0 49_pistil_encre.txt:602
+pn_sourd	ok	1	1	pno_fin 49_pistil_encre.txt:412		pno_fin 49_pistil_encre.txt:412
 pn_zo_ok	ok	2	6	pne_zo2 49_pistil_encre.txt:157 ; pne_zo2 49_pistil_encre.txt:158		pne_zo3 49_pistil_encre.txt:162 ; pne_zo3 49_pistil_encre.txt:163 ; pne_zo3 49_pistil_encre.txt:164 ; pne_zo3 49_pistil_encre.txt:165 ; pne_zo3 49_pistil_encre.txt:166 ; pne_zo3 49_pistil_encre.txt:167
-pompes_arretees	ok	3	3	nua_09 16_nuages.txt:74 ; nua_09 16_nuages.txt:75 ; nua_11 16_nuages.txt:117		nua_10 16_nuages.txt:79 ; nua_10 16_nuages.txt:80 ; com_07 17_comete.txt:66
-pompes_sabotees	ok	4	2	nua_03 16_nuages.txt:29 ; nua_04 16_nuages.txt:39 ; nua_07 16_nuages.txt:59 ; nua_07 16_nuages.txt:59		nua_10 16_nuages.txt:79 ; nua_10 16_nuages.txt:80
-porte_marchand	ok	1	2	son_13 13_songes.txt:92		son_23 13_songes.txt:159 ; son_24 13_songes.txt:164
-pour_remontoir	ok	1	3	com_15 17_comete.txt:122		foi_09 18_foire.txt:79 ; foi_09 18_foire.txt:80 ; nui_14 19_nuit.txt:98
+pompes_arretees	ok	3	3	nua_09 16_nuages.txt:75 ; nua_09 16_nuages.txt:76 ; nua_11 16_nuages.txt:118		nua_10 16_nuages.txt:80 ; nua_10 16_nuages.txt:81 ; com_07 17_comete.txt:67
+pompes_sabotees	ok	6	2	nua_03 16_nuages.txt:30 ; nua_03 68_corr_anatole.txt:72 ; nua_03 68_corr_anatole.txt:72 ; nua_04 16_nuages.txt:40 ; nua_07 16_nuages.txt:60 ; nua_07 16_nuages.txt:60		nua_10 16_nuages.txt:80 ; nua_10 16_nuages.txt:81
+porte_marchand	ok	1	2	son_13 13_songes.txt:94		son_23 13_songes.txt:161 ; son_24 13_songes.txt:166
+pour_remontoir	ok	1	3	com_15 17_comete.txt:124		foi_09 18_foire.txt:79 ; foi_09 18_foire.txt:80 ; nui_14 19_nuit.txt:99
 president_galet	jamais testé	1	0	ond_35 01_ondine.txt:225		
 promesse_bebe	ok	2	3	pel_08 07_pelagie.txt:55 ; pel_08 07_pelagie.txt:55		pel_11 07_pelagie.txt:74 ; pel_18 07_pelagie.txt:114 ; pel_21 07_pelagie.txt:134
 promesse_fleur	ok	1	3	bri_27 04_brisefer.txt:176		bri_42 04_brisefer.txt:264 ; pro_15 14_profondeurs.txt:104 ; pro_15 14_profondeurs.txt:106
 promesse_louveteaux	jamais testé	1	0	lyc_21 08_barnabe.txt:134		
-promesse_lune	ok	3	3	pis_36 03_pistil.txt:222 ; pis_36 03_pistil.txt:222 ; son_23 13_songes.txt:158		pne_00 49_pistil_encre.txt:19 ; end_35 49_pistil_encre.txt:428 ; end_37 49_pistil_encre.txt:458
-prophetie	ok	5	1	bri_23 04_brisefer.txt:151 ; bri_24 04_brisefer.txt:156 ; bri_24 04_brisefer.txt:157 ; pro_12 14_profondeurs.txt:89 ; pro_12 14_profondeurs.txt:89		fin_17 23_final.txt:156
+promesse_lune	ok	3	3	pis_36 03_pistil.txt:227 ; pis_36 03_pistil.txt:227 ; son_23 13_songes.txt:160		pne_00 49_pistil_encre.txt:19 ; end_35 49_pistil_encre.txt:434 ; end_37 49_pistil_encre.txt:465
+prophetie	ok	5	1	bri_23 04_brisefer.txt:151 ; bri_24 04_brisefer.txt:156 ; bri_24 04_brisefer.txt:157 ; pro_12 14_profondeurs.txt:89 ; pro_12 14_profondeurs.txt:89		fin_17 23_final.txt:158
 prospectus	jamais testé	1	0	gri_03 06_griselidis.txt:25		
-prospectus_detournes	ok	2	2	gri_19 06_griselidis.txt:134 ; gri_19 06_griselidis.txt:134		gri_20 06_griselidis.txt:139 ; nua_03 16_nuages.txt:28
+prospectus_detournes	ok	2	2	gri_19 06_griselidis.txt:134 ; gri_19 06_griselidis.txt:134		gri_20 06_griselidis.txt:139 ; nua_03 16_nuages.txt:29
 quartz_affection	ok	1	3	pro_21 14_profondeurs.txt:147		pro_21 14_profondeurs.txt:143 ; pro_21 14_profondeurs.txt:144 ; pro_21 14_profondeurs.txt:145
-quartz_renvoyee	ok	1	6	nua_16 16_nuages.txt:137		pro_01 90_repliques_monde.txt:136 ; pro_25 14_profondeurs.txt:172 ; pro_25 14_profondeurs.txt:173 ; pro_25 14_profondeurs.txt:174 ; pro_25 14_profondeurs.txt:175 ; nui_45 19_nuit.txt:159
-quete_perles	jamais testé	5	0	cot_08 11_cotes.txt:54 ; cot_08 11_cotes.txt:54 ; cot_10 11_cotes.txt:66 ; cot_10 11_cotes.txt:66 ; cot_11 11_cotes.txt:72		
-rachat_penelope	ok	1	2	fin_04 23_final.txt:62		fin_05 23_final.txt:65 ; fin_05 23_final.txt:66
-rapport_kramm	jamais testé	3	0	cot_26 11_cotes.txt:175 ; cot_26 11_cotes.txt:176 ; cot_26 11_cotes.txt:176		
+quartz_renvoyee	ok	1	6	nua_16 16_nuages.txt:138		pro_01 90_repliques_monde.txt:136 ; pro_25 14_profondeurs.txt:172 ; pro_25 14_profondeurs.txt:173 ; pro_25 14_profondeurs.txt:174 ; pro_25 14_profondeurs.txt:175 ; nui_45 19_nuit.txt:160
+quete_perles	jamais testé	5	0	cot_08 11_cotes.txt:55 ; cot_08 11_cotes.txt:55 ; cot_10 11_cotes.txt:67 ; cot_10 11_cotes.txt:67 ; cot_11 11_cotes.txt:73		
+rachat_penelope	ok	1	2	fin_04 23_final.txt:64		fin_05 23_final.txt:67 ; fin_05 23_final.txt:68
+rapport_kramm	jamais testé	3	0	cot_26 11_cotes.txt:177 ; cot_26 11_cotes.txt:178 ; cot_26 11_cotes.txt:178		
 reclamation_fernand	jamais testé	2	0	for_09 12_foret.txt:63 ; for_09 12_foret.txt:64		
-registre_kramm	jamais testé	1	0	cot_24 11_cotes.txt:162		
-registre_pluie	ok	2	2	nua_06 16_nuages.txt:50 ; nua_06 16_nuages.txt:51		nua_09 16_nuages.txt:72 ; nui_47 19_nuit.txt:177
+registre_kramm	jamais testé	1	0	cot_24 11_cotes.txt:164		
+registre_pluie	ok	2	2	nua_06 16_nuages.txt:51 ; nua_06 16_nuages.txt:52		nua_09 16_nuages.txt:73 ; nui_47 19_nuit.txt:178
 reglement_copro	ok	1	1	cha_04 21_chantier.txt:29		neg_07 22_negociation.txt:51
 reintegree	ok	1	1	bri_16 04_brisefer.txt:110		pro_16 14_profondeurs.txt:112
-remontoir_cabine	ok	1	1	asc_17 20_ascension.txt:117		asc_22 92_comportements.txt:8
-remontoir_remonte	ok	4	12	nui_14 19_nuit.txt:99 ; nui_14 19_nuit.txt:99 ; nui_30 19_nuit.txt:115 ; nui_30 19_nuit.txt:115		nui_15 19_nuit.txt:104 ; asc_01 91_repliques_lune.txt:27 ; cha_42 24_suites_v3.txt:42 ; end_01 30_fins.txt:17 ; end_02 30_fins.txt:56 ; end_03 30_fins.txt:94 ; end_05 30_fins.txt:143 ; end_06 30_fins.txt:180 ; end_07 30_fins.txt:218 ; end_09 30_fins.txt:271 ; end_13 30_fins.txt:352 ; end_14 30_fins.txt:389
-remontoir_repare	ok	1	10	nui_14 19_nuit.txt:100		nui_15 19_nuit.txt:105 ; end_01 30_fins.txt:18 ; end_02 30_fins.txt:57 ; end_03 30_fins.txt:95 ; end_05 30_fins.txt:144 ; end_06 30_fins.txt:181 ; end_07 30_fins.txt:219 ; end_09 30_fins.txt:272 ; end_13 30_fins.txt:353 ; end_14 30_fins.txt:390
-reve_lune	ok	7	6	pis_29 03_pistil.txt:183 ; pis_29 03_pistil.txt:183 ; pis_29 03_pistil.txt:184 ; son_20 13_songes.txt:141 ; son_20 13_songes.txt:141 ; son_23 13_songes.txt:158 ; asc_21 20_ascension.txt:163		for_11 12_foret.txt:83 ; son_32 13_songes.txt:211 ; asc_01 20_ascension.txt:21 ; cha_09 21_chantier.txt:59 ; cha_09 21_chantier.txt:60 ; neg_16 22_negociation.txt:130
-reve_ouvert	ok	4	6	pis_35 03_pistil.txt:217 ; pis_35 03_pistil.txt:217 ; son_27 13_songes.txt:182 ; son_27 13_songes.txt:182		hub_ret 10_hub.txt:76 ; son_33 13_songes.txt:217 ; asc_01 20_ascension.txt:21 ; asc_18 20_ascension.txt:121 ; fin_01 23_final.txt:12 ; fin_01 23_final.txt:26
+remontoir_cabine	ok	2	1	asc_17 20_ascension.txt:117 ; asc_17 20_ascension.txt:118		asc_22 92_comportements.txt:8
+remontoir_remonte	ok	4	12	nui_14 19_nuit.txt:100 ; nui_14 19_nuit.txt:100 ; nui_30 19_nuit.txt:116 ; nui_30 19_nuit.txt:116		nui_15 19_nuit.txt:105 ; asc_01 91_repliques_lune.txt:27 ; cha_42 24_suites_v3.txt:42 ; end_01 30_fins.txt:17 ; end_02 30_fins.txt:69 ; end_03 30_fins.txt:120 ; end_05 30_fins.txt:196 ; end_06 30_fins.txt:246 ; end_07 30_fins.txt:297 ; end_09 30_fins.txt:377 ; end_13 30_fins.txt:477 ; end_14 30_fins.txt:521
+remontoir_repare	ok	1	10	nui_14 19_nuit.txt:101		nui_15 19_nuit.txt:106 ; end_01 30_fins.txt:18 ; end_02 30_fins.txt:70 ; end_03 30_fins.txt:121 ; end_05 30_fins.txt:197 ; end_06 30_fins.txt:247 ; end_07 30_fins.txt:298 ; end_09 30_fins.txt:378 ; end_13 30_fins.txt:478 ; end_14 30_fins.txt:522
+reve_lune	ok	7	6	pis_29 03_pistil.txt:188 ; pis_29 03_pistil.txt:188 ; pis_29 03_pistil.txt:189 ; son_20 13_songes.txt:143 ; son_20 13_songes.txt:143 ; son_23 13_songes.txt:160 ; asc_21 20_ascension.txt:165		for_11 12_foret.txt:83 ; son_32 13_songes.txt:213 ; asc_01 20_ascension.txt:21 ; cha_09 21_chantier.txt:59 ; cha_09 21_chantier.txt:60 ; neg_16 22_negociation.txt:131
+reve_ouvert	ok	4	6	pis_35 03_pistil.txt:222 ; pis_35 03_pistil.txt:222 ; son_27 13_songes.txt:184 ; son_27 13_songes.txt:184		hub_ret 10_hub.txt:76 ; son_33 13_songes.txt:219 ; asc_01 20_ascension.txt:21 ; asc_18 20_ascension.txt:123 ; fin_01 23_final.txt:12 ; fin_01 23_final.txt:26
 reverbere_eteint	ok	2	1	ana_14 09_anatole.txt:92 ; ana_14 09_anatole.txt:92		ana_16 09_anatole.txt:104
-reves_liberes	ok	4	1	pis_22 03_pistil.txt:140 ; son_10 13_songes.txt:73 ; son_21 13_songes.txt:146 ; son_21 93_objets.txt:106		son_10 13_songes.txt:72
-robot_voix	jamais testé	2	0	for_33 12_foret.txt:218 ; for_33 93_objets.txt:101		
-rocambole_chasse	jamais testé	2	0	nui_20 19_nuit.txt:86 ; nui_20 19_nuit.txt:86		
-rocambole_honnete	ok	1	2	cha_25 21_chantier.txt:183		end_13 30_fins.txt:347 ; end_13 30_fins.txt:348
-rocambole_pardon_amis	ok	1	1	nui_20 19_nuit.txt:87		nui_02 90_repliques_monde.txt:248
+reves_liberes	ok	4	1	pis_22 03_pistil.txt:144 ; son_10 13_songes.txt:75 ; son_21 13_songes.txt:148 ; son_21 93_objets.txt:110		son_10 13_songes.txt:74
+robot_voix	jamais testé	2	0	for_33 12_foret.txt:218 ; for_33 93_objets.txt:105		
+rocambole_chasse	ok	2	2	nui_20 19_nuit.txt:87 ; nui_20 19_nuit.txt:87		asc_01 64_corr_zephyrin.txt:169 ; asc_01 64_corr_zephyrin.txt:170
+rocambole_honnete	ok	1	4	cha_25 21_chantier.txt:183		end_13 30_fins.txt:472 ; end_13 30_fins.txt:473 ; end_13 30_fins.txt:500 ; end_13 30_fins.txt:501
+rocambole_pardon_amis	ok	1	1	nui_20 19_nuit.txt:88		nui_02 90_repliques_monde.txt:248
 rumeur_suivre	jamais testé	1	0	bri_20 04_brisefer.txt:130		
 rumeurs	jamais testé	1	0	hub_03 10_hub.txt:37		
-sabotage_poursuite	jamais testé	1	0	zep_30 05_zephyrin.txt:193		
-sac_lettres	ok	2	1	nui_53 19_nuit.txt:256 ; nui_53 19_nuit.txt:256		cha_15 21_chantier.txt:112
+sabotage_poursuite	ok	1	1	zep_30 05_zephyrin.txt:199		zep_35 05_zephyrin.txt:227
+sac_lettres	ok	2	1	nui_53 19_nuit.txt:257 ; nui_53 19_nuit.txt:257		cha_15 21_chantier.txt:112
 sait_arret	jamais testé	3	0	zep_05 05_zephyrin.txt:34 ; zep_05 05_zephyrin.txt:34 ; zep_05 05_zephyrin.txt:35		
-sait_crochet	jamais testé	3	0	nui_61 19_nuit.txt:303 ; asc_11 20_ascension.txt:82 ; asc_24 24_suites_v3.txt:21		
+sait_crochet	jamais testé	3	0	nui_61 19_nuit.txt:304 ; asc_11 20_ascension.txt:82 ; asc_24 24_suites_v3.txt:21		
 sait_quartz	jamais testé	3	0	pro_12 14_profondeurs.txt:90 ; pro_12 14_profondeurs.txt:90 ; pro_14 14_profondeurs.txt:99		
 sait_vente	jamais testé	1	0	bri_13 04_brisefer.txt:87		
-scandale	ok	4	1	neg_41 24_suites_v3.txt:132 ; neg_41 24_suites_v3.txt:132 ; nui_74 93_objets.txt:309 ; nui_74 93_objets.txt:309		fin_01 23_final.txt:18
-seraphine	ok	3	2	ana_06 09_anatole.txt:41 ; ana_06 09_anatole.txt:41 ; ana_06 09_anatole.txt:42		ana_09 09_anatole.txt:61 ; ana_13 09_anatole.txt:86
-serre_confiee	jamais testé	2	0	ana_10 09_anatole.txt:69 ; ana_10 09_anatole.txt:69		
-signature_lente	ok	7	5	bas_02 02_basile.txt:15 ; bas_39 02_basile.txt:255 ; bas_39 02_basile.txt:255 ; zep_19 05_zephyrin.txt:126 ; cap_14 15_capitale.txt:92 ; cap_14 15_capitale.txt:93 ; cap_19 15_capitale.txt:127		bas_39 02_basile.txt:253 ; bas_39 02_basile.txt:255 ; bas_39 02_basile.txt:256 ; neg_09 22_negociation.txt:64 ; fin_02 23_final.txt:37
-signature_ralentie	jamais testé	1	0	bas_39 02_basile.txt:256		
-signe_lune	jamais testé	1	0	pis_40 03_pistil.txt:250		
-sommeil_lune	ok	18	3	pis_21 03_pistil.txt:131 ; pis_21 03_pistil.txt:131 ; pis_21 03_pistil.txt:132 ; pis_21 03_pistil.txt:132 ; pis_22 03_pistil.txt:139 ; pis_22 03_pistil.txt:139 ; pis_22 03_pistil.txt:140 ; pis_22 03_pistil.txt:140 ; pis_23 03_pistil.txt:145 ; pis_23 03_pistil.txt:145 ; son_10 13_songes.txt:74 ; son_13 13_songes.txt:91 ; son_13 13_songes.txt:91 ; son_13 13_songes.txt:92 ; son_18 13_songes.txt:123 ; son_19 13_songes.txt:130 ; son_19 13_songes.txt:131 ; son_32 13_songes.txt:211		asc_01 20_ascension.txt:21 ; asc_18 20_ascension.txt:123 ; asc_18 20_ascension.txt:124
-souscription	ok	3	5	cap_04 15_capitale.txt:28 ; cap_04 15_capitale.txt:28 ; cap_04 15_capitale.txt:29		neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:94 ; fin_04 23_final.txt:59 ; fin_04 23_final.txt:60 ; end_02 30_fins.txt:52
+scandale	ok	4	1	neg_41 24_suites_v3.txt:132 ; neg_41 24_suites_v3.txt:132 ; nui_74 93_objets.txt:313 ; nui_74 93_objets.txt:313		fin_01 23_final.txt:18
+seraphine	ok	3	13	ana_06 09_anatole.txt:41 ; ana_06 09_anatole.txt:41 ; ana_06 09_anatole.txt:42		ana_09 09_anatole.txt:61 ; ana_13 09_anatole.txt:86 ; ana_16b 09_anatole.txt:154 ; ana_16b 09_anatole.txt:155 ; end_01 30_fins.txt:47 ; end_02 30_fins.txt:99 ; end_03 30_fins.txt:150 ; end_04 30_fins.txt:173 ; end_05 30_fins.txt:226 ; end_06 30_fins.txt:276 ; end_07 30_fins.txt:327 ; end_08 30_fins.txt:357 ; end_14 30_fins.txt:551
+serre_confiee	ok	2	16	ana_10 09_anatole.txt:69 ; ana_10 09_anatole.txt:69		for_35 68_corr_anatole.txt:190 ; end_01 30_fins.txt:44 ; end_02 30_fins.txt:96 ; end_03 30_fins.txt:147 ; end_04 30_fins.txt:170 ; end_05 30_fins.txt:223 ; end_06 30_fins.txt:273 ; end_07 30_fins.txt:324 ; end_08 30_fins.txt:354 ; end_09 30_fins.txt:404 ; end_10 30_fins.txt:418 ; end_11 30_fins.txt:440 ; end_12 30_fins.txt:460 ; end_13 30_fins.txt:505 ; end_14 30_fins.txt:548 ; end_15 30_fins.txt:567
+signature_lente	ok	7	9	bas_02 02_basile.txt:15 ; bas_39 02_basile.txt:258 ; bas_39 02_basile.txt:258 ; zep_19 05_zephyrin.txt:129 ; cap_14 15_capitale.txt:102 ; cap_14 15_capitale.txt:103 ; cap_19 15_capitale.txt:138		bas_39 02_basile.txt:256 ; bas_39 02_basile.txt:258 ; bas_39 02_basile.txt:259 ; cap_19 15_capitale.txt:137 ; neg_09 22_negociation.txt:64 ; fin_02 23_final.txt:37 ; fin_02 23_final.txt:38 ; fin_02 61_corr_basile.txt:32 ; neg_bas1 61_corr_basile.txt:22
+signature_ralentie	jamais testé	1	0	bas_39 02_basile.txt:259		
+signe_lune	jamais testé	1	0	pis_40 03_pistil.txt:255		
+sommeil_lune	ok	18	3	pis_21 03_pistil.txt:135 ; pis_21 03_pistil.txt:135 ; pis_21 03_pistil.txt:136 ; pis_21 03_pistil.txt:136 ; pis_22 03_pistil.txt:143 ; pis_22 03_pistil.txt:143 ; pis_22 03_pistil.txt:144 ; pis_22 03_pistil.txt:144 ; pis_23 03_pistil.txt:149 ; pis_23 03_pistil.txt:149 ; son_10 13_songes.txt:76 ; son_13 13_songes.txt:93 ; son_13 13_songes.txt:93 ; son_13 13_songes.txt:94 ; son_18 13_songes.txt:125 ; son_19 13_songes.txt:132 ; son_19 13_songes.txt:133 ; son_32 13_songes.txt:213		asc_01 20_ascension.txt:21 ; asc_18 20_ascension.txt:125 ; asc_18 20_ascension.txt:126
+souscription	ok	3	5	cap_04 15_capitale.txt:32 ; cap_04 15_capitale.txt:32 ; cap_04 15_capitale.txt:33		neg_07 22_negociation.txt:50 ; neg_13 22_negociation.txt:95 ; fin_04 23_final.txt:61 ; fin_04 23_final.txt:62 ; end_02 30_fins.txt:65
 stand_coq	ok	1	1	foi_11 18_foire.txt:92		foi_02 18_foire.txt:24
-stand_obj	ok	1	1	foi_15 93_objets.txt:259		foi_02 93_objets.txt:255
+stand_obj	ok	1	1	foi_15 93_objets.txt:263		foi_02 93_objets.txt:259
 stand_plu	ok	1	1	foi_05 18_foire.txt:47		foi_02 18_foire.txt:21
 stand_rem	ok	1	1	foi_09 18_foire.txt:77		foi_02 18_foire.txt:23
 stand_tau	ok	1	1	foi_07 18_foire.txt:63		foi_02 18_foire.txt:22
 stand_ves	ok	1	1	foi_13 18_foire.txt:106		foi_02 18_foire.txt:25
 stand_ysa	ok	1	1	foi_03 18_foire.txt:31		foi_02 18_foire.txt:20
-stylo_or	ok	2	4	neg_24 22_negociation.txt:196 ; neg_27 22_negociation.txt:217		fin_05 23_final.txt:67 ; fin_05 23_final.txt:68 ; fin_22 23_final.txt:180 ; fin_22 23_final.txt:181
+stylo_or	ok	2	4	neg_24 22_negociation.txt:197 ; neg_27 22_negociation.txt:218		fin_05 23_final.txt:69 ; fin_05 23_final.txt:70 ; fin_22 23_final.txt:183 ; fin_22 23_final.txt:184
 suspendue	ok	4	2	gri_05 06_griselidis.txt:43 ; gri_05 06_griselidis.txt:44 ; gri_05 06_griselidis.txt:44 ; gri_06 06_griselidis.txt:50		gri_07 06_griselidis.txt:54 ; gri_07 06_griselidis.txt:55
-suspension	jamais testé	2	0	neg_17 22_negociation.txt:145 ; neg_54 93_objets.txt:486		
+suspension	jamais testé	2	0	neg_17 22_negociation.txt:146 ; neg_54 93_objets.txt:490		
 syndicat_lunaire	jamais testé	1	0	cha_47 24_suites_v3.txt:76		
-tampon_approuve	jamais testé	2	0	bas_29 02_basile.txt:191 ; bas_29 02_basile.txt:191		
+tampon_approuve	ok	2	1	bas_29 02_basile.txt:194 ; bas_29 02_basile.txt:194		fin_05 61_corr_basile.txt:36
 tampon_kramm	jamais testé	1	0	ond_25 01_ondine.txt:168		
 taupinel_mensonge	ok	2	1	asc_04 20_ascension.txt:38 ; asc_04 20_ascension.txt:38		asc_02 20_ascension.txt:25
-taxe_orbite	ok	3	1	bas_08 02_basile.txt:51 ; bas_08 02_basile.txt:51 ; cap_06 15_capitale.txt:40		fin_02 23_final.txt:42
+taxe_orbite	ok	4	1	bas_08 02_basile.txt:52 ; bas_08 02_basile.txt:52 ; cap_06 15_capitale.txt:44 ; cap_06 15_capitale.txt:45		fin_02 23_final.txt:44
 taxe_vent	ok	1	2	gri_03 06_griselidis.txt:26		gri_04 06_griselidis.txt:32 ; gri_17 06_griselidis.txt:118
-tentation_vol	jamais testé	1	0	zep_37 05_zephyrin.txt:231		
-terre_sait	jamais testé	4	0	for_14 12_foret.txt:104 ; son_27 13_songes.txt:182 ; son_33 13_songes.txt:221 ; nui_72 93_objets.txt:295		
+temoin_lune	ok	1	1	neg_16 62_corr_pistil.txt:85		fin_02 23_final.txt:41
+tentation_vol	jamais testé	1	0	zep_37 05_zephyrin.txt:241		
+terre_sait	jamais testé	4	0	for_14 12_foret.txt:104 ; son_27 13_songes.txt:184 ; son_33 13_songes.txt:224 ; nui_72 93_objets.txt:299		
 ticket	ok	1	1	ond_33 01_ondine.txt:213		cot_02 11_cotes.txt:15
-ticket_un	jamais testé	1	0	cot_05 11_cotes.txt:34		
-toile	jamais testé	1	0	bas_35 02_basile.txt:228		
+ticket_un	jamais testé	1	0	cot_05 11_cotes.txt:35		
+toile	jamais testé	1	0	bas_35 02_basile.txt:231		
 toile_message	ok	3	1	for_11 12_foret.txt:84 ; for_11 12_foret.txt:85 ; for_14 12_foret.txt:104		for_35 12_foret.txt:232
 toile_protegee	jamais testé	1	0	for_32 12_foret.txt:213		
 toucher_lune	jamais testé	2	0	ond_38 01_ondine.txt:244 ; asc_13 20_ascension.txt:93		
 tract_syndicat	jamais testé	1	0	foi_03 18_foire.txt:38		
-traite	ok	2	1	nui_48 19_nuit.txt:188 ; nui_48 19_nuit.txt:188		neg_16 22_negociation.txt:133
+traite	ok	2	1	nui_48 19_nuit.txt:189 ; nui_48 19_nuit.txt:189		neg_16 22_negociation.txt:134
 traite_lu	jamais testé	2	0	neg_42 24_suites_v3.txt:139 ; neg_42 24_suites_v3.txt:139		
 traite_vigiles	ok	2	2	cha_50 24_suites_v3.txt:95 ; cha_50 24_suites_v3.txt:95		cha_27 21_chantier.txt:197 ; cha_27 91_repliques_lune.txt:57
-tresors	ok	1	2	pis_07 03_pistil.txt:42		pis_21 03_pistil.txt:130 ; pis_21 03_pistil.txt:131
+tresors	ok	1	2	pis_07 03_pistil.txt:42		pis_21 03_pistil.txt:134 ; pis_21 03_pistil.txt:135
 usnee	ok	1	2	for_02 12_foret.txt:16		for_32 12_foret.txt:209 ; for_32 12_foret.txt:210
 vesperine_renvoyee	ok	1	1	foi_05 18_foire.txt:53		foi_02 18_foire.txt:25
 veut_reparer	jamais testé	1	0	zep_13 05_zephyrin.txt:87		
-vis_cap	ok	1	8	cap_01 15_capitale.txt:7		hub_05 10_hub.txt:64 ; hub_06 10_hub.txt:87 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:104 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:116
-vis_com	ok	1	8	com_01 17_comete.txt:7		hub_05 10_hub.txt:66 ; hub_06 10_hub.txt:92 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:108 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:118
-vis_cot	ok	1	10	cot_01 11_cotes.txt:7		hub_05 10_hub.txt:60 ; hub_06 10_hub.txt:86 ; hub_06 10_hub.txt:96 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:109 ; asc_01 20_ascension.txt:19 ; neg_15 22_negociation.txt:112 ; neg_15 95_repliques_scenes.txt:194
-vis_foi	ok	1	3	foi_01 18_foire.txt:8		hub_05 10_hub.txt:67 ; hub_ret 10_hub.txt:80 ; hub_12 93_objets.txt:43
-vis_for	ok	1	8	for_01 12_foret.txt:7		hub_05 10_hub.txt:61 ; hub_06 10_hub.txt:88 ; hub_06 10_hub.txt:98 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:107 ; neg_15 22_negociation.txt:113
-vis_gco	ok	1	1	gco_01 43_president_regions.txt:10		gal_ret 40_president.txt:311
-vis_gfo	ok	1	1	gfo_01 43_president_regions.txt:165		gal_ret 40_president.txt:312
-vis_gnu	ok	1	1	gnu_01 45_president_regions2.txt:147		gal_ret 40_president.txt:314
-vis_gpa	jamais testé	1	0	gpa_18 40_president.txt:185		
-vis_gpr	ok	1	1	gpr_01 45_president_regions2.txt:9		gal_ret 40_president.txt:313
-vis_nua	ok	1	8	nua_01 16_nuages.txt:7		hub_05 10_hub.txt:65 ; hub_06 10_hub.txt:91 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:106 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:117
-vis_pcm	ok	1	6	pcm_01 42_ploum.txt:79		plu_hub 42_ploum.txt:54 ; plu_tele 42_ploum.txt:69 ; plu_tele 42_ploum.txt:70 ; plu_tele 42_ploum.txt:71 ; plu_tele 42_ploum.txt:72 ; plu_tele 42_ploum.txt:73
-vis_pct	ok	1	4	pct_01 42_ploum.txt:294		plu_hub 42_ploum.txt:56 ; plu_tele 42_ploum.txt:71 ; plu_tele 42_ploum.txt:72 ; plu_tele 42_ploum.txt:73
-vis_pha	ok	1	3	pha_01 48_ploum_long.txt:215		plu_hub 42_ploum.txt:57 ; plu_tele 42_ploum.txt:72 ; plu_tele 42_ploum.txt:73
+vis_cap	ok	1	8	cap_01 15_capitale.txt:7		hub_05 10_hub.txt:64 ; hub_06 10_hub.txt:87 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:104 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:117
+vis_com	ok	1	8	com_01 17_comete.txt:7		hub_05 10_hub.txt:66 ; hub_06 10_hub.txt:92 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:108 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:119
+vis_cot	ok	1	10	cot_01 11_cotes.txt:7		hub_05 10_hub.txt:60 ; hub_06 10_hub.txt:86 ; hub_06 10_hub.txt:96 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:109 ; asc_01 20_ascension.txt:19 ; neg_15 22_negociation.txt:113 ; neg_15 95_repliques_scenes.txt:194
+vis_foi	ok	1	3	foi_01 18_foire.txt:8		hub_05 10_hub.txt:67 ; hub_ret 10_hub.txt:80 ; hub_12 93_objets.txt:47
+vis_for	ok	1	8	for_01 12_foret.txt:7		hub_05 10_hub.txt:61 ; hub_06 10_hub.txt:88 ; hub_06 10_hub.txt:98 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:107 ; neg_15 22_negociation.txt:114
+vis_gco	ok	1	1	gco_01 43_president_regions.txt:10		gal_ret 40_president.txt:316
+vis_gfo	ok	1	1	gfo_01 43_president_regions.txt:168		gal_ret 40_president.txt:317
+vis_gnu	ok	1	1	gnu_01 45_president_regions2.txt:147		gal_ret 40_president.txt:319
+vis_gpa	jamais testé	1	0	gpa_18 40_president.txt:187		
+vis_gpr	ok	1	1	gpr_01 45_president_regions2.txt:9		gal_ret 40_president.txt:318
+vis_nua	ok	1	8	nua_01 16_nuages.txt:7		hub_05 10_hub.txt:65 ; hub_06 10_hub.txt:91 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:106 ; hub_06 10_hub.txt:107 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:118
+vis_pcm	ok	1	1	pcm_01 42_ploum.txt:77	plu_tele 42_ploum.txt:63	plu_hub 42_ploum.txt:55
+vis_pct	ok	1	1	pct_01 42_ploum.txt:293	plu_tele 42_ploum.txt:63	plu_hub 42_ploum.txt:57
+vis_pha	ok	1	1	pha_01 48_ploum_long.txt:215	plu_tele 42_ploum.txt:63	plu_hub 42_ploum.txt:58
 vis_pnc_a	ok	1	1	pnc_a1 49_pistil_encre.txt:219		pnc_hub 49_pistil_encre.txt:208
 vis_pnc_b	ok	1	1	pnc_b1 49_pistil_encre.txt:238		pnc_hub 49_pistil_encre.txt:209
 vis_pnc_c	ok	1	1	pnc_c1 49_pistil_encre.txt:255		pnc_hub 49_pistil_encre.txt:210
 vis_pnc_d	ok	1	1	pnc_d1 49_pistil_encre.txt:274		pnc_hub 49_pistil_encre.txt:211
-vis_pnc_e	ok	1	1	pnc_e1 49_pistil_encre.txt:532		pnc_hub 49_pistil_encre.txt:212
-vis_pnc_f	ok	1	1	pnc_f1 49_pistil_encre.txt:556		pnc_hub 49_pistil_encre.txt:213
+vis_pnc_e	ok	1	1	pnc_e1 49_pistil_encre.txt:539		pnc_hub 49_pistil_encre.txt:212
+vis_pnc_f	ok	1	1	pnc_f1 49_pistil_encre.txt:563		pnc_hub 49_pistil_encre.txt:213
 vis_pne_ba	ok	1	1	pne_ba1 49_pistil_encre.txt:63		pne_hub 49_pistil_encre.txt:53
 vis_pne_br	ok	1	1	pne_br1 49_pistil_encre.txt:119		pne_hub 49_pistil_encre.txt:55
 vis_pne_me	ok	1	1	pne_me1 49_pistil_encre.txt:92		pne_hub 49_pistil_encre.txt:54
 vis_pne_zo	ok	1	1	pne_zo1 49_pistil_encre.txt:146		pne_hub 49_pistil_encre.txt:56
-vis_pro	ok	1	8	pro_01 14_profondeurs.txt:7		hub_05 10_hub.txt:63 ; hub_06 10_hub.txt:90 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:102 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:105 ; neg_15 22_negociation.txt:114
-vis_pso	ok	1	5	pso_01 42_ploum.txt:204		plu_hub 42_ploum.txt:55 ; plu_tele 42_ploum.txt:70 ; plu_tele 42_ploum.txt:71 ; plu_tele 42_ploum.txt:72 ; plu_tele 42_ploum.txt:73
-vis_son	ok	1	8	son_01 13_songes.txt:7		hub_05 10_hub.txt:62 ; hub_06 10_hub.txt:89 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:100 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:115
+vis_pro	ok	1	8	pro_01 14_profondeurs.txt:7		hub_05 10_hub.txt:63 ; hub_06 10_hub.txt:90 ; hub_06 10_hub.txt:97 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:102 ; hub_06 10_hub.txt:103 ; hub_06 10_hub.txt:105 ; neg_15 22_negociation.txt:115
+vis_pso	ok	1	1	pso_01 42_ploum.txt:199	plu_tele 42_ploum.txt:63	plu_hub 42_ploum.txt:56
+vis_son	ok	1	8	son_01 13_songes.txt:7		hub_05 10_hub.txt:62 ; hub_06 10_hub.txt:89 ; hub_06 10_hub.txt:99 ; hub_06 10_hub.txt:100 ; hub_06 10_hub.txt:101 ; hub_06 10_hub.txt:105 ; hub_06 10_hub.txt:109 ; neg_15 22_negociation.txt:116
 voie_peu	ok	1	7	hub_04 10_hub.txt:41		hub_05 10_hub.txt:52 ; hub_05 10_hub.txt:60 ; hub_05 10_hub.txt:61 ; hub_05 10_hub.txt:63 ; hub_06 10_hub.txt:96 ; hub_06 10_hub.txt:98 ; hub_06 10_hub.txt:102
 voie_rum	ok	1	7	hub_03 10_hub.txt:33		hub_05 10_hub.txt:51 ; hub_05 10_hub.txt:60 ; hub_05 10_hub.txt:62 ; hub_05 10_hub.txt:64 ; hub_06 10_hub.txt:96 ; hub_06 10_hub.txt:100 ; hub_06 10_hub.txt:104
 voie_tri	ok	1	7	hub_02 10_hub.txt:24		hub_05 10_hub.txt:50 ; hub_05 10_hub.txt:64 ; hub_05 10_hub.txt:65 ; hub_05 10_hub.txt:66 ; hub_06 10_hub.txt:104 ; hub_06 10_hub.txt:106 ; hub_06 10_hub.txt:108
-voix_lune	ok	2	2	cha_05 21_chantier.txt:33 ; cha_70 93_objets.txt:356		cha_09 21_chantier.txt:57 ; cha_09 21_chantier.txt:58
-vol_bocal	ok	4	2	pis_22 03_pistil.txt:139 ; pis_22 03_pistil.txt:139 ; pis_22 03_pistil.txt:140 ; pis_22 03_pistil.txt:140		pis_26 03_pistil.txt:160 ; pis_26 03_pistil.txt:161
-vol_droit	jamais testé	1	0	nui_59 19_nuit.txt:280		
+voix_lune	ok	2	2	cha_05 21_chantier.txt:33 ; cha_70 93_objets.txt:360		cha_09 21_chantier.txt:57 ; cha_09 21_chantier.txt:58
+vol_bocal	ok	4	2	pis_22 03_pistil.txt:143 ; pis_22 03_pistil.txt:143 ; pis_22 03_pistil.txt:144 ; pis_22 03_pistil.txt:144		pis_26 03_pistil.txt:164 ; pis_26 03_pistil.txt:165
+vol_droit	ok	1	9	nui_59 19_nuit.txt:281		end_01 30_fins.txt:53 ; end_02 30_fins.txt:105 ; end_03 30_fins.txt:156 ; end_04 30_fins.txt:179 ; end_05 30_fins.txt:232 ; end_06 30_fins.txt:282 ; end_07 30_fins.txt:333 ; end_08 30_fins.txt:363 ; end_14 30_fins.txt:557
 vol_pret	jamais testé	3	0	cha_25 21_chantier.txt:183 ; cha_25 21_chantier.txt:183 ; cha_25 21_chantier.txt:184		
-vote_assemblee	jamais testé	6	0	pro_18 93_objets.txt:152 ; pro_19 93_objets.txt:155 ; pro_22 14_profondeurs.txt:152 ; pro_22 14_profondeurs.txt:152 ; pro_23 14_profondeurs.txt:158 ; pro_23 14_profondeurs.txt:159		
-vu_carrefour	jamais testé	1	0	zep_39 05_zephyrin.txt:243		
-vu_dessin	ok	3	3	pis_33 03_pistil.txt:208 ; cap_28 15_capitale.txt:191 ; cap_28 15_capitale.txt:191		cap_28 15_capitale.txt:189 ; cap_28 15_capitale.txt:190 ; cap_28 15_capitale.txt:191
+vote_assemblee	jamais testé	6	0	pro_18 93_objets.txt:156 ; pro_19 93_objets.txt:159 ; pro_22 14_profondeurs.txt:152 ; pro_22 14_profondeurs.txt:152 ; pro_23 14_profondeurs.txt:158 ; pro_23 14_profondeurs.txt:159		
+vu_carrefour	jamais testé	1	0	zep_39 05_zephyrin.txt:254		
+vu_dessin	ok	3	3	pis_33 03_pistil.txt:213 ; cap_28 15_capitale.txt:208 ; cap_28 15_capitale.txt:208		cap_28 15_capitale.txt:205 ; cap_28 15_capitale.txt:207 ; cap_28 15_capitale.txt:208
 vu_enseigne	jamais testé	1	0	ond_04 01_ondine.txt:29		
 vu_lune	jamais testé	1	0	bri_41 04_brisefer.txt:258		
 ysaline_renvoyee	ok	1	1	com_08 17_comete.txt:49		foi_02 18_foire.txt:20
-zep_actions	ok	2	5	zep_21 05_zephyrin.txt:138 ; zep_21 05_zephyrin.txt:138		neg_07 22_negociation.txt:51 ; neg_14 22_negociation.txt:104 ; neg_14 22_negociation.txt:105 ; fin_01 23_final.txt:24 ; end_06 30_fins.txt:174
+zep_actions	ok	2	6	zep_21 05_zephyrin.txt:142 ; zep_21 05_zephyrin.txt:142		neg_07 22_negociation.txt:51 ; neg_14 22_negociation.txt:105 ; neg_14 22_negociation.txt:106 ; fin_01 23_final.txt:24 ; end_06 30_fins.txt:240 ; end_06 64_corr_zephyrin.txt:247
+zep_poemes	ok	2	2	zep_16 05_zephyrin.txt:108 ; zep_16 05_zephyrin.txt:108		com_12 64_corr_zephyrin.txt:95 ; neg_23 64_corr_zephyrin.txt:201
+zep_remonte	ok	1	18	nui_75 64_corr_zephyrin.txt:159		end_01 64_corr_zephyrin.txt:219 ; end_01 64_corr_zephyrin.txt:220 ; end_02 64_corr_zephyrin.txt:225 ; end_02 64_corr_zephyrin.txt:226 ; end_03 64_corr_zephyrin.txt:231 ; end_03 64_corr_zephyrin.txt:232 ; end_05 64_corr_zephyrin.txt:241 ; end_05 64_corr_zephyrin.txt:242 ; end_07 64_corr_zephyrin.txt:251 ; end_07 64_corr_zephyrin.txt:252 ; end_09 64_corr_zephyrin.txt:261 ; end_09 64_corr_zephyrin.txt:262 ; end_13 64_corr_zephyrin.txt:277 ; end_13 64_corr_zephyrin.txt:278 ; end_14 64_corr_zephyrin.txt:282 ; end_14 64_corr_zephyrin.txt:283 ; end_15 64_corr_zephyrin.txt:288 ; end_15 64_corr_zephyrin.txt:289
 zouzou_devant	ok	2	3	asc_01 20_ascension.txt:20 ; asc_01 20_ascension.txt:20		asc_14 92_comportements.txt:4 ; asc_22 92_comportements.txt:9 ; asc_22 92_comportements.txt:7
-zouzou_mesuree	jamais posé	0	1			nui_45 19_nuit.txt:159
-zouzou_partie	ok	2	6	pro_25 14_profondeurs.txt:174 ; nua_16 16_nuages.txt:138		nua_16 16_nuages.txt:131 ; nua_16 16_nuages.txt:133 ; nua_16 16_nuages.txt:134 ; nua_16 16_nuages.txt:135 ; nua_16 16_nuages.txt:136 ; nua_16 16_nuages.txt:137
-zouzou_rentree	ok	4	9	nua_16 16_nuages.txt:138 ; nui_45 19_nuit.txt:160 ; nui_45 19_nuit.txt:160 ; nui_45 19_nuit.txt:161		end_01 30_fins.txt:28 ; end_02 30_fins.txt:67 ; end_03 30_fins.txt:105 ; end_05 30_fins.txt:154 ; end_06 30_fins.txt:191 ; end_07 30_fins.txt:229 ; end_09 30_fins.txt:282 ; end_13 30_fins.txt:363 ; end_14 30_fins.txt:400
-zouzou_reste	jamais testé	1	0	nui_45 19_nuit.txt:161		
+zouzou_mesuree	jamais posé	0	1			nui_45 19_nuit.txt:160
+zouzou_partie	ok	2	6	pro_25 14_profondeurs.txt:174 ; nua_16 16_nuages.txt:139		nua_16 16_nuages.txt:132 ; nua_16 16_nuages.txt:134 ; nua_16 16_nuages.txt:135 ; nua_16 16_nuages.txt:136 ; nua_16 16_nuages.txt:137 ; nua_16 16_nuages.txt:138
+zouzou_rentree	ok	4	9	nua_16 16_nuages.txt:139 ; nui_45 19_nuit.txt:161 ; nui_45 19_nuit.txt:161 ; nui_45 19_nuit.txt:162		end_01 30_fins.txt:28 ; end_02 30_fins.txt:80 ; end_03 30_fins.txt:131 ; end_05 30_fins.txt:207 ; end_06 30_fins.txt:257 ; end_07 30_fins.txt:308 ; end_09 30_fins.txt:388 ; end_13 30_fins.txt:488 ; end_14 30_fins.txt:532
+zouzou_reste	jamais testé	1	0	nui_45 19_nuit.txt:162		

@@ -5,7 +5,8 @@
 @nua_01
 !title: Les Hauts-Nuages
 !fx: +flag:vis_nua regions+1
-Une échelle de corde pend du ciel jusqu'au Carrefour. Tu montes. À mi-hauteur, tes oreilles se bouchent ; aux trois quarts, ton cœur aussi. Tout en haut, tu poses le pied sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
+?pc:anatole Une échelle de corde pend du ciel jusqu'au Carrefour. Tu ne la prends pas : tu montes en vol, en spirale autour d'elle, faute de Lune assez proche pour monter droit. Tout en haut, tu te poses sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
+?!pc:anatole Une échelle de corde pend du ciel jusqu'au Carrefour. Tu montes. À mi-hauteur, tes oreilles se bouchent ; aux trois quarts, ton cœur aussi. Tout en haut, tu poses le pied sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
 Les Hauts-Nuages sont dégonflés. Partout, des nuages plats, gris, affaissés comme des draps sur une corde. Il ne pleut plus sur la Terre depuis que la Lune est à vendre. Personne n'avait fait le lien. Toi non plus.
 ?pc:griselidis Tu connais ce ciel par cœur : tu y as distribué le courrier pendant trente ans. Tu ne l'as jamais vu aussi silencieux. Même les Vents de service ont l'air de chuchoter.
 ?pc:pelagie Nous n'aimons pas l'altitude. Trois d'entre nous ont le vertige, deux le mal de l'air, et Sœur Gertrude refuse de regarder en bas. Nous avançons en essaim serré, en récitant la liste des fleurs.
@@ -157,5 +158,5 @@ Le soir tombe sur les Hauts-Nuages, et pour une fois il pleut un peu : une petit
 ~gaspard: « Je reviendrai par ici, quand tout sera fini. Si on finit. »
 ~ondee: « On descend par l'échelle ? Je préfère tomber. C'est plus naturel. »
 ~zouzou: « Je peux te descendre en trois secondes. Tu arriveras en vie à quatre-vingts pour cent. »
-* hub_ret coe10 | Redescendre par l'échelle de corde | Tu descends. Chaque barreau te rend un peu de poids. En bas, le Carrefour t'attend, avec sa poussière et ses beignets. | | mor+1 |
+* hub_ret coe10 ?!pc:anatole | Redescendre par l'échelle de corde | Tu descends. Chaque barreau te rend un peu de poids. En bas, le Carrefour t'attend, avec sa poussière et ses beignets. | | mor+1 |
 * hub_ret pan11 | Sauter, et faire confiance aux nuages pour amortir | Tu sautes. Les nuages se mettent en file pour te rattraper, un par un, de plus en plus bas. Le dernier te dépose au Carrefour comme un colis fragile. | Tu sautes. Le premier nuage te rate. Le deuxième aussi. Le troisième, un cumulus en retard, te rattrape à dix mètres du sol. Tu as eu très peur. | pan+1 | mor-1
