@@ -64,6 +64,7 @@ Ton dossier, sur le bureau de marbre. Platine lit. Il lit lentement, avec la con
 ?flag:signature_lente « La signature n'est pas finie ? Elle pousse encore ? » Ses mains tremblent.
 ?flag:contrat_livraison « Défaut de conformité... les fonctions habituelles... » Il se lève.
 ?flag:lettre_lune,flag:lettre_tamponnee « Une réclamation de la Lune ? Tamponnée ? » Il se rassoit.
+?flag:acte_montre « L'original… Il était dans votre mousse. » Il compare. « Et la signature a poussé depuis la copie. Elle n'est toujours pas finie. »
 « C'est... c'est un vice de forme. » Il le dit comme on annonce un décès.
 * neg_16 rus12 | Lui expliquer calmement que la vente est nulle | Tu expliques. Article par article. Il écoute. Il hoche la tête. Il souffre. « Un vice de forme. Dans mon plus beau contrat. » | Tu expliques mal. Il comprend quand même. C'est un spécialiste. | +flag:contrat_vice rus+1 | +flag:contrat_vice
 * neg_16 coe11 | Lui dire que ce n'est pas une faute, c'est une vérité | Il te regarde. « Une vérité ? » « La Lune n'a jamais dit oui. » Il se tait très longtemps. | | +flag:contrat_vice coe+1 |

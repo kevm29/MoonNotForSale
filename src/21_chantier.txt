@@ -196,7 +196,8 @@ Elle te regarde, les yeux brillants. « Ses fonctions habituelles. Les marées. 
 ?comp:coquille Derrière toi, Madame Coquille avance de son pas immuable, le petit Croissant sur le dos. Elle est à vingt mètres. Fuir sans elle, c'est impossible. Fuir avec elle, aussi.
 ?flag:traite_vigiles Deux vigiles, derrière Bobinot, regardent ailleurs avec application. Ils ont signé un traité. Ils le respectent.
 * cha_28 pan11 | « Je veux voir Monsieur Platine. » | Bobinot te regarde. « Voir le patron ? Personne ne voit le patron. » Il hésite. « Mais il a demandé à voir quiconque causerait un incident. Vous en êtes un, apparemment. » | | |
-* cha_29 rus12 ?!comp:coquille | T'enfuir dans le chantier | Tu cours entre les grues, les cloisons, les piscines. Les vigiles s'excusent en te poursuivant. | Tu cours, mais tu tombes dans une piscine à marées. Tu en ressors trempé·e et capturé·e. | rus+1 comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard | comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard
+* cha_29 rus12 ?!comp:coquille ?pc:basile | Te faufiler dans le chantier, à ta vitesse | Tu te glisses entre les grues, les cloisons, les piscines. Un lichen sur de la poussière grise, ça ne se voit presque pas. Les vigiles te cherchent en s'excusant. | Tu te glisses, mais tu glisses dans une piscine à marées. Tu en ressors trempé et capturé. | rus+1 comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard | comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard
+* cha_29 rus12 ?!comp:coquille ?!pc:basile | T'enfuir dans le chantier | Tu cours entre les grues, les cloisons, les piscines. Les vigiles s'excusent en te poursuivant. | Tu cours, mais tu tombes dans une piscine à marées. Tu en ressors trempé·e et capturé·e. | rus+1 comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard | comp:plumard=>+flag:plumard_reste comp:plumard=>-comp:plumard
 
 @cha_28
 Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Terrien. Je ne sais pas. Ça veut vous voir. » Une voix douce, polie, fatiguée, répond : « Faites-le monter, Bobinot. J'aime recevoir. Ça fait si longtemps qu'on ne m'a pas rendu visite. »
@@ -206,7 +207,8 @@ Bobinot parle dans sa radio. « Patron ? Il y a quelqu'un. Une Terrienne. Un Ter
 ?flag:plumard_reste Le Colonel Plumard, lui, n'a pas couru. « Un militaire ne fuit pas ! » Tu l'as vu, derrière toi, se planter devant les vigiles, la crête haute, et se laisser arrêter en chantant l'aube. Il t'a fait un salut militaire avant de disparaître entre deux uniformes dorés.
 ?last:ko Tu ressors de la piscine, trempé·e, entre deux vigiles qui s'excusent. Ils te conduisent, très poliment, vers une silhouette de classeurs gris qui attend au bord du bassin.
 ?last:ok ?pc:brisefer Tu marches à travers le chantier. Tu ne cours pas : onze tonnes qui courent, sur la Lune, ça fait des trous. Les vigiles te poursuivent en s'excusant. Les cloisons de verre éclatent sur ton passage, une maquette de golf aussi. Et là, tu tombes nez à nez avec une silhouette de classeurs gris, presque aussi grande que toi.
-?last:ok ?!pc:brisefer Tu cours à travers le chantier. Les vigiles te poursuivent en s'excusant. Tu sautes par-dessus une cloison de verre, tu traverses une piscine vide, tu te caches derrière une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
+?last:ok ?pc:basile Tu fuis à travers le chantier, à ta vitesse : un mètre par minute. Les vigiles te poursuivent en s'excusant, et ralentissent par politesse pour ne pas te dépasser. Au bout d'une heure de poursuite, tu atteins une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
+?last:ok ?!pc:brisefer ?!pc:basile Tu cours à travers le chantier. Les vigiles te poursuivent en s'excusant. Tu sautes par-dessus une cloison de verre, tu traverses une piscine vide, tu te caches derrière une maquette de golf. Et là, tu tombes nez à nez avec une silhouette de classeurs gris.
 L'Huissier Krâmm.
 * cha_30 coe11 | Lui faire face | Il te regarde. Ses tiroirs s'ouvrent et se ferment. « Article premier : je vous attendais. » | |
 
@@ -214,14 +216,17 @@ L'Huissier Krâmm.
 ?from:cha_28 L'escorte arrive. Ce n'est pas un vigile.
 L'Huissier Krâmm, de la Compagnie Foncière. Il est là, sur la Lune, au milieu du chantier, grand comme un phare couché, fait de classeurs gris qui s'ouvrent quand il respire.
 ?flag:kramm_demission Il ne porte plus son badge d'huissier. « J'ai démissionné. Mais Monsieur Platine m'a demandé de venir une dernière fois. Pour l'inventaire final. Je suis venu. Je ne sais pas pourquoi. Peut-être pour voir. »
-?!flag:kramm_demission « Article premier : bonjour. Article deux : je suis chargé de l'inventaire final avant le départ. Article trois : vous êtes un accessoire non répertorié. »
+?!flag:kramm_demission ?!pc:basile « Article premier : bonjour. Article deux : je suis chargé de l'inventaire final avant le départ. Article trois : vous êtes un accessoire non répertorié. »
+?!flag:kramm_demission ?pc:basile « Article premier : bonjour. Article deux : je suis chargé de l'inventaire final avant le départ. » Il se penche sur toi. « Article trois : le lichen des archives. Lichen, un. Je vous avais déjà compté. »
 * cha_31 coe12 | Lui demander s'il veut voir la Lune avec toi | Il hésite. Puis il hoche ses tiroirs. Vous marchez ensemble jusqu'au bord d'un cratère. Il regarde. « Elle est plus grande que sur le dessin de ma fille. » | Il refuse. « Article... non. Je n'ai pas le temps. » Mais il regarde quand même, en coin. | +flag:kramm_regarde coe+1 |
 * cha_32 rus11 | Lui demander de t'emmener voir Platine | « Article quatre : c'est précisément ma mission. » Il te tend un tiroir, comme un bras. | |
 
 @cha_31
-Krâmm regarde la Lune. Longtemps. Ses tiroirs s'arrêtent de bouger. Puis il ouvre le dernier, celui du bas, et il en sort le dessin de sa fille. Une Lune avec un visage, qui sourit. Il le pose sur la poussière lunaire. Il le cale avec un caillou.
+?!flag:dessin_kramm Krâmm regarde la Lune. Longtemps. Ses tiroirs s'arrêtent de bouger. Puis il ouvre le dernier, celui du bas, et il en sort le dessin de sa fille. Une Lune avec un visage, qui sourit. Il le pose sur la poussière lunaire. Il le cale avec un caillou.
+?flag:dessin_kramm Krâmm regarde la Lune. Longtemps. Ses tiroirs s'arrêtent de bouger. Puis il ouvre le dernier, celui du bas. Il est vide. Il se souvient où il l'a laissé, aux archives. Tu sors le dessin de ta mousse, un peu froissé, et tu le lui tends. Il le prend du bout d'un tiroir. Il le pose sur la poussière lunaire. Il le cale avec un caillou.
 « Voilà. Comme ça, elle sait que quelqu'un l'aime. Même si on l'emporte. »
 * cha_33 coe12 | Lui dire qu'on ne l'emportera pas | Il te regarde. « Vous croyez ? » « Oui. » Il se redresse. « Alors je ne ferai pas l'inventaire. Je refuse. » Il referme ses tiroirs. « Article premier, et dernier : non. » | Il secoue la tête. « On l'emporte toujours. C'est le métier. » | +flag:kramm_refuse coe+1 |
+* cha_33 coe10 ?flag:dessin_kramm | « Elle vous l'a donné pour que vous ne l'emportiez pas. » | Krâmm regarde le dessin, puis toi. « Vous l'avez gardé tout ce temps. Pour moi. » Il referme ses tiroirs, un par un. « Article premier, et dernier : je ne ferai pas l'inventaire. » | Il ne répond pas. Mais il laisse le dessin sur la Lune, et il ferme le tiroir vide à clé. | +flag:kramm_refuse -flag:dessin_kramm coe+1 mor+1 | -flag:dessin_kramm
 
 @cha_32
 Krâmm t'escorte vers le pied du câble. Un ascenseur doré monte le long du câble, de la Lune au Promontoire, en orbite.

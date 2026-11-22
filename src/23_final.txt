@@ -34,7 +34,8 @@
 @fin_02
 « La vente est nulle. » Tu poses tout sur le bureau.
 ?flag:clause_affection,flag:affection La clause d'affection du contrat d'orbite.
-?flag:signature_lente La signature du greffier, qui pousse encore.
+?flag:signature_lente ?!pc:basile La signature du greffier, qui pousse encore.
+?flag:signature_lente ?pc:basile Ta signature, qui pousse encore. Il manque toujours « meau ».
 ?flag:lettre_tamponnee La réclamation de la Lune, tamponnée « Reçu ».
 ?flag:lettre_lune ?!flag:lettre_tamponnee La lettre de la Lune, qui dit qu'elle ne souhaite pas partir.
 ?flag:contrat_livraison Le contrat de livraison, et son défaut de conformité.
