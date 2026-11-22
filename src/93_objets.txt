@@ -29,7 +29,9 @@ La couverture est tissée en granit, maille par maille, si serrée qu'elle a l'a
 ?pc:brisefer Elle te la pose dans les bras. Pour toi, c'est un mouchoir. Pour elle, c'était trente ans de tricot.
 ?!pc:pistil ?!pc:anatole ?!pc:brisefer Elle te la pose dans les bras.
 « Prends-la. Elle tient chaud à tout ce qui naît. Moi, je suis trop vieille pour naître encore. »
-* hub_05 pan10 | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | Tu la hisses et tu tombes assis·e dessus. La vieille Gravitaire rit pendant dix minutes, puis la reprend. « Trop lourde pour toi. Je la garderai pour les nuits froides. » | +flag:obj_couverture pan+1 |
+* hub_05 pan10 ?!pc:pistil | La hisser sur ton dos | Tu la hisses. Tu plies un peu les genoux. Puis tu t'habitues. On s'habitue à tout ce qui tient chaud. | Tu la hisses et tu tombes assis·e dessus. La vieille Gravitaire rit pendant dix minutes, puis la reprend. « Trop lourde pour toi. Je la garderai pour les nuits froides. » | +flag:obj_couverture pan+1 |
+* hub_05 ?pc:pistil ?comps>=1 | La confier à tes compagnons, qui la porteront à tour de rôle | Ils la plient en huit, puis en seize. Elle reste lourde. Ils se la passent sans se plaindre, ou presque. Toi, tu portes le coin qui dépasse. | | +flag:obj_couverture |
+* hub_05 pan10 ?pc:pistil ?comps==0 | La tirer derrière toi, comme un enfant tire un jouet trop grand | Tu la tires. Elle glisse sur l'herbe avec un bruit de carrière. Tu avances d'un mètre, puis de deux. La vieille Gravitaire t'applaudit, lentement, très lentement. | Tu tires. Elle ne bouge pas. Toi non plus : tu es dessous. La vieille Gravitaire te dégage du bout du doigt. « Je la garderai pour les nuits froides. » | +flag:obj_couverture pan+1 |
 * hub_05 | La remercier, et la lui laisser pour les nuits froides | Elle hoche la tête. « Tu as raison. Il va faire froid, quand elle sera partie. » | | mor+1 |
 
 @+hub_ret
