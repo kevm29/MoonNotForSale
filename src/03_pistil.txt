@@ -45,6 +45,7 @@ La tasse tremble. Le Gravitaire bouge. Quelque chose est en train de le réveill
 @pis_08
 Les ombres errantes se blottissent autour de toi. Une ombre de lampadaire, une ombre de chat, une ombre d'enfant qui a grandi et l'a laissée là. Elles te demandent, sans mots, où est passée la lumière qui les dessinait.
 Tu n'as pas de réponse. Tu as une couverture. Tu les couvres.
+* pis_10 coe11 | Leur chanter la berceuse du vieux Gravitaire, celle qui fait ronfler les montagnes | Tu chantes tout bas. Les ombres se tassent, une par une, et s'endorment en rond, comme des chats sur un radiateur. Une ombre de girafe ronfle. | Tu chantes. L'ombre de chat s'endort. Les autres te regardent, poliment, sans sommeil. | mor+1 |
 * pis_10 coe12 | Leur promettre de retrouver la lumière | Tu promets. Les ombres se calment et s'endorment sur tes pieds. Tu ne sais pas tenir une promesse. Tu vas apprendre. | Tu promets, mais ta voix tremble. Les ombres ne te croient pas tout à fait. | coe+1 mor+1 |
 
 @pis_09
@@ -73,12 +74,13 @@ Tu ne sais pas. Tu ne sais même pas où elle va. Tu sais juste que les enfants 
 * pis_14 rus10 | « Je ne sais pas, mais je connais quelqu'un qui sait peut-être. » | « Qui ? » « Le Marchand de Sommeil. » L'enfant frissonne. « Il est méchant ? » « Je ne sais pas. » | L'enfant se rendort plus profondément. Tu restes seul avec ta réponse. | +flag:legende_marchand |
 
 @pis_13
+!fx: +flag:brume_vue
 ?from:pis_11,from:pis_12 Un brouillard doux vient se poser à côté de toi. Il a une voix, une voix de matin d'automne.
 Elle s'appelle Brume-Lucie. Elle est une Brumeuse, une créature de brouillard qui vit entre le rêve et l'éveil, là où les choses sont floues. Elle a une voix de matin d'automne et elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
 « Je flotte entre les mondes, entre la nuit et le... enfin. Tu vois. »
 Quand elle est gênée, elle disparaît. Elle est souvent gênée.
 * pis_15 coe11 | Lui dire que ses demi-vers sont jolis | Elle rosit, ce qui pour du brouillard fait un joli coucher de soleil. Puis elle disparaît. Puis elle réapparaît, ravie. | Elle disparaît de gêne et met dix minutes à revenir. | mor+1 coe+1 |
-* pis_16 rus11 | Lui demander ce qu'elle sait de la Lune | « La Lune ? C'est ma cousine. Toutes les brumes sont cousines de la Lune. Elle nous éclaire, nous on la... enfin. On l'adoucit. » | « Ce que je sais... ce que je sais est flou. C'est ma nature. » | +flag:brume_lune |
+* pis_15 rus11 | Lui demander ce qu'elle sait de la Lune | « La Lune ? C'est ma cousine. Toutes les brumes sont cousines de la Lune. Elle nous éclaire, nous on la... enfin. On l'adoucit. » | « Ce que je sais... ce que je sais est flou. C'est ma nature. » | +flag:brume_lune |
 
 @pis_14
 Le Marchand de Sommeil tient boutique dans un rêve de grand magasin, au bout d'un couloir de dormeurs. Tout le monde le connaît. Personne ne l'a vu. Les Somnambules disent qu'il vend des grammes de sommeil dans des bocaux, et qu'en ce moment, avec l'insomnie mondiale, il fait fortune.
@@ -86,8 +88,10 @@ Le Marchand de Sommeil tient boutique dans un rêve de grand magasin, au bout d'
 * pis_15 coe10 | Chercher d'abord quelqu'un pour t'accompagner | Tu cherches. Et quelqu'un te trouve : un nuage doux, une voix qui hésite. | |
 
 @pis_15
+!fx: +flag:brume_vue
 ?from:pis_14 Elle se présente en rougissant : Brume-Lucie, Brumeuse, créature de brouillard qui vit entre le rêve et l'éveil. Elle parle en vers, mais seulement à moitié, parce qu'elle a peur d'aller jusqu'au bout des rimes.
 Brume-Lucie flotte autour de toi. Elle te regarde comme on regarde un poussin dans une tempête. « Tu es tout petit. Tu ne devrais pas aller seul là où les rêves se... » Elle ne finit pas. Elle n'aime pas les fins.
+?from:pis_13 « Si tu veux comprendre ce qui arrive aux rêves... il y a quelqu'un. Le Marchand de Sommeil. Il tient boutique au bout du couloir des dormeurs. Il connaît tous les rêves, et tous les rêveurs. Il les... enfin. Il les vend. »
 « Est-ce que je peux venir ? Je ne sers à rien, mais je fais de l'ombre. Enfin, du flou. »
 * pis_16 coe10 | « Oui ! Viens ! » | Elle disparaît de joie, puis revient en t'enveloppant comme une écharpe. Tu as chaud pour la première fois de la nuit. | Elle disparaît de joie. Tu attends. Elle ne revient pas. Quand on est du brouillard, on se perd parfois dans sa propre émotion. | +comp:brume mor+1 |
 * pis_17 rus11 | « Tu es sûre ? Ça va être dangereux. » | « Je suis du brouillard. Le danger me traverse. » Elle vient quand même. | « Dangereux ? » Elle se dissout d'un coup. « Alors non... pas moi... pas... » Le reste de sa phrase s'efface avec elle. Tu continues seul. | +comp:brume |
@@ -171,6 +175,7 @@ Et tu arrives dans le rêve de la Lune.
 
 @pis_28
 Le rêve de la Lune est une maison. Une grande maison blanche, vide, avec des milliers de fenêtres. Toutes les fenêtres donnent sur la Terre. Il n'y a pas de meubles. Il n'y a que des fenêtres, et de la poussière, et une petite silhouette ronde, assise par terre, qui regarde dehors.
+Sur le rebord de chaque fenêtre, un petit papier, le même partout, tamponné en or : « VENDU ». Même ses rêves ont reçu l'étiquette.
 C'est elle. La Lune. Dans son rêve, elle est petite. Elle est assise, les genoux contre elle. Elle ne te voit pas.
 * pis_29 coe12 | T'approcher doucement | Tu t'approches. Tu fais très peu de bruit, tu es un pyjama. Elle sent ta présence. Elle tourne la tête. | Tu fais craquer un parquet de rêve. Elle sursaute et se cache derrière une fenêtre. | coe+1 |
 * pis_30 rus11 | Explorer d'abord la maison | Tu ouvres des portes. Derrière chacune, une pièce vide. Sur chaque mur, une date. Le premier jour, et tous les autres. Quatre milliards et demi de jours. | Tu ouvres des portes et tu te perds. La maison est grande comme une mémoire. | rus+1 |
@@ -209,7 +214,7 @@ La Lune garde aussi les dessins. Elle garde tout ce qu'on lui donne.
 
 @pis_34
 La Lune s'assoit à côté de toi. Vous regardez la Terre ensemble, par la fenêtre. Elle te parle de tout ce qu'elle a vu : les premiers poissons, les premières mousses, les premiers Gravitaires qui ont levé la tête vers elle. Elle se souvient de tout. Elle n'oublie jamais rien. C'est son métier.
-* pis_36 coe11 | Lui demander ce qu'elle préfère chez la Terre | « Les marées. » Elle sourit. « Quand je passe, ils montent vers moi. Toute la mer se lève pour me dire bonjour. Toutes les nuits. Personne ne fait ça pour personne. » | « Tout. » Elle ne précise pas. Elle n'a pas besoin. | mor+1 |
+* pis_34b coe11 | Lui demander ce qu'elle préfère chez la Terre | « Les marées. » Elle sourit. « Quand je passe, ils montent vers moi. Toute la mer se lève pour me dire bonjour. Toutes les nuits. Personne ne fait ça pour personne. » | « Tout. » Elle ne précise pas. Elle n'a pas besoin. | mor+1 |
 * pis_37 rus11 | Lui demander comment l'aider concrètement | « Je ne sais pas. Peut-être... si quelqu'un trouvait que je n'ai jamais dit oui. » | « Je ne sais pas. Je n'ai jamais eu besoin d'aide. » | +flag:indice_consentement |
 
 @pis_35
@@ -219,7 +224,7 @@ Tu as une idée. Une idée de Somnambule. Si tu laisses une porte de rêve entro
 
 @pis_36
 La Lune te prend la main. Sa main est froide et douce, comme du marbre au soleil. « Pistil. Quand tu repartiras, dis-leur que je ne voulais pas partir. Dis-leur que je les regarde. Dis-leur... » Elle hésite. « Dis-leur de ne pas me laisser toute seule là-bas. »
-* pis_38 coe12 | Promettre | Tu promets. Pour la deuxième fois de ta vie. Cette fois, tu sais ce que ça veut dire. | Tu promets, mais ta voix se casse. Elle te serre la main plus fort. | coe+1 mor+1 +flag:promesse_lune | +flag:promesse_lune
+* pis_38 coe12 | Promettre | Tu promets. Cette fois, tu sais ce que ça veut dire. | Tu promets, mais ta voix se casse. Elle te serre la main plus fort. | coe+1 mor+1 +flag:promesse_lune | +flag:promesse_lune
 * pis_37 rus10 | Lui demander de garder une porte ouverte pour toi | « Une porte ? » Elle sourit. « Je garderai une fenêtre. Pour toi. Toujours. » | |
 
 @pis_37
@@ -274,7 +279,7 @@ Au-dessus, la Lune, penchée, son crochet planté dedans. Tu lui fais un petit s
 * hub_01 pan11 | Courir jusqu'en bas | Tu cours. Tu cours dans l'éveil. Tu commences à aimer ça. | Tu cours et tu tombes au milieu d'un groupe de Gravitaires. Ils te ramassent avec douceur. | pan+1 |
 
 @pis_45
-Tu reprends ta marche. Tu as de nouveau un peu de couleur. Au loin, un grondement de foule. Des panneaux plantés dans la terre : « GRANDE PANIQUE → ». Tu ne sais pas lire, les rêves n'ont pas d'alphabet. Mais tu reconnais la forme d'une flèche. Les flèches, c'est universel.
+Tu reprends ta marche. Tu as de nouveau un peu de couleur. Au loin, un grondement de foule. Des panneaux plantés dans la terre : « GRANDE PANIQUE → ». Tu les lis lentement : dans les rêves, les lettres bougent, et celles de l'éveil restent bêtement en place. La flèche, elle, tu la comprends tout de suite. Les flèches, c'est universel.
 * pis_46 rus11 | Suivre les flèches | Tu suis les flèches. Elles mènent toutes au même endroit. C'est rassurant, un monde où les flèches sont d'accord. | Une flèche a été tournée par un plaisantin. Tu fais un détour de deux heures. | |
 * hub_01 coe10 | Suivre le bruit de la foule | Tu suis les voix. Elles sont tristes et en colère. Tu sais où aller. | |
 

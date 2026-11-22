@@ -33,7 +33,7 @@ Le Marégrave rame sans s'arrêter. Il parle à quelqu'un, mais pas à toi. À l
 ~brisefer: Brisefer regarde le Marégrave ramer. « Il porte, lui aussi. Il porte une rame. C'est pareil. »
 ~zouzou: Zouzou fait le tour de la barque. « Il rame vers quelque chose qui n'avance pas. Moi, je fais l'inverse. »
 ~brume: Brume-Lucie se pose sur l'eau verte. « Elle est... belle... sa mer... même vide... »
-* pne_ba2 | Lui demander comment elle s'appelait | « Perline. » Il le dit comme on pose quelque chose de fragile. « Perline Vasequeuse. » Il rame plus fort. | |
+* pne_ba2 | Lui demander qui est Perline | « Perline Vasequeuse. Ma femme. » Il le dit comme on pose quelque chose de fragile. Il rame plus fort. | |
 * pne_ba2 | Lui demander ce qu'il pêchait, avant | « Des bulots. Des vieilles bottes. Une fois, une sirène, mais elle était fâchée, je l'ai relâchée. » Il rit presque. « Perline l'avait trouvée jolie. » | |
 * pne_ba2 | Te taire, et écouter la mer se vider | Ça fait un bruit de baignoire. C'est le bruit le plus triste qu'on puisse faire avec une mer. | |
 
@@ -43,7 +43,7 @@ La prêtresse tricote et parle en même temps, très fort, sans te regarder.
 « MILLE ANS QUE JE TRICOTE. AVANT, JE CROCHETAIS. LE CROCHET, C'EST VULGAIRE. NON. C'EST TRÈS BIEN, LE CROCHET. MAIS PAS CELUI-LÀ. » Elle montre le ciel du rêve, là où quelque chose tire.
 « CHAQUE MAILLE, C'EST UNE NUIT. TU SAIS COMBIEN DE NUITS IL Y A DANS MILLE ANS ? MOI NON PLUS. JE COMPTE EN MAILLES. »
 ~bartho: Bartholomé ôte sa casquette devant elle. « Madame. » « MONSIEUR. » Ils se regardent. Ils ont le même âge de tristesse.
-~brisefer: Brisefer et Tante Mélusine se mesurent du regard. Elles sont aussi grandes l'une que l'autre. « Vous tricotez quoi ? » « LA NUIT. ET VOUS ? » « Je portais la Terre. » « AH. CHACUNE SON OUVRAGE. »
+~brisefer: Brisefer et la prêtresse se mesurent du regard. Elles sont aussi grandes l'une que l'autre. « Vous tricotez quoi ? » « LA NUIT. ET VOUS ? » « Je portais la Terre. » « AH. CHACUNE SON OUVRAGE. »
 ~zouzou: Zouzou passe à travers le tricot, et ressort couverte de lumière. « Pardon ! » « TU M'AS FAIT UNE MAILLE FILÉE. » « Pardon ! »
 * pne_me2 | Lui demander pour qui elle tricote | « POUR LES ENDORMIS. ILS NE ME DISENT JAMAIS MERCI. ILS DORMENT. C'EST NORMAL. C'EST TRÈS VEXANT. » | |
 * pne_me2 | Admirer le tricot à voix haute | « TU TROUVES ? » Elle rougit sous ses trois paires de lunettes. « C'EST DU POINT DE RIZ. C'EST TRÈS DIFFICILE. NON. C'EST FACILE. MAIS JE LE FAIS TRÈS BIEN. » | |
@@ -53,7 +53,7 @@ La prêtresse tricote et parle en même temps, très fort, sans te regarder.
 !title: La géante parle en portant
 La géante parle entre ses dents, pour ne pas lâcher.
 « Avant, il y avait des jours où je le portais bien. On ne me remerciait pas. Il y avait des jours où je le portais mal. Il y avait des tremblements de terre. On me le reprochait. » Elle crache un caillou. « On se souvient toujours des tremblements. »
-~bartho: Bartholomé regarde la géante. « Ma femme disait qu'il fallait jamais rien porter tout seul. Même un seau. » Brisefer, dans son rêve, entend. Elle ne répond pas. Ses bras tremblent un peu moins.
+~bartho: Bartholomé regarde la géante. « Ma femme disait qu'il fallait jamais rien porter tout seul. Même un seau. » La géante, dans son rêve, entend. Elle ne répond pas. Ses bras tremblent un peu moins.
 ~melusine: Tante Mélusine, tout bas, ce qui chez elle reste fort : « JE LUI TRICOTERAIS BIEN DES MITAINES. POUR TROIS MILLE ANS. IL FAUDRAIT BEAUCOUP DE LAINE. »
 ~zouzou: Zouzou fait le tour de l'Axe. « C'est quoi, ce truc invisible ? » « La Terre. » « Elle est pas plus grosse que ça ? » « Elle est invisible, la comète. Ça ne la rend pas légère. »
 * pne_br2 | Lui demander ce qu'elle fait, à la retraite | « Rien. » Elle grimace. « J'ai essayé le tricot. J'ai cassé les aiguilles. J'ai essayé le jardinage. J'ai cassé le jardin. Alors je reviens ici, toutes les nuits. » | |
@@ -140,7 +140,7 @@ Tu penses : si je n'étais pas resté, je serais là, moi aussi, peut-être. Ou 
 
 @pnc_f1c
 !title: Le guichet
-Derrière Xanthin, au mur, des affiches. « LE GUICHET VOUS REMERCIE DE VOTRE PATIENCE. » « UN TAMPON BIEN FAIT EST UN TAMPON POUR TOUJOURS. » Et une petite photo, punaisée de travers : un galet gris sur un coussin rouge.
+Derrière le petit lichen, au mur, des affiches. « LE GUICHET VOUS REMERCIE DE VOTRE PATIENCE. » « UN TAMPON BIEN FAIT EST UN TAMPON POUR TOUJOURS. » Et une petite photo, punaisée de travers : un galet gris sur un coussin rouge.
 « C'est le Président », dit le petit lichen, sans s'arrêter. Clac. « Il ne parle pas. Je l'entends quand même. Je suis le seul. » Clac. « Il ne m'a jamais rien reproché. C'est pire. »
 ~brisefer: Brisefer lit les affiches avec dégoût. « Un tampon pour toujours. Rien n'est pour toujours. Même pas l'Axe. »
 ~bartho: Bartholomé ramasse un papier, le regarde, et le froisse. « J'ai jamais su lire. C'est ma meilleure qualité, ce soir. »

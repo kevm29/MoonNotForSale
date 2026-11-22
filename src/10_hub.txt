@@ -35,7 +35,7 @@ Les rumeurs, au stand de beignets :
 « Il paraît que les mers vont s'arrêter. » « Il paraît que les rêves vont s'éteindre. » « Il paraît que les Horlogers sont tous bloqués à mardi. » « Il paraît que c'est un fonctionnaire qui a signé. » « Il paraît que le promoteur écrit des poèmes. » « Il paraît qu'on peut encore la rattraper. »
 La dernière rumeur fait le tour de la plaine trois fois.
 * hub_05 rus11 | Trier les rumeurs vraies des fausses | Tu tries. À ta grande surprise, elles sont presque toutes vraies. C'est la pire nouvelle de la journée. | Tu tries mal. Tu repars persuadé·e que la Lune est en fromage. | rus+1 +flag:rumeurs |
-* hub_05 coe10 | Payer un beignet à quelqu'un qui pleure | Tu paies un beignet à une petite Horlogère figée à moitié. Elle le mange d'une seule main. Elle te dit merci à moitié. | Elle n'a plus faim. Tu manges le beignet pour elle. C'est triste et sucré. | mor+1 equ+2 |
+* hub_05 coe10 | Payer un beignet à quelqu'un qui pleure | Tu paies un beignet à une petite Horlogère figée à moitié. Elle le mange d'une seule main. Elle te dit merci à moitié. | Elle n'a plus faim. Tu gardes le beignet pour elle, au cas où la faim reviendrait. C'est triste et sucré. | mor+1 equ+2 |
 
 @hub_04
 !fx: +flag:voie_peu

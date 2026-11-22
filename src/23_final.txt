@@ -37,6 +37,7 @@
 ?flag:signature_lente La signature du greffier, qui pousse encore.
 ?flag:lettre_tamponnee La réclamation de la Lune, tamponnée « Reçu ».
 ?flag:lettre_lune ?!flag:lettre_tamponnee La lettre de la Lune, qui dit qu'elle ne souhaite pas partir.
+?flag:temoin_lune Et ta parole de Somnambule : tu étais dans le rêve de la Lune, et elle te l'a dit elle-même. Elle n'a jamais dit oui.
 ?flag:contrat_livraison Le contrat de livraison, et son défaut de conformité.
 ?flag:kramm_refuse L'inventaire que Krâmm a refusé de signer.
 ?flag:taxe_orbite Le registre des cessions, et sa taxe d'orbite.
