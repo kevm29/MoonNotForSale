@@ -139,7 +139,7 @@
 ~zouzou ?comp:coquille: Zouzou tourne autour de Madame Coquille. « Qu'est-ce que tu vas faire, toi ? » « Moi ? Rien. Je suis venue. C'est déjà beaucoup, à ma vitesse. »
 ~bartho ?comp:meduses: Bartholomé ouvre son bocal. « C'est le moment, les bestioles ? » « C'EST LE MOMENT, VIEUX BULOT. » Il ne referme pas le couvercle. Il ne le referme plus.
 ~plumard ?comp:melusine: Le Colonel Plumard ajuste sa crête. Tante Mélusine lui noue une écharpe de lumière autour du cou, sans rien dire, ce qui chez elle est un hurlement.
-~gaspard: « J'y suis. Après cent quarante ans. » Gaspard ne bouge plus. Il a peur d'avoir à repartir.
+~gaspard: « J'y suis. Après deux cents ans. » Gaspard ne bouge plus. Il a peur d'avoir à repartir.
 
 @+cha_28
 ~penelope: Pénélope reconnaît la voix dans la radio. Elle devient blanche, pour une femme de bureau, c'est beaucoup. « C'est lui. Il dit toujours "J'aime recevoir". Il n'a jamais reçu personne. »

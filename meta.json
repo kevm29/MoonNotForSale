@@ -467,7 +467,7 @@
    "name": "Dame Ondée",
    "species": "Nuage de pluie",
    "stat": "coe",
-   "bio": "Un petit nuage gris, dépressif, qui pleut quand il est triste, c'est-à-dire souvent. Elle s'excuse de mouiller tout le monde. Elle connaît toutes les mers par leur prénom, parce que c'est d'elles qu'elle vient. Quand elle est heureuse, elle fait des arcs-en-ciel, mais ça ne lui est arrivé que deux fois.",
+   "bio": "Un petit nuage gris, dépressif, qui pleut quand il est triste, c'est-à-dire souvent. Elle fut autrefois la grande nuée violette qui a plu sur la première mer. Elle s'excuse de mouiller tout le monde. Elle connaît toutes les mers par leur prénom, parce que c'est d'elles qu'elle vient. Quand elle est heureuse, elle fait des arcs-en-ciel, mais ça ne lui est arrivé que deux fois.",
    "ok": [
     "Dame Ondée fait un petit arc-en-ciel, gênée.",
     "Dame Ondée : « Oh. C'était bien. Je crois que je vais pleurer. » Elle pleure.",
@@ -488,7 +488,7 @@
    "name": "Sire Gaspard Ombrelune",
    "species": "Fantôme d'aéronaute",
    "stat": "coe",
-   "bio": "Un aéronaute mort il y a cent quarante ans en essayant d'atteindre la Lune en montgolfière. Il est arrivé à mi-chemin, ce qui, pour un fantôme, est un endroit très inconfortable pour rester. Courtois, un peu transparent, il traverse les murs par distraction et s'excuse auprès d'eux. Il voudrait finir son voyage, et ensuite se reposer.",
+   "bio": "Un aéronaute parti de Lyon en 1803 pour atteindre la Lune en montgolfière, mort depuis deux cents ans. Il est arrivé à mi-chemin, ce qui, pour un fantôme, est un endroit très inconfortable pour rester. Courtois, un peu transparent, il traverse les murs par distraction et s'excuse auprès d'eux. Il voudrait finir son voyage, et ensuite se reposer.",
    "ok": [
     "Gaspard soulève son chapeau, qui passe à travers sa main.",
     "Gaspard : « Bravo ! On aurait dit mon équipage, en plus vivant. »",
