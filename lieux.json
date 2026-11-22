@@ -337,6 +337,126 @@
    "image": "35-doux",
    "nom": "Le bureau de Platine, avant l'alarme et après",
    "scenes": "pla_01c, plf_02, pmo_02b"
+  },
+  {
+   "image": "43",
+   "nom": "La Faille",
+   "scenes": "bri_19, bri_21 à bri_28, pro_10, pro_12, pro_14, pro_15"
+  },
+  {
+   "image": "44",
+   "nom": "Le champ à l'aube",
+   "scenes": "bri_41 à bri_44, bri_47"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "pis_28 à pis_37, pis_34b, son_20 à son_30"
+  },
+  {
+   "image": "46",
+   "nom": "Premier matin dans l'éveil",
+   "scenes": "pis_38 à pis_43"
+  },
+  {
+   "image": "47",
+   "nom": "La cale du Promontoire",
+   "scenes": "zep_20, zep_22 à zep_29"
+  },
+  {
+   "image": "48",
+   "nom": "La fourrière et le Pied-de-Nez",
+   "scenes": "zep_30, zep_33"
+  },
+  {
+   "image": "49",
+   "nom": "L'étang aux canards",
+   "scenes": "zep_38, zep_40, zep_41"
+  },
+  {
+   "image": "50",
+   "nom": "Le village des Horlogers",
+   "scenes": "zep_43"
+  },
+  {
+   "image": "51",
+   "nom": "Enterrement sur la lande",
+   "scenes": "lyc_11 à lyc_18"
+  },
+  {
+   "image": "52",
+   "nom": "La lande à l'aube",
+   "scenes": "lyc_19, lyc_21"
+  },
+  {
+   "image": "53",
+   "nom": "Le vol de nuit",
+   "scenes": "ana_13 à ana_16, ana_14b, ana_15b, ana_16b"
+  },
+  {
+   "image": "54",
+   "nom": "Le Plafond du ciel",
+   "scenes": "gri_08 à gri_13, gri_15 à gri_17"
+  },
+  {
+   "image": "55",
+   "nom": "La réserve du Promontoire",
+   "scenes": "pcr_05, pcr_ours, pcr_06, pcr_06b, pcr_10"
+  },
+  {
+   "image": "56",
+   "nom": "Le Dortoir des Voyageurs",
+   "scenes": "pso_01, pso_avale, pso_r1, pso_06, pso_07, pso_oreiller, pso_07b, pso_08, pso_08b, pso_09"
+  },
+  {
+   "image": "57",
+   "nom": "La ferme",
+   "scenes": "plt_00, plt_00b, plt_01"
+  },
+  {
+   "image": "58",
+   "nom": "L'îlot des phares échoués",
+   "scenes": "ond_31, ond_32, ond_34"
+  },
+  {
+   "image": "59",
+   "nom": "La route de nuit vers le Carrefour",
+   "scenes": "pel_21"
+  },
+  {
+   "image": "60",
+   "nom": "Le couloir des planètes vendues",
+   "scenes": "pmo_01, pmo_01b"
+  },
+  {
+   "image": "61",
+   "nom": "La plage des pêcheurs",
+   "scenes": "pel_25"
+  },
+  {
+   "image": "62",
+   "nom": "Chambre trois, les Horlogers",
+   "scenes": "pel_23"
+  },
+  {
+   "image": "63",
+   "nom": "Le couloir des mères",
+   "scenes": "pel_24"
+  },
+  {
+   "image": "64",
+   "nom": "L'essaim dans le ciel",
+   "scenes": "asc_pel1"
+  },
+  {
+   "image": "65",
+   "nom": "Les fins sur la Lune",
+   "scenes": "end_33, end_34"
+  },
+  {
+   "image": "66",
+   "nom": "Le bureau de Platine en rouge",
+   "scenes": "gpa_15, gpa_15b"
   }
  ],
  "defauts": {
