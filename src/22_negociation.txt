@@ -13,7 +13,7 @@ Au bout du couloir, une porte immense : « Gédéon Platine — Président. Entr
 
 @neg_02
 Le bureau de Platine. Une pièce ronde, dorée, avec une baie vitrée sur la Lune. Partout, des maquettes de mondes vendus. Et au centre, derrière un bureau de marbre, Gédéon Platine lui-même : grand, mince, en feuilles d'or si fines qu'elles laissent passer la lumière. Il se lève. Il sourit. Un sourire sincère, ce qui est le plus inquiétant.
-« Bienvenue. Bienvenue ! Vous êtes Terrien·ne ? Comme c'est émouvant. Asseyez-vous. Un thé ? Un poème ? »
+?!pc:zephyrin « Bienvenue. Bienvenue ! Vous êtes Terrien·ne ? Comme c'est émouvant. Asseyez-vous. Un thé ? Un poème ? »
 ?pc:brisefer Tu entres à genoux. Ta tête touche le plafond. Platine lève les yeux, très haut, puis encore un peu. Il ne recule pas. « Une Gravitaire ! Dans mon bureau ! » Il pousse lui-même son fauteuil contre le mur, pour te faire de la place, et s'assoit sur le coin de son bureau de marbre, pour être à hauteur de ton menton. Le plancher doré craque. Il fait semblant de ne pas l'entendre.
 ?pc:zephyrin Il te voit. Son sourire tremble. « Zéphyrin. Mon cher Zéphyrin. Vous êtes revenu. Je savais que vous reviendriez. » Il a l'air sincèrement heureux de te voir. C'est horrible.
 * neg_04 coe11 | Accepter le thé | Il te sert lui-même, avec une délicatesse infinie. Le thé est parfait. Tout est parfait. Tu as envie de crier. | | coe+1 |

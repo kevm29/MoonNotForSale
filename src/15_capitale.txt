@@ -155,7 +155,7 @@ Tu fais tamponner la lettre de la Lune au guichet un. Madame Pruine lit la lettr
 @cap_22
 ?!from:cap_23 Tu redescends le grand escalier du Cadastre.
 ?from:cap_23 Tu remontes le grand escalier du Cadastre.
-?!comp:penelope ?pc:basile,pc:zephyrin Sur un palier, une silhouette que tu connais : Pénélope Tampon, deux tampons à la place des mains, un porte-documents doré sous le bras. Elle arrive en sens inverse. Elle s'arrête. « Oh. Vous. On m'envoie chercher l'original de l'acte de vente. Je suis désolée. C'est encore mon travail. »
+?!comp:penelope ?pc:basile Sur un palier, une silhouette que tu connais : Pénélope Tampon, deux tampons à la place des mains, un porte-documents doré sous le bras. Elle arrive en sens inverse. Elle s'arrête. « Oh. Vous. On m'envoie chercher l'original de l'acte de vente. Je suis désolée. C'est encore mon travail. »
 ?!comp:penelope ?!pc:basile ?!pc:zephyrin Sur un palier, une silhouette inattendue : une petite robote élégante, avec deux tampons à la place des mains et un chignon en ressort. Elle arrive en sens inverse, un porte-documents doré sous le bras. Elle s'arrête. « Bonjour. Je suis Pénélope Tampon. Assistante de Monsieur Platine. Je viens chercher l'original de l'acte de vente. Je suis désolée. C'est mon travail. »
 ?!comp:penelope ?pc:basile ?flag:penelope_espionne Elle baisse la voix. « Je fais semblant de le chercher. Pour lui. Je vous l'avais dit : j'apprends à mentir. Je progresse. »
 ?!comp:penelope ?pc:basile ?flag:penelope_libre ?!flag:penelope_espionne Elle baisse les yeux. « J'avais démissionné. Le formulaire n'est jamais arrivé là-haut. Alors on m'a renvoyée. »
