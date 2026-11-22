@@ -1,0 +1,203 @@
+# ================================================================
+# PRÉSIDENT GALET : corrections du 21/11 (rapport de test)
+# - l'adieu de Gontran (on ne le renvoie que si quelqu'un peut porter le galet)
+# - seconds usages des objets au sommet, promesses payées dans les fins
+# - répliques et duos entre compagnons
+# ================================================================
+
+# ---------------------------------------------------------------- L'ADIEU DE GONTRAN
+
+@gal_adieu
+!title: L'adieu de l'interprète
+?comp:gontran Le Conseil hésite. Il regarde Gontran, puis toi, puis Gontran. Personne n'ose. Gontran remercie tout le monde pour une décision qui n'a pas été prise, et te remet dans sa poche.
+?flag:p_renv_ticket ?!comp:gontran Au bout du quai, avant de monter dans le Tortillard, Gontran se retourne. Il agite son ticket zéro au-dessus de la foule. Il a l'air heureux. Il ne sait pas qu'il part pour toujours.
+?flag:p_renv_tampon ?!comp:gontran Tu le vois s'éloigner entre les tentes, très droit. Il ne se retourne pas. VU, c'est VU.
+?flag:p_renv_boussole ?!comp:gontran Au bout de cent mètres, la boussole l'a perdu. On ne le revoit pas. Quelque part, il cherche ton discours. Il le cherchera longtemps. Il n'a jamais eu l'air aussi heureux.
+?flag:p_renv_conseil ?!comp:gontran Les délégués lui serrent la main, un par un. Il s'en va en saluant, sans comprendre. Il salue encore, de loin, la tente qui se vide.
+?flag:p_renv_registre ?!comp:gontran Il sort sa carte de visite, la regarde, et la déchire : « Maître Gontran Verbiage, interprète. » Il n'était rien de tout ça. Il s'en va en sifflant faux, comme quelqu'un qu'on vient de libérer d'un poste qu'il n'avait pas.
+?flag:p_renv_quartz ?!comp:gontran Il revient une minute plus tard, sans un mot, pose sa redingote pliée à côté de toi, et repart. Il fait froid, la nuit, au Carrefour.
+?!comp:gontran Avant de partir, il a vidé sa poche gauche, celle où tu as vécu quarante ans. Tout ce qu'il y avait mis pour toi, il l'a posé contre toi, en rang, sans savoir ce que c'était.
+?!comp:gontran ?comp:bartho Bartholomé te ramasse, avec le reste, et te glisse dans la poche de son ciré. « Ça sent le poisson. Tu t'y feras. »
+?!comp:gontran ?!comp:bartho ?comp:melusine Tante Mélusine te ramasse, avec le reste, et te range dans un de ses châles. « TU SERAS AU CHAUD, LÀ. PLUS QUE DANS SA POCHE. »
+?!comp:gontran ?!comp:bartho ?!comp:melusine ?comp:penelope Pénélope te soulève entre ses deux tampons, très délicatement, et te range avec le reste dans la boîte à tampons qu'elle porte en bandoulière. « Classé. »
+?!comp:gontran ?!comp:bartho ?!comp:melusine ?!comp:penelope ?comp:quartz Dr Quartz te ramasse, avec le reste, et te range dans sa boîte à échantillons, à côté de son carnet. « Comme ça, je pourrai vous mesurer en marchant. »
+?!comp:gontran ?!comp:bartho ?!comp:melusine ?!comp:penelope ?!comp:quartz ?comp:anatole Anatole te soulève, avec mille excuses, et te range avec le reste dans la sacoche de jardinier qu'il a emportée de la Serre. Il te porte comme un arrosoir : avec soin, et un peu de travers.
+?!comp:gontran ?!comp:bartho ?!comp:melusine ?!comp:penelope ?!comp:quartz ?!comp:anatole ?comp:gaspard Sire Gaspard te pose, avec le reste, au fond du panier où il range son ballon plié. « Un passager. Je n'en avais pas eu depuis 1803. »
+~xanthin ?!comp:gontran: Xanthin, sur ton flanc, très lentement : « Maintenant... c'est moi... qui parle. Ils vont... devoir... attendre. »
+~xanthin: Xanthin soupire, pendant une minute. « Une autre fois... Les lichens... ont le temps. »
+~bartho ?!comp:gontran: Bartholomé regarde la place vide. « Il parlait trop. Mais il parlait pour toi. Ça va faire un trou. »
+~penelope ?!comp:gontran: Pénélope range dans un classeur les notes de Gontran, qui n'en avait pas. Elle l'étiquette : « Maître Verbiage, quarante ans ». Il est vide. Elle le garde.
+~melusine ?!comp:gontran: Tante Mélusine se mouche. « IL M'AGAÇAIT. IL VA ME MANQUER. C'EST TOUJOURS COMME ÇA. »
+~quartz ?!comp:gontran: Dr Quartz note : « Départ de l'interprète. Bruit ambiant : moins quarante pour cent. » Elle relit, et ajoute : « Regret : non mesurable. »
+~echo ?!comp:gontran: Écho répète, une dernière fois, la voix de Gontran : « ...le Président est serein. » Puis elle se tait. Personne ne le dira plus jamais.
+~anatole ?!comp:gontran: Anatole salue la direction où Gontran est parti. Il salue toujours ceux qui partent. Il dit que ça les aide à trouver le chemin.
+~gaspard ?!comp:gontran: Sire Gaspard ôte son chapeau, qui lui traverse la main. « Un homme qui parlait à la place d'un autre. En 1803, on appelait ça un ministre. »
+* gal_ret ?comp:gontran | Penser : « Une autre fois, alors. » | Gontran annonce au Conseil que le Président le remercie de sa confiance. Pour une fois, tu ne sais pas s'il a tort. | |
+* gal_ret ?!comp:gontran | Penser à Gontran : « Merci quand même. Pour quarante ans. » | Il est trop loin pour l'entendre. Il ne l'aurait pas entendu de près non plus. Tu le penses quand même, en entier, et tu blanchis un peu, du côté où il est parti. | | +flag:p_gontran_merci mor+1 |
+* gal_ret ?!comp:gontran | Regarder sa place vide | Elle est grande. Il prenait beaucoup de place. On s'y habituera. Pas tout de suite. | |
+
+# ---------------------------------------------------------------- PROFONDEURS : la petite Gravitaire porte le galet
+
+@+gpr_03
+?flag:p_gneiss ?comp:gontran Gontran, vexé, laisse la petite te porter. « Le Président voyage en salopette, explique-t-il aux taupes. C'est un geste social. »
+
+# ---------------------------------------------------------------- LA LUNE : promesse à Madame Basalte
+
+@+gmo_01
+?flag:p_basalte Tu penses à Madame Basalte, la liftière du Cadastre, qui n'a jamais dépassé le toit. Tu as vu le dernier étage, pour elle. Il est blanc, et très calme.
+~anatole: Anatole se pose dans la poussière. Ses ailes grises deviennent blanches. « Je suis rentré », dit-il, sans savoir pourquoi il dit ça.
+~quartz: Dr Quartz prend une pincée de poussière et la goûte. « Calcaire. Non. Basalte. Non. Lune. » Elle note : « Lune. » C'est la première fois qu'elle est sûre de quelque chose.
+~echo: Écho ouvre la bouche, et rien ne revient. Sur la Lune, il n'y a pas d'écho. Elle se tait, terrifiée, puis elle sourit : pour la première fois, ce qu'elle dit reste à elle.
+
+# ---------------------------------------------------------------- LE SOMMET PAR INTERPRÈTE : les objets et le silence de Gontran
+
+@+gfi_som
+?flag:p_gontran_tait Gontran ouvre la bouche. Puis il te regarde, et il se souvient du feu, l'autre nuit, et du silence à deux.
+~echo: Écho répète la fin des phrases de Gontran. Dans sa bouche, « le Président accepte tout » devient « ...tout. Tout. Tout. » Ça sonne comme une menace.
+~quartz: Dr Quartz, à voix basse : « Probabilité que l'interprète dise ce que vous pensez : zéro. Je l'ai mesurée pendant tout le voyage. »
+~bartho: Bartholomé grogne : « Laisse-le parler, et on perd la mer. Je le sens. »
+* gfi_r18 coe10 ?flag:p_gontran_tait ?comp:xanthin ?equ>=30 | Penser : « Elle ne veut pas partir. » Et laisser Gontran se taire, comme l'autre nuit | Gontran referme la bouche. Il pose la main sur toi, sans rien dire. Xanthin, sur ton flanc, dit les cinq mots, lentement. Le Président Dorure écoute jusqu'au bout. | Gontran se tait. Xanthin dit les cinq mots, lentement. Au troisième, le Président Dorure, poli, croit que la phrase est finie et commence à répondre. | | +flag:p_court
+* gfi_r18 ?flag:obj_lettre_vent | Penser à l'enveloppe bleue, « À la Lune, en mains propres » | Gontran la sort de sa poche pour la brandir. Puis il l'ouvre, sans savoir ce qu'il fait, et pour la première fois de sa vie, il lit au lieu de traduire. Ce sont les mots de quelqu'un qui écrit à la Lune pour lui demander de rester. Il les lit tels quels, sans en changer un seul. Pendant qu'il lit, tu blanchis tout entier. Dans le miroir, le Président Dorure ne bouge plus. | | -flag:obj_lettre_vent +flag:p_lettre_dorure |
+* gfi_r18 coe10 ?flag:obj_facette ?equ>=30 | Penser : « Elle ne veut pas partir », la facette du Dr Quartz posée contre le miroir | Gontran parle, très fort, comme toujours. Mais la facette chante plus fort que lui, à ta fréquence : une note grave, longue, triste. Dans le miroir, le Président Dorure n'écoute plus Gontran. Il écoute la note. | La facette chante, mais Gontran parle plus fort, et le Président Dorure n'entend qu'un bourdonnement sous la traduction. Il demande qu'on répète. | -flag:obj_facette +flag:p_voix_facette | -flag:obj_facette +flag:p_voix_facette +flag:p_court
+
+@+gfi_tel
+~echo: Écho, très bas, répète le dernier mot du Président Dorure : « ...écoute. » Il la regarde, surpris. Personne ne lui avait jamais répondu si vite.
+~quartz: Dr Quartz tient le miroir d'une main et son carnet de l'autre. « Délai de transmission : une minute par mot. Patience estimée du Président Dorure : quatre minutes. Il faudra faire court. »
+
+# ---------------------------------------------------------------- LA SIGNATURE : le tampon VU
+
+@+gfi_sig
+* gfi_r23 ?flag:obj_tampon_vu ?equ>=30 | Faire poser le tampon « VU » de Madame Pruine sur la signature inachevée | On appuie le vieux tampon au bas de l'acte, juste après « Basile Gru... ». VU. Krâmm regarde l'encre sécher. « Vu... inachevée. » Il ne peut plus faire comme s'il ne l'avait pas vu : c'est officiel, maintenant, qu'elle n'est pas finie. | | -flag:obj_tampon_vu |
+
+# ---------------------------------------------------------------- LA DERNIÈRE NUIT ET LE DÉPART : répliques
+
+@+gfi_01
+~anatole: Anatole tourne autour de l'enveloppe dorée de Krâmm, malgré lui. Elle brille trop. Il s'excuse auprès de l'huissier, qui note l'excuse.
+~gaspard: Sire Gaspard regarde la Lune, si basse. « En 1803, il aurait fallu deux jours de ballon. Ce soir, une heure. »
+~echo: Écho répète « transfert », tout bas. Elle n'aime pas ce mot. Elle le répète quand même, pour qu'on l'entende.
+~quartz: Dr Quartz calcule : « Navette, quarante minutes. Miroir, immédiat. » Elle hésite. « Je ne recommande rien. J'ai tort six fois sur dix, et ce soir, je ne veux pas avoir tort. »
+~ondee: Dame Ondée crachine, très doucement, sur la plaine. Elle ne veut pas qu'on la voie pleurer. Tout le monde la voit.
+~basile: Basile Grumeau regarde l'enveloppe dorée de Krâmm, puis toi. Il pense, très fort, aux trombones.
+
+@+gfi_pro
+~xanthin: Xanthin regarde le bouton rouge. « C'est... petit... pour un bouton... qui déplace... une Lune. »
+~anatole: Anatole se cogne doucement contre la baie vitrée, du côté de la Lune. Il s'excuse auprès de la vitre.
+~gaspard: Sire Gaspard traverse le bureau de marbre par distraction, et s'excuse auprès du marbre. Platine le regarde faire avec envie : il n'a jamais vu un fantôme de si près.
+~echo: Écho répète le tic-tac de la pendule du bureau. Platine regarde sa pendule, inquiet : elle a l'air d'avancer deux fois plus vite.
+~quartz: Dr Quartz regarde le bouton rouge. « Un seul bouton. Aucune sécurité. Ils construisent comme moi. »
+~ondee: Dame Ondée est restée dehors, collée à la baie vitrée. Elle n'entre pas dans les bureaux. Elle en a assez vu pour une vie de nuage.
+~basile: Basile regarde le bureau de marbre. Il en fait le tour des yeux, lentement, comme on mesure une parcelle.
+
+# ---------------------------------------------------------------- DUOS ET FRICTIONS ENTRE COMPAGNONS
+
+@+gal_vei
+~xanthin ?comp:gontran: Xanthin pousse, exprès, sur le côté où Gontran pose les doigts quand il te tient. Gontran se gratte toute la soirée. « Ça doit être l'humidité. » Xanthin ne dit rien. Il a l'air content, à la vitesse d'un lichen.
+~echo ?comp:gontran: Écho répète les fins de phrase de Gontran autour du feu : « ...le Président est serein. Serein. Serein. » À force, plus personne n'y croit. Pas même Gontran.
+~quartz ?comp:penelope: Pénélope veut tamponner les mesures du Dr Quartz. Quartz refuse : « On n'approuve pas une donnée qui a tort six fois sur dix. » Pénélope : « Alors je tamponne REFUSÉ. » Quartz réfléchit. « Ça, ce serait juste quatre fois sur dix. »
+~melusine ?comp:echo: Tante Mélusine raconte sa jeunesse, en majuscules. Écho répète, en majuscules aussi. Mélusine s'arrête, vexée : « JE N'AI PAS BESOIN D'ÉCHO, MOI ! » « ...ÉCHO, MOI ! » Elles finissent par rire en même temps, et personne ne sait laquelle a commencé.
+~anatole ?comp:gaspard: Anatole tourne autour du feu. Gaspard passe la main à travers les flammes pour les baisser, par gentillesse. Elles ne baissent pas. « Pardon. On n'éteint rien, quand on est mort. » Anatole continue de tourner, mais plus doucement.
+~bartho ?comp:anatole: Bartholomé chasse d'un revers de main la poussière grise qui tombe des ailes d'Anatole. « Tu perds tes plumes, le papillon. » « Ce sont des écailles. » « C'est pareil. Ça sèche mal. »
+~ondee ?comp:anatole: Dame Ondée retient sa pluie au-dessus d'Anatole. « Les ailes mouillées, ça ne vole pas. J'en ai mouillé beaucoup, autrefois. Je fais attention, maintenant. »
+~basile ?comp:penelope: Pénélope et Basile comparent leurs tampons. Elle a APPROUVÉ et REFUSÉ. Lui en a un seul, usé : « VU PAR LE GREFFIER ». Ils se regardent avec respect, puis avec gêne : ce sont leurs deux tampons qui ont vendu la Lune.
+~gaspard ?comp:bartho: Sire Gaspard propose à Bartholomé une place dans son ballon, « pour voir la mer d'en haut ». « Un Marégrave en l'air ? Jamais. » Gaspard sourit sous sa moustache. Il a déjà entendu « jamais » en 1803. Ça finit toujours par monter.
+
+@+gal_ret
+~melusine ?comp:quartz: Tante Mélusine tricote. Dr Quartz compte ses mailles. « Vous en avez sauté trois. » « JE N'EN SAUTE JAMAIS ! » « Trois. » Mélusine recompte. Elle en a sauté trois. Elle ne lui parle plus de la soirée.
+~basile ?flag:p_registre ?comp:gontran: Basile regarde Gontran longtemps. Puis il dit, au bout d'une heure : « Verbiage... Gontran. Jamais... nommé. » Gontran ne comprend pas. Il croit qu'on le présente, et il salue.
+
+@+gco_06
+~xanthin ?comp:bartho: Xanthin, à moitié endormi, sent la grosse main de Bartholomé posée sur ton rocher. « Il pèse... comme une marée... qui veille. » Bartholomé grogne, les yeux fermés : « La moisissure parle en dormant. »
+
+@+gal_nuit1
+~basile: Basile ne dort pas : les lichens âgés ne dorment presque plus. Il compte des trombones qu'il n'a pas, pour ne pas penser à sa signature.
+~echo: Écho répète la respiration de ceux qui dorment, très doucement, pour qu'ils ne se réveillent pas en sursaut.
+
+# ---------------------------------------------------------------- ANATOLE DANS LES RÉGIONS (il peut suivre après la Forêt)
+
+@+gco_01
+~anatole: Anatole regarde la mer retirée. « Sur les Côtes, les belles-de-nuit s'ouvrent à marée haute, d'habitude. Il n'y a plus de marée. Elles ne savent plus quand s'ouvrir. »
+
+@+gco_03
+~anatole: Anatole tourne autour de la lampe du bistrot, malgré lui. Le patron l'éteint, par gentillesse. Bartholomé lève les yeux de son verre, pour la première fois de la soirée.
+
+@+gpr_02
+~anatole: Il fait noir. Anatole vole en rond dans la cage. « Je ne sais pas voler sans Lune. Je vais me tenir à quelque chose. » Il se tient à toi.
+
+@+gpr_10
+~anatole: Anatole se pose sur l'Axe, à côté des Gravitaires. Il ne pèse rien. Il le sait. Il reste quand même, les ailes à plat, de tout son poids de papillon.
+
+@+gnu_02
+~anatole: Anatole vole entre les nuages dégonflés. « On dirait des pétales tombés. Les miens tombent comme ça, quand la Lune ne passe pas. »
+
+@+gnu_10
+~anatole: « Elle est si près que je pourrais m'y poser », murmure Anatole. Il ne bouge pas. Il a peur de ne pas savoir revenir.
+
+# ---------------------------------------------------------------- LES FINS : promesses tenues et compagnons
+
+@+end_16
+?flag:p_anselme Le soir, à Tamponville, la pendule de la salle ronde était à l'heure. Anselme l'avait remontée tous les soirs. Il t'a frotté avec son chiffon, et il a dit : « Bonsoir, Monsieur le Président. Bien voyagé ? Moi non plus. »
+?comp:anatole Anatole est rentré à sa Serre. Les belles-de-nuit se sont rouvertes, sous réserve. Il le leur a dit.
+?comp:quartz Dr Quartz cherche l'article douze, statistiquement. Elle a trouvé quarante pour cent de chances qu'il existe. C'est beaucoup, pour elle.
+
+@+end_17
+?comp:anatole Les belles-de-nuit ne s'ouvriront plus. Anatole les arrose quand même, tous les soirs, en s'excusant auprès d'elles.
+?comp:ondee Dame Ondée pleut sur la mer couchée, chaque matin, pour qu'elle ait au moins ça.
+?flag:p_neveu_digue Aux Côtes, ton neveu bouche toujours le petit trou de la digue. Il n'y a plus de mer à retenir. Il reste quand même. C'est de famille.
+?flag:p_anselme À Tamponville, Anselme remonte la pendule tous les soirs. Elle ralentit un peu plus chaque semaine. Lui aussi.
+
+@+end_18
+?flag:p_lettre_dorure Ce n'étaient pas tes mots : c'étaient ceux de la lettre bleue. Mais tu les pensais si fort, en même temps, que tu as blanchi tout entier dans le miroir. Le Président Dorure a cru que c'était toi qui écrivais. Ce n'était pas faux.
+?flag:p_voix_facette La facette violette du Dr Quartz est sous verre, au Carrefour, à côté de ton coussin. Elle vibre encore un peu, quand tu penses fort.
+?flag:p_nom_permis Sous la phrase, sur le socle, Xanthin a fait graver ton nom, comme promis : AMBROISE LENTIRIVE. Les enfants trouvent que c'est un beau nom, long, rond et lent.
+?flag:p_anselme À Tamponville, la pendule de la salle ronde était à l'heure. Anselme l'avait remontée tous les soirs. « Bonsoir, Monsieur le Président. Bien voyagé ? Moi non plus. »
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche toujours le petit trou de la digue. Il la voit tous les jours. Il a vu du pays.
+?comp:anatole Anatole est rentré à sa Serre. Les belles-de-nuit se sont ouvertes la nuit même. Il le leur avait promis.
+?comp:echo Écho passe parfois devant le socle et répète la phrase, très bas. C'est devenu un de ses mots.
+
+@+end_19
+?comp:quartz Dr Quartz a calculé que le discours finira dans six cent douze ans. Elle a tort six fois sur dix. Elle vient vérifier, tous les dimanches.
+?comp:anatole Anatole écoute le discours la nuit, pour les belles-de-nuit, qui ne s'ouvrent plus. Il leur en répète des morceaux.
+
+@+end_20
+?flag:p_nom_permis Sous l'étiquette de la vitrine, quelqu'un a ajouté au crayon : « d'Ambroise Lentirive ». C'est Xanthin qui l'a dicté. Il avait promis.
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche toujours le petit trou de la digue, et il a appris à ricocher, en pensée.
+?comp:anatole Anatole a tourné autour de la bosse dorée de Platine pendant une heure. Elle brillait trop. Il s'est excusé ensuite.
+?comp:ondee Dame Ondée a plu doucement sur le Promontoire, pour rafraîchir la bosse de Platine. Il l'a remerciée. Personne ne l'avait jamais remerciée d'avoir plu.
+
+@+end_21
+?flag:p_portrait_platine Dans sa poche de poitrine, Platine garde le portrait du peintre. Il le sort, parfois, pour comparer. Il dit que l'original pense davantage.
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche le petit trou de la digue, et il regarde la Lune revenue. Il ne sait pas que tu es plus loin qu'elle.
+?flag:p_anselme À Tamponville, Anselme remonte la pendule tous les soirs quand même. Il a promis de t'attendre. Il n'a pas dit combien de temps.
+?comp:anatole Anatole a donné une belle-de-nuit à Platine, pour ton bureau, sur Aldébaran. Elle ne s'ouvre pas : il n'y a pas de Lune là-bas. Elle attend.
+?comp:echo Écho répète parfois ton silence, dans les grottes. C'est le seul son qu'elle ait gardé de toi.
+
+@+end_22
+?flag:p_nom_permis Avant de partir avec toi, Xanthin l'a dit à Bartholomé, sur la plage : ton nom. Bartholomé l'a crié vers la Lune, de toute sa voix de marée : « AMBROISE ! » Tu l'as entendu, là-haut.
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche toujours le petit trou de la digue, et il regarde en l'air, vers toi.
+?flag:p_anselme À Tamponville, Anselme remonte la pendule tous les soirs, et il tourne ton coussin vide vers la fenêtre, côté Lune.
+?comp:anatole Les belles-de-nuit d'Anatole s'ouvrent toutes les nuits, et elles se tournent un peu vers le même endroit du ciel. Anatole dit que c'est toi.
+?comp:ondee Dame Ondée pleut sur la plage, doucement, les soirs où Bartholomé regarde la Lune, pour qu'il ne pleure pas seul.
+
+@+end_23
+?flag:p_nom_permis Xanthin a dit ton nom à la Toile, comme promis. Tous les lichens de la Terre le connaissent. Ils le répètent, lentement. Il faudra un siècle pour qu'il fasse le tour.
+?flag:p_anselme À Tamponville, la pendule était à l'heure. Anselme l'avait remontée tous les soirs. « Bonsoir, Monsieur le Président. Bien voyagé ? Moi non plus. »
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche toujours le petit trou de la digue. Il a vu du pays.
+?comp:anatole Anatole est rentré à sa Serre. Les belles-de-nuit se sont ouvertes. Il le leur a dit, et il leur a parlé du greffier qui ne finit pas son nom.
+?comp:quartz Dr Quartz a mesuré la signature inachevée tous les jours pendant un mois. Croissance : zéro. Elle n'a jamais été aussi contente d'un résultat nul.
+
+@+end_33
+?flag:p_nom_permis Sur la carte d'identité terrestre de Platine, à la ligne « Président de la Terre », il y a ton nom. Xanthin l'a dicté à Basile, lettre par lettre : Ambroise Lentirive. C'est la première fois qu'il est écrit quelque part.
+?flag:p_anselme À Tamponville, la pendule de la salle ronde était à l'heure. Anselme t'a frotté avec son chiffon, et il a enlevé la poussière de Lune, par habitude. Puis il l'a remise, avec le bout du doigt, en s'excusant.
+?flag:p_neveu_digue Aux Côtes, la mer est revenue. Ton neveu bouche toujours le petit trou de la digue. On dit qu'il a l'air d'un président, lui aussi.
+?flag:p_lettre_lue Sur la Lune, l'enveloppe bleue est restée dans la poussière, jamais ouverte. La Lune l'a lue quand même.
+?flag:p_fil_rendu Là où le fil de lumière est rentré dans la Lune, la poussière brille encore un peu, les nuits claires.
+?comp:anatole Anatole a planté une belle-de-nuit sur le toit du Promontoire. Elle s'ouvre tous les soirs. Platine vient la regarder.
+?comp:echo Écho a répété l'article premier dans tout le Promontoire pendant une semaine. Les vigiles le savent par cœur. Ils le récitent en montant la garde, pour rien.
+?comp:quartz Dr Quartz a mesuré le Promontoire saisi. « Terre : cent pour cent. » C'est la première mesure de sa vie sans marge d'erreur.
+
+@+end_34
+?flag:p_lettre_lue L'enveloppe bleue est restée à côté de toi, dans la poussière. Elle part avec la Lune. La Lune l'a lue. Elle l'emporte.
+?flag:p_neveu_digue Aux Côtes, ton neveu bouche toujours le petit trou de la digue. La mer ne remonte plus. Il garde la digue quand même, pour le jour où.
+?flag:p_anselme À Tamponville, Anselme remonte la pendule tous les soirs. Elle ralentit. Il dit qu'elle vous attend, à sa façon.
+?comp:anatole Anatole est rentré par la navette des vigiles. Les belles-de-nuit ne s'ouvrent plus. Il leur parle de toi, là-bas, au bord d'un cratère.
+?comp:quartz Dr Quartz est rentrée aussi. Elle a calculé où tu es, chaque soir, avec une erreur de six sur dix. Elle vise quand même, avec sa lunette.

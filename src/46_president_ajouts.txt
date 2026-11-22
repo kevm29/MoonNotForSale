@@ -6,7 +6,7 @@
 
 @gpa_07b
 !title: Le déjeuner présidentiel
-Midi. On t'emporte à la salle à manger du Palais : une table de quarante couverts, et une seule assiette, devant ton coussin. Madame Saupiquet, la cuisinière, une Horlogère ronde qui fait tic-tac en remuant ses casseroles, pose devant toi une soupe à l'oseille. Elle la pose tous les jours, depuis quarante ans.
+Dix heures et demie : au Palais, on sert le Président avant tout le monde, et avant l'heure. On t'emporte à la salle à manger : une table de quarante couverts, et une seule assiette, devant ton coussin. Madame Saupiquet, la cuisinière, une Horlogère ronde qui fait tic-tac en remuant ses casseroles, pose devant toi une soupe à l'oseille. Elle la pose tous les jours, depuis quarante ans.
 Tu ne manges pas. Tu n'as jamais mangé. Gontran mange à ta place. Il dit chaque fois : « Le Président se régale. »
 Madame Saupiquet le regarde manger, les mains sur le tablier. Elle ne l'a jamais cru. Elle continue de cuisiner pour toi quand même. « On ne sait jamais », dit-elle à ses casseroles. « Un jour, il aura faim. »
 * gpa_08 ?comp:gontran | Penser : « Elle cuisine pour moi depuis quarante ans. Je ne l'ai jamais remerciée. » | Gontran traduit, la bouche pleine : « Le Président trouve la soupe trop salée ! » Madame Saupiquet ne dit rien. Elle reprend l'assiette. Le lendemain, elle mettra moins de sel. Elle met moins de sel tous les ans. La soupe n'a plus de goût depuis 1990. | |
@@ -17,7 +17,7 @@ Madame Saupiquet le regarde manger, les mains sur le tablier. Elle ne l'a jamais
 !title: Le Cantonnier des Lampadaires
 En sortant du Bureau des Signatures, on croise dans l'escalier un vieux Cantonnier, un Gravitaire voûté en uniforme bleu, avec une perche à allumer les lampadaires sur l'épaule. Il allume les lampadaires de Tamponville depuis trois cents ans. Il connaît chacun par son numéro.
 Il a entendu le mot, par la porte. « Lampadaire céleste numéro un ? » Il se gratte le casque. « Il n'y a pas de lampadaire céleste, Maître Verbiage. Les miens s'arrêtent au numéro quatre mille douze, devant la gare. Au-dessus, c'est la Lune. Ça ne se renouvelle pas, la Lune. Ça ne s'éteint pas non plus. Enfin. Ça ne s'éteignait pas. »
-?flag:p_annonce Il voit dépasser de sous ton coussin l'annonce découpée par Anselme. « Échange lampadaire céleste contre rien. » Il la lit deux fois. Il pâlit, ce qui chez un Gravitaire prend une bonne minute.
+?flag:p_annonce Il sort de sa poche la Gazette du matin, pliée à la page des petites annonces. « Échange lampadaire céleste contre rien. » Il la relit deux fois. Il pâlit, ce qui chez un Gravitaire prend une bonne minute.
 ~gontran: Gontran tapote l'épaule du Cantonnier. « Une formalité, mon brave. Une formalité. »
 * gpa_09 coe9 | Penser au Cantonnier : « Vous avez raison. Ce n'est pas un lampadaire. » | Tu blanchis, du côté de l'escalier. Le Cantonnier le voit, dans la pénombre : il a l'œil, pour les lumières qui s'allument. Il hoche la tête, lentement. « Vous aussi, vous trouvez que ça ne va pas. » Il te tend sa perche, pour que tu la touches. C'est sa façon de saluer. « Si un jour vous avez besoin de quelqu'un qui connaît les lumières, Monsieur le Président, c'est moi. » | Le Cantonnier ne voit rien. Il remonte l'escalier en grommelant des numéros. « Quatre mille dix, quatre mille onze, quatre mille douze. Et puis rien. Et puis la Lune. » | +flag:p_cantonnier |
 * gpa_09 ?comp:gontran | Penser : « Gontran, écoutez-le. » | Gontran traduit : « Le Président vous décore pour trois cents ans de service ! » Il épingle sur l'uniforme du Cantonnier une médaille qu'il sort de sa poche. C'est un bouchon de bouteille. Le Cantonnier le garde. Il n'a jamais été décoré. Il ne comprend toujours pas pour le lampadaire. | |
@@ -109,7 +109,7 @@ Le feu baisse. On s'endort, un par un, autour de toi. Ceux qui restent éveillé
 
 @gal_nuit2
 !title: Avant l'aube
-Il reste quelques heures avant que les moteurs du Promontoire démarrent. Ils démarreront tout seuls, à l'aube, comme prévu. La Lune partira. Tout le monde le sait. Personne ne le dit.
+Il reste quelques heures avant que les moteurs du vaisseau doré, celui qui tire la chaîne, démarrent. Ils démarreront tout seuls, à l'aube, comme prévu. La Lune partira. Tout le monde le sait. Personne ne le dit.
 Au-dessus du Carrefour, la Lune est si basse qu'on entend presque la chaîne d'or grincer.
 ?flag:obj_fil_lune Dans la poche, la bobine de fil de lumière est encore tiède. Elle tire un peu, vers le haut, comme un cerf-volant.
 ?flag:obj_lettre_vent Dans la poche, l'enveloppe bleue. « À la Lune, en mains propres. »
@@ -130,7 +130,7 @@ Ce matin, il y a une lettre d'enfant, au crayon, avec des fautes. « Monsieur le
 Mademoiselle Ressort se tait. Elle regarde Gontran. Gontran cherche dans ses trois réponses. Aucune ne va.
 ~gontran: Gontran se racle la gorge trois fois. Il n'a jamais reçu de question à laquelle il ne pouvait pas répondre.
 * gpa_05 ?comp:gontran | Penser : « Dites-lui que oui. Que j'ai peur aussi. » | Gontran dicte : « Le Président est serein. » Mademoiselle Ressort écrit. Puis, quand Gontran a le dos tourné, elle ajoute au crayon, en bas de la lettre, très petit : « Il a pâli d'un côté en lisant la vôtre. Je crois qu'il a peur aussi. » Elle ne sait pas pourquoi elle l'a écrit. | | +flag:p_nenuphar |
-* gpa_05 coe9 | Penser à l'enfant, très fort, son nom à toi en entier | Tu penses ton nom. Personne ne l'entend. Mais Mademoiselle Ressort, en pliant la lettre, voit que tu as blanchi, d'un côté, comme une page qu'on vient d'écrire. Elle garde la lettre de Nénuphar. Elle ne la classe pas. Elle la pose sous ton coussin, à côté de l'annonce. | Tu penses ton nom. Personne ne l'entend. La lettre de Nénuphar part aux archives, dans le classeur « Divers ». | +flag:p_nenuphar +flag:p_nom_pense mor+1 |
+* gpa_05 coe9 | Penser à l'enfant, très fort, son nom à toi en entier | Tu penses ton nom. Personne ne l'entend. Mais Mademoiselle Ressort, en pliant la lettre, voit que tu as blanchi, d'un côté, comme une page qu'on vient d'écrire. Elle garde la lettre de Nénuphar. Elle ne la classe pas. Elle la pose sous ton coussin. | Tu penses ton nom. Personne ne l'entend. La lettre de Nénuphar part aux archives, dans le classeur « Divers ». | +flag:p_nenuphar +flag:p_nom_pense mor+1 |
 * gpa_05 | Laisser Gontran choisir une réponse | « Le Président vous remercie. » La lettre part. Quelque part, une enfant de six ans saura que le Président la remercie. Elle ne saura pas de quoi. | |
 
 @gtr_02b
@@ -144,9 +144,9 @@ Il te voit. Il te regarde longtemps. Il a l'air de quelqu'un qui reconnaît une 
 
 @gfo_02b
 !title: Le peintre
-Au bord du cercle de pierres blanches, le peintre de passage a fini son tableau. Il le retourne vers toi. C'est un portrait de Gontran, de dos, et à côté, un petit caillou gris sur une grande pierre blanche. Le caillou est très réussi. On voit qu'il pense.
+Au bord du cercle de pierres blanches, le peintre de passage a fini son tableau. Il le retourne vers toi. C'est un portrait de foule, de dos, et au milieu, un petit caillou gris sur une grande pierre blanche. Le caillou est très réussi. On voit qu'il pense.
 « Je peins ce qui ne bouge pas », dit le peintre, un vieux Lunatique tout pâle, avec un béret. « Les gens bougent, alors je les peins de dos, ça va plus vite. Vous, je vous ai eu de face. C'est rare. »
-~gontran: Gontran se reconnaît de dos. « Mon meilleur profil », dit-il, sincèrement.
+~gontran: Gontran se reconnaît dans la foule, de dos. « Mon meilleur profil », dit-il, sincèrement.
 ~melusine: Tante Mélusine regarde le tableau. « LE CAILLOU EST TRISTE. ON LE VOIT. MOI JE LE VOIS. »
 * gfo_03 coe8 | Penser au peintre : « Gardez-le. C'est le seul portrait où je pense. » | Le peintre te regarde. Il ne t'a pas entendu. Mais il voit le caillou pâlir, en vrai, exactement comme sur son tableau. Il en a les larmes aux yeux. « Prenez-le. Il est à vous. Je n'avais jamais peint quelque chose de vrai. » Il roule la toile, petite comme une carte, et la glisse dans la poche, contre toi. | Le peintre range son tableau dans sa sacoche, avec les autres dos. Il te salue de son béret. | +flag:obj_portrait mor+1 |
 * gfo_03 | Laisser le peintre ranger son tableau | Il le range avec ses autres tableaux : quatre cents dos et un caillou de face. | |
@@ -174,11 +174,11 @@ Elle la braque sur le Promontoire, au bout de la chaîne d'or, et elle te la col
 
 @gpa_14b
 !title: L'ascenseur du Cadastre
-Pour descendre aux archives, il faut prendre l'ascenseur du Cadastre : une cage de fer forgé, et dedans, sur un tabouret, une liftière Gravitaire, Madame Basalte, qui monte et descend depuis deux cents ans. Elle connaît les quarante étages par cœur, du sous-sol moins quatre au toit. Elle n'a jamais dépassé le toit.
-« Archives ? Sous-sol moins deux. » Elle tire la manette. Pendant la descente, elle regarde vers le haut, par la grille, comme toujours. « Vous savez, Monsieur le Président, j'ai toujours voulu monter plus haut que le toit. Jusqu'à la Lune. Une fois. Pour voir le dernier étage. » Elle rit. « Il paraît qu'on l'a vendue. Je ne verrai jamais le dernier étage. »
+Pour descendre aux archives, il faut prendre l'ascenseur du Cadastre : une cage de fer forgé, et dedans, sur un tabouret, une liftière Gravitaire, Madame Basalte, qui monte et descend depuis deux cents ans. Elle connaît les cinquante étages par cœur, du sous-sol moins onze au toit. Elle n'a jamais dépassé le toit.
+« Archives ? Sous-sol moins onze. » Elle tire la manette. Pendant la descente, elle regarde vers le haut, par la grille, comme toujours. « Vous savez, Monsieur le Président, j'ai toujours voulu monter plus haut que le toit. Jusqu'à la Lune. Une fois. Pour voir le dernier étage. » Elle rit. « Il paraît qu'on l'a vendue. Je ne verrai jamais le dernier étage. »
 ~gontran: Gontran consulte sa montre. « Le Président est attendu, Madame. Plus vite, s'il vous plaît. » L'ascenseur ne va pas plus vite. Il n'est jamais allé plus vite.
-* gpa_15 coe9 | Penser à Madame Basalte : « Si je le vois, le dernier étage, je penserai à vous. » | Tu blanchis, côté grille, du côté tourné vers le haut. Madame Basalte le voit, parce qu'elle regarde toujours vers le haut. Elle se tait jusqu'au sous-sol. Puis, en ouvrant la grille : « Merci, Monsieur le Président. Je ne sais pas de quoi. Mais merci. » | Madame Basalte ne voit rien : elle regarde trop haut. Elle ouvre la grille au sous-sol moins deux, comme tous les jours. | +flag:p_basalte mor+1 |
-* gpa_15 | Regarder les étages défiler | Sous-sol moins un, sous-sol moins deux. Des couloirs de classeurs, à perte de vue. La Terre entière est rangée là, en papier. | |
+* gpa_15 coe9 | Penser à Madame Basalte : « Si je le vois, le dernier étage, je penserai à vous. » | Tu blanchis, côté grille, du côté tourné vers le haut. Madame Basalte le voit, parce qu'elle regarde toujours vers le haut. Elle se tait jusqu'au sous-sol. Puis, en ouvrant la grille : « Merci, Monsieur le Président. Je ne sais pas de quoi. Mais merci. » | Madame Basalte ne voit rien : elle regarde trop haut. Elle ouvre la grille au sous-sol moins onze, comme tous les jours. | +flag:p_basalte mor+1 |
+* gpa_15 | Regarder les étages défiler | Sous-sol moins un, moins deux, moins trois, jusqu'à moins onze. Des couloirs de classeurs, à perte de vue. La Terre entière est rangée là, en papier. | |
 
 @gtr_01b
 !title: Le contrôleur
