@@ -114,7 +114,8 @@ La cabine passe la moitié du trajet. Par le hublot, tu vois la Terre en entier 
 @asc_17
 La cabine arrive sur le quai de livraison du chantier lunaire. Des ouvriers déchargent des caisses de marbre, de verre, de bidets. Un contremaître en casque doré, Bobinot, crie des ordres : « Plus vite ! Le patron arrive demain pour l'inspection ! »
 * asc_22 rus12 | Sortir déguisé·e en ouvrier | Tu prends un casque doré sur une caisse. Tu le mets. Personne ne te regarde. Tu es invisible : tu as un casque. | Le casque est trop grand. Il te tombe sur les yeux, puis par terre, avec un bruit de gong. Tout le quai se retourne. Tu sors tête nue, très vite, en faisant semblant de rien. | rus+1 +flag:deguise +flag:obj_casque |
-* asc_22 pan11 | Sortir en courant | Tu cours. Bobinot crie : « Hé ! Toi ! » Tu cours plus vite. Tu es sur la Lune. | | equ+1 comp:remontoir=>+flag:remontoir_cabine comp:remontoir=>-comp:remontoir |
+* asc_22 pan11 ?pc:basile | Sortir, à ta vitesse | Tu sors. Bobinot crie : « Hé ! Toi ! » Puis il attend poliment que tu aies fini de sortir. Ça prend un moment. Tu es sur la Lune. | | equ+1 comp:remontoir=>+flag:remontoir_cabine comp:remontoir=>-comp:remontoir |
+* asc_22 pan11 ?!pc:basile | Sortir en courant | Tu cours. Bobinot crie : « Hé ! Toi ! » Tu cours plus vite. Tu es sur la Lune. | | equ+1 comp:remontoir=>+flag:remontoir_cabine comp:remontoir=>-comp:remontoir |
 
 @asc_18
 ?pc:pistil Tu fermes les yeux. Tu n'as pas besoin de dormir : tu rentres dans le rêve comme on rentre chez soi, et tu montes. Tu tombes vers le haut, à travers les nuages de rêve, à travers les étoiles brodées. Le rêve te porte vers la Lune.

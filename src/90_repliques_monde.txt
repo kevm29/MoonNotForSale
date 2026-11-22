@@ -85,7 +85,7 @@
 ~remontoir: « La marée retarde de six heures. Même elle, elle ralentit. Je me sens moins seul. »
 
 @+for_01
-~melusine ?pc:basile: « UN LICHEN ! DANS LA FORÊT ! TU ES CHEZ TOI, MON PETIT ! » Elle ne connaît pas encore Basile, mais elle l'embrasse quand même.
+~melusine ?pc:basile: « UN LICHEN ! DANS LA FORÊT ! TU ES CHEZ TOI, MON PETIT ! » Elle ne te connaît pas encore, mais elle t'embrasse quand même.
 ~bartho: « Des arbres. Ça ne bouge pas, ça ne parle pas, ça ne boit pas. Je les trouve sympathiques. »
 ~penelope: « La Compagnie a mesuré cette forêt pour en faire des parquets. Je l'ai tamponné moi-même. » Elle regarde ses tampons sans rien dire.
 ~quartz: « Une forêt qui a une administration ! Je veux voir leurs archives. Elles doivent être en écorce. »

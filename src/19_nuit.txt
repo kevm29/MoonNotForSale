@@ -12,7 +12,8 @@ On partira à l'aube. Personne ne sait encore comment, mais tout le monde sait q
 Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les mers du monde se soulèvent vers elle. Une marée immense, la plus haute depuis le début des temps, monte doucement jusqu'au bord de la plaine. On l'entend respirer dans le noir.
 ?comp:coquille Madame Coquille s'arrête net. Elle lève la tête vers la marée. Elle ne bouge plus. Puis elle dit, très calmement : « Ah. C'est maintenant. »
 ?comp:rocambole ?comp:pardon ?!comp:coquille Rocambole a disparu de ton feu de camp. Pardon aussi. Tu entends, derrière une tente, une voix qui marchande et une petite voix qui dit « pardon ».
-* nui_10 ?comp:coquille | Courir auprès de Madame Coquille | Tu cours. Tout le camp court. Une naissance, cette nuit, c'est la meilleure nouvelle qu'on puisse imaginer, et la plus inquiétante. |  |
+* nui_10 ?comp:coquille ?pc:basile | Aller auprès de Madame Coquille, à ta vitesse | Tout le camp court. Toi, tu avances. Tu arrives après tout le monde, mais Madame Coquille t'attendait : « Enfin quelqu'un qui ne court pas. Reste près de moi. Tu as le bon rythme. » |  |
+* nui_10 ?comp:coquille ?!pc:basile | Courir auprès de Madame Coquille | Tu cours. Tout le camp court. Une naissance, cette nuit, c'est la meilleure nouvelle qu'on puisse imaginer, et la plus inquiétante. |  |
 * nui_20 ?!comp:coquille ?comp:rocambole ?comp:pardon | Aller voir derrière la tente | Tu fais le tour de la tente, sans bruit. Ce que tu vois ne te plaît pas. |  |
 * nui_02 ?!comp:coquille ?!comp:rocambole | T'installer près du feu | Tu t'assois. Le feu crépite. La nuit peut commencer. |  |
 * nui_02 ?!comp:coquille ?comp:rocambole ?!comp:pardon | T'installer près du feu | Tu t'assois. Le feu crépite. La nuit peut commencer. |  |
