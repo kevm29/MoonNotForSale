@@ -1,0 +1,2 @@
+docs/*.html -diff
+vendor_cytoscape.min.js -diff
