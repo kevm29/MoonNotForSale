@@ -9,7 +9,7 @@ STATS = ("pan", "rus", "coe")
 XP_STEP, STAT_MAX, COMP_BONUS, COMP_MAX = 3, 5, 1, 2
 HEAVY = 6
 # difficulté ajoutée selon l'avancée : le monde se dérègle, tout devient plus dur
-DIFF_OFFSET = {"ond": 1, "bas": 1, "pis": 1, "bri": 1, "zep": 1, "gri": 1, "pel": 1, "lyc": 1, "ana": 1, "hub": 1, "foi": 2, "nua": 2, "com": 2, "nui": 3, "cot": 2, "for": 2, "son": 2, "pro": 2, "cap": 2, "asc": 3, "cha": 4, "neg": 4, "fin": 3, "gal": 0, "gco": 1, "gfo": 1, "gfi": 2, "pla": 0, "plt": 1, "plf": 2, "plu": 0, "ply": 0, "pha": 1, "pne": 1, "pnc": 2, "pno": 2, "pcm": 1, "pso": 1, "pct": 1, "pcr": 2, "pnu": 2, "pch": 3, "pmo": 2, "gpa": 0, "gtr": 0, "gpr": 1, "gnu": 1, "gmo": 2}
+DIFF_OFFSET = {"ond": 1, "bas": 1, "pis": 1, "bri": 1, "zep": 1, "gri": 1, "pel": 1, "lyc": 1, "ana": 1, "hub": 1, "foi": 2, "nua": 2, "com": 2, "nui": 3, "cot": 2, "for": 2, "son": 2, "pro": 2, "cap": 2, "asc": 3, "cha": 4, "neg": 4, "fin": 3, "gal": 0, "gco": 1, "gfo": 1, "gfi": 2, "pla": 1, "plt": 2, "plf": 3, "plu": 2, "ply": 2, "pha": 3, "pne": 1, "pnc": 2, "pno": 2, "pcm": 3, "pso": 3, "pct": 3, "pcr": 3, "pnu": 4, "pch": 4, "pmo": 3, "gpa": 0, "gtr": 0, "gpr": 1, "gnu": 1, "gmo": 2}
 DRIFT_PREFIXES = ("pcm_", "pha_", "pnc_", "pno_", "pso_", "pct_", "pcr_", "pnu_", "pch_", "pmo_", "plt_", "plf_", "gco_", "gfo_", "gpr_", "gnu_", "gfi_", "gmo_", "nua_", "com_", "cot_", "for_", "son_", "pro_", "cap_", "asc_", "cha_", "neg_", "fin_")
 
 def parse_conds(tokens):
