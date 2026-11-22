@@ -68,7 +68,7 @@
 @cot_43
 !title: Le phare de Grève-Molle
 !fx: +flag:phare_revu
-Ton phare. Éteint. La porte bat, la rambarde où tu t'agrippais pend de travers, et l'escalier sent le sel froid. Personne n'a allumé la lanterne depuis ton départ.
+Ton phare. Éteint. La porte bat, la rambarde pend de travers, et l'escalier sent le sel froid. Personne n'a allumé la lanterne depuis ton départ.
 ?flag:enveloppes_vides Au pied des marches, tes bouteilles, alignées. Quelqu'un les a rangées et a remis chaque enveloppe vide dans sa bouteille, avec soin.
 ?comp:bartho Bartholomé s'arrête sur le seuil. « Je t'attends dehors. Je ne rentre plus dans les phares. » Il s'assoit sur une borne et se met à râler contre la jetée, tout bas, pour se tenir compagnie.
 * cot_44 pan11 | Monter rallumer la lanterne | Deux cents marches. Tu les montes en comptant, comme avant. En haut, la mèche est sèche, mais elle prend. | Tu montes trop vite et tu glisses sur la marche quarante, celle qui a toujours été mouillée. Tu finis la montée à genoux. | pan+1 |
@@ -104,7 +104,7 @@ En bas de la jetée, Madame Lagune, ta voisine, t'attend en pantoufles, dans une
 La Lune serre la boîte contre elle. « Ondine. » Elle dit ton nom lentement, comme un mot qu'elle aurait souvent lu et jamais prononcé. « Tu es plus grande que je croyais. Et plus mouillée. »
 Elle sort une lettre au hasard. Elle la connaît, tu le vois à ses doigts : elle sait où sont les plis.
 « Je ne t'ai jamais répondu. Je ne savais pas comment on fait. Personne ne m'a jamais appris à écrire. On m'a seulement appris à briller. »
-* son_o2 coe11 | Lui lire une de tes lettres à voix haute | Tu lis : « Ma très chère, ce soir encore, la mer a fait semblant de ne pas t'attendre. » La Lune ferme les yeux. Par les mille fenêtres, très loin, la mer monte d'un centimètre. | Ta voix se casse sur « Ma très chère », comme la première nuit, sur le phare. La Lune finit la phrase à ta place. Elle la connaît par cœur. | mor+2 coe+1 | mor+1
+* son_o2 coe11 | Lui lire une de tes lettres à voix haute | Tu lis : « Ma très chère, ce soir encore, la mer a fait semblant de ne pas t'attendre. » La Lune ferme les yeux. Par les mille fenêtres, très loin, la mer monte d'un centimètre. | Ta voix se casse sur « Ma très chère ». La Lune finit la phrase à ta place. Elle la connaît par cœur. | mor+2 coe+1 | mor+1
 * son_o2 rus11 | Lui demander pourquoi elle les a gardées | « Parce qu'elles étaient à moi. C'est la seule chose qui ait jamais été à moi. » Elle rit, tout bas. « Le promoteur dit que je suis à lui. Mais tes lettres, il ne les a pas eues. » | « Je ne sais pas », dit-elle. Puis, après un long silence : « Si. Je sais. Mais c'est gênant. » | rus+1 |
 
 @son_o2
@@ -158,7 +158,7 @@ La Lune range la lettre dans la boîte, au bon endroit, entre l'hiver d'il y a d
 ?pc:ondine La mer monte un peu, la mer descend un peu. Toi aussi : deux mètres cinq, un mètre quatre-vingt-dix-huit. Tu joins chaque soir une lettre au dossier, en pièce à conviction. Le dossier fait maintenant onze mille pages. Le tribunal les lira. Il a quatre cents ans pour ça.
 
 @+end_11
-?pc:ondine Tes marées sont de travers, elles aussi. Tu mesures deux mètres douze à gauche et un mètre soixante à droite, pour toujours, comme la première nuit. Tu écris penchée. La Lune lit penchée. Vous vous comprenez.
+?pc:ondine Tes marées sont de travers, elles aussi. Tu mesures deux mètres douze à gauche et un mètre soixante à droite, pour toujours, comme une phrase penchée. Tu écris penchée. La Lune lit penchée. Vous vous comprenez.
 
 @+end_14
 ?pc:ondine Le soir, Écho vient s'asseoir au bord de ton phare. Tu lui lis tes lettres. Elle n'en répète aucune. Elle dit seulement, à la fin : « Reçu. »
@@ -245,7 +245,7 @@ La Lune range la lettre dans la boîte, au bon endroit, entre l'hiver d'il y a d
 
 @+cot_20
 ~pardon ?comp:penelope: Pardon se cache derrière Pénélope en voyant Krâmm. « Pardon. C'est un collègue. Il compte, moi je mesure. On ne s'est jamais aimés. » Pénélope : « Moi, je lui envoie ses ordres de mission. Il ne m'a jamais dit merci. »
-~bartho ?pc:ondine: Bartholomé serre les poings. « L'Huissier. Il t'a mesurée devant tout le village, la première nuit. Je l'ai vu par la fenêtre du bistrot. Je n'ai rien dit. » Il ne dit rien non plus maintenant. Mais il se met entre toi et lui.
+~bartho ?pc:ondine: Bartholomé serre les poings. « L'Huissier. C'est lui qui est venu inventorier le village, la première nuit. Je l'ai regardé faire par la fenêtre du bistrot. Je n'ai rien dit. » Il ne dit rien non plus maintenant. Mais il se met entre toi et lui.
 ~bartho: Bartholomé regarde Krâmm compter les vagues. « Un classeur qui compte la mer. On aura tout vu. » Puis, plus bas : « Il a l'air aussi fatigué que moi. »
 ~penelope: Pénélope reconnaît Krâmm. Ses tampons tremblent. « Matricule 7. Huissier. Il a demandé un congé, l'an dernier. Je l'ai tamponné REFUSÉ. » Elle regarde sa main droite, longtemps.
 ~pardon: Pardon se fait tout petit. « Pardon. C'est quelqu'un de la Compagnie. S'il me voit, il m'inventorie. » Il se cache derrière ta jambe.
