@@ -1,0 +1,231 @@
+# ================================================================
+# CORRECTIONS DU 21/11 — COLONELLE BRISEFER
+# Fin « La Terre qui marche » accessible (Côtes puis Profondeurs),
+# Brisefer dans les régions communes, et répliques / duos des Profondeurs
+# pour tous les compagnons (région confiée au thread Brisefer).
+# Ordre : pour un même compagnon, la réplique la plus précise vient d'abord.
+# ================================================================
+
+# ---------------------------------------------------------------- CARREFOUR : la mer d'abord
+@+hub_05
+?pc:brisefer ?flag:idee_pousser Ton doigt de pierre glisse sur la carte jusqu'aux Côtes. La Faille l'a dit : une planète qui bouge, ça fait des vagues. Avant de rassembler les Gravitaires, il faudra prévenir la mer.
+
+# ---------------------------------------------------------------- CÔTES : parler à la mer
+@+cot_01
+?pc:brisefer Tu n'avais jamais vu la mer. Trois mille ans sous elle, et jamais vue. Tu t'attendais à quelque chose de plus lourd. Elle bouge tout le temps. Ça te donne envie de lui donner un ordre.
+
+@+cot_20
+* cot_25 ?pc:brisefer ?!flag:mer_parle | Descendre au bord de l'eau, et parler à la mer | Tu laisses l'huissier à ses vagues. Tu descends sur le sable, qui s'enfonce sous tes pas, et tu t'accroupis devant la mer, comme devant une recrue qui a peur. | | |
+
+@+cot_25
+?pc:brisefer ?flag:idee_pousser Tu repenses à la Faille : « Il faut prévenir les mers. » La voilà, la mer. Elle t'écoute, ce qui est déjà plus que les Gravitaires.
+
+@+cot_28
+?pc:brisefer Tu sais, toi, que la Terre peut bouger. Tu l'as tenue trois mille ans pour qu'elle ne bouge pas. Si elle doit marcher un jour, la mer doit être prête.
+
+@+cot_30
+?pc:brisefer Tu n'as jamais fait de promesse à une mer. Tu en as fait à des Gravitaires. Les Gravitaires, au moins, ne débordent pas.
+
+# ---------------------------------------------------------------- AUTRES RÉGIONS : onze tonnes et une colonelle
+@+cap_01
+?pc:brisefer Tes pas font trembler les classeurs. Une tour de dossiers frémit à ton passage, puis se rassure. Ici, tout est en papier. Tu marches au milieu de la rue, pour ne rien écraser.
+
+@+son_01
+?pc:brisefer La Somnambule regarde tes onze tonnes, puis le lit. Elle fait apporter trois lits, côte à côte. Tu n'as pas rêvé depuis des siècles : sur l'Axe, on ne dort que d'un œil.
+
+@+com_01
+?pc:brisefer Quand tu montes sur le dos de la comète, elle gémit dans son sommeil, et les cordages se tendent. Un marchand d'étoiles filantes te demande, très poliment, de rester au milieu.
+
+@+foi_01
+?pc:brisefer Les grillons de l'orchestre ratent une mesure quand tu passes l'arche. Tu n'es pas venue danser. Tu es venue recruter. C'est la même chose, avec moins de musique.
+
+# ---------------------------------------------------------------- MONTÉE : le ballon de Gaspard, version granit
+@+asc_01
+* asc_06 ?pc:brisefer ?flag:obj_ballon | Attacher le ballon de Gaspard à ta cuirasse, et te faire lancer par les Gravitaires | Un panier à linge ne te porterait pas. Tu noues le ballon de 1803 dans ton dos, bien plié, et tu marches vers la catapulte. | | -flag:obj_ballon +flag:ballon_brisefer |
+
+@+asc_06
+?pc:brisefer ?flag:ballon_brisefer Le ballon de soie est plié dans ton dos. Il ne te soulèvera jamais : tu pèses onze tonnes. Mais là-haut, il freinera ta chute.
+
+@+asc_09
+?flag:ballon_brisefer Juste avant la Lune, le ballon de 1803 s'ouvre dans ton dos, d'un coup, comme une fleur grise. Il ne te porte pas, mais il te ralentit. Tu te poses presque doucement, et la soie se couche sur la poussière à côté de toi.
+~gaspard ?flag:ballon_brisefer: « Il a porté une colonelle de granit. Je ne l'aurais jamais cru capable de ça. Moi non plus, d'ailleurs. »
+
+# ================================================================ PROFONDEURS
+@+pro_01
+?comp:ondee Dame Ondée refuse de descendre. Elle reste au-dessus du Puits, petite et grise, et promet d'attendre.
+?pc:brisefer ?flag:casque_galene Elle regarde ton casque, celui que tu as prêté à Galène, et qu'il t'a rendu. « Le gamin parle de vous tous les jours, Colonelle. »
+* pro_02 ?pc:brisefer | Prendre le tunnel des Gravitaires, le tien, celui qui descend tout droit | Tu passes par le tunnel de service, trop étroit pour tout le monde sauf pour toi. Tu le connais par cœur. Tu le descends les yeux fermés, pour voir. | | |
+
+@+pro_02
+~zouzou ?pc:brisefer: « Colonelle, tu es lourde même quand tu marches. Tout le Puits tremble. » « Le Puits a l'habitude. » « Moi pas. »
+~echo ?flag:echo_sons: Écho répète, au fond du Puits, le chant de l'oiseau de la surface. Les enfants Gravitaires lèvent la tête : ils n'ont jamais entendu d'oiseau.
+~echo: « ... un par un. Un par un. » Les enfants rient, et se mettent à compter les cailloux avec elle.
+~fernand ?comp:melusine: Fernand s'allume pour éclairer les enfants. Tante Mélusine sanglote au-dessus d'eux. « Moins fort, ils remettent des cailloux, pas des tympans. » « JE PLEURE TOUT BAS ! »
+~melusine ?!comp:fernand: « DES BÉBÉS DE PIERRE ! QUI RÉPARENT ! JE VAIS PLEURER SUR EUX ! » Elle pleure à côté, pour ne pas mouiller les cailloux.
+~coquille: « Ils remettent les cailloux un par un. Je respecte beaucoup cette vitesse. »
+~remontoir: « Des enfants qui réparent ce qu'ils n'ont pas cassé. C'est tout mon métier, ça. »
+~plumard: « Garde à vous, les petits ! » Les enfants Gravitaires se mettent au garde-à-vous si lentement qu'il a le temps de s'excuser.
+
+@+pro_03
+?pc:brisefer ?flag:gravitaires_suivent Dans la file, tu reconnais des visages de la montée. Ils sont redescendus. « On l'a vue, la Lune, Colonelle. Maintenant, on sait ce qu'on retient. »
+~gaspard: « Ils portent leurs maisons sur le dos. Moi, je n'ai jamais eu que mon ballon. »
+~ysaline: « Les vieux, les jeunes, les malades, tous sur l'Axe. Et qui garde les petits ? » Elle prend des notes pour une motion.
+~pardon: « La Compagnie appelle ça un mouvement de population. Moi, j'appelle ça des gens. Pardon. »
+~bartho: « Personne ne parle. Ça me plaît. Pour une fois, je peux râler en silence. »
+
+@+pro_04
+?pc:brisefer Elle lève les yeux sur ta cuirasse, puis sur ton visage, et ouvre la bouche en grand. « Tu es la Colonelle ! Papa dit que tu ne souris jamais. » Tu ne souris pas. Elle a l'air enchantée d'avoir raison.
+~zouzou ?comp:vesperine: « Cent ans, et elle tient encore la main de son père ? À cent ans, moi, j'avais déjà fugué trois fois. » Vespérine, du fond de ton ombre : « On ne s'en vante pas devant une enfant, petite traînée. » Zouzou lâche des étincelles vexées.
+~zouzou: « Cent ans, et elle attend son père. » Zouzou fait semblant de regarder ailleurs. Elle n'a pas revu le sien depuis quatorze mille ans.
+~vesperine ?!comp:zouzou: Vespérine sort de ton ombre et ajuste le bonnet trop grand de la petite. « Voilà. On ne s'inquiète pas avec un bonnet de travers. »
+~coquille: Madame Coquille regarde la petite longtemps. « Moi aussi, j'attends quelqu'un. Le tien reviendra avant le mien. »
+~brisefer: Brisefer pose un genou à terre pour être à la hauteur de la petite. Ça fait un petit séisme. La petite applaudit.
+
+@+pro_05
+~brisefer: La Colonelle s'arrête net devant l'Axe. « Trois mille ans, assise là. » Elle ne dit rien d'autre. Ses poings sont serrés.
+~echo: Écho répète le gémissement de l'Axe, tout bas, en le berçant, comme une chanson qu'on chante à quelqu'un qui a peur.
+~quartz ?!flag:quartz_renvoyee: « Fer et nickel. Des milliers de kilomètres. Je n'avais jamais vu ses pieds. Il n'en a pas, d'ailleurs. Je le note. »
+~fulgence: Fulgence, en Gravitaire, va s'asseoir avec les autres pour peser. Il pèse le poids d'une écharpe. Un vieux Gravitaire le pousse gentiment du coude : « Grrm. Merci quand même. »
+~meduses: « NOUS NE PESONS RIEN. NOUS FLOTTONS. NOUS SOMMES DÉSOLÉES POUR L'AXE. NOUS CHANTONS POUR LUI. » L'Axe gémit un peu plus fort.
+~taupinel: « Des milliers de gens assis sous nos pieds, et pas une ligne dans les journaux d'en haut. Voilà mon scandale. Je le mets en une. »
+~xanthin: Xanthin pose la main sur l'Axe. « Il ne pense qu'un mot. Tenir. Il le pense depuis le début du monde. »
+
+@+pro_06
+?pc:brisefer ?flag:fissure Ta fissure, dans le dos, se rouvre un peu quand tu t'assois. Tu ne dis rien. Tu pèses quand même. Tu as toujours pesé avec.
+~plumard ?comp:remontoir: « Debout, soldats ! Il est l'heure ! » Grand-Père Remontoir, assis sur l'Axe : « Ici, Colonel, il n'y a pas d'heure. Il y a du poids. Asseyez-vous. » Plumard s'assoit. Il ne l'avouera jamais.
+~remontoir ?!comp:plumard: « Le cœur de la planète bat trop vite. Le mien ralentit. On devrait échanger. »
+~gaspard: Gaspard ne s'assoit pas : il traverserait l'Axe. Il reste debout derrière toi, la main sur ton épaule, sans la toucher tout à fait.
+~pli: Monsieur Pli se déplie de tout son long sur l'Axe. Il ne pèse rien, mais il a l'air de peser le pour et le contre, ce qui est déjà ça.
+~echo: « ... peur. Peur. » Écho répète le cœur de la planète. Puis le tien, à côté, plus lent. Elle met les deux ensemble, pour qu'ils se calment.
+
+@+pro_07
+~echo ?flag:echo_phrases: « ... ne touchez pas à la Lune ! » Écho ressort une des phrases que tu lui as apprises. Ce n'est pas tout à fait le moment. Le Commandant grogne quand même : « Grrm. Bien dit. »
+~echo: « ... en étoile ! En étoile ! » Écho répète ton ordre jusqu'au fond de la salle. Elle a une voix de sergent, aujourd'hui.
+~brisefer: Brisefer gronde derrière toi : « Commandant. C'est moi qui leur ai appris l'étoile. Écoutez la petite. » Le Commandant grogne plus vite que d'habitude.
+~plumard: « En étoile ! Vous avez entendu ! » Le Colonel Plumard répète l'ordre en le chantant. Personne ne lui obéit non plus, mais il a l'air ravi d'avoir enfin un régiment.
+~ysaline: « Il a fallu qu'un mâle de quatre mille ans le dise pour que ce soit logique. Je le note. »
+
+@+pro_08
+~rocambole: « Des jours. Pas des années. Je connais ce genre de dette. On la rembourse en courant. »
+~coquille: « Gagner des jours, c'est très bien. Moi, je gagne des années comme ça depuis trois siècles. »
+
+@+pro_09
+~penelope: Pénélope regarde la Médaille de l'Axe, troisième classe. Elle lève le tampon APPROUVÉ, hésite, et le repose. « Celle-là n'a pas besoin de moi. »
+~gontran: « Le Commandant veut dire que... » Gontran s'arrête. Le Commandant a déjà tout dit. C'est la première fois qu'on ne lui laisse rien à traduire.
+~xanthin: Xanthin effleure la médaille. « Elle pense qu'elle pèse trois kilos pour rien. Elle se trompe. »
+
+@+pro_10
+~fernand ?comp:vesperine: Fernand éclaire les dessins un par un. Vespérine, dans ton ombre : « Éteignez-vous, lampion. Ces dessins ont attendu le noir des millénaires. » « Ils ont attendu qu'on les voie, Comtesse. » Ils boudent jusqu'au bout du tunnel.
+~fernand: Fernand éclaire les dessins, un par un. « Rien n'est jamais assez éclairé, ici. C'est ma revanche. »
+~vesperine ?!comp:fernand: « Des dessins depuis l'aube des temps, et personne ne vient les voir. Je connais ça. »
+~brume: « Ces dessins... ils rêvent... d'avoir été vus... une fois... »
+~echo ?pc:brisefer: Écho s'arrête devant ton portrait, celui avec la fleur. « ... jeune. Jeune. » Tu lui dis de se taire. Elle répète « taire » avec beaucoup de tendresse.
+~brisefer: Brisefer passe devant un portrait de jeune garde, avec une fleur derrière l'oreille, et accélère le pas. Tu n'as pas le temps de voir le visage.
+
+@+pro_11
+?pc:brisefer ?flag:vu_lune Toi, tu l'as vue, à la sortie de la crevasse. Blanche, oui. Et plus belle qu'il ne faudrait. Tu sais quoi lui répondre.
+
+@+pro_12
+?pc:brisefer ?flag:rumeur_suivre Une Terre qui marche. C'était donc ça, la rumeur des gardes : « il faudrait que la Terre la suive ». Personne ne savait que la Faille l'avait vue.
+~quartz ?!flag:quartz_renvoyee: « Une Lune remplacée ! Elle parle de moi. Statistiquement, elle parle de moi. »
+~gaspard: Gaspard ôte son chapeau devant le gouffre. « Madame. J'ai vu le ciel de très haut. Vous voyez l'avenir de très bas. Nous devrions comparer. »
+~melusine: « UNE LUNE LIBRE ! ELLE A DIT UNE LUNE LIBRE ! » Tante Mélusine sanglote de joie dans ses trois paires de lunettes. La Faille lui renvoie un écho poli.
+~coquille: « Elle voit l'avenir. Je ne lui demanderai pas quand mon petit naîtra. Je préfère la surprise. »
+~rocambole: « Elle n'a pas parlé d'une Lune volée. Je suis presque vexé. »
+~echo: « ... lignes noires. Lignes noires. » Écho frissonne. Tu poses la main sur elle. Elle répète ton silence.
+
+@+pro_14
+~plumard: « Une Terre qui marche ! Au pas ! Je donnerai le rythme ! Une, deux ! »
+~pli: Monsieur Pli se déplie : « Secouer une Assemblée. J'ai fait ça toute ma vie. D'habitude, elles sont en papier. »
+~taupinel: « Une Assemblée réunie pour la première fois depuis les continents. Ça, c'est un titre. »
+~brisefer: « L'Assemblée », grogne Brisefer. « Ils m'ont décorée une fois. La cérémonie a duré onze ans. »
+
+@+pro_16
+?pc:brisefer ?!flag:reintegree « Grrrrm. Brisefer. La Colonelle. Partie. » Ils te reconnaissent quand même. Partie, chez eux, n'est pas un reproche. C'est un constat géologique.
+~fulgence ?comp:pli: Fulgence prend la forme d'un treizième Gravitaire, pour se glisser dans l'Assemblée. Monsieur Pli le replie d'un coup de coin : « On ne ment pas à un continent. » Fulgence redevient Fulgence. Vexé.
+~pli ?!comp:fulgence: Monsieur Pli s'aplatit, impressionné. « Douze continents. Je n'ai jamais négocié avec plus d'un pays à la fois. »
+~ysaline: « Douze géants. Tous des mâles ? » L'Assemblée-Australe ouvre un œil, très lentement. Ysaline sourit. « Ah. Pas tous. »
+~pardon: « J'ai mesuré leurs plaques, autrefois. Pour un projet de parking. Pardon. Pardon douze fois. »
+~brisefer: « Grrrm », fait Brisefer, pour les saluer. Douze yeux s'ouvrent un peu plus vite que d'habitude. Elle a l'air presque gênée.
+~echo: Écho essaie de répéter les vibrations de l'Assemblée. Il en sort un grondement minuscule. L'Assemblée-Ouest, la plus jeune, sourit, très lentement.
+
+@+pro_17
+~fernand: Fernand s'éteint. « Inutile. Ici, même les murs brillent. » Il a l'air presque soulagé.
+~remontoir: « Neuf cents ans seule. Moi j'en ai mille, mais j'ai eu de la compagnie. Elle va beaucoup parler. Laisse-la. »
+~meduses: « UN CIEL À L'ENVERS ! NOUS ALLONS CHANTER À L'ENVERS ! » Elles chantent. C'est aussi faux, mais dans l'autre sens.
+
+@+pro_20
+~coquille: Madame Coquille pose le menton sur la table de cristal. « Je reste aussi. Je suis très lente à partir. »
+~zouzou: « Neuf cents ans toute seule ? » Zouzou se tait une seconde entière, ce qui ne lui arrive jamais.
+
+@+pro_22
+~pardon ?comp:pli: Pardon chuchote : « Monsieur Pli, à quoi sert un débat de trois cents ans ? » Monsieur Pli se plie en éventail : « À ce que les deux camps aient le temps de vieillir. Pardon, c'est un secret de métier. » « Pardon, c'est mon mot. » « Je vous l'emprunte. »
+~rocambole: « Trois cents ans de débat ? J'ai le temps de voler deux Lunes. »
+~plumard: « Un vote ! Debout pour voter ! » Personne ne se lève. Ici, on vote assis depuis la formation des continents.
+
+@+pro_24
+~gaspard: Gaspard regarde la petite sphère. « Moi aussi, j'ai fabriqué quelque chose pour aller vers la Lune. Il s'est arrêté à mi-chemin. Le vôtre est plus joli. »
+~brume: « Une Lune... qui ne sert à rien... c'est ce qu'il y a... de plus beau... »
+
+@+pro_26
+~ysaline: « Sept pour, quatre contre, une abstention qui dort. J'ai vu des congrès bien pires. »
+~taupinel: « Le vote le plus rapide de l'histoire géologique ! Édition spéciale ! » Il n'a pas de papier. Il l'écrit sur son bras.
+~melusine: « LA TERRE VA MARCHER ! JE VAIS TRICOTER DES CHAUSSONS POUR LES CONTINENTS ! »
+~brisefer: Brisefer se met au garde-à-vous devant les douze. Elle ne dit rien. Chez les Gravitaires, c'est un discours.
+
+@+pro_27
+~coquille: « Ils se tiennent la main. Comme les vieilles tortues pour traverser la plage. » Elle pleure un peu, lentement.
+~bartho: Bartholomé s'essuie les yeux. « C'est la poussière. Il y en a beaucoup, sous terre. » Il n'y en a pas plus que d'habitude.
+~echo: « ... ensemble. Ensemble. » La Salle répète après elle, en grondant.
+
+@+pro_29
+~brume: « Ce mot... je le connais... il ne finit jamais... »
+~quartz: « Un écho en boucle, fréquence basse. Il y a quelqu'un de très seul, ou une caverne mal conçue. Quarante pour cent les deux. »
+
+@+pro_30
+~bartho ?!flag:marees_prevenues: « Prévenir la mer. J'ai fait ça toute ma vie. Elle n'écoute jamais sur le moment. Elle fait semblant, après. »
+
+@+pro_31
+~zouzou: « Enfin, on remonte ! Le ciel me manquait comme une dent. »
+
+@+pro_32
+~quartz ?comp:echo: Le Docteur Quartz murmure : « Deux Échotiers. Statistiquement, il y en a donc des milliers. » Écho répète « des milliers », et s'arrête, émerveillée.
+~quartz: « Un Échotier sauvage ! Personne n'en a jamais étudié. Je ne l'étudierai pas. Il a l'air triste. »
+~fernand: Fernand éclaire la petite silhouette. Elle répète sa lumière, comme on répète un mot. Pendant une minute entière, il ne dit rien de méchant.
+~gaspard: « Je connais ce mot. On le dit beaucoup, à mi-chemin de la Lune. »
+
+@+pro_33
+~echo ?flag:echo_surface: « ... chez nous. Là-haut. » Écho tire vers le petit cercle de lumière. Elle l'a déjà vu, avec toi, et elle veut le revoir.
+~echo: « ... la surface ? La surface. » Elle répète le mot comme une question. Elle ne l'a jamais vue.
+~remontoir: « Mille échelons. À mon âge, on les compte deux fois, pour être sûr d'en avoir monté un. »
+~coquille: « Je monterai. Partez devant, et revenez me chercher dans une semaine. »
+~penelope: « Mille échelons, et pas un seul formulaire. Je ne sais pas si je suis reposée ou inquiète. »
+~vesperine: Vespérine regarde le petit cercle de lumière, là-haut, et rentre dans ton ombre. « Réveillez-moi en haut, quand le soleil sera parti. »
+
+@+pro_36
+~zouzou ?comp:ondee: Zouzou fonce sur Dame Ondée et la sèche d'un coup de traînée. Ondée, toute fumante : « Tu m'as manqué aussi. » « J'ai rien dit. » « Tu m'as séchée. C'est pareil. »
+~zouzou: « Du ciel ! Enfin ! » Elle fait trois tours de joie au-dessus des tentes.
+~ondee: Dame Ondée t'attendait au-dessus du Puits. Elle a plu pendant toute ton absence, et le Carrefour est trempé. « Vous êtes revenus ! Pardon pour la flaque. »
+~bartho: « De l'air. Du ciel. Et pas un bar ouvert à des kilomètres, mais je ne vais pas tout demander. »
+~quartz: « La Lune a encore reculé pendant qu'on était en bas. Je l'ai mesurée. À dix pour cent près. Enfin, trente. »
+~fernand: « Le Carrefour. Mal éclairé, comme toujours. Je vais déposer une réclamation. Une de plus. »
+~echo ?flag:echo_surface: « ... encore. Encore. » Écho répète le vent du Carrefour, comme on retrouve une chanson.
+~echo: « ... ciel. Ciel. » Elle répète le mot comme si elle le goûtait.
+~plumard: « Personne ne sait quelle heure il est ! » Il chante l'aube au hasard, pour être sûr de ne pas la rater.
+~brisefer: Brisefer regarde le Puits derrière vous. « Ils tiendront. Ils tiennent toujours. » Elle l'a dit pour elle-même.
+~gaspard: « Remonter. Enfin quelque chose que les morts savent faire. »
+~melusine: « LA LUNE A BOUGÉ ! JE L'AI SENTI DANS MON TRICOT ! »
+~taupinel: « Le Courrier des Galeries tient son scoop. Il ne lui manque qu'un lecteur. Moi. »
+~pli: Monsieur Pli se déplie au vent du Carrefour. Il est resté plié en quatre pendant toute la remontée.
+~pardon: « J'ai compté les échelons. La Compagnie en avait facturé mille de plus. Pardon de le dire. »
+~meduses: « NOUS REVOYONS LE CIEL. IL EST PLUS SOMBRE. NOUS BRILLONS PLUS FORT, PAR SOLIDARITÉ. »
+~rocambole: « Pas trouvé mon magot. Je reviendrai, avec une pelle. Quatre bras, ça creuse vite. »
+~ysaline: « Il faudra un syndicat des Gravitaires. Ils portent tout et ne réclament jamais rien. »
+~penelope: « J'ai de la poussière d'Axe plein les tampons. Ils ne s'en remettront pas. Moi non plus, je crois. »
+~brume: « Là-haut... c'est moins lourd... mais je garde... un peu de poids... pour plus tard... »
+~fulgence: Fulgence reprend sa forme habituelle en sortant du Puits. « Être un Gravitaire, c'est épuisant. On ne peut pas séduire assis. »
+~xanthin: « Toutes ces pierres pensaient la même chose : tenir. Je n'avais jamais entendu autant de pierres d'accord. »
+~anatole: « En bas, pas de Lune pour me tirer de travers. J'ai volé droit. C'est bien la première fois. »
+~ondine: « Pas une goutte d'eau, en bas. Je me suis sentie toute sèche. Ça va mieux. »
+~pistil: « En bas, personne ne rêve. Ils pèsent. C'est une autre façon de dormir. »
+~basile: « Deux... mille... échelons. » Il a mis toute la remontée à le dire.

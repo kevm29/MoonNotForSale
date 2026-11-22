@@ -57,7 +57,7 @@ Le Président galet est posé au centre de la carte. Il ne dit rien. C'est un ac
 ?pc:brisefer Les Profondeurs ne sont pas sur ta liste. Pas encore. Tes cousins s'y assoient très bien sans toi, dit le Conseil : ramène-leur d'abord des nouvelles du dessus. Tu grognes. C'est vrai.
 ?pc:griselidis Les Hauts-Nuages ne sont pas sur ta liste. Pas encore. Le Conseil veut d'abord des nouvelles d'ailleurs, et tu es la seule à pouvoir les rapporter vite.
 ?pc:anatole La Forêt n'est pas sur ta liste. Pas encore. Ta serre est à sa lisière ; le Conseil dit qu'on ne trouve pas d'aide au bout de son propre jardin, pas en premier.
-* cot_01 ?!flag:vis_cot ?!pc:ondine ?!pc:pelagie ?flag:voie_rum,flag:voie_peu | Partir vers les Côtes Hagardes, où la mer devient folle | Tu choisis la mer. Elle a besoin de quelqu'un. |  |
+* cot_01 ?!flag:vis_cot ?!pc:ondine ?!pc:pelagie ?flag:voie_rum,flag:voie_peu,pc:brisefer | Partir vers les Côtes Hagardes, où la mer devient folle | Tu choisis la mer. Elle a besoin de quelqu'un. |  |
 * for_01 ?!flag:vis_for ?!pc:anatole ?flag:voie_peu | Partir vers la Forêt-Réseau, où les arbres ne savent plus pousser | Tu choisis la forêt. Elle a de l'avance sur toi : elle sait depuis longtemps. |  |
 * son_01 ?!flag:vis_son ?!pc:pistil ?flag:voie_rum | Partir vers le Pays des Songes, où les rêves s'éteignent | Tu choisis le sommeil. C'est le seul voyage qui se fait les yeux fermés. |  |
 * pro_01 ?!flag:vis_pro ?!pc:brisefer ?flag:voie_peu | Descendre dans les Profondeurs, où l'Axe de la Terre penche | Tu choisis le dessous. On n'y voit rien, mais on y sent tout. |  |

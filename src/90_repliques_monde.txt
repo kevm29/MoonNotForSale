@@ -142,7 +142,7 @@
 ~zouzou: « Pas de ciel ? Vraiment aucun ciel ? Je vais étouffer. Je vous attends en haut ? Non ? D'accord. »
 ~coquille: « Un tunnel, c'est une carapace qu'on partage. »
 ~vesperine: Vespérine sort de ton ombre dès que le jour disparaît au-dessus du Puits, et s'étire comme un chat. « Le noir absolu. Enfin un endroit civilisé. »
-~ondee: « Je ne passe pas. Je suis trop grande. » Elle reste en haut, au-dessus du puits, et tu l'entends gronder doucement tout le long de la descente.
+~ondee: « Un nuage sous la terre, ça s'appelle de la buée. Et la buée ne remonte jamais. » Elle reste en haut, au-dessus du Puits, et tu l'entends pleuvoir doucement tout le long de la descente.
 ~gaspard: « Les morts n'aiment pas descendre. Nous préférons monter. Mais je vous suis. »
 ~fulgence: Fulgence prend la forme d'une Gravitaire pour avoir l'air plus solide. Il est trop léger. Personne n'est dupe.
 ~ysaline: « Les Gravitaires ont un Commandant mâle depuis quatre mille ans. Il serait temps d'en discuter. »
