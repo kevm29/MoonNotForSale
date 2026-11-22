@@ -283,7 +283,18 @@ const DATA = /*__DATA__*/null;
 const M = DATA.meta, N = DATA.nodes, SN = M.statNames, STATS = ["pan","rus","coe"];
 const XP_STEP = 3, STAT_MAX = 5, COMP_BONUS = 1, COMP_MAX = 2;
 const $ = s => document.querySelector(s);
-const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+/* accords au genre du héros : « seul·e », « heureux·se », « fier·ère »… (champ genre de meta.json : m ou f) */
+const gz = s => {
+  const p = (typeof S !== "undefined" && S && M.playables) ? M.playables.find(x => x.id === S.pc) : null, f = !!p && p.genre === "f";
+  return s.replace(/([A-Za-zÀ-ÿ]+)·(e|ne|se|le|ère)(s?)/g, (m, b, x, pl) => {
+    if (!f) return b + pl;
+    if (x === "se" && b.endsWith("x")) return b.slice(0, -1) + "se" + pl;
+    if (x === "ère" && b.endsWith("er")) return b.slice(0, -2) + "ère" + pl;
+    if (b === "léger" && x === "e") return "légère" + pl;
+    return b + x + pl;
+  });
+};
+const esc = s => gz(String(s)).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const store = {
   get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
   set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }

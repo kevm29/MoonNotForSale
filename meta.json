@@ -28,6 +28,7 @@
   {
    "id": "ondine",
    "name": "Ondine Salmigondis",
+   "genre": "f",
    "species": "Marégrave",
    "start": "ond_01",
    "stats": [
@@ -42,6 +43,7 @@
   {
    "id": "basile",
    "name": "Basile Grumeau",
+   "genre": "m",
    "species": "Lichenaute",
    "start": "bas_01",
    "stats": [
@@ -56,6 +58,7 @@
   {
    "id": "pistil",
    "name": "Pistil",
+   "genre": "m",
    "species": "Somnambule",
    "start": "pis_01",
    "stats": [
@@ -70,6 +73,7 @@
   {
    "id": "brisefer",
    "name": "Colonelle Agathe Brisefer",
+   "genre": "f",
    "species": "Gravitaire",
    "start": "bri_01",
    "stats": [
@@ -84,6 +88,7 @@
   {
    "id": "zephyrin",
    "name": "Zéphyrin Clopin",
+   "genre": "m",
    "species": "Horloger",
    "start": "zep_01",
    "stats": [
@@ -98,6 +103,7 @@
   {
    "id": "griselidis",
    "name": "Grisélidis Cornemuse",
+   "genre": "f",
    "species": "Éolienne",
    "start": "gri_01",
    "stats": [
@@ -112,6 +118,7 @@
   {
    "id": "pelagie",
    "name": "Sœur Pélagie Bourdon",
+   "genre": "f",
    "species": "Abeillère",
    "start": "pel_01",
    "stats": [
@@ -126,6 +133,7 @@
   {
    "id": "barnabe",
    "name": "Lord Barnabé Frissepoil",
+   "genre": "m",
    "species": "Loup-garou",
    "start": "lyc_01",
    "stats": [
@@ -140,6 +148,7 @@
   {
    "id": "anatole",
    "name": "Anatole Duvet",
+   "genre": "m",
    "species": "Noctuelle",
    "start": "ana_01",
    "stats": [
@@ -154,6 +163,7 @@
   {
    "id": "president",
    "name": "Le Président de la Terre",
+   "genre": "m",
    "species": "Galet",
    "start": "gpa_01",
    "stats": [
@@ -170,6 +180,7 @@
   {
    "id": "platine",
    "name": "Platine",
+   "genre": "m",
    "species": "Aldébaranien",
    "start": "pla_01",
    "stats": [
@@ -185,6 +196,7 @@
   {
    "id": "ploum",
    "name": "Ploum",
+   "genre": "m",
    "species": "Bullimaçon",
    "start": "ply_01",
    "stats": [
