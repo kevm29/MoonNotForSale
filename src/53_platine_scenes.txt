@@ -101,9 +101,9 @@ Pendant qu'Ondine écrit, tu regardes ses lettres, empilées partout dans la lan
 ~basile: Basile regarde la pile de lettres, une ligne par minute. « Personne... ne les a... tamponnées. » Ondine : « Il faudrait ? » « Non... C'est... pour ça... qu'elles sont... belles. »
 ~brisefer: Brisefer s'est arrêtée à mi-hauteur de l'escalier : il ne la supporterait pas plus haut. Elle crie, d'en bas : « Elle écrit à qui, la grande mouillée ? » « À la Lune. » « Ah. Moi, je lui parlais. C'est moins long. »
 * plt_cot3 ?last:ok | Lire une lettre, au hasard | « Chère Lune. Aujourd'hui, la mer est descendue de trois mètres. J'ai pensé que tu étais fâchée. Si c'est à cause de moi, dis-le-moi. Ondine. » Tu la replies. Ce n'est pas à cause d'elle. | |
-* plt_cot3 ?last:ok | Refuser poliment |
+* plt_cot3 ?last:ok | Refuser poliment | « Ce n'est pas à moi qu'elles sont adressées. » Ondine te regarde, surprise. Puis touchée. Personne n'avait jamais respecté son courrier. | |
 * plt_cot3 ?last:ko | Attendre qu'elle ait fini sa lettre | Elle finit. Elle signe : « Ondine. » Elle plie. Elle ne se retourne pas tout de suite. | |
-* plt_cot3 ?last:ko | Lui demander pardon d'avoir été maladroit | Elle lève les yeux. « Vous n'êtes pas maladroit. Vous êtes doré. Ce n'est pas pareil. » Mais elle te sourit un peu. | | « Ce n'est pas à moi qu'elles sont adressées. » Ondine te regarde, surprise. Puis touchée. Personne n'avait jamais respecté son courrier. | |
+* plt_cot3 ?last:ko | Lui demander pardon d'avoir été maladroit | Elle lève les yeux. « Vous n'êtes pas maladroit. Vous êtes doré. Ce n'est pas pareil. » Mais elle te sourit un peu. | |
 
 # ---------- Tamponville ----------
 

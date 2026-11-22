@@ -141,9 +141,9 @@ La file passe sous les fenêtres du Palais de la Présidence, une aile du Cadast
 ?!flag:pl_train ?flag:pl_vu_galet C'est lui. Celui du télescope. De près, il est plus petit. Il a l'air de regarder dehors.
 ?!flag:pl_train À côté, un homme replet en redingote parle très fort à la fenêtre, pour les gens d'en bas : « Le Président est serein ! Le Président vous salue ! » Le galet ne bouge pas. Mais, du côté tourné vers le ciel, vers ta Lune et son crochet d'or, il est un peu plus blanc que de l'autre.
 * plt_cap_b coe9 ?!flag:pl_train | Regarder le galet, longtemps, jusqu'à ce qu'il te voie | Tu le regardes. Tu ne sais pas s'il te voit : il n'a pas d'yeux. Mais il pâlit encore un peu, du côté de la Lune, et tu as l'impression très nette qu'il sait ce que tu as fait. Personne ne t'avait jamais regardé comme ça. Sans rien dire. Sans rien vouloir. | Tu le regardes, mais l'homme en redingote se met devant la fenêtre pour saluer, et tu ne vois plus que lui. | +flag:pl_emo_galet coe+1 |
-* plt_cap_b ?!flag:pl_train | Écouter l'homme en redingote |
+* plt_cap_b ?!flag:pl_train | Écouter l'homme en redingote | « Le Président est serein ! » Il le dit trois fois. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | |
 * plt_cap_b ?flag:pl_train | Regarder le coussin vide | Il y a encore le creux du galet dans le velours. Huit cents ans de creux. Tu sais ce que c'est, un creux au milieu. | |
-* plt_cap_b ?flag:pl_train | Écouter l'huissier | « Le Président vous salue de loin ! » Il le dit trois fois, à une fenêtre vide. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | | « Le Président est serein ! » Il le dit trois fois. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | |
+* plt_cap_b ?flag:pl_train | Écouter l'huissier | « Le Président vous salue de loin ! » Il le dit trois fois, à une fenêtre vide. Tu as fait des discours comme ça. Tu ne savais pas qu'on les entendait si creux d'en bas. | |
 
 @plt_cap_b
 !title: Madame Épine
