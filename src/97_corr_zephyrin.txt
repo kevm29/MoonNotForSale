@@ -1,0 +1,19 @@
+# Corrections Zéphyrin, suite : ajouts aux nœuds définis dans les fichiers 9x (lus après 64).
+
+@+hub_11
+?pc:zephyrin La couverture fait trois fois ta taille. Si tu la prends, il faudra la rouler devant toi comme un tonneau, en soufflant. Un Horloger n'est pas fait pour porter du granit.
+
+@+com_40
+~plumard: « Une éclipse de poche ? De l'ombre à midi ? C'est de la désertion, soldat. »
+~fernand: « De l'obscurité sur mesure, maintenant. Moi, on m'a licencié pour moins que ça. »
+~zouzou: « Ma grand-mère a fait une éclipse, une fois. Par accident. Elle en parle encore. »
+~rocambole: Rocambole soupèse une éclipse moyenne. « Avec ça, on ferait passer n'importe quoi en douane. » Il la repose. Il te regarde. Il la repose mieux.
+
+@+com_41
+~melusine: « UNE AURORE DE 1612 ! JE L'AI VUE PASSER ! J'AVAIS DES LUNETTES MOINS ÉPAISSES ! »
+~vesperine: Du fond de ton ombre : « Celle-ci a éclairé mon premier bal. Le renard ne s'en souvient pas. Moi, si. »
+~zouzou: « Mon père en a déchiré une en passant trop près du pôle. On n'en parle pas à la maison. »
+~meduses: « NOUS AUSSI NOUS BRILLONS EN VERT QUAND NOUS SOMMES ÉMUES. NOUS NE SOMMES PAS À VENDRE. »
+
+# ---------------------------------------------------------------- Dernière nuit
+

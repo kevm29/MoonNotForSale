@@ -59,7 +59,7 @@ Il s'approche de toi, sur le coussin de Gontran. Il te photographie encore une f
 
 @gpa_15b
 !title: L'escalier des archives
-Onze étages à remonter. L'ascenseur des archives est en panne depuis l'an mille. Gontran monte les marches une par une, en soufflant, toi dans sa poche.
+Onze étages à remonter. Madame Basalte est repartie vers le toit, et elle ne redescend qu'une fois par jour. Gontran monte les marches une par une, en soufflant, toi dans sa poche.
 Au cinquième, il s'arrête pour reprendre son souffle. Il te sort de sa poche et te regarde, à la lumière d'une meurtrière. « Vous savez, Monsieur le Président, ce tampon. Le vôtre. Sur l'acte. » Il hésite. « C'est moi qui l'ai mis. Par délégation. Je tamponne tout, je ne lis jamais. C'est plus simple. » Il te remet dans sa poche. « Je ne pensais pas qu'on vendrait la Lune avec. »
 ~penelope: Pénélope monte derrière vous, l'acte de vente serré contre elle. Elle ne dit rien. Elle monte les marches deux par deux, comme quelqu'un qui a hâte d'arriver quelque part où il ne veut pas aller.
 * gpa_16 | Penser : « Ce n'est pas votre faute, Gontran. » | Il ne l'entend pas. Il remonte. Mais il monte un peu plus vite, comme quelqu'un qui a posé quelque chose. | |
@@ -110,8 +110,8 @@ Une vieille dame Horlogère te frôle. Elle dit à sa voisine : « Il paraît qu
 @gal_int2
 !title: Plus tard, autour du feu
 ?regions==1 Plus tard, les feux baissent. La plaine sent la soupe et la fumée. Tu es posé sur une caisse, au bord d'un feu, parmi ceux qui t'accompagnent.
-?regions==2 Plus tard, le deuxième soir, quelqu'un a construit un petit coussin de mousse pour toi, au bord du feu. Personne ne dit qui. Il est très bien fait.
-?regions>=3 Plus tard, le troisième soir, personne ne dort. On parle bas. Tu écoutes, comme tu as toujours fait. Ce soir, tu entends plus de voix qu'en huit cents ans.
+?regions==2 Plus tard, au deuxième retour, quelqu'un a construit un petit coussin de mousse pour toi, au bord du feu. Personne ne dit qui. Il est très bien fait.
+?regions>=3 Plus tard, au dernier retour, personne ne dort. On parle bas. Tu écoutes, comme tu as toujours fait. Ce soir, tu entends plus de voix qu'en huit cents ans.
 ~gontran ?comp:bartho: Gontran explique à Bartholomé le fonctionnement de la présidence. Bartholomé écoute, crache dans le feu, et dit : « Donc, il dit rien et vous inventez. » Gontran : « Je traduis. » « Ma femme aussi, elle traduisait mes silences. Elle se trompait jamais. Vous, vous vous trompez tout le temps. »
 ~bartho ?comp:ondee: Bartholomé et Dame Ondée regardent le feu ensemble. « Vous pleuvez sur la mer, des fois ? » « Tous les jours, avant. » « Sur Grève-Molle ? » « Sur Grève-Molle. » Il ne demande rien de plus. Elle ne dit rien de plus. Ils se comprennent.
 ~melusine ?comp:gaspard: Tante Mélusine tricote une écharpe pour Sire Gaspard. « VOUS ÊTES UN FANTÔME. VOUS AVEZ FROID. » « Je n'ai plus de cou, Madame. » « ÇA N'A JAMAIS EMPÊCHÉ PERSONNE. »
@@ -136,6 +136,8 @@ Tu penses : demain, il faudra dire quelque chose. Huit cents ans que je n'ai rie
 ~xanthin: Xanthin, endormi sur ton flanc, rêve à voix basse. Tu entends son rêve, puisqu'il est sur toi. Il rêve qu'il est un rocher, très grand, et que quelqu'un pousse sur lui. Il a l'air heureux.
 ~basile ?comp:xanthin: Basile s'est approché de vous, au ras de la terre. Il ne dort pas : les lichens âgés ne dorment presque plus. Il touche Xanthin du bout d'un filament. Il ne dit rien. Il veille sur le petit.
 ~gontran: Gontran dort à côté de la pierre, en boule, sa redingote comme couverture. Il a laissé une main posée près de toi. Au cas où.
-* gal_nuit1 | Penser ton nom, une fois, à la Lune | Tu le penses, en entier, long, rond et lent. Elle ne t'entend pas. Mais c'est la première fois que tu le dis à quelqu'un d'autre que toi. | |
+* gal_nuit1 ?!flag:p_nom | Penser ton nom, une fois, à la Lune | Tu le penses, en entier, long, rond et lent. Elle ne t'entend pas. Mais c'est la première fois que tu le dis à quelqu'un d'autre que toi. | |
+* gal_nuit1 ?flag:p_nom | Penser ton nom, une fois, à la Lune | Tu le penses, en entier, long, rond et lent. Elle ne t'entend pas. C'est la deuxième fois que tu le dis à quelqu'un. La première, c'était à Xanthin, sur un banc. | |
+* gal_nuit1 ?flag:p_nom ?comp:xanthin | Penser à Xanthin : « Si on gagne, demain, dis-le. Mon nom. À tout le monde. » | Xanthin se réveille, ou il ne dormait pas. Il met longtemps à répondre. « Promis... Ambroise. » C'est la première fois qu'on t'appelle par ton nom. Ça fait un drôle d'effet, dans une pierre : comme un soleil, mais de l'intérieur. | | +flag:p_nom_permis mor+1 |
 * gal_nuit1 | Penser : « Je trouverai les mots. » | Tu ne sais pas si c'est vrai. Tu le penses quand même. Tu as huit cents ans de mots à rattraper. Il en suffit d'un. | |
 * gal_nuit1 | Regarder le crochet, sans détourner les yeux | Tu le regardes. Il est beau, et faux. Tout ce qui est en or, ici, est un peu faux. Tu blanchis, côté Lune. Personne ne le voit. La Lune, peut-être. | |

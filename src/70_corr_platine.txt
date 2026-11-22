@@ -1,0 +1,483 @@
+# ================================================================
+# PLATINE : corrections du 21/11 (rapport de test) et dialogues ajoutés.
+# Répliques de compagnons par lieu, duos, réactions. Sur Terre, personne
+# ne sait qui il est, sauf Pistil (et Brisefer si elle a entendu l'Écho).
+# ================================================================
+
+# Compte des émotions vécues sur Terre, une seule fois, avant le bureau.
+@+plf_01f
+!fx: flag:pl_emo_lettres=>pemo+1 flag:pl_emo_maree=>pemo+1 flag:pl_emo_serre=>pemo+1 flag:pl_emo_fleurs=>pemo+1 flag:pl_emo_axe=>pemo+1 flag:pl_emo_don=>pemo+1 flag:pl_emo_digue=>pemo+1 flag:pl_emo_perline=>pemo+1 flag:pl_emo_meduses=>pemo+1 flag:pl_emo_galet=>pemo+1 flag:pl_emo_lampadaire=>pemo+1 flag:pl_emo_chantier=>pemo+1 flag:pl_emo_kramm=>pemo+1 flag:pl_emo_signature=>pemo+1 flag:pl_emo_coffre=>pemo+1 flag:pl_emo_caillou=>pemo+1 flag:pl_emo_echarpe=>pemo+1
+
+# ---------- La route, la nuit ----------
+
+@+plt_nuit2
+~brisefer ?comp:pistil: Brisefer regarde le petit pyjama sur ta poitrine. « Il est arrivé quand, celui-là ? » « Cette nuit », dit Pistil. Brisefer hausse les épaules. « Les petits, ça arrive toujours la nuit. »
+~basile ?comp:pistil: Basile met trois minutes à remarquer Pistil. « Bonjour. » Pistil est déjà en train de parler d'autre chose.
+~anatole ?comp:pistil: Anatole regarde Pistil avec ses grands yeux de nuit. « Vous sortez d'un rêve ? Moi aussi, un peu, chaque matin. »
+~bartho ?comp:pistil: Bartholomé regarde Pistil. « Un pyjama qui marche. » Il se frotte les yeux. « J'ai rien bu, pourtant. Enfin, de l'eau. »
+
+@+plt_route
+~brisefer ?lieux==1: Brisefer ne monte pas dans le Tortillard : elle le casserait. Elle marche à côté, sur le ballast. Elle arrive à la gare avant lui.
+~brisefer: Brisefer marche derrière, et la route s'enfonce un peu à chacun de ses pas. On pourra suivre votre chemin à la trace.
+~ondine: Ondine marche à côté de toi, la main sur son sac de lettres. Elle compte les bornes. Elle a l'habitude de compter.
+~basile: Basile, sur ton épaule, regarde le paysage défiler. Pour lui, c'est très, très rapide. Il trouve la Terre agitée.
+~anatole: Anatole vole au-dessus de la route, un peu de travers, vers la Lune. Il redescend quand tu l'appelles.
+
+# ---------- Les Côtes ----------
+
+@+plt_cot
+~pistil: Pistil regarde la mer partie. « Dans les rêves des poissons, il y a toujours de l'eau. Ce matin, ils rêvent de flaques. »
+~brisefer: Brisefer s'enfonce dans le sable mouillé jusqu'aux chevilles. « La mer qui s'en va, ça pèse aussi. Ça pèse en creux. »
+~basile: Basile regarde la plage vide, une ligne par minute. « Je n'ai... jamais vu... la mer. » Une minute. « Je ne la vois... toujours pas. »
+~anatole: Anatole vole bas au-dessus du sable. « Chez moi, les fleurs ne s'ouvrent plus. Ici, c'est la mer qui ne revient plus. C'est la même maladie. »
+
+@+plt_cot_a
+~brisefer: Brisefer prend un seau dans chaque main. Elle écope une maison entière en trois gestes. Les Marégraves la regardent comme on regarde une marée.
+~pistil: Pistil regarde l'enfant marégrave. « Il rêve de vagues, celui-là. Toutes les nuits. Des petites. »
+~basile: Basile ne peut pas porter de seau : il pèse le poids d'une mousse. Il tient le compte des seaux sur un coin de son carbone. Personne ne le lui a demandé. Ça aide quand même.
+~anatole: Anatole évente une Marégrave épuisée de ses grandes ailes, pour la rafraîchir. Elle sèche plus vite. Il s'excuse beaucoup.
+
+@+plt_cot_f
+~brisefer: Brisefer pose sa main à plat sur la digue. Les planches cessent de trembler. « Ça, je sais faire. Tenir. » Ses doigts sont trop gros pour le trou. Elle le dit, vexée.
+~pistil: Pistil regarde la petite au doigt dans le trou. Il ne dit rien. Il est trop léger pour l'aider, et il le sait.
+~basile: Basile, sur ton épaule : « Une digue... c'est un formulaire... qu'on remplit... avec du bois. »
+~anatole: Anatole se pose près de la petite et la regarde rapetisser. « Tenez bon. » C'est tout ce qu'il a. Elle dit merci.
+
+@+plt_cot_b2
+~brisefer: Brisefer reste dehors : le bistrot est sur pilotis, et les pilotis ont assez de soucis. Elle regarde par la fenêtre.
+~basile: Basile regarde la photo du bal, une ligne par minute. « La Lune... était... plus grosse... à l'époque. » « Non », dit le crabe. « On la regardait mieux, c'est tout. »
+~anatole: Anatole tourne autour des lampions éteints du plafond, malgré lui. Le crabe le laisse faire. Il a l'habitude des papillons.
+
+@+plt_cot_b
+~brisefer: Brisefer, par la fenêtre : « Ta femme, le mouillé, elle est partie avec la marée ? » « Oui. » « Moi, j'ai perdu personne. J'avais l'Axe. C'est pire, je crois. » Bartholomé ne sait pas si c'est une insulte.
+~pistil: Pistil regarde le vieux pêcheur boire. « Lui, il rêve toujours du même bal. Elle danse. Il ne l'invite jamais. »
+~basile: Basile s'est posé sur le comptoir. Le pêcheur le regarde. « C'est quoi, ça ? » « Un... greffier. » « Ça boit ? » « De la... rosée. » Il pousse une soucoupe vers lui. Il en a toujours, pour les urgences.
+~anatole: Anatole se pose sur le bord d'un verre vide. « Elle s'appelait Perline ? C'est un joli nom, pour quelqu'un qui part. »
+
+@+plt_cot_h
+~pistil: Pistil regarde le portrait. « Je la connais. Elle passe dans les rêves d'ici, la nuit, avec la marée. Elle rit pareil. »
+~brisefer: Brisefer n'entre pas dans la cabane : elle repartirait avec, sur le dos. Elle se penche à la fenêtre et fait le geste de retirer un chapeau qu'elle n'a pas.
+~basile: Basile lit le nom sous le portrait. « Perline. » Une minute. « Elle n'est... dans aucun registre... de départ. Elle est... juste partie. »
+~anatole: Anatole se pose sur le cadre, sans toucher au portrait. « On dirait qu'elle regarde la Lune, elle aussi. »
+
+@+plt_cot_k
+~bartho: Bartholomé pose la main à côté de la tienne, sur la vague. « Elle hésite. Perline hésitait jamais. C'est pour ça qu'elle est partie. »
+~brisefer: Brisefer regarde la vague de bas en haut. « Une vague qui se retient. Je connais. J'ai fait ça trois mille ans. »
+~pistil: Pistil, tout bas : « Les vagues aussi, ça rêve. Celle-là rêve qu'elle tombe. Elle n'ose pas. »
+~basile: Basile frissonne sur ton épaule. « Elle est... plus lente... que moi. » C'est la première fois qu'il dit ça de quelqu'un.
+~anatole: Anatole ne s'approche pas. « Si elle tombe, je suis trop léger pour nager. » Il reste en arrière, les ailes serrées.
+
+@+plt_cot_c
+~pistil: Pistil chante avec les méduses, faux, tout bas. Il connaît la chanson : c'est celle que la mer chante en dormant.
+~brisefer: Brisefer ne chante pas. Elle bat la mesure du pied. La plage tremble en rythme. Les méduses tiennent mieux.
+~basile: Basile écoute, une note par minute. Il n'en entend que trois. Il dit que ce sont les trois plus belles.
+~anatole: Anatole se pose au milieu des méduses lumineuses. Il les prend pour des lunes. Il ne sait plus où voler.
+
+@+plt_cot_i
+~bartho: Bartholomé regarde le vieux poisson-lune. « Il fait la queue depuis ce matin. Moi, depuis vingt ans. »
+~brisefer: Brisefer regarde la file. « Chez nous, on laisse passer les vieux. » Les poissons ne l'écoutent pas : ils n'ont pas d'oreilles.
+~pistil: Pistil : « Il rêve d'une mer entière, celui-là. Il se contenterait d'un verre. »
+~basile: Basile compte la file. Il arrive à cent douze. « Il a... le ticket... cent douze. » Basile sait ce que c'est, une file.
+~anatole: Anatole se pose près du vieux poisson. Deux bêtes qui suivent la Lune. Ils n'ont rien à se dire. Ils se le disent quand même.
+
+@+plt_cot_g
+~bartho: Bartholomé marche entre les épaves. Il en reconnaît une. « La Sardine-Bleue. J'ai pêché dessus, à quinze ans. » Il donne un coup de pied dans un piquet doré, au passage.
+~basile: Basile lit un fanion, une lettre par minute. Il reconnaît l'écriture du géomètre : elle était sur le dossier qu'il a tamponné sans lire. Il devient tout gris.
+~brisefer: Brisefer enfonce un piquet doré dans le sable, avec le pouce, jusqu'à ce qu'il disparaisse. « Un de moins. »
+~pistil: Pistil regarde les villes de crabes vides. « Les crabes rêvent qu'ils rentrent chez eux. Ils ne trouvent plus la porte. »
+~anatole: Anatole vole au-dessus des algues couchées. « On dirait mes fleurs. Celles qui ne s'ouvrent plus. »
+
+@+plt_cot_d
+~bartho: Bartholomé rachète une cloche de bateau, pour un sou. « C'était celle de mon père. Elle sonnait faux. » Il la secoue. Elle sonne faux. Il est content.
+~brisefer: Brisefer lève la main pour s'étirer. On lui adjuge une baignoire. Elle la porte sous le bras, sans comprendre.
+~basile: Basile regarde le géomètre doré lever la main. « Il signe... sans lire. » Une minute. « Comme moi... avant. »
+~pistil: Pistil, sur ton épaule : « Il ne te reconnaît pas. Tu vois, même les tiens ne te regardent pas. »
+~anatole: Anatole se pose sur une ancre mise aux enchères. Le crieur annonce : « Une ancre, avec papillon ! » Personne n'enchérit sur le papillon.
+
+@+plt_cot2
+~bartho: Bartholomé, en bas de l'escalier, crie : « Ondine ! C'est moi ! » D'en haut : « Je sais, Bartholomé ! Tu cries toujours pareil ! » Il ne monte pas. Il ne monte jamais au phare.
+~brisefer: Brisefer commence à monter l'escalier en colimaçon. Il grince, puis il gémit. Elle redescend. « J'attendrai en bas. Ton phare est fait pour les gens légers. »
+~basile: Basile compte les marches, une par minute. En haut, il en est à quatre.
+~pistil: Pistil regarde la grande Marégrave écrire. « Elle rêve qu'on lui répond. La réponse change toutes les nuits, mais il y en a toujours une. »
+~anatole: Anatole tourne autour de la lumière du phare, malgré lui. Ondine lève la tête. « Encore un papillon. » Anatole, gêné : « Pardon. C'est plus fort que moi. »
+
+@+plt_cot3
+~bartho: Bartholomé crie d'en bas : « Si tu montes là-haut, Ondine, je viens. Quelqu'un doit te surveiller. » « C'est toi qu'il faut surveiller. » « C'est pareil. »
+~brisefer: Brisefer, d'en bas : « Elle vient, la grande mouillée ? Bien. Il faut de l'eau, pour monter. On a toujours soif, en haut. »
+~basile: Basile regarde Ondine ranger ses lettres. « Vous les... emportez... toutes ? » « Toutes. » Il ne dit rien d'autre. Il est ému, lentement.
+~anatole: Anatole, qui tourne encore autour de la lampe : « Si vous partez, qui allumera le phare ? » « Il s'allume tout seul. Il a l'habitude. »
+
+@+plt_cot_e
+~pistil: Pistil regarde ta feuille sans la lire. Il ferme les yeux, comme on ferme une porte pour laisser quelqu'un tranquille.
+~brisefer: Brisefer, assise au pied du phare, attend que tu aies fini. « Une lettre, ça pèse combien ? » « Rien. » « Alors pourquoi tu as l'air si lourd ? »
+~basile: Basile, sur ton épaule : « On commence... toujours... par la date. » Tu n'écris pas la date. Il ne te le reproche pas.
+~anatole: Anatole se pose sur la rampe. « Moi, j'écris l'heure. Toujours l'heure. Vous devriez écrire l'heure. »
+
+@+plt_cot_j
+~pistil: Pistil se retourne vers la mer. « Ce soir, elle rêvera de nous. Un peu. »
+~brisefer: Brisefer secoue le sable de ses jambes. Il en tombe une petite dune.
+~basile: Basile dit au revoir à la mer. Ça lui prend tout le chemin jusqu'à la route.
+~anatole: Anatole regarde le phare s'éloigner. « Je reviendrai tourner autour. Un jour où il fera beau. »
+
+# ---------- Tamponville ----------
+
+@+plt_cap
+~ondine: Ondine regarde la file faire trois fois le tour de la ville. « Tous ces gens écrivent à la Lune, eux aussi. Par formulaire. »
+~bartho: Bartholomé regarde la file. « Une file, c'est une marée qui avance pas. » Il prend un ticket quand même.
+~brisefer: Brisefer ne fait pas la queue : là où elle se met, la file s'arrête. On veut la faire passer devant, par prudence. Elle refuse, par principe.
+~pistil: Pistil : « Une ville en papier. Ici, tout le monde rêve en trois exemplaires. »
+~anatole: Anatole se pose sur un lampadaire. « Il ne sait plus quand s'allumer. Les lampadaires attendent la Lune pour commencer. »
+
+@+plt_cap_f
+~ondine: Ondine s'accroupit près de la famille de Lunatiques qui pâlit. Elle ne les touche pas : l'eau éteint les bougies. Elle leur parle, seulement. Ils pâlissent un peu moins vite.
+~bartho: Bartholomé entend dire que Platine n'a pas de cœur, seulement un coffre. Il grogne : « Un coffre, au moins, ça se vide pas. »
+~brisefer: Brisefer, au vieux Gravitaire qui porte sa maison : « Je te la porte, si tu veux. » « Non. C'est ma maison. » Elle comprend.
+~pistil: Pistil entend la phrase sur le coffre. Il te serre le col, très fort, pour une main de pyjama.
+~anatole: Anatole regarde le beignet de l'Horlogère. Il n'en a jamais mangé. Il en demande un, timidement. On lui en donne deux.
+
+@+plt_cap_a
+~ondine ?flag:pl_train: Ondine regarde le coussin vide. « Même lui, il est parti. »
+~ondine: Ondine lève les yeux vers la fenêtre ronde. « C'est lui, le Président ? Il est petit. Il ne m'a jamais répondu non plus. Ça nous fait un point commun. »
+~bartho: Bartholomé regarde le Palais. « Un palais pour un caillou. À Grève-Molle, les cailloux, on marche dessus. »
+~brisefer: Brisefer regarde la fenêtre ronde. « Je l'ai vu une fois, le Président, aux cérémonies de l'Axe. Il n'a rien dit. Je l'ai respecté pour ça. »
+~pistil ?!flag:pl_train: Pistil : « Il rêve, le Président. Très fort. Je l'entends d'ici. Il rêve qu'il parle. »
+~anatole: Anatole se pose sur le rebord d'une fenêtre du Palais. Personne ne le chasse. Les palais ont l'habitude des papillons.
+
+@+plt_cap_b
+~ondine: Ondine se penche vers Madame Épine, poliment. Elle se pique. Elle fuit un peu, par le doigt.
+~bartho: Bartholomé regarde le cactus de haut en bas. « Ça boit pas, ça. Ça me plaît pas. »
+~brisefer: Brisefer et Madame Épine se regardent longtemps. Aucune des deux ne cligne : l'une n'a pas de paupières, l'autre n'en a pas besoin. Match nul.
+~pistil: Pistil se cache dans ton col. « Les cactus, ça rêve de pluie. Toujours. C'est pour ça qu'elle est en colère. »
+~anatole: Anatole se pose sur une épine, par erreur. Il repart très vite.
+
+@+plt_cap_c
+~ondine: Ondine : « Lampadaire céleste numéro un. C'est beau, comme nom. C'est triste, comme facture. »
+~bartho: Bartholomé : « Chez nous, on l'appelait la lanterne des noyés. Elle montrait le port. »
+~brisefer: Brisefer serre la main du Cantonnier. Il plie un peu. « Trois cents ans de lampadaires. Respect, collègue. »
+~pistil: Pistil regarde la perche du Cantonnier. « On dort mieux sous un lampadaire allumé par quelqu'un qui les aime. Je le vois dans les rêves. »
+~anatole: Anatole tourne autour de la perche. Le Cantonnier : « Un papillon ! Bon signe. Ils viennent quand la lumière est bonne. »
+
+@+plt_cap_g
+~brisefer: Brisefer ne monte pas dans la cage de fer forgé : elle prend l'escalier. On l'entend descendre, étage par étage, comme un orage. Madame Basalte : « Une collègue ! »
+~ondine: Ondine, à Madame Basalte : « Moi aussi, j'ai toujours voulu monter plus haut que mon phare. » « Alors on est deux. »
+~bartho: Bartholomé se tient à la grille. « C'est comme un bateau, mais debout. C'est pire. »
+~pistil: Pistil : « Elle rêve qu'elle monte au-dessus du toit. Toutes les nuits. Elle n'arrive jamais au dernier étage. »
+~anatole: Anatole vole dans la cage, en suivant la lumière. Madame Basalte le regarde. « Celui-là, il monte sans moi. »
+
+@+plt_cap2
+~ondine: Ondine s'accroupit devant le guichet, à la hauteur du lichen. « Vous avez vendu la Lune ? Moi, je lui écrivais. On aurait dû se parler avant. »
+~bartho: Bartholomé regarde le lichen. « C'est lui qui a signé ? Ce bout de mousse ? » Une minute plus tard : « Oui. » Bartholomé ne sait plus quoi dire. Il voulait crier sur quelqu'un de plus grand.
+~brisefer: Brisefer est restée dans l'escalier : le sous-sol moins quatre n'est pas fait pour elle. Elle crie d'en haut : « C'est lui, le signataire ? Il est tout petit ! » Trois minutes plus tard : « Je... grandis. »
+~pistil: Pistil regarde la signature qui pousse sur le carbone. « Les signatures aussi, ça rêve. Celle-là rêve de ne jamais finir. »
+~anatole: Anatole se pose sur la tasse de rosée froide. « Vous permettez ? » Le temps que le lichen réponde, il a tout bu. Le lichen n'est pas fâché.
+
+@+plt_cap3b
+~bartho: Bartholomé : « Moi aussi, j'ai signé un truc que je regrette. » Il réfléchit. « Non. Rien. Je regrette rien de Perline. » Il boit.
+~brisefer: Brisefer, depuis l'escalier : « Signer sans lire. Porter sans savoir. C'est le même métier. »
+~anatole: Anatole écoute avec ses grands yeux. « Moi, je note les heures sans savoir pourquoi. On fait tous des choses sans lire. »
+
+@+plt_cap3
+~bartho: Bartholomé : « Il va mettre trois semaines, à pied, le lichen. Prends-le, le doré. » Puis, gêné : « C'est pour aller plus vite, hein. »
+~brisefer: Brisefer, d'en haut : « S'il vient, je le porte. J'aime bien porter ce qui ne pèse rien. Ça repose. »
+~anatole: Anatole : « Je peux le porter aussi. Sur une aile. Si vous ne bougez pas trop. »
+
+@+plt_cap_h
+~basile: Basile s'incline devant Madame Pruine, en deux minutes. « Doyenne. » « Grumeau. » Ils ne se disent rien d'autre. Chez les lichens, c'est une conversation.
+~ondine: Ondine regarde le tampon VU. « Si je tamponnais mes lettres, elle les aurait vues ? » Une minute. « Elle... les a vues. »
+~brisefer: Brisefer passe la tête dans le couloir, et c'est tout ce qui passe. Madame Pruine la regarde. « Vous... êtes vue. » Brisefer est très émue, sans savoir pourquoi.
+~bartho: Bartholomé regarde le ticket zéro. « Zéro. Le nombre de fois où la mer est revenue cette semaine. »
+~pistil: Pistil : « Elle rêve lentement, cette dame. Un rêve par an. Celui de cette année, c'est toi. »
+~anatole: Anatole se pose sur le guichet. Madame Pruine le tamponne, très doucement. « VU. » Il repart, flatté.
+
+@+plt_cap_i
+~basile: Basile regarde la signature ronde. Il met cinq minutes à dire : « Elle... a signé... elle aussi. Personne... ne lui a... demandé... de signer... la vente. »
+~ondine: Ondine pose la main sur la cloche. « Aussi longtemps que quelqu'un la regardera. Moi, je la regarde. Ça compte ? » « Ça compte », dit Madame Basalte.
+~bartho: Bartholomé lit par-dessus ton épaule. « Aussi longtemps que quelqu'un la regardera. » Il se tait. Il la regarde tous les soirs, pour Perline. Il ne le dit pas.
+~brisefer: Brisefer attend dans la cour, trop lourde pour les archives. On l'entend d'en haut : « Un contrat ? C'est lourd ? » « Non. » « Alors ça tient rien. »
+~pistil: Pistil : « Ce contrat-là, elle le relit en rêve, la Lune. Toutes les nuits. »
+~anatole: Anatole se pose sur la cloche et regarde la signature ronde. « On dirait une fleur qui s'ouvre. »
+
+@+plt_cap_e
+~ondine: Ondine prend le pinceau et écrit, en tout petit : « Chère Lune. » Elle ne sait pas faire autrement.
+~bartho: Bartholomé écrit, en grosses lettres de travers : « PERLINE EST LÀ-HAUT. » Il repose le pinceau, gêné, comme s'il avait parlé trop fort.
+~brisefer: Brisefer lit le mur jusqu'en bas. « On ne vend pas le ciel. » Elle hoche la tête. « Ni l'Axe. Il faudrait l'écrire aussi. »
+~pistil: Pistil lit une phrase à voix basse : « Ma grand-mère lui parlait. » Puis : « Elle lui parle encore. Je l'entends, la nuit. »
+~anatole: Anatole se pose sur le U de LUNE. C'est sa lettre préférée : ronde en bas, comme une fleur qui attend.
+
+@+plt_cap_k
+~ondine: Ondine regarde la ligne à la craie. « Aller simple. Elle n'a même pas de bagages. »
+~bartho: Bartholomé : « Retard, c'est mieux. À Grève-Molle, tout est toujours en retard. Même la mer, maintenant. »
+~basile: Basile lit le tableau. Le train part avant qu'il ait fini la première ligne. Il lira le suivant.
+~brisefer: Brisefer ne prend pas le train : elle le casserait. Elle marchera à côté, dit-elle. Elle arrivera avant.
+~pistil: Pistil regarde le tableau. « Les trains rêvent tous de la même chose : ne pas partir. »
+~anatole: Anatole regarde les rails. « Ils vont tout droit. Moi, je n'y arrive plus. »
+
+# ---------- Les Profondeurs ----------
+
+@+plt_bri_a
+~basile: Basile voit la vieille taupe souffler. Il voudrait l'aider. Il pèse une mousse. Il souffle avec elle, par solidarité.
+~bartho: Bartholomé prend la corde à côté de toi. « Tirer, je sais faire. Des filets, des ancres. » Il tire. Il pleure un peu en tirant : c'est l'eau qui sort.
+~anatole: Anatole n'aime pas descendre : la Lune est en haut. Il garde les yeux vers le haut de la cage, même quand il n'y a plus que du noir.
+~pistil: Pistil : « Les taupes rêvent en couleurs. Elles ne voient rien le jour, alors la nuit, elles se rattrapent. »
+
+@+plt_bri_b
+~ondine: Ondine regarde les milliers de Gravitaires assis. « Ils transpirent du sable. Ils ont soif. » Elle n'ose pas encore leur proposer de l'eau.
+~bartho: Bartholomé regarde l'Axe. « Un mât. Le plus grand mât du monde, et l'équipage assis dessus pour qu'il penche pas. » Il ôte sa casquette.
+~basile: Basile regarde l'Axe sans en voir le haut. « Il n'y a... pas de... formulaire... pour ça. »
+~anatole: Anatole se pose sur l'épaule d'un Gravitaire assis. « Merci », dit Anatole. Le Gravitaire ne sait pas de quoi.
+~pistil: Pistil, très doucement : « Ils rêvent tous de la même chose, en bas. De se lever. »
+
+@+plt_bri_c
+~ondine: Ondine s'agenouille devant la petite au bonnet. « Ton papa, il est où ? » La petite montre la foule assise. Ondine ne voit que des montagnes.
+~bartho: Bartholomé répète : « Gneiss. Fissure en étoile. » Il oublie les noms, depuis Perline. Il ne veut pas oublier celui-là.
+~basile: Basile, sur ton épaule : « Il oublie... un mot... par heure. » Une minute. « Moi... je mets... une heure... pour un mot. On est... quittes. »
+~anatole: Anatole : « Je peux voler jusqu'à lui ! » Il vole. Il revient. « Il y a trop de têtes. Elles ont toutes des fissures. »
+~pistil: Pistil, à la petite : « Cette nuit, je passerai dans le rêve de ton papa. Mais c'est mieux si tu lui dis maintenant. »
+
+@+plt_bri_c2
+~basile: Basile s'installe sur l'épaule couverte de lichen d'un vieux Gravitaire. Deux lichens, l'un sur l'autre. Ils se parlent par la Toile. Ça prendra la journée.
+~pistil: Pistil, contre ton cou : « Tu ne pèses rien, mais tu comptes. Il a raison, le vieux. »
+
+@+plt_bri_e
+~ondine: Ondine trempe sa main dans le lac noir. « Chez moi, l'eau qui ne bouge pas, c'est l'eau qui a peur. »
+~bartho: Bartholomé, à la taupe passeuse : « On rame bien, ici. Il y a pas de vagues. Ça rame presque tout seul. » « Presque », dit la taupe.
+~basile: Basile regarde son reflet dans le lac, à côté du tien. Une mousse et un monsieur d'or. « On est... assortis. » Tu ne sais pas si c'est une blague. Lui non plus.
+~anatole: Anatole vole au ras de l'eau noire. Il n'y voit pas de Lune. Il remonte vite dans la barque.
+~pistil: Pistil se penche sur le lac. Il n'a pas de reflet : il est fait de rêve. Il te regarde, toi, dans l'eau. « Tu as l'air de quelqu'un d'autre. C'est bien. »
+
+@+plt_bri_f
+~bartho: Bartholomé entend ton nom rouler dans les galeries. Il hoche la tête. « Moi aussi, quand je me cogne, je jure contre lui. » Il crie « PLATINE ! » à son tour, pour le plaisir. Écho est ravie.
+~ondine: Ondine sursaute au nom, puis elle comprend que tu t'es cogné. « Vous jurez comme les pêcheurs de chez moi. Eux aussi crient son nom, depuis trois jours, quand ils se font mal. »
+~basile: Basile entend le nom revenir dix fois. Il met une minute à dire : « Il... est... partout... ce nom. Même ici. »
+~anatole: Anatole se bouche les antennes. « Ici, tout revient. Même les mauvais mots. »
+~pistil: Pistil ne dit rien. Lui sait que tu n'as pas juré contre quelqu'un. Tu as dit ton nom, comme un enfant qui appelle au fond d'un coffre.
+
+@+plt_bri_d
+~ondine: Ondine regarde ses reflets dans les cristaux violets. Mille Ondine. « Il y en a une qui a reçu une réponse ? »
+~bartho: Bartholomé : « Creux au centre. Comme les bateaux. Ça flotte mieux, paraît-il. »
+~basile: Basile se fait ausculter aussi, sans l'avoir demandé. « Vibration très lente. Aucun creux. » Il est un peu déçu.
+~anatole: Anatole se pose sur un cristal. Il y voit cent lunes violettes. Il ne sait plus laquelle suivre. Dr Quartz note : « Désorientation. Statistiquement normale. »
+~pistil: Pistil entend le mot « creux ». Il regarde ta poitrine. « Je sais ce qu'il y a dedans. Un coffre, tout petit. »
+
+@+plt_bri
+~ondine: Ondine goûte la soupe de lave. Elle fume de partout. « C'est... chaud. » Brisefer : « C'est honnête. »
+~bartho: Bartholomé s'assoit en face de la géante. « Vous êtes Brisefer ? Celle de l'Axe ? Mon père parlait de vous. Il disait que vous pesiez votre poids. » Elle prend ça pour un compliment. C'en est un.
+~basile: Basile regarde le gros livre de fleurs pressées. « Un... herbier. C'est... un registre... pour les fleurs. » Brisefer le regarde, surprise qu'on comprenne.
+~anatole: Anatole regarde les fleurs blanches dans le livre de Brisefer. « Ce sont mes belles-de-nuit. » Brisefer lève les yeux. Anatole recule. « Enfin, je crois. Elles se ressemblent toutes. »
+~pistil: Pistil regarde la géante presser ses fleurs. « Elle rêve de fleurs qui tombent du ciel. C'est le plus joli rêve d'ici. »
+
+@+plt_bri2
+~ondine: Ondine se lève avec elle. « Moi aussi, je monte. On monte ensemble ? » Brisefer la regarde. « La grande mouillée. Pourquoi pas. Tu me rafraîchiras. »
+~bartho: Bartholomé : « Lui dire ce que ça pèse, au Platine ? Je viens. J'ai des choses à lui dire aussi. Sur Perline. » Il ne te regarde pas en le disant. Il ne sait pas.
+~basile: Basile, sur ton épaule : « Il faudra... un témoin... quand vous lui direz. Je peux... témoigner. »
+~anatole: Anatole : « Moi, je suis trop léger pour lui dire ce que ça pèse. Je lui dirai ce que ça éclaire. »
+
+@+plt_bri_g
+~ondine: Ondine aide un vieux Gravitaire à remonter son lit. Elle glisse avec lui. Ils arrivent au bout du dortoir ensemble, en riant.
+~bartho: Bartholomé : « Moi aussi, je dors mal. Mon lit glisse pas. C'est la place à côté qui est vide. »
+~basile: Basile s'endort sur un lit de pierre, au milieu de la visite. Le lit glisse avec lui jusqu'au mur. Il ne se réveille pas.
+~anatole: Anatole se pose au pied d'un lit qui glisse. Il fait le trajet trois fois. Il trouve ça très amusant. Personne d'autre.
+~pistil: Pistil passe la main sur les lits. « Ils rêvent tous qu'ils sont encore sur l'Axe. Même en dormant, ils tiennent. »
+
+@+plt_bri_h
+~ondine: Ondine pose un domino. Il glisse. Elle le rattrape avec un peu d'elle. C'est de la triche. Brisefer laisse passer.
+~bartho: Bartholomé : « Aux dominos, je perds toujours. Perline gagnait. Elle trichait. » Il sourit, une seconde.
+~basile: Basile pose un domino. Le temps qu'il le pose, la partie est finie. Il en commence une autre, tout seul.
+~anatole: Anatole compte les points à voix haute, très vite. Les anciens le trouvent fatigant.
+~pistil: Pistil regarde les dominos glisser vers l'est. « Même les jeux penchent, maintenant. »
+
+@+plt_bri_h2
+~ondine: Ondine regarde la médaille sous le pied de table. « Vous auriez dû la donner à quelqu'un. » « Personne n'a jamais rien porté. » « Moi, je porte des lettres. » Brisefer réfléchit. « Ça compte. Un peu. »
+~bartho: Bartholomé : « Une médaille pour avoir porté. Moi, on m'a rien donné pour avoir attendu. » Brisefer : « Attendre, c'est porter du vide. C'est lourd aussi. »
+
+@+plt_bri_k
+~ondine: Ondine respire très fort quand le ciel apparaît. Elle a fumé tout le long. Elle a rapetissé d'un centimètre.
+~bartho: Bartholomé : « Le ciel. Enfin. » Puis il cherche la Lune, et sa tache blanche.
+~basile: Basile met toute la remontée à dire « Le jour ». Il le dit pile au moment où vous sortez.
+~anatole: Anatole s'envole avant tout le monde, droit vers la Lune, puis revient, de travers.
+~pistil: Pistil cligne des yeux au soleil. Il n'aime pas trop le jour. Il le dit poliment.
+
+# ---------- La forêt et la Serre ----------
+
+@+plt_ana_a
+~ondine: Ondine renifle la fumée. « Chez moi, ça sent le sel. Ici, ça sent la peur. »
+~bartho ?flag:pl_ecope: Bartholomé regarde les géomètres dorés, puis toi. « Ils vous ressemblent. » Un temps. « Non. Vous, vous avez écopé. »
+~bartho: Bartholomé regarde les géomètres dorés, puis toi. « Ils vous ressemblent. » Tu ne réponds pas.
+~brisefer: Brisefer marche sur une braise. Elle s'éteint. Elle en cherche d'autres.
+~basile: Basile frémit sur ton épaule : il entend la Toile. « Les racines... crient. » Une minute. « Lentement. C'est... le pire. »
+~pistil: Pistil : « Les arbres rêvent qu'ils marchent. Celui-là rêve qu'il s'enfuit. »
+
+@+plt_ana_e
+~ondine: Ondine met les mains dans le ruisseau. L'eau remonte aussi dans ses bras. « Elle veut partir avec la Lune. Moi aussi, un peu. »
+~bartho: Bartholomé : « Une rivière à l'envers. J'aurai tout vu. » Il crache dedans. Le crachat remonte.
+~brisefer: Brisefer pose un pied dans le ruisseau. L'eau fait le tour, vexée, et continue de monter.
+~basile: Basile regarde les cailloux rouler vers le haut. « Ils vont... plus vite... que moi. Même... en montée. »
+~pistil: Pistil : « Les poissons rêvent qu'ils descendent. Ils se réveillent toujours plus haut. »
+
+@+plt_ana_b
+~ondine: Ondine s'incline. « Tante. » « ONDINE ! TU AS GRANDI. NON. TU AS SÉCHÉ. NON. TU AS GRANDI. »
+~bartho: Bartholomé ôte sa casquette. « Perline avait toujours froid aux pieds. » « JE LUI AI FAIT DES CHAUSSONS. IL Y A VINGT ANS. NON. VINGT ET UN. » Bartholomé ne dit plus rien.
+~brisefer: Brisefer et Tante Mélusine se regardent : deux géantes, l'une de pierre, l'autre de laine. Elles se font un signe de tête. Elles se respectent.
+~basile: Un bout de laine de lumière s'enroule autour de Basile, en passant. « IL AVAIT FROID. NON. IL ÉTAIT LENT. C'EST PAREIL. »
+
+@+plt_ana_c
+~ondine: Ondine s'assoit près d'une Lunatique et l'aide à tenir sa pelote, sans la toucher : l'eau éteint les bougies.
+~bartho: Bartholomé regarde la plus jeune pâlir. Il se détourne. « J'ai déjà vu quelqu'un partir. Je regarde pas deux fois. »
+~brisefer: Brisefer s'assoit au milieu des Lunatiques, très doucement, pour leur faire de l'ombre contre le vent. Elles tricotent plus droit.
+~basile: Basile compte les Lunatiques. « Hier... il y en avait... une de plus. » La Toile le lui a dit.
+~pistil: Pistil, contre ton cou : « Elles rêvent de fil. Rien que de fil. Un rêve tout blanc, qui ne finit pas. »
+
+@+plt_ana_f
+~ondine: Ondine s'assoit sur une pierre sans lichen, par politesse. Elle attend la fin de la phrase avec toi. Elle a l'habitude d'attendre des réponses.
+~bartho: Bartholomé : « Deux heures pour une phrase ? » Il s'assoit quand même. « J'ai attendu vingt ans pour rien. Deux heures pour une phrase, c'est donné. »
+~brisefer: Brisefer ne s'assoit pas : elle écraserait une famille. Elle reste debout deux heures, très droite. Elle trouve ça reposant.
+~pistil: Pistil : « Ils rêvent tous ensemble, les lichens. Un seul rêve, très long, depuis mille ans. Tu viens d'y entrer. »
+
+@+plt_ana_k
+~basile: Basile comprend les champignons mieux que toi : c'est la Toile. « Une pierre... qui pense... au Carrefour. » Une minute. « Le Président. Il pense... très fort. »
+~ondine: Ondine regarde les champignons clignoter. « On dirait mon phare, en petit, et en beaucoup. »
+~bartho: Bartholomé marche à côté du cercle, pas dedans. « Les champignons qui parlent, je m'en méfie. Ça finit en soupe. »
+~brisefer: Brisefer se penche au-dessus du cercle. Les champignons répètent : « Une montagne marche dans la forêt. » Elle est très fière.
+~pistil: Pistil : « C'est comme les rêves, ces champignons. Ils répètent ce qu'ils ont entendu, en mélangeant. »
+
+@+plt_ana
+~ondine: Ondine regarde les fleurs à moitié ouvertes. « Elles hésitent, comme la vague. »
+~bartho: Bartholomé regarde le grand papillon arroser. « Un jardinier de nuit. Moi, j'étais pêcheur de nuit. On dort pas, dans ces métiers. »
+~brisefer: Brisefer reste dehors : la serre est en verre. Elle colle son visage à la vitre et regarde les fleurs blanches, longtemps. Elle ne dit pas pourquoi.
+~basile: Basile regarde le papillon. « Il... vole... de travers. » Une minute. « Moi... je ne vole pas... du tout. Il a... de la chance. »
+~pistil: Pistil : « Lui, je le connais. Il rêve d'heures, toutes les nuits. Des pendules qui fleurissent. »
+
+@+plt_ana_g
+~ondine: Ondine lit l'heure de la dernière fleur ouverte. « C'est l'heure où j'écris mes lettres. »
+~bartho: Bartholomé regarde le carnet. « Soixante ans d'heures. Moi, j'ai les marées dans la tête. C'est pareil, en mouillé. »
+~brisefer: Brisefer, par la vitre, voit le carnet. Elle pense à son livre de fleurs. Elle ne dit rien.
+~basile: Basile regarde les colonnes bien droites. « C'est... un très bon... registre. » C'est le plus beau compliment qu'il connaisse.
+~pistil: Pistil ne lit pas le carnet. Il regarde Anatole. « Il a peur de ne plus savoir l'heure. C'est la peur la plus douce que je connaisse. »
+
+@+plt_ana_g2
+~pistil: Pistil : « Moi, je ne connais que l'heure des rêves. C'est toujours la même : maintenant. »
+~brisefer: Brisefer, à travers la vitre : « Moi, je savais l'heure, à l'Axe. Quand ça penchait, c'était l'heure. » « C'est une drôle d'horloge. » « Elle marchait. »
+
+@+plt_ana2
+~pistil: Pistil, à Anatole : « Viens. La nuit, là-haut, il y a plus de rêves que de fleurs. »
+~basile: Basile : « Lui... un parapluie. Moi... une mousse. On ne prend... pas de place... à nous deux. »
+~bartho: Bartholomé : « Un papillon de plus. On va finir par ressembler à une lanterne. »
+
+@+plt_ana_d
+~brisefer: Brisefer se penche au-dessus de la fente. Elle renifle. Soupe de lave. Elle se tait très longtemps. « C'est d'ici qu'elles tombent. » Elle regarde vers la serre, vers le papillon. Ses yeux brillent comme du mica. Elle ne dit rien d'autre.
+~ondine: Ondine se penche à la fente. « Ça sent la soupe. C'est très loin, en bas. »
+~bartho: Bartholomé jette un caillou dans la fente. On ne l'entend pas arriver. « C'est profond comme l'attente. »
+~basile: Basile : « Une fente... c'est une boîte... aux lettres... sans adresse. »
+~pistil: Pistil : « Quelqu'un rêve, tout en bas, de fleurs qui tombent du ciel. Je le sens d'ici. »
+
+@+plt_ana_h
+~ondine: Ondine s'assoit dans l'allée, sans bruit. Elle regarde les fleurs s'ouvrir autour de toi. Elle l'écrira demain.
+~bartho: Bartholomé s'est endormi sur un pot retourné. Il ronfle. Les fleurs s'ouvrent quand même.
+~brisefer: Brisefer regarde de dehors, le nez contre la vitre. Les fleurs s'ouvrent autour du doré. Elle grogne. Elle sourit dans le noir, où personne ne voit.
+~basile: Basile voit les fleurs s'ouvrir une à une. Pour lui, ça va très vite. C'est la première fois de sa vie.
+~pistil: Pistil chuchote, pour ne pas les effrayer : « Elles te prennent pour la Lune. Ne leur dis rien. »
+
+# ---------- Le Carrefour ----------
+
+@+plt_car
+~pistil: Pistil regarde les milliers de gens. « Je connais leurs rêves, à presque tous. Cette nuit, ils rêveront tous de la même chose. »
+~basile: Basile voit le bureau des objets perdus et ses trois montagnes. « Il faudra... un formulaire... pour chacune. »
+~bartho: Bartholomé regarde la foule. « Tout le monde regarde en l'air. À Grève-Molle, on regardait la mer. Ici, il reste que le ciel. »
+
+@+plt_car2
+~pistil: Pistil voit le bocal qui flotte. Il plisse les yeux. « Il y a quelqu'un dessous qui rêve à moitié. Je ne vois que la moitié qui dort. »
+~ondine: Ondine regarde le galet sur le coussin. « Il pâlit. Comme moi quand je sèche. »
+~bartho: Bartholomé regarde l'homme en redingote. « Il parle beaucoup, pour quelqu'un qui dit rien. »
+~brisefer: Brisefer se met au premier rang et salue le galet, la main au front, comme aux cérémonies de l'Axe. Le galet ne bouge pas. Elle trouve ça très digne.
+~basile: Basile regarde le galet. Il met cinq minutes à dire : « C'est... lui... qui n'a rien dit. J'ai signé... à cause... de son silence. » Il ne lui en veut pas. Il le regarde comme un collègue.
+~anatole: Anatole tourne autour du bocal qui flotte, malgré lui : il brille un peu. Le bocal fait une bulle. Anatole s'excuse auprès de la bulle.
+
+@+plt_car7
+~ondine: Ondine aide l'infirmière à arroser les Marégraves trop sèches. Elle leur donne un peu d'elle. Elle rapetisse. Elle ne dit rien.
+~bartho: Bartholomé s'assoit au bord d'un lit où sèche un vieux Marégrave. « Courage, matelot. » Il lui verse sa gourde. Il n'a plus d'eau douce pour lui. Il s'en fiche.
+~brisefer: Brisefer tient l'entrée de la tente, que le vent veut emporter. Elle la tient toute la soirée. C'est ce qu'elle sait faire.
+~basile: Basile, sur une table de chevet, tient compagnie à un nuageon fatigué. Ils ne se disent rien. Ils vont à la même vitesse.
+~anatole: Anatole se pose près d'une Lunatique presque éteinte. Il bat des ailes très doucement, pour ne pas souffler sa flamme.
+~pistil: Pistil passe de lit en lit. Il entre dans les rêves des évaporés et y met un peu d'eau. Au matin, certains vont mieux. Personne ne sait pourquoi.
+
+@+plt_car3
+~ondine: Ondine lit le dos d'une carte. « Tout va bien ici. On pense à toi. » Elle sourit. « C'est ce que j'écris, moi, en plus long. »
+~bartho: Bartholomé achète une carte, pour Perline. Il ne sait pas à quelle adresse l'envoyer. Il la garde dans sa casquette.
+~brisefer: Brisefer prend une carte entre deux doigts, comme une feuille morte. « C'est léger, une carte. Ça voyage loin ? » « Très loin. » « Tant mieux. »
+~basile: Basile lit le dos d'une carte pendant que tu en regardes dix. « Pas de nom... pas d'adresse. C'est... irrecevable. » Il la trouve très belle quand même.
+~anatole: Anatole regarde la Lune sur les cartes, à sa place, au-dessus d'une mer calme. Il en voudrait une pour chaque fleur.
+~pistil: Pistil : « Les cartes postales, ce sont des rêves qu'on a payés un sou. C'est très bon marché. »
+
+@+plt_car5
+~basile: Basile : « Quatre... minutes. Il m'en faut... quatre... pour une phrase. » Il trouve que le Conseil est allé trop vite.
+~ondine: Ondine écoute au fond, debout. Quand on parle des Côtes, elle lève la main. Personne ne la voit. Elle la garde levée jusqu'à la fin.
+~bartho: Bartholomé : « Quatre minutes pour décider. À Grève-Molle, il faut une journée pour choisir le vin. Et on boit de l'eau. »
+~brisefer: Brisefer est trop grande pour la tente : elle regarde par une déchirure de la toile. Les délégués voient un œil de silex. Ils votent plus vite.
+~anatole: Anatole se pose sur la carte, sur la Forêt. Un délégué le chasse. Il revient. Il veut que la Forêt soit sur la carte.
+~pistil: Pistil, contre ton cou : « Le galet rêve tout éveillé. C'est le seul, ici. »
+
+@+plt_car6
+~ondine: Ondine, à la taupe : « Vous écrivez à qui ? » « Au journal. » « Il répond ? » « Jamais. » « Alors on fait le même métier. »
+~bartho: Bartholomé écarte la taupe. « Pas de journaliste. Ils ont écrit sur Perline, il y a vingt ans. Ils ont mal écrit son nom. »
+~brisefer: Brisefer se penche. La taupe recule de trois mètres. « Une déclaration ? » Brisefer : « Ça pèse. » La taupe note : « Ça pèse. » Elle trouve ça très profond.
+~basile: Basile commence une déclaration. La taupe est déjà partie.
+~anatole: Anatole demande l'heure à la taupe. Elle ne voit pas l'heure. Ils sont tristes ensemble, une seconde.
+~pistil: Pistil chuchote : « Elle renifle bien, la taupe. Tu sens un peu le coffre. »
+
+@+plt_car6b
+~basile: Basile regarde le vieux Lichenaute faire la classe. « C'était... mon maître. Il y a... deux siècles. » Il ne le salue pas : la leçon n'est pas finie.
+~bartho: Bartholomé, au fond : « Parce qu'il en avait pas. » Il répète la phrase de la petite, lentement. Il regarde la Lune.
+
+@+plt_car4
+~ondine: Ondine s'assoit avec la famille de Marégraves. Ils se connaissent tous, à Grève-Molle. Elle leur donne des nouvelles du phare.
+~bartho: Bartholomé regarde le portrait à moustaches. « Il a une tête à pas écoper, celui-là. » Il crache par terre, puis il s'excuse auprès de la famille.
+~brisefer: Brisefer s'assoit près du vieux Gravitaire qui raconte l'Axe aux enfants. Elle corrige les chiffres. Les enfants la regardent, bouche ouverte.
+~anatole: Anatole tourne autour des lanternes des tentes. Les enfants essaient de l'attraper. Il se laisse faire, un peu.
+
+# ---------- La remontée ----------
+
+@+plf_01b
+?comp:brisefer La navette penche d'un côté : Brisefer voyage dans la soute à fret, assise sur la porte. Pénélope corrige sans un mot.
+~ondine: Ondine regarde la Terre rapetisser par le hublot. « D'ici, la mer revient presque. » Elle colle son front à la vitre.
+~bartho: Bartholomé s'accroche à son siège. « Ça vole. C'est pire. C'est bien pire. » Il ne lâche pas les accoudoirs de tout le voyage.
+~basile: Basile voit la Terre s'éloigner. Pour lui, elle disparaît d'un coup. Il dit « Oh » une minute après.
+~anatole: Anatole colle ses ailes au hublot. La Lune grandit. « Elle est grise. Je croyais qu'elle était blanche. » Il la regarde quand même, de tout près.
+~pistil: Pistil regarde Pénélope piloter. « Elle rêve en tampons. APPROUVÉ, APPROUVÉ, APPROUVÉ. Et depuis peu, un REFUSÉ, tout petit. »
+
+@+plf_01c
+~anatole: Anatole regarde les ouvriers assis dans la poussière. « Ils font comme les fleurs. Ils regardent ce qui s'éloigne. »
+~bartho: Bartholomé regarde les ouvriers dorés assis. « Ils font grève ? » « Non. Ils regardent. » « Ça finit toujours pareil. »
+~ondine ?comp:bartho: Ondine, à Bartholomé : « C'est là, ta Perline ? » Il regarde longtemps. « Quelque part. » Ondine lui prend la main.
+~ondine: Ondine regarde la Lune de près pour la première fois. « Elle est toute abîmée. Elle ne me l'avait jamais dit. »
+~brisefer: Brisefer, dans la soute, ne voit rien. Elle sent la navette ralentir. « On s'arrête ? Bien. Ça penche moins. »
+~basile: Basile voit le chantier. Il met tout le survol à dire : « Des... cloisons. Sur... la Lune. » Il est très choqué, très lentement.
+~pistil: Pistil : « Elle dort, la Lune, quand les machines s'arrêtent. Elle rêve qu'on la laisse tranquille. »
+
+@+plf_01d
+~ondine: Ondine regarde le dessin dans la main de Krâmm. « Elle dessine la Lune à sa place. C'est comme une lettre. »
+~bartho: Bartholomé, à Krâmm : « Votre fille a raison. » Krâmm le regarde, étonné qu'un inconnu mouillé ait un avis. Il a raison quand même.
+~brisefer: Brisefer, au bout du quai qui craque sous elle, regarde Krâmm. « Il a l'air triste, pour un meuble. »
+~basile: Basile regarde Krâmm. Deux fonctionnaires se reconnaissent. Krâmm ouvre un tiroir. Basile fait un signe de tête. C'est tout. C'est beaucoup.
+~anatole: Anatole se pose sur un tiroir ouvert de Krâmm. Krâmm ne le chasse pas. Il l'inscrit, par réflexe : « Un papillon. »
+~pistil: Pistil regarde le dessin. « La petite qui a dessiné ça rêve de la Lune tous les soirs. Toujours à sa place. »
+
+@+plf_01e
+~ondine: Ondine regarde l'Horloger. « Vous avez l'air d'avoir mal dormi. » « Ma concierge aussi », dit-il.
+~bartho: Bartholomé : « Deux pour cent de la Lune. Ça fait combien de Perline, ça ? » Zéphyrin ne comprend pas. Toi, si.
+~brisefer: Brisefer, restée au bout du quai, entend parler d'argent. Elle grogne. On l'entend jusque dans le couloir.
+~basile: Basile regarde l'enveloppe. « Rendre... C'est un formulaire... qui n'existe pas. Il faudrait... l'inventer. »
+~anatole: Anatole demande l'heure à Zéphyrin, parce qu'il est Horloger. Zéphyrin regarde sa montre. Elle retarde. « Depuis que la Lune bouge, tout ralentit », dit-il.
+~pistil: Pistil : « Lui, il rêve de sa concierge, toutes les nuits. Elle lui demande où est la Lune. »
+
+@+plf_01e2
+~pistil: Pistil regarde Pénélope. « Elle a commencé à rêver. Depuis quatre millions de lettres. »
+~basile: Basile regarde les tampons de Pénélope. « Vous tamponnez, vous aussi ? » « Trois... siècles. » « Vous avez déjà refusé ? » Deux minutes. « Jamais. » Ils se taisent, collègues.
+~anatole: Anatole se pose sur le plateau, à côté du thé. Pénélope le regarde boire une goutte. Elle sourit, ce qui fait un bruit de photocopieuse.
+~bartho: Bartholomé : « Quatre millions de lettres. » Il siffle. « Et personne a répondu ? » Pénélope : « Pas encore. »
+
+@+plf_01f
+~ondine: Ondine regarde la chanson en bocal. « Elle ne chante pas ? » « Il faudrait ouvrir. » « Alors ouvrez. Tout ce qui est fermé finit par se taire. »
+~bartho: Bartholomé regarde le socle vide, rond, très grand. « C'était pour elle ? » Tu ne réponds pas. Il serre les poings, puis il les desserre : c'est de l'eau.
+~brisefer: Brisefer regarde la Salle par la porte, sans entrer. « Tout ça, rangé. Personne ne porte rien, ici. Tout est posé. »
+~basile: Basile lit les étiquettes, une par minute. « Le dernier... flocon. La dernière... lettre. Vous ne collectionnez... que des derniers. »
+~anatole: Anatole se pose sur la cloche du coucher de soleil plié. « On pourrait le déplier. Juste un peu. Pour voir l'heure. »

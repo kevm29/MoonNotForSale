@@ -15,18 +15,18 @@
 !fx: pc:anatole=>+flag:faille_colonelle
 
 @+nui_02
-* nui_75 ?nuit<3 ?pc:anatole ?flag:faille_colonelle ?!flag:n_col | Aller vers la Gravitaire en granit assise seule, loin des feux, une boîte en fer sur les genoux | Elle est assise sur un rocher qui est peut-être un morceau d'elle-même. Elle ne lève pas les yeux quand tu approches. |  |
+* nui_77 ?nuit<3 ?pc:anatole ?flag:faille_colonelle ?!flag:n_col | Aller vers la Gravitaire en granit assise seule, loin des feux, une boîte en fer sur les genoux | Elle est assise sur un rocher qui est peut-être un morceau d'elle-même. Elle ne lève pas les yeux quand tu approches. |  |
 
-@nui_75
+@nui_77
 !title: La colonelle
 !fx: +flag:n_col +flag:colonelle_vue nuit+1
 Une Gravitaire. Onze tonnes de granit gris, un vieux casque cabossé posé à côté d'elle, et sur ses genoux une boîte en fer-blanc, de celles où l'on range les biscuits. Elle ne sourit pas. Grand-Mère Faille avait raison : elle ne sourit pas.
 « Colonelle Agathe Brisefer », dit-elle sans tourner la tête. « Trois mille ans sur l'Axe. Remontée à la surface cette semaine, comme tout le monde. Si c'est pour un autographe, non. Si c'est pour la Lune, moi aussi. »
 Tu lui dis que tu viens de la part de Grand-Mère Faille, et qu'elle te charge de lui dire bonjour. Elle se tourne, enfin. Lentement : chez une Gravitaire, tourner la tête, c'est un petit séisme.
-* nui_76 coe13 | Lui avouer que c'est toi qui balaies les fleurs fanées dans la Fente, chaque matin, depuis soixante ans | Elle te regarde longtemps. Puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Pour la gardienne du dessous », dit-elle. « C'est ce qui est écrit sur la carte, chaque fois. Cinquante ans que je me demande qui. » Elle ne sourit toujours pas. Mais son menton tremble, et chez une Gravitaire, c'est un tremblement de terre. | Tu bafouilles. « Les fleurs... la Fente... c'est moi qui... » Elle fronce les sourcils, et tu as peur, puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs. « Toi ? Un papillon ? » Elle met longtemps à te croire. Elle finit par te croire. | +flag:colonelle_sait mor+2 | +flag:colonelle_sait
-* nui_76 rus11 | Lui demander, poliment, ce qu'il y a dans la boîte | « Des fleurs. » Un silence de granit. Puis elle ouvre la boîte : des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Quelqu'un me les envoie depuis cinquante ans. Je ne sais pas qui. » Tu reconnais tes fleurs. Tu reconnais même le petit pli que fait ton balai. | « Ça ne vous regarde pas. » Puis, comme tu ne pars pas, elle ouvre la boîte. Des belles-de-nuit séchées. Les tiennes. Tu les reconnais au petit pli que fait ton balai. | +flag:colonelle_sait |
+* nui_78 coe13 | Lui avouer que c'est toi qui balaies les fleurs fanées dans la Fente, chaque matin, depuis soixante ans | Elle te regarde longtemps. Puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Pour la gardienne du dessous », dit-elle. « C'est ce qui est écrit sur la carte, chaque fois. Cinquante ans que je me demande qui. » Elle ne sourit toujours pas. Mais son menton tremble, et chez une Gravitaire, c'est un tremblement de terre. | Tu bafouilles. « Les fleurs... la Fente... c'est moi qui... » Elle fronce les sourcils, et tu as peur, puis elle ouvre la boîte. Des milliers de belles-de-nuit séchées, blanches, rangées par rangs. « Toi ? Un papillon ? » Elle met longtemps à te croire. Elle finit par te croire. | +flag:colonelle_sait mor+2 | +flag:colonelle_sait
+* nui_78 rus11 | Lui demander, poliment, ce qu'il y a dans la boîte | « Des fleurs. » Un silence de granit. Puis elle ouvre la boîte : des milliers de belles-de-nuit séchées, blanches, rangées par rangs, comme des soldats. « Quelqu'un me les envoie depuis cinquante ans. Je ne sais pas qui. » Tu reconnais tes fleurs. Tu reconnais même le petit pli que fait ton balai. | « Ça ne vous regarde pas. » Puis, comme tu ne pars pas, elle ouvre la boîte. Des belles-de-nuit séchées. Les tiennes. Tu les reconnais au petit pli que fait ton balai. | +flag:colonelle_sait |
 
-@nui_76
+@nui_78
 !title: La gardienne du dessous
 ?flag:colonelle_sait La colonelle referme la boîte avec une précaution qu'on n'attendrait pas d'onze tonnes. « Je n'ai jamais vu une fleur vivante. Jamais. Elles arrivent toutes fanées. » Elle regarde ses mains. « Les tiennes ont l'air contentes, même sèches. »
 « Elles ne s'ouvrent que pour la Lune, madame. Si la Lune revient, je vous en enverrai une ouverte. »

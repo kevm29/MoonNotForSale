@@ -30,7 +30,8 @@ Tu remontes la plage vers le sud. Des villages de Marégraves sur pilotis, à mo
 @cot_05
 Le chenal fonctionne. L'eau coule vers les poissons, et les poissons coulent vers l'eau. Le mérou en uniforme retire sa casquette. « Merci. On n'avait pas eu de bonne nouvelle depuis... depuis la Lune. »
 Il désigne la vague immobile, au loin. « Si vous voulez aider vraiment, allez voir les Méduses. Elles tiennent tout, là-bas. Elles fatiguent. »
-* cot_06 pan10 | Y aller à la nage | Tu nages vers la vague. C'est comme nager vers un mur qui respire. | Tu nages mal. Une sardine te dépasse en te regardant de haut. | |
+* cot_06 pan10 ?pc:basile | Y aller sur un bout de bois flotté | Tu grimpes sur une planche. Un lichen ne nage pas : il se dilue. La planche, elle, avance vers la vague, à ta vitesse. | La planche tourne en rond. Une sardine te pousse, par pitié. | |
+* cot_06 pan10 ?!pc:basile | Y aller à la nage | Tu nages vers la vague. C'est comme nager vers un mur qui respire. | Tu nages mal. Une sardine te dépasse en te regardant de haut. | |
 * cot_07 coe11 | Demander au mérou comment il tient le coup | « Je donne des tickets. Quand on donne des tickets, on n'a pas le temps d'avoir peur. » Il en tend un. « Pour vous. Numéro un. » | « Je ne tiens pas, je fais semblant. Comme tout le monde. » | +flag:ticket_un |
 
 @cot_06
@@ -133,7 +134,8 @@ Il essuie une larme. Elle fait une petite fumée sur le comptoir.
 
 @cot_20
 Tu longes la côte. Plus loin, sur une jetée, une silhouette de classeurs gris : l'Huissier Krâmm. Il mesure les vagues une par une, avec un mètre ruban qui se déroule tout seul. Il note dans un registre : « Vague. Une. Bien meuble. »
-?!pc:ondine Il te voit. Il lève un tiroir pour te saluer.
+?!pc:ondine ?!pc:basile Il te voit. Il lève un tiroir pour te saluer.
+?pc:basile Il te voit. Il te reconnaît. Il note dans son registre : « Lichen, un. Encore. » Puis il lève un tiroir pour te saluer.
 ?pc:ondine Il te voit. Il te reconnaît. Un tiroir s'ouvre : « Accessoire en fuite. Bonjour. » Il ne fait rien pour t'attraper. Il a l'air trop fatigué pour ça.
 * cot_23 rus11 | L'aborder poliment | « Article premier : bonjour. Article deux : je fais l'inventaire des accessoires du satellite. Les marées en font partie. » Il semble fatigué. | « Article premier : circulez. » | |
 * cot_24 pan12 | Lui confisquer son registre | Tu le lui arraches. Il te regarde, stupéfait. Un tiroir s'ouvre, puis se referme. « Article... il n'y a pas d'article pour ça. » | Il le tient fermement. Vous tirez chacun de votre côté, et le registre s'ouvre en grand entre vous deux. Tu as le temps de lire une page avant qu'il le referme. | pan+1 |

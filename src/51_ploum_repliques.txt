@@ -9,7 +9,7 @@
 
 @+plu_hub
 ~pardon ?comp:brume ?regions>=2: Pardon mesure Brume-Lucie avec son mètre ruban. « Pardon. Vous faites un mètre douze. » Elle s'étire. « Et maintenant... ? » « Pardon. Trois mètres. » Elle se rétrécit, ravie. « Et maintenant... ? » Il range son mètre. Il ne gagnera pas.
-~bartho ?comp:pardon ?regions>=2: Bartholomé soulève Pardon par la tête, pour le regarder de près. « T'es en or, toi ? » « Pardon. En laiton doré. » « Dommage. » Il le repose, gentiment, à l'endroit.
+~bartho ?comp:pardon ?regions>=2: Bartholomé soulève Pardon par la tête, pour le regarder de près. « T'es en or, toi ? » « Pardon. En laiton doré. » « La Compagnie. Ils m'ont pris mon port. » Il le repose, sans méchanceté, mais sans douceur. Pardon ne dit plus rien de la journée.
 ~bartho ?comp:brume ?regions>=2: Brume-Lucie se pose sur l'épaule de Bartholomé. Il frissonne. « T'es humide. » « Toi aussi... » « Moi, c'est de naissance. » « Moi aussi... » Ils restent comme ça, humides ensemble, sans rien dire.
 ~ondee ?comp:pardon ?regions>=2: Dame Ondée regarde Pardon. « Vous êtes de la Compagnie. C'est la Compagnie qui m'avait mis un tuyau. » Pardon se cache derrière ton bocal. « Pardon. Pardon. Je mesurais seulement des racines. » Elle réfléchit, puis lui pleut une goutte sur la tête, pas méchante. « Une seule. Pour la forme. »
 ~ondee ?comp:brume ?regions>=2: Brume-Lucie et Dame Ondée se tournent autour, prudentes, comme deux chats. « Tu es un nuage... ? » « Et toi un brouillard. » « C'est pareil... ? » « Non. Moi je tombe. » « Moi... je traîne... » Elles décident que c'est de la famille éloignée.
@@ -40,10 +40,8 @@
 
 @+pcm_02b
 ~ondee: Dame Ondée regarde les aurores au mètre. « Je les ai vues, les vraies. Au pôle. Elles ne savaient pas qu'elles étaient à vendre. »
-~pardon: « Pardon. Combien le mètre ? » Le Lapon d'étoiles lui donne le prix. Pardon le note. Il n'a pas d'argent. Il note quand même. Il note tout.
 
 @+pcm_04
-~pardon: Pardon tremble sur ton dos à chaque coup de marteau. « Pardon. La Compagnie vend aussi. Pardon. C'est moi qui ai mesuré certains de ces lots. »
 ~bartho: Bartholomé ricane sous sa casquette. « Des souvenirs d'enfance. Qui achète ça ? Les miens, je les donnerais gratis. Enfin. Pas tous. »
 ~ondee ?comp:brume: Dame Ondée chuchote à Brume-Lucie : « Ils vendent un souvenir d'enfance. » « Et l'enfant... il le sait... ? » « Je ne crois pas. » Elles se taisent. L'horloge frappe trois coups.
 
@@ -142,7 +140,6 @@
 
 @+pct_06b
 ~ondee: Dame Ondée se met devant la lumière qui tourne faux, pour l'adoucir. Le faisceau devient gris, tout doux. Les bateaux, au loin, ne savent pas si c'est mieux.
-~bartho: « Ce phare, je l'ai allumé moi-même, quand j'étais mousse. » Bartholomé pose la main sur la lanterne. « Calme-toi, mon vieux. Calme-toi. »
 
 @+pct_07
 ~bartho ?comp:pardon: Bartholomé ouvre la bouteille avec les dents. Pardon : « Pardon. Ce n'est pas hygiénique. » « Je suis fait d'eau de mer. Rien n'est plus hygiénique que moi. »
@@ -169,7 +166,6 @@
 ~pardon: Pardon prend un coup de grêlon sur la tête. Ding. « Pardon. » Le grêlon : « Pardon ! » Ils s'excusent l'un après l'autre pendant une minute.
 
 @+pha_03
-~pardon: « Pardon. Il y a toujours un arrêt d'urgence. Toujours. » Pardon regarde la station comme on regarde une maison où on a grandi et qu'on n'aimait pas.
 ~brume: Brume-Lucie s'enroule autour d'un tuyau qui siffle. Le sifflement s'étouffe. « Chut... chut... »
 
 @+pha_04
@@ -235,7 +231,7 @@
 ?flag:obj_dessin_lune ?!flag:pm_dessin_rendu Le dessin de l'enfant Lichenaute frotte contre ton bocal. Sur le dessin, la Lune sourit. En vrai, elle dort. C'est presque pareil.
 
 @+pch_03
-~pardon: Pardon reconnaît le grutier. « Pardon. Monsieur Lucien. » Le grutier le reconnaît aussi. « Le petit mesureur ! T'étais parti où ? » « Pardon. Je cherchais ce qu'était une racine. » Le grutier hoche la tête : « Moi aussi, j'aimerais bien savoir. »
+~pardon: Pardon reconnaît le grutier. « Pardon. Monsieur Firmin. » Le grutier le reconnaît aussi. « Le petit mesureur ! T'étais parti où ? » « Pardon. Je cherchais ce qu'était une racine. » Le grutier hoche la tête : « Moi aussi, j'aimerais bien savoir. »
 ~bartho: Bartholomé regarde la tartine du grutier. Il a faim pour la première fois depuis trente ans. Il ne demande rien.
 
 @+pch_03b
@@ -264,7 +260,3 @@
 @+pmo_bur
 ~pardon ?comp:bartho: Bartholomé murmure à Pardon : « C'est lui, ton patron ? » « Pardon. Le patron de mon patron de mon patron. » « Il a l'air fatigué. » « Pardon. Oui. Ça, je ne l'avais jamais mesuré. »
 ~brume ?comp:ondee: Brume-Lucie et Dame Ondée se collent à la baie vitrée, de chaque côté. La Lune, derrière, a l'air d'être enveloppée de gris doux. Platine lève les yeux. Il ne dit rien. Il les regarde faire.
-
-@+pmo_dort
-~pardon: Pardon remonte le plaid sur les genoux de Platine. « Pardon, Monsieur. » Il s'excuse, cette fois, pour quelqu'un d'autre.
-~bartho: Bartholomé regarde Platine dormir. « Il dort comme un mousse après sa première tempête. » Il baisse sa voix, pour une fois.

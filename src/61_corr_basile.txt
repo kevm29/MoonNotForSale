@@ -1,0 +1,211 @@
+# ================================================================
+# CORRECTIONS ET AJOUTS — BASILE (thread de test, 21/11)
+# Région confiée : Tamponville (cap_) : répliques et duos des compagnons.
+# Plus : face-à-face Basile / Platine, fin 1 accessible, usages des documents de Basile.
+# ================================================================
+
+# ---------- Tamponville : l'Horlogère du chemin ----------
+@+cap_04
+?pc:basile ?flag:date_donnee Tu la reconnais : c'est l'Horlogère du chemin, celle qui avait perdu les mois. Elle te reconnaît aussi. « Le saint au calendrier ! » Elle te met d'office deux boutons dans la main, pour que tu les donnes à ton tour.
+
+# ---------- Négociation : le greffier face à l'acheteur ----------
+@+neg_05
+* neg_bas1 coe11 ?pc:basile | « Vous m'avez apporté un mille-feuille, un mardi. » | Platine se fige, la main sur le cadre. Il te regarde vraiment, pour la première fois. | Platine sourit poliment : « J'apporte des mille-feuilles à tout le monde. » Puis il te regarde mieux. Son sourire tombe. | +flag:platine_inquiet | +flag:platine_inquiet
+* neg_09 rus10 ?flag:acte_vente | Sortir l'original de ta mousse | Tu le déroules sur le marbre, à côté de la copie encadrée. Platine regarde l'un, puis l'autre. Il a perdu des couleurs, ce qui, pour des feuilles d'or, se voit tout de suite. | Tu le déroules à l'envers. Tu le retournes. Ça prend une minute. Platine a tout le temps de comprendre ce que c'est. | +flag:acte_montre +flag:dossier | +flag:acte_montre +flag:dossier
+
+@neg_bas1
+!title: Le greffier
+« Le guichet zéro », dit Platine, très bas. « Le greffier. Vous aviez de la crème jusqu'aux lichens. Vous avez pleuré en tamponnant. J'ai cru que c'était de joie. »
+Il repose le cadre. Il ne le caresse plus.
+« Je vous ai dit que c'était pour un lampadaire. » Il cherche ses mots. Il en trouve un, qu'il n'emploie jamais. « Pardon. »
+?comp:penelope Pénélope ne dit rien. Elle regarde son ancien patron s'excuser auprès d'un lichen, et elle range cette image quelque part, pour toujours.
+* neg_09 rus10 ?flag:signature_lente | « Ma signature n'est pas finie. Votre acte non plus. » | Il blêmit. Il reprend le cadre, colle son œil contre le verre. « Basile Gru… » Il manque la fin. Il manquera toujours la fin, tant que tu le voudras. | Tu le dis lentement. Si lentement qu'il a le temps de comprendre tout seul, avant la fin de ta phrase. | +flag:contrat_vice | +flag:contrat_vice
+* neg_06 coe11 | « Je croyais que c'était un lampadaire. Vous le saviez. » | Platine baisse les yeux. « J'ai écrit "luminaire". C'était vrai, techniquement. » Il se tait. « J'ai menti à un lichen. Personne ne ment à un lichen. Ils mettent trop longtemps à vous croire. » | « Techniquement, c'est un luminaire. » Il le dit sans aucune fierté. | +flag:platine_emu coe+1 |
+* neg_16 coe10 | Le laisser se souvenir, en silence | Tu ne dis rien. Un lichen sait se taire très longtemps. Platine, lui, ne sait pas. Il se lève, va à la baie vitrée, et regarde la Lune comme on regarde quelque chose qu'on a eu pour un mille-feuille. | Tu te tais, mais ta mousse frémit. Il le remarque. Il se détourne. | +flag:platine_emu mor+1 |
+
+# Pénélope, espionne depuis le prologue, entre au bon moment
+@+neg_16
+* neg_17 rus11 ?!comp:penelope ?flag:penelope_espionne | Pénélope entre avec le thé, comme convenu | La porte s'ouvre. Pénélope entre avec le plateau, comme tous les jours. Elle le pose sur le coin du bureau. Elle ne repart pas. Elle te fait un tout petit signe de tampon. | |
+
+# Fin 1 « Vice de forme » : la signature qui pousse, montrée par celui qui l'a faite
+@+fin_02
+* fin_03 rus10 ?pc:basile ?flag:signature_lente ?!flag:contrat_vice | Lui montrer que ta signature n'a pas fini de pousser | Tu poses ta mousse à côté de l'acte. La signature et toi, vous poussez au même rythme. « Tant que je ne l'ai pas finie, votre acte n'existe pas. » Platine n'a rien à répondre. Un poète reconnaît un vers inachevé. | Tu le dis si lentement que les moteurs grondent avant la fin de ta phrase. Mais Platine a compris dès le premier mot. Il regarde ta signature, puis toi. | +flag:contrat_vice | +flag:contrat_vice
+
+# Le tampon APPROUVÉ que Pénélope t'a donné (bas_29)
+@+fin_05
+* end_02 coe10 ?equ>=30 ?flag:tampon_approuve | Le regarder signer, puis tamponner toi-même, avec le tampon de Pénélope | Il signe. Tu sors de ta mousse le tampon de rechange que Pénélope t'a donné aux archives. « APPROUVÉ ». C'est la première fois de ta carrière que tu tamponnes un papier après l'avoir lu. | |
+
+# Le neveu du Président : pour Basile, Tamponville est toujours la dernière région
+@+hub_ret
+* hub_07 ?pc:basile ?regions>=2 ?flag:obj_neveu_galet | Poser le neveu du Président sur le coussin vide de la tribune | Le coussin de la tribune est vide depuis que le Président est rentré au Cadastre. Tu y poses son neveu. La foule se tait, puis applaudit : la continuité de l'État est assurée. Le petit galet ne dit rien, avec beaucoup de sérieux. | | -flag:obj_neveu_galet equ+3 mor+1
+
+# ================================================================
+# TAMPONVILLE : RÉPLIQUES ET DUOS DES COMPAGNONS
+# (toutes les répliques ci-dessous valent pour tous les héros, sauf ?pc:basile)
+# ================================================================
+
+# --- À l'arrivée : quand on comprend que Basile est le signataire ---
+@+cap_01
+?pc:basile ?comps>=1 Tes compagnons regardent l'affiche, puis toi. Tu ne dis rien. Tu n'as pas besoin : un lichen qui a honte devient gris clair, et tu es presque blanc.
+~fernand ?pc:basile: Fernand s'arrête devant l'affiche. Il te regarde. Il tape une réclamation à toute vitesse, l'arrache de sa machine, la froisse. « C'est vous. Le lichen au mille-feuille. Vous m'avez éteint. » Il ne brille plus du tout.
+~ysaline ?pc:basile ?flag:aveu_basile: « C'est toi qui as signé ? » Ysaline te toise de toute sa hauteur. « Et tu l'as dit toi-même, sur la route. Les mufles, d'habitude, se taisent. Tu n'es pas un mufle. Tu es un idiot. C'est soignable. »
+~ysaline ?pc:basile: « C'est toi qui as signé ? » Ysaline te toise. « Tu aurais pu le dire plus tôt. Une syndicaliste aime qu'on lui avoue les choses avant de les lire sur un mur. »
+~bartho ?pc:basile: « C'était toi, le fonctionnaire ? » Bartholomé boit une gorgée d'eau douce. « Bah. Moi, j'ai laissé partir ma femme avec la marée sans rien dire. On a tous signé quelque chose. »
+~plumard ?pc:basile: « Soldat Grumeau ! Vous avez signé la reddition ? » Il réfléchit, la crête de travers. « Bon. Un soldat qui revient sur le lieu de la défaite, c'est encore un soldat. Rompez. »
+~vesperine ?pc:basile: La voix de Vespérine, depuis ton ombre : « Vous avez vendu ma nuit pour un mille-feuille ? Moi, j'aurais au moins exigé un éclair. »
+~coquille ?pc:basile: « Un mille-feuille. » Madame Coquille hoche la tête, très lentement. « Nous avons le même âge, toi et moi, trois cent douze ans. À notre âge, mon petit, on a tous fait une bêtise pour une pâtisserie. »
+~zouzou ?pc:basile: « TOI ? Tu as vendu la Lune ? Le petit tapis gris ? » Zouzou éclate de rire, une traînée d'étincelles. « C'est la meilleure chose que j'aie entendue en quatorze mille ans. »
+~melusine ?pc:basile: « C'ÉTAIT TOI ? » Tante Mélusine t'écrase contre ses châles. « JE TE PARDONNE ! ENSUITE, JE TE GRONDERAI ! DANS CET ORDRE ! »
+~gaspard ?pc:basile: Gaspard ôte son chapeau. « J'ai voulu atteindre la Lune. Vous, vous l'avez vendue. Nous l'aimons tous les deux maladroitement, monsieur. »
+~remontoir ?pc:basile: « Une signature qui pousse encore, mon garçon. C'est un ressort qui n'est pas au bout de sa course. On peut toujours l'arrêter. »
+~pardon ?pc:basile: « Vous avez signé. Moi, j'ai mesuré. Nous avons fait notre travail, tous les deux. » Il réfléchit. « Pardon. Pour nous deux. »
+~pli ?pc:basile: « Un traité signé sans lecture. Je connais. Deux volcans ont fait pareil, en 1302. On l'a renégocié. Ils fument encore, mais ils fument ensemble. »
+~fulgence ?pc:basile: Fulgence prend un instant ton apparence, pour voir ce que ça fait. « Coupable et touffu. C'est un style. Je ne le garde pas. »
+~quartz ?pc:basile: « Quarante-deux milliards pour un mille-feuille ! C'est la pâtisserie la plus chère de l'histoire. Ou la deuxième. Je vérifierai. »
+~ondee ?pc:basile: Dame Ondée pleut un peu sur toi. « Pardon. Je ne pleure pas sur toi. Je pleure avec toi. C'est différent. »
+~brume ?pc:basile: « Toi... tu as signé... et tu es... revenu ici... C'est... » Elle ne finit pas. Pour une fois, tu sais comment la phrase finissait.
+~meduses ?pc:basile: « TU AS SIGNÉ. NOUS SOMMES MILLE À LE SAVOIR. NOUS NE LE RÉPÉTERONS QU'À NOUS-MÊMES. »
+~echo ?pc:basile: Écho lit l'affiche à voix basse, et répète le dernier mot : « Signé. Signé. » Puis elle te regarde, et elle se tait. C'est sa façon d'être gentille.
+~taupinel ?pc:basile: Taupinel renifle l'affiche, puis toi. « Le signataire. Le scoop du siècle, à côté de moi, depuis le début. » Il range son carnet. « Je ne publie rien. Pour l'instant. »
+~rocambole ?pc:basile: « Le greffier ! J'ai voulu voler la Lune, vous l'avez vendue. Entre professionnels, je vous salue. » Il s'incline de ses quatre bras.
+
+# --- La file d'attente ---
+@+cap_02
+~ysaline ?comp:plumard: Le Colonel Plumard gonfle le jabot pour crier « En colonne par trois ! ». Ysaline lui pose une patte sur le bec. « Ils y sont déjà, Colonel. Depuis trois siècles. Si vous criez, je vous fais remplir le formulaire de nuisance sonore. »
+~remontoir ?comp:coquille: « Madame Coquille, trois siècles d'attente, c'est votre spécialité. » « Et ralentir, c'est la vôtre, Grand-Père. Nous ferons la queue ensemble. Nous ne serons pas les plus lents. » Elle regarde la file. « Si. »
+~coquille: « Trois siècles ? Ce n'est rien. J'attends mon enfant depuis trois cents ans. Lui au moins ne demande pas de ticket. »
+~zouzou: « Chez moi, on me demandait de repasser tous les soixante-seize ans. Eux, ils repassent tous les trois siècles. Je préfère encore ma famille. »
+~vesperine: « J'ai fait la queue une fois, en 1453, pour une audience. Le roi est mort avant mon tour. J'en garde un excellent souvenir. »
+~bartho ?comp:penelope: « Une robote qui tamponne. Ma Perline, elle tamponnait tout. Surtout des baisers. » Pénélope rougit. Chez elle, ça fait un peu de rouille.
+~bartho: « Je préfère encore la marée. Elle, au moins, elle revient. »
+~plumard: « Trois siècles de file ! À la caserne, on aurait réglé ça avant l'aube. » Il réfléchit. « Il n'y a plus d'aube. »
+~taupinel: « Sept millions de réclamations, et pas un journaliste. Je vais faire un supplément. »
+
+# --- La porte de service ---
+@+cap_05
+~fulgence ?comp:pardon: Fulgence prend l'apparence de Pardon, pour passer pour du personnel. Pardon le voit, s'excuse auprès de lui-même, puis ne sait plus lequel des deux doit passer en premier.
+~pardon: « Personnel uniquement. Je suis du personnel. D'une autre compagnie. Pardon. »
+~gaspard: « Je peux passer par le mur, si vous préférez. Je m'excuserai auprès de lui. »
+~fulgence: « Personne n'a jamais vu le personnel. Je peux donc prendre son apparence. C'est la meilleure des apparences : aucune. »
+
+# --- Le guichet zéro ---
+@+cap_06
+~fernand ?comp:penelope: Fernand tape une réclamation et la tend à Pénélope. « Vous tamponniez les licenciements, je crois. » Elle la lit. Sa main droite tremble, puis renonce. « Je ne sais pas encore me servir de REFUSÉ. Mais je peux faire ça. » APPROUVÉ, sur sa réclamation. Fernand la regarde longtemps. Il brille, un tout petit peu.
+~fernand ?pc:basile: Fernand regarde ton bureau, ta chaise, ton tampon. « C'est donc ici qu'on m'a éteint. » Il ne tape rien. « Il est petit, votre bureau. Je l'imaginais en marbre. » C'est presque gentil, pour lui.
+~fernand: « Le guichet zéro. C'est ici que mon licenciement a été tamponné. Par un lichen. Avec un mille-feuille. » Il tape une réclamation contre le mille-feuille.
+~penelope ?pc:basile: « C'est donc ici. Votre bureau. Il est petit. Il est parfait. Il sent la rosée froide. »
+~ondee: Dame Ondée bruine un peu sur le bureau vide. « Pardon. Les bureaux tristes, ça me fait toujours ça. »
+~echo: Écho répète le tic-tac de la vieille horloge du sous-sol. Elle se trompe de rythme. L'horloge se met au sien.
+
+# --- Bureau de Madame Épine ---
+@+cap_08
+~melusine ?comp:penelope: « MA PETITE ROBOTE, TU ES TOUTE FROIDE ! » Tante Mélusine tricote une écharpe en dix secondes et la noue autour du chignon de Pénélope. Pénélope tamponne l'écharpe : APPROUVÉ.
+~melusine: « UN CACTUS ! QUELLE PRESTANCE ! » Madame Épine fait semblant de ne pas avoir entendu. Une petite fleur rose la trahit.
+~meduses: « NOUS AVONS RENDEZ-VOUS. NOUS SOMMES MILLE. NOUS AVONS MILLE RENDEZ-VOUS. »
+~quartz: « Un cactus de deux mètres. Quarante épines par mètre. Ou quatre cents. J'ai compté vite. »
+@+cap_09
+~melusine ?comp:penelope: « MA PETITE ROBOTE, TU ES TOUTE FROIDE ! » Tante Mélusine tricote une écharpe en dix secondes et la noue autour du chignon de Pénélope. Pénélope tamponne l'écharpe : APPROUVÉ.
+~melusine: « UN CACTUS ! QUELLE PRESTANCE ! » Madame Épine fait semblant de ne pas avoir entendu. Une petite fleur rose la trahit.
+~quartz: « Un cactus de deux mètres. Quarante épines par mètre. Ou quatre cents. J'ai compté vite. »
+~ysaline: « Une Sous-Directrice. Et le Directeur, il est où ? » « Il n'y en a jamais eu. » Ysaline sourit. « J'aime cette administration. »
+
+# --- Les archives ---
+@+cap_10
+~echo ?comp:brume: Brume-Lucie souffle : « Le papier... qui... » Écho répète : « Qui. Qui. » C'est la première fois que quelqu'un répond à Brume-Lucie au milieu d'une phrase. Elle en oublie de disparaître.
+~penelope ?pc:basile: « Les archives. C'est ici qu'on s'est rencontrés. Vous aviez l'air d'un tapis coupable. Moi, d'une assistante désolée. On a fait des progrès. »
+~taupinel: « Des archives ! Je sens trois scandales et un rat. Le rat est peut-être un scandale. »
+~brume: « Le papier qui attend... comme moi... qui attends... » Elle s'arrête. Le papier aussi.
+~fernand: « Douze kilomètres de plaintes. Les miennes sont à la lettre F. Toutes classées "sans suite". »
+~pli: Monsieur Pli frissonne de toutes ses pliures. « Tous ces documents... certains sont mes ancêtres. Je préfère ne pas savoir lesquels. »
+
+@+cap_11
+~pli ?comp:ondee: Dame Ondée, émue par la file qui donne, se met à pleuvoir. « Madame, je vous en prie, pas au-dessus de moi ! Je suis un document ! » Ondée s'écarte en s'excusant. Il pleut sur les boutons. Personne ne se plaint.
+~ondee ?comp:penelope: Dame Ondée pleut d'émotion sur Pénélope. « Pardon ! Tu vas rouiller ! » « Ce n'est rien. Je n'avais jamais été arrosée. C'est agréable. Comme une augmentation. »
+~coquille: Madame Coquille donne une écaille. « Pour la Lune. Elle en a besoin plus que moi. Moi, je ne vais nulle part. »
+
+# --- Le Président ---
+@+cap_13
+~zouzou ?comp:gaspard: « Tu n'es jamais arrivé à la Lune, le fantôme. Moi, j'y serais en une nuit. » Gaspard sourit : « Le chemin compte aussi, mademoiselle. » « Le chemin, c'est pour les lents. » Elle regarde le galet, et se tait, gênée.
+~gaspard: Gaspard regarde le galet rouler vers la fenêtre. « Il regarde la Lune comme je la regardais, de ma nacelle. On ne s'en remet pas. »
+~zouzou: « C'est ÇA, votre Président ? Un caillou ? » Elle se tait. Le caillou roule vers la Lune. « D'accord. C'est un caillou qui sait ce qu'il veut. »
+~remontoir: « Il roule. Lentement. Je connais. On croit qu'on n'avance pas, et on arrive quand même. »
+@+cap_16
+~echo: Écho répète le mot, tout bas, pour ne pas l'abîmer : « Reste. Reste. » Pour la première fois, elle répète quelque chose qu'elle aurait aimé dire elle-même.
+~brume: « Reste... » Brume-Lucie répète le mot. Elle ne coupe pas la phrase. Il n'y a qu'un mot. Elle est allée au bout.
+
+# --- La lettre de la Lune, le contrat ---
+@+cap_14
+~quartz ?comp:penelope: « Mademoiselle Tampon, vos tampons appuient à combien de newtons ? » « Je n'ai jamais mesuré. » « Quatorze. Ou quarante. Je vous le dirai. » Elle ne le dira jamais.
+~quartz: « Un contrat établi à l'aube du système. Le parchemin a quatre milliards d'années. Ou quatre cents. Je n'ai pas apporté mon carbone 14. »
+@+cap_15
+~brume ?comp:penelope: « Personne... ne m'a demandé... non plus... » Pénélope prend la main de brouillard dans son tampon. « À moi non plus. Nous sommes deux. Trois, avec la Lune. »
+~ondee: Dame Ondée lit par-dessus ton épaule. « Personne ne m'a demandé. » Elle pleut doucement à côté de la lettre, pour ne pas mouiller l'encre de lumière.
+~bartho: Bartholomé lit, et renifle très fort. « C'est l'eau douce. Elle me rend sentimental. Je n'ai rien bu. »
+
+# --- La ville se réveille ---
+@+cap_21
+~meduses ?comp:penelope: « NOUS VOULONS ÊTRE TAMPONNÉES. » Pénélope tamponne les méduses du bocal une par une : APPROUVÉ. Ça prend une heure. Elles sont ravies.
+~meduses: Le Chœur chante « LE PRÉSIDENT A DIT » sur un air qu'il invente. Faux, et très fort. Trois fenêtres s'ouvrent pour mieux entendre.
+~plumard: Plumard chante l'aube. À midi. Personne ne lui dit que c'est l'heure de rien. La ville trouve que c'est une bonne idée.
+
+# --- Pénélope sur le palier ---
+@+cap_22
+~pardon ?!comp:penelope: Pardon se fait tout petit. « Une assistante de direction de la Compagnie. Elle est au-dessus de moi sur l'organigramme. Très au-dessus. Pardon, madame. » « Ne vous excusez pas. J'apprends à ne plus le faire. »
+~ysaline ?!comp:penelope: « On vous envoie chercher, on vous envoie toujours. Vous avez déjà envoyé quelqu'un, vous ? » Pénélope réfléchit. « Non. » « Il faudra essayer. C'est très libérateur. »
+~fulgence ?!comp:penelope: Fulgence prend aussitôt l'apparence d'un robot de bureau très élégant, chignon compris. Pénélope le regarde. Sa main droite frémit. Fulgence reprend sa forme, prudemment.
+
+# --- L'Huissier ---
+@+cap_24
+~vesperine ?comp:plumard: La voix de Vespérine, depuis ton ombre : « Colonel, si vous chantez l'aube devant l'huissier, je vous mords. » « Vous ne mordez plus, Comtesse. Jus de mûre. » « Je peux faire une exception. »
+~penelope: « Krâmm. Il m'a toujours dit bonjour par articles. Article premier : bonjour. Je trouvais ça tendre. »
+~bartho: « C'est le grand classeur qui compte mes vagues, sur la jetée ? Il en a oublié trois. Je les ai comptées, moi. »
+~rocambole: « Krâmm ! Il m'a saisi une comète, autrefois. Une belle, à queue double. Je lui en veux encore, mais avec respect. »
+~plumard: « Un huissier ! Garde-à-vous ! » Il réfléchit. « C'est l'ennemi. Repos. » Il réfléchit encore. « Garde-à-vous quand même. »
+
+# --- Les graffitis ---
+@+cap_32
+~fulgence ?comp:penelope: Fulgence prend l'apparence de Platine pour faire rire Pénélope. Elle ne rit pas. Elle lève sa main droite, hésite, la baisse. « Ne refaites jamais ça. » Fulgence redevient lui-même, vexé et un peu admiratif.
+~zouzou ?comp:penelope: Zouzou écrit « ZOUZOU ÉTAIT LÀ » sous le grand graffiti. Pénélope le tamponne APPROUVÉ, par réflexe. « T'es pas drôle. » « Si. Un peu. »
+~fernand: Fernand tape « LA LUNE N'A JAMAIS DIT OUI » sur sa petite machine, pour en garder un double. Il brille un peu en le tapant. Il ne s'en rend pas compte.
+~ysaline: « Une ville entière qui dit non. Trente ans que j'attends ça. Je pourrais pleurer. Je ne pleure pas. Je prends des notes. »
+~pli: « Des graffitis. Une forme de traité, sans signature. Je n'approuve pas la forme. J'approuve le fond. »
+~vesperine: « On écrit sur les murs. Comme en 1789. Cette ville me rajeunit de deux siècles, ce qui m'en laisse sept. »
+~taupinel: Taupinel recopie chaque graffiti, le nez contre le mur. « Le peuple a écrit mon éditorial. Je vais le signer quand même. »
+
+@+cap_33
+~remontoir ?comp:penelope: « Mademoiselle, vous avez un ressort ? » « Un engrenage. Modèle 3. » « Alors nous sommes cousins. Prenez soin de vos rouages. Ils ne repoussent pas. »
+~coquille: Madame Coquille pose la tête contre le mur. « Mon enfant aussi attend qu'elle revienne. Il ne sait pas encore écrire. Il le pense très fort. »
+~remontoir: « L'écriture d'un enfant, ça ne s'efface pas. J'ai essayé, sur ma porte, il y a huit cents ans. J'ai gardé la porte. »
+~gaspard: Gaspard regarde le graffiti sans rien dire. Il devient un peu plus transparent. Puis un peu moins.
+
+# --- Le départ ---
+@+cap_35
+~coquille ?comp:penelope ?pc:basile: « Tu marches toujours aussi vite, ma petite ? » « Je m'entraîne à ralentir. Basile m'apprend. » « Il est très bon professeur. Moi aussi. » Pénélope ralentit encore. Elles arrivent ensemble, en dernier.
+~penelope ?pc:basile: « Vous êtes rentré chez vous, et vous repartez. Moi, je n'ai jamais eu de chez-moi. Je crois que c'est là où vous allez. »
+~penelope: « Au revoir, Tamponville. Je ne t'avais jamais vue de dehors. Tu es jolie, de dehors. »
+~taupinel: « De quoi remplir trois éditions. Je n'ai qu'un lecteur : moi. Je vais adorer. »
+~zouzou: « Enfin dehors ! Une ville où tout est rangé, ça me donnait des boutons. Je n'ai pas de peau, mais quand même. »
+~quartz: « La tour du Cadastre penche de trois degrés. Ou de trente. Elle tient. Ça, j'en suis sûre. »
+~bartho: « Toute cette paperasse m'a desséché. Il me faut de l'eau douce. Beaucoup. Je vais être très sentimental ce soir. »
+~fernand: « Ils ont rouvert le dossier de l'éclairage public n° 1. Je l'ai lu sur le mur. » Il ne dit rien d'autre, mais il marche plus droit.
+~melusine: « QUELLE VILLE ! TOUT EST EN PAPIER ! J'AI EU PEUR D'ÉTERNUER PENDANT TROIS HEURES ! »
+~echo: Écho répète le bruissement de la ville de papier derrière vous. Ça fait comme une mer de feuilles.
+~brume: « On repart... déjà... j'aimais bien... les tiroirs... »
+~ondee: Dame Ondée retient sa pluie jusqu'à la sortie de la ville. Puis, à la première borne, elle se laisse aller. « Pardon. Je me retenais à cause du papier. »
+~meduses: « NOUS AVONS ÉTÉ ENREGISTRÉES. NOUS EXISTONS OFFICIELLEMENT. MILLE FOIS. »
+~gaspard: « Une ville où l'on n'oublie rien. J'y aurais bien hanté un tiroir, autrefois. »
+~fulgence: « J'ai pris l'apparence d'une Sous-Directrice pour sortir plus vite. Personne ne m'a reconnu. Moi non plus, d'ailleurs. »
+~pardon: « Pardon, Tamponville. Pardon pour le désordre. Merci pour le désordre. »
+~plumard: « Mission accomplie ! » Il réfléchit. « Quelle était la mission, déjà ? Peu importe. Accomplie ! »
+~vesperine: « Les fonctionnaires sont rentrés chez eux en plein jour. C'est la plus belle chose que j'aie vue depuis le Moyen Âge. »
+~remontoir: « Tic. » Il attend. « Tac. » Il sourit. « Encore un peu de temps. Tant mieux. »
+~ysaline: « J'ai fait signer la motion de la file d'attente à trois cents personnes. Elles attendaient, de toute façon. »
+~pli: Monsieur Pli se déplie enfin entièrement, à l'air libre. « Une ville de papier, c'est une ville de cousins. Mais on y a toujours peur du feu. »
+~rocambole: « Je n'ai rien volé dans toute la ville. Je suis très fier de moi. Et un peu inquiet. »
+@+cap_36
+~penelope ?pc:basile: Pénélope regarde Madame Épine regarder le ciel. « Elle ne sort jamais. Elle sort pour vous. On fait ça, pour vous, apparemment. »
+~vesperine ?comp:penelope: La voix de Vespérine, depuis ton ombre : « Votre chignon est un ressort, mademoiselle ? Quelle audace. Le mien est un mystère depuis neuf cents ans. » « Je peux le tamponner APPROUVÉ, si vous voulez. » « Volontiers. »
+~melusine: Tante Mélusine embrasse Madame Épine. Une épine se prend dans un châle. Elles restent attachées un moment, et ça ne gêne aucune des deux.
+~coquille: « Elle n'a jamais regardé le ciel ? » Madame Coquille regarde Madame Épine. « Moi non plus, avant cette semaine. Il faut un début. »
+~fernand: Fernand tend à Madame Épine sa plus vieille réclamation. Elle la tamponne : « REÇU ». Il la relit trois fois.
+~gaspard: Gaspard salue Madame Épine en ôtant son chapeau. Il oublie que le chapeau est aussi un fantôme. Elle le salue quand même.
