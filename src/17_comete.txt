@@ -31,7 +31,7 @@ Sous le comptoir, quelque chose de doré tremble. Un tout petit robot, recroquev
 !title: Fulgence
 « Fulgence Mille-Formes, pour vous servir, et pour vous plaire, si possible. » Il s'incline. Pendant qu'il s'incline, il devient une très belle Marégrave, puis un Horloger élégant, puis toi à nouveau. « Pardon. Ça m'échappe quand je suis ému. Je prends la forme de ce qui me plaît. Là, c'est toi. »
 Il prétend qu'il a séduit une montagne, trois reines et un phare. La montagne ne s'en souvient pas. Le phare, si.
-?pc:pelagie « Et vous, mesdames ? Combien êtes-vous ? » « Trois cents, monsieur. » Il devient une ruche, très galante. Sœur Gertrude rougit. Nous la sermonnerons plus tard.
+?pc:pelagie « Et vous, mesdames ? Combien êtes-vous ? » « Mille, monsieur. » Il devient une ruche, très galante. Sœur Gertrude rougit. Nous la sermonnerons plus tard.
 * com_08 coe10 | Rire, malgré toi | Tu ris. Il rayonne. On a du mal à en vouloir à quelqu'un qui est si content qu'on le trouve drôle. | Tu ris, mais tu ris de lui. Il le sent. Il fait semblant que non. | mor+1 |
 * com_08 rus11 | Lui demander ce qu'il sait du marché | « Tout. Je suis tout le monde, ici. J'ai été l'huissier, le marchand de lots, et même la femme du commissaire-priseur, hier soir. » Il te fait un clin d'œil. « Il y a des choses intéressantes à la vente de quinze heures. » | « Tout et rien. Surtout ce qui ne me regarde pas. » | rus+1 +flag:fulgence_tuyau |
 

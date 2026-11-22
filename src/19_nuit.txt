@@ -44,7 +44,7 @@ Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les
 * nui_51 ?nuit<3 ?flag:obj_corne_brume ?!flag:n_cor | Sortir la corne de brume, face à la grande marée | Tu marches jusqu'au bord de la plaine, là où la marée géante monte dans le noir. La corne pèse lourd sous ton bras. |  |
 * nui_52 ?nuit<3 ?flag:obj_lettre_vent ?!flag:n_let | Sortir la lettre bleue, et la regarder à la lueur du feu | Tu sors l'enveloppe. « À la Lune, en mains propres. » Elle est légère comme un souffle. |  |
 * nui_53 ?nuit<3 ?pc:griselidis ?!flag:n_gri | Trier le courrier que le Carrefour t'a confié pour la Lune | Ta sacoche déborde. Depuis ton arrivée, on t'a donné des lettres. Pour la Lune, toutes. |  |
-* nui_54 ?nuit<3 ?pc:pelagie ?!flag:n_pel | Réunir le chapitre de l'essaim | Nous nous posons sur une branche morte, les trois cents, et nous tenons conseil. Il y a une question à régler. |  |
+* nui_54 ?nuit<3 ?pc:pelagie ?!flag:n_pel | Réunir le chapitre de l'essaim | Nous nous posons sur une branche morte, les mille, et nous tenons conseil. Il y a une question à régler. |  |
 * nui_55 ?nuit<3 ?pc:barnabe ?!flag:n_lou | Monter sur la colline pour hurler | Tu montes sur la colline. Le poil se dresse sur tout ton corps. La Lune est si proche. |  |
 * nui_59 ?nuit<3 ?pc:anatole ?!flag:n_noc | Voler vers la Lune, tout droit, aussi haut que tu peux | Tu ouvres les ailes au-dessus du camp. En bas, mille lampions t'appellent. Tu ne regardes que la Lune. |  |
 * nui_60 ?nuit<3 ?!flag:n_feu | Rester au feu, et chanter avec ceux qui ne dorment pas | Quelqu'un a sorti un accordéon. Quelqu'un d'autre a sorti un deuxième accordéon. C'est une catastrophe, et c'est merveilleux. |  |
@@ -59,16 +59,17 @@ Au-dessus, elle est énorme. Le crochet tire si fort, cette nuit, que toutes les
 !fx: nuit+1
 Madame Coquille s'est installée face à la marée, dans le sable humide. Elle respire lentement. Très lentement. Trois cents ans qu'elle attend la marée haute. La voilà, enfin, monstrueuse, tirée vers le ciel par une Lune qui s'en va.
 « Il arrive », dit-elle. « Mais je suis vieille, mon petit. Je ne suis pas sûre d'avoir la force pour deux. »
-?pc:pelagie Nous nous posons toutes autour d'elle. C'est notre métier. Nous avons accouché des baleines, des dragons de mer, une montagne une fois. Une tortue, nous savons.
+?pc:pelagie Nous nous posons toutes autour d'elle. C'est notre métier. Nous avons accouché des Gravitaires, des Marégraves, des jumeaux Horlogers, un volcan une fois. Une tortue, nous savons.
 ?flag:obj_berceau_nuage Le berceau de nuage, contre toi, se met à frémir. Il sent qu'on a besoin de lui.
 ?comp:quartz Le Docteur Quartz retrousse ses manches de cristal. « J'ai lu un livre sur les tortues. Il y a neuf cents ans. Ça ira. »
 * nui_11 ?flag:obj_berceau_nuage coe10 | Poser le berceau de nuage sous elle | Tu poses le berceau dans le sable. Il se gonfle, doux, blanc, et soulève un peu Madame Coquille. Elle soupire de soulagement. « Oh. Comme c'est doux. » | Tu poses le berceau de travers. Il se redresse tout seul, se gonfle et soulève Madame Coquille. Le berceau sait mieux que toi. | -flag:obj_berceau_nuage +flag:croissant +flag:coquille_sauvee mor+2 | -flag:obj_berceau_nuage +flag:croissant +flag:coquille_sauvee mor+1
-* nui_11 ?pc:pelagie ?!flag:obj_berceau_nuage coe11 | Nous mettons nos trois cents ailes au travail | Nous bourdonnons toutes ensemble, sur la note exacte des marées. Madame Coquille respire avec nous. Ça prend toute la nuit, ou une heure. Ça marche. | Nous bourdonnons faux. Sœur Gertrude reprend le bourdon. Nous recommençons. Ça marche, plus lentement. | +flag:croissant +flag:coquille_sauvee mor+2 | +flag:croissant +flag:coquille_sauvee
+* nui_11 ?pc:pelagie coe11 | Nous mettons nos deux mille ailes au travail | Nous bourdonnons toutes ensemble, sur la note exacte des marées. Madame Coquille respire avec nous. Ça prend toute la nuit, ou une heure. Ça marche. | Nous bourdonnons faux. Sœur Gertrude reprend le bourdon. Nous recommençons. Ça marche, plus lentement. | +flag:croissant +flag:coquille_sauvee mor+2 | +flag:croissant +flag:coquille_sauvee
 * nui_11 ?!flag:obj_berceau_nuage ?!pc:pelagie coe13 | Lui tenir la patte, et l'aider comme tu peux | Tu tiens sa patte. Tu respires avec elle. Tu n'y connais rien. Tu fais ce que font les gens qui n'y connaissent rien : tu restes. Et ça suffit. | Tu tiens sa patte. Tu respires avec elle. Tu fais tout ce que tu peux. Ce n'est pas assez. | +flag:croissant +flag:coquille_sauvee mor+2 | +flag:croissant +flag:mort_coquille -comp:coquille mor-3
 
 @nui_11
 ?flag:coquille_sauvee Un petit craquement. Puis un deuxième. Puis une toute petite tête sort d'une toute petite carapace, et regarde la Lune avec des yeux énormes. Madame Coquille pleure. Elle rit. Elle fait les deux très lentement, et tout le camp attend qu'elle ait fini.
-?flag:coquille_sauvee « Je l'appelle Croissant », dit-elle. « Comme la Lune quand elle commence. » Elle te regarde. « Merci, mon petit. Trois cents ans, et c'est toi qui étais là. »
+?flag:coquille_sauvee ?!pc:pelagie « Je l'appelle Croissant », dit-elle. « Comme la Lune quand elle commence. » Elle te regarde. « Merci, mon petit. Trois cents ans, et c'est toi qui étais là. »
+?flag:coquille_sauvee ?pc:pelagie « Je l'appelle Croissant », dit-elle. « Comme la Lune quand elle commence. » Elle nous regarde. « Merci, mes petites. Trois cents ans, et c'est vous qui étiez là. Je le savais, depuis la Maternité. »
 ?flag:mort_coquille Un petit craquement. Une toute petite tête sort d'une toute petite carapace, et regarde la Lune avec des yeux énormes. Madame Coquille sourit. Elle dit : « Croissant. Comme la Lune quand elle commence. » Elle ferme les yeux. Elle ne les rouvre pas. Elle a attendu trois cents ans pour ce moment-là, et elle est partie juste après, comme quelqu'un qui a fini sa journée.
 ?flag:mort_coquille Le petit Croissant se blottit contre la carapace vide. Tu le prends dans tes mains. Il est tiède. Il ne pèse presque rien. Il va falloir qu'il vive pour deux.
 ~quartz: « Je n'ai rien compris au livre, mais je suis très émue. »
@@ -167,7 +168,7 @@ Vous marchez au bord de la marée géante. Vespérine se recoiffe sans miroir, n
 !fx: +flag:n_ysa nuit+1
 Sous la tente, il y a des Marégraves, des Gravitaires, des Horlogères, une reine-abeille en déplacement, une baleine qui passe sa tête par l'entrée, des mantes, des poules, une montagne femelle qui écoute depuis l'extérieur. Ysaline est debout sur une caisse.
 « Mes sœurs. La Lune est une femelle. On l'a vendue sans lui demander son avis. Demain, quelqu'un va monter. Je propose qu'on monte avec une motion. Une seule. Elle dit : "On ne vend pas celle qui n'a pas dit oui." » Un silence. Puis toutes les pattes, les nageoires et les ailes se lèvent.
-?pc:pelagie Nous votons trois cents fois. Ysaline compte chaque voix. Elle ne triche jamais.
+?pc:pelagie Nous votons mille fois. Ysaline compte chaque voix. Elle ne triche jamais.
 * nui_02 pan11 | Voter, toi aussi, à main levée | Tu lèves la main. Ysaline te regarde, hoche la tête, et te compte. La motion passe à l'unanimité moins une montagne, qui n'a pas compris la question. | Tu lèves la main, mais tu n'avais pas le droit de vote, d'après les statuts. Ysaline te compte quand même, avec un astérisque. | +flag:assemblee_femmes mor+1 | +flag:assemblee_femmes
 * nui_02 coe10 | Écouter depuis l'entrée, sans rien dire | Tu écoutes. Tu n'as jamais entendu autant de voix dire la même chose. La motion passe. Ysaline la plie en quatre et la glisse sous sa carapace. | | +flag:assemblee_femmes |
 
@@ -261,9 +262,9 @@ Ta sacoche déborde. Depuis que tu es au Carrefour, on t'a donné des lettres. D
 @nui_54
 !title: Le chapitre de l'essaim
 !fx: +flag:n_pel nuit+1
-« Sœurs. » Nous sommes posées sur une branche morte. « Demain, nous montons. Mais une ruche ne peut pas monter entière : il faut que certaines restent, pour les naissances d'ici. » Silence. Trois cents abeilles se regardent.
-Sœur Gertrude lève une patte. Puis dix autres. Puis cinquante.
-* nui_02 coe11 | Nous votons : cinquante restent, deux cent cinquante montent | Cinquante sœurs restent au Carrefour, pour les naissances. Elles nous embrassent une par une. Nous partirons plus légères, et plus seules. C'est ainsi. | Le vote est confus. Nous recomptons trois fois. Finalement, cinquante restent. Sœur Gertrude reste. Nous pleurons du miel. | +flag:essaim_divise mor+1 |
+« Sœurs. » Nous sommes posées sur une branche morte. « Demain, nous montons. Mais une ruche ne peut pas monter entière : il faut que certaines restent, pour les naissances d'ici. » Silence. Mille abeilles se regardent.
+Sœur Gertrude lève une patte. Puis dix autres. Puis cent cinquante.
+* nui_02 coe11 | Nous votons : cent cinquante restent, huit cent cinquante montent | Cent cinquante sœurs restent au Carrefour, pour les naissances. Elles nous embrassent une par une. Nous partirons plus légères, et plus seules. C'est ainsi. | Le vote est confus. Nous recomptons trois fois. Finalement, cent cinquante restent. Sœur Gertrude reste. Nous pleurons du miel. | +flag:essaim_divise mor+1 |
 * nui_02 pan11 | Nous montons toutes, sans exception | « Toutes ? » « Toutes. » Nous bourdonnons si fort que le camp se réveille. Personne ne restera derrière. | Nous votons « toutes », mais à l'aube, Sœur Gertrude est restée. Elle avait une naissance. On ne peut pas lui en vouloir. | +flag:essaim_entier |
 
 @nui_55

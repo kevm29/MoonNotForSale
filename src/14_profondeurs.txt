@@ -7,7 +7,7 @@
 !fx: +flag:vis_pro regions+1
 On descend aux Profondeurs par le Grand Puits, un trou rond qui s'enfonce sous le Carrefour. Une Gravitaire de garde te tend un casque, une lampe et un sandwich de basalte. « Pour le voyage. Il est dur, mais il tient au corps. »
 ?pc:brisefer La garde se met au garde-à-vous en te voyant. « Colonelle ! On vous croyait remontée pour de bon ! » « Je redescends. On ne tient pas l'Axe à distance. »
-* pro_02 pan11 | Descendre par l'échelle de fer | Tu descends. Mille échelons, puis mille autres. Tes bras brûlent. Tu continues. | L'échelle grince, tu glisses de dix échelons, tu te rattrapes. Ton cœur remonte tout seul. | pan+1 |
+* pro_02 pan11 ?!pc:pelagie | Descendre par l'échelle de fer | Tu descends. Mille échelons, puis mille autres. Tes bras brûlent. Tu continues. | L'échelle grince, tu glisses de dix échelons, tu te rattrapes. Ton cœur remonte tout seul. | pan+1 |
 * pro_03 rus10 | Prendre l'Ascenseur des Taupes | Les taupes te saluent en chantant faux. L'Ascenseur descend, une fois sur deux. Cette fois, c'est la bonne. | L'Ascenseur s'arrête à mi-chemin. Une taupe te propose un jeu de cartes en attendant. Vous jouez trois heures. | rus+1 |
 
 @pro_02
@@ -43,11 +43,11 @@ Tu es assis·e sur l'Axe de la Terre. Tu sens tout : le monde qui veut basculer,
 * pro_09 rus10 | Lui demander depuis combien de temps il est là | Il ouvre un œil. « Trois jours. Ou trois ans. Je ne sais plus. » Il referme l'œil. | |
 
 @pro_07
-Tu te lèves et tu cries : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, se tourne vers toi. « Grrm. Qui parle ? »
+?!pc:pelagie Tu te lèves et tu cries : « Répartissez-vous ! En étoile ! » Personne ne bouge. Un vieux Commandant de la Garde, un monolithe de quatre mille ans, se tourne vers toi. « Grrm. Qui parle ? »
 ?pc:brisefer « Moi, Commandant. Brisefer. » « Grrm. Brisefer. Répartissez-vous, tout le monde. En étoile. Grrm. » Ils obéissent.
 * pro_09 pan10 ?pc:brisefer | Vérifier que l'ordre est suivi jusqu'au bout | Tu passes entre les rangs. Les Gravitaires se répartissent sous tes yeux, en étoile. L'Axe se stabilise. | Les vieux traînent. Tu dois répéter l'ordre trois fois, et la troisième fois tu l'aboies. Ils finissent par obéir. | equ+3 +flag:etoile | equ+2 +flag:etoile
 * pro_09 pan12 ?!pc:brisefer | Insister | « Si vous restez d'un seul côté, l'Axe tombe de l'autre ! » Le Commandant te regarde. « Grrm. Logique. » Il donne l'ordre. Les Gravitaires se répartissent. L'Axe se stabilise. | Le Commandant grogne. Il ne donne pas l'ordre. Alors tu vas t'asseoir de l'autre côté, seul·e, et tu attends. Au bout d'une heure, des jeunes te rejoignent, puis des vieux, en grognant. Le Commandant finit par grogner l'ordre, pour avoir l'air de l'avoir donné. | equ+3 +flag:etoile | equ+2 +flag:etoile
-* pro_08 coe11 ?!pc:brisefer | T'asseoir et montrer l'exemple | Tu t'assois de l'autre côté. Seul·e. Puis un autre te rejoint. Puis dix. Puis cent. | | equ+2 +flag:etoile |
+* pro_08 coe11 ?!pc:brisefer ?!pc:pelagie | T'asseoir et montrer l'exemple | Tu t'assois de l'autre côté. Seul·e. Puis un autre te rejoint. Puis dix. Puis cent. | | equ+2 +flag:etoile |
 
 @pro_08
 L'Axe tient un peu mieux. Mais tout le monde sait que ça ne suffira pas. Tant que la Lune s'éloigne, l'Axe penchera. On peut gagner des jours. Pas des années.

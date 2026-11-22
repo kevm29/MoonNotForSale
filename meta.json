@@ -1220,6 +1220,10 @@
    "name": "Un éclat de la coquille de Croissant",
    "desc": "Un morceau de coquille encore tiède. Croissant est né cette nuit, sur la Terre, sous une Lune qui s'en va."
   },
+  "obj_miel": {
+   "name": "Le pot de miel royal",
+   "desc": "Le miel de ruche royale de la sacoche de sage-femme. Mille abeilles y ont travaillé toute une vie, pour rien, pour quelqu'un qu'elles ne connaîtront jamais."
+  },
   "obj_braise": {
    "name": "Une braise du dernier feu",
    "desc": "Une braise du feu de la dernière nuit, dans une boîte de bonbons en fer. Elle ne s'éteint pas tant qu'on se souvient de la chanson."
