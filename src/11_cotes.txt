@@ -31,7 +31,8 @@ Tu remontes la plage vers le sud. Des villages de Marégraves sur pilotis, à mo
 Le chenal fonctionne. L'eau coule vers les poissons, et les poissons coulent vers l'eau. Le mérou en uniforme retire sa casquette. « Merci. On n'avait pas eu de bonne nouvelle depuis... depuis la Lune. »
 Il désigne la vague immobile, au loin. « Si vous voulez aider vraiment, allez voir les Méduses. Elles tiennent tout, là-bas. Elles fatiguent. »
 * cot_06 pan10 ?pc:basile | Y aller sur un bout de bois flotté | Tu grimpes sur une planche. Un lichen ne nage pas : il se dilue. La planche, elle, avance vers la vague, à ta vitesse. | La planche tourne en rond. Une sardine te pousse, par pitié. | |
-* cot_06 pan10 ?!pc:basile | Y aller à la nage | Tu nages vers la vague. C'est comme nager vers un mur qui respire. | Tu nages mal. Une sardine te dépasse en te regardant de haut. | |
+* cot_06 pan10 ?pc:brisefer | Y aller à pied, par le fond | Tu entres dans la mer et tu marches sur le fond, la tête sous l'eau, puis plus du tout. Les poissons s'écartent devant une montagne qui se promène. Tu ressors au pied de la vague, couverte d'algues. | Tu t'enfonces dans la vase jusqu'aux genoux. Une sardine te regarde lutter, de haut. Tu arrives quand même, avec un crabe vexé dans ta cuirasse. | |
+* cot_06 pan10 ?!pc:basile ?!pc:brisefer | Y aller à la nage | Tu nages vers la vague. C'est comme nager vers un mur qui respire. | Tu nages mal. Une sardine te dépasse en te regardant de haut. | |
 * cot_07 coe11 | Demander au mérou comment il tient le coup | « Je donne des tickets. Quand on donne des tickets, on n'a pas le temps d'avoir peur. » Il en tend un. « Pour vous. Numéro un. » | « Je ne tiens pas, je fais semblant. Comme tout le monde. » | +flag:ticket_un |
 
 @cot_06
@@ -80,7 +81,8 @@ Les Méduses chantent un air triste, un air ancien, qui parle d'une Lune qui pas
 ?!pc:ondine ?!comp:meduses Derrière toi, le Chœur chante au large, faux et fort. Tu longes la côte jusqu'à un bistrot penché sur ses pilotis, à moitié dans l'eau : « Le Ressac Triste ». Il est ouvert. Il a toujours été ouvert.
 ?comp:bartho Bartholomé, à côté de toi, retire sa casquette. « Mon bistrot. Enfin, le bistrot. Je n'y ai jamais payé, alors il est un peu à moi. »
 ?!comp:bartho À l'intérieur, un vieux pêcheur Marégrave boit de l'eau douce en regardant la Lune par la fenêtre.
-* cot_14 coe10 | Entrer | Tu entres. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce. |  |
+* cot_14 coe10 ?pc:brisefer | Entrer, très doucement | Le plancher gémit, les pilotis aussi. Le patron glisse une cale sous chaque pied de table, par principe. Ça tient. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce, dans un seau. |  |
+* cot_14 coe10 ?!pc:brisefer | Entrer | Tu entres. Ça sent le varech et la mélancolie. On te sert d'office un verre d'eau douce. |  |
 * cot_15 rus11 | Faire le tour par la plage | Derrière le bistrot, sur la plage, des bouteilles. Des centaines de bouteilles vides, alignées. Quelqu'un les a ramassées et rangées avec soin. | | rus+1 |
 
 @cot_13

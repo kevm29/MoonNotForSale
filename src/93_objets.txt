@@ -219,8 +219,9 @@ Il te le tend, cérémonieusement. « Il reste assez de soie pour monter très h
 !title: Le nid du héron
 Le jeune héron, le fils du vieux gardien, a fait son nid dans la lanterne éteinte, avec des brindilles, de la ficelle et de vieilles cartes du ciel. Quand la nuit tombe, comme son père le faisait, il prend une plume de son aile, la trempe dans le noir, et il écrit dans le ciel, en lettres d'étoiles, pour les oiseaux qui se perdent : « PAR ICI ».
 Puis il te tend la plume. Il en a d'autres. Il a toute une aile.
-* hub_ret ?!pc:griselidis | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends l'échelle de corde, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
+* hub_ret ?pc:brisefer | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends par l'escalier de cumulus, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
 * hub_ret ?pc:griselidis | La prendre, et redescendre avant la nuit | Tu glisses la plume dans ta sacoche, entre deux lettres, et tu redescends d'un seul souffle. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
+* hub_ret ?!pc:griselidis ?!pc:brisefer | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends l'échelle de corde, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
 
 # ---------------------------------------------------------------- MARCHÉ DES COMÈTES
 
@@ -330,7 +331,7 @@ C'est la nuit sans Lune, celle qui va peut-être durer toujours. Tu trempes la p
 
 @+asc_01
 * asc_30 ?flag:obj_bille | Lâcher la bille qui tombe vers le haut, sans la lâcher | Tu serres la bille de la petite Gravitaire à deux mains. Elle tire vers le ciel. | | |
-* asc_32 ?flag:obj_ballon | Gonfler le ballon de soie de Gaspard | Tu déplies le ballon au milieu du Carrefour. La soie est fine comme de la peau. | | |
+* asc_32 ?flag:obj_ballon ?!pc:brisefer | Gonfler le ballon de soie de Gaspard | Tu déplies le ballon au milieu du Carrefour. La soie est fine comme de la peau. | | |
 
 @asc_30
 !title: Tomber vers le haut
