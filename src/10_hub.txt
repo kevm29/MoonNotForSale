@@ -11,7 +11,8 @@ Au-dessus de tout, la Lune pend à son crochet comme une lanterne qu'on décroch
 ?pc:pistil Personne ne te voit vraiment. Un rêve qui marche en plein jour, ça se confond avec la fatigue des autres.
 ?pc:brisefer La foule s'écarte devant tes onze tonnes. Un enfant demande à sa mère si tu es une montagne. Sa mère dit « chut », ce qui veut dire oui.
 ?pc:zephyrin Tu baisses les élytres. Ici, tout le monde a perdu quelque chose. Toi, tu as touché une commission dessus.
-?pc:griselidis Ta sacoche est encore pleine. Les gens te tendent des enveloppes par réflexe, pour la Lune, pour leur mère, pour personne. Tu les prends toutes. Une factrice ne refuse pas le courrier, même suspendue.
+?pc:griselidis ?flag:suspendue Ta sacoche est encore pleine. Les gens te tendent des enveloppes par réflexe, pour la Lune, pour leur mère, pour personne. Tu les prends toutes. Une factrice ne refuse pas le courrier, même suspendue.
+?pc:griselidis ?!flag:suspendue Ta sacoche est encore pleine. Les gens te tendent des enveloppes par réflexe, pour la Lune, pour leur mère, pour personne. Tu les prends toutes. Une factrice ne refuse pas le courrier, même en mission spéciale.
 ?pc:pelagie Nous bourdonnons au-dessus de la foule, en formation serrée. Quelqu'un crie « Une sage-femme ! » et nous nous retournons toutes. Ce n'était qu'une façon de parler. Nous restons vexées quatre secondes.
 ?pc:barnabe Ta queue frétille malgré toi. Un loup-garou dans une foule paniquée, ça se tient droit, ça s'excuse et ça ne mord personne. Tu tiens droit. Tu t'excuses beaucoup.
 ?pc:anatole Des lampions partout. Tu gardes les yeux sur la Lune, là-haut, à son crochet. Tu te cognes à un Gravitaire, qui ne s'en aperçoit pas, et à un Horloger, qui te donne l'heure pour se venger.
@@ -104,7 +105,7 @@ Le Conseil des Espèces a griffonné sur la carte les régions déjà visitées.
 * cap_01 ?regions<1 ?!flag:vis_cap ?!pc:basile ?flag:voie_tri,flag:voie_rum | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
 * cap_01 ?regions>=1 ?!flag:vis_cap ?flag:vis_son,flag:vis_pro,flag:vis_com,pc:basile | Aller à Tamponville, la Capitale | Tu prends un ticket. La file d'attente pour la Capitale commence ici. |  |
 * nua_01 ?regions<1 ?!flag:vis_nua ?!pc:griselidis ?flag:voie_tri | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
-* nua_01 ?regions>=1 ?!flag:vis_nua ?flag:vis_cot,flag:vis_for,flag:vis_com,pc:griselidis | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
+* nua_01 ?regions>=1 ?!flag:vis_nua ?!pc:griselidis ?flag:vis_cot,flag:vis_for,flag:vis_com | Monter aux Hauts-Nuages | Une échelle de corde pend du ciel. Quelqu'un l'a oubliée là, ou l'a laissée exprès. |  |
 * com_01 ?regions<1 ?!flag:vis_com ?flag:voie_tri | Aller au Marché des Comètes | Tu suis la file des acheteurs. Ils ont tous des sacs vides et des yeux pleins. |  |
 * com_01 ?regions>=1 ?!flag:vis_com ?flag:vis_cot,flag:vis_son,flag:vis_cap,flag:vis_nua | Aller au Marché des Comètes | Tu suis la file des acheteurs. Ils ont tous des sacs vides et des yeux pleins. |  |
 

@@ -5,9 +5,10 @@
 @nua_01
 !title: Les Hauts-Nuages
 !fx: +flag:vis_nua regions+1
-Une échelle de corde pend du ciel jusqu'au Carrefour. Tu montes. À mi-hauteur, tes oreilles se bouchent ; aux trois quarts, ton cœur aussi. Tout en haut, tu poses le pied sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
+?!pc:griselidis Une échelle de corde pend du ciel jusqu'au Carrefour. Tu montes. À mi-hauteur, tes oreilles se bouchent ; aux trois quarts, ton cœur aussi. Tout en haut, tu poses le pied sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
+?pc:griselidis Une échelle de corde pend du ciel pour les gens d'en bas. Tu passes à côté d'un seul souffle, comme tu l'as fait mille fois. Tout en haut, tu te poses sur un nuage, et le nuage fait « pfff », comme un vieux coussin qu'on aurait trop aimé.
 Les Hauts-Nuages sont dégonflés. Partout, des nuages plats, gris, affaissés comme des draps sur une corde. Il ne pleut plus sur la Terre depuis que la Lune est à vendre. Personne n'avait fait le lien. Toi non plus.
-?pc:griselidis Tu connais ce ciel par cœur : tu y as distribué le courrier pendant trente ans. Tu ne l'as jamais vu aussi silencieux. Même les Vents de service ont l'air de chuchoter.
+?pc:griselidis Tu connais ce ciel par cœur : tu y as distribué le courrier pendant deux cents ans. Tu ne l'as jamais vu aussi silencieux. Même les Vents de service ont l'air de chuchoter.
 ?pc:pelagie Nous n'aimons pas l'altitude. Trois d'entre nous ont le vertige, deux le mal de l'air, et Sœur Gertrude refuse de regarder en bas. Nous avançons en essaim serré, en récitant la liste des fleurs.
 ?pc:barnabe Ici, la Lune est si proche que ton poil se dresse. Tu as envie de hurler. Tu te retiens, par politesse envers les nuages, qui ont l'air de dormir.
 ?pc:anatole Ici, il n'y a pas une lampe. Rien que la Lune, énorme, à deux heures de ton aile gauche. Tu voles droit sans même y penser. Tu en pleurerais.
@@ -128,12 +129,13 @@ Il ajoute, plus bas : « Ou alors, détachez-moi simplement. On dit que les fant
 @nua_16
 !title: Une comète dans le brouillard
 Un grand fracas : quelque chose de brillant vient de s'écraser dans un nuage, qui proteste. Une comète, petite, échevelée, la queue en bataille, se dégage en jurant.
-?pc:griselidis ?!comp:zouzou ?!flag:zouzou_partie C'est Zouzou. Elle te voit, détourne la tête, fait semblant de ne pas te voir, puis te voit quand même. « Ah. La factrice. Tu as fini seule, alors ? »
+?pc:griselidis ?comps<1 ?!comp:zouzou ?!flag:zouzou_partie C'est Zouzou. Elle te voit, détourne la tête, fait semblant de ne pas te voir, puis te voit quand même. « Ah. La factrice. Tu as fini seule, alors ? »
+?pc:griselidis ?comps>=1 ?!comp:zouzou ?!flag:zouzou_partie C'est Zouzou. Elle te voit, détourne la tête, fait semblant de ne pas te voir, puis regarde ceux qui t'accompagnent. « Ah. La factrice. Tu t'es trouvé d'autres compagnons, à ce que je vois. Des lents. »
 ?comp:zouzou Zouzou se fige. Elle regarde la petite comète comme on regarde un miroir. « C'est ma cousine Zézette. Elle fugue aussi. C'est de famille. » Les deux comètes se disputent en lumière pendant dix minutes, puis Zézette repart vers sa famille, l'air rassuré.
 ?flag:zouzou_partie ?!comp:zouzou C'est Zouzou. Elle te reconnaît tout de suite, et elle se détourne. « Toi. Tu m'as échangée contre une règle à calcul. Je ne te parle pas. » Elle te parle quand même : « Je fugue toujours. Mais plus avec toi. »
 ?!pc:griselidis ?!comp:zouzou ?!flag:zouzou_partie « Zouzou. Le premier qui rit, je le brûle. Je fugue. Ma famille passe tous les soixante-seize ans, à heure fixe, comme des employés. Moi je veux aller VITE et AILLEURS. » Elle te regarde. « Tu vas où, toi ? »
 ?comp:quartz ?!comp:zouzou ?!flag:zouzou_partie Le Docteur Quartz sort un compas et un carnet. « Une comète juvénile ! Je dois absolument mesurer sa période, sa masse, son albédo... » Zouzou recule. « Elle me mesure, je pars. Je ne voyage pas avec une règle. » Elle ne plaisante pas.
-* nua_17 pan11 ?!comp:zouzou ?!comp:quartz ?!flag:zouzou_partie | « Je vais sur la Lune. Tu viens ? » | « Sur la LUNE ? » Zouzou fait un looping. « C'est le truc le plus débile que j'aie entendu. Je viens. » | Zouzou ricane. « Avec toi ? Lent comme t'es ? » Et elle file sans toi, en faisant trois loopings pour bien montrer la différence. | +comp:zouzou mor+1 |
+* nua_17 pan11 ?!pc:griselidis ?!comp:zouzou ?!comp:quartz ?!flag:zouzou_partie | « Je vais sur la Lune. Tu viens ? » | « Sur la LUNE ? » Zouzou fait un looping. « C'est le truc le plus débile que j'aie entendu. Je viens. » | Zouzou ricane. « Avec toi ? À ta vitesse ? » Et elle file sans toi, en faisant trois loopings pour bien montrer la différence. | +comp:zouzou mor+1 |
 * nua_17 coe11 ?!comp:zouzou ?comp:quartz ?!flag:zouzou_partie | Demander au Docteur Quartz de redescendre au Carrefour, pour emmener Zouzou | Quartz range son compas avec une dignité blessée. « Je comprends. La science attendra. Elle attend toujours. » Elle redescend l'échelle en prenant des notes sur la vitesse de sa propre déception. Zouzou te suit. | Quartz cite trois théorèmes pour rester. Ils sont faux, mais tu n'as rien à répondre. Zouzou, vexée d'avoir été mise en balance, file sans toi. | -comp:quartz +comp:zouzou +flag:quartz_renvoyee | mor-1
 * nua_17 coe10 ?!comp:zouzou | Lui conseiller de rentrer voir ses parents, qui s'inquiètent sûrement | Zouzou te regarde longtemps. « T'es nul. » Puis : « Bon. Juste une fois. Pour voir leur tête. » Elle file vers le fond du ciel, vers une famille qui repasse tous les soixante-seize ans. | « T'es pas ma mère. » Elle file quand même, mais pas vers ses parents. Tu ne sauras pas où. | mor+1 +flag:zouzou_rentree | +flag:zouzou_partie
 * nua_17 pan10 ?comp:zouzou | Laisser Zouzou dire au revoir à sa cousine, et repartir | Zouzou revient se poser sur ton épaule. Elle ne dit rien pendant une minute entière. C'est un record. | Zouzou revient en boudant. Elle ne veut pas en parler. Elle en parle pendant une heure. | mor+1 |
@@ -157,5 +159,5 @@ Le soir tombe sur les Hauts-Nuages, et pour une fois il pleut un peu : une petit
 ~gaspard: « Je reviendrai par ici, quand tout sera fini. Si on finit. »
 ~ondee: « On descend par l'échelle ? Je préfère tomber. C'est plus naturel. »
 ~zouzou: « Je peux te descendre en trois secondes. Tu arriveras en vie à quatre-vingts pour cent. »
-* hub_ret coe10 | Redescendre par l'échelle de corde | Tu descends. Chaque barreau te rend un peu de poids. En bas, le Carrefour t'attend, avec sa poussière et ses beignets. | | mor+1 |
+* hub_ret coe10 ?!pc:griselidis | Redescendre par l'échelle de corde | Tu descends. Chaque barreau te rend un peu de poids. En bas, le Carrefour t'attend, avec sa poussière et ses beignets. | | mor+1 |
 * hub_ret pan11 | Sauter, et faire confiance aux nuages pour amortir | Tu sautes. Les nuages se mettent en file pour te rattraper, un par un, de plus en plus bas. Le dernier te dépose au Carrefour comme un colis fragile. | Tu sautes. Le premier nuage te rate. Le deuxième aussi. Le troisième, un cumulus en retard, te rattrape à dix mètres du sol. Tu as eu très peur. | pan+1 | mor-1

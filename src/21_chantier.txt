@@ -119,7 +119,7 @@ Tu t'arrêtes au milieu du chantier, entre une grue arrêtée et une cloison de 
 * cha_25 rus12 ?comp:rocambole | Surveiller Rocambole, qui regarde la Lune bizarrement | Rocambole fait tourner sa moustache-nébuleuse. Il a son regard de voleur. | |
 * cha_26 rus11 ?comp:penelope | Suivre Pénélope, qui a repéré un bureau de chantier | Pénélope marche vers une baraque marquée « Direction — Documents officiels ». Ses tampons tremblent. | |
 * cha_16 rus11 ?comp:quartz | Retrouver le Dr Quartz au pied du crochet | Elle est déjà là, à genoux, à mesurer la Lune avec un compas en cristal. | |
-* cha_27 pan10 | Continuer vers le crochet et le Promontoire | Tu avances. Il est temps d'aller parler au propriétaire. | |
+* cha_27 pan10 ?!flag:lettre_a_livrer | Continuer vers le crochet et le Promontoire | Tu avances. Il est temps d'aller parler au propriétaire. | |
 
 @cha_16
 Dr Quartz est à genoux près du crochet, ses facettes en feu. « Écoutez-moi. La Lune a un cœur de cristal. C'est pour ça qu'elle tourne : par résonance. Elle vibre à la même fréquence que la Terre. Comme deux verres de cristal qui chantent ensemble. » Elle se tait. « C'est la chose la plus belle que j'aie jamais mesurée. Et j'ai mesuré un trou noir de poche. »

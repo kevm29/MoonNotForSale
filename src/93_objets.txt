@@ -209,13 +209,14 @@ Il te le tend, cérémonieusement. « Il reste assez de soie pour monter très h
 * nua_16 coe11 | Prendre le ballon, et détacher la nacelle pour qu'il se repose | Tu dénoues la corde. Gaspard s'élève doucement, sans ballon, sans poids, en souriant. « Gonflez-le pour moi. » Il disparaît dans un nuage. | La corde est nouée depuis deux cents ans. Tu y passes une heure. Elle ne cède pas, et pendant ce temps, la soie pliée s'envole. Gaspard te remercie quand même d'avoir essayé. | +flag:obj_ballon +flag:gaspard_repose mor+1 |
 
 @+nua_18
-* nua_42 ?!flag:obj_plume | Suivre le héron jusqu'à son nid, en haut du phare | Tu montes les cent marches du phare. Le héron te regarde arriver sans surprise. | | |
+* nua_42 ?!flag:obj_plume | Suivre le jeune héron, le fils du gardien, jusqu'à son nid en haut du phare | Tu montes les cent marches du phare. Le jeune héron te regarde arriver sans surprise. | | |
 
 @nua_42
 !title: Le nid du héron
-Le héron a fait son nid dans la lanterne éteinte, avec des brindilles, de la ficelle et de vieilles cartes du ciel. Quand la nuit tombe, il prend une plume de son aile, la trempe dans le noir, et il écrit dans le ciel, en lettres d'étoiles, pour les oiseaux qui se perdent : « PAR ICI ».
+Le jeune héron, le fils du vieux gardien, a fait son nid dans la lanterne éteinte, avec des brindilles, de la ficelle et de vieilles cartes du ciel. Quand la nuit tombe, comme son père le faisait, il prend une plume de son aile, la trempe dans le noir, et il écrit dans le ciel, en lettres d'étoiles, pour les oiseaux qui se perdent : « PAR ICI ».
 Puis il te tend la plume. Il en a d'autres. Il a toute une aile.
-* hub_ret | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends l'échelle de corde, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
+* hub_ret ?!pc:griselidis | La prendre, et redescendre avant qu'il fasse tout à fait nuit | Tu redescends l'échelle de corde, la plume entre les dents. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
+* hub_ret ?pc:griselidis | La prendre, et redescendre avant la nuit | Tu glisses la plume dans ta sacoche, entre deux lettres, et tu redescends d'un seul souffle. Au-dessus de toi, « PAR ICI » brille encore longtemps. | | +flag:obj_plume |
 
 # ---------------------------------------------------------------- MARCHÉ DES COMÈTES
 
