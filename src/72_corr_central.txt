@@ -1,0 +1,19 @@
+# Corrections du thread central (21-22/11) : Rocambole rencontrable au Marché des Comètes pour les héros autres que Zéphyrin (A1, décision C1)
+
+@+com_19
+* com_20 ?!pc:zephyrin ?!comp:rocambole ?!flag:rocambole_vu | Suivre l'homme bleu qui liquide des cratères derrière la comète | Tu le suis entre deux étals qui se replient, par l'allée où l'on ne vend que ce qu'on n'a pas le droit de vendre. | | |
+
+@com_20
+!title: Le Capitaine Rocambole
+!fx: +flag:rocambole_vu
+Derrière la comète endormie, à l'abri des gardes dorés, un homme bleu à quatre bras vend des cratères par la fenêtre d'une cabane faite de caisses. Sa moustache est une petite nébuleuse qui tourne. Il fume une pipe vide.
+« Lots de Lune, d'occasion, à saisir avant la fermeture ! Cratères à l'unité, mers à la louche ! » Il te voit, et ne s'arrête pas. « Capitaine Rocambole, contrebandier de comètes, pour quelques minutes encore. Je devais voler la Lune avant le promoteur. Je l'ai trouvée trop belle, j'ai hésité, et on m'a mis dans une cage dorée. »
+Il tape sur sa poche. « La serrure était mauvaise. L'or, ça plie. Alors je vends ce que je n'ai pas volé. C'est la même chose, avec moins de risque. »
+« Mon vaisseau, le Pied-de-Nez, est garé là-bas, au bout de l'allée, avec une aile en moins. Une aile décorative. » Il te regarde enfin. « Toi, tu as l'air d'avoir besoin d'un pirate. Ou d'un cratère. »
+* com_21 coe10 | « Capitaine, venez avec moi. Je vais chercher la Lune, et je n'ai pas de vaisseau. » | Il range ses cratères en deux secondes, d'un bras, pendant que les trois autres saluent. « J'adore les causes perdues. Elles paient mal, mais elles finissent bien. Parfois. » | Il tire sur sa pipe vide. « Chercher la Lune, avec moi ? La dernière fois, elle m'a coûté une cage. » Il hésite. Le gardien du marché siffle, au loin. « Non. Pas ce soir. » | +comp:rocambole mor+1 |
+* hub_ret | Le laisser à ses cratères, et retourner au Carrefour | Il te fait un signe de ses quatre mains. « Siffle si tu changes d'avis. Fort. » | | |
+
+@com_21
+?last:ok « Le Pied-de-Nez est là-bas, petit. Un pirate sans vaisseau, c'est un monsieur qui parle fort. Un pirate avec un vaisseau, c'est un danger public. Allons voir si l'aile décorative tient encore. » Il te suit en sifflotant, une pipe vide à chaque main.
+?last:ko Rocambole retourne à ses cratères, et te lance par-dessus l'épaule : « Si tu as besoin d'un pirate, siffle. Fort. Mais pas ce soir, il y a les gardes. »
+* hub_ret | Retourner au Carrefour | Tu rejoins le Carrefour par l'allée des étals qui ferment. | | |

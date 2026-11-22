@@ -26,7 +26,7 @@
 * fin_14 coe10 ?flag:reve_ouvert ?!comp:plumard | « Endors-toi. Elle t'attend dans le rêve. » | Tu sors de ta poche un fond de bocal : un reste de sommeil de Lune, gardé depuis les Songes. | |
 * fin_15 pan10 ?comp:rocambole | Faire un signe à Rocambole | Rocambole sourit d'un sourire immense, et sort un coupe-câble de sous son chapeau. | |
 * fin_16 coe10 ?comp:echo ?flag:echo_parle | Laisser parler Écho | Écho s'avance. Elle vibre, minuscule, dans le grand bureau doré. | |
-* fin_17 coe10 | Proposer de prendre sa place | Tu le dis sans réfléchir. Platine te regarde, et pour la première fois, il a peur pour quelqu'un. | |
+* fin_17 coe10 ?!flag:essai_place | Proposer de prendre sa place | Tu le dis sans réfléchir. Platine te regarde, et pour la première fois, il a peur pour quelqu'un. | |
 * fin_19 pan10 ?!flag:essai_casse ?!pc:zephyrin | Tout casser | Tu attrapes le bouton rouge, le bureau de marbre, le câble, n'importe quoi. | | equ+1 comp:pli=>+flag:pli_part_fin comp:pli=>-comp:pli |
 * fin_21 coe10 ?equ<30 | Regarder la mer, en bas, et comprendre | Tu regardes la Terre. Tu comprends avant que personne ne le dise. | |
 * fin_22 rus10 | Accepter le poste de concierge | Platine pousse un contrat vers toi, doucement, comme on tend un mouchoir. | |
@@ -157,7 +157,7 @@ Platine te regarde. « Vous ? » « Moi. Je deviendrai ta Lune. Je tournerai aut
 Il recule. « On ne peut pas devenir une Lune. »
 ?flag:prophetie Tu te souviens de la Faille : « Je vois quelqu'un qui devient blanc et rond. »
 * fin_20 coe12 | « Si. On peut. Il suffit de le vouloir assez fort. » | Tu le veux. Tu le veux de toutes tes forces. Et quelque chose, en toi, commence à blanchir. | Tu le veux, mais ta voix tremble. Ça commence quand même. | |
-* fin_01 coe10 | Hésiter, et revenir en arrière | Tu n'es pas prêt·e. Personne ne l'est. Platine hoche la tête, soulagé. « Cherchez autre chose. Il reste quelques secondes. » | |
+* fin_01 coe10 | Hésiter, et revenir en arrière | Tu n'es pas prêt·e. Personne ne l'est. Platine hoche la tête, soulagé. « Cherchez autre chose. Il reste quelques secondes. » | | +flag:essai_place |
 
 @fin_19
 ?pc:anatole Tu fonces dans les commandes comme dans une lampe, encore et encore. Tu te cognes au bouton rouge, aux écrans, aux leviers, et tout se met à grésiller. Platine crie. Les alarmes hurlent. Les moteurs s'emballent.
