@@ -141,8 +141,8 @@
     1,
     2
    ],
-   "tagline": "Lycanthrope distingué qui perd son loup un peu plus chaque nuit où la Lune s'éloigne.",
-   "bio": "Barnabé a été loup trois nuits par mois pendant deux siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
+   "tagline": "Lycanthrope distingué qui a perdu son loup le soir où la Lune a commencé à partir.",
+   "bio": "Barnabé a été loup trois nuits par mois pendant plus de trois siècles, et gentleman le reste du temps. Il préférait le loup. Maintenant que la Lune part, le loup s'efface : ses crocs tombent, ses poils grisonnent, il hurle en fausset. Fier, romantique, très mauvais perdant, il a juré de récupérer sa Lune « ou de mourir avec élégance ».",
    "debut": "Commence au Club des Lycanthropes Distingués, le soir de ce qui devrait être la dernière pleine lune."
   },
   {
@@ -1106,7 +1106,11 @@
   },
   "obj_croc_argent": {
    "name": "Le croc d'argent",
-   "desc": "Le dernier croc de loup de Lord Barnabé. C'est la Lune qui l'a fait pousser, deux siècles de pleines lunes : un petit morceau d'elle, qui mord encore."
+   "desc": "Le dernier croc de loup de Lord Barnabé. C'est la Lune qui l'a fait pousser, trois siècles de pleines lunes : un petit morceau d'elle, qui mord encore."
+  },
+  "obj_medaille_club": {
+   "name": "La médaille du Club",
+   "desc": "Une tête de loup en argent noirci, au bout d'un ruban usé. La Duchesse Grisemuffle te l'a passée au cou sur la tombe de Sir Hector : le Club n'est pas dissous, il est en mission. Elle sent la fourrure et le vieux cognac."
   },
   "obj_beignet": {
    "name": "Le beignet perpétuel",

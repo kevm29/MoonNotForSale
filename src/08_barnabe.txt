@@ -11,7 +11,7 @@ Tu es Lord Barnabé Frissepoil. Loup trois nuits par mois, gentilhomme le reste 
 
 @lyc_02
 La Lune se lève sur la lande. Elle est pleine, mais elle est petite. Plus petite que le mois dernier. Et elle penche, avec un éclat doré planté dans le flanc, comme une broche mal mise.
-Tu sens le loup en toi. Il se réveille. Mais faiblement, comme un chien qu'on appelle de trop loin. Tu lèves la tête pour hurler, par habitude, et il sort de ta gorge un petit cri aigu, en fausset, ridicule.
+Tu sens le loup en toi. Il se réveille. Mais faiblement, comme un chien qu'on appelle de trop loin. Sur le dos de tes mains, les poils qui poussent toujours à cette heure-ci sortent à peine, et ils sortent gris. Tout gris, d'un coup, comme une barbe de vieux monsieur. Tu lèves la tête pour hurler, par habitude, et il sort de ta gorge un petit cri aigu, en fausset, ridicule.
 En bas, dans le parc, quelqu'un rit. Puis quelqu'un d'autre hurle aussi, en fausset. Puis tout le monde se tait.
 * lyc_04 pan10 | Redescendre pour l'heure de la transformation | Tu redescends. Il est vingt-deux heures moins cinq. | |
 
@@ -48,8 +48,14 @@ Dans la bibliothèque, la Duchesse crie ton nom. Pas « Frissepoil ». Barnabé.
 @lyc_08
 Sir Hector est réveillé. Il est tout petit dans son grand fauteuil. Sa fourrure tombe par plaques. Ses griffes sont redevenues des ongles. Ses yeux jaunes pâlissent. Il te regarde, et il sourit avec une bouche qui n'a plus de crocs.
 « Ah. Barnabé. Tu vois ce qui se passe ? J'étais loup à quatre-vingt-dix pour cent. Sans la Lune, il ne reste que les dix pour cent. » Il tousse. « Un vieux monsieur très fatigué. Ce n'est pas assez pour vivre, dix pour cent. »
-* lyc_09 coe12 | Rester avec lui | Tu t'agenouilles. Tu prends sa main. Elle est humaine, maintenant, ridée, toute petite. | Tu t'agenouilles. Tu ne sais pas quoi dire. Tu prends sa main quand même. | coe+1 |
+* lyc_08b coe12 | Rester avec lui | Tu t'agenouilles. Tu prends sa main. Elle est humaine, maintenant, ridée, toute petite. | Tu t'agenouilles. Tu ne sais pas quoi dire. Tu prends sa main quand même. | coe+1 |
 * lyc_10 pan11 | Courir chercher le médecin du Club | Tu fonces dans les couloirs en hurlant « Docteur ! », en fausset. | Tu fonces, tu te trompes de couloir deux fois. | |
+
+@lyc_08b
+Sir Hector tourne la tête vers la fenêtre, où la cloche a fini de sonner. « Quatre siècles que je me réveille pour elle. Ce soir, je l'ai à peine entendue. » Il cherche ton visage, longtemps, comme s'il le voyait de très loin.
+« Dis-moi une chose vraie, Barnabé. Une seule. On n'a plus le temps pour les politesses. »
+* lyc_09 coe12 | « J'ai toujours préféré le loup. » | « Moi aussi », souffle-t-il. « Le gentleman, c'était pour faire plaisir à la Duchesse. » Il rit, et ça le fait tousser. | Ça sort de travers : « J'ai toujours préféré... les soirées du Club. » Il te regarde, pas dupe. « Menteur. Tu préférais le loup. Moi aussi. » | coe+1 |
+* lyc_09 rus11 | « Vous trichiez au whist. Tout le monde le savait. » | Il ouvre un œil jaune, ravi. « Tout le monde savait, et personne ne disait rien. C'est ça, un club. » | Il fait semblant de ne pas entendre. Puis, au bout d'un moment : « Seulement le mardi. » | rus+1 |
 
 @lyc_09
 Sir Hector serre ta main. « Écoute-moi, petit. Quand j'étais jeune, en 1640, j'ai couru toute une nuit derrière elle, sur la lande. Je croyais que je pourrais la rattraper. » Il rit, doucement. « On ne la rattrape pas. Mais on peut l'empêcher de partir. Ça, c'est autre chose. »
@@ -76,13 +82,22 @@ La Duchesse Grisemuffle te regarde longtemps. « Le venger contre qui, Frissepoi
 « Contre celui qui l'a achetée. »
 Un murmure parcourt l'assemblée. Ils ont lu les journaux, comme tout le monde. Ils savent : un promoteur, un crochet, un chantier.
 La Duchesse hoche la tête. « Alors venge-le. » Elle décroche de son cou la médaille du Club, une tête de loup en argent noirci, et te la passe autour du cou. « Le Club n'est pas dissous. Il est en mission. Et tu es la mission. »
-* lyc_14 pan10 | Accepter, la gorge serrée | Tu acceptes. La médaille est lourde. Elle sent la fourrure et le vieux cognac. | | +flag:medaille_club mor+1 |
+* lyc_13b pan10 | Accepter, la gorge serrée | Tu acceptes. La médaille est lourde. Elle sent la fourrure et le vieux cognac. | | +flag:medaille_club +flag:obj_medaille_club mor+1 |
 
 @lyc_13
 Tu t'avances au bord de la tombe. Tu ne sais pas faire les discours. Tu sais hurler. Alors tu hurles. Pour Sir Hector.
 Ça sort en fausset, aigu, ridicule. Et puis, au milieu du hurlement, ta voix se casse, et redescend, et quelque chose de grave et de vrai sort de ta poitrine : pas un hurlement de loup, mais un cri d'homme qui a perdu quelqu'un.
 Un par un, les membres du Club hurlent avec toi. En fausset, en grave, en caniche. Toute la lande hurle. C'est le plus beau hurlement de l'histoire du Club, et pas un seul d'entre vous n'est un loup.
-* lyc_14 coe10 | Laisser le silence revenir | Le silence revient. La Duchesse s'essuie les yeux avec un gant. « Bien hurlé, Barnabé. Il aurait aimé. Juste, pour une fois. » | | mor+2 +flag:hurlement_juste |
+* lyc_13b coe10 | Laisser le silence revenir | Le silence revient. La Duchesse s'essuie les yeux avec un gant. « Bien hurlé, Barnabé. Il aurait aimé. Juste, pour une fois. » | | mor+2 +flag:hurlement_juste |
+
+@lyc_13b
+!title: Après l'enterrement
+Personne n'ose partir le premier. Autour de la tombe, on piétine la bruyère. Le Major Harcourt tient sa queue sous son bras pour qu'elle ne traîne pas dans la boue. Le jeune Fitzwilliam, toujours caniche, n'a pas dit un mot depuis vingt-deux heures. Il ne peut plus : il aboie.
+?flag:medaille_club La Duchesse Grisemuffle se tient à côté de toi sans rien dire. De temps en temps, elle regarde la médaille à ton cou, comme pour vérifier qu'elle n'a pas rêvé.
+?!flag:medaille_club La Duchesse Grisemuffle se tient à côté de toi. « Je retire ma proposition, Barnabé. On ne dissout pas un club qui hurle comme ça. »
+Tu lèves les yeux vers la Lune trop petite, et tu le dis tout haut, pour que la lande l'entende : « Je te ramènerai. Ou je mourrai avec élégance. »
+* lyc_14 coe11 | T'accroupir près de Fitzwilliam | Tu t'accroupis dans la boue, en smoking. « Ça reviendra, mon garçon. Le loup, je veux dire. Pas le caniche. » Il remue la queue. Il a honte de remuer la queue. Il la remue quand même. | Tu t'accroupis. Il grogne, vexé, et te mord la manche, un tout petit peu. Puis il s'excuse en aboyant. | coe+1 mor+1 |
+* lyc_14 pan11 | Demander au Major ce que le Club va faire, maintenant | Le Major Harcourt se redresse, la queue sous le bras. « Ce qu'il a toujours fait, Frissepoil. Attendre vingt-deux heures. Mais cette fois, on attendra que tu reviennes. » | Le Major ouvre la bouche, laisse tomber sa queue dans une flaque, et oublie la question. | pan+1 |
 
 @lyc_14
 Un bruit de sabots sur la lande. Un carrosse noir, tiré par quatre chevaux noirs, avec des lanternes rouges, s'arrête au bord du cimetière improvisé. La portière s'ouvre. Une femme en descend, pâle, magnifique, dans une robe de deuil qui a l'air d'avoir déjà servi plusieurs siècles.
@@ -111,30 +126,59 @@ Elle se tait. Elle regarde la tombe. « Alors il faudra que quelqu'un t'empêche
 
 @lyc_18
 Un corbeau se pose sur la pierre tombale, un journal dans le bec. Il le lâche à tes pieds : « Le Courrier de la Lande. Édition spéciale. Tous les peuples se rassemblent au Carrefour des Espèces. Le Conseil des Espèces va se réunir pour la première fois de l'histoire. »
-C'est là qu'il faut aller. C'est là que tout le monde va.
-* lyc_19 coe12 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | « Venez avec moi, Vespérine. » Elle sourit, sans les dents. « Je ne voyage pas avec un loup qui n'en est plus un. Ce serait triste pour nous deux. » Le carrosse repart dans la nuit, sans toi. | +comp:vesperine mor+1 |
-* lyc_20 pan11 | Partir seul, à pied, comme un loup | Tu lui fais une révérence et tu pars dans la lande. Tu l'entends dire, derrière toi : « La nuit, tout finit par se rejoindre, Frissepoil. » | | |
+En page deux, la photographie floue d'un monsieur en feuilles d'or qui sourit poliment : « M. Gédéon Platine, d'Aldébaran, nouveau propriétaire de la Lune, remercie la Terre pour son accueil. » Tu plies le journal en quatre, très soigneusement, pour ne pas le déchirer en mille.
+C'est au Carrefour qu'il faut aller. C'est là que tout le monde va.
+* lyc_19 coe12 | Lui demander de venir avec toi | « Venez avec moi, Vespérine. » Elle te regarde comme si tu lui avais proposé de danser. En 1702. « Je ne voyage que de nuit. » « Moi aussi, maintenant. Je n'ai plus que ça. » Elle remonte dans son carrosse. Elle laisse la portière ouverte. | « Venez avec moi, Vespérine. » Elle sourit, sans les dents. « Je ne voyage pas avec un loup qui n'en est plus un. Ce serait triste pour nous deux. » Le carrosse repart dans la nuit, sans toi. | +comp:vesperine mor+1 | +flag:ves_refus |
+* lyc_20 pan11 | Partir seul, à pied, comme un loup | Tu lui fais une révérence et tu pars dans la lande. Tu l'entends dire, derrière toi : « La nuit, tout finit par se rejoindre, Frissepoil. » | equ+1 +flag:ves_rejoindre |
 
 @lyc_19
 ?comp:vesperine Le carrosse de la Comtesse roule toute la nuit sur la lande. À l'intérieur, il fait sombre, il fait frais, ça sent la cire et la mûre. Elle boit du jus de mûre dans un verre de cristal. Elle n'en propose pas. Puis elle en propose.
 ?!comp:vesperine Tu marches toute la nuit sur la lande, à pied. Au loin, les lanternes du carrosse s'éloignent, puis s'éteignent.
 ~vesperine: « Ne t'assieds pas trop près. Je mords encore, tu sais. Par principe. »
-* lyc_21 coe10 ?comp:vesperine | Regarder la lande défiler | Tu regardes. Elle regarde aussi. Vous ne parlez pas. C'est la meilleure conversation que vous ayez eue en trois siècles. | | mor+1 |
-* lyc_21 coe10 ?!comp:vesperine | Marcher en regardant la Lune | Elle est petite, penchée, et elle s'éloigne. Toi aussi, tu marches. Vous allez dans le même sens, pour une fois. | | |
+* lyc_19b coe10 ?comp:vesperine | Regarder la lande défiler | Tu regardes. Elle regarde aussi. Vous ne parlez pas. C'est la meilleure conversation que vous ayez eue en trois siècles. | | mor+1 |
+* lyc_20b coe10 ?!comp:vesperine | Marcher en regardant la Lune | Elle est petite, penchée, et elle s'éloigne. Toi aussi, tu marches. Vous allez dans le même sens, pour une fois. | | |
+
+@lyc_19b
+!title: Le carrosse
+Vers trois heures du matin, la Comtesse pose son verre. « Le mur, Frissepoil. »
+Le mur mitoyen. Deux cents ans de procès pour quelques mètres de pierre sèche entre ton parc et le sien, que ni l'un ni l'autre n'a jamais voulu abattre, ni réparer.
+« J'ai gagné en appel, l'an dernier. Je ne te l'ai pas dit. » Elle regarde la lande. « Si nous ne revenons pas, à qui ira-t-il, ce mur ? »
+* lyc_19c rus11 | « Au Club. Ils en feront une bibliothèque. » | Elle rit dans son verre. « Un mur-bibliothèque, avec des livres d'un seul côté. C'est exactement ton Club. » | « Au Club ? » Elle te regarde comme une juge. « Les loups n'ont jamais su lire un acte. C'est pour ça que tu as perdu. » | rus+1 |
+* lyc_19c coe11 | « Nous l'abattrons. À notre retour. Ensemble. » | Elle ne répond pas. Mais elle remplit ton verre de jus de mûre à ras bord, ce qu'elle ne fait jamais. | Elle se tourne vers la vitre. « Ne promets pas des choses qui se démolissent. » Elle remplit ton verre quand même. | coe+1 mor+1 +flag:mur_promesse |
+
+@lyc_19c
+Plus tard, quand la lande commence à grisailler, elle parle sans te regarder. « 1702. Tu m'as marché trois fois sur le pied. Tu t'es excusé quatre fois. La quatrième, c'était pour rien. Je m'en souviens chaque nuit. »
+?flag:mur_promesse Puis, plus bas : « Ensemble. Tu as dit ensemble. Je note. »
+Tu ne dis rien. Tu as trop peur de lui marcher encore sur le pied.
+* lyc_21 coe10 | La laisser dormir, quand le jour se lève | Le ciel pâlit. Elle tire le rideau de velours, ferme les yeux et dort assise, très droite, comme une statue qu'on aurait oublié d'éteindre. Elle ne dort que d'un œil. | | mor+1 |
 
 @lyc_20
-Tu marches toute la nuit sur la lande, seul, comme un loup. Mais tu n'es plus un loup. Tes pieds ont mal. Tu as froid. Tu as la médaille du Club ou le souvenir d'un hurlement, et un croc d'argent dans ta poche de poitrine qui te pique le cœur à chaque pas.
+Tu marches toute la nuit sur la lande, seul, comme un loup. Mais tu n'es plus un loup. Tes pieds ont mal. Tu as froid.
+?flag:medaille_club La médaille du Club te tape sur la poitrine à chaque pas, contre le croc d'argent rangé dans ta poche, qui te pique le cœur.
+?!flag:medaille_club Tu as encore dans la gorge le hurlement de l'enterrement, et dans ta poche de poitrine un croc d'argent qui te pique le cœur à chaque pas.
 Tu te dis que Sir Hector a fait cette route en 1640, en courant. Tu marches plus vite.
-* lyc_21 pan10 | Continuer | Tu continues. | | |
+* lyc_20b pan10 | Continuer | Tu continues. | | |
+
+@lyc_20b
+!title: Courir comme en 1640
+Vers trois heures du matin, la lande descend en pente douce sous la Lune trop petite. C'est peut-être ici que Sir Hector a couru toute une nuit derrière elle. Tes jambes s'en souviennent pour lui.
+* lyc_21 pan12 | Courir, comme un loup, jusqu'au bas de la pente | Tu cours. Le vent siffle dans ton smoking. Pendant trente secondes, tu n'es plus un gentleman. Tu arrives en bas sans souffle, heureux comme un chien. | Tu cours, tu te prends les pieds dans la bruyère et tu roules jusqu'en bas, très digne, le chapeau sur le nez. | pan+1 |
+* lyc_21 coe11 | T'arrêter, et parler à Hector, là-haut | « Je la ramènerai, vieux. Et je hurlerai juste. » Le vent couche la bruyère. Tu choisis de croire que c'est une réponse. | Tu cherches quoi lui dire. Tu ne trouves que « Bonne nuit ». C'est déjà ça. | coe+1 mor+1 |
 
 @lyc_21
-À l'aube, au bord de la lande, tu trouves une famille de louveteaux-garous assis dans un fossé. Trois petits, en culottes courtes, qui essaient de hurler et n'y arrivent pas. Le plus jeune pleure : « Je serai jamais un loup ! »
+À l'aube, au bord de la lande, tu trouves une famille de louveteaux-garous assis dans un fossé. Trois petits, en culottes courtes, qui essaient de hurler et n'y arrivent pas. Le plus jeune, Anselme, six ans et demi, pleure : « Je serai jamais un loup ! »
 ?comp:vesperine La Comtesse fait arrêter le carrosse. Elle ne descend pas, à cause du soleil qui se lève. Elle te fait signe d'y aller.
-* lyc_22 coe11 | Leur apprendre à hurler en humain | Tu t'assois dans le fossé avec eux. Tu leur montres comment on hurle quand on n'est pas un loup : avec le ventre, avec le chagrin, avec la joie. Ils essaient. C'est horrible. C'est magnifique. | Tu leur montres. Ils rient de ton fausset. Puis ils essaient. Ça marche mieux que prévu. | coe+1 mor+1 +flag:louveteaux |
-* lyc_22 pan11 | Leur promettre de ramener la Lune | « Vous serez des loups. Je vous le promets. Je vais la chercher. » Le plus jeune te regarde avec des yeux immenses. | Tu promets. Ils ne te croient pas. Tu promets plus fort. Le plus jeune te croit. | +flag:promesse_louveteaux |
+* lyc_21b coe11 | Leur apprendre à hurler en humain | Tu t'assois dans le fossé avec eux. Tu leur montres comment on hurle quand on n'est pas un loup : avec le ventre, avec le chagrin, avec la joie. Ils essaient. C'est horrible. C'est magnifique. | Tu leur montres. Ils rient de ton fausset. Puis ils essaient. Ça marche mieux que prévu. | coe+1 mor+1 +flag:louveteaux |
+* lyc_21b pan11 | Leur promettre de ramener la Lune | « Vous serez des loups. Je vous le promets. Je vais la chercher. » Anselme te regarde avec des yeux immenses. | Tu promets. Ils ne te croient pas. Tu promets plus fort. Anselme te croit. | +flag:promesse_louveteaux |
+
+@lyc_21b
+Au moment où tu te relèves, Anselme te tire par la manche.
+« Monsieur. Sur la lande, on dit qu'un vieux loup est mort cette nuit, au Club. Les nouvelles courent vite, chez nous. Il a dit quoi, à la fin ? »
+* lyc_22 coe11 | « De hurler juste. Pour une fois. » | Anselme répète tout bas : « Juste. Pour une fois. » Il le dit comme on range un caillou précieux dans sa poche. | Anselme fronce les sourcils. « Juste comment ? » Tu n'en sais rien. Tu promets de le lui dire quand tu sauras. | +flag:anselme |
+* lyc_22 rus10 | « Que les petits doivent rentrer chez leur mère. » | Il te regarde, pas dupe du tout. Puis il file avec ses frères vers la lande, en hurlant très mal, très fort. | Il croise les bras. « Vous mentez comme un grand. » Puis il rentre quand même, parce que le soleil se lève. | +flag:anselme |
 
 @lyc_22
 Le Carrefour des Espèces s'étend devant toi, immense, couvert de tentes et de fumée. Des milliers de créatures. Quelque part au milieu, on dit que le Conseil des Espèces va se réunir.
-Tu touches ta poche de poitrine. Le croc d'argent est là, froid comme un clair de lune. Il t'a poussé deux cents ans, une nuit de pleine lune après l'autre : c'est elle qui l'a fait, pas toi. Tu as l'impression de porter sur toi un petit morceau d'elle.
+Tu touches ta poche de poitrine. Le croc d'argent est là, froid comme un clair de lune. Il t'a poussé pendant plus de trois siècles, une nuit de pleine lune après l'autre : c'est elle qui l'a fait, pas toi. Tu as l'impression de porter sur toi un petit morceau d'elle.
 * hub_01 pan11 | Entrer dans la foule la tête haute | Tu entres. Un gentleman de la lande, en smoking froissé, au milieu de tous les peuples de la Terre. On te regarde. Tu fais semblant que c'est normal. | Tu entres, et ton smoking craque à l'épaule. Tu fais semblant que c'est voulu. | |
 * hub_01 coe10 | Entrer doucement, en écoutant | Tu entres en écoutant. Tout le monde a perdu quelque chose. Tu n'es pas le seul. | | mor+1 |

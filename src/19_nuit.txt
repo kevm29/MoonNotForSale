@@ -146,8 +146,9 @@ Elle a mille ans. Il en a soixante. Elle tricote la lumière de Lune. Il chante 
 !title: Une promenade sans lune
 !fx: +flag:n_ves nuit+1
 Vous marchez au bord de la marée géante. Vespérine se recoiffe sans miroir, n'importe comment. Tu lui dis que c'est très beau. Elle te dit que tu mens. Tu lui dis que tu ne sais pas mentir, que c'est un défaut de loup.
-« Neuf cents ans que je danse seule », dit-elle. « Et toi, combien d'années que tu as honte de hurler ? » Tu ne réponds pas. Elle te prend la patte. Elle est froide. Tu es chaud. Vous vous plaignez tous les deux, et vous ne lâchez pas.
-?flag:mort_hector « Ton ami Hector... je l'ai connu, tu sais. Il dansait mal, mais avec enthousiasme. »
+« Neuf cents ans que je danse seule », dit-elle. « Et toi, combien d'années que tu as honte de hurler ? » Tu ne réponds pas. Elle te prend la main. Elle est froide. Tu es chaud. Vous vous plaignez tous les deux, et vous ne lâchez pas.
+« Hector dansait mieux que toi, tu sais. » Elle serre un peu ta main. « Mais toi, tu me fais rire. Ça compte aussi, à mon âge. »
+?flag:mur_promesse « Et le mur. Tu as dit ensemble. Je n'ai pas oublié. »
 * nui_02 coe11 | Hurler, pour elle, pour la Lune | Tu hurles. C'est le plus beau hurlement de ta vie. Elle ferme les yeux pour l'écouter. Puis, très doucement, elle hurle avec toi. Une vampire qui hurle avec un loup sous une Lune qu'on vend. Tout le camp se réveille. Personne ne se plaint. | Tu hurles faux. Elle rit, un vrai rire, le premier depuis des siècles. Puis elle hurle faux aussi, pour te tenir compagnie. | +flag:amour_barnabe mor+3 | +flag:amour_barnabe mor+2
 * nui_02 coe10 | L'embrasser, très maladroitement | Tu l'embrasses. Tu te cognes à ses canines. Elle s'excuse. Vous recommencez. C'est mieux. | Tu l'embrasses sur le nez. Elle est outrée. Puis elle t'embrasse correctement, pour te montrer. | +flag:amour_barnabe mor+2 |
 
@@ -269,9 +270,10 @@ Sœur Gertrude lève une patte. Puis dix autres. Puis cinquante.
 !title: Le hurlement
 !fx: +flag:n_lou nuit+1
 Sur la colline, tu lèves la tête. La Lune est si proche. Ton poil se dresse. Ton corps se souvient de ce qu'il est.
-?flag:mort_hector Tu penses à Hector. Il aurait hurlé avec toi. Il aurait hurlé faux, et fort.
-?flag:louveteaux En bas, dans le camp, des petites voix te répondent. Les louveteaux. Ils te cherchent.
-* nui_02 pan11 | Hurler, enfin, de toutes tes forces | Tu hurles. Le hurlement monte, monte, jusqu'à elle. Et tu jurerais qu'elle a frémi, qu'elle a tourné la tête vers toi. Tu redescends en tremblant. Tu n'as jamais été aussi loup. | Le hurlement se casse au milieu. Tu as la gorge serrée. Tu recommences plus bas, plus doux. C'est un hurlement de chagrin. Il compte aussi. | +flag:hurlement_lune mor+2 | mor+1
+Tu penses à Hector. Il aurait hurlé avec toi. Il aurait hurlé faux, et fort.
+?flag:louveteaux En bas, dans le camp, des petites voix te répondent. Les louveteaux du fossé. Ils t'ont suivi jusqu'ici, et ils te cherchent.
+?flag:hurle_nuages Tu as déjà hurlé pour elle, là-haut, dans les Hauts-Nuages. Un petit hurlement poli. Cette fois, tu ne seras pas poli.
+* nui_02 pan11 | Hurler de toutes tes forces | Tu hurles. Le hurlement monte, monte, jusqu'à elle. Et tu jurerais qu'elle a frémi, qu'elle a tourné la tête vers toi. Tu redescends en tremblant. Tu n'as jamais été aussi loup. | Le hurlement se casse au milieu. Tu as la gorge serrée. Tu recommences plus bas, plus doux. C'est un hurlement de chagrin. Il compte aussi. | +flag:hurlement_lune mor+2 | mor+1
 
 @nui_59
 !title: Le vol droit

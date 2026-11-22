@@ -250,7 +250,7 @@
 ~ysaline: Ysaline a obtenu que les danseuses mènent la danse. Les danseurs suivent. Ils ont l'air soulagés.
 
 @+nui_61
-~gaspard: Gaspard s'assoit à côté de toi, un peu au-dessus de l'herbe. « Moi aussi, je lui ai dit que j'arrivais. Il y a cent quarante ans. Toi, arrive pour de vrai. »
+~gaspard: Gaspard s'assoit à côté de toi, un peu au-dessus de l'herbe. « Moi aussi, je lui ai dit que j'arrivais. Il y a deux cents ans. Toi, arrive pour de vrai. »
 ~ondee: Dame Ondée flotte au-dessus de vous deux et pleut, très doucement, ce qui chez elle veut dire « moi aussi ».
 ~zouzou: Zouzou s'allonge dans l'herbe. Elle ne brille presque plus. « Elle a l'air fatiguée. Comme ma mère quand je partais. »
 ~echo: Écho s'assoit contre toi. Tu dis quelque chose à la Lune. Elle le répète, plus bas, pour que ça monte plus loin.

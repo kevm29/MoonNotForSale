@@ -2,10 +2,11 @@
 # Avec l'éclat d'éclipse (Marché des Comètes), elle marche à côté de toi, dans sa petite nuit portative.
 
 @+lyc_22
-?comp:vesperine Le carrosse s'arrête au bord du Carrefour. Le soleil est levé. La Comtesse ne peut pas descendre. Elle soupire, ouvre la portière d'un doigt ganté, et se coule dans ton ombre, sur le marchepied, comme on enfile une cape. « Le jour, je voyagerai là-dedans. Un vieux procédé de famille. Marchez dos au soleil quand vous pouvez, et évitez les lampadaires. »
+?comp:vesperine Le carrosse s'arrête au bord du Carrefour. Le soleil est levé. La Comtesse ne peut pas descendre. Elle soupire, ouvre la portière d'un doigt ganté, et se coule dans ton ombre, sur le marchepied, comme on enfile une cape. « Le jour, je voyagerai là-dedans. Un vieux procédé de famille. Marche dos au soleil quand tu peux, et évite les lampadaires. »
 
 @+foi_14
-?comp:vesperine ?from:foi_13 « Une chose encore », dit-elle à la sortie de la tente. « Le jour, je ne peux pas vous suivre au soleil. Je voyagerai dans votre ombre. C'est un vieux procédé de famille. Elle est un peu étroite, mais propre. »
+?comp:vesperine ?from:foi_13 ?pc:barnabe « Une chose encore », dit-elle à la sortie de la tente. « Le jour, je ne peux pas te suivre au soleil. Je voyagerai dans ton ombre, Frissepoil. Elle sent le chien mouillé, mais elle est grande. »
+?comp:vesperine ?from:foi_13 ?!pc:barnabe « Une chose encore », dit-elle à la sortie de la tente. « Le jour, je ne peux pas vous suivre au soleil. Je voyagerai dans votre ombre. C'est un vieux procédé de famille. Elle est un peu étroite, mais propre. »
 
 @+hub_ret
 ~vesperine ?flag:obj_eclipse: Vespérine marche à côté de toi en plein jour, sous la petite éclipse accrochée à son col. Autour d'elle, un cercle de nuit de deux mètres, avec trois étoiles. Les passants s'écartent. « Je n'avais pas vu le monde en plein jour depuis 1312. Il est aussi laid que dans mon souvenir. C'est merveilleux. »

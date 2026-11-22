@@ -224,7 +224,7 @@
 @+foi_02
 ~ysaline ?foire<1 ?comp:fulgence: Fulgence passe devant le stand du Syndicat en prenant la forme d'un chat. Il ne veut pas être reconnu. Tu ne comprends pas encore pourquoi.
 ~melusine ?foire<1 ?pc:anatole: « UN PAPILLON DE NUIT ! TU VEUX UNE ÉCHARPE EN LUMIÈRE DE LUNE ? NON ! TU LA MANGERAIS ! JE TE CONNAIS ! » Elle t'en tricote une quand même.
-~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Vous m'invitez à la tente noire, Lord Frissepoil ? »
+~vesperine ?foire<1 ?pc:barnabe: « La foire. Comme au Club, autrefois. Tu m'invites à la tente noire, Frissepoil ? »
 ~bartho ?foire<1: « Une foire. On va recruter des gens comme on achète du poisson. Je préviens : moi j'ai été pêché d'abord. »
 ~penelope ?foire<1: « J'ai envie de tamponner tous les stands. APPROUVÉ, APPROUVÉ, APPROUVÉ. Je me retiens. »
 ~quartz ?foire<1: « Trois stands en trois heures. Si je calcule bien, on aura le temps d'en voir cinq. Je calcule mal. »

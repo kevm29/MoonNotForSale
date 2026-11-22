@@ -396,7 +396,7 @@ La Lune attend la décision. Elle a l'habitude d'attendre.
 ?flag:pardon_vendu Personne n'a revu Pardon. Parfois, un petit robot doré passe dans un rêve, et dit « pardon » à quelqu'un qui ne sait pas pourquoi il pleure.
 ?pc:griselidis Le Centre de tri des Vents t'a confié une tournée nouvelle, rien que pour toi : la Lune, deux fois par semaine.
 ?pc:pelagie Nous avons ouvert une maternité sur une plage, au pied des marées revenues. Nous y avons accouché, la première année, quatre baleines, trois tortues et une chanson.
-?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, à vingt-deux heures précises. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
+?pc:barnabe Le Club des Lycanthropes Distingués a rouvert. Les transformations sont revenues, mais à moitié, comme tout le reste : des oreilles le lundi, une queue le jeudi, et le jeune Fitzwilliam est redevenu loup, sauf la tête. Tu as fait accrocher le portrait de Sir Hector au-dessus de la cheminée.
 ?pc:anatole Les belles-de-nuit s'ouvrent à moitié, une nuit sur deux, en attendant le jugement. Tu les arroses quand même tous les soirs. Une fleur qui attend, ça se soigne aussi.
 ?pc:anatole ?flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Tu sais, maintenant, où elles vont, et qui les attend.
 ?pc:anatole ?flag:fente_voix ?!flag:faille_colonelle Chaque matin, tu balaies les fleurs fanées dans la Fente. Quelqu'un, tout en bas, les attend. Tu ne sais toujours pas qui. Tu les balaies avec plus de soin.
