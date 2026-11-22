@@ -6,14 +6,14 @@
 !title: Les souvenirs de la grotte
 Au fond de la grotte, tu gardes tes souvenirs. Il n'y en a pas beaucoup, pour mille deux cents ans. Ils flottent dans des bulles, comme les mots du jardin, mais en plus lourd : une étoile filante qui s'est excusée, la nuit des deux soleils, un caillou qui ressemblait à quelqu'un. Et beaucoup de mardis.
 Tu ne pourras pas tout emporter. Ton bocal est petit.
-* ply_03 coe9 | Choisir un seul souvenir, le plus léger, et le garder contre la vitre du bocal | Tu prends la nuit des deux soleils. Elle est chaude. Elle tient dans un coin du bocal, et elle éclaire un peu, la nuit, comme une veilleuse. | Tu hésites trop longtemps. Tu prends un mardi, par erreur. Il ne pèse rien. Il ne sert à rien. Il est à toi. | coe+1 |
+* ply_03 coe9 | Choisir un seul souvenir, le plus léger, et le garder contre la vitre du bocal | Tu prends la nuit des deux soleils. Elle est chaude. Elle tient dans un coin du bocal, et elle éclaire un peu, la nuit, comme une veilleuse. | Tu hésites trop longtemps. Tu prends un mardi, par erreur. Il ne pèse rien. Il ne sert à rien. Il est à toi. | coe+1 +flag:pm_souv |
 * ply_03 | Les laisser tous ici, pour qu'ils gardent la grotte | Ils te regardent partir, en flottant. Une grotte avec des souvenirs dedans, ce n'est pas tout à fait vide. | |
 
 @ply_05b
 !title: La nébuleuse qui sent la menthe
 Pop. Tu arrives au milieu d'un nuage immense, vert pâle, qui sent la menthe. Tout est frais. Tes trois yeux pleurent un peu.
 Au milieu de la nébuleuse, une vieille étoile toute petite tricote des nuages avec ses rayons. Elle te voit. « Un voyageur ! Il n'en passe plus. Tout le monde va voir la planète bleue, en ce moment. Il paraît qu'on y vend quelque chose. »
-* ply_06 coe10 | Lui demander, en bulles, ce qu'on y vend | « Sa lune. » La vieille étoile pose son tricot. « On ne vend pas une lune. Une lune, c'est ce qui fait que la nuit a un milieu. Sans elle, la nuit n'a plus que des bords. » Elle reprend son tricot. « Dis-le-leur, si tu y vas. Moi, je suis trop vieille pour voyager. » | Tes bulles éclatent au mauvais moment. Elle croit que tu éternues. Elle te souhaite une bonne santé et retourne à son tricot. | coe+1 |
+* ply_06 coe10 | Lui demander, en bulles, ce qu'on y vend | « Sa lune. » La vieille étoile pose son tricot. « On ne vend pas une lune. Une lune, c'est ce qui fait que la nuit a un milieu. Sans elle, la nuit n'a plus que des bords. » Elle reprend son tricot. « Dis-le-leur, si tu y vas. Moi, je suis trop vieille pour voyager. » | Tes bulles éclatent au mauvais moment. Elle croit que tu éternues. Elle te souhaite une bonne santé et retourne à son tricot. | coe+1 +flag:pm_etoile |
 * ply_06 | Respirer la menthe un grand coup, et repartir | Tu respires. Ton bocal sent la menthe pour trois jours. Ça te va bien. | |
 
 @plu_03c
@@ -97,7 +97,7 @@ Plus tard, quand les feux baissent, il ne reste que les veilleurs. Mère Fricass
 
 @pnu_01d
 !title: L'étoile filante
-Au milieu de la nuit, une étoile filante traverse le ciel au-dessus du Carrefour, toute seule, très lente. Tout le camp lève la tête. Personne ne fait de vœu. On n'ose plus.
+Vers la fin de la nuit, une étoile filante traverse le ciel au-dessus du Carrefour, toute seule, très lente. Tout le camp lève la tête. Personne ne fait de vœu. On n'ose plus.
 ?flag:obj_voeu_occasion Dans ton bocal, la boîte d'allumettes du vendeur de vœux s'est mise à briller.
 * pnu_02b ?flag:obj_voeu_occasion | Ouvrir la boîte d'allumettes, et laisser partir le vœu d'occasion | Le vœu sort de la boîte, tout petit, tout neuf. « Que la Lune reste toujours. » Il monte, rejoint l'étoile filante, et repart avec elle. Personne ne sait si un vœu d'occasion marche. Mais tout le camp l'a vu monter, et tout le camp, cette nuit-là, l'a fait aussi, en silence. | | -flag:obj_voeu_occasion coe+1 |
 * pnu_02b coe10 | Faire une bulle vers l'étoile, au cas où | La bulle monte, et éclate juste sous l'étoile filante. Elle ne dit rien. Elle brille, c'est tout. Autour de toi, quelques-uns font des bulles aussi, avec leur bouche, pour essayer. | La bulle éclate tout de suite. L'étoile est déjà passée. | coe+1 |
@@ -114,7 +114,7 @@ Sous le dernier, quelqu'un a gratté dans la poussière, avec un doigt : « Elle
 !title: Les planètes vendues
 Dans le couloir doré, des tableaux. Chacun montre une planète, avec une petite plaque dessous : « ACQUISE. » Une planète rouge avec des canaux. Une planète en forme de poire. Une planète toute petite, avec un arbre dessus.
 Quand tu passes devant la petite planète, l'arbre du tableau bouge. Il se penche vers toi. Il chuchote, en peinture : « Ils m'ont mis dans un cadre. Avant, j'avais un ciel. »
-* pmo_02 coe10 | Lui demander, en bulles, s'il veut que tu fasses quelque chose | L'arbre réfléchit. « Dis-lui. Au monsieur doré. Dis-lui qu'on était bien, avant, sans lui. Dis-lui que ce n'est pas méchant. C'est juste vrai. » Tu le retiens. Tu sais que ça ne servira peut-être à rien. Tu le retiens quand même. | L'arbre ne t'entend pas. Il est peint. Il retourne à son immobilité, en soupirant un peu de vert. | coe+1 |
+* pmo_02 coe10 | Lui demander, en bulles, s'il veut que tu fasses quelque chose | L'arbre réfléchit. « Dis-lui. Au monsieur doré. Dis-lui qu'on était bien, avant, sans lui. Dis-lui que ce n'est pas méchant. C'est juste vrai. » Tu le retiens. Tu sais que ça ne servira peut-être à rien. Tu le retiens quand même. | L'arbre ne t'entend pas. Il est peint. Il retourne à son immobilité, en soupirant un peu de vert. | coe+1 +flag:pm_arbre |
 * pmo_02 | Passer devant les tableaux sans t'arrêter | Il y en a quarante. Tu ne les comptes pas. Tu les sens te regarder passer. | |
 
 @pcr_08b
@@ -188,8 +188,9 @@ La pluie tombe toujours, fine, vers la Terre. Dame Ondée flotte au-dessus de to
 @pnu_00d
 !title: L'enfant, la nuit
 Au milieu de la nuit, l'enfant Lichenaute arrive enfin au feu. Il est parti ce matin pour te rejoindre. Il s'assoit à côté de toi, très lentement, et met une heure à trouver la bonne position.
-Il regarde la Lune. Puis toi. Il ouvre la bouche. Tu attends. « Elle... a... vu... mon... dessin ? »
-?flag:obj_dessin_lune ?!flag:pm_dessin_rendu Tu ne l'as pas encore donné. Tu l'as encore, dans ton bocal.
+Il regarde la Lune. Puis toi. Il ouvre la bouche. Tu attends.
+?flag:obj_dessin_lune ?!flag:pm_dessin_rendu « Elle... a... vu... mon... dessin ? » Tu ne l'as pas encore donné. Tu l'as encore, dans ton bocal.
+?!flag:obj_dessin_lune « Elle... est... belle... de... près ? » Il n'a pas de dessin à lui donner, ce soir. Il pose seulement sa question.
 * pnu_01 ?flag:obj_dessin_lune | Lui montrer le dessin, dans ton bocal, et lui faire signe que tu l'apporteras demain | Il regarde son dessin à travers la vitre. Il met longtemps à comprendre. Puis il sourit, à la vitesse des Lichenautes : ça commence par les yeux et ça finit vers l'aube. | | coe+1 |
 * pnu_01 coe10 | Lui faire une bulle : « Pas. En. Co. Re. » | La bulle éclate devant lui. Il hoche la tête, une fois, en dix minutes. « Pas... encore... c'est... bien. » Il s'endort contre toi. | La bulle éclate trop vite. Il ne l'a pas lue. Il s'endort quand même, contre toi, en attendant la réponse. | coe+1 |
 * pnu_01 | Le laisser s'endormir contre toi | Il s'endort. Il est vert, mousseux, tiède. Tu ne bouges plus jusqu'au matin. | |

@@ -1,0 +1,178 @@
+# ================================================================
+# PLOUM : CORRECTIONS ET AJOUTS (nœuds nouveaux, répliques, fins, jets de Ruse)
+# Nouveaux nœuds : pcm_r3, pcr_fuite, pmo_parle, pmo_decide
+# Drapeaux : pm_cache, pm_etiquette, pm_av_<compagnon>, pm_parle, pm_decide, pm_souv, pm_prospectus ; jauge platine
+# ================================================================
+
+# ---------- La caisse : on peut s'y glisser, et en sortir ----------
+
+@pcm_r3
+?last:ok Le couvercle se referme sur toi. Il fait noir, doux, très rangé. Personne ne sait que tu es là.
+?last:ko La robote grise te regarde longtemps. Elle ne dit rien. Elle te repose à côté de la caisse et la ferme.
+* pcr_01 ?last:ok | Rester plat, et attendre qu'on te porte | Tu attends. Tu sais attendre. | | +flag:pm_caisse +flag:pm_cache |
+* pcm_07 ?last:ko | Sortir de la tente, sans te presser | Tu sors. Tu as l'impression d'avoir été pris en défaut par quelqu'un de très poli. | |
+
+@+pcr_01
+?flag:pm_cache Personne n'a vu que tu es entré. Tu es un passager sans billet, entre un ours et un coffre.
+
+@+pcr_05
+* pcr_fuite ?tele<3 | Fermer tes trois yeux, et faire pop, exprès, hors de la caisse | Tu penses fort au Carrefour. Tu penses à la soupe. | |
+
+@pcr_fuite
+!title: Pop, hors de la caisse
+!fx: tele+1 flag:pm_av_pardon=>+comp:pardon flag:pm_av_brume=>+comp:brume flag:pm_av_bartho=>+comp:bartho flag:pm_av_ondee=>+comp:ondee -flag:pm_av_pardon -flag:pm_av_brume -flag:pm_av_bartho -flag:pm_av_ondee -flag:pm_caisse -flag:pm_cache -flag:pm_etiquette
+Pop. La réserve se plie, comme une lettre. Tu retombes au Carrefour, sous la bâche de Mère Fricassée, un peu froissé, avec dans le bocal une odeur de velours.
+?comps>=1 Ceux qui t'avaient attendu dans la tente te sautent dessus, soulagés, et un peu vexés.
+Mère Fricassée lève sa louche. « Vous. Vous avez fait un grand tour pour rien. Mangez. »
+* plu_hub | Sortir de sous la bâche | Il te reste du chemin à faire. Ça te rassure, d'une certaine façon. | |
+
+# ---------- Ruse : quelques jets où Ploum se prend pour plus malin qu'il n'est ----------
+
+@+ply_06
+* ply_06b rus9 | Poser ton tampon sur ton propre bocal, avant qu'on te le demande | Tu appuies ton bocal contre l'encre. Il y a maintenant un tampon sur ton bocal, à l'envers. Le douanier le lit dans le reflet de la vitre. « Conforme. Passez. » | Ton tampon est une bulle. Elle éclate. Le douanier te regarde. « Bulle. Non déclarée. » Il te tamponne quand même, en trois fois, pour compenser. | rus+1 |
+
+@+pcm_04
+* pcm_06 rus11 | Faire monter les prix en levant ton bocal à chaque lot | La robote grise paye le double. L'horloge, ravie, frappe trois coups de plus. Tu as aidé l'anniversaire de quelqu'un à coûter cher. | Tu lèves ton bocal à contretemps. L'horloge adjuge au mauvais moment, la robote grise rachète tout deux fois, et personne ne sait pourquoi. | rus+1 |
+
+@+pcr_08b
+* pcr_09 rus10 | Te faire passer pour la doublure du velours | Tu t'aplatis, tu te fonds dans le velours. L'œil du vigile glisse sur toi. « Velours. Conforme. » | Tu t'aplatis mal. Le velours fait une bosse. « Bosse de velours. Conforme. » Il n'a pas l'air convaincu, mais il est fatigué. | rus+1 |
+
+@+pch_03
+* pch_03b rus10 | Te faire passer pour un nouvel apprenti du chantier, ton bocal sur la tête comme un casque | Firmin te regarde, sérieux, puis te tend un pot de peinture. « Apprenti. Les vigiles sont à droite. À gauche, c'est le mur. » Il t'explique, sans le vouloir, tout le chemin. | Ton bocal glisse. Firmin éclate de rire. « Apprenti ? Tu n'as pas de bras. » Il te tend quand même une tartine, que tu ne peux pas prendre. | rus+1 +flag:pm_firmin |
+
+@+pmo_03
+* pmo_bur rus10 | Lui faire croire que Monsieur t'attend, avec une bulle très sûre d'elle | Tu fais une bulle, une seule : « At. Tend. » La robote grise consulte son agenda. « Il est écrit "Limace". Entrez. » Elle ne sait pas qui l'a écrit. | Ta bulle éclate : « At. Tend. Pas. » La robote grise soupire. « Monsieur n'attend personne, même pas moi. Entrez. » | rus+1 |
+
+# ---------- Platine : une vraie conversation, et la fin où il décide seul ----------
+
+@+pmo_bur
+* pmo_parle ?!flag:pm_parle | Rester là, et laisser Platine parler à la vitre | Il ne te regarde pas. Il parle quand même. | |
+* pmo_decide ?platine>=3 ?!flag:pm_reve | Poser ton bocal sur le marbre, et attendre ce qu'il va faire | Tu ne fais rien. C'est ce que tu sais faire de mieux. | |
+
+@pmo_parle
+!title: Ce qu'il dit à la vitre
+Platine ne te regarde pas. Il parle à la Lune, ou à son propre reflet dans la baie vitrée.
+« Je comptais les pièces, dans le coffre. Je n'avais pas de livre. Un jour j'ai compté jusqu'à mille, et je me suis levé pour dire que j'avais fini. Il n'y avait personne. Alors j'ai recommencé. »
+Il se retourne à moitié. « Vous ne comprenez pas un mot, n'est-ce pas ? C'est pour ça que je vous le dis. »
+?flag:pm_miroir_rendu Le petit miroir est toujours sur le marbre. Il ne l'a pas touché.
+?flag:pm_ours_rendu L'ours à un œil est contre sa manche. Il ne l'a pas lâché.
+* pmo_bur coe10 | Lui faire des bulles, une par une, pour qu'il continue | Tes bulles montent : « Et. Après. » Platine sourit à moitié. « Après, j'ai acheté une planète. Puis une autre. Je me suis dit que si on me les prenait, je pourrais compter autre chose. » Il s'arrête. « Vous êtes la première à ne pas me demander mon prix. » | Tes bulles éclatent toutes ensemble : « Bloup. » Platine s'arrête, gêné. « Pardon. Je parle tout seul, je crois. » Il se tait. Il reste là, plus près. | platine+1 +flag:pm_parle | +flag:pm_parle |
+* pmo_bur | Le laisser parler, sans bulle | Tu écoutes. Il parle de moins en moins fort. À la fin, il ne dit plus rien, mais il ne regarde plus la vitre. | | platine+1 +flag:pm_parle |
+
+@pmo_decide
+!title: Ce qu'il décide
+Platine te regarde, immobile derrière ton bocal posé sur le marbre. Il regarde ce que tu as posé devant lui : tout ce qu'on lui a rendu, cette nuit, un objet à la fois.
+« Personne ne m'a jamais rendu quoi que ce soit. » Il regarde le bouton. « On me prend, ou on me vend. » Il tend la main, très lentement, comme vers un animal.
+La robote grise ne lève plus son tampon.
+* end_28 | Ne rien faire, et le laisser appuyer | Le bouton fait clic. Tu n'as rien fait. Pour une fois, tu as bien fait. | | +flag:pm_decide |
+
+# ---------- Dame Ondée et les autres : réactions aux lieux ----------
+
+@+plu_tele
+~ondee: Dame Ondée arrive en pluie fine, un peu en retard, et se rassemble sur ton bocal. « Un nuage, ça ne se téléporte pas. Ça se disperse. »
+
+@+pcm_r1
+~ondee: Dame Ondée se fait toute petite dans la foule, pour ne pas être mise en bouteille.
+
+@+pcm_03
+~ondee: Dame Ondée se penche sous le comptoir, en pleuvant très doucement, pour ne pas faire peur au petit robot. « Vous avez froid ? » Le robot répond « Pardon », trois fois.
+
+@+pcm_vendu
+~ondee: Dame Ondée pleut sur ton étiquette « Lot numéro cinq », qui se décolle un peu. Elle n'a rien d'autre à offrir.
+
+@+pcm_04
+~brume: Brume-Lucie se tient très loin du marteau. « On vend... un enfant... ? Non... ses choses... c'est pareil... »
+
+@+pcm_03b
+~pardon ?comp:bartho: Pardon lit le tableau noir. « Un souvenir d'été vaut trois pièces de ciel. » Bartholomé : « Et un souvenir de la Compagnie ? » « Pardon. Zéro virgule zéro un. » Bartholomé ricane, une seule fois.
+
+@+pso_03
+~ondee: Dame Ondée reste dehors, sous la tente, par principe. Elle sait ce que c'est, d'être mise en bouteille.
+
+@+pso_08b
+~brume: Brume-Lucie s'étend sur les draps humides, pour les sécher. Elle devient un peu plus transparente, et elle a l'air très heureuse.
+
+@+pct_02
+~brume: Brume-Lucie monte jusqu'à la fenêtre, en brouillard. « Elle écrit... depuis trente ans... Moi, je n'ai jamais fini... une lettre... »
+
+@+pct_r1
+~ondee: Dame Ondée monte l'escalier en spirale autour de la rampe, ravie : c'est un escalier fait pour les nuages.
+
+@+pct_lettre
+~ondee: Dame Ondée tend une gouttelette à Ondine. « Si la lettre est mouillée, c'est peut-être moi. Il y a longtemps. »
+
+@+pct_08
+~ondee ?comp:bartho: Dame Ondée passe au-dessus de la baigneuse. « Madame Lagrue. Je vous ai plu dessus tous les étés pendant soixante ans. » Madame Lagrue ne lève pas la tête. Elle sourit. Elle savait.
+
+@+pha_03
+~bartho: Bartholomé regarde les citernes dorées. « On vide la pluie, et on écrit "Ne pas boire". Quel genre d'homme... » Il ne finit pas. Il crache. Ça fait un petit nuage.
+
+@+plu_route2
+~brume ?comp:bartho: Brume-Lucie demande à Bartholomé s'il a peur de la mer. « Peur ? J'en viens. » « Moi... j'ai peur... du bord... » Il lui prête sa casquette. Elle la traverse. Il fait comme si de rien n'était.
+
+@+pnu_00c
+~ondee: Dame Ondée remplit la marmite vide de Mère Fricassée, goutte à goutte. La soupe est un peu pâle. Personne ne dit rien. Tout le monde en reprend.
+
+@+pnu_00d
+~ondee: Dame Ondée pleut sur le petit Lichenaute, très doucement. Ça lui fait pousser un peu de mousse. Il a l'air ravi.
+
+@+pnu_02b
+~ondee: Dame Ondée se met en nuage autour des épaules du vieil Horloger, pour qu'il ait moins froid en pyjama.
+
+@+pch_r1
+~ondee: Dame Ondée retient sa pluie, pour que les vigiles ne la voient pas.
+
+@+pch_02
+~ondee: Dame Ondée se fait toute mince, comme une brume, pour passer sous la barrière. Les vigiles regardent ailleurs. Ils ne regardent jamais les nuages.
+
+@+pch_00
+~brume ?flag:pm_appel: Brume-Lucie se couche contre la poussière. « Cousine... c'est moi... enfin... » Elle ne finit pas. Elle n'a pas besoin de finir : la Lune non plus ne finit jamais.
+
+@+pmo_01
+~ondee: Dame Ondée longe le plafond doré. Elle laisse une trace humide sur les moulures. « Pardon. C'est sans le vouloir. »
+
+@+pmo_r1
+~ondee: Dame Ondée se tait, au-dessus de la vitre. Elle ne pleut pas, de peur de réveiller quelqu'un.
+
+@+pmo_02b
+~brume: Brume-Lucie se plaque contre la baie vitrée, sa brume étalée sur le verre. « Ma cousine... elle est là... » Elle ne finit pas.
+
+@+pmo_dort
+~ondee: Dame Ondée pleut doucement sur le plaid. « Il est tout sec, ce monsieur. Il devait avoir soif de dormir. »
+
+# ---------- Fins : le sort de chacun ----------
+
+@+end_28
+?comp:ondee Dame Ondée pleut sur ta plage tous les soirs, à l'heure de la marée. Le jour où la Lune est remontée à sa place, elle a fait son troisième arc-en-ciel. Elle s'est excusée.
+
+@+end_29
+?comp:ondee Dame Ondée reste au Carrefour, à pleuvoir sur le crochet qui flotte, pour voir s'il rouille. Il rouille un peu, depuis.
+
+@+end_30
+?comp:pardon Pardon est resté sur le Promontoire, à mesurer la distance qui sépare la Terre de la Lune. Elle ne cesse de grandir. Il s'excuse auprès d'elle.
+?comp:brume Brume-Lucie est restée sur la Terre, dans le brouillard du matin. Elle a écrit à la Lune une lettre qu'elle ne sait pas finir. Elle l'envoie quand même.
+?comp:bartho Bartholomé est retourné aux Côtes. La marée ne vient plus. Il attend quand même.
+?comp:ondee Dame Ondée pleut, très haut, sur le ciel vide où était la Lune. Elle lui dit bonne nuit, tous les soirs.
+
+@+end_31
+?comp:pardon Pardon a mesuré l'endroit exact où tu as disparu : trente-deux centimètres de bureau. Il l'a noté.
+?comp:brume Brume-Lucie a gardé une bulle de toi dans son brouillard. Elle ne l'a pas fait éclater.
+?comp:bartho Bartholomé est redescendu par l'ascenseur de service. « Il reviendra, dit-il. Les lents reviennent toujours. »
+?comp:ondee Dame Ondée a pleuvu sur la place où tu as disparu. Il y a une flaque, depuis, qui fait des bulles.
+
+# ---------- Messages reçus en chemin, enfin transmis ----------
+
+@+pct_04
+!fx: +flag:pm_commission
+
+@+pch_00
+* pch_00 ?flag:pm_commission ?!flag:pm_commission_dite | Murmurer à la Lune le message d'Ondine | Tu poses ton bocal contre la poussière. Tu fais une bulle, une seule : « On. T'écrit. Tou. Jours. » Sous toi, la Lune ne bouge pas. Mais, très loin, un peu plus bas que la voix ronde, quelque chose frémit, comme une marée qui se retourne. | | +flag:pm_commission_dite coe+1 |
+
+@+plu_03
+* plu_03 ?flag:pm_etoile ?!flag:pm_etoile_dite | Répéter au Conseil ce que la vieille étoile t'a dit, en bulles | Tes bulles éclatent une à une : « Une. Lune. C'est. Ce. Qui. Fait. Que. La. Nuit. A. Un. Milieu. » Le Conseil se tait. L'Horloger arrête son tic-tac, une seconde entière. « On le notera », dit-il. On ne le note pas. Mais tout le monde s'en souvient. | | +flag:pm_etoile_dite coe+1 |
+
+@+pmo_bur
+* pmo_bur ?flag:pm_arbre ?!flag:pm_arbre_dit | Murmurer à Platine ce que l'arbre peint t'a dit | Tes bulles éclatent : « L'ar. Bre. Dit. Qu'on. Était. Bien. Avant. » Platine ne comprend pas. Il regarde le couloir, par la porte entrouverte, vers la petite planète au mur. Il y reste longtemps. « Un arbre », dit-il. « Je ne l'avais jamais regardé. » | | +flag:pm_arbre_dit platine+1 coe+1 |
+
+@+pch_01
+* pmo_01 ?flag:pm_firmin | Passer à la relève des vigiles, la minute où personne ne regarde | Firmin avait raison. À l'aube, les vigiles se croisent, se saluent, regardent leurs montres. Tu passes entre eux, avec ceux qui s'accrochent à ton bocal. | |

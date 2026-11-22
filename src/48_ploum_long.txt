@@ -39,14 +39,14 @@ Au moment où tu fermes ton bocal, une lumière passe, très vite, puis freine, 
 « Pardon ! Je cherche la Lyre, troisième planète. Il y a quelqu'un ? J'ai un prospectus. Je dois le livrer partout. » Elle te tend un papier doré : « GÉDÉON PLATINE, PROMOTEUR. VOTRE PLANÈTE VAUT DE L'OR. ESTIMATION GRATUITE. »
 « Je m'appelle Bertille. Je fais tout le ciel. Je vais vite. Je ne lis jamais ce que je livre. »
 * ply_04b coe10 | Lui demander, en bulles, si elle a entendu une voix ronde, quelque part | Tes bulles éclatent une par une. Bertille réfléchit, ce qui chez une comète ressemble à ralentir. « Une voix ronde ? Il y a une planète bleue, par là, avec une lune. On parle beaucoup d'elle en ce moment. Elle est à vendre. Ou vendue. Je ne lis pas, je vous dis. » Elle te montre une direction avec sa queue. | Tes bulles éclatent toutes ensemble. Bertille hoche la tête, poliment, comme on fait avec les étrangers. « Oui, oui. Bon. Je suis en retard. » | +flag:pm_rumeur |
-* ply_04b | Avaler le prospectus, pour comprendre ce que c'est | Tu l'avales. C'est comme ça, chez toi, qu'on comprend les choses. | |
+* ply_04b | Avaler le prospectus, pour comprendre ce que c'est | Tu l'avales. C'est comme ça, chez toi, qu'on comprend les choses. | | +flag:pm_prospectus |
 
 @ply_05
 !title: Prendre de l'élan
 ?flag:pm_rumeur Bertille repart vers la planète bleue. Tu as une direction. Tu n'en as jamais eu.
 ?!flag:pm_rumeur Bertille repart. Tu ne sais pas où elle va. Tu ne sais pas où tu vas non plus.
-?!flag:pm_rumeur _Tu es un prospectus. On t'a imprimé à un milliard d'exemplaires. Tu dis la même chose à tout le monde : que tout s'achète. Personne ne te lit jusqu'au bout. Au bout, en tout petit, il y a écrit : « Offre non remboursable. »_
-?!flag:pm_rumeur Tu le recraches. Tu ne comprends pas tout. Tu comprends qu'il existe quelqu'un, quelque part, qui achète des planètes.
+?flag:pm_prospectus _Tu es un prospectus. On t'a imprimé à un milliard d'exemplaires. Tu dis la même chose à tout le monde : que tout s'achète. Personne ne te lit jusqu'au bout. Au bout, en tout petit, il y a écrit : « Offre non remboursable. »_
+?flag:pm_prospectus Tu le recraches. Tu ne comprends pas tout. Tu comprends qu'il existe quelqu'un, quelque part, qui achète des planètes.
 Il faut maintenant faire ce que tu ne sais plus faire : te téléporter exprès. Tes pouvoirs t'échappent depuis quelques siècles. Ils marchent quand ils veulent.
 * ply_05b pan10 | Fermer tes trois yeux, penser à la voix, et faire pop | Pop. Tu sens le ciel se plier proprement, comme une lettre. Tu arrives quelque part. Pas loin. Mais dans la bonne direction. | Pop. Le ciel se plie mal, comme une carte qu'on range de travers. Tu arrives quelque part. Tu ne sais pas où. Ce n'est sûrement pas la bonne direction, mais c'est une direction. | |
 * ply_05b | Attendre que le pop vienne tout seul | Tu attends. Tu sais attendre. Au bout de deux jours, le pop vient, sans prévenir, pendant que tu bâilles. | |
@@ -62,7 +62,7 @@ Dans la guérite, un douanier en uniforme, très sérieux, qui a quatre bras et 
 
 @ply_07
 !title: Pop, pop, pop
-Tu fais encore trois nuits de pop. Tu traverses des nébuleuses qui sentent la menthe, un nuage de cailloux qui se disputent, une étoile naine qui te demande l'heure.
+Tu fais encore trois nuits de pop. Après la menthe et les cailloux, tu croises une étoile naine qui te demande l'heure, une comète qui ne s'arrête pas, un banc de poussière qui chante en canon.
 La voix revient, chaque nuit, un peu plus proche. Elle dit toujours la même phrase, en dormant. Tu ne comprends toujours que la musique, pas les mots.
 ?flag:obj_corde_lyre La corde, autour de ton bocal, vibre un peu quand la voix parle. Comme si elle reconnaissait quelque chose.
 ?flag:pm_rumeur Au loin, une planète bleue. Et, accrochée au-dessus d'elle, une lune.
@@ -190,7 +190,7 @@ Autour de lui, des rêves tombent par terre, en miettes, comme du pain sec. Pers
 !title: L'épave étonnée
 Au pied du phare, la mer a reculé si loin qu'un vieux bateau est resté posé sur le sable, droit, étonné, avec son linge encore sur le pont. Sur le mât, une mouette en casquette de capitaine regarde le ciel dans une longue-vue de laiton.
 « Capitaine Grisaille. Je cherche la Lune. Elle se cache derrière les nuages, d'habitude. Cette fois, elle est derrière moi. Je le sais. Je ne me retourne pas. Je n'ai pas envie de la voir partir. »
-* pct_05b pan11 | Faire flotter le bateau jusqu'à la mer | Tu regardes fort. Le bateau se soulève du sable, très lentement, avec son linge, ses ancres, sa mouette. Il glisse dans l'air jusqu'à la mer, et se pose dessus avec un bruit de baignoire. La mouette en lâche sa longue-vue. Elle tombe à tes pieds. « Gardez-la. Vous, vous regardez déjà les choses assez fort pour les faire bouger. Moi, j'ai mon bateau. » | Tu regardes fort. Le bateau se soulève, tourne sur lui-même, et retombe sur le sable, un mètre plus loin, dans l'autre sens. La mouette regarde maintenant la Lune, en face. Elle ne dit rien. Elle range sa longue-vue. | +flag:obj_longue_vue coe+1 |
+* pct_05b pan11 | Faire flotter le bateau jusqu'à la mer | Tu regardes fort. Le bateau se soulève du sable, très lentement, avec son linge, ses ancres, sa mouette. Il glisse dans l'air jusqu'à la mer, et se pose dessus avec un bruit de baignoire. La mouette en lâche sa longue-vue. Elle tombe devant ton bocal. « Gardez-la. Vous, vous regardez déjà les choses assez fort pour les faire bouger. Moi, j'ai mon bateau. » | Tu regardes fort. Le bateau se soulève, tourne sur lui-même, et retombe sur le sable, un mètre plus loin, dans l'autre sens. La mouette regarde maintenant la Lune, en face. Elle ne dit rien. Elle range sa longue-vue. | +flag:obj_longue_vue coe+1 |
 * pct_lv | Avaler la longue-vue, pour comprendre ce que c'est | Tu l'avales. La mouette te regarde faire, le bec ouvert. | |
 
 @pct_lv
@@ -245,8 +245,8 @@ Dame Ondée te regarde. « Gardez-la. C'est la dernière que j'aurai faite. Elle
 !title: La station de pompage
 La station est une grosse boule dorée posée sur les nuages, avec des tuyaux partout comme des cheveux. Ça pompe, ça siffle, ça glougloute.
 Devant la porte, un contremaître gonflable, en caoutchouc doré, se dandine dans le vent. Il compte les bouteilles. Il ne lève jamais la tête.
-?flag:pm_ondee_parle Dame Ondée te suit de loin, en tremblant.
-~pardon: Pardon tire sur ton bocal. « Pardon. Je connais ces machines. Il y a toujours un gros bouton rouge, derrière. "Arrêt d'urgence." On n'a pas le droit d'y toucher. Pardon. Je peux y toucher, moi. Je suis de la Compagnie. »
+?flag:pm_ondee_parle Dame Ondée te regarde partir, de loin, en tremblant. Son tuyau l'empêche de te suivre.
+~pardon: Pardon tire sur ton bocal. Il regarde la station comme une maison où il a grandi et qu'il n'aimait pas. « Pardon. Je connais ces machines. Il y a toujours un gros bouton rouge, derrière. "Arrêt d'urgence." On n'a pas le droit d'y toucher. Pardon. Je peux y toucher, moi. Je suis de la Compagnie. »
 * pha_r2 pan10 | Devenir transparent, et entrer dans la station | Tu retiens ton souffle. Tu disparais. Tu passes sous le nez du contremaître, qui compte toujours. | Tu retiens ton souffle. Tu restes gris. Le contremaître lève la tête pour la première fois de la journée. « Visiteur non autorisé ! » Il souffle dans un sifflet. | |
 * pha_04 ?comp:pardon | Laisser Pardon aller appuyer sur l'arrêt d'urgence | Pardon file, minuscule, doré, sous le contremaître qui ne le voit pas : il ressemble à toutes les autres pièces de la Compagnie. Une minute après, toutes les pompes toussent, et s'arrêtent. Le contremaître regarde ses bouteilles, perplexe. | | +flag:pm_pompes |
 * pha_04 ?flag:obj_laissez_passer | Montrer au contremaître le laissez-passer du Conseil | Le contremaître lit les tampons. Il se dégonfle d'un quart. « Inspection du Conseil ? Personne ne m'a prévenu. » Il t'ouvre la porte en tremblant. Tu entres, tu trouves le gros bouton rouge marqué « ARRÊT D'URGENCE », et tu t'assois dessus. Les pompes toussent, une à une, et s'arrêtent. | | +flag:pm_pompes |
@@ -266,7 +266,7 @@ Une goutte tombe. Puis deux. Puis une pluie fine, tiède, vers la Terre. En bas,
 ?!flag:pm_ondee_parle Dame Ondée te regarde de loin. Elle ne sait pas qui tu es. Elle pleut quand même, par reconnaissance, juste au-dessus de toi.
 Le contremaître gonflable, trempé, se dégonfle doucement sur une citerne.
 * pha_04b ?flag:pm_ondee_parle | Emmener Dame Ondée | Elle te suit, en pleuvant un tout petit peu, pour s'entraîner. | | +comp:ondee |
-* pha_04b ?!flag:pm_ondee_parle | Aller voir le ballon accroché au loin | Il y a quelqu'un dans la nacelle. | |
+* pha_05 ?!flag:pm_ondee_parle | Aller voir le ballon accroché au loin | Il y a quelqu'un dans la nacelle. | |
 
 @pha_05
 !title: Le ballon de 1803
@@ -280,7 +280,7 @@ Il montre la corde d'amarrage de son ballon. Elle est cassée depuis deux siècl
 @pha_06
 !title: Descendre
 Il faut redescendre. Tu ne sais pas comment on descend d'un nuage. Sur la Lyre, il n'y a pas de haut et de bas, seulement des endroits.
-* plu_route ?comp:ondee | Te laisser porter par Dame Ondée | Dame Ondée se fait toute petite sous toi et descend, très doucement, en pleuvant. Tu arrives au Carrefour en même temps que la pluie. Les gens sortent des tentes. Ils lèvent la tête. Ils sourient. Ça faisait longtemps. | |
+* plu_route ?comp:ondee | Te laisser porter par Dame Ondée | Dame Ondée s'étale sous toi, large comme un lit, et descend, très doucement, en pleuvant. Tu arrives au Carrefour en même temps que la pluie. Les gens sortent des tentes. Ils lèvent la tête. Ils sourient. Ça faisait longtemps. | |
 * plu_route pan10 | Faire flotter le nuage lui-même, jusqu'en bas | Tu regardes le nuage fort. Il descend, comme un ascenseur de coton, et te pose au Carrefour. Puis il remonte, sans dire au revoir. | Tu regardes le nuage fort. Il se déchire en deux. Tu tombes. Tu fais pop juste avant le sol, sans le vouloir, et tu arrives au Carrefour, la tête dans un seau. | |
 * plu_route | Faire pop exprès, en pensant aux tentes | Tu fermes deux yeux sur trois. Ça marche. Tu ne sais toujours pas pourquoi. | |
 
@@ -347,7 +347,7 @@ Autour, le chantier n'a pas encore commencé sa journée. Les grues dorées dorm
 !title: Être la Lune
 _Tu es la Lune. Tu as toujours été là. Tu tires la mer vers toi, la nuit, sans le vouloir, et la mer revient le matin. Tu éclaires les rêves. Les enfants te dessinent avec un sourire. Tu ne sais pas sourire. Tu fais semblant, pour eux. Quelqu'un t'a achetée. On a planté un crochet dans ta joue. Demain, on t'emmène. Tu dors, parce que c'est ce que tu fais de mieux. Et en dormant, tu dis la seule chose que tu sais : « Je ne veux pas partir. »_
 Tu la recraches, toute la pincée, à l'endroit exact où tu l'as prise. Tu comprends tout. Tu as fait tout ce chemin pour une phrase qu'elle dit en dormant, et qu'elle ne sait pas que quelqu'un entend.
-* pch_03 | Avancer vers les vigiles | Tu avances. Tu marches moins lourdement qu'avant. | | +flag:pm_appel coe+1 |
+* pch_03 | Avancer vers les vigiles | Tu avances. Tu rampes moins lourdement qu'avant. | | +flag:pm_appel coe+1 |
 
 # ---------------------------------------------------------------- LE PROMONTOIRE (avant le bureau)
 
@@ -405,14 +405,14 @@ Il te tend un papier avec beaucoup de tampons. Il te regarde, inquiet. « Vous n
 @plu_lp
 !title: Être un laissez-passer
 _Tu es un laissez-passer. Tu dis qu'on a le droit. Personne ne t'a demandé si on avait le droit. Tu le dis quand même, avec tes tampons, et les portes te croient. Tu n'as jamais compris pourquoi les portes croient les papiers plutôt que les gens._
-Tu le recraches. Un peu humide. L'Horloger le reprend du bout des doigts, l'essuie, et te le recolle sur le bocal. « Ne le refaites pas. Un tampon mouillé, c'est un tampon qui ment. »
-* plu_03c | Repartir, officiel et un peu gêné | Tu as compris quelque chose sur les portes. | | +flag:obj_laissez_passer coe+1 |
+Tu le recraches. Un peu humide. L'Horloger le reprend du bout des doigts, l'essuie, et le lit contre le jour. « Un tampon mouillé, c'est un tampon qui ment. Il ne vaut plus rien. » Il le garde, avec un soupir de tampons.
+* plu_03c | Repartir, sans papier, mais un peu plus sage | Tu as compris quelque chose sur les portes. Elles croient les papiers. Il faudra trouver une autre façon de passer. | | coe+1 |
 
 @plu_05b
 !title: La photo
 Près de la tribune, Maître Gontran Verbiage t'attend, avec trois photographes et le petit caillou gris sur son coussin. « Monsieur l'enquêteur ! Le Président voudrait une photo avec vous. Pour les journaux. Le Président et l'étranger, main dans la main. » Il regarde tes absences de mains. « Enfin. Côte à côte. »
 Le caillou ne dit rien. Il a l'air de trouver ça long.
-* plu_05c pan9 | Faire flotter le caillou à côté de ton bocal, pour la photo | Le caillou se soulève et se pose contre ton bocal, juste à ta hauteur. Flash. Flash. Gontran lève les bras. « Historique ! » Tu reposes le caillou sur son coussin. Tu as l'impression qu'il t'a remercié, d'une certaine façon. | Le caillou se soulève, passe devant l'objectif, et tous les journaux auront demain la même photo : un caillou flou devant un bocal. Gontran est ravi. « Mystérieux ! » | |
+* plu_05c pan9 | Faire flotter le caillou à côté de ton bocal, pour la photo | Le caillou se soulève et se pose contre ton bocal, juste à ta hauteur. Flash. Flash. Gontran lève les bras. « Historique ! » Tu reposes le caillou sur son coussin. Tu as l'impression qu'il t'a remercié, d'une certaine façon. | Le caillou se soulève, passe devant l'objectif, et tous les journaux auront demain la même photo : un caillou flou devant un bocal. Gontran est ravi. « Mystérieux ! » | +flag:pm_galet | +flag:pm_galet |
 * plu_05c | Refuser, avec une bulle polie | La bulle éclate : « Non. Mer. Ci. » Gontran traduit aux photographes : « L'enquêteur refuse toute récupération politique. » On le photographie en train de refuser. C'est encore mieux. | | coe+1 |
 
 @pcm_02b
@@ -445,7 +445,7 @@ Sur la plage, des crabes en lunettes font l'inventaire de la mer. Ils comptent l
 
 @pct_07
 !title: La bouteille
-En repartant, une vague minuscule, en retard, dépose une bouteille à tes pieds. Il y a un papier dedans. Ce n'est pas la lettre d'Ondine : c'est une autre écriture, très vieille, toute penchée.
+En repartant, une vague minuscule, en retard, dépose une bouteille contre ton bocal. Il y a un papier dedans. Ce n'est pas la lettre d'Ondine : c'est une autre écriture, très vieille, toute penchée.
 * pct_08 | Avaler la bouteille, pour comprendre ce que c'est | Tu l'avales. _Tu es une bouteille à la mer. Quelqu'un t'a confié une phrase, il y a cent ans : « Si quelqu'un me lit, je ne suis plus seul. » Tu as fait le tour du monde. Personne ne t'a ouverte. Tu as attendu. Tu attends encore._ Tu la recraches. Tu la regardes fort, et tu l'envoies très loin, vers le large, là où quelqu'un l'ouvrira peut-être. | | coe+1 |
 * pct_08 | La remettre à l'eau, sans l'ouvrir | Ce n'est pas à toi. Tu la pousses du bocal. La mer la reprend, gentiment. | |
 
@@ -464,7 +464,7 @@ Derrière la station, des milliers de bouteilles de pluie sont empilées en pyra
 ?regions>=4 Partout, on allume des lampions. Des milliers de petites lunes en papier, suspendues aux tentes, pour qu'il en reste si la vraie s'en va.
 * plu_hub ?regions==1 pan9 | Faire s'envoler toutes ses cartes postales, vers le ciel | Elles s'envolent, des milliers, comme des oiseaux carrés. Le marchand les regarde partir. « Elles arriveront bien quelque part. » Il a l'air soulagé. | Elles s'envolent, puis retombent toutes sur toi. Tu es couvert de « J'Y ÉTAIS ». C'est vrai, d'une certaine façon. | |
 * plu_hub ?regions==1 | Passer ton chemin | Le marchand crie derrière toi : « Dernières cartes ! » Il crie ça depuis ce matin. | |
-* plu_hub ?regions==2 | Marcher un moment avec eux, à leur vitesse | Tu marches avec eux. À leur vitesse, le monde est plus grand. Au bout d'une heure, tu as fait vingt mètres. Ils te remercient d'être resté. Tu reprends ta vitesse de limace, qui te paraît maintenant très rapide. | | coe+1 |
+* plu_hub ?regions==2 | Ramper un moment avec eux, à leur vitesse | Tu rampes avec eux. À leur vitesse, le monde est plus grand. Au bout d'une heure, tu as fait vingt mètres. Ils te remercient d'être resté. Tu reprends ta vitesse de limace, qui te paraît maintenant très rapide. | | coe+1 |
 * plu_hub ?regions==2 pan10 | Les faire flotter jusqu'au sommet de la colline | Ils se soulèvent tous ensemble, très lentement, et se posent en haut. Ils ont gagné un jour. Ils mettront une heure à te dire merci. | Ils se soulèvent, puis redescendent, un peu plus loin, mais du mauvais côté. Ils ne s'en aperçoivent pas tout de suite. | |
 * plu_hub ?regions==3 | Hurler avec lui, en bulles | Tes bulles montent avec son hurlement : « Ou. Ou. Ou. » Le chien s'arrête, te regarde, puis reprend, avec toi. Deux voix, ça porte plus loin. | | coe+1 |
 * plu_hub ?regions==3 | Le laisser à son au revoir | C'est à lui. Tu passes. | |
@@ -478,7 +478,7 @@ La nuit avance. Autour du feu, plus personne ne parle. Tu fais une bulle, tout d
 ~brume: Brume-Lucie se condense un peu. « Parce que tu parles... à moitié... comme moi... »
 ~bartho: Bartholomé crache dans le feu. Ça fait pschitt. « Parce que t'es lent. Et que Perline aimait les lents. »
 ~ondee: Dame Ondée pleut deux gouttes. « Parce que vous m'avez écoutée pleurer sans me dire d'arrêter. »
-?comps<1 Personne ne répond. Puis l'enfant Lichenaute, qui a mis toute la soirée à te rejoindre, s'assoit à côté de toi. Il ouvre la bouche. Il te faut attendre longtemps la réponse. « Pour... toi. »
+?comps<1 Personne ne répond. Puis l'enfant Lichenaute, endormi contre toi, ouvre un œil. Il met longtemps à comprendre la question. « Pour... toi. » Il se rendort.
 * pnu_01d | Leur faire une bulle à chacun, pour dire merci | Les bulles éclatent une par une, au-dessus du feu : « Mer. Ci. » Il y en a une pour chacun. Personne ne la lit. Tout le monde comprend. | | coe+1 |
 * pnu_01d | Regarder le feu jusqu'à l'aube | Le feu baisse. Le ciel aussi, en quelque sorte. | |
 
@@ -486,8 +486,9 @@ La nuit avance. Autour du feu, plus personne ne parle. Tu fais une bulle, tout d
 !title: Le grutier
 Au pied de la première grue, un grutier en bleu de travail prend son petit déjeuner, assis sur une poutre. Il a un casque doré et une tartine. Il te voit. Il ne s'étonne pas. Sur le chantier, il a tout vu.
 « Firmin. Grutier. Je monte les cloisons. » Il regarde la poussière, sous ses pieds. « Quand j'étais petit, ma mère me la montrait, le soir, par la fenêtre. Maintenant je marche dessus. Avec des bottes. Je ne sais pas si on a le droit. »
-* pch_03b pan9 | Faire flotter sa tartine jusqu'à la Terre, pour qu'il la voie partir et revenir | La tartine monte, fait le tour de la grue, et redescend dans sa main. Firmin éclate de rire, pour la première fois depuis le début du chantier. « Les vigiles changent d'équipe à l'aube. Il y a une minute où personne ne regarde. » | La tartine monte, et ne redescend pas. Firmin la regarde partir. « Bon. Elle sera la première tartine sur la Terre vue de la Lune. » | |
-* pch_03b coe10 | Lui dire, en bulles, qu'elle ne veut pas partir | Tes bulles éclatent une à une. Firmin les lit. Il pose sa tartine. Il retire son casque. Il ne dit rien. Il ne remontera pas dans sa grue, ce matin. | Tes bulles éclatent toutes ensemble. Firmin hoche la tête, poliment, et remonte dans sa grue. | coe+1 |
+* pch_03b ?!flag:pm_appel | Lui dire, en bulles, que la Lune respire sous ses bottes | Tes bulles éclatent une à une. Firmin baisse les yeux vers la poussière. Il retire une botte, très lentement, et la pose à côté. Il remonte dans sa grue en chaussettes, sans rien dire. | | coe+1 |
+* pch_03b pan9 | Faire flotter sa tartine jusqu'à la Terre, pour qu'il la voie partir et revenir | La tartine monte, fait le tour de la grue, et redescend dans sa main. Firmin éclate de rire, pour la première fois depuis le début du chantier. « Les vigiles changent d'équipe à l'aube. Il y a une minute où personne ne regarde. » | La tartine monte, et ne redescend pas. Firmin la regarde partir. « Bon. Elle sera la première tartine sur la Terre vue de la Lune. » | +flag:pm_firmin | |
+* pch_03b coe10 ?flag:pm_appel | Lui dire, en bulles, qu'elle ne veut pas partir | Tes bulles éclatent une à une. Firmin les lit. Il pose sa tartine. Il retire son casque. Il ne dit rien. Il ne remontera pas dans sa grue, ce matin. En baissant la voix, il te donne un conseil : « Les vigiles changent d'équipe à l'aube. Il y a une minute où personne ne regarde. » | Tes bulles éclatent toutes ensemble. Firmin hoche la tête, poliment, et remonte dans sa grue. | coe+1 +flag:pm_firmin |
 
 @pmo_03
 !title: L'antichambre
@@ -551,7 +552,7 @@ Au large, deux bateaux tournent en rond, perdus, en suivant la lumière.
 @pha_02b
 !title: Les nuages plats
 Pour aller jusqu'à la station, il faut traverser un troupeau de nuages vidés. Ils sont plats comme des draps, transparents, et dorment par terre, les uns sur les autres. Ils n'ont plus la force de flotter.
-?flag:pm_ondee_parle Dame Ondée passe au-dessus d'eux, très bas, en murmurant leurs prénoms.
+?flag:pm_ondee_parle Dans ton dos, Dame Ondée, clouée par son tuyau, murmure leurs prénoms, un par un, de loin.
 * pha_02c coe10 | Leur souffler des bulles dedans, pour les regonfler un peu | Tes bulles entrent dans les nuages, une par une. Ils se gonflent, à peine. L'un d'eux se soulève, se met debout, si on peut dire, et part en flottant derrière toi, pour voir. | Tes bulles traversent les nuages et éclatent de l'autre côté. Ils dorment toujours. | coe+1 |
 * pha_02c | Ramper sur eux, doucement, sans les réveiller | Ils sont froids et doux. Ils ne se réveillent pas. Ils rêvent sans doute de pleuvoir. | |
 
@@ -560,5 +561,5 @@ Pour aller jusqu'à la station, il faut traverser un troupeau de nuages vidés. 
 Avant l'aube, le Conseil des Espèces vient te voir, en entier, en pyjama. Le vieil Horloger en laiton s'avance. Derrière lui, Maître Gontran porte le petit caillou gris sur son coussin.
 « Monsieur l'enquêteur. Nous n'avons pas de plan. Nous n'avons jamais eu de plan. Nous avons seulement vous. » Il s'arrête de faire tic-tac, une seconde, par respect.
 Gontran tend le coussin. « Le Président tient à vous dire au revoir. » Le caillou ne dit rien. Gontran ne traduit rien, pour une fois.
-* pnu_02 pan9 | Faire flotter le caillou une dernière fois, pour lui dire au revoir | Le caillou se soulève, fait un petit tour au-dessus du Conseil, et se repose. Toute la plaine applaudit, à voix basse, pour ne pas réveiller la Lune. | Le caillou se soulève et tombe dans la poche de Gontran, comme le premier jour. Gontran le reprend, très digne. « Le Président préfère rester discret. » | |
+* pnu_02 pan9 | Faire flotter le caillou une dernière fois, pour lui dire au revoir | Le caillou se soulève, fait un petit tour au-dessus du Conseil, et se repose. Toute la plaine applaudit, à voix basse, pour ne pas réveiller la Lune. | Le caillou se soulève et tombe dans la poche de Gontran, comme le premier jour. Gontran le reprend, très digne. « Le Président préfère rester discret. » | +flag:pm_galet | +flag:pm_galet |
 * pnu_02 | Faire une bulle au Conseil : « À. Tout. À. L'heu. Re. » | La bulle éclate. Personne ne sait si c'est une promesse. Tout le monde décide que c'en est une. | | coe+1 |

@@ -60,7 +60,7 @@ Tu reviens au Carrefour des Espèces. Les tentes ont doublé. La Lune a l'air pl
 
 @plu_tele
 !title: Ailleurs
-!fx: tele+1 from:pcm_r1=>-flag:vis_pcm from:pcm_r1=>regions-1 from:pso_r1=>-flag:vis_pso from:pso_r1=>regions-1 from:pso_r1=>+flag:pm_retour_pso from:pct_r1=>-flag:vis_pct from:pct_r1=>regions-1 from:pct_r1=>+flag:pm_retour_pct from:pha_r1=>-flag:vis_pha from:pha_r1=>regions-1
+!fx: tele+1 from:pcm_r1=>-flag:vis_pcm from:pcm_r1=>regions-1 from:pso_r1=>-flag:vis_pso from:pso_r1=>regions-1 from:pct_r1=>-flag:vis_pct from:pct_r1=>regions-1 from:pha_r1=>-flag:vis_pha from:pha_r1=>regions-1
 Ton bocal fait pop. Le monde se plie en quatre, comme une carte qu'on range mal. Tu n'as rien décidé. Tu ne décides jamais.
 Quand tu rouvres tes trois yeux, tu es revenu au Carrefour, la tête sous la bâche de Mère Fricassée. Tu n'as presque rien vu, là-bas. Il faudra y retourner.
 ?comps>=1 Ceux qui t'accompagnent s'étaient accrochés à ton bocal. Ils arrivent avec toi, un peu froissés.
@@ -252,7 +252,9 @@ Dans le coin, le bocal froid. Dedans, une brume dorée qui compte, tout bas.
 !title: Un marché
 « Dans les bocaux ? Des rêves. Je les récolte. La Lune en fait beaucoup, ces nuits-ci, et elle ne les garde pas. Ça se perdrait. » Il bâille. « Et dans le coin, le cauchemar de Monsieur Platine. Il le fait toutes les nuits depuis cinquante ans. Je l'ai mis en bocal pour qu'il dorme un peu. Il n'a pas dormi mieux. Il n'en veut plus, et moi non plus. »
 Il te regarde. « Je vous en donne un. Un seul. Contre un souvenir. »
-Tu n'as que le mardi. Il le prend quand même. « L'ennui, c'est mon meilleur produit. Ça fait dormir n'importe qui. »
+?!flag:pm_souv Tu n'as que le mardi. Il le prend quand même.
+?flag:pm_souv Tu pourrais lui donner la nuit des deux soleils, mais elle éclaire ton bocal. Tu lui donnes un mardi. Il le prend quand même.
+« L'ennui, c'est mon meilleur produit. Ça fait dormir n'importe qui. »
 ~brume: Brume-Lucie te pousse doucement vers l'étagère d'argent. « Elle... d'abord... »
 * pso_reve | Prendre un rêve de la Lune | Il te tend le plus petit. Tu l'avales devant lui. Il fait une grimace polie. | |
 * pso_cauch | Prendre le bocal froid du coin | Il te le tend avec soulagement. « Bon débarras. » Tu l'avales devant lui. Il fait une grimace polie. | |
@@ -271,7 +273,9 @@ Tu sais, maintenant, qui appelait.
 !title: Être un cauchemar
 !fx: +flag:obj_cauchemar +flag:pm_reve_platine +flag:pm_reve
 _Tu es un cauchemar. Tu es une salle vide, immense, dorée. Au milieu, un enfant en feuilles d'or compte des pièces. Une, deux, cent, mille. Il arrive à la fin. Il recommence. Il compte pour que le temps passe. Il compte en attendant quelqu'un. Personne ne vient. Ça dure depuis cinquante ans. Il ne sait plus ce qu'il attendait. Il compte quand même._
-Tu recraches le bocal, bien fermé. Tu le gardes dans ton bocal, contre ta joue. Il compte tout bas. Tu sais à qui il appartient. Il pourrait peut-être lui rendre.
+Tu recraches le bocal, bien fermé. Tu le gardes dans ton bocal, contre ta joue. Il compte tout bas.
+?from:pso_05 Le Marchand te l'a dit : c'est le cauchemar de Monsieur Platine. Tu pourras peut-être le lui rendre.
+?!from:pso_05 Tu ne sais pas à qui il appartient. À quelqu'un qui compte, et qui attend. Tu le sauras peut-être là-haut.
 * pso_04 ?flag:pm_transp_son | Retourner aux étagères | Personne ne t'a vu. Tu es encore transparent. | |
 * pso_06 ?!flag:pm_transp_son | Te réveiller | Le Marchand claque des doigts. | |
 
@@ -331,7 +335,7 @@ Ondine te raccompagne au bas du phare.
 ?flag:pm_lettre « Si vous montez là-haut, dites-lui que j'ai bien reçu. Dites-lui que je continue. »
 ?!flag:pm_lettre « Si vous montez là-haut, dites-lui que j'écris toujours. Elle saura. »
 ?flag:pm_appel ?!flag:pm_lettre Tu sais déjà qui appelait. Tu ne lui dis pas. Ça ne t'appartient pas.
-~bartho: Bartholomé te regarde partir. Puis il te suit. « Je viens jusqu'au bout. Pour la petite. Et parce que t'es lent. »
+~bartho: Bartholomé t'attend au pied du phare, les bras croisés. « Je viens jusqu'au bout. Pour la petite. Et parce que t'es lent. »
 * pct_04b | Redescendre vers la plage | Tu rampes sur le sable mouillé. Le phare clignote derrière toi, pour rien. | |
 
 # ---------------------------------------------------------------- LA DERNIÈRE NUIT
@@ -415,12 +419,12 @@ Derrière le bureau, un homme couvert de feuilles d'or, très droit, très fatig
 ~bartho: Bartholomé s'assoit dans un fauteuil de cuir et le mouille entièrement.
 ~ondee: Dame Ondée se colle à la baie vitrée, du dehors, et pleut doucement sur la Lune, comme on remonte une couverture.
 ?flag:pm_anniv_dit La robote grise a baissé son tampon. Elle regarde Platine comme on regarde quelqu'un qui vient d'apprendre son propre anniversaire.
-* pmo_bur ?flag:obj_miroir_platine ?!flag:pm_miroir_rendu | Recracher le miroir sur le bureau | Tu le recraches sur le marbre. Platine se penche. Dans le miroir, un enfant en feuilles d'or, dans un coffre, qui attend. Platine devient très pâle, ce qui, sur des feuilles d'or, fait presque blanc. « Où avez-vous eu ça ? » Tu fais une bulle. Il ne la comprend pas. Ça n'a pas d'importance. | | coe+1 +flag:pm_miroir_rendu |
-* pmo_bur ?flag:pm_poeme ?!flag:pm_poeme_rendu | Recracher le cahier d'écolier, ouvert au poème | Tu le recraches, ouvert. Platine lit. « Je compte les pièces. Une, deux, cent. » Il referme le cahier, très vite. Il le rouvre. « J'avais oublié. Je n'avais pas oublié. » | | coe+1 +flag:pm_poeme_rendu |
-* pmo_bur ?flag:obj_dessin_lune ?!flag:pm_dessin_rendu | Recracher le dessin de l'enfant Lichenaute | Tu le recraches sur le marbre, déplié. Une Lune ronde, verte de lichen, avec un sourire. Platine le regarde longtemps. « Elle sourit. Sur les dessins, elle sourit. Je ne l'avais jamais regardée assez longtemps pour savoir. » Il ne le rend pas. Il le pose à côté du bouton. | | coe+1 +flag:pm_dessin_rendu |
-* pmo_bur ?flag:pm_anniv ?!flag:pm_anniv_dit | Lui souhaiter, en bulles, un joyeux anniversaire | Tes bulles montent et éclatent une à une, avec du retard : « Joy. Eux. Anni. Ver. Saire. » Platine se fige. Il regarde le calendrier, puis la robote grise, qui baisse les yeux. « C'est aujourd'hui. Je ne savais plus. » Personne ne le lui avait dit depuis le coffre. | | coe+1 +flag:pm_anniv_dit |
-* pmo_bur ?flag:pm_chanson ?!flag:pm_chanson_rendue | Ouvrir ton bocal, et laisser sortir la chanson de sa collection | La chanson sort de ton bocal, avec tes bulles. Une langue que personne ne parle plus. Elle remplit le bureau. Platine pose son stylo. Il ne l'avait jamais ouverte. Il l'avait achetée pour l'avoir. « Elle est belle », dit-il, comme s'il l'apprenait. | | coe+1 +flag:pm_chanson_rendue |
-* pmo_bur ?flag:pm_ours ?!flag:pm_ours_rendu | Pousser du bocal le vieil ours de la caisse, jusqu'à lui | L'ours glisse sur le marbre et s'arrête contre sa main. Platine le reconnaît. Il le prend. Il le serre, sans y penser, exactement comme avant, du côté de l'œil qui manque. | | coe+1 +flag:pm_ours_rendu |
+* pmo_bur ?flag:obj_miroir_platine ?!flag:pm_miroir_rendu | Recracher le miroir sur le bureau | Tu le recraches sur le marbre. Platine se penche. Dans le miroir, un enfant en feuilles d'or, dans un coffre, qui attend. Platine devient très pâle, ce qui, sur des feuilles d'or, fait presque blanc. « Où avez-vous eu ça ? » Tu fais une bulle. Il ne la comprend pas. Ça n'a pas d'importance. | | coe+1 platine+1 +flag:pm_miroir_rendu |
+* pmo_bur ?flag:pm_poeme ?!flag:pm_poeme_rendu | Recracher le cahier d'écolier, ouvert au poème | Tu le recraches, ouvert. Platine lit. « Je compte les pièces. Une, deux, cent. » Il referme le cahier, très vite. Il le rouvre. « J'avais oublié. Je n'avais pas oublié. » | | coe+1 platine+1 +flag:pm_poeme_rendu |
+* pmo_bur ?flag:obj_dessin_lune ?!flag:pm_dessin_rendu | Recracher le dessin de l'enfant Lichenaute | Tu le recraches sur le marbre, déplié. Une Lune ronde, verte de lichen, avec un sourire. Platine le regarde longtemps. « Elle sourit. Sur les dessins, elle sourit. Je ne l'avais jamais regardée assez longtemps pour savoir. » Il ne le rend pas. Il le pose à côté du bouton. | | coe+1 platine+1 +flag:pm_dessin_rendu |
+* pmo_bur ?flag:pm_anniv ?!flag:pm_anniv_dit | Lui souhaiter, en bulles, un joyeux anniversaire | Tes bulles montent et éclatent une à une, avec du retard : « Joy. Eux. Anni. Ver. Saire. » Platine se fige. Il regarde le calendrier, puis la robote grise, qui baisse les yeux. « C'est aujourd'hui. Je ne savais plus. » Personne ne le lui avait dit depuis le coffre. | | coe+1 platine+1 +flag:pm_anniv_dit |
+* pmo_bur ?flag:pm_chanson ?!flag:pm_chanson_rendue | Ouvrir ton bocal, et laisser sortir la chanson de sa collection | La chanson sort de ton bocal, avec tes bulles. Une langue que personne ne parle plus. Elle remplit le bureau. Platine pose son stylo. Il ne l'avait jamais ouverte. Il l'avait achetée pour l'avoir. « Elle est belle », dit-il, comme s'il l'apprenait. | | coe+1 platine+1 +flag:pm_chanson_rendue |
+* pmo_bur ?flag:pm_ours ?!flag:pm_ours_rendu | Pousser du bocal le vieil ours de la caisse, jusqu'à lui | L'ours glisse sur le marbre et s'arrête contre sa main. Platine le reconnaît. Il le prend. Il le serre, sans y penser, exactement comme avant, du côté de l'œil qui manque. | | coe+1 platine+1 +flag:pm_ours_rendu |
 * pmo_r3 coe10 ?flag:obj_berceuse ?!flag:pm_essai_berc | Lui faire écouter la berceuse du coquillage de la Somnambule | Tu poses le coquillage sur le marbre. La berceuse en sort, très bas. Platine ne dort jamais : ça se voit. La Somnambule l'avait gardée pour quelqu'un comme lui. | Tu poses le coquillage sur le marbre. La berceuse en sort, mais tu fais une bulle en même temps, et les deux se mélangent. | +flag:pm_essai_berc +flag:pm_berc_ok | +flag:pm_essai_berc
 * pmo_r1 coe10 ?flag:pm_reve ?!flag:pm_essai_reve | Recracher sur Platine le rêve que tu portes | Tu ouvres ton bocal. Le rêve sort, en brume, et enveloppe Platine. Il ferme les yeux. Il s'affaisse dans son fauteuil, la main posée sur le bouton rouge, toute légère. Il dort. | Tu ouvres ton bocal. Le rêve sort, en brume, mais Platine recule. La brume se colle au mur, puis à la robote grise, qui s'endort debout, le tampon en l'air. Platine, lui, est bien réveillé. | +flag:pm_essai_reve | +flag:pm_essai_reve
 * pmo_r2 pan9 ?flag:pm_faille ?!flag:pm_essai_crochet | Devenir transparent, sortir sur la coque, et faire flotter le crochet par sa fêlure | Tu retiens ton souffle. Tu disparais. Tu sors par la baie vitrée entrouverte, tu rampes sur la coque jusqu'au crochet d'or. Tu ne regardes pas le crochet : tu regardes la fêlure, à la base, celle que tu as vue cette nuit. Elle s'ouvre. Le crochet frémit. Il se soulève. | Tu retiens ton souffle. Tu disparais à moitié. Platine voit une moitié de limace ramper vers la baie vitrée. Il appuie sur un autre bouton, un petit, et la baie se referme. | +flag:pm_essai_crochet | +flag:pm_essai_crochet
@@ -468,17 +472,18 @@ Dehors, le ciel est rose. Les moteurs vont démarrer.
 @end_28
 !end: 28
 !title: Le bouton, doucement
-Platine se réveille une heure plus tard, dans le silence. Les moteurs sont arrêtés. Sa main est sur le bouton, enfoncé jusqu'au fond. Il la regarde comme si elle appartenait à quelqu'un d'autre. Il ne se rappelle pas l'avoir fait. Il se rappelle son rêve.
+?flag:pm_decide Platine regarde son bureau : le miroir, le cahier, ce qu'on lui a rendu. Il regarde la Lune par la baie vitrée. Puis il pose sa main sur le bouton, et il appuie, tout seul, sans que personne le lui demande. Le bouton fait clic. Les moteurs s'arrêtent avant d'avoir démarré. Il ne regarde pas la robote grise. Elle baisse son tampon.
+?!flag:pm_decide Platine se réveille une heure plus tard, dans le silence. Les moteurs sont arrêtés. Sa main est sur le bouton, enfoncé jusqu'au fond. Il la regarde comme si elle appartenait à quelqu'un d'autre. Il ne se rappelle pas l'avoir fait. Il se rappelle son rêve.
 Il ne rallume pas les moteurs. Il dit seulement, à la robote grise : « Annulez. » Elle tamponne « APPROUVÉ ». Pour la première fois, elle est d'accord avec son tampon.
 Le crochet se détache. La Lune remonte doucement à sa place, comme quelqu'un qui retourne s'asseoir.
-?flag:pm_reve_platine Platine dort, maintenant, la nuit. Il ne compte plus. Il dit qu'une limace grise vient parfois dans son rêve, et qu'elle regarde l'enfant jouer.
-?flag:pm_reve_lune ?!flag:pm_reve_platine Platine a écrit une lettre à la Lune, sa première, un poème très mauvais. Il l'a confiée au Grand Vent Postal. La Lune ne répond jamais. Mais il continue.
+?flag:pm_reve_platine ?!flag:pm_decide Platine dort, maintenant, la nuit. Il ne compte plus. Il dit qu'une limace grise vient parfois dans son rêve, et qu'elle regarde l'enfant jouer.
+?flag:pm_reve_lune ?!flag:pm_reve_platine ?!flag:pm_decide Platine a écrit une lettre à la Lune, sa première, un poème très mauvais. Il l'a confiée au Grand Vent Postal. La Lune ne répond jamais. Mais il continue.
 Toi, tu es resté. Tu ne sais plus comment repartir : ton pop s'est usé, cette nuit-là. Tu vis sur une plage des Côtes, dans une épave étonnée. Le soir, tu fais flotter les galets pour les enfants. Ils les font tourner autour de leur tête, comme de toutes petites lunes.
 ?flag:pm_lettre Ondine passe te voir, de temps en temps. Elle t'apporte les réponses de la Lune, pour que tu les lui traduises.
-?comp:pardon Pardon a trouvé ce qu'était une racine. Il en mesure une, sur ta plage, tous les jours. Elle pousse. Il s'excuse auprès d'elle.
+?comp:pardon Pardon a fini par mesurer une voix : la sienne, à voix haute, sur ta plage. Elle fait trente-deux centimètres. Il ne s'en excuse pas.
 ?comp:brume Brume-Lucie vient le matin, sur la plage, en brouillard. Elle finit ses vers, maintenant, parfois.
 ?comp:bartho Bartholomé pêche à côté de toi. La marée revient, chaque jour, à l'heure. Il attend qu'elle lui rapporte quelqu'un. Il ne boit plus d'eau douce.
-Au Carrefour, le Président galet a gardé l'habitude de s'élever, de temps en temps, au-dessus des situations. C'est toi, bien sûr. Gontran ne le saura jamais.
+?flag:pm_galet Au Carrefour, le Président galet a gardé l'habitude de s'élever, de temps en temps, au-dessus des situations. C'est toi, bien sûr. Gontran ne le saura jamais.
 
 @end_29
 !end: 29
