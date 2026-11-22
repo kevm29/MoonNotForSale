@@ -160,7 +160,8 @@ Les mères nous regardent nous rassembler. Une mère Gravitaire, assise sur son 
 Puis toutes parlent en même temps. Une Somnambule veut qu'on lui dise qu'elle rêve d'elle. La Lichenaute de la chambre quatre veut qu'on lui dise de prendre son temps, mais pas trop. Les Horlogers veulent l'heure exacte de son retour.
 Sœur Gertrude, au premier rang de l'essaim, compte les demandes sur ses pattes. Elle n'a pas assez de pattes.
 * pel_17 coe11 | Promettre à toutes les mères de porter leurs messages | « Nous lui dirons tout. À toutes, nous le promettons. » Le couloir se tait. Puis la mère Gravitaire pose sa grosse main de pierre contre le mur, ce qui, chez elle, veut dire merci. | « Nous lui dirons... » Il y a trop de messages. Nous en oublions trois avant la fin de la phrase. Les mères nous les répètent, patiemment, et nous les apprenons par cœur, à mille. | +flag:promesse_meres mor+1 | +flag:promesse_meres
-* pel_17 rus10 | Ne rien promettre : nous ne promettons qu'une fois, et c'est fait | « Nous avons déjà promis à Nouvelle. Une promesse, c'est lourd. Deux, nous ne pourrions pas voler. » Les mères comprennent. Elles nous donnent des fraises pour la route, à la place. | | |
+* pel_17 rus10 ?!flag:promesse_bebe | Ne rien promettre : cette nuit, nous avons déjà fait mentir une Lune de cire | « Nous ne promettons rien. Cette nuit, nous avons déjà laissé mentir une lumière, et c'était une de trop. » Les mères comprennent. Elles nous donnent des fraises pour la route, à la place. | | |
+* pel_17 rus10 ?flag:promesse_bebe | Ne rien promettre : nous ne promettons qu'une fois, et c'est fait | « Nous avons déjà promis à Nouvelle. Une promesse, c'est lourd. Deux, nous ne pourrions pas voler. » Les mères comprennent. Elles nous donnent des fraises pour la route, à la place. | | |
 
 @pel_25
 !title: Les pêcheurs
