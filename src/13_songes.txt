@@ -10,8 +10,8 @@ Pour aller au Pays des Songes, il faut s'endormir. Au Carrefour, on a monté un 
 ?pc:pistil Tu n'as pas besoin de lit. Tu rentres chez toi. Mais chez toi a changé : les murs de rêve sont plus minces qu'avant, presque transparents.
 ?pc:pistil ?comps>=1 Tes compagnons, eux, ont besoin d'un lit. Tu leur montres le vieux truc des Somnambules : on s'endort en tenant un pan de ton pyjama, et on rêve là où tu vas. Un Somnambule, c'est une porte qui marche. Ils s'allongent en rond autour de toi, chacun un bout de flanelle serré dans le poing. Tu n'as jamais été tenu par autant de monde.
 ?!pc:pistil ?comps>=1 La vieille Somnambule regarde ta troupe. « Ensemble ? Alors main dans la main, et la même pensée pour tout le monde. Sinon chacun part dans son rêve, et on vous retrouve dans trois semaines. » Vous vous endormez en chaîne. Vous arriverez en chaîne.
-* son_02 coe10 | T'endormir en pensant à la Lune | Tu penses à elle. Tu tombes. Doucement. Vers le haut. | Tu penses à la Lune, puis à tes impôts, puis à la Lune. Tu t'endors quand même, de travers. | mor+1 |
-* son_03 rus11 | T'endormir en comptant les moutons | Les moutons sautent la barrière. Le quatorzième est défait, à moitié détricoté. Il te fait signe de le suivre. | Les moutons refusent de sauter. Ils font grève. Seul le quatorzième, à moitié détricoté, saute quand même, par solidarité. Il te fait signe de le suivre, et tu t'endors en le regardant. | rus+1 |
+* son_02 coe10 ?!pc:pistil | T'endormir en pensant à la Lune | Tu penses à elle. Tu tombes. Doucement. Vers le haut. | Tu penses à la Lune, puis à tes impôts, puis à la Lune. Tu t'endors quand même, de travers. | mor+1 |
+* son_03 rus11 ?!pc:pistil | T'endormir en comptant les moutons | Les moutons sautent la barrière. Le quatorzième est défait, à moitié détricoté. Il te fait signe de le suivre. | Les moutons refusent de sauter. Ils font grève. Seul le quatorzième, à moitié détricoté, saute quand même, par solidarité. Il te fait signe de le suivre, et tu t'endors en le regardant. | rus+1 |
 
 @son_02
 Le Pays des Songes. Une ville immense, faite de tous les rêves de la Terre, posée sur des nuages de coton. Des tours de souvenirs, des ponts d'idées vagues, des places publiques où les gens se promènent en pyjama. Mais la ville s'effrite. Des pans entiers de rêves tombent dans le vide. Des quartiers s'éteignent.
@@ -33,14 +33,16 @@ La ville s'effondre par morceaux. Des rêves de Marégraves, où la mer refuse d
 
 @son_05
 ?comp:brume Brume-Lucie, qui flotte à côté de toi depuis le début, se densifie un peu. « La ville, je la connais. Enfin. Ses chemins flous. Suis-moi. » Elle ajoute, très bas : « Je suis contente que tu m'aies emmenée. »
-?!comp:brume Un brouillard argenté, qui fredonne, s'approche de toi. Il prend une forme vague : une jeune femme, floue, avec des cheveux de vapeur et des yeux de rosée.
-?!comp:brume « Oh. Pardon. Je ne voulais pas... enfin. Je passais. Je suis Brume-Lucie. Je suis une Brumeuse. Je vis entre le rêve et l'éveil, là où les choses sont... » Elle n'ose pas finir. Elle disparaît. Puis réapparaît. « Floues. »
-?pc:pistil ?!comp:brume « Pistil ! Tu es revenu ! Je croyais que l'éveil t'avait... enfin. »
+?!comp:brume ?!flag:brume_vue Un brouillard argenté, qui fredonne, s'approche de toi. Il prend une forme vague : une jeune femme, floue, avec des cheveux de vapeur et des yeux de rosée.
+?!comp:brume ?!flag:brume_vue « Oh. Pardon. Je ne voulais pas... enfin. Je passais. Je suis Brume-Lucie. Je suis une Brumeuse. Je vis entre le rêve et l'éveil, là où les choses sont... » Elle n'ose pas finir. Elle disparaît. Puis réapparaît. « Floues. »
+?pc:pistil ?!comp:brume ?flag:brume_vue Un brouillard argenté se précipite sur toi, et s'arrête net, gêné de s'être précipité. « Pistil ! Tu es revenu ! Je croyais que l'éveil t'avait... enfin. »
 * son_06 coe11 ?comp:brume | La suivre | Elle te guide entre les tours de souvenirs. Elle ne se perd qu'une fois, exprès, pour te montrer un joli rêve. | Elle te guide, se trompe de rêve, s'excuse auprès du rêveur. | coe+1 |
 * son_06 coe11 ?!comp:brume | La saluer doucement | Elle reste visible. C'est bon signe. « Tu es gentille. Gentil. Gentille ? » Elle disparaît de gêne. | Tu la salues trop fort. Elle disparaît. Elle revient au bout d'un moment, prudente. | coe+1 |
 
 @son_06
 ?comp:brume Brume-Lucie flotte autour de toi. « La ville s'éteint plus vite que la dernière fois. Avant, j'enveloppais seule les rêves qui tombent. Maintenant on est deux. » Elle n'ose pas dire que ça lui fait plaisir. Elle le dit quand même, en rosée.
+?!comp:brume ?from:son_03 ?!flag:brume_vue Le brouillard prend une forme vague : une jeune femme floue, aux cheveux de vapeur. « Oh. Pardon. Je suis Brume-Lucie. Une Brumeuse. Je vis entre le rêve et l'éveil, là où les choses sont... enfin. Floues. »
+?!comp:brume ?from:son_03 ?flag:brume_vue Le brouillard, c'est elle. Elle se reforme devant toi, gênée de s'être précipitée. « Pistil ! Tu es revenu ! »
 ?!comp:brume Brume-Lucie flotte autour de toi. Elle parle en demi-vers, comme si elle avait peur d'aller au bout des phrases. « La ville s'éteint. Les rêves tombent. La Lune s'en... » Elle n'aime pas les fins. « Je fais ce que je peux. J'enveloppe les rêves qui tombent. Mais je suis seule. Et je suis du brouillard. Je n'ai pas de mains. »
 * son_08 coe12 ?comp:brume | Envelopper les rêves avec elle | Vous vous y mettez à deux. Elle enveloppe, tu remets en place. Elle chantonne. | Tu en fais tomber un. Elle le rattrape, de justesse, et fait semblant de rien. | coe+1 |
 * son_08 coe12 ?!comp:brume | Lui proposer de l'aider | « Toi ? » Elle s'illumine. Un brouillard qui s'illumine, c'est un lever de soleil dans une salle de bains. « D'accord. Enfin. Oui. D'accord. » | Elle hésite, disparaît, revient. « Oui. Peut-être. Oui. » | coe+1 |
@@ -215,7 +217,8 @@ Tu sors du rêve de Platine. Le Marchand t'attend dans l'arrière-boutique. « A
 ?!pc:pistil Tu te réveilles dans le Dortoir des Voyageurs, au Carrefour des Espèces. Tu as les joues mouillées et le cœur plein.
 ?pc:pistil Tu ressors du rêve par la porte de service des Somnambules et tu te retrouves au Dortoir des Voyageurs, entre deux lits. Toi, tu n'as pas dormi : tu es rentré. Tu as quand même le cœur plein. Autour de toi, d'autres rêveurs se réveillent aussi.
 ?flag:reve_ouvert Ils se regardent. Ils ont tous fait le même rêve : une Lune assise par terre, dans une maison pleine de fenêtres, qui disait « Je ne veux pas partir ».
-?comp:brume Brume-Lucie flotte au-dessus de ton lit, un peu pâle. L'éveil lui fait mal. Elle reste quand même.
+?comp:brume ?!pc:pistil Brume-Lucie flotte au-dessus de ton lit, un peu pâle. L'éveil lui fait mal. Elle reste quand même.
+?comp:brume ?pc:pistil Brume-Lucie flotte entre les lits, un peu pâle. L'éveil lui fait mal. Elle reste quand même, parce que tu y vas.
 ?pc:pistil ?comps>=1 Tes compagnons se réveillent en rond autour de toi, le pan de ton pyjama encore dans la main. Personne ne le lâche tout de suite.
 ?!pc:pistil ?comps>=1 Tes compagnons se réveillent dans les lits voisins, au même moment, la main encore tendue vers la tienne.
 * son_34 coe11 | Raconter ton rêve aux autres | Tu racontes. On t'écoute. Une Marégrave pleure. Un Gravitaire fait semblant de ne pas pleurer. | Tu racontes mal. Les rêves se racontent toujours mal. Mais ils comprennent. | equ+2 +flag:terre_sait |
