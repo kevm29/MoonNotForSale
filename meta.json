@@ -1180,6 +1180,10 @@
    "name": "Le ticket numéro zéro",
    "desc": "Un ticket de file d'attente du Cadastre. Le distributeur commence à 1. Celui qui a le zéro passe avant tout le monde."
   },
+  "obj_formulaire_reprise": {
+   "name": "Le formulaire « Reprise d'un bien vendu par erreur »",
+   "desc": "Un formulaire vierge, plié en quatre, pris tout en haut d'une étagère du Cadastre de Tamponville. Personne ne l'a jamais rempli. Il annule une vente, à condition que quelqu'un ose écrire la bonne case."
+  },
   "obj_tampon_vu": {
    "name": "Le tampon « VU »",
    "desc": "Le premier tampon du Cadastre, prêté par Madame Pruine. Ce qu'il marque a été vu, officiellement, et ne peut plus être ignoré."

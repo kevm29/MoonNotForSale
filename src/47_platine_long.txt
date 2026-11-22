@@ -411,7 +411,7 @@ Tu quittes Grève-Molle à l'aube. Derrière toi, la plage, le phare, la vague i
 Au fond d'un couloir, un guichet minuscule, et derrière, une vieille Lichenaute grise, toute ridée : Madame Pruine, la doyenne du Cadastre. Elle a sur son bureau le plus vieux tampon du monde, qui marque « VU ».
 Elle te regarde arriver. Elle met une minute à ouvrir la bouche. « Ce qu'il marque... a été vu. Officiellement. On ne peut plus... l'ignorer. » Elle te tend un ticket, le plus petit de tous : « 0 ». « Le ticket zéro. Il passe... avant tout le monde. Je ne le donne... à personne. Vous... avez l'air... d'en avoir besoin. »
 * plt_cap_c rus9 | Refuser le ticket : « Je ne passe pas avant les autres, aujourd'hui. » | Madame Pruine te regarde longtemps. Puis elle prend son tampon « VU », très lentement, et tamponne le dos de ton ticket 4 813. « Vu. » Tu ne sais pas ce qui a été vu. Toi, peut-être. | Tu refuses, mais trop vite. Elle ne t'entend pas : elle entend à la vitesse des lichens. Elle range le ticket zéro. | +flag:pl_vu coe+1 |
-* plt_cap_c | Prendre le ticket zéro | Tu le prends. Tu as toujours passé avant tout le monde. C'est ton métier. Il est tout petit dans ta main. | |
+* plt_cap_c | Prendre le ticket zéro | Tu le prends. Tu as toujours passé avant tout le monde. C'est ton métier. Il est tout petit dans ta main. | | +flag:obj_ticket_zero |
 
 @plt_cap_i
 !title: Les archives
