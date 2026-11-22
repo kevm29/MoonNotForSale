@@ -1,0 +1,341 @@
+# ================================================================
+# CORRECTIONS ET AJOUTS — GRISÉLIDIS (rapport de test du 21/11)
+# + répliques et duos de la région des Hauts-Nuages (nua_), confiée à ce fichier
+# ================================================================
+
+# ---------------------------------------------------------------- Carrefour : rentrer chez soi sans échelle
+
+@+hub_06
+* nua_01 ?pc:griselidis ?regions>=1 ?!flag:vis_nua | Rentrer chez toi, aux Hauts-Nuages | Tu laisses l'échelle de corde aux autres. Tu prends ton élan et tu montes d'un seul souffle, comme avant. | |
+
+# ---------------------------------------------------------------- Hauts-Nuages : le Centre de tri, en passant
+
+@+nua_01
+* nua_gri1 ?pc:griselidis | Faire d'abord un détour par le Centre de tri des Vents | Tes vieilles routes te portent toutes seules. Le Centre est tout près, comme toujours. | |
+
+@nua_gri1
+!title: Le Centre de tri, en passant
+Le Centre de tri des Vents n'a pas bougé, mais il a rétréci : sans pluie, le cumulus s'effiloche par les bords. La moitié des guichets sont vides. Au tien, quelqu'un a posé un écriteau : « Fermé pour cause de Lune. »
+?flag:suspendue ?!flag:casquette_gardee Tu entres sans casquette. Les vieux facteurs se taisent sur ton passage. L'un d'eux te tend la sienne, pour la journée. Tu ne la prends pas. Tu le remercies d'un sifflement.
+?flag:ordre_mission Si les guichets sont vides, c'est que la moitié des vents sont partis avec toi. Ceux qui restent te saluent comme on salue un capitaine.
+?flag:bise_vue Bise et Zéphyrette sont au guichet voisin, comme toujours.
+?!flag:bise_vue Au guichet voisin, Bise, la vieille brise des cartes postales, et Zéphyrette, la stagiaire, lèvent la tête.
+?flag:zephyrette_pardonnee Zéphyrette fait un tourbillon en te voyant, un vrai, pas un prudent. « J'ai repris ta tournée », dit-elle. « Les vraies lettres seulement. Plus de prospectus. Je les renifle avant. »
+?!flag:zephyrette_pardonnee Zéphyrette baisse les yeux. « Les prospectus de la Lune, j'en ai distribué trois mille. J'étais fière. » Elle ne fait pas de tourbillon. Elle a perdu l'envie.
+?flag:prospectus_detournes Bise sort de sa manche un prospectus corrigé : « Vivez la Lune AUTREMENT QU'EN LA VENDANT. » « Il en est tombé un sur ma fenêtre. J'ai reconnu ton écriture. Et les dessins de ta comète. » Elle le range très soigneusement.
+~zouzou ?pc:griselidis: « C'est ici que tu bossais ? Ça sent le papier mouillé et le règlement. Je comprends mieux pourquoi t'es partie. »
+~ondee: « Ils triaient ma pluie, avant. Par mers et par prénoms. »
+~pli: Monsieur Pli contemple les sacs de courrier avec une émotion de cousin. « Du papier. Partout. Enfin des gens convenables. »
+~taupinel: Taupinel renifle les sacs. « Des lettres jamais livrées. Chacune est un scoop. Je ne les ouvrirai pas. J'ai une déontologie. Presque. »
+~fernand: Fernand repère le bureau des réclamations. Il y dépose trois feuillets, par principe.
+* nua_gri2 coe10 | Dire à Zéphyrette que ce n'est pas sa faute | « Ce n'est pas ta faute. Ni la mienne. On porte ce qu'on nous donne. Maintenant, on choisit ce qu'on porte. » Zéphyrette relève sa casquette. Elle refait un petit tourbillon. | Tu cherches les mots, ils partent avec un courant d'air. Zéphyrette hoche la tête quand même. | mor+1 +flag:zephyrette_pardonnee |
+* nua_gri2 rus10 | Demander à Bise ce que devient le Directeur | Bise baisse la voix : « Il ne sort plus de son bureau. Il relit les lettres du rebut. Toutes. Il dit que c'est de l'inventaire. » | Bise fait semblant de ne pas entendre. Puis elle montre le bureau du Directeur du menton. | rus+1 |
+
+@nua_gri2
+!title: Le bureau du Directeur
+Le bureau du Directeur Aquilon. La porte est ouverte. Les papiers ne se rangent plus sur son passage : il ne passe plus. Il est assis, tout petit pour un vent du nord, au milieu des lettres du rebut, qu'il relit une à une.
+?flag:demission Sur le bureau, sous un presse-papiers, ta démission, dépliée et repassée. Il ne l'a jamais transmise.
+?flag:ordre_mission Il lève les yeux. « Cornemuse. Mes vents sont partis avec toi. Le Centre est vide. C'est la première fois que j'en suis fier. »
+?!flag:ordre_mission ?!flag:demission ?flag:suspendue Il lève les yeux. « Cornemuse. Tu es suspendue. Tu n'as rien à faire ici. » Puis, plus bas : « Assieds-toi quand même. »
+?!flag:ordre_mission ?!flag:demission ?!flag:suspendue Il lève les yeux. « Cornemuse. Je savais que tu reviendrais. Tu n'as jamais mis cette lettre bleue au rebut, n'est-ce pas ? » Tu ne réponds pas. Il ne la réclame pas.
+« Les pompes d'Aldébaran sucent nos nuages depuis une semaine. Je n'ai rien dit. Ils avaient payé. » Il repose une lettre jaunie. « Je dis quelque chose, maintenant. »
+?flag:taxe_vent Tu repenses à la taxe de vent dont Bise t'avait parlé. Il a l'air de la regretter jusqu'au dernier sou.
+~zouzou ?pc:griselidis: Zouzou passe la tête par la fenêtre. « C'est lui, le Directeur ? Il est plus petit que dans tes histoires. » Aquilon fait semblant de ne pas avoir entendu. Il se redresse un peu.
+* nua_02 coe10 | « Alors aidez-moi à arrêter les pompes. » | Il secoue la tête. « Je suis trop vieux pour souffler sur des machines. Mais je vais leur écrire. Une réclamation. Par la tempête. » Il prend une plume. Pour la première fois depuis des années, il a l'air de travailler. | « Je n'ai plus le souffle. » Mais il te regarde partir comme on regarde partir une lettre importante. | +flag:aquilon_aide equ+2 |
+* nua_03 rus10 | Lui demander où partent les nuages qu'on vide | Il déroule la carte des Vents. Au bord du ciel, un point doré qu'il n'a pas dessiné : « Station de pompage. Ils l'ont posée là sans permis de souffler. Va. » | Il agite la main vers l'est. « Par là. Tu trouveras. Tu trouves toujours. » | rus+1 |
+
+@+nua_09
+?flag:aquilon_aide Sur son bureau, une enveloppe grise, arrivée par la tempête : une réclamation du Grand Vent Postal, signée « Aquilon, Directeur ». Il l'a lue. Il transpire.
+
+# ---------------------------------------------------------------- Gaspard : la lettre en souffrance, dès la première rencontre
+
+@+nua_14
+?pc:griselidis ?!flag:gaspard_lettre Ombrelune. Tu connais ce nom. Il est écrit sur une enveloppe jaunie, au fond de ta sacoche, dans la poche des lettres en souffrance : « Pour M. Gaspard Ombrelune, aéronaute, quelque part en l'air. » Tu la portes depuis tes débuts.
+* nua_15 ?pc:griselidis ?!flag:gaspard_lettre | Sortir l'enveloppe jaunie qui porte son nom | Tu la lui tends. « Courrier en souffrance. Deux cents ans de retard. Toutes mes excuses. » Il l'ouvre avec des doigts qui ne peuvent rien tenir. Elle tient quand même. C'est l'écriture de la dame de Lyon. « Reviens. Je t'attends. Pas de Lune, toi seulement. » Il la lit trois fois. Il brille. Pour la première fois depuis deux cents ans, Gaspard Ombrelune a l'air vivant. | | +flag:gaspard_lettre mor+3 |
+
+# ---------------------------------------------------------------- Zouzou, si elle est restée en arrière
+
+@+nua_16
+* nua_17 pan9 ?pc:griselidis ?!comp:zouzou ?!comp:quartz ?!flag:zouzou_partie | « On ne monte pas à deux. On monte à des milliers. Cette fois, tu viens ? » | Zouzou fait semblant de bouder trois secondes. C'est très long, pour elle. « Bon. Les milliers, ça a l'air moins nul vu d'ici. Je viens. » | « Je t'ai dit que les milliers, c'est pas mon truc. » Elle file. Mais elle se retourne deux fois. | +comp:zouzou mor+1 |
+
+# ---------------------------------------------------------------- Redescendre sans échelle
+
+@+nua_18
+* hub_ret ?pc:griselidis | Redescendre d'un seul souffle, en emmenant tout le monde | Tu prends ton élan. Tu souffles sous les pieds de ceux qui marchent, sous les ailes de ceux qui volent mal, sous ceux qui n'ont ni l'un ni l'autre. Vous descendez en douceur, comme une lettre qu'on pose. | | mor+1 |
+
+# ---------------------------------------------------------------- Répliques de la région : la station de pompage
+
+@+nua_03
+~echo ?comp:quartz: « Débit : huit mille litres à la minute », annonce le Docteur Quartz. « ...minute », répète Écho. « Non, quatre-vingts. » « ...vingts. » Quartz corrige trois fois, Écho répète trois fois. À la fin, elles rient toutes les deux, sans savoir de quoi.
+~pli ?comp:zouzou: « Mademoiselle Zouzou, pas de flammes près de moi, je vous prie. » Zouzou fait une étincelle, exprès, à un mètre de lui. Monsieur Pli se replie en avion et file se cacher dans ta sacoche.
+~penelope ?comp:fernand: Fernand ne quitte pas Pénélope des yeux. « Vous les avez tamponnées aussi, ces pompes ? Comme ma lettre de licenciement ? » Pénélope baisse son tampon APPROUVÉ. « Je ne lisais pas ce que je tamponnais. Je commence. »
+~bartho: « De la pluie en baril. Moi qui bois de l'eau douce pour me diluer, je n'avais jamais pensé qu'on pouvait la vendre. Je me sens volé après coup. »
+~penelope: Pénélope reconnaît le logo en feuille d'or. Son tampon APPROUVÉ frémit tout seul. « J'ai signé le bon de commande des pompes. Je croyais que c'était pour arroser des géraniums. »
+~melusine: « DES TROMPES ! DANS LES NUAGES ! » Tante Mélusine brandit une aiguille à tricoter vers la pompe la plus proche. « JE VAIS LEUR TRICOTER UN BOUCHON ! »
+~echo: Les pompes font « slurp ». Écho répète : « Slurp. » Puis, plus bas : « Slurp. » Elle a l'air d'avoir honte pour elles.
+~quartz: « Débit estimé : huit mille litres à la minute. Non, quatre-vingts. Non, huit cents. » Le Docteur Quartz efface trois fois son carnet. « C'est beaucoup. Ça, j'en suis sûre. »
+~brume: Brume-Lucie se tient loin des trompes. « Elles boivent... les nuages... et moi aussi, je suis... » Elle ne finit pas. Elle se cache derrière toi.
+~rocambole: « Joli matériel. » Rocambole siffle entre ses quatre mains. « J'en volerais bien une. Pour la rendre aux nuages, hein. Évidemment. »
+~meduses: Dans leur bocal, les Méduses se collent à la vitre. « NOUS SOMMES FAITES D'EAU. NOUS PRENONS CECI TRÈS PERSONNELLEMENT. »
+~fernand: Fernand tape déjà sur sa minuscule machine : « Réclamation numéro 4 112. Objet : vol de pluie. Destinataire : quelqu'un de responsable, s'il en reste. »
+~coquille: Madame Coquille regarde les barils rouler. « Tout le monde court. Même la pluie, maintenant, on la fait courir. C'est d'un vulgaire. »
+~vesperine: Depuis ton ombre, la voix de Vespérine : « De la pluie en baril, pour des piscines. Il n'y a que les vivants pour inventer des choses pareilles. »
+~fulgence: Fulgence prend la forme d'un ouvrier en combinaison dorée, pour voir. Il se trouve affreux. Il redevient lui-même très vite.
+~ysaline: « Des ouvriers qui pompent la pluie de leur propre planète, payés par Aldébaran. » Ysaline plisse ses yeux de mante. « Je sens une grève. Je la sens d'ici. »
+~pardon: Pardon se cache derrière un baril. « Pardon. Ces pompes, c'est mon ancien service. Je les ai mesurées. Elles sont plus grandes quand on a honte. »
+~pli: Monsieur Pli se replie en cocotte, très loin des tuyaux. « De l'eau partout. Je négocierai d'ici, si vous permettez. De très loin. »
+~taupinel: Taupinel colle son museau contre un baril. « Ça sent le scandale. Et la pluie. Surtout le scandale. Je titre : ON VOUS VOLE LE CIEL. »
+~plumard: « GARDE-À-VOUS, LES POMPES ! » Le Colonel Plumard gonfle les plumes. Les pompes l'ignorent. Il le prend très mal.
+~remontoir: Grand-Père Remontoir écoute les pompes, la tête penchée. « Mauvais mécanisme. Trop pressé. Ça tiendra trois semaines, et ça cassera un mardi. »
+~zouzou: « Je peux les brûler. Toutes. Ça fera de la vapeur. La vapeur, c'est des nuages. Tout le monde y gagne. »
+~ondee: « Ma pluie... dans des barils... » Dame Ondée tremble. Une goutte s'échappe. Elle la rattrape. Elle la garde.
+~gaspard: « En 1803, on montait chercher la Lune avec un ballon. Aujourd'hui, on monte voler la pluie avec des pompes. Je ne suis pas sûr que ce soit un progrès. »
+
+# ---------------------------------------------------------------- Répliques : la grande nuée s'approche
+
+@+nua_10
+~plumard ?comp:remontoir: « Remontoir ! À quelle heure se lève un orage ? » « Quand il veut, Colonel. » « INADMISSIBLE. » Remontoir sourit. Il a gagné la discussion sans bouger une aiguille.
+~zouzou ?comp:coquille: « Elle avance encore plus lentement que toi, Madame Coquille. » « Elle prend son temps, ma petite. C'est ce qui fait les orages réussis. » Zouzou essaie de prendre son temps. Elle tient deux secondes.
+~bartho: « Elle a l'air d'une vague qui aurait appris à voler. » Bartholomé enlève sa casquette, par réflexe de marin.
+~penelope: « Elle n'a pas de rendez-vous », dit Pénélope, par habitude. Puis elle se tait. Les orages n'en prennent pas.
+~melusine: « QU'ELLE EST BELLE ! » Tante Mélusine pleure dans ses trois paires de lunettes. « ELLE A LA COULEUR DE MA LAINE DU DIMANCHE ! »
+~echo: Le tonnerre gronde au loin. Écho le répète tout doucement, comme on caresse un chien qui a peur.
+~quartz: « Cumulonimbus ! Masse : immense. Âge : très vieux. Humeur : » Le Docteur Quartz hésite. « Ça, je ne sais pas le mesurer. »
+~brume: Brume-Lucie frissonne de joie. « Une tante... une grande tante... de la famille du ciel... »
+~rocambole: Rocambole lisse sa moustache de nébuleuse. « Un orage qui a pris une décision. J'en ai connu un, à Bételgeuse. Il m'a coûté un vaisseau. »
+~meduses: « ELLE A PLU SUR LA PREMIÈRE MER », chantent les Méduses. « NOUS SOMMES PEUT-ÊTRE SES PETITES-FILLES. »
+~fernand: Fernand éteint sa lanterne, par respect. Ou parce qu'il a oublié comment la garder allumée. Il ne dit pas lequel.
+~coquille: « Enfin quelqu'un qui prend son temps », dit Madame Coquille, ravie, en regardant la nuée avancer.
+~vesperine: Dans ton ombre, Vespérine soupire d'aise. « Un orage. Enfin un peu d'obscurité convenable, en plein jour. »
+~fulgence: Fulgence essaie de prendre la forme d'un nuage. Il y arrive à moitié. Il ressemble à un mouton mal peigné.
+~ysaline: « Une femelle de tête », approuve Ysaline. « On voit qu'elle a décidé d'arrêter de pleuvoir pour les autres. »
+~pardon: « Pardon. Je ne peux pas la mesurer. Elle change tout le temps. » Il range son mètre ruban. Il a l'air soulagé.
+~pli: Monsieur Pli se replie au fond de ta poche. « Une nuée de pluie. Je négocierai avec elle par écrit. Sur du papier ciré. »
+~taupinel: « Je ne la vois pas », dit Taupinel. « Mais je l'entends. Elle a une voix de première page. »
+~plumard: « UN ORAGE ! À COUVERT ! » Le Colonel Plumard se cache sous ton bras, puis en ressort, digne. « Inspection terminée. »
+~remontoir: Remontoir lève une aiguille. « La dernière fois que je l'ai vue, c'était à ma naissance. Elle n'a pas pris une ride. Moi, si. »
+~zouzou: « Elle est violette ! » Zouzou est jalouse. « Moi aussi je peux être violette, si je m'énerve. »
+~gaspard: « Celle-là m'a mouillé en 1803 », murmure Gaspard. « Je l'ai toujours trouvée magnifique. »
+
+# ---------------------------------------------------------------- Répliques : le phare dont le gardien est mort
+
+@+nua_17
+~zouzou ?comp:ondee: Dame Ondée laisse tomber une bruine sur la tombe du héron. Zouzou s'éteint à moitié dessous, crachote, rallume sa queue. « Préviens, quand tu pleures ! » Ondée s'excuse. Elle pleure encore plus.
+~vesperine ?comp:fernand: Fernand rallume sa lanterne devant la tombe. « Vous pourriez éteindre ça ? » dit Vespérine, depuis ton ombre. « Non », dit Fernand. « Pour une fois que je brille. » Ils ne se parlent plus jusqu'au soir.
+~fulgence ?comp:pli: Fulgence se plie en cocotte, à l'identique, à côté de Monsieur Pli. « Regardez, je suis vous. » Pli se déplie de toute sa hauteur. « Monsieur, l'imitation est une forme de négociation déloyale. » Fulgence se déplie aussi. Ils restent face à face, deux feuilles vexées.
+~bartho: Bartholomé regarde le phare éteint. « Un phare sans gardien. Chez nous, on dit que c'est un phare qui attend quelqu'un. Perline disait ça. »
+~penelope: Pénélope cherche une plaque, un permis, un registre. Il n'y en a pas. Le phare n'appartient à personne. Elle trouve ça vertigineux.
+~melusine: « UN HÉRON ! MORT ! » Tante Mélusine se mouche dans un châle. « JE LUI TRICOTERAI UNE COURONNE. EN LAINE DE BRUME. »
+~echo: Écho entre dans le phare. Il est creux, il répète tout. Un instant, elle a l'air d'être chez elle.
+~quartz: « Corne de brume : nuage durci à haute pression. » Le Docteur Quartz frappe dessus. « Ou de la porcelaine. Je n'exclus rien. »
+~brume: Brume-Lucie s'enroule autour de la corne de brume, comme autour d'une cousine. « Elle... elle chante... pour les nôtres... »
+~rocambole: « Un phare pour les oiseaux. » Rocambole hoche la tête. « Je m'en suis servi une fois, pour une livraison de nuit. Je ne dirai pas de quoi. »
+~meduses: « NOUS AUSSI, NOUS AVONS UN PHARE », disent les Méduses, en s'allumant toutes à la fois dans leur bocal. « IL EST EN NOUS. »
+~fernand: Fernand se pose sur la lanterne éteinte. « Un phare sans lumière, une luciole sans travail. On fait la paire. » Il brille un peu. Il ne s'en rend pas compte.
+~coquille: Madame Coquille arrive au pied du phare longtemps après toi. « Cent marches. Je monterai la semaine prochaine. »
+~vesperine: Vespérine, dans ton ombre, s'incline vers la tombe du héron. « Un gardien de nuit. Nous étions collègues, en quelque sorte. »
+~fulgence: Fulgence prend la forme du vieux héron, pour qu'on le revoie une fois. Personne n'ose rien dire. Il reprend sa forme, les yeux rouges.
+~ysaline: « Personne pour le remplacer ? » Ysaline note quelque chose. « Le poste de gardienne sera ouvert aux femelles. Je m'en occupe en rentrant. »
+~pardon: « Pardon. Cent marches. » Il compte. « Cent une. Quelqu'un en a ajouté une, pour le héron. »
+~pli: Monsieur Pli se plie en forme d'oiseau et se pose sur la rambarde, à la place du héron. Juste une minute. Par respect.
+~taupinel: Taupinel colle son museau contre la pierre. « Il est vide, mais il a été habité longtemps. Ça sent le poisson et la gentillesse. »
+~plumard: Le Colonel Plumard se met au garde-à-vous devant la tombe. « Un sonneur de nuit. Je n'approuvais pas ses horaires. Je salue son service. »
+~remontoir: Remontoir regarde la corne. « On souffle dedans quand une vague arrive. Moi, on m'a remonté une fois. Chacun son mécanisme. »
+~zouzou: Zouzou tourne autour du phare, très vite, pour l'éclairer. Ça ne marche pas. Elle fait semblant que si.
+~ondee: « Je le connaissais. Il me prêtait sa rambarde pour me reposer. » Dame Ondée pleut un tout petit peu sur la tombe.
+
+# ---------------------------------------------------------------- Répliques : redescendre
+
+@+nua_18
+~ondee ?pc:griselidis: « Toi et moi, on n'a pas besoin de l'échelle, la factrice. On descend comme on est venues : par le vent et par la pluie. »
+~zouzou ?pc:griselidis: « Ton ciel est joli, la factrice. Un peu vide. Je le préfère avec moi dedans. »
+~gaspard ?comp:zouzou: « Mademoiselle, en 1803, les comètes étaient mieux élevées. » « En 1803, t'étais vivant. Chacun ses problèmes. » Gaspard rit. Il n'avait pas ri depuis.
+~bartho: « On redescend. Bien. J'ai le mal des nuages. C'est comme le mal de mer, mais plus haut. »
+~penelope: Pénélope tamponne APPROUVÉ sur le coucher de soleil. Elle n'a jamais rien approuvé d'aussi beau.
+~melusine: « ADIEU, LES NUAGES ! » Tante Mélusine agite un châle. Trois nuages lui répondent.
+~echo: « Au revoir », dit quelqu'un. Écho le répète vers le ciel. Pour une fois, les nuages ont quelqu'un qui leur dit au revoir.
+~quartz: « Descente : je calcule une durée de quatre minutes. » Le Docteur Quartz se trompe. Ce sera beaucoup plus long.
+~brume: « On redescend... déjà... j'aurais voulu... » Brume-Lucie se laisse traîner derrière toi, comme un bout d'écharpe.
+~rocambole: « En bas, il y a des beignets », dit Rocambole. C'est sa façon de dire qu'il a eu le vertige.
+~meduses: « NOUS AVONS VU LE CIEL D'EN HAUT », disent les Méduses. « NOUS LE RACONTERONS À NOTRE AUTRE MOITIÉ, QUI TIENT LA VAGUE. »
+~fernand: Fernand tape une dernière ligne : « Pompes arrêtées. Première réclamation satisfaite de ma carrière. » Il n'en revient pas.
+~coquille: « Redescendre, c'est plus facile », dit Madame Coquille. « On tombe à sa vitesse. »
+~vesperine: Vespérine s'étire dans ton ombre, qui s'allonge avec le soir. « Enfin. Ton ombre devient habitable. »
+~fulgence: Fulgence prend la forme d'un petit nuage pour descendre. Il trouve ça très doux. Il garde la forme un peu trop longtemps.
+~ysaline: « On n'a pas seulement arrêté des pompes », dit Ysaline. « On a gagné une grève qu'on n'avait pas déclarée. J'adore. »
+~pardon: « Pardon. J'ai mesuré la descente. Elle est la même que la montée, à l'envers. Ça me rassure. »
+~pli: Monsieur Pli se déplie en parachute. « Si vous permettez, je descends à ma manière. Diplomatiquement. »
+~taupinel: Taupinel se cramponne à toi. « Une taupe dans le ciel. Personne ne me croira. Je mettrai une photo floue. »
+~plumard: « Le soleil se couche sans ma permission », grogne le Colonel Plumard. « Je ferai un rapport. »
+~remontoir: Remontoir descend avec un temps de retard sur tout le monde. Il te rattrape en bas, à l'heure exacte.
+
+# ---------------------------------------------------------------- Grisélidis dans les autres régions (être fait d'air, prospectus, Zouzou)
+
+@+cot_01
+?pc:griselidis Sur la plage, entre deux algues sèches, un prospectus de Lune-sur-Mer. Tu reconnais le pliage : c'est le tien. Tu le ramasses avant que quelqu'un d'autre le lise.
+~zouzou ?pc:griselidis: « La mer est folle, la factrice. Comme moi. On va s'entendre. »
+
+@+for_01
+?pc:griselidis Sous les arbres, l'air ne bouge pas. Tu te sens à l'étroit, comme une lettre dans une enveloppe trop petite. Tu souffles un peu pour faire de la place ; les feuilles te remercient en frémissant.
+~zouzou ?pc:griselidis: « Des arbres. Ça ne bouge pas, un arbre. Toi et moi, on va s'ennuyer à mourir ici. »
+
+@+pro_01
+?pc:griselidis Sous la terre, il n'y a pas de vent. Tu te fais toute petite, un courant d'air de cave, et tu suis les fissures comme on suit une adresse mal écrite.
+~zouzou ?pc:griselidis: « Sous la terre ? Moi ? Je suis une COMÈTE. » Elle s'éteint à moitié pour passer dans le tunnel, et elle boude pendant tout le trajet.
+
+@+cap_01
+?pc:griselidis Sur les murs de Tamponville, des prospectus de Lune-sur-Mer sont collés en triple exemplaire. C'est le vent qui les a apportés. Le vent, c'était toi.
+~zouzou ?pc:griselidis: « Une ville où on fait la queue. Je te préviens, la factrice : si on me donne un ticket, je le brûle. »
+
+@+com_01
+~zouzou ?pc:griselidis: Zouzou se colle à toi. « Un marché aux comètes. Si quelqu'un me met un prix, je l'allume. Toi aussi, la factrice, si tu acceptes. »
+
+@+com_19
+~zouzou: Zouzou regarde la comète endormie sous le marché. « Elle dort, la grosse. Elle ne sait même pas qu'on vend son dos au mètre carré. » Pour une fois, elle baisse la voix.
+
+@+son_26
+?pc:griselidis ?flag:obj_lettre_vent Tu portes la main à ta sacoche. Elle est vide : dans les rêves, on n'apporte rien. La Lune sourit, comme si elle savait. « Apporte-la-moi en vrai. Je t'attendrai. »
+
+@+asc_22
+?pc:griselidis Pas d'air ici. Pas un souffle. Tu te tiens serrée, toute petite, comme un souffle qu'on garde pour la fin. Tu ne pourras pas rester longtemps. Il faudra faire vite.
+?pc:griselidis ?flag:conseil_bise Tu repenses à Bise, sur le quai : « Ce n'est pas toi qui la portes. C'est elle qui t'emmène. » Tu poses la main sur ta sacoche. Tu es passée.
+
+@+neg_32
+~vesperine ?pc:griselidis: Vespérine ferme les yeux. « Quoi que vous disiez, ma chère, dites-le bien. On s'en souviendra longtemps. Moi, en tout cas. Et j'ai du temps. »
+
+# ---------------------------------------------------------------- La lettre bleue, livrée en mains propres sur la Lune
+
+@+cha_15
+?pc:griselidis ?flag:obj_lettre_vent Ta sacoche pèse plus lourd qu'elle ne devrait. La lettre bleue. « À la Lune, en mains propres. » Tu es sur la Lune. Tu ne peux pas aller plus loin sans l'avoir livrée.
+?pc:griselidis ?from:cha_gri2 Ta sacoche est légère. Autour de toi, le chantier n'a pas bougé. Mais toi, tu sais ce que la Lune veut.
+* cha_gri1 ?pc:griselidis ?flag:obj_lettre_vent | Poser la lettre bleue sur la poussière, en mains propres | Tu t'agenouilles. Tu ouvres ta sacoche. | |
+
+@cha_gri1
+!title: En mains propres
+Tu sors l'enveloppe bleue. « À la Lune, en mains propres. » Trois jours au Centre de tri, puis une Terre entière, puis le Plafond, puis le noir. Elle est arrivée.
+?flag:lettre_intacte Elle est fermée. Tu ne l'as jamais ouverte. Deux cents ans de service tiennent dans ce rabat collé.
+?flag:lettre_lue Le coin est un peu déchiré. Tu l'as ouverte, une nuit, au camp. Tu espères qu'elle ne t'en voudra pas.
+La Lune n'a pas de mains. Tu poses l'enveloppe à plat, là où la poussière est la plus douce. C'est ce qu'il y a de plus propre, ici.
+~zouzou: « Vas-y, la factrice. Deux cents ans que t'attends de livrer un truc qui compte. »
+~gaspard: Gaspard ôte son chapeau. « Une lettre qui arrive. Il n'y a rien de plus beau. Je suis bien placé pour le savoir. »
+~ondee: Dame Ondée retient sa pluie. Pas une goutte sur l'enveloppe.
+~vesperine: Vespérine sort de ton ombre, sur la face où il fait toujours nuit, et se tient très droite, comme à un mariage.
+~pardon: « Pardon », chuchote Pardon. Il ne mesure rien. Il regarde.
+~fulgence: Fulgence ne prend aucune forme. Il veut voir ça avec sa vraie tête.
+~brume: Brume-Lucie s'enroule autour de l'enveloppe, sans la toucher. « Ma cousine... elle va... lire... »
+* cha_gri2 coe9 | Attendre, sans rien dire | L'enveloppe s'ouvre toute seule. La poussière se soulève autour de la feuille, lentement, comme quelqu'un qui se penche pour lire. | Rien ne bouge. Tu as peur d'être venue pour rien. Puis la poussière frémit, et l'enveloppe s'ouvre. | mor+1 |
+* cha_gri2 rus9 | Siffler doucement, pour prévenir la destinataire | Tu siffles, comme devant les portes pendant deux cents ans. Il n'y a pas d'air pour porter le son. La Lune l'entend quand même. L'enveloppe s'ouvre. | Ton sifflement se perd dans le vide. Tu poses la main sur la poussière à la place. Ça marche aussi. L'enveloppe s'ouvre. | rus+1 |
+
+@cha_gri2
+!title: La réponse
+Une seule phrase, d'une écriture ronde et appliquée : « Merci de tourner autour de nous depuis si longtemps. »
+Pas de signature. Mais l'enveloppe sent le sel, la terre mouillée et le pain chaud. Tu comprends enfin qui a appris à écrire très tard, ou il y a très longtemps. C'est la Terre qui a écrit. Elle n'avait jamais rien dit, elle non plus.
+Sous tes genoux, le sol tremble, doucement. Une voix minuscule, dans la roche : « Personne ne m'avait jamais dit merci. » Puis, plus bas : « Je ne veux pas partir. Dis-le à celui qui m'a achetée. »
+~zouzou: Zouzou ne dit rien. Elle tourne en rond, très lentement, ce qui, chez elle, est une façon de pleurer.
+~gaspard: « Elle a répondu », souffle Gaspard. « Elles finissent toujours par répondre. »
+* cha_15 coe8 | « Je le lui dirai. Livraison garantie. » | La poussière se pose, apaisée. Tu ranges ta sacoche, plus légère qu'elle ne l'a jamais été. | Ta voix tremble, mais la Lune a entendu. La poussière se pose. | -flag:obj_lettre_vent -flag:lettre_a_livrer +flag:lettre_livree +flag:lune_consent +flag:parle_lune mor+2 | -flag:obj_lettre_vent -flag:lettre_a_livrer +flag:lettre_livree +flag:lune_consent +flag:parle_lune
+
+# ---------------------------------------------------------------- Fins : ce que deviennent la lettre, le courrier et le Centre de tri
+
+@+end_01
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_02
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_03
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_04
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_05
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_06
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_07
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_08
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_09
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_10
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+
+@+end_11
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+
+@+end_12
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_14
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.
+?pc:griselidis ?flag:ordre_mission Le Directeur Aquilon a fait encadrer ton ordre de mission. Il le montre aux stagiaires, et Zéphyrette fait un tourbillon chaque fois.
+?pc:griselidis ?flag:demission Ta démission est toujours dans la poche du Directeur Aquilon, pliée comme une lettre. Il ne l'a jamais transmise. Ta casquette t'attend à ton guichet.
+?pc:griselidis ?flag:suspendue ?!flag:ordre_mission ?!flag:demission Ta suspension a été levée par une note de trois mots, signée Aquilon : « Livraison exceptionnelle. Réintégrée. »
+
+@+end_15
+?pc:griselidis ?flag:obj_lettre_vent La lettre bleue est restée au fond de ta sacoche. Deux cents ans sans un retard ; le premier porte une adresse que tu n'oublieras jamais.
+?pc:griselidis ?!flag:obj_lettre_vent Au Centre de tri, on a inscrit ta livraison au grand registre : « Expéditeur : la Terre. Destinataire : la Lune. En mains propres. Aucun retard. »
+?pc:griselidis ?flag:sac_lettres ?!flag:lettres_livrees Ta sacoche est encore pleine des lettres du Carrefour. Tu ne les as jamais livrées. Certaines nuits, tu les relis à voix haute, vers le ciel, au cas où.

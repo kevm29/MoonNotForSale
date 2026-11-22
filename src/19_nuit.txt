@@ -201,10 +201,11 @@ Fulgence essaie des visages devant un seau d'eau. Une femme âgée, en feuilles 
 @nui_50
 !title: Une lettre de 1803
 !fx: +flag:n_gas nuit+1
-« Il y avait une dame, à Lyon. Je lui ai écrit, avant de partir. Je lui ai dit que je lui ramènerais un morceau de Lune. Elle ne m'a jamais répondu. » Gaspard flotte, et le feu passe à travers lui. « Deux cents ans que je me demande si la lettre est arrivée. »
-?pc:griselidis Tu ouvres ta sacoche. Tu fouilles. Dans la poche intérieure, celle des lettres en souffrance, il y a une enveloppe jaunie : « Pour M. Gaspard Ombrelune, aéronaute, quelque part en l'air. » Tu la portes sur toi depuis trente ans sans savoir à qui la donner.
+?!flag:gaspard_lettre « Il y avait une dame, à Lyon. Je lui ai écrit, avant de partir. Je lui ai dit que je lui ramènerais un morceau de Lune. Elle ne m'a jamais répondu. » Gaspard flotte, et le feu passe à travers lui. « Deux cents ans que je me demande si la lettre est arrivée. »
+?flag:gaspard_lettre Gaspard sort de sa redingote la lettre que tu lui as donnée dans les Hauts-Nuages. Il l'a tant relue qu'elle est devenue transparente, comme lui. « Reviens. Je t'attends. Pas de Lune, toi seulement. » Il la connaît par cœur. Il la relit quand même.
+?pc:griselidis ?!flag:gaspard_lettre Tu ouvres ta sacoche. Tu fouilles. Dans la poche intérieure, celle des lettres en souffrance, il y a une enveloppe jaunie : « Pour M. Gaspard Ombrelune, aéronaute, quelque part en l'air. » Tu la portes sur toi depuis tes débuts, deux cents ans, sans savoir à qui la donner.
 ?!pc:griselidis Il sourit. « Peut-être qu'elle m'a répondu, et que la lettre me cherche encore. Les lettres, c'est patient. »
-* nui_02 ?pc:griselidis coe10 | Lui donner la lettre | Il l'ouvre avec des doigts qui ne peuvent rien tenir. Elle tient quand même. « Reviens. Je t'attends. Pas de Lune, toi seulement. » Il la lit trois fois. Il ne dit rien. Il brille. Pour la première fois depuis deux cents ans, Gaspard Ombrelune a l'air vivant. | | +flag:gaspard_lettre mor+3 |
+* nui_02 ?pc:griselidis ?!flag:gaspard_lettre coe10 | Lui donner la lettre | Il l'ouvre avec des doigts qui ne peuvent rien tenir. Elle tient quand même. « Reviens. Je t'attends. Pas de Lune, toi seulement. » Il la lit trois fois. Il ne dit rien. Il brille. Pour la première fois depuis deux cents ans, Gaspard Ombrelune a l'air vivant. | | +flag:gaspard_lettre mor+3 |
 * nui_02 ?!pc:griselidis coe11 | Lui promettre de dire à la Lune qu'il est venu | « Vous feriez ça ? » Il ôte son chapeau. « Dites-lui que je l'ai touchée, en 1803. Elle s'en souviendra peut-être. Elle a de la mémoire, la Lune. » | Il ne te croit pas tout à fait. Mais il te remercie, et il se tait jusqu'à l'aube. | +flag:message_gaspard mor+1 |
 * nui_02 rus11 | Lui demander ce qu'il a vu, depuis là-haut, pendant deux cents ans | « Le crochet. Je l'ai vu planter. Trois boulons. Ils ont mal serré le troisième, j'en suis sûr : il grince quand la Lune tire. » | « Des nuages. Beaucoup de nuages. Et une fois, une baleine volante, mais je n'en suis pas sûr. » | +flag:boulon_fele |
 
@@ -254,7 +255,7 @@ L'enveloppe est bleue, légère, adressée « À la Lune, en mains propres ». P
 !title: Le courrier de la Lune
 !fx: +flag:n_gri nuit+1
 Ta sacoche déborde. Depuis que tu es au Carrefour, on t'a donné des lettres. Des milliers. Pour la Lune. Des dessins d'enfants, des déclarations d'amour, des excuses, des listes de courses où il est écrit « merci » en bas. Tu les tries à la lueur du feu, par ordre d'arrivée, comme on t'a appris.
-* nui_02 coe11 | Les trier toutes, jusqu'à l'aube | Tu tries. Tu ne lis pas : tu es factrice. Mais tu sens le poids de chaque enveloppe. Certaines sont lourdes de choses très légères. À l'aube, tout est rangé. Tu vas livrer la Terre entière à la Lune. | Tu tries mal, tu mélanges deux tas. Tant pis. La Lune lira dans le désordre. Elle a le temps. | +flag:sac_lettres mor+2 | +flag:sac_lettres
+* nui_02 coe8 | Les trier toutes, jusqu'à l'aube | Tu tries. Tu ne lis pas : tu es factrice. Mais tu sens le poids de chaque enveloppe. Certaines sont lourdes de choses très légères. À l'aube, tout est rangé. Tu vas livrer la Terre entière à la Lune. | Tu tries mal, tu mélanges deux tas. Tant pis. La Lune lira dans le désordre. Elle a le temps. | +flag:sac_lettres mor+2 | +flag:sac_lettres
 
 @nui_54
 !title: Le chapitre de l'essaim
