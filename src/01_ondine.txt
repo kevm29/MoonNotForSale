@@ -96,13 +96,14 @@ Tu ramènes le dernier petit à sa mère, une Marégrave en larmes, ce qui chez 
 Bartholomé repose son verre. « Tu sais pourquoi je suis seul, Ondine ? Ma femme, Perline. Elle est partie avec la grande marée d'équinoxe, il y a vingt ans. Elle a suivi la Lune, comme une imbécile, comme une poétesse. Elle n'est jamais redescendue. »
 Il regarde la Lune. « Si elle s'en va pour de bon, Perline s'en va avec. Pour de bon. »
 ~bartho: « Ne me regarde pas comme ça. J'ai de l'eau dans les yeux, c'est mon métier. »
-* ond_18 coe11 | Lui proposer de venir avec toi | « Viens avec moi. On va la chercher, ta Lune, et ta femme avec. » Il hausse les épaules. C'est un oui, chez les pêcheurs. | Il fait semblant de ne pas avoir entendu. Mais il a entendu. | mor+1 |
+* ond_18 coe11 | Lui proposer de venir avec toi | « Viens avec moi. On va la chercher, ta Lune, et ta femme avec. » Il hausse les épaules. C'est un oui, chez les pêcheurs. | Il fait semblant de ne pas avoir entendu. Mais il a entendu. | mor+1 +comp:bartho |
 * ond_18 rus10 | Lui faire remarquer que c'est un bon motif pour se battre | « Alors bats-toi, vieux bulot. » Il rit pour la première fois depuis vingt ans. Ça fait le bruit d'une coque qui craque. | « Me battre ? J'ai soixante ans de sel dans les articulations. » | equ+2 |
 
 @ond_16
+!fx: +flag:enveloppes_vides
 Un bruit de verre. Puis un autre. La mer amène sur la plage des centaines de bouteilles, toutes bouchées, toutes à ton écriture. Tes lettres. Les dix mille neuf cent cinquante. Chacune porte un tampon violet :
 « RETOUR À L'EXPÉDITEUR — DESTINATAIRE EN COURS DE DÉMÉNAGEMENT. »
-Elles ont été ouvertes. Quelqu'un les a lues. Quelqu'un les a renvoyées quand même.
+Tu en ouvres une. Elle est vide. Tu en ouvres une autre. Vide aussi. On t'a renvoyé les enveloppes, rien que les enveloppes. Les lettres, elles, sont restées là-haut. Quelqu'un les a gardées. Quelqu'un a renvoyé le reste, par erreur ou par règlement.
 * ond_18 coe12 | Les ramasser une par une | Tu les ramasses toutes. Ça prend une heure. Tu ne pleures pas, ou plutôt tu pleures mais ça ne se voit pas, tu es déjà mouillée. C'est l'avantage. | Tu en ramasses trente, et tu t'assois dans le sable. Les autres repartent avec le ressac. | coe+1 | mor-2
 * ond_19 pan11 | Les casser toutes, une par une | Tu les casses. Chaque bouteille fait un petit bruit de « je t'aime » cassé. À la fin, tu te sens plus légère, et plus seule. | Tu en casses une et tu t'arrêtes. Tu ne peux pas. Tu les ranges dans un coin, pour plus tard. | pan+1 | mor-1
 
@@ -113,13 +114,17 @@ Le bateau de Bartholomé s'appelle « La Pas-Fière ». C'est une barque à mote
 * ond_19 coe11 | Caresser la coque pour la rassurer | La barque ronronne. Elle ne démarre pas, mais elle t'aime. C'est déjà ça. | La barque se cabre. On ne flatte pas « La Pas-Fière ». | mor+1 |
 
 @ond_18
-?from:ond_16 Tu portes tes bouteilles jusqu'au bistrot « Le Ressac Triste ». Au comptoir, le vieux pêcheur Bartholomé Vasequeuse te regarde les aligner une par une. Il ne dit rien. Il sait ce que c'est, des lettres sans réponse.
-Bartholomé finit par se lever, ce qui chez lui est un événement géologique.
-« Bon. Si on doit mourir, autant que ce soit loin d'ici. Le bistrot est trop triste pour un enterrement. »
-Il te regarde. Il attend que tu dises quelque chose.
-* ond_19 coe10 | « Viens avec moi, Bartho. » | Il prend sa casquette, ses filets, et une bouteille d'eau douce « pour les urgences sentimentales ». | Il secoue la tête. « Pas maintenant, petite. Quelqu'un doit garder le bistrot. Et la mer. » Il retourne à sa bouteille d'eau douce. Tu pars sans lui. | +comp:bartho |
-* ond_19 pan11 | « Reste ici et garde le village. » | Il hoche la tête. Quelqu'un doit rester. Il sera ce quelqu'un. Il le sera mal, mais il le sera. | Il hoche la tête avec un soulagement qui te fait de la peine. | equ+3 |
-* ond_20 rus11 | « On en reparlera plus tard. » Partir lire l'affiche qu'on cloue au phare | Tu sors. Derrière toi, Bartho reste debout, perplexe, comme un homme à qui on a promis une suite. | Tu sors un peu trop vite. Tu entends Bartho soupirer jusqu'au phare. |  | mor-1
+?from:ond_16 Tu portes tes bouteilles jusqu'au bistrot « Le Ressac Triste ». Au comptoir, le vieux pêcheur Bartholomé Vasequeuse te regarde les aligner une par une. Il ne dit rien. Il sait ce que c'est, des lettres sans réponse : depuis vingt ans, il en écrit à Perline, sa femme, partie avec la grande marée. Il ne les envoie jamais.
+?!comp:bartho Bartholomé finit par se lever, ce qui chez lui est un événement géologique.
+?!comp:bartho « Bon. Si on doit mourir, autant que ce soit loin d'ici. Le bistrot est trop triste pour un enterrement. »
+?!comp:bartho Il te regarde. Il attend que tu dises quelque chose.
+?comp:bartho Bartholomé a déjà sa casquette sur la tête, son filet sur l'épaule et une bouteille d'eau douce « pour les urgences sentimentales ». Il a dit oui. Chez lui, un oui ne se répète pas : ça l'userait.
+?comp:bartho « Bon. Si on doit mourir, autant que ce soit loin d'ici. Le bistrot est trop triste pour un enterrement. »
+~bartho ?from:ond_16: « Des bouteilles vides. Moi, au moins, les miennes, je les garde pleines. » Il regarde les tiennes longtemps. « Quelqu'un a gardé tes lettres, petite. C'est déjà plus que Perline. »
+* ond_20 ?comp:bartho | « Allez, vieux bulot. On va voir ce qu'ils clouent au phare. » | Il grogne. Il te suit. Il grognera tout le chemin. C'est sa façon de marcher. |  |
+* ond_19 coe10 ?!comp:bartho | « Viens avec moi, Bartho. » | Il prend sa casquette, ses filets, et une bouteille d'eau douce « pour les urgences sentimentales ». | Il secoue la tête. « Pas maintenant, petite. Quelqu'un doit garder le bistrot. Et la mer. » Il retourne à sa bouteille d'eau douce. Tu pars sans lui. | +comp:bartho |
+* ond_19 pan11 ?!comp:bartho | « Reste ici et garde le village. » | Il hoche la tête. Quelqu'un doit rester. Il sera ce quelqu'un. Il le sera mal, mais il le sera. | Il hoche la tête avec un soulagement qui te fait de la peine. | equ+3 +flag:bartho_garde | +flag:bartho_garde
+* ond_20 rus11 ?!comp:bartho | « On en reparlera plus tard. » Partir lire l'affiche qu'on cloue au phare | Tu sors. Derrière toi, Bartho reste debout, perplexe, comme un homme à qui on a promis une suite. | Tu sors un peu trop vite. Tu entends Bartho soupirer jusqu'au phare. |  | mor-1
 
 @ond_19
 Un robot flottant, rond, gris, poli, s'approche du phare et y cloue une affiche avec un petit marteau dans un bruit de pivert administratif.
@@ -156,8 +161,10 @@ Le responsable s'appelle Krâmm. L'Huissier Krâmm. Il est grand comme un phare 
 
 @ond_24
 Un être grand comme un phare couché arrive sur la plage, fait de tiroirs de classeur gris qui s'ouvrent et se ferment quand il respire : l'Huissier Krâmm, venu d'Aldébaran. Il tient un mètre ruban qui se déroule tout seul. Il te mesure. « Marée, une. En état d'usage. Légère fuite au niveau des yeux. Valeur estimée : trois lunes-crédits. »
-Trois. Tu vaux trois. Bartholomé, dans le bistrot, vaut sans doute moins. Ça ne te console pas.
-~bartho: « Trois ? Moi on m'a jamais évalué. Tant mieux. Ça aurait été humiliant pour tout le monde. »
+Trois. Tu vaux trois. Ça ne te console pas.
+?!comp:bartho Bartholomé, dans le bistrot, vaut sans doute moins. Ça ne te console pas non plus.
+?comp:bartho Krâmm mesure aussi Bartholomé, qui se laisse faire en sifflant. « Marée, une. Usagée. Valeur : symbolique. »
+~bartho: « Symbolique. Soixante ans de pêche, et je vaux un symbole. Remarque, Perline disait pareil. »
 * ond_26 coe11 | Lui demander s'il a des enfants | Krâmm s'arrête. Un tiroir s'ouvre, tout seul, puis se referme très vite. « Article 9 : ce n'est pas la question. » Il a des enfants. | Krâmm répond « Article 9 : non. » C'est triste. Pour toi, surtout. | mor+1 coe+1 |
 * ond_27 pan10 | Lui arracher son mètre ruban | Tu lui arraches son mètre. Il en sort un autre d'un tiroir. Il a des mètres pour toute une vie de mesures. | Le mètre te ligote. Tu passes cinq minutes emballée comme un colis. | | mor-1
 
@@ -174,7 +181,7 @@ Il s'incline. « Article dix-sept : bonne fin de nuit. »
 * ond_30 coe10 | Le regarder partir sans rien dire | Il part. Ses tiroirs claquent comme des volets en hiver. Tu sens qu'il n'est pas méchant. Il est juste rangé. | Il part. Tu restes. Tu te sens plus petite que deux mètres douze. | | mor-1
 
 @ond_27
-Krâmm te laisse un double de l'inventaire : « Grève-Molle : 412 Marégraves (accessoires), 1 phare (meuble), 1 bistrot (indéfinissable), 10 950 lettres d'amour (déchets). »
+Krâmm te laisse un double de l'inventaire : « Grève-Molle : 412 Marégraves (accessoires), 1 phare (meuble), 1 bistrot (indéfinissable), 10 950 lettres d'amour, adressées au satellite, réexpédiées (déchets). »
 Déchets. Le mot reste dans ta gorge comme une arête.
 * ond_29 pan12 | Déchirer « déchets » et écrire « trésors » | Tu barres et tu écris. Le papier d'Aldébaran proteste puis accepte : c'est une rature, mais une rature sincère. | Le papier se répare et le mot revient. Tu le barres encore. Il revient encore. Tu abandonnes. | pan+1 mor+1 | mor-1
 * ond_30 rus11 | Garder l'inventaire comme preuve | Tu le plies en quatre. Une preuve, c'est un début de procès. Un procès, c'est un début d'espoir. Un espoir, c'est un début de catastrophe. Tu le gardes. | Tu le plies en quatre, puis en huit, puis il devient trop petit et tu le perds. | +flag:inventaire |
@@ -196,7 +203,8 @@ Pendant que tu hésites, la mer se met à chanter. Ce ne sont pas des baleines. 
 * ond_33 rus10 | Leur demander le chemin | « Tout droit, puis à gauche à la troisième tempête. » Elles le disent ensemble, et la moitié dit « droite ». | Elles se disputent sur le chemin pendant dix minutes, en chœur, ce qui est épuisant. | +flag:meduses_amies |
 
 @ond_31
-?from:ond_30 Tu empruntes une barque au port et tu prends la mer, guidée par le chant.
+?from:ond_30 ?!comp:bartho Tu empruntes une barque au port et tu prends la mer, guidée par le chant.
+?from:ond_30 ?comp:bartho Bartho insulte « La Pas-Fière » jusqu'à ce qu'elle démarre, vexée, et vous prenez la mer, guidés par le chant.
 La tempête. La Lune tire la mer vers le haut, et la mer refuse, et entre les deux il y a toi, sur une coque de noix. Les vagues ne sont plus horizontales : elles sont verticales, comme des murs qu'on aurait construits à la va-vite pendant la nuit.
 ?comp:bartho Bartho chante une chanson de marin dont toutes les rimes sont en « -ouille ». Ça aide, bizarrement.
 * ond_34 pan12 | Escalader le mur d'eau | Tu escalades. Tu es de l'eau qui monte sur de l'eau. Tu te sens comme une phrase qui se lit à voix haute. | Tu glisses, tu recommences, tu glisses. La mer rit. Tu ne ris pas. Au quatrième essai, tu passes, à bout de souffle. | equ+2 | mor-1
@@ -241,7 +249,7 @@ Tu ne la mets pas en bouteille. Tu la gardes contre toi, là où les Marégraves
 @ond_38
 La Lune passe si bas qu'elle masque la moitié du ciel. Tu vois les ouvriers d'Aldébaran : petits, dorés, casqués, ils posent des cloisons sur un cratère en chantant une chanson de chantier. Un panneau : « Ici bientôt : votre piscine à vue sur l'ancienne Terre. »
 Tu tends la main. Tu pourrais presque la toucher. Elle est froide, poussiéreuse, triste comme une chambre qu'on vide.
-* ond_39 coe12 | Tendre la main jusqu'à la toucher | Le bout de tes doigts effleure la poussière lunaire. Elle est douce. Et tu jurerais, une seconde, qu'elle a tremblé sous ta main. | Tu ne la touches pas. Il manque trois centimètres. Il manquera toujours trois centimètres. | coe+1 +flag:toucher_lune | mor-1
+* ond_39 coe12 | Tendre la main jusqu'à la toucher | Le bout de tes doigts effleure la poussière lunaire. Elle est douce. Et tu jurerais, une seconde, qu'elle a tremblé sous ta main. | Tu ne la touches pas. Il manque trois centimètres. Il manquera toujours trois centimètres. | coe+1 +flag:lune_touchee_phare | mor-1
 * ond_41 rus11 | Mémoriser le plan du chantier | Tu retiens tout : les grues, les câbles, le grand crochet, et le bureau volant gris qui coordonne tout. Le « Promontoire ». | Tu retiens la chanson de chantier. Elle est entêtante. Ça ne sert à rien. | +flag:plan_chantier |
 
 @ond_39
@@ -262,7 +270,10 @@ Tous vont dans la même direction. Tous ont l'air d'avoir perdu quelque chose.
 * ond_44 rus10 | Demander à un Horloger ce qui lui arrive | « Nous mesurons le temps par les mois lunaires. Sans Lune, nous ne savons plus quel jour on est. Je crois que c'est mardi. Je crois que c'est mardi depuis six semaines. » | L'Horloger te répond mais il est en avance de trois phrases. Tu ne comprends rien. | rus+1 |
 
 @ond_42
-La colère te prend en marchant. Pas la colère qui crie : celle qui marche. Celle qui met un pied devant l'autre. Ils ont vendu la Lune. Quelqu'un, quelque part, a signé un papier. Quelqu'un a reçu de l'argent. Et toi, tu as reçu tes lettres en retour, tamponnées « déchets ».
+La colère te prend en marchant. Pas la colère qui crie : celle qui marche. Celle qui met un pied devant l'autre. Ils ont vendu la Lune. Quelqu'un, quelque part, a signé un papier. Quelqu'un a reçu de l'argent.
+?flag:enveloppes_vides Et toi, tu as reçu tes enveloppes en retour, vides, tamponnées « RETOUR À L'EXPÉDITEUR ».
+?flag:inventaire ?!flag:enveloppes_vides Et toi, tu as dans ta poche un inventaire où tes lettres s'appellent « déchets ».
+?!flag:enveloppes_vides ?!flag:inventaire Et toi, tu as passé trente ans à écrire à quelqu'un qu'on met en carton.
 ?comp:bartho Bartho te regarde de travers. « Toi, quand tu serres les poings comme ça, il y a toujours un bateau qui coule. »
 * ond_45 pan12 | Laisser la colère te porter | Tu marches plus vite. Tu es une marée qui s'est décidée. | La colère te fatigue. Tu t'assois pour la reprendre. | pan+1 | mor-1
 * ond_45 coe11 | Transformer la colère en quelque chose d'utile | Tu en fais une promesse : tu les feras lire, tes lettres. À quelqu'un. N'importe qui. Mais pas à la poubelle. | Tu essaies, mais la colère ne veut pas devenir utile. Elle préfère rester colère. | coe+1 mor+1 |
@@ -286,6 +297,7 @@ Tu serres ta lettre. Tu descends.
 
 @ond_46
 Tu restes un instant au bord. Le vent t'apporte une odeur de sel, très faible, très lointaine, comme un souvenir qui hésite à revenir.
-Tu penses : je suis une accessoire. Je suis une accessoire qui a décidé de ne pas suivre le bien vendu. Je suis une accessoire en grève.
+?flag:article15 Tu penses à l'article 15 : je suis un accessoire. Un accessoire qui a décidé de ne pas suivre le bien vendu. Un accessoire en grève.
+?!flag:article15 Tu penses : je suis une Marégrave qui n'a pas suivi la marée. La première de l'histoire. Une marée en grève.
 Ça te fait sourire. Ça te donne deux millimètres de plus.
 * hub_01 pan10 | Descendre la tête haute | Tu descends la tête haute, deux mètres douze et deux millimètres, et quelques regards se tournent vers toi. | Tu descends la tête haute et tu ne vois pas la marche. Tu descends la suite la tête basse. | equ+2 mor+1 |
