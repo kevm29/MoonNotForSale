@@ -9,14 +9,14 @@ ond_07	01	Le phare de Grève-Molle	plage
 ond_08	01	Le phare de Grève-Molle	plage	
 ond_09	01	Le phare de Grève-Molle	plage	
 ond_10	01	Le phare de Grève-Molle	plage	
-ond_11	01	Le phare de Grève-Molle	plage	
+ond_11	14	Le Ressac Triste	isolé	
 ond_12	01	Le phare de Grève-Molle	plage	
 ond_13	01	Le phare de Grève-Molle	plage	
 ond_14	01	Le phare de Grève-Molle	plage	
-ond_15	01	Le phare de Grève-Molle	plage	
+ond_15	14	Le Ressac Triste	isolé	
 ond_16	01	Le phare de Grève-Molle	plage	
-ond_17	01	Le phare de Grève-Molle	plage	
-ond_18	01	Le phare de Grève-Molle	plage	
+ond_17	14	Le Ressac Triste	isolé	
+ond_18	14	Le Ressac Triste	isolé	
 ond_19	01	Le phare de Grève-Molle	plage	
 ond_20	01	Le phare de Grève-Molle	plage	
 ond_21	01	Le phare de Grève-Molle	plage	
@@ -293,7 +293,7 @@ lyc_05	08	Le Club des Lycanthropes Distingués	plage
 lyc_06	08	Le Club des Lycanthropes Distingués	plage	
 lyc_07	08	Le Club des Lycanthropes Distingués	plage	
 lyc_08	08	Le Club des Lycanthropes Distingués	plage	
-lyc_08b			hérite du nœud précédent	
+lyc_08b	08	Le Club des Lycanthropes Distingués	isolé	
 lyc_09	08	Le Club des Lycanthropes Distingués	plage	
 lyc_10	08	Le Club des Lycanthropes Distingués	plage	
 lyc_11	51	Enterrement sur la lande	plage	L'enterrement de Sir Hector
@@ -306,7 +306,7 @@ lyc_16	51	Enterrement sur la lande	plage
 lyc_17	51	Enterrement sur la lande	plage	
 lyc_18	51	Enterrement sur la lande	plage	
 lyc_19	52	La lande à l'aube	isolé	
-lyc_19b			hérite du nœud précédent	Le carrosse
+lyc_19b	52	La lande à l'aube	isolé	Le carrosse
 lyc_19c	52	La lande à l'aube	isolé	
 lyc_20	08	Le Club des Lycanthropes Distingués	plage	
 lyc_20b	52	La lande à l'aube	isolé	Courir comme en 1640
@@ -330,8 +330,8 @@ ana_14	53	Le vol de nuit	plage
 ana_15	53	Le vol de nuit	plage	
 ana_16	53	Le vol de nuit	plage	L'aube
 ana_17	09	Le Carrefour des Espèces	isolé	
-ana_07b			hérite du nœud précédent	Le dernier bouton
-ana_08b			hérite du nœud précédent	Les petits
+ana_07b	36	La Serre des Belles-de-Nuit	isolé	Le dernier bouton
+ana_08b	36	La Serre des Belles-de-Nuit	isolé	Les petits
 ana_14b	53	Le vol de nuit	isolé	Le nuage gris
 ana_15b	53	Le vol de nuit	isolé	Les voyageurs
 ana_16b	53	Le vol de nuit	isolé	Le troll du pont
@@ -434,16 +434,16 @@ son_16	20	La boutique du Marchand de Sommeil	plage
 son_17	20	La boutique du Marchand de Sommeil	plage	
 son_18	20	La boutique du Marchand de Sommeil	plage	
 son_19	20	La boutique du Marchand de Sommeil	plage	
-son_20	19	Le Pays des Songes	isolé	
-son_21	45	La maison aux mille fenêtres	plage	
-son_22	45	La maison aux mille fenêtres	plage	
-son_23	19	Le Pays des Songes	isolé	
-son_24	19	Le Pays des Songes	isolé	
-son_25	45	La maison aux mille fenêtres	plage	
+son_20	45	La maison aux mille fenêtres	isolé	
+son_21	20	La boutique du Marchand de Sommeil	isolé	
+son_22	20	La boutique du Marchand de Sommeil	isolé	
+son_23	45	La maison aux mille fenêtres	isolé	
+son_24	45	La maison aux mille fenêtres	isolé	
+son_25	41	Le rêve de Platine	isolé	
 son_26	45	La maison aux mille fenêtres	plage	
-son_27	19	Le Pays des Songes	isolé	
-son_28	45	La maison aux mille fenêtres	plage	
-son_29	45	La maison aux mille fenêtres	plage	
+son_27	45	La maison aux mille fenêtres	isolé	
+son_28	41	Le rêve de Platine	isolé	
+son_29	41	Le rêve de Platine	isolé	
 son_30	45	La maison aux mille fenêtres	plage	
 son_31	20	La boutique du Marchand de Sommeil	plage	
 son_32	20	La boutique du Marchand de Sommeil	plage	
@@ -622,7 +622,7 @@ asc_15	32	La montée, la Terre vue d'en haut	plage
 asc_16	32	La montée, la Terre vue d'en haut	plage	
 asc_17	33	Le chantier lunaire	isolé	
 asc_18	32	La montée, la Terre vue d'en haut	plage	
-asc_19	32	La montée, la Terre vue d'en haut	plage	
+asc_19	45	La maison aux mille fenêtres	isolé	
 asc_20	32	La montée, la Terre vue d'en haut	plage	
 asc_21	32	La montée, la Terre vue d'en haut	plage	
 asc_22	33	Le chantier lunaire	isolé	Sur la Lune
@@ -1235,14 +1235,14 @@ gtr_03b	09	Le Carrefour des Espèces	isolé	Le quai
 gal_route	09	Le Carrefour des Espèces	défaut de préfixe	La carriole
 gal_int2	09	Le Carrefour des Espèces	défaut de préfixe	Plus tard, autour du feu
 gal_vei2	09	Le Carrefour des Espèces	défaut de préfixe	Les étoiles
-cot_43			hérite du nœud précédent	Le phare de Grève-Molle
-cot_44			hérite du nœud précédent	
-cot_45			hérite du nœud précédent	
-cot_46			hérite du nœud précédent	
-son_o1			hérite du nœud précédent	Ma très chère
-son_o2			hérite du nœud précédent	
-fin_o1			hérite du nœud précédent	L'article 14
-neg_bas1			hérite du nœud précédent	Le greffier
+cot_43	01	Le phare de Grève-Molle	isolé	Le phare de Grève-Molle
+cot_44	01	Le phare de Grève-Molle	isolé	
+cot_45	01	Le phare de Grève-Molle	isolé	
+cot_46	14	Le Ressac Triste	isolé	
+son_o1	45	La maison aux mille fenêtres	isolé	Ma très chère
+son_o2	45	La maison aux mille fenêtres	isolé	
+fin_o1	35-rouge	Le bureau de Platine, compte à rebours	isolé	L'article 14
+neg_bas1	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Le greffier
 pis_34b	45	La maison aux mille fenêtres	isolé	Une histoire pour la Lune
 nui_75	11	La dernière nuit, le camp	plage	Ton ressort
 nua_gri1	06	Le Centre de tri des Vents	isolé	Le Centre de tri, en passant
@@ -1250,20 +1250,20 @@ nua_gri2	06	Le Centre de tri des Vents	isolé	Le bureau du Directeur
 cha_gri1	33	Le chantier lunaire	isolé	En mains propres
 cha_gri2	33	Le chantier lunaire	isolé	La réponse
 asc_pel1	64	L'essaim dans le ciel	isolé	L'essaim dans le ciel
-neg_pel1			hérite du nœud précédent	Le miel royal
+neg_pel1	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Le miel royal
 neg_59	35-doux	Le bureau de Platine, avant l'alarme et après	plage	La médaille du Club
 fin_41	35-rouge	Le bureau de Platine, compte à rebours	plage	Hurler juste
 nui_77	11	La dernière nuit, le camp	plage	La colonelle
 nui_78	11	La dernière nuit, le camp	plage	La gardienne du dessous
-nui_59b			hérite du nœud précédent	La belle-de-nuit
-nui_59c			hérite du nœud précédent	Le crochet, de près
+nui_59b	11	La dernière nuit, le camp	isolé	La belle-de-nuit
+nui_59c	34	Le crochet dans la mer de la Tranquillité	isolé	Le crochet, de près
 gal_adieu	09	Le Carrefour des Espèces	défaut de préfixe	L'adieu de l'interprète
 pcm_r3	55	La réserve du Promontoire	isolé	
 pcr_fuite	09	Le Carrefour des Espèces	isolé	Pop, hors de la caisse
 pmo_parle	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Ce qu'il dit à la vitre
 pmo_decide	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Ce qu'il décide
-com_20			hérite du nœud précédent	Le Capitaine Rocambole
-com_21			hérite du nœud précédent	
+com_20	30	Le Marché des Comètes	isolé	Le Capitaine Rocambole
+com_21	30	Le Marché des Comètes	isolé	
 cha_80	33	Le chantier lunaire	plage	Un petit morceau de nuit
 hub_10	09	Le Carrefour des Espèces	plage	Le beignet perpétuel
 hub_11	09	Le Carrefour des Espèces	plage	La couverture de pierre

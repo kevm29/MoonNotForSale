@@ -231,7 +231,7 @@
   {
    "image": "19",
    "nom": "Pays des Songes",
-   "scenes": "son_08, son_20, son_23, son_24, son_27, son_34",
+   "scenes": "son_08, son_34",
    "correction": true
   },
   {
@@ -960,6 +960,81 @@
    "image": "33",
    "nom": "Le chantier lunaire",
    "scenes": "pla_04b, pla_04c, pla_04d, plf_01c"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "ond_11, ond_15, ond_17, ond_18"
+  },
+  {
+   "image": "20",
+   "nom": "La boutique du Marchand de Sommeil",
+   "scenes": "son_21, son_22"
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "son_25, son_28, son_29"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "asc_19, son_o1, son_o2"
+  },
+  {
+   "image": "08",
+   "nom": "Le Club des Lycanthropes Distingués",
+   "scenes": "lyc_08b"
+  },
+  {
+   "image": "52",
+   "nom": "La lande à l'aube",
+   "scenes": "lyc_19b"
+  },
+  {
+   "image": "36",
+   "nom": "La Serre des Belles-de-Nuit",
+   "scenes": "ana_07b, ana_08b"
+  },
+  {
+   "image": "01",
+   "nom": "Le phare de Grève-Molle",
+   "scenes": "cot_43, cot_44, cot_45"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "cot_46"
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "neg_bas1, neg_pel1"
+  },
+  {
+   "image": "35-rouge",
+   "nom": "Le bureau de Platine, compte à rebours",
+   "scenes": "fin_o1"
+  },
+  {
+   "image": "11",
+   "nom": "La dernière nuit, le camp",
+   "scenes": "nui_59b"
+  },
+  {
+   "image": "34",
+   "nom": "Le crochet dans la mer de la Tranquillité",
+   "scenes": "nui_59c"
+  },
+  {
+   "image": "30",
+   "nom": "Le Marché des Comètes",
+   "scenes": "com_20, com_21"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "son_20, son_23, son_24, son_27"
   }
  ],
  "defauts": {
@@ -1014,32 +1089,55 @@
   "pno": "41"
  },
  "stricts": [
-  "gpa",
-  "gtr",
+  "ana",
+  "asc",
+  "bas",
+  "bri",
+  "cap",
+  "cha",
+  "com",
+  "cot",
+  "end",
+  "fin",
+  "foi",
+  "for",
   "gal",
   "gco",
-  "gfo",
   "gfi",
+  "gfo",
   "gmo",
-  "gpr",
   "gnu",
-  "ply",
-  "plu",
+  "gpa",
+  "gpr",
+  "gri",
+  "gtr",
+  "hub",
+  "lyc",
+  "neg",
+  "nua",
+  "nui",
+  "ond",
+  "pch",
   "pcm",
   "pcr",
-  "pso",
   "pct",
+  "pel",
   "pha",
-  "pnu",
-  "pch",
-  "pmo",
   "pis",
-  "pne",
-  "pnc",
-  "pno",
-  "plt",
   "pla",
-  "plf"
+  "plf",
+  "plt",
+  "plu",
+  "ply",
+  "pmo",
+  "pnc",
+  "pne",
+  "pno",
+  "pnu",
+  "pro",
+  "pso",
+  "son",
+  "zep"
  ],
  "a_creer": [
   {
@@ -1134,7 +1232,8 @@
     "^(pno|end)_",
     "^pso_cauch$",
     "^end_(35|38)$",
-    "^plt_nuit$"
+    "^plt_nuit$",
+    "^son_(25|28|29)$"
    ],
    "40": [
     "^(pnc|end_37|pso_cauch)"
@@ -1206,7 +1305,56 @@
    "plt_cap_a": "la file passe sous les fenêtres du Palais, le train n'est qu'évoqué",
    "plt_cap_g": "l'ascenseur du Cadastre descend vers le guichet zéro",
    "plt_car2": "tribune du Carrefour, le train n'est qu'évoqué",
-   "plt_bri_g": "dortoir de la maison de retraite des Magmas"
+   "plt_bri_g": "dortoir de la maison de retraite des Magmas",
+   "ond_02": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "ond_26": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "ond_27": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "ond_29": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "ond_38": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bas_01": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bas_07": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bas_10": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bas_26": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bri_01": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "bri_02": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "zep_12": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "zep_17": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "pel_01": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cot_22": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "for_01": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "for_22": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "son_35": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "pro_15": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "pro_36": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cap_05": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cap_06": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cap_20": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cap_36": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "nua_10": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "nua_12": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "com_09": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "com_10": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "com_17": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "nui_20": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "nui_42": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "asc_03": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "asc_12": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "asc_14": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "asc_15": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_03": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_16": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_17": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_27": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_31": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "neg_04": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "neg_05": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "neg_07": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "fin_04": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_49": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "end_29": "image provisoire, remplacée par l'image 73 (crochet détaché) une fois générée",
+   "end_35": "image provisoire, remplacée par l'image 75 une fois générée",
+   "cha_65": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre",
+   "cha_63": "examiné le 27/11 : le lieu du texte n'est qu'évoqué, la scène se passe bien là où l'image la montre"
   },
   "orphelines_tolerees": [
    "66"
