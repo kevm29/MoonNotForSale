@@ -17,7 +17,7 @@ fam = [set(f) for f in ctl.get("familles", [])]
 same = lambda a, c: a == c or any(a in f and c in f for f in fam)
 files = {os.path.basename(f)[:-5] for f in glob.glob("img/lieux/*.webp")}
 HEROES = {"Président": ("gpa_01", "gpa gtr gal gco gfo gfi gmo gpr gnu"), "Ploum": ("ply_01", "ply plu pcm pcr pso pct pha pnu pch pmo"),
-          "Pistil": ("pis_01", "pis pne pnc pno")}
+          "Pistil": ("pis_01", "pis pne pnc pno"), "Platine": ("pla_01", "pla plt plf")}
 def parcours(start):
     seen, q = [], [start]; vu = {start}
     while q:
@@ -67,7 +67,7 @@ table{{border-collapse:collapse;width:100%}}td{{vertical-align:top;padding:6px 1
 .s{{background:#a33}}.p{{background:#a73}}.d{{background:#345}}.n{{background:#2a2f45}}summary{{cursor:pointer}}
 @media(max-width:700px){{.im{{width:130px}}.im img{{width:120px}}.id{{width:90px}}}}
 </style></head><body><header><b>Revue des images</b>
-<select id="h"><option value="">Toutes les histoires</option><option>Président</option><option>Ploum</option><option>Pistil</option></select>
+<select id="h"><option value="">Toutes les histoires</option><option>Président</option><option>Ploum</option><option>Pistil</option><option>Platine</option></select>
 <select id="i"><option value="">Toutes les images</option>{opt}</select>
 <select id="f"><option value="">Tous les nœuds</option><option value="suspect">Suspects</option><option value="provisoire">Provisoires</option><option value="défaut">Image du lieu (défaut)</option></select>
 <button id="c">Compacter les vignettes</button><span id="n"></span></header>
