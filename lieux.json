@@ -1209,6 +1209,90 @@
    "provisoire": "22",
    "scenes": "end_04",
    "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "77",
+   "nom": "La Terre qui marche (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_03",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "78",
+   "nom": "Elle a dit non (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_05",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "79",
+   "nom": "Le conseil syndical (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_06",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "80",
+   "nom": "Procès en cours (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_09",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "81",
+   "nom": "Marée basse (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_10",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "82",
+   "nom": "L'Axe brisé (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_11",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "83",
+   "nom": "Blanche et ronde (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_12",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "84",
+   "nom": "Le Pied-de-Nez (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_13",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "85",
+   "nom": "Le premier mot (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_14",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "86",
+   "nom": "Inauguration (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_15",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "87",
+   "nom": "Disparu en mission (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_24",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "88",
+   "nom": "Les Terriens sont idiots (fin)",
+   "provisoire": "35-doux",
+   "scenes": "end_26",
+   "prompt": "lieux_a_creer.md"
   }
  ],
  "controle": {
@@ -1218,7 +1302,8 @@
     "^(neg|end|pla|plf|pmo)_",
     "^gfi_(pro|ech)$",
     "^gmo_(saisie|r33)$",
-    "^zep_16$"
+    "^zep_16$",
+    "^end_(03|05|06|09|10|11|12|13|14|15|24|26)$"
    ],
    "35-rouge": [
     "^(neg|fin)_"

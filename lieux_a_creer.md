@@ -103,3 +103,123 @@ Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the oth
 Place: the sky of Aldébaran at dusk: a golden planet with a tall four-hundred-floor golden tower built on it (the real-estate promoter's tower, with a lone lit window), and orbiting it a small cold violet crystal Moon, perfectly faceted, glowing a pale violet light, covered with tiny swimming pools, golf greens and towers, no craters. A small lonely violet sparkle. Far away in the dark, tiny, the real warm white Moon of the Earth with its golden thread, barely visible. Cold, perfect, a little sad.
 ```
 
+## 77 — La Terre qui marche
+
+Scènes : end_03 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the whole blue Earth walking through space on huge slow stone legs of mountains, pushed from the pole by a crowd of tiny granite giants, the sea sliding along behind it like a dancing skirt, forests all leaning the same way, dream-bubbles of travel rising from it; ahead of it, the pale Moon on its golden thread turning around to look back, and a distant golden office spaceship cutting its cable.
+```
+
+## 78 — Elle a dit non
+
+Scènes : end_05 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the Moon, round and pale, floating alone in front of a huge round window of a golden office spaceship, turning slowly on herself, a faint smile; a thin golden cable going slack, a tall man covered in gold leaf with joined hands and a small figure holding their breath, both seen small and from behind; on Earth far below, tiny glowing dots of listening people. Quiet, tender.
+```
+
+## 79 — Le conseil syndical
+
+Scènes : end_06 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: an endless co-owners' assembly hall in a golden tower orbiting Aldébaran, rows upon rows of grey-haired golden residents with voting slips of different colors, a long table covered with files, a ballot box, stopped clocks, a tiny figure at the back raising a hand to object, through the huge window the Moon, still in orbit around the Earth; years have passed: dust, cobwebs, a stack of minutes as tall as a column.
+```
+
+## 80 — Procès en cours
+
+Scènes : end_09 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: a vast empty Intersidereal courtroom floating in space, benches carved in comet-ice, judges asleep on their high bench under a huge hourglass, piles of case files, a tiny witness stand; through the open ceiling the Moon hangs suspended halfway between the Earth and a golden distant planet, held by two thin golden threads; the sea of the Earth a little too high, blurry dreams drifting.
+```
+
+## 81 — Marée basse
+
+Scènes : end_10 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: a Earth coast where the sea has stopped: a beach with the water frozen in a flat glassy calm, boats resting on a sand-colored mirror, jellyfish on dry sand, bottles in rows, tilted lighthouses, stopped clocks on the pier; the Moon pale and round in the sky, calm, in its place, and a thin golden thread loose. Silent, melancholic.
+```
+
+## 82 — L'Axe brisé
+
+Scènes : end_11 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the underground of the Earth: the colossal iron-and-nickel Axis column cracked in half, sparks and molten red light, giant seated granite figures holding on to it with all their might, rock falling; through a cut in the ceiling the sky shows the Earth tilted at twenty degrees, forests growing horizontally, poles turned tropical, the Moon freed and floating away on a broken cable. Dramatic, but still with the same gentle storybook tone.
+```
+
+## 83 — Blanche et ronde
+
+Scènes : end_12 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: a person-shaped creature slowly turning white and round and rising into the night sky to become the new Moon: the body already pale as wax, memories becoming craters, a cold soft light, hooks of a golden chain from a golden office spaceship planting into it; below, the old Moon hangs behind, and on the Earth a few small figures look up. Night, tender, strange.
+```
+
+## 84 — Le Pied-de-Nez
+
+Scènes : end_13 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the pirate ship Pied-de-Nez, a patched cheeky ship with a nose-thumbing figurehead, launching a brand-new golden hook on a rope across space into the Sea of Crisis of the Moon; a blue four-armed captain with an empty pipe waving from the deck, the Moon being towed away toward a corner of the galaxy with no promoters, nebula colors, a broken golden cable trailing behind.
+```
+
+## 85 — Le premier mot
+
+Scènes : end_14 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the whole world saying one word at once: from space, the Earth glowing, a visible wave of golden sound-rings rising from beaches, forests, caves, clock towers, dream-houses and the root-web, all converging toward the Moon; tiny crowds of every strange species with open mouths, lichens, pebbles, clockwork men, sleepers; the Moon stopping, surprised, a faint blush of light on her; a golden office spaceship in the corner turning its engines off.
+```
+
+## 86 — Inauguration
+
+Scènes : end_15 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: the inauguration party of Moon-on-Sea in orbit around Aldébaran: a violet crystal Moon covered with pools, golf greens and a four-hundred-floor golden tower, fireworks, an orchestra of small satellites, flags, speeches on a stage, rich polite guests in gold who do not look at the view, a small concierge in a golden uniform with a thousand keys on a ring, watering plastic plants, far away on the edge a tiny warm Earth seen through a window.
+```
+
+## 87 — Disparu en mission
+
+Scènes : end_24 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: a vast soup kitchen in a cavern: an enormous seated granite colonel-giantess sitting calmly on top of something hidden under her, a steaming pot of honest bad soup on a big table, mugs, a few old stone retirees playing dominoes in the background, the glow of lava through arched windows; in a corner window, a tiny golden shuttle returning empty from the sky. Warm, funny.
+```
+
+## 88 — Les Terriens sont idiots
+
+Scènes : end_26 (fin commune).
+
+```text
+Ultra-wide cinematic banner, 16:6 aspect ratio, 2400x900, same series as the other place banners of the game. Highly detailed storybook illustration: fine ink linework with cross-hatching, colored with watercolor and colored pencil, rich texture everywhere, like a lavish plate from an illustrated fairy-tale book. Whimsical, absurdist and gently melancholic mood, told with a straight face. A wide establishing view of a place, full of small storytelling details; no main character, any figures are small and seen from afar. Pale gold for moonlight and for everything owned by the gold-leaf real-estate company. In the upper right of the sky, whenever the sky is visible: the small glowing full Moon hanging from a thin curved golden thread with a tiny golden hook. Keep all important elements inside the central horizontal band so the image can be cropped top and bottom. No text, no letters, no logos, no watermark, no frame.
+
+Place: from inside a golden spaceship at dawn: a huge porthole showing the Earth shrinking behind, and the Moon being pulled away on its golden chain, a lone figure from behind sitting alone at a desk with a gold-leaf pen and an unsigned paper; empty chairs where companions sat, a grey robot assistant standing at the door with a tray; pink light entering, engines glowing, melancholic.
+```
+
