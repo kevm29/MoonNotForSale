@@ -744,11 +744,11 @@ fin_27	35-rouge	Le bureau de Platine, compte à rebours	plage	Le troisième boul
 end_01	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Vice de forme
 end_02	35-doux	Le bureau de Platine, avant l'alarme et après	plage	La quête des boutons
 end_03	35-doux	Le bureau de Platine, avant l'alarme et après	plage	La Terre qui marche
-end_04	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Une Lune de cristal
+end_04	22	La géode du Docteur Quartz	plage	Une Lune de cristal
 end_05	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Elle a dit non
 end_06	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Le conseil syndical
 end_07	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Le promoteur ému
-end_08	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Le Grand Sommeil
+end_08	45	La maison aux mille fenêtres	plage	Le Grand Sommeil
 end_09	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Procès en cours
 end_10	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Marée basse
 end_11	35-doux	Le bureau de Platine, avant l'alarme et après	plage	L'Axe brisé
@@ -791,37 +791,37 @@ gal_toile	09	Le Carrefour des Espèces	défaut de préfixe	La Toile
 gal_vei	09	Le Carrefour des Espèces	défaut de préfixe	La veillée
 gal_renv	09	Le Carrefour des Espèces	défaut de préfixe	Comment renvoyer un interprète
 gal_int	09	Le Carrefour des Espèces	défaut de préfixe	Le soir au Carrefour
-pla_01			hérite du nœud précédent	Lettre d'acceptation
-pla_02			hérite du nœud précédent	Les équipes
-pla_03			hérite du nœud précédent	
-pla_04			hérite du nœud précédent	Le crochet
-pla_05			hérite du nœud précédent	Le complexe
-pla_06			hérite du nœud précédent	Les premiers jours
+pla_01	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Lettre d'acceptation
+pla_02	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Les équipes
+pla_03	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	
+pla_04	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le crochet
+pla_05	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le complexe
+pla_06	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Les premiers jours
 plt_01	57	La ferme	isolé	Incognito
-plt_hub			hérite du nœud précédent	Au bord de la route
-plt_nuit			hérite du nœud précédent	Le cauchemar
-plt_nuit2			hérite du nœud précédent	
-plt_cot			hérite du nœud précédent	Grève-Molle
-plt_cot2			hérite du nœud précédent	Le phare
-plt_cot3			hérite du nœud précédent	
-plt_cap			hérite du nœud précédent	Tamponville
-plt_cap2			hérite du nœud précédent	Le guichet zéro
-plt_cap3			hérite du nœud précédent	
-plt_bri			hérite du nœud précédent	Les Magmas Paisibles
-plt_bri2			hérite du nœud précédent	
-plt_bri3			hérite du nœud précédent	
-plt_ana			hérite du nœud précédent	La Serre des Belles-de-Nuit
-plt_ana2			hérite du nœud précédent	
-plf_01			hérite du nœud précédent	La navette
-plf_ligue			hérite du nœud précédent	Onze tonnes
-plf_ligue2			hérite du nœud précédent	
-plf_ligue3			hérite du nœud précédent	Trois jours dessous
+plt_hub	59	La route de nuit vers le Carrefour	isolé	Au bord de la route
+plt_nuit	41	Le rêve de Platine	isolé	Le cauchemar
+plt_nuit2	59	La route de nuit vers le Carrefour	isolé	
+plt_cot	13	Les Côtes Hagardes	isolé	Grève-Molle
+plt_cot2	01	Le phare de Grève-Molle	isolé	Le phare
+plt_cot3	01	Le phare de Grève-Molle	isolé	
+plt_cap	24	Tamponville, le Cadastre et le Palais	isolé	Tamponville
+plt_cap2	02	Le guichet zéro	isolé	Le guichet zéro
+plt_cap3	02	Le guichet zéro	isolé	
+plt_bri	04	Les Magmas Paisibles	isolé	Les Magmas Paisibles
+plt_bri2	04	Les Magmas Paisibles	isolé	
+plt_bri3	21	Les Profondeurs et l'Axe de la Terre	isolé	
+plt_ana	36	La Serre des Belles-de-Nuit	isolé	La Serre des Belles-de-Nuit
+plt_ana2	36	La Serre des Belles-de-Nuit	isolé	
+plf_01	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	La navette
+plf_ligue	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Onze tonnes
+plf_ligue2	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	
+plf_ligue3	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Trois jours dessous
 plf_02	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Le bureau
-plf_bouton			hérite du nœud précédent	Le bouton
-plf_vente			hérite du nœud précédent	Le prix
-plf_conseil			hérite du nœud précédent	Le conseil d'administration
-plf_conseil2			hérite du nœud précédent	Le vote
-plf_02b			hérite du nœud précédent	
+plf_bouton	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le bouton
+plf_vente	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le prix
+plf_conseil	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le conseil d'administration
+plf_conseil2	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le vote
+plf_02b	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	
 end_24	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Disparu en mission
 end_25	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Revendue pour presque rien
 end_26	35-doux	Le bureau de Platine, avant l'alarme et après	plage	Les Terriens sont idiots
@@ -979,68 +979,68 @@ gnu_04b	27	Les Hauts-Nuages	défaut de préfixe	Les nuageons
 gal_nuit3	09	Le Carrefour des Espèces	défaut de préfixe	Le dernier Conseil
 pla_01b	42	La Salle des choses seules	isolé	La Salle des choses seules
 pla_01c	35-doux	Le bureau de Platine, avant l'alarme et après	isolé	Le thé de Pénélope
-pla_03b			hérite du nœud précédent	Le tiroir du bas
-pla_04b			hérite du nœud précédent	Sur la Lune
-pla_05b			hérite du nœud précédent	Les deux pour cent
-pla_06b			hérite du nœud précédent	Le dîner
-pla_06c			hérite du nœud précédent	Le télescope
-plt_cot_a			hérite du nœud précédent	Les écopeurs
-plt_cot_f			hérite du nœud précédent	La digue
-plt_cot_b			hérite du nœud précédent	Le Ressac Triste
-plt_cot_c			hérite du nœud précédent	Le Chœur des Méduses
-plt_cot_g			hérite du nœud précédent	Le fond de la mer
-plt_cot_d			hérite du nœud précédent	La criée
-plt_cot_e			hérite du nœud précédent	Ta première lettre
-plt_cap_f			hérite du nœud précédent	La file
-plt_cap_a			hérite du nœud précédent	Le Palais de la Présidence
-plt_cap_b			hérite du nœud précédent	Madame Épine
-plt_cap_c			hérite du nœud précédent	Le Cantonnier
-plt_cap_g			hérite du nœud précédent	L'ascenseur
-plt_cap_e			hérite du nœud précédent	Le mur
-plt_bri_a			hérite du nœud précédent	L'Ascenseur des Taupes
-plt_bri_b			hérite du nœud précédent	L'Axe de la Terre
-plt_bri_c			hérite du nœud précédent	La petite au bonnet
-plt_bri_e			hérite du nœud précédent	Le lac noir
-plt_bri_f			hérite du nœud précédent	Les Grottes des Échos
-plt_bri_d			hérite du nœud précédent	La géode
-plt_ana_a			hérite du nœud précédent	La forêt qui penche
-plt_ana_e			hérite du nœud précédent	Le ruisseau qui remonte
-plt_ana_b			hérite du nœud précédent	Tante Mélusine
-plt_ana_c			hérite du nœud précédent	Les tricoteuses
-plt_ana_f			hérite du nœud précédent	La clairière des Lichenautes
-plt_ana_d			hérite du nœud précédent	La fente
-plt_route			hérite du nœud précédent	La route
-plt_car			hérite du nœud précédent	Le Carrefour des Espèces
-plt_car2			hérite du nœud précédent	La tribune
-plt_car3			hérite du nœud précédent	La colporteuse
-plt_car4			hérite du nœud précédent	Les tentes
-plf_01b			hérite du nœud précédent	Dans la navette
-plf_01c			hérite du nœud précédent	Le chantier
-pla_01d			hérite du nœud précédent	Le courrier d'Aldébaran
-pla_04c			hérite du nœud précédent	Le casse-croûte
-pla_06d			hérite du nœud précédent	Le premier rapport
-pla_06e			hérite du nœud précédent	Le déguisement
-plt_cot_h			hérite du nœud précédent	La cabane de Perline
-plt_cot_i			hérite du nœud précédent	Le poisson-lune
-plt_cot_j			hérite du nœud précédent	Le départ des Côtes
-plt_cap_h			hérite du nœud précédent	Madame Pruine
-plt_cap_i			hérite du nœud précédent	Les archives
-plt_bri_g			hérite du nœud précédent	Le dortoir
-plt_bri_h			hérite du nœud précédent	Les dominos
-plt_ana_g			hérite du nœud précédent	Le carnet d'Anatole
-plt_ana_h			hérite du nœud précédent	La nuit dans la serre
-plt_car5			hérite du nœud précédent	Le Conseil des Espèces
-plt_car6			hérite du nœud précédent	La taupe journaliste
-plf_01d			hérite du nœud précédent	Krâmm
-plf_01e			hérite du nœud précédent	Zéphyrin
+pla_03b	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le tiroir du bas
+pla_04b	33	Le chantier lunaire	isolé	Sur la Lune
+pla_05b	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Les deux pour cent
+pla_06b	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le dîner
+pla_06c	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le télescope
+plt_cot_a	13	Les Côtes Hagardes	isolé	Les écopeurs
+plt_cot_f	13	Les Côtes Hagardes	isolé	La digue
+plt_cot_b	14	Le Ressac Triste	isolé	Le Ressac Triste
+plt_cot_c	13	Les Côtes Hagardes	isolé	Le Chœur des Méduses
+plt_cot_g	13	Les Côtes Hagardes	isolé	Le fond de la mer
+plt_cot_d	13	Les Côtes Hagardes	isolé	La criée
+plt_cot_e	01	Le phare de Grève-Molle	isolé	Ta première lettre
+plt_cap_f	24	Tamponville, le Cadastre et le Palais	isolé	La file
+plt_cap_a	24	Tamponville, le Cadastre et le Palais	isolé	Le Palais de la Présidence
+plt_cap_b	26	Bureau de Madame Épine	isolé	Madame Épine
+plt_cap_c	24	Tamponville, le Cadastre et le Palais	isolé	Le Cantonnier
+plt_cap_g	24	Tamponville, le Cadastre et le Palais	isolé	L'ascenseur
+plt_cap_e	24	Tamponville, le Cadastre et le Palais	isolé	Le mur
+plt_bri_a	21	Les Profondeurs et l'Axe de la Terre	isolé	L'Ascenseur des Taupes
+plt_bri_b	21	Les Profondeurs et l'Axe de la Terre	isolé	L'Axe de la Terre
+plt_bri_c	21	Les Profondeurs et l'Axe de la Terre	isolé	La petite au bonnet
+plt_bri_e	21	Les Profondeurs et l'Axe de la Terre	isolé	Le lac noir
+plt_bri_f	21	Les Profondeurs et l'Axe de la Terre	isolé	Les Grottes des Échos
+plt_bri_d	22	La géode du Docteur Quartz	isolé	La géode
+plt_ana_a	16	La Forêt-Réseau	isolé	La forêt qui penche
+plt_ana_e	16	La Forêt-Réseau	isolé	Le ruisseau qui remonte
+plt_ana_b	18	Le Temple de la Pleine Lune	isolé	Tante Mélusine
+plt_ana_c	18	Le Temple de la Pleine Lune	isolé	Les tricoteuses
+plt_ana_f	17	Le Grand Chêne Noué et la Toile	isolé	La clairière des Lichenautes
+plt_ana_d	36	La Serre des Belles-de-Nuit	isolé	La fente
+plt_route	38	Le Tortillard des Espèces	isolé	La route
+plt_car	09	Le Carrefour des Espèces	isolé	Le Carrefour des Espèces
+plt_car2	09	Le Carrefour des Espèces	isolé	La tribune
+plt_car3	09	Le Carrefour des Espèces	isolé	La colporteuse
+plt_car4	09	Le Carrefour des Espèces	isolé	Les tentes
+plf_01b	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Dans la navette
+plf_01c	33	Le chantier lunaire	isolé	Le chantier
+pla_01d	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le courrier d'Aldébaran
+pla_04c	33	Le chantier lunaire	isolé	Le casse-croûte
+pla_06d	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le premier rapport
+pla_06e	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le déguisement
+plt_cot_h	14	Le Ressac Triste	isolé	La cabane de Perline
+plt_cot_i	13	Les Côtes Hagardes	isolé	Le poisson-lune
+plt_cot_j	13	Les Côtes Hagardes	isolé	Le départ des Côtes
+plt_cap_h	02	Le guichet zéro	isolé	Madame Pruine
+plt_cap_i	25	Les archives, sous-sol moins onze	isolé	Les archives
+plt_bri_g	04	Les Magmas Paisibles	isolé	Le dortoir
+plt_bri_h	04	Les Magmas Paisibles	isolé	Les dominos
+plt_ana_g	36	La Serre des Belles-de-Nuit	isolé	Le carnet d'Anatole
+plt_ana_h	36	La Serre des Belles-de-Nuit	isolé	La nuit dans la serre
+plt_car5	09	Le Carrefour des Espèces	isolé	Le Conseil des Espèces
+plt_car6	09	Le Carrefour des Espèces	isolé	La taupe journaliste
+plf_01d	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Krâmm
+plf_01e	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Zéphyrin
 plf_01f	42	La Salle des choses seules	isolé	La Salle des choses seules
-pla_01e			hérite du nœud précédent	L'ordre de démarrage
+pla_01e	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	L'ordre de démarrage
 plt_00	57	La ferme	isolé	Le champ
-plt_cot_k			hérite du nœud précédent	La vague immobile
-plt_cap_k			hérite du nœud précédent	La gare de Tamponville
-plt_bri_k			hérite du nœud précédent	La remontée
-plt_ana_k			hérite du nœud précédent	Les champignons messagers
-plt_car7			hérite du nœud précédent	L'infirmerie des évaporés
+plt_cot_k	13	Les Côtes Hagardes	isolé	La vague immobile
+plt_cap_k	24	Tamponville, le Cadastre et le Palais	isolé	La gare de Tamponville
+plt_bri_k	21	Les Profondeurs et l'Axe de la Terre	isolé	La remontée
+plt_ana_k	16	La Forêt-Réseau	isolé	Les champignons messagers
+plt_car7	09	Le Carrefour des Espèces	isolé	L'infirmerie des évaporés
 ply_01	37	La Lyre	isolé	La Lyre
 ply_02	37	La Lyre	isolé	Le bocal
 ply_03	37	La Lyre	isolé	La corde basse
@@ -1206,23 +1206,23 @@ pnc_f1c	02	Le guichet zéro	isolé	Le guichet
 pnc_pie2	40	L'eau noire	défaut de préfixe	La pente
 pno_00d	41	Le rêve de Platine	isolé	Le lit d'or
 pno_03b	41	Le rêve de Platine	défaut de préfixe	L'enfant qui compte
-pla_01f			hérite du nœud précédent	Le miroir
-pla_04d			hérite du nœud précédent	Bobinot, au retour
-pla_06a			hérite du nœud précédent	Le chiffre
+pla_01f	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le miroir
+pla_04d	33	Le chantier lunaire	isolé	Bobinot, au retour
+pla_06a	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Le chiffre
 plt_00b	57	La ferme	isolé	La première nuit
-plt_nuit3			hérite du nœud précédent	Ce que dit Pistil
-plt_halte			hérite du nœud précédent	La halte
-plt_cot_b2			hérite du nœud précédent	Le patron
-plt_cot3b			hérite du nœud précédent	Les lettres d'Ondine
-plt_cap_b2			hérite du nœud précédent	Le cagibi des formulaires
-plt_cap3b			hérite du nœud précédent	Basile parle
-plt_bri_c2			hérite du nœud précédent	La foule assise
-plt_bri_h2			hérite du nœud précédent	Ce que raconte Brisefer
-plt_ana_b2			hérite du nœud précédent	Le fil
-plt_ana_g2			hérite du nœud précédent	L'heure d'Anatole
-plt_car6b			hérite du nœud précédent	Le portrait
-plt_car4b			hérite du nœud précédent	Le dernier soir
-plf_01e2			hérite du nœud précédent	Pénélope
+plt_nuit3	59	La route de nuit vers le Carrefour	isolé	Ce que dit Pistil
+plt_halte	59	La route de nuit vers le Carrefour	isolé	La halte
+plt_cot_b2	14	Le Ressac Triste	isolé	Le patron
+plt_cot3b	01	Le phare de Grève-Molle	isolé	Les lettres d'Ondine
+plt_cap_b2	26	Bureau de Madame Épine	isolé	Le cagibi des formulaires
+plt_cap3b	02	Le guichet zéro	isolé	Basile parle
+plt_bri_c2	21	Les Profondeurs et l'Axe de la Terre	isolé	La foule assise
+plt_bri_h2	04	Les Magmas Paisibles	isolé	Ce que raconte Brisefer
+plt_ana_b2	18	Le Temple de la Pleine Lune	isolé	Le fil
+plt_ana_g2	36	La Serre des Belles-de-Nuit	isolé	L'heure d'Anatole
+plt_car6b	09	Le Carrefour des Espèces	isolé	Le portrait
+plt_car4b	09	Le Carrefour des Espèces	isolé	Le dernier soir
+plf_01e2	35-doux	Le bureau de Platine, avant l'alarme et après	défaut de préfixe	Pénélope
 gpa_01b	24	Tamponville, le Cadastre et le Palais	défaut de préfixe	La fenêtre
 gpa_02b	24	Tamponville, le Cadastre et le Palais	défaut de préfixe	Le café d'Anselme
 gpa_05b	24	Tamponville, le Cadastre et le Palais	défaut de préfixe	Entre deux audiences

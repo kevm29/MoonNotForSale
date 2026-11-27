@@ -860,6 +860,106 @@
    "image": "14",
    "nom": "Le Ressac Triste",
    "scenes": "pne_ba1b"
+  },
+  {
+   "image": "57",
+   "nom": "La ferme",
+   "scenes": "plt_00, plt_00b, plt_01"
+  },
+  {
+   "image": "59",
+   "nom": "La route de nuit vers le Carrefour",
+   "scenes": "plt_hub, plt_nuit2, plt_nuit3, plt_halte"
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "plt_nuit"
+  },
+  {
+   "image": "13",
+   "nom": "Les Côtes Hagardes",
+   "scenes": "plt_cot, plt_cot_a, plt_cot_f, plt_cot_c, plt_cot_g, plt_cot_d, plt_cot_i, plt_cot_j, plt_cot_k"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "plt_cot_b, plt_cot_b2, plt_cot_h"
+  },
+  {
+   "image": "01",
+   "nom": "Le phare de Grève-Molle",
+   "scenes": "plt_cot2, plt_cot3, plt_cot3b, plt_cot_e"
+  },
+  {
+   "image": "24",
+   "nom": "Tamponville, le Cadastre et le Palais",
+   "scenes": "plt_cap, plt_cap_a, plt_cap_c, plt_cap_e, plt_cap_f, plt_cap_g, plt_cap_k"
+  },
+  {
+   "image": "02",
+   "nom": "Le guichet zéro",
+   "scenes": "plt_cap2, plt_cap3, plt_cap3b, plt_cap_h"
+  },
+  {
+   "image": "26",
+   "nom": "Bureau de Madame Épine",
+   "scenes": "plt_cap_b, plt_cap_b2"
+  },
+  {
+   "image": "25",
+   "nom": "Les archives, sous-sol moins onze",
+   "scenes": "plt_cap_i"
+  },
+  {
+   "image": "04",
+   "nom": "Les Magmas Paisibles",
+   "scenes": "plt_bri, plt_bri2, plt_bri_g, plt_bri_h, plt_bri_h2"
+  },
+  {
+   "image": "21",
+   "nom": "Les Profondeurs et l'Axe de la Terre",
+   "scenes": "plt_bri3, plt_bri_a, plt_bri_b, plt_bri_c, plt_bri_c2, plt_bri_e, plt_bri_f, plt_bri_k"
+  },
+  {
+   "image": "22",
+   "nom": "La géode du Docteur Quartz",
+   "scenes": "plt_bri_d"
+  },
+  {
+   "image": "36",
+   "nom": "La Serre des Belles-de-Nuit",
+   "scenes": "plt_ana, plt_ana2, plt_ana_d, plt_ana_g, plt_ana_g2, plt_ana_h"
+  },
+  {
+   "image": "16",
+   "nom": "La Forêt-Réseau",
+   "scenes": "plt_ana_a, plt_ana_e, plt_ana_k"
+  },
+  {
+   "image": "18",
+   "nom": "Le Temple de la Pleine Lune",
+   "scenes": "plt_ana_b, plt_ana_b2, plt_ana_c"
+  },
+  {
+   "image": "17",
+   "nom": "Le Grand Chêne Noué et la Toile",
+   "scenes": "plt_ana_f"
+  },
+  {
+   "image": "38",
+   "nom": "Le Tortillard des Espèces",
+   "scenes": "plt_route"
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "plt_car, plt_car2, plt_car3, plt_car4, plt_car4b, plt_car5, plt_car6, plt_car6b, plt_car7"
+  },
+  {
+   "image": "33",
+   "nom": "Le chantier lunaire",
+   "scenes": "pla_04b, pla_04c, pla_04d, plf_01c"
   }
  ],
  "defauts": {
@@ -936,7 +1036,10 @@
   "pis",
   "pne",
   "pnc",
-  "pno"
+  "pno",
+  "plt",
+  "pla",
+  "plf"
  ],
  "a_creer": [
   {
@@ -980,6 +1083,34 @@
    "provisoire": "32",
    "scenes": "pne_zo1, pne_zo2, pne_zo3, pne_zo1b",
    "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "73",
+   "nom": "Le crochet d'or détaché, flottant au-dessus du chantier (variante de 34)",
+   "provisoire": "34",
+   "scenes": "end_29",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "74",
+   "nom": "La maison aux mille fenêtres, Platine assis près de la Lune (variante de 45)",
+   "provisoire": "45",
+   "scenes": "end_08",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "75",
+   "nom": "Pistil, roi au fond du Fleuve des Dormeurs devenu noir",
+   "provisoire": "41",
+   "scenes": "end_35",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "76",
+   "nom": "La Lune de cristal violette autour d'Aldébaran",
+   "provisoire": "22",
+   "scenes": "end_04",
+   "prompt": "lieux_a_creer.md"
   }
  ],
  "controle": {
@@ -1002,7 +1133,8 @@
    "41": [
     "^(pno|end)_",
     "^pso_cauch$",
-    "^end_(35|38)$"
+    "^end_(35|38)$",
+    "^plt_nuit$"
    ],
    "40": [
     "^(pnc|end_37|pso_cauch)"
@@ -1018,6 +1150,9 @@
    ],
    "60": [
     "^(pmo|pcr|neg_01)"
+   ],
+   "57": [
+    "^plt_(00|00b|01)$"
    ]
   },
   "signatures": {
@@ -1063,7 +1198,15 @@
    "pcm_06": "la caisse part pour le Promontoire, la scène est au marché",
    "pmo_01": "couloir menant au bureau, le bureau n'est pas encore atteint",
    "pcr_05": "dans la réserve, le bureau n'est qu'évoqué",
-   "pcr_06": "dans la réserve, le bureau n'est qu'évoqué"
+   "pcr_06": "dans la réserve, le bureau n'est qu'évoqué",
+   "plt_nuit": "cauchemar de Platine au fond d'un coffre : rêve doré",
+   "pla_02": "réunion d'équipes au bureau, la station de pompage n'est qu'évoquée",
+   "plt_01": "Platine dans le champ, il évoque les lieux qu'il visitera",
+   "plt_cap2": "guichet zéro, les archives ne sont qu'évoquées",
+   "plt_cap_a": "la file passe sous les fenêtres du Palais, le train n'est qu'évoqué",
+   "plt_cap_g": "l'ascenseur du Cadastre descend vers le guichet zéro",
+   "plt_car2": "tribune du Carrefour, le train n'est qu'évoqué",
+   "plt_bri_g": "dortoir de la maison de retraite des Magmas"
   },
   "orphelines_tolerees": [
    "66"
