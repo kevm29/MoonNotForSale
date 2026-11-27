@@ -292,6 +292,7 @@ obj_etoile	ok	1	2	com_19 93_objets.txt:257	fin_32 93_objets.txt:534 ; fin_32 93_
 obj_facette	ok	5	6	pro_20 93_objets.txt:144 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:108 ; gpr_09 45_president_regions2.txt:109 ; plt_bri_d 47_platine_long.txt:222	plf_02 41_platine.txt:290 ; gfi_som 69_corr_president.txt:61 ; gfi_som 69_corr_president.txt:61 ; gmo_02 44_president_fin.txt:332	pro_20 93_objets.txt:144 ; cha_11 93_objets.txt:395 ; plf_02 41_platine.txt:290 ; gfi_01 44_president_fin.txt:28 ; gfi_som 69_corr_president.txt:61 ; gmo_02 44_president_fin.txt:332
 obj_fil_lune	ok	3	3	gal_01b 46_president_ajouts.txt:52 ; gal_01b 46_president_ajouts.txt:53 ; gal_01b 46_president_ajouts.txt:53	gfo_03b 43_president_regions.txt:229 ; gmo_01 44_president_fin.txt:320	gfo_03b 43_president_regions.txt:229 ; gmo_01 44_president_fin.txt:320 ; gal_nuit2 46_president_ajouts.txt:114
 obj_fleur_epine	ok	1	2	cap_12 93_objets.txt:184	neg_56 93_objets.txt:510 ; neg_56 93_objets.txt:510	cap_12 93_objets.txt:184 ; neg_16 93_objets.txt:485
+obj_formulaire_reprise	jamais testé	1	0	plt_cap_b2 53_platine_scenes.txt:118	plf_vente 41_platine.txt:330 ; plf_vente 41_platine.txt:330	
 obj_gamelle	ok	1	4	plu_05 48_ploum_long.txt:93	pnu_00 48_ploum_long.txt:320	plu_07 51_ploum_repliques.txt:8 ; pnu_00 48_ploum_long.txt:315 ; pnu_00 51_ploum_repliques.txt:194 ; pnu_00 48_ploum_long.txt:320
 obj_goutte	ok	1	2	nua_40 93_objets.txt:204	cha_66 93_objets.txt:431 ; cha_66 93_objets.txt:431	nua_07 93_objets.txt:198 ; cha_15 93_objets.txt:409
 obj_goutte_ondee	ok	1	1	pha_goutte 48_ploum_long.txt:242	pch_01 42_ploum.txt:381	pch_01 42_ploum.txt:381
@@ -319,7 +320,7 @@ obj_registre_pluie	ok	2	2	gnu_06 45_president_regions2.txt:211 ; gnu_06 45_presi
 obj_sablier	ok	1	2	cot_42 93_objets.txt:81	neg_50 93_objets.txt:492 ; neg_50 93_objets.txt:492	cot_36 93_objets.txt:75 ; neg_16 93_objets.txt:482
 obj_tampon_vu	ok	2	4	gpa_14 40_president.txt:149 ; cap_40 93_objets.txt:181	gal_renv 40_president.txt:382 ; gfi_sig 69_corr_president.txt:70 ; neg_54 93_objets.txt:504 ; neg_54 93_objets.txt:504	cap_03 93_objets.txt:174 ; neg_16 93_objets.txt:484 ; gal_renv 40_president.txt:382 ; gfi_sig 69_corr_president.txt:70
 obj_ticket_trouve	ok	2	2	plu_04 48_ploum_long.txt:78 ; plu_04 48_ploum_long.txt:79		pcm_vendu 42_ploum.txt:155 ; plu_route 51_ploum_repliques.txt:22
-obj_ticket_zero	ok	2	5	gpa_13 40_president.txt:142 ; cap_41 93_objets.txt:171	gal_renv 40_president.txt:381 ; neg_55 93_objets.txt:470	cap_02 93_objets.txt:165 ; neg_01 93_objets.txt:463 ; gpa_13 40_president.txt:140 ; gpa_13 40_president.txt:142 ; gal_renv 40_president.txt:381
+obj_ticket_zero	ok	3	5	gpa_13 40_president.txt:142 ; plt_cap_h 47_platine_long.txt:414 ; cap_41 93_objets.txt:171	gal_renv 40_president.txt:381 ; neg_55 93_objets.txt:470	cap_02 93_objets.txt:165 ; neg_01 93_objets.txt:463 ; gpa_13 40_president.txt:140 ; gpa_13 40_president.txt:142 ; gal_renv 40_president.txt:381
 obj_voeu_occasion	ok	1	2	pcm_08b 50_ploum_long2.txt:46	pnu_01d 50_ploum_long2.txt:102	pnu_01d 50_ploum_long2.txt:101 ; pnu_01d 50_ploum_long2.txt:102
 offre_concierge	ok	1	1	neg_24 22_negociation.txt:197		fin_22 23_final.txt:186
 offre_rachat	ok	3	1	neg_13 22_negociation.txt:103 ; neg_13 22_negociation.txt:103 ; neg_13 22_negociation.txt:104		fin_01 23_final.txt:20

@@ -233,6 +233,9 @@ obj_fleur_epine	La fleur de Madame Épine	requis	cap_12	93_objets.txt:184	!flag:
 obj_fleur_epine	La fleur de Madame Épine	requis	neg_16	93_objets.txt:485	flag:obj_fleur_epine
 obj_fleur_epine	La fleur de Madame Épine	retiré	neg_56	93_objets.txt:510	réussite
 obj_fleur_epine	La fleur de Madame Épine	retiré	neg_56	93_objets.txt:510	échec
+obj_formulaire_reprise	Le formulaire « Reprise d'un bien vendu par erreur »	donné	plt_cap_b2	53_platine_scenes.txt:118	réussite
+obj_formulaire_reprise	Le formulaire « Reprise d'un bien vendu par erreur »	retiré	plf_vente	41_platine.txt:330	réussite
+obj_formulaire_reprise	Le formulaire « Reprise d'un bien vendu par erreur »	retiré	plf_vente	41_platine.txt:330	échec
 obj_gamelle	Une gamelle de soupe de comète	donné	plu_05	48_ploum_long.txt:93	réussite
 obj_gamelle	Une gamelle de soupe de comète	requis	plu_07	51_ploum_repliques.txt:8	flag:obj_gamelle
 obj_gamelle	Une gamelle de soupe de comète	requis	pnu_00	48_ploum_long.txt:315	flag:obj_gamelle
@@ -437,6 +440,7 @@ obj_ticket_trouve	Ticket des objets trouvés n°1200	requis	pcm_vendu	42_ploum.t
 obj_ticket_trouve	Ticket des objets trouvés n°1200	requis	plu_route	51_ploum_repliques.txt:22	flag:obj_ticket_trouve
 obj_ticket_zero	Le ticket numéro zéro	donné	cap_41	93_objets.txt:171	réussite
 obj_ticket_zero	Le ticket numéro zéro	donné	gpa_13	40_president.txt:142	réussite
+obj_ticket_zero	Le ticket numéro zéro	donné	plt_cap_h	47_platine_long.txt:414	réussite
 obj_ticket_zero	Le ticket numéro zéro	requis	cap_02	93_objets.txt:165	!flag:obj_ticket_zero
 obj_ticket_zero	Le ticket numéro zéro	requis	gal_renv	40_president.txt:381	flag:obj_ticket_zero
 obj_ticket_zero	Le ticket numéro zéro	requis	gpa_13	40_president.txt:140	!flag:obj_ticket_zero

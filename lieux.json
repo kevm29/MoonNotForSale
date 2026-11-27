@@ -715,6 +715,121 @@
    "nom": "Le couloir des planètes vendues",
    "scenes": "neg_01",
    "correction": true
+  },
+  {
+   "image": "59",
+   "nom": "La route de nuit vers le Carrefour",
+   "scenes": "plt_hub, plt_nuit2, plt_nuit3, plt_halte, plt_route"
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "plt_nuit"
+  },
+  {
+   "image": "13",
+   "nom": "Les Côtes Hagardes",
+   "scenes": "plt_cot, plt_cot_a, plt_cot_f, plt_cot_d, plt_cot_j"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "plt_cot_b, plt_cot_b2, plt_cot_h"
+  },
+  {
+   "image": "15",
+   "nom": "La Trombe des Partis",
+   "scenes": "plt_cot_c, plt_cot_i, plt_cot_k"
+  },
+  {
+   "image": "58",
+   "nom": "L'îlot des phares échoués",
+   "scenes": "plt_cot_g"
+  },
+  {
+   "image": "01",
+   "nom": "Le phare de Grève-Molle",
+   "scenes": "plt_cot2, plt_cot3, plt_cot3b, plt_cot_e"
+  },
+  {
+   "image": "24",
+   "nom": "Tamponville",
+   "scenes": "plt_cap, plt_cap_f, plt_cap_b, plt_cap_c, plt_cap_e, plt_cap_k"
+  },
+  {
+   "image": "26",
+   "nom": "Le bureau de la Sous-Directrice et le Président",
+   "scenes": "plt_cap_a"
+  },
+  {
+   "image": "25",
+   "nom": "Les archives, sous-sol moins onze",
+   "scenes": "plt_cap_g, plt_cap_b2, plt_cap_h, plt_cap_i"
+  },
+  {
+   "image": "02",
+   "nom": "Le guichet zéro",
+   "scenes": "plt_cap2, plt_cap3, plt_cap3b"
+  },
+  {
+   "image": "04",
+   "nom": "Les Magmas Paisibles",
+   "scenes": "plt_bri, plt_bri2, plt_bri3, plt_bri_g, plt_bri_h, plt_bri_h2"
+  },
+  {
+   "image": "21",
+   "nom": "Les Profondeurs et l'Axe de la Terre",
+   "scenes": "plt_bri_a, plt_bri_b, plt_bri_c, plt_bri_c2, plt_bri_e, plt_bri_f, plt_bri_k"
+  },
+  {
+   "image": "22",
+   "nom": "La géode du Docteur Quartz",
+   "scenes": "plt_bri_d"
+  },
+  {
+   "image": "36",
+   "nom": "La Serre des Belles-de-Nuit",
+   "scenes": "plt_ana, plt_ana2, plt_ana_b, plt_ana_b2, plt_ana_c, plt_ana_d, plt_ana_g, plt_ana_g2, plt_ana_h"
+  },
+  {
+   "image": "16",
+   "nom": "La Forêt-Réseau",
+   "scenes": "plt_ana_a, plt_ana_e, plt_ana_f, plt_ana_k"
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "plt_car, plt_car2, plt_car3, plt_car4, plt_car5, plt_car6, plt_car6b, plt_car7"
+  },
+  {
+   "image": "11",
+   "nom": "La dernière nuit, le camp",
+   "scenes": "plt_car4b"
+  },
+  {
+   "image": "44",
+   "nom": "Le champ à l'aube",
+   "scenes": "plf_01, plf_ligue, plf_ligue2, plf_ligue3"
+  },
+  {
+   "image": "32",
+   "nom": "La montée, la Terre vue d'en haut",
+   "scenes": "plf_01b"
+  },
+  {
+   "image": "33",
+   "nom": "Le chantier lunaire",
+   "scenes": "plf_01c"
+  },
+  {
+   "image": "47",
+   "nom": "La cale du Promontoire",
+   "scenes": "plf_01d"
+  },
+  {
+   "image": "60",
+   "nom": "Le couloir des planètes vendues",
+   "scenes": "plf_01e, plf_01e2"
   }
  ],
  "defauts": {

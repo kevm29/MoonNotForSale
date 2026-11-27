@@ -115,7 +115,7 @@ Un formulaire, tout en haut, n'a jamais été rempli. Son titre : « Reprise d'u
 ~brisefer: Brisefer ne passe pas dans le cagibi. Elle reste à la porte, les bras croisés. « Les papiers, ça ne porte rien. Ça fait semblant. »
 ~bartho: Bartholomé prend un formulaire « Avis de disparition en mer ». Il le regarde. Il le repose. « J'en ai rempli un, il y a vingt ans. On m'a jamais répondu. »
 ~pistil: Pistil chuchote à ton oreille : « Il y en a un pour reprendre. Tu l'as vu ? » Tu l'as vu.
-* plt_cap_h | Prendre le formulaire « Reprise d'un bien vendu par erreur » | Tu le plies en quatre et tu le mets dans ta poche intérieure, contre ton cœur d'or. Il est vierge. Il est léger. Il pèse beaucoup. | | +flag:pl_formulaire |
+* plt_cap_h | Prendre le formulaire « Reprise d'un bien vendu par erreur » | Tu le plies en quatre et tu le mets dans ta poche intérieure, contre ton cœur d'or. Il est vierge. Il est léger. Il pèse beaucoup. | | +flag:pl_formulaire +flag:obj_formulaire_reprise |
 * plt_cap_h | Ne rien prendre | Tu as signé assez de papiers pour une vie. Tu passes. | |
 
 @plt_cap3b
