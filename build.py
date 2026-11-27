@@ -353,6 +353,50 @@ def flag_index(nodes, order):
                     if part.startswith("flag:") and nid not in idx[part[5:]]["need"]: idx[part[5:]]["need"].append(nid)
     return dict(idx)
 
+def resolve_lieux(L, nodes, order):
+    """Table nœud -> image d'après lieux.json. Les entrées « a à b » sont des plages (la plus tardive l'emporte),
+    les nœuds isolés l'emportent sur les plages. Pour les préfixes « stricts » (histoires vérifiées scène par scène),
+    tout nœud sans entrée reçoit l'image par défaut de son préfixe : l'image ne dépend plus du chemin parcouru.
+    Les lieux « a_creer » utilisent leur image provisoire tant que le fichier n'existe pas."""
+    names, avert = {}, []
+    ranges, singles = {}, {}
+    def expand(part, img):
+        if " à " in part:
+            a, c = part.split(" à "); pre = a.split("_")[0]
+            lo, hi = int(a.split("_")[1]), int(c.split("_")[1])
+            for nid in order:
+                p, _, num = nid.partition("_")
+                if p == pre and num.isdigit() and lo <= int(num) <= hi: ranges[nid] = img
+        elif part in nodes:
+            if part in singles and singles[part] != img:
+                avert.append(f"nœud {part} listé pour deux images : {singles[part]} puis {img}")
+            singles[part] = img
+        else: avert.append(f"nœud inconnu {part} (image {img})")
+    for lieu in L["lieux"]:
+        names[lieu["image"]] = lieu["nom"]
+        if lieu["scenes"].strip() and not os.path.exists(os.path.join(HERE, "img", "lieux", lieu["image"] + ".webp")):
+            print("IMAGE MANQUANTE", lieu["image"])
+        for part in lieu["scenes"].split(","):
+            part = part.strip()
+            if part: expand(part, lieu["image"])
+    nmap = dict(ranges); nmap.update(singles)
+    for lieu in L.get("a_creer", []):
+        names[lieu["image"]] = lieu["nom"]
+        ok = os.path.exists(os.path.join(HERE, "img", "lieux", lieu["image"] + ".webp"))
+        img = lieu["image"] if ok else lieu["provisoire"]
+        for part in lieu["scenes"].split(","):
+            part = part.strip()
+            if part in nodes: nmap[part] = img
+            elif part: avert.append(f"nœud inconnu {part} (a_creer {lieu['image']})")
+    n_str = 0
+    D = L["defauts"]
+    for nid in order:
+        p = nid.split("_")[0]
+        if p in L.get("stricts", []) and nid not in nmap:
+            if p in D: nmap[nid] = D[p]; n_str += 1
+            else: avert.append(f"préfixe strict {p} sans image par défaut")
+    return nmap, names, {"avert": avert, "stricts": n_str, "ranges": ranges, "singles": singles}
+
 def main():
     files = sorted(glob.glob(os.path.join(HERE, "src", "*.txt")))
     meta = json.load(open(os.path.join(HERE, "meta.json"), encoding="utf-8"))
@@ -409,24 +453,16 @@ def main():
     lj = os.path.join(HERE, "lieux.json")
     if os.path.exists(lj):
         L = json.load(open(lj, encoding="utf-8"))
-        nmap, names = {}, {}
-        for lieu in L["lieux"]:
-            names[lieu["image"]] = lieu["nom"]
-            if not os.path.exists(os.path.join(HERE, "img", "lieux", lieu["image"] + ".webp")):
-                print("IMAGE MANQUANTE", lieu["image"])
-            for part in lieu["scenes"].split(","):
-                part = part.strip()
-                if " à " in part:
-                    a, b = part.split(" à "); pre = a.split("_")[0]
-                    lo, hi = int(a.split("_")[1]), int(b.split("_")[1])
-                    for nid in order:
-                        p, _, num = nid.partition("_")
-                        if p == pre and num.isdigit() and lo <= int(num) <= hi: nmap[nid] = lieu["image"]
-                elif part in nodes: nmap[part] = lieu["image"]
-                else: print("lieux.json : nœud inconnu", part)
+        nmap, names, infos = resolve_lieux(L, nodes, order)
         data["lieux"] = {"n": nmap, "d": L["defauts"], "noms": names}
-        sans = [n for n in order if n not in nmap]
-        print(f"images de lieux : {len(nmap)} nœuds explicites, {len(sans)} suivent l'image en cours ou celle de leur section")
+        print(f"images de lieux : {len(nmap)} nœuds avec une image fixe ({infos['stricts']} par défaut de préfixe), {len(order) - len(nmap)} suivent l'image en cours ou celle de leur section")
+        # garde-fou : pertinence des images (tools/images_check.py), bloquant sauf --force
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("images_check", os.path.join(HERE, "tools", "images_check.py"))
+        ic = importlib.util.module_from_spec(spec); spec.loader.exec_module(ic)
+        ierrs = ic.controler(L, nodes, order, nmap, infos, HERE)
+        if ierrs and "--force" not in sys.argv:
+            sys.exit("Images : " + str(len(ierrs)) + " erreur(s), voir ci-dessus (python3 tools/images_check.py pour le détail)")
         if os.path.abspath(out) != os.path.join(HERE, "img"):
             shutil.copytree(os.path.join(HERE, "img", "lieux"), os.path.join(out, "img", "lieux"), dirs_exist_ok=True)
     for tpl, name, payload in (("game.html", "la-lune-vendue.html", data), ("tree.html", "arbre-de-decision.html", tree)):

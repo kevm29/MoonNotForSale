@@ -296,7 +296,7 @@
   {
    "image": "32",
    "nom": "La montée, la Terre vue d'en haut",
-   "scenes": "ply_05b, ply_06, ply_06b, ply_07, ply_07b"
+   "scenes": "ply_07b"
   },
   {
    "image": "38",
@@ -365,7 +365,7 @@
   {
    "image": "09",
    "nom": "Le Carrefour des Espèces",
-   "scenes": "pcr_08, pcr_08b",
+   "scenes": "",
    "correction": true
   },
   {
@@ -377,13 +377,13 @@
   {
    "image": "11",
    "nom": "La dernière nuit, le camp",
-   "scenes": "pcr_fuite",
+   "scenes": "",
    "correction": true
   },
   {
    "image": "20",
    "nom": "La boutique du Marchand de Sommeil",
-   "scenes": "pso_03, pso_r2, pso_04, pso_05, pso_reve, pso_cauch",
+   "scenes": "pso_03, pso_r2, pso_04, pso_05",
    "correction": true
   },
   {
@@ -401,7 +401,7 @@
   {
    "image": "13",
    "nom": "Les Côtes Hagardes",
-   "scenes": "pct_04b, pct_07",
+   "scenes": "pct_04b",
    "correction": true
   },
   {
@@ -443,7 +443,7 @@
   {
    "image": "13",
    "nom": "Les Côtes Hagardes",
-   "scenes": "end_28",
+   "scenes": "",
    "correction": true
   },
   {
@@ -701,8 +701,8 @@
   },
   {
    "image": "66",
-   "nom": "Le bureau de Platine en rouge",
-   "scenes": "gpa_15, gpa_15b"
+   "nom": "Le Promontoire en alarme rouge (variante de 35, pas encore placée)",
+   "scenes": ""
   },
   {
    "image": "56",
@@ -715,6 +715,151 @@
    "nom": "Le couloir des planètes vendues",
    "scenes": "neg_01",
    "correction": true
+  },
+  {
+   "image": "26",
+   "nom": "Bureau de Madame Épine",
+   "scenes": "gpa_11, gpa_12"
+  },
+  {
+   "image": "25",
+   "nom": "Les archives, sous-sol moins onze",
+   "scenes": "gpa_15, gpa_15b"
+  },
+  {
+   "image": "24",
+   "nom": "Tamponville, le Cadastre et le Palais",
+   "scenes": "gpa_16, gpa_16b, gpa_14b"
+  },
+  {
+   "image": "38",
+   "nom": "Le Tortillard des Espèces",
+   "scenes": "gpa_18"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "gco_03, gco_03b, gco_03c, gco_04"
+  },
+  {
+   "image": "17",
+   "nom": "Le Grand Chêne Noué et la Toile",
+   "scenes": "gfo_01b, gfo_04c"
+  },
+  {
+   "image": "18",
+   "nom": "Le Temple de la Pleine Lune",
+   "scenes": "gfo_02, gfo_02b, gfo_03, gfo_03b"
+  },
+  {
+   "image": "36",
+   "nom": "La Serre des Belles-de-Nuit",
+   "scenes": "gfo_03c, gfo_03d"
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "gfi_pro, gfi_ech, gmo_saisie, gmo_r33"
+  },
+  {
+   "image": "12",
+   "nom": "L'heure de monter",
+   "scenes": "gmo_nav, gmo_bal"
+  },
+  {
+   "image": "65",
+   "nom": "Les fins sur la Lune",
+   "scenes": "gmo_01, end_22"
+  },
+  {
+   "image": "34",
+   "nom": "Le crochet dans la mer de la Tranquillité",
+   "scenes": "gmo_04, gmo_05"
+  },
+  {
+   "image": "22",
+   "nom": "La géode du Docteur Quartz",
+   "scenes": "gpr_07, gpr_08, gpr_09"
+  },
+  {
+   "image": "23",
+   "nom": "La Salle des Plaques et l'Assemblée",
+   "scenes": "gpr_09b"
+  },
+  {
+   "image": "28",
+   "nom": "La station de pompage et la nacelle",
+   "scenes": "gnu_03, gnu_06, gnu_07, gnu_08, gnu_09"
+  },
+  {
+   "image": "29",
+   "nom": "Le Phare des Nuages",
+   "scenes": "gnu_10, gnu_10b"
+  },
+  {
+   "image": "06",
+   "nom": "Le Centre de tri des Vents",
+   "scenes": "gnu_02b"
+  },
+  {
+   "image": "61",
+   "nom": "La plage des pêcheurs",
+   "scenes": "pct_06, pct_08"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "pct_07"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "pso_reve"
+  },
+  {
+   "image": "41",
+   "nom": "Le rêve de Platine",
+   "scenes": "pso_cauch, end_35, end_38"
+  },
+  {
+   "image": "56",
+   "nom": "Le Dortoir des Voyageurs",
+   "scenes": "pso_07, pso_07b, pso_08, pso_08b, pso_09"
+  },
+  {
+   "image": "28",
+   "nom": "La station de pompage et la nacelle",
+   "scenes": "pha_04b"
+  },
+  {
+   "image": "60",
+   "nom": "Le couloir des planètes vendues",
+   "scenes": "pcr_08, pcr_08b, pmo_03"
+  },
+  {
+   "image": "09",
+   "nom": "Le Carrefour des Espèces",
+   "scenes": "pcr_fuite"
+  },
+  {
+   "image": "35-doux",
+   "nom": "Le bureau de Platine, avant l'alarme et après",
+   "scenes": "end_28"
+  },
+  {
+   "image": "45",
+   "nom": "La maison aux mille fenêtres",
+   "scenes": "pis_27"
+  },
+  {
+   "image": "59",
+   "nom": "La route de nuit vers le Carrefour",
+   "scenes": "pis_43"
+  },
+  {
+   "image": "14",
+   "nom": "Le Ressac Triste",
+   "scenes": "pne_ba1b"
   }
  ],
  "defauts": {
@@ -767,5 +912,161 @@
   "pne": "39",
   "pnc": "40",
   "pno": "41"
+ },
+ "stricts": [
+  "gpa",
+  "gtr",
+  "gal",
+  "gco",
+  "gfo",
+  "gfi",
+  "gmo",
+  "gpr",
+  "gnu",
+  "ply",
+  "plu",
+  "pcm",
+  "pcr",
+  "pso",
+  "pct",
+  "pha",
+  "pnu",
+  "pch",
+  "pmo",
+  "pis",
+  "pne",
+  "pnc",
+  "pno"
+ ],
+ "a_creer": [
+  {
+   "image": "67",
+   "nom": "La salle ronde du Palais de la Présidence",
+   "provisoire": "24",
+   "scenes": "gpa_01, gpa_01b, gpa_02, gpa_02b, gpa_03, gpa_17, gpa_17b",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "68",
+   "nom": "La douane des étoiles",
+   "provisoire": "37",
+   "scenes": "ply_06",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "69",
+   "nom": "La nébuleuse qui sent la menthe",
+   "provisoire": "37",
+   "scenes": "ply_05b, ply_07",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "70",
+   "nom": "Le nuage de cailloux qui se disputent",
+   "provisoire": "37",
+   "scenes": "ply_06b",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "71",
+   "nom": "Dans la caisse de velours",
+   "provisoire": "55",
+   "scenes": "pcm_r3, pcr_01, pcr_02, pcr_03",
+   "prompt": "lieux_a_creer.md"
+  },
+  {
+   "image": "72",
+   "nom": "La ronde des comètes",
+   "provisoire": "32",
+   "scenes": "pne_zo1, pne_zo2, pne_zo3, pne_zo1b",
+   "prompt": "lieux_a_creer.md"
+  }
+ ],
+ "controle": {
+  "_doc": "Garde-fou lancé par build.py (tools/images_check.py). reserve : image -> motifs (regex) des seuls nœuds autorisés à l'afficher ; signatures : image -> mots qui disent que le texte se passe bien là ; revues : nœuds dont l'écart texte/image a été examiné et accepté.",
+  "reserve": {
+   "35-doux": [
+    "^(neg|end|pla|plf|pmo)_",
+    "^gfi_(pro|ech)$",
+    "^gmo_(saisie|r33)$",
+    "^zep_16$"
+   ],
+   "35-rouge": [
+    "^(neg|fin)_"
+   ],
+   "66": [],
+   "65": [
+    "^end_(22|33|34)$",
+    "^gmo_01$"
+   ],
+   "41": [
+    "^(pno|end)_",
+    "^pso_cauch$",
+    "^end_(35|38)$"
+   ],
+   "40": [
+    "^(pnc|end_37|pso_cauch)"
+   ],
+   "39": [
+    "^(pne|end_36)"
+   ],
+   "42": [
+    "^(pla|plf|pmo|pno)_"
+   ],
+   "55": [
+    "^(pcr|pcm_r3|pcr_)"
+   ],
+   "60": [
+    "^(pmo|pcr|neg_01)"
+   ]
+  },
+  "signatures": {
+   "25": "archives|sous-sol moins",
+   "26": "Madame Épine|Sous-Directrice",
+   "22": "géode|Quartz",
+   "28": "station de pompage|contremaître",
+   "29": "Phare des Nuages",
+   "14": "Ressac Triste|bistrot",
+   "36": "Serre des|serre de verre",
+   "18": "Temple de la Pleine Lune",
+   "33": "chantier",
+   "56": "Dortoir",
+   "42": "Salle des choses seules",
+   "45": "maison blanche|mille fenêtres",
+   "20": "Marchand de Sommeil",
+   "21": "Axe de la Terre|Grand Puits",
+   "24": "Tamponville",
+   "38": "Tortillard|compartiment|wagon",
+   "39": "Fleuve des Dormeurs|Passeur",
+   "35-doux": "bouton rouge|baie vitrée|bureau de marbre|bureau de Platine"
+  },
+  "familles": [
+   [
+    "35-doux",
+    "35-rouge",
+    "66"
+   ]
+  ],
+  "revues": {
+   "gpa_03": "la Gazette cite l'Axe de la Terre, la scène reste au Palais",
+   "gpa_14b": "on prend l'ascenseur pour les archives, on est encore au Cadastre",
+   "pis_14": "Pistil apprend l'existence du Marchand, encore dans le rêve",
+   "pha_01": "arrivée sur les Hauts-Nuages, les pompes ne sont qu'évoquées",
+   "pnu_00": "veillée du Carrefour, le chantier n'est qu'évoqué",
+   "pnu_02": "aube au Carrefour, le bureau n'est qu'évoqué",
+   "pnc_00": "le Passeur s'arrête, on entre dans l'eau noire",
+   "pnc_00b": "premiers pas sur l'eau noire, le Passeur reste derrière",
+   "gal_adieu": "adieu sur le quai du Carrefour",
+   "gfi_01": "on regarde le Promontoire de loin, la scène est au camp",
+   "gmo_05": "on part vers le Promontoire, la scène est au crochet",
+   "gnu_10b": "longue-vue braquée sur le Promontoire depuis le phare",
+   "pcm_06": "la caisse part pour le Promontoire, la scène est au marché",
+   "pmo_01": "couloir menant au bureau, le bureau n'est pas encore atteint",
+   "pcr_05": "dans la réserve, le bureau n'est qu'évoqué",
+   "pcr_06": "dans la réserve, le bureau n'est qu'évoqué"
+  },
+  "orphelines_tolerees": [
+   "66"
+  ]
  }
 }

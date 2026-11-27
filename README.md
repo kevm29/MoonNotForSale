@@ -26,6 +26,9 @@ Hors ligne : ouvrez `docs/index.html` dans un navigateur. Le fichier est autonom
 | `pack.py` | Écrit les pages autonomes dans `docs/` (Cytoscape intégré) |
 | `docs/` | Ce que publie GitHub Pages : `index.html` (le jeu) et `carte.html` |
 | `vendor_cytoscape.min.js` | Cytoscape.js 3.28.1 (licence MIT), pour la carte hors ligne |
+| `lieux.json` | Image de lieu de chaque scène. Les histoires du Président, de Ploum et de Pistil sont « strictes » : une scène sans entrée prend l'image de son préfixe, jamais celle de la scène précédente |
+| `tools/images_check.py` | Garde-fou des images, lancé par `build.py` (bloquant) : images réservées, texte et lieu en désaccord, orphelines, provisoires ; écrit `index/images.tsv` |
+| `lieux_a_creer.md` | Prompts complets des images de lieux qui manquent (provisoires dans `lieux.json`, clé `a_creer`) |
 | `tools/` | Outils d'audit et de relecture |
 | `index/` | Index des scènes, régénéré par `tools/index.py` (voir « Trouver une scène ») |
 | `tests/` | Tests Playwright dans le navigateur |
