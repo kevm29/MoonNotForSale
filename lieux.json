@@ -705,6 +705,18 @@
    "scenes": "gpa_15, gpa_15b"
   },
   {
+   "image": "56",
+   "nom": "Le Dortoir des Voyageurs",
+   "scenes": "son_01, son_33, son_34, son_41",
+   "correction": true
+  },
+  {
+   "image": "60",
+   "nom": "Le couloir des planètes vendues",
+   "scenes": "neg_01",
+   "correction": true
+  },
+  {
    "image": "59",
    "nom": "La route de nuit vers le Carrefour",
    "scenes": "plt_hub, plt_nuit2, plt_nuit3, plt_halte, plt_route"

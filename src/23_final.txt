@@ -27,7 +27,8 @@
 * fin_15 pan10 ?comp:rocambole | Faire un signe à Rocambole | Rocambole sourit d'un sourire immense, et sort un coupe-câble de sous son chapeau. | |
 * fin_16 coe10 ?comp:echo ?flag:echo_parle | Laisser parler Écho | Écho s'avance. Elle vibre, minuscule, dans le grand bureau doré. | |
 * fin_17 coe10 ?!flag:essai_place | Proposer de prendre sa place | Tu le dis sans réfléchir. Platine te regarde, et pour la première fois, il a peur pour quelqu'un. | |
-* fin_19 pan10 ?!flag:essai_casse ?!pc:zephyrin | Tout casser | Tu attrapes le bouton rouge, le bureau de marbre, le câble, n'importe quoi. | | equ+1 comp:pli=>+flag:pli_part_fin comp:pli=>-comp:pli |
+* fin_19 pan10 ?!flag:essai_casse ?!pc:zephyrin ?!pc:pistil | Tout casser | Tu attrapes le bouton rouge, le bureau de marbre, le câble, n'importe quoi. | | equ+1 comp:pli=>+flag:pli_part_fin comp:pli=>-comp:pli |
+* fin_19 pan10 ?!flag:essai_casse ?pc:pistil ?comp:zouzou | Demander à Zouzou de tout casser | Tu montres à Zouzou le bouton rouge, le câble, la baie vitrée. Elle sourit comme sourient les comètes qui ont trop attendu. « Enfin. » | | equ+1 comp:pli=>+flag:pli_part_fin comp:pli=>-comp:pli |
 * fin_21 coe10 ?equ<30 | Regarder la mer, en bas, et comprendre | Tu regardes la Terre. Tu comprends avant que personne ne le dise. | |
 * fin_22 rus10 | Accepter le poste de concierge | Platine pousse un contrat vers toi, doucement, comme on tend un mouchoir. | |
 
@@ -161,10 +162,13 @@ Il recule. « On ne peut pas devenir une Lune. »
 
 @fin_19
 ?pc:anatole Tu fonces dans les commandes comme dans une lampe, encore et encore. Tu te cognes au bouton rouge, aux écrans, aux leviers, et tout se met à grésiller. Platine crie. Les alarmes hurlent. Les moteurs s'emballent.
-?!pc:anatole ?!pc:zephyrin Tu attrapes le bouton rouge et tu l'arraches. Tu frappes le bureau de marbre. Tu cours vers la baie vitrée, vers le câble. Platine crie. Les alarmes hurlent. Les moteurs s'emballent.
-* end_11 pan12 ?equ<30 ?!pc:anatole ?!pc:zephyrin | Arracher le câble à mains nues | Tu tires. Le câble se rompt. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
+?pc:pistil Zouzou se jette dans les commandes comme un boulet de canon. Elle arrache le bouton rouge. Elle frappe le bureau de marbre. Elle fonce vers la baie vitrée, vers le câble. Platine crie. Les alarmes hurlent. Les moteurs s'emballent. Toi, minuscule, tu regardes ce que tu as demandé, et tu ne peux plus l'arrêter.
+?!pc:anatole ?!pc:zephyrin ?!pc:pistil Tu attrapes le bouton rouge et tu l'arraches. Tu frappes le bureau de marbre. Tu cours vers la baie vitrée, vers le câble. Platine crie. Les alarmes hurlent. Les moteurs s'emballent.
+* end_11 pan12 ?equ<30 ?pc:pistil ?comp:zouzou | Demander à Zouzou d'arracher le câble | Zouzou saisit le câble dans sa queue de poussière et tire. Le câble se rompt. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
+* end_11 pan12 ?equ<30 ?!pc:anatole ?!pc:zephyrin ?!pc:pistil | Arracher le câble à mains nues | Tu tires. Le câble se rompt. Mais la Terre est trop déséquilibrée pour encaisser le choc. | |
 * fin_01 coe11 ?equ>=30 | Te reprendre au dernier moment | Tu t'arrêtes. Tu respires. Platine te regarde, choqué. « Il reste dix secondes. Faites autre chose. S'il vous plaît. » | Tu t'arrêtes, essoufflé·e. Il reste dix secondes. | +flag:essai_casse | +flag:essai_casse
-* end_11 pan11 ?equ>=30 ?!pc:anatole ?!pc:zephyrin | Tout casser quand même | Tu tires de toutes tes forces. Le câble se rompt. Et tout se rompt avec lui. | |
+* end_11 pan11 ?equ>=30 ?pc:pistil ?comp:zouzou | Laisser Zouzou tout casser quand même | Zouzou tire de toutes ses forces. Le câble se rompt. Et tout se rompt avec lui. | |
+* end_11 pan11 ?equ>=30 ?!pc:anatole ?!pc:zephyrin ?!pc:pistil | Tout casser quand même | Tu tires de toutes tes forces. Le câble se rompt. Et tout se rompt avec lui. | |
 
 @fin_20
 Tu blanchis. Tu deviens rond·e. Tu deviens léger·e, puis lumineux·se. Tu sens ton corps se transformer en poussière, en cratères, en lumière froide et douce. Ça ne fait pas mal. Ça fait comme une marée qui monte.

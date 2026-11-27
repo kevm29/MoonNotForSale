@@ -255,11 +255,11 @@ obj_grain_axe	Un grain de l'Axe	donné	pne_br3	49_pistil_encre.txt:139	réussite
 obj_grain_axe	Un grain de l'Axe	requis	pnc_c2	49_pistil_encre.txt:265	flag:obj_grain_axe
 obj_grain_axe	Un grain de l'Axe	retiré	pnc_c2	49_pistil_encre.txt:265	réussite
 obj_graine_lune	Une graine de chêne	donné	for_36	12_foret.txt:240	réussite
-obj_graine_lune	Une graine de chêne	requis	cha_15	21_chantier.txt:111	flag:obj_graine_lune
+obj_graine_lune	Une graine de chêne	requis	cha_15	21_chantier.txt:112	flag:obj_graine_lune
 obj_graine_lune	Une graine de chêne	retiré	cha_52	24_suites_v3.txt:109	réussite
 obj_graine_lune	Une graine de chêne	retiré	cha_52	24_suites_v3.txt:109	échec
 obj_herbier	L'herbier des Belles-de-Nuit	donné	ana_10	09_anatole.txt:66	arrivée
-obj_herbier	L'herbier des Belles-de-Nuit	requis	neg_16	22_negociation.txt:138	flag:obj_herbier
+obj_herbier	L'herbier des Belles-de-Nuit	requis	neg_16	22_negociation.txt:141	flag:obj_herbier
 obj_herbier	L'herbier des Belles-de-Nuit	requis	nua_18	16_nuages.txt:163	flag:obj_herbier
 obj_herbier	L'herbier des Belles-de-Nuit	requis	nui_59	19_nuit.txt:283	flag:obj_herbier
 obj_herbier	L'herbier des Belles-de-Nuit	requis	nui_59b	68_corr_anatole.txt:48	flag:obj_herbier
@@ -362,7 +362,7 @@ obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_14	17_comete.txt:113
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_15	17_comete.txt:121	flag:obj_miroir_platine
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_15	17_comete.txt:123	flag:obj_miroir_platine
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	com_19	17_comete.txt:152	flag:obj_miroir_platine
-obj_miroir_platine	Le miroir d'enfant de Platine	requis	neg_16	22_negociation.txt:135	flag:obj_miroir_platine
+obj_miroir_platine	Le miroir d'enfant de Platine	requis	neg_16	22_negociation.txt:138	flag:obj_miroir_platine
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	neg_42	24_suites_v3.txt:137	flag:obj_miroir_platine
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	nui_48	19_nuit.txt:190	flag:obj_miroir_platine
 obj_miroir_platine	Le miroir d'enfant de Platine	requis	nui_49	19_nuit.txt:198	flag:obj_miroir_platine
